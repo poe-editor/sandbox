@@ -1,6 +1,5 @@
 {
-    "aboutUs": "This is US",
-    "leoncito": "This is US",
+    "aboutUs": "This is US2",
     "products": "Products",
     "economics": "Economics",
     "roadmapNew": "Roadmap",
@@ -44,7 +43,8 @@
         "expSIzeDisclaimer01": "Your experience size is",
         "expSIzeDisclaimer02": "You should link",
         "insertId": "Insert the IDs of the Lands separated with commas.",
-        "save": "Save"
+        "save": "Save",
+        "unpublish": ""
     },
     "sandPage": {
         "aboutUs": {
@@ -464,12 +464,104 @@
         },
         "index": {
             "title": "Create your Own experience",
-            "description": "Turn your idea into a game"
+            "description": "Turn your idea into a game",
+            "subdescription": ""
         },
         "gamemaker": {
             "discover": "Discover the Metaverse",
             "metaverse": "Join The Sandbox metaverse to play and create games you can share and earn with!",
             "release": "This release is in alpha"
+        },
+        "gameMaker": {
+            "download": "",
+            "galleryVideo": "",
+            "features": {
+                "play": {
+                    "title": "",
+                    "text": ""
+                },
+                "create": {
+                    "title": "",
+                    "text": ""
+                },
+                "social": {
+                    "title": "",
+                    "text": ""
+                }
+            },
+            "articles": {
+                "title": "",
+                "1": {
+                    "title": "",
+                    "description": ""
+                },
+                "2": {
+                    "title": "",
+                    "description": ""
+                },
+                "3": {
+                    "title": "",
+                    "description": ""
+                },
+                "4": {
+                    "title": "",
+                    "description": ""
+                }
+            },
+            "createdWithTsb": {
+                "title": ""
+            }
+        },
+        "avatar": {
+            "title": "",
+            "description": "",
+            "button": "",
+            "section1": {
+                "title1": "",
+                "description1": "",
+                "title2": "",
+                "description2": "",
+                "title3": "",
+                "description3": ""
+            },
+            "section2": {
+                "title": "",
+                "description1": "",
+                "description2": "",
+                "button": ""
+            },
+            "section3": {
+                "title": "",
+                "description": "",
+                "sticker": "",
+                "description1": ""
+            },
+            "section4": {
+                "title": "",
+                "description1": "",
+                "description2": "",
+                "button": ""
+            },
+            "section5": {
+                "title": "",
+                "subtitle": "",
+                "part1": {
+                    "title": "",
+                    "description1": "",
+                    "description2": "",
+                    "button": ""
+                },
+                "part2": {
+                    "title": "",
+                    "description": "",
+                    "link": ""
+                }
+            },
+            "section6": {
+                "title": "",
+                "description": "",
+                "button": ""
+            }
         }
     },
     "rarities": {
@@ -481,7 +573,8 @@
     },
     "whitelist": {
         "add": "立即加入",
-        "participate": "参与我们独家的早期代币发售"
+        "participate": "参与我们独家的早期代币发售",
+        "experiences": ""
     },
     "auction": {
         "info": "Auction Info",
@@ -977,7 +1070,13 @@
             "item02": "资产需要游戏机制所需的必要属性。",
             "item03": "创作者可以修改游戏机制所需的属性。"
         },
-        "finalDisclaimer": "该系统保证了创作者（允许他们随意修改游戏）和玩家（发放或多或少的奖励、不限制游戏访问权限）的灵活性。"
+        "finalDisclaimer": "该系统保证了创作者（允许他们随意修改游戏）和玩家（发放或多或少的奖励、不限制游戏访问权限）的灵活性。",
+        "claim": {
+            "claim-asset": "",
+            "claiming-asset": "",
+            "already-claimed": "",
+            "read-more": ""
+        }
     },
     "assetUpload": {
         "assetModelOBJ": "资产模型OBJ（压缩.7z压缩，.zip文件，.rar程序）",
@@ -1917,6 +2016,11 @@
             "walletDownloadMsg": "去取得加密钱包",
             "walletDownloadMsgLink": "点击这里！",
             "youCanAlsoLoginWithYourWallet": "点击下方以使用您的钱包登入"
+        },
+        "claimAssets": {
+            "title": "",
+            "desc": "",
+            "claim-action": ""
         }
     },
     "catGemShop": {
@@ -2002,7 +2106,9 @@
             "paragraph": "Combine different faces, shirts, pants and shoes and create your unique style!",
             "button": "Create my Avatar"
         },
-        "loader": "Loading..."
+        "loader": "Loading...",
+        "randomize": "",
+        "reset": ""
     },
     "profile": {
         "land": "land",
@@ -2113,6 +2219,24 @@
         },
         "partners": {
             "title": "伙伴"
+        },
+        "experiencesTitle": "",
+        "modules": {
+            "first": {
+                "title": "",
+                "paragraph1": "",
+                "button": ""
+            },
+            "second": {
+                "title": "",
+                "paragraph1": "",
+                "button": ""
+            },
+            "third": {
+                "title": "",
+                "paragraph1": "",
+                "button": ""
+            }
         }
     },
     "presale": {
@@ -2335,5 +2459,93 @@
         "text43": "10. How to contact us You can contact us with any questions you may have about the processing of your personal data or the use of cookies and similar technologies by us, or to exercise the above rights: Web: http://www.sandbox.game",
         "text44": "Address: WB Corporate Services (Cayman) Ltd., P.O. Box 2775, Artemis House, 67 Fort Street, Grand Cayman, KY1-1111, Cayman Islands Mail: privacy@sandbox.game",
         "text45": "11. Version information: We last updated this notice on August 28, 2020. You can view it at"
-    }
+    },
+    "sections": {
+        "general": {
+            "theSandbox": "",
+            "preRegister": ""
+        },
+        "home": {
+            "banner": {
+                "supTitle": "",
+                "info": ""
+            },
+            "experiencesGallery": {
+                "title": ""
+            },
+            "nftModule": {
+                "title": "",
+                "paragraph1": "",
+                "button": ""
+            },
+            "landModule": {
+                "title": "",
+                "paragraph1": "",
+                "button": ""
+            },
+            "sandModule": {
+                "title": "",
+                "paragraph1": "",
+                "button": ""
+            }
+        },
+        "create": {
+            "header": {
+                "gameMaker": {
+                    "description": "",
+                    "subdescription": "",
+                    "button": ""
+                },
+                "voxEdit": {
+                    "title": "",
+                    "versionTitle": "",
+                    "description": "",
+                    "button": ""
+                },
+                "avatar": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                }
+            },
+            "downloadModal": {
+                "gameMaker": {
+                    "getGameMaker": "",
+                    "downloadGameMaker": "",
+                    "getClient": "",
+                    "downloadClient": "",
+                    "comingSoon": ""
+                },
+                "voxEdit": {
+                    "title": "",
+                    "versionTitle": "",
+                    "downloadVoxEdit": ""
+                }
+            },
+            "gameMakerPage": {
+                "title": "",
+                "description": "",
+                "button": "",
+                "playContent": {
+                    "features": {
+                        "play": {
+                            "title": "",
+                            "text": ""
+                        },
+                        "create": {
+                            "title": "",
+                            "text": ""
+                        },
+                        "social": {
+                            "title": "",
+                            "text": ""
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "THISISNOTAKEY": "",
+    "preRegister": "",
+    "leoncito": ""
 }
