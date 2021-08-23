@@ -1,2551 +1,1071 @@
 {
-    "aboutUs": "",
-    "products": "",
-    "economics": "",
-    "roadmapNew": "",
-    "afterDownload": {
-        "thanks": "",
-        "step1": "",
-        "step2": "",
-        "step3": ""
-    },
-    "newPlay": {
-        "discoverHub": "",
-        "buyLand": "",
-        "welcome": "",
-        "earn": "",
-        "daily": "",
-        "achivements": "",
-        "artifacts": "",
-        "coming": ""
-    },
-    "experiencePage": {
-        "goBack": "",
-        "editExperience": "",
-        "edit": "",
-        "play": "",
-        "summary": "",
-        "tags": "",
-        "published": "",
-        "lastUpdate": "",
-        "gameVersion": "",
-        "experienceSize": "",
-        "assetsIncluded": "",
-        "recommended": "",
-        "publish": "",
-        "experience": "",
-        "portrait": "",
-        "acceptedFormat": "",
-        "banner": "",
-        "coverImage": "",
-        "experienceMulti": "",
-        "landLinks": "",
-        "expSIzeDisclaimer01": "",
-        "expSIzeDisclaimer02": "",
-        "insertId": "",
-        "save": "",
-        "unpublish": ""
-    },
-    "sandPage": {
-        "aboutUs": {
-            "theSandbox": "",
-            "theSandboxDescription": "",
-            "sand": "",
-            "sandDescription": "",
-            "title1": "",
-            "title2": "",
-            "title3": "",
-            "paragraph1": "",
-            "paragraph2": "",
-            "paragraph3": "",
-            "paragraph4": "",
-            "paragraph5": "",
-            "paragraph6": "",
-            "paragraph7": "",
-            "paragraph8": "",
-            "subtitle1": "",
-            "list1": {
-                "title1": "",
-                "title2": "",
-                "title3": "",
-                "text1": "",
-                "text2": "",
-                "text3": ""
-            },
-            "list2": {
-                "text1": "",
-                "text2": "",
-                "text3": "",
-                "text4": "",
-                "text5": "",
-                "text6": ""
-            },
-            "list3": {
-                "description1": "",
-                "description2": "",
-                "description3": ""
-            }
+    "common": {
+        "sandbox": "The Sandbox",
+        "$sand": "$SAND",
+        "sand": "SAND",
+        "land": "land",
+        "location": "location",
+        "size": "size",
+        "parcel": "parcels",
+        "estate": "estate",
+        "unique": "unique",
+        "back": "back",
+        "new": "New",
+        "save": "Save",
+        "email": "Email",
+        "nickname": "Nickname",
+        "price": "Price",
+        "catalyst": {
+            "title": "Catalyst",
+            "legendary": "legendary",
+            "epic": "epic",
+            "rare": "rare",
+            "common": "common",
+            "none": "None"
         },
-        "products": {
-            "title1": "",
-            "title2": "",
-            "subtitle1": "",
-            "subtitle2": "",
-            "subtitle3": "",
-            "paragraph1": "",
-            "paragraph2": "",
-            "paragraph3": "",
-            "paragraph4": "",
-            "paragraph5": "",
-            "paragraph6": "",
-            "paragraph7": "",
-            "paragraph8": ""
-        },
-        "economics": {
-            "viewCharts": "",
-            "title1": "",
-            "title2": "",
-            "subtitle1": "",
-            "subtitle2": "",
-            "subtitle3": "",
-            "paragraph1": "",
-            "paragraph2": "",
-            "list1": {
-                "label1": "",
-                "label2": "",
-                "label3": "",
-                "label4": "",
-                "label5": "",
-                "label6": "",
-                "label7": "",
-                "value1": "",
-                "value2": "",
-                "value3": "",
-                "value4": "",
-                "value5": "",
-                "value6": "",
-                "value7": ""
-            },
-            "list2": {
-                "label1": "",
-                "label2": "",
-                "label3": "",
-                "label4": "",
-                "label5": "",
-                "label6": "",
-                "label7": ""
-            },
-            "list3": {
-                "title1": "",
-                "title2": "",
-                "title3": "",
-                "text1": "",
-                "text2": "",
-                "text3": ""
-            }
-        },
-        "roadmap": {
-            "title1": "",
-            "title2": "",
-            "subtitle1": "",
-            "subtitle2": "",
-            "header1": "",
-            "header2": "",
-            "header3": "",
-            "header4": "",
-            "header5": ""
-        }
-    },
-    "GoToHome": "",
-    "chipNew": "",
-    "premium": "",
-    "howToEditEstate": "",
-    "readAboutPremium": "",
-    "assetsIncludes": "",
-    "presaleToast": {
-        "button": "",
-        "presale4": "",
-        "presale5": "",
-        "presale6": "",
-        "presale7": "",
-        "presale8": "",
-        "presale9": "",
-        "presale10": ""
-    },
-    "landPresale": "",
-    "fluid": "",
-    "transparency": "",
-    "tokenEc": "",
-    "support": {
-        "title": "",
-        "marketplace": "",
-        "voxedit": "",
-        "gamemaker": ""
-    },
-    "mapLoader": {
-        "text1": "",
-        "text2": "",
-        "text3": "",
-        "text4": "",
-        "text5": "",
-        "text6": "",
-        "text7": "",
-        "text8": "",
-        "text9": "",
-        "text10": "",
-        "text11": "",
-        "text12": ""
-    },
-    "addedDisclaimer": "",
-    "userSetted": "",
-    "replay": "",
-    "helpAlone": "",
-    "landOwnerOnboarding": {
-        "title1": "",
-        "text1": "",
-        "continue": "",
-        "title2": "",
-        "errorUsername1": "",
-        "errorUsername2": "",
-        "errorUsername3": "",
-        "confirmPass": "",
-        "title3": "",
-        "text3": ""
-    },
-    "editAsset": {
-        "editAsset": "",
-        "warning": "",
-        "warningMessage": "",
-        "yes": "",
-        "no": ""
-    },
-    "gems": {
-        "power": "",
-        "defense": "",
-        "magic": "",
-        "speed": "",
-        "luck": "",
-        "propertyName": {
-            "power": "",
-            "defense": "",
-            "magic": "",
-            "speed": "",
-            "luck": ""
-        }
-    },
-    "uploadSteps": {
-        "continue": "",
-        "stepName": {
-            "name": "",
-            "description": "",
-            "nameAndDescription": "",
-            "minError": "",
-            "requiredError": "",
-            "animationDefault": "",
-            "fluidRequiredError": "",
-            "transparenciRequiredError": ""
-        },
-        "stepAttributes": {
-            "availableCopies": "",
-            "results": "",
-            "assetBehaviorReq": "",
-            "fieldRequired": "",
-            "dragAndDrop": ""
-        },
-        "stepCategories": {
-            "themeRequired": "",
-            "chooseOne": "",
-            "requiredError1": "",
-            "requiredError2": "",
-            "title": ""
-        },
-        "stepSummary": {
-            "categories": "",
-            "themes": "",
-            "send": ""
-        }
-    },
-    "onboarding": {
         "gems": {
-            "step1": "",
-            "step2": "",
-            "step3": "",
-            "step4": "",
-            "step5": "",
-            "step6": "",
-            "step7": "",
-            "step8": "",
-            "step9": "",
-            "step10": "",
-            "step11": "",
-            "step12": ""
+            "title": "Gems",
+            "power": "power",
+            "defense": "defense",
+            "speed": "speed",
+            "magic": "magic",
+            "luck": "luck"
         },
-        "minting": {
-            "1": {
-                "title": "",
-                "description": "",
-                "link-content": ""
+        "tax": "fee",
+        "duration": "Duration",
+        "day": "day",
+        "days": "days",
+        "hours": "hours",
+        "minutes": "minutes",
+        "seconds": "seconds",
+        "referred": "referred",
+        "3d": {
+            "preview": "Preview",
+            "view": "View 3D",
+            "idle": "Idle",
+            "deathPose": "Death pose",
+            "eat": "Eat",
+            "fly": "Flying",
+            "take": "Take off",
+            "glide": "Glide",
+            "death": "Death",
+            "fall": "Falling",
+            "hit": "Get hit",
+            "taunt": "Taunt",
+            "attack": "Attack",
+            "landing": "Landing",
+            "skyAttack": "Sky attack",
+            "idleFly": "Idle flying",
+            "walk": "Walk"
+        },
+        "gameExperiences": {
+            "title": "Game Experiences",
+            "cards": {
+                "1": {
+                    "title": "Hack the tao",
+                    "description": "Hack the Tao is the first art game experience designed by the Italian artist duo, Hackatao, for The Sandbox Game"
+                },
+                "2": {
+                    "title": "Shinytures: Finding The Lost Creatures",
+                    "description": "Shinytures: Finding The Lost Creatures it’s an adventure where you can get mesmerized by accomplishing the missions you are giving as a member of the spatial organization."
+                },
+                "3": {
+                    "title": "Viking Fjord",
+                    "description": "Enter into the Vikings atmosphere as a real explorer. Our players have been traveling back in time to experience Fjord´s life."
+                },
+                "4": {
+                    "title": "Dethrone",
+                    "description": "Dethrone is a fantasy RPG adventure game where the player’s mission is to restore order in the region by completing missions given by the mysterious sovereign."
+                },
+                "5": {
+                    "title": "Mushroom Mania",
+                    "description": "Mushroom Mania is a collect-a-thon platformer set in an oversized fantasy mushroom world."
+                },
+                "6": {
+                    "title": "Tombs of Treasures",
+                    "description": "Tombs of Treasures is an action platform-adventure walking simulator. In the game, the adventurer Liu Fogel arrives in the jungle to find the treasures."
+                },
+                "7": {
+                    "title": "Sweet village",
+                    "description": "This is Rex. Many legends were told by ancient yummy bears but certainly, nobody could answer how Rex got into this candy world. Who knows, maybe he ate too many candies and showed up here."
+                },
+                "8": {
+                    "title": "3D Print your life",
+                    "description": "Have you ever tried a 3D printer? Based on the CNC concept (Computer Numerical Control) a 3D printer helps you to build solid objects. 3D printing has been around for several years but only in more recent years has it become more accessible for everyday people."
+                }
             },
-            "2": {
-                "title": "",
-                "description": ""
+            "buttonText": "Pre-Register"
+        },
+        "articles": {
+            "title": "Articles that may interest you\n",
+            "link": "See the latest news !"
+        },
+        "roadmapTitle": "Roadmap",
+        "yes": "Yes",
+        "no": "No",
+        "seeMore": "See more",
+        "website": "Website",
+        "congratulations": "Congratulations",
+        "finish": "Finish",
+        "shareIn": "Share in",
+        "ok": "OK",
+        "continue": "Continue",
+        "cancel": "Cancel",
+        "buy": "buy",
+        "sell": "sell",
+        "amountTo": "Amount to",
+        "copies": "copies",
+        "premium": "Premium",
+        "publish": "Publish",
+        "published": "Published",
+        "unpublished": "Unpublished"
+    },
+    "layout": {
+        "topbar": {
+            "signin": "Sign In",
+            "buy": {
+                "title": "Buy now!",
+                "cards": {
+                    "binance": "Buy SAND on Binance",
+                    "uniswap": "Buy SAND on Uniswap",
+                    "simplex": "Buy SAND on Simplex"
+                },
+                "values": {
+                    "binance": "Binance",
+                    "uniswap": "Uniswap",
+                    "simplex": "Simplex"
+                },
+                "how": "How to buy SAND",
+                "about": "ETH will be used to pay the necessary amount of Gas, it will affect the price depending on the transaction speed.",
+                "buy": "Buy ETH on",
+                "out": "Out of $SAND",
+                "requiredAmount1": "You need",
+                "requiredAmount2": "to complete the transaction"
             }
-        }
-    },
-    "uploadLand": {
-        "uploadLandName": "",
-        "uploadLandDescription": ""
-    },
-    "device": {
-        "sorry": "",
-        "incompatible": "",
-        "tryInDesktop": ""
-    },
-    "legend": {
-        "available": "",
-        "notAvailable": "",
-        "purchased": "",
-        "myLands": "",
-        "unavailable": "",
-        "booked": "",
-        "premium": ""
-    },
-    "editLand": {
-        "title": "",
-        "name": "",
-        "description": "",
-        "uploadInfo": "",
-        "errors": {
-            "logo": "",
-            "preview": "",
-            "size": ""
-        }
-    },
-    "editEstate": {
-        "title": "",
-        "titleLand": "",
-        "url": "",
-        "logo": "",
-        "preview": "",
-        "editName": "",
-        "editDescription": "",
-        "editUrl": "",
-        "uploadLogo": "",
-        "uploadPreview": "",
-        "DeletePreview": "",
-        "logoDisclaimer": "",
-        "previewDisclaimer": "",
-        "3PreviewsDisclaimer": "",
-        "errors": {
-            "logo": "",
-            "preview": "",
-            "size": ""
-        }
-    },
-    "success": {
-        "continue": "",
-        "start": "",
-        "step1": {
-            "title": "",
-            "description": ""
         },
-        "step2": {
-            "title": "",
-            "description": "",
-            "buy": ""
+        "sidebar": {
+            "home": "Home",
+            "play": "Play",
+            "shop": "Market",
+            "create": "Create",
+            "map": "Map",
+            "about": "About",
+            "mod": "Mod",
+            "admin": "Admin",
+            "user": "Me"
         },
-        "step3": {
-            "title": "",
-            "description": "",
-            "buy": ""
+        "footer": {
+            "community": {
+                "title": "Join our community",
+                "description1": "Be part of our amazing community and stay",
+                "description2": "tuned for the news.",
+                "buttonText": "Join Us"
+            },
+            "pages": {
+                "title": "Pages",
+                "news": "News",
+                "create": "Create",
+                "market": "Market",
+                "play": "Play",
+                "whitepaper": "Whitepaper",
+                "faq": "FAQ",
+                "map": " Map",
+                "sand": "Sand",
+                "press": "Press",
+                "terms": "Terms of use",
+                "onepager": "One Pager"
+            },
+            "social": "Social",
+            "copyright": "Copyright ©",
+            "rights": "All Rights Reserved"
+        },
+        "createAvatarModal": {
+            "title": "Get your very own LAND NFT",
+            "description": "Head over to OpenSea and discover a wide range of LANDs and NFTs for sale.",
+            "buttonText": "Buy Land",
+            "notAgain": "Don't show me this again"
         }
     },
-    "themes": {
-        "title": "",
-        "medieval": "",
-        "sci-fi": "",
-        "pirates": "",
-        "fantasy": "",
-        "horror": "",
-        "realistic": "",
-        "retro": "",
-        "nature": "",
-        "city": "",
-        "magic": "",
-        "rural": ""
-    },
-    "OnboardingMap": {
-        "subtitle": "",
-        "title": "",
-        "slide01": "",
-        "slide02": "",
-        "slide03": "",
-        "button": "",
-        "buyLandNow": ""
-    },
-    "onSale": {
-        "readText": "",
-        "readIt": "",
-        "welcome": "",
-        "presale": "",
-        "text": "",
-        "counterTitleNextPresale": "",
-        "counterTitleStartsIn": "",
-        "counterTitleFinishesIn": "",
-        "leftTitle": "",
-        "leftText": ""
-    },
-    "galleryVideo": "",
-    "getYourLand": "",
-    "tksRegisteringWallet": "",
-    "fillUp": "",
-    "guide": "",
-    "help": "",
-    "whitelistSignup": {
-        "message": ""
+    "home": {
+        "header": {
+            "title": "Welcome to",
+            "description": "Play, Create, Own, and Govern a virtual world made by players\n",
+            "preseason": "Discover our very first season",
+            "buttonText": "Pre-Register",
+            "discover": "Discover",
+            "howToJoin": "How do I join it?",
+            "buyLand": "Buy Land"
+        },
+        "discover": {
+            "title": "Discover The Sandbox",
+            "description": "The Sandbox is a virtual world where players can play, build, own, and monetize their virtual experiences. We empower artists, creators, and players to build the platform they always envisioned, providing the means to unleash your creativity.",
+            "buttonText": "Pre-Register"
+        },
+        "nft": {
+            "title": "NFTs",
+            "description": "Non-Fungible Tokens (NFTs) are virtual tokens minted on the blockchain for digital scarcity, security, and authenticity. They are unique, indivisible, and non-interchangeable - allowing true digital ownership of in-game assets.",
+            "buttonText": "Buy Assets"
+        },
+        "land": {
+            "title": "CREATE IN YOUR OWN LAND",
+            "description": "Non-Fungible Tokens (NFTs) are virtual tokens minted on the blockchain for digital scarcity, security, and authenticity. They are unique, indivisible, and non-interchangeable - allowing true digital ownership of in-game assets.",
+            "buttonText": "Buy Lands",
+            "discoverMap": "Discover The Map"
+        },
+        "sand": {
+            "title": "Why SAND ?",
+            "description": "$SAND is our main utility token that allows you to buy and sell LANDS and ASSETS in The Sandbox metaverse.",
+            "buttonText": "Buy "
+        }
     },
     "shop": {
-        "title": "",
-        "subtitle": "",
-        "noResults": "",
-        "back": "",
-        "opensea": {
-            "title": "",
-            "order": "",
-            "landsForSale": "",
-            "assetsForSale": "",
-            "retry": ""
+        "shopTitle": "Shop",
+        "onSale": "On sale",
+        "title": "Welcome to the NFT Marketplace",
+        "subtitle": "Here you can search and buy creator's ASSETS with SAND to incorporate them into your LAND",
+        "fluid": "Fluid",
+        "transparency": "Transparency",
+        "search": "Search",
+        "attributesTitle": "Attributes",
+        "nftTypes": {
+            "title": "NFT Type",
+            "all": "All",
+            "land": "Lands",
+            "entity": "Entities",
+            "equipment": "Equipment",
+            "wearable": "Wearable",
+            "art": "Art"
+        },
+        "rarities": {
+            "title": "Catalyst",
+            "legendary": "legendary",
+            "epic": "epic",
+            "rare": "rare",
+            "common": "common",
+            "none": "None"
+        },
+        "attributes": {
+            "title": "Gems",
+            "power": "power",
+            "defense": "defense",
+            "speed": "speed",
+            "magic": "magic",
+            "luck": "luck"
+        },
+        "behaviours": {
+            "title": "Behaviours",
+            "allyFighter": "Ally Fighter",
+            "animatedDecoration": "Animated decoration",
+            "assetSpawner": "Asset spawner",
+            "avatar": "Avatar",
+            "basicPlatform": "Basic platform",
+            "bird": "Bird",
+            "button": "Button",
+            "citizen": "Citizen",
+            "door": "Door",
+            "enemyFighter": "Enemy fighter",
+            "farmer": "Farmer",
+            "groundPredator": "Ground predator",
+            "groundProtector": "Ground protector",
+            "groundPrey": "Ground prey",
+            "healer": "Healer",
+            "messageBroadcaster": "Message broadcaster",
+            "replaceAsset": "Replace asset",
+            "void": "Void",
+            "multi": "Multi",
+            "plant": "Plant",
+            "question": "Questio"
+        },
+        "slots": {
+            "title": "Slots",
+            "head": "Head",
+            "torso": "Torso",
+            "legs": "Legs",
+            "feet": "Feet"
+        },
+        "themes": {
+            "title": "Biomes",
+            "city": "City",
+            "fantasy": "Fantasy",
+            "heroes": "Heroes",
+            "horror": "Horror",
+            "magic": "Magic",
+            "medieval": "Medieval",
+            "nature": "Nature",
+            "none": "NONE",
+            "pirates": "Pirates",
+            "realistic": "Realistic",
+            "retro": "Retro",
+            "rural": "Rural",
+            "sci-fi": "Sci-Fi",
+            "oracles": "Oracles",
+            "scientists": "Scientists",
+            "theSandbox": "The Sandbox"
+        },
+        "categories": {
+            "title": "Tags",
+            "animal": "Animal",
+            "building": "Building",
+            "city": "City",
+            "decoration": "Decoration",
+            "electric": "Electric",
+            "fantasy": "Fantasy",
+            "furniture": "Furniture",
+            "hazard": "Hazard",
+            "horror": "Horror",
+            "humanoid": "Humanoid",
+            "machine": "Machine",
+            "magic": "Magic",
+            "medieval": "Medieval",
+            "metal": "Metal",
+            "monster": "Monster",
+            "nature": "Nature",
+            "pirates": "Pirates",
+            "plant": "Plant",
+            "retro": "Retro",
+            "rural": "Rural",
+            "sci-fi": "Sci-Fi",
+            "sports": "Sports",
+            "stone": "Stone",
+            "technology": "Technology",
+            "terrain": "Terrain",
+            "tool": "Tool",
+            "vehicle": "Vehicle",
+            "weapon": "Weapon",
+            "wood": "Wood"
+        },
+        "coordinates": {
+            "title": "Coordinates",
+            "first": "First land",
+            "last": "Last land"
+        },
+        "filters": {
+            "all": "All",
+            "sale": "For sale",
+            "notSale": "Not for sale"
+        },
+        "sorts": {
+            "title": "Sort by",
+            "newest": "Newest",
+            "oldest": "Oldest",
+            "lowerPrice": "Lower price",
+            "highPrice": "Highest price",
+            "leastAmount": "Least amount",
+            "highAmount": "High amount"
+        },
+        "enties": "NFTs entities",
+        "land": "NFTs land on Opensea",
+        "results": "results",
+        "price": {
+            "current": "Current price",
+            "by": "By",
+            "buttonText": "Buy now"
+        },
+        "token": "Token ID",
+        "minted": "minted",
+        "sale": "for sale",
+        "owner": "owner",
+        "owners": "owners",
+        "description": "Description",
+        "allSales": "All sales",
+        "share": {
+            "text": "Share in",
+            "creator": "Creator",
+            "nft": "NFT from creator",
+            "more": "See more"
+        },
+        "creator": {
+            "title": "Creator",
+            "nft": "NFT from creator",
+            "more": "See more"
+        },
+        "create": {
+            "title": "Creating an Asset",
+            "text1": "When a creator designs an asset, he has to distribute points amongst the chosen attributes.",
+            "text2": "A creator can change the amount of the attributes while create an asset.",
+            "text3": "When a Game Maker update is released, new machanics can use existing attributes or new ones released with the update",
+            "cards": {
+                "player": {
+                    "title": "Player side",
+                    "values": {
+                        "1": "Attributes give bonuses within a game",
+                        "2": "Not having an attribute does not prevent from playing",
+                        "3": "Games display used attributes in their description"
+                    }
+                },
+                "creator": {
+                    "title": "Creator side",
+                    "values": {
+                        "1": "Game mechanics come with attributes presets",
+                        "2": "Assets need the required attributes to be used with a game mechanism",
+                        "3": "Creators can modify the attributes required by a game mechanic"
+                    }
+                }
+            },
+            "text4": "This system remains flexible both for creators (allows them to tweak their game at will) and for players (not restricting game access, but giving more or less bonuses)."
+        },
+        "buy": {
+            "asset": "Asset to buy",
+            "amount": "Amount to buy",
+            "copies": "Copies",
+            "price": "Price",
+            "buttonText": "Continue"
         }
     },
     "create": {
-        "mainTitle": "",
-        "versionTitle": "",
-        "description": "",
-        "features": {
-            "title": "",
-            "modeler": {
-                "title": "",
-                "text": ""
-            },
-            "animator": {
-                "title": "",
-                "text": ""
-            },
-            "blockEditor": {
-                "title": "",
-                "text": ""
-            }
-        },
-        "quotes": {
-            "title": "",
-            "authrole": "",
-            "text1": "",
-            "text2": "",
-            "text3": "",
-            "text4": ""
-        },
-        "howToUpload": {
-            "title": ""
-        },
-        "step01": {
-            "title": "",
-            "text": ""
-        },
-        "step02": {
-            "title": "",
-            "text": ""
-        },
-        "step03": {
-            "title": "",
-            "text": ""
-        },
-        "changelog": {
-            "title": ""
-        },
-        "index": {
-            "title": "",
-            "description": "",
-            "subdescription": ""
+        "menu": {
+            "gameMaker": "Game Maker",
+            "voxedit": "VoxEdit",
+            "avatar": "Avatar"
         },
         "gamemaker": {
-            "discover": "",
-            "metaverse": "",
-            "release": ""
+            "header": {
+                "title": "Craft your game. Coding not required",
+                "description": "The toolbox you need for your imagination to come to life",
+                "buttonText": "Download"
+            },
+            "metaverse": {
+                "title": "Building games for the Metaverse",
+                "description": "Anyone can build 3D games for free. No coding required. Contribute to a vast metaverse, filled with amazing creations and experiences.",
+                "buttonText": "Download"
+            },
+            "play": {
+                "title": "Play-to-Earn",
+                "description": "Free-to-play is so 2010… With The Sandbox, you will be able to monetize the games you create! Play-to-Earn is unlocked through our rewarding model for players and creators, who will have strong incentives to play and create with rewards that have real-world value.",
+                "listTitle": "How to earn in The Sandbox ?",
+                "earn": [
+                    "Play GAMES, earn rewards",
+                    "Build GAMES, monetize them",
+                    "Create ASSETS, market them"
+                ]
+            },
+            "videos": "Gallery Videos",
+            "requirementsTitle": "System requirements",
+            "changelog": "Changelog",
+            "gameExperiences": "Games built with The Sandbox",
+            "download": {
+                "title": "Download Game Maker"
+            },
+            "end": {
+                "text": "Launch the game and start making experiences placing any of your ASSETS!",
+                "buttonText": "Pre-Register Now !"
+            }
         },
-        "gameMaker": {
-            "download": "",
-            "galleryVideo": "",
+        "voxedit": {
+            "header": {
+                "title": "VoxEdit - NFT Creator",
+                "description": "The leading software that allows you to create, rig, and animate your own voxel-based NFTs. Sell them on The Sandbox's marketplace and discover a new world."
+            },
+            "models": {
+                "title": "Create your own Vox Models",
+                "cards": [
+                    "In order to upload your models, you need to become an artist through our Creator Fund.",
+                    "VoxEdit is the only software capable of exporting assets to our Marketplace. Download VoxEdit and start creating.",
+                    "Once you finished your model you can export it to the Marketplace following these simple steps."
+                ],
+                "link": "Learn more",
+                "buttonText": "Download VoxEdit"
+            },
             "features": {
-                "play": {
-                    "title": "",
-                    "text": ""
-                },
-                "create": {
-                    "title": "",
-                    "text": ""
-                },
-                "social": {
-                    "title": "",
-                    "text": ""
-                }
+                "title": "VoxEdit features"
             },
-            "articles": {
-                "title": "",
-                "1": {
-                    "title": "",
-                    "description": ""
-                },
-                "2": {
-                    "title": "",
-                    "description": ""
-                },
-                "3": {
-                    "title": "",
-                    "description": ""
-                },
-                "4": {
-                    "title": "",
-                    "description": ""
-                }
+            "artists": {
+                "title": "What our Artists are creating"
             },
-            "createdWithTsb": {
-                "title": ""
+            "quotes": {
+                "title": "Quotes from voxel artists"
+            },
+            "changelog": "Changelog",
+            "play": {
+                "title": "Play by the Rules!",
+                "text1": "The default size is 32*32*32, which is translated to a Meter (3,2 f) on The Sandbox Universe.",
+                "text2": "32x32x32 is the maximum detail available to make inside a cubic meter. An avatar will be about 2 blocks in height (64 Voxels).",
+                "text3": "VoxEdit comes with a lot of templates to help you get started with your creations, however, please take a look at our technical guidelines to make sure your assets will work in the best way in the Game maker.",
+                "buttonText": "Technical Specs"
+            },
+            "funding": {
+                "title": "Introducing the $2 millon Creator fund",
+                "subtitle": "WE WANT TO HELP YOU CREATE, SHARE AND SELL YOUR AMAZING VOXEL CREATIONS ON OUR PLATFORM",
+                "how": {
+                    "title": "Here's how it works",
+                    "cards": [
+                        "First, you'll sign up so we can evaluate your work, as we want to encourage the best voxel ASSETS",
+                        "Get paid for each asset you make AND get 100% of profits from each of your sales!",
+                        "Overall goal for the fund is to generate 10,000 voxel ASSETS for the game",
+                        "In addition to the grant, you'll be able to sell your creations to players when The Sandbox launches"
+                    ]
+                },
+                "text": "The program is limited to the first 1,000 artists accepted, so sign up today for a chance to enjoy the benefits!",
+                "buttonText": "Known More"
+            },
+            "download": {
+                "title": "Download VoxEdit"
             }
         },
         "avatar": {
-            "title": "",
-            "description": "",
-            "button": "",
+            "header": {
+                "title": "The Sandbox Avatar",
+                "description": "Customize your look, boost it with equipment and get ready to play with your friends in The Sandbox metaverse.",
+                "buttonText": "Create Avatar"
+            },
             "section1": {
-                "title1": "",
-                "description1": "",
-                "title2": "",
-                "description2": "",
-                "title3": "",
-                "description3": ""
+                "1": {
+                    "title": "Create your style",
+                    "description": "Quickly combine different outfits, hairstyles and colors to get a unique look."
+                },
+                "2": {
+                    "title": "Get Social",
+                    "description": "Meet with friends and socialize with thousands of players in The Sandbox virtual world."
+                },
+                "3": {
+                    "title": "Equip your avatar and Play",
+                    "description": "Boost your attributes with equipment and get ready to play."
+                }
             },
             "section2": {
-                "title": "",
-                "description1": "",
-                "description2": "",
-                "button": ""
+                "title": "Select an avatar",
+                "subtitle": "Find your own style to stand out from the crowd",
+                "description": "Get started easily with a predesigned avatar. Choose between more than 20 models designed by our best artists and join The Sandbox metaverse !",
+                "buttonText": "Create yout avatar"
             },
             "section3": {
-                "title": "",
-                "description": "",
-                "sticker": "",
-                "description1": ""
+                "comingSoon": "Coming soon",
+                "title": "Customize your Avatar",
+                "description": "Quickly combine different outfits, hairstyles and colors to create a unique style"
             },
             "section4": {
-                "title": "",
-                "description1": "",
-                "description2": "",
-                "button": ""
+                "title": "Socialize into the virtual world",
+                "description1": "Meet and interact with thousands of users with different styles. Explore, discover and play with them in the virtual lands of The Sandbox.",
+                "description2": "Become who you truly are: the possibilities are endless.",
+                "buttonText": "Download"
             },
             "section5": {
-                "title": "",
-                "subtitle": "",
+                "title": "Boost your Avatar’s attributes with Equipment",
+                "subtitle": "Coming soon",
                 "part1": {
-                    "title": "",
-                    "description1": "",
-                    "description2": "",
-                    "button": ""
+                    "title": "Equip your avatar and get special skills.",
+                    "text1": "All avatars come with a specific set of Attributes that define their abilities in",
+                    "gameMakerLinkText": " The Sandbox Game Maker : ",
+                    "text2": "Power, Luck, Defense, Speed and Magic.",
+                    "text3": "Want a stronger avatar? Visit the",
+                    "marketplaceLinkText": " marketplace ",
+                    "text4": "and choose the right weapon from thousands of options created by the Community. They will soon become available."
                 },
                 "part2": {
-                    "title": "",
-                    "description": "",
-                    "link": ""
+                    "title": "Create custom Equipment with VoxEdit",
+                    "description": "Equipment are Tokens that can be traded. They have Catalysts and Gems just as other assets do. Yes, you can also create and mint Equipment through VoxEdit !",
+                    "link": "Learn more"
                 }
             },
             "section6": {
-                "title": "",
-                "description": "",
-                "button": ""
+                "title": "What are you waiting for ?",
+                "description": "Join the Community of thousands of users that have already registered in TheSandbox with their unique avatars.",
+                "buttonText": "Create avatar now"
             }
         }
     },
-    "rarities": {
-        "title": "",
-        "common": "",
-        "rare": "",
-        "epic": "",
-        "legendary": ""
-    },
-    "whitelist": {
-        "add": "",
-        "participate": "",
-        "experiences": ""
-    },
-    "auction": {
-        "info": "",
-        "offerId": "",
-        "blockchainId": "",
-        "sellerId": "",
-        "contractAddress": "",
-        "startingPrice": "",
-        "endingPrice": "",
-        "startedAtDate": "",
-        "startedAtTime": "",
-        "duration": "",
-        "packs": "",
-        "packsLeft": "",
-        "tokenAddress": "",
-        "signature": "",
-        "available": ""
-    },
-    "assetAuction": {
-        "viewAssetDetail": "",
-        "catalyst": "",
-        "gems": "",
-        "amountTo": "",
-        "buy": "",
-        "sell": "",
-        "copies": "",
-        "price": "",
-        "priceIn": "",
-        "sand": "",
-        "priceDisclaimerSell": "",
-        "priceDisclaimerCancel": "",
-        "putOnSale": "",
-        "cancel": "",
-        "continue": "",
-        "yourAsset": "",
-        "wasPosted": "",
-        "finish": ""
+    "estate": {
+        "title": "Edit estate",
+        "previewDisclaimer": "You can upload up to 3 images to preview your land (JPG, PNG, WEBP). The file size should be less than 90kb.",
+        "name": "Name",
+        "description": "Description",
+        "url": "URL",
+        "logo": "Logo",
+        "logoDisclaimer": "You can upload an image to be shown on the map (WEBP or JPG). the file size should be less than 90kb.",
+        "howTo": "How to edit your ESTATE",
+        "errors": {
+            "assetNameRequired": "Asset name is required",
+            "assetNameTooShort": "Asset name too short",
+            "assetDescriptionTooLong": "Asset description too long",
+            "logo": "The format or size of the logo file is incorrect, should be WEBP or JPG and the file size should be less than 90kb",
+            "preview": "The format or size of the preview file is incorrect, should an image and the file size should be less than 90kb",
+            "pleaseSignInFirst": "Please sign in first"
+        }
     },
     "map": {
+        "loader": {
+            "text1": "Generating metaverse LANDS...",
+            "text2": "Setting parcels boundaries...",
+            "text3": "Combining LANDS into ESTATES...",
+            "text4": "Placing voxels...",
+            "text5": "Positioning Sandbox ESTATES...",
+            "text6": "Locating Landowners parcels...",
+            "text7": "Hiding treasures around the metaverse...",
+            "text8": "Did you know? LANDS can be combined to form ESTATES to create bigger game experiences.",
+            "text9": "Did you know? You’ll be able to rent and sell your game experiences within The Sandbox",
+            "text10": "GEMS are the tokens that define your ASSETS attributes just as Power and Defense",
+            "text11": "Did you know? The Creator Fund’s artists are responsible for creating the ASSETS in The Sandbox.",
+            "text12": "You can create and sell your own ASSETS using VoxEdit, our free voxel editor."
+        },
+        "discover": {
+            "text1": "Discover",
+            "text2": "LAND NFT's",
+            "text3": "for sale",
+            "buttonText": "Buy LAND"
+        },
+        "countdown": {
+            "titleNextPresale": "The next wave starts in:",
+            "titleStartsIn": "The Sale starts in:",
+            "titleFinishesIn": "The current Sale finishes in:",
+            "buttonText": "Buy LAND"
+        },
+        "caption": {
+            "my": "My Lands",
+            "available": "Available",
+            "booked": "Booked",
+            "purchased": "Purchased",
+            "premium": "Premium",
+            "unavailable": "Unavailable",
+            "opensea": "At OpenSea"
+        },
+        "presales": {
+            "metaverse": "Metaverse",
+            "summer_jam": "SUMMER JAM",
+            "euphoria": "EUPHORIA",
+            "innovators": "INNOVATORS",
+            "pranksy_metapurse": "PRANKSY METAPURSE",
+            "coinmarketcap": "COINMARKETCAP",
+            "the_smurfs": "THE SMURFS",
+            "care_bears": "CARE BEARS",
+            "binance": "BINANCE",
+            "moon": "MOON",
+            "atari": "ATARI",
+            "hub2": "THE HUB (Part 2)",
+            "hub1": "THE HUB (Part 1)"
+        },
+        "booked": "Booked by",
+        "visit": "Visit site",
         "detail": {
-            "land": "",
-            "estate": "",
-            "available": "",
-            "owner": "",
-            "cost": "",
-            "location": "",
-            "assetsOwned": "",
-            "assetsIncluded": "",
-            "blocksIncluded": "",
-            "addToCheckout": "",
-            "viewLands": "",
-            "viewMap": "",
-            "buyLand": "",
-            "buyEstate": "",
-            "parcels": "",
-            "size": "",
-            "price": "",
-            "seeAll": "",
-            "viewInMap": ""
-        }
-    },
-    "whitepaper": "",
-    "interact": "",
-    "scarcity": "",
-    "whatsaWallet": "",
-    "win10only": "",
-    "milestones": "",
-    "gettingStarted": "",
-    "pleaseSignInWithBitski": "",
-    "pleaseSignInWithArkane": "",
-    "pleaseSignIn": "",
-    "pleaseAllowWallet": "",
-    "refreshBrowser": "",
-    "changeBrowser": "",
-    "connectWallet": "",
-    "installWallet": "",
-    "selectWallet": "",
-    "artistAccount": "",
-    "teaser": "",
-    "filterBy": "",
-    "carcity": "",
-    "seeMore": "",
-    "recommended": "",
-    "advanced": "",
-    "walletInUse": "",
-    "walletLegacy": "",
-    "welcomeVoxEdit": "",
-    "voxEdit!": "",
-    "downloadYourAlpha": "",
-    "voxEditReleaseVersion": "",
-    "donwloadCreateDisclaimer": "",
-    "donwloadItHere": "",
-    "discover": "",
-    "createAUniverse": "",
-    "landPreSale": "",
-    "selectWalletSubtitle": "",
-    "selectWalletSubtitle1": "",
-    "continue": "",
-    "wathsWallet": "",
-    "expert": "",
-    "beginner": "",
-    "linkWallet": "",
-    "linkedWallet": "",
-    "upgradeWallet": "",
-    "bitski": "",
-    "arkane": "",
-    "google": "",
-    "facebook": "",
-    "twitter": "",
-    "metamask": "",
-    "builtin": "",
-    "roadmap": {
-        "title": "",
-        "description": ""
-    },
-    "version": "",
-    "featured": "",
-    "mobileConfig": {
-        "profile": "",
-        "account": "",
-        "sand": "",
-        "language": "",
-        "yourAccount": "",
-        "yourAvatar": ""
-    },
-    "buttons": {
-        "documentation": "",
-        "audit": "",
-        "certik": "",
-        "stayUpdated": "",
-        "loadMoreAssets": "",
-        "getStarted": "",
-        "create": "",
-        "launchGame": "",
-        "startQueue": "",
-        "profile": "",
-        "login": "",
-        "clearSearch": "",
-        "send": "",
-        "logout": "",
-        "signup": ""
-    },
-    "types": {
-        "title": "",
-        "avatar": "",
-        "all": "",
-        "static": "",
-        "animated": "",
-        "block": "",
-        "lands": "",
-        "estates": ""
-    },
-    "biomes": {
-        "title": "",
-        "grassland": "",
-        "ice": "",
-        "fire": "",
-        "desert": "",
-        "forest": "",
-        "genesis": "",
-        "jungleBiome": ""
-    },
-    "stateFilters": {
-        "all": "",
-        "added": "",
-        "pending": "",
-        "iterating": "",
-        "rejected": "",
-        "reject": "",
-        "approve": "",
-        "approved": "",
-        "published": "",
-        "unpublished": "",
-        "onsale": "",
-        "banned": "",
-        "purchased": ""
-    },
-    "state": {
-        "unpublished": "",
-        "published": ""
-    },
-    "categories": {
-        "title": "",
-        "animal": "",
-        "building": "",
-        "city": "",
-        "decoration": "",
-        "furniture": "",
-        "machine": "",
-        "magic": "",
-        "nature": "",
-        "sports": "",
-        "technology": "",
-        "tool": "",
-        "vehicle": "",
-        "weapon": "",
-        "humanoid": "",
-        "monster": "",
-        "plant": "",
-        "terrain": "",
-        "hazard": ""
-    },
-    "faqs": {
-        "title": "",
-        "uploadAsset": "",
-        "faqTitle": "",
-        "clickProfileiconRightTopBar": "",
-        "clickCreateAccountBtn": "",
-        "completeAllSteps": "",
-        "unlockingMetamask": "",
-        "unlockMetamaskMnemonicPassword": "",
-        "connectRinkeby": "",
-        "openMetamask": "",
-        "clickNetworksDropdown": "",
-        "selectRinkebyTestNetwork": "",
-        "associateWalletAdress": "",
-        "goToYourProfile": "",
-        "clickProfileIconRightTopBarViewProfile": "",
-        "clickLogWalletBtnAssociateAccount": "",
-        "signMessasePopUp": "",
-        "yourProfileShouldDisplayAssociatedWallet": "",
-        "clickUploadBtnWaitConfirmation": "",
-        "pageCheckAllYourUploadedAssets": "",
-        "requestSAND": "",
-        "clickGetMoreBtn": "",
-        "yourProfileShouldDisplayAmountSAND": "",
-        "publishAsset": "",
-        "clickOneYourAssetsInTheUnpublishedAssetsSections": "",
-        "clickPublishAssetBtn": "",
-        "confirmTransactionMetask": "",
-        "pageCheckAllYourPublishedAsset": ""
-    },
-    "forgot": {
-        "weHaveSentYouAndEmailTo": "",
-        "soThatYouCanChangeYourPassword": "",
-        "recoverPassword": "",
-        "enterHereYourEmailOrUsername": "",
-        "emailUsernameIsRequired": "",
-        "recover": "",
-        "emailSent": "",
-        "ok": "",
-        "emailNonExist": ""
-    },
-    "assets": {
-        "smart": "",
-        "loadMoreUsers": "",
-        "filterByName": "",
-        "ban": "",
-        "unban": "",
-        "view": "",
-        "banAsset": "",
-        "youAreAboutTo": "",
-        "anAsset": "",
-        "title": ""
-    },
-    "assetAproval": {
-        "writeIteratingRejectedReason": "",
-        "comments": "",
-        "addNewComment": ""
-    },
-    "bottomBar": {
-        "terms": "",
-        "stayTunned": "",
-        "joinCommunity": "",
-        "joinCommunityInfo": "",
-        "joinUs": "",
-        "copyright": "",
-        "rights": "",
-        "pages": "",
-        "news": "",
-        "play": "",
-        "shop": "",
-        "social": "",
-        "whitepaper": "",
-        "onepager": "",
-        "presskit": ""
-    },
-    "signOut": {
-        "viewProfile": "",
-        "getETH": ""
-    },
-    "sellAssets": {
-        "pleaseInputYourName": "",
-        "name": "",
-        "sellYourAsset": "",
-        "startingPrice": "",
-        "endingPrice": "",
-        "duration": "",
-        "validValues00007OrGreater": "",
-        "unitsForSale": "",
-        "unitsPerSale": "",
-        "replicable": "",
-        "sale": "",
-        "assetHasToBePublishedFirst": "",
-        "assetAlreadyPublished": "",
-        "extractNFT": "",
-        "pleaseAssociateYourCurrentWalletInYour": "",
-        "theAssetWasSaveWithSuccess": "",
-        "thereWasAnErrorSavingAsset": ""
-    },
-    "profileEdit": {
-        "changeEmail": "",
-        "EditProfile": "",
-        "yourMehasBeenChanged": "",
-        "newPassword": "",
-        "oldPassword": "",
-        "confirmNewMail": "",
-        "newEmail": "",
-        "passwordDoNotMatch": "",
-        "enterHereYourNewPassword": "",
-        "repeatHereYourNewPassword": "",
-        "newPasswordIsRequired": "",
-        "newPasswordTooShort": "",
-        "oldPasswordIsRequired": "",
-        "oldPaswordDoesNotMatch": "",
-        "enterHereYourNewEmail": "",
-        "repeatHereYourNewMail": "",
-        "emailsDoNotMatch": "",
-        "enterHereYourOldPassword": ""
-    },
-    "adminUsers": {
-        "userRoles": ""
-    },
-    "assetView": {
-        "requestApproval": ""
-    },
-    "assetKit": {
-        "quantity": "",
-        "packAmount": "",
-        "fieldRequired": "",
-        "validValues": "",
-        "totalAmount": "",
-        "selectAssets": "",
-        "thereAreNoPublishedAssets": "",
-        "paginationMode": "",
-        "showAll": "",
-        "selectAtLeastTwoAsset": "",
-        "validValues0Greater": "",
-        "packs": "",
-        "sell": ""
-    },
-    "auctionInfo": {
-        "description": "",
-        "packSeller": "",
-        "uniqueItems": "",
-        "packForSale": "",
-        "pricePerPack": "",
-        "buyAmount": "",
-        "total": "",
-        "cancel": "",
-        "buy": "",
-        "noPacksLeftForSale": "",
-        "notEnoughSAND": ""
-    },
-    "theSandboxGame": {
-        "launchGameStartMakingExperiencesPlacingYourAssets": "",
-        "launchingGame": "",
-        "gameNotLaunched": "",
-        "installGame": ""
-    },
-    "gameLauncher": {
-        "title": "",
-        "text": "",
-        "cta": ""
-    },
-    "gameDownload": {
-        "title": "",
-        "cta": "",
-        "downloadClient": "",
-        "ctaClient": ""
-    },
-    "voxeditDownload": {
-        "title": "",
-        "cta": ""
-    },
-    "restore": {
-        "yourNewPassword": "",
-        "repeatYourNewPassword": "",
-        "changePassword": ""
-    },
-    "configUser": {
-        "referalTableDisclaimer": "",
-        "referalTableHiglight": "",
-        "youWillGet": "",
-        "shareReferral": "",
-        "learnReferral": "",
-        "recieve": "",
-        "referralFee": "",
-        "fee": "",
-        "duration": "",
-        "days": "",
-        "referred": "",
-        "total": "",
-        "uniqueLink": "",
-        "getMoreSand": "",
-        "exclamation": "",
-        "hi": "",
-        "linkYourWalletToCompleteProcess": "",
-        "youAreAlmostThere": "",
-        "linkYourWallet": "",
-        "downloadWalletOrderToCompleteTheLinking": "",
-        "walletNotFound": "",
-        "metamask": "",
-        "yourCoins": "",
-        "email": "",
-        "password": "",
-        "logOut": "",
-        "yourWallet": "",
-        "thisWalletAlreadyLinkedAnotherAccount": "",
-        "ifYouLostAccountpassYouCanStillLoginWallet": ""
-    },
-    "banners": {
-        "bannerInfoLeft": ""
-    },
-    "UserSignUp": {
-        "stepEmailTitle": "",
-        "stepEmailText": "",
-        "stepPassTitle": "",
-        "stepPassText": "",
-        "requiredField": "",
-        "completeSteps": "",
-        "skip": "",
-        "completeLater": "",
-        "loginCreate": "",
-        "signUp": "",
-        "confirm": "",
-        "join": "",
-        "confirmText": "",
-        "finish": "",
-        "confirmNewPassword": "",
-        "emailIsRequired": "",
-        "emailIsIncorrect": "",
-        "emailAlreadyInUse": "",
-        "usernameIncorrect": "",
-        "usernameIsRequired": "",
-        "enterYourUsername": "",
-        "loginWithCurrentWallet": "",
-        "theWalletThatAreYouTryingRegisterAlreadyUse": "",
-        "walletInuse": "",
-        "usernameTooShort": "",
-        "optional": "",
-        "passwordIsRequire": "",
-        "passwordTooShort": "",
-        "pleaseRepeatPassword": "",
-        "ifYouDontHaveAccountYouCanCreateIt": "",
-        "youWillNeedToFillTheFromToCreateYourUser": "",
-        "enterYourEmail": "",
-        "enterPassword": "",
-        "register": "",
-        "youCanAlsoCreateUserRegisteringYourWallet": "",
-        "walletAlreadyInUsePleaseSignIn": "",
-        "textSayingThatEverythingWenWell": "",
-        "succeed": "",
-        "joinRegisterINFO": "",
-        "registerWallet": "",
-        "continueWith": "",
-        "terms": "",
-        "approve": ""
-    },
-    "assetInfo": {
-        "missingAttr": "",
-        "inAdition": "",
-        "completeEdition": "",
-        "attributes": "",
-        "copies": "",
-        "copy": "",
-        "button1": "",
-        "buyButton": "",
-        "buy": "",
-        "sellButton": "",
-        "isOnSale": "",
-        "creatingAnAsset": "",
-        "creatingAnAssetText": "",
-        "preview": "",
-        "name": "",
-        "catalyst": "",
-        "location": "",
-        "gems": "",
-        "size": "",
-        "disclaimer": {
-            "item01": "",
-            "item02": ""
+            "land": "LAND",
+            "estate": "ESTATE",
+            "about": "About",
+            "back": "Back",
+            "landsIncluded": "Lands included in the Estate",
+            "available": "Available",
+            "unavailable": "Unavailable",
+            "owner": "OWNER",
+            "cost": "Cost",
+            "location": "Location",
+            "assetsOwned": "Assets Owned",
+            "assetsIncluded": "Assets Included",
+            "blocksIncluded": "Blocks Included",
+            "addToCheckout": "Add to checkout",
+            "viewLands": "View LANDS",
+            "viewMap": "View Map",
+            "buyNow": "Buy Now",
+            "currentPrice": "Current Price",
+            "nearLands": "Near Lands",
+            "askSellMarket": "Do you want sell this Land in our Market?",
+            "putOnSale": "Put On Sale",
+            "buyLand": "Buy LAND",
+            "buyEstate": "Buy ESTATE",
+            "parcels": "parcels",
+            "size": "size",
+            "price": "price",
+            "seeAll": "See all",
+            "viewInMap": "View in Map",
+            "readMorePremium": "Read more about premium"
         },
-        "playerSide": {
-            "title": "",
-            "item01": "",
-            "item02": "",
-            "item03": ""
+        "onboarding": {
+            "title": "Sandbox Map",
+            "description": "Welcome to the",
+            "buttonText": "Continue",
+            "lastButtonText": "Buy LAND now!",
+            "slide1": "Navigate the Sandbox map to find the LANDS and ESTATES of our upcoming playable metaverse. Make sure to set your wallet with SAND to get yourself a piece of the Sandbox.",
+            "slide2": "We are holding a series of special lunar-themed LAND presales beginning this June 4th through July 2nd. Get a hold of one of the 7,254 LANDS of this MoonSale at a 20% discount and get ready to join the metaverse."
         },
-        "creatorSide": {
-            "title": "",
-            "item01": "",
-            "item02": "",
-            "item03": ""
-        },
-        "finalDisclaimer": "",
-        "claim": {
-            "claim-asset": "",
-            "claiming-asset": "",
-            "already-claimed": "",
-            "read-more": ""
-        }
-    },
-    "assetUpload": {
-        "assetModelOBJ": "",
-        "updateAssetViewer": "",
-        "edit": "",
-        "upload": "",
-        "uploadAssetThumbnail": "",
-        "enterTitleYourAsset": "",
-        "enterShortDescriptionAsset": "",
-        "chooseUpTo": "",
-        "youAlreadySelected": "",
-        "assetNameRequired": "",
-        "assetNameTooShort": "",
-        "assetDescriptionTooLong": "",
-        "supplyMustBeBetween": "",
-        "biomeNotSelected": "",
-        "pleaseSignInFirst": "",
-        "uptitle": "",
-        "editTitle": "",
-        "copies": "",
-        "biomes": "",
-        "saveButton1": "",
-        "saveButton2": "",
-        "saveButton3": "",
-        "loadingAsset": "",
-        "pleaseWait": "",
-        "errorLoadingAsset": "",
-        "problemLoading": "",
-        "pleaseExportAgain": "",
-        "goToShop": ""
-    },
-    "sand": {
-        "overview": {
-            "SandButton": "",
-            "BuySand": "",
-            "stakeSand": "",
-            "binanceResearch": "",
-            "header": {
-                "title": "",
-                "text": "",
-                "text2": ""
-            },
-            "gettingStarted": {
-                "title": "",
-                "sections": {
-                    "section1": {
-                        "title": "",
-                        "text": "",
-                        "list": "",
-                        "action": ""
-                    },
-                    "section2": {
-                        "title": "",
-                        "text": "",
-                        "list": {
-                            "itm1": "",
-                            "itm2": "",
-                            "itm3": "",
-                            "itm4": ""
-                        },
-                        "action": ""
-                    },
-                    "section3": {
-                        "title": "",
-                        "text": "",
-                        "list": "",
-                        "action": ""
-                    }
-                }
-            },
-            "goMap": {
-                "title": "",
-                "button": ""
-            },
-            "adopt": {
-                "title": "",
-                "steps": {
-                    "step1": {
-                        "number": "",
-                        "title": "",
-                        "text": "",
-                        "cards": {
-                            "a": "",
-                            "b": ""
-                        }
-                    },
-                    "step2": {
-                        "number": "",
-                        "title": "",
-                        "text": "",
-                        "cards": {
-                            "a": "",
-                            "b": ""
-                        }
-                    },
-                    "step3": {
-                        "number": "",
-                        "title": "",
-                        "text": "",
-                        "cards": {
-                            "a": "",
-                            "b": ""
-                        }
-                    }
-                }
-            }
-        },
-        "buy": {
-            "availableSand": "",
-            "buySand": "",
-            "howToBuySand": "",
-            "viewEtherscan": "",
-            "txHash": "",
-            "txSent": "",
-            "buyMore": "",
-            "buyWithETH": "",
-            "fieldRequired": "",
-            "valueTooLow": "",
-            "valueTooHigh": "",
-            "unlockWallet": "",
-            "invalidNetwork": "",
-            "changeNetwork": ""
-        }
-    },
-    "theGame": {
-        "title": "",
-        "text": "",
-        "play": {
-            "title": "",
-            "text": "",
-            "hash": ""
-        },
-        "create": {
-            "title": "",
-            "text": "",
-            "hash": ""
-        },
-        "share": {
-            "title": "",
-            "text": "",
-            "hash": ""
-        },
-        "mediumPosts": {
-            "title": ""
-        },
-        "features": {
-            "play": {
-                "title": "",
-                "text": ""
-            },
-            "create": {
-                "title": "",
-                "text": ""
-            },
-            "social": {
-                "title": "",
-                "text": ""
-            }
-        },
-        "earn": {
-            "title": "",
-            "text": "",
-            "listTitle": "",
-            "list": {
-                "item01": "",
-                "item02": "",
-                "item03": ""
-            }
-        },
-        "req": {
-            "title": "",
-            "minimum": {
-                "title": "",
-                "text": ""
-            },
-            "recommended": {
-                "title": "",
-                "text": ""
-            }
-        },
-        "canDo": {
-            "title": "",
-            "build": {
-                "title": "",
-                "list": {
-                    "item01": "",
-                    "item02": "",
-                    "item03": "",
-                    "item04": "",
-                    "item05": "",
-                    "item06": ""
-                }
-            },
-            "play": {
-                "title": "",
-                "list": {
-                    "item01": "",
-                    "item02": "",
-                    "item03": "",
-                    "item04": "",
-                    "item05": "",
-                    "item06": "",
-                    "item07": "",
-                    "item08": ""
-                }
-            },
-            "participate": {
-                "title": "",
-                "list": {
-                    "item01": "",
-                    "item02": "",
-                    "item03": ""
-                }
-            }
-        },
-        "changelog": {
-            "title": "",
-            "log": {
-                "item01": {
-                    "date": "",
-                    "title": "",
-                    "subtitle": "",
-                    "01": "",
-                    "02": "",
-                    "03": "",
-                    "04": "",
-                    "05": "",
-                    "06": "",
-                    "07": "",
-                    "08": "",
-                    "09": "",
-                    "10": "",
-                    "11": "",
-                    "12": "",
-                    "13": "",
-                    "14": "",
-                    "15": "",
-                    "16": "",
-                    "17": ""
-                },
-                "item02": {
-                    "date": "",
-                    "title": "",
-                    "subtitle": "",
-                    "01": "",
-                    "02": "",
-                    "03": "",
-                    "04": "",
-                    "05": "",
-                    "06": "",
-                    "07": "",
-                    "08": "",
-                    "09": "",
-                    "10": "",
-                    "11": "",
-                    "12": "",
-                    "13": "",
-                    "14": "",
-                    "15": "",
-                    "16": "",
-                    "17": "",
-                    "18": "",
-                    "19": ""
-                },
-                "item03": {
-                    "date": "",
-                    "title": "",
-                    "subtitle": "",
-                    "01": {
-                        "title": "",
-                        "list": {
-                            "item01": "",
-                            "item02": ""
-                        }
-                    },
-                    "02": {
-                        "title": "",
-                        "list": {
-                            "item01": ""
-                        }
-                    },
-                    "03": {
-                        "title": "",
-                        "list": {
-                            "item01": ""
-                        }
-                    },
-                    "04": {
-                        "title": "",
-                        "list": {
-                            "item01": ""
-                        }
-                    },
-                    "05": {
-                        "title": "",
-                        "list": {
-                            "item01": ""
-                        }
-                    },
-                    "06": {
-                        "title": "",
-                        "list": {
-                            "item01": ""
-                        }
-                    },
-                    "07": {
-                        "title": "",
-                        "list": {
-                            "item01": "",
-                            "item02": "",
-                            "item03": "",
-                            "item04": ""
-                        }
-                    }
-                },
-                "item04": {
-                    "date": "",
-                    "title": "",
-                    "subtitle": "",
-                    "01": {
-                        "title": "",
-                        "list": {
-                            "item01": "",
-                            "item02": "",
-                            "item03": ""
-                        }
-                    },
-                    "02": {
-                        "title": "",
-                        "list": {
-                            "item01": "",
-                            "item02": ""
-                        }
-                    },
-                    "03": {
-                        "title": "",
-                        "list": {
-                            "item01": "",
-                            "item02": "",
-                            "item03": "",
-                            "item04": "",
-                            "item05": "",
-                            "item06": ""
-                        }
-                    },
-                    "04": {
-                        "title": "",
-                        "list": {
-                            "item01": ""
-                        }
-                    },
-                    "05": {
-                        "title": "",
-                        "list": {
-                            "item01": "",
-                            "item02": "",
-                            "item03": "",
-                            "item04": ""
-                        }
-                    },
-                    "06": {
-                        "title": "",
-                        "list": {
-                            "item01": "",
-                            "item02": "",
-                            "item03": "",
-                            "item04": "",
-                            "item05": ""
-                        }
-                    }
-                },
-                "item05": {
-                    "date": "",
-                    "title": "",
-                    "01": {
-                        "title": "",
-                        "list": {
-                            "item01": "",
-                            "item02": "",
-                            "item03": ""
-                        }
-                    },
-                    "02": {
-                        "title": "",
-                        "list": {
-                            "item01": "",
-                            "item02": "",
-                            "item03": ""
-                        }
-                    },
-                    "03": {
-                        "title": "",
-                        "list": {
-                            "item01": "",
-                            "item02": "",
-                            "item03": "",
-                            "item04": ""
-                        }
-                    },
-                    "04": {
-                        "title": "",
-                        "list": {
-                            "item01": "",
-                            "item02": "",
-                            "item03": "",
-                            "item04": ""
-                        }
-                    }
-                },
-                "item06": {
-                    "date": "",
-                    "title": "",
-                    "01": {
-                        "title": "",
-                        "list": {
-                            "item01": "",
-                            "item02": "",
-                            "item03": "",
-                            "item04": ""
-                        }
-                    }
-                }
-            }
-        },
-        "milestones": {
-            "item01": {
-                "date": "",
-                "title": "",
-                "text01": "",
-                "text02": "",
-                "text03": "",
-                "text04": "",
-                "text05": "",
-                "month": ""
-            },
-            "item02": {
-                "date": "",
-                "title": "",
-                "text01": "",
-                "text02": "",
-                "text03": "",
-                "text04": "",
-                "month": ""
-            },
-            "item03": {
-                "date": "",
-                "title": "",
-                "text01": "",
-                "text02": "",
-                "text03": "",
-                "text04": "",
-                "text05": "",
-                "text06": "",
-                "month": ""
+        "landEdit": {
+            "title": "Edit a LAND",
+            "uploadInfo": "Upload an image to preview your land (JPG, PNG, WEBP). The file size should be less than 90kb.",
+            "name": "LAND name",
+            "description": "LAND description",
+            "errors": {
+                "signin": "Please sign-in first",
+                "assetNameRequired": "Asset name is required",
+                "assetNameTooShort": "Asset name too short",
+                "assetDescriptionTooLong": "Asset description too long",
+                "preview": "The format or size of the preview file is incorrect, should an image and the file size should be less than 90kb"
             }
         }
     },
-    "downloadGame": {
-        "title": "",
-        "text": "",
-        "loginToStart": "",
-        "retry": ""
-    },
-    "downloadVoxEdit": {
-        "overview": {
-            "title": "",
-            "userCreationsTitle": "",
-            "subtitle": "",
-            "features": {
-                "title": "",
-                "card1Title": "",
-                "card1Text": "",
-                "card2Title": "",
-                "card2Text": ""
-            },
-            "creationsTitle": ""
+    "about": {
+        "title": "Welcome",
+        "description": "is a community-driven platform where creators can monetize voxel ASSETS and gaming experiences on the blockchain",
+        "menu": {
+            "sandbox": "The Sandbox",
+            "sand": "SAND",
+            "blog": "Blog"
         },
-        "title": "",
-        "subtitle": "",
-        "soon": "",
-        "clients": {
-            "win": "",
-            "winBtn": "",
-            "mac": "",
-            "macBtn": "",
-            "linux": "",
-            "linuxBtn": ""
+        "meta": {
+            "title": "Sand Coin - The Sandbox NFT Token",
+            "sandTitle": "About The Sandbox",
+            "description": "The Sandbox Game - User-Generated Crypto & Blockchain Games"
         },
-        "v-info": {
-            "version": "",
-            "disclaimer1": "",
-            "button1": "",
-            "disclaimer2": "",
-            "button2": ""
-        }
-    },
-    "found": {
-        "buttons": {
-            "princpal": "",
-            "secondary": ""
-        },
-        "principalTitle": "",
-        "titleCreatorFund": "",
-        "subtitle": "",
-        "principalList": {
-            "item1": "",
-            "item2": "",
-            "item3": "",
-            "item4": "",
-            "item5": "",
-            "item6": ""
-        },
-        "subtitle1": "",
-        "subtitle1List": {
-            "item01": "",
-            "item02": "",
-            "item03": "",
-            "item04": ""
-        },
-        "subtitle2": "",
-        "guidelinesTitle": "",
-        "guidelines": {
-            "guideline1": {
-                "title": "",
-                "text": ""
-            },
-            "guideline2": {
-                "title": "",
-                "text": "",
-                "list": {
-                    "itm1": "",
-                    "itm2": "",
-                    "itm3": "",
-                    "itm4": "",
-                    "itm5": ""
-                }
-            },
-            "guideline3": {
-                "title": "",
-                "text": ""
-            },
-            "guideline4": {
-                "title": "",
-                "text": ""
-            },
-            "guideline5": {
-                "title": "",
-                "text": ""
-            },
-            "guideline6": {
-                "title": "",
-                "text": "",
-                "list": {
-                    "itm1": "",
-                    "itm2": "",
-                    "itm3": "",
-                    "itm4": "",
-                    "itm5": ""
-                }
-            },
-            "guideline7": {
-                "title": "",
-                "text": "",
-                "list": {
-                    "itm1": "",
-                    "itm2": "",
-                    "itm3": ""
-                }
-            },
-            "guideline8": {
-                "title": "",
-                "text": "",
-                "list": {
-                    "itm1": "",
-                    "itm2": "",
-                    "itm3": "",
-                    "itm4": "",
-                    "itm5": "",
-                    "itm6": ""
-                }
-            },
-            "guideline9": {
-                "title": "",
-                "text": "",
-                "list": {
-                    "itm1": "",
-                    "itm2": ""
-                }
-            },
-            "guideline10": {
-                "title": "",
-                "text": "",
-                "list": {
-                    "itm1": "",
-                    "itm2": "",
-                    "itm3": "",
-                    "itm4": "",
-                    "itm5": ""
-                }
-            }
-        },
-        "faqTitle": "",
-        "faq": {
-            "goToThe": "",
-            "page": "",
-            "fillForm": "",
-            "faq1": {
-                "title": "",
-                "text": ""
-            },
-            "faq2": {
-                "title": "",
-                "text": ""
-            },
-            "faq3": {
-                "title": "",
-                "text": ""
-            },
-            "faq4": {
-                "title": "",
-                "text": ""
-            },
-            "faq5": {
-                "title": "",
-                "text": ""
-            },
-            "faq6": {
-                "title": "",
-                "text": ""
-            },
-            "faq7": {
-                "title": "",
-                "text": ""
-            },
-            "faq8": {
-                "title": "",
-                "text": ""
-            },
-            "faq9": {
-                "title": "",
-                "text": ""
-            }
-        }
-    },
-    "guidelines": {
-        "principalSection": {
-            "title": "",
-            "text": "",
-            "buttons": {
-                "download": "",
-                "btn1": "",
-                "btn2": ""
-            }
-        },
-        "rulesSection": {
-            "title": "",
-            "text1": "",
-            "text2": "",
-            "text3": "",
-            "buttons": {
-                "btn3": ""
-            }
-        },
-        "marketSection": {
-            "title": "",
-            "subtitle": ""
-        },
-        "hintsSection": {
-            "title": "",
-            "subtitle": "",
-            "tipGroup1": {
-                "tip1": {
-                    "title": "",
-                    "text": ""
+        "sandbox": {
+            "products": {
+                "title": "Learn About Our Products",
+                "voxedit": {
+                    "title": "VoxEdit",
+                    "description": "Create and animate voxel art. Export anywhere."
                 },
-                "tip2": {
-                    "title": "",
-                    "text": ""
+                "marketplace": {
+                    "title": "Marketplace",
+                    "description": "One place to sell and collect the best ASSETS."
                 },
-                "tip3": {
-                    "title": "",
-                    "text": ""
+                "gameMaker": {
+                    "title": "Game Maker",
+                    "description": "Make and Play any game that you can imagine."
+                },
+                "land": {
+                    "title": "Land",
+                    "description": "Endless possibilities. Reserve yours today!"
+                },
+                "gameMakerProduct": {
+                    "title": "Game Maker",
+                    "description": "Make and Play any game that you can imagine."
+                },
+                "fund": {
+                    "title": "Fund",
+                    "description": "Get paid to create and share YOUR amazing voxel creations."
                 }
             },
-            "tipGroup2": {
-                "tip1": {
-                    "title": "",
-                    "text": ""
-                },
-                "tip2": {
-                    "title": "",
-                    "text": ""
-                },
-                "tip3": {
-                    "title": "",
-                    "text": ""
-                }
+            "partners": "Partners",
+            "roadmap": {
+                "title": "Roadmap",
+                "description": "See our detailed"
             },
-            "tipGroup3": {
-                "tip1": {
-                    "title": "",
-                    "text": ""
-                },
-                "tip2": {
-                    "title": "",
-                    "text": ""
-                }
-            },
-            "tipGroup4": {
-                "tip1": {
-                    "title": "",
-                    "text": ""
-                },
-                "tip2": {
-                    "title": "",
-                    "text": ""
-                }
-            },
-            "tipGroup5": {
-                "tip1": {
-                    "title": "",
-                    "text": ""
-                },
-                "tip2": {
-                    "title": "",
-                    "text": ""
-                }
-            }
-        }
-    },
-    "sidebars": {
-        "left": {
-            "option0": "",
-            "option1": "",
-            "option2": "",
-            "option3": "",
-            "option4": "",
-            "option5": "",
-            "option6": "",
-            "option7": "",
-            "option8": ""
-        },
-        "shop": {
-            "header": ""
-        },
-        "admin": {
-            "header": "",
-            "section1": {
-                "title": "",
-                "option1": "",
-                "option2": "",
-                "option3": "",
-                "option4": ""
-            },
-            "section2": {
-                "title": "",
-                "option1": "",
-                "option2": "",
-                "option3": ""
-            }
-        },
-        "artist": {
-            "section1": {
-                "title": "",
-                "option1": "",
-                "option2": ""
-            },
-            "section2": {
-                "title": ""
-            }
-        },
-        "start": {
-            "header": "",
-            "section1": {
-                "title": "",
-                "option1": "",
-                "option1-1": "",
-                "option1-2": "",
-                "option1-3": "",
-                "option2": "",
-                "option3": "",
-                "option4": "",
-                "option5": "",
-                "option6": ""
-            }
-        },
-        "create": {
-            "header": "",
-            "section1": {
-                "title": "",
-                "option1": "",
-                "option2": "",
-                "option2-1": "",
-                "option2-2": ""
-            },
-            "section2": {
-                "title": "",
-                "option1": "",
-                "option1-1": "",
-                "option1-2": "",
-                "option1-3": "",
-                "option2": "",
-                "option2-1": "",
-                "option2-2": ""
-            }
-        },
-        "inventory": {
-            "header": "",
-            "section1": {
-                "title": "",
-                "noAssets": ""
-            },
-            "section2": {
-                "title": ""
-            }
-        },
-        "play": {
-            "header": "",
-            "section1": {
-                "title": "",
-                "option1": "",
-                "option2": "",
-                "option2-1": "",
-                "option2-2": "",
-                "option2-3": "",
-                "option3": ""
-            },
-            "section2": {
-                "title": "",
-                "option1": ""
-            },
-            "section3": {
-                "title": "",
-                "option1": "",
-                "option2": ""
-            }
-        },
-        "map": {
-            "section1": {
-                "title": "",
-                "option1": "",
-                "option2": "",
-                "option3": "",
-                "option4": ""
-            },
-            "moons": {
-                "moon": "",
-                "moon1": "",
-                "moon2": "",
-                "moon3": "",
-                "moon4": "",
-                "moon5": "",
-                "moon6": ""
+            "team": {
+                "title": "Meet the team",
+                "ceo": "CEO",
+                "coo": "COO",
+                "cfo": "CFO",
+                "cto": "CTO",
+                "headDesign": "Head of Design",
+                "headArt": "Head of Art",
+                "headMarketing": "Head of Marketing",
+                "leadVoxedit": "Lead VoxEdit Developer",
+                "leadWeb": "Lead Web Developer",
+                "leadGameDev": "Lead Game Developer",
+                "leadGameDesign": "Lead Game Designer",
+                "leadBlockchain": "Lead Blockchain Architect",
+                "gpm": "Game Project Manager",
+                "uiux": "UX/UI Designer",
+                "cm": "Community Manager",
+                "qa": "Quality Assurance",
+                "front": "Frontend Developer",
+                "back": "Backend Developer",
+                "devops": "DevOps",
+                "gdesign": "Game Designer",
+                "gdev": "Game Developer"
             }
         },
         "sand": {
-            "section1": {
-                "option1": "",
-                "option2": ""
-            }
-        }
-    },
-    "modals": {
-        "tellUsAboutYou": "",
-        "descriptionTooLong": "",
-        "descriptionRequired": "",
-        "congratulations": "",
-        "usernameAlreadyInUse": "",
-        "apply": "",
-        "doNotShow": "",
-        "chooseCurrency": "",
-        "buy": "",
-        "daiInfo": "",
-        "sandInfo": "",
-        "buyInfo": "",
-        "location": "",
-        "transactionHelp1": "",
-        "transactionHelp2": "",
-        "howToBuySand": "",
-        "gasHelper": "",
-        "buyEth": "",
-        "binance": "",
-        "uniswap": "",
-        "simplex": "",
-        "buyOnBinance": "",
-        "buyOnUniswap": "",
-        "buyOnSimplex": "",
-        "wyre": "",
-        "land": "",
-        "estate": "",
-        "modalVerifyEmail": {
-            "verifyEmail": "",
-            "login": "",
-            "emailVerification": "",
-            "emailRetry1": "",
-            "emailRetry2": "",
-            "sentEmailVerif": "",
-            "setEmail": "",
-            "pleaseLogIn": ""
-        },
-        "noArtist": {
-            "title": "",
-            "text1": "",
-            "text2": "",
-            "button": ""
-        },
-        "suscribe": {
-            "title": "",
-            "text": "",
-            "button": ""
-        },
-        "uploadAsset": {
-            "step1": {
-                "title": "",
-                "step1Title": "",
-                "step2Title": ""
-            },
-            "step2": {
-                "title": "",
-                "text": ""
-            }
-        },
-        "signIn": {
-            "createAccount": "",
-            "usernameEmailMissing": "",
-            "passwordMissing": "",
-            "userPasswordMismatches": "",
-            "logWithWallet": "",
-            "walletIsNotAssociatedAnyUser": "",
-            "signIn": "",
-            "title": "",
-            "subtitle": "",
-            "placeholder1": "",
-            "placeholder2": "",
-            "forgotPass": "",
-            "walletLoginMsg": "",
-            "walletDownloadMsg": "",
-            "walletDownloadMsgLink": "",
-            "youCanAlsoLoginWithYourWallet": ""
-        },
-        "claimAssets": {
-            "title": "",
-            "desc": "",
-            "claim-action": ""
-        }
-    },
-    "catGemShop": {
-        "title": "",
-        "subtitle": "",
-        "catalyst": "",
-        "gems": ""
-    },
-    "marketplace": {
-        "title": "",
-        "newestAssets": "",
-        "searchResult": "",
-        "searchNoResult": ""
-    },
-    "inventory": {
-        "title": "",
-        "asset": "",
-        "purchaseGems": "",
-        "mint": "",
-        "saleInfo": {
-            "sell": "",
-            "wallet": "",
-            "gift": "",
-            "forCopy": "",
-            "forSell": "",
-            "forGift": "",
-            "sortBy": "",
-            "continue": "",
-            "filters": "",
-            "readyToMint": "",
-            "assetToSell": ""
-        }
-    },
-    "avatar": {
-        "title": "",
-        "titleSideBar": "",
-        "saveButton": "",
-        "saveButtonMobile": "",
-        "edit": "",
-        "create": "",
-        "menu": {
-            "edit": "",
-            "logout": ""
-        },
-        "section1": {
-            "title": "",
-            "listName": ""
-        },
-        "section2": {
-            "title": "",
-            "listName": ""
-        },
-        "section3": {
-            "title": "",
-            "listName": ""
-        },
-        "section4": {
-            "title": "",
-            "listName": ""
-        },
-        "section5": {
-            "title": "",
-            "listName": ""
-        },
-        "bottomBar": {
-            "prev": "",
-            "next": ""
-        },
-        "popUpSave": {
-            "text1": "",
-            "text2": "",
-            "text3": "",
-            "button": ""
-        },
-        "popUpNotSave": {
-            "title": "",
-            "paragraph": "",
-            "saveButton": "",
-            "leaveButton": ""
-        },
-        "popUpCreateAvatar": {
-            "title": "",
-            "paragraph": "",
-            "button": ""
-        },
-        "loader": "",
-        "randomize": "",
-        "reset": ""
-    },
-    "profile": {
-        "land": "",
-        "updatePwd": ""
-    },
-    "search": "",
-    "selectRoleFor": "",
-    "users": "",
-    "artists": "",
-    "404NotFound": "",
-    "return": "",
-    "comingSoon": "",
-    "voxEdit": "",
-    "oldVoxEdit": {
-        "wrongVersion": "",
-        "assetExported": "",
-        "downloadLatest": ""
-    },
-    "beginCreatingAwesomeContent": "",
-    "preview": "",
-    "view3d": "",
-    "admin": "",
-    "artistmoderator": "",
-    "artist": "",
-    "moderator": "",
-    "user": "",
-    "addedAssets": "",
-    "unpublishedAssets": "",
-    "publishedAssets": "",
-    "pendingAssets": "",
-    "purchased": "",
-    "iteratingAssets": "",
-    "rejectedAssets": "",
-    "searchArtist": "",
-    "start": {
-        "blogSection": {
-            "title": ""
-        },
-        "aboutUsSection": {
-            "title": ""
-        },
-        "carousel": {
-            "title1": "",
-            "title2": "",
-            "title3": "",
-            "info": "",
-            "info2": "",
-            "info3": "",
-            "playInfo": "",
-            "discover": ""
-        },
-        "sandbox": {
-            "voxEdit": {
-                "title": "",
-                "info": ""
-            },
-            "marketplace": {
-                "title": "",
-                "info": "",
-                "info1": ""
-            },
-            "gameMaker": {
-                "title": "",
-                "info": "",
-                "info1": ""
-            }
-        },
-        "aboutUs": {
-            "title": "",
-            "lands": {
-                "title": "",
-                "info": "",
-                "info1": ""
-            },
-            "sand": {
-                "title": "",
-                "info": ""
-            },
-            "creatorFund": {
-                "title": "",
-                "info": "",
-                "info1": ""
-            },
-            "press": {
-                "title": "",
-                "info": ""
-            }
-        },
-        "articles": {
-            "title": "",
-            "sandbox": {
-                "title": "",
-                "info": ""
-            },
-            "erc1155": {
-                "title": "",
-                "info": ""
-            },
-            "minecraft": {
-                "title": "",
-                "info": ""
-            },
-            "nfts": {
-                "title": "",
-                "info": ""
-            },
-            "link": ""
-        },
-        "partners": {
-            "title": ""
-        },
-        "experiencesTitle": "",
-        "modules": {
-            "first": {
-                "title": "",
-                "paragraph1": "",
-                "button": ""
-            },
-            "second": {
-                "title": "",
-                "paragraph1": "",
-                "button": ""
-            },
-            "third": {
-                "title": "",
-                "paragraph1": "",
-                "button": ""
-            }
-        }
-    },
-    "presale": {
-        "round": "",
-        "soldout": "",
-        "supTitle": "",
-        "read": "",
-        "titles": {
-            "before": "",
-            "during": "",
-            "next": "",
-            "soldout": ""
-        },
-        "info1": "",
-        "info2": "",
-        "countdown": {
-            "days": "",
-            "hours": "",
-            "minutes": "",
-            "seconds": "",
-            "btn": ""
-        },
-        "wathLand": {
-            "title": "",
-            "text1": "",
-            "text2": "",
-            "text3": ""
-        },
-        "landPacks": {
-            "title": "",
-            "subTitle": "",
-            "lands": {
-                "title": "",
-                "info1": "",
-                "infoNumb": "",
-                "info2": "",
-                "button": ""
-            },
-            "estate": {
-                "title": "",
-                "info1": "",
-                "infoNumb": "",
-                "info2": "",
-                "button": ""
-            },
-            "district": {
-                "title": "",
-                "info": ""
-            },
-            "referencePriceTable": "",
-            "learnMore": ""
-        },
-        "features": {
-            "title": "",
-            "hostGames": "",
-            "hostGamesInfo": "",
-            "monetize": "",
-            "monetizeInfo": "",
-            "organizeContests": "",
-            "organizeContestsInfo": "",
-            "participate": "",
-            "participateInfo": "",
-            "stakeSands": "",
-            "stakeSandsInfo": ""
-        },
-        "tokens": {
-            "title": "",
-            "sand": {
-                "title": "",
-                "subtitle": "",
-                "erc": "",
-                "text": ""
-            },
-            "land": {
-                "title": "",
-                "subtitle": "",
-                "erc": "",
-                "text": ""
-            },
-            "asset": {
-                "title": "",
-                "subtitle": "",
-                "erc": "",
-                "text": ""
-            },
-            "gems": {
-                "title": "",
-                "subtitle": "",
-                "erc": "",
-                "text": "",
-                "link": ""
-            },
-            "games": {
-                "title": "",
-                "subtitle": "",
-                "erc": "",
-                "text": ""
-            }
-        }
-    },
-    "press": {
-        "topSection": {
-            "branding": "",
-            "images": "",
-            "videos": "",
-            "fullkit": "",
-            "sandboxBrandPage": "",
-            "textSandboxBrandPage": "",
-            "contact": ""
-        },
-        "logoSection": {
-            "logo": "",
-            "alternativeLogo": "",
-            "textLogo": "",
-            "textAlternativeLogo": "",
-            "sandboxWhite": "",
-            "sandboxBlack": "",
-            "sandboxGray": "",
-            "isotype": "",
-            "png": "",
-            "svg": "",
-            "download": ""
-        },
-        "colorSection": {
-            "colors": "",
-            "blueTop": "",
-            "blueDown": "",
-            "yellowTop": "",
-            "yellowDown": "",
-            "greyTop": "",
-            "greyDown": "",
-            "greenTop": "",
-            "greenDown": "",
-            "redTop": "",
-            "redDown": "",
-            "whiteTop": "",
-            "whiteDown": ""
-        },
-        "hqImagesSection": {
-            "hq-images": "",
-            "imgDescription1": "",
-            "imgDescription2": "",
-            "imgDescription3": "",
-            "imgDescription4": "",
-            "imgDescription5": "",
-            "imgDescription6": "",
-            "imgDescription7": "",
-            "imgDescription8": "",
-            "imgDescription9": "",
-            "download": "",
-            "gif": "",
-            "png": ""
-        },
-        "videosSection": {
-            "videos": "",
-            "videosDescription1": "",
-            "videosDescription2": "",
-            "videosDescription3": "",
-            "videosDescription4": "",
-            "videosDescription5": "",
-            "videosDescription6": ""
-        },
-        "fullkitSection": {
-            "fullkit": "",
-            "fullkitText": "",
-            "getPressKit": ""
-        }
-    },
-    "install": {
-        "install": "",
-        "metamask": "",
-        "metamask1": "",
-        "opera": "",
-        "opera1": ""
-    },
-    "privacyPolicy": {
-        "title": "",
-        "text1": "",
-        "text2": "",
-        "text3": "",
-        "text4": "",
-        "text5": "",
-        "text6": "",
-        "text7": "",
-        "text8": "",
-        "text9": "",
-        "text10": "",
-        "text11": "",
-        "text12": "",
-        "text13": "",
-        "text14": "",
-        "text15": "",
-        "text16": "",
-        "text17": "",
-        "text18": "",
-        "text19": "",
-        "text20": "",
-        "text21": "",
-        "text22": "",
-        "text23": "",
-        "text24": "",
-        "text25": "",
-        "text26": "",
-        "text27": "",
-        "text28": "",
-        "text29": "",
-        "text30": "",
-        "text31": "",
-        "text32": "",
-        "text33": "",
-        "text34": "",
-        "text35": "",
-        "text36": "",
-        "text37": "",
-        "text38": "",
-        "text39": "",
-        "text40": "",
-        "text41": "",
-        "text42": "",
-        "text43": "",
-        "text44": "",
-        "text45": ""
-    },
-    "sections": {
-        "general": {
-            "theSandbox": "",
-            "preRegister": ""
-        },
-        "home": {
-            "banner": {
-                "supTitle": "",
-                "info": ""
-            },
-            "experiencesGallery": {
-                "title": ""
-            },
-            "nftModule": {
-                "title": "",
-                "paragraph1": "",
-                "button": ""
-            },
-            "landModule": {
-                "title": "",
-                "paragraph1": "",
-                "button": ""
-            },
-            "sandModule": {
-                "title": "",
-                "paragraph1": "",
-                "button": ""
-            }
-        },
-        "create": {
             "header": {
-                "gameMaker": {
-                    "description": "",
-                    "subdescription": "",
-                    "button": ""
+                "description": "SAND is the utility token used throughout The Sandbox ecosystem as the basis of transactions and interactions. It is an ERC-20 utility token built on the Ethereum blockchain. There is a finite supply of 3,000,000,000 SAND.",
+                "mainButtonText": "Buy",
+                "secondaryButtonText": "Stake",
+                "link": "Read Binance Research on"
+            },
+            "platforms": "is available on",
+            "brands": {
+                "sandbox": {
+                    "name": "The Sandbox",
+                    "description": "The Sandbox is a virtual world built on the Ethereum blockchain, where players can build, own, and monetize their gaming experience"
                 },
-                "voxEdit": {
-                    "title": "",
-                    "versionTitle": "",
-                    "description": "",
-                    "button": ""
-                },
-                "avatar": {
-                    "title": "",
-                    "description": "",
-                    "button": ""
+                "sand": {
+                    "name": "$SAND",
+                    "description": "The SAND token is an ERC-20 utility token that is used for value transfers as well as staking and governance."
                 }
             },
-            "downloadModal": {
-                "gameMaker": {
-                    "getGameMaker": "",
-                    "downloadGameMaker": "",
-                    "getClient": "",
-                    "downloadClient": "",
-                    "comingSoon": ""
+            "products": {
+                "title1": "Current products on",
+                "title2": "platform include :",
+                "voxedit": {
+                    "title": "VoxEdit",
+                    "description": "Software to create voxel ASSETS, which can then become Non-Fungible Tokens (NFTs) and be imported to the Marketplace."
                 },
-                "voxEdit": {
-                    "title": "",
-                    "versionTitle": "",
-                    "downloadVoxEdit": ""
+                "marketplace": {
+                    "title": "Marketplace",
+                    "description": "A visual scripting toolbox that allows anyone to build 3D games for free."
+                },
+                "gameMaker": {
+                    "title": "Game Maker",
+                    "description": "A visual scripting toolbox that allows anyone to build 3D games for free."
                 }
             },
-            "gameMakerPage": {
-                "title": "",
-                "description": "",
-                "button": "",
-                "playContent": {
-                    "features": {
-                        "play": {
-                            "title": "",
-                            "text": ""
-                        },
-                        "create": {
-                            "title": "",
-                            "text": ""
-                        },
-                        "social": {
-                            "title": "",
-                            "text": ""
-                        }
+            "metrics": {
+                "title": "Key metrics (as of August 5th 2020)",
+                "ticket": {
+                    "title": "Ticket",
+                    "circulating": "Circulating Supply",
+                    "total": "Total Token Supply",
+                    "binance": "Binance Launchpad Sale Price"
+                }
+            },
+            "sandbox": {
+                "title": "What is \"The Sandbox\" (SAND)",
+                "text1": "The Sandbox is a virtual world where players can build, own, and monetize their gaming experiences on the Ethereum blockchain using the platform’s utility token SAND.Players can create digital assets in the form of Non-Fungible Tokens (NFTs), upload them to the marketplace, and integrate into games with Game Maker.",
+                "text2": "A LAND is a digital piece of real estate in The Sandbox metaverse that players can buy to build experiences on top of. Once player owns a piece of LAND, the player will be able to populate it with games and ASSETS. Multiple LANDs can be combined to form an ESTATE.",
+                "text3": "A total of 166,464 LANDs will ever be available, contained in a map that will form The Sandbox metaverse.",
+                "text4": "GEM and CATALYST defines the tier, scarcity, and attributes of ASSET. CATALYST adds empty sockets to the NFTs that can be filled with GEMs. The higher the quality of the CATALYST, the more sockets your ASSET will have.",
+                "text5": "Users can monetize their time on the platform, keeping 95% of SAND as revenue share by :",
+                "monetize": {
+                    "1": {
+                        "title": "Selling ASSETS",
+                        "description": "Users can create and sell ASSETS on the marketplace as NFTs."
+                    },
+                    "2": {
+                        "title": "Owning a LAND",
+                        "description": "Buy a LAND in one of the LAND sales. Players can then rent them or populate them with content to increase the LAND's value."
+                    },
+                    "3": {
+                        "title": "Building Games on the Game Maker",
+                        "description": "Build and monetize games using the Game Maker on the LANDs that are owned by players."
                     }
+                },
+                "text6": "Through the use of ERC-1776, The Sandbox allows platform users to initate transactions on the Ethereum blockchain while transaction gas fees are paid by the platform, optimizing overall user experience.",
+                "text7": "50% of all SAND transaction volume, collected from LAND sales, Premium NFT sales, transaction fees and subscription services is going to the Foundation",
+                "text8": "The Foundation supports the ecosystem of The Sandbox, contributing to the growth of awareness about NFTs, Metaverse, and $SAND adoption.",
+                "text9": "The Foundation currently is involved with",
+                "foundation": {
+                    "1": "Managing the Game Makers Fund and Creators Fund, offering grants to incentivize high quality content and game production in The Sandbox.",
+                    "2": "Funcing over 17 game projects, some of which have been unveiled to the public at https://www.sandbox.game/game/top",
+                    "3": "Distributing grants to 100 artists to produce NFTs, most of which can be seen at http://www.sandbox.game/shop",
+                    "4": "Supporting local community managers to grow awareness around the globe about The Sandbox, NFTs and blockchain gaming via our Community Rewards and Ambassadors program https://medium.com/sandbox-game/the-sandbox-ambassador-program-4f00bb5c9c24",
+                    "5": "Sponsoring prizes to the various contests organized by The Sandbox team (VoxEdit Contests and Game Jams) to stimulate the creativity of users around the world and get them to engage with the tools of our platform.",
+                    "6": "Supporting play-to-earn tournaments and cross-gaming with activities that encourage the broader adoption of SAND."
                 }
             }
+        },
+        "blog": {
+            "title": "Blog"
         }
     },
-    "THISISNOTAKEY": "",
-    "preRegister": "",
-    "leoncito": ""
+    "user": {
+        "signin": "Sign in",
+        "menu": {
+            "profile": "Profile",
+            "inventory": "Inventory",
+            "avatar": "Avatar",
+            "edit": "Edit",
+            "logout": "Log Out"
+        },
+        "profile": {
+            "sandAmount": "Your",
+            "sandButtonText": "Buy",
+            "sandLinkText": "How to buy",
+            "wallet": "Your wallet",
+            "referral": {
+                "title": "Share your referral Link",
+                "description1": "Receive a ",
+                "description2": "referral fee, ",
+                "description3": "using your unique referral link:",
+                "priceTable": "Reference price table",
+                "referred": "referred"
+            },
+            "earning": "Total Earnings",
+            "learnMoreButtonText": "Learn more about referral",
+            "createAvatarButtonText": "Create avatar",
+            "editAvatarButtonText": "Create avatar",
+            "errors": {
+                "errorUsername1": "The username is too short. Should be 3 characters minimum",
+                "errorUsername2": "Username should be alphanumeric",
+                "errorUsername3": "Username is a required field, can`t be empty",
+                "titleTooLong": "The title is too long",
+                "descriptionTooLong": "The title is too long",
+                "emailIsRequired": "Email is required",
+                "emailIsIncorrect": "Email is incorrect",
+                "emailAlreadyInUse": "Email already in use",
+                "emailsDoNotMatch": "Emails do not match",
+                "oldPasswordIsRequired": "Old Password is required",
+                "oldPaswordDoesNotMatch": "Old password does not match",
+                "newPasswordIsRequired": "New Password is required",
+                "newPasswordTooShort": "New Password too short",
+                "passwordDoNotMatch": "Passwords do not match"
+            },
+            "edit": {
+                "editTitle": "Edit your profile",
+                "title": "Title",
+                "description": "Description",
+                "email": "Email",
+                "newEmail": "New email",
+                "oldPassword": "Old password",
+                "newPassword": "New password",
+                "repeatPassword": "Repeat your password",
+                "buttonText": "Apply",
+                "validated": "Your profile has been changed"
+            }
+        },
+        "inventory": {
+            "filters": {
+                "assets": "Assets",
+                "lands": "Lands",
+                "estates": "Estates",
+                "experiences": "Experiences"
+            },
+            "sort": {
+                "title": "Sort by",
+                "readyMint": "Ready to mint",
+                "unpublished": "Unpublished",
+                "exclusive": "Exclusive",
+                "basic": "Basic",
+                "pending": "Pending",
+                "iterating": "Iterating",
+                "rejected": "Rejected",
+                "approved": "Approved",
+                "published": "Published",
+                "readySell": "Ready to sell",
+                "add": "Added"
+            },
+            "search": "Search...",
+            "preview": "Preview",
+            "name": "Name",
+            "tier": "Tier",
+            "gems": "Gems",
+            "catalyst": "Catalyst",
+            "location": "Location",
+            "size": "Size",
+            "startEndDate": "Date",
+            "price": "Price",
+            "viewInMap": "View in map"
+        },
+        "avatar": {
+            "title": "Avatar Creator",
+            "empty": "This list is empty",
+            "loading": "Loading...",
+            "notCompatible": "Your browser cannot run avatar creator.",
+            "body": {
+                "listItems": {
+                    "1": "body",
+                    "2": "head",
+                    "3": "torso",
+                    "4": "legs",
+                    "5": "feet"
+                },
+                "1": "Predesigned",
+                "2": "Head",
+                "3": "Shirt",
+                "4": "Pants",
+                "5": "Shoes"
+            },
+            "saveButtonText": "Save changes",
+            "mobileSaveButtonText": "Save",
+            "sort": {
+                "title": "Sort by",
+                "default": "Default",
+                "name": "Name",
+                "owned": "Owned",
+                "search": "Search",
+                "az": "Name (A-Z)",
+                "za": "Name (Z-A)",
+                "recent": "Recent",
+                "newest": "Newest",
+                "oldest": "Oldest",
+                "priceHigh": "Price Hight",
+                "priceLow": "Price Low"
+            },
+            "tooltips": {
+                "randomize": "Randomize",
+                "reset": "Reset"
+            },
+            "colors": {
+                "skin": "Skin tone",
+                "custom": "Custom color",
+                "disabledSkin": "Sorry, the selected item does not support Skin Color changes.",
+                "disabledCustom": "Sorry, the selected item does not support Custom Color changes."
+            },
+            "notSaveModal": {
+                "title": "Hey! You forgot to save your Avatar",
+                "description1": "If you leave this page, any changes you have made will be lost.",
+                "description2": "Do you want to save your avatar before leaving?",
+                "okButtonText": "Save avatar",
+                "cancelButtonText": "Leave"
+            },
+            "savePopup": {
+                "title": "Avatar saved !",
+                "description": "Try it now in the Game Maker.",
+                "alternative": "Your Avatar has been saved !",
+                "buttonText": "Go to Game Maker"
+            }
+        },
+        "loginModal": {
+            "title": "Login or Create an account",
+            "description": "You have to link your crypto-wallet in order to login",
+            "wallet": "What's a crypto-wallet ?",
+            "whatsAWallet": "A crypto-wallet is the place where you can safely store all your cryptocurrencies and digital game ASSETS.",
+            "continue": "Continue with",
+            "agree": "By creating an account and linking your crypto-wallet to it, you agree to our",
+            "terms": "Terms and Conditions",
+            "allowWallet": "Please allow your wallet",
+            "bitski": {
+                "title": "Bitski",
+                "value": "Connect your wallet",
+                "signin": "Please sign-in with Bitski"
+            },
+            "email": {
+                "title": "Email",
+                "value": "Connect your wallet"
+            },
+            "web": {
+                "title": "Web 3",
+                "value": "Install your wallet"
+            },
+            "social": {
+                "title": "Social",
+                "value": "Continue with",
+                "signin": "Please sign-in with Arkane"
+            },
+            "login": "I already have an account",
+            "waiting": "Please login / sign-up with Arkane"
+        },
+        "signinModal": {
+            "title": "Login",
+            "description": "You'll need to be logged in to upload to the Marketplace.",
+            "forgotPassword": "I forgot my password",
+            "buttonText": "Login",
+            "withWallet": "You can also login with your Wallet.",
+            "walletButtonText": "Login with your wallet",
+            "placeholders": {
+                "usernameOrEmail": "Your username or email",
+                "password": "Your password"
+            },
+            "errors": {
+                "usernameEmailMissing": "Username / email is missing",
+                "passwordMissing": "Password is missing",
+                "userPasswordMismatches": "User or password mismatches"
+            }
+        },
+        "forgotModal": {
+            "title": "Recover Password",
+            "emailOrUsername": "Your Email or Username",
+            "recover": "Recover",
+            "sent": "Email has been sent to your email",
+            "emailTo": "We have sent you an email to",
+            "changeAfterEmail": "so you can change your password.",
+            "errors": {
+                "emailUsernameIsRequired": "Email or username is required"
+            }
+        },
+        "metamaskWalletModal": {
+            "title": "You are almost there!",
+            "description": "Complete this fields with your email and nickname",
+            "required": "This field is required",
+            "confirm": "I hereby confirm I approved the",
+            "terms": "Terms of use"
+        },
+        "signupPasswordModal": {
+            "title": "Last step !",
+            "description": "Set your password to use it in the Game Maker",
+            "password": "Password",
+            "repeatPassword": "Repeat your password",
+            "errors": {
+                "newPasswordIsRequired": "New Password is required",
+                "newPasswordTooShort": "New Password too short",
+                "passwordDoNotMatch": "Passwords do not match"
+            },
+            "completeSteps": "Complete this step to login into the Game Maker, you could always",
+            "skip": "skip",
+            "completeLater": "this and complete it later."
+        }
+    }
 }
