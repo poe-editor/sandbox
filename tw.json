@@ -1,1 +1,4212 @@
-
+{
+    "common": {
+        "sandbox": "《The Sandbox》",
+        "$sand": "$SAND",
+        "sand": "SAND",
+        "land": "LAND",
+        "location": "位置",
+        "size": "大小",
+        "parcel": "宗地",
+        "estate": "ESTATE",
+        "unique": "獨特",
+        "back": "返回",
+        "new": "全新",
+        "save": "儲存",
+        "email": "電子郵件",
+        "nickname": "暱稱",
+        "price": "價格",
+        "catalyst": {
+            "title": "催化劑",
+            "legendary": "傳奇",
+            "epic": "史詩",
+            "rare": "稀有",
+            "common": "常見",
+            "none": "無"
+        },
+        "gems": {
+            "title": "GEM",
+            "power": "力量",
+            "defense": "防禦",
+            "speed": "速度",
+            "magic": "魔法",
+            "luck": "幸運值"
+        },
+        "catalystGemShopTitle": "催化劑與GEM商店",
+        "catalystGemShopDesc": "",
+        "tax": "費用",
+        "duration": "持續時間",
+        "day": "天",
+        "days": "天",
+        "hours": "小時",
+        "minutes": "分鐘",
+        "seconds": "秒",
+        "referred": "轉介",
+        "3d": {
+            "preview": "預覽",
+            "view": "查看 3D",
+            "idle": "閒置",
+            "deathPose": "死亡姿勢",
+            "eat": "吃",
+            "fly": "飛行",
+            "take": "起飛",
+            "glide": "滑行",
+            "death": "死亡",
+            "fall": "墜落",
+            "hit": "遭擊",
+            "taunt": "嘲笑",
+            "attack": "攻擊",
+            "landing": "降落",
+            "skyAttack": "空中攻擊",
+            "idleFly": "惰速飛行",
+            "walk": "行走"
+        },
+        "gameExperiences": {
+            "title": "遊戲體驗",
+            "cards": {
+                "1": {
+                    "title": "Hack the tao",
+                    "description": "《Hack the tao》是義大利藝術家雙人組 Hackatao 為《The Sandbox》遊戲所設計的第一個藝術遊戲"
+                },
+                "2": {
+                    "title": "Shinytures:Finding The Lost Creatures",
+                    "description": "《Shinytures:Finding The Lost Creatures》是一款冒險遊戲，你將在其中扮演空間組織成員，完成一系列令人著迷的任務。"
+                },
+                "3": {
+                    "title": "Viking Fjord",
+                    "description": "進入充滿維京風格的場景，成為真正的探險家。玩家回到了過去，體驗 Fjord 的生活。"
+                },
+                "4": {
+                    "title": "Dethrone",
+                    "description": "《Dethrone》是款奇幻角色扮演冒險遊戲，玩家在遊戲中的任務是要完成神秘統治者所指派的任務，恢復地區秩序。"
+                },
+                "5": {
+                    "title": "Mushroom Mania",
+                    "description": "Mushroom Mania 是一款收集馬拉松平台遊戲，背景設定在巨大的奇幻蘑菇世界。"
+                },
+                "6": {
+                    "title": "Tombs of Treasures",
+                    "description": "Tombs of Treasures 是一個動作平台冒險步行模擬器。遊戲中，冒險家 Liu Fogel 前往叢林尋找寶藏。"
+                },
+                "7": {
+                    "title": "Sweet village",
+                    "description": "他是 Rex。古老的軟糖熊訴說著各種傳說，但理所當然地，沒有人可以解釋 Rex 是如何落入這個糖果世界裡的。誰知道呢，說不定是因為他吃了太多的糖果才會來到這裡。"
+                },
+                "8": {
+                    "title": "3D Print your life",
+                    "description": "你用過 3D 列印機嗎？根據 CNC (電腦數值控制) 概念，3D 列印機可以幫你打造固體物件。3D 列印技術已問世多年，但直到近年來一般人才比較容易取用這項技術。"
+                }
+            },
+            "buttonText": "搶先註冊"
+        },
+        "articles": {
+            "title": "你可能感興趣的文章",
+            "link": "查看最新消息！",
+            "cards": {
+                "0": {
+                    "title": "The Sandbox",
+                    "description": "從 2D 到 3D"
+                },
+                "1": {
+                    "title": "ERC-1155",
+                    "description": "全新標準"
+                },
+                "2": {
+                    "title": "Minecraft",
+                    "description": "匯入你的作品"
+                },
+                "3": {
+                    "title": "NFT",
+                    "description": "使用者生成內容"
+                }
+            }
+        },
+        "roadmapTitle": "路線圖",
+        "yes": "是",
+        "no": "否",
+        "from": "從",
+        "to": "到",
+        "time": "時間",
+        "seeMore": "查看更多",
+        "learnMore": "瞭解詳情",
+        "website": "網站",
+        "congratulations": "恭喜",
+        "finish": "完成",
+        "shareIn": "分享到",
+        "ok": "確定",
+        "continue": "繼續",
+        "cancel": "取消",
+        "buy": "購買",
+        "sell": "出售",
+        "amountTo": "數量",
+        "premium": "優質",
+        "publish": "發佈",
+        "published": "已發佈",
+        "unpublished": "未發佈",
+        "clearFilters": "清除篩選條件",
+        "applyingFilters": "正在套用篩選條件...",
+        "play": "開始遊戲",
+        "copy": "複製",
+        "copies": "副本",
+        "amountCopies": "副本數量",
+        "soldout": "售完",
+        "doNotShow": "不再顯示",
+        "goToHome": "回到首頁",
+        "daysMonths": {
+            "day": "日期",
+            "SUN": "星期日",
+            "MON": "星期一",
+            "TUE": "星期二",
+            "WED": "星期三",
+            "THU": "星期四",
+            "FRI": "星期五",
+            "SAT": "星期六",
+            "JAN": "1 月",
+            "FEB": "2 月",
+            "MAR": "3 月",
+            "APR": "4 月",
+            "MAY": "5 月",
+            "JUN": "6 月",
+            "JUL": "7 月",
+            "AUG": "8 月",
+            "SEP": "9 月",
+            "OCT": "10 月",
+            "NOV": "11 月",
+            "DEC": "12 月"
+        },
+        "assetAuction": {
+            "viewAssetDetail": "查看 ASSET 詳情",
+            "catalyst": "CATALYST",
+            "gems": "GEM",
+            "amountTo": "數量",
+            "buy": "購買",
+            "sell": "出售",
+            "copies": "副本：",
+            "price": "價格",
+            "priceIn": "價格",
+            "sand": "SAND",
+            "priceDisclaimerSell": "你的 ASSET 出售時會加上 5% 的《The Sandbox》佣金。",
+            "priceDisclaimerCancel": "你上架的 ASSET 價格已加上 5% 的《The Sandbox》佣金。",
+            "putOnSale": "出售",
+            "cancel": "取消",
+            "continue": "繼續",
+            "noCopies": "目前沒有可出售的副本",
+            "yourAsset": "你的 ASSET",
+            "wasPosted": "已成功上架出售。再過一陣子即可看見你的 ASSET 上架。",
+            "finish": "完成",
+            "datePickerStep": {
+                "date-from": "起始日期",
+                "date-to": "截止日期",
+                "noPastDates": "開始日期應為現在時間的 5 分鐘之後",
+                "confirmDates": "確認",
+                "nextDate": "繼續"
+            }
+        },
+        "invalid-amount": "Invalid Amount"
+    },
+    "layout": {
+        "topbar": {
+            "signin": "登入",
+            "buy": {
+                "title": "立即購買！",
+                "cards": {
+                    "binance": "在 Binance 上購買 SAND",
+                    "uniswap": "在 Uniswap 上購買 SAND",
+                    "simplex": "在 Simplex 上購買 SAND"
+                },
+                "values": {
+                    "binance": "Binance",
+                    "uniswap": "Uniswap",
+                    "simplex": "Simplex"
+                },
+                "how": "如何購買 SAND",
+                "about": "ETH 可用來購買必要的礦工費，且會隨交易速率影響價格。",
+                "buy": "購買 ETH：",
+                "out": "$SAND 已用完",
+                "requiredAmount1": "你需要",
+                "requiredAmount2": "完成交易"
+            },
+            "lottery": {
+                "inPreseason": "在 Alpha",
+                "outPreseason": "不在 Alpha",
+                "balance": {
+                    "balance": "目前餘額",
+                    "noLandsText": "你已失去可讓你體驗所有季前內容的 LAND。你需要有 LAND 才能解鎖內容",
+                    "preRegistered": "你已成功搶先註冊",
+                    "go": "前往季前內容"
+                }
+            }
+        },
+        "sidebar": {
+            "home": "首頁",
+            "play": "Alpha",
+            "shop": "市場",
+            "create": "建立",
+            "map": "地圖",
+            "about": "關於",
+            "mod": "修改",
+            "admin": "管理員",
+            "user": "我"
+        },
+        "footer": {
+            "community": {
+                "title": "加入我們的社群",
+                "description1": "成為我們超棒社群的一分子，並隨時關注",
+                "description2": "最新消息。",
+                "buttonText": "加入我們"
+            },
+            "pages": {
+                "title": "頁面",
+                "news": "最新消息",
+                "create": "建立",
+                "market": "市場",
+                "play": "開始遊戲",
+                "whitepaper": "白皮書",
+                "faq": "常見問題",
+                "map": " 地圖",
+                "sand": "SAND",
+                "press": "新聞稿",
+                "terms": "使用條款",
+                "onepager": "單頁計劃書",
+                "license": "授權",
+                "careers": "職缺"
+            },
+            "social": "社群媒體",
+            "copyright": "Copyright ©",
+            "rights": "保留所有權利"
+        },
+        "createAvatarModal": {
+            "title": "獲得你自己的 LAND NFT",
+            "description": "前往 OpenSea 探索可出售的各式 LAND 和 NFT。",
+            "buttonText": "購買 LAND",
+            "notAgain": "不再顯示"
+        }
+    },
+    "home": {
+        "meta": {
+            "title": "《The Sandbox》遊戲 -用戶產生的加密與區塊鏈遊戲",
+            "description": "在《The Sandbox》盡情揮灑天馬行空的創意。在區塊鏈中透過體素藝術創造收益！一邊打造，一邊遊戲！",
+            "keywords": "sandbox,體素藝術, 3D體素遊戲,體素藝術家, 3D 線上電腦遊戲, 社群, 區塊鏈 dapp, 電腦體素遊戲, 電腦體素藝術, 去中心化遊戲",
+            "og": {
+                "title": "由玩家打造的去中心化遊戲元宇宙。",
+                "description": "《The Sandbox》是去中心化的社群型元宇宙，可讓創作者在區塊鏈中透過體素 ASSET 和遊戲體驗創造收益！",
+                "url": "https://sandbox.game",
+                "site_name": "《The Sandbox》",
+                "image": "https://www.sandbox.game/media/The-Sandbox-Banner1-1200px.png"
+            },
+            "twitter": {
+                "title": "由玩家打造的去中心化元宇宙。",
+                "description": "《The Sandbox》是去中心化的社群型元宇宙，可讓創作者在區塊鏈中透過體素 ASSET 和遊戲體驗創造收益！",
+                "card": "由玩家打造的去中心化遊戲平台。",
+                "site": "@thesandboxgame",
+                "creator": "@thesandboxgame",
+                "image": "https://www.sandbox.game/media/The-Sandbox-Banner1-1200px.png"
+            }
+        },
+        "header": {
+            "title": "歡迎來到開放式元宇宙",
+            "description": "在由玩家所打造的虛擬元宇宙中，一同遊玩、建立、創造和治理世界\n",
+            "preseason": "探索我們的第一季度",
+            "buttonText": "Play the Alpha",
+            "discover": "Snoop Dogg",
+            "howToJoin": "如何加入？",
+            "buyLand": "購買 Land",
+            "alphaOpened": "THE ALPHA IS NOW OPEN",
+            "alpha": "Alpha",
+            "alphaDate": "自 11 月 29 日到 12 月 20 日",
+            "readMore": "更多資訊",
+            "playButtonText": "遊玩 Alpha"
+        },
+        "discover": {
+            "title": "探索《The Sandbox》",
+            "description": "在《The Sandbox》這個虛擬元宇宙，玩家可以遊戲、打造、擁有自己的虛擬體驗，並以此賺取收益。我們讓藝術家、創作者和玩家得以打造自己夢寐以求的平台，提供你一個揮灑創意的天地。",
+            "buttonText": "搶先註冊"
+        },
+        "nft": {
+            "title": "NFT",
+            "description": "非同質化代幣 (NFT) 指的是鑄造於區塊鏈的虛擬代幣，具備數位稀缺性、安全性和可信賴性。這些代幣獨一無二、不可分割且無法替換－－實現了真正的遊戲資產數位擁有權。",
+            "buttonText": "購買 Asset"
+        },
+        "land": {
+            "title": "在你自己的 LAND 上打造",
+            "description": "非同質化代幣 (NFT) 指的是鑄造於區塊鏈的虛擬代幣，具備數位稀缺性、安全性和可信賴性。這些代幣獨一無二、不可分割且無法替換－－實現了真正的遊戲資產數位擁有權。",
+            "buttonText": "購買 Land",
+            "discoverMap": "探索地圖"
+        },
+        "sand": {
+            "title": "為什麼要使用 SAND？",
+            "description": "$SAND 是我們的主要功能型代幣，可讓你用來購買和出售《The Sandbox》元宇宙中的 LAND 和 ASSET。",
+            "buttonText": "購買 "
+        },
+        "snoopDogg": {
+            "title": "從街頭到 SANDBOX",
+            "paragraph1": "Snoop Dogg 於元宇宙登場",
+            "paragraph2": "取得你的 Snoop Dogg 私人派對通行證，獲准進入他的豪宅",
+            "button": "瞭解更多"
+        }
+    },
+    "season": {
+        "menu": {
+            "play": "開始遊戲",
+            "rewards": "獎勵",
+            "info": "資訊"
+        },
+        "play": {
+            "selectAvatar": "選取你的虛擬人像",
+            "enter": "進入 Alpha 中心 (Alpha Hub)",
+            "learnMore": "進一步瞭解 Alpha",
+            "legend": "需要 Alpha 方面的幫助嗎？",
+            "sendFeedback": "Send Feedback",
+            "alpha": {
+                "title": "歡迎來到《The Sandbox》內部 Alpha 版！",
+                "description": "元宇宙之門正逐漸敞開，我們需要你協助我們將這裡變成加密之地！在這裡填寫我們的意見回饋表單，就能賺取 1000 SAND！希望你玩得愉快！",
+                "buttonText": "這裡"
+            },
+            "sidebarRight": {
+                "progressTitle": "最新進度",
+                "noProgress": "你還沒有進度可領取",
+                "unlockedTitle": "已解鎖最新遊戲體驗",
+                "noUnlocked": "還沒有未解鎖的體驗",
+                "schedule": "顯示行事曆",
+                "scheduleText": "按一下日期即可查看全新推出的體驗和以 SAND 為獎勵的已預定社交活動！",
+                "ready": "你準備好了嗎？",
+                "noEvents": "沒有任何已預定的活動",
+                "moreExperiences": "即將推出更多體驗"
+            },
+            "welcome": {
+                "back": "返回",
+                "next": "繼續",
+                "understood": "已瞭解",
+                "slide1": {
+                    "title": "歡迎！",
+                    "description": "讓我為你介紹環境！準備好開始了嗎？"
+                },
+                "slide2": {
+                    "title": "選取體驗",
+                    "description": "按一下地圖上的體驗即可查看相關詳情。"
+                },
+                "slide3": {
+                    "title": "準備開始遊戲",
+                    "description": "若要瞭解更多請按一下「更多詳情」，或按「開始遊戲」來進入遊戲！"
+                }
+            },
+            "pass": {
+                "dontOwn": "你沒有 Alpha 通行證。",
+                "endingSoon": "Alpha 即將結束",
+                "welcomeAlpha": "歡迎來到 Alpha",
+                "findOpensea": "在 Opensea 尋找",
+                "seeRewards": "查看獎勵"
+            },
+            "tooltips": {
+                "pendingExplore": "尚未造訪",
+                "explored": "已造訪",
+                "locked": "已鎖定",
+                "multiplayer": "多人遊戲",
+                "singleplayer": "單人遊戲",
+                "quest": "任務",
+                "completed": "已完成",
+                "notCompleted": "未完成",
+                "alphaCompleted": "Alpha 任務：已完成",
+                "alphaNotCompleted": "Alpha 任務：未完成",
+                "lockedDate": "推出日期：{日期}"
+            },
+            "details": {
+                "progress": "季度進度",
+                "creator": "創作者"
+            },
+            "loading": {
+                "title": "《The Sandbox》正在載入中...",
+                "description": "準備進入元宇宙！"
+            },
+            "download": {
+                "title": "《The Sandbox》遊戲時間到了！",
+                "alpha": "取得 Game Maker Alpha",
+                "downloadInstall": "下載並安裝",
+                "downloadGameMaker": "下載 Game Maker",
+                "optionText": "如果你還沒有下載客戶端，可以在此下載",
+                "macOsDownload": "Mac OS 即將推出"
+            },
+            "thanks": {
+                "title": "感謝你加入《The Sandbox》",
+                "step1": "按一下以執行《The Sandbox》安裝程式。",
+                "step2": "按一下右鍵並選擇「以系統管理員身分執行」。",
+                "step3": "按一下「完成」以結束安裝程序。",
+                "step4": "安裝完成後，請點選下方的「開始遊戲」！"
+            },
+            "liveSupport": "即時客服",
+            "joinDiscord": "加入 Discord"
+        },
+        "pass": {
+            "title": "獎勵",
+            "subtitle": "Alpha",
+            "level": "等級",
+            "season": {
+                "reward": "獎勵",
+                "totalSand": "1,000 SAND",
+                "totalPool": "總價格池為 500 萬 SAND！",
+                "maximumTotal": "最大獎勵總計",
+                "totalDescription": "每個玩家可以贏得最多 1,000 SAND。",
+                "useThis": "使用此 NFT ",
+                "gameMaker": "Game Maker",
+                "totalSandReward": "1,000 SAND"
+            },
+            "rewards": {
+                "description": "你的物品欄必須要有 Alpha 通行證，才能在 Alpha 結束時領取獎勵",
+                "claim": "領取",
+                "alpha": "Alpha",
+                "alphaEnded": "ALPHA 已結束",
+                "inProgress": "進行中",
+                "endingSoon": "即將結束",
+                "timeLeft": "剩餘時間",
+                "timeLeftToClaim": "剩餘領取時間",
+                "seasonOver": "《The Sandbox》Alpha 已結束",
+                "seasonOverDescription": "感謝參與 Alpha，我們已經將你的獎勵準備好了！開放領取後，點擊下方的領取按鍵。",
+                "description2": "您已領取你的獎勵！它們應會在確認領取不久後出現在你的物品欄和錢包中",
+                "claimed": "已領取",
+                "howToLevel": "如何升級並贏得獎勵",
+                "levelUpDescription": "需要完成所有由元宇宙嚮導發送給你的",
+                "levelUpDescription2": "才能升級",
+                "levelUpDescription3": "前往 Alpha 地圖尋找有",
+                "levelUpDescription4": "符號的體驗並開始遊玩。",
+                "alphaQuests": "Alpha 任務",
+                "playTutorial": "播放教學",
+                "stayInTouch": "保持聯絡",
+                "seeAction": "正式版再會",
+                "findAlpha": "尋找 Alpha 任務",
+                "seasonLockedTitle": "你沒有 Alpha 通行證",
+                "seasonLockedDescription": "你需要 Alpha 通行證才能夠進行 Alpha 並獲得 1,000 SAND 和 3 個非同質化代幣獎勵",
+                "seasonLockedButton": "在 Opensea 尋找"
+            },
+            "experienceToVisit": "Alpha 任務已完成"
+        },
+        "info": {
+            "title": "歡迎來到 Alpha",
+            "description": {
+                "1": "Alpha 是第一款官方",
+                "2": "邊玩邊賺",
+                "3": "《The Sandbox》版本！",
+                "4": "獲得 Alpha 通行證，邊玩邊賺",
+                "5": "1,000 SAND 和超酷非同質化代幣獎勵！"
+            },
+            "join": {
+                "title": "加入",
+                "description1": "你需要 Alpha 通行證",
+                "description2": "才能獲得 Alpha 的所有內容和獎勵",
+                "description3": "不過所有玩家都能進入 Alpha 中心 (Alpha Hub) 和 3 項體驗！",
+                "bulletPoints": {
+                    "title": "如何獲得 Alpha 通行證？",
+                    "firstTitle": "抽獎活動：",
+                    "firstDescription": "地主能夠註冊抽獎活動，獲得贏得 Alpha 通行證的機會。",
+                    "secondTitle": "每日競賽：",
+                    "secondDescription1": "只要參與 Alpha 中心 (Alpha Hub) 中的每日競賽，所有人都有機會贏得 Alpha 通行證。持續關注",
+                    "secondDescription2": "《The Sandbox》最新消息",
+                    "secondDescription3": "和供大家參與的社群媒體。",
+                    "thirdTitle": "OpenSea：",
+                    "thirdDescription1": "所有人都能",
+                    "thirdDescription2": "在 OpenSea 購買 Alpha 通行證",
+                    "thirdDescription3": "若有人願意販售的話"
+                }
+            },
+            "earn": {
+                "title": "遊戲獲利",
+                "subtitle1": "擁有 Alpha 通行證",
+                "firstDescription1": "邊玩邊賺：",
+                "firstDescription2": "獲得",
+                "firstDescription3": "1,000 SAND 和 3 個超酷非同質化代幣獎勵。",
+                "secondDescription1": "內容：",
+                "secondDescription2": "你可以進入 Alpha 中心 (Alpha Hub) 並進行 18 項體驗。",
+                "subtitle2": "沒有 Alpha 通行證",
+                "fourthDescription1": "邊玩邊賺：",
+                "fourthDescription2": "你需要 Alpha 通行證才能獲得 Alpha 獎勵",
+                "fifthDescription1": "內容：",
+                "fifthDescription2": "你可以進入 Alpha 中心 (Alpha Hub) 並進行 3 項體驗。"
+            },
+            "whatCanIEarn": {
+                "title1": "我能",
+                "title2": "贏得什麼？",
+                "text1": "1,000 SAND",
+                "text2": "3 個獨家 Alpha 非同質化代幣"
+            },
+            "howDoIEarn": {
+                "title1": "如何",
+                "title2": "贏得獎勵？",
+                "description1": "完成 Alpha 任務 ",
+                "description2": "即可升級",
+                "description3": "你的 Alpha 通行證並贏得獎勵。",
+                "description4": "在 Alpha 結束的 12 月 20 日那天就可以領取所有的 Alpha 獎勵。",
+                "alphaQuests": "Alpha 任務",
+                "firstText": {
+                    "title": "尋找 Alpha 任務",
+                    "text1": "在每項體驗中，元宇宙嚮導都會給予你一個",
+                    "text2": "來完成。",
+                    "text3": "尋找藍色驚嘆號即可找到他！",
+                    "button": "前往遊玩地圖"
+                },
+                "secondText": {
+                    "title": "完成 Alpha 任務",
+                    "text1": "為了完成",
+                    "text2": "你將會需要探索元宇宙才能找到超棒的地點。"
+                },
+                "thirdText": {
+                    "title": "解鎖獎勵",
+                    "text1": "完成",
+                    "text2": "越多，就會解鎖越多獎勵。",
+                    "text3": "完成一些",
+                    "text4": "即可解鎖 Alpha 通行證的所有獎勵。"
+                },
+                "fourthText": {
+                    "title": "領取獎勵！",
+                    "text1": "你將能夠在 Alpha 的最後一天 (12 月 20 日) 領取已解鎖的獎勵。",
+                    "text2": "在當天你的錢包內必須擁有 Alpha 通行證才能領取。",
+                    "text3": "請不要在 Alpha 結束後 (12 月 20 日) 在 Opensea 上購買 Alpha 通行證。請參閱常見問答了解更多資訊。"
+                }
+            },
+            "faq": {
+                "faqTitle": "常見問答",
+                "about": {
+                    "title": "關於 Alpha",
+                    "text1": "誰能進入 Alpha 季度 v1？",
+                    "description1": "任何擁有 Alpha 通行證的人都能進入 Alpha 內容 (Alpha 中心 (Alpha Hub) 和 17 項體驗) 並贏得最高 1,000 SAND 以及 3 個非同質化代幣獎勵。沒有 Alpha 通行證的玩家僅能參與內容受限的 Alpha (Alpha 中心 (Alpha Hub) 以及 3 項體驗) 並參與每日社群競賽，嘗試贏得 Alpha 通行證。",
+                    "text2": "Alpha 將會進行多久？",
+                    "description2": "Alpha 將會從 11 月 29 日開始，並於 2021 年 12 月 20 日結束。 "
+                },
+                "howToJoin": {
+                    "title": "加入 Alpha",
+                    "text1": "如何獲得 Alpha 通行證？",
+                    "bulletPoints": {
+                        "title1": "- 抽獎活動：",
+                        "description1": "我們將會透過替地主開放特殊抽獎活動，獎勵早期的支持者們。地主能夠註冊抽獎活動，獲得贏得 Alpha 通行證的機會。註冊將會在 Alpha 開始後不久開放。擁有越多 LAND，就有越多機會贏得 Alpha 通行證。一塊 LAND ＝ 1 次抽獎活動機會。",
+                        "title2": "- 每日競賽：",
+                        "description2": "只要參與 Alpha 中心 (Alpha Hub) 中的每日競賽，所有玩家都有機會贏得 Alpha 通行證。每日競賽將會在每個平日舉行。密切注意《The Sandbox》的 Twitter 和 Discord，得知舉行時間。",
+                        "title3": "- 在 OpenSea 上購買：",
+                        "description3": "如果你沒有贏得 Alpha 通行證，某些地主可能會想要販售，你也可以在 OpenSea 上購買一張。別錯過了！",
+                        "warning": "警告：在 Alpha 於 12 月 20 日結束後，在 OpenSea 上購買 Alpha 通行證將不會讓你能夠領取獎勵。在此日期之後，我們強烈建議你不要在 OpenSea 上購買。"
+                    },
+                    "text2": "如何註冊抽獎活動？",
+                    "description2": "抽獎活動將會在 Alpha 開始數天前舉行。密切注意《The Sandbox》最新消息即可得知開始時間。抽獎活動開始後，前往",
+                    "hrefText": "https://www.sandbox.game/en/season/",
+                    "description3": "註冊。",
+                    "text3": "如果我只擁有 1 塊 LAND，我會有多少機會贏得 Alpha 通行證？",
+                    "description4": "你透過註冊能夠獲得 1 張抽獎券 (如果你擁有至少一塊 LAND)，每擁有一塊 LAND 就會額外獲得 1 張抽獎券。例如，如果你擁有 20 塊 LAND，你將會獲得 21 次贏得 Alpha 通行證的機會。",
+                    "text4": "如果我擁有多塊 LAND，能夠贏得多於 1 張的 Alpha 通行證嗎？",
+                    "description5": "不能，每個人只能獲得一張 Alpha 通行證。重點在於區分「抽獎券」和「Alpha 通行證」的不同。「抽獎券」是參加抽獎活動的門票。擁有越多 LAND，你就有越多張門票 (抽獎券)，得獎的機率也會越高。某個擁有多塊 LAND 的人將會擁有多張抽獎券，以及更多得獎的機會。不過一個人只能獲得一張「Alpha 通行證」。"
+                },
+                "playing": {
+                    "title": "遊玩 Alpha",
+                    "text1": "我需要什麼才能遊玩 Alpha？",
+                    "description1": "- 你需要在 Windows 上遊玩 (其他的電腦作業系統和行動裝置版本將會在未來推出)。",
+                    "description2": "- 你需要固定的網路連線。",
+                    "description3": "- 若要獲得 Alpha 通行證和獎勵，你將會需要一些 ETH 來支付你的礦工費。",
+                    "requirements": {
+                        "title": "《The Sandbox》Alpha 遊戲客戶端最低系統需求",
+                        "1": "作業系統：Windows 10 64bit",
+                        "2": "NVIDIA GeForce GTX 760 或更新",
+                        "3": "i5-8400 或更新 (需要支援 AVX)",
+                        "4": "RAM：8192 Mb 或更高"
+                    },
+                    "text2": "如何遊玩 Alpha？",
+                    "description4": "你將會需要下載和 Alpha 一起推出的最新版本遊戲客戶端。所有人都能遊玩 Alpha 以及 3 項額外體驗，不過只有 Alpha 通行證持有者才能夠遊玩全部 18 項體驗，並在 Alpha 結束時領取獎勵。",
+                    "hrefText1": "點擊此處下載遊戲客戶端。",
+                    "text3": "我能夠在 Game Maker 上遊玩 Alpha 嗎？",
+                    "description5": "不能，你將會需要在遊戲客戶端上遊玩。在 Alpha 開放後，你能夠在此處",
+                    "hrefText2": "https://www.sandbox.game/",
+                    "description6": "下載遊戲客戶端。",
+                    "text4": "我沒有 Alpha 通行證；我依然能夠進行某些體驗嗎？",
+                    "description7": "是的，你能夠進入 Alpha 中心 (Alpha Hub) 並進行 3 項額外體驗：「非同質化代幣學院 (The NFT Institute)」藝廊、「XYZ 俱樂部 (Club XYZ)」跳舞俱樂部以及「當伊茲地下城 (Dungeon of Dum-Yz)」冒險。",
+                    "text5": "同時有多少人能夠進入一項體驗中？",
+                    "description8": "同時最多有 40 位玩家能夠進入同一項體驗中。若有多於 40 位玩家嘗試進入同一項體驗中，將會產生該體驗的新副本。這意味著當你正身處多人體驗中時，最多只會看到 39 位其他玩家，不過在其他副本中可能會有更多玩家。",
+                    "text6": "我該如何知道體驗何時會顯示？",
+                    "description9": "如果你在 Alpha 地圖上點擊體驗封面圖片，你將會看到其被顯示的日期與時間。在 Alpha 地圖的右上角，你也能夠找到顯示新體驗未來推出時間的行事曆。",
+                    "text7": "我可以和好友一起遊玩嗎？",
+                    "description10": "每項體驗最多同時會有 40 位玩家；如果玩家數大於此數量，將會建立新的副本來主持體驗。如果你和好友同時加入一項體驗，將會有很大的機會進入同一個副本中。如果你沒有和好友進入同一個副本中，你可以透過下列步驟加入他們：",
+                    "description11": "- 若要在進入遊戲後找到你的副本 ID，在聊天輸入",
+                    "description12": "/instances",
+                    "description13": "。",
+                    "description14": "- 若要進入好友的副本，在聊天中輸入",
+                    "description15": "/join <副本 ID>",
+                    "description16": "。例如：",
+                    "description17": "/join 2234",
+                    "description18": "即可加入副本 2234。",
+                    "description19": "在遊戲聊天中輸入",
+                    "description20": "/help",
+                    "description21": "查看聊天指令。",
+                    "text8": "在 Alpha 結束後，我能夠繼續遊玩 Alpha 嗎？",
+                    "description22": "不能，Alpha 結束後，在未來通知之前所有的體驗都不可用。",
+                    "text9": "玩家能夠遊玩我製作的遊戲嗎？",
+                    "description23": "可以，玩家們能夠使用 Game Maker Gallery 遊玩你創造的遊戲。然而，你還不能將遊戲在你的 LAND 上公開。我們正致力於在近期讓你能公開 LAND。",
+                    "text10": "什麼是聊天指令？",
+                    "commands": {
+                        "1": "/w 使用者名稱訊息；向使用者名稱傳送悄悄話訊息。",
+                        "2": "/m 訊息；向元宇宙頻道傳送訊息。",
+                        "3": "/I 訊息；向 LAND 頻道傳送訊息。",
+                        "4": "/respawn；傳送至重生點。",
+                        "5": "/users；顯示已連線玩家列表和數量。",
+                        "6": "/instances；顯示正在進行此體驗的可用副本。",
+                        "7": "/join 副本 ID；透過副本 ID 連線至該副本。",
+                        "8": "/north；傳送至北方的 LAND。",
+                        "9": "/south；傳送至南方的 LAND。",
+                        "10": "/east；傳送至東方的 LAND。",
+                        "11": "/west；傳送至西方的 LAND。",
+                        "12": "/表情符號名稱；觸發表情符號：hi、hello、agree、yes、wave、disagree、no、happy、sad、bored、dance、hophop 和 burnthefloor。",
+                        "13": "/Idle 停止目前表情符號。"
+                    }
+                },
+                "rewards": {
+                    "title": "Alpha 獎勵",
+                    "text1": "獎勵有什麼功用？",
+                    "description1": "- 你贏得的 SAND 是一種可以用於在《The Sandbox》市場中購買非同質化代幣的加密貨幣 (LAND、需你化身和市場 ASSET)。也可以用於在加密貨幣交易平台上進行交易。",
+                    "description2": "- Alpha 非同質化代幣獎勵為實體，能夠在 Game Maker 中用於創造自己的體驗。因為你的作品不僅僅會主持專屬 Alpha 非同質化代幣而在視覺上特別突出，也因為 Alpha 獎勵是非常強大的實體，他們也會變得更加有挑戰性。",
+                    "text2": "Alpha 獎勵是什麼？",
+                    "description3": "如果你擁有 Alpha 通行證，你將能夠獲得最高 1,000 SAND 和 3 個非同質化代幣。",
+                    "text3": "所有的獎勵都是非同質化代幣嗎？",
+                    "description4": "SAND 是一種加密貨幣。而非同質化代幣獎勵是夠在在 OpenSea 上保存貨交易的非同質化代幣，就像其他非同質化代幣一樣。",
+                    "text4": "如果我沒有 Alpha 通行證，有辦法贏得獎勵嗎？",
+                    "description5": "沒有，僅有 Alpha 通行證持有者們能夠贏得 Alpha 獎勵，不過所有人都能透過 Alpha 中心 (Alpha Hub) 的每日競賽贏得 Alpha 通行證。",
+                    "text5": "我只需要遊玩 Alpha 就能獲得 1,000 $SAND 嗎？",
+                    "description6": "要贏得 1,000 $SAND 獎勵，你將會需要邊玩邊賺，透過完成遊戲中 Alpha 任務，完成 Alpha 通行證的 5 個等級。Alpha 任務是非常簡單的任務，只需要探索 Alpha 體驗。查看獎勵頁面區域即可了解更多 Alpha 任務和獎勵的相關資訊。",
+                    "text6": "如果我贈送/販售我的 Alpha 通行證，我還能獲得完成等級的獎勵嗎？",
+                    "description7": "不能！請千萬注意！在 Alpha 結束的 12 月 20 日，你的錢包內「必須」擁有 Alpha 通行證才能領取獎勵。兩個人無法共享同一張 Alpha 通行證，獲得兩次獎勵。",
+                    "description8": "所有在結束時 (12 月 20 日 UST 時間 00:00) 錢包內擁有 Alpha 通行證的使用者都會獲得領取獎勵的資格，獲得資格後就能隨時領取獎勵，要立即領取，或甚至在你後來失去 Alpha 通行證後也可以。",
+                    "description9": "相對來說，所有在結束時 (12 月 20 日 UST 時間 00:00) 錢包內未擁有 Alpha 通行證的使用者將不會獲得領取獎勵的資格，不論如何，即便使用者在該日期後獲得 Alpha 通行證也一樣。",
+                    "description10": "這個系統是用於防止詐騙。",
+                    "text7": "我什麼時候可以領取獎勵？我可以在通過每個等級的同時領取獎勵嗎？",
+                    "description11": "你僅能在 Alpha 結束 (12 月 20 日)「後」才能領取透過升級解鎖的獎勵。在該日期後，你將會有足夠的時間領取獎勵，不過再也無法升級。",
+                    "text8": "Alpha 通行證能夠被交易。如果我在升級至等級 2 後將我的通行證交易出去會發生什麼事？",
+                    "description12": "進度並不綁定 Alpha 通行證，而是和帳戶綁定，Alpha 通行證只是能讓帳戶提升進度的鑰匙。",
+                    "description13": "舉例來說，如果你達到等級 2，然後將通行證給予好友，他們將會從等級 1 開始。如果你的朋友達到等級 3 然後將通行證還給你，你將會延續上次進度從等級 2 開始。如果你又將通行證還給好友，他們將會延續上次進度從等級 3 開始。",
+                    "description14": "不過，請注意！由於僅有一個人的錢包內會在 Alpha 結束時擁有通行證，所以僅有一個人能夠領取獎勵。你可以將通行證交易給好友，讓他們探索遊戲並玩得盡興，不過你需要取回通行證才能領取獎勵！",
+                    "text9": "如果 Alpha 通行證持有者在完成 Alpha 通行證後才將其交易出去會發生什麼事？",
+                    "description15": "Alpha 通行證持有者需要保有他們的 Alpha 通行證到 Alpha 結束為止才能領取獎勵。重要的是日期 (Alpha 結束的 12 月 20 日)，而非通行證上的進度。Alpha 通行證持有者必須保留通行證至結束日期，即便他們在該日期之前就完成所有目標。Alpha 結束後，Alpha 通行證就僅有紀念功用，任何人都無法使用它來提升進度或獲得獎勵。",
+                    "description16": "如果你希望提升進度和獲得獎勵，請不要在 Alpha 結束後 (12 月 20 日後) 才購買 Alpha 通行證。僅有如果你需要紀念品，不需要其功用的情況下才於 12 月 20 日後購買。"
+                },
+                "level": {
+                    "title": "進度",
+                    "text1": "如何提升 Alpha 進度？如何達到等級 5？",
+                    "description1": "你需要完成 Alpha 任務才能提升 Alpha 進度。進入 Alpha 中心 (Alpha Hub) 以外的任何體驗，尋找元宇宙嚮導。和他對話，獲得 Alpha 任務。你可以透過他頭上的藍色驚嘆號即可輕鬆找到他。",
+                    "description2": "要完成等級 5，你將會需要在遊戲內完成足夠的 Alpha 任務。不過，別擔心，它們都非常簡單，只需要探索體驗中的地點。",
+                    "text2": "我需要重複進行每日操作嗎？",
+                    "description3": "不需要每日活動。如果你想要的話，你可以一次完成所有目標。"
+                },
+                "presscoverage": {
+                    "title": "新聞稿撰寫",
+                    "text1": "撰寫新聞要如何進入 Alpha？",
+                    "description1": "記者和網紅能夠透過將《The Sandbox》帳戶設為白名單後加入遊戲，不需要擁有 Alpha 通行證即可進入所有體驗。不過，以此方式進入遊戲將無法獲得獎勵資格，僅有 Alpha 通行證的持有者擁有領取獎勵的資格。",
+                    "text2": "如何申請以新聞稿撰寫進入 Alpha？",
+                    "description2": "若要申請網紅通行證，請透過此處聯絡我們：contact@sandbox.game。請記得附上你的通訊頻道，以及觀眾、觸及率和進入 Alpha 的目標總覽。"
+                },
+                "security": {
+                    "title": "安全性",
+                    "text1": "如何讓我的錢包安全無虞？",
+                    "description1": "有很多不安好心的人等待機會，要得到你的代幣和非同質化代幣。你需要非常小心！我們建議你隨時謹記下列建議：",
+                    "bulletPoints": {
+                        "0": "不要和任何人分享你的種子碼",
+                        "1": "不要讓你的種子碼暴露在危險中",
+                        "2": "替錢包以及相關的帳戶建立高強度的密碼",
+                        "3": "使用主密碼強度非常高的密碼管理員",
+                        "4": "在任何情況下都不要在未上鎖錢包的情況下將其放置在瀏覽器上",
+                        "5": "加密 PC 硬碟並為其和你的使用者帳戶使用高強度的密碼",
+                        "6": "避免使用公共 Wi-Fi，如果無可避免，使用 VPN 保護自己",
+                        "7": "請不要點擊任何來自未知電子郵件、Discord、聊天訊息或其他來源的連結。",
+                        "8": "保持警戒"
+                    },
+                    "description2": "在此閱讀更多有關安全性的",
+                    "description3": "介紹。",
+                    "description4": "額外安全性資源：",
+                    "description5": "- 元面具的基本安全和安全性訣竅",
+                    "description6": "- 透過元面具成為你自己的銀行，你會需要做好這些最佳行為",
+                    "text2": "《The Sandbox》會要求我提供我的秘密複雜密碼嗎？",
+                    "description7": "不會，《The Sandbox》將不會要求你提供秘密複雜密碼，你也不應該項任何人分享你的秘密複雜密碼！分享你的秘密複雜密碼將會將你的錢包暴露在危險之中，可能會導致你失去所有代幣和非同質化代幣。",
+                    "text3": "如何檢舉可疑的活動？",
+                    "description8": "如果在社群媒體、電子郵件或 OpenSea 上發現任何可疑活動，你可以到我們的",
+                    "hrefText1": "Discord 頻道",
+                    "description9": "中的 #reporting-scams 頻道檢舉。你也可以透過 contact@sandbox.game 以電子郵件和我們聯絡",
+                    "text4": "如何得知 OpenSea 上的什麼 ASSET 是能夠安全購買的？",
+                    "description10": "在 OpenSea 上尋找 Alpha 通行證、ASSET 和 LAND 時，請確保它們是經過認證的《The Sandbox》收藏，並在",
+                    "hrefText2": "https://opensea.io/collection/sandbox 上。",
+                    "text5": "有什麼官方連結，讓我確保沒有受到詐騙？"
+                },
+                "roadmap": {
+                    "title": "路線圖",
+                    "text1": "會有更多像是 Alpha 的活動季嗎？什麼時候會舉行？",
+                    "description1": "有的，Alpha 結束後將會有更多活動季。下個活動季的日期尚未決定。"
+                }
+            },
+            "carousel": {
+                "0": "第 1 天，11 月 16 日：Alpha 中心 (Alpha Hub)",
+                "1": "第 2 天，11 月 17 日：非同質化代幣學院 (The NFT Institute)",
+                "2": "第 3 天，11 月 18 日：當伊茲地下城 (Dungeon of Dum-Yz)",
+                "3": "第 4 天，11 月 19 日：XYZ 俱樂部 (Club XYZ)"
+            }
+        },
+        "levelUp": {
+            "levelUp": "升級！",
+            "youReachedLevel": "你已達到等級 ",
+            "line1": "在季度結束時領取獎勵",
+            "goToTheMap": "前往地圖",
+            "backToTheSandboxHub": "最新進度"
+        },
+        "seasonCompleted": {
+            "title": "已完成所有季度等級！",
+            "youReachedLevel": "你已解鎖所有獎勵和 ",
+            "line1": "在季度結束時領取獎勵",
+            "continue": "繼續"
+        },
+        "seasonLocked": {
+            "title": "季票已鎖定",
+            "subtitle": "你需要擁有下列 NFT 才能解鎖內容",
+            "text1": "擁有這些 NFT 即可解鎖季票獎勵。",
+            "text2": "你需要保留這些 NFT 才能繼續使用此內容，缺少 NFT 會導致你無法存取此內容。",
+            "text3": "若有某些使用者願意割愛，市場上可能會有部分待售的 NFT",
+            "button": "在我們的市場中尋找"
+        },
+        "seasonOver": {
+            "seasonOver": "季度已結束！",
+            "claimAll": "現在你可以領取你所有的未解鎖獎勵",
+            "claim": "領取"
+        },
+        "level": "等級",
+        "notAvailable": {
+            "alphaNotAvailable": "非常感謝你使用《The Sandbox》。",
+            "paragraph1": "《The Sandbox》目前正在評估是否能在日本提供服務，Alpha 服務將無法提供給日本居民使用。",
+            "paragraph2": "在 2022 年，我們將會致力於替使用者提供更加滿意的服務。",
+            "paragraph3": "對於任何不便，我們深感抱歉，請見諒並配合。"
+        }
+    },
+    "assets": {
+        "meta": {
+            "description": "在《The Sandbox》區塊鏈 NFT 市場購買 [name] NFT。",
+            "keywords": "sandbox, nft, 市場, asset, 創作者, 收藏, atari, smurfs, binance, the walking dead, land, 實體",
+            "og": {
+                "description": "在《The Sandbox》區塊鏈 NFT 市場購買 [name] NFT。",
+                "site_name": "《The Sandbox》",
+                "image": "https://www.sandbox.game/images/logo.png"
+            },
+            "twitter": {
+                "description": "在《The Sandbox》區塊鏈 NFT 市場購買 [name] NFT。",
+                "site": "@thesandboxgame",
+                "creator": "@thesandboxgame",
+                "image": "https://www.sandbox.game/images/logo.png"
+            }
+        },
+        "smart": "智能合約",
+        "loadMoreUsers": "載入更多使用者",
+        "filterByName": "以名稱篩選",
+        "ban": "封鎖",
+        "unban": "取消封鎖",
+        "view": "查看",
+        "banAsset": "要封鎖 ASSET 嗎？",
+        "youAreAboutTo": "你即將",
+        "anAsset": "ASSET",
+        "title": "ASSET",
+        "sell": {
+            "title": "出售的 ASSET",
+            "viewDetails": "查看 ASSET 詳情",
+            "priceIn": "價格",
+            "putOnSale": "出售",
+            "disclaimer": {
+                "sell": "你的 ASSET 出售時會加上 5% 的《The Sandbox》佣金。",
+                "cancel": "你上架的 ASSET 價格已加上 5% 的《The Sandbox》佣金。"
+            }
+        }
+    },
+    "shop": {
+        "meta": {
+            "title": "《The Sandbox》商店 - 區塊鏈 NFT 市場",
+            "description": "《The Sandbox》市場為 NFT 市場，你可以在這裡尋找並以 SAND 購買創作者的 ASSET，將這些 ASSET 應用到你的 LAND。",
+            "keywords": "sandbox, nft, 市場, asset, 創作者, 收藏, atari, smurfs, binance, the walking dead, land, 實體",
+            "og": {
+                "title": "《The Sandbox》|《The Sandbox》商店 - 區塊鏈 NFT 市場",
+                "description": "《The Sandbox》市場為 NFT 市場，你可以在這裡尋找並以 SAND 購買創作者的 ASSET，將這些 ASSET 應用到你的 LAND。",
+                "url": "https://sandbox.game/shop/",
+                "site_name": "《The Sandbox》",
+                "image": "https://www.sandbox.game/images/logo.png"
+            },
+            "twitter": {
+                "title": "《The Sandbox》商店 - 區塊鏈 NFT 市場",
+                "description": "《The Sandbox》市場為 NFT 市場，你可以在這裡尋找並以 SAND 購買創作者的 ASSET，將這些 ASSET 應用到你的 LAND。",
+                "card": "《The Sandbox》商店 - 區塊鏈 NFT 市場",
+                "site": "@thesandboxgame",
+                "creator": "@thesandboxgame",
+                "image": "https://www.sandbox.game/images/logo.png"
+            }
+        },
+        "collectionsMeta": {
+            "title": "《The Sandbox》商店 - ",
+            "description": "在《The Sandbox》區塊鏈 NFT 市場購買 [name] NFT。",
+            "keywords": "sandbox, nft, 市場, asset, 創作者, 收藏, atari, smurfs, binance, the walking dead, land, 實體",
+            "og": {
+                "title": "《The Sandbox》商店 - ",
+                "description": "在《The Sandbox》區塊鏈 NFT 市場購買 [name] NFT。",
+                "url": "https://sandbox.game/shop/",
+                "site_name": "《The Sandbox》",
+                "image": "https://www.sandbox.game/images/logo.png"
+            },
+            "twitter": {
+                "title": "《The Sandbox》商店 - ",
+                "description": "在《The Sandbox》區塊鏈 NFT 市場購買 [name] NFT。",
+                "card": "《The Sandbox》商店",
+                "site": "@thesandboxgame",
+                "creator": "@thesandboxgame",
+                "image": "https://www.sandbox.game/images/logo.png"
+            }
+        },
+        "shopTitle": "商店",
+        "onSale": "出售",
+        "title": "歡迎來到 NFT 市場",
+        "subtitle": "你可以在這裡尋找並以 SAND 購買創作者的 ASSET，將這些 ASSET 應用到你的 LAND",
+        "welcomeTo": "歡迎來到",
+        "nftCollections": "NFT 收藏",
+        "fluid": "流暢性",
+        "transparency": "透明度",
+        "search": "搜尋",
+        "attributesTitle": "屬性",
+        "noCopies": "目前沒有可出售的副本",
+        "collections": {
+            "title": "NFT 集錦",
+            "sandbox": "《The Sandbox》",
+            "featured": "精選"
+        },
+        "nftTypes": {
+            "title": "NFT 類型",
+            "all": "全部",
+            "land": "LAND",
+            "entity": "實體",
+            "equipment": "裝備",
+            "wearable": "可穿戴物",
+            "art": "藝術品"
+        },
+        "rarities": {
+            "title": "催化劑",
+            "legendary": "傳奇",
+            "epic": "史詩",
+            "rare": "稀有",
+            "common": "常見",
+            "none": "無"
+        },
+        "attributes": {
+            "title": "GEM",
+            "power": "力量",
+            "defense": "防禦",
+            "speed": "速度",
+            "magic": "魔法",
+            "luck": "幸運值"
+        },
+        "behaviours": {
+            "title": "行為",
+            "allyFighter": "友軍戰士",
+            "animatedDecoration": "動態裝飾",
+            "assetSpawner": "ASSET 產生器",
+            "avatar": "虛擬化身",
+            "basicPlatform": "基本平台",
+            "bird": "鳥",
+            "button": "按鈕",
+            "citizen": "市民",
+            "door": "門",
+            "enemyFighter": "敵軍戰士",
+            "farmer": "農民",
+            "groundPredator": "地面獵食者",
+            "groundProtector": "地面守護者",
+            "groundPrey": "地面獵物",
+            "healer": "療癒者",
+            "messageBroadcaster": "訊息廣播工具",
+            "replaceAsset": "取代 ASSET",
+            "void": "虛空",
+            "multi": "多重",
+            "plant": "植物",
+            "question": "問題"
+        },
+        "slots": {
+            "title": "插槽",
+            "head": "頭",
+            "torso": "軀幹",
+            "legs": "腿",
+            "feet": "腳"
+        },
+        "themes": {
+            "title": "生態域",
+            "atari": "Atari",
+            "city": "城市",
+            "fantasy": "奇幻",
+            "heroes": "英雄",
+            "horror": "恐怖",
+            "magic": "魔法",
+            "medieval": "中世紀",
+            "nature": "自然",
+            "none": "無",
+            "pirates": "掠奪者",
+            "realistic": "現實",
+            "retro": "懷舊",
+            "rural": "鄉村",
+            "sci-fi": "科幻",
+            "oracles": "神諭者",
+            "scientists": "科學家",
+            "theSandbox": "《The Sandbox》"
+        },
+        "categories": {
+            "title": "標籤",
+            "animal": "動物",
+            "building": "建築物",
+            "city": "城市",
+            "decoration": "裝飾",
+            "electric": "電子",
+            "fantasy": "奇幻",
+            "furniture": "傢俱",
+            "hazard": "危險",
+            "horror": "恐怖",
+            "humanoid": "人物",
+            "machine": "機器",
+            "magic": "魔法",
+            "medieval": "中世紀",
+            "metal": "金屬",
+            "monster": "怪物",
+            "nature": "自然",
+            "pirates": "掠奪者",
+            "plant": "植物",
+            "retro": "懷舊",
+            "rural": "鄉村",
+            "sci-fi": "科幻",
+            "sports": "運動",
+            "stone": "石頭",
+            "technology": "科技",
+            "terrain": "地形",
+            "tool": "工具",
+            "vehicle": "交通工具",
+            "weapon": "武器",
+            "wood": "木頭",
+            "sports_0": "運動 1",
+            "sports_1": "運動 2"
+        },
+        "coordinates": {
+            "title": "座標",
+            "first": "第一塊 LAND",
+            "last": "最後一塊 LAND"
+        },
+        "filters": {
+            "all": "全部",
+            "sale": "出售",
+            "notSale": "未出售"
+        },
+        "sorts": {
+            "title": "排序依據",
+            "newest": "最新",
+            "oldest": "最舊",
+            "lowerPrice": "較低價格",
+            "highPrice": "最高價格",
+            "leastAmount": "最低數量",
+            "highAmount": "最高數量"
+        },
+        "sizes": {
+            "title": "尺寸",
+            "1x1": "1x1",
+            "3x3": "3x3",
+            "6x6": "6x6",
+            "12x12": "12x12",
+            "24x24": "24x24"
+        },
+        "enties": "NFT 實體",
+        "land": "OpenSea 上的 NFT LAND",
+        "results": "結果",
+        "noResults": "沒有結果",
+        "clearFilters": "清除篩選條件",
+        "price": {
+            "current": "目前價格",
+            "by": "來源",
+            "buttonText": "立即購買"
+        },
+        "token": "代幣 ID",
+        "minted": "已鑄造",
+        "sale": "出售",
+        "owner": "擁有者",
+        "owners": "擁有者",
+        "description": "描述",
+        "allSales": "全部商品",
+        "share": {
+            "text": "分享到",
+            "creator": "創作者",
+            "nft": "來自創作者的 NFT",
+            "more": "查看更多"
+        },
+        "creator": {
+            "title": "創作者",
+            "nft": "來自創作者的 NFT",
+            "more": "查看更多"
+        },
+        "create": {
+            "title": "建立 ASSET",
+            "text1": "創作者在設計 ASSET 時必須為所選屬性分配點數。",
+            "text2": "創作者可在創作 ASSET 期間變更屬性值。",
+            "text3": "Game Maker 發佈更新時，新的遊戲機制可以使用現有屬性或該次更新發佈的新屬性。",
+            "cards": {
+                "player": {
+                    "title": "玩家立場",
+                    "values": {
+                        "1": "屬性提供遊戲福利",
+                        "2": "沒有屬性也能玩遊戲",
+                        "3": "遊戲會在遊戲描述中展示所用的屬性"
+                    }
+                },
+                "creator": {
+                    "title": "創作者立場",
+                    "values": {
+                        "1": "遊戲機制會具備預設屬性",
+                        "2": "ASSET 需要必要屬性才能配合遊戲機制使用",
+                        "3": "創作者可以修改遊戲機制需要的屬性"
+                    }
+                }
+            },
+            "text4": "此系統對創作者 (讓創作者能隨意調整遊戲) 和玩家 (不限制遊戲存取權，而是調整福利多寡) 皆保有彈性。"
+        },
+        "buy": {
+            "asset": "購買的 ASSET",
+            "amount": "購買數量",
+            "copies": "副本",
+            "price": "價格",
+            "buttonText": "繼續"
+        },
+        "cart": {
+            "title": "購物車",
+            "add": "加入購物車",
+            "added": "已成功加入至你的購物車",
+            "remove": "從購物車移除",
+            "removed": "已成功從你的購物車移除",
+            "item": "物品",
+            "items": "物品",
+            "description": "將物品加入至購物車，然後開始購買流程！",
+            "emptyButtonText": "前往市場",
+            "goToCart": "前往購物車",
+            "total": "購物車總計",
+            "buy": "立即購買",
+            "notes": {
+                "text1": "*《The Sandbox》物品的價格和供應數量可能會有所變動。購物車為暫時存放物品清單的地方，並會反映各項物品的最新價格。",
+                "text2": "* 購買多項 ASSET 時，你可能需要在你的錢包上個別確認 ASSET。"
+            },
+            "menu": {
+                "item": "物品",
+                "tier": "層級",
+                "seller": "賣家",
+                "amount": "數量",
+                "price": "價格",
+                "status": "狀態"
+            }
+        },
+        "assets": {
+            "noGems": "此 ASSET 沒有任何寶石。",
+            "noAttributes": "此 ASSET 不具屬性",
+            "inRange": "屬性為一定範圍內的值。ASSET 鑄造完成後，創作者會指派最終數值。"
+        },
+        "removing": {
+            "title": "即將移除所有屬性。",
+            "description": " 確定要繼續嗎？"
+        },
+        "opensea": {
+            "disclaimerPart1": "這裡列出的所有 LAND 是由其他使用者在 OpenSea 上直接出售，幣別設為 SAND。所有顯示的價格為使用者直接設定，與《The Sandbox》的主要 LAND 銷售活動無關。若要在這裡顯示你的 LAND，請予以上架",
+            "disclaimerPart2": "並將幣別設為 SAND"
+        },
+        "claim": {
+            "claim": "領取",
+            "alreadyClaim": "已領取",
+            "putOnSale": "出售",
+            "saleQuestion": "確定要在我們的市場出售此 NFT 嗎？"
+        }
+    },
+    "create": {
+        "meta": {
+            "title": "在《The Sandbox》打造你自己的遊戲",
+            "description": "《The Sandbox》為你提供創造、組裝和分享 3D體素模型的獨特方式。製作並動態化你自己的 3D體素物件，然後在全球市場免費發佈/出售！",
+            "keywords": "sandbox, 創造, 創造體素藝術, 3D體素遊戲,體素藝術家,體素遊戲藝術,體素市場, 區塊鏈 dapp, 電腦體素遊戲, 電腦體素藝術",
+            "og": {
+                "title": "《The Sandbox》| 3D體素物件的創造、動態化、發佈和出售",
+                "description": "《The Sandbox》為你提供創造、組裝和分享 3D體素模型的獨特方式。製作並動態化 3D體素物件，然後在我們的全球市場發佈/出售。",
+                "url": "https://sandbox.game/create/",
+                "site_name": "《The Sandbox》",
+                "image": "https://www.sandbox.game/media/The-Sandbox-VoxEdit-Character-Preview.gif"
+            },
+            "twitter": {
+                "title": "《The Sandbox》| 3D體素物件的創造、動態化、發佈和出售",
+                "description": "《The Sandbox》為你提供創造、組裝和分享 3D體素模型的獨特方式。製作並動態化你自己的 3D體素物件，然後在全球市場發佈/出售。",
+                "card": "在去中心化的遊戲生態系統中創造。",
+                "site": "@thesandboxgame",
+                "creator": "@thesandboxgame",
+                "image": "https://www.sandbox.game/media/The-Sandbox-VoxEdit-Character-Preview.gif"
+            }
+        },
+        "menu": {
+            "gameMaker": "Game Maker",
+            "voxedit": "VoxEdit",
+            "avatar": "虛擬化身"
+        },
+        "gamemaker": {
+            "meta": {
+                "title": "《The Sandbox》遊戲",
+                "description": "在《The Sandbox》中創造精彩的全新體素宇宙。從零打造或從市場匯入現有模型，開始創造你自己的體素世界，與好友和社群一同分享！",
+                "keywords": "sandbox, 3D體素遊戲,體素市場, 社群, 區塊鏈 dapp, 電腦體素遊戲, 電腦體素藝術",
+                "og": {
+                    "title": "《The Sandbox》| 在精彩的體素宇宙中創造和遊戲",
+                    "description": "在《The Sandbox》中創造精彩的全新體素宇宙。從零打造或從市場匯入現有模型，開始創造你自己的體素世界，與好友和社群一同分享！",
+                    "url": "https://sandbox.game/game/",
+                    "site_name": "《The Sandbox》",
+                    "image": "https://www.sandbox.game/images/proposals-1.png"
+                },
+                "twitter": {
+                    "title": "《The Sandbox》| 在精彩的體素宇宙中創造和遊戲",
+                    "description": "在《The Sandbox》中創造精彩的全新體素宇宙。從零打造或從市場匯入現有模型，開始創造你自己的體素世界，與好友和社群一同分享！",
+                    "card": "在玩家所打造的遊戲生態系統中，一邊創造一邊遊戲。",
+                    "site": "@thesandboxgame",
+                    "creator": "@thesandboxgame",
+                    "image": "https://www.sandbox.game/images/proposals-1.png"
+                }
+            },
+            "header": {
+                "title": "打造你的遊戲。無需編寫程式碼",
+                "description": "將你的想像付諸實現所需的工具箱",
+                "buttonText": "下載"
+            },
+            "metaverse": {
+                "title": "打造元宇宙遊戲",
+                "description": "人人都能免費打造 3D 遊戲。無需編寫程式碼。為遼闊的元宇宙做出貢獻，帶來許多令人驚喜的作品和體驗。",
+                "buttonText": "下載"
+            },
+            "create": {
+                "1": {
+                    "title": "免費創造",
+                    "description": "運用數千個由社群以 VoxEdit 打造的體素模型 (NFT)，免費創造精彩無比的 3D 遊戲。",
+                    "image": "block 1.png"
+                },
+                "2": {
+                    "title": "打造並分享",
+                    "description": "打造自己的遊戲就像玩遊戲一樣有趣。放進收藏與好友分享，打造讓他們印象深刻的作品。",
+                    "image": "block 2.png"
+                },
+                "3": {
+                    "title": "無需編寫程式碼",
+                    "description": "簡單易學。創造行為和編輯屬性既簡單又直覺化",
+                    "image": "block 3.png"
+                }
+            },
+            "play": {
+                "title": "邊玩邊賺",
+                "description": "免費玩遊戲已經是過時的 2010 年概念了……在《The Sandbox》，你將能以自創遊戲賺取收益！我們為玩家和創作者設計的獎勵模型實現了邊玩邊賺的概念，具有實際價值的獎勵能激發玩家和創作者遊戲與創作的強烈動機。",
+                "listTitle": "如何在《The Sandbox》中創造收益？",
+                "earn": {
+                    "1": "開始遊戲，贏得獎勵",
+                    "2": "打造遊戲，賺取收益",
+                    "3": "創造並行銷 ASSET"
+                }
+            },
+            "videos": "收藏影片",
+            "requirementsTitle": "系統需求",
+            "requirements": {
+                "minimum": {
+                    "title": "最低",
+                    "text": {
+                        "bits": "需 64 位元處理器和作業系統",
+                        "os": "作業系統：Windows 7",
+                        "cpu": "處理器：Dual Core 2GHz",
+                        "ram": "記憶體：4 GB RAM",
+                        "gpu": "顯示卡：512MB VRAM",
+                        "directx": "DirectX：第 11 版",
+                        "storage": "儲存空間：2 GB 的可用空間"
+                    }
+                },
+                "recommended": {
+                    "title": "建議",
+                    "text": {
+                        "bits": "需 64 位元處理器和作業系統",
+                        "os": "作業系統：Windows 10",
+                        "cpu": "處理器：Quad Core 3GHz",
+                        "ram": "記憶體：8 GB RAM",
+                        "gpu": "顯示卡：2GB VRAM",
+                        "directx": "DirectX：第 11 版",
+                        "storage": "儲存空間：2 GB 的可用空間"
+                    }
+                }
+            },
+            "changelog": "更新日誌",
+            "gameExperiences": "使用《The Sandbox》打造的遊戲",
+            "download": {
+                "title": "下載 Game Maker"
+            },
+            "end": {
+                "text": "啟動遊戲，並開始體驗放入任何自創 ASSET 的滋味！",
+                "buttonText": "立即搶先註冊！"
+            }
+        },
+        "voxedit": {
+            "meta": {
+                "title": "《The Sandbox》- VoxEdit",
+                "description": "在《The Sandbox》中創造、動態化並遊玩。VoxEditor 這款全球首見的軟體能讓您創造、設定骨架並即時動態化自己的體素模型。",
+                "keywords": "sandbox, voxeditor, voxedit,體素編輯工具,體素藝術, 3D體素,體素藝術家,體素,體素市場, 區塊鏈 dapp, 電腦體素應用程式, 電腦體素藝術",
+                "og": {
+                    "title": "《The Sandbox》| 運用 VoxEditor 創造和動態化體素 ASSET",
+                    "description": "在《The Sandbox》中創造、動態化並遊玩。VoxEditor 這款全球首見的軟體能讓您創造、設定骨架並即時動態化自己的體素模型。",
+                    "url": "https://sandbox.game/editor/",
+                    "site_name": "VoxEdit",
+                    "image": "https://www.sandbox.game/media/VoxEdit-Create-Animate-Play.jpg"
+                },
+                "twitter": {
+                    "title": "《The Sandbox》| 運用 VoxEditor 創造和動態化體素 ASSET",
+                    "description": "在《The Sandbox》中創造、動態化並遊玩。VoxEditor 這款全球首見的軟體能讓您創造、設定骨架並即時動態化自己的體素模型。",
+                    "card": "由玩家打造的去中心化遊戲平台。",
+                    "site": "@voxedit",
+                    "creator": "@voxedit",
+                    "image": "https://www.sandbox.game/media/VoxEdit-Create-Animate-Play.jpg"
+                }
+            },
+            "header": {
+                "title": "VoxEdit - NFT 創作工具",
+                "description": "這款獨步全球的軟體能讓你創造、設定骨架並動態化你自己的體素 NFT。在《The Sandbox》的市場上出售你的作品，並探索全新世界。"
+            },
+            "models": {
+                "title": "創造你自己的體素模型",
+                "cards": {
+                    "1": "若要上傳你的模型，你需先透過我們的「創作者基金」成為藝術家。",
+                    "2": "VoxEdit 是唯一能將 ASSET 匯出至我們市場的軟體。下載 VoxEdit 並開始創造。",
+                    "3": "一旦完成自己的模型，就能按照下列簡單的步驟匯出至市場。"
+                },
+                "link": "瞭解詳情",
+                "buttonText": "下載 VoxEdit"
+            },
+            "features": {
+                "title": "VoxEdit 功能",
+                "cards": {
+                    "1": {
+                        "title": "模型製作工具",
+                        "description": "將創意發揮得淋漓盡致！多虧有我們強大的工具組和簡單易用的介面，從初學者到專家，人人都能製作精美的作品。"
+                    },
+                    "2": {
+                        "title": "動畫製作工具",
+                        "description": "轉變體素創造世界。VoxEdit 的骨幹系統能讓您使用時間軸透過簡單易用的關鍵影格模式，為您天馬行空的作品設定骨架並動態化。"
+                    },
+                    "3": {
+                        "title": "NFT 製作工具",
+                        "description": "在《The Sandbox》市場出售、交易和購買 VoxEdit ASSET，以你的創作賺取收益。所有交易 95% 的收入會歸創作者所有，也就是你！"
+                    }
+                }
+            },
+            "artists": {
+                "title": "我們藝術家的創造內容"
+            },
+            "quotes": {
+                "title": "體素藝術家的心得",
+                "cards": {
+                    "0": {
+                        "text": "VoxEdit 真的很厲害，這是款將建模編輯工具和動畫系統互相結合的軟體。",
+                        "job": "專業體素藝術家",
+                        "author": "William Santacruz"
+                    },
+                    "1": {
+                        "text": "對於需要動態化作品的體素藝術家而言，VoxEdit 這款市面上唯一的體素專用編輯工具，提供了骨幹建立和時間軸動畫功能，改變了業界現況。",
+                        "job": "專業體素藝術家",
+                        "author": "Alex Florez"
+                    },
+                    "2": {
+                        "text": "這款編輯工具展現了極具潛力的發展走向，還有專業團隊的支援。此外，工具內建的完整功能動畫系統更讓它與眾不同！",
+                        "job": "專業體素藝術家",
+                        "author": "Zach Soares"
+                    },
+                    "3": {
+                        "text": "這是創造體素藝術動畫最簡單好用的工具。這款工具充滿吸引力的介面，即使是初學者都能非常輕鬆上手。",
+                        "job": "專業體素藝術家",
+                        "author": "Nicolas Morrone"
+                    }
+                }
+            },
+            "changelog": "更新日誌",
+            "play": {
+                "title": "符合規則的遊戲！",
+                "text1": "預設尺寸為 32*32*32，在《The Sandbox》宇宙中會轉譯為公尺 (3,2 f)。",
+                "text2": "32x32x32 是一立方公尺內可容納的最大尺寸。虛擬化身為 2 個方塊高 (64體素)。",
+                "text3": "VoxEdit 隨附許多範本，可協助你展開創造的第一步，不過在此之前請先查看我們的技術指南，確認你的 ASSET 在遊戲製作工具中能呈現出最佳效果。",
+                "buttonText": "技術規格"
+            },
+            "funding": {
+                "title": "$200 萬創作者基金簡介",
+                "subtitle": "我們希望協助你在我們的平台創造、分享和出售你一流的體素作品",
+                "how": {
+                    "title": "以下是運作方式",
+                    "cards": {
+                        "1": "首先，由於我們希望能夠鼓勵品質最佳的體素 ASSET，因此你會需要先完成報名，以便我們評估你的作品",
+                        "2": "你製作的每個 ASSET 都能為你帶來收益，「並且」能從你賣出的每個作品獲得 100% 的利潤！",
+                        "3": "此基金的總體目標是要為遊戲製作 10,000 個體素 ASSET",
+                        "4": "除了補助金之外，你還能在《The Sandbox》正式上線時向玩家出售你的作品"
+                    }
+                },
+                "text": "此計劃僅限受理的前 1,000 名藝術家，因此不妨立刻報名，爭取享有福利的機會！",
+                "buttonText": "瞭解更多"
+            },
+            "download": {
+                "title": "下載 VoxEdit",
+                "buttonText": "下載"
+            }
+        },
+        "avatar": {
+            "meta": {
+                "title": "在《The Sandbox》內創造你的虛擬化身",
+                "description": "《The Sandbox》虛擬化身。自訂你的外觀，換上強化裝備，準備與你的好友在《The Sandbox》元宇宙中一同遊戲。",
+                "keywords": "sandbox, 創造, 創造體素藝術, 3D體素遊戲,體素藝術家,體素遊戲藝術,體素市場, 區塊鏈 dapp, 虛擬化身, 虛擬化身創作者",
+                "og": {
+                    "title": "《The Sandbox》| 在《The Sandbox》內創建你的虛擬化身",
+                    "description": "《The Sandbox》虛擬化身。自訂你的外觀，換上強化裝備，準備與你的好友在《The Sandbox》元宇宙中一同遊戲。",
+                    "url": "https://sandbox.game/create/avatar/",
+                    "site_name": "《The Sandbox》",
+                    "image": "https://www.sandbox.game/images/logo.png"
+                },
+                "twitter": {
+                    "title": "《The Sandbox》| 在《The Sandbox》內創建你的虛擬化身",
+                    "description": "《The Sandbox》虛擬化身。自訂你的外觀，換上強化裝備，準備與你的好友在《The Sandbox》元宇宙中一同遊戲。",
+                    "card": "在《The Sandbox》內創造你的虛擬化身",
+                    "site": "@thesandboxgame",
+                    "creator": "@thesandboxgame",
+                    "image": "https://www.sandbox.game/images/logo.png"
+                }
+            },
+            "header": {
+                "title": "《The Sandbox》虛擬化身",
+                "description": "自訂你的外觀，換上強化裝備，準備與你的好友在《The Sandbox》元宇宙中一同遊戲。",
+                "buttonText": "創造虛擬化身"
+            },
+            "section1": {
+                "1": {
+                    "title": "創造你的個人風格",
+                    "description": "快速混搭不同服飾、髮型和色彩，打造獨一無二的外觀。"
+                },
+                "2": {
+                    "title": "拓展人際關係",
+                    "description": "在《The Sandbox》虛擬世界中與好友會面，並與數千名玩家交流。"
+                },
+                "3": {
+                    "title": "穿上裝備，開始遊戲",
+                    "description": "穿上裝備強化你的屬性，並準備好開始遊戲。"
+                }
+            },
+            "section2": {
+                "title": "選取虛擬化身",
+                "subtitle": "找出你的個人風格，讓你與眾不同",
+                "description": "選用預先設計的虛擬化身輕鬆開始遊戲。我們的最佳藝術家設計了 20 款以上的模型供你任選，以便你加入《The Sandbox》元宇宙！",
+                "buttonText": "創造你的虛擬化身"
+            },
+            "section3": {
+                "comingSoon": "即將推出",
+                "title": "自訂你的虛擬化身",
+                "description": "快速混搭不同服飾、髮型和色彩，打造獨一無二的外表"
+            },
+            "section4": {
+                "title": "在虛擬世界中交流互動",
+                "description1": "以百變造型結識數千名玩家，並與他們互動交流。在《The Sandbox》的虛擬土地上與他們一同探索、發掘和遊戲。",
+                "description2": "展現最真實的一面：無限可能性。",
+                "buttonText": "下載"
+            },
+            "section5": {
+                "title": "使用裝備強化你虛擬化身的屬性",
+                "subtitle": "即將推出",
+                "part1": {
+                    "title": "為你的虛擬化身換上裝備，並取得特殊技能。",
+                    "text1": "所有虛擬化身的技能都是根據",
+                    "gameMakerLinkText": " 《The Sandbox》Game Maker： ",
+                    "text2": "中為其定義的一組特定屬性而定：力量、幸運值、防禦、速度和魔法。",
+                    "text3": "想要更強大的虛擬化身嗎？歡迎造訪",
+                    "marketplaceLinkText": " 市場 ",
+                    "text4": "並從社群所創造的數千種武器中挑選合適的武器。武器即將推出。"
+                },
+                "part2": {
+                    "title": "使用 VoxEdit 創造自訂裝備",
+                    "description": "裝備為可交易代幣。這些裝備就和其他 ASSET 一樣，也會有 CATALYST 和 GEM。沒錯，你也可以透過 VoxEdit 創造和鑄造裝備！",
+                    "link": "瞭解詳情"
+                }
+            },
+            "user": {
+                "signin": "サインイン",
+                "menu": {
+                    "profile": "個人檔案",
+                    "defi": "去中心化金融",
+                    "defi-soon": "去中心化金融 (即將推出)",
+                    "referral": "推薦",
+                    "inventory": "物品欄",
+                    "avatar": "虛擬化身",
+                    "edit": "編輯",
+                    "logout": "登出"
+                },
+                "profile": {
+                    "sandAmount": "あなたのSAND",
+                    "sandButtonText": "SANDを買う",
+                    "sandLinkText": "SANDの購入方法",
+                    "wallet": "あなたのウォレット",
+                    "socialNetworks": "社群網路",
+                    "websiteUrl": "網站",
+                    "noWebsite": "這個使用者沒有網站",
+                    "referral": {
+                        "title": "この紹介リンクを共有する",
+                        "description1": "報酬 ",
+                        "description2": "の紹介料。 ",
+                        "description3": "",
+                        "priceTable": "価格表",
+                        "referred": "轉介"
+                    },
+                    "earning": "総収入",
+                    "learnMoreButtonText": "TSB紹介プログラムについて詳しく知る",
+                    "createAvatarButtonText": "創造虛擬化身",
+                    "editAvatarButtonText": "創造虛擬化身",
+                    "errors": {
+                        "errorUsername1": "使用者名稱太短了。最短長度須為 3 個字元",
+                        "errorUsername2": "使用者名稱應為英數字元",
+                        "errorUsername3": "ユーザー名は必須フィールドです。必ず入力してください。",
+                        "titleTooLong": "標題太長了",
+                        "descriptionTooLong": "標題太長了",
+                        "emailIsRequired": "電子郵件為必填",
+                        "emailIsIncorrect": "電子郵件有誤",
+                        "emailAlreadyInUse": "此電子郵件已註冊過了",
+                        "emailsDoNotMatch": "電子郵件不相符",
+                        "oldPasswordIsRequired": "舊密碼為必填",
+                        "oldPaswordDoesNotMatch": "舊密碼不相符",
+                        "newPasswordIsRequired": "新密碼為必填",
+                        "newPasswordTooShort": "新密碼太短了",
+                        "passwordDoNotMatch": "密碼不相符"
+                    },
+                    "edit": {
+                        "editTitle": "編輯你的個人檔案",
+                        "title": "標題",
+                        "description": "説明",
+                        "email": "メールアドレス",
+                        "newEmail": "新しいメールアドレスを確認",
+                        "oldPassword": "以前のパスワードを入力",
+                        "newPassword": "新しいパスワードを入力",
+                        "repeatPassword": "ここに新しいパスワードを再入力",
+                        "buttonText": "送信する",
+                        "validated": "ユーザー情報が更新されました"
+                    }
+                },
+                "inventory": {
+                    "filters": {
+                        "assets": "ASSET",
+                        "lands": "LAND",
+                        "estates": "ESTATE",
+                        "experiences": "體驗"
+                    },
+                    "sort": {
+                        "title": "排序依據",
+                        "readyMint": "鑄造就緒",
+                        "unpublished": "未發佈",
+                        "exclusive": "獨家",
+                        "basic": "基本",
+                        "pending": "待審核",
+                        "iterating": "迭代中",
+                        "rejected": "已遭拒",
+                        "approved": "已核准",
+                        "published": "已發佈",
+                        "readySell": "可出售",
+                        "add": "已新增"
+                    },
+                    "minting": {
+                        "purchaseGems": "購買 GEM",
+                        "mint": "鑄造",
+                        "commonmint": "常見鑄造",
+                        "commonMintDisclaimer": "別忘了將這些 ASSET 設為藝術品類型",
+                        "catalystmint": "以 GEM 鑄造",
+                        "purchaseGemsDisclaimer": "你需要先購買 CATALYST 和 GEM 才能繼續",
+                        "removing": "即將移除所有屬性。",
+                        "wishToContinue": " 確定要繼續嗎？"
+                    },
+                    "search": "搜尋……",
+                    "preview": "預覽",
+                    "name": "名稱",
+                    "tier": "層級",
+                    "gems": "GEM",
+                    "catalyst": "CATALYST",
+                    "location": "位置",
+                    "size": "大小",
+                    "startEndDate": "日期",
+                    "price": "價格",
+                    "viewInMap": "在地圖中查看"
+                },
+                "loginModal": {
+                    "title": "登入或建立帳戶",
+                    "description": "你必須連結你的加密錢包才能登入",
+                    "wallet": "什麼是加密錢包？",
+                    "whatsAWallet": "加密錢包是你能安全存放所有加密貨幣和數位遊戲 ASSET 的地方。",
+                    "continue": "繼續",
+                    "agree": "建立帳戶並連結至你的加密錢包，即表示你同意我們的",
+                    "terms": "條款及條件",
+                    "allowWallet": "請允許你的錢包",
+                    "bitski": {
+                        "title": "Bitski",
+                        "value": "連結你的錢包",
+                        "signin": "請登入 Bitski"
+                    },
+                    "email": {
+                        "title": "電子郵件",
+                        "value": "連結你的錢包"
+                    },
+                    "web": {
+                        "title": "Web 3",
+                        "value": "安裝你的錢包"
+                    },
+                    "social": {
+                        "title": "社群媒體",
+                        "value": "繼續",
+                        "signin": "請登入 Arkane"
+                    },
+                    "login": "我已經有帳戶了",
+                    "waiting": "請登入/註冊 Arkane"
+                },
+                "signinModal": {
+                    "title": "登入",
+                    "description": "你需要先登入才能上傳至市場。",
+                    "forgotPassword": "我忘記密碼了",
+                    "buttonText": "登入",
+                    "withWallet": "你也可以登入錢包。",
+                    "walletButtonText": "登入你的錢包",
+                    "placeholders": {
+                        "usernameOrEmail": "你的使用者名稱或電子郵件",
+                        "password": "你的密碼"
+                    },
+                    "errors": {
+                        "usernameEmailMissing": "缺少使用者名稱/電子郵件",
+                        "passwordMissing": "缺少密碼",
+                        "userPasswordMismatches": "使用者或密碼不相符"
+                    }
+                },
+                "forgotModal": {
+                    "title": "重設密碼",
+                    "emailOrUsername": "你的電子郵件或使用者名稱",
+                    "recover": "重設",
+                    "sent": "電子郵件已發送至你的電子信箱",
+                    "emailTo": "我們已發送電子郵件到",
+                    "changeAfterEmail": "，以便你變更密碼。",
+                    "errors": {
+                        "emailUsernameIsRequired": "電子郵件或使用者名稱為必填"
+                    }
+                },
+                "changePasswordModal": {
+                    "title": "變更我的密碼",
+                    "new": "輸入新密碼",
+                    "confirm": "再次輸入新密碼",
+                    "placeholders": {
+                        "new": "在此輸入新密碼",
+                        "confirm": "再次輸入新密碼"
+                    },
+                    "strength": {
+                        "weak": "強度弱",
+                        "strong": "強度高",
+                        "good": "良好"
+                    },
+                    "errors": {
+                        "newPasswordIsRequired": "新密碼為必填",
+                        "newPasswordTooShort": "新密碼太短了",
+                        "passwordDoNotMatch": "新密碼不相符"
+                    }
+                }
+            },
+            "changelog": "更新日誌",
+            "play": {
+                "title": "符合規則的遊戲！",
+                "text1": "預設尺寸為 32*32*32，在《The Sandbox》宇宙中會轉譯為公尺 (3,2 f)。",
+                "text2": "32x32x32 是一立方公尺內可容納的最大尺寸。虛擬化身為 2 個方塊高 (64體素)。",
+                "text3": "VoxEdit 隨附許多範本，可協助你展開創造的第一步，不過在此之前請先查看我們的技術指南，確認你的 ASSET 在遊戲製作工具中能呈現出最佳效果。",
+                "buttonText": "技術規格"
+            },
+            "funding": {
+                "title": "$200 萬創作者基金簡介",
+                "subtitle": "我們希望協助你在我們的平台創造、分享和出售你一流的體素作品",
+                "how": {
+                    "title": "以下是運作方式",
+                    "cards": [
+                        "首先，由於我們希望能夠鼓勵品質最佳的體素 ASSET，因此你會需要先完成報名，以便我們評估你的作品",
+                        "你製作的每個 ASSET 都能為你帶來收益，「並且」能從你賣出的每個作品獲得 100% 的利潤！",
+                        "此基金的總體目標是要為遊戲製作 10,000 個體素 ASSET",
+                        "除了補助金之外，你還能在《The Sandbox》正式上線時向玩家出售你的作品"
+                    ]
+                },
+                "metamaskWalletModal": {
+                    "title": "快完成了！",
+                    "description": "請在以下欄位填寫你的電子郵件和暱稱",
+                    "required": "此欄位為必填",
+                    "confirm": "我特此確認我同意",
+                    "terms": "使用條款",
+                    "errors": {
+                        "emailIsRequired": "電子郵件為必填",
+                        "emailIsIncorrect": "你的電子郵件為無效的電子郵件地址",
+                        "emailAlreadyInUse": "你的電子郵件已有人使用",
+                        "usernameIncorrect": "使用者名稱有誤",
+                        "usernameTooShort": "使用者名稱太短了",
+                        "usernameTooLong": "使用者名稱太長了",
+                        "usernameAlreadyInUse": "你的使用者名稱已有人使用"
+                    }
+                },
+                "signupPasswordModal": {
+                    "title": "最後步驟！",
+                    "description": "設定密碼以用於 Game Maker",
+                    "password": "密碼",
+                    "repeatPassword": "再次輸入密碼",
+                    "errors": {
+                        "newPasswordIsRequired": "新密碼為必填",
+                        "newPasswordTooShort": "新密碼太短了",
+                        "passwordDoNotMatch": "密碼不相符"
+                    },
+                    "completeSteps": "完成此步驟以登入Game Maker，你隨時可以",
+                    "skip": "略過",
+                    "completeLater": "此步驟，稍後再回來完成。"
+                },
+                "assets": {
+                    "sidebar": {
+                        "title": "物品欄",
+                        "all": "全部",
+                        "sale": "出售",
+                        "added": "已新增",
+                        "published": "已發佈",
+                        "purchased": "已購買"
+                    },
+                    "noAssets": "此類別沒有任何物品",
+                    "sections": {
+                        "sale": "出售的 ASSET",
+                        "added": "已新增 ASSET",
+                        "published": "已發佈 ASSET",
+                        "purchased": "已購買",
+                        "assets": "ASSET",
+                        "lands": "LAND",
+                        "estates": "ESTATE"
+                    }
+                }
+            },
+            "section6": {
+                "title": "你還在等什麼呢？",
+                "description": "已有數千名使用者使用獨一無二的虛擬化身註冊《The Sandbox》，快來加入他們的使用者社群吧。",
+                "buttonText": "立即創造虛擬化身"
+            }
+        }
+    },
+    "estate": {
+        "title": "編輯 ESTATE",
+        "previewDisclaimer": "你可以上傳最多 3 張影像來預覽你的 LAND (格式為 JPG、PNG、WEBP)。檔案大小應小於 90KB。",
+        "name": "名稱",
+        "description": "描述",
+        "url": "網址",
+        "logo": "標誌",
+        "logoDisclaimer": "你可以上傳要在地圖上顯示的影像 (格式為 WEBP 或 JPG)。檔案大小應小於 90KB。",
+        "howTo": "如何編輯你的 ESTATE",
+        "errors": {
+            "assetNameRequired": "ASSET 名稱為必填",
+            "assetNameTooShort": "ASSET 名稱太短了",
+            "assetDescriptionTooLong": "ASSET 描述太長了",
+            "logo": "標誌檔案格式或大小有誤，格式應為 WEBP 或 JPG，且檔案大小應小於 90KB",
+            "preview": "預覽檔案格式或大小有誤，格式應為影像，且檔案大小應小於 90KB",
+            "pleaseSignInFirst": "請先登入"
+        }
+    },
+    "experience": {
+        "form": {
+            "portrait": "肖像",
+            "portraitWarning": "許可的影像格式為 WEBP 和 JPEG。檔案大小應小於 90KB。",
+            "banner": "橫幅",
+            "bannerWarning": "你應為此體驗上傳封面影像。允許的格式為 WEBP 和 JPG。",
+            "name": "名稱",
+            "description": "描述",
+            "multiplayer": "體驗多人遊戲",
+            "date": "發佈日期",
+            "landLink": "要連結的 LAND",
+            "experienceSize": "你的體驗大小為",
+            "linkLands": "你應該連結",
+            "publish": "發佈",
+            "unpublish": "取消發佈"
+        },
+        "publish": {
+            "title": "發佈體驗"
+        },
+        "edit": {
+            "title": "編輯體驗"
+        }
+    },
+    "map": {
+        "meta": {
+            "title": "《The Sandbox》元宇宙地圖",
+            "description": "《The Sandbox》元宇宙是由這世界的要素「LAND」所組成，持有 LAND 的玩家可它用來創造體驗，並藉此賺取收益。在此購買。",
+            "keywords": "sandbox, 地圖, 元宇宙, land, 世界, 體驗, 創造, 賺取收益, sand, 擁有land, 創造遊戲",
+            "og": {
+                "title": "《The Sandbox》元宇宙地圖",
+                "description": "《The Sandbox》元宇宙是由這世界的要素「LAND」所組成，持有 LAND 的玩家可它用來創造體驗，並藉此賺取收益。在此購買。",
+                "url": "https://sandbox.game/map/",
+                "site_name": "《The Sandbox》",
+                "image": "https://www.sandbox.game/images/logo.png"
+            },
+            "twitter": {
+                "title": "《The Sandbox》元宇宙地圖",
+                "description": "《The Sandbox》元宇宙是由這世界的要素「LAND」所組成，持有 LAND 的玩家可它用來創造體驗，並藉此賺取收益。在此購買。",
+                "card": "《The Sandbox》元宇宙地圖",
+                "site": "@thesandboxgame",
+                "creator": "@thesandboxgame",
+                "image": "https://www.sandbox.game/images/logo.png"
+            }
+        },
+        "title": "地圖",
+        "loader": {
+            "text1": "正在產生元宇宙 LAND……",
+            "text2": "正在設定宗地界線……",
+            "text3": "正在將 LAND 合併至 ESTATE……",
+            "text4": "正在放置體素……",
+            "text5": "正在定位 Sandbox ESTATE……",
+            "text6": "正在定位地主的宗地……",
+            "text7": "正在隱藏元宇宙中的寶藏……",
+            "text8": "你知道嗎？多塊 LAND 可以併成 ESTATE，創造更浩大的遊戲體驗。",
+            "text9": "你知道嗎？你可以在《The Sandbox》出租和出售你的遊戲體驗",
+            "text10": "GEM 是一種定義你 ASSET 屬性的代幣，例如「力量」和「防禦」",
+            "text11": "你知道嗎？創作者基金的藝術家負責創造《The Sandbox》中的 ASSET。",
+            "text12": "你可以使用我們免費的體素編輯工具「VoxEdit」創造並出售你自己的 ASSET。"
+        },
+        "discover": {
+            "text1": "探索",
+            "text2": "LAND NFT",
+            "text3": "出售",
+            "buttonText": "購買 LAND"
+        },
+        "countdown": {
+            "titleNextPresale": "距離下一波開始：",
+            "titleStartsIn": "距離銷售開始：",
+            "titleFinishesIn": "距離目前銷售結束：",
+            "buttonText": "購買 LAND",
+            "returnFullMap": "返回完整地圖",
+            "days": "天",
+            "hours": "小時",
+            "minutes": "分鐘",
+            "seconds": "秒",
+            "btn": "購買 LAND"
+        },
+        "caption": {
+            "my": "我的 LAND",
+            "available": "可用",
+            "booked": "已預訂",
+            "purchased": "已購買",
+            "premium": "優質",
+            "unavailable": "不可用",
+            "opensea": "在 OpenSea",
+            "onSale": "出售"
+        },
+        "presales": {
+            "metaverse": "元宇宙",
+            "pororo": "PORORO",
+            "twd1": "THE WALKING DEAD (1)",
+            "twd2": "THE WALKING DEAD (2)",
+            "twd3": "THE WALKING DEAD (3)",
+            "twd4": "THE WALKING DEAD (4)",
+            "summer_jam1": "SUMMER JAM (1)",
+            "summer_jam2": "SUMMER JAM (2)",
+            "summer_jam3": "SUMMER JAM (3)",
+            "summer_jam4": "SUMMER JAM (4)",
+            "summer_jam5": "SUMMER JAM (5)",
+            "euphoria": "EUPHORIA",
+            "innovators": "INNOVATORS",
+            "pranksy_metapurse": "PRANKSY METAPURSE",
+            "coinmarketcap": "COINMARKETCAP",
+            "the_smurfs": "THE SMURFS",
+            "care_bears": "CARE BEARS",
+            "binance": "BINANCE",
+            "moon": "MOON",
+            "atari": "ATARI",
+            "hub2": "THE HUB (第 2 部分)",
+            "hub1": "THE HUB (第 1 部分)",
+            "snoopDogg": "SNOOP DOGG",
+            "quan": "QUAN"
+        },
+        "booked": "預訂者",
+        "visit": "造訪網站",
+        "errors": {
+            "coordinates": "請提供座標"
+        },
+        "detail": {
+            "land": "LAND",
+            "estate": "ESTATE",
+            "signIn": "登入以啟用更多功能",
+            "onSaleOpensea": "在 OpenSea 上出售",
+            "about": "關於",
+            "back": "返回",
+            "landsIncluded": "包含在 ESTATE 內的 LAND",
+            "available": "可用",
+            "unavailable": "不可用",
+            "owner": "擁有者",
+            "cost": "成本",
+            "location": "位置",
+            "assetsOwned": "擁有的 ASSET",
+            "assetsIncluded": "包含的 ASSET",
+            "blocksIncluded": "包含的方塊",
+            "addToCheckout": "放進結帳商品",
+            "viewLands": "查看 LAND",
+            "viewMap": "查看地圖",
+            "buyNow": "立即購買",
+            "currentPrice": "目前價格",
+            "nearLands": "鄰居",
+            "reachOut": "如何與鄰居聯絡",
+            "askSellMarket": "你想在我們的市場上出售這塊 LAND嗎？",
+            "putOnSale": "出售",
+            "buyLand": "購買 LAND",
+            "buyEstate": "購買 ESTATE",
+            "bid": "出價",
+            "placeBid": "競標",
+            "cancel": "取消",
+            "landNFT": "LAND NFT",
+            "parcels": "宗地",
+            "size": "大小",
+            "price": "價格",
+            "seeAll": "查看全部",
+            "viewInMap": "在地圖中查看",
+            "readMorePremium": "閱讀更多有關優質的介紹"
+        },
+        "onboarding": {
+            "title": "Sandbox 地圖",
+            "description": "歡迎來到",
+            "buttonText": "繼續",
+            "lastButtonText": "立即購買 LAND！",
+            "slide1": "前往 Sandbox 地圖，以在我們即將開放遊戲的元宇宙中尋找 LAND 和 ESTATE。請務必為你的錢包設定 SAND，讓自己在 Sandbox 佔有一席之地。",
+            "slide2": "我們正在舉辦一系列以月球為主題的 LAND 特別預售活動，活動期間為今年 6 月 4 日到 7 月 2 日。本次月球銷售活動會發行 7,254 塊 LAND，把握機會以 20% 折扣買下其中一塊，為加入元宇宙做好準備。"
+        },
+        "landEdit": {
+            "title": "編輯 LAND",
+            "uploadInfo": "上傳影像以預覽你的 LAND (格式為 JPG、PNG、WEBP)。檔案大小應小於 90KB。",
+            "name": "LAND 名稱",
+            "description": "LAND 描述",
+            "url": "網址",
+            "videoUrl": "影片網址",
+            "errors": {
+                "signin": "請先登入",
+                "assetNameRequired": "ASSET 名稱為必填",
+                "assetNameTooShort": "ASSET 名稱太短了",
+                "assetDescriptionTooLong": "ASSET 描述太長了",
+                "preview": "預覽檔案格式或大小有誤，格式應為影像，且檔案大小應小於 90KB"
+            },
+            "viewInMap": "在地圖中查看",
+            "notifications": {
+                "not1": {
+                    "text": "下次預售時間",
+                    "btn": "登入"
+                },
+                "not2": {
+                    "text": "在市場搜尋和購買我們上架的 NFT",
+                    "btn": "前往市場"
+                }
+            }
+        },
+        "notifications": {
+            "not1": {
+                "text": "下次預售時間",
+                "button": "登入"
+            },
+            "not2": {
+                "text": "在市場搜尋和購買我們上架的 NFT",
+                "button": "前往市場"
+            }
+        },
+        "alpha": {
+            "text1": "The Metaverse is open to Everyone, select an experience on the map and click Play!",
+            "text2": "Keep you Alpha Pass until the end of the Alpha to claim your rewards",
+            "text3": "To level up find the Metaverse Guide with the blue exclamation mark and complete the Alpha Quest",
+            "text4": "You need an Alpha Pass to earn rewards and unlock all the experiences",
+            "text5": "You can win an Alpha Pass by joining daily contests on social media (Twitter, Discord, Twitch)",
+            "text6": "The Alpha will be open until December 20",
+            "text7": "This is an open Alpha, please share your feedback and help us improving the Metaverse",
+            "text8": "All the experiences at the Alpha were built using VoxEdit and Game Maker. You can build our own experience!"
+        }
+    },
+    "about": {
+        "meta": {
+            "title": "關於《The Sandbox》團隊",
+            "description": "針對《The Sandbox》這個體素區塊鏈遊戲生態系統，進一步瞭解背後的團隊。",
+            "keywords": "sandbox, sandbox 團隊,體素藝術,體素市場, 區塊鏈 dapp,體素團隊, 電腦體素遊戲, 電腦體素藝術, 區塊鏈遊戲, 區塊鏈遊戲",
+            "og": {
+                "title": "《The Sandbox》| 關於我們",
+                "description": "針對《The Sandbox》這個體素區塊鏈遊戲平台，進一步瞭解背後的團隊。",
+                "url": "https://sandbox.game",
+                "site_name": "《The Sandbox》",
+                "image": "https://www.sandbox.game/images/logo.png"
+            },
+            "twitter": {
+                "title": "《The Sandbox》| 關於我們",
+                "description": "針對《The Sandbox》這個體素區塊鏈遊戲生態系統，進一步瞭解背後的團隊。",
+                "card": "由玩家打造的去中心化遊戲平台。",
+                "site": "@thesandboxgame",
+                "creator": "@thesandboxgame",
+                "image": "https://www.sandbox.game/images/logo.png"
+            }
+        },
+        "title": "歡迎",
+        "description": "為社群導向平台，創作者可以透過基於區塊鏈的體素 ASSET 和遊戲體驗賺取收益",
+        "menu": {
+            "sandbox": "《The Sandbox》",
+            "sand": "SAND",
+            "land": "LAND",
+            "blog": "部落格"
+        },
+        "sandbox": {
+            "products": {
+                "title": "瞭解我們的產品",
+                "voxedit": {
+                    "title": "VoxEdit",
+                    "description": "創造和動態化體素藝術。匯出至任何地方。"
+                },
+                "marketplace": {
+                    "title": "市場",
+                    "description": "在同一個地方出售和收集最佳 ASSET。"
+                },
+                "gameMaker": {
+                    "title": "Game Maker",
+                    "description": "製作和遊玩你想像得到的任何遊戲。"
+                },
+                "land": {
+                    "title": "LAND",
+                    "description": "無限可能性。立即把握你的機會！"
+                },
+                "gameMakerProduct": {
+                    "title": "Game Maker",
+                    "description": "製作和遊玩你想像得到的任何遊戲。"
+                },
+                "fund": {
+                    "title": "Game Maker 基金",
+                    "description": "由我們付錢，你來創造並分享「你的」精美體素作品。"
+                }
+            },
+            "partners": "合作夥伴",
+            "roadmap": {
+                "title": "路線圖",
+                "description": "查看我們詳細的"
+            },
+            "team": {
+                "title": "認識團隊",
+                "ceo": "執行長",
+                "coo": "營運長",
+                "cfo": "財務長",
+                "cto": "技術長",
+                "headDesign": "設計總監",
+                "headArt": "藝術總監",
+                "headMarketing": "行銷總監",
+                "leadVoxedit": "VoxEdit 開發負責人",
+                "leadWeb": "網頁開發負責人",
+                "leadGameDev": "遊戲開發負責人",
+                "leadGameDesign": "遊戲設計負責人",
+                "leadBlockchain": "區塊鏈架構負責人",
+                "gpm": "遊戲專案經理",
+                "uiux": "UX/UI 設計師",
+                "cm": "社群經理",
+                "qa": "品質保證",
+                "front": "前端開發人員",
+                "back": "後端開發人員",
+                "devops": "DevOps",
+                "gdesign": "遊戲設計師",
+                "gdev": "遊戲開發人員"
+            }
+        },
+        "sand": {
+            "meta": {
+                "title": "《The Sandbox》| SAND代幣",
+                "description": "SAND 是整個《The Sandbox》生態系統流通的功能型代幣，是本遊戲中交易與互動的基本要素。這是基於 Etherum 區塊鏈所打造的 ERC-20 功能型代幣。SAND 總發行量僅有 3,000,000,000 個。 ",
+                "keywords": "sandbox,體素藝術, 3D體素遊戲,體素藝術家, 3D 線上電腦遊戲, 社群, 區塊鏈 dapp, 電腦體素遊戲, 電腦體素藝術, 去中心化遊戲, SAND, 代幣",
+                "og": {
+                    "title": "《The Sandbox》| 關於 SAND",
+                    "description": "sandbox,體素藝術, 3D體素遊戲,體素藝術家, 3D 線上電腦遊戲, 社群, 區塊鏈 dapp, 電腦體素遊戲, 電腦體素藝術, 去中心化遊戲, SAND, 代幣",
+                    "url": "https://www.sandbox.game/en/about/sand/",
+                    "site_name": "《The Sandbox》SAND 代幣",
+                    "image": "https://www.sandbox.game/images/logo.png"
+                },
+                "twitter": {
+                    "title": "《The Sandbox》| 關於 SAND",
+                    "description": "SAND 是整個《The Sandbox》生態系統流通的功能型代幣，是本遊戲中交易與互動的基本要素。這是基於 Etherum 區塊鏈所打造的 ERC-20 功能型代幣。SAND 總發行量僅有 3,000,000,000 個。 ",
+                    "card": "由玩家打造的去中心化遊戲平台。",
+                    "site": "@thesandboxgame",
+                    "creator": "@thesandboxgame",
+                    "image": "https://www.sandbox.game/images/logo.png"
+                }
+            },
+            "header": {
+                "description": "SAND 是整個《The Sandbox》生態系統流通的功能型代幣，是本遊戲中交易與互動的基本要素。這是基於 Ethereum 區塊鏈所打造的 ERC-20 功能型代幣。SAND 總發行量僅有 3,000,000,000 個。",
+                "mainButtonText": "購買",
+                "secondaryButtonText": "質押",
+                "link": "閱讀 Binance 的研究："
+            },
+            "platforms": "購買管道",
+            "brands": {
+                "sandbox": {
+                    "name": "《The Sandbox》",
+                    "description": "《The Sandbox》是基於 Ethereum 區塊鏈所打造的虛擬元宇宙，玩家可以在這個世界打造、擁有自己的遊戲體驗，並藉此賺取收益"
+                },
+                "sand": {
+                    "name": "$SAND",
+                    "description": "SAND 為 ERC-20 功能型代幣，可用於價值傳遞及質押與管理。"
+                }
+            },
+            "products": {
+                "title1": "目前在",
+                "title2": "平台上的產品包括：",
+                "voxedit": {
+                    "title": "VoxEdit",
+                    "description": "用來創造體素 ASSET 的軟體，ASSET 會成為非同質化代幣 (NFT)，並可匯入至市場中。"
+                },
+                "marketplace": {
+                    "title": "市場",
+                    "description": "在同一個地方出售和收集最佳 ASSET。"
+                },
+                "gameMaker": {
+                    "title": "Game Maker",
+                    "description": "視覺化指令碼處理工具箱，免費供所有人打造 3D 遊戲。"
+                }
+            },
+            "metrics": {
+                "title": "關鍵指標 (截至 2020 年 8 月 5 日為止)",
+                "ticket": {
+                    "title": "票券",
+                    "circulating": "流通量",
+                    "total": "代幣發行總量",
+                    "binance": "Binance Launchpad 售價"
+                }
+            },
+            "sandbox": {
+                "title": "什麼是《The Sandbox》(SAND)",
+                "text1": "《The Sandbox》是根據 Ethereum 區塊鏈所打造的虛擬元宇宙，玩家可以在這個世界使用平台的功能型代幣「SAND」創造、建立自己的遊戲體驗，並藉此賺取收益。玩家可以創造非同質化代幣形式的數位資產並上傳至市場，然後使用 Game Maker 將這些資產整合至遊戲中。",
+                "text2": "LAND 是《The Sandbox》元宇宙中的數位房地產，玩家購買後可以在 LAND 上打造專屬遊戲體驗。玩家一入手 LAND 就能在其中增添遊戲和 ASSET。多塊 LAND 可以併成 ESTATE。",
+                "text3": "《The Sandbox》元宇宙的地圖中，共有 166,464 塊永遠可用的 LAND。",
+                "text4": "GEM 和CATALYST 定義了 ASSET 的層級、稀缺性和屬性。CATALYST 會為 NFT 新增空插槽，以便放入GEM。CATALYST 的品質越高，ASSET 具備的插槽就越多。",
+                "text5": "使用者可以透過以下方式將平台上花費的時間轉變成收益，並保有 95% 的 SAND 作為收益份額：",
+                "monetize": {
+                    "1": {
+                        "title": "出售 ASSET",
+                        "description": "使用者可以創造 ASSET，並在市場上作為 NFT 出售。"
+                    },
+                    "2": {
+                        "title": "擁有 LAND",
+                        "description": "在 LAND 銷售活動中購買 LAND。玩家可以將 LAND 出租，或增添內容以為 LAND 增值。"
+                    },
+                    "3": {
+                        "title": "用Game Maker 打造遊戲",
+                        "description": "在玩家持有的 LAND 上，使用 Game Maker 打造遊戲並賺取收益。"
+                    }
+                },
+                "text6": "《The Sandbox》採用 ERC-1776，使平台使用者得以發起基於 Ethereum 區塊鏈的交易。為最佳化整體使用者體驗，交易礦工費則由平台支付。",
+                "text7": "50% 的 SAND 總交易量、從 LAND 銷售扣除的費用、特級 NFT 銷售、交易費用和訂閱服務都會撥入基金會",
+                "text8": "基金會支持《The Sandbox》的生態系統，致力於提升關於 NFT、元宇宙和 $SAND 採用的知名度。",
+                "text9": "基金會目前參與事務：",
+                "foundation": {
+                    "1": "管理 Game Maker 基金和創作者基金，提供補助金以鼓勵《The Sandbox》中的優質內容和遊戲製作。",
+                    "2": "資助超過 17 個遊戲專案，其中有些遊戲已對外發表：https://www.sandbox.game/game/top",
+                    "3": "發放補助金給 100 位藝術家製作 NFT，多數作品能在下列網頁找到：http://www.sandbox.game/shop",
+                    "4": "透過社群獎項和大使計劃支持當地社群經理，以提升《The Sandbox》、NFT 和區塊鏈遊戲的全球知名度：https://medium.com/sandbox-game/the-sandbox-ambassador-program-4f00bb5c9c24",
+                    "5": "為《The Sandbox》團隊所籌辦的各式比賽 (VoxEdit 比賽和 Game Jams) 贊助獎項，進而激發全球使用者的創造力，並吸引他們使用我們平台的工具。",
+                    "6": "支持邊玩邊賺聯賽和跨遊戲業活動，鼓勵更廣泛地採用 SAND。"
+                }
+            }
+        },
+        "land": {
+            "header": {
+                "title": "LAND",
+                "description": "《The Sandbox》元宇宙是由這世界的要素「LAND」所組成，持有 LAND 的玩家可它用來創造體驗，並藉此賺取收益。LAND 的可用數量將永遠只有 166,464 個，並可用來舉辦遊戲、打造多人遊戲體驗、建造房屋或為社群提供社交體驗",
+                "mainButton": "購買 LAND",
+                "secondaryButton": "探索地圖"
+            },
+            "buy": {
+                "title": "從來沒有買過 LAND 嗎？",
+                "description": "這比你想像得還要簡單！查看我們豐富的線上資源以瞭解詳情。加入我們的 Discord 伺服器，與《The Sandbox》社群成員直接討論你的問題。",
+                "buttonText": "瞭解詳情"
+            },
+            "cards": {
+                "land": {
+                    "title": "購買 LAND",
+                    "description": "先購買 LAND。使用該塊 LAND 打造任何你想像得到的作品。"
+                },
+                "create": {
+                    "title": "建立",
+                    "description": "創造 NFT ASSET、遊戲、體驗和更多。"
+                },
+                "monetize": {
+                    "title": "營利",
+                    "description": "在 NFT 市場出售你的作品，或收取作品使用費來創造收益。"
+                }
+            },
+            "sandbox": {
+                "title": "什麼是《The Sandbox》？",
+                "description": "《The Sandbox》是以實際現金經濟作為支持的多人遊戲虛擬世界。玩家就是創作者，可以自由打造任何他們想像得到的作品。立即註冊！",
+                "buttonText": "建立帳戶"
+            },
+            "play": {
+                "title": "邊玩邊賺",
+                "description": "免費玩遊戲已經是過時的 2010 年概念了……在《The Sandbox》，你將能以自創遊戲賺取收益！我們為玩家和創作者設計的獎勵模型實現了邊玩邊賺的概念，具有實際價值的獎勵能激發玩家和創作者遊戲與創作的強烈動機。",
+                "listTitle": "如何在《The Sandbox》中創造收益？",
+                "earn": {
+                    "play": "開始遊戲，贏得獎勵",
+                    "build": "打造遊戲，賺取收益",
+                    "create": "創造並行銷 ASSET"
+                }
+            },
+            "buttonText": "探索出售的 NFT LAND"
+        },
+        "blog": {
+            "meta": {
+                "title": "《The Sandbox》部落格",
+                "description": "查看《The Sandbox》部落格。閱讀《The Sandbox》遊戲的最新消息、更新資訊和精彩故事。",
+                "keywords": "sandbox, 部落格, 元宇宙, 消息, 最新, 每週消息, the sandbox",
+                "og": {
+                    "title": "《The Sandbox》|《The Sandbox》部落格",
+                    "description": "查看《The Sandbox》部落格。閱讀《The Sandbox》遊戲的最新消息、更新資訊和精彩故事。",
+                    "url": "https://sandbox.game/about/blog/",
+                    "site_name": "《The Sandbox》",
+                    "image": "https://www.sandbox.game/images/logo.png"
+                },
+                "twitter": {
+                    "title": "《The Sandbox》部落格",
+                    "description": "查看《The Sandbox》部落格。閱讀《The Sandbox》遊戲的最新消息、更新資訊和精彩故事。",
+                    "card": "《The Sandbox》部落格",
+                    "site": "@thesandboxgame",
+                    "creator": "@thesandboxgame",
+                    "image": "https://www.sandbox.game/images/logo.png"
+                }
+            },
+            "title": "部落格"
+        }
+    },
+    "user": {
+        "signin": "登入",
+        "menu": {
+            "profile": "個人檔案",
+            "defi": "去中心化金融",
+            "defi-soon": "去中心化金融 (即將推出)",
+            "referral": "推薦",
+            "inventory": "物品欄",
+            "avatar": "虛擬化身",
+            "edit": "編輯",
+            "logout": "登出"
+        },
+        "profile": {
+            "sandAmount": "你的",
+            "sandButtonText": "購買",
+            "sandLinkText": "如何購買",
+            "wallet": "你的錢包",
+            "socialNetworks": "社群網路",
+            "websiteUrl": "網站",
+            "referral": {
+                "title": "分享你的推薦連結",
+                "description1": "領取 ",
+                "description2": "推薦費 ",
+                "description3": "使用你專屬的推薦連結：",
+                "priceTable": "推薦價目表",
+                "referred": "轉介"
+            },
+            "earning": "總收益",
+            "learnMoreButtonText": "進一步瞭解推薦",
+            "createAvatarButtonText": "創造虛擬化身",
+            "editAvatarButtonText": "創造虛擬化身",
+            "yourAccount": "你的帳戶",
+            "yourAvatar": "你的虛擬化身",
+            "errors": {
+                "errorUsername1": "使用者名稱太短了。最短長度須為 3 個字元",
+                "errorUsername2": "使用者名稱應為英數字元",
+                "errorUsername3": "使用者名稱為必填欄位，不得空白",
+                "titleTooLong": "標題太長了",
+                "descriptionTooLong": "標題太長了",
+                "emailIsRequired": "電子郵件為必填",
+                "emailIsIncorrect": "電子郵件有誤",
+                "emailAlreadyInUse": "此電子郵件已註冊過了",
+                "emailsDoNotMatch": "電子郵件不相符",
+                "oldPasswordIsRequired": "舊密碼為必填",
+                "oldPaswordDoesNotMatch": "舊密碼不相符",
+                "newPasswordIsRequired": "新密碼為必填",
+                "newPasswordTooShort": "新密碼太短了",
+                "passwordDoNotMatch": "密碼不相符"
+            },
+            "edit": {
+                "editTitle": "編輯你的個人檔案",
+                "title": "標題",
+                "description": "描述",
+                "email": "電子郵件",
+                "newEmail": "新電子郵件",
+                "oldPassword": "舊密碼",
+                "newPassword": "新密碼",
+                "repeatPassword": "再次輸入密碼",
+                "buttonText": "套用",
+                "validated": "你的個人檔案已變更"
+            }
+        },
+        "inventory": {
+            "noAssets": "你的物品欄內沒有 ASSET。",
+            "goFind": "前往 OpenSea 尋找你想要的吧。",
+            "goMarketplace": "前往市場",
+            "startMinting": "開始鑄幣",
+            "nftTypes": {
+                "title": "非同質化代幣類型",
+                "entity": "實體",
+                "land": "LAND",
+                "estates": "ESTATE",
+                "experiences": "體驗",
+                "all": "全部"
+            },
+            "processes": {
+                "title": "處理",
+                "pending": "待審核",
+                "iterating": "迭代中",
+                "rejected": "已遭拒",
+                "experiences": "體驗",
+                "approved": "已核准"
+            },
+            "statuses": {
+                "title": "狀態",
+                "published": "已發佈",
+                "added": "已新增",
+                "unpublished": "未發佈",
+                "exclusive": "獨家",
+                "basic": "基本"
+            },
+            "actions": {
+                "title": "動作",
+                "tomint": "鑄幣",
+                "tosell": "販售"
+            },
+            "filters": {
+                "title": "篩選條件",
+                "clear": "清除",
+                "assets": "ASSET",
+                "lands": "LAND",
+                "estates": "ESTATE",
+                "experiences": "體驗",
+                "all": "全部"
+            },
+            "sort": {
+                "title": "排序依據",
+                "readyMint": "鑄造就緒",
+                "unpublished": "未發佈",
+                "exclusive": "獨家",
+                "basic": "基本",
+                "pending": "待審核",
+                "iterating": "迭代中",
+                "rejected": "已遭拒",
+                "approved": "已核准",
+                "published": "已發佈",
+                "readySell": "可出售",
+                "add": "已新增"
+            },
+            "saleInfo": {
+                "sell": "出售",
+                "wallet": "錢包",
+                "gift": "選取要送禮的副本",
+                "forCopy": "選取副本價格",
+                "forSell": "選取要出售的副本",
+                "forGift": "送禮",
+                "sortBy": "排序依據",
+                "continue": "繼續",
+                "filters": "篩選條件",
+                "readyToMint": "鑄造就緒",
+                "assetToSell": "出售的 ASSET",
+                "viewAssetDetail": "查看 ASSET 詳情",
+                "priceIn": "價格",
+                "datePickerStep": {
+                    "date-from": "起始日期",
+                    "date-to": "截止日期",
+                    "noPastDates": "開始日期應為現在時間的 5 分鐘之後",
+                    "confirmDates": "確認",
+                    "nextDate": "繼續"
+                }
+            },
+            "minting": {
+                "purchaseGems": "購買 GEM",
+                "mint": "鑄造",
+                "commonmint": "常見鑄造",
+                "commonMintDisclaimer": "別忘了將這些 ASSET 設為藝術品類型",
+                "catalystmint": "以 GEM 鑄造",
+                "purchaseGemsDisclaimer": "你需要先購買 CATALYST 和 GEM 才能繼續",
+                "removing": "即將移除所有屬性。",
+                "wishToContinue": " 確定要繼續嗎？"
+            },
+            "search": "搜尋……",
+            "preview": "預覽",
+            "name": "名稱",
+            "tier": "層級",
+            "gems": "GEM",
+            "catalyst": "CATALYST",
+            "location": "位置",
+            "size": "大小",
+            "startEndDate": "日期",
+            "price": "價格",
+            "viewInMap": "在地圖中查看"
+        },
+        "avatar": {
+            "empty": "此清單為空",
+            "loading": "正在載入……",
+            "notCompatible": "你的瀏覽器無法執行虛擬化身創造工具。",
+            "body": {
+                "listItems": {
+                    "1": "身體",
+                    "2": "頭",
+                    "3": "軀幹",
+                    "4": "腿",
+                    "5": "腳"
+                },
+                "1": "預先設計",
+                "2": "頭",
+                "3": "上衣",
+                "4": "褲子",
+                "5": "鞋子",
+                "6": "物品欄",
+                "7": "市場 - 獲得你的優質虛擬化身！",
+                "8": "全新虛擬化身",
+                "9": "已擁有的優質虛擬化身"
+            },
+            "tabs": {
+                "1": "物品欄",
+                "2": "市場",
+                "3": "虛擬化身創造工具"
+            },
+            "saveButtonText": "儲存變更",
+            "mobileSaveButtonText": "儲存",
+            "discoverBannerText": "探索全新獨家虛擬化身",
+            "discoverButtonText": "盡情探索",
+            "pickButtonText": "挑選虛擬化身",
+            "mobilePickButtonText": "挑選",
+            "editButtonText": "編輯虛擬化身",
+            "mobileEditButtonText": "編輯",
+            "buyButtonText": "購買",
+            "goBackButtonText": "返回",
+            "sort": {
+                "title": "排序依據",
+                "default": "預設",
+                "name": "名稱",
+                "owned": "已擁有",
+                "search": "搜尋",
+                "az": "名稱 (A-Z)",
+                "za": "名稱 (Z-A)",
+                "recent": "最近使用",
+                "newest": "最新",
+                "oldest": "最舊",
+                "priceHigh": "價格最高",
+                "priceLow": "價格最低"
+            },
+            "tooltips": {
+                "randomize": "隨機",
+                "reset": "重新設定"
+            },
+            "colors": {
+                "skin": "膚色",
+                "custom": "自訂色彩",
+                "disabledSkin": "抱歉，所選物品無法變更膚色。",
+                "disabledCustom": "抱歉，所選物品無法變更自訂色彩。"
+            },
+            "notSaveModal": {
+                "title": "嘿！你忘記儲存你的虛擬化身了",
+                "description1": "要是你離開這個頁面，你所做的任何變更將會遺失。",
+                "description2": "你想要先儲存你的虛擬化身再離開嗎？",
+                "okButtonText": "儲存虛擬化身",
+                "cancelButtonText": "離開"
+            },
+            "savePopup": {
+                "title": "虛擬化身已儲存！",
+                "description": "立即到 Game Maker 中試試。",
+                "alternative": "你的虛擬化身已儲存！",
+                "buttonText": "前往 Game Maker"
+            },
+            "errorPopup": "你的虛擬化身還缺少某些部分。請完成。",
+            "updatePopup": {
+                "title": "更新預設",
+                "description": "已成功更新虛擬化身"
+            },
+            "createPopup": {
+                "title": "創造預設",
+                "description": "已成功創造虛擬化身",
+                "presetName": "預設名稱"
+            },
+            "deletePopup": {
+                "title": "刪除預設",
+                "description": "已成功刪除虛擬化身",
+                "text": "確定要刪除下列的虛擬化身預設嗎"
+            },
+            "oversizedPopup": {
+                "title": "警告",
+                "text": "此部分可能無法與所有裝備相容。",
+                "button": "確定"
+            },
+            "bundles": {
+                "create": "建立",
+                "delete": "刪除",
+                "edit": "編輯",
+                "public": "公開",
+                "update": "更新",
+                "cancel": "取消",
+                "name": "名稱",
+                "presetName": "預設名稱"
+            },
+            "titleCreator": "虛擬化身創造工具"
+        },
+        "loginModal": {
+            "title": "登入或建立帳戶",
+            "description": "請連結加密貨幣錢包以登入。無須基金，基金不會被提取。",
+            "wallet": "什麼是加密錢包？",
+            "whatsAWallet": "加密錢包是你能安全存放所有加密貨幣和數位遊戲 ASSET 的地方。",
+            "continue": "繼續",
+            "agree": "建立帳戶並連結至你的加密錢包，即表示你同意我們的",
+            "terms": "條款及條件",
+            "allowWallet": "請允許你的錢包",
+            "bitski": {
+                "title": "Bitski",
+                "value": "連結你的錢包",
+                "signin": "請登入 Bitski"
+            },
+            "email": {
+                "title": "電子郵件",
+                "value": "連結你的錢包"
+            },
+            "web": {
+                "title": "Web 3",
+                "value": "安裝你的錢包"
+            },
+            "social": {
+                "title": "社群媒體",
+                "value": "繼續",
+                "signin": "請登入 Arkane"
+            },
+            "login": "我已經有帳戶了",
+            "waiting": "請登入/註冊 Arkane"
+        },
+        "signinModal": {
+            "title": "登入",
+            "description": "你需要先登入才能上傳至市場。",
+            "forgotPassword": "我忘記密碼了",
+            "buttonText": "登入",
+            "withWallet": "你也可以登入錢包。",
+            "walletButtonText": "登入你的錢包",
+            "placeholders": {
+                "usernameOrEmail": "你的使用者名稱或電子郵件",
+                "password": "你的密碼"
+            },
+            "errors": {
+                "titwordMismatches": "使用者或密碼不相符",
+                "userPasswordMismatches": "使用者或密碼不相符"
+            }
+        },
+        "forgotModal": {
+            "title": "重設密碼",
+            "emailOrUsername": "你的電子郵件或使用者名稱",
+            "recover": "重設",
+            "sent": "電子郵件已發送至你的電子信箱",
+            "emailTo": "我們已發送電子郵件到",
+            "changeAfterEmail": "，以便你變更密碼。",
+            "errors": {
+                "emailUsernameIsRequired": "電子郵件或使用者名稱為必填"
+            }
+        },
+        "changePasswordModal": {
+            "title": "變更我的密碼",
+            "new": "輸入新密碼",
+            "confirm": "再次輸入新密碼",
+            "placeholders": {
+                "new": "在此輸入新密碼",
+                "confirm": "再次輸入新密碼"
+            },
+            "strength": {
+                "weak": "強度弱",
+                "strong": "強度高",
+                "good": "良好"
+            },
+            "errors": {
+                "newPasswordIsRequired": "新密碼為必填",
+                "newPasswordTooShort": "新密碼太短了",
+                "passwordDoNotMatch": "新密碼不相符"
+            }
+        },
+        "metamaskWalletModal": {
+            "title": "快完成了！",
+            "description": "請在以下欄位填寫你的電子郵件和暱稱",
+            "required": "此欄位為必填",
+            "confirm": "我特此確認我同意",
+            "terms": "使用條款",
+            "errors": {
+                "emailIsRequired": "電子郵件為必填",
+                "emailIsIncorrect": "你的電子郵件為無效的電子郵件地址",
+                "emailAlreadyInUse": "你的電子郵件已有人使用",
+                "usernameIncorrect": "使用者名稱有誤",
+                "usernameTooShort": "使用者名稱太短了",
+                "usernameTooLong": "使用者名稱太長了",
+                "usernameAlreadyInUse": "你的使用者名稱已有人使用"
+            }
+        },
+        "signupPasswordModal": {
+            "title": "最後步驟！",
+            "description": "設定密碼以用於 Game Maker",
+            "password": "密碼",
+            "repeatPassword": "再次輸入密碼",
+            "errors": {
+                "newPasswordIsRequired": "新密碼為必填",
+                "newPasswordTooShort": "新密碼太短了",
+                "passwordDoNotMatch": "密碼不相符"
+            },
+            "completeSteps": "完成此步驟以登入Game Maker，你隨時可以",
+            "skip": "略過",
+            "completeLater": "此步驟，稍後再回來完成。"
+        },
+        "assets": {
+            "sidebar": {
+                "title": "物品欄",
+                "all": "全部",
+                "sale": "出售",
+                "added": "已新增",
+                "published": "已發佈",
+                "purchased": "已購買"
+            },
+            "noAssets": "此類別沒有任何物品",
+            "sections": {
+                "sale": "出售的 ASSET",
+                "added": "已新增 ASSET",
+                "published": "已發佈 ASSET",
+                "purchased": "已購買",
+                "assets": "ASSET",
+                "lands": "LAND",
+                "estates": "ESTATE"
+            }
+        },
+        "settings": {
+            "title": "設定",
+            "gral": "Gral.設定",
+            "securityMobile": "安全性和密碼",
+            "general": {
+                "title": "一般設定",
+                "email-sub": "電子郵件",
+                "email-subnote": "請注意：",
+                "email-note": "若要做出此變更，需要進行安全碼認證。",
+                "newEmail-sub": "新電子郵件",
+                "submit": "保存設定",
+                "info": "個人資訊",
+                "info-note": "新增你的姓名、變更你的暱稱並寫下超酷的描述，讓其他使用者更加認識你！",
+                "username": "使用者名稱",
+                "desc": "描述",
+                "social": "社群媒體",
+                "social-note": "可以連接你的社群媒體，讓其他使用者能夠與看見你。",
+                "email-invalid": "電子郵件格式無效",
+                "oldEmail-sub": "真實電子郵件",
+                "submitEmail": "變更電子郵件",
+                "websiteUrl": "個人網站",
+                "generic-error": "There are one or more errors encountered.",
+                "error": "Invalid Format",
+                "name": "Name",
+                "socialDescription": {
+                    "youtube": "Enter your Youtube user ID",
+                    "twitter": "Enter your Twitter Handle",
+                    "discord": "Enter your user#id",
+                    "facebook": "Enter your Facebook username",
+                    "instagram": "Enter your Instagram username",
+                    "telegram": "Enter your Telegram username"
+                }
+            },
+            "security": {
+                "title": "安全性和密碼",
+                "password-sub": "密碼",
+                "password-note": "為了提高安全性，我們強烈建議你使用沒有在其他線上帳戶使用的獨特密碼。",
+                "old-password": "目前密碼",
+                "new-password": "新密碼",
+                "repeat-password": "再次輸入密碼"
+            }
+        }
+    },
+    "moderator": {
+        "title": "版主",
+        "startQueue": "開始排隊",
+        "noAssets": "此類別沒有任何物品",
+        "artists": "藝術家",
+        "sidebar": {
+            "title": "版主",
+            "market": "市場",
+            "assets": "藝術家",
+            "all": "全部",
+            "pending": "待審核",
+            "iterating": "迭代中",
+            "rejecting": "拒絕中",
+            "approved": "已核准"
+        },
+        "sections": {
+            "pending": "待審核 ASSET",
+            "iterating": "迭代中 ASSET",
+            "rejected": "已遭拒 ASSET",
+            "approved": "已核准 ASSET"
+        },
+        "approve": {
+            "writeIteratingRejectedReason": "撰寫迭代/遭拒的理由",
+            "comments": "留言",
+            "addNewComment": "新增新留言"
+        }
+    },
+    "admin": {
+        "title": "管理員",
+        "sidebar": {
+            "header": "管理員",
+            "users": "使用者",
+            "featured": "精選使用者",
+            "assets": "ASSET",
+            "claims": "ASSET 申索",
+            "avatar": "虛擬化身",
+            "categories": "類別",
+            "biomes": "生態域",
+            "types": "類型",
+            "experiences": "體驗",
+            "opensea": "OpenSea",
+            "roles": "角色",
+            "collections": "收藏",
+            "seasons": "季度",
+            "assetCreator": "ASSET 創作者",
+            "assetOwnership": "ASSET 擁有權",
+            "presales": "預售",
+            "faucet": "Sand & Ether Faucets"
+        },
+        "users": {
+            "profile": "個人檔案",
+            "id": "副本 ID",
+            "featured": "精選",
+            "dateStep": {
+                "title": "主打",
+                "description": "選擇要主打的日期範圍"
+            },
+            "assetStep": {
+                "title": "主打",
+                "desc": "選擇 5 項要主打的 ASSET"
+            },
+            "reviewStep": {
+                "title": "摘要",
+                "date-from": "起始日期：",
+                "date-to": "截止日期："
+            }
+        },
+        "featured": {
+            "table": {
+                "artist": "藝術家",
+                "role": "角色",
+                "dates": "日期",
+                "assets": "ASSET",
+                "action": "動作"
+            }
+        },
+        "assets": {
+            "view": "查看",
+            "ban": "封鎖",
+            "unban": "取消封鎖",
+            "edit": {
+                "edit": "編輯 ASSET",
+                "upload": "上傳 ASSET",
+                "loadingAsset": "正在載入 ASSET",
+                "pleaseWait": "請稍候",
+                "goToShop": "前往市場",
+                "errorLoadingAsset": "載入 ASSET 發生錯誤",
+                "problemLoading": "在處理 ASSET 時發生錯誤，或是連結可能已過期",
+                "pleaseExportAgain": "請從 VoxEdit 再次嘗試輸出",
+                "warning": "警告",
+                "error": "發生錯誤！",
+                "error1": "無法刪除 ASSET。此 ASSET 正用於下列體驗中：",
+                "warningMessage": "編輯 ASSET 會取消先前的核准，確定要繼續嗎？",
+                "goBack": "返回",
+                "steps": {
+                    "name": "名稱",
+                    "categories": "類別",
+                    "summary": "摘要"
+                }
+            }
+        },
+        "faucet": {
+            "layer1": "LAYER 1 TESTNETS",
+            "layer2": "LAYER 2 TESTNETS",
+            "claim": "Claim",
+            "ext": "Go to Faucet",
+            "nextClaim": "Next claim will be available in ",
+            "claimInfo": "You can claim Sand once every day. Please use only if required",
+            "external": "You can claim ETH through the external faucet",
+            "goToFaucet": "Go to Faucet",
+            "goerli": "Goerli",
+            "rinkeby": "Rinkeby",
+            "mumbai": "Mumbai",
+            "switchToGoerli": "Switch to Goerli",
+            "switchToRinkeby": "Switch to Rinkeby",
+            "switchToMumbai": "Switch to Mumbai",
+            "sand": "SAND",
+            "msand": "mSAND",
+            "eth": "ETH",
+            "matic": "MATIC"
+        }
+    },
+    "whitelist": {
+        "sand": {
+            "title": "參加",
+            "description": "你的錢包",
+            "buttonText": "新增至你的錢包"
+        },
+        "registered": "感謝你搶先註冊！我們會在遊戲上線時通知你。",
+        "news": "查看最新消息！",
+        "experiences": "有體驗發佈時通知我"
+    },
+    "sand": {
+        "buy": {
+            "availableSand": "SAND 購買管道：",
+            "buySand": "購買 SAND",
+            "howToBuySand": "如何購買 SAND",
+            "viewEtherscan": "在 Etherscan 上查看",
+            "txHash": "你的交易雜湊",
+            "txSent": "交易已傳送",
+            "buyMore": "購買更多",
+            "buyWithETH": "使用 ETH 購買 SAND",
+            "fieldRequired": "此欄位為必填",
+            "valueTooLow": "價值太低了",
+            "valueTooHigh": "價值太高了",
+            "unlockWallet": "請解鎖你的錢包",
+            "invalidNetwork": "網路無效，請變更至下列其中一個項目：",
+            "changeNetwork": "變更"
+        }
+    },
+    "addedDisclaimer": "已新增的 ASSET 可用於 Game Maker",
+    "replay": "重播教學",
+    "helpAlone": "說明",
+    "readAboutPremium": "閱讀更多有關優質ASSET 的介紹",
+    "assetsIncludes": "包含在優質 LAND 的 ASSET",
+    "landPresale": "LAND 公開銷售活動",
+    "fluid": "流暢性",
+    "transparency": "透明度",
+    "tokenEc": "代幣經濟",
+    "afterDownload": {
+        "thanks": "感謝你加入《The Sandbox》",
+        "step1": "按一下以執行《The Sandbox》安裝程式。",
+        "step2": "按一下右鍵並選擇「以系統管理員身分執行」。",
+        "step3": "按一下「完成」以結束安裝程序。",
+        "step4": "安裝完成後，請點選下方的「開始遊戲」！"
+    },
+    "playMapFTUE": {
+        "finish": "瞭解了！",
+        "step1": {
+            "title": "歡迎！",
+            "text": "讓我為你介紹環境！準備好開始了嗎？"
+        },
+        "step2": {
+            "title": "選取體驗",
+            "text": "按一下地圖上的體驗即可查看相關詳情。"
+        },
+        "step3": {
+            "title": "準備開始遊戲",
+            "text": "若要瞭解更多請按一下「更多詳情」，或按「開始遊戲」來進入遊戲！"
+        }
+    },
+    "newPlay": {
+        "discoverHub": "探索《The Sandbox》中心",
+        "buyLand": "購買 LAND",
+        "TWD": "The Walking Dead",
+        "seeRewards": "查看獎勵",
+        "endingSoon": "Alpha 即將結束",
+        "dontOwnSeasonPass": "你沒有 Alpha 通行證。",
+        "learnMore": "進一步瞭解 Alpha",
+        "welcome": "歡迎",
+        "earn": "賺取 SAND",
+        "welcomeAlpha": "歡迎來到 Alpha",
+        "enterHub": "進入 Alpha 中心 (Alpha Hub)",
+        "daily": "每日任務",
+        "achievements": "成就",
+        "artifacts": "作品",
+        "coming": "即將推出",
+        "selectAvatar": "選取你的虛擬人像",
+        "infoTooltip": "每擁有一塊 LAND，即可額外獲得 1 張抽獎券"
+    },
+    "experiencePage": {
+        "progressSeason": "季度進度",
+        "goBack": "返回",
+        "editExperience": "編輯體驗",
+        "edit": "編輯",
+        "play": "開始遊戲",
+        "playAgain": "再玩一次",
+        "discover": "探索",
+        "howDoIJoin": "如何加入？",
+        "summary": "摘要",
+        "tags": "標籤",
+        "published": "已發佈",
+        "lastUpdate": "最新更新",
+        "gameVersion": "遊戲版本",
+        "experienceSize": "體驗大小",
+        "assetsIncluded": "已包含獨一無二的 ASSET",
+        "recommended": "推薦體驗",
+        "publish": "發佈",
+        "unpublish": "取消發佈",
+        "experience": "體驗",
+        "portrait": "肖像",
+        "acceptedFormat": "許可的影像格式為 WEBP 和 JPEG。檔案大小應小於 90KB。",
+        "banner": "橫幅",
+        "coverImage": "你應為此體驗上傳封面影像。允許的格式為 WEBP 和 JPG。",
+        "experienceMulti": "體驗多人遊戲",
+        "landLinks": "要連結的 LAND：",
+        "expSIzeDisclaimer01": "你的體驗大小為",
+        "expSIzeDisclaimer02": "你應該連結",
+        "insertId": "插入 LAND ID，並以逗號區隔。",
+        "save": "儲存",
+        "playing": "遊玩中",
+        "visits": "造訪次數",
+        "maxPlayers": "玩家人數上限",
+        "website": "網站",
+        "socialMedia": "社群媒體",
+        "collaborator": "協作者",
+        "moreSimilarExperiences": "更多類似的體驗",
+        "shareIn": "分享到：",
+        "landsLinkedToTheExperience": "已連結至體驗的 LAND",
+        "assetsOnSaleFromCreator": "創作者出售的 ASSET",
+        "publishDate": "發佈日期",
+        "tokenId": "代幣 ID",
+        "explore": "探索",
+        "complete": "完成",
+        "moreDetail": "更多詳情",
+        "singleplayer": "單人遊戲",
+        "multiplayer": "多人遊戲",
+        "moreInfo": "更多資訊",
+        "and": "和 {nft}",
+        "nftPresaleHeader": {
+            "nftPresale": "NFT 預售",
+            "recommendedAssets": "建議",
+            "featuring": "精選 "
+        },
+        "experienceLocks": {
+            "date": "推出日期：{日期}",
+            "nft": "你需要 {nft} 才能進入遊戲。",
+            "nfts": "你需要特定的 NFT 才能進入遊戲。",
+            "faction": "此遊戲已遭團體封鎖。",
+            "ambassador": "此遊戲已遭大使封鎖。",
+            "moderator": "此遊戲已遭版主封鎖。",
+            "seasonPass": "因為你沒有季度通行證，此體驗已鎖定"
+        }
+    },
+    "collectionPage": {
+        "goBack": "返回",
+        "addedAssets": "已新增",
+        "selectAssets": "勾選收藏中所有你想要的 ASSET"
+    },
+    "presaleToast": {
+        "button": "立即加入",
+        "presale4": "就快滿月了……LAND 特別預售活動已展開！",
+        "presale5": "本次全新 LAND 預售活動已解鎖全新月球區域！",
+        "presale6": "月相轉變，全新 LAND 預售活動也隨之展開！",
+        "presale7": "元宇宙發生的日蝕現象，觸發了 LAND 特別預售活動！",
+        "presale8": "其中一場最新的 LAND 特別預售活動已開跑！大好機會，千萬別錯過。",
+        "presale9": "《The Sandbox》旅人登月之旅已結束。快來共襄盛舉，一起加入最新的 LAND 預售活動！",
+        "presale10": "LAND 公開銷售活動已開始！"
+    },
+    "support": {
+        "title": "我們能為你提供什麼協助？",
+        "marketplace": "市場",
+        "voxedit": "VoxEdit",
+        "gamemaker": "Game Maker"
+    },
+    "landOwnerOnboarding": {
+        "title1": "恭喜！",
+        "text1": "你已雀屏中選，可體驗 Game Maker Alpha！",
+        "continue": "繼續",
+        "title2": "完成你的個人檔案！",
+        "errorUsername1": "使用者名稱太短了。最短長度須為 3 個字元。",
+        "errorUsername2": "使用者名稱應為英數字元。",
+        "errorUsername3": "使用者名稱為必填欄位，不得空白",
+        "confirmPass": "確認你的密碼",
+        "title3": "太棒了！你已可以開始使用！",
+        "text3": "加入《The Sandbox》元宇宙遊玩並創造遊戲，並分享你的遊戲並賺取收益！"
+    },
+    "uploadSteps": {
+        "continue": "繼續",
+        "stepName": {
+            "name": "名稱",
+            "description": "描述",
+            "nameAndDescription": "名稱和描述",
+            "minError": "ASSET 名稱太短了。最短長度須為 3 個字元。",
+            "requiredError": "ASSET 名稱為必填欄位，不得空白",
+            "animationDefault": "動畫預設",
+            "fluidRequiredError": "方塊 ASSET 的流暢性為必要。",
+            "transparenciRequiredError": "方塊 ASSET 的透明度為必要。"
+        },
+        "stepAttributes": {
+            "availableCopies": "可用副本",
+            "results": "結果",
+            "assetBehaviorReq": "ASSET 的行為為必要。請選取一個行為。 ",
+            "fieldRequired": "紅色欄位為必填",
+            "dragAndDrop": "拖曳或按一下你的 GEM，即可在CATALYST 內新增或移除。"
+        },
+        "stepCategories": {
+            "themeRequired": "ASSET 的主題為必要。",
+            "chooseOne": "選擇 1 個主題",
+            "requiredError1": "ASSET 的類別為必要",
+            "requiredError2": "ASSET 的類別數量只能介於 1 到 3 個",
+            "title": "選擇最多 3 個類別"
+        },
+        "stepSummary": {
+            "categories": "類別",
+            "themes": "主題",
+            "send": "送審",
+            "sendExclusive": "儲存為獨家"
+        }
+    },
+    "onboarding": {
+        "gems": {
+            "step1": "為你的 ASSET 選擇一個行為",
+            "step2": "這項屬性會決定 ASSET 在遊戲中的行為模式。",
+            "step3": "系統建議為你的 ASSET 使用此CATALYST。",
+            "step4": "催化劑定義了 ASSET 的層級。",
+            "step5": "層級越高，插槽就越多。",
+            "step6": "這項屬性也定義了創造的副本數量。",
+            "step7": "你可變更此處使用的CATALYST。",
+            "step8": "CATALYST 可以裝入 GEM。",
+            "step9": "每個 GEM 會為 ASSET 帶來不同屬性。",
+            "step10": "按一下或拖放以將GEM 新增至CATALYST。",
+            "step11": "同類GEM 的數量越多，你在該屬性的點數也會越高。",
+            "step12": "按一下或拖放以將GEM 從CATALYST 中移除。"
+        },
+        "minting": {
+            "1": {
+                "title": "初次鑄造嗎？",
+                "description": "建議你詳閱此短文，了解相關詳情。",
+                "link-content": "閱讀文章"
+            },
+            "2": {
+                "title": "沒有CATALYST 和GEM 嗎？",
+                "description": {
+                    "line01": "即將顯示前往CATALYST 與GEM 商店的按鈕。",
+                    "line02": "可能需要一點時間才能完成購買程序。"
+                }
+            }
+        }
+    },
+    "uploadLand": {
+        "uploadLandName": "在此自訂你的 LAND 名稱",
+        "uploadLandDescription": "新增描述",
+        "editUrl": "編輯 LAND 網址 (http://example.com)",
+        "editVideoUrl": "新增 YouTube 影片網址 (http://youtube.com/watch?v=example)"
+    },
+    "homePageInfos": {
+        "section1": {
+            "title": "打造、擁有和主宰你的遊戲命運",
+            "paragraphs": {
+                "1": "《The Sandbox》為你帶來打造遊戲史上最佳傑作的機會。加入我們不同凡響的元宇宙，擁有你所打造的每個物件，並藉此創造收益。",
+                "2": "我們的平台基於 Ethereum 區塊鏈，並採用 SAND 作為主要功能型代幣。你可以用該代幣來購買 LAND、創造數位 ASSET，然後上傳至市場來進行交易。或使用你的 ASSET 在《The Sandbox》 Game Maker 中創造遊戲體驗。方法十分簡單，你完全不需要具備撰寫程式碼的經驗。",
+                "3": "其他玩家購買你的 ASSET 或遊玩你的遊戲時，你就能賺取 SAND 以作為回饋。這個去中心化的傑出經濟會獎勵你的參與。",
+                "4": "如果對於打造內容並藉此賺取收益不感興趣，也可以探索這個遼闊的虛擬世界，看看其他人如何開發自己的 LAND。我們日益擴大的社群還在持續增添好玩的新角色、景觀和遊戲，使這款遊戲引人入勝、精彩有趣，而且變化連連。"
+            }
+        },
+        "section2": {
+            "title": "《The Sandbox》元宇宙",
+            "paragraphs": {
+                "1": "《The Sandbox》元宇宙可分割成 166,464 塊 LAND，這些創意十足的沙盒區域屬於玩家 (也就是你) 的資產。你可以在自己的 LAND 上打造線上遊戲，或出租給其他人來發佈他們的作品，進而賺取收益。每塊 LAND 都有預先設定的預設地形，但你可以在打造自己內容時修改此預設。"
+            }
+        },
+        "section3": {
+            "title": "使用者生成內容的經濟",
+            "paragraphs": [
+                "在三大技術的應用下，全力支援你製作使用者產生內容 (UGC)。你在《The Sandbox》上創作的每個物件版權都歸你所有，並有區塊鏈和智慧合約證明你的擁有權。你可使用的三款整合 UGC 產品為："
+            ],
+            "list": [
+                "VoxelEdit，可創造體素模型、設定骨架，並快速動態化",
+                "市場，可查看或交易要用於你的 LAND 上的 ASSET",
+                "Game Maker，可打造、分享你的線上遊戲，讓你藉此賺取收益"
+            ]
+        },
+        "section4": {
+            "title": "加入大名鼎鼎的遊戲合作夥伴行列",
+            "paragraphs": [
+                "《The Sandbox》已與超過 50 個頂尖品牌合作開發加密遊戲內容，列舉幾個合作夥伴如下：Shaun the Sheep、ATARI 和 Square Enix。你會在遊戲地圖 (請查看主選單) 上看到這些合作夥伴，此外還有數千名個人使用者也正在規劃自己的內容。有許多房地產物件正在等著新玩家入手。"
+            ]
+        },
+        "bottomBar": {
+            "prev": "< 返回",
+            "next": "繼續 >"
+        },
+        "popUpSave": {
+            "text1": "虛擬化身已儲存！",
+            "text2": "立即到 Game Maker 中試試。",
+            "text3": "你的虛擬化身已儲存！",
+            "button": "Game Maker"
+        },
+        "popUpNotSave": {
+            "title": "嘿！你忘記儲存你的虛擬化身了",
+            "paragraph": "要是你離開這個頁面，你所做的任何變更將會遺失。你想要先儲存你的虛擬化身再離開嗎？",
+            "paragraphBundles": "要是你離開這個頁面，你所做的任何變更將會遺失。",
+            "saveButton": "儲存虛擬化身",
+            "leaveButton": "離開"
+        },
+        "popUpOversized": {
+            "title": "警告",
+            "text": "此部分可能無法與所有裝備相容。",
+            "button": "確定"
+        },
+        "popUpCreateAvatar": {
+            "title": "你的 Sandbox 虛擬化身",
+            "paragraph": "混搭不同面孔、上衣、褲子和鞋子，打造你的獨特風格！",
+            "button": "創造我的虛擬化身",
+            "checkbox": "不再顯示"
+        },
+        "loader": "正在載入……",
+        "randomize": "隨機",
+        "reset": "重新設定"
+    },
+    "profile": {
+        "land": "LAND",
+        "website": "網站",
+        "noWebsite": "這個使用者沒有網站",
+        "updatePwd": "更新密碼！",
+        "staking": {
+            "title": "我的質押",
+            "polyWallet": "Polygon Network L2",
+            "whyPolygon": "為何選用 Polygon？",
+            "whyPolygonText": "《The Sandbox》遷移至 Polygon，快速且高效率的管理區塊鍊交易。即將開放 Ethereum 和 Polygon 之間的跨鏈橋。",
+            "whatsBlockchain": "什麼是區塊鍊跨鏈橋？"
+        },
+        "avatars": {
+            "title": "虛擬化身",
+            "lands": "LAND 和 ESTATE",
+            "experiences": "體驗",
+            "entities": "實體"
+        },
+        "catAndGems": {
+            "cata": "我的 CATALYST",
+            "gems": "我的 GEMS",
+            "currency": "我的貨幣"
+        },
+        "activities": {
+            "title": "活動",
+            "noResultTitle": "活動紀錄正在建構中",
+            "noResultText": "不久後你就能看到交易和領取的詳細記錄。"
+        },
+        "referrals": {
+            "title": "推薦好友並贏得",
+            "explanation": "複製你的專屬推薦連結，大肆分享。當新使用者在《The Sandbox》上購買物品時，你最高將會獲得銷售額的 10%。每天都能夠重新推薦。",
+            "share": "分享你的推薦連結",
+            "duration": "連結持續時間：",
+            "days": "天",
+            "sharein": "分享到：",
+            "amountreferred": "總計推薦：",
+            "amountearnings": "總計收益： ",
+            "link": "進一步瞭解推薦 >",
+            "details": {
+                "title": "推薦紀錄",
+                "date": "日期",
+                "from": "自",
+                "acquisition": "收購品",
+                "currency": "貨幣",
+                "profit": "獲利"
+            },
+            "detailsmobile": {
+                "acquisition": "收購品",
+                "currency": "貨幣",
+                "profit": "獲利"
+            },
+            "etherscan": "在 Etherscan 上查看",
+            "nothing": "沒有獲得的傭金。"
+        },
+        "linkAWallet": "連結一個錢包",
+        "linkWallet": "連結錢包",
+        "linkWalletText": "連結錢包即可查看餘額並解鎖所有功能",
+        "myWallet": "我的錢包",
+        "copied": "Copied!",
+        "inventory": {
+            "title": "我的物品欄",
+            "cardState": {
+                "basic": "基本",
+                "exclusive": "獨家",
+                "toSell": "販售",
+                "published": "已發佈",
+                "iterating": "迭代中",
+                "pending": "待審核",
+                "approved": "已核准",
+                "rejected": "已遭拒",
+                "purchased": "已購買",
+                "unpublished": "未發佈"
+            }
+        }
+    },
+    "search": "搜尋",
+    "selectRoleFor": "為下列身分選取角色：",
+    "users": "使用者",
+    "artists": "藝術家",
+    "404NotFound": "404 找不到頁面",
+    "return": "返回",
+    "comingSoon": "(即將推出)",
+    "voxEdit": "VoxEdit",
+    "oldVoxEdit": {
+        "wrongVersion": "VoxEdit 版本有誤",
+        "assetExported": "ASSET 是使用舊版 VoxEdit 匯入",
+        "downloadLatest": "請下載最新版本"
+    },
+    "beginCreatingAwesomeContent": "開始創造精彩內容",
+    "preview": "預覽",
+    "view3d": "查看 3D",
+    "artistmoderator": "藝術家版主",
+    "artist": "藝術家",
+    "addedAssets": "已新增 ASSET",
+    "unpublishedAssets": "未發佈 ASSET",
+    "publishedAssets": "已發佈 ASSET",
+    "pendingAssets": "待審核 ASSET",
+    "iteratingAssets": "迭代中 ASSET",
+    "rejectedAssets": "已遭拒 ASSET",
+    "purchased": "已購買",
+    "searchArtist": "搜尋藝術家",
+    "start": {
+        "experiencesTitle": "遊戲體驗",
+        "blogSection": {
+            "title": "《The Sandbox》部落格"
+        },
+        "aboutUsSection": {
+            "title": "認識團隊！"
+        },
+        "carousel": {
+            "title1": "歡迎來到",
+            "title2": "《The Sandbox》虛擬化身",
+            "title3": "《The Sandbox》",
+            "preRegisterStart": "準備好要在我們的第一季度大展你的身手了嗎？搶先註冊抽獎活動來領取通行證",
+            "preRegisterEnd": "準備就緒！現在你可以參與抽獎活動，贏得參加第一季度的機會",
+            "preRegisterLottery": "正在舉行可贏得季票的抽獎活動。誠心祈禱你能幸運成為得主吧！",
+            "seasonStartWon": "你拿到季票了！\n 準備就緒！本季度即將於幾個小時後開跑",
+            "seasonStartLost": "遺憾的是，你沒有季票。\n 無論如何都想要加入這一季嗎？",
+            "seasonStartClaimed": "這個通行證可讓你進入季度。\n快準備就緒吧！本季度即將於幾個小時後開跑",
+            "seasonOngoing": "本季度現正舉辦中",
+            "seasonIncoming": "領取並收好你的季票，並做好準備！",
+            "discoverIncoming": "距離季度開始：",
+            "discoverPreStart": "距離搶先註冊開始：",
+            "discoverPreEnd": "距離搶先註冊結束：",
+            "discoverLottery": "距離抽獎活動結果開獎：",
+            "info": "為《The Sandbox》創造你的虛擬化身！",
+            "info2": "自訂你的外表，穿上強化裝備，準備與你的好友在《The Sandbox》元宇宙中一同遊戲。",
+            "info3": "《The Sandbox》為社群型平台，創作者可以透過區塊鏈的體素 ASSET 和遊戲體驗賺取收益",
+            "playInfo": "在由玩家所打造的虛擬元宇宙中，一同遊玩、建立、創造和治理世界",
+            "discoverPreseason": "探索我們的第一季度",
+            "discoverAlpha": "探索 Alpha"
+        },
+        "sandbox": {
+            "voxEdit": {
+                "title": "VoxEdit",
+                "info": "創造和動態化體素藝術。匯出至任何地方。"
+            },
+            "marketplace": {
+                "title": "市場",
+                "info": "在同一個地方出售和收集最佳 ASSET。",
+                "info1": ""
+            },
+            "gameMaker": {
+                "title": "Game Maker",
+                "info": "製作和遊玩你想像得到的任何遊戲。",
+                "info1": ""
+            }
+        },
+        "aboutUs": {
+            "title": "瞭解我們的產品",
+            "welcome": "歡迎",
+            "lands": {
+                "title": "LAND",
+                "info": "無限可能性。立即把握你的機會！",
+                "info1": "",
+                "header": {
+                    "title": "LAND",
+                    "paragraph": "《The Sandbox》元宇宙由 LAND 組成，LAND 是這個世界的要素，玩家會以持有的 LAND 來創建體驗，並藉此賺取收入。LAND 的可用數量將永遠只有 166,464 個，可用來主辦遊戲、打造多人遊戲體驗、創建房屋或為社群提供社交體驗",
+                    "discover": "探索地圖"
+                },
+                "carousel": {
+                    "title": "你能在《The Sandbox》中使用 NFT LAND 做什麼",
+                    "items": {
+                        "item1": {
+                            "title": "舉辦",
+                            "content": "競賽和活動"
+                        },
+                        "item2": {
+                            "title": "營利",
+                            "content": "ASSET 和體驗"
+                        },
+                        "item3": {
+                            "title": "開始遊戲",
+                            "content": "你或其他人創造的遊戲"
+                        },
+                        "item4": {
+                            "title": "投票",
+                            "content": "元宇宙管理事務"
+                        },
+                        "item5": {
+                            "title": "質押 SAND",
+                            "content": "以賺取並自訂 ASSET"
+                        }
+                    }
+                },
+                "cards": {
+                    "item1": {
+                        "title": "購買 LAND",
+                        "content": "先購買 LAND。使用該塊 LAND 打造任何你想像得到的作品。"
+                    },
+                    "item2": {
+                        "title": "建立",
+                        "content": "創造 NFT ASSET、遊戲、體驗和更多。"
+                    },
+                    "item3": {
+                        "title": "營利",
+                        "content": "在 NFT 市場出售你的作品，或收取作品使用費來創造收益。"
+                    }
+                },
+                "content": {
+                    "item1": {
+                        "title": "從來沒有買過 LAND 嗎？",
+                        "content": "這比你想像得還要簡單！查看我們豐富的線上資源以瞭解詳情。加入我們的 Discord 伺服器，與《The Sandbox》社群成員直接討論你的問題。",
+                        "btn": "瞭解詳情"
+                    },
+                    "item2": {
+                        "title": "什麼是《The Sandbox》？",
+                        "content": "是以實際現金經濟為基礎的多人遊戲虛擬世界。玩家就是創作者，可以自由打造任何他們想像得到的作品。立即註冊！",
+                        "btn": "建立帳戶"
+                    }
+                },
+                "playToEarn": {
+                    "title": "邊玩邊賺",
+                    "content": "免費玩遊戲已經是過時的 2010 年概念了……在《The Sandbox》，你將能以自創遊戲賺取收益！我們為玩家和創作者設計的獎勵模型實現了邊玩邊賺的概念，具有實際價值的獎勵能激發玩家和創作者遊戲與創作的強烈動機。",
+                    "subtitle": "如何在《The Sandbox》中創造收益？",
+                    "list": {
+                        "item1": "開始遊戲，贏得獎勵",
+                        "item2": "打造遊戲，賺取收益",
+                        "item3": "創造並行銷 ASSET"
+                    },
+                    "btn": "探索出售的 NFT LAND"
+                }
+            },
+            "sand": {
+                "title": "SAND",
+                "info": "我們加密貨幣帶動了此遊戲經濟。"
+            },
+            "creatorFund": {
+                "title": "基金",
+                "info": "由我們付錢，你來創造並分享「你的」精美體素作品。",
+                "info1": ""
+            },
+            "press": {
+                "title": "新聞稿",
+                "info": "瞭解遊戲平台、合作夥伴和藍圖。"
+            }
+        },
+        "articles": {
+            "title": "你可能感興趣的文章",
+            "sandbox": {
+                "title": "The Sandbox",
+                "info": "從 2D 到 3D"
+            },
+            "erc1155": {
+                "title": "ERC-1155",
+                "info": "全新標準"
+            },
+            "minecraft": {
+                "title": "Minecraft",
+                "info": "匯入你的作品"
+            },
+            "nfts": {
+                "title": "NFT",
+                "info": "使用者生成內容"
+            },
+            "link": "查看最新消息！"
+        },
+        "partners": {
+            "title": "合作夥伴"
+        },
+        "modules": {
+            "zero": {
+                "title": "流動性挖礦",
+                "paragraph1": "在《The Sandbox》這個虛擬元宇宙，玩家可以遊戲、打造、擁有自己的虛擬體驗，並以此賺取收益。你也可以投資你的加密貨幣，賺取更多 SAND",
+                "button": "立即質押"
+            },
+            "first": {
+                "title": "探索《The Sandbox》",
+                "paragraph1": "在《The Sandbox》這個虛擬元宇宙，玩家可以遊戲、打造、擁有自己的虛擬體驗，並以此賺取收益。我們讓藝術家、創作者和玩家得以打造自己夢寐以求的平台，提供你一個揮灑創意的天地。"
+            },
+            "second": {
+                "title": "成為 LAND 擁有者",
+                "paragraph1": "LAND 是《The Sandbox》元宇宙的組成要素，可供你存取獨家內容，並准許以你持有的《The Sandbox》元宇宙部分賺取收益。打造體驗、主辦活動、邀請好友。",
+                "button": "購買 LAND",
+                "button2": "探索地圖"
+            },
+            "third": {
+                "title": "為什麼要使用 SAND？",
+                "paragraph1": "$SAND 是我們主要的功能型代幣，可讓你用來購買和出售《The Sandbox》元宇宙中的 LAND 和 ASSET。",
+                "button": "立即購買"
+            },
+            "fourth": {
+                "title": "NFT",
+                "paragraph1": "不可替代代幣 (NFT) 指的是基於區塊鏈鑄造的虛擬代幣，具備數位稀缺性、安全性和可信賴性。這些代幣獨一無二、不可分割且無法替換－－實現了真正的遊戲資產數位擁有權。",
+                "button": "購買 ASSET"
+            }
+        }
+    },
+    "mapSidebar": {
+        "premiumTooltip": "特級 LAND 會包含獨家 ASSET 組合",
+        "countdownBuyLand": "你可以在此搜尋 LAND 並以 SAND 購買，以開始打造你的專屬世界",
+        "discover": "探索",
+        "landNft": "LAND NFT",
+        "findLand": "在 OpenSea 尋找 LAND",
+        "onSale": "出售",
+        "buyLand": "購買 LAND",
+        "title": "地圖",
+        "clearFilters": "清除",
+        "forSale": "出售",
+        "premium": "優質",
+        "onOpensea": "在 OpenSea 上",
+        "myLands": "我的 LAND",
+        "1x1": "1x1",
+        "3x3": "3x3",
+        "6x6": "6x6",
+        "12x12": "12x12",
+        "24x24": "24x24",
+        "tsb": "TSB",
+        "careBears": "Care Bears",
+        "atari": "Atari",
+        "theSmurf": "The Smurfs",
+        "binance": "Binance",
+        "coinMarketCap": "CoinMarketCap",
+        "avengedSevenfold": "Avenged Sevenfold",
+        "gemini": "Gemini",
+        "revv": "REVV",
+        "zepeto": "Zepeto",
+        "pranksy": "Pranksy NFT Boxes",
+        "deadMau": "Deadmau5",
+        "metaverse": "元宇宙",
+        "summerJam": "Summer Jam",
+        "euphoria": "Euphoria",
+        "innovators": "Innovators",
+        "pranksyMetapurse": "Pranksy & Metapurse",
+        "moon": "Moon",
+        "theHub1": "The Hub (第 1 部分)",
+        "theHub2": "The Hub (第 2 部分)",
+        "sizes": "大小",
+        "coordinates": "座標",
+        "wallet": "錢包",
+        "partners": "合作夥伴",
+        "sectors": "地段",
+        "goToNewMap": "新版地圖上線了！在這裡 ",
+        "newMapLink": "切換到新版本。",
+        "goToOldMap": "返回 ",
+        "oldMapLink": "舊版地圖",
+        "noResults": "你的搜尋找不到任何結果",
+        "liteMapTooltip": "精簡版地圖會隨縮放程度顯示 ESTATE 影像。",
+        "applyButton": "套用",
+        "disclaimer": "實驗模式。某些行動裝置上，地圖可能無法正常運作。我們持續改善。"
+    },
+    "auctionInfo": {
+        "description": "描述",
+        "packSeller": "組合包賣家",
+        "uniqueItems": "獨一無二的物品",
+        "packForSale": "出售的組合包",
+        "pricePerPack": "組合包單價",
+        "buyAmount": "購買數量",
+        "total": "總計",
+        "cancel": "取消",
+        "buy": "購買",
+        "bid": "出價",
+        "noPacksLeftForSale": "沒有組合包可供出售",
+        "notEnoughSAND": "SAND 不足"
+    },
+    "lottery": {
+        "currentBalanceModal": {
+            "header": "目前餘額",
+            "landTitle": "LAND",
+            "preRegistering": "因為你搶先註冊了",
+            "accumulated": "總計："
+        },
+        "modalLotteryEnded": {
+            "wantToJoin": "想要加入這次的季度嗎？",
+            "buySeasonPass": "只要有人在 OpenSea 出售季票，你就有機會取得",
+            "goOpenSea": "前往 OpenSea",
+            "findOpen": "在 Opensea 尋找",
+            "gotSeasonPass": "你拿到季票了！",
+            "descriptionExplore": "我們的第一季度現正舉辦中。你可盡情探索，並遊玩體驗以贏得獎勵。",
+            "discover": "探索本季度",
+            "congrats": "恭喜！",
+            "descriptionWinner": "立即領取並收好你的季票，贏得大獎。",
+            "claim": "領取季票",
+            "betterLuck": "下次還有機會",
+            "learnMore": "進一步瞭解 Alpha",
+            "paragraphLooser": "別太難過！你還是有機會進入 Alpha 中的某些體驗，並參與社交活動贏得獎勵。",
+            "descriptionLooser": "你沒有贏得 Alpha 通行證",
+            "youWon": "你贏得 Alpha 通行證了！",
+            "descriptionWinner2": "Alpha 中的 1,000 SAND 和超酷非同質化代幣獎勵"
+        },
+        "avatar": {
+            "alphaRegistrationTitle": "Alpha 註冊",
+            "wonSeasonPassTitle": "你贏得 Alpha 通行證了",
+            "endedTitle": "Alpha 已結束",
+            "endedSubtitle": "感謝參與《The Sandbox》Alpha 的所有玩家！",
+            "endedSubtitle2": "感謝你寶貴的意見回饋！\n 期待很快再次見到你！",
+            "drawInProgressTitle": "正在進行抽籤",
+            "lostSeasonPassTitle": "你沒有贏得 Alpha 通行證",
+            "notStartSubtitle": "爭取遊玩機會並贏得",
+            "startSubtitle": "《The Sandbox》Alpha 即將上線。\n註冊以爭取遊戲獲利的機會！",
+            "startCountDown": "距離註冊開始：",
+            "endCountDown": "距離註冊結束：",
+            "lotteryCountDown": "距離抽獎活動結果開獎：",
+            "AlphaCountDown": "距離 Alpha 開始：",
+            "registeredSubtitle": "你已註冊抽獎活動，並花費",
+            "notRegisteredSubtitle": "你並未註冊 Alpha。",
+            "lostAccessSubtitle": "你必須是地主才能參加抽獎活動。",
+            "findInOpenButton": "在 Opensea 尋找",
+            "registerButton": "註冊",
+            "claimPassButton": "領取季票",
+            "seeRewardsButton": "查看獎勵",
+            "notClaimedSubtitle": "立即領取並收好，獲得 1,000 SAND 和非同質化代幣獎勵。",
+            "alreadyClaimedSubtitle": "你已成功領取 Alpha 通行證非同質化代幣",
+            "purchaseFromAnotherSubtitle": "你依然能夠獲得 Alpha 通行證。查看資訊頁面以瞭解詳情。",
+            "wonClaimedPassTitle": "你已經準備好進入 Alpha 了",
+            "notStartSubtitle2": "1,000 SAND 和非同質化代幣獎勵，",
+            "notStartSubtitle3": "都在 Alpha 中！",
+            "claimAvailableAt": "距離可領取時間：",
+            "alphaEndsIn": "距離 Alpha 結束：",
+            "claimRewardsButton": "領取獎勵"
+        },
+        "modalLottery": {
+            "cannotPreRegister": {
+                "title": "Alpha 註冊",
+                "mustLandOwn": "只有地主才能註冊 Alpha 抽獎活動。",
+                "mustLandOwn2": "別擔心，Alpha 會以限制內容的形式開放給沒有 Alpha 通行證的所有人。",
+                "learnMore": "進一步瞭解 Alpha",
+                "buyLand": "購買 Land",
+                "subtitle": "贏得 Alpha 通行證",
+                "mustLandOwn3": "Alpha 通行證將會讓你能夠完全使用 Alpha，並贏得",
+                "rewards": "1,000 SAND 和 3 個非同質化代幣獎勵。",
+                "mustLandOwn4": "你可以購買 LAND 來參加抽獎活動，獲得贏得 Alpha 通行證的機會。"
+            },
+            "ready": "Alpha 註冊",
+            "description": "= 1 次機會贏得",
+            "howItWorks": "運作方式",
+            "preRegister": "註冊",
+            "great": "太棒了！",
+            "alreadyRegistered": "你已成功註冊！",
+            "preRegistering": "正在註冊",
+            "landWallet": "你錢包中的每塊 LAND",
+            "tooltip": "若要註冊，你必須先成為地主。",
+            "inPreseason": "在 ALPHA",
+            "outPreseason": "不在 ALPHA",
+            "finOpenSea": {
+                "title": "在 OpenSea 上尋找 Alpha 通行證",
+                "subtitle": "你將會被重新導向至 OpenSea 網站",
+                "redText1": "請不要在 Alpha 結束後 (12 月 20 日)",
+                "redText2": "在 OpenSea 上購買 Alpha 通行證。",
+                "buttonText": "前往 OpenSea"
+            },
+            "countdownRegister": {
+                "registerRaffle": "註冊抽獎活動，獲得贏得 Alpha 通行證的機會，贏得",
+                "1000": "1,000 SAND 和非同質化代幣獎勵。",
+                "1ticket": "1 張抽獎券",
+                "+ticket": "+ 1 張抽獎券",
+                "registering": "正在註冊 = ",
+                "disclaimer": "每位使用者在抽獎活動中僅能獲得一張 Alpha 通行證！",
+                "increaseChances": "增加獲獎的機會！在抽獎活動期間，每擁有一塊 LAND，就會額外給你一次贏得 Alpha 通行證的機會。",
+                "getTicketDescription": "註冊即可獲得 1 張樂透彩券，每擁有一塊 LAND 還能再得到 1 張。彩券越多，中獎機率就越大！",
+                "eachLand": "你錢包中的每塊 LAND = ",
+                "registerButton": "註冊",
+                "successfully": "你已成功以下列帳戶註冊 ",
+                "great": "太棒了！"
+            },
+            "alphaPass": "Alpha 通行證",
+            "raffleTicket": "抽獎券",
+            "description2": "。透過註冊，你獲得了 1 張抽獎券，每擁有一塊 LAND 就會擁有一張額外的抽獎券。抽獎券越多，贏得 Alpha 通行證的機率就越大"
+        }
+    },
+    "privacyPolicy": {
+        "title": "Bacasable 隱私權政策",
+        "text1": "GDPR – 隱私納入設計和處理活動紀錄",
+        "text2": "處理個人資料時，我們遵循歐盟一般資料保護法規 (GDPR)，致力於實現守法、公平、透明的處理原則。此隱私權政策記述我們一般的隱私納入設計考量 (GDPR 第 5、25 和 26 條)，並記錄我們的處理活動 (GDPR 第 30(1) 條)。此隱私權政策描述了我們可從您收集、或您在造訪網站時可能提供的資訊類型、",
+        "text3": "此後提供的所有平台和服務，以及透過我們的行動應用程式 (統稱我們的「網站」) 和我們收集、使用、維護和保護及揭露該類資訊的實務做法。",
+        "text4": "公司名稱：BACASABLE Global Limited Address Unit 418, Level 4, Cyberport 1, 100 Cyberport Road, Hong Kong，電子郵件：privacy@sandbox.game",
+        "text5": "* 並非 GDPR 規範下的正式資訊保護官。請注意，下列第 1 點至第 11 點段落使用代名詞「您」和「我們」，以在未更動我們提供給資料主體的資訊通知的情況下，允許含括指稱。",
+        "text6": "我們的網站不宜未滿 18 歲的兒童使用。未滿 18 歲的使用者不得向網站或在其中提供任何個人資訊。我們不在知情情況下收集未滿 18 歲兒童的個人資訊。若您未滿 18 歲，請勿在網站使用或提供任何資訊，或是利用網站功能/註冊網站、透過網站購買任何商品、使用網站的任何互動或公開留言功能，或向我們提供您個人相關的任何資訊，包括您的姓名、地址、電話、電子郵件地址或任何網路暱稱或您可能使用的使用者名稱。若我們得知在未經父母同意驗證的情況下，收集或收到了未滿 18 歲兒童的個人資訊，我們會刪除該筆資訊。若您認為我們可能有來自未滿 18 歲兒童或其相關之任何資訊，請來信 privacy@sandbox.game 聯絡我們。",
+        "text7": "1.我們會處理下列 (類別的) 個人資料；當您遊玩我們的遊戲，與我們的遊戲平台互動或參與其中、透過我們的遊戲連線至社群網路網站、註冊帳戶、輸入促銷代碼或下訂單時，我們便會處理下列個人資料：",
+        "text8": "您的 IP 位址、您的 SIM 代碼、您所在位置的國家/地區。您的裝置類型 (例如 PC 或 Mac、iPhone 7、Samsung Galaxy S7) 和作業系統版本。",
+        "text9": "大多時候是為了分析用途：當您安裝並玩了遊戲後，您在遊戲中的進度和與遊戲相關的活動。一般而言，我們無法透過此筆資料識別您的身分，但會採用與個人資料相同的處理方式。",
+        "text10": "2.我們的資料用途 (目的) 我們使用此個人資料來執行遊戲分析，並允許第三方在刊登廣告的遊戲中銷售、購買和投放廣告。我們使用您的 IP 位址和 SIM 代碼來遵守法律義務，特別是遵循 VAT 通報義務",
+        "text11": "我們使用社群網路資料向您顯示個人化內容，並同步處理您在多部裝置中的線上進度。舉例來說，我們可能會向您顯示只有您好友在內的清單，或是在遊戲內的物件上顯示您的名稱或虛擬化身。",
+        "text12": "我們會使用您在註冊電子報時提供的電子郵件地址來寄送電子報給您",
+        "text13": "3.我們處理程序的法律依據為何；對於分析和廣告用途，我們會根據 TSBMV GLOBAL LTD. 的合法利益處理個人資料。為分析用途，我們可以分析玩家在遊戲中的進度來協助他們進步，並以彙總處理的資料來掌握我們的玩家客群。為廣告用途，我們可以平衡開發成本並以廣告收入來降低風險。我們也會出於為遵循法律義務的合法商業利益來處理您的資料－－我們受到特定法律規範，可能要求我們處理您的個人資料。我們也可能出於法律義務而向監管實體或執法機關揭露您的個人資料。對於我們所配合的第三方，其合法利益是可以為我們提供其服務，而對於廣告第三方和廣告商，其合法利益則是可以向您顯示廣告。",
+        "text14": "4.我們從何處取得資料 (來源) 我們會從您 (您透過網站直接提供) 和從我們的第三方服務供應商取得資料：",
+        "text15": "Google Analytics",
+        "text16": "Smartlook",
+        "text17": "Google Tags",
+        "text18": "Bitski",
+        "text19": "5.我們保存資料的期限與位置；我們收集到的個人資料最久保存 5 年，且只會在那段時間後彙整資料。彙總資料即表示我們不再查看個別玩家的資料。我們透過配合的第三方服務供應商 Amazon AWS 儲存資料。當第三方服務供應商為控管者時，他們可無限期保存資料。",
+        "text20": "6.我們採取了哪些安全措施來保護資料；考量到資料處理的本質、範圍、情境和目的，我們採取了下列技術與組織措施：",
+        "text21": "存取資料庫和第三方服務的使用者帳戶受到存取權控制保護。",
+        "text22": "資料庫存取權設有限制，並非我們組織中的所有員工都有完整存取權。",
+        "text23": "若技術許可，從我們遊戲傳送的資料會在傳輸時經過加密處理。我們不主動監控資料庫的安全性，並依賴我們的處理商來通知我們任何資料洩漏情形。",
+        "text24": "7.我們分享資料的對象；我們可能會在沒有限制的情況下揭露彙總資料和任何無法識別個人使用者身分的資訊。",
+        "text25": "我們也可能會揭露我們收集或您提供的個人資訊給：",
+        "text26": "我們的子公司或相關企業。",
+        "text27": "承包商、服務供應商和其他用於支援我們業務的第三方。",
+        "text28": "TSBMV Global Ltd. 部分或所有 ASSET 之買家或併購、重整、解散或其他轉移或銷售情事之其他繼任者。",
+        "text29": "達成您提供資訊的目的。",
+        "text30": "由我們在您提供資訊時所揭露的任何其他目的。",
+        "text31": "徵得您的同意後，",
+        "text32": "我們會與下列第三方分享資料。這些為控管者或代表我們行動的處理商。我們已提供他們個別政策的連結及他們職責內容的簡介：",
+        "text33": "我們也可能會在下列情況揭露您的個人資訊：",
+        "text34": "為遵循任何法院判令、法律或法務程序，包含回應任何政府或法規要求。",
+        "text35": "為強制執行或應用我們的使用條款與其他協議，包括用於帳單和收集目的。",
+        "text36": "為保護權利、資產或安全性或 TSBMV Global Ltd.、我們的使用者或其他，且我們相信洩漏為必要或適當手段時。",
+        "text37": "8.轉移您的個人資料；您也應知悉您的個人資料可能會從您所在的國家/地區轉移至第三方。若您是歐盟國家/地區居民，這可能表示我們也會將資料轉移至個人資料防護水準未達歐盟規範的其他國家/地區。我們只會在已設置適當安全措施時移轉您的個人資料，以保護資料安全。若要索取我們設置的安全措施副本，請與我們聯絡。我們的聯絡詳細資料列於此隱私權政策結尾。",
+        "text38": "9.您的權利；您有權申請存取為我們處理之您的個人資料。您也有權申請完成下列動作：",
+        "text39": "訂正錯誤的個人資料，或在特定情況下清除該資料。",
+        "text40": "限制或反對處理您的個人資料。",
+        "text41": "接收您的資料，以便您用於其他用途 (資料可攜性)。",
+        "text42": "若您希望行使上述任何權利，請來信至 privacy@sandbox.game。您也可以透過「設定」更新《The Sandbox》個人檔案中的個人資料。最後，您有權向監管機關提出申訴。若您不清楚您的監管機關單位，請與我們聯絡，我們會將相關資訊轉達給您。",
+        "text43": "10.如何與我們聯絡；如果您對於任何個人資料處理、Cookie 採用情況和我們所用的類似科技有相關問題，或是須行使上述權利，可以與我們聯絡：網頁：http://www.sandbox.game",
+        "text44": "地址：公司名稱：BACASABLE Global Limited Address Unit 418, Level 4, Cyberport 1, 100 Cyberport Road, Hong Kong，電子郵件：privacy@sandbox.game",
+        "text45": "11.版本資訊：通知最後更新日期為 2020 年 8 月 28 日。您可前往以下網頁查看："
+    },
+    "seasons": {
+        "title": "活動季",
+        "season": "季度"
+    },
+    "collectionsPage": {
+        "portrait": "肖像",
+        "acceptedFormat": "允許的影像格式為 PNG 和 JPG。檔案大小應小於 2MB。",
+        "banner": "橫幅",
+        "coverImage": "你應上傳此收藏的封面圖片。允許的格式為 PNG 和 JPG。",
+        "icon": "圖示",
+        "iconImage": "你應上傳此收藏的圖示。這會顯示在市場側欄中。允許的格式為 PNG。"
+    },
+    "staking": {
+        "staking": "質押",
+        "tab1": "正在農耕",
+        "tab2": "紀錄",
+        "poolInfo": "池資訊",
+        "LP": "LP",
+        "yourDeposit": "你的存款流動性",
+        "yourRewards": "你的獎勵",
+        "deposit": "存款",
+        "findPool": "尋找你的池",
+        "landAsset": "LAND<>ASSET",
+        "liquidity": "流動性挖礦",
+        "myShare": "我的份額",
+        "earning": "收益",
+        "totalDeposits": "存款總計",
+        "poolRewards": "池獎勵",
+        "totalPoolRewards": "每週池獎勵",
+        "tvl": "已鎖定的總價值",
+        "apy": "4 月",
+        "weekly": "每週獎勵",
+        "share": "份額",
+        "haveLand": "想要提高你的收益嗎？",
+        "extraInfo": "成為地主，即可享有獎勵加成",
+        "buyLand": "購買 Land",
+        "titleDeposits": "你的流動性存款",
+        "addLiquidity": "新增流動性",
+        "landMultiplier": "加成",
+        "withdraw": "提領",
+        "titleUnclaimed": "你的未領取獎勵",
+        "claim": "領取",
+        "claimAndWithdraw": "領取並提領",
+        "cashOut": "你需要兌現嗎？",
+        "claimAndWithdrawQ": "你要提領所有投資並領取你的利潤嗎？",
+        "rewards": "獎勵",
+        "availableSoon": "即將推出",
+        "manage": "管理",
+        "approve": "核准",
+        "tip": "實用資訊",
+        "pools": "池",
+        "filter": "排序依據",
+        "tipOfDay": "新增流動性挖礦措施可以進一步培養深度流動性，為那些希望合法交易並使用 SAND 的使用者提供強大的交易場所。",
+        "greeting": "你好",
+        "wallet": "我的錢包",
+        "title": "《The Sandbox》流動性挖礦",
+        "noResult": "找不到結果",
+        "tooltipText": {
+            "tvl": "已鎖定的總價值",
+            "apy": "年收益率",
+            "share": "你在此池的份額！",
+            "earn": "你在此池的收益！",
+            "totalDeposits": "你在此池的總存款！",
+            "poolRewards": "此池本週持有的獎勵金額！",
+            "landOwner": "地主",
+            "landQty": "#LAND",
+            "landMultiplier": "加成"
+        },
+        "modalWithdraw": {
+            "withdraw": "你的提領",
+            "token": "LP 代幣",
+            "claim": "你賺取的是",
+            "sand": "SAND",
+            "confirm": "確認"
+        },
+        "modalStake": {
+            "add": "新增流動性",
+            "balance": "餘額： ",
+            "stake": "質押",
+            "more": "如何獲得流動性？",
+            "amount": "數量"
+        },
+        "transaction": {
+            "contract": "合約",
+            "fee": "礦工費",
+            "block": "方塊",
+            "stake": "新增流動性",
+            "withdraw": "提領",
+            "claim": "領取獎勵"
+        },
+        "transactionHistory": {
+            "title": "交易紀錄",
+            "noTransactions": "沒有任何交易"
+        },
+        "walletTab": {
+            "mainnetL1Title": "Ethereum Network L1",
+            "testnetL1Title": "Testnet Network L1",
+            "eth": "ETH",
+            "poly": "Polygon",
+            "msand": "百萬 SAND",
+            "sand-poly": "百萬 SAND：Polygon",
+            "sand-poly-text": "全新的去中心化金融功能即將在 Polygon 上推出。準備好質押 SAND，贏得更多獎勵！",
+            "sand": "SAND",
+            "usd": "美金",
+            "buy": "購買",
+            "nftMainnet": "主網路上的 NFT",
+            "land": "LAND",
+            "asset": "ASSET",
+            "matic": {
+                "title": "在你的錢包中啟用 MATIC",
+                "step1": "開啟你的錢包",
+                "step2": "匯入 Matic 網路",
+                "step3": "享受 Matic Layer 2 的好處",
+                "activate": "立即啟用 MATIC",
+                "tutorial": "播放教學",
+                "why": "為什麼要使用 MATIC？"
+            }
+        },
+        "tutorial": {
+            "step1": {
+                "title": "參加你的池",
+                "text": "質押前請先選取你的流動性池"
+            },
+            "step2": {
+                "title": "取得你的 LP 代幣",
+                "text": "前往 QuickSwap 取得你的流動性交易組代幣"
+            },
+            "step3": {
+                "title": "存入你的 LP 代幣",
+                "text": "投資你的 LP 代幣並開始賺取獎勵"
+            },
+            "step4": {
+                "title": "領取你的獎勵",
+                "text": "你存入存款後，即可領取其產生的獎勵"
+            }
+        },
+        "sushiswap": "SushiSwap",
+        "withdrawTitle": "提領和領取",
+        "claimTitle": "領取",
+        "depositTitle": "存款",
+        "historyTitle": "交易紀錄",
+        "pool": "池",
+        "myPools": "我的池",
+        "totalRewards": "獎勵總計",
+        "landMultiplierHeader": "LAND 加成",
+        "sidebar": {
+            "action-desc-deposit": "在池中存入 LP 代幣贏得更多 SAND",
+            "footer-text-deposit": "此交易將會在池中加入 LP 代幣，你將能夠開始贏得獎勵",
+            "footer-text-claim": "領取收益後，你的錢包將會獲得更多 SAND。",
+            "footer-text-withdraw": "當你提領 LP 時，同時也會領取收益，如此一來將會省下你的礦工費開銷。"
+        }
+    },
+    "login": {
+        "refresh": "外掛程式安裝完成後，請重新整理你的瀏覽器",
+        "reload": "重新載入頁面",
+        "choose": "選擇你的錢包",
+        "sub-choose": "你還沒有安裝錢包，請選擇一個才能繼續"
+    },
+    "licenses": {
+        "license": "授權",
+        "author": "作者",
+        "version": "版本"
+    },
+    "landing": {
+        "snoopdogg": {
+            "bannerTop": {
+                "signin": "登入",
+                "title": "Snoop Dogg",
+                "button": "建立帳戶",
+                "subtitle1": "進入元宇宙",
+                "paragraph1": "Snoop Dogg 正在《The Sandbox》內打造他的豪宅，而他邀請「你」去參加派對！",
+                "paragraph2": "打球、看電影，在泳池旁放空。",
+                "paragraph3": "造訪 Snoop Dogg 的豪宅，參觀狗狗教父的 NFT。"
+            },
+            "loginVIP": {
+                "title": "你的 VIP 派對通行證",
+                "button": "瞭解詳情",
+                "descriptionRegular1": "Snoop 私人派對通行證代幣可讓你一窺 Snoop Dogg 的生活風格。有了派對通行證，你就可以參加 Snoop 的私人元宇宙派對，並瞧瞧獨一無二的 NFT。"
+            },
+            "loginVIPNow": {
+                "title1": "取得你的 Snoop",
+                "title2": "私人派對通行證",
+                "bold": "Snoop 私人派對通行證 ",
+                "button": "取得你的通行證",
+                "descriptionRegular1": "是限量代幣，可讓你一窺 Snoop Dogg 的生活風格。有了派對通行證，你就可以參加 Snoop 的私人元宇宙派對，並瞧瞧獨一無二的 NFT、享有無價體驗，和邀請 Snoop Dogg 到你的 LAND 上舉辦專屬演唱會的機會。通行證的發行量只有 1,000 個，馬上就建立你的帳戶來獲得通行證吧。"
+            },
+            "bannerMiddle": {
+                "title1": "遊戲、創造、",
+                "title2": "擁有和管理",
+                "subtitle1": "由玩家打造的虛擬世界",
+                "paragraph1": "同時具備單人遊戲和多人遊戲的遊戲體驗。使用 Voxedit 3D 創造和動態化 ASSET。使用遊戲製作工具在《The Sandbox》元宇宙打造獨一無二的遊戲體驗。在市場購買和出售 ASSET，升級你的體驗。",
+                "paragraph6": "在《The Sandbox》，唯一的限制就是你的想像力。",
+                "button1": "取得你的 LAND",
+                "title3": "以嶄新方式探索和發掘",
+                "subtitle2": "Snoop Dogg 的世界。 ",
+                "subtitle3": "取得你的 LAND",
+                "subtitle4": "",
+                "subtitle5": "成為狗狗教父",
+                "paragraph2": "在 Snoop 的豪宅旁與新朋舊友一同聚會！",
+                "paragraph3": "你將有機會成為 Snoop Dogg，這都要多虧能在《The Sandbox》元宇宙使用自訂體素虛擬化身！",
+                "linkAbout": "探索《The Sandbox》"
+            },
+            "hookedup": {
+                "title1": "如何",
+                "title2": "參加派對：",
+                "button": "建立帳戶",
+                "paragraphs": {
+                    "1": {
+                        "text": "在《The Sandbox》有個帳戶。"
+                    },
+                    "2": {
+                        "text": "取得限量 1,000 個派對通行證有三種方式：",
+                        "list": {
+                            "1": "- 在即將到來的 Snoop LAND 銷售活動中，從 212 塊特級 LAND 中買下一個。",
+                            "2": "- 在我們市場出售的 650 個通行證中，買下其中一個通行證。",
+                            "3": "- 在我們的空投活動期間，成為 138 個幸運得主之一。"
+                        }
+                    },
+                    "3": {
+                        "text": "加入《The Sandbox》Discord，進入 Snoop Dogg VIP 頻道。"
+                    }
+                }
+            },
+            "partners": {
+                "title1": "品牌和 IP 已加入",
+                "title2": "《The Sandbox》元宇宙。"
+            },
+            "footer": {
+                "title": "追蹤我們。",
+                "text": "根據 Robert Kirkman、Tony Moore 和 Charlie Adlard 所創作的漫畫書《The Walking Dead》創造。《The Walking Dead》是 Robert Kirkman、有限責任公司擁有的已註冊或受保護商標。Skybound 是為 Skybound、有限責任公司擁有的已註冊或受保護商標。授權使用。",
+                "socialIcons": {
+                    "discord": {
+                        "name": "discord",
+                        "url": "https://discordapp.com/invite/vAe4zvY "
+                    },
+                    "telegram": {
+                        "name": "telegram",
+                        "url": "https://t.me/sandboxgame"
+                    },
+                    "medium": {
+                        "name": "medium",
+                        "url": "https://medium.com/sandbox-game"
+                    },
+                    "twitter": {
+                        "name": "twitter",
+                        "url": "https://twitter.com/TheSandboxGame"
+                    },
+                    "instagram": {
+                        "name": "instagram",
+                        "url": "https://www.instagram.com/thesandboxgame/"
+                    },
+                    "facebook": {
+                        "name": "facebook",
+                        "url": "https://www.facebook.com/TheSandboxGame/"
+                    },
+                    "youtube": {
+                        "name": "youtube",
+                        "url": "https://www.youtube.com/user/TheSandboxGame"
+                    },
+                    "twitch": {
+                        "name": "twitch",
+                        "url": "https://www.twitch.tv/thesandboxgame"
+                    },
+                    "reddit": {
+                        "name": "reddit",
+                        "url": "https://www.reddit.com/r/TheSandboxGaming/"
+                    }
+                }
+            },
+            "getYourSnoopPassEarly": {
+                "title1": "Get your Snoopverse",
+                "title2": "Early access Pass",
+                "bold": "The Snoopverse Early Access ",
+                "descriptionRegular1": "pass gives you access to the Snoop Dogg Metaverse Experiences in The Sandbox before anyone else. Become a part of the development, give your feedback, enter Snoop’s world!",
+                "button": "Get your early Pass"
+            },
+            "videoContainer": "DISCOVER THE SNOOPVERSE",
+            "comparisonPass": {
+                "left": {
+                    "title1": "Snoopverse early",
+                    "title2": "access Pass",
+                    "description": "The Snoopverse Early Access pass gives you access to the Snoop Dogg Metaverse Experiences in The Sandbox before anyone else. Become a part of the development, give your feedback, enter Snoop's world!",
+                    "list": {
+                        "1": "Early access to",
+                        "1link": "Snoopverse",
+                        "2": "Get involved in the development process of Snoopverse",
+                        "2link": "Exclusive NFT",
+                        "3": "drops",
+                        "4": "Whitelist access to",
+                        "3link": "Snoop Avatar",
+                        "5": "drop",
+                        "6": "Invitation to the",
+                        "4link": "Cozomo Art gallery opening",
+                        "7": "Future multiplier on",
+                        "5link": "staking",
+                        "8": "SAND Rewards in",
+                        "6link": "Snoopverse play-to-earn"
+                    },
+                    "button": "Go to Marketplace"
+                },
+                "right": {
+                    "title1": "Snoop private",
+                    "title2": "party Pass",
+                    "description": "The Snoop Private Party Pass token gives you access to step into Snoop Dogg's lifestyle.",
+                    "list": {
+                        "1": "Invitation to ",
+                        "1link": "Snoop's Private Party",
+                        "2": "Access to Snoop's first",
+                        "2link": "Metaverse concert",
+                        "3": "Invitation to",
+                        "3link": "Cozomo Art gallery opening",
+                        "4": "Whitelist access to ",
+                        "4link": "Snoop Avatar drop",
+                        "5": "Future multiplier on",
+                        "5link": "staking "
+                    },
+                    "button": "Go to Opensea"
+                }
+            }
+        },
+        "alpha": {
+            "banner": {
+                "title": "Alpha 季度",
+                "subtitle": "遊玩",
+                "description": "一瞥元宇宙面貌，玩家 (也就是你) 可在專屬 LAND 上創造並舉辦所有驚奇活動。歡迎！",
+                "button": "開始遊戲"
+            },
+            "topInfos": {
+                "title": "The Sandbox",
+                "paragraph": "《The Sandbox》是虛擬元宇宙，玩家可以在這個一級棒的虛擬世界打造、擁有自己的遊戲體驗和 ASSET，並藉此創造收益。《The Sandbox》提供了一整套量身訂作的工具，好讓玩家齊聚一堂，並在元宇宙的各個角落創造精彩體驗。"
+            },
+            "intro": {
+                "title": "《The Sandbox》非常高興能發佈首個封測活動 Alpha！",
+                "description": "別忘了，生態系統仍在建造中，因此你可能發現一些新作品和錯誤。我們的主要目標是測試伺服器架構、社交參與度和使用者流程。請在我們網站的 Alpha 專區提供意見回饋，協助我們改善本次體驗。",
+                "subtitle": "玩得愉快"
+            },
+            "alpha": {
+                "title": "Alpha",
+                "sections": {
+                    "1": {
+                        "subtitle": "遊玩 ALPHA",
+                        "title1": "探索",
+                        "title2": "元宇宙",
+                        "paragraphs": {
+                            "1": "歡迎所有人加入 Alpha！造訪超棒又獨特的虛擬世界，進入單人和多人的體驗。",
+                            "2": "開放給所有人！",
+                            "3": "限時內容：",
+                            "4": "你可以進入 Alpha 中心 (Alpha Hub) 並進行 3 項獨特體驗，在《The Sandbox》社群中探索和進行互動。",
+                            "5": "擁有 Alpha 通行證",
+                            "6": "完整內容：",
+                            "7": "完整進入 18 項 Alpha 獨家體驗並贏得最高",
+                            "8": "1,000 SAND 和 3 個非同質化代幣獎勵！"
+                        }
+                    },
+                    "2": {
+                        "subtitle": "進入 Alpha",
+                        "title1": "如何",
+                        "title2": "加入？",
+                        "paragraphs": {
+                            "1": "獲得 Alpha 通行證才能獲得 Alpha 的所有內容，並贏得",
+                            "2": "如何獲得 Alpha 通行證：",
+                            "3": "抽獎活動：",
+                            "sand": "1,000 SAND",
+                            "nft": "及 3 個非同質化代幣。",
+                            "subtitle2": "只會創造並向社群提供 5,000 張 Alpha 通行證。",
+                            "4": "地主能夠註冊抽獎活動，獲得贏得 Alpha 通行證的機會。",
+                            "5": "每日競賽：",
+                            "6": "只要參與 Alpha 中心 (Alpha Hub) 中的每日競賽，所有人都有機會贏得 Alpha 通行證。持續關注",
+                            "7": "《The Sandbox》最新消息",
+                            "8": "和供大家參與的社群媒體。",
+                            "9": "OpenSea：",
+                            "10": "所有人都能",
+                            "11": "在 OpenSea 購買 Alpha 通行證",
+                            "12": "若有人願意販售的話。",
+                            "13": "如果你沒有 Alpha 通行證，你依然能夠加入中心並四處遊玩。"
+                        },
+                        "button": "在 OpenSea 尋找"
+                    },
+                    "3": {
+                        "subtitle": "遊戲獲利",
+                        "title1": "遊玩 ALPHA 並贏得",
+                        "title2": "加密貨幣和非同質化代幣",
+                        "paragraphs": {
+                            "1": "完成簡單的目標，贏得 SAND 和擁有金錢價值的非同質化代幣！",
+                            "2": "透過 Alpha 通行證贏得大獎",
+                            "3": "1,000 SAND",
+                            "4": "3 個獨家 Alpha 非同質化代幣"
+                        },
+                        "button": "前往市場"
+                    }
+                },
+                "windows": "僅在 Windows 推出",
+                "os": "Mac 和其他作業系統即將推出",
+                "subtitle1": "遊玩 Alpha，贏得 1,000 SAND 和 3 個非同質化代幣",
+                "subtitle2": "開放期間為 2021 年 11 月 29 日至 12 月 20 日",
+                "subtitle3": "獎勵的運作方式，你可以做什麼？有什麼好處嗎？讓我們來回答你的所有問題！"
+            },
+            "rewards": {
+                "title": "關於獎勵的一切",
+                "paragraph": "獎勵的運作方式，你可以做什麼？有什麼好處嗎？讓我們來回答你的所有問題！"
+            },
+            "reward": {
+                "title": "獎勵",
+                "subtitle": "+1.000 SAND",
+                "paragraph1": "總價格池為 100 萬 SAND！",
+                "paragraph2": "每個玩家可以贏得最多 1,000 SAND。換句話說，將有 1,000 個贏家！"
+            },
+            "explore": {
+                "title": "探索我們的頂級關卡",
+                "subtitle": "你在遊戲中見到的一切都可以在市場購買。",
+                "button": "前往市場",
+                "experienceNames": {
+                    "experience": "體驗：",
+                    "0": "Alpha 中心 (Alpha Hub)",
+                    "1": "非同質化代幣學院 (The NFT Institute)",
+                    "2": "當伊茲地下城 (Dungeon of Dum-Yz)",
+                    "3": "XYZ 俱樂部 (Club XYZ)",
+                    "4": "沙爾雅之道 (Way to Xalya)",
+                    "5": "沙爾雅聖所 (Xalya Sanctuary)",
+                    "6": "奢華渡假村 (Villa Deluxe)",
+                    "7": "荒廢崖 (Rusty Cliff)",
+                    "8": "綠色煉獄 (The Green Inferno)",
+                    "9": "深淵邊界 (Edge of the Abyss)",
+                    "10": "阿爾德拉克之道 (Path to Aldrak)",
+                    "11": "阿爾德拉克駐防地 (Aldrak Garrison)",
+                    "12": "熱帶公園 (Tropical Park)",
+                    "13": "集會所會面 (Meet at the Agora)",
+                    "14": "大亂鬥 (The Big Brawl)",
+                    "15": "血魂堡壘 (Fortress of Bloodsouls)",
+                    "16": "中央城之道 (Road to Central Town)",
+                    "17": "中央城 (Central Town)"
+                }
+            },
+            "hub": {
+                "title1": "在中心",
+                "title2": "與好友見面",
+                "button": "前往中心",
+                "paragraph": "《The Sandbox》中心是元宇宙的中心位置。你可以在這裡找到展示了許多 NFT 的收藏、進入其他體驗的入口、音樂會空間和我們的團體所居住的三大區域：神諭者、英雄和科學家。"
+            },
+            "glitches": {
+                "title": "元宇宙中的失靈現象",
+                "paragraph1": "我們還不知道原因為何，但你會頻繁發現「超失靈現象」，也就是那些應該在元宇宙其他地方的小碎片會出現在不該出現的地方。",
+                "paragraph2": "這是個認識新朋友、觀賞罕見 NFT 的大好機會！",
+                "author": {
+                    "text": "「我原本是要來找要給 Carl 的食物，然後我走到了這個奇怪的地方……這裡是亞特蘭大嗎？」",
+                    "name": "Rick Grimes"
+                }
+            },
+            "header": {
+                "topSection": {
+                    "alpha": "Alpha 季度",
+                    "rewards": "獎勵",
+                    "hub": "主中心",
+                    "partners": "合作夥伴"
+                }
+            },
+            "join": {
+                "button": "立即加入我們"
+            },
+            "partners": {
+                "title": "合作夥伴"
+            },
+            "notSupported": {
+                "alpha": "Alpha",
+                "deviceNotSupported": "目前不支援你的裝置。若要遊玩，請使用 Windows PC。",
+                "backToHome": "返回首頁"
+            },
+            "onboarding": {
+                "title1": "探索超棒體驗，每天都會揭示全新體驗！",
+                "title2.1": "在 Alpha 通行證中提升進度，只需要完成所有",
+                "title2.2": "由元宇宙嚮導給你的",
+                "title2.3": "Alpha 任務即可",
+                "title3": "在 Alpha 結束的那一天領取所有已贏得的獎勵！",
+                "next": "繼續",
+                "start": "關閉",
+                "skip": "略過",
+                "subtitle1": "在遊玩頁面中查看顯示行事曆，了解新體驗的推出時間以及社群活動的舉行時間！",
+                "subtitle2": "在每項體驗中，尋找元宇宙嚮導並完成他指派給你的 Alpha 任務 (由藍色驚嘆號標記)。在所有體驗中完成 Alpha 任務，贏得所有獎勵！",
+                "subtitle2.1": "在每項體驗中，尋找元宇宙嚮導並完成",
+                "subtitle2.2": "他指派給你的",
+                "subtitle2.3": "Alpha 任務 (由藍色驚嘆號標記",
+                "subtitle2.4": ")。在所有體驗中完成 Alpha 任務，贏得所有獎勵！",
+                "subtitle2.5": "所有獎勵都能在 Alpha 結束後領取",
+                "subtitle3.1": "你最高能夠贏得",
+                "subtitle3.2": "1,000 SAND 和 3 個專屬非同質化代幣！",
+                "subtitle3.3": "在你的體驗中放置非同質化代幣，讓其脫穎而出，或是販售給其他玩家！所有獎勵都能在 Alpha 結束後領取"
+            }
+        },
+        "quan": {
+            "info": {
+                "title1": "探索並發掘",
+                "title2": "來《The Sandbox》和來自日本的 Kawaii Stick 見面！",
+                "land1": "取得你的 LAND",
+                "land2": "在 Quan 的 LAND 旁和朋友與貼紙一起聚在一起！"
+            },
+            "kawaii": "OpenSea Kawaii 拍賣會",
+            "discover": {
+                "title1": "遊玩、擁有和管理",
+                "title2": "由玩家打造元宇宙"
+            },
+            "partners": {
+                "title1": "品牌和 IP 已加入",
+                "title2": "《The Sandbox》元宇宙。"
+            },
+            "footer": "追蹤我們"
+        }
+    },
+    "modals": {
+        "tellUsAboutYou": "介紹一下你自己",
+        "descriptionTooLong": "描述太長了",
+        "descriptionRequired": "描述為必填",
+        "congratulations": "恭喜",
+        "usernameAlreadyInUse": "使用者名稱已有人使用",
+        "apply": "套用",
+        "doNotShow": "不再顯示",
+        "chooseCurrency": "選擇幣別",
+        "buy": "購買",
+        "daiInfo": "DAI 營運需要兩次交易",
+        "sandInfo": "SAND 營運需要 ETH 來支付礦工費",
+        "buyInfo": "如何購買 ETH 和 DAI",
+        "location": "位置",
+        "transactionHelp1": "你需要",
+        "transactionHelp2": "完成交易",
+        "howToBuySand": "如何購買 SAND >",
+        "gasHelper": "ETH 可用來購買必要的礦工費，且會隨交易速率影響價格。",
+        "buyEth": "ETH 購買管道：",
+        "binance": "Binance",
+        "uniswap": "Uniswap",
+        "simplex": "Simplex",
+        "buyOnBinance": "在 Binance 上購買 SAND",
+        "buyOnUniswap": "在 Uniswap 上購買 SAND",
+        "buyOnSimplex": "在 Simplex 上購買 SAND",
+        "wyre": "Wyre",
+        "land": "LAND",
+        "estate": "ESTATE",
+        "modalVerifyEmail": {
+            "verifyEmail": "正在驗證電子郵件",
+            "login": "登入",
+            "emailVerification": "電子郵件驗證",
+            "emailRetry1": "電子郵件已傳送，請下列時間過後再試一次： ",
+            "emailRetry2": "秒。",
+            "sentEmailVerif": "傳送驗證電子郵件",
+            "setEmail": "設定你的電子郵件！",
+            "pleaseLogIn": "請登入以申請電子郵件驗證。"
+        },
+        "lockedModal": {
+            "title": "季票已鎖定",
+            "subTitle": "你需要擁有下列 NFT 才能解鎖內容",
+            "text1": "擁有這些 NFT 即可解鎖季票獎勵。",
+            "text2": "你需要保留這些 NFT 才能繼續使用此內容，缺少 NFT 會導致你無法存取此內容。",
+            "text3": "若有某些使用者願意割愛，市場上可能會有部分待售的 NFT",
+            "button": "在我們的市場中尋找"
+        },
+        "lottery": {
+            "ready": "Alpha 註冊",
+            "description": "註冊即可獲得 1 張樂透彩券，每擁有一塊 LAND 還能再得到 1 張。彩券越多，中獎機率就越大！",
+            "howItWorks": "運作方式",
+            "preRegister": "註冊",
+            "alreadyRegistered": "你已成功註冊！",
+            "preRegistering": "正在註冊",
+            "landWallet": "你錢包中的每塊 LAND",
+            "tooltip": "若要註冊，你必須先成為地主。",
+            "inPreseason": "在 ALPHA",
+            "outPreseason": "不在 ALPHA"
+        },
+        "currentBalance": {
+            "balance": "目前餘額",
+            "noLandsText": "你已失去可讓你體驗所有季前內容的 LAND。你需要有 LAND 才能解鎖內容",
+            "preRegistered": "你已成功搶先註冊",
+            "go": "前往季前內容"
+        },
+        "lotteryEnded": {
+            "wantToJoin": "想要加入這次的季度嗎？",
+            "buySeasonPass": "只要有人在 OpenSea 出售季票，你就有機會取得",
+            "goOpenSea": "前往 OpenSea",
+            "findOpen": "在 Opensea 尋找",
+            "gotSeasonPass": "你拿到季票了！",
+            "descriptionExplore": "我們的第一季度現正舉辦中。你可盡情探索，並遊玩體驗以贏得獎勵。",
+            "discover": "探索本季度",
+            "congrats": "恭喜！",
+            "descriptionWinner": "你贏得季票了！立即領取並收好你的季票，Alpha 即將到來！",
+            "claim": "領取季票",
+            "betterLuck": "下次還有機會",
+            "learnMore": "進一步瞭解本季度",
+            "paragraphLooser": "別太難過！你還是有機會進入《The Sandbox》中心，並參與社交活動贏得獎勵。",
+            "descriptionLooser": "你並未贏得季票，但或許會有幸運得主願意出售。",
+            "close": "關閉"
+        },
+        "welcomeUponUs": {
+            "howTo": "如何參加？",
+            "text1": "- 地主可以註冊抽獎活動，贏得季票 NFT (發行量 1000 個)。",
+            "text2": "- 如果抽獎活動得主決定販售他們的季票，任何人都能在 OpenSea 上購買。",
+            "text3": "- 擁有季票的任何玩家都能參加！",
+            "whatDo": "季度有什麼活動？",
+            "text4": "- 探索優質多人遊戲體驗，每天都會發佈新的遊戲體驗！",
+            "text5": "- 探索元宇宙，完成目標！",
+            "text6": "- 認識其他玩家，結交新朋友！",
+            "whatGet": "",
+            "text7": "- 4 個獨家 NFT 獎勵1！",
+            "text8": "- 500 SAND",
+            "text9": "- ……還有美好回憶！"
+        },
+        "cannotPreRegister": {
+            "title": "Alpha 註冊",
+            "mustLandOwn": "只有地主才能註冊 Alpha 封測活動。",
+            "mustLandOwn2": "別擔心，元宇宙很快就會敞開大門，歡迎所有人的加入！",
+            "learnMore": "進一步瞭解 Alpha"
+        },
+        "uponUs": {
+            "buyLand": "購買 Land",
+            "preRegister": "搶先註冊",
+            "findOpen": "在 OpenSea 中尋找通行證"
+        },
+        "noArtist": {
+            "title": "你是個藝術家嗎？",
+            "text1": "你的帳戶沒有上傳內容的權限，若要這麼做，你必須要有藝術家帳戶。",
+            "text2": "你可到創作者基金申請帳戶",
+            "button": "前往創作者基金"
+        },
+        "suscribe": {
+            "title": "即將開放交易",
+            "text": "若想知道更多關於何時能購買和出售 ASSET 的資訊，請訂閱我們的電子報。",
+            "button": "訂閱"
+        },
+        "uploadAsset": {
+            "step1": {
+                "title": "上傳 ASSET",
+                "step1Title": "全新 ASSET",
+                "step2Title": "取代 ASSET"
+            },
+            "step2": {
+                "title": "取代 ASSET",
+                "text": "從下拉式選單中選擇你想取代的 ASSET。"
+            }
+        },
+        "signIn": {
+            "createAccount": "建立帳戶",
+            "usernameEmailMissing": "缺少使用者名稱/電子郵件",
+            "passwordMissing": "缺少密碼",
+            "userPasswordMismatches": "使用者或密碼不相符",
+            "logWithWallet": "登入錢包",
+            "walletIsNotAssociatedAnyUser": "錢包尚未連結至任何使用者",
+            "signIn": "登入",
+            "title": "登入",
+            "subtitle": "你需要先登入才能上傳至市場。",
+            "placeholder1": "使用者名稱/電子郵件",
+            "placeholder2": "密碼",
+            "forgotPass": "我忘記密碼了",
+            "walletLoginMsg": "你也可以登入錢包。",
+            "walletDownloadMsg": "若要取得加密錢包",
+            "walletDownloadMsgLink": "按一下這裡！",
+            "youCanAlsoLoginWithYourWallet": "你也可以登入錢包。"
+        },
+        "claimAssets": {
+            "claim-action": "立即領取",
+            "SmurfGiveaway": {
+                "title": "《The Sandbox》客串The Smurfs",
+                "desc": "為了感謝從《The Sandbox》初期就持續貢獻的忠誠社群，我們將發放 1 個 Smurf NFT 給所有地主。"
+            },
+            "GildedGiveaway": {
+                "title": "這是你質押 SAND 的獎勵！",
+                "desc": "為了回饋 1 月 25 日以前加入流動性挖礦並質押 SAND 的使用者，我們準備了特別獎勵。享受這個史詩級的 Gilded Mage NFT 吧。"
+            }
+        },
+        "bid": {
+            "sand": "$SAND",
+            "minimumBid": "$SAND 最低競標價 ",
+            "minimumBidInvalid": "最低競標價無效",
+            "saleEnds": {
+                "text": "距離銷售結束： ",
+                "days": "天",
+                "hours": "小時",
+                "minutes": "分鐘"
+            },
+            "placeBid": "競標",
+            "cancel": "取消"
+        }
+    }
+}
