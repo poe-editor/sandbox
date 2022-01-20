@@ -199,9 +199,12 @@
                 "noPastDates": "The start date should be +5 min from now",
                 "confirmDates": "Confirm",
                 "nextDate": "Next"
-            }
-        },
-        "invalid-amount": "Invalid Amount"
+            },
+            "invalidPrice": "Invalid price.",
+            "invalidAmount": "Invalid amount.",
+            "maxPrice": "Sell price must not be greater than 3000000000.",
+            "maxAmount": "Maximum amount to sell is 12000."
+        }
     },
     "layout": {
         "topbar": {
@@ -233,7 +236,15 @@
                     "noLandsText": "You have lost the Land that allows you to enjoy all the Pre-Season content. You need to have a Land to unlock it",
                     "preRegistered": "You are already pre-registered",
                     "go": "Go To The Pre-Season"
-                }
+                },
+                "hasRewards": "Alpha Rewards",
+                "noRewards": "No Alpha Rewards"
+            },
+            "balances": {
+                "testNetRinkeby": "TESTNET RINKEBY NETWORK",
+                "testNetGoerli": "TESTNET GOERLI NETWORK",
+                "testNetMumbai": "TESTNET MUMBAI NETWORK",
+                "mainNet": "MAINNET NETWORK"
             }
         },
         "sidebar": {
@@ -304,17 +315,18 @@
         },
         "header": {
             "title": "Welcome to the Open Metaverse",
-            "description": "Play, Create, Own, and Govern a virtual Metaverse made by players\n",
+            "description": "The Alpha Season 2 is coming soon",
             "preseason": "Discover our very first season",
-            "buttonText": "Play the Alpha",
+            "buttonText": "See Rewards",
             "discover": "Snoop Dogg",
             "howToJoin": "How do I join?",
             "buyLand": "Buy Land",
-            "alphaOpened": "THE ALPHA IS NOW OPEN",
+            "alphaOpened": "ALPHA SEASON 1 IS NOW CLOSED",
             "alpha": "ALPHA",
             "alphaDate": "FROM NOV 29 TO DEC 20",
             "readMore": "More Info",
-            "playButtonText": "Play The Alpha"
+            "description2": "Click here to see the rewards of Alpha Season 1",
+            "createButtonText": "Create Account"
         },
         "discover": {
             "title": "Discover The Sandbox",
@@ -457,8 +469,8 @@
                 "inProgress": "IN PROGRESS",
                 "endingSoon": "ENDING SOON",
                 "timeLeft": "TIME LEFT",
-                "timeLeftToClaim": "TIME LEFT TO CLAIM",
-                "seasonOver": "The Sandbox Alpha is over!",
+                "timeLeftToClaim": "CLAIM AVAILABLE IN",
+                "seasonOver": "Alpha Season 1 is now closed",
                 "seasonOverDescription": "Thanks for joining the Alpha, we are getting your rewards ready! When enabled, click the Claim button below.",
                 "description2": "You have now claimed your rewards! They should appear in your inventory and wallet shortly after you have confirmed the claim",
                 "claimed": "Claimed",
@@ -474,7 +486,8 @@
                 "findAlpha": "Find Alpha Quest",
                 "seasonLockedTitle": "You don’t have the Alpha Pass",
                 "seasonLockedDescription": "You need an Alpha Pass to be able to progress in the Alpha and earn 1,000 SAND and 3 NFT rewards.",
-                "seasonLockedButton": "Find it on Opensea"
+                "seasonLockedButton": "Find it on Opensea",
+                "description3": "You will be able to claim your rewards at the end of the Alpha, on December 20, 2021. Keep your Alpha Pass with you until that date."
             },
             "experienceToVisit": "Alpha quest completed"
         },
@@ -850,7 +863,7 @@
             }
         },
         "shopTitle": "Shop",
-        "onSale": "For sale",
+        "onSale": "For Sale",
         "title": "Welcome to the NFT Marketplace",
         "subtitle": "Here you can search and buy creator's ASSETS with SAND to incorporate them into your LAND",
         "welcomeTo": "Welcome to",
@@ -872,7 +885,8 @@
             "entity": "Entities",
             "equipment": "Equipment",
             "wearable": "Wearable",
-            "art": "Art"
+            "art": "Art",
+            "avatar": "Skins"
         },
         "rarities": {
             "title": "Catalyst",
@@ -992,7 +1006,9 @@
             "lowerPrice": "Lowest price",
             "highPrice": "Highest price",
             "leastAmount": "Least amount",
-            "highAmount": "Highest amount"
+            "highAmount": "Highest amount",
+            "az": "Name (A-Z)",
+            "za": "Name (Z-A)"
         },
         "sizes": {
             "title": "Sizes",
@@ -1065,9 +1081,9 @@
         "cart": {
             "title": "Shopping cart",
             "add": "Add to cart",
-            "added": "has/have been successfully added to your cart",
+            "added": "has been successfully added to your cart",
             "remove": "Remove from cart",
-            "removed": "has/have been successfully removed from your cart",
+            "removed": "has been successfully removed from your cart",
             "item": "item",
             "items": "items",
             "description": "Add items to your cart and start buying!",
@@ -1105,7 +1121,8 @@
             "claim": "Claim",
             "alreadyClaim": "Already claimed",
             "putOnSale": "Sell",
-            "saleQuestion": "Do you want to sell this NFT in our Marketplace?"
+            "saleQuestion": "Do you want to sell this NFT in our Marketplace?",
+            "putOnSaleSuccess": "Asset is now for sale"
         }
     },
     "create": {
@@ -1302,11 +1319,6 @@
                         "text": "One of the easiest tools to create animations in voxel art, with an attractive and a very simple easy-to-use interface for beginners.",
                         "job": "Professional Voxel Artist",
                         "author": "Nicolas Morrone"
-                    },
-                    "3": {
-                        "text": "",
-                        "job": "",
-                        "author": ""
                     }
                 }
             },
@@ -1404,7 +1416,7 @@
                     "gameMakerLinkText": " The Sandbox Game Maker: ",
                     "text2": "Power, Luck, Defense, Speed and Magic.",
                     "text3": "Want a stronger avatar? Visit the",
-                    "marketplaceLinkText": " marketplace ",
+                    "marketplaceLinkText": " Marketplace ",
                     "text4": "and choose the right weapon from thousands of options created by the Community. They will soon become available."
                 },
                 "part2": {
@@ -1521,7 +1533,7 @@
                     "title": "Log in or Create an account",
                     "description": "You have to link your crypto-wallet in order to log in",
                     "wallet": "What's a crypto-wallet?",
-                    "whatsAWallet": "A crypto-wallet is a place where you can safely store all your cryptocurrencies and digital game ASSETS.",
+                    "whatsAWallet": "A crypto-wallet is the place where you can safely store all your cryptocurrencies and digital game ASSETS. No funds are required in the wallet to create an account. FREE to sign-up.",
                     "continue": "Continue with",
                     "agree": "By creating an account and linking your crypto-wallet to it, you agree to our",
                     "terms": "Terms and Conditions",
@@ -1542,10 +1554,10 @@
                     "social": {
                         "title": "Social",
                         "value": "Continue with",
-                        "signin": "Please sign in with Arkane"
+                        "signin": "Please sign in with Venly"
                     },
                     "login": "I already have an account",
-                    "waiting": "Please log in / sign up with Arkane"
+                    "waiting": "Please log in / sign up with Venly"
                 },
                 "signinModal": {
                     "title": "Log in",
@@ -1776,10 +1788,10 @@
             "premium": "Premium",
             "unavailable": "Unavailable",
             "opensea": "At OpenSea",
-            "onSale": "For sale"
+            "onSale": "For Sale"
         },
         "presales": {
-            "metaverse": "Metaverse",
+            "metaverse": "METAVERSE",
             "pororo": "PORORO",
             "twd1": "THE WALKING DEAD (1)",
             "twd2": "THE WALKING DEAD (2)",
@@ -1801,13 +1813,19 @@
             "atari": "ATARI",
             "hub2": "THE HUB (Part 2)",
             "hub1": "THE HUB (Part 1)",
-            "snoopDogg": "SNOOP DOGG",
-            "quan": "QUAN"
+            "quan": "QUAN",
+            "megacities2": "Mega Cities (2)",
+            "megacities1": "Mega Cities (1)",
+            "snoopDogg1": "SNOOP DOGG",
+            "steveAoki": "STEVE AOKI"
         },
         "booked": "Booked by",
         "visit": "Visit site",
         "errors": {
-            "coordinates": "Please provide coordinates"
+            "coordinates": "Please provide coordinates",
+            "limit": "Coordinates must be between -204 and 204",
+            "swap": "Second coordinate point must be higher than first",
+            "wallet": "Please provide a correct wallet"
         },
         "detail": {
             "land": "LAND",
@@ -1845,7 +1863,14 @@
             "price": "price",
             "seeAll": "See all",
             "viewInMap": "View in Map",
-            "readMorePremium": "Read more about premium"
+            "readMorePremium": "Read more about premium",
+            "parcel": "parcel",
+            "transfertExperience": "Transfer your experience",
+            "walletUser": "Enter the target wallet:",
+            "confirm": "Confirm",
+            "successTransfer": "Successfully transferred",
+            "closeForm": "close",
+            "transferAssets": "Also transfer assets"
         },
         "onboarding": {
             "title": "Sandbox Map",
@@ -2128,7 +2153,32 @@
                     "create": "Create ASSETS, market them"
                 }
             },
-            "buttonText": "Explore NFT Lands for sale"
+            "buttonText": "Explore NFT Lands for sale",
+            "what": {
+                "title": "What can you do with an NFT LAND in THE SANDBOX",
+                "cards": {
+                    "host": {
+                        "text1": "Host",
+                        "text2": "contests and events"
+                    },
+                    "monetize": {
+                        "text1": "Monetize",
+                        "text2": "ASSETS and experiences"
+                    },
+                    "play": {
+                        "text1": "Play",
+                        "text2": "games that you or others create"
+                    },
+                    "vote": {
+                        "text1": "Vote",
+                        "text2": "in the metaverse governance"
+                    },
+                    "sand": {
+                        "text1": "Stake SAND",
+                        "text2": "to earn and customize assets"
+                    }
+                }
+            }
         },
         "blog": {
             "meta": {
@@ -2158,13 +2208,14 @@
         "signin": "Sign in",
         "menu": {
             "profile": "Profile",
-            "defi": "DeFi",
-            "defi-soon": "DeFi (Soon)",
+            "defi": "Staking",
+            "defi-soon": "Staking (Soon)",
             "referral": "Referral",
             "inventory": "Inventory",
             "avatar": "Avatar",
             "edit": "Edit",
-            "logout": "Log Out"
+            "logout": "Log Out",
+            "settings": "Settings"
         },
         "profile": {
             "sandAmount": "Your",
@@ -2201,7 +2252,9 @@
                 "oldPaswordDoesNotMatch": "Old password does not match",
                 "newPasswordIsRequired": "New Password is required",
                 "newPasswordTooShort": "New Password is too short",
-                "passwordDoNotMatch": "Passwords do not match"
+                "passwordDoNotMatch": "Passwords do not match",
+                "errorAvatarImageSize": "File size to big please use a lighter file",
+                "errorAvatarImageType": "File extension not supported, please use .jpg, .png or .jpeg"
             },
             "edit": {
                 "editTitle": "Edit your profile",
@@ -2243,7 +2296,8 @@
                 "added": "Added",
                 "unpublished": "Unpublished",
                 "exclusive": "Exclusive",
-                "basic": "Basic"
+                "basic": "Basic",
+                "sale": "On Sale"
             },
             "actions": {
                 "title": "Actions",
@@ -2303,7 +2357,8 @@
                 "catalystmint": "Mint with Gems",
                 "purchaseGemsDisclaimer": "You need to purchase catalysts and gems to continue",
                 "removing": "All attributes are going to be removed.",
-                "wishToContinue": " Do you wish to continue?"
+                "wishToContinue": " Do you wish to continue?",
+                "invalidAndMaxed": "Invalid amount, using maximum possible amount."
             },
             "search": "Search...",
             "preview": "Preview",
@@ -2421,13 +2476,17 @@
                 "name": "Name",
                 "presetName": "Preset Name"
             },
-            "titleCreator": "Avatar Creator"
+            "titleCreator": "Avatar Creator",
+            "title": "Avatar Manager",
+            "custom": "Custom bodyparts only",
+            "iosWarning": "Your device is not compatible with this feature. Please try on desktop version.",
+            "iosWarningTitle": "Sorry"
         },
         "loginModal": {
             "title": "Log in or Create an account",
             "description": "Please link crypto-wallet in order to sign in. No funds are necessary or will be withdrawn.",
             "wallet": "What's a crypto-wallet?",
-            "whatsAWallet": "A crypto-wallet is a place where you can safely store all your cryptocurrencies and digital game ASSETS.",
+            "whatsAWallet": "A crypto-wallet is the place where you can safely store all your cryptocurrencies and digital game ASSETS. No funds are required in the wallet to create an account. FREE to sign-up.",
             "continue": "Continue with",
             "agree": "By creating an account and linking your crypto-wallet to it, you agree to our",
             "terms": "Terms and Conditions",
@@ -2448,10 +2507,10 @@
             "social": {
                 "title": "Social",
                 "value": "Continue with",
-                "signin": "Please sign in with Arkane"
+                "signin": "Please sign in with Venly"
             },
             "login": "I already have an account",
-            "waiting": "Please log in / sign up with Arkane"
+            "waiting": "Please log in / sign up with Venly"
         },
         "signinModal": {
             "title": "Log in",
@@ -2580,7 +2639,9 @@
                     "facebook": "Enter your Facebook username",
                     "instagram": "Enter your Instagram username",
                     "telegram": "Enter your Telegram username"
-                }
+                },
+                "username-invalid": "Invalid Username",
+                "profilePictureErrorHigh": "Profile picture name is more than 200 characters long (including file extension)."
             },
             "security": {
                 "title": "Security and Password",
@@ -3033,7 +3094,15 @@
             "polyWallet": "POLYGON NETWORK L2",
             "whyPolygon": "WHY POLYGON?",
             "whyPolygonText": "The Sandbox is moving to Polygon to provide a faster and more performant way to manage blockchain transactions. A bridge will be available to enable transfers between Ethereum and Polygon.",
-            "whatsBlockchain": "What are Blockchain Bridges?"
+            "whatsBlockchain": "What are Blockchain Bridges?",
+            "bridgeSand": "BRIDGE SAND",
+            "bridge": "Bridge",
+            "mainnetL1": "ETHEREUM NETWORK",
+            "mainnetL2": "POLYGON NETWORK",
+            "discoverPolygon": "Discover Polygon benefits",
+            "noActivePool": "You can earn more SAND by staking.",
+            "bridgeNotAvailable": "Your wallet is not yet supported by the Polygon Bridge for now. Please use Metamask. If you don’t have a Metamask wallet, you can still acquire SAND on ",
+            "learn": "Learn how"
         },
         "avatars": {
             "title": "AVATARS",
@@ -3286,7 +3355,7 @@
         "modules": {
             "zero": {
                 "title": "Liquidity Mining",
-                "paragraph1": "The Sandbox is a virtual Metaverse where players can play, build, own, and monetize their virtual experiences.. You can also Invert your crypto currency and earn more SAND",
+                "paragraph1": "The Sandbox is a virtual Metaverse where players can play, build, own, and monetize their virtual experiences.. You can also invest your crypto currency and earn more SAND",
                 "button": "Stake now"
             },
             "first": {
@@ -3317,7 +3386,7 @@
         "discover": "Discover",
         "landNft": "LAND NTF",
         "findLand": "Find LAND on OpenSea",
-        "onSale": "for sale",
+        "onSale": "for Sale",
         "buyLand": "Buy LAND",
         "title": "MAP",
         "clearFilters": "Clear",
@@ -3564,7 +3633,7 @@
         "apy": "APR",
         "weekly": "Weekly Rewards",
         "share": "Share",
-        "haveLand": "Want to increase your earnings?",
+        "haveLand": "Get more LAND ?",
         "extraInfo": "By being a land owner you have multipliers that increase your rewards",
         "buyLand": "Buy Land",
         "titleDeposits": "Your Liquidity deposits",
@@ -3586,10 +3655,10 @@
         "tipOfDay": "Adding liquidity mining incentives will further seed deep liquidity offering a strong trading venue for those who wish to trade and use SAND in non-custodial",
         "greeting": "Hello",
         "wallet": "My wallet",
-        "title": "The Sandbox Liquidity mining",
+        "title": "The Sandbox Staking",
         "noResult": "No results found",
         "tooltipText": {
-            "tvl": "Total Value Locked",
+            "tvl": "Total Value Locked (TVL) represents the total value of tokens locked within the staking program",
             "apy": "Annual Percentage Yield",
             "share": "Your share of the pool!",
             "earn": "Your earnings in this pool!",
@@ -3597,7 +3666,17 @@
             "poolRewards": "The reward amount this pool holds this week!",
             "landOwner": "Land Owner",
             "landQty": "#Lands",
-            "landMultiplier": "Multiplier"
+            "landMultiplier": "Multiplier",
+            "token-title": "Token",
+            "token": "The token required to stake. When two tokens are indicated, it refers to their LP pair.",
+            "tvl-title": "Total Value Locked",
+            "apr-title": "Annual Percentage Rate",
+            "apr": "Represents the rewards rate for a whole year, applied to your staked funds.",
+            "weekly-title": "Weekly Reward",
+            "weekly": "Rewards are replenished each week. This represents the amount distributed over a single week.",
+            "earnings-title": "Earnings",
+            "earnings": "Your claimable accumulated earnings.",
+            "landMultiplierNotActive": "LAND multiplier is not available yet on Polygon network"
         },
         "modalWithdraw": {
             "withdraw": "You withdraw",
@@ -3608,10 +3687,11 @@
         },
         "modalStake": {
             "add": "Add liquidity",
-            "balance": "Balance: ",
+            "balance": "Available: ",
             "stake": "Stake",
             "more": "How to get liquidity?",
-            "amount": "Amount"
+            "amount": "Amount",
+            "inactive": "Inactive"
         },
         "transaction": {
             "contract": "Contract",
@@ -3623,7 +3703,8 @@
         },
         "transactionHistory": {
             "title": "Transaction History",
-            "noTransactions": "There have been no transactions"
+            "noTransactions": "There are no new transactions to show in the last few days",
+            "oldTransactions": "View old transactions"
         },
         "walletTab": {
             "mainnetL1Title": "ETHEREUM NETWORK L1",
@@ -3647,7 +3728,8 @@
                 "activate": "Active MATIC now",
                 "tutorial": "Play tutorial",
                 "why": "Why use MATIC?"
-            }
+            },
+            "maticCoin": "MATIC"
         },
         "tutorial": {
             "step1": {
@@ -3667,20 +3749,56 @@
                 "text": "Ones your deposit is done you can claim the rewards that it generates"
             }
         },
-        "sushiswap": "sushiswap",
+        "sushiswap": "Sushiswap",
         "withdrawTitle": "WITHDRAW & CLAIM",
         "claimTitle": "CLAIM",
         "depositTitle": "DEPOSIT",
         "historyTitle": "TRANSACTION HISTORY",
-        "pool": "Pool",
+        "pool": "Token",
         "myPools": "My pools",
         "totalRewards": "Total rewards",
-        "landMultiplierHeader": "Land Multiplier",
+        "landMultiplierHeader": "LAND Multiplier",
         "sidebar": {
-            "action-desc-deposit": "Deposit LP token in the pool to earn more SAND",
-            "footer-text-deposit": "This transaction will add LP tokens to the pool and you will be able to start earning rewards",
-            "footer-text-claim": "By claiming your earnings you'll get more SAND in your wallet.",
-            "footer-text-withdraw": "When you withdraw your LP, you also claim your earnings, this will save you the gas fee."
+            "action-desc-deposit": "Deposit LP tokens to earn more SAND",
+            "footer-text-deposit": "This transaction will deposit the selected amount of LP tokens and increase your total deposit.",
+            "footer-text-claim": "This transaction will claim all earnings and credit them to your wallet.",
+            "footer-text-withdraw": "This transaction will withdraw the selected LP amount from your total deposit. It will also claim any available earnings to save you some gas fee.",
+            "onEtherscan": "View on Etherscan",
+            "onPolyscan": "View on Polygonscan",
+            "pairAnalytics": "Pair analytics"
+        },
+        "allowanceError": "Your allowance is still less than the amount you want to stake",
+        "sub-title": "Earn SAND by staking on Ethereum and Polygon networks",
+        "haveLandText": "Each LAND counts, the more you have, the higher the multiplier!",
+        "landOwnerRewards": "Earn additional rewards for each LAND in your wallet",
+        "needToBridge": "Do you need SAND on Polygon?",
+        "uniswap": "Uniswap",
+        "quickswap": "Quickswap",
+        "periodEndedOn": "Rewards ended on:",
+        "tvlResumed": "TVL",
+        "search-placeholder": "Search",
+        "land-entitling": {
+            "unique": "Unique",
+            "proprietor": "Proprietor",
+            "magnate": "Magnate",
+            "tycoon": "Tycoon",
+            "mogul": "Mogul"
+        },
+        "guide-links": {
+            "how-to": "How to stake",
+            "learn-more": "Learn more about staking",
+            "support": "Get support"
+        },
+        "dropdownFilter": {
+            "name": "Name",
+            "highTvl": "Highest TVL",
+            "lowTvl": "Lowest TVL",
+            "highAPR": "Highest APR",
+            "lowAPR": "Lowest APR",
+            "highShare": "Highest Share",
+            "lowShare": "Lowest Share",
+            "highEarn": "Highest Earnings",
+            "lowEarn": "Lowest Earnings"
         }
     },
     "login": {
@@ -3849,6 +3967,12 @@
                     },
                     "button": "Go to Opensea"
                 }
+            },
+            "mintYourSnoopAvatar": {
+                "title1": "Mint your",
+                "title2": "Snoop Avatar",
+                "description": "Be among the first ones to mint your own Snoop avatars. Up to 10 avatars available for pass holders.",
+                "button": "Mint now"
             }
         },
         "alpha": {
@@ -4017,6 +4141,63 @@
                 "subtitle3.1": "You can earn up to",
                 "subtitle3.2": "1,000 SAND and 3 exclusive NFTs!",
                 "subtitle3.3": "Place those NFTs in your experience to make it stand out or sell them to other players! All rewards can be claimed once the alpha is over"
+            },
+            "alphaClosed": {
+                "title": "Alpha Season 1 is now closed",
+                "description": "Thank you for participating",
+                "feedback": "YOUR FEEDBACK MATTERS",
+                "feedbackDescription": "Send us your feedback and get one ticket for Alpha Season 2 Raffle",
+                "buttonText": "Send feedback",
+                "buttonDescription": "You will get your raffle ticket when Alpha Season 2 starts"
+            },
+            "alpha2Coming": {
+                "title": "ALPHA SEASON 2 COMING SOON",
+                "subtitle": "STAY TUNED!",
+                "bulletPoints": {
+                    "1": "Open to everyone to participate and progress through experiences",
+                    "2": "More Alpha Passes available",
+                    "3": "New type of Experiences",
+                    "4": "Even more Play-to-Earn Rewards",
+                    "5": "Some surprises in the metaverse"
+                },
+                "endText": "and much more based on your feedback! We are listening to you."
+            },
+            "lookBack": {
+                "title": "A LOOK BACK AT ALPHA SEASON 1",
+                "metrics": {
+                    "0": "SAND DISTRIBUTED",
+                    "1": "ALPHA PASS DISTRIBUTED",
+                    "2": "NFTs DISTRIBUTED",
+                    "3": "POSITIVE FEEDBACK",
+                    "4": "ALPHA HUB VISITORS",
+                    "5": "HOURS PLAYED CUMULATIVELY",
+                    "6": "TWITTER CONTEST PARTICIPANTS",
+                    "7": "FEEDBACK MESSAGES SENT"
+                }
+            },
+            "alphaNumbers": {
+                "title": "The Alpha in numbers",
+                "sections": {
+                    "0": {
+                        "number": "+200K",
+                        "description": "ALPHA HUB VISITOR"
+                    },
+                    "1": {
+                        "number": "+150K",
+                        "description": "HOURS PLAYED COMULATIVELY"
+                    },
+                    "2": {
+                        "number": "+100K",
+                        "description": "TWITTER CONTEST PARTICIPANTS"
+                    },
+                    "3": {
+                        "number": "400",
+                        "description": "FEEDBACKS SENT"
+                    }
+                }
+            },
+            "bestMoments": {
+                "title": "ALPHA SEASON 1 BEST MOMENTS"
             }
         },
         "quan": {
@@ -4207,6 +4388,77 @@
             },
             "placeBid": "Place Bid",
             "cancel": "Cancel"
+        },
+        "goingOutOfSite": "You are about to leave the website of sandbox.game and view the content of an external website. The Sandbox cannot be held responsible for the content of external websites."
+    },
+    "raffle": {
+        "meta": {
+            "title": "The Sandbox Game - Raffle Page",
+            "description": "Come and participate in the raffle! Anyone can win, all you have to do is try your luck!",
+            "keywords": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token, raffle",
+            "og": {
+                "title": "The Sandbox Game - Raffle Page",
+                "description": "Come and participate in the raffle! Anyone can win, all you have to do is try your luck!",
+                "url": "https://www.sandbox.game/en/raffle/",
+                "site_name": "The Sandbox Game - Raffle Page",
+                "image": "https://www.sandbox.game/img/30_Landing/snoopdogg/snoop4.png"
+            },
+            "twitter": {
+                "title": "The Sandbox Game - Raffle Page",
+                "description": "Come and participate in the raffle! Anyone can win, all you have to do is try your luck!",
+                "card": "The Sandbox Game - Raffle Page",
+                "site": "@thesandboxgame",
+                "creator": "@thesandboxgame",
+                "image": "https://www.sandbox.game/img/30_Landing/snoopdogg/snoop4.png"
+            }
+        },
+        "title": "Mint your own Snoop Dogg Avatar!",
+        "connectWallet": {
+            "title": "Connect Wallet",
+            "title2": "Your wallet is connected!",
+            "howMany": "How many avatars do you want?",
+            "button": "Mint now",
+            "process": "Your transaction is being processed.",
+            "finish": "Your transaction is successful!",
+            "refresh": "Mint again!",
+            "errorButton": "Try again!",
+            "error": "Something went wrong!",
+            "wrongWallet": "Sorry! You are connected with the wrong wallet! Please log in again with Metamask.",
+            "raffleEndTitle": "Sale is now closed.",
+            "raffleEnd": "Thank you for you participating."
+        },
+        "textFormMint": {
+            "isPublic": "",
+            "ticketBased": "Presale for ticket holders is now live!"
+        },
+        "price": {
+            "currentPrice": "current price for each avatar"
+        },
+        "FAQ": {
+            "title": "F.A.Q.",
+            "1": {
+                "title": "What is the current sand price for an avatar?",
+                "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec ligula condimentum, tincidunt libero nec, ullamcorper mauris. Pellentesque enim ex, condimentum in condimentum a, tempus at elit. Aenean accumsan, metus vitae pellentesque semper, tellus tellus viverra diam, quis lacinia tortor quam et mi. Sed ex diam, dapibus vitae maximus tristique, iaculis at turpis. Etiam interdum, mauris a lobortis molestie, lacus elit lacinia diam, nec faucibus tellus diam eu mi. Nulla molestie elit ut odio lacinia, sed finibus odio tempus. Mauris ac sollicitudin tellus. Aenean hendrerit nulla eu urna dictum dignissim. Vivamus varius odio et dolor ornare tincidunt."
+            },
+            "2": {
+                "title": "How many avatars can we buy in total?",
+                "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec ligula condimentum, tincidunt libero nec, ullamcorper mauris. Pellentesque enim ex, condimentum in condimentum a, tempus at elit. Aenean accumsan, metus vitae pellentesque semper, tellus tellus viverra diam, quis lacinia tortor quam et mi. Sed ex diam, dapibus vitae maximus tristique, iaculis at turpis. Etiam interdum, mauris a lobortis molestie, lacus elit lacinia diam, nec faucibus tellus diam eu mi. Nulla molestie elit ut odio lacinia, sed finibus odio tempus. Mauris ac sollicitudin tellus. Aenean hendrerit nulla eu urna dictum dignissim."
+            },
+            "3": {
+                "title": "What is the current sand price for an avatar?",
+                "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec ligula condimentum, tincidunt libero nec, ullamcorper mauris. Pellentesque enim ex, condimentum in condimentum a, tempus at elit. Aenean accumsan, metus vitae pellentesque semper, tellus tellus viverra diam, quis lacinia tortor quam et mi."
+            },
+            "4": {
+                "title": "How many avatars can we buy in total?",
+                "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec ligula condimentum, tincidunt libero nec, ullamcorper mauris. Pellentesque enim ex, condimentum in condimentum a, tempus at elit. Aenean accumsan, metus vitae pellentesque semper, tellus tellus viverra diam, quis lacinia tortor quam et mi. Sed ex diam, dapibus vitae maximus tristique, iaculis at turpis."
+            }
         }
+    },
+    "modelViewer": {
+        "view3D": "View 3D",
+        "preview": "Preview",
+        "ground": "Show the ground",
+        "loading": "Loading 3D...",
+        "loadingPreview": "Preview is loading..."
     }
 }
