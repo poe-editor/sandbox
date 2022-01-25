@@ -199,9 +199,12 @@
                 "noPastDates": "開始日時は現時刻から5分後にしてください",
                 "confirmDates": "決定",
                 "nextDate": "次へ"
-            }
-        },
-        "invalid-amount": "Invalid Amount"
+            },
+            "invalidPrice": "Invalid price.",
+            "invalidAmount": "Invalid amount.",
+            "maxPrice": "Sell price must not be greater than 3000000000.",
+            "maxAmount": "Maximum amount to sell is 12000."
+        }
     },
     "layout": {
         "topbar": {
@@ -233,7 +236,15 @@
                     "noLandsText": "プリシーズンのコンテンツを楽しむためのLandを失いました。アンロックするには、Landが必要です",
                     "preRegistered": "事前登録済みです",
                     "go": "プリシーズンへ移動"
-                }
+                },
+                "hasRewards": "Alpha Rewards",
+                "noRewards": "No Alpha Rewards"
+            },
+            "balances": {
+                "testNetRinkeby": "TESTNET RINKEBY NETWORK",
+                "testNetGoerli": "TESTNET GOERLI NETWORK",
+                "testNetMumbai": "TESTNET MUMBAI NETWORK",
+                "mainNet": "MAINNET NETWORK"
             }
         },
         "sidebar": {
@@ -304,17 +315,18 @@
         },
         "header": {
             "title": "オープンメタバースへようこそ",
-            "description": "プレイヤーが作り上げるメタバースでプレイ、制作、所有、運営しましょう\n",
+            "description": "The Alpha 2 is coming soon",
             "preseason": "記念すべきシーズン1をチェック",
-            "buttonText": "Play the Alpha",
+            "buttonText": "See Rewards",
             "discover": "スヌープ・ドッグ",
             "howToJoin": "参加方法",
             "buyLand": "Landを買う",
-            "alphaOpened": "THE ALPHA IS NOW OPEN",
+            "alphaOpened": "ALPHA SEASON 1 IS NOW CLOSED",
             "alpha": "アルファ",
             "alphaDate": "11月29日から12月20日まで",
             "readMore": "他の情報",
-            "playButtonText": "アルファ版をプレイ"
+            "description2": "Click here to see the rewards of Alpha Season 1",
+            "createButtonText": "Create Account"
         },
         "discover": {
             "title": "The Sandboxを体験",
@@ -457,7 +469,7 @@
                 "inProgress": "稼働中",
                 "endingSoon": "まもなく終了",
                 "timeLeft": "残り時間",
-                "timeLeftToClaim": "受け取り残り時間",
+                "timeLeftToClaim": "CLAIM AVAILABLE IN",
                 "seasonOver": "The Sandboxアルファ版が終了しました！",
                 "seasonOverDescription": "アルファ版にご参加いただき、ありがとうございます。報酬をご用意しています！有効になり次第、以下の[受け取り]ボタンをクリックしてください。",
                 "description2": "報酬を受け取りました！受け取り完了後まもなく、インベントリとウォレットに報酬が表示されます",
@@ -474,7 +486,8 @@
                 "findAlpha": "アルファクエストを探す",
                 "seasonLockedTitle": "アルファパスがありません",
                 "seasonLockedDescription": "アルファ版をプレイして、1,000SANDと3つのNFT報酬を手に入れるには、アルファパスが必要です。",
-                "seasonLockedButton": "OpenSeaで確認する"
+                "seasonLockedButton": "OpenSeaで確認する",
+                "description3": "You will be able to claim your rewards at the end of the Alpha, on December 20, 2021. Keep your Alpha Pass with you until that date."
             },
             "experienceToVisit": "アルファクエストをクリアしました"
         },
@@ -872,7 +885,8 @@
             "entity": "エンティティ",
             "equipment": "装備",
             "wearable": "着用可能",
-            "art": "アート"
+            "art": "アート",
+            "avatar": "Skins"
         },
         "rarities": {
             "title": "カタリスト",
@@ -992,7 +1006,9 @@
             "lowerPrice": "最安値",
             "highPrice": "最高値",
             "leastAmount": "最小量",
-            "highAmount": "最大量"
+            "highAmount": "最大量",
+            "az": "Name (A-Z)",
+            "za": "Name (Z-A)"
         },
         "sizes": {
             "title": "サイズ",
@@ -1105,7 +1121,8 @@
             "claim": "受け取る",
             "alreadyClaim": "受け取り済み",
             "putOnSale": "売りに出す",
-            "saleQuestion": "こちらのNFTをマーケットプレイスで販売しますか？"
+            "saleQuestion": "こちらのNFTをマーケットプレイスで販売しますか？",
+            "putOnSaleSuccess": "Asset is now for sale"
         }
     },
     "create": {
@@ -1302,11 +1319,6 @@
                         "text": "「ボクセルアートのアニメーションを作成するための最も簡単なツールの1つで、初心者にとってもシンプルで使いやすいインターフェイスです。」",
                         "job": "プロボクセルアーティスト",
                         "author": "Nicolas Morrone"
-                    },
-                    "3": {
-                        "text": "",
-                        "job": "",
-                        "author": ""
                     }
                 }
             },
@@ -1521,7 +1533,7 @@
                     "title": "ログインまたはアカウントの作成",
                     "description": "ログインするにはお使いの仮想通貨ウォレットをリンクしてください",
                     "wallet": "仮想通貨ウォレットとは",
-                    "whatsAWallet": "仮想通貨ウォレットとは、仮想通貨ならびにデジタルゲームアセットを安全に保管しておくことができる場所です。",
+                    "whatsAWallet": "A crypto-wallet is the place where you can safely store all your cryptocurrencies and digital game ASSETS. No funds are required in the wallet to create an account. FREE to sign-up.",
                     "continue": "次で続行：",
                     "agree": "アカウントを作成して仮想通貨ウォレットをリンクすると、次に同意することになります：",
                     "terms": "利用規約",
@@ -1542,10 +1554,10 @@
                     "social": {
                         "title": "Social",
                         "value": "次で続行：",
-                        "signin": "Arkaneでサインインしてください"
+                        "signin": "Venlyでサインインしてください"
                     },
                     "login": "既にアカウントを持っている",
-                    "waiting": "ログインまたはArkaneに登録してください"
+                    "waiting": "ログインまたはVenlyに登録してください"
                 },
                 "signinModal": {
                     "title": "ログイン",
@@ -1801,13 +1813,19 @@
             "atari": "ATARI",
             "hub2": "THE HUB (パート 2)",
             "hub1": "THE HUB (パート 1)",
-            "snoopDogg": "SNOOP DOGG",
-            "quan": "QUAN"
+            "quan": "QUAN",
+            "megacities2": "Mega Cities (2)",
+            "megacities1": "Mega Cities (1)",
+            "snoopDogg1": "SNOOP DOGG",
+            "steveAoki": "STEVE AOKI"
         },
         "booked": "予約者：",
         "visit": "サイトにアクセス",
         "errors": {
-            "coordinates": "座標を入力してください"
+            "coordinates": "座標を入力してください",
+            "limit": "Coordinates must be between -204 and 204",
+            "swap": "Second coordinate point must be higher than first",
+            "wallet": "Please provide a correct wallet"
         },
         "detail": {
             "land": "Land",
@@ -1845,7 +1863,14 @@
             "price": "価格",
             "seeAll": "すべて表示",
             "viewInMap": "マップで表示",
-            "readMorePremium": "プレミアムの詳細を読む"
+            "readMorePremium": "プレミアムの詳細を読む",
+            "parcel": "parcel",
+            "transfertExperience": "",
+            "walletUser": "",
+            "confirm": "",
+            "successTransfer": "",
+            "closeForm": "",
+            "transferAssets": ""
         },
         "onboarding": {
             "title": "サンドボックスマップ",
@@ -2128,7 +2153,32 @@
                     "create": "アセットを制作して、マーケットで販売"
                 }
             },
-            "buttonText": "販売中のNFT Landを物色"
+            "buttonText": "販売中のNFT Landを物色",
+            "what": {
+                "title": "The SandboxにあるNFT Landで何が出来るのか",
+                "cards": {
+                    "host": {
+                        "text1": "コンテストやイベントの",
+                        "text2": "開催"
+                    },
+                    "monetize": {
+                        "text1": "アセットや体験の",
+                        "text2": "収益化"
+                    },
+                    "play": {
+                        "text1": "自身や他の人が制作したゲームを",
+                        "text2": "プレイ"
+                    },
+                    "vote": {
+                        "text1": "メタバース・ガバナンスで",
+                        "text2": "投票"
+                    },
+                    "sand": {
+                        "text1": "SANDをステークして",
+                        "text2": "アセットの獲得とカスタマイズ"
+                    }
+                }
+            }
         },
         "blog": {
             "meta": {
@@ -2158,13 +2208,14 @@
         "signin": "サインイン",
         "menu": {
             "profile": "プロフィール",
-            "defi": "DeFi",
-            "defi-soon": "DeFi (近日登場)",
+            "defi": "Staking",
+            "defi-soon": "Staking (近日登場)",
             "referral": "紹介",
             "inventory": "インベントリ",
             "avatar": "アバター",
             "edit": "編集",
-            "logout": "ログアウト"
+            "logout": "ログアウト",
+            "settings": "Settings"
         },
         "profile": {
             "sandAmount": "あなたの",
@@ -2201,7 +2252,9 @@
                 "oldPaswordDoesNotMatch": "旧パスワードが一致しません",
                 "newPasswordIsRequired": "新パスワードは必須です",
                 "newPasswordTooShort": "新パスワードが短すぎます",
-                "passwordDoNotMatch": "パスワードが一致しません"
+                "passwordDoNotMatch": "パスワードが一致しません",
+                "errorAvatarImageSize": "File size to big please use a lighter file",
+                "errorAvatarImageType": "File extension not supported, please use .jpg, .png or .jpeg"
             },
             "edit": {
                 "editTitle": "プロフィールを編集",
@@ -2243,7 +2296,8 @@
                 "added": "追加しました",
                 "unpublished": "非公開",
                 "exclusive": "限定",
-                "basic": "基本"
+                "basic": "基本",
+                "sale": "On Sale"
             },
             "actions": {
                 "title": "アクション",
@@ -2303,7 +2357,8 @@
                 "catalystmint": "ジェムで発行",
                 "purchaseGemsDisclaimer": "続けるにはカタリストとジェムを購入してください",
                 "removing": "属性はすべて削除されます。",
-                "wishToContinue": " 本当に続けますか？"
+                "wishToContinue": " 本当に続けますか？",
+                "invalidAndMaxed": "Invalid amount, using maximum possible amount."
             },
             "search": "検索…",
             "preview": "プレビュー",
@@ -2421,13 +2476,17 @@
                 "name": "名前",
                 "presetName": "プリセット名"
             },
-            "titleCreator": "アバタークリエイター"
+            "titleCreator": "アバタークリエイター",
+            "title": "Avatar Manager",
+            "custom": "Custom bodyparts only",
+            "iosWarning": "Your device is not compatible with this feature. Please try on desktop version.",
+            "iosWarningTitle": "Sorry"
         },
         "loginModal": {
             "title": "ログインまたはアカウントの作成",
             "description": "サインインするには、仮想通貨のウォレットをリンクしてください。資金がなくても構いません。一切資産が引きだされることはありません。",
             "wallet": "仮想通貨ウォレットとは",
-            "whatsAWallet": "仮想通貨ウォレットとは、仮想通貨ならびにデジタルゲームアセットを安全に保管しておくことができる場所です。",
+            "whatsAWallet": "A crypto-wallet is the place where you can safely store all your cryptocurrencies and digital game ASSETS. No funds are required in the wallet to create an account. FREE to sign-up.",
             "continue": "次で続行：",
             "agree": "アカウントを作成して仮想通貨ウォレットをリンクすると、次に同意することになります：",
             "terms": "利用規約",
@@ -2448,10 +2507,10 @@
             "social": {
                 "title": "Social",
                 "value": "次で続行：",
-                "signin": "Arkaneでサインインしてください"
+                "signin": "Venlyでサインインしてください"
             },
             "login": "既にアカウントを持っている",
-            "waiting": "ログインまたはArkaneに登録してください"
+            "waiting": "ログインまたはVenlyに登録してください"
         },
         "signinModal": {
             "title": "ログイン",
@@ -2580,7 +2639,9 @@
                     "facebook": "Enter your Facebook username",
                     "instagram": "Enter your Instagram username",
                     "telegram": "Enter your Telegram username"
-                }
+                },
+                "username-invalid": "Invalid Username",
+                "profilePictureErrorHigh": "Profile picture name is more than 200 characters long (including file extension)."
             },
             "security": {
                 "title": "セキュリティとパスワード",
@@ -3033,7 +3094,15 @@
             "polyWallet": "POLYGON ネットワーク L2",
             "whyPolygon": "なぜPOLYGONなのか？",
             "whyPolygonText": "The SandboxはPolygonに移行して、ブロックチェーントランザクションの管理において高速かつ効率のいい方法をお届けします。EthereumとPolygon間の移動を可能にするブリッジをご用意しております。",
-            "whatsBlockchain": "ブロックチェーンブリッジとは？"
+            "whatsBlockchain": "ブロックチェーンブリッジとは？",
+            "bridgeSand": "BRIDGE SAND",
+            "bridge": "Bridge",
+            "mainnetL1": "ETHEREUM NETWORK",
+            "mainnetL2": "POLYGON NETWORK",
+            "discoverPolygon": "Discover Polygon benefits",
+            "noActivePool": "You can earn more SAND by staking",
+            "bridgeNotAvailable": "Your wallet is not yet supported by the Polygon Bridge for now. Please use Metamask. If you don’t have a Metamask wallet, you can still acquire SAND on ",
+            "learn": "Learn how"
         },
         "avatars": {
             "title": "アバター",
@@ -3564,7 +3633,7 @@
         "apy": "4月",
         "weekly": "ウィークリー報酬",
         "share": "共有",
-        "haveLand": "収益を増やしませんか？",
+        "haveLand": "Get more LAND ?",
         "extraInfo": "Land所有者になることで、報酬が倍増することになります",
         "buyLand": "Landを買う",
         "titleDeposits": "流動性入金",
@@ -3586,10 +3655,10 @@
         "tipOfDay": "流動性マイニングのインセンティブを追加すると、深い流動性がさらに確保され、非保管式にてSANDの取引や利用を希望する人たちに強力な取引の場を提供することができます。",
         "greeting": "こんにちは",
         "wallet": "マイウォレット",
-        "title": "The Sandboxの流動性マイニング",
+        "title": "The Sandbox Staking",
         "noResult": "結果なし",
         "tooltipText": {
-            "tvl": "ロックされた合計額",
+            "tvl": "Total Value Locked (TVL) represents the total value of tokens locked within the staking program",
             "apy": "年間収益割合",
             "share": "プールの配分",
             "earn": "このプールにおける収益です！",
@@ -3597,7 +3666,17 @@
             "poolRewards": "こちらのプールが保有する今週の報酬額です！",
             "landOwner": "Land所有者",
             "landQty": "#Land",
-            "landMultiplier": "マルチプライヤー"
+            "landMultiplier": "マルチプライヤー",
+            "token-title": "Token",
+            "token": "The token required to stake. When two tokens are indicated, it refers to their LP pair.",
+            "tvl-title": "Total Value Locked",
+            "apr-title": "Annual Percentage Rate",
+            "apr": "Represents the rewards rate for a whole year, applied to your staked funds.",
+            "weekly-title": "Weekly Reward",
+            "weekly": "Rewards are replenished each week. This represents the amount distributed over a single week.",
+            "earnings-title": "Earnings",
+            "earnings": "Your claimable accumulated earnings.",
+            "landMultiplierNotActive": "LAND multiplier is not available yet on Polygon network"
         },
         "modalWithdraw": {
             "withdraw": "引き出す",
@@ -3611,7 +3690,8 @@
             "balance": "残高： ",
             "stake": "ステークス",
             "more": "流動性の取得方法",
-            "amount": "数量"
+            "amount": "数量",
+            "inactive": "Inactive"
         },
         "transaction": {
             "contract": "契約",
@@ -3623,7 +3703,8 @@
         },
         "transactionHistory": {
             "title": "トランザクション履歴",
-            "noTransactions": "トランザクションはありません"
+            "noTransactions": "There are no new transactions to show in the last few days",
+            "oldTransactions": "View old transactions"
         },
         "walletTab": {
             "mainnetL1Title": "ETHEREUM ネットワーク L1",
@@ -3647,7 +3728,8 @@
                 "activate": "今すぐMATICを有効に",
                 "tutorial": "チュートリアルを見る",
                 "why": "MATICを使う理由"
-            }
+            },
+            "maticCoin": "MATIC"
         },
         "tutorial": {
             "step1": {
@@ -3667,20 +3749,56 @@
                 "text": "入金が完了したら、生成された報酬を受け取ることができます"
             }
         },
-        "sushiswap": "sushiswap",
+        "sushiswap": "Sushiswap",
         "withdrawTitle": "払い戻しと受け取り",
         "claimTitle": "受け取る",
         "depositTitle": "預入",
         "historyTitle": "トランザクション履歴",
-        "pool": "プール",
+        "pool": "Token",
         "myPools": "マイプール",
         "totalRewards": "合計報酬",
         "landMultiplierHeader": "LANDマルチプライヤー",
         "sidebar": {
-            "action-desc-deposit": "プールにLPトークンを預けて、SANDを稼ぐ",
-            "footer-text-deposit": "このトランザクションによりLPトークンがプールに加算され、報酬がもらえるようになります",
-            "footer-text-claim": "収益を受け取ることで、ウォレットのSANDが増えます。",
-            "footer-text-withdraw": "LPを引きだす際に、収益も受け取ることになります。これによりネットワーク手数料を節約できます。"
+            "action-desc-deposit": "Deposit LP tokens to earn more SAND",
+            "footer-text-deposit": "This transaction will deposit the selected amount of LP tokens and increase your total deposit.",
+            "footer-text-claim": "This transaction will claim all earnings and credit them to your wallet.",
+            "footer-text-withdraw": "This transaction will withdraw the selected LP amount from your total deposit. It will also claim any available earnings to save you some gas fee.",
+            "onEtherscan": "View on Etherscan",
+            "onPolyscan": "View on Polygonscan",
+            "pairAnalytics": "Pair analytics"
+        },
+        "allowanceError": "Your allowance is still less than the amount you want to stake",
+        "sub-title": "Earn SAND by staking on Ethereum and Polygon networks",
+        "haveLandText": "Each LAND counts, the more you have, the higher the multiplier!",
+        "landOwnerRewards": "Earn additional rewards for each LAND in your wallet",
+        "needToBridge": "Do you need SAND on Polygon?",
+        "uniswap": "Uniswap",
+        "quickswap": "Quickswap",
+        "periodEndedOn": "Rewards ended on:",
+        "tvlResumed": "TVL",
+        "search-placeholder": "Search",
+        "land-entitling": {
+            "unique": "Unique",
+            "proprietor": "Proprietor",
+            "magnate": "Magnate",
+            "tycoon": "Tycoon",
+            "mogul": "Mogul"
+        },
+        "guide-links": {
+            "how-to": "How to stake",
+            "learn-more": "Learn more about staking",
+            "support": "Get support"
+        },
+        "dropdownFilter": {
+            "name": "Name",
+            "highTvl": "Highest TVL",
+            "lowTvl": "Lowest TVL",
+            "highAPR": "Highest APR",
+            "lowAPR": "Lowest APR",
+            "highShare": "Highest Share",
+            "lowShare": "Lowest Share",
+            "highEarn": "Highest Earnings",
+            "lowEarn": "Lowest Earnings"
         }
     },
     "login": {
@@ -3849,6 +3967,12 @@
                     },
                     "button": "Go to Opensea"
                 }
+            },
+            "mintYourSnoopAvatar": {
+                "title1": "Mint your",
+                "title2": "Snoop Avatar",
+                "description": "Be among the first ones to mint your own Snoop avatars. Up to 10 avatars available for pass holders.",
+                "button": "Mint now"
             }
         },
         "alpha": {
@@ -4017,6 +4141,63 @@
                 "subtitle3.1": "最大",
                 "subtitle3.2": "1000SANDと3つの限定NFTが手に入ります！",
                 "subtitle3.3": "このNFTを自分の体験に配置して人目を引くようにするもよし、他のプレイヤーに販売するもよし！報酬はすべて、アルファ版終了時に受け取ることができます"
+            },
+            "alphaClosed": {
+                "title": "Alpha Season 1 is now closed",
+                "description": "Thank you for participating",
+                "feedback": "YOUR FEEDBACK MATTERS",
+                "feedbackDescription": "Send us your feedback and get one ticket for Alpha Season 2 Raffle",
+                "buttonText": "Send feedback",
+                "buttonDescription": "You will get your raffle ticket when Alpha Season 2 starts"
+            },
+            "alpha2Coming": {
+                "title": "ALPHA SEASON 2 COMING SOON",
+                "subtitle": "STAY TUNED!",
+                "bulletPoints": {
+                    "1": "Open to everyone to participate and progress through experiences",
+                    "2": "More Alpha Passes available",
+                    "3": "New type of Experiences",
+                    "4": "Even more Play-to-Earn Rewards",
+                    "5": "Some surprises in the metaverse"
+                },
+                "endText": "and much more based on your feedback! We are listening to you."
+            },
+            "lookBack": {
+                "title": "A LOOK BACK AT ALPHA SEASON 1",
+                "metrics": {
+                    "0": "SAND DISTRIBUTED",
+                    "1": "ALPHA PASS DISTRIBUTED",
+                    "2": "NFTs DISTRIBUTED",
+                    "3": "POSITIVE FEEDBACK",
+                    "4": "ALPHA HUB VISITORS",
+                    "5": "HOURS PLAYED CUMULATIVELY",
+                    "6": "TWITTER CONTEST PARTICIPANTS",
+                    "7": "FEEDBACK MESSAGES SENT"
+                }
+            },
+            "alphaNumbers": {
+                "title": "The Alpha in numbers",
+                "sections": {
+                    "0": {
+                        "number": "+200K",
+                        "description": "ALPHA HUB VISITOR"
+                    },
+                    "1": {
+                        "number": "+150K",
+                        "description": "HOURS PLAYED COMULATIVELY"
+                    },
+                    "2": {
+                        "number": "+100K",
+                        "description": "TWITTER CONTEST PARTICIPANTS"
+                    },
+                    "3": {
+                        "number": "400",
+                        "description": "FEEDBACKS SENT"
+                    }
+                }
+            },
+            "bestMoments": {
+                "title": "ALPHA SEASON 1 BEST MOMENTS"
             }
         },
         "quan": {
@@ -4207,6 +4388,77 @@
             },
             "placeBid": "応札する",
             "cancel": "キャンセル"
+        },
+        "goingOutOfSite": "You are about to leave the website of sandbox.game and view the content of an external website. The Sandbox cannot be held responsible for the content of external websites."
+    },
+    "raffle": {
+        "meta": {
+            "title": "The Sandbox Game - Raffle Page",
+            "description": "Come and participate in the raffle! Anyone can win, all you have to do is try your luck!",
+            "keywords": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token, raffle",
+            "og": {
+                "title": "The Sandbox Game - Raffle Page",
+                "description": "Come and participate in the raffle! Anyone can win, all you have to do is try your luck!",
+                "url": "https://www.sandbox.game/en/raffle/",
+                "site_name": "The Sandbox Game - Raffle Page",
+                "image": "https://www.sandbox.game/img/30_Landing/snoopdogg/snoop4.png"
+            },
+            "twitter": {
+                "title": "The Sandbox Game - Raffle Page",
+                "description": "Come and participate in the raffle! Anyone can win, all you have to do is try your luck!",
+                "card": "The Sandbox Game - Raffle Page",
+                "site": "@thesandboxgame",
+                "creator": "@thesandboxgame",
+                "image": "https://www.sandbox.game/img/30_Landing/snoopdogg/snoop4.png"
+            }
+        },
+        "title": "Mint your own Snoop Dogg Avatar!",
+        "connectWallet": {
+            "title": "Connect Wallet",
+            "title2": "Your wallet is connected!",
+            "howMany": "How many avatars do you want?",
+            "button": "Mint now",
+            "process": "Your transaction is being processed.",
+            "finish": "Your transaction is successful!",
+            "refresh": "Mint again!",
+            "errorButton": "Try again!",
+            "error": "Something went wrong!",
+            "wrongWallet": "Sorry! You are connected with the wrong wallet! Please log in again with Metamask.",
+            "raffleEndTitle": "Sale is now closed.",
+            "raffleEnd": "Thank you for you participating."
+        },
+        "textFormMint": {
+            "isPublic": "",
+            "ticketBased": "Presale for ticket holders is now live!"
+        },
+        "price": {
+            "currentPrice": "current price for each avatar"
+        },
+        "FAQ": {
+            "title": "F.A.Q.",
+            "1": {
+                "title": "What is the current sand price for an avatar?",
+                "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec ligula condimentum, tincidunt libero nec, ullamcorper mauris. Pellentesque enim ex, condimentum in condimentum a, tempus at elit. Aenean accumsan, metus vitae pellentesque semper, tellus tellus viverra diam, quis lacinia tortor quam et mi. Sed ex diam, dapibus vitae maximus tristique, iaculis at turpis. Etiam interdum, mauris a lobortis molestie, lacus elit lacinia diam, nec faucibus tellus diam eu mi. Nulla molestie elit ut odio lacinia, sed finibus odio tempus. Mauris ac sollicitudin tellus. Aenean hendrerit nulla eu urna dictum dignissim. Vivamus varius odio et dolor ornare tincidunt."
+            },
+            "2": {
+                "title": "How many avatars can we buy in total?",
+                "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec ligula condimentum, tincidunt libero nec, ullamcorper mauris. Pellentesque enim ex, condimentum in condimentum a, tempus at elit. Aenean accumsan, metus vitae pellentesque semper, tellus tellus viverra diam, quis lacinia tortor quam et mi. Sed ex diam, dapibus vitae maximus tristique, iaculis at turpis. Etiam interdum, mauris a lobortis molestie, lacus elit lacinia diam, nec faucibus tellus diam eu mi. Nulla molestie elit ut odio lacinia, sed finibus odio tempus. Mauris ac sollicitudin tellus. Aenean hendrerit nulla eu urna dictum dignissim."
+            },
+            "3": {
+                "title": "What is the current sand price for an avatar?",
+                "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec ligula condimentum, tincidunt libero nec, ullamcorper mauris. Pellentesque enim ex, condimentum in condimentum a, tempus at elit. Aenean accumsan, metus vitae pellentesque semper, tellus tellus viverra diam, quis lacinia tortor quam et mi."
+            },
+            "4": {
+                "title": "How many avatars can we buy in total?",
+                "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec ligula condimentum, tincidunt libero nec, ullamcorper mauris. Pellentesque enim ex, condimentum in condimentum a, tempus at elit. Aenean accumsan, metus vitae pellentesque semper, tellus tellus viverra diam, quis lacinia tortor quam et mi. Sed ex diam, dapibus vitae maximus tristique, iaculis at turpis."
+            }
         }
+    },
+    "modelViewer": {
+        "view3D": "View 3D",
+        "preview": "Preview",
+        "ground": "Show the ground",
+        "loading": "Loading 3D...",
+        "loadingPreview": "Preview is loading..."
     }
 }
