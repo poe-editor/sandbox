@@ -199,9 +199,12 @@
                 "noPastDates": "起始日期从现在起5分钟后开始计算",
                 "confirmDates": "确认",
                 "nextDate": "继续"
-            }
-        },
-        "invalid-amount": "Invalid Amount"
+            },
+            "invalidPrice": "Invalid price.",
+            "invalidAmount": "Invalid amount.",
+            "maxPrice": "Sell price must not be greater than 3000000000.",
+            "maxAmount": "Maximum amount to sell is 12000."
+        }
     },
     "layout": {
         "topbar": {
@@ -233,7 +236,15 @@
                     "noLandsText": "你已失去可让你体验所有季前内容的LAND。你需要拥有LAND才可解锁此内容",
                     "preRegistered": "你已成功抢先注册",
                     "go": "前往季前内容"
-                }
+                },
+                "hasRewards": "Alpha Rewards",
+                "noRewards": "No Alpha Rewards"
+            },
+            "balances": {
+                "testNetRinkeby": "TESTNET RINKEBY NETWORK",
+                "testNetGoerli": "TESTNET GOERLI NETWORK",
+                "testNetMumbai": "TESTNET MUMBAI NETWORK",
+                "mainNet": "MAINNET NETWORK"
             }
         },
         "sidebar": {
@@ -304,17 +315,18 @@
         },
         "header": {
             "title": "欢迎来到开放式元宇宙",
-            "description": "由玩家打造的虚拟元宇宙中，一同游玩、创造、拥有和管理世界\n",
+            "description": "The Alpha 2 is coming soon",
             "preseason": "探索我们的第一季内容",
-            "buttonText": "Play the Alpha",
+            "buttonText": "See Rewards",
             "discover": "Snoop Dogg",
             "howToJoin": "如何加入？",
             "buyLand": "购买LAND",
-            "alphaOpened": "THE ALPHA IS NOW OPEN",
+            "alphaOpened": "ALPHA SEASON 1 IS NOW CLOSED",
             "alpha": "Alpha",
             "alphaDate": "从11月29日至12月20日",
             "readMore": "更多信息",
-            "playButtonText": "游玩Alpha版本"
+            "description2": "Click here to see the rewards of Alpha Season 1",
+            "createButtonText": "Create Account"
         },
         "discover": {
             "title": "探索《The Sandbox》",
@@ -457,7 +469,7 @@
                 "inProgress": "进行中",
                 "endingSoon": "即将结束",
                 "timeLeft": "剩余时间",
-                "timeLeftToClaim": "剩余领取时间",
+                "timeLeftToClaim": "CLAIM AVAILABLE IN",
                 "seasonOver": "《The Sandbox》Alpha版已结束！",
                 "seasonOverDescription": "感谢参与Alpha版本，我们正在准备你的奖励！在激活后，点击下方的领取按钮。",
                 "description2": "你已领取奖励！在确认领取后，它们将很快出现在你的物品栏及钱包中",
@@ -474,7 +486,8 @@
                 "findAlpha": "寻找Alpha任务",
                 "seasonLockedTitle": "你尚未拥有Alpha通行证",
                 "seasonLockedDescription": "你需要Alpha通行证才能进入Alpha版本，赢得1,000 SAND和3份非同质化代币奖励。",
-                "seasonLockedButton": "在Opensea上寻找"
+                "seasonLockedButton": "在Opensea上寻找",
+                "description3": "You will be able to claim your rewards at the end of the Alpha, on December 20, 2021. Keep your Alpha Pass with you until that date."
             },
             "experienceToVisit": "Alpha任务已完成"
         },
@@ -872,7 +885,8 @@
             "entity": "实体",
             "equipment": "装备",
             "wearable": "可穿戴",
-            "art": "艺术"
+            "art": "艺术",
+            "avatar": "Skins"
         },
         "rarities": {
             "title": "CATALYST",
@@ -992,7 +1006,9 @@
             "lowerPrice": "低价",
             "highPrice": "最高价",
             "leastAmount": "最小数量",
-            "highAmount": "最大数量"
+            "highAmount": "最大数量",
+            "az": "Name (A-Z)",
+            "za": "Name (Z-A)"
         },
         "sizes": {
             "title": "尺寸",
@@ -1105,7 +1121,8 @@
             "claim": "领取",
             "alreadyClaim": "已领取",
             "putOnSale": "出售",
-            "saleQuestion": "你想在我们的市场上出售此NFT吗？"
+            "saleQuestion": "你想在我们的市场上出售此NFT吗？",
+            "putOnSaleSuccess": "Asset is now for sale"
         }
     },
     "create": {
@@ -1302,11 +1319,6 @@
                         "text": "“這是最簡單的象素動畫創作工具之一，它為初學者提供了一個好看又易用的介面。”",
                         "job": "專業象素藝術家",
                         "author": "Nicolas Morrone"
-                    },
-                    "3": {
-                        "text": "",
-                        "job": "",
-                        "author": ""
                     }
                 }
             },
@@ -1521,7 +1533,7 @@
                     "title": "登录或创建账户",
                     "description": "你需要先关联你的加密钱包才可登录",
                     "wallet": "什么是加密钱包？",
-                    "whatsAWallet": "加密钱包是你可以安全地存储所有加密货币和数字游戏ASSET的地方。",
+                    "whatsAWallet": "A crypto-wallet is the place where you can safely store all your cryptocurrencies and digital game ASSETS. No funds are required in the wallet to create an account. FREE to sign-up.",
                     "continue": "继续",
                     "agree": "创建账户并关联你的加密钱包，即代表你同意我们的",
                     "terms": "条款和条件",
@@ -1542,10 +1554,10 @@
                     "social": {
                         "title": "社交媒体",
                         "value": "继续",
-                        "signin": "请登录Arkane"
+                        "signin": "请登录Venly"
                     },
                     "login": "我已经有账号了",
-                    "waiting": "请登录/注册Arkane"
+                    "waiting": "请登录/注册Venly"
                 },
                 "signinModal": {
                     "title": "登录",
@@ -1801,13 +1813,19 @@
             "atari": "ATARI",
             "hub2": "THE HUB（第2部分）",
             "hub1": "THE HUB（第1部分）",
-            "snoopDogg": "SNOOP DOGG",
-            "quan": "QUAN"
+            "quan": "QUAN",
+            "megacities2": "Mega Cities (2)",
+            "megacities1": "Mega Cities (1)",
+            "snoopDogg1": "SNOOP DOGG",
+            "steveAoki": "STEVE AOKI"
         },
         "booked": "预订者：",
         "visit": "访问网站",
         "errors": {
-            "coordinates": "请提供坐标"
+            "coordinates": "请提供坐标",
+            "limit": "Coordinates must be between -204 and 204",
+            "swap": "Second coordinate point must be higher than first",
+            "wallet": "Please provide a correct wallet"
         },
         "detail": {
             "land": "LAND",
@@ -1845,7 +1863,14 @@
             "price": "价格",
             "seeAll": "查看全部",
             "viewInMap": "在地图中查看",
-            "readMorePremium": "了解更多关于优质的介绍"
+            "readMorePremium": "了解更多关于优质的介绍",
+            "parcel": "parcel",
+            "transfertExperience": "",
+            "walletUser": "",
+            "confirm": "",
+            "successTransfer": "",
+            "closeForm": "",
+            "transferAssets": ""
         },
         "onboarding": {
             "title": "Sandbox地图",
@@ -2128,7 +2153,32 @@
                     "create": "创作ASSET，出售作品"
                 }
             },
-            "buttonText": "探索出售的NFT LAND"
+            "buttonText": "探索出售的NFT LAND",
+            "what": {
+                "title": "你在《The Sandbox》中能用NFT LAND做什么",
+                "cards": {
+                    "host": {
+                        "text1": "举办",
+                        "text2": "比赛和活动"
+                    },
+                    "monetize": {
+                        "text1": "盈利",
+                        "text2": "ASSET和体验"
+                    },
+                    "play": {
+                        "text1": "开始游戏",
+                        "text2": "你或他人创造的游戏"
+                    },
+                    "vote": {
+                        "text1": "投票",
+                        "text2": "元宇宙管理"
+                    },
+                    "sand": {
+                        "text1": "质押SAND",
+                        "text2": "赚取并自定义ASSET"
+                    }
+                }
+            }
         },
         "blog": {
             "meta": {
@@ -2158,13 +2208,14 @@
         "signin": "登录",
         "menu": {
             "profile": "个人档案",
-            "defi": "DeFi",
-            "defi-soon": "DeFi（即将推出）",
+            "defi": "Staking",
+            "defi-soon": "Staking（即将推出）",
             "referral": "推广",
             "inventory": "物品栏",
             "avatar": "人物造型",
             "edit": "编辑",
-            "logout": "登出"
+            "logout": "登出",
+            "settings": "Settings"
         },
         "profile": {
             "sandAmount": "你的",
@@ -2201,7 +2252,9 @@
                 "oldPaswordDoesNotMatch": "与旧密码不符",
                 "newPasswordIsRequired": "新密码为必填项",
                 "newPasswordTooShort": "新密码过短",
-                "passwordDoNotMatch": "密码不符"
+                "passwordDoNotMatch": "密码不符",
+                "errorAvatarImageSize": "File size to big please use a lighter file",
+                "errorAvatarImageType": "File extension not supported, please use .jpg, .png or .jpeg"
             },
             "edit": {
                 "editTitle": "编辑个人档案",
@@ -2243,7 +2296,8 @@
                 "added": "已添加",
                 "unpublished": "未发布",
                 "exclusive": "专属",
-                "basic": "基础"
+                "basic": "基础",
+                "sale": "On Sale"
             },
             "actions": {
                 "title": "动作",
@@ -2303,7 +2357,8 @@
                 "catalystmint": "用GEM铸造",
                 "purchaseGemsDisclaimer": "你需要购买CATALYST和GEM才能继续操作",
                 "removing": "所有属性将被移除。",
-                "wishToContinue": " 要继续吗？"
+                "wishToContinue": " 要继续吗？",
+                "invalidAndMaxed": "Invalid amount, using maximum possible amount."
             },
             "search": "搜索……",
             "preview": "预览",
@@ -2421,13 +2476,17 @@
                 "name": "名称",
                 "presetName": "预设名称"
             },
-            "titleCreator": "人物造型创作工具"
+            "titleCreator": "人物造型创作工具",
+            "title": "Avatar Manager",
+            "custom": "Custom bodyparts only",
+            "iosWarning": "Your device is not compatible with this feature. Please try on desktop version.",
+            "iosWarningTitle": "Sorry"
         },
         "loginModal": {
             "title": "登录或创建账户",
             "description": "请关联加密钱包以登录。无必要或需提取资金。",
             "wallet": "什么是加密钱包？",
-            "whatsAWallet": "加密钱包是你可以安全地存储所有加密货币和数字游戏ASSET的地方。",
+            "whatsAWallet": "A crypto-wallet is the place where you can safely store all your cryptocurrencies and digital game ASSETS. No funds are required in the wallet to create an account. FREE to sign-up.",
             "continue": "继续",
             "agree": "创建账户并关联你的加密钱包，即代表你同意我们的",
             "terms": "条款和条件",
@@ -2448,10 +2507,10 @@
             "social": {
                 "title": "社交媒体",
                 "value": "继续",
-                "signin": "请登录Arkane"
+                "signin": "请登录Venly"
             },
             "login": "我已经有账号了",
-            "waiting": "请登录/注册Arkane"
+            "waiting": "请登录/注册Venly"
         },
         "signinModal": {
             "title": "登录",
@@ -2580,7 +2639,9 @@
                     "facebook": "Enter your Facebook username",
                     "instagram": "Enter your Instagram username",
                     "telegram": "Enter your Telegram username"
-                }
+                },
+                "username-invalid": "Invalid Username",
+                "profilePictureErrorHigh": "Profile picture name is more than 200 characters long (including file extension)."
             },
             "security": {
                 "title": "安全与密码",
@@ -3033,7 +3094,15 @@
             "polyWallet": "POLYGON NETWORK L2",
             "whyPolygon": "为何选择Polygon？",
             "whyPolygonText": "《The Sandbox》正在转向使用Polygon，获得快速且高效的方式来管理区块链交易。Ethereum和Polygon之间会搭建跨链桥来实现传输。",
-            "whatsBlockchain": "什么是跨链桥？"
+            "whatsBlockchain": "什么是跨链桥？",
+            "bridgeSand": "BRIDGE SAND",
+            "bridge": "Bridge",
+            "mainnetL1": "ETHEREUM NETWORK",
+            "mainnetL2": "POLYGON NETWORK",
+            "discoverPolygon": "Discover Polygon benefits",
+            "noActivePool": "You can earn more SAND by staking",
+            "bridgeNotAvailable": "Your wallet is not yet supported by the Polygon Bridge for now. Please use Metamask. If you don’t have a Metamask wallet, you can still acquire SAND on ",
+            "learn": "Learn how"
         },
         "avatars": {
             "title": "人物造型",
@@ -3564,7 +3633,7 @@
         "apy": "四月",
         "weekly": "每周奖励",
         "share": "份额",
-        "haveLand": "想要提升你的收益？",
+        "haveLand": "Get more LAND ?",
         "extraInfo": "拥有LAND即可享受奖励加成",
         "buyLand": "购买LAND",
         "titleDeposits": "你的流动性存款",
@@ -3586,10 +3655,10 @@
         "tipOfDay": "新增流动性挖矿将进一步培养深度流动性，为希望在非托管状态下交易和使用SAND的人提供了一个强大的交易场所",
         "greeting": "你好",
         "wallet": "我的钱包",
-        "title": "《The Sandbox》流动性挖矿",
+        "title": "The Sandbox Staking",
         "noResult": "找不到结果",
         "tooltipText": {
-            "tvl": "已锁定的总价值",
+            "tvl": "Total Value Locked (TVL) represents the total value of tokens locked within the staking program",
             "apy": "年收益率",
             "share": "你在本资金池的份额！",
             "earn": "你在本资金池的收益！",
@@ -3597,7 +3666,17 @@
             "poolRewards": "本资金池本周奖励金额！",
             "landOwner": "LAND所有者",
             "landQty": "#Lands",
-            "landMultiplier": "加成"
+            "landMultiplier": "加成",
+            "token-title": "Token",
+            "token": "The token required to stake. When two tokens are indicated, it refers to their LP pair.",
+            "tvl-title": "Total Value Locked",
+            "apr-title": "Annual Percentage Rate",
+            "apr": "Represents the rewards rate for a whole year, applied to your staked funds.",
+            "weekly-title": "Weekly Reward",
+            "weekly": "Rewards are replenished each week. This represents the amount distributed over a single week.",
+            "earnings-title": "Earnings",
+            "earnings": "Your claimable accumulated earnings.",
+            "landMultiplierNotActive": "LAND multiplier is not available yet on Polygon network"
         },
         "modalWithdraw": {
             "withdraw": "你的提取",
@@ -3611,7 +3690,8 @@
             "balance": "余额： ",
             "stake": "质押",
             "more": "如何获得流动性？",
-            "amount": "数量"
+            "amount": "数量",
+            "inactive": "Inactive"
         },
         "transaction": {
             "contract": "合约",
@@ -3623,7 +3703,8 @@
         },
         "transactionHistory": {
             "title": "交易记录",
-            "noTransactions": "无交易记录"
+            "noTransactions": "There are no new transactions to show in the last few days",
+            "oldTransactions": "View old transactions"
         },
         "walletTab": {
             "mainnetL1Title": "ETHEREUM NETWORK L1",
@@ -3647,7 +3728,8 @@
                 "activate": "立即激活Matic",
                 "tutorial": "播放教程",
                 "why": "为何使用Matic？"
-            }
+            },
+            "maticCoin": "MATIC"
         },
         "tutorial": {
             "step1": {
@@ -3667,20 +3749,56 @@
                 "text": "完成存款后，可以领取它产生的收益"
             }
         },
-        "sushiswap": "sushiswap",
+        "sushiswap": "Sushiswap",
         "withdrawTitle": "提取与领取",
         "claimTitle": "领取",
         "depositTitle": "存款",
         "historyTitle": "交易记录",
-        "pool": "资金池",
+        "pool": "Token",
         "myPools": "我的资金池",
         "totalRewards": "全部奖励",
         "landMultiplierHeader": "LAND加成",
         "sidebar": {
-            "action-desc-deposit": "在资金池储存LP代币可获得更多SAND",
-            "footer-text-deposit": "此交易将添加LP代币至资金池，你可以开始赚取收益",
-            "footer-text-claim": "要想领取你的收益，钱包中需有更多SAND。",
-            "footer-text-withdraw": "当提取你的LP时，你也会领取你的收益，这样可以帮你节省矿工费。"
+            "action-desc-deposit": "Deposit LP tokens to earn more SAND",
+            "footer-text-deposit": "This transaction will deposit the selected amount of LP tokens and increase your total deposit.",
+            "footer-text-claim": "This transaction will claim all earnings and credit them to your wallet.",
+            "footer-text-withdraw": "This transaction will withdraw the selected LP amount from your total deposit. It will also claim any available earnings to save you some gas fee.",
+            "onEtherscan": "View on Etherscan",
+            "onPolyscan": "View on Polygonscan",
+            "pairAnalytics": "Pair analytics"
+        },
+        "allowanceError": "Your allowance is still less than the amount you want to stake",
+        "sub-title": "Earn SAND by staking on Ethereum and Polygon networks",
+        "haveLandText": "Each LAND counts, the more you have, the higher the multiplier!",
+        "landOwnerRewards": "Earn additional rewards for each LAND in your wallet",
+        "needToBridge": "Do you need SAND on Polygon?",
+        "uniswap": "Uniswap",
+        "quickswap": "Quickswap",
+        "periodEndedOn": "Rewards ended on:",
+        "tvlResumed": "TVL",
+        "search-placeholder": "Search",
+        "land-entitling": {
+            "unique": "Unique",
+            "proprietor": "Proprietor",
+            "magnate": "Magnate",
+            "tycoon": "Tycoon",
+            "mogul": "Mogul"
+        },
+        "guide-links": {
+            "how-to": "How to stake",
+            "learn-more": "Learn more about staking",
+            "support": "Get support"
+        },
+        "dropdownFilter": {
+            "name": "Name",
+            "highTvl": "Highest TVL",
+            "lowTvl": "Lowest TVL",
+            "highAPR": "Highest APR",
+            "lowAPR": "Lowest APR",
+            "highShare": "Highest Share",
+            "lowShare": "Lowest Share",
+            "highEarn": "Highest Earnings",
+            "lowEarn": "Lowest Earnings"
         }
     },
     "login": {
@@ -3849,6 +3967,12 @@
                     },
                     "button": "Go to Opensea"
                 }
+            },
+            "mintYourSnoopAvatar": {
+                "title1": "Mint your",
+                "title2": "Snoop Avatar",
+                "description": "Be among the first ones to mint your own Snoop avatars. Up to 10 avatars available for pass holders.",
+                "button": "Mint now"
             }
         },
         "alpha": {
@@ -4017,6 +4141,63 @@
                 "subtitle3.1": "你最多可获得",
                 "subtitle3.2": "1000 SAND以及3份专属非同质化代币！",
                 "subtitle3.3": "你可以将那些非同质化代币放置在你的游戏体验中，让自己的作品出类拔萃，或是将它们出售给其他玩家！Alpha版结束时可领取所有奖励"
+            },
+            "alphaClosed": {
+                "title": "Alpha Season 1 is now closed",
+                "description": "Thank you for participating",
+                "feedback": "YOUR FEEDBACK MATTERS",
+                "feedbackDescription": "Send us your feedback and get one ticket for Alpha Season 2 Raffle",
+                "buttonText": "Send feedback",
+                "buttonDescription": "You will get your raffle ticket when Alpha Season 2 starts"
+            },
+            "alpha2Coming": {
+                "title": "ALPHA SEASON 2 COMING SOON",
+                "subtitle": "STAY TUNED!",
+                "bulletPoints": {
+                    "1": "Open to everyone to participate and progress through experiences",
+                    "2": "More Alpha Passes available",
+                    "3": "New type of Experiences",
+                    "4": "Even more Play-to-Earn Rewards",
+                    "5": "Some surprises in the metaverse"
+                },
+                "endText": "and much more based on your feedback! We are listening to you."
+            },
+            "lookBack": {
+                "title": "A LOOK BACK AT ALPHA SEASON 1",
+                "metrics": {
+                    "0": "SAND DISTRIBUTED",
+                    "1": "ALPHA PASS DISTRIBUTED",
+                    "2": "NFTs DISTRIBUTED",
+                    "3": "POSITIVE FEEDBACK",
+                    "4": "ALPHA HUB VISITORS",
+                    "5": "HOURS PLAYED CUMULATIVELY",
+                    "6": "TWITTER CONTEST PARTICIPANTS",
+                    "7": "FEEDBACK MESSAGES SENT"
+                }
+            },
+            "alphaNumbers": {
+                "title": "The Alpha in numbers",
+                "sections": {
+                    "0": {
+                        "number": "+200K",
+                        "description": "ALPHA HUB VISITOR"
+                    },
+                    "1": {
+                        "number": "+150K",
+                        "description": "HOURS PLAYED COMULATIVELY"
+                    },
+                    "2": {
+                        "number": "+100K",
+                        "description": "TWITTER CONTEST PARTICIPANTS"
+                    },
+                    "3": {
+                        "number": "400",
+                        "description": "FEEDBACKS SENT"
+                    }
+                }
+            },
+            "bestMoments": {
+                "title": "ALPHA SEASON 1 BEST MOMENTS"
             }
         },
         "quan": {
@@ -4207,6 +4388,77 @@
             },
             "placeBid": "竞标",
             "cancel": "取消"
+        },
+        "goingOutOfSite": "You are about to leave the website of sandbox.game and view the content of an external website. The Sandbox cannot be held responsible for the content of external websites."
+    },
+    "raffle": {
+        "meta": {
+            "title": "The Sandbox Game - Raffle Page",
+            "description": "Come and participate in the raffle! Anyone can win, all you have to do is try your luck!",
+            "keywords": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token, raffle",
+            "og": {
+                "title": "The Sandbox Game - Raffle Page",
+                "description": "Come and participate in the raffle! Anyone can win, all you have to do is try your luck!",
+                "url": "https://www.sandbox.game/en/raffle/",
+                "site_name": "The Sandbox Game - Raffle Page",
+                "image": "https://www.sandbox.game/img/30_Landing/snoopdogg/snoop4.png"
+            },
+            "twitter": {
+                "title": "The Sandbox Game - Raffle Page",
+                "description": "Come and participate in the raffle! Anyone can win, all you have to do is try your luck!",
+                "card": "The Sandbox Game - Raffle Page",
+                "site": "@thesandboxgame",
+                "creator": "@thesandboxgame",
+                "image": "https://www.sandbox.game/img/30_Landing/snoopdogg/snoop4.png"
+            }
+        },
+        "title": "Mint your own Snoop Dogg Avatar!",
+        "connectWallet": {
+            "title": "Connect Wallet",
+            "title2": "Your wallet is connected!",
+            "howMany": "How many avatars do you want?",
+            "button": "Mint now",
+            "process": "Your transaction is being processed.",
+            "finish": "Your transaction is successful!",
+            "refresh": "Mint again!",
+            "errorButton": "Try again!",
+            "error": "Something went wrong!",
+            "wrongWallet": "Sorry! You are connected with the wrong wallet! Please log in again with Metamask.",
+            "raffleEndTitle": "Sale is now closed.",
+            "raffleEnd": "Thank you for you participating."
+        },
+        "textFormMint": {
+            "isPublic": "",
+            "ticketBased": "Presale for ticket holders is now live!"
+        },
+        "price": {
+            "currentPrice": "current price for each avatar"
+        },
+        "FAQ": {
+            "title": "F.A.Q.",
+            "1": {
+                "title": "What is the current sand price for an avatar?",
+                "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec ligula condimentum, tincidunt libero nec, ullamcorper mauris. Pellentesque enim ex, condimentum in condimentum a, tempus at elit. Aenean accumsan, metus vitae pellentesque semper, tellus tellus viverra diam, quis lacinia tortor quam et mi. Sed ex diam, dapibus vitae maximus tristique, iaculis at turpis. Etiam interdum, mauris a lobortis molestie, lacus elit lacinia diam, nec faucibus tellus diam eu mi. Nulla molestie elit ut odio lacinia, sed finibus odio tempus. Mauris ac sollicitudin tellus. Aenean hendrerit nulla eu urna dictum dignissim. Vivamus varius odio et dolor ornare tincidunt."
+            },
+            "2": {
+                "title": "How many avatars can we buy in total?",
+                "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec ligula condimentum, tincidunt libero nec, ullamcorper mauris. Pellentesque enim ex, condimentum in condimentum a, tempus at elit. Aenean accumsan, metus vitae pellentesque semper, tellus tellus viverra diam, quis lacinia tortor quam et mi. Sed ex diam, dapibus vitae maximus tristique, iaculis at turpis. Etiam interdum, mauris a lobortis molestie, lacus elit lacinia diam, nec faucibus tellus diam eu mi. Nulla molestie elit ut odio lacinia, sed finibus odio tempus. Mauris ac sollicitudin tellus. Aenean hendrerit nulla eu urna dictum dignissim."
+            },
+            "3": {
+                "title": "What is the current sand price for an avatar?",
+                "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec ligula condimentum, tincidunt libero nec, ullamcorper mauris. Pellentesque enim ex, condimentum in condimentum a, tempus at elit. Aenean accumsan, metus vitae pellentesque semper, tellus tellus viverra diam, quis lacinia tortor quam et mi."
+            },
+            "4": {
+                "title": "How many avatars can we buy in total?",
+                "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec ligula condimentum, tincidunt libero nec, ullamcorper mauris. Pellentesque enim ex, condimentum in condimentum a, tempus at elit. Aenean accumsan, metus vitae pellentesque semper, tellus tellus viverra diam, quis lacinia tortor quam et mi. Sed ex diam, dapibus vitae maximus tristique, iaculis at turpis."
+            }
         }
+    },
+    "modelViewer": {
+        "view3D": "View 3D",
+        "preview": "Preview",
+        "ground": "Show the ground",
+        "loading": "Loading 3D...",
+        "loadingPreview": "Preview is loading..."
     }
 }
