@@ -1,6 +1,6 @@
 {
     "common": {
-        "sandbox": "The Sandbox Test",
+        "sandbox": "The Sandbox",
         "$sand": "$SAND",
         "sand": "SAND",
         "land": "land",
@@ -786,7 +786,7 @@
     },
     "assets": {
         "meta": {
-            "description": "Buy a [name] as an NFT on The Sandbox blockchain NFT marketplace.",
+            "description": "The Sandbox Marketplace is an NFT marketplace where you can search and buy creator's ASSETS with SAND to incorporate them into your LAND.",
             "keywords": "sandbox, nft, marketplace, assets, creators, collections, atari, smurfs, binance, the walking dead, land, entity",
             "og": {
                 "description": "Buy a [name] as an NFT on The Sandbox blockchain NFT marketplace.",
@@ -2201,7 +2201,7 @@
                     "image": "https://www.sandbox.game/images/logo.png"
                 }
             },
-            "title": "Blog"
+            "title": "The Sandbox Community"
         }
     },
     "user": {
@@ -3697,9 +3697,9 @@
             "contract": "Contract",
             "fee": "Gas Fee",
             "block": "Block",
-            "stake": "Add liquidity",
-            "withdraw": "Withdrawn",
-            "claim": "Claim rewards"
+            "stake": "Deposit",
+            "withdraw": "Withdraw",
+            "claim": "Claim"
         },
         "transactionHistory": {
             "title": "Transaction History",
@@ -3750,9 +3750,9 @@
             }
         },
         "sushiswap": "Sushiswap",
-        "withdrawTitle": "WITHDRAW & CLAIM",
-        "claimTitle": "CLAIM",
-        "depositTitle": "DEPOSIT",
+        "withdrawTitle": "Withdraw",
+        "claimTitle": "Claim",
+        "depositTitle": "Deposit",
         "historyTitle": "TRANSACTION HISTORY",
         "pool": "Token",
         "myPools": "My pools",
@@ -3762,7 +3762,7 @@
             "action-desc-deposit": "Deposit LP tokens to earn more SAND",
             "footer-text-deposit": "This transaction will deposit the selected amount of LP tokens and increase your total deposit.",
             "footer-text-claim": "This transaction will claim all earnings and credit them to your wallet.",
-            "footer-text-withdraw": "This transaction will withdraw the selected LP amount from your total deposit. It will also claim any available earnings to save you some gas fee.",
+            "footer-text-withdraw": "This transaction will withdraw the selected LP amount from your total deposit.",
             "onEtherscan": "View on Etherscan",
             "onPolyscan": "View on Polygonscan",
             "pairAnalytics": "Pair analytics"
@@ -4399,9 +4399,9 @@
             "og": {
                 "title": "The Sandbox Game - Raffle Page",
                 "description": "Come and participate in the raffle! Anyone can win, all you have to do is try your luck!",
-                "url": "https://www.sandbox.game/en/raffle/",
+                "url": "https://www.sandbox.game/en/snoopdogg/raffle/",
                 "site_name": "The Sandbox Game - Raffle Page",
-                "image": "https://www.sandbox.game/img/30_Landing/snoopdogg/snoop4.png"
+                "image": "/img/30_Landing/snoopdogg/metadata-image.jpg"
             },
             "twitter": {
                 "title": "The Sandbox Game - Raffle Page",
@@ -4409,7 +4409,7 @@
                 "card": "The Sandbox Game - Raffle Page",
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame",
-                "image": "https://www.sandbox.game/img/30_Landing/snoopdogg/snoop4.png"
+                "image": "/img/30_Landing/snoopdogg/metadata-image.jpg"
             }
         },
         "title": "Mint your own Snoop Dogg Avatar!",
@@ -4419,7 +4419,7 @@
             "howMany": "How many avatars do you want?",
             "button": "Mint now",
             "process": "Your transaction is being processed.",
-            "finish": "Your transaction is successful!",
+            "finish": "Your transaction was successful! Head over to OpenSea to see your avatar or mint more.",
             "refresh": "Mint again!",
             "errorButton": "Try again!",
             "error": "Something went wrong!",
@@ -4437,20 +4437,20 @@
         "FAQ": {
             "title": "F.A.Q.",
             "1": {
-                "title": "What is the current sand price for an avatar?",
-                "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec ligula condimentum, tincidunt libero nec, ullamcorper mauris. Pellentesque enim ex, condimentum in condimentum a, tempus at elit. Aenean accumsan, metus vitae pellentesque semper, tellus tellus viverra diam, quis lacinia tortor quam et mi. Sed ex diam, dapibus vitae maximus tristique, iaculis at turpis. Etiam interdum, mauris a lobortis molestie, lacus elit lacinia diam, nec faucibus tellus diam eu mi. Nulla molestie elit ut odio lacinia, sed finibus odio tempus. Mauris ac sollicitudin tellus. Aenean hendrerit nulla eu urna dictum dignissim. Vivamus varius odio et dolor ornare tincidunt."
+                "title": "How many Avatars are there?",
+                "paragraph": "There are 10,000 unique Snoop Avatars, programmatically generated from over 150 hand-crafted traits."
             },
             "2": {
-                "title": "How many avatars can we buy in total?",
-                "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec ligula condimentum, tincidunt libero nec, ullamcorper mauris. Pellentesque enim ex, condimentum in condimentum a, tempus at elit. Aenean accumsan, metus vitae pellentesque semper, tellus tellus viverra diam, quis lacinia tortor quam et mi. Sed ex diam, dapibus vitae maximus tristique, iaculis at turpis. Etiam interdum, mauris a lobortis molestie, lacus elit lacinia diam, nec faucibus tellus diam eu mi. Nulla molestie elit ut odio lacinia, sed finibus odio tempus. Mauris ac sollicitudin tellus. Aenean hendrerit nulla eu urna dictum dignissim."
+                "title": "What can I do with the Avatars?",
+                "paragraph": "Each avatar will unlock unique utility that goes beyond a simple NFT. They will be playable in The Sandbox, and can be used to unlock future mints, and features in the metaverse. In addition, they will be part of the first ever Snoop Dogg music video, happening in The Sandbox."
             },
             "3": {
-                "title": "What is the current sand price for an avatar?",
-                "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec ligula condimentum, tincidunt libero nec, ullamcorper mauris. Pellentesque enim ex, condimentum in condimentum a, tempus at elit. Aenean accumsan, metus vitae pellentesque semper, tellus tellus viverra diam, quis lacinia tortor quam et mi."
+                "title": "How do I get whitelisted?",
+                "paragraph": "Follow us on @TheSnoopAvatars on Twitter to find out how to get whitelisted and get your hands on an avatar before everyone else."
             },
             "4": {
-                "title": "How many avatars can we buy in total?",
-                "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec ligula condimentum, tincidunt libero nec, ullamcorper mauris. Pellentesque enim ex, condimentum in condimentum a, tempus at elit. Aenean accumsan, metus vitae pellentesque semper, tellus tellus viverra diam, quis lacinia tortor quam et mi. Sed ex diam, dapibus vitae maximus tristique, iaculis at turpis."
+                "title": "How do I know if I’m whitelisted?",
+                "paragraph": "Winners will be informed through our social channels and/or Discords. Keep an eye out for more info."
             }
         }
     },
