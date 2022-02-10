@@ -204,7 +204,8 @@
             "invalidAmount": "Invalid amount.",
             "maxPrice": "Sell price must not be greater than 3000000000.",
             "maxAmount": "Maximum amount to sell is 12000."
-        }
+        },
+        "readMore": ""
     },
     "layout": {
         "topbar": {
@@ -214,19 +215,27 @@
                 "cards": {
                     "binance": "在 Binance 上購買 SAND",
                     "uniswap": "在 Uniswap 上購買 SAND",
-                    "simplex": "在 Simplex 上購買 SAND"
+                    "simplex": "在 Simplex 上購買 SAND",
+                    "binanceCS": "Buy SAND on Binance (coming soon)",
+                    "quickswap": "Swap SAND on Quickswap",
+                    "comingSoon": "More options coming soon..."
                 },
                 "values": {
                     "binance": "Binance",
                     "uniswap": "Uniswap",
-                    "simplex": "Simplex"
+                    "simplex": "Simplex",
+                    "binanceCS": "BinanceCS",
+                    "quickswap": "Quickswap"
                 },
                 "how": "如何購買 SAND",
                 "about": "ETH 可用來購買必要的礦工費，且會隨交易速率影響價格。",
                 "buy": "購買 ETH：",
                 "out": "$SAND 已用完",
                 "requiredAmount1": "你需要",
-                "requiredAmount2": "完成交易"
+                "requiredAmount2": "完成交易",
+                "titleStaking": "Get SAND",
+                "aboutBiconomy": "The Sandbox Meta Transactions on new features deployed on Polygon network. They allow us to wrap transactions so the only token you need is mSAND.",
+                "changeSettings": "Chain settings"
             },
             "lottery": {
                 "inPreseason": "在 Alpha",
@@ -245,6 +254,24 @@
                 "testNetGoerli": "TESTNET GOERLI NETWORK",
                 "testNetMumbai": "TESTNET MUMBAI NETWORK",
                 "mainNet": "MAINNET NETWORK"
+            },
+            "notifications": {
+                "status": {
+                    "awaiting": "Awaiting Exit",
+                    "success": "Success",
+                    "pending": "Pending"
+                },
+                "deposit": {
+                    "of": "Deposit of",
+                    "sand": "SAND",
+                    "msand": "mSAND",
+                    "asset": "ASSET",
+                    "land": "LAND",
+                    "lands": "LANDs",
+                    "toPoly": "to Polygon",
+                    "toEth": "to Ethereum"
+                },
+                "route": "Transaction in Route - "
             }
         },
         "sidebar": {
@@ -354,6 +381,11 @@
             "paragraph1": "Snoop Dogg 於元宇宙登場",
             "paragraph2": "取得你的 Snoop Dogg 私人派對通行證，獲准進入他的豪宅",
             "button": "瞭解更多"
+        },
+        "community": {
+            "badge": "",
+            "title": "",
+            "description": ""
         }
     },
     "season": {
@@ -786,7 +818,7 @@
     },
     "assets": {
         "meta": {
-            "description": "在《The Sandbox》區塊鏈 NFT 市場購買 [name] NFT。",
+            "description": "《The Sandbox》市場為 NFT 市場，你可以在這裡尋找並以 SAND 購買創作者的 ASSET，將這些 ASSET 應用到你的 LAND。",
             "keywords": "sandbox, nft, 市場, asset, 創作者, 收藏, atari, smurfs, binance, the walking dead, land, 實體",
             "og": {
                 "description": "在《The Sandbox》區塊鏈 NFT 市場購買 [name] NFT。",
@@ -798,7 +830,9 @@
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame",
                 "image": "https://www.sandbox.game/images/logo.png"
-            }
+            },
+            "title": "The Sandbox -",
+            "defaultTitle": "Asset"
         },
         "smart": "智能合約",
         "loadMoreUsers": "載入更多使用者",
@@ -886,7 +920,9 @@
             "equipment": "裝備",
             "wearable": "可穿戴物",
             "art": "藝術品",
-            "avatar": "Skins"
+            "avatar": "Skins",
+            "block": "",
+            "bodypart": ""
         },
         "rarities": {
             "title": "催化劑",
@@ -1817,7 +1853,10 @@
             "megacities2": "Mega Cities (2)",
             "megacities1": "Mega Cities (1)",
             "snoopDogg1": "SNOOP DOGG",
-            "steveAoki": "STEVE AOKI"
+            "steveAoki": "STEVE AOKI",
+            "warnermusic": "WARNER MUSIC",
+            "gucci": "GUCCI",
+            "web3": "Web 3"
         },
         "booked": "預訂者",
         "visit": "造訪網站",
@@ -1925,6 +1964,14 @@
             "text6": "The Alpha will be open until December 20",
             "text7": "This is an open Alpha, please share your feedback and help us improving the Metaverse",
             "text8": "All the experiences at the Alpha were built using VoxEdit and Game Maker. You can build our own experience!"
+        },
+        "transfer": {
+            "transferExperience": "Transfer your experience",
+            "walletUser": "Enter the target wallet:",
+            "confirm": "Confirm",
+            "successTransfer": "Successfully transferred",
+            "closeForm": "close",
+            "transferAssets": "Also transfer assets"
         }
     },
     "about": {
@@ -2201,7 +2248,57 @@
                     "image": "https://www.sandbox.game/images/logo.png"
                 }
             },
-            "title": "部落格"
+            "title": "部落格",
+            "noPost": "",
+            "noPostCategory": "",
+            "latestArticles": "",
+            "searchTitle": "",
+            "emptySearch": "",
+            "gameMakerAcademy": "",
+            "highlights": "",
+            "twitchTitle": "",
+            "youtubeTitle": "",
+            "viewMore": "",
+            "share": "",
+            "newsletter": "",
+            "newslettersDescription": "",
+            "subscribe": "",
+            "relatedArticles": "",
+            "socials": {
+                "discord": {
+                    "title": "",
+                    "text": ""
+                },
+                "twitter": {
+                    "title": "",
+                    "text": ""
+                },
+                "twitch": {
+                    "title": "",
+                    "text": ""
+                },
+                "youtube": {
+                    "title": "",
+                    "text": ""
+                }
+            },
+            "gmAcademy": {
+                "0": {
+                    "title": "",
+                    "description": "",
+                    "link": ""
+                },
+                "1": {
+                    "title": "",
+                    "description": "",
+                    "link": ""
+                },
+                "2": {
+                    "title": "",
+                    "description": "",
+                    "link": ""
+                }
+            }
         }
     },
     "user": {
@@ -2370,7 +2467,12 @@
             "size": "大小",
             "startEndDate": "日期",
             "price": "價格",
-            "viewInMap": "在地圖中查看"
+            "viewInMap": "在地圖中查看",
+            "forceTransfer": "Force transfer",
+            "cancel": "Cancel",
+            "confirm": "Confirm",
+            "close": "Close",
+            "failedExperienceTransferAssets": "An asset is used in one or more other experience"
         },
         "avatar": {
             "empty": "此清單為空",
@@ -2650,6 +2752,18 @@
                 "old-password": "目前密碼",
                 "new-password": "新密碼",
                 "repeat-password": "再次輸入密碼"
+            },
+            "chainSettings": {
+                "title": "Chain Settings",
+                "subtitle": "Polygon Meta transactions",
+                "text": "The Sandbox Meta Transactions on new features deployed on Polygon network. They allow us to wrap transactions so the only token you need is mSAND",
+                "useMatic": "All transaction cost are paid in MATIC, Polygon Network native Token.",
+                "useMsand": "All transaction cost are paid in mSAND, The Sandbox Governance Token.",
+                "subtitleGasless": "",
+                "textGasless": "",
+                "useGasless": "",
+                "cantUseGasless": "",
+                "resetGasless": ""
             }
         }
     },
@@ -2915,7 +3029,8 @@
             "ambassador": "此遊戲已遭大使封鎖。",
             "moderator": "此遊戲已遭版主封鎖。",
             "seasonPass": "因為你沒有季度通行證，此體驗已鎖定"
-        }
+        },
+        "creatorWebsite": "網站"
     },
     "collectionPage": {
         "goBack": "返回",
@@ -3164,6 +3279,131 @@
                 "rejected": "已遭拒",
                 "purchased": "已購買",
                 "unpublished": "未發佈"
+            }
+        },
+        "migration": {
+            "title": "Migrations",
+            "subTitle": "LANDs Migration",
+            "text1": "Due to a vulnerability discovered on December 25th 2021 by",
+            "text2": ", we've decided after running thorough investigations to patch and deploy a new fixed and improved version of the LAND smart contract. Further information can be found on our",
+            "mediumArticle": " Medium article",
+            "text3": "On this page, you will be able to redeem the exact same LANDs you own from the new smart contract based on their unique ID. The process will then lock and burn the previous version to avoid any confusion in the future.",
+            "text4": "If you need any help in the process, you can contact us:",
+            "text5": "The new version of the smart contract has been audited on December 30th by ",
+            "and": " and ",
+            "text6": "It was deployed on January the 28th",
+            "newContractAddress": "The new smart contract address is ",
+            "text7": "The vulnerability has not been exploited by any malicious user and has now been secured.",
+            "text8": "Investigation did not reveal any breach on other smart contracts.",
+            "thanks": "Thank you for your unwavering support.",
+            "oldContract": " Old Contract",
+            "newContract": " New Contract",
+            "migrateBtn": "Migrate all my LANDs to the New Contract",
+            "viewMigrateContract": "View Migration Contract on Etherscan",
+            "reviewAudit": "Review Migration Contract Audit",
+            "gasless1": "This process is gasless.",
+            "gasless2": "There won't be any costs for you.",
+            "didYouKnow": "Did you know?",
+            "sandDropTitle": "There was a SAND airdrop in January for LAND owners",
+            "readTheArticle": "Read the article",
+            "sandDropSubtitle": "You were eligible for ",
+            "checkYourWallet": ", check your wallet on Polygon",
+            "success": "All your LANDs have been successfully migrated.",
+            "gaslessWarningMobile": "This process is gasless. We got you covered.",
+            "willTake": "The migration will require ",
+            "transactions": "transactions. Please note there is a time buffer of one hour between each transaction.",
+            "trezor": "I am using a Trezor* wallet.",
+            "trezorNote": "* Or any other hardware wallet not compatible with EIP-712.",
+            "insideProfile": {
+                "title": "New LANDs smart contract",
+                "subtitle": "We have deployed a new and enhanced version of the LAND smart contract.",
+                "buttonText": "Migrate Lands",
+                "infoText": "This process is gasless"
+            },
+            "banners": {
+                "title1": "Migrate your LANDs",
+                "title2": "New LANDs smart contract",
+                "buttonText": "Migrate Lands",
+                "textInventory": "We have deployed a new and enhanced version of the LAND smart contract.",
+                "textInventory2": "You can find all the details related to the migration on the ",
+                "textInventorySubtext": "Please proceed to the migration page. The migration is completely free.",
+                "text0": "We have deployed a new and enhanced version of the LAND smart contract.",
+                "text1": "You can find all the details related to the migration on the ",
+                "text2": "dedicated article",
+                "text3": ".",
+                "text41": "It appears you have some LANDs to migrate.",
+                "text42": "This LAND needs to be migrated.",
+                "text5": "Please proceed to the migration page. The migration is completely free.",
+                "required": "MIGRATION REQUIRED",
+                "infoText": "This process is gasless"
+            },
+            "faqs": {
+                "01": {
+                    "question": "When does the migration start?",
+                    "answer": "The migration page will be deployed on January the 28th."
+                },
+                "02": {
+                    "question": "How to migrate?",
+                    "answer1": "Go to the migration page ",
+                    "answer2": " and follow the instructions. You need to be logged in with your wallet and associated Sandbox account."
+                },
+                "03": {
+                    "question": "What does the migration do exactly?",
+                    "answer": "The migration page lists all LAND for a given LAND owner. Upon signing the transaction, the smart contract locks away LANDs from the old contract and mints the exact same LANDs on the new contract for the owner."
+                },
+                "04": {
+                    "question": "How much does it cost?",
+                    "answer": "Nothing. We have deployed a gasless solution to enable free transactions for our users."
+                },
+                "05": {
+                    "question": "How long does it take?",
+                    "answer": "Once the transaction is signed, it will take a couple minutes to go through the network."
+                },
+                "06": {
+                    "question": "Is there a time limit?",
+                    "answer": "Not at this moment. We want to give you space to migrate LANDs at your own pace."
+                },
+                "07": {
+                    "question": "How do I know which LAND I still have to migrate to the new contract ?",
+                    "answer1": "When going to ",
+                    "answer2": ", you will see all LAND you own on their respective contracts."
+                },
+                "08": {
+                    "question": "How do I find my LAND after the migration?",
+                    "answer": "Your LAND will be minted in the same wallet and can be found in your The Sandbox inventory or any other wallet reader."
+                },
+                "09": {
+                    "question": "What if my LAND is in a hardware wallet?",
+                    "answer": "You will need to proceed as you usually do when transferring your assets, we support most hardware wallets. For Trezor and other wallets having difficulties with EIP-712, you can check the box on the migration page to change the signature format."
+                },
+                "10": {
+                    "question": "What if my LAND is staked in a smart contract?",
+                    "answer": "You will need to withdraw your LAND from the smart contract and migrate it."
+                },
+                "11": {
+                    "question": "There was an error during the transaction, what do I do?",
+                    "answer": "We are normally handling all errors. If you encounter unexpected errors, please contact us through "
+                },
+                "12": {
+                    "question": "The migration page says I have several transactions to sign, is it normal ?",
+                    "answer": "Yes, if you have a lot of LAND the contract might need to handle them in separate transactions due to gas limits. This is completely normal and all transaction costs will be covered by The Sandbox."
+                },
+                "13": {
+                    "question": "What is the migration contract address?",
+                    "answer": "Migration contract: "
+                },
+                "14": {
+                    "question": "What is the new LAND contract address?",
+                    "answer": "New LAND contract : "
+                },
+                "15": {
+                    "question": "What if I purchased a LAND from the old contract after the migration started?",
+                    "answer": "You can migrate it, do not worry. It is not based on a snapshot but on real time ownership."
+                },
+                "16": {
+                    "question": "What if I have no ETH for the migration?",
+                    "answer": "The migration is gasless so you don’t need any ETH. We cover all costs."
+                }
             }
         }
     },
@@ -3697,9 +3937,9 @@
             "contract": "合約",
             "fee": "礦工費",
             "block": "方塊",
-            "stake": "新增流動性",
-            "withdraw": "提領",
-            "claim": "領取獎勵"
+            "stake": "Deposit",
+            "withdraw": "Withdraw",
+            "claim": "Claim"
         },
         "transactionHistory": {
             "title": "交易紀錄",
@@ -3750,7 +3990,7 @@
             }
         },
         "sushiswap": "Sushiswap",
-        "withdrawTitle": "提領和領取",
+        "withdrawTitle": "Withdraw",
         "claimTitle": "領取",
         "depositTitle": "存款",
         "historyTitle": "交易紀錄",
@@ -3762,10 +4002,26 @@
             "action-desc-deposit": "Deposit LP tokens to earn more SAND",
             "footer-text-deposit": "This transaction will deposit the selected amount of LP tokens and increase your total deposit.",
             "footer-text-claim": "This transaction will claim all earnings and credit them to your wallet.",
-            "footer-text-withdraw": "This transaction will withdraw the selected LP amount from your total deposit. It will also claim any available earnings to save you some gas fee.",
+            "footer-text-withdraw": "This transaction will withdraw the selected LP amount from your total deposit.",
             "onEtherscan": "View on Etherscan",
             "onPolyscan": "View on Polygonscan",
-            "pairAnalytics": "Pair analytics"
+            "pairAnalytics": "Pair analytics",
+            "gasless": "",
+            "free": "",
+            "noTxsLeft": "",
+            "txsLeft": "",
+            "payGasWith": "Pay gas with:",
+            "estimatedGas": "Estimated gas cost",
+            "polygonNetwork": "Polygon",
+            "ethereumNetwork": "Ethereum",
+            "action-desc-deposit-single": "to earn more SAND",
+            "footer-text-deposit-single": "This transaction will deposit the selected amount of mSAND and increase your total deposit.",
+            "footer-text-claim-single": "This transaction will claim current mSAND rewards to your wallet.",
+            "footer-text-exit": "This transaction will withdraw the selected LP amount from your total deposit. It will also claim any available earnings to save you some gas fee.",
+            "footer-text-withdraw-single": "This transaction will withdraw your mSAND from your total deposit.",
+            "footer-text-withdraw-exit": "This transaction will withdraw your mSAND from your total deposit. It will also claim any available earnings to save you some gas fee.",
+            "addMsand": "Get mSAND",
+            "howtoMsand": "Get more mSAND"
         },
         "allowanceError": "Your allowance is still less than the amount you want to stake",
         "sub-title": "Earn SAND by staking on Ethereum and Polygon networks",
@@ -3799,6 +4055,20 @@
             "lowShare": "Lowest Share",
             "highEarn": "Highest Earnings",
             "lowEarn": "Lowest Earnings"
+        },
+        "exitTitle": "提領和領取",
+        "singleToken": {
+            "network": "Polygon mainnet",
+            "gasWarning": "Remember to keep some SAND for gas fee or switch to MATIC in your chain settings",
+            "communityBooster": {
+                "title": "Season 2",
+                "subtitle": "Community Booster Rewards",
+                "text": "Stake $SAND to increase the total prize pool. You will also get extra Raffle Tickets for staking.",
+                "titlePolygon": "",
+                "subtitlePolygon": "",
+                "earnMorePolygon": "",
+                "textPolygon": ""
+            }
         }
     },
     "login": {
@@ -3972,7 +4242,75 @@
                 "title1": "Mint your",
                 "title2": "Snoop Avatar",
                 "description": "Be among the first ones to mint your own Snoop avatars. Up to 10 avatars available for pass holders.",
-                "button": "Mint now"
+                "button": "Mint now",
+                "prelaunch": "Coming straight to tha metaverse. 10K unique Snoop Dogg Avatars dropping February 2022. Join the Discord to stay informed!",
+                "joinDiscord": "JOIN DISCORD",
+                "postlaunch": "The Snoop Dogg avatars are SOLD OUT! Head over to OpenSea and explore all available avatars for sale.",
+                "joinOpensea": "GO TO OPENSEA",
+                "comingSoon": "Coming soon",
+                "coming": "Coming",
+                "soon": "Soon",
+                "getYour": "Get your",
+                "snoopAvatar": "Snoop Dogg Avatar"
+            },
+            "meta": {
+                "title": "The Sandbox Game - Snoop Dogg avatars are coming to The Sandbox",
+                "description": "Snoop Dogg brings a truly new in-game experience inside The Sandbox. Have fun with the Game Maker toolkit and bring this world to life in your own way or enjoy the experience in other players' LANDs",
+                "keywords": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token, snoop dogg, raffle",
+                "og": {
+                    "title": "The Sandbox Game - Snoop Dogg avatars are coming to The Sandbox",
+                    "description": "Snoop Dogg brings a truly new in-game experience inside The Sandbox. Have fun with the Game Maker toolkit and bring this world to life in your own way or enjoy the experience in other players' LANDs",
+                    "url": "https://www.sandbox.game/en/snoopdogg/",
+                    "site_name": "Snoop Dogg avatars are coming to The Sandbox",
+                    "image": "/img/30_Landing/snoopdogg/metadata-image.jpg"
+                },
+                "twitter": {
+                    "title": "The Sandbox Game - Snoop Dogg avatars are coming to The Sandbox",
+                    "description": "Snoop Dogg brings a truly new in-game experience inside The Sandbox. Have fun with the Game Maker toolkit and bring this world to life in your own way or enjoy the experience in other players' LANDs",
+                    "card": "The Sandbox Game - Snoop Dogg avatars are coming to The Sandbox",
+                    "site": "@thesandboxgame",
+                    "creator": "@thesandboxgame",
+                    "image": "/img/30_Landing/snoopdogg/metadata-image.jpg"
+                }
+            },
+            "menu": {
+                "home": "Home",
+                "unique": "Unique Avatars",
+                "snoopverse": "Snoopverse",
+                "roadmap": "Roadmap",
+                "mint": "Mint your avatar",
+                "mintSoon": "Minting soon"
+            },
+            "mintYoursNow": {
+                "title1": "10K NEXT-GENERATION,",
+                "title2": "METAVERSE AVATARS",
+                "description1": "Unique, hand-crafted, and playable Snoop Dogg Avatars coming The Sandbox.",
+                "description2": "Designed and crafted with tha Doggfather himself.",
+                "button": "MINT YOURS NOW!",
+                "definitions": {
+                    "title1": "WHAT ARE",
+                    "title2": "SNOOP DOGG",
+                    "title3": "AVATARS?",
+                    "description": "The Snoop Dogg avatars are an NFT collection comprised of 10,000 programmatically generated Snoop Doggs, playable in The Sandbox. Each Snoop is completely unique, hand-crafted from over 150 traits by The Sandbox’s skilled voxel-artists."
+                }
+            },
+            "metaverseReady": {
+                "title1": "Play it in Alpha",
+                "title2": "Season 2",
+                "description": "Each Avatar will be playable inside The Sandbox, starting with the upcoming Alpha Season 2. Get your Avatar, jump into the game and share your avatar with the world!"
+            },
+            "chanceUniqueAvatars": {
+                "title1": "A CHANCE TO GET",
+                "title2": "UNIQUE AVATARS",
+                "description": "First ever avatar to be playable in a metaverse music video. Unique, hand-crafted, and playable Snoop Dogg Avatars coming to The Sandbox. Designed and crafted with tha Doggfather himself.",
+                "unique": "Unique",
+                "avatars": "Avatars",
+                "classic": "Classic",
+                "signature": "Signature",
+                "edition": "Edition",
+                "descriptionUnique1": "A set of unique 1/1 avatars which have been custom designed by the teams at The Sandbox and Snoop Dogg himself. Only one exists of each, who will be the lucky one?",
+                "descriptionUnique2": "Take a stroll down the history of Snoop Dogg and discover a number of unique avatars that are directly linked to some of Snoop’s greatest tracks throughout the years.",
+                "descriptionUnique3": "We’ve teamed up with some of the greatest collections in the space to bring some unique 1/1 Snoop Dogg avatars to the metaverse, making them playable in The Sandbox."
             }
         },
         "alpha": {
@@ -4401,7 +4739,7 @@
                 "description": "Come and participate in the raffle! Anyone can win, all you have to do is try your luck!",
                 "url": "https://www.sandbox.game/en/raffle/",
                 "site_name": "The Sandbox Game - Raffle Page",
-                "image": "https://www.sandbox.game/img/30_Landing/snoopdogg/snoop4.png"
+                "image": "/img/30_Landing/snoopdogg/metadata-image.jpg"
             },
             "twitter": {
                 "title": "The Sandbox Game - Raffle Page",
@@ -4409,7 +4747,7 @@
                 "card": "The Sandbox Game - Raffle Page",
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame",
-                "image": "https://www.sandbox.game/img/30_Landing/snoopdogg/snoop4.png"
+                "image": "/img/30_Landing/snoopdogg/metadata-image.jpg"
             }
         },
         "title": "Mint your own Snoop Dogg Avatar!",
@@ -4419,13 +4757,25 @@
             "howMany": "How many avatars do you want?",
             "button": "Mint now",
             "process": "Your transaction is being processed.",
-            "finish": "Your transaction is successful!",
+            "finish": "Your transaction was successful! Head over to OpenSea to see your avatar or mint more.",
             "refresh": "Mint again!",
             "errorButton": "Try again!",
             "error": "Something went wrong!",
             "wrongWallet": "Sorry! You are connected with the wrong wallet! Please log in again with Metamask.",
             "raffleEndTitle": "Sale is now closed.",
-            "raffleEnd": "Thank you for you participating."
+            "raffleEnd": "Thank you for you participating.",
+            "sandWarning": "You need to have some SAND in your wallet to continue.",
+            "etherWarning": "You need to have some ETH in your wallet to continue.",
+            "etherAndSandWarning": "You need to have some ETH and SAND in your wallet to continue.",
+            "refreshButton": "Refresh",
+            "popUpError": "Something went wrong. Make sure you allow sandbox pop-up to open in your browser and then, refresh the page.",
+            "sorry": "Not whitelisted!",
+            "errorWhitelisted": "Your connected wallet is not on the whitelist. Make sure to be connected with the correct wallet.",
+            "reconnect": "Reconnect",
+            "insufficientFunds": "You don't have enough funds in your wallet.",
+            "contractsIssue": "Something went wrong. If you tried to change your wallet, please note: you have to sign the contract every time you change your wallet.",
+            "toManyAvatars1": "You can only mint a maximum of",
+            "toManyAvatars2": "avatars. Head to OpenSea to buy more."
         },
         "textFormMint": {
             "isPublic": "",
@@ -4437,20 +4787,20 @@
         "FAQ": {
             "title": "F.A.Q.",
             "1": {
-                "title": "What is the current sand price for an avatar?",
-                "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec ligula condimentum, tincidunt libero nec, ullamcorper mauris. Pellentesque enim ex, condimentum in condimentum a, tempus at elit. Aenean accumsan, metus vitae pellentesque semper, tellus tellus viverra diam, quis lacinia tortor quam et mi. Sed ex diam, dapibus vitae maximus tristique, iaculis at turpis. Etiam interdum, mauris a lobortis molestie, lacus elit lacinia diam, nec faucibus tellus diam eu mi. Nulla molestie elit ut odio lacinia, sed finibus odio tempus. Mauris ac sollicitudin tellus. Aenean hendrerit nulla eu urna dictum dignissim. Vivamus varius odio et dolor ornare tincidunt."
+                "title": "How many Avatars are there?",
+                "paragraph": "There are 10,000 unique Snoop Avatars, programmatically generated from over 150 hand-crafted traits."
             },
             "2": {
-                "title": "How many avatars can we buy in total?",
-                "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec ligula condimentum, tincidunt libero nec, ullamcorper mauris. Pellentesque enim ex, condimentum in condimentum a, tempus at elit. Aenean accumsan, metus vitae pellentesque semper, tellus tellus viverra diam, quis lacinia tortor quam et mi. Sed ex diam, dapibus vitae maximus tristique, iaculis at turpis. Etiam interdum, mauris a lobortis molestie, lacus elit lacinia diam, nec faucibus tellus diam eu mi. Nulla molestie elit ut odio lacinia, sed finibus odio tempus. Mauris ac sollicitudin tellus. Aenean hendrerit nulla eu urna dictum dignissim."
+                "title": "What can I do with the Avatars?",
+                "paragraph": "Each avatar will unlock unique utility that goes beyond a simple NFT. They will be playable in The Sandbox, and can be used to unlock future mints, and features in the metaverse. In addition, they will be part of the first ever Snoop Dogg music video, happening in The Sandbox."
             },
             "3": {
-                "title": "What is the current sand price for an avatar?",
-                "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec ligula condimentum, tincidunt libero nec, ullamcorper mauris. Pellentesque enim ex, condimentum in condimentum a, tempus at elit. Aenean accumsan, metus vitae pellentesque semper, tellus tellus viverra diam, quis lacinia tortor quam et mi."
+                "title": "How do I get whitelisted?",
+                "paragraph": "Follow us on @TheSnoopAvatars on Twitter to find out how to get whitelisted and get your hands on an avatar before everyone else."
             },
             "4": {
-                "title": "How many avatars can we buy in total?",
-                "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec ligula condimentum, tincidunt libero nec, ullamcorper mauris. Pellentesque enim ex, condimentum in condimentum a, tempus at elit. Aenean accumsan, metus vitae pellentesque semper, tellus tellus viverra diam, quis lacinia tortor quam et mi. Sed ex diam, dapibus vitae maximus tristique, iaculis at turpis."
+                "title": "How do I know if I’m whitelisted?",
+                "paragraph": "Winners will be informed through our social channels and/or Discords. Keep an eye out for more info."
             }
         }
     },
@@ -4459,6 +4809,25 @@
         "preview": "Preview",
         "ground": "Show the ground",
         "loading": "Loading 3D...",
-        "loadingPreview": "Preview is loading..."
+        "loadingPreview": "Preview is loading...",
+        "meta": {
+            "title": "The Sandbox -",
+            "defaultTitle": "Preview",
+            "description": "《The Sandbox》市場為 NFT 市場，你可以在這裡尋找並以 SAND 購買創作者的 ASSET，將這些 ASSET 應用到你的 LAND。",
+            "keywords": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token",
+            "og": {
+                "url": "https://www.sandbox.game/model-viewer/"
+            },
+            "twitter": {
+                "site": "@thesandboxgame",
+                "creator": "@thesandboxgame"
+            }
+        }
+    },
+    "bridge": {
+        "greeting": "",
+        "walletBalance": "",
+        "nftOnEth": "",
+        "nftOnPolygon": ""
     }
 }
