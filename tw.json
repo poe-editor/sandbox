@@ -519,7 +519,69 @@
                 "seasonLockedTitle": "你沒有 Alpha 通行證",
                 "seasonLockedDescription": "你需要 Alpha 通行證才能夠進行 Alpha 並獲得 1,000 SAND 和 3 個非同質化代幣獎勵",
                 "seasonLockedButton": "在 Opensea 尋找",
-                "description3": "You will be able to claim your rewards at the end of the Alpha, on December 20, 2021. Keep your Alpha Pass with you until that date."
+                "description3": "You will be able to claim your rewards at the end of the Alpha, on December 20, 2021. Keep your Alpha Pass with you until that date.",
+                "alpha2": {
+                    "title": "",
+                    "subtitle": "",
+                    "date": "",
+                    "seasonOverTitle": "",
+                    "seasonOverDescription": "",
+                    "raffleStartsIn": "",
+                    "raffleResultsIn": "",
+                    "claimAvailableAt": "",
+                    "raffleTitle": "",
+                    "raffleTitle2": "",
+                    "raffleDrawTitle": "",
+                    "raffleDrawTitle2": "",
+                    "raffleDescription": "",
+                    "raffleDescription2": "",
+                    "raffleDrawDescription": "",
+                    "howToGet": "",
+                    "raffleButton": "",
+                    "contestButton": "",
+                    "buyButton": "",
+                    "claimRewards": "",
+                    "claimRewardsDescription": "",
+                    "claimRewardsDescription2": "",
+                    "moreInfo": "",
+                    "freeToPlay": "",
+                    "alphaPass": "",
+                    "locked": "",
+                    "summary": "",
+                    "totalRaffleTickets": "",
+                    "getMoreTickets": "",
+                    "winAlphaDescription": "",
+                    "raffleTicket": "",
+                    "youCannotParticipate": "",
+                    "youAlreadyOwn": "",
+                    "wonAlpha": "",
+                    "totalRewards": "",
+                    "boostRewards": "",
+                    "communityBooster": "",
+                    "increaseTotalDescription": "",
+                    "youCanWinDescription": "",
+                    "alreadyOwn": "",
+                    "claimIt": "",
+                    "betterLuck": "",
+                    "didNotWin": "",
+                    "communityBoosterRewards": "",
+                    "communityBoosterDescription": "",
+                    "baseRewards": "",
+                    "boostedRewards": "",
+                    "staking": "",
+                    "lands": "",
+                    "feedbackForm": "",
+                    "raffleDaysLeft": "",
+                    "raffleDay": "",
+                    "raffleGoodLuck": "",
+                    "raffleDayDesc": "",
+                    "claimPass": "",
+                    "enterTheParty": "",
+                    "contest": {
+                        "results": "",
+                        "checkResults": ""
+                    }
+                }
             },
             "experienceToVisit": "Alpha 任務已完成"
         },
@@ -1856,7 +1918,8 @@
             "steveAoki": "STEVE AOKI",
             "warnermusic": "Warner Music",
             "gucci": "GUCCI",
-            "web3": "WEB 3"
+            "web3": "WEB 3",
+            "ubisoft": "Ubisoft"
         },
         "booked": "預訂者",
         "visit": "造訪網站",
@@ -2763,7 +2826,9 @@
                 "textGasless": "The Sandbox offers a monthly number of gasless transactions on Polygon network through the use of Biconomy so you can perform a few essential transactions without a need for gas.",
                 "useGasless": "Free transactions left",
                 "cantUseGasless": "You don't have any more free transactions remaining for this month.",
-                "resetGasless": "Reset on:"
+                "resetGasless": "Reset on:",
+                "useGaslessFirst": "You have",
+                "useGaslessSecond": " free transactions remaining for this month."
             }
         }
     },
@@ -4067,7 +4132,10 @@
                 "titlePolygon": "Now can stake SAND",
                 "subtitlePolygon": "and enjoy the benefits of staking.",
                 "earnMorePolygon": "Earn more ",
-                "textPolygon": "Stay tuned for more announcements"
+                "textPolygon": "Stay tuned for more announcements",
+                "stakePhrase01": "You can now enjoy the benefits of staking with ",
+                "stakePhrase02": " and ",
+                "stakePhrase03": " only."
             }
         }
     },
