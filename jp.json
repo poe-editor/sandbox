@@ -247,7 +247,9 @@
                     "go": "プリシーズンへ移動"
                 },
                 "hasRewards": "Alpha Rewards",
-                "noRewards": "No Alpha Rewards"
+                "noRewards": "No Alpha Rewards",
+                "noAlphaPass": "NOT IN ALPHA",
+                "alphaPass": "IN ALPHA"
             },
             "balances": {
                 "testNetRinkeby": "TESTNET RINKEBY NETWORK",
@@ -392,11 +394,13 @@
         "menu": {
             "play": "自身や他の人が制作したゲームを",
             "rewards": "報酬",
-            "info": "情報"
+            "info": "情報",
+            "raffleTickets": "Tickets",
+            "contests": "Contests"
         },
         "play": {
             "selectAvatar": "アバターを選択",
-            "enter": "アルファハブに入場",
+            "enter": "Enter the Alpha Lobby",
             "learnMore": "アルファ版の詳細",
             "legend": "アルファ版で何かお困りですか？",
             "sendFeedback": "Send Feedback",
@@ -500,8 +504,6 @@
                 "alphaEnded": "アルファ版は終了しました",
                 "inProgress": "稼働中",
                 "endingSoon": "まもなく終了",
-                "timeLeft": "残り時間",
-                "timeLeftToClaim": "CLAIM AVAILABLE IN",
                 "seasonOver": "The Sandboxアルファ版が終了しました！",
                 "seasonOverDescription": "アルファ版にご参加いただき、ありがとうございます。報酬をご用意しています！有効になり次第、以下の[受け取り]ボタンをクリックしてください。",
                 "description2": "報酬を受け取りました！受け取り完了後まもなく、インベントリとウォレットに報酬が表示されます",
@@ -521,69 +523,105 @@
                 "seasonLockedButton": "OpenSeaで確認する",
                 "description3": "You will be able to claim your rewards at the end of the Alpha, on December 20, 2021. Keep your Alpha Pass with you until that date.",
                 "alpha2": {
-                    "title": "",
-                    "subtitle": "",
-                    "date": "",
-                    "seasonOverTitle": "",
-                    "seasonOverDescription": "",
-                    "raffleStartsIn": "",
-                    "raffleResultsIn": "",
-                    "claimAvailableAt": "",
-                    "raffleTitle": "",
-                    "raffleTitle2": "",
-                    "raffleDrawTitle": "",
-                    "raffleDrawTitle2": "",
-                    "raffleDescription": "",
-                    "raffleDescription2": "",
-                    "raffleDrawDescription": "",
-                    "howToGet": "",
-                    "raffleButton": "",
-                    "contestButton": "",
-                    "buyButton": "",
-                    "claimRewards": "",
-                    "claimRewardsDescription": "",
-                    "claimRewardsDescription2": "",
-                    "moreInfo": "",
-                    "freeToPlay": "",
-                    "alphaPass": "",
-                    "locked": "",
-                    "summary": "",
-                    "totalRaffleTickets": "",
-                    "getMoreTickets": "",
-                    "winAlphaDescription": "",
-                    "raffleTicket": "",
-                    "youCannotParticipate": "",
-                    "youAlreadyOwn": "",
-                    "wonAlpha": "",
-                    "totalRewards": "",
-                    "boostRewards": "",
-                    "communityBooster": "",
-                    "increaseTotalDescription": "",
-                    "youCanWinDescription": "",
-                    "alreadyOwn": "",
-                    "claimIt": "",
-                    "betterLuck": "",
-                    "didNotWin": "",
-                    "communityBoosterRewards": "",
-                    "communityBoosterDescription": "",
-                    "baseRewards": "",
-                    "boostedRewards": "",
-                    "staking": "",
-                    "lands": "",
-                    "feedbackForm": "",
-                    "raffleDaysLeft": "",
-                    "raffleDay": "",
-                    "raffleGoodLuck": "",
-                    "raffleDayDesc": "",
-                    "claimPass": "",
-                    "enterTheParty": "",
+                    "title": "Rewards",
+                    "subtitle": "Alpha Season 2",
+                    "date": "From February 3 Till March 17",
+                    "seasonOverTitle": "THE ALPHA SEASON 2 IS OVER!",
+                    "seasonOverDescription": "Thanks for joining the Alpha, we are getting your rewards ready! When enabled, click the Claim button.",
+                    "raffleStartsIn": "RAFFLE STARTS IN",
+                    "raffleResultsIn": "RAFFLE RESULTS IN",
+                    "claimAvailableAt": "CLAIM AVAILABLE AT",
+                    "raffleTitle": "RAFFLE DAY",
+                    "raffleTitle2": "MARCH",
+                    "raffleDrawTitle": "RAFFLE DRAW",
+                    "raffleDrawTitle2": "IN PROGRESS",
+                    "raffleDescription": "Earn Raffle Tickets by completing Quests.",
+                    "raffleDescription2": "More Tickets = More chances to win an Alpha Pass.",
+                    "raffleDrawDescription": "At the end of the Raffle, you will find out if you win a Season 2 Alpha Pass. Good luck!",
+                    "howToGet": "How to get the Season 2 Alpha Pass?",
+                    "raffleButton": "Raffle",
+                    "contestButton": "Contest",
+                    "buyButton": "Buy",
+                    "claimRewards": "Claim Rewards",
+                    "claimRewardsDescription": "Claim your Rewards on",
+                    "claimRewardsDescription2": "March 25.",
+                    "moreInfo": "More info",
+                    "freeToPlay": "Free to Play",
+                    "alphaPass": "Alpha Pass",
+                    "locked": "Locked",
+                    "summary": "Summary",
+                    "totalRaffleTickets": "Total Raffle Tickets",
+                    "getMoreTickets": "Get More Tickets",
+                    "winAlphaDescription": "Increases your chances of winning an Alpha Pass during the Raffle by collecting Raffle Tickets.",
+                    "raffleTicket": "Raffle Ticket",
+                    "youCannotParticipate": "You cannot participate in the raffle because you already own an Alpha Pass",
+                    "youAlreadyOwn": "You own a Season 2 Alpha Pass so you cannot participate in the Raffle.",
+                    "wonAlpha": "Congratulations! You won a Season 2 Alpha Pass.",
+                    "totalRewards": "Total Rewards",
+                    "boostRewards": "Boost Rewards",
+                    "communityBooster": "Community Booster",
+                    "increaseTotalDescription": "to increase everyone's Rewards",
+                    "youCanWinDescription": "You can win an Alpha Pass on Raffle on March 18th. Get Raffle ticket by completing quests!",
+                    "alreadyOwn": "You already own an Alpha Pass",
+                    "claimIt": "To unlock rewards Claim it.",
+                    "betterLuck": "Better luck next time",
+                    "didNotWin": "You did not win a Season 2 Alpha Pass",
+                    "communityBoosterRewards": "Community Booster Rewards",
+                    "baseRewards": "Base Rewards",
+                    "boostedRewards": "Boosted Rewards",
+                    "staking": "Staking",
+                    "lands": "LANDS",
+                    "feedbackForm": "Feedback Form",
+                    "raffleDaysLeft": "DAYS UNTIL RAFFLE",
+                    "raffleDay": "DAY FOR RAFFLE RESULTS",
+                    "raffleGoodLuck": "Good Luck!!",
+                    "raffleDayDesc": "Win an Alpha Pass!",
+                    "claimPass": "Claim Pass",
+                    "enterTheParty": "Enter the Party!",
                     "contest": {
-                        "results": "",
-                        "checkResults": ""
-                    }
-                }
+                        "results": "Contest Results",
+                        "checkResults": "Check contest results here every Thursday. You will also receive an email if you won the Alpha Pass",
+                        "buttonTooltip": "Claim your Season 2 Alpha Pass before March 31.",
+                        "didntWin": "You didn't win yet",
+                        "won": "YOU WON!"
+                    },
+                    "seasonOverDescription2": "Claim your Alpha Pass now to visit the Pass holders VIP Party and to claim your $SAND rewards later on!",
+                    "seasonOverDescription3": "Unfortunately you did not win a Season 2 Alpha Pass.",
+                    "raffleTitle3": "RAFFLE CLAIM DAY",
+                    "raffleDescription3": "Unlock your $SAND rewards by completing Quests. More Quests completed = more rewards unlocked.",
+                    "communityBoosterDescription1": "Stake",
+                    "communityBoosterDescription2": "to increase the total prize pool. Community booster will be applied on everyone’s $SAND rewards. The more the Community stakes, the more the Community earns.",
+                    "communityBoosterDescription3": "You will also get extra Raffle Tickets for staking",
+                    "raffleHasPass": "DAYS TO CLAIM",
+                    "raffleHasPassDesc": "You own a S2 Alpha Pass"
+                },
+                "timeRewards": "CLAIM REWARDS IN",
+                "raffleResults": "RAFFLE RESULTS IN",
+                "raffleStarts": "RAFFLE STARTS IN"
             },
-            "experienceToVisit": "アルファクエストをクリアしました"
+            "experienceToVisit": "アルファクエストをクリアしました",
+            "raffleTickets": {
+                "quest": "Quest",
+                "capsAt": "Caps at",
+                "perWallet": "per wallet",
+                "seasonFeedback": "Season 1 Feedback form",
+                "seasonFeedbackEarned": "Earned by answering the feedback form at the end of Season 1",
+                "seasonFeedbackDesc": "Feedback form is no longer available",
+                "title": "Raffle Tickets source",
+                "subTitle": "More tickets more chance to win a Season 2 Alpha Pass",
+                "questDesc": "Earn by leveling up",
+                "stakingDesc": "Earn by staking",
+                "snoop": "Snoop Dogg Private Party Pass",
+                "nftDesc": "Earn by owning this NFTs",
+                "snoop2": "Snoopers Early Access Pass",
+                "season1": "Season 1 Alpha Pass",
+                "land": "Earn by owning LAND(s)",
+                "total": "Your Total Raffle Tickets",
+                "getNFT": "Get NFT",
+                "stake": "Stake",
+                "notTraded": "Raffle Tickets are not NFTs and",
+                "notTraded2": "cannot be traded on the secondary market"
+            }
         },
         "info": {
             "title": "アルファ版へようこそ",
@@ -882,16 +920,9 @@
         "meta": {
             "description": "The Sandboxマーケットプレイスは、クリエイターのアセットを検索してSANDで購入し、自分のLandへと取り込むことができるNFTマーケットプレイスです。",
             "keywords": "サンドボックス, nft, マーケットプレイス, アセット, クリエイター, コレクション, atari, スマーフ, binance, ウォーキングデッド, Land, エンティティ",
-            "og": {
-                "description": "The Sandbox ブロックチェーンNFTマーケットプレイスで、[name]をNFTとして購入。",
-                "site_name": "The Sandbox",
-                "image": "https://www.sandbox.game/images/logo.png"
-            },
             "twitter": {
-                "description": "The Sandbox ブロックチェーンNFTマーケットプレイスで、[name]をNFTとして購入。",
                 "site": "@thesandboxgame",
-                "creator": "@thesandboxgame",
-                "image": "https://www.sandbox.game/images/logo.png"
+                "creator": "@thesandboxgame"
             },
             "title": "The Sandbox -",
             "defaultTitle": "Asset"
@@ -1916,10 +1947,9 @@
             "megacities1": "Mega Cities (1)",
             "snoopDogg1": "SNOOP DOGG",
             "steveAoki": "STEVE AOKI",
-            "warnermusic": "Warner Music",
+            "warnermusic": "WARNER MUSIC",
             "gucci": "GUCCI",
-            "web3": "WEB 3",
-            "ubisoft": "Ubisoft"
+            "web3": "Web 3"
         },
         "booked": "予約者：",
         "visit": "サイトにアクセス",
@@ -1966,13 +1996,7 @@
             "seeAll": "すべて表示",
             "viewInMap": "マップで表示",
             "readMorePremium": "プレミアムの詳細を読む",
-            "parcel": "parcel",
-            "transfertExperience": "",
-            "walletUser": "",
-            "confirm": "",
-            "successTransfer": "",
-            "closeForm": "",
-            "transferAssets": ""
+            "parcel": "parcel"
         },
         "onboarding": {
             "title": "サンドボックスマップ",
@@ -2879,7 +2903,9 @@
             "assetCreator": "アセットクリエイター",
             "assetOwnership": "アセット所有権",
             "presales": "プリセール",
-            "faucet": "Sand & Ether Faucets"
+            "faucet": "Sand & Ether Faucets",
+            "ticketDetails": "",
+            "raffleTickets": ""
         },
         "users": {
             "profile": "プロフィール",
@@ -3349,14 +3375,14 @@
         "migration": {
             "title": "Migrations",
             "subTitle": "LANDs Migration",
-            "text1": "Due to a vulnerability discovered on December 25th 2021 by",
+            "text1": "Duo to a vulnerability discovered on December 25th 2021 by",
             "text2": ", we've decided after running thorough investigations to patch and deploy a new fixed and improved version of the LAND smart contract. Further information can be found on our",
             "mediumArticle": " Medium article",
             "text3": "On this page, you will be able to redeem the exact same LANDs you own from the new smart contract based on their unique ID. The process will then lock and burn the previous version to avoid any confusion in the future.",
             "text4": "If you need any help in the process, you can contact us:",
             "text5": "The new version of the smart contract has been audited on December 30th by ",
             "and": " and ",
-            "text6": "It was deployed on January the 28th",
+            "text6": "It was deployed on January the 30th",
             "newContractAddress": "The new smart contract address is ",
             "text7": "The vulnerability has not been exploited by any malicious user and has now been secured.",
             "text8": "Investigation did not reveal any breach on other smart contracts.",
@@ -3364,34 +3390,27 @@
             "oldContract": " Old Contract",
             "newContract": " New Contract",
             "migrateBtn": "Migrate all my LANDs to the New Contract",
-            "viewMigrateContract": "View Migration Contract on Etherscan",
+            "viewMigrateContract": "View Migrate Contract on Etherscan",
             "reviewAudit": "Review Migration Contract Audit",
             "gasless1": "This process is gasless.",
             "gasless2": "There won't be any costs for you.",
             "didYouKnow": "Did you know?",
             "sandDropTitle": "There was a SAND airdrop in January for LAND owners",
             "readTheArticle": "Read the article",
-            "sandDropSubtitle": "You were eligible for ",
+            "sandDropSubtitle": "You ware eligible for ",
             "checkYourWallet": ", check your wallet on Polygon",
             "success": "All your LANDs have been successfully migrated.",
             "gaslessWarningMobile": "This process is gasless. We got you covered.",
-            "willTake": "The migration will require ",
-            "transactions": "transactions. Please note there is a time buffer of one hour between each transaction.",
-            "trezor": "I am using a Trezor* wallet.",
-            "trezorNote": "* Or any other hardware wallet not compatible with EIP-712.",
             "insideProfile": {
                 "title": "New LANDs smart contract",
-                "subtitle": "We have deployed a new and enhanced version of the LAND smart contract.",
+                "subtitle": "We have enhanced our LANDs smart contract and deployed a new version of them.",
                 "buttonText": "Migrate Lands",
                 "infoText": "This process is gasless"
             },
             "banners": {
-                "title1": "Migrate your LANDs",
+                "title1": "You have LAND to Migrate",
                 "title2": "New LANDs smart contract",
                 "buttonText": "Migrate Lands",
-                "textInventory": "We have deployed a new and enhanced version of the LAND smart contract.",
-                "textInventory2": "You can find all the details related to the migration on the ",
-                "textInventorySubtext": "Please proceed to the migration page. The migration is completely free.",
                 "text0": "We have deployed a new and enhanced version of the LAND smart contract.",
                 "text1": "You can find all the details related to the migration on the ",
                 "text2": "dedicated article",
@@ -3405,7 +3424,7 @@
             "faqs": {
                 "01": {
                     "question": "When does the migration start?",
-                    "answer": "The migration page will be deployed on January the 28th."
+                    "answer": "The migration page will be deployed on January the 26th."
                 },
                 "02": {
                     "question": "How to migrate?",
@@ -3438,8 +3457,8 @@
                     "answer": "Your LAND will be minted in the same wallet and can be found in your The Sandbox inventory or any other wallet reader."
                 },
                 "09": {
-                    "question": "What if my LAND is in a hardware wallet?",
-                    "answer": "You will need to proceed as you usually do when transferring your assets, we support most hardware wallets. For Trezor and other wallets having difficulties with EIP-712, you can check the box on the migration page to change the signature format."
+                    "question": "What if my LAND is in cold storage?",
+                    "answer": "You will need to proceed as you usually do when transferring your assets, move it to your selected wallet and migrate your LAND. Then you can move it back to cold storage."
                 },
                 "10": {
                     "question": "What if my LAND is staked in a smart contract?",
@@ -3763,19 +3782,25 @@
             "wantToJoin": "シーズン参加を希望しますか？",
             "buySeasonPass": "OpenSeaでシーズンパスを販売しているユーザーがいれば入手可能です",
             "goOpenSea": "OpenSeaへ移動",
-            "findOpen": "OpenSeaで確認する",
+            "findOpen": "Look for a Pass on OpenSea",
             "gotSeasonPass": "シーズンパスを手に入れました！",
             "descriptionExplore": "最初のシーズンを開催中です！体験を探索してみて、プレイして報酬を手に入れましょう。",
             "discover": "シーズンをチェック",
             "congrats": "おめでとうございます！",
-            "descriptionWinner": "パスを受け取って手放さないで、稼ぐために必要です。",
+            "descriptionWinner": "You are one of the lucky Raffle winners!",
             "claim": "パスを受け取る",
-            "betterLuck": "次回こそ当たりますように",
-            "learnMore": "アルファ版の詳細",
-            "paragraphLooser": "今回は残念でした！ただし、アルファ版のいくつかの体験は利用でき、ソーシャルイベントに参加して報酬を獲得できます。",
+            "betterLuck": "Sorry...",
+            "learnMore": "Learn more about the Alpha Season 2",
+            "paragraphLooser": "You are not one of the Raffle winners. You might be able to get a Season 2 Alpha Pass by purchasing it from another player.",
             "descriptionLooser": "アルファパスの獲得ならず",
             "youWon": "アルファパスを手に入れました！",
-            "descriptionWinner2": "アルファ版では1,000SANDとNFT獲得のチャンスがあります"
+            "descriptionWinner2": "You can now claim your Season 2 Alpha Pass. You will be able to claim the rewards soon! Until then, you can join a VIP party in Climbing Madness for Pass holders!",
+            "paragraphLooser2": "Tomorrow Alpha Pass holders will be able to claim their rewards.",
+            "seasonIsOver": "The Alpha Season 2 is now over.",
+            "purchaseWarning": "Do not purchase a Season 2 Alpha Pass on the secondary market anymore as you will not be able to use it to claim your rewards.",
+            "seeYouSoon": "We hope to see you soon in Season 3 to try your luck again.",
+            "gotIt": "Got it",
+            "claimButton": "Claim S2 Alpha Pass"
         },
         "avatar": {
             "alphaRegistrationTitle": "アルファ版登録",
@@ -3806,7 +3831,30 @@
             "notStartSubtitle3": "チャンスあり！",
             "claimAvailableAt": "受け取り可能まで：",
             "alphaEndsIn": "アルファ版は終了まで：",
-            "claimRewardsButton": "報酬を受け取る"
+            "claimRewardsButton": "報酬を受け取る",
+            "unregisteredStartingSubtitle": "The Sandbox Alpha Season 2 will start soon.",
+            "playButton": "Play",
+            "newLottery": {
+                "drawInProgressTitle": "Raffle draw in progress",
+                "getRaffleTickets": "Season 2: Get Raffle Tickets",
+                "alphaPass": "Season 2: Alpha Pass",
+                "seasonPassTitle": "Season 2: Alpha Pass",
+                "boostRewards": "Boost Rewards",
+                "subtitleSelectWinners": "We'll select 5000 winners! Wait for the results",
+                "subtitleWaitToClaim": "Wait to claim the rewards",
+                "subtitleNoLongerEarn": "You can no longer earn Raffle tickets.\nThe Raffle will take place soon. Good luck!",
+                "getAlphaPassButton": "Get Alpha Pass",
+                "goToPartyButton": "Go To Party!",
+                "claimRewardsSoon": "You will be able to claim the $SAND rewards soon! In the meantime visit the Pass holders VIP Party!",
+                "wonSeason2Pass": "Congratulations! You won a Season 2 Alpha Pass!",
+                "notRaffleWinner": "Sorry, you were not one of the Raffle winners.",
+                "purchaseFromAnother": "You might be able to purchase one from another player",
+                "claimSandRewards": "Congratulations! You can now claim your $SAND rewards.",
+                "completeQuestsRewards": "Complete Quests to earn rewards.",
+                "completeQuestsTickets": "Complete Quests to get Raffle Tickets",
+                "claimSoon": "Claim your rewards soon",
+                "claimPass": "Claim your Alpha Pass now to visit the Pass holders VIP Party and to claim your $SAND rewards later on."
+            }
         },
         "modalLottery": {
             "cannotPreRegister": {
@@ -4132,10 +4180,7 @@
                 "titlePolygon": "Now can stake SAND",
                 "subtitlePolygon": "and enjoy the benefits of staking.",
                 "earnMorePolygon": "Earn more ",
-                "textPolygon": "Stay tuned for more announcements",
-                "stakePhrase01": "You can now enjoy the benefits of staking with ",
-                "stakePhrase02": " and ",
-                "stakePhrase03": " only."
+                "textPolygon": "Stay tuned for more announcements"
             }
         }
     },
@@ -4795,7 +4840,19 @@
             "placeBid": "応札する",
             "cancel": "キャンセル"
         },
-        "goingOutOfSite": "You are about to leave the website of sandbox.game and view the content of an external website. The Sandbox cannot be held responsible for the content of external websites."
+        "goingOutOfSite": "You are about to leave the website of sandbox.game and view the content of an external website. The Sandbox cannot be held responsible for the content of external websites.",
+        "raffleInProgress": {
+            "raffleDraw": "RAFFLE DRAW",
+            "inProgress": "IN PROGRESS",
+            "raffleDescription": "At the end of the Raffle, you will find out if you win a Season 2 Alpha Pass. Good luck!",
+            "raffleTickets": "You are participating in the Raffle with",
+            "season": "SEASON",
+            "staking": "STAKING",
+            "lands": "LANDS",
+            "alphaPass": "ALPHA PASS",
+            "feedback": "FEEDBACK",
+            "crossFingers": "Cross your fingers!"
+        }
     },
     "raffle": {
         "meta": {
