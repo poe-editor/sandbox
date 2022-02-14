@@ -400,7 +400,7 @@
         },
         "play": {
             "selectAvatar": "アバターを選択",
-            "enter": "Enter the Alpha Lobby",
+            "enter": "アルファハブに入場",
             "learnMore": "アルファ版の詳細",
             "legend": "アルファ版で何かお困りですか？",
             "sendFeedback": "Send Feedback",
@@ -593,11 +593,14 @@
                     "communityBoosterDescription2": "to increase the total prize pool. Community booster will be applied on everyone’s $SAND rewards. The more the Community stakes, the more the Community earns.",
                     "communityBoosterDescription3": "You will also get extra Raffle Tickets for staking",
                     "raffleHasPass": "DAYS TO CLAIM",
-                    "raffleHasPassDesc": "You own a S2 Alpha Pass"
+                    "raffleHasPassDesc": "You own a S2 Alpha Pass",
+                    "communityBoosterDescription": ""
                 },
                 "timeRewards": "CLAIM REWARDS IN",
                 "raffleResults": "RAFFLE RESULTS IN",
-                "raffleStarts": "RAFFLE STARTS IN"
+                "raffleStarts": "RAFFLE STARTS IN",
+                "timeLeft": "残り時間",
+                "timeLeftToClaim": "CLAIM AVAILABLE IN"
             },
             "experienceToVisit": "アルファクエストをクリアしました",
             "raffleTickets": {
@@ -1947,9 +1950,10 @@
             "megacities1": "Mega Cities (1)",
             "snoopDogg1": "SNOOP DOGG",
             "steveAoki": "STEVE AOKI",
-            "warnermusic": "WARNER MUSIC",
+            "warnermusic": "Warner Music",
             "gucci": "GUCCI",
-            "web3": "Web 3"
+            "web3": "WEB 3",
+            "ubisoft": "Ubisoft"
         },
         "booked": "予約者：",
         "visit": "サイトにアクセス",
@@ -3375,14 +3379,14 @@
         "migration": {
             "title": "Migrations",
             "subTitle": "LANDs Migration",
-            "text1": "Duo to a vulnerability discovered on December 25th 2021 by",
+            "text1": "Due to a vulnerability discovered on December 25th 2021 by",
             "text2": ", we've decided after running thorough investigations to patch and deploy a new fixed and improved version of the LAND smart contract. Further information can be found on our",
             "mediumArticle": " Medium article",
             "text3": "On this page, you will be able to redeem the exact same LANDs you own from the new smart contract based on their unique ID. The process will then lock and burn the previous version to avoid any confusion in the future.",
             "text4": "If you need any help in the process, you can contact us:",
             "text5": "The new version of the smart contract has been audited on December 30th by ",
             "and": " and ",
-            "text6": "It was deployed on January the 30th",
+            "text6": "It was deployed on January the 28th",
             "newContractAddress": "The new smart contract address is ",
             "text7": "The vulnerability has not been exploited by any malicious user and has now been secured.",
             "text8": "Investigation did not reveal any breach on other smart contracts.",
@@ -3390,25 +3394,25 @@
             "oldContract": " Old Contract",
             "newContract": " New Contract",
             "migrateBtn": "Migrate all my LANDs to the New Contract",
-            "viewMigrateContract": "View Migrate Contract on Etherscan",
+            "viewMigrateContract": "View Migration Contract on Etherscan",
             "reviewAudit": "Review Migration Contract Audit",
             "gasless1": "This process is gasless.",
             "gasless2": "There won't be any costs for you.",
             "didYouKnow": "Did you know?",
             "sandDropTitle": "There was a SAND airdrop in January for LAND owners",
             "readTheArticle": "Read the article",
-            "sandDropSubtitle": "You ware eligible for ",
+            "sandDropSubtitle": "You were eligible for ",
             "checkYourWallet": ", check your wallet on Polygon",
             "success": "All your LANDs have been successfully migrated.",
             "gaslessWarningMobile": "This process is gasless. We got you covered.",
             "insideProfile": {
                 "title": "New LANDs smart contract",
-                "subtitle": "We have enhanced our LANDs smart contract and deployed a new version of them.",
+                "subtitle": "We have deployed a new and enhanced version of the LAND smart contract.",
                 "buttonText": "Migrate Lands",
                 "infoText": "This process is gasless"
             },
             "banners": {
-                "title1": "You have LAND to Migrate",
+                "title1": "Migrate your LANDs",
                 "title2": "New LANDs smart contract",
                 "buttonText": "Migrate Lands",
                 "text0": "We have deployed a new and enhanced version of the LAND smart contract.",
@@ -3419,12 +3423,15 @@
                 "text42": "This LAND needs to be migrated.",
                 "text5": "Please proceed to the migration page. The migration is completely free.",
                 "required": "MIGRATION REQUIRED",
-                "infoText": "This process is gasless"
+                "infoText": "This process is gasless",
+                "textInventory": "We have deployed a new and enhanced version of the LAND smart contract.",
+                "textInventory2": "You can find all the details related to the migration on the ",
+                "textInventorySubtext": "Please proceed to the migration page. The migration is completely free."
             },
             "faqs": {
                 "01": {
                     "question": "When does the migration start?",
-                    "answer": "The migration page will be deployed on January the 26th."
+                    "answer": "The migration page will be deployed on January the 28th."
                 },
                 "02": {
                     "question": "How to migrate?",
@@ -3457,8 +3464,8 @@
                     "answer": "Your LAND will be minted in the same wallet and can be found in your The Sandbox inventory or any other wallet reader."
                 },
                 "09": {
-                    "question": "What if my LAND is in cold storage?",
-                    "answer": "You will need to proceed as you usually do when transferring your assets, move it to your selected wallet and migrate your LAND. Then you can move it back to cold storage."
+                    "question": "What if my LAND is in a hardware wallet?",
+                    "answer": "You will need to proceed as you usually do when transferring your assets, we support most hardware wallets. For Trezor and other wallets having difficulties with EIP-712, you can check the box on the migration page to change the signature format."
                 },
                 "10": {
                     "question": "What if my LAND is staked in a smart contract?",
@@ -3488,7 +3495,11 @@
                     "question": "What if I have no ETH for the migration?",
                     "answer": "The migration is gasless so you don’t need any ETH. We cover all costs."
                 }
-            }
+            },
+            "willTake": "The migration will require ",
+            "transactions": "transactions. Please note there is a time buffer of one hour between each transaction.",
+            "trezor": "I am using a Trezor* wallet.",
+            "trezorNote": "* Or any other hardware wallet not compatible with EIP-712."
         }
     },
     "search": "検索",
@@ -3782,19 +3793,19 @@
             "wantToJoin": "シーズン参加を希望しますか？",
             "buySeasonPass": "OpenSeaでシーズンパスを販売しているユーザーがいれば入手可能です",
             "goOpenSea": "OpenSeaへ移動",
-            "findOpen": "Look for a Pass on OpenSea",
+            "findOpen": "OpenSeaで確認する",
             "gotSeasonPass": "シーズンパスを手に入れました！",
             "descriptionExplore": "最初のシーズンを開催中です！体験を探索してみて、プレイして報酬を手に入れましょう。",
             "discover": "シーズンをチェック",
             "congrats": "おめでとうございます！",
-            "descriptionWinner": "You are one of the lucky Raffle winners!",
+            "descriptionWinner": "パスを受け取って手放さないで、稼ぐために必要です。",
             "claim": "パスを受け取る",
-            "betterLuck": "Sorry...",
-            "learnMore": "Learn more about the Alpha Season 2",
-            "paragraphLooser": "You are not one of the Raffle winners. You might be able to get a Season 2 Alpha Pass by purchasing it from another player.",
+            "betterLuck": "次回こそ当たりますように",
+            "learnMore": "アルファ版の詳細",
+            "paragraphLooser": "今回は残念でした！ただし、アルファ版のいくつかの体験は利用でき、ソーシャルイベントに参加して報酬を獲得できます。",
             "descriptionLooser": "アルファパスの獲得ならず",
             "youWon": "アルファパスを手に入れました！",
-            "descriptionWinner2": "You can now claim your Season 2 Alpha Pass. You will be able to claim the rewards soon! Until then, you can join a VIP party in Climbing Madness for Pass holders!",
+            "descriptionWinner2": "アルファ版では1,000SANDとNFT獲得のチャンスがあります",
             "paragraphLooser2": "Tomorrow Alpha Pass holders will be able to claim their rewards.",
             "seasonIsOver": "The Alpha Season 2 is now over.",
             "purchaseWarning": "Do not purchase a Season 2 Alpha Pass on the secondary market anymore as you will not be able to use it to claim your rewards.",
@@ -4180,7 +4191,10 @@
                 "titlePolygon": "Now can stake SAND",
                 "subtitlePolygon": "and enjoy the benefits of staking.",
                 "earnMorePolygon": "Earn more ",
-                "textPolygon": "Stay tuned for more announcements"
+                "textPolygon": "Stay tuned for more announcements",
+                "stakePhrase01": "You can now enjoy the benefits of staking with ",
+                "stakePhrase02": " and ",
+                "stakePhrase03": " only."
             }
         }
     },
