@@ -400,7 +400,7 @@
         },
         "play": {
             "selectAvatar": "Select your avatar",
-            "enter": "Enter the Alpha Lobby",
+            "enter": "Enter the Alpha HUB",
             "learnMore": "Learn more about the Alpha",
             "legend": "Need help with the Alpha?",
             "sendFeedback": "Send Feedback",
@@ -528,11 +528,11 @@
                     "date": "From February 3 Till March 17",
                     "seasonOverTitle": "THE ALPHA SEASON 2 IS OVER!",
                     "seasonOverDescription": "Thanks for joining the Alpha, we are getting your rewards ready! When enabled, click the Claim button.",
-                    "raffleStartsIn": "RAFFLE STARTS IN",
+                    "raffleStartsIn": "RAFFLE IN",
                     "raffleResultsIn": "RAFFLE RESULTS IN",
                     "claimAvailableAt": "CLAIM AVAILABLE AT",
                     "raffleTitle": "RAFFLE DAY",
-                    "raffleTitle2": "MARCH",
+                    "raffleTitle2": "MARCH 18th",
                     "raffleDrawTitle": "RAFFLE DRAW",
                     "raffleDrawTitle2": "IN PROGRESS",
                     "raffleDescription": "Earn Raffle Tickets by completing Quests.",
@@ -544,7 +544,7 @@
                     "buyButton": "Buy",
                     "claimRewards": "Claim Rewards",
                     "claimRewardsDescription": "Claim your Rewards on",
-                    "claimRewardsDescription2": "March 25.",
+                    "claimRewardsDescription2": "March 25th.",
                     "moreInfo": "More info",
                     "freeToPlay": "Free to Play",
                     "alphaPass": "Alpha Pass",
@@ -552,7 +552,7 @@
                     "summary": "Summary",
                     "totalRaffleTickets": "Total Raffle Tickets",
                     "getMoreTickets": "Get More Tickets",
-                    "winAlphaDescription": "Increases your chances of winning an Alpha Pass during the Raffle by collecting Raffle Tickets.",
+                    "winAlphaDescription": "Win an Alpha Pass by collecting Raffle Tickets.",
                     "raffleTicket": "Raffle Ticket",
                     "youCannotParticipate": "You cannot participate in the raffle because you already own an Alpha Pass",
                     "youAlreadyOwn": "You own a Season 2 Alpha Pass so you cannot participate in the Raffle.",
@@ -560,7 +560,7 @@
                     "totalRewards": "Total Rewards",
                     "boostRewards": "Boost Rewards",
                     "communityBooster": "Community Booster",
-                    "increaseTotalDescription": "to increase everyone's Rewards",
+                    "increaseTotalDescription": "Increase the total rewards by stacking SAND.",
                     "youCanWinDescription": "You can win an Alpha Pass on Raffle on March 18th. Get Raffle ticket by completing quests!",
                     "alreadyOwn": "You already own an Alpha Pass",
                     "claimIt": "To unlock rewards Claim it.",
@@ -572,15 +572,15 @@
                     "staking": "Staking",
                     "lands": "LANDS",
                     "feedbackForm": "Feedback Form",
-                    "raffleDaysLeft": "DAYS UNTIL RAFFLE",
+                    "raffleDaysLeft": "DAYS TO THE RAFFLE",
                     "raffleDay": "DAY FOR RAFFLE RESULTS",
                     "raffleGoodLuck": "Good Luck!!",
-                    "raffleDayDesc": "Win an Alpha Pass!",
+                    "raffleDayDesc": "Earn Raffle Tickets by Quests",
                     "claimPass": "Claim Pass",
                     "enterTheParty": "Enter the Party!",
                     "contest": {
                         "results": "Contest Results",
-                        "checkResults": "Check contest results here every Thursday. You will also receive an email if you won the Alpha Pass",
+                        "checkResults": "Check contest results here every Thursday. You will also recieve an email if you won the Alpha Pass",
                         "buttonTooltip": "Claim your Season 2 Alpha Pass before March 31.",
                         "didntWin": "You didn't win yet",
                         "won": "YOU WON!"
@@ -593,11 +593,14 @@
                     "communityBoosterDescription2": "to increase the total prize pool. Community booster will be applied on everyone’s $SAND rewards. The more the Community stakes, the more the Community earns.",
                     "communityBoosterDescription3": "You will also get extra Raffle Tickets for staking",
                     "raffleHasPass": "DAYS TO CLAIM",
-                    "raffleHasPassDesc": "You own a S2 Alpha Pass"
+                    "raffleHasPassDesc": "You own a S2 Alpha Pass",
+                    "communityBoosterDescription": "Stake $SAND to increase the total prize pool. Community booster will be applied on everyone’s $SAND rewards. The more the Community stakes, the more the Community earns. You will also get extra Raffle Tickets for staking."
                 },
                 "timeRewards": "CLAIM REWARDS IN",
                 "raffleResults": "RAFFLE RESULTS IN",
-                "raffleStarts": "RAFFLE STARTS IN"
+                "raffleStarts": "RAFFLE STARTS IN",
+                "timeLeft": "TIME LEFT",
+                "timeLeftToClaim": "CLAIM AVAILABLE IN"
             },
             "experienceToVisit": "Alpha quest completed",
             "raffleTickets": {
@@ -1947,9 +1950,10 @@
             "megacities1": "Mega Cities (1)",
             "snoopDogg1": "SNOOP DOGG",
             "steveAoki": "STEVE AOKI",
-            "warnermusic": "WARNER MUSIC",
+            "warnermusic": "Warner Music",
             "gucci": "GUCCI",
-            "web3": "Web 3"
+            "web3": "WEB 3",
+            "ubisoft": "Ubisoft"
         },
         "booked": "Booked by",
         "visit": "Visit site",
@@ -2203,7 +2207,7 @@
                 }
             },
             "metrics": {
-                "title": "Key metrics (as of January, 2022)",
+                "title": "Key metrics (as of August 5th, 2020)",
                 "ticket": {
                     "title": "Ticket",
                     "circulating": "Circulating Supply",
@@ -3375,14 +3379,14 @@
         "migration": {
             "title": "Migrations",
             "subTitle": "LANDs Migration",
-            "text1": "Duo to a vulnerability discovered on December 25th 2021 by",
+            "text1": "Due to a vulnerability discovered on December 25th 2021 by",
             "text2": ", we've decided after running thorough investigations to patch and deploy a new fixed and improved version of the LAND smart contract. Further information can be found on our",
             "mediumArticle": " Medium article",
             "text3": "On this page, you will be able to redeem the exact same LANDs you own from the new smart contract based on their unique ID. The process will then lock and burn the previous version to avoid any confusion in the future.",
             "text4": "If you need any help in the process, you can contact us:",
             "text5": "The new version of the smart contract has been audited on December 30th by ",
             "and": " and ",
-            "text6": "It was deployed on January the 30th",
+            "text6": "It was deployed on January the 28th",
             "newContractAddress": "The new smart contract address is ",
             "text7": "The vulnerability has not been exploited by any malicious user and has now been secured.",
             "text8": "Investigation did not reveal any breach on other smart contracts.",
@@ -3390,25 +3394,25 @@
             "oldContract": " Old Contract",
             "newContract": " New Contract",
             "migrateBtn": "Migrate all my LANDs to the New Contract",
-            "viewMigrateContract": "View Migrate Contract on Etherscan",
+            "viewMigrateContract": "View Migration Contract on Etherscan",
             "reviewAudit": "Review Migration Contract Audit",
             "gasless1": "This process is gasless.",
             "gasless2": "There won't be any costs for you.",
             "didYouKnow": "Did you know?",
             "sandDropTitle": "There was a SAND airdrop in January for LAND owners",
             "readTheArticle": "Read the article",
-            "sandDropSubtitle": "You ware eligible for ",
+            "sandDropSubtitle": "You were eligible for ",
             "checkYourWallet": ", check your wallet on Polygon",
             "success": "All your LANDs have been successfully migrated.",
             "gaslessWarningMobile": "This process is gasless. We got you covered.",
             "insideProfile": {
                 "title": "New LANDs smart contract",
-                "subtitle": "We have enhanced our LANDs smart contract and deployed a new version of them.",
+                "subtitle": "We have deployed a new and enhanced version of the LAND smart contract.",
                 "buttonText": "Migrate Lands",
                 "infoText": "This process is gasless"
             },
             "banners": {
-                "title1": "You have LAND to Migrate",
+                "title1": "Migrate your LANDs",
                 "title2": "New LANDs smart contract",
                 "buttonText": "Migrate Lands",
                 "text0": "We have deployed a new and enhanced version of the LAND smart contract.",
@@ -3419,12 +3423,15 @@
                 "text42": "This LAND needs to be migrated.",
                 "text5": "Please proceed to the migration page. The migration is completely free.",
                 "required": "MIGRATION REQUIRED",
-                "infoText": "This process is gasless"
+                "infoText": "This process is gasless",
+                "textInventory": "We have deployed a new and enhanced version of the LAND smart contract.",
+                "textInventory2": "You can find all the details related to the migration on the ",
+                "textInventorySubtext": "Please proceed to the migration page. The migration is completely free."
             },
             "faqs": {
                 "01": {
                     "question": "When does the migration start?",
-                    "answer": "The migration page will be deployed on January the 26th."
+                    "answer": "The migration page will be deployed on January the 28th."
                 },
                 "02": {
                     "question": "How to migrate?",
@@ -3457,8 +3464,8 @@
                     "answer": "Your LAND will be minted in the same wallet and can be found in your The Sandbox inventory or any other wallet reader."
                 },
                 "09": {
-                    "question": "What if my LAND is in cold storage?",
-                    "answer": "You will need to proceed as you usually do when transferring your assets, move it to your selected wallet and migrate your LAND. Then you can move it back to cold storage."
+                    "question": "What if my LAND is in a hardware wallet?",
+                    "answer": "You will need to proceed as you usually do when transferring your assets, we support most hardware wallets. For Trezor and other wallets having difficulties with EIP-712, you can check the box on the migration page to change the signature format."
                 },
                 "10": {
                     "question": "What if my LAND is staked in a smart contract?",
@@ -3488,7 +3495,11 @@
                     "question": "What if I have no ETH for the migration?",
                     "answer": "The migration is gasless so you don’t need any ETH. We cover all costs."
                 }
-            }
+            },
+            "willTake": "The migration will require ",
+            "transactions": "transactions. Please note there is a time buffer of one hour between each transaction.",
+            "trezor": "I am using a Trezor* wallet.",
+            "trezorNote": "* Or any other hardware wallet not compatible with EIP-712."
         }
     },
     "search": "Search",
@@ -3782,19 +3793,19 @@
             "wantToJoin": "Do you want to join the season?",
             "buySeasonPass": "You can get the Season Pass if someone put it up for sale on OpenSea",
             "goOpenSea": "Go to Opensea",
-            "findOpen": "Look for a Pass on OpenSea",
+            "findOpen": "Find it on Opensea",
             "gotSeasonPass": "You got the Season Pass!",
             "descriptionExplore": "Our first Season is ongoing now. You can explore and win rewards by playing our experiences.",
             "discover": "Discover the Season",
             "congrats": "Congratulations!",
-            "descriptionWinner": "You are one of the lucky Raffle winners!",
+            "descriptionWinner": "Claim it now and hold on to it, to earn.",
             "claim": "Claim the Pass",
-            "betterLuck": "Sorry...",
-            "learnMore": "Learn more about the Alpha Season 2",
-            "paragraphLooser": "You are not one of the Raffle winners. You might be able to get a Season 2 Alpha Pass by purchasing it from another player.",
+            "betterLuck": "Better luck next time",
+            "learnMore": "Learn more about the Alpha",
+            "paragraphLooser": "Don’t be too sad! You will still be able to access some of the experiences of the Alpha and to participate in Social Events to earn rewards.",
             "descriptionLooser": "You did not win an Alpha Pass",
             "youWon": "You won an Alpha Pass!",
-            "descriptionWinner2": "You can now claim your Season 2 Alpha Pass. You will be able to claim the rewards soon! Until then, you can join a VIP party in Climbing Madness for Pass holders!",
+            "descriptionWinner2": "1,000 SAND and NFT rewards in the Alpha",
             "paragraphLooser2": "Tomorrow Alpha Pass holders will be able to claim their rewards.",
             "seasonIsOver": "The Alpha Season 2 is now over.",
             "purchaseWarning": "Do not purchase a Season 2 Alpha Pass on the secondary market anymore as you will not be able to use it to claim your rewards.",
@@ -3804,12 +3815,12 @@
         },
         "avatar": {
             "alphaRegistrationTitle": "Alpha Registration",
-            "wonSeasonPassTitle": "You own an Alpha Pass",
+            "wonSeasonPassTitle": "You won an Alpha Pass",
             "endedTitle": "The Alpha is over",
             "endedSubtitle": "Thank you very much to everyone who participated in The Sandbox Alpha!",
             "endedSubtitle2": "Thank you for your precious feedback!\n We hope to see you again soon!",
             "drawInProgressTitle": "Raffle draw in progress",
-            "lostSeasonPassTitle": "You do not own an Alpha Pass",
+            "lostSeasonPassTitle": "You didn't win an Alpha Pass",
             "notStartSubtitle": "Get a chance to play and earn",
             "startSubtitle": "The Sandbox Alpha will start soon. \nRegister to get a chance to play and earn!",
             "startCountDown": "REGISTRATION STARTS IN:",
@@ -4180,7 +4191,10 @@
                 "titlePolygon": "Now can stake SAND",
                 "subtitlePolygon": "and enjoy the benefits of staking.",
                 "earnMorePolygon": "Earn more ",
-                "textPolygon": "Stay tuned for more announcements"
+                "textPolygon": "Stay tuned for more announcements",
+                "stakePhrase01": "You can now enjoy the benefits of staking with ",
+                "stakePhrase02": " and ",
+                "stakePhrase03": " only."
             }
         }
     },
@@ -4321,7 +4335,7 @@
                         "2link": "Exclusive NFT",
                         "3": "drops",
                         "4": "Whitelist access to",
-                        "3link": "Doggies",
+                        "3link": "Snoop Avatar",
                         "5": "drop",
                         "6": "Invitation to the",
                         "4link": "Cozomo Art gallery opening",
@@ -4344,7 +4358,7 @@
                         "3": "Invitation to",
                         "3link": "Cozomo Art gallery opening",
                         "4": "Whitelist access to ",
-                        "4link": "Doggies drop",
+                        "4link": "Snoop Avatar drop",
                         "5": "Future multiplier on",
                         "5link": "staking "
                     },
@@ -4353,34 +4367,34 @@
             },
             "mintYourSnoopAvatar": {
                 "title1": "Mint your",
-                "title2": "Doggy",
-                "description": "Be among the first ones to mint your own Doggy. Up to 10 avatars available for pass holders.",
+                "title2": "Snoop Avatar",
+                "description": "Be among the first ones to mint your own Snoop avatars. Up to 10 avatars available for pass holders.",
                 "button": "Mint now",
-                "prelaunch": "Coming straight to tha metaverse. 10K unique Doggies dropping February 2022. Join the Discord to stay informed!",
+                "prelaunch": "Coming straight to tha metaverse. 10K unique Snoop Dogg Avatars dropping February 2022. Join the Discord to stay informed!",
                 "joinDiscord": "JOIN DISCORD",
-                "postlaunch": "The Doggies are SOLD OUT! Head over to OpenSea and explore all available avatars for sale.",
+                "postlaunch": "The Snoop Dogg avatars are SOLD OUT! Head over to OpenSea and explore all available avatars for sale.",
                 "joinOpensea": "GO TO OPENSEA",
                 "comingSoon": "Coming soon",
                 "coming": "Coming",
                 "soon": "Soon",
                 "getYour": "Get your",
-                "snoopAvatar": "Doggies"
+                "snoopAvatar": "Snoop Dogg Avatar"
             },
             "meta": {
-                "title": "The Sandbox Game - The Doggies are coming to The Sandbox",
-                "description": "The Doggies are coming to The Sandbox. Have fun exploring the metaverse and bring this world to life with your friends. Get your avatar now and enter The Sandbox.",
+                "title": "The Sandbox Game - Snoop Dogg avatars are coming to The Sandbox",
+                "description": "Snoop Dogg avatars are coming to The Sandbox. Have fun exploring the metaverse and bring this world to life with your friends. Get your avatar now and enter The Sandbox.",
                 "keywords": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token, snoop dogg, raffle",
                 "og": {
-                    "title": "The Sandbox Game - The Doggies are coming to The Sandbox",
-                    "description": "The Doggies are coming to The Sandbox. Have fun exploring the metaverse and bring this world to life with your friends. Get your avatar now and enter The Sandbox.",
+                    "title": "The Sandbox Game - Snoop Dogg avatars are coming to The Sandbox",
+                    "description": "Snoop Dogg avatars are coming to The Sandbox. Have fun exploring the metaverse and bring this world to life with your friends. Get your avatar now and enter The Sandbox.",
                     "url": "https://www.sandbox.game/en/snoopdogg/",
-                    "site_name": "The Sandbox Game - The Doggies are coming to The Sandbox",
+                    "site_name": "The Sandbox Game - Snoop Dogg avatars are coming to The Sandbox",
                     "image": "/img/30_Landing/snoopdogg/metadata-image.jpg"
                 },
                 "twitter": {
-                    "title": "The Sandbox Game - The Doggies are coming to The Sandbox",
-                    "description": "The Doggies are coming to The Sandbox. Have fun exploring the metaverse and bring this world to life with your friends. Get your avatar now and enter The Sandbox.",
-                    "card": "The Doggies are coming to The Sandbox",
+                    "title": "The Sandbox Game - Snoop Dogg avatars are coming to The Sandbox",
+                    "description": "Snoop Dogg avatars are coming to The Sandbox. Have fun exploring the metaverse and bring this world to life with your friends. Get your avatar now and enter The Sandbox.",
+                    "card": "Snoop Dogg avatars are coming to The Sandbox",
                     "site": "@thesandboxgame",
                     "creator": "@thesandboxgame",
                     "image": "/img/30_Landing/snoopdogg/metadata-image.jpg"
@@ -4397,14 +4411,14 @@
             "mintYoursNow": {
                 "title1": "10K NEXT-GENERATION,",
                 "title2": "METAVERSE AVATARS",
-                "description1": "Unique, hand-crafted, and playable The Doggies are coming to The Sandbox.",
+                "description1": "Unique, hand-crafted, and playable Snoop Dogg Avatars coming The Sandbox.",
                 "description2": "Designed and crafted with tha Doggfather himself.",
                 "button": "MINT YOURS NOW!",
                 "definitions": {
                     "title1": "WHAT ARE",
-                    "title2": "THE DOGGIES?",
+                    "title2": "SNOOP DOGG",
                     "title3": "AVATARS?",
-                    "description": "The Doggies are an NFT collection comprised of 10,000 programmatically generated Snoop Doggs, playable in The Sandbox. Each Snoop is completely unique, hand-crafted from over 150 traits by The Sandbox’s skilled voxel-artists."
+                    "description": "The Snoop Dogg avatars are an NFT collection comprised of 10,000 programmatically generated Snoop Doggs, playable in The Sandbox. Each Snoop is completely unique, hand-crafted from over 150 traits by The Sandbox’s skilled voxel-artists."
                 }
             },
             "metaverseReady": {
@@ -4415,15 +4429,15 @@
             "chanceUniqueAvatars": {
                 "title1": "A CHANCE TO GET",
                 "title2": "UNIQUE AVATARS",
-                "description": "First ever avatar to be playable in a metaverse music video. Unique, hand-crafted, and playable The Doggies coming to The Sandbox. Designed and crafted with tha Doggfather himself.",
-                "unique": "Dope",
+                "description": "First ever avatar to be playable in a metaverse music video. Unique, hand-crafted, and playable Snoop Dogg Avatars coming to The Sandbox. Designed and crafted with tha Doggfather himself.",
+                "unique": "Unique",
                 "avatars": "Avatars",
                 "classic": "Classic",
                 "signature": "Signature",
                 "edition": "Edition",
-                "descriptionUnique1": "A set of dope, fresh & funky avatars which have been custom designed by the teams at The Sandbox and Snoop Dogg himself. Only one exists of each, who will be the lucky one?",
+                "descriptionUnique1": "A set of unique 1/1 avatars which have been custom designed by the teams at The Sandbox and Snoop Dogg himself. Only one exists of each, who will be the lucky one?",
                 "descriptionUnique2": "Take a stroll down the history of Snoop Dogg and discover a number of unique avatars that are directly linked to some of Snoop’s greatest tracks throughout the years.",
-                "descriptionUnique3": "We’ve teamed up with some of the greatest collections in the space to bring some unique 1/1 The Doggies to the metaverse, making them playable in The Sandbox."
+                "descriptionUnique3": "We’ve teamed up with some of the greatest collections in the space to bring some unique 1/1 Snoop Dogg avatars to the metaverse, making them playable in The Sandbox."
             }
         },
         "alpha": {
@@ -4875,7 +4889,7 @@
                 "image": "/img/30_Landing/snoopdogg/metadata-image.jpg"
             }
         },
-        "title": "Mint your own Doggies!",
+        "title": "Mint your own Snoop Dogg Avatar!",
         "connectWallet": {
             "title": "Connect Wallet",
             "title2": "Your wallet is connected!",
@@ -4913,7 +4927,7 @@
             "title": "F.A.Q.",
             "1": {
                 "title": "How many Avatars are there?",
-                "paragraph": "There are 10,000 unique The Doggies, programmatically generated from over 150 hand-crafted traits."
+                "paragraph": "There are 10,000 unique Snoop Avatars, programmatically generated from over 150 hand-crafted traits."
             },
             "2": {
                 "title": "What can I do with the Avatars?",
