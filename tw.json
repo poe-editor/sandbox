@@ -205,7 +205,9 @@
             "maxPrice": "Sell price must not be greater than 3000000000.",
             "maxAmount": "Maximum amount to sell is 12000."
         },
-        "readMore": ""
+        "readMore": "",
+        "windows": "Windows",
+        "mac": "macOS"
     },
     "layout": {
         "topbar": {
@@ -1521,24 +1523,48 @@
                 "3": {
                     "title": "穿上裝備，開始遊戲",
                     "description": "穿上裝備強化你的屬性，並準備好開始遊戲。"
-                }
+                },
+                "title1": "Become",
+                "title2": "Your Avatar",
+                "description1": "Take your profile pic to the next level. Now you can choose your favorite Avatar to explore The Sandbox Metaverse.",
+                "description2": "Connect your wallet to find out if you own an External Avatar.",
+                "button": "Connect Wallet"
             },
             "section2": {
                 "title": "選取虛擬化身",
                 "subtitle": "找出你的個人風格，讓你與眾不同",
                 "description": "選用預先設計的虛擬化身輕鬆開始遊戲。我們的最佳藝術家設計了 20 款以上的模型供你任選，以便你加入《The Sandbox》元宇宙！",
-                "buttonText": "創造你的虛擬化身"
+                "buttonText": "創造你的虛擬化身",
+                "1": {
+                    "title": "Create your style",
+                    "description": "Quickly combine different outfits, hairstyles and colors to get a unique look."
+                },
+                "2": {
+                    "title": "Get Social",
+                    "description": "Meet with friends and socialize with thousands of players in The Sandbox virtual world."
+                },
+                "3": {
+                    "title": "Equip your avatar and Play",
+                    "description": "Boost your attributes with equipment and get ready to play."
+                }
             },
             "section3": {
                 "comingSoon": "即將推出",
                 "title": "自訂你的虛擬化身",
-                "description": "快速混搭不同服飾、髮型和色彩，打造獨一無二的外表"
+                "description": "快速混搭不同服飾、髮型和色彩，打造獨一無二的外表",
+                "title1": "Select an",
+                "title2": "Avatar",
+                "description1": "Find your own style to stand out from the crowd.",
+                "description2": "Get started easily with a predesigned avatar. Choose between more than 20 models designed by our best artists and join The Sandbox metaverse!",
+                "button": "Create your Avatar"
             },
             "section4": {
                 "title": "在虛擬世界中交流互動",
-                "description1": "以百變造型結識數千名玩家，並與他們互動交流。在《The Sandbox》的虛擬土地上與他們一同探索、發掘和遊戲。",
-                "description2": "展現最真實的一面：無限可能性。",
-                "buttonText": "下載"
+                "description1": "Meet and interact with thousands of users with different styles. Explore, discover and play with them in the virtual lands of The Sandbox.",
+                "description2": "Reveal your true self: the possibilities are endless.",
+                "buttonText": "下載",
+                "title1": "Socialize in the virtual world",
+                "button": "Download"
             },
             "section5": {
                 "title": "使用裝備強化你虛擬化身的屬性",
@@ -1550,12 +1576,18 @@
                     "text2": "中為其定義的一組特定屬性而定：力量、幸運值、防禦、速度和魔法。",
                     "text3": "想要更強大的虛擬化身嗎？歡迎造訪",
                     "marketplaceLinkText": " 市場 ",
-                    "text4": "並從社群所創造的數千種武器中挑選合適的武器。武器即將推出。"
+                    "text4": "並從社群所創造的數千種武器中挑選合適的武器。武器即將推出。",
+                    "title1": "Create custom Equipment with VoxEdit",
+                    "description1": "Equipment are Tokens that can be traded. They have Catalysts and Gems just as other assets do. Yes, you can also create and mint Equipment through VoxEdit!",
+                    "button": "Learn more"
                 },
                 "part2": {
                     "title": "使用 VoxEdit 創造自訂裝備",
                     "description": "裝備為可交易代幣。這些裝備就和其他 ASSET 一樣，也會有 CATALYST 和 GEM。沒錯，你也可以透過 VoxEdit 創造和鑄造裝備！",
-                    "link": "瞭解詳情"
+                    "link": "瞭解詳情",
+                    "title1": "Coming Soon",
+                    "title2": "Customize it",
+                    "description1": "Quickly combine different outfits, hairstyles and colors to create a unique style."
                 }
             },
             "user": {
@@ -1812,9 +1844,9 @@
                 }
             },
             "section6": {
-                "title": "你還在等什麼呢？",
-                "description": "已有數千名使用者使用獨一無二的虛擬化身註冊《The Sandbox》，快來加入他們的使用者社群吧。",
-                "buttonText": "立即創造虛擬化身"
+                "title": "What are you waiting for?",
+                "description": "Join the Community of thousands of users that have already registered in The Sandbox with their unique avatars.",
+                "buttonText": "Create Avatar"
             }
         }
     },
@@ -4203,7 +4235,8 @@
         "refresh": "外掛程式安裝完成後，請重新整理你的瀏覽器",
         "reload": "重新載入頁面",
         "choose": "選擇你的錢包",
-        "sub-choose": "你還沒有安裝錢包，請選擇一個才能繼續"
+        "sub-choose": "你還沒有安裝錢包，請選擇一個才能繼續",
+        "warning": "If you are on your phone, please login from your wallet application to use its browser."
     },
     "licenses": {
         "license": "授權",
@@ -4220,7 +4253,7 @@
                 "paragraph1": "Snoop Dogg 正在《The Sandbox》內打造他的豪宅，而他邀請「你」去參加派對！",
                 "paragraph2": "打球、看電影，在泳池旁放空。",
                 "paragraph3": "造訪 Snoop Dogg 的豪宅，參觀狗狗教父的 NFT。",
-                "mintNow": ""
+                "mintNow": "Mint yours now!"
             },
             "loginVIP": {
                 "title": "你的 VIP 派對通行證",
@@ -4426,12 +4459,12 @@
             "metaverseReady": {
                 "title1": "Play it in Alpha",
                 "title2": "Season 2",
-                "description": "Each Avatar will be playable inside The Sandbox, starting with the upcoming Alpha Season 2. Get your Avatar, jump into the game and share your avatar with the world!"
+                "description": "Each Doggy will be playable inside The Sandbox, starting with the upcoming Alpha Season 2. Get your Avatar, jump into the game and share your avatar with the world!"
             },
             "chanceUniqueAvatars": {
                 "title1": "A CHANCE TO GET",
                 "title2": "UNIQUE AVATARS",
-                "description": "First ever avatar to be playable in a metaverse music video. Unique, hand-crafted, and playable Snoop Dogg Avatars coming to The Sandbox. Designed and crafted with tha Doggfather himself.",
+                "description": "First ever avatar to be part of a metaverse music video. Unique, hand-crafted, and playable Doggies coming to The Sandbox. Designed and crafted with tha Doggfather himself.",
                 "unique": "Unique",
                 "avatars": "Avatars",
                 "classic": "Classic",
@@ -4444,6 +4477,9 @@
             "date": {
                 "starton": "Launching",
                 "startdate": "FEB 22 2022"
+            },
+            "miindedstudio": {
+                "title": "In participation with"
             }
         },
         "alpha": {
@@ -4927,25 +4963,137 @@
             "ticketBased": "Presale for ticket holders is now live!"
         },
         "price": {
-            "currentPrice": "current price for each avatar"
+            "currentPrice": "Current price for each Avatar",
+            "buy": "Buy Sand"
         },
         "FAQ": {
             "title": "F.A.Q.",
             "1": {
-                "title": "How many Avatars are there?",
-                "paragraph": "There are 10,000 unique Snoop Avatars, programmatically generated from over 150 hand-crafted traits."
+                "title": "How many Doggies are there?",
+                "paragraph": "There are 10,000 unique Snoop Avatars, programmatically generated from over 150 hand-crafted traits.",
+                "paragraphs": {
+                    "1": "There are a total of 10,000 programmatically generated “Doggies” Avatars that will be minted."
+                }
             },
             "2": {
-                "title": "What can I do with the Avatars?",
-                "paragraph": "Each avatar will unlock unique utility that goes beyond a simple NFT. They will be playable in The Sandbox, and can be used to unlock future mints, and features in the metaverse. In addition, they will be part of the first ever Snoop Dogg music video, happening in The Sandbox."
+                "title": "What is their rarity/tier?",
+                "paragraph": "Each avatar will unlock unique utility that goes beyond a simple NFT. They will be playable in The Sandbox, and can be used to unlock future mints, and features in the metaverse. In addition, they will be part of the first ever Snoop Dogg music video, happening in The Sandbox.",
+                "paragraphs": {
+                    "1": "Doggies are divided into a variety of rarity categories depending on traits. There are multiple Doggies, as well as 10+ hand-crafted 1/1 Doggies, including Dope, Classic, and Signature Doggies."
+                }
             },
             "3": {
-                "title": "How do I get whitelisted?",
-                "paragraph": "Follow us on @TheSnoopAvatars on Twitter to find out how to get whitelisted and get your hands on an avatar before everyone else."
+                "title": "Where do I have to go to claim the Avatars?",
+                "paragraph": "Follow us on @TheSnoopAvatars on Twitter to find out how to get whitelisted and get your hands on an avatar before everyone else.",
+                "paragraphs": {
+                    "1": "There is only one place where you can mint the Avatars:",
+                    "2": "https://sandbox.game/en/snoopdogg/raffle/mint/"
+                }
             },
             "4": {
+                "title": "At what time does the sale start?",
+                "paragraph": "Winners will be informed through our social channels and/or Discords. Keep an eye out for more info.",
+                "paragraphs": {
+                    "1": "The sale will start on February 23rd, 2022, 10pm UTC.",
+                    "2": "Whitelisted users will have access to the 24 hours prior to that."
+                }
+            },
+            "5": {
+                "title": "How much should I expect to pay for one Doggy NFT?",
+                "paragraphs": {
+                    "1": "One Doggy NFT will cost 150 SAND."
+                }
+            },
+            "6": {
+                "title": "How many Doggies can I mint per wallet address?",
+                "paragraphs": {
+                    "1": "The Doggies will be released in two waves:",
+                    "2": "1) Whitelisted users will have a chance to mint one Doggy with a time limit of 24 hours, between February 22nd and February 23rd.",
+                    "3": "2) When the public release is live, users will have the chance to mint up to 10 Doggies from February 23rd to February 24th."
+                }
+            },
+            "7": {
+                "title": "When can I discover what Doggy I minted?",
+                "paragraphs": {
+                    "1": "The Doggies will be revealed 48 hours after minting on OpenSea."
+                }
+            },
+            "8": {
+                "title": "Can I mint using any wallet (Binance, Ledger...)?",
+                "paragraphs": {
+                    "1": "Yes, you can mint with whatever wallet you have."
+                }
+            },
+            "9": {
+                "title": "What can I do with the Doggies?",
+                "paragraphs": {
+                    "1": "Each Doggy Avatar will be playable inside The Sandbox in all the multiplayer experiences to come starting from the Sandbox Alpha Season 2."
+                }
+            },
+            "10": {
+                "title": "How can I use my Doggy during the Alpha?",
+                "paragraphs": {
+                    "1": "You will be able to use it as an Avatar by simply selecting it in the Avatar Manager in The Sandbox dashboard."
+                }
+            },
+            "11": {
+                "title": "Does owning the Doggy grant me other perks?",
+                "paragraphs": {
+                    "1": "A selected few Doggy owners will have the chance to have their avatar appear in an upcoming Snoop music video. This is a unique chance to dance your way into Snoop’s history."
+                }
+            },
+            "12": {
+                "title": "Where can I buy a Doggy after the initial sale is over?",
+                "paragraphs": {
+                    "1": "After the initial sale is over, you will be able to purchase a Doggy from users that are willing to sell theirs on the secondary marketplace",
+                    "2": "Opensea"
+                }
+            },
+            "13": {
+                "title": "How do I get whitelisted?",
+                "paragraphs": {
+                    "1": "If you hold one of the NFT listed below, 24 hours before the minting starts, you will have early access to mint your Doggy:",
+                    "2": "- Snoopverse Early Access Pass",
+                    "3": "- Snoop Party Pass",
+                    "4": "- JADU Jetpack",
+                    "5": "- JADU Hoverboard",
+                    "6": "- SupDucks",
+                    "7": "- FLUF",
+                    "8": "- Rumble Kong League",
+                    "9": "Winning one of our",
+                    "10": "Twitter contests",
+                    "11": "can also give you early access to mint your NFT."
+                }
+            },
+            "14": {
                 "title": "How do I know if I’m whitelisted?",
-                "paragraph": "Winners will be informed through our social channels and/or Discords. Keep an eye out for more info."
+                "paragraphs": {
+                    "1": "If you hold an NFT of the above collection, you will be able to mint, as long as you hold the NFT in the wallet with which you are whitelisted, and connected on the minting page."
+                }
+            },
+            "15": {
+                "title": "How many Doggies can I mint as a whitelisted user?",
+                "paragraphs": {
+                    "1": "You will be able to mint one Doggy as a whitelisted user."
+                }
+            },
+            "16": {
+                "title": "My Doggies are not revealed yet on OpenSea. What can I do?",
+                "paragraphs": {
+                    "1": "If you are checking before February 24, 10pm UTC, this is normal. If you are checking after that date, feel free to press the “Refresh Metadata” button on the top-right corner of OpenSea."
+                }
+            },
+            "17": {
+                "title": "Buying NFT for the first time, how can I get started?",
+                "paragraphs": {
+                    "1": "The process is quite simple. You need to ensure that you have ",
+                    "2": "created an account",
+                    "3": " on The Sandbox.",
+                    "4": "Ensure you have both the correct amount of SAND to mint the number of Doggies you want and some ETH to cover the gas fees.",
+                    "5": "Log into your account and head over to the mint page",
+                    "6": "https://sandbox.game/en/snoopdogg/raffle/mint/",
+                    "7": "Check that your wallet is properly connected and just press the Mint button to retrieve your Doggy."
+                }
             }
         }
     },
