@@ -1847,6 +1847,62 @@
                 "title": "What are you waiting for?",
                 "description": "Join the Community of thousands of users that have already registered in The Sandbox with their unique avatars.",
                 "buttonText": "Create Avatar"
+            },
+            "old": {
+                "section1": {
+                    "1": {
+                        "title": "創造你的個人風格",
+                        "description": "快速混搭不同服飾、髮型和色彩，打造獨一無二的外觀。"
+                    },
+                    "2": {
+                        "title": "拓展人際關係",
+                        "description": "在《The Sandbox》虛擬世界中與好友會面，並與數千名玩家交流。"
+                    },
+                    "3": {
+                        "title": "穿上裝備，開始遊戲",
+                        "description": "穿上裝備強化你的屬性，並準備好開始遊戲。"
+                    }
+                },
+                "section2": {
+                    "title": "選取虛擬化身",
+                    "subtitle": "找出你的個人風格，讓你與眾不同",
+                    "description": "選用預先設計的虛擬化身輕鬆開始遊戲。我們的最佳藝術家設計了 20 款以上的模型供你任選，以便你加入《The Sandbox》元宇宙！",
+                    "buttonText": "創造你的虛擬化身"
+                },
+                "section3": {
+                    "comingSoon": "即將推出",
+                    "title": "自訂你的虛擬化身",
+                    "description": "快速混搭不同服飾、髮型和色彩，打造獨一無二的外表"
+                },
+                "section4": {
+                    "title": "在虛擬世界中交流互動",
+                    "description1": "以百變造型結識數千名玩家，並與他們互動交流。在《The Sandbox》的虛擬土地上與他們一同探索、發掘和遊戲。",
+                    "description2": "展現最真實的一面：無限可能性。",
+                    "buttonText": "下載"
+                },
+                "section5": {
+                    "title": "使用裝備強化你虛擬化身的屬性",
+                    "subtitle": "即將推出",
+                    "part1": {
+                        "title": "為你的虛擬化身換上裝備，並取得特殊技能。",
+                        "text1": "所有虛擬化身的技能都是根據",
+                        "gameMakerLinkText": " 《The Sandbox》Game Maker： ",
+                        "text2": "中為其定義的一組特定屬性而定：力量、幸運值、防禦、速度和魔法。",
+                        "text3": "想要更強大的虛擬化身嗎？歡迎造訪",
+                        "marketplaceLinkText": " 市場 ",
+                        "text4": "並從社群所創造的數千種武器中挑選合適的武器。武器即將推出。"
+                    },
+                    "part2": {
+                        "title": "使用 VoxEdit 創造自訂裝備",
+                        "description": "裝備為可交易代幣。這些裝備就和其他 ASSET 一樣，也會有 CATALYST 和 GEM。沒錯，你也可以透過 VoxEdit 創造和鑄造裝備！",
+                        "link": "瞭解詳情"
+                    }
+                },
+                "section6": {
+                    "title": "你還在等什麼呢？",
+                    "description": "已有數千名使用者使用獨一無二的虛擬化身註冊《The Sandbox》，快來加入他們的使用者社群吧。",
+                    "buttonText": "立即創造虛擬化身"
+                }
             }
         }
     },
@@ -4464,7 +4520,7 @@
             "chanceUniqueAvatars": {
                 "title1": "A CHANCE TO GET",
                 "title2": "UNIQUE AVATARS",
-                "description": "First ever avatar to be part of a metaverse music video. Unique, hand-crafted, and playable Doggies coming to The Sandbox. Designed and crafted with tha Doggfather himself.",
+                "description": "First-ever avatar to be part of a metaverse music video. Unique, hand-crafted, and playable Doggies coming to The Sandbox. Designed and crafted with tha Doggfather himself.",
                 "unique": "Unique",
                 "avatars": "Avatars",
                 "classic": "Classic",
@@ -4964,7 +5020,8 @@
         },
         "price": {
             "currentPrice": "Current price for each Avatar",
-            "buy": "Buy Sand"
+            "buy": "Buy Sand",
+            "notEnoughSand": "You don't have enough SAND to mint {amount} avatars"
         },
         "FAQ": {
             "title": "F.A.Q.",
@@ -4995,7 +5052,7 @@
                 "paragraph": "Winners will be informed through our social channels and/or Discords. Keep an eye out for more info.",
                 "paragraphs": {
                     "1": "The sale will start on February 23rd, 2022, 10pm UTC.",
-                    "2": "Whitelisted users will have access to the 24 hours prior to that."
+                    "2": "Whitelisted users will have access 24 hours before."
                 }
             },
             "5": {
@@ -5095,7 +5152,8 @@
                     "7": "Check that your wallet is properly connected and just press the Mint button to retrieve your Doggy."
                 }
             }
-        }
+        },
+        "howToMint": "How to mint an avatar?"
     },
     "modelViewer": {
         "view3D": "View 3D",
