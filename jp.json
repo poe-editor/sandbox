@@ -1847,6 +1847,62 @@
                 "title": "What are you waiting for?",
                 "description": "Join the Community of thousands of users that have already registered in The Sandbox with their unique avatars.",
                 "buttonText": "Create Avatar"
+            },
+            "old": {
+                "section1": {
+                    "1": {
+                        "title": "自分のスタイルを作ろう",
+                        "description": "さまざまな衣裳やヘアスタイル、色合いを瞬く間に組み合わせて、あなただけのルックスを手に入れましょう。"
+                    },
+                    "2": {
+                        "title": "どんどん交流しよう",
+                        "description": "The Sandboxの仮想空間で友達と出会い、何千というプレイヤーと交流しましょう。"
+                    },
+                    "3": {
+                        "title": "アバターを装備してプレイ",
+                        "description": "装備をつけて属性を強化して、プレイの準備を整えましょう。"
+                    }
+                },
+                "section2": {
+                    "title": "アバターを選択",
+                    "subtitle": "独自のスタイルを確立して目立とう",
+                    "description": "事前登録アバターで一足早く始めよう。最高のアーティストたちがデザインした20体以上のモデルから選んで、The Sandboxメタバースに参加しよう！",
+                    "buttonText": "アバターを作成"
+                },
+                "section3": {
+                    "comingSoon": "近日登場",
+                    "title": "自分のアバターをカスタマイズ",
+                    "description": "さまざまな衣裳やヘアスタイル、色合いを瞬く間に組み合わせて、あなただけのスタイルを作りましょう。"
+                },
+                "section4": {
+                    "title": "仮想空間での交流",
+                    "description1": "さまざまなスタイルの何千というユーザーと出会い、交流を深めよう。The Sandboxの仮想空間をみんなと探索して、新たな発見をして、プレイしよう。",
+                    "description2": "なりたい自分になろう：可能性は無限大。",
+                    "buttonText": "ダウンロード"
+                },
+                "section5": {
+                    "title": "装備をつけてアバターの属性を強化",
+                    "subtitle": "近日登場",
+                    "part1": {
+                        "title": "アバターを装備して特殊能力を入手。",
+                        "text1": "各アバターには、自分の能力を特徴づける一連の属性が揃っていてます",
+                        "gameMakerLinkText": " The Sandbox Game Maker： ",
+                        "text2": "パワー、運、防御、速度、魔法。",
+                        "text3": "お望みはより強力なアバター？マーケットプレイスを",
+                        "marketplaceLinkText": " 訪れてみて ",
+                        "text4": "コミュニティのみんなが作った数多くの武器の中から、自分に見合ったものを選びましょう。まもなく利用できるようになります。"
+                    },
+                    "part2": {
+                        "title": "VoxEditでカスタム装備を作成",
+                        "description": "装備はトークンとして取引することができます。装備には、他のアセット同様、カタリストとジェムがあります。ですから、VoxEditで装備を作成そして発行することができます！",
+                        "link": "詳細"
+                    }
+                },
+                "section6": {
+                    "title": "さぁ今すぐ始めましょう！",
+                    "description": "何千人というユーザーが、『The Sandbox』に自分のアバターをすでに登録しています。このコミュニティに参加しましょう。",
+                    "buttonText": "今すぐアバターを作成"
+                }
             }
         }
     },
@@ -4464,7 +4520,7 @@
             "chanceUniqueAvatars": {
                 "title1": "A CHANCE TO GET",
                 "title2": "UNIQUE AVATARS",
-                "description": "First ever Doggy to be part of a metaverse music video. Unique, hand-crafted, and playable Doggies coming to The Sandbox. Designed and crafted with tha Doggfather himself.",
+                "description": "First-ever Doggy to be part of a metaverse music video. Unique, hand-crafted, and playable Doggies coming to The Sandbox. Designed and crafted with tha Doggfather himself.",
                 "unique": "Unique",
                 "avatars": "Avatars",
                 "classic": "Classic",
@@ -4964,7 +5020,8 @@
         },
         "price": {
             "currentPrice": "Current price for each Avatar",
-            "buy": "Buy Sand"
+            "buy": "Buy Sand",
+            "notEnoughSand": "You don't have enough SAND to mint {amount} avatars"
         },
         "FAQ": {
             "title": "F.A.Q.",
@@ -4995,7 +5052,7 @@
                 "paragraph": "Winners will be informed through our social channels and/or Discords. Keep an eye out for more info.",
                 "paragraphs": {
                     "1": "The sale will start on February 23rd, 2022, 10pm UTC.",
-                    "2": "Whitelisted users will have access to the 24 hours prior to that."
+                    "2": "Whitelisted users will have access 24 hours before."
                 }
             },
             "5": {
@@ -5095,7 +5152,8 @@
                     "7": "Check that your wallet is properly connected and just press the Mint button to retrieve your Doggy."
                 }
             }
-        }
+        },
+        "howToMint": "How to mint an avatar?"
     },
     "modelViewer": {
         "view3D": "View 3D",
