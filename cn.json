@@ -632,8 +632,8 @@
         "info": {
             "title": "欢迎来到Alpha版本",
             "description": {
-                "1": "Alpha版本为《The Sandbox》",
-                "2": "首次官方",
+                "1": "Win the Season 2 Alpha Pass and earn up to",
+                "2": "1,000 $SAND rewards.",
                 "3": "游戏获利版！",
                 "4": "获取Alpha通行证，在游戏中赢得",
                 "5": "1,000 SAND和酷炫的非同质化代币奖励！"
@@ -658,7 +658,7 @@
                 }
             },
             "earn": {
-                "title": "游戏获利",
+                "title": "$SAND Rewards",
                 "subtitle1": "拥有Alpha通行证",
                 "firstDescription1": "游戏获利：",
                 "firstDescription2": "获得",
@@ -669,7 +669,25 @@
                 "fourthDescription1": "游戏获利：",
                 "fourthDescription2": "你需要Alpha通行证才能获得Alpha奖励",
                 "fifthDescription1": "内容：",
-                "fifthDescription2": "你可以前往Alpha中心，参与3个游戏体验。"
+                "fifthDescription2": "你可以前往Alpha中心，参与3个游戏体验。",
+                "description": {
+                    "1": "Earn up to",
+                    "2": "1,000 $SAND",
+                    "3": "rewards with the Season 2 Alpha Pass."
+                },
+                "seeRewards": "See Rewards",
+                "bulletPoints": {
+                    "1": {
+                        "1": "Max. Base rewards:",
+                        "2": "500 $SAND"
+                    },
+                    "2": {
+                        "1": "Max. Boosted rewards:",
+                        "2": "1,000 $SAND"
+                    },
+                    "booster": "Check the Community Booster section for more info."
+                },
+                "boostRewards": "Boost Rewards"
             },
             "whatCanIEarn": {
                 "title1": "我可以",
@@ -714,36 +732,49 @@
             "faq": {
                 "faqTitle": "常见问题",
                 "about": {
-                    "title": "关于Alpha版本",
-                    "text1": "谁可以参与Alpha赛季V1版？",
-                    "description1": "任何拥有Alpha通行证的玩家都可以体验全部Alpha内容（Alpha中心 + 17个游戏体验），并有机会赢得1,000 SAND + 3份非同质化代币奖励。没有Alpha通行证的玩家可体验有限的Alpha内容（Alpha中心 + 3个游戏体验），还能参与每日社区比赛，赢得Alpha通行证。",
-                    "text2": "Alpha版本持续多长时间？",
-                    "description2": "Alpha版本于2021年11月29日开始，12月20日结束。 "
+                    "title": "About the Alpha Season 2",
+                    "text1": "Who can access the Alpha?",
+                    "description1": "Everyone with a TSB account!! Contrary to Alpha Season 1, all of the 30 Season 2 experiences will be opened to all, except one that will be gated to Alpha Pass owners. The dynamic of the Season will be very different, everybody can play, and everybody has a chance to win an Alpha Pass by playing!",
+                    "text2": "How long does the Alpha last?",
+                    "description2": "4 weeks, from March 3 till March 31 2022."
                 },
                 "howToJoin": {
-                    "title": "参与Alpha版本",
-                    "text1": "我该如何获得Alpha通行证？",
+                    "title": "Joining the Alpha Season 2 (Raffle)",
+                    "text1": "How can I get an Alpha Pass?",
                     "bulletPoints": {
-                        "title1": "- 抽奖：",
-                        "description1": "我们将为LAND所有者举办一场特别的抽奖活动，来奖励游戏早期的支持者们。LAND所有者可注册抽奖，获得赢取Alpha通行证的机会。注册将在Alpha版本开启前不久开放。你拥有的LAND越多，获得Alpha通行证的机会就越大。1块LAND = 1次抽奖机会。",
-                        "title2": "- 每日比赛：",
-                        "description2": "在Alpha中心参加每日比赛，所有玩家都有机会赢取Alpha通行证。每个工作日都会举办每日比赛。请密切关注《The Sandbox》的Twitter和Discord账号，了解比赛开始时间。",
-                        "title3": "- 在OpenSea上购买：",
-                        "description3": "如果你没能赢得Alpha通行证，而其他LAND所有者愿意割爱的话，你还可以前往OpenSea进行购买。多加留意！",
-                        "warning": "警告：在12月20日Alpha版本关闭后，你将无法通过在OpenSea上购买的Alpha通行证领取奖励。在此日期之后，我们强烈建议你不要再前往OpenSea上购买通行证。"
+                        "title1": "- The Raffle:",
+                        "description1": "at the end of the Alpha Season 2: the more you play and the more you invest yourself in The Sandbox ecosystem, the more chances you have to win. S2AP will be distributed to the Raffle winners on Mar. 31, 2022.",
+                        "title2": "- Social Contests:",
+                        "description2": "Weekly distribution to the daily Social Contests winners.",
+                        "title3": "- OpenSea:",
+                        "description3": "You can buy a S2AP on the secondary market if someone is willing to sell theirs.",
+                        "warning": "Be careful when purchasing a S2AP on the secondary market as there may be fakes and there is no point in purchasing one after Season 2 has ended on March 31, 2022 at 4 PM UTC."
                     },
-                    "text2": "我该如何注册抽奖？",
-                    "description2": "在Alpha版本开启前几天，将会举行抽奖活动。密切留意《The Sandbox》新闻，了解活动时间。当抽奖活动开启时，前往",
+                    "text2": "How do I register for the raffle?",
+                    "description2": "The Raffle will occur at the end of the Alpha Season 2 on March 31, 2022. Contrary to Season 1, there is no Raffle before the Season starts. To register for the Season 2 Raffle, you simply have to play the game. By completing quests in the game (which everybody can do for free) you will earn Raffle Tickets by leveling up. As soon as you reach level 1 (which is very fast, you only need to complete a few quests) you will become eligible for the Raffle.",
                     "hrefText": "https://www.sandbox.game/en/season/",
                     "description3": "即可注册。",
-                    "text3": "如果我只拥有1块LAND，那我有多少几率能获得Alpha通行证？",
-                    "description4": "通过注册，你可以获得1张抽奖券（前提是你拥有至少一块LAND）。你每多拥有一块土地，还能多获得1张抽奖券。例如，若你拥有20块LAND，你就有21次机会可以赢得Alpha通行证。",
-                    "text4": "如果我拥有多块LAND，我能赢得多张Alpha通行证吗？",
-                    "description5": "不可以，每人仅能赢得一张Alpha通行证。‘抽奖券’和‘Alpha通行证’是有巨大区别的。‘抽奖券’是用来参与抽奖的入场券。你拥有的LAND越多，获得的入场券（抽奖券）就越多，赢得通行证的几率就越大。拥有多块LAND的玩家能获得多张抽奖券，赢得通行证的几率也越大。但每人仅能赢得一张‘Alpha通行证’。"
+                    "text3": "What is the maximum number of Raffle tickets that I can get?",
+                    "description4": "Yes. You get 40 Raffle Tickets for each LAND you have in your wallet by the end of the Alpha Season 2 when the Raffle starts. Caped to a maximum of 200 Raffle Tickets (5 LANDs). This is going to significantly increase your chances but does not guarantee you to win.",
+                    "text4": "Do I have more chances to win an Alpha Pass if I’m a LAND owner?",
+                    "description5": "Yes. You get 90 extra Raffle Tickets if you have a Season 1 Alpha Pass in your wallet by the end of the Alpha Season 2 when the Raffle starts. This is not cumulative, only one S1AP per wallet will count for extra Raffle Tickets.",
+                    "text0": "What is the point of the Alpha Pass if everything is open to everyone?",
+                    "description0": "The $SAND rewards! Only Alpha Pass owners can claim the S2 Alpha Rewards at the end of the Alpha Season 2. Rewards can go up to 1,000 $SAND per S2 Alpha Pass.",
+                    "description1": "There are 3 ways of winning a S2 Alpha Pass:",
+                    "description3a": "Please check the tab “Raffle Tickets” for more details.",
+                    "description3b": "In total, you can earn up to 1000 Raffle Tickets if you max out every source.",
+                    "text5": "Do I have more chances to win a Season 2 Alpha Pass if I own a Season 1 Alpha Pass?",
+                    "text6": "Do I have more chances to win a Season 2 Alpha Pass if I participated in Alpha Season 1 but did not keep my Season 1 Alpha Pass?",
+                    "description6": "No. You need to own a Season 1 Alpha Pass to get the associated extra Raffle Tickets.",
+                    "text7": "Can I win more than 1 Season 2 Alpha Pass in the Raffle if I own many LANDS and many Season 1 Alpha Passes?",
+                    "description7": "No. One Season 2 Alpha Pass per wallet only. If you get a Season 2 Alpha Pass by participating in Social Contests, you will not be able to get another one from the Raffle.",
+                    "text8": "Is there a moment where there is no point anymore to get a Season 2 Alpha Pass?",
+                    "description8a": "Yes. Do not purchase a S2AP on the secondary market after Season 2 has ended, on March 31, 2022 16 UTC, as you will not be able to claim the $SAND rewards with it anymore if you purchase it after this date.",
+                    "description8b": "But, you can safely purchase a S2AP on OpenSea while Alpha Season 2 is ongoing, as long as you own it before March 31, 2022 16 UTC."
                 },
                 "playing": {
-                    "title": "游玩Alpha版本",
-                    "text1": "游玩Alpha版本有什么要求吗？",
+                    "title": "Playing the Alpha Season 2",
+                    "text1": "What do I need to play the Alpha Season 2?",
                     "description1": "- 游戏需要在Windows系统上运行（其它操作系统和移动版会在未来推出）",
                     "description2": "- 你还需要不会断线的网络连接。",
                     "description3": "- 要领取你的Alpha通行证和奖励，你需要花费一点ETH来支付矿工费。",
@@ -755,23 +786,23 @@
                         "4": "内存：8192Mb或以上"
                     },
                     "text2": "我该如何游玩Alpha版本",
-                    "description4": "你需要下载随Alpha版本一起发布的最新版本的游戏客户端。所有玩家都可以体验Alpha中心以及3个额外体验内容，但仅有Alpha通行证获得者可游玩全部18个体验内容，并在Alpha版本结束时领取奖励。",
+                    "description4": "Up to 40 players can be in one experience at the same time. When more than 40 players try to enter the same experience, a new instance of that experience is created. This means that when you are in a multiplayer experience you will only see up to 39 other players, but there could be more players in other instances.",
                     "hrefText1": "点击此处可下载游戏客户端。",
-                    "text3": "我可以在Game Maker上游玩Alpha版本吗？",
-                    "description5": "不可以，你需要通过游戏客户端进行游玩。你可以在Alpha版本开启后，前往",
+                    "text3": "Can I play the Alpha Season 2 on the Game Maker?",
+                    "description5": "Content will be released progressively with 1 to 4 experiences released every weekday during the 4 weeks of Season 2.",
                     "hrefText2": "https://www.sandbox.game/",
-                    "description6": "下载游戏客户端。",
-                    "text4": "我没有Alpha通行证，我能体验部分游戏内容吗？",
+                    "description6": "If you click on the Experience thumbnails on the Alpha Map, you’ll see the date and time it will be revealed. In the top right corner of the Alpha Map, you will also find a calendar showing when new Experiences will be released in the future.",
+                    "text4": "How many people can get in one Experience at the same time?",
                     "description7": "可以，你可以前往Alpha中心，参与3个游戏体验：“NFT Institute”画廊、“Club XYZ”跳舞俱乐部，以及“Dungeon of Dum-Yz”冒险。",
-                    "text5": "有多少玩家可以同时游玩一个体验内容？",
-                    "description8": "同一时间，可容纳至多40位玩家一同游玩一个体验内容。当超过40位玩家想进入同一游戏体验时，该体验将会创建新的副本。也就是说，你在多人游戏中只能看到至多39位玩家，而其他的玩家会在别的副本中游戏。",
+                    "text5": "When will content be released?",
+                    "description8": "Yes. This is a very important thing to understand, contrary to Season 1, you don’t need the Alpha Pass to progress. Everybody can play and everybody can earn Raffle Tickets to win a Season 2 Alpha Pass during the Raffle at the end of Season 2.",
                     "text6": "我该从何了解体验内容何时发布？",
-                    "description9": "如果你点击Alpha地图上的体验缩略图，就能看见该体验发布的日期和时间。在Alpha地图的右上角，有一个日历，上面会显示新的体验发布的时间。",
-                    "text7": "我能和朋友一起游玩吗？",
-                    "description10": "同一游戏体验最多可容纳40位玩家同时游玩。如果有更多玩家参与，则会为他们创建新的副本。如果你和你的朋友同时加入一个游戏体验，那很有可能会进入相同副本。如果你没能和你的朋友进入同一副本，你可以用下列方式加入他们：",
-                    "description11": "- 在进入游戏后找到你的副本ID，",
-                    "description12": "在聊天窗口输入",
-                    "description13": "/instances。",
+                    "description9": "While you have your Season 2 Alpha Pass, the website interface will tell you that, since you already have an Alpha Pass you are no longer eligible to win one during the Raffle at the end of Alpha Season 2, thus you will see that you don’t have any Raffle Tickets - but if you sell / giveaway / lose your Alpha Pass, we tracked your progression in the background so you won’t have to redo the quests you already completed.",
+                    "text7": "Can I play along with a friend?",
+                    "description10": "No, you cannot keep playing after the closing date. On March 31 all experiences of the Alpha Season 2 will be closed, except for one gated experience that will remain open for S2AP owners only for 24 extra hours (more info below).",
+                    "description11": "After the Raffle, once the lucky people who won a Season 2 Alpha Pass have been picked, we will open the last experience of the Alpha Season 2 for 24 hours only. That experience will be accessible only to Season 2 Alpha Pass owners at that time. This will be the Season 2 VIP party!",
+                    "description12": "Players can play your games inside the Game Maker Gallery. However, you can’t publish your games on your LAND yet. We are working to enable publishing on your LAND in the near future. Get a chance to put your games in one of our upcoming seasons by participating in our Alpha Game Jams.",
+                    "description13": "Chat commands are as follow:",
                     "description14": "- 若要前往你朋友的副本，",
                     "description15": "在聊天窗口输入",
                     "description16": "/join <INSTANCE ID>。例如，",
@@ -780,17 +811,17 @@
                     "description19": "在游戏聊天窗口输入",
                     "description20": "/help",
                     "description21": "可查看聊天指令。",
-                    "text8": "在Alpha版本结束后，我还能继续游玩吗？",
+                    "text8": "Can I Earn progression by completing quests without a Season 2 Alpha Pass?",
                     "description22": "不可以，当Alpha版本关闭后，所有体验内容在下一次通知前都不可继续游玩。",
-                    "text9": "玩家们能游玩我制作的游戏吗？",
+                    "text9": "If I get an Alpha Pass, do quests, then lose my Alpha Pass, will my progression be retroactively tracked or do I need to redo all the quests I did?",
                     "description23": "可以，玩家可以通过Game Maker作品集游玩你制作的游戏。不过，你无法在自己的LAND上发布游戏。我们会在不久的将来让你能在自己的LAND上发布游戏。",
-                    "text10": "聊天指令有哪些？",
+                    "text10": "Can I keep playing the Alpha Season 2 after it ends on March 31, 2022?",
                     "commands": {
                         "1": "/w username message 向该用户发送一条密语。",
-                        "2": "/m message 在元宇宙频道发送一条信息。",
-                        "3": "/I message 在LAND频道发送一条信息。",
+                        "2": "/m message Send a message to the metaverse channel.",
+                        "3": "/I message Send a message to the land channel.",
                         "4": "/respawn 传送至重生点。",
-                        "5": "/users 显示已连接的玩家列表和数量。",
+                        "5": "/users Show connected players list and count.",
                         "6": "/instances 显示开启此体验的可用副本列表。",
                         "7": "/join instanceld 连接至对应ID的副本。",
                         "8": "/north 传送至北边的LAND。",
@@ -799,35 +830,80 @@
                         "11": "/west 传送至西边的LAND。",
                         "12": "/emote name 激活表情：hi、hello、agree、yes、wave、disagree、no、happy、sad、bored、dance、hophop以及burnthefloor",
                         "13": "/Idle 停止当前表情。"
-                    }
+                    },
+                    "bulletPoints": {
+                        "pc": "Minimum configuration PC:",
+                        "pc1": "OS: Windows 10 64bit",
+                        "pc2": "GPU: NVIDIA GeForce GTX 760 or newer",
+                        "pc3": "CPU: i5-8400 or newer (AVX support is required)",
+                        "pc4": "RAM: 8192Mb or more"
+                    },
+                    "description1a": "You need to play on Windows or MAC OS (now available in Season 2!)",
+                    "description1b": "- You also need a permanent internet connection.",
+                    "description1c": "- To claim your Season 2 Alpha Pass and rewards, you’ll need some ETH to pay for the gas fees.",
+                    "description2a": "You will need to download the latest version of the Game Client that will be released alongside the Alpha Season 2. Click",
+                    "description2b": "here",
+                    "description2c": "to download the Game Client. Everybody with the right configuration can play and it’s free.",
+                    "description3a": "No, you will need to play on the Game Client. You will be able to download the Game Client at",
+                    "description3b": "https://www.sandbox.game/",
+                    "description3c": "when the Alpha Season 2 opens.",
+                    "description7a": "An Experience can have up to 40 players at a time; if there are more than 40 players, new instances are created to host the additional players. If you join an Experience at the same time as your friend, you have a high chance to end up in the same instance. But if you don’t, you can join them by following these steps:",
+                    "description7b": "- To find your instance ID after you enter the game, type",
+                    "description7c": "/instances",
+                    "description7d": "in the chat.",
+                    "description7e": "- Give your instance ID to your friend who wants to join your instance.",
+                    "description7f": "- To jump to your instance, your friend must type",
+                    "description7g": "/join <INSTANCE ID>",
+                    "description7h": "in the chat. For example,",
+                    "description7i": "/join 2234",
+                    "description7j": "to join instance 2234.",
+                    "description7k": "Type",
+                    "description7l": "/help",
+                    "description7m": "in the in-game chat to see the chat commands.",
+                    "text11": "You mentioned above that 1 experience will require a Season 2 Alpha Pass to enter, what is it?",
+                    "text12": "Can players play the games I made?",
+                    "text13": "What are the chat commands?"
                 },
                 "rewards": {
-                    "title": "Alpha奖励",
-                    "text1": "我可以用这些奖励做什么？",
-                    "description1": "- 你获得的SAND是一种加密货币，它可以用来在《The Sandbox》市场中购买非同质化代币（LAND、人物造型，和市场ASSET）。它也可以在加密交易平台上进行交易。",
-                    "description2": "- Alpha版本的非同质化代币奖励是可以在Game Maker中使用的实体，可用来打造你自己的游戏体验。你的作品不仅会因为这些专属Alpha非同质化代币展现出独家视觉效果，还能因为这些强大的实体Alpha非同质化代币而根据挑战性。",
-                    "text2": "Alpha奖励有些什么？",
-                    "description3": "如果你拥有Alpha通行证，你就能赢得最多1,000 SAND和3份非同质化代币。",
-                    "text3": "奖励都是非同质化代币的形式吗？",
-                    "description4": "SAND是一种加密货币。和其它非同质化代币一样，这些奖励你可以自行保留，或在OpenSea上进行交易。",
-                    "text4": "如果我没有Alpha通行证，我还有别的方式可以赢得奖励吗？",
-                    "description5": "没有，只有Alpha通行证拥有者才可赢得Alpha奖励——但是所有玩家都可以在Alpha中心参与每日比赛赢得Alpha通行证。",
-                    "text5": "我只要游玩Alpha版本，就能获得1,000 $SAND吗？",
+                    "title": "Alpha Season 2 Rewards",
+                    "text1": "Are Raffle Tickets NFTs?",
+                    "description1": "No. You can see Raffle Tickets as an indicator of a player’s investment in the Alpha Season 2, but they are not NFTs and cannot be traded on the secondary market.",
+                    "description2": "You will receive an email if you won, and you will get a popup on the website informing you if you won the Raffle or not on the Raffle day.",
+                    "text2": "How will I know if I won the Raffle?",
+                    "description3": "No. The Season 2 Alpha Pass is the key that allows you to claim the $SAND rewards. However, please remember not to purchase the S2AP after the Season 2 has closed on March 31, 2022, at 4 PM UTC.",
+                    "text3": "Is there a way to earn the $SAND rewards if I don’t have the Season 2 Alpha Pass?",
+                    "description4": "No. Only one S2AP per wallet.",
+                    "text4": "Can I get multiple Season 2 Alpha Passes?",
+                    "description5": "Yes. You can own one Alpha Pass of each Season in your wallet.",
+                    "text5": "Can I get a Season 2 Alpha Pass if I already have a Season 1 Alpha Pass?",
                     "description6": "要想获得1,000 $SAND，你需要通过完成游戏中的Alpha任务，通关全部5个Alpha通行证关卡，边玩边赚。Alpha任务非常简单，你只需探索Alpha体验内容即可。检查奖励标签部分，了解更多关于Alpha任务和奖励的内容。",
-                    "text6": "如果我赠送/出售我的Alpha通行证，那我还能完成关卡获得奖励吗？",
-                    "description7": "不可以！请注意！在Alpha版本的最后一天，即12月20日时，你的钱包中必须有Alpha通行证才可以领取奖励。一张Alpha通行证无法与人共享，更不能领取两次奖励。",
-                    "description8": "在Alpha版本结束时（12月20日 UST 0点0分），所有钱包中有Alpha通行证的用户将被标记为“拥有奖励领取资格”——一旦被标记，不论你是否在之后失去Alpha通行证，都可以随时领取奖励。",
-                    "description9": "而相反的，在Alpha版本结束时（12月20日 UST 0点0分），所有钱包中没有Alpha通行证的用户将被永久标记为“无奖励领取资格”，即便之后获得了Alpha通行证，这些用户也无法领取奖励。",
-                    "description10": "我们的系统有防欺诈设计。",
-                    "text7": "我什么时候可以领取奖励？我可以在每个关卡完成时领取奖励吗？",
-                    "description11": "唯有在Alpha版本结束（12月20日）后，你才能领取升级解锁的奖励。在该日期之后，你可以随时领取奖励，但不可以继续升级。",
-                    "text8": "Alpha通行证可以交易。如果我达到2级，然后出售了我的通行证，会发生什么事情？",
-                    "description12": "游戏进度与Alpha通行证不关联，而只与账号关联——Alpha通行证如同一把钥匙，能让账号进度得以提升。",
-                    "description13": "例如，你到达了2级，然后把通行证借予了好友，那对方将从1级开始游戏。然后，若你的朋友到达3级后，将通行证还给你，你将从2级开始继续游戏。而你再把通行证借给你的朋友时，对方将从3级开始继续游戏。",
+                    "text6": "Do I get the 1,000 $SAND reward just for playing the Alpha Season 2?",
+                    "description7": "No. You need the Season 2 Alpha Pass to trigger the rewards claim, so hold on to it if you want your $SAND rewards!",
+                    "description8": "24 hours. During that time Season 2 Alpha Pass winners will be able to hang out in a gated VIP experience that only they can access.",
+                    "description9": "You can claim the $SAND rewards only at the end of the Alpha Season 2 (March 31, 2022), if you own a Season 2 Alpha Pass.",
+                    "description10": "You won’t be able to claim rewards. However, if you reach level 2, lose your Pass but then either get it back or another Pass back, you will be back to level 2, your progression will be saved.",
+                    "text7": "If I gift/sell my Season 2 Alpha Pass, can I still get the $SAND rewards for the levels I completed?",
+                    "description11": "Claim of the Season 2 Alpha Pass NFT and the $SAND rewards will still be on layer 1.",
+                    "text8": "How long between the Raffle and the Reward Claim?",
+                    "description12": "It depends on how you got your Alpha Pass.",
+                    "description13": "There is no time limit to claim your $SAND rewards.",
                     "description14": "但是请记住！因为在Alpha版本结束时，你们当中仅能有一人的钱包中有通行证，所以奖励也仅有一人能领取！你可以把通行证借给朋友，让对方探索游戏，寻找乐趣，但别忘了把通行证要回来领取你的奖励！",
-                    "text9": "如果在完成游戏内容后，Alpha通行证拥有者出售了自己的通行证，会怎样？",
+                    "text9": "When can I claim the $SAND rewards? Can I claim them as I progress through each level?",
                     "description15": "Alpha通行证拥有者需要在Alpha版本的最后一天持续拥有通行证，才能领取奖励。日期（Alpha版本最后一天，即12月20日）才是关键，而通行证上的进度并不重要。即使Alpha通行证拥有者在日期前完成了所有目标，他们仍需要将通行证保留到最后一天。当Alpha版本结束时，Alpha通行证将只具备纪念价值，无法用来推进游戏进度或获取奖励。",
-                    "description16": "如果你想要获得游戏进度和奖励，请不要在Alpha版本结束（12月20日）后购买Alpha通行证。但如果你仅想留作纪念，那也可以在12月20日之后进行购买。"
+                    "description16": "如果你想要获得游戏进度和奖励，请不要在Alpha版本结束（12月20日）后购买Alpha通行证。但如果你仅想留作纪念，那也可以在12月20日之后进行购买。",
+                    "description6a": "First, the rewards might go up to 1,000 $SAND but it’s not guaranteed, please see the section below about Reward Community Booster. Rewards will be AT LEAST 500 $SAND for completing the 5 levels of Season 2.",
+                    "description6b": "Second, playing the Alpha gives you a chance to win a Season 2 Alpha Pass. If you win, the rewards are yours!",
+                    "text10": "Alpha passes can be traded. What happens if I make it to Level 2 and then trade my pass?",
+                    "text11": "On which chain will the Season 2 Alpha Pass and $SAND rewards be claimed?",
+                    "text12": "How much time do I have to claim my Season 2 Alpha Pass?",
+                    "bulletPoints": {
+                        "description1": "1. If you won your S2AP through a Social Contest, while Alpha Season 2 was ongoing, you must claim it before March 31, 2022.",
+                        "description2": "2. If you won your S2AP through the Raffle at the end of Alpha Season 2, there is no deadline to claim it."
+                    },
+                    "text13": "How much time do I have to claim my $SAND rewards?",
+                    "text14": "I forgot to claim my $SAND rewards from Alpha Season 1, can I still do that?",
+                    "description14a": "You can claim all unclaimed rewards related to previous Seasons (NFT rewards, $SAND, Alpha Passes…) on this",
+                    "description14b": "page"
                 },
                 "level": {
                     "title": "进度",
@@ -839,8 +915,8 @@
                 },
                 "presscoverage": {
                     "title": "新闻媒体",
-                    "text1": "媒体应该怎样体验Alpha版本？",
-                    "description1": "媒体和“影响者”可将自己的Sandbox账号加入白名单，绕过Alpha通行证，体验全部游戏内容。不过，以这种方式进入游戏的用户将无法获得奖励——只有Alpha通行证拥有者才有资格获得奖励。",
+                    "text1": "How does the press access the Alpha Season 2?",
+                    "description1": "Contrary to Alpha Season 1, Press won’t have to request whitelisting access to discover the game, as everybody will be able to play and access 100% of the content.",
                     "text2": "我该如何以新闻媒体身份请求体验Alpha版本？",
                     "description2": "若要申请“影响者”通行证，请通过以下邮箱与我们联系：contact@sandbox.game。请务必在邮件中告诉我们你的联系方式、观众、外展服务，以及体验Alpha版本的目的。"
                 },
@@ -864,21 +940,86 @@
                     "description4": "额外的安全资源：",
                     "description5": "- Metamask的基本安全和安全提示",
                     "description6": "- 要使用MetaMask作为你的Own Bank，你需要掌握这些最佳方法",
-                    "text2": "《The Sandbox》会向我索取安全口令吗？",
+                    "text2": "Will The Sandbox ever request my secret seedphrase (aka passphrase)?",
                     "description7": "不会，《The Sandbox》绝不会向你索取安全口令，你也不能和任何人分享你的安全口令！分享安全口令将威胁到你的钱包安全，你可能会失去所有代币和非同质化代币。",
                     "text3": "我应该如何反馈可疑行为？",
                     "description8": "如果在社交媒体、电子邮箱或OpenSea上发现任何可疑行为，你可以通过以下方式向我们反馈：",
                     "hrefText1": "Discord",
                     "description9": "的#reporting-scams。你也可以发送电子邮件至以下地址：contact@sandbox.game",
-                    "text4": "我如何知道在OpenSea上购买哪些ASSET是安全的呢？",
-                    "description10": "在OpenSea上寻找Alpha通行证、ASSET，或LAND时，请前往以下地址，确保该物品属于我们已验证的Sandbox收藏：",
+                    "text4": "How do I know which assets are safe to buy at OpenSea?",
+                    "description10": "When looking for Alpha Passes, Assets, or LANDs at OpenSea, make sure it belongs to our verified Sandbox collection at",
                     "hrefText2": "https://opensea.io/collection/sandbox",
-                    "text5": "官方链接是什么？这样我就不会被骗了？"
+                    "text5": "官方链接是什么？这样我就不会被骗了？",
+                    "description7a": "NO NO NO, The Sandbox will never request your secret seedphrase and you should not share your secret seedphrase with anyone, ever! Sharing your secret seedphrase will compromise your wallet and you might lose all your tokens and NFTs.",
+                    "description7b": "Scammers are VERY creative and will go as far as steal TSB employee’s identities to try to get you to give away information! NEVER. GIVE. AWAY. YOUR. SEED. PHRASE. TO. ANYONE."
                 },
                 "roadmap": {
                     "title": "路线图",
                     "text1": "还会有其它如Alpha版本一样的赛季吗？什么时候发布？",
                     "description1": "会的，在Alpha版本结束后，我们会推出更多赛季。下一赛季推出日期尚未确定。"
+                },
+                "title": "常见问题",
+                "staking": {
+                    "title": "Staking & Community Reward Booster",
+                    "text1": "What is staking?",
+                    "description1a": "To make things overly simple: Staking (in the context of TSB Alpha Season 2) means that you “lock” some of your cryptocurrency, which will in return earn you a yield over time. You can stop your staking and recover your funds at any time, but you will stop earning the yield. The more you stake for the longer time, the bigger the yield you will get.",
+                    "description1b": "You’ll find a lot more details here:",
+                    "description1c": "https://sandboxgame.gitbook.io/the-sandbox/staking/about-staking",
+                    "description1d": "For people who are not familiar with staking, and will read the questions below, it’s very important to understand that you do not",
+                    "description1e": "spend",
+                    "description1f": "$SAND to earn bonuses related to Alpha Season 2, you get bonuses from staking $SAND, which can already be a very profitable feature in itself.",
+                    "text2": "In summary, how does the Staking feature relates to Season 2?",
+                    "description2a": "1. Extra Raffle Tickets:",
+                    "description2b": "staking $SAND will grant you extra Raffle Tickets.",
+                    "description2c": "2. Community Reward Booster:",
+                    "description2d": "a booster will be applied to all S2AP $SAND rewards based on the total amount of $SAND staked by the whole community.",
+                    "text3": "In detail, how does the Staking feature relates to Season 2?",
+                    "description3a": "This feature is a bit complex, but you do not have to understand how it works under the hood to make optimal use of it, However you can find the details below:",
+                    "description3b": "1. Extra Raffle Tickets:",
+                    "description3c": "The more and the longer you stake $SAND, the more your “staking score” increases. The bigger the staking score you have, the more Raffle Tickets you will get.",
+                    "description3d": "To get the maximum number of Raffle Tickets from the staking feature (which is 200, the total maximum from all features is 1000) you need to have accumulated at least 2000 staking score points by the end of the Alpha Season 2.",
+                    "description3e": "2. Community Reward Booster:",
+                    "description3f": "The bigger everyone’s staking score is, the more the Community Reward Booster increases. The more the Community Reward Booster increases, the more the Season 2 Alpha Pass $SAND reward is increased for all. The Community Reward Booster is capped at a maximum of +100%. To reach this cap, the community staking score has to reach the target of 100,000,000 (100 Million) points.",
+                    "description3g": "Examples:",
+                    "description3h": "- The S2AP base reward is 500 $SAND. If by the end of Alpha Season 2, the community staking score reached 100,000,000 points or more, the Community Reward Booster will reach +100%. Therefore, the S2AP reward will be increased by +100% and reach 1,000 $SAND for all S2AP owners.",
+                    "description3i": "- If by the end of Alpha Season 2, the community staking score reached 57,000,000 points, the Community Reward Booster will reach +57%. Therefore, the S2AP reward will be increased by +57% and reach 785 $SAND (500 + 57% of 500) for all S2AP owners.",
+                    "text4": "Will I still get the same yield for staking $SAND during Alpha Season 2?",
+                    "description4": "Yes, the staking features related to Alpha Season 2 act as a bonus and will not impact the yield in any way. Your $SAND will not be locked for longer. Nothing changes with the staking feature itself. The “caps” related to Alpha Season 2 features have no impact on the yield at all.",
+                    "text5": "On which chain does the Community Reward Booster work?",
+                    "description5": "On Layer 2, but only on the SAND staking program (not on the SAND/MATIC program). The whole point of the feature is to incentivize $SAND staking on layer 2 to continue our transition to layer 2, which will be a great improvement to the game by reducing gas fees and making TSB a lot greener!",
+                    "text6": "How is the staking score calculated?",
+                    "description6a": "Again, you do not need to understand the math to make optimal use of this feature, but if you are curious, this is how it works:",
+                    "description6b": "You get 5 staking score points for every 1 $SAND staked during 28 days.",
+                    "description6c": "This number is a float, you will get exactly the amount of staking score points related to your staking contribution.",
+                    "description6d": "In details:",
+                    "description6e": "It is important to understand that both time and $SAND staked amount are taken into account to calculate the staking score.",
+                    "description6f": "1. Extra Raffle Tickets:",
+                    "description6g": "The cap is 2000 staking score points (to get 200 Raffle Tickets). To reach that cap you could, for example, stake 400 $SAND (or more) for 28 days, or 800 $AND for 14 days, or 1600 $SAND for 7 days.",
+                    "description6h": "2. Community Reward Booster:",
+                    "description6i": "The cap is 100,000,000 collective cumulated staking score points (to get the Community Reward Booster to +100%). To reach that score, the community could, for example, stake 20,000,000 $SAND (or more) for 28 days, or 40,000,000 $SAND for 14 days, or 80,000,000 $SAND for 7 days.",
+                    "description6j": "Of course, the actual numbers won’t be as round and clean, but this gives you an overall idea of how the calculation is done.",
+                    "description6k": "Please note that the amount of days that $SAND is staked does not have to be consecutive.",
+                    "text7": "Should I wait for Alpha Season 2 to begin to start staking $SAND?",
+                    "description7a": "You can start staking right now, you don’t have to wait. If you want to stake now, you definitely should. Might as well get your yield growing as soon as possible!",
+                    "description7b": "You will start to earn staking score points related to Alpha Season 2 features once the Alpha Season 2 starts, but we will simply look at how much you have previously staked at that moment and start calculating your score.",
+                    "description7c": "You do not need to wait for Alpha Season 2 to begin to start staking, and you do not need to withdraw and stake back your funds once Alpha Season 2 has started to optimize your staking score.",
+                    "description7d": "You, and the community, will not start earning staking score points until the Alpha Season 2 has started. The staking score points objectives, both individual (2000) and collective (20,000,000), have to be met in between the start and the end of the Alpha Season 2.",
+                    "text8": "You are only talking about $SAND staking, what about the TSB SAND/MATIC staking program?",
+                    "description8": "Alpha Season 2 features are only linked to the SAND staking pool. Staking on the SAND/MATIC program does not offer any bonus related to Alpha Season 2. This program will still work the same and produce the same yield, we do not abandon it, it’s just not related to the Alpha Season 2.",
+                    "text9": "Can I lose staking score points?",
+                    "description9": "No, this number can not go down. Points earned are earned for you and added to the Community Booster cumulative score. If you withdraw your stake, you will stop earning staking points, but you won’t lose what you have earned.",
+                    "text10": "The Alpha already started multiple weeks ago, is there still a point for me to start staking now, am I too late?",
+                    "description10": "You are never too late. The later you stake, the more $SAND you will have to stake if you want to max out the number of Raffle Tickets that can be earned through staking (200). Even if you don’t stake that much and Alpha Season 2 will end soon, you can still get some Raffle Tickets for staking. It’s not because you don’t have the time and/or resources to hit the 200 Raffle Tickets cap that there is no point to try to get some. Also, staking can be a very profitable feature in itself, even when unrelated to Alpha Season 2 bonuses"
+                },
+                "progression": {
+                    "title": "进度",
+                    "text1": "我在Alpha版本中应该怎样推进进度？我该如何达到5级？",
+                    "description1a": "You need to complete Alpha Quests to progress in the Alpha. Enter any experience other than the Alpha Hub and locate the Metaverse Guide. Talk to him to get an Alpha Quest. You can easily spot him thanks to the blue exclamation mark above his head.",
+                    "description1b": "Most quests are indicated by a yellow exclamation mark above the head of the NPC that will trigger the quest.",
+                    "description1c": "Some quests are part of Quests Chains and will automatically be triggered when you complete other quests.",
+                    "description1d": "Look for yellow exclamation marks and talk to NPCs (even if they don’t have Quests to give you they might steer you in the direction of an NPC who does!).",
+                    "text2": "我需要每天重复做同样的事情吗？",
+                    "description2": "No. New experiences (hence new quests) are released every weekday, so eager players will play every day but if you want you can come late and do a lot of quests at once! Be careful though, there are a lot of quests and a lot of content! Some people will accumulate a lot of Raffle Tickets by completing a lot of quests. If you want to have good chances to win the Season 2 Alpha Pass by the end of the Alpha Season 2, you better not start working on quests too late or you won’t have time to complete much."
                 }
             },
             "carousel": {
@@ -886,6 +1027,196 @@
                 "1": "第二日 - 11月17日：非同质化代币学院",
                 "2": "第三日 - 11月18日：Dum-Yz地下城",
                 "3": "第四日 - 11月19日：Club XYZ"
+            },
+            "alphaPass": {
+                "title": "Season 2 Alpha Pass",
+                "question": "HOW TO GET A SEASON 2 ALPHA PASS?",
+                "bulletPoints": {
+                    "1": {
+                        "title": "Raffle",
+                        "body": "Participate in the Raffle at the end of Alpha Season 2, on March 31, 2022."
+                    },
+                    "2": {
+                        "title": "Contests",
+                        "body": "Participate in the daily social contests on The Sandbox Twitter.",
+                        "link": "View Contests Tab"
+                    },
+                    "3": {
+                        "title": "OpenSea:",
+                        "body": "Anyone can buy a Season 2 Alpha Pass on Opensea. If someone is willing to sell it"
+                    }
+                },
+                "warning": {
+                    "1": "Do not purchase an Alpha Pass after the end of Alpha Season 2 on March 31, 2022.",
+                    "2": "Be careful not to purchase a fake Season 2 Alpha Pass. Only use the link provided on this website. Only use this link:",
+                    "link": "Buy on OpenSea"
+                }
+            },
+            "schedule": {
+                "desc1": "ALPHA SEASON 2 STARTS",
+                "date1": "MARCH 03",
+                "desc2": "RAFFLE DAY / SEASON END",
+                "date2": "MARCH 31"
+            },
+            "raffle": {
+                "title": "The Raffle",
+                "subtitle": "THE RAFFLE OCCURS ON MARCH 31, 2022.",
+                "description": {
+                    "1": "Earn Raffle Tickets",
+                    "2": "by completing Quests inside each experience on the",
+                    "link": "Alpha Map."
+                },
+                "moreTickets": {
+                    "1": "MORE",
+                    "2": "= MORE CHANCE TO WIN A SEASON 2 ALPHA PASS"
+                },
+                "moreQuests": "MORE QUESTS COMPLETED = MORE",
+                "bulletPoints": {
+                    "title": "YOU CAN GET EXTRA RAFFLE TICKETS BY",
+                    "1": {
+                        "1": "Staking",
+                        "2": "mSAND"
+                    },
+                    "2": "Owning LANDs",
+                    "3": "Owning a Season 1 Alpha Pass",
+                    "4": "Owning a Snoop Dogg Private Party Pass",
+                    "5": "Owning a Snoopverse Early Access Pass",
+                    "6": "Answering the Alpha Season 1 feedback form"
+                },
+                "warning": {
+                    "1": "Raffle Tickets are not NFTs and cannot be traded on the secondary market.",
+                    "2": "You must reach at least Level 1 to be elegible for the Raffle."
+                }
+            },
+            "quests": {
+                "title": "Quests & Raffle Tickets",
+                "blocks": {
+                    "first": {
+                        "number": "1",
+                        "title": "Locate Quests:",
+                        "description": {
+                            "1": "Look for",
+                            "2": "yellow exclamation",
+                            "3": "marks inside the experiences to find quests"
+                        }
+                    },
+                    "second": {
+                        "number": "2",
+                        "title": "Complete Quests:",
+                        "description": "Complete the objective(s) described in the info panel on the right side of the screen."
+                    },
+                    "third": {
+                        "number": "3",
+                        "title": "Level-up:",
+                        "description": {
+                            "1": "You will level-up",
+                            "2": "after completing enough quests",
+                            "3": "There are 5 levels that you can unlock."
+                        }
+                    },
+                    "fourth": {
+                        "number": "4",
+                        "title": "Earn Raffle Tickets:",
+                        "description": {
+                            "1": "You will",
+                            "2": "earn more and more Raffle Tickets",
+                            "3": "every time you level-up."
+                        }
+                    }
+                },
+                "warning": {
+                    "title": "Warning",
+                    "first": {
+                        "1": "As The Sandbox is in Alpha state at the moment,",
+                        "2": "we are missing some quest features that could create confusion",
+                        "3": "but that will never prevent you from earning your rewards:"
+                    },
+                    "second": {
+                        "1": "There is no feedback informing you if you already completed a specific quest",
+                        "2": "when returning to an experience you already visited."
+                    },
+                    "third": {
+                        "1": "If you",
+                        "2": "complete the same quest multiple times, it will grant you progression only once."
+                    },
+                    "fourth": {
+                        "1": "To avoid confusion on which quest you have already completed or not, we advise you to",
+                        "2": "keep track of it on a notepad while playing the game."
+                    },
+                    "fifth": {
+                        "1": "To help you with that, you will always be able to",
+                        "2": "see on the Alpha Map the number of quests you have already completed",
+                        "3": "for each experience."
+                    },
+                    "sixth": {
+                        "1": "Also, please note that you do not have to complete all the quests in Season 2 to max out the number of Raffle Tickets you will earn.",
+                        "2": "Just choose the quests you like the most!"
+                    }
+                }
+            },
+            "communityBooster": {
+                "mSand": "mSAND",
+                "title": "Staking & Community Booster",
+                "subtitle": {
+                    "1": "EXTRA RAFLLE TICKETS FOR SAND STAKING:",
+                    "2": "COMMUNITY REWARD BOOSTER:"
+                },
+                "bulletPoints": {
+                    "1": {
+                        "1": "You can get",
+                        "2": "up to 200 extra Raffle Tickets by staking"
+                    },
+                    "2": {
+                        "1": "The higher your staking score is, the more Raffle Tickets you will get. The staking score is calculated from how much",
+                        "2": "you staked, and how long you staked it, even if you don’t stake a lot, we value your loyalty!"
+                    },
+                    "3": {
+                        "1": "The more the community stakes",
+                        "2": "the",
+                        "3": "more rewards everyone gets!"
+                    },
+                    "4": {
+                        "1": "The staking score of the whole community will be added together to create a Reward Community Booster that will increase the S2 Alpha Pass rewards for everyone.",
+                        "2": "At its highest, the Reward Community Booster can DOUBLE the regards (+100%)."
+                    }
+                }
+            },
+            "contest": {
+                "title": "Contests",
+                "description": {
+                    "1": {
+                        "1": "Participate every day in social contests on",
+                        "2": "The Sandbox Twitter",
+                        "3": "account to get a chance to win a Season 2 Alpha Pass."
+                    },
+                    "2": "1,000 Season 2 Alpha Passes are distributed every Thursday."
+                },
+                "bulletPoints": {
+                    "1": "You can participate in each daily contest only once but you can maximize your chances of winning by participating in the daily contest every day of the week!",
+                    "2": "Daily contest activities will range from trying to find Easter eggs in the game or capturing cool screenshots."
+                },
+                "warning": "Please note that if you get a Season 2 Alpha Pass through daily contests you will no longer be elegible to receive one from the Raffle at the end of Alpha Season 2."
+            },
+            "experiences": {
+                "title": "Types of experiences",
+                "cards": {
+                    "sandbox": {
+                        "title": "THE SANDBOX",
+                        "body": "Official TSB experiences, created by The Sandbox team."
+                    },
+                    "partners": {
+                        "title": "PARTNERS",
+                        "body": "Created by our Partners. They have the ownership and responsibility of their content."
+                    },
+                    "gameMaker": {
+                        "title": "GAME MAKER FUND",
+                        "body": "Experiences made by the GMF creators, funded and supported by TSB."
+                    },
+                    "gameJam": {
+                        "title": "GAME JAM",
+                        "body": "The best experiences made by the community for the TSB Alpha Game Jam."
+                    }
+                }
             }
         },
         "levelUp": {
@@ -2335,7 +2666,13 @@
                     "3": "发放补贴给100位艺术家，让他们创作NFT，大部分作品已发布在",
                     "4": "通过社区奖励和大使计划，支持当地社区主管，提升《The Sandbox》、NFT和区块链游戏的全球关注度",
                     "5": "为《The Sandbox》团队举办的各类比赛（VoxEdit比赛和Game Jams）赞助奖项，激发全球用户的创造力，吸引他们使用我们平台的工具。",
-                    "6": "支持边玩边赚联赛与跨游戏活动，鼓励大家广泛使用SAND。"
+                    "6": "支持边玩边赚联赛与跨游戏活动，鼓励大家广泛使用SAND。",
+                    "2a": "https://www.sandbox.game/game/top",
+                    "2b": "",
+                    "3a": "http://www.sandbox.game/shop",
+                    "3b": "",
+                    "4a": "https://medium.com/sandbox-game/the-sandbox-ambassador-program-4f00bb5c9c24",
+                    "4b": ""
                 }
             }
         },
@@ -2677,7 +3014,7 @@
                 "9": "已拥有的优质人物造型"
             },
             "tabs": {
-                "1": "物品栏",
+                "1": "My Avatars",
                 "2": "市场",
                 "3": "人物造型创作工具"
             },
@@ -2759,10 +3096,27 @@
                 "presetName": "预设名称"
             },
             "titleCreator": "人物造型创作工具",
-            "title": "Avatar Manager",
+            "title": "Create your Avatar",
             "custom": "Custom bodyparts only",
             "iosWarning": "Your device is not compatible with this feature. Please try on desktop version.",
-            "iosWarningTitle": "Sorry"
+            "iosWarningTitle": "Sorry",
+            "externalAvatarsPopUp": {
+                "title1": "Hey!",
+                "title2": "You have external avatars",
+                "description": "Do you want to check them out?",
+                "skipButton": "skip",
+                "editButton": "Edit Avatar"
+            },
+            "noNfts": {
+                "title": "Ups!",
+                "description1": "You don't have external avatars",
+                "description2": "But you can create your own"
+            },
+            "notWhitelisted": {
+                "title": "Ups!",
+                "description1": "Your wallet is not whitelisted!",
+                "description2": "You don't have access to this section."
+            }
         },
         "loginModal": {
             "title": "登录或创建账户",
@@ -3149,7 +3503,8 @@
         "artifacts": "作品",
         "coming": "即将推出",
         "selectAvatar": "选择你的头像",
-        "infoTooltip": "每拥有一块LAND，就可获得1张额外的抽奖券"
+        "infoTooltip": "每拥有一块LAND，就可获得1张额外的抽奖券",
+        "helpUs": "Help us improve The Sandbox experience!"
     },
     "experiencePage": {
         "progressSeason": "赛季进度",
@@ -4182,7 +4537,9 @@
                 "tutorial": "播放教程",
                 "why": "为何使用Matic？"
             },
-            "maticCoin": "MATIC"
+            "maticCoin": "MATIC",
+            "mainnetL2Title": "",
+            "testnetL2Title": ""
         },
         "tutorial": {
             "step1": {
@@ -4458,18 +4815,20 @@
             },
             "mintYourSnoopAvatar": {
                 "title1": "Mint your",
-                "title2": "Snoop Avatar",
+                "title2": "Doggy",
                 "description": "Be among the first ones to mint your own Snoop avatars. Up to 10 avatars available for pass holders.",
                 "button": "Mint now",
-                "prelaunch": "Coming straight to tha metaverse. 10K unique Snoop Dogg Avatars dropping February 2022. Join the Discord to stay informed!",
+                "prelaunch": "Coming straight to tha metaverse. 10K unique Doggies dropping February 2022. Join the Discord to stay informed!",
                 "joinDiscord": "JOIN DISCORD",
-                "postlaunch": "The Snoop Dogg avatars are SOLD OUT! Head over to OpenSea and explore all available avatars for sale.",
+                "postlaunch": "The Doggies are SOLD OUT! Head over to OpenSea and explore all available avatars for sale.",
                 "joinOpensea": "GO TO OPENSEA",
                 "comingSoon": "Coming soon",
                 "coming": "Coming",
                 "soon": "Soon",
                 "getYour": "Get your",
-                "snoopAvatar": "Snoop Dogg Avatar"
+                "snoopAvatar": "Doggies",
+                "description1": "Be among the first ones to mint your own Doggy. Up to",
+                "description2": "avatars available for pass holders."
             },
             "meta": {
                 "title": "The Sandbox Game - Snoop Dogg avatars are coming to The Sandbox",
@@ -5066,7 +5425,8 @@
                 "paragraphs": {
                     "1": "The Doggies will be released in two waves:",
                     "2": "1) Whitelisted users will have a chance to mint one Doggy with a time limit of 24 hours, between February 22nd and February 23rd.",
-                    "3": "2) When the public release is live, users will have the chance to mint up to 10 Doggies from February 23rd to February 24th."
+                    "3": "2) When the public release is live, users will have the chance to mint up to",
+                    "4": "Doggies from February 23rd to February 24th."
                 }
             },
             "7": {
@@ -5176,9 +5536,101 @@
         }
     },
     "bridge": {
-        "greeting": "",
-        "walletBalance": "",
-        "nftOnEth": "",
-        "nftOnPolygon": ""
+        "greeting": "Hi",
+        "walletBalance": "Your wallet balance",
+        "nftOnEth": "NFT's on Ethereum Mainnet",
+        "nftOnPolygon": "NFT's on Polygon Mainnet",
+        "banner": {
+            "title": "",
+            "subtitleDeposit1": "",
+            "subtitleDeposit2": "",
+            "subtitleWithdraw": "",
+            "howToLink": "",
+            "guideLink": "",
+            "faqLink": ""
+        },
+        "polygonCard": {
+            "title": "",
+            "subtitle": "",
+            "ctaText": "",
+            "tutorialLink": "",
+            "usePolygonLink": ""
+        },
+        "sidebar": {
+            "amount": "Transfer Amount",
+            "amountSet": "Set amount",
+            "amountEnter": "Enter amount",
+            "view": "View on Etherscan",
+            "failure": {
+                "title": "Transfer failed",
+                "footerTitle": "The transaction has failed",
+                "footerText1": "Something has happened that the transaction has not been succesfull. Try again later.",
+                "button": "Make a new deposit"
+            },
+            "toPolygon": {
+                "step1": {
+                    "title": "Convert to Polygon SAND",
+                    "subTitle": "Deposit SAND from Ethereum into Polygon",
+                    "footerText1": "Remember, any transaction that moves assets within, to, or from the Ethereum blockchain will incur gas fees.",
+                    "footerText2": "Only transactions conducted exclusively on Polygon are gas cheaper.",
+                    "button": "Start Deposit"
+                },
+                "step2": {
+                    "title": "Confirm Transfer",
+                    "subTitle": "Please review your transaction",
+                    "footerTitle": "Estimated transaction fee",
+                    "gasGuessEth": "Deposit Complete",
+                    "button": "Continue"
+                },
+                "step3": {
+                    "step103": "STEP 1/3",
+                    "title": "Transfer in progress",
+                    "footerTitle": "Transaction in progress",
+                    "footerText1": "Etherum transaction can take longer time to complete based upon network congestion. Please wait or increase the gas price of the transaction."
+                },
+                "step4": {
+                    "step203": "STEP 2/3",
+                    "title": "Transfer en route",
+                    "footerTitle": "Your transaction is almost there",
+                    "footerText1": "Your transfer is en-route. It will take 7 - 8 minutes for the deposit to get completed. On completion, your balance will be uploaded"
+                },
+                "step5": {
+                    "step303": "STEP 3/3",
+                    "title": "Transfer completed",
+                    "footerTitle": "Transfer completed successfully",
+                    "footerText1": "Your transfer is completed successfully",
+                    "button": "Back to Wallet"
+                }
+            },
+            "toEthereum": {
+                "step1": {
+                    "title": "Convert to Ethereum SAND",
+                    "subTitle": "Withdraw SAND from Polygon into Ethereum",
+                    "button": "Start Withdrawal"
+                },
+                "step2": {
+                    "title": "Confirm Transfer",
+                    "footerTitle": "Withdraw process for PoS consists of two transactions",
+                    "footerText1": "Estimation of total gas required for those transactions",
+                    "gasGuessPol": "Withdraw initialized",
+                    "gasGuessEth": "Withdraw Complete"
+                },
+                "step3": {
+                    "footerTitle": "Waiting for checkpoint",
+                    "footerText1": "Please wait until Matic checkpoint arrive with your previous transaction. Checkpoint takes 45 mins to 3 hour. In case of any issue please reach our support"
+                },
+                "step4": {
+                    "footerTitle": "Checkpoint arrived",
+                    "footerText1": "Your transaction is checkpinted on Etherum network.",
+                    "footerText2": "You need for confirm one more transaction to get your found in your Etherum account."
+                },
+                "step5": {
+                    "title": "Withdrawn initiated"
+                },
+                "step6": {
+                    "title": "Transfer completed"
+                }
+            }
+        }
     }
 }
