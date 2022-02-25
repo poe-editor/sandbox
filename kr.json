@@ -200,10 +200,10 @@
                 "confirmDates": "확인",
                 "nextDate": "다음"
             },
-            "invalidPrice": "Invalid price.",
-            "invalidAmount": "Invalid amount.",
-            "maxPrice": "Sell price must not be greater than 3000000000.",
-            "maxAmount": "Maximum amount to sell is 12000."
+            "invalidPrice": "유효하지 않은 가격",
+            "invalidAmount": "유효하지 않은 수량",
+            "maxPrice": "판매 가격은 3,000,000,000 이하로 설정해야 합니다.",
+            "maxAmount": "최소 판매 수량은 12,000입니다."
         },
         "readMore": "",
         "windows": "Windows",
@@ -236,8 +236,8 @@
                 "requiredAmount1": "거래를",
                 "requiredAmount2": "완료해야 합니다",
                 "titleStaking": "Get SAND",
-                "aboutBiconomy": "The Sandbox Meta Transactions on new features deployed on Polygon network. They allow us to wrap transactions so the only token you need is mSAND.",
-                "changeSettings": "Chain settings"
+                "aboutBiconomy": "새로운 기능에 대한 더 샌드박스 메타 트랜잭션이 폴리곤 네트워크에 배포되었습니다. 이를 통해 트랜잭션을 래핑할 수 있으므로 mSAND 외 다른 토큰은 필요하지 않습니다.",
+                "changeSettings": "체인 설정"
             },
             "lottery": {
                 "inPreseason": "알파 진행 중",
@@ -249,15 +249,15 @@
                     "go": "프리 시즌으로 이동"
                 },
                 "hasRewards": "Alpha Rewards",
-                "noRewards": "No Alpha Rewards",
-                "noAlphaPass": "NOT IN ALPHA",
-                "alphaPass": "IN ALPHA"
+                "noRewards": "알파 리워드 없음",
+                "noAlphaPass": "알파 진행 중 아님",
+                "alphaPass": "알파 진행 중"
             },
             "balances": {
                 "testNetRinkeby": "TESTNET RINKEBY NETWORK",
                 "testNetGoerli": "TESTNET GOERLI NETWORK",
                 "testNetMumbai": "TESTNET MUMBAI NETWORK",
-                "mainNet": "MAINNET NETWORK"
+                "mainNet": "메인넷 네트워크"
             },
             "notifications": {
                 "status": {
@@ -281,7 +281,7 @@
         "sidebar": {
             "home": "홈",
             "play": "알파",
-            "shop": "상점",
+            "shop": "마켓",
             "create": "만들기",
             "map": "맵",
             "about": "소개",
@@ -304,10 +304,10 @@
                 "play": "플레이",
                 "whitepaper": "백서",
                 "faq": "FAQ",
-                "map": " 맵",
+                "map": "맵",
                 "sand": "SAND",
                 "press": "보도 자료",
-                "terms": "이용 약관을 수락합니다",
+                "terms": "이용 약관",
                 "onepager": "요약 자료",
                 "license": "라이선스",
                 "careers": "채용"
@@ -347,8 +347,8 @@
         "header": {
             "title": "오픈 메타버스에 오신 것을 환영합니다",
             "description": {
-                "preSeason": "The Alpha Season 2 is coming soon. Register to recieve more information.",
-                "duringSeason": "Play the Alpha Season 2 and try to win an Alpha Pass by completing Quests."
+                "preSeason": "알파 시즌 2가 곧 찾아옵니다. 등록해서 상세 정보를 받아보세요.",
+                "duringSeason": "알파 시즌 2를 플레이하고 퀘스트를 완료해서 알파 패스를 획득해 보세요."
             },
             "preseason": "첫 시즌을 확인하세요",
             "buttonText": {
@@ -365,8 +365,8 @@
             "description2": "Click here to see the rewards of Alpha Season 1",
             "createButtonText": "Create Account",
             "ribbon": {
-                "preSeason": "ALPHA SEASON 2 IS COMING SOON",
-                "duringSeason": "ALPHA SEASON 2 IS LIVE"
+                "preSeason": "2022년 3월 3일, 알파 시즌 2가 시작됩니다",
+                "duringSeason": "알파 시즌 2 진행 중"
             },
             "createAccount": "Create account"
         },
@@ -398,19 +398,19 @@
             "button": "더 알아보기"
         },
         "community": {
-            "badge": "what's new!",
-            "title": "Community",
-            "description": "Stay tuned with the latest The Sandbox’s news. Read everything you need to know in our blog."
+            "badge": "새 소식",
+            "title": "커뮤니티",
+            "description": "더 샌드박스의 새 소식을 놓치지 마세요. 블로그를 확인하여 자세한 정보를 알아보세요."
         },
         "avatar": {
-            "title": "The Sandbox Avatar",
+            "title": "더 샌드박스 아바타",
             "description": {
-                "1": "Take your profile pic to the next level. Now you can choose your favourite Avatar to explore The Sandbox Metaverse.",
-                "2": "Connect your favourite wallet to find out if you own an External Avatar."
+                "1": "프로필 사진을 한층 더 새롭게 꾸며보세요. 이제 마음에 드는 아바타를 선택하여 더 샌드박스 메타버스를 탐험할 수 있습니다.",
+                "2": "자주 사용하는 지갑을 연결하여 외부 아바타가 있는지 확인해 보세요."
             },
             "button": {
-                "wallet": "Connect Wallet",
-                "avatar": "Create Avatar"
+                "wallet": "지갑 연결하기",
+                "avatar": "아바타 만들기"
             }
         }
     },
@@ -419,12 +419,12 @@
             "play": "플레이",
             "rewards": "리워드",
             "info": "정보",
-            "raffleTickets": "Tickets",
-            "contests": "Contests"
+            "raffleTickets": "티켓",
+            "contests": "콘테스트"
         },
         "play": {
             "selectAvatar": "아바타 선택",
-            "enter": "Enter the Alpha Lobby",
+            "enter": "알파 로비 입장하기",
             "learnMore": "알파에 관해 더 알아보기",
             "legend": "알파에 관해 도움이 필요하신가요?",
             "sendFeedback": "Send Feedback",
@@ -545,69 +545,69 @@
                 "seasonLockedTitle": "알파 패스가 없습니다",
                 "seasonLockedDescription": "알파를 진행하여 1,000 SAND와 NFT 리워드 3개를 받으려면 알파 패스가 필요합니다.",
                 "seasonLockedButton": "OpenSea에서 찾기",
-                "description3": "You will be able to claim your rewards at the end of the Alpha, on December 20, 2021. Keep your Alpha Pass with you until that date.",
+                "description3": "2021년 12월 20일 알파 종료일에 리워드를 수령할 수 있습니다. 해당일까지 알파 패스를 보유하고 있어야 합니다.",
                 "alpha2": {
-                    "title": "Rewards",
-                    "subtitle": "Alpha Season 2",
-                    "date": "From March 3 until March 31",
-                    "seasonOverTitle": "THE ALPHA SEASON 2 IS OVER!",
+                    "title": "리워드",
+                    "subtitle": "알파 시즌 2",
+                    "date": "3월 3일~3월 31일",
+                    "seasonOverTitle": "알파 시즌 2가 종료되었습니다.",
                     "seasonOverDescription": "Thanks for joining the Alpha, we are getting your rewards ready! When enabled, click the Claim button.",
-                    "raffleStartsIn": "RAFFLE STARTS IN",
-                    "raffleResultsIn": "RAFFLE RESULTS IN",
-                    "claimAvailableAt": "CLAIM AVAILABLE AT",
-                    "raffleTitle": "RAFFLE DAY",
+                    "raffleStartsIn": "추첨 시작까지 남은 시간:",
+                    "raffleResultsIn": "추첨 결과 발표까지 남은 시간:",
+                    "claimAvailableAt": "수령 가능:",
+                    "raffleTitle": "추첨일",
                     "raffleTitle2": "MARCH",
-                    "raffleDrawTitle": "RAFFLE DRAW",
-                    "raffleDrawTitle2": "IN PROGRESS",
-                    "raffleDescription": "Earn Raffle Tickets by completing Quests.",
-                    "raffleDescription2": "More Tickets = More chances to win an Alpha Pass.",
+                    "raffleDrawTitle": "추첨",
+                    "raffleDrawTitle2": "진행 중",
+                    "raffleDescription": "퀘스트를 완료하고 추첨 티켓을 획득하세요.",
+                    "raffleDescription2": "티켓이 많을수록 알파 패스 당첨 가능성이 커집니다.",
                     "raffleDrawDescription": "At the end of the Raffle, you will find out if you win a Season 2 Alpha Pass. Good luck!",
-                    "howToGet": "How to get the Season 2 Alpha Pass?",
-                    "raffleButton": "Raffle",
+                    "howToGet": "어떻게 시즌 2 알파 패스를 획득할 수 있나요?",
+                    "raffleButton": "추첨",
                     "contestButton": "Contest",
-                    "buyButton": "Buy",
-                    "claimRewards": "Claim Rewards",
-                    "claimRewardsDescription": "Claim your Rewards on",
-                    "claimRewardsDescription2": "March 25.",
-                    "moreInfo": "More info",
-                    "freeToPlay": "Free to Play",
-                    "alphaPass": "Alpha Pass",
-                    "locked": "Locked",
-                    "summary": "Summary",
-                    "totalRaffleTickets": "Total Raffle Tickets",
-                    "getMoreTickets": "Get More Tickets",
-                    "winAlphaDescription": "Increases your chances of winning an Alpha Pass during the Raffle by collecting Raffle Tickets.",
-                    "raffleTicket": "Raffle Ticket",
-                    "youCannotParticipate": "You cannot participate in the raffle because you already own an Alpha Pass",
-                    "youAlreadyOwn": "You own a Season 2 Alpha Pass so you cannot participate in the Raffle.",
-                    "wonAlpha": "Congratulations! You won a Season 2 Alpha Pass.",
-                    "totalRewards": "Total Rewards",
-                    "boostRewards": "Stake mSAND",
-                    "communityBooster": "Community Booster",
-                    "increaseTotalDescription": "Boost rewards by staking",
-                    "youCanWinDescription": "You can win an Alpha Pass on Raffle on March 18th. Get Raffle ticket by completing quests!",
-                    "alreadyOwn": "You already own an Alpha Pass",
-                    "claimIt": "To unlock rewards Claim it.",
-                    "betterLuck": "Better luck next time",
-                    "didNotWin": "You did not win a Season 2 Alpha Pass",
-                    "communityBoosterRewards": "Community Booster Rewards",
-                    "baseRewards": "Base Rewards",
-                    "boostedRewards": "Boosted Rewards",
-                    "staking": "Staking",
-                    "lands": "LANDS",
-                    "feedbackForm": "Feedback Form",
-                    "raffleDaysLeft": "DAYS UNTIL RAFFLE",
-                    "raffleDay": "DAY FOR RAFFLE RESULTS",
-                    "raffleGoodLuck": "Good Luck!!",
-                    "raffleDayDesc": "Win an Alpha Pass!",
-                    "claimPass": "Claim Pass",
-                    "enterTheParty": "Enter the Party!",
+                    "buyButton": "구매",
+                    "claimRewards": "리워드 받기",
+                    "claimRewardsDescription": "3월 25일에",
+                    "claimRewardsDescription2": "리워드를 수령하세요.",
+                    "moreInfo": "자세히 알아보기",
+                    "freeToPlay": "무료 플레이",
+                    "alphaPass": "알파 패스",
+                    "locked": "잠김",
+                    "summary": "요약",
+                    "totalRaffleTickets": "총 추첨 티켓 수",
+                    "getMoreTickets": "티켓 더 획득하기",
+                    "winAlphaDescription": "추첨 티켓을 모아 알파 패스 당첨 기회를 높여보세요.",
+                    "raffleTicket": "추첨 티켓",
+                    "youCannotParticipate": "이미 알파 패스가 있으므로 추첨에 참여할 수 없습니다.",
+                    "youAlreadyOwn": "시즌 2 알파 패스가 있으므로 추첨에 참여할 수 없습니다.",
+                    "wonAlpha": "축하합니다! 시즌 2 알파 패스에 당첨되었습니다!",
+                    "totalRewards": "총 리워드",
+                    "boostRewards": "mSAND 스테이킹하기",
+                    "communityBooster": "커뮤니티 부스터",
+                    "increaseTotalDescription": "리워드를 부스트하려면 스테이킹하세요:",
+                    "youCanWinDescription": "3월 18일 추첨에서 알파 패스를 획득할 수 있습니다. 퀘스트를 완료하여 추첨 티켓을 받으세요.",
+                    "alreadyOwn": "이미 알파 패스가 있습니다.",
+                    "claimIt": "리워드를 잠금 해제하려면 패스를 수령하세요.",
+                    "betterLuck": "아쉽네요.",
+                    "didNotWin": "시즌 2 알파 패스에 당첨되지 않았습니다.",
+                    "communityBoosterRewards": "커뮤니티 부스터 리워드",
+                    "baseRewards": "기본 리워드",
+                    "boostedRewards": "부스트 적용 리워드",
+                    "staking": "스테이킹",
+                    "lands": "LAND",
+                    "feedbackForm": "피드백 양식",
+                    "raffleDaysLeft": "추첨까지 남은 일수",
+                    "raffleDay": "추첨 결과 발표일",
+                    "raffleGoodLuck": "행운을 빕니다!!",
+                    "raffleDayDesc": "알파 패스를 획득해 보세요!",
+                    "claimPass": "패스 수령하기",
+                    "enterTheParty": "파티에 입장하세요!",
                     "contest": {
-                        "results": "Contest Results",
-                        "checkResults": "Check contest results here every Thursday. You will also receive an email if you won the Alpha Pass",
-                        "buttonTooltip": "Claim your Season 2 Alpha Pass before March 31.",
-                        "didntWin": "You didn't win yet",
-                        "won": "YOU WON!",
+                        "results": "콘테스트 결과",
+                        "checkResults": "매주 목요일에 콘테스트 결과가 발표되며 당첨 시 이메일로도 알림이 전송됩니다.",
+                        "buttonTooltip": "3월 31일 이전에 시즌 2 알파 패스를 수령하세요.",
+                        "didntWin": "아직 당첨되지 않았습니다",
+                        "won": "당첨!",
                         "sub1": "Check contest results here every Thursday.",
                         "sub2": "You will also receive an email if you won.",
                         "didntYet": "You didn't win yet",
@@ -617,51 +617,51 @@
                         "week2": "Week March 10 - March 16",
                         "week3": "Week March 17 - March 23"
                     },
-                    "seasonOverDescription2": "Claim your Alpha Pass now to visit the Pass holders VIP Party and to claim your $SAND rewards later on!",
-                    "seasonOverDescription3": "Unfortunately you did not win a Season 2 Alpha Pass.",
-                    "raffleTitle3": "RAFFLE CLAIM DAY",
-                    "raffleDescription3": "Unlock your $SAND rewards by completing Quests. More Quests completed = more rewards unlocked.",
-                    "communityBoosterDescription1": "Stake",
-                    "communityBoosterDescription2": "to increase the total prize pool. Up to + 100%.",
-                    "communityBoosterDescription3": "You will also get up to 200 extra Raffle Tickets",
-                    "raffleHasPass": "DAYS TO CLAIM",
-                    "raffleHasPassDesc": "You own a S2 Alpha Pass",
+                    "seasonOverDescription2": "지금 알파 패스를 수령하여 패스 보유자를 위한 VIP 파티에 참석하세요. $SAND 리워드는 나중에 수령할 수 있습니다!",
+                    "seasonOverDescription3": "아쉽지만 시즌 2 알파 패스에 당첨되지 않았습니다.",
+                    "raffleTitle3": "추첨 수령일",
+                    "raffleDescription3": "퀘스트를 완료하여 $SAND 리워드를 잠금 해제하세요. 퀘스트를 많이 완료할수록 더 많은 리워드가 주어집니다.",
+                    "communityBoosterDescription1": "전체 상금 풀을 늘리려면",
+                    "communityBoosterDescription2": "총 상금 풀을 최대 100%까지 늘려 보세요.",
+                    "communityBoosterDescription3": "최대 200개의 추첨 티켓을 추가로 획득할 수 있습니다",
+                    "raffleHasPass": "수령까지 남은 일수",
+                    "raffleHasPassDesc": "S2 알파 패스가 있습니다.",
                     "communityBoosterDescription": "",
-                    "enterThePartyDescription": "Add Join the VIP Party on Thursday March 24 at 7PM",
+                    "enterThePartyDescription": "3월 24일 목요일 오후 7시 VIP 파티에 참여하세요",
                     "seasonOverDescription4": "",
-                    "communityBoosterDescription4": "for staking",
-                    "communityBoosterDescription5": "1 point is earned for each",
-                    "communityBoosterDescription6": "staked for the whole season.",
+                    "communityBoosterDescription4": "스테이킹해서",
+                    "communityBoosterDescription5": "전체 시즌 동안 스테이킹하는",
+                    "communityBoosterDescription6": "한 개마다 1포인트를 얻게 됩니다.",
                     "enterThePartyDescription2": "Enter to be part of the VIP Party for Pass holders only!"
                 },
-                "timeRewards": "CLAIM REWARDS IN",
-                "raffleResults": "RAFFLE RESULTS IN",
-                "raffleStarts": "RAFFLE STARTS IN",
+                "timeRewards": "리워드 수령까지 남은 기간:",
+                "raffleResults": "추첨 결과 발표까지 남은 시간:",
+                "raffleStarts": "추첨 시작까지 남은 시간:",
                 "timeLeft": "남은 시간",
                 "timeLeftToClaim": "CLAIM AVAILABLE IN"
             },
-            "experienceToVisit": "Quest completed",
+            "experienceToVisit": "퀘스트 완료",
             "raffleTickets": {
-                "quest": "Quest",
-                "capsAt": "Caps at",
-                "perWallet": "per wallet",
-                "seasonFeedback": "Season 1 Feedback form",
-                "seasonFeedbackEarned": "Earned by answering the feedback form at the end of Season 1",
-                "seasonFeedbackDesc": "Feedback form is no longer available",
-                "title": "Raffle Tickets source",
-                "subTitle": "More tickets more chance to win a Season 2 Alpha Pass",
-                "questDesc": "Earn by leveling up",
-                "stakingDesc": "Earn by staking",
-                "snoop": "Snoop Dogg Private Party Pass",
-                "nftDesc": "Earn by owning this NFTs",
-                "snoop2": "Snoopers Early Access Pass",
-                "season1": "Season 1 Alpha Pass",
-                "land": "Earn by owning LAND(s)",
-                "total": "Your Total Raffle Tickets",
-                "getNFT": "Get NFT",
-                "stake": "Stake",
-                "notTraded": "Raffle Tickets are not NFTs and",
-                "notTraded2": "cannot be traded on the secondary market",
+                "quest": "퀘스트",
+                "capsAt": "지갑당 최대",
+                "perWallet": "개",
+                "seasonFeedback": "시즌 1 피드백 양식",
+                "seasonFeedbackEarned": "시즌 1 종료 후 피드백 양식에 답변하여 획득",
+                "seasonFeedbackDesc": "피드백 양식은 더 이상 사용할 수 없습니다",
+                "title": "추첨 티켓 획득처",
+                "subTitle": "티켓이 많을수록 시즌 2 알파 패스 획득 확률이 증가합니다.",
+                "questDesc": "레벨업하여 획득",
+                "stakingDesc": "스테이킹으로 획득",
+                "snoop": "스눕독 프라이빗 파티 패스",
+                "nftDesc": "추첨일에 해당 NFT를 소유하고 있을 경우 획득",
+                "snoop2": "스누퍼 얼리 액세스 패스",
+                "season1": "시즌 1 알파 패스",
+                "land": "LAND를 소유하여 획득",
+                "total": "총 추첨 티켓",
+                "getNFT": "NFT 획득하기",
+                "stake": "스테이킹",
+                "notTraded": "추첨 티켓은 NFT가 아니며,",
+                "notTraded2": "2차 마켓에서 거래할 수 없음",
                 "questTooltipDesc": "You get Raffle tickets everytime you level up. The amount of tickets per level is indicated in the Rewards tab.",
                 "stakeTooltipDesc": "Get 1 extra Raffle Tickets for every [stakingAmount/stakingMultiplier] mSAND you stake during the whole Season 2 duration (28 days). 200 Raffle Tickets maximum.",
                 "snoopTooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoop Dogg Private Party Pass NFT. You need to own the NFT in your wallet when the Raffle starts (March 31).",
@@ -670,13 +670,13 @@
                 "landTooltipDesc": "Get 40 extra Raffle Tickets per LAND you own. You need to own the NFT(s) in your wallet when the Raffle starts (March 31). 200 Raffle Tickets maximum.",
                 "feedbackTooltipDesc": "If you answered the Season 1 feedback form, you get 10 extra Raffle Tickets. This form is now closed. This is our way of thanking our community for engaging in the Alpha Season 1. Remember to fill in the feedback form at the end of Season 2!"
             },
-            "downloadAlpha": "Download Alpha"
+            "downloadAlpha": "알파 다운로드"
         },
         "info": {
             "title": "알파에 오신 것을 환영합니다",
             "description": {
-                "1": "Win the Season 2 Alpha Pass and earn up to",
-                "2": "1,000 $SAND rewards.",
+                "1": "시즌 2 알파 패스를 획득하고",
+                "2": "최대 1,000 $SAND 리워드를 받으세요.",
                 "3": "게임입니다",
                 "4": "알파 패스를 받아 플레이하고",
                 "5": "1,000 SAND와 멋진 NFT 리워드를 받아보세요!"
@@ -701,7 +701,7 @@
                 }
             },
             "earn": {
-                "title": "$SAND Rewards",
+                "title": "$SAND 리워드",
                 "subtitle1": "알파 패스가 있는 경우",
                 "firstDescription1": "플레이 투 언:",
                 "firstDescription2": "알파를 플레이하고",
@@ -714,23 +714,23 @@
                 "fifthDescription1": "콘텐츠:",
                 "fifthDescription2": "알파 허브와 3개의 경험을 추가로 이용할 수 있습니다.",
                 "description": {
-                    "1": "Earn up to",
-                    "2": "1,000 $SAND",
-                    "3": "rewards with the Season 2 Alpha Pass."
+                    "1": "시즌 2 알파 패스로 최대",
+                    "2": "1,000 $SAND의",
+                    "3": "리워드를 획득할 수 있습니다."
                 },
-                "seeRewards": "See Rewards",
+                "seeRewards": "리워드 보기",
                 "bulletPoints": {
                     "1": {
-                        "1": "Max. Base rewards:",
+                        "1": "최대 기본 리워드:",
                         "2": "500 $SAND"
                     },
                     "2": {
-                        "1": "Max. Boosted rewards:",
+                        "1": "최대 부스트 적용 리워드:",
                         "2": "1,000 $SAND"
                     },
-                    "booster": "Check the Community Booster section for more info."
+                    "booster": "자세한 정보는 커뮤니티 부스터 섹션을 확인하세요."
                 },
-                "boostRewards": "Boost Rewards"
+                "boostRewards": "리워드 부스트"
             },
             "whatCanIEarn": {
                 "title1": "어떤",
@@ -775,49 +775,49 @@
             "faq": {
                 "faqTitle": "자주 묻는 질문",
                 "about": {
-                    "title": "About the Alpha Season 2",
-                    "text1": "Who can access the Alpha?",
-                    "description1": "Everyone with a TSB account!! Contrary to Alpha Season 1, all of the 30 Season 2 experiences will be opened to all, except one that will be gated to Alpha Pass owners. The dynamic of the Season will be very different, everybody can play, and everybody has a chance to win an Alpha Pass by playing!",
-                    "text2": "How long does the Alpha last?",
-                    "description2": "4 weeks, from March 3 till March 31 2022."
+                    "title": "알파 시즌 2 관련 정보",
+                    "text1": "알파는 누가 이용할 수 있나요?",
+                    "description1": "더 샌드박스 계정이 있다면 누구든지 이용 가능합니다. 시즌 2에서는 알파 패스 보유자에게만 공개되는 한 개의 경험을 제외하고 누구나 나머지 30개의 경험을 즐길 수 있어 알파 시즌 1과 또 다른 분위기를 자아낼 것으로 기대됩니다. 누구나 플레이할 수 있고, 플레이하면 알파 패스를 받을 기회를 잡을 수 있습니다.",
+                    "text2": "알파는 얼마동안 진행되나요?",
+                    "description2": "2022년 3월 3일부터 3월 31일까지 4주간 진행됩니다."
                 },
                 "howToJoin": {
-                    "title": "Joining the Alpha Season 2 (Raffle)",
-                    "text1": "How can I get an Alpha Pass?",
+                    "title": "알파 시즌 2 참여 (추첨)",
+                    "text1": "어떻게 알파 패스를 획득할 수 있나요?",
                     "bulletPoints": {
-                        "title1": "- The Raffle:",
-                        "description1": "at the end of the Alpha Season 2: the more you play and the more you invest yourself in The Sandbox ecosystem, the more chances you have to win. S2AP will be distributed to the Raffle winners on Mar. 31, 2022.",
-                        "title2": "- Social Contests:",
-                        "description2": "Weekly distribution to the daily Social Contests winners.",
+                        "title1": "- 추첨:",
+                        "description1": "알파 시즌 2가 끝날 때 추첨을 진행합니다. 더 많이 플레이하고 더 샌드박스 생태계에 더 활발하게 참여할수록 당첨 확률이 증가합니다. 추첨에 당첨되면 2022년 3월 31일에 시즌 2 알파 패스가 지급됩니다.",
+                        "title2": "- 소셜 콘테스트:",
+                        "description2": "일일 소셜 콘테스트 우승자에게 매주 지급합니다.",
                         "title3": "- OpenSea:",
-                        "description3": "You can buy a S2AP on the secondary market if someone is willing to sell theirs.",
-                        "warning": "Be careful when purchasing a S2AP on the secondary market as there may be fakes and there is no point in purchasing one after Season 2 has ended on March 31, 2022 at 4 PM UTC."
+                        "description3": "판매하는 사람이 있다면 누구나 2차 마켓에서 시즌 2 알파 패스를 구매할 수 있습니다.",
+                        "warning": "2차 마켓에서 알파 패스를 구매할 때는 가짜 패스가 아닌지 반드시 철저히 확인 후에 구매해야 합니다. 또한 2022년 3월 31일 오후 4시(UTC)에 시즌 2가 종료된 이후에는 시즌 2 알파 패스를 구매해도 리워드를 획득할 수 없습니다."
                     },
                     "text2": "How do I register for the raffle?",
-                    "description2": "The Raffle will occur at the end of the Alpha Season 2 on March 31, 2022. Contrary to Season 1, there is no Raffle before the Season starts. To register for the Season 2 Raffle, you simply have to play the game. By completing quests in the game (which everybody can do for free) you will earn Raffle Tickets by leveling up. As soon as you reach level 1 (which is very fast, you only need to complete a few quests) you will become eligible for the Raffle.",
+                    "description2": "추첨은 2022년 3월 31일 알파 시즌 2 종료 후에 진행됩니다. 시즌 1과 달리, 시즌 2 시작 전에는 추첨이 진행되지 않습니다. 시즌 2 추첨에 등록하려면 게임을 플레이하기만 하면 됩니다. 누구나 무료로 진행할 수 있는 퀘스트를 완료하면 레벨업을 통해 추첨 티켓을 획득하게 됩니다. 퀘스트를 몇 개만 완료하면 매우 빠르게 레벨 1에 도달할 수 있으며, 레벨 1에 도달하면 추첨 참여 기회가 주어집니다.",
                     "hrefText": "https://www.sandbox.game/en/season/",
                     "description3": "에서 등록하시기 바랍니다.",
-                    "text3": "What is the maximum number of Raffle tickets that I can get?",
-                    "description4": "Yes. You get 40 Raffle Tickets for each LAND you have in your wallet by the end of the Alpha Season 2 when the Raffle starts. Caped to a maximum of 200 Raffle Tickets (5 LANDs). This is going to significantly increase your chances but does not guarantee you to win.",
-                    "text4": "Do I have more chances to win an Alpha Pass if I’m a LAND owner?",
-                    "description5": "Yes. You get 90 extra Raffle Tickets if you have a Season 1 Alpha Pass in your wallet by the end of the Alpha Season 2 when the Raffle starts. This is not cumulative, only one S1AP per wallet will count for extra Raffle Tickets.",
-                    "text0": "What is the point of the Alpha Pass if everything is open to everyone?",
-                    "description0": "The $SAND rewards! Only Alpha Pass owners can claim the S2 Alpha Rewards at the end of the Alpha Season 2. Rewards can go up to 1,000 $SAND per S2 Alpha Pass.",
+                    "text3": "획득할 수 있는 추첨 티켓은 최대 몇 개인가요?",
+                    "description4": "네, 추첨이 시작되는 알파 시즌 2 종료 시점에 지갑에 보유한 LAND 1개당 40개의 추첨 티켓이 주어집니다. 최대 한도는 200개 (LAND 5개)입니다. LAND가 있으면 당첨 확률이 크게 증가하지만 당첨이 보장되지는 않습니다.",
+                    "text4": "LAND를 보유하고 있다면 알파 패스를 받을 확률이 증가하나요?",
+                    "description5": "네, 추첨이 시작되는 알파 시즌 2 종료 시점에 지갑에 시즌 1 알파 패스를 보유하고 있다면 90개의 추첨 티켓이 추가로 주어집니다. 다수의 시즌 1 알파 패스를 보유하고 있어도 주어지는 추첨 티켓의 수는 누적되지 않으며, 지갑당 한 개의 시즌 1 알파 패스로만 계산됩니다.",
+                    "text0": "누구나 이용할 수 있는데 알파 패스가 왜 필요한가요?",
+                    "description0": "알파 패스에는 $SAND 리워드가 주어집니다. 알파 시즌 2 종료 후, 알파 패스를 보유하고 있는 유저만 시즌 2 알파 리워드를 받을 수 있습니다. 리워드는 시즌 2 알파 패스 한 개당 최대 1,000 $SAND입니다.",
                     "description1": "There are 3 ways of winning a S2 Alpha Pass:",
-                    "description3a": "Please check the tab “Raffle Tickets” for more details.",
-                    "description3b": "In total, you can earn up to 1000 Raffle Tickets if you max out every source.",
-                    "text5": "Do I have more chances to win a Season 2 Alpha Pass if I own a Season 1 Alpha Pass?",
-                    "text6": "Do I have more chances to win a Season 2 Alpha Pass if I participated in Alpha Season 1 but did not keep my Season 1 Alpha Pass?",
-                    "description6": "No. You need to own a Season 1 Alpha Pass to get the associated extra Raffle Tickets.",
-                    "text7": "Can I win more than 1 Season 2 Alpha Pass in the Raffle if I own many LANDS and many Season 1 Alpha Passes?",
-                    "description7": "No. One Season 2 Alpha Pass per wallet only. If you get a Season 2 Alpha Pass by participating in Social Contests, you will not be able to get another one from the Raffle.",
-                    "text8": "Is there a moment where there is no point anymore to get a Season 2 Alpha Pass?",
-                    "description8a": "Yes. Do not purchase a S2AP on the secondary market after Season 2 has ended, on March 31, 2022 16 UTC, as you will not be able to claim the $SAND rewards with it anymore if you purchase it after this date.",
-                    "description8b": "But, you can safely purchase a S2AP on OpenSea while Alpha Season 2 is ongoing, as long as you own it before March 31, 2022 16 UTC."
+                    "description3a": "자세한 내용은 '추첨 티켓' 탭을 확인하세요.",
+                    "description3b": "획득 가능한 곳에서 최대로 획득할 수 있는 티켓 수는 1,000개입니다.",
+                    "text5": "시즌 1 알파 패스를 소유하면 시즌 2 알파 패스를 받을 확률이 증가하나요?",
+                    "text6": "알파 시즌 1에 참여했지만 시즌 1 알파 패스를 가지고 있지 않으면 시즌 2 알파 패스를 받을 확률이 증가하나요?",
+                    "description6": "아니요. 추가로 추첨 티켓을 받으려면 시즌 1 알파 패스를 보유해야 합니다.",
+                    "text7": "LAND와 시즌 1 알파 패스를 여러 개 가지고 있으면 추첨에서 시즌 2 알파 패스를 두 개 이상 받을 수 있나요?",
+                    "description7": "아니요. 지갑당 하나의 시즌 2 알파 패스만 받을 수 있습니다. 소셜 콘테스트에 참여하여 시즌 2 알파 패스를 받으면 추첨에서는 받을 수 없습니다.",
+                    "text8": "시즌 2 알파 패스를 받아도 더 이상 소용이 없는 시점이 있나요?",
+                    "description8a": "네, 2022년 3월 31일 16시(UTC)에 시즌 2가 종료된 후에는 2차 마켓에서 시즌 2 알파 패스를 구매하지 마세요 이 시점 이후에는 구매해도 $SAND 리워드를 받을 수 없습니다.",
+                    "description8b": "그러나 알파 시즌 2 진행 기간 중 OpenSea에서 시즌 2 패스를 구매하고 2022년 3월 31일 16시(UTC)까지 보유한다면 리워드를 획득할 수 있습니다."
                 },
                 "playing": {
-                    "title": "Playing the Alpha Season 2",
-                    "text1": "What do I need to play the Alpha Season 2?",
+                    "title": "알파 시즌 2 플레이",
+                    "text1": "알파 시즌 2를 플레이하려면 무엇이 필요한가요?",
                     "description1": "- Windows에서 플레이해야 합니다. 다른 컴퓨터 운영 체제와 모바일 버전도 향후 지원 예정입니다.",
                     "description2": "- 인터넷 연결이 끊기지 않아야 합니다.",
                     "description3": "- 알파 패스와 리워드를 받으려면 가스 수수료를 지불하기 위해 소량의 ETH가 필요합니다.",
@@ -829,22 +829,22 @@
                         "4": "RAM: 8,192Mb 이상"
                     },
                     "text2": "How do I play the Alpha?",
-                    "description4": "Up to 40 players can be in one experience at the same time. When more than 40 players try to enter the same experience, a new instance of that experience is created. This means that when you are in a multiplayer experience you will only see up to 39 other players, but there could be more players in other instances.",
+                    "description4": "경험 하나에서 동시에 플레이 가능한 플레이어 수는 최대 40명입니다. 같은 경험에 입장하려는 플레이어가 40명 이상일 경우 해당 경험의 인스턴스가 새로 생성됩니다. 즉, 멀티플레이어 경험에 입장해 있을 때는 다른 플레이어를 최대 39명까지만 확인할 수 있지만 동일한 경험의 다른 인스턴스에 더 많은 플레이어가 존재할 수 있습니다.",
                     "hrefText1": "게임 클라이언트를 다운로드하려면 여기를 클릭하세요.",
-                    "text3": "Can I play the Alpha Season 2 on the Game Maker?",
-                    "description5": "Content will be released progressively with 1 to 4 experiences released every weekday during the 4 weeks of Season 2.",
+                    "text3": "게임 메이커에서 알파 시즌 2를 플레이할 수 있나요?",
+                    "description5": "시즌 2가 진행되는 4주 동안 매주 평일에 1~4개의 콘텐츠가 순차적으로 공개됩니다.",
                     "hrefText2": "https://www.sandbox.game/",
-                    "description6": "If you click on the Experience thumbnails on the Alpha Map, you’ll see the date and time it will be revealed. In the top right corner of the Alpha Map, you will also find a calendar showing when new Experiences will be released in the future.",
+                    "description6": "알파 맵에서 경험 아이콘을 클릭하면 공개되는 날짜와 시간을 볼 수 있습니다. 알파 맵의 오른쪽 상단에서 신규 경험의 출시 일정을 보여주는 캘린더도 확인할 수 있습니다.",
                     "text4": "How many people can get in one Experience at the same time?",
                     "description7": "알파 허브와 3개의 경험('NFT Institute' 아트 갤러리, 'Club XYZ' 댄스 클럽, 'Dungeon of Dum-Yz' 어드벤처)을 이용할 수 있습니다.",
-                    "text5": "When will content be released?",
-                    "description8": "Yes. This is a very important thing to understand, contrary to Season 1, you don’t need the Alpha Pass to progress. Everybody can play and everybody can earn Raffle Tickets to win a Season 2 Alpha Pass during the Raffle at the end of Season 2.",
+                    "text5": "콘텐츠는 언제 공개되나요?",
+                    "description8": "네, 아주 중요한 부분입니다. 시즌 1과 달리, 알파 패스가 없어도 진행 현황은 기록됩니다. 누구나 플레이할 수 있으며 누구나 추첨 티켓을 획득하여 시즌 2가 종료될 때 추첨을 통해 시즌 2 알파 패스 당첨 기회를 노릴 수 있습니다.",
                     "text6": "How do I know when an Experience will be revealed?",
-                    "description9": "While you have your Season 2 Alpha Pass, the website interface will tell you that, since you already have an Alpha Pass you are no longer eligible to win one during the Raffle at the end of Alpha Season 2, thus you will see that you don’t have any Raffle Tickets - but if you sell / giveaway / lose your Alpha Pass, we tracked your progression in the background so you won’t have to redo the quests you already completed.",
-                    "text7": "Can I play along with a friend?",
-                    "description10": "No, you cannot keep playing after the closing date. On March 31 all experiences of the Alpha Season 2 will be closed, except for one gated experience that will remain open for S2AP owners only for 24 extra hours (more info below).",
-                    "description11": "After the Raffle, once the lucky people who won a Season 2 Alpha Pass have been picked, we will open the last experience of the Alpha Season 2 for 24 hours only. That experience will be accessible only to Season 2 Alpha Pass owners at that time. This will be the Season 2 VIP party!",
-                    "description12": "Players can play your games inside the Game Maker Gallery. However, you can’t publish your games on your LAND yet. We are working to enable publishing on your LAND in the near future. Get a chance to put your games in one of our upcoming seasons by participating in our Alpha Game Jams.",
+                    "description9": "시즌 2 알파 패스를 보유하고 있는 동안, 웹사이트의 인터페이스에 이미 알파 패스 보유자이므로 시즌 2 종료 이후 추첨에는 당첨될 수 없다고 표시됩니다. 따라서 추첨 티켓도 보유하고 있지 않은 것을 확인할 수 있습니다. 그러나 알파 패스를 판매, 양도하거나 잃어버릴 경우 백그라운드에서 진행 현황이 추적되므로 이미 완료한 퀘스트는 다시 진행할 필요가 없습니다.",
+                    "text7": "친구와 함께 플레이할 수 있나요?",
+                    "description10": "아니요. 종료일 후에는 플레이할 수 없습니다. 3월 31일에 알파 시즌 2의 모든 경험이 닫힙니다. 단, 시즌 2 알파 패스 소유자를 위한 한 개의 경험은 종료일로부터 24시간 동안 열려 있습니다. 자세한 정보는 아래를 참고하세요.",
+                    "description11": "추첨을 통해 시즌 2 알파 패스 당첨자가 선정되면 24시간 동안 알파 시즌 2의 마지막 경험이 공개됩니다. 이 경험은 공개 시점에 시즌 2 알파 패스를 보유한 사람만 이용할 수 있습니다. 바로 시즌 2 VIP 파티입니다!",
+                    "description12": "다른 플레이어가 게임 메이커 갤러리 내에서 내가 만든 게임을 플레이할 수 있습니다. 그러나 아직 LAND에는 게임을 게시할 수 없습니다. 더 샌드박스는 가까운 시일 내 LAND에 게임을 게시할 수 있도록 열심히 노력하고 있습니다. 알파 게임 잼에 참여하여 향후 시즌에 다른 유저들에게 내 게임을 뽐낼 기회를 잡아보세요.",
                     "description13": "Chat commands are as follow:",
                     "description14": "- 친구의 인스턴스로 이동하려면 채팅에",
                     "description15": "/join <인스턴스 ID>",
@@ -854,17 +854,17 @@
                     "description19": "채팅 명령을 보려면 게임 내 채팅에",
                     "description20": "/help",
                     "description21": "를 입력하세요.",
-                    "text8": "Can I Earn progression by completing quests without a Season 2 Alpha Pass?",
+                    "text8": "시즌 2 알파 패스를 소유하지 않고 퀘스트를 완료하면 진행 현황이 기록되나요?",
                     "description22": "아니요. 알파가 종료되면 추후 공지가 있을 때까지 아무 경험도 이용할 수 없습니다.",
-                    "text9": "If I get an Alpha Pass, do quests, then lose my Alpha Pass, will my progression be retroactively tracked or do I need to redo all the quests I did?",
+                    "text9": "알파 패스를 받고 나서 퀘스트를 완료하고 알파 패스를 잃어버리면 진행 현황이 추적되나요, 아니면 이미 완료한 퀘스트를 다시 진행해야 하나요?",
                     "description23": "예. 플레이어는 게임 메이커 갤러리를 사용하여 내가 만든 게임을 플레이할 수 있습니다. 그러나 아직 내 LAND에 내가 만든 게임을 게시할 수는 없습니다. 곧 LAND에 게시하는 기능을 출시하기 위해 노력하고 있습니다.",
-                    "text10": "Can I keep playing the Alpha Season 2 after it ends on March 31, 2022?",
+                    "text10": "2022년 3월 31일에 알파 시즌 2가 끝난 후에도 계속 플레이할 수 있나요?",
                     "commands": {
                         "1": "/w username message Whispers a message to username.",
-                        "2": "/m message Send a message to the metaverse channel.",
-                        "3": "/I message Send a message to the land channel.",
+                        "2": "/m message: 메타버스 채널에 메시지를 보냅니다.",
+                        "3": "/I message: LAND 채널에 메시지를 보냅니다.",
                         "4": "/respawn Teleport to the spawn point.",
-                        "5": "/users Show connected players list and count.",
+                        "5": "/users: 접속 중인 플레이어의 명단과 수를 보여줍니다.",
                         "6": "/instances Shows a list of the available instances running this experience.",
                         "7": "/join instanceld Connects to the instance defined in instanceld.",
                         "8": "/north Transport to land in the north.",
@@ -875,27 +875,27 @@
                         "13": "/Idle Stop current emote."
                     },
                     "bulletPoints": {
-                        "pc": "Minimum configuration PC:",
-                        "pc1": "OS: Windows 10 64bit",
-                        "pc2": "GPU: NVIDIA GeForce GTX 760 or newer",
-                        "pc3": "CPU: i5-8400 or newer (AVX support is required)",
-                        "pc4": "RAM: 8192Mb or more"
+                        "pc": "최소 사양:",
+                        "pc1": "OS: Windows 10 64비트",
+                        "pc2": "GPU: NVIDIA GeForce GTX 760 이상",
+                        "pc3": "CPU: i5-8400 이상(AVX 지원 필요)",
+                        "pc4": "RAM: 8,192Mb 이상"
                     },
-                    "description1a": "You need to play on Windows or MAC OS (now available in Season 2!)",
-                    "description1b": "- You also need a permanent internet connection.",
-                    "description1c": "- To claim your Season 2 Alpha Pass and rewards, you’ll need some ETH to pay for the gas fees.",
-                    "description2a": "You will need to download the latest version of the Game Client that will be released alongside the Alpha Season 2. Click",
-                    "description2b": "here",
-                    "description2c": "to download the Game Client. Everybody with the right configuration can play and it’s free.",
+                    "description1a": "Windows 또는 MacOS(시즌 2에서 새롭게 지원됩니다)에서 플레이해야 합니다.",
+                    "description1b": "또한 안정적인 인터넷 연결이 필요합니다.",
+                    "description1c": "시즌 2 알파 패스와 리워드를 수령하려면 가스 수수료를 위한 ETH가 필요합니다.",
+                    "description2a": "알파와 함께 출시될 게임 클라이언트의 최신 버전을 다운로드해야 합니다.",
+                    "description2b": "여기",
+                    "description2c": "를 클릭하여 게임 클라이언트를 다운로드하세요. 최소 사양을 만족한다면 누구나 무료로 플레이할 수 있습니다.",
                     "description3a": "No, you will need to play on the Game Client. You will be able to download the Game Client at",
                     "description3b": "https://www.sandbox.game/",
-                    "description3c": "when the Alpha Season 2 opens.",
-                    "description7a": "An Experience can have up to 40 players at a time; if there are more than 40 players, new instances are created to host the additional players. If you join an Experience at the same time as your friend, you have a high chance to end up in the same instance. But if you don’t, you can join them by following these steps:",
+                    "description3c": "알파 시즌 2가 공개된 후에 가능합니다.",
+                    "description7a": "하나의 경험에는 최대 40명의 플레이어가 동시에 입장 가능하며 40명 이상일 경우 새로운 인스턴스가 생성되어 나머지 플레이어가 입장하게 됩니다. 친구와 동시에 경험에 입장할 경우 같은 인스턴스로 입장할 들어갈 가능성이 크지만, 그렇지 못할 경우 다음 단계를 따라 함께 플레이할 수 있습니다.",
                     "description7b": "- To find your instance ID after you enter the game, type",
                     "description7c": "/instances",
                     "description7d": "in the chat.",
-                    "description7e": "- Give your instance ID to your friend who wants to join your instance.",
-                    "description7f": "- To jump to your instance, your friend must type",
+                    "description7e": "내 인스턴스에 들어오고 싶어 하는 친구에게 인스턴스 ID를 알려줍니다.",
+                    "description7f": "내 인스턴스로 이동하려면 친구가 다음을 입력해야 합니다.",
                     "description7g": "/join <INSTANCE ID>",
                     "description7h": "in the chat. For example,",
                     "description7i": "/join 2234",
@@ -903,50 +903,50 @@
                     "description7k": "Type",
                     "description7l": "/help",
                     "description7m": "in the in-game chat to see the chat commands.",
-                    "text11": "You mentioned above that 1 experience will require a Season 2 Alpha Pass to enter, what is it?",
-                    "text12": "Can players play the games I made?",
-                    "text13": "What are the chat commands?"
+                    "text11": "시즌 2 알파 패스가 있어야만 입장할 수 있는 한 개의 경험은 무엇인가요?",
+                    "text12": "내가 만든 게임을 플레이어가 플레이할 수 있나요?",
+                    "text13": "채팅 명령에는 어떤 것이 있나요?"
                 },
                 "rewards": {
-                    "title": "Alpha Season 2 Rewards",
-                    "text1": "Are Raffle Tickets NFTs?",
-                    "description1": "No. You can see Raffle Tickets as an indicator of a player’s investment in the Alpha Season 2, but they are not NFTs and cannot be traded on the secondary market.",
-                    "description2": "You will receive an email if you won, and you will get a popup on the website informing you if you won the Raffle or not on the Raffle day.",
-                    "text2": "How will I know if I won the Raffle?",
-                    "description3": "No. The Season 2 Alpha Pass is the key that allows you to claim the $SAND rewards. However, please remember not to purchase the S2AP after the Season 2 has closed on March 31, 2022, at 4 PM UTC.",
-                    "text3": "Is there a way to earn the $SAND rewards if I don’t have the Season 2 Alpha Pass?",
-                    "description4": "No. Only one S2AP per wallet.",
-                    "text4": "Can I get multiple Season 2 Alpha Passes?",
-                    "description5": "Yes. You can own one Alpha Pass of each Season in your wallet.",
-                    "text5": "Can I get a Season 2 Alpha Pass if I already have a Season 1 Alpha Pass?",
+                    "title": "알파 시즌 2 리워드",
+                    "text1": "추첨 티켓은 NFT인가요?",
+                    "description1": "아니요. 추첨 티켓은 플레이어가 알파 시즌 2에 참여했다는 지표의 개념입니다. 따라서 NFT가 아니며, 2차 마켓에서 거래할 수 없습니다.",
+                    "description2": "당첨 시 이메일이 전송되며, 추첨일에 웹사이트에 팝업으로 당첨 여부를 알리는 팝업창을 확인할 수 있습니다.",
+                    "text2": "추첨에 당첨되었는지 어떻게 알 수 있나요?",
+                    "description3": "아니요. 시즌 2 알파 패스를 보유해야만 $SAND 리워드를 받을 수 있습니다.",
+                    "text3": "시즌 2 알파 패스가 없어도 $SAND 리워드를 받을 수 있나요?",
+                    "description4": "아니요. 지갑당 한 개의 시즌 2 알파 패스만 보유할 수 있습니다.",
+                    "text4": "시즌 2 알파 패스를 여러 개 보유할 수 있나요?",
+                    "description5": "네, 지갑에 각 시즌의 알파 패스를 하나씩 보유할 수 있습니다.",
+                    "text5": "이미 시즌 1 알파 패스를 가지고 있으면 시즌 2 알파 패스를 받을 수 있나요?",
                     "description6": "1,000 $SAND의 리워드를 받으려면 게임에서 알파 퀘스트를 완료하여 알파 패스의 레벨 다섯 개를 모두 완료해야 합니다. 알파 퀘스트는 아주 간단하여, 알파 경험을 탐험하면 완료할 수 있습니다. 리워드 탭 섹션에서 알파 퀘스트와 리워드에 관해 자세히 알아보세요.",
-                    "text6": "Do I get the 1,000 $SAND reward just for playing the Alpha Season 2?",
-                    "description7": "No. You need the Season 2 Alpha Pass to trigger the rewards claim, so hold on to it if you want your $SAND rewards!",
-                    "description8": "24 hours. During that time Season 2 Alpha Pass winners will be able to hang out in a gated VIP experience that only they can access.",
-                    "description9": "You can claim the $SAND rewards only at the end of the Alpha Season 2 (March 31, 2022), if you own a Season 2 Alpha Pass.",
-                    "description10": "You won’t be able to claim rewards. However, if you reach level 2, lose your Pass but then either get it back or another Pass back, you will be back to level 2, your progression will be saved.",
-                    "text7": "If I gift/sell my Season 2 Alpha Pass, can I still get the $SAND rewards for the levels I completed?",
-                    "description11": "Claim of the Season 2 Alpha Pass NFT and the $SAND rewards will still be on layer 1.",
-                    "text8": "How long between the Raffle and the Reward Claim?",
+                    "text6": "알파 시즌 2를 플레이하기만 해도 리워드로 1,000 $SAND를 받을 수 있나요?",
+                    "description7": "아니요. 리워드를 수령하려면 시즌 2 알파 패스가 필요합니다. $SAND 리워드를 위해 패스를 보유해 주세요!",
+                    "description8": "24시간 후에 리워드가 지급되며, 기다리는 동안 시즌 2 알파 패스 당첨자만 이용할 수 있는 전용 VIP 경험을 즐길 수 있습니다.",
+                    "description9": "시즌 2 알파 패스를 보유할 경우 알파 시즌 2가 끝나는 2022년 3월 31일에 $SAND 리워드를 받을 수 있습니다.",
+                    "description10": "리워드를 받을 수 없습니다. 그러나 진행 현황은 저장되므로 레벨 2에 도달하고 패스를 잃어버린 후 되찾거나 다른 패스를 갖게 되면 레벨 2에서 다시 시작하게 됩니다.",
+                    "text7": "내 시즌 2 알파 패스를 선물하거나 판매해도 완료한 레벨에 대해서는 $SAND 리워드를 받을 수 있나요?",
+                    "description11": "시즌 2 알파 패스 NFT와 $SAND 리워드 수령은 여전히 레이어 1에서 이루어집니다.",
+                    "text8": "추첨이 끝난 후 리워드를 받으려면 얼마나 기다려야 하나요?",
                     "description12": "It depends on how you got your Alpha Pass.",
-                    "description13": "There is no time limit to claim your $SAND rewards.",
+                    "description13": "$SAND 리워드 수령에는 기한이 없습니다.",
                     "description14": "유의할 점은 알파가 끝나는 순간에 한 사람만이 지갑에 패스를 보유할 수 있으므로, 리워드는 한 사람만 받을 수 있다는 점입니다. 친구가 게임을 탐험하고 즐기도록 친구와 패스를 거래할 수는 있지만 리워드를 받으려면 패스를 돌려받아야 합니다.",
-                    "text9": "When can I claim the $SAND rewards? Can I claim them as I progress through each level?",
+                    "text9": "언제 $SAND 리워드를 받을 수 있나요? 각 레벨을 진행하면서 리워드를 받을 수 있나요?",
                     "description15": "알파 패스 소유자가 리워드를 받기 위해서는 마지막 날까지 알파 패스를 가지고 있어야 합니다. 중요한 것은 패스의 진행 현황이 아니라 날짜(알파가 끝나는 마지막 날, 12월 20일)입니다. 알파 패스 소유자는 마지막 날 이전에 모든 목표를 달성했다 하더라도 마지막 날까지 패스를 가지고 있어야 합니다. 알파가 종료된 후에는 알파 패스에는 기념품 외의 가치가 없으며 누구도 알파를 진행하거나 리워드를 받는 데 사용할 수 없습니다.",
                     "description16": "알파가 종료된 후(12월 20일 이후)에는 알파를 진행하고 리워드를 받을 목적으로 알파 패스를 구매하지 마시기 바랍니다. 용도는 없지만 기념품으로 갖고 싶은 경우에만 12월 20일 이후에 알파 패스를 구매하시기 바랍니다.",
-                    "description6a": "First, the rewards might go up to 1,000 $SAND but it’s not guaranteed, please see the section below about Reward Community Booster. Rewards will be AT LEAST 500 $SAND for completing the 5 levels of Season 2.",
-                    "description6b": "Second, playing the Alpha gives you a chance to win a Season 2 Alpha Pass. If you win, the rewards are yours!",
-                    "text10": "Alpha passes can be traded. What happens if I make it to Level 2 and then trade my pass?",
-                    "text11": "On which chain will the Season 2 Alpha Pass and $SAND rewards be claimed?",
-                    "text12": "How much time do I have to claim my Season 2 Alpha Pass?",
+                    "description6a": "우선, 리워드는 최대 1,000 $SAND까지 받을 수 있지만 반드시 보장되는 것은 아닙니다. 아래 섹션에서 리워드 커뮤니티 부스터를 확인해 주세요. 시즌 2의 5개 레벨을 완료하면 최소 500 $SAND의 리워드가 주어집니다.",
+                    "description6b": "다음으로, 알파를 플레이하면 시즌 2 알파 패스를 획득할 기회를 얻게 됩니다. 알파 패스를 획득하면 리워드를 받을 수 있습니다.",
+                    "text10": "알파 패스를 거래할 수 있다고 하는데 레벨 2까지 진행하고 패스를 거래하면 어떻게 되나요?",
+                    "text11": "어느 체인에서 시즌 2 알파 패스와 $SAND 리워드를 받나요?",
+                    "text12": "시즌 2 알파 패스를 몇 번 수령해야 하나요?",
                     "bulletPoints": {
                         "description1": "1. If you won your S2AP through a Social Contest, while Alpha Season 2 was ongoing, you must claim it before March 31, 2022.",
                         "description2": "2. If you won your S2AP through the Raffle at the end of Alpha Season 2, there is no deadline to claim it."
                     },
-                    "text13": "How much time do I have to claim my $SAND rewards?",
-                    "text14": "I forgot to claim my $SAND rewards from Alpha Season 1, can I still do that?",
-                    "description14a": "You can claim all unclaimed rewards related to previous Seasons (NFT rewards, $SAND, Alpha Passes…) on this",
-                    "description14b": "page"
+                    "text13": "$SAND 리워드를 수령하는 기한은 어떻게 되나요?",
+                    "text14": "알파 시즌 1에서 깜박하고 $SAND 리워드를 못 받았습니다. 지금 받을 수 있나요?",
+                    "description14a": "이전 시즌과 관련하여 수령하지 않은 모든 리워드(NFT 리워드, $SAND, 알파 패스 등)는",
+                    "description14b": "이 페이지에서 받을 수 있습니다."
                 },
                 "level": {
                     "title": "진행 현황",
@@ -958,8 +958,8 @@
                 },
                 "presscoverage": {
                     "title": "Press Coverage",
-                    "text1": "How does the press access the Alpha Season 2?",
-                    "description1": "Contrary to Alpha Season 1, Press won’t have to request whitelisting access to discover the game, as everybody will be able to play and access 100% of the content.",
+                    "text1": "언론사는 어떻게 알파 시즌 2에 액세스할 수 있나요?",
+                    "description1": "알파 시즌 1과는 달리 언론사에서 게임을 체험하기 위해 화이트리스트 액세스를 요청할 필요가 없습니다. 누구나 콘텐츠를 플레이하고 100% 즐길 수 있기 때문입니다.",
                     "text2": "언론 보도를 위해 알파 패스를 받으려면 어떻게 요청해야 하나요?",
                     "description2": "인플루언서 패스를 요청하려면 contact@sandbox.game으로 연락해 주시기 바랍니다. 커뮤니케이션 채널을 꼭 포함하고 팔로워에 관한 간략한 정보, 도달 범위, 알파를 이용하려는 목적을 밝혀주세요."
                 },
@@ -983,18 +983,18 @@
                     "description4": "Additional security resources:",
                     "description5": "- Basic Safety and Security Tips for Metamask",
                     "description6": "- To be your Own Bank with MetaMask, you need to master these best practices",
-                    "text2": "Will The Sandbox ever request my secret seedphrase (aka passphrase)?",
+                    "text2": "더 샌드박스에서 내 시드 문구(암호 문구)를 묻기도 하나요?",
                     "description7": "아니요. 더 샌드박스는 절대 시드 문구를 묻지 않습니다. 시드 문구를 누구와도 공유해서는 안 됩니다. 시드 문구를 공유하면 타인이 지갑에 접속할 수 있으므로, 토큰과 NFT를 모두 잃을 위험이 있습니다.",
                     "text3": "How can I report suspicious activity?",
                     "description8": "If you detect any suspicious activity on social media, email or OpenSea, you can report it on our",
                     "hrefText1": "Discord channel",
                     "description9": "via the #reporting-scams channel. You can also reach us by email at contact@sandbox.game",
-                    "text4": "How do I know which assets are safe to buy at OpenSea?",
-                    "description10": "When looking for Alpha Passes, Assets, or LANDs at OpenSea, make sure it belongs to our verified Sandbox collection at",
+                    "text4": "OpenSea에서 어떤 애셋을 사는 것이 안전한지 어떻게 알 수 있나요?",
+                    "description10": "OpenSea에서 알파 패스, 애셋, LAND를 검색할 때 해당 애셋이 더 샌드박스에서 인증한 컬렉션에 속해 있는지 확인하세요.",
                     "hrefText2": "https://opensea.io/collection/sandbox",
                     "text5": "What are the official links so I make sure I don’t get scammed?",
                     "description7a": "NO NO NO, The Sandbox will never request your secret seedphrase and you should not share your secret seedphrase with anyone, ever! Sharing your secret seedphrase will compromise your wallet and you might lose all your tokens and NFTs.",
-                    "description7b": "Scammers are VERY creative and will go as far as steal TSB employee’s identities to try to get you to give away information! NEVER. GIVE. AWAY. YOUR. SEED. PHRASE. TO. ANYONE."
+                    "description7b": "사기범들은 매우 창의적인 방법으로 더 샌드박스 직원을 사칭하여 사용자의 정보를 얻으려고 할 수도 있습니다. 시드 문구를 절대 아무에게도 알려주지 마세요."
                 },
                 "roadmap": {
                     "title": "로드맵",
@@ -1003,56 +1003,56 @@
                 },
                 "title": "Frequently asked question",
                 "staking": {
-                    "title": "Staking & Community Reward Booster",
-                    "text1": "What is staking?",
-                    "description1a": "To make things overly simple: Staking (in the context of TSB Alpha Season 2) means that you “lock” some of your cryptocurrency, which will in return earn you a yield over time. You can stop your staking and recover your funds at any time, but you will stop earning the yield. The more you stake for the longer time, the bigger the yield you will get.",
-                    "description1b": "You’ll find a lot more details here:",
-                    "description1c": "https://sandboxgame.gitbook.io/the-sandbox/staking/about-staking",
-                    "description1d": "For people who are not familiar with staking, and will read the questions below, it’s very important to understand that you do not",
-                    "description1e": "spend",
-                    "description1f": "$SAND to earn bonuses related to Alpha Season 2, you get bonuses from staking $SAND, which can already be a very profitable feature in itself.",
-                    "text2": "In summary, how does the Staking feature relates to Season 2?",
-                    "description2a": "1. Extra Raffle Tickets:",
-                    "description2b": "staking $SAND will grant you extra Raffle Tickets.",
-                    "description2c": "2. Community Reward Booster:",
-                    "description2d": "a booster will be applied to all S2AP $SAND rewards based on the total amount of $SAND staked by the whole community.",
-                    "text3": "In detail, how does the Staking feature relates to Season 2?",
-                    "description3a": "This feature is a bit complex, but you do not have to understand how it works under the hood to make optimal use of it, However you can find the details below:",
-                    "description3b": "1. Extra Raffle Tickets:",
-                    "description3c": "The more and the longer you stake $SAND, the more your “staking score” increases. The bigger the staking score you have, the more Raffle Tickets you will get.",
-                    "description3d": "To get the maximum number of Raffle Tickets from the staking feature (which is 200, the total maximum from all features is 1000) you need to have accumulated at least 2000 staking score points by the end of the Alpha Season 2.",
-                    "description3e": "2. Community Reward Booster:",
-                    "description3f": "The bigger everyone’s staking score is, the more the Community Reward Booster increases. The more the Community Reward Booster increases, the more the Season 2 Alpha Pass $SAND reward is increased for all. The Community Reward Booster is capped at a maximum of +100%. To reach this cap, the community staking score has to reach the target of 100,000,000 (100 Million) points.",
-                    "description3g": "Examples:",
-                    "description3h": "- The S2AP base reward is 500 $SAND. If by the end of Alpha Season 2, the community staking score reached 100,000,000 points or more, the Community Reward Booster will reach +100%. Therefore, the S2AP reward will be increased by +100% and reach 1,000 $SAND for all S2AP owners.",
-                    "description3i": "- If by the end of Alpha Season 2, the community staking score reached 57,000,000 points, the Community Reward Booster will reach +57%. Therefore, the S2AP reward will be increased by +57% and reach 785 $SAND (500 + 57% of 500) for all S2AP owners.",
-                    "text4": "Will I still get the same yield for staking $SAND during Alpha Season 2?",
-                    "description4": "Yes, the staking features related to Alpha Season 2 act as a bonus and will not impact the yield in any way. Your $SAND will not be locked for longer. Nothing changes with the staking feature itself. The “caps” related to Alpha Season 2 features have no impact on the yield at all.",
-                    "text5": "On which chain does the Community Reward Booster work?",
-                    "description5": "On Layer 2, but only on the SAND staking program (not on the SAND/MATIC program). The whole point of the feature is to incentivize $SAND staking on layer 2 to continue our transition to layer 2, which will be a great improvement to the game by reducing gas fees and making TSB a lot greener!",
-                    "text6": "How is the staking score calculated?",
-                    "description6a": "Again, you do not need to understand the math to make optimal use of this feature, but if you are curious, this is how it works:",
-                    "description6b": "You get 5 staking score points for every 1 $SAND staked during 28 days.",
-                    "description6c": "This number is a float, you will get exactly the amount of staking score points related to your staking contribution.",
-                    "description6d": "In details:",
-                    "description6e": "It is important to understand that both time and $SAND staked amount are taken into account to calculate the staking score.",
-                    "description6f": "1. Extra Raffle Tickets:",
-                    "description6g": "The cap is 2000 staking score points (to get 200 Raffle Tickets). To reach that cap you could, for example, stake 400 $SAND (or more) for 28 days, or 800 $AND for 14 days, or 1600 $SAND for 7 days.",
-                    "description6h": "2. Community Reward Booster:",
-                    "description6i": "The cap is 100,000,000 collective cumulated staking score points (to get the Community Reward Booster to +100%). To reach that score, the community could, for example, stake 20,000,000 $SAND (or more) for 28 days, or 40,000,000 $SAND for 14 days, or 80,000,000 $SAND for 7 days.",
-                    "description6j": "Of course, the actual numbers won’t be as round and clean, but this gives you an overall idea of how the calculation is done.",
-                    "description6k": "Please note that the amount of days that $SAND is staked does not have to be consecutive.",
-                    "text7": "Should I wait for Alpha Season 2 to begin to start staking $SAND?",
-                    "description7a": "You can start staking right now, you don’t have to wait. If you want to stake now, you definitely should. Might as well get your yield growing as soon as possible!",
-                    "description7b": "You will start to earn staking score points related to Alpha Season 2 features once the Alpha Season 2 starts, but we will simply look at how much you have previously staked at that moment and start calculating your score.",
-                    "description7c": "You do not need to wait for Alpha Season 2 to begin to start staking, and you do not need to withdraw and stake back your funds once Alpha Season 2 has started to optimize your staking score.",
-                    "description7d": "You, and the community, will not start earning staking score points until the Alpha Season 2 has started. The staking score points objectives, both individual (2000) and collective (20,000,000), have to be met in between the start and the end of the Alpha Season 2.",
-                    "text8": "You are only talking about $SAND staking, what about the TSB SAND/MATIC staking program?",
-                    "description8": "Alpha Season 2 features are only linked to the SAND staking pool. Staking on the SAND/MATIC program does not offer any bonus related to Alpha Season 2. This program will still work the same and produce the same yield, we do not abandon it, it’s just not related to the Alpha Season 2.",
-                    "text9": "Can I lose staking score points?",
-                    "description9": "No, this number can not go down. Points earned are earned for you and added to the Community Booster cumulative score. If you withdraw your stake, you will stop earning staking points, but you won’t lose what you have earned.",
-                    "text10": "The Alpha already started multiple weeks ago, is there still a point for me to start staking now, am I too late?",
-                    "description10": "You are never too late. The later you stake, the more $SAND you will have to stake if you want to max out the number of Raffle Tickets that can be earned through staking (200). Even if you don’t stake that much and Alpha Season 2 will end soon, you can still get some Raffle Tickets for staking. It’s not because you don’t have the time and/or resources to hit the 200 Raffle Tickets cap that there is no point to try to get some. Also, staking can be a very profitable feature in itself, even when unrelated to Alpha Season 2 bonuses"
+                    "title": "스테이킹 및 커뮤니티 리워드 부스터",
+                    "text1": "스테이킹이란 무엇인가요?",
+                    "description1a": "아주 간단히 설명하자면 더 샌드박스 알파 시즌 2에서 스테이킹이란 내 암호화폐 중 일부를 '잠그는' 것으로, 그 보상으로 시간이 흐름에 따라 수익을 받는 것입니다. 언제든지 스테이킹을 중단하고 자금을 회수할 수 있지만 수익 발생도 함께 중단됩니다. 스테이킹 기간이 길어질수록 수익도 커집니다.",
+                    "description1b": "자세한 내용은 다음 링크에서 확인하세요.",
+                    "description1c": "https://sandboxgame.gitbook.io/the-sandbox/v/korean-or-coming-soon/staking/undefined",
+                    "description1d": "스테이킹에 익숙하지 않거나 아래 질문과 답을 확인하실 분들께 강조하고 싶은 점은 알파 시즌 2와 관련하여 보너스를 얻기 위해 스테이킹으로 $SAND를",
+                    "description1e": "지출하지",
+                    "description1f": "않는다는 점입니다. $SAND를 스테이킹함으로써 보너스를 받을 수 있으므로 그 자체로 매우 이득이 될 수 있습니다.",
+                    "text2": "그래서 스테이킹 기능과 시즌 2는 무슨 연관이 있나요?",
+                    "description2a": "1. 추가 추첨 티켓:",
+                    "description2b": "$SAND를 스테이킹하면 추가로 추첨 티켓이 지급됩니다.",
+                    "description2c": "2. 커뮤니티 리워드 부스터:",
+                    "description2d": "커뮤니티 전체에서 스테이킹한 $SAND의 총량에 따라 모든 시즌 2 알파 패스 $SAND 리워드에 부스터가 적용됩니다.",
+                    "text3": "스테이킹 기능과 시즌 2는 구체적으로 무슨 연관이 있나요?",
+                    "description3a": "이 기능은 조금 복잡하지만 이 기능을 최대한 활용하기 위해 원리까지 이해할 필요는 없습니다. 그러나 아래에서 자세한 내용을 확인할 수 있습니다.",
+                    "description3b": "1. 추가 추첨 티켓:",
+                    "description3c": "$SAND를 많이, 오래 스테이킹할수록 '스테이킹 점수'가 높아집니다. 스테이킹 점수가 높을수록 더 많은 추첨 티켓을 획득할 수 있습니다.",
+                    "description3d": "스테이킹 기능으로 최대한 많은 티켓(200개, 모든 획득처에서 획득할 수 있는 총 개수는 1,000개)을 획득하려면 알파 시즌 2가 끝날 때까지 누적 스테이킹 점수가 최소 2,000점이어야 합니다.",
+                    "description3e": "2. 커뮤니티 리워드 부스터:",
+                    "description3f": "모두의 스테이킹 점수가 높을수록 커뮤니티 리워드 부스터가 더 강력해집니다. 커뮤니티 리워드 부스터가 강력해질수록 모두의 시즌 2 알파 패스 $SAND 리워드가 더 많아집니다.",
+                    "description3g": "예:",
+                    "description3h": "- 시즌 2 알파 패스 기본 리워드는 500 $SAND입니다. 알파 시즌 2가 끝날 때까지 커뮤니티의 스테이킹 점수가 100,000,000점 이상이 되면 커뮤니티 리워드 부스터는 +100%가 됩니다. 따라서 시즌 2 알파 패스 리워드가 +100% 늘어나므로 모든 시즌 2 알파 패스 소유자가 1,000 $SAND를 받게 됩니다.",
+                    "description3i": "- 알파 시즌 2가 끝날 때까지 커뮤니티의 스테이킹 점수가 57,000,000점이 되면 커뮤니티 리워드 부스터는 +57%가 됩니다. 따라서 시즌 2 알파 패스 리워드가 +57% 늘어나므로 모든 시즌 2 알파 패스 소유자가 785 $SAND(500 + 500의 57%)를 받게 됩니다.",
+                    "text4": "알파 시즌 2 진행 중에 $SAND를 스테이킹하면 같은 수익을 얻을 수 있나요?",
+                    "description4": "네, 알파 시즌 2에서 스테이킹 기능은 보너스 역할을 하며 수익에 영향을 미치지 않습니다. $SAND가 더 오래 잠기지 않습니다. 스테이킹 기능 그 자체에 변경되는 사항은 없습니다. 알파 시즌 2 기능과 관련된 '한도'는 수익에 전혀 영향을 미치지 않습니다.",
+                    "text5": "커뮤니티 리워드 부스터가 어느 체인에서 적용되나요?",
+                    "description5": "레이어 2에서 적용됩니다. 그러나 SAND/MATIC 프로그램이 아닌 SAND 스테이킹 프로그램에만 해당합니다. 이 기능은 레이어 2에서 $SAND 스테이킹을 장려하여 레이어 2로의 이전을 계속하도록 하는 것이 목적입니다. 그러면 가스 수수료가 낮아지며 더 샌드박스는 더 친환경적인 모습이 되어 게임이 크게 향상될 것입니다.",
+                    "text6": "스테이킹 점수는 어떻게 계산하나요?",
+                    "description6a": "산수를 몰라도 얼마든지 이 기능을 활용할 수 있습니다. 하지만 궁금해하시는 분들을 위해 설명해 드리겠습니다.",
+                    "description6b": "28일 동안 스테이킹되는 1 $SAND당 스테이킹 점수는 5점입니다.",
+                    "description6c": "이 숫자는 부동 소수점 수이며 스테이킹에 기여한 정도에 따라 정확히 같은 스테이킹 점수를 받게 됩니다.",
+                    "description6d": "상세 설명:",
+                    "description6e": "스테이킹 점수를 계산하는 데는 스테이킹한 시간과 스테이킹한 $SAND의 양이 모두 고려된다는 점을 이해해야 합니다.",
+                    "description6f": "1. 추가 추첨 티켓:",
+                    "description6g": "스테이킹 점수 최대치는 2,000점입니다(추첨 티켓 200개). 이 최대치에 도달하려면, 예를 들면 28일간 400 $SAND 이상을 스테이킹하거나 14일간 800 $SAND 또는 7일간 1,600 $SAND를 스테이킹하면 됩니다.",
+                    "description6h": "2. 커뮤니티 리워드 부스터:",
+                    "description6i": "총 누적 스테이킹 최대 점수는 100,000,000점입니다(커뮤니티 리워드 부스터 +100%). 이 점수에 도달하고자 하는 경우, 예를 들면 커뮤니티에서 28일간 20,000,000 $SAND 이상을 스테이킹하거나 14일간 40,000,000 $SAND 또는 7일간 80,000,000 $SAND를 스테이킹하면 됩니다.",
+                    "description6j": "물론 실제 숫자가 깔끔하게 떨어지지는 않겠지만 대략적인 계산 방식은 이와 같습니다.",
+                    "description6k": "참고로 $SAND를 스테이킹하는 일수는 연속되지 않아도 괜찮습니다.",
+                    "text7": "$SAND 스테이킹을 시작하려면 알파 시즌 2가 시작되기를 기다려야 하나요?",
+                    "description7a": "지금 바로 스테이킹을 시작해도 됩니다.",
+                    "description7b": "알파 시즌 2 기능과 관련한 스테이킹 점수는 알파 시즌 2가 시작 후에 집계되지만 더 샌드박스에서 시즌 시작 전에 스테이킹한 양을 확인하고 점수 계산을 시작합니다.",
+                    "description7c": "스테이킹을 시작하기 위해 알파 시즌 2를 기다릴 필요는 없으며 알파 시즌 2가 시작되고 나서 스테이킹 점수를 극대화하기 위해 자금을 인출한 후 다시 스테이킹하지 않아도 됩니다.",
+                    "description7d": "사용자와 커뮤니티는 알파 시즌 2가 시작되기 전에는 스테이킹 점수를 받지 못합니다. 스테이킹 점수 목표인 개인 2,000점, 커뮤니티 누적 20,000,000점은 알파 시즌 2가 시작된 후부터 종료되기 전까지 달성해야 합니다.",
+                    "text8": "$SAND 스테이킹만 설명되어 있는데 더 샌드박스 SAND/MATIC 스테이킹 프로그램은 어떻게 진행되나요?",
+                    "description8": "알파 시즌 2 기능은 SAND 스테이킹 풀에만 연결되어 있습니다. SAND/MATIC 프로그램에서의 스테이킹에는 알파 시즌 2와 관련한 보너스를 제공하지 않습니다. 이 프로그램은 계속해서 이전과 같이 운영되며 같은 수익이 발생합니다. 이 기능은 중단된 것이 아니라 알파 시즌 2와 관련이 없을 뿐입니다.",
+                    "text9": "스테이킹 점수를 잃을 수 있나요?",
+                    "description9": "아니오, 점수가 낮아지지는 않습니다. 획득한 점수는 개인 점수와 커뮤니티 부스터 누적 점수에 모두 추가됩니다. 스테이킹한 자금을 인출하면 스테이킹 점수 획득이 중단되지만 이미 획득한 점수를 잃지는 않습니다.",
+                    "text10": "알파가 시작된 지 이미 몇 주가 지났는데 지금부터 스테이킹을 시작해도 괜찮나요? 너무 늦었나요?",
+                    "description10": "늦지 않았습니다. 스테이킹을 늦게 시작한 경우, 스테이킹으로 얻을 수 있는 최대한의 추첨 티켓(200개)을 얻고 싶다면 더 많은 $SAND를 스테이킹해야 합니다. 그만큼 스테이킹하지 않고 알파 시즌 2가 곧 종료된다고 하더라도 여전히 스테이킹을 통해 어느 정도의 추첨 티켓은 얻을 수 있습니다. 추첨 티켓 200개 한도에 도달할 시간과 리소스는 없더라도 여전히 몇 개를 얻을 기회가 남아 있습니다. 또한 알파 시즌 2 보너스를 위해서가 아니더라도 스테이킹은 그 자체로 매우 이득이 되는 기능입니다."
                 },
                 "progression": {
                     "title": "Progression",
@@ -1072,67 +1072,67 @@
                 "3": "4일 차 - 11월 19일: Club XYZ"
             },
             "alphaPass": {
-                "title": "Season 2 Alpha Pass",
-                "question": "HOW TO GET A SEASON 2 ALPHA PASS?",
+                "title": "시즌 2 알파 패스",
+                "question": "시즌 2 알파 패스를 획득하려면 어떻게 해야 하나요?",
                 "bulletPoints": {
                     "1": {
-                        "title": "Raffle",
+                        "title": "2022년 3월 31일, 알파 시즌 2 종료 후 추첨에 참여하세요.",
                         "body": "Participate in the Raffle at the end of Alpha Season 2, on March 31, 2022."
                     },
                     "2": {
-                        "title": "Contests",
-                        "body": "Participate in the daily social contests on The Sandbox Twitter.",
-                        "link": "View Contests Tab"
+                        "title": "콘테스트",
+                        "body": "더 샌드박스 트위터에서 매일 진행되는 소셜 콘테스트에 참여하세요.",
+                        "link": "콘테스트 탭 보기"
                     },
                     "3": {
                         "title": "OpenSea:",
-                        "body": "Anyone can buy a Season 2 Alpha Pass on Opensea. If someone is willing to sell it"
+                        "body": "판매하는 사람이 있다면 누구나 OpenSea에서 시즌 2 알파 패스를 구매할 수 있습니다."
                     }
                 },
                 "warning": {
-                    "1": "Do not purchase an Alpha Pass after the end of Alpha Season 2 on March 31, 2022.",
-                    "2": "Be careful not to purchase a fake Season 2 Alpha Pass. Only use the link provided on this website. Only use this link:",
-                    "link": "Buy on OpenSea"
+                    "1": "2022년 3월 31일 알파 시즌 2 종료 후에는 알파 패스를 구매하지 마세요.",
+                    "2": "가짜 시즌 2 알파 패스를 구매하지 않도록 주의하고 더 샌드박스 웹사이트가 제공하는 다음 링크를 통하여 접속하세요.",
+                    "link": "OpenSea에서 구매"
                 }
             },
             "schedule": {
-                "desc1": "ALPHA SEASON 2 STARTS",
-                "date1": "MARCH 03",
-                "desc2": "RAFFLE DAY / SEASON END",
-                "date2": "MARCH 31"
+                "desc1": "알파 시즌 2 시작",
+                "date1": "3월 3일",
+                "desc2": "추첨일/시즌 종료",
+                "date2": "3월 31일"
             },
             "raffle": {
-                "title": "The Raffle",
-                "subtitle": "THE RAFFLE OCCURS ON MARCH 31, 2022.",
+                "title": "추첨 기회",
+                "subtitle": "추첨은 2022년 3월 31일에 진행됩니다.",
                 "description": {
-                    "1": "Earn Raffle Tickets",
-                    "2": "by completing Quests inside each experience on the",
-                    "link": "Alpha Map."
+                    "1": "알파 맵에서",
+                    "2": "각 경험 안의 퀘스트를 완료하여",
+                    "link": "추첨 티켓을 받으세요."
                 },
                 "moreTickets": {
-                    "1": "MORE",
-                    "2": "= MORE CHANCE TO WIN A SEASON 2 ALPHA PASS"
+                    "1": "더 많은",
+                    "2": "시즌2 알파 패스 획득 확률 상승"
                 },
-                "moreQuests": "MORE QUESTS COMPLETED = MORE",
+                "moreQuests": "더 많은 퀘스트 완료 = 더 많은",
                 "bulletPoints": {
-                    "title": "YOU CAN GET EXTRA RAFFLE TICKETS BY",
+                    "title": "다음과 같은 방법으로 추첨 티켓을 추가로 획득할 수 있습니다.",
                     "1": {
-                        "1": "Staking",
+                        "1": "스테이킹",
                         "2": "mSAND"
                     },
-                    "2": "Owning LANDs",
-                    "3": "Owning a Season 1 Alpha Pass",
-                    "4": "Owning a Snoop Dogg Private Party Pass",
-                    "5": "Owning a Snoopverse Early Access Pass",
-                    "6": "Answering the Alpha Season 1 feedback form"
+                    "2": "LAND 소유",
+                    "3": "시즌 1 알파 패스 소유",
+                    "4": "스눕독 프라이빗 파티 패스 소유",
+                    "5": "스눕버스 얼리 액세스 패스 소유",
+                    "6": "알파 시즌 1 피드백 양식에 답변"
                 },
                 "warning": {
-                    "1": "Raffle Tickets are not NFTs and cannot be traded on the secondary market.",
-                    "2": "You must reach at least Level 1 to be elegible for the Raffle."
+                    "1": "추첨 티켓은 NFT가 아니며, 2차 마켓에서 거래할 수 없습니다.",
+                    "2": "추첨에 참여하려면 최소 레벨 1까지 진행해야 합니다."
                 }
             },
             "quests": {
-                "title": "Quests & Raffle Tickets",
+                "title": "퀘스트 및 추첨 티켓",
                 "blocks": {
                     "first": {
                         "number": "1",
@@ -1168,96 +1168,96 @@
                     }
                 },
                 "warning": {
-                    "title": "Warning",
+                    "title": "경고",
                     "first": {
-                        "1": "As The Sandbox is in Alpha state at the moment,",
-                        "2": "we are missing some quest features that could create confusion",
-                        "3": "but that will never prevent you from earning your rewards:"
+                        "1": "현재 더 샌드박스는 알파 상태이므로",
+                        "2": "일부 퀘스트 기능이 누락되어 혼동이 있을 수 있습니다",
+                        "3": ". 그러나 리워드 획득에는 문제가 없으니 걱정 마세요."
                     },
                     "second": {
-                        "1": "- There is no feedback informing you if you already completed a specific quest",
-                        "2": "when returning to an experience you already visited."
+                        "1": "- 이미 방문했던 경험으로 돌아오면",
+                        "2": "특정 퀘스트의 완료 여부를 알려 주는 피드백을 받을 수 없습니다."
                     },
                     "third": {
-                        "1": "- If you",
-                        "2": "complete the same quest multiple times, it will grant you progression only once."
+                        "1": "- 같은 퀘스트를",
+                        "2": "여러 번 완료해도 진행 현황은 한 번만 기록됩니다."
                     },
                     "fourth": {
-                        "1": "- To avoid confusion on which quest you have already completed or not, we advise you to",
-                        "2": "keep track of it on a notepad while playing the game."
+                        "1": "- 특정 퀘스트를 이미 완료했는지 헷갈리지 않도록",
+                        "2": "게임을 플레이하며 메모장에 완료 현황을 기록하는 것을 권장합니다."
                     },
                     "fifth": {
-                        "1": "To help you with that, you will always be able to",
-                        "2": "see on the Alpha Map the number of quests you have already completed",
-                        "3": "for each experience."
+                        "1": "알파 맵에서는 각 경험별로",
+                        "2": "내가 완료한 퀘스트의 수를",
+                        "3": "확인할 수 있습니다."
                     },
                     "sixth": {
-                        "1": "Also, please note that you do not have to complete all the quests in Season 2 to max out the number of Raffle Tickets you will earn.",
-                        "2": "Just choose the quests you like the most!"
+                        "1": "또한 시즌 2의 퀘스트를 모두 완료하지 않아도 추첨 티켓의 수를 최대로 올릴 수 있습니다.",
+                        "2": "그러니 가장 마음에 드는 퀘스트를 선택하고 진행하세요!"
                     }
                 }
             },
             "communityBooster": {
                 "mSand": "mSAND",
-                "title": "Staking & Community Booster",
+                "title": "스테이킹 및 커뮤니티 부스터",
                 "subtitle": {
-                    "1": "EXTRA RAFLLE TICKETS FOR SAND STAKING:",
-                    "2": "COMMUNITY REWARD BOOSTER:"
+                    "1": "SAND 스테이킹 시 추첨 티켓 추가 지급:",
+                    "2": "커뮤니티 리워드 부스터:"
                 },
                 "bulletPoints": {
                     "1": {
-                        "1": "You can get",
-                        "2": "up to 200 extra Raffle Tickets by staking"
+                        "1": "mSAND를",
+                        "2": "스테이킹하면 최대 200개의 추첨 티켓을"
                     },
                     "2": {
-                        "1": "The higher your staking score is, the more Raffle Tickets you will get. The staking score is calculated from how much",
-                        "2": "you staked, and how long you staked it, even if you don’t stake a lot, we value your loyalty!"
+                        "1": "스테이킹 점수가 높을수록 더 많은 추첨 티켓이 주어집니다. 스테이킹 점수는 스테이킹한",
+                        "2": "수량과 기간으로 계산됩니다. 수량과는 관계없이 스테이킹에 참여하신 모든 분께 감사드립니다!"
                     },
                     "3": {
-                        "1": "The more the community stakes",
-                        "2": "the",
-                        "3": "more rewards everyone gets!"
+                        "1": "커뮤니티가 스테이킹하는",
+                        "2": "가 많을수록",
+                        "3": "전체 리워드도 많아집니다!"
                     },
                     "4": {
-                        "1": "The staking score of the whole community will be added together to create a Reward Community Booster that will increase the S2 Alpha Pass rewards for everyone.",
-                        "2": "At its highest, the Reward Community Booster can DOUBLE the regards (+100%)."
+                        "1": "커뮤니티 전체의 스테이킹 점수가 합산되어 리워드 커뮤니티 부스터를 생성합니다. 이를 통해 모두에게 돌아가는 시즌 2 알파 패스 리워드 또한 상승하게 됩니다.",
+                        "2": "리워드 커뮤니티 부스터는 리워드를 최대 두 배(+100%)까지 늘려줍니다."
                     }
                 }
             },
             "contest": {
-                "title": "Contests",
+                "title": "콘테스트",
                 "description": {
                     "1": {
-                        "1": "Participate every day in social contests on",
-                        "2": "The Sandbox Twitter",
-                        "3": "account to get a chance to win a Season 2 Alpha Pass."
+                        "1": "매일",
+                        "2": "더 샌드박스 트위터",
+                        "3": "계정에서 열리는 소셜 콘테스트에 참여하여 시즌 2 알파 패스를 획득해 보세요."
                     },
-                    "2": "1,000 Season 2 Alpha Passes are distributed every Thursday."
+                    "2": "매주 목요일 1,000개의 시즌 2 알파 패스가 지급됩니다."
                 },
                 "bulletPoints": {
-                    "1": "You can participate in each daily contest only once but you can maximize your chances of winning by participating in the daily contest every day of the week!",
-                    "2": "Daily contest activities will range from trying to find Easter eggs in the game or capturing cool screenshots."
+                    "1": "일일 콘테스트에는 매일 한 번씩만 참여할 수 있지만 하루도 빠지지 않고 참여하면 당첨 확률을 최대한 높일 수 있습니다.",
+                    "2": "일일 콘테스트로는 게임에서 이스터 에그 찾기, 멋진 스크린샷 찍기 등이 있습니다."
                 },
-                "warning": "Please note that if you get a Season 2 Alpha Pass through daily contests you will no longer be elegible to receive one from the Raffle at the end of Alpha Season 2."
+                "warning": "일일 콘테스트를 통해 시즌 2 알파 패스를 획득하면 알파 시즌 2 종료 후의 추첨에서는 패스를 획득할 수 없습니다."
             },
             "experiences": {
-                "title": "Types of experiences",
+                "title": "경험 유형",
                 "cards": {
                     "sandbox": {
-                        "title": "THE SANDBOX",
-                        "body": "Official TSB experiences, created by The Sandbox team."
+                        "title": "더 샌드박스",
+                        "body": "더 샌드박스 팀이 만든 더 샌드박스 공식 경험입니다."
                     },
                     "partners": {
-                        "title": "PARTNERS",
-                        "body": "Created by our Partners. They have the ownership and responsibility of their content."
+                        "title": "파트너",
+                        "body": "파트너사에서 제작한 경험입니다. 파트너에게 콘텐츠의 소유권과 책임이 있습니다."
                     },
                     "gameMaker": {
-                        "title": "GAME MAKER FUND",
-                        "body": "Experiences made by the GMF creators, funded and supported by TSB."
+                        "title": "게임 메이커 펀드",
+                        "body": "더 샌드박스가 지원하는 GMF 크리에이터가 제작한 경험입니다."
                     },
                     "gameJam": {
-                        "title": "GAME JAM",
-                        "body": "The best experiences made by the community for the TSB Alpha Game Jam."
+                        "title": "게임 잼",
+                        "body": "커뮤니티에서 더 샌드박스 알파 게임 잼에 출품했던 최고의 경험입니다."
                     }
                 }
             }
@@ -1305,7 +1305,7 @@
                 "creator": "@thesandboxgame"
             },
             "title": "더 샌드박스 -",
-            "defaultTitle": "Asset"
+            "defaultTitle": "애셋"
         },
         "smart": "스마트 계약",
         "loadMoreUsers": "사용자 더 불러오기",
@@ -1393,7 +1393,7 @@
             "equipment": "장비",
             "wearable": "웨어러블",
             "art": "아트",
-            "avatar": "Skins",
+            "avatar": "스킨",
             "block": "Block",
             "bodypart": "Bodypart"
         },
@@ -1510,14 +1510,14 @@
         },
         "sorts": {
             "title": "정렬 기준",
-            "newest": "현재",
-            "oldest": "과거",
+            "newest": "최신순",
+            "oldest": "오래된 순",
             "lowerPrice": "가격 낮음",
             "highPrice": "가격 높음",
             "leastAmount": "수량 적음",
             "highAmount": "수량 많음",
-            "az": "Name (A-Z)",
-            "za": "Name (Z-A)"
+            "az": "이름 알파벳순 (A-Z)",
+            "za": "이름 알파벳 역순 (Z-A)"
         },
         "sizes": {
             "title": "크기",
@@ -1631,7 +1631,7 @@
             "alreadyClaim": "이미 받음",
             "putOnSale": "상품 등록",
             "saleQuestion": "더 샌드박스 마켓플레이스에서 이 NFT를 판매하고 싶으신가요?",
-            "putOnSaleSuccess": "Asset is now for sale"
+            "putOnSaleSuccess": "애셋이 현재 판매 중입니다."
         }
     },
     "create": {
@@ -2411,10 +2411,10 @@
             "quan": "QUAN",
             "megacities2": "Mega Cities (2)",
             "megacities1": "Mega Cities (1)",
-            "snoopDogg1": "SNOOP DOGG",
+            "snoopDogg1": "스눕 독 (1)",
             "steveAoki": "STEVE AOKI",
-            "warnermusic": "WARNER MUSIC",
-            "gucci": "GUCCI",
+            "warnermusic": "Warner Music",
+            "gucci": "Gucci",
             "web3": "Web 3",
             "ubisoft": "Ubisoft"
         },
@@ -2463,7 +2463,7 @@
             "seeAll": "모두 보기",
             "viewInMap": "맵에서 보기",
             "readMorePremium": "프리미엄에 관해 더 알아보기",
-            "parcel": "parcel"
+            "parcel": "구획"
         },
         "onboarding": {
             "title": "더 샌드박스 맵",
@@ -2520,12 +2520,12 @@
             "text8": "All the experiences at the Alpha were built using VoxEdit and Game Maker. You can build our own experience!"
         },
         "transfer": {
-            "transferExperience": "Transfer your experience",
-            "walletUser": "Enter the target wallet:",
-            "confirm": "Confirm",
-            "successTransfer": "Successfully transferred",
-            "closeForm": "close",
-            "transferAssets": "Also transfer assets"
+            "transferExperience": "경험 이전하기",
+            "walletUser": "대상 지갑 입력:",
+            "confirm": "확인",
+            "successTransfer": "이전 성공",
+            "closeForm": "닫기",
+            "transferAssets": "애셋도 이전하기"
         }
     },
     "about": {
@@ -2808,54 +2808,54 @@
                     "image": "https://www.sandbox.game/images/logo.png"
                 }
             },
-            "title": "블로그",
-            "noPost": "There are no posts available",
-            "noPostCategory": "There are no posts available for this category.",
-            "latestArticles": "Latest Articles",
-            "searchTitle": "Results of your search",
-            "emptySearch": "No result for your search",
-            "gameMakerAcademy": "The Sandbox Game Maker Academy",
-            "highlights": "Highlights",
-            "twitchTitle": "Streaming",
-            "youtubeTitle": "Latest Videos",
-            "viewMore": "View more",
-            "share": "Share",
-            "newsletter": "Newsletter",
-            "newslettersDescription": "Enter your email adress below to subscribe to SANDBOX's newsletter;",
-            "subscribe": "Subscribe",
-            "relatedArticles": "Related Articles",
+            "title": "더 샌드박스 커뮤니티",
+            "noPost": "게시물이 없습니다.",
+            "noPostCategory": "이 카테고리에 게시물이 없습니다.",
+            "latestArticles": "최신 글",
+            "searchTitle": "검색 결과",
+            "emptySearch": "검색 결과 없음",
+            "gameMakerAcademy": "더 샌드박스 게임 메이커 아카데미",
+            "highlights": "하이라이트",
+            "twitchTitle": "스트리밍",
+            "youtubeTitle": "최신 동영상",
+            "viewMore": "더 보기",
+            "share": "공유",
+            "newsletter": "뉴스레터",
+            "newslettersDescription": "더 샌드박스의 뉴스레터를 구독하려면 아래에 이메일 주소를 입력하세요.",
+            "subscribe": "구독",
+            "relatedArticles": "연관 기사",
             "socials": {
                 "discord": {
-                    "title": "Community",
-                    "text": "Join our Discord Community."
+                    "title": "커뮤니티",
+                    "text": "디스코드 커뮤니티에 참여하세요."
                 },
                 "twitter": {
-                    "title": "News",
-                    "text": "Be the first to discover our news."
+                    "title": "새 소식",
+                    "text": "누구보다 먼저 새 소식을 확인해 보세요."
                 },
                 "twitch": {
-                    "title": "Streams",
-                    "text": "Follow our live streams"
+                    "title": "스트리밍",
+                    "text": "라이브 스트리밍을 팔로우하세요."
                 },
                 "youtube": {
-                    "title": "YouTube",
-                    "text": "Watch all our latest videos"
+                    "title": "유튜브",
+                    "text": "최신 동영상을 시청하세요."
                 }
             },
             "gmAcademy": {
                 "0": {
-                    "title": "Welcome to The Sandbox GM Academy",
-                    "description": "Learn how to Build and Share your experiences in the Metaverse using the Sandbox Game Maker.",
+                    "title": "더 샌드박스 GM 아카데미에 오신 것을 환영합니다",
+                    "description": "게임 메이커를 이용하여 메타버스에서 경험을 만들고 공유하는 방법을 알아보세요.",
                     "link": "https://sandboxgame.gitbook.io/the-game-maker-academy/"
                 },
                 "1": {
-                    "title": "What is the Game Maker?",
-                    "description": "The program you use to build and then publish experiences within The Sandbox Metaverse.",
+                    "title": "게임 메이커란?",
+                    "description": "더 샌드박스 메타버스 내에서 경험을 만든 후 게시하는 데 사용하는 프로그램입니다.",
                     "link": "https://sandboxgame.gitbook.io/the-game-maker-academy/welcome-to-the-sandbox/game-maker"
                 },
                 "2": {
-                    "title": "What Can I Make?",
-                    "description": "Some examples of experiences you can create using The Sandbox GM resources and tools.",
+                    "title": "무엇을 만들 수 있나요?",
+                    "description": "더 샌드박스 GM 리소스와 다양한 도구를 사용하여 만들 수 있는 경험의 예시를 살펴보세요.",
                     "link": "https://sandboxgame.gitbook.io/the-game-maker-academy/welcome-to-the-sandbox/what-can-i-make"
                 }
             }
@@ -2865,14 +2865,14 @@
         "signin": "로그인",
         "menu": {
             "profile": "프로필",
-            "defi": "Staking",
+            "defi": "스테이킹",
             "defi-soon": "디파이(지원 예정)",
             "referral": "추천",
             "inventory": "인벤토리",
             "avatar": "아바타",
             "edit": "편집",
             "logout": "로그아웃",
-            "settings": "Settings"
+            "settings": "설정"
         },
         "profile": {
             "sandAmount": "내",
@@ -2954,7 +2954,7 @@
                 "unpublished": "게시 안 함",
                 "exclusive": "특별",
                 "basic": "기본",
-                "sale": "On Sale"
+                "sale": "판매 중"
             },
             "actions": {
                 "title": "액션",
@@ -3015,7 +3015,7 @@
                 "purchaseGemsDisclaimer": "계속하려면 카탈리스트와 젬을 구매해야 합니다",
                 "removing": "능력치가 모두 삭제됩니다.",
                 "wishToContinue": " 계속하시겠어요?",
-                "invalidAndMaxed": "Invalid amount, using maximum possible amount."
+                "invalidAndMaxed": "수량이 잘못되었습니다. 사용 가능한 최대 수량을 사용합니다."
             },
             "search": "검색...",
             "preview": "미리 보기",
@@ -3057,7 +3057,7 @@
                 "9": "내 프리미엄 아바타"
             },
             "tabs": {
-                "1": "My Avatars",
+                "1": "내 아바타",
                 "2": "상점",
                 "3": "아바타 크리에이터"
             },
@@ -3139,33 +3139,33 @@
                 "presetName": "사전 설정 이름"
             },
             "titleCreator": "아바타 크리에이터",
-            "title": "Create your Avatar",
-            "custom": "Custom bodyparts only",
-            "iosWarning": "Your device is not compatible with this feature. Please try on desktop version.",
-            "iosWarningTitle": "Sorry",
+            "title": "아바타 만들기",
+            "custom": "신체 부위만 직접 지정",
+            "iosWarning": "이 기능과 호환되지 않는 기기입니다. 데스크톱을 이용하세요.",
+            "iosWarningTitle": "이런!",
             "externalAvatarsPopUp": {
-                "title1": "Hey!",
-                "title2": "You have external avatars",
-                "description": "Do you want to check them out?",
-                "skipButton": "skip",
-                "editButton": "Edit Avatar"
+                "title1": "잠시만요!",
+                "title2": "외부 아바타가 있어요",
+                "description": "확인해 보시겠어요?",
+                "skipButton": "건너뛰기",
+                "editButton": "아바타 편집"
             },
             "noNfts": {
-                "title": "Ups!",
-                "description1": "You don't have external avatars",
-                "description2": "But you can create your own"
+                "title": "이런!",
+                "description1": "외부 아바타가 없어요",
+                "description2": "직접 만들어 보세요"
             },
             "notWhitelisted": {
                 "title": "Ups!",
-                "description1": "Your wallet is not whitelisted!",
-                "description2": "You don't have access to this section."
+                "description1": "화이트리스트에 해당 지갑 주소가 포함되어 있지 않습니다!",
+                "description2": "이 섹션에 액세스 권한이 없습니다."
             }
         },
         "loginModal": {
             "title": "로그인하거나 계정을 만드세요",
             "description": "로그인하려면 암호화폐 지갑을 연결하세요. 자금은 없어도 되며, 자금이 인출되지도 않습니다.",
             "wallet": "암호화폐 지갑이란?",
-            "whatsAWallet": "A crypto-wallet is the place where you can safely store all your cryptocurrencies and digital game ASSETS. No funds are required in the wallet to create an account. FREE to sign-up.",
+            "whatsAWallet": "암호화폐 지갑이란 모든 암호화폐와 디지털 게임 애셋을 안전하게 저장할 수 있는 공간입니다. 지갑에 자금이 없어도 계정을 만들 수 있습니다. 가입은 무료입니다.",
             "continue": "다음으로 계속",
             "agree": "계정을 만들고 암호화폐 지갑을 계정에 연결하면 더 샌드박스의",
             "terms": "이용 약관에 동의하는 것으로 간주합니다.",
@@ -3308,19 +3308,19 @@
                 "oldEmail-sub": "기존 이메일",
                 "submitEmail": "이메일 변경",
                 "websiteUrl": "개인 웹",
-                "generic-error": "There are one or more errors encountered.",
+                "generic-error": "하나 이상의 오류가 발생했습니다.",
                 "error": "Invalid Format",
-                "name": "Name",
+                "name": "이름",
                 "socialDescription": {
-                    "youtube": "Enter your Youtube user ID",
-                    "twitter": "Enter your Twitter Handle",
-                    "discord": "Enter your user#id",
-                    "facebook": "Enter your Facebook username",
-                    "instagram": "Enter your Instagram username",
-                    "telegram": "Enter your Telegram username"
+                    "youtube": "유튜브 사용자 ID 입력",
+                    "twitter": "트위터 사용자 이름 입력",
+                    "discord": "사용자#id 입력",
+                    "facebook": "페이스북 사용자 이름 입력",
+                    "instagram": "인스타그램 사용자 이름 입력",
+                    "telegram": "텔레그램 사용자 이름 입력"
                 },
-                "username-invalid": "Invalid Username",
-                "profilePictureErrorHigh": "Profile picture name is more than 200 characters long (including file extension)."
+                "username-invalid": "유효하지 않은 사용자 이름",
+                "profilePictureErrorHigh": "프로필 사진 이름이 200자를 초과합니다 (파일 확장자 포함)."
             },
             "security": {
                 "title": "보안 및 비밀번호",
@@ -3331,11 +3331,11 @@
                 "repeat-password": "비밀번호 다시 입력"
             },
             "chainSettings": {
-                "title": "Chain Settings",
-                "subtitle": "Polygon Meta transactions",
-                "text": "The Sandbox Meta Transactions on new features deployed on Polygon network. They allow us to wrap transactions so the only token you need is mSAND",
-                "useMatic": "All transaction cost are paid in MATIC, Polygon Network native Token.",
-                "useMsand": "All transaction cost are paid in mSAND, The Sandbox Governance Token.",
+                "title": "체인 설정",
+                "subtitle": "폴리곤 메타 트랜잭션",
+                "text": "새로운 기능에 대한 더 샌드박스 메타 트랜잭션이 폴리곤 네트워크에 배포되었습니다. 이를 통해 트랜잭션을 래핑할 수 있으므로 mSAND 외 다른 토큰은 필요하지 않습니다.",
+                "useMatic": "모든 트랜잭션 비용을 폴리곤 네트워크의 네이티브 토큰인 MATIC으로 지불합니다.",
+                "useMsand": "모든 트랜잭션 비용을 더 샌드박스의 거버넌스 토큰인 mSAND로 지불합니다.",
                 "subtitleGasless": "Polygon Gasless",
                 "textGasless": "The Sandbox offers a monthly number of gasless transactions on Polygon network through the use of Biconomy so you can perform a few essential transactions without a need for gas.",
                 "useGasless": "Free transactions left",
@@ -3394,8 +3394,8 @@
             "assetOwnership": "애셋 소유권",
             "presales": "프리세일",
             "faucet": "Sand & Ether Faucets",
-            "ticketDetails": "",
-            "raffleTickets": ""
+            "ticketDetails": "Ticket details",
+            "raffleTickets": "Raffle tickets"
         },
         "users": {
             "profile": "프로필",
@@ -3450,20 +3450,20 @@
             }
         },
         "faucet": {
-            "layer1": "LAYER 1 TESTNETS",
-            "layer2": "LAYER 2 TESTNETS",
-            "claim": "Claim",
-            "ext": "Go to Faucet",
-            "nextClaim": "Next claim will be available in ",
-            "claimInfo": "You can claim Sand once every day. Please use only if required",
-            "external": "You can claim ETH through the external faucet",
-            "goToFaucet": "Go to Faucet",
+            "layer1": "레이어 1 TESTNETS",
+            "layer2": "레이어 2 TESTNETS",
+            "claim": "받기",
+            "ext": "포싯으로 이동",
+            "nextClaim": "다음 수령 시간까지 남은 시간:",
+            "claimInfo": "Sand는 하루에 한 번 수령할 수 있습니다. 필요한 경우에만 사용하시기 바랍니다.",
+            "external": "외부 포싯을 통해 ETH를 수령할 수 있습니다.",
+            "goToFaucet": "포싯으로 이동",
             "goerli": "Goerli",
             "rinkeby": "Rinkeby",
             "mumbai": "Mumbai",
-            "switchToGoerli": "Switch to Goerli",
-            "switchToRinkeby": "Switch to Rinkeby",
-            "switchToMumbai": "Switch to Mumbai",
+            "switchToGoerli": "Goerli로 변경",
+            "switchToRinkeby": "Rinkeby로 변경",
+            "switchToMumbai": "Mumbai로 변경",
             "sand": "SAND",
             "msand": "mSAND",
             "eth": "ETH",
@@ -3531,7 +3531,7 @@
     },
     "newPlay": {
         "discoverHub": "더 샌드박스 허브를 둘러보세요",
-        "buyLand": "LAND 구매",
+        "buyLand": "LAND",
         "TWD": "워킹 데드",
         "seeRewards": "리워드 보기",
         "endingSoon": "알파가 곧 종료됩니다",
@@ -3547,7 +3547,7 @@
         "coming": "출시 예정",
         "selectAvatar": "아바타 선택",
         "infoTooltip": "소유한 LAND 1개마다 추첨 티켓이 1개씩 더 지급됩니다",
-        "helpUs": "Help us improve The Sandbox experience!"
+        "helpUs": "더 샌드박스의 경험 개선을 위해 여러분의 도움이 필요합니다!"
     },
     "experiencePage": {
         "progressSeason": "시즌 진행 현황",
@@ -3792,14 +3792,14 @@
             "whyPolygon": "폴리곤을 사용하는 이유",
             "whyPolygonText": "더 샌드박스는 블록체인 거래를 더 빠르고 좋은 성능으로 관리할 방법을 제공하기 위해 폴리곤으로 이전합니다. 이더리움과 폴리곤 간에 전송을 위해 브릿지가 곧 지원됩니다.",
             "whatsBlockchain": "블록체인 브릿지란?",
-            "bridgeSand": "BRIDGE SAND",
-            "bridge": "Bridge",
+            "bridgeSand": "SAND 브릿지",
+            "bridge": "브릿지",
             "mainnetL1": "ETHEREUM NETWORK",
             "mainnetL2": "POLYGON NETWORK",
-            "discoverPolygon": "Discover Polygon benefits",
-            "noActivePool": "You can earn more SAND by staking",
-            "bridgeNotAvailable": "Your wallet is not yet supported by the Polygon Bridge for now. Please use Metamask. If you don’t have a Metamask wallet, you can still acquire SAND on ",
-            "learn": "Learn how"
+            "discoverPolygon": "폴리곤 혜택 확인하기",
+            "noActivePool": "스테이킹으로 SAND를 획득하세요",
+            "bridgeNotAvailable": "폴리곤 브릿지가 현재 지갑을 지원하지 않습니다. Metamask를 사용하시기 바랍니다. Metamask 지갑이 없어도 SAND는 획득할 수 있습니다.",
+            "learn": "방법 확인하기"
         },
         "avatars": {
             "title": "아바타",
@@ -3847,7 +3847,7 @@
         "linkWallet": "지갑 연결하기",
         "linkWalletText": "지갑을 연결하여 잔액을 확인하고 모든 기능을 자유롭게 사용하세요",
         "myWallet": "내 지갑",
-        "copied": "Copied!",
+        "copied": "복사 완료!",
         "inventory": {
             "title": "내 인벤토리",
             "cardState": {
@@ -3864,123 +3864,123 @@
             }
         },
         "migration": {
-            "title": "Migrations",
-            "subTitle": "LANDs Migration",
-            "text1": "Duo to a vulnerability discovered on December 25th 2021 by",
-            "text2": ", we've decided after running thorough investigations to patch and deploy a new fixed and improved version of the LAND smart contract. Further information can be found on our",
-            "mediumArticle": " Medium article",
-            "text3": "On this page, you will be able to redeem the exact same LANDs you own from the new smart contract based on their unique ID. The process will then lock and burn the previous version to avoid any confusion in the future.",
-            "text4": "If you need any help in the process, you can contact us:",
-            "text5": "The new version of the smart contract has been audited on December 30th by ",
+            "title": "마이그레이션",
+            "subTitle": "LAND 마이그레이션",
+            "text1": "2021년 12월 25일에",
+            "text2": "에서 취약성을 발견하여 면밀히 조사를 진행한 결과, 새롭게 수정하고 개선한 LAND 스마트 컨트랙트 버전을 패치하고 배포하기로 결정했습니다. 자세한 정보는",
+            "mediumArticle": "미디엄 게시물에서 확인하실 수 있습니다.",
+            "text3": "이 페이지를 통해 새로운 스마트 컨트랙트에서 LAND 고유 ID에 따라 보유 중인 LAND와 정확히 동일한 LAND를 상환할 수 있습니다. 향후 혼동을 방지하기 위해 이전 버전의 LAND는 잠근 후 소각됩니다.",
+            "text4": "마이그레이션에 도움이 필요하다면 더 샌드박스로 문의해 주세요.",
+            "text5": "스마트 컨트랙트의 최신 버전은 12월 30일에 에서 감사가 진행되었습니다.",
             "and": " and ",
-            "text6": "It was deployed on January the 30th",
-            "newContractAddress": "The new smart contract address is ",
-            "text7": "The vulnerability has not been exploited by any malicious user and has now been secured.",
-            "text8": "Investigation did not reveal any breach on other smart contracts.",
-            "thanks": "Thank you for your unwavering support.",
-            "oldContract": " Old Contract",
-            "newContract": " New Contract",
-            "migrateBtn": "Migrate all my LANDs to the New Contract",
-            "viewMigrateContract": "View Migrate Contract on Etherscan",
-            "reviewAudit": "Review Migration Contract Audit",
-            "gasless1": "This process is gasless.",
-            "gasless2": "There won't be any costs for you.",
-            "didYouKnow": "Did you know?",
-            "sandDropTitle": "There was a SAND airdrop in January for LAND owners",
-            "readTheArticle": "Read the article",
-            "sandDropSubtitle": "You ware eligible for ",
-            "checkYourWallet": ", check your wallet on Polygon",
-            "success": "All your LANDs have been successfully migrated.",
+            "text6": "1월 30일에 신규 버전이 배포되었습니다.",
+            "newContractAddress": "최신 스마트 컨트랙트 주소:",
+            "text7": "취약성을 악용한 유저는 없었으며 현재는 보안 조치를 취한 상태입니다.",
+            "text8": "조사 결과 다른 스마트 컨트랙트의 보안 위반 사실은 드러나지 없었습니다.",
+            "thanks": "변함없는 응원에 감사드립니다.",
+            "oldContract": "이전 컨트랙트",
+            "newContract": "신규 컨트랙트",
+            "migrateBtn": "LAND를 모두 신규 컨트랙트로 마이그레이션하기",
+            "viewMigrateContract": "Etherscan에서 마이그레이션 컨트랙트 보기",
+            "reviewAudit": "마이그레이션 컨트랙트 감사 내역 확인하기",
+            "gasless1": "마이그레이션에는 가스 수수료가 발생하지 않습니다.",
+            "gasless2": "비용은 100% 무료입니다.",
+            "didYouKnow": "알고 계셨나요?",
+            "sandDropTitle": "1월에 LAND 보유자를 위한 SAND 에어드롭 이벤트가 있었습니다.",
+            "readTheArticle": "기사 확인하기",
+            "sandDropSubtitle": "받을 수 있는 SAND는",
+            "checkYourWallet": "이었습니다. 폴리곤에서 지갑을 확인해 보세요.",
+            "success": "LAND를 모두 성공적으로 마이그레이션했습니다.",
             "gaslessWarningMobile": "This process is gasless. We got you covered.",
             "insideProfile": {
-                "title": "New LANDs smart contract",
-                "subtitle": "We have enhanced our LANDs smart contract and deployed a new version of them.",
-                "buttonText": "Migrate Lands",
-                "infoText": "This process is gasless"
+                "title": "신규 LAND 스마트 컨트랙트",
+                "subtitle": "LAND 스마트 컨트랙트를 개선하여 새로운 버전을 배포했습니다.",
+                "buttonText": "LAND 마이그레이션",
+                "infoText": "가스 수수료 없음"
             },
             "banners": {
-                "title1": "You have LAND to Migrate",
-                "title2": "New LANDs smart contract",
-                "buttonText": "Migrate Lands",
-                "text0": "We have deployed a new and enhanced version of the LAND smart contract.",
-                "text1": "You can find all the details related to the migration on the ",
-                "text2": "dedicated article",
+                "title1": "마이그레이션이 필요한 LAND가 있습니다",
+                "title2": "신규 LAND 스마트 컨트랙트",
+                "buttonText": "LAND 마이그레이션",
+                "text0": "보다 편리하고 새로운 버전의 LAND 스마트 컨트랙트가 배포되었습니다.",
+                "text1": "마이그레이션에 관한 상세한 내용은",
+                "text2": "해당 글에서 확인하실 수 있습니다",
                 "text3": ".",
-                "text41": "It appears you have some LANDs to migrate.",
-                "text42": "This LAND needs to be migrated.",
-                "text5": "Please proceed to the migration page. The migration is completely free.",
-                "required": "MIGRATION REQUIRED",
-                "infoText": "This process is gasless",
+                "text41": "마이그레이션이 필요한 LAND가 있습니다.",
+                "text42": "이 LAND는 마이그레이션이 필요합니다.",
+                "text5": "마이그레이션 페이지로 이동해 주세요. 마이그레이션은 100% 무료입니다.",
+                "required": "마이그레이션 필요",
+                "infoText": "가스 수수료 없음",
                 "textInventory": "We have deployed a new and enhanced version of the LAND smart contract.",
                 "textInventory2": "You can find all the details related to the migration on the ",
                 "textInventorySubtext": "Please proceed to the migration page. The migration is completely free."
             },
             "faqs": {
                 "01": {
-                    "question": "When does the migration start?",
-                    "answer": "The migration page will be deployed on January the 26th."
+                    "question": "마이그레이션은 언제 시작되나요?",
+                    "answer": "마이그레이션 페이지는 1월 26일에 배포됩니다."
                 },
                 "02": {
-                    "question": "How to migrate?",
-                    "answer1": "Go to the migration page ",
-                    "answer2": " and follow the instructions. You need to be logged in with your wallet and associated Sandbox account."
+                    "question": "마이그레이션을 하려면 어떻게 해야 하나요?",
+                    "answer1": "마이그레이션 페이지로 이동한 후",
+                    "answer2": "설명대로 따라하세요. LAND를 보유하고 있는 더 샌드박스 계정과 지갑으로 로그인해야 합니다."
                 },
                 "03": {
-                    "question": "What does the migration do exactly?",
-                    "answer": "The migration page lists all LAND for a given LAND owner. Upon signing the transaction, the smart contract locks away LANDs from the old contract and mints the exact same LANDs on the new contract for the owner."
+                    "question": "마이그레이션하면 어떻게 되나요?",
+                    "answer": "마이그레이션 페이지에는 해당 유저가 보유하고 있는 모든 LAND가 표시됩니다. 트랜잭션에 서명하면 스마트 컨트랙트가 기존 컨트랙트에서 LAND를 잠근 후 같은 LAND를 소유자의 새로운 컨트랙트에 민팅합니다."
                 },
                 "04": {
-                    "question": "How much does it cost?",
-                    "answer": "Nothing. We have deployed a gasless solution to enable free transactions for our users."
+                    "question": "비용이 얼마나 드나요?",
+                    "answer": "비용은 전혀 들지 않습니다. 사용자가 무료로 트랜잭션할 수 있도록 가스 수수료가 없는 솔루션을 선택했습니다."
                 },
                 "05": {
-                    "question": "How long does it take?",
-                    "answer": "Once the transaction is signed, it will take a couple minutes to go through the network."
+                    "question": "시간이 얼마나 걸리나요?",
+                    "answer": "트랜잭션에 서명하면 네트워크 처리에 몇 분이 소요됩니다."
                 },
                 "06": {
-                    "question": "Is there a time limit?",
-                    "answer": "Not at this moment. We want to give you space to migrate LANDs at your own pace."
+                    "question": "기한이 있나요?",
+                    "answer": "현재는 없습니다. 원할 때 언제든 LAND를 마이그레이션할 수 있습니다."
                 },
                 "07": {
-                    "question": "How do I know which LAND I still have to migrate to the new contract ?",
-                    "answer1": "When going to ",
-                    "answer2": ", you will see all LAND you own on their respective contracts."
+                    "question": "새로운 컨트랙트로 어떤 LAND를 마이그레이션해야 하는지 어떻게 알 수 있나요?",
+                    "answer1": "각각의 컨트랙트에 보유 중인 LAND를 확인하려면",
+                    "answer2": "페이지를 확인하세요."
                 },
                 "08": {
-                    "question": "How do I find my LAND after the migration?",
-                    "answer": "Your LAND will be minted in the same wallet and can be found in your The Sandbox inventory or any other wallet reader."
+                    "question": "마이그레이션한 후 LAND를 찾으려면 어떻게 해야 하나요?",
+                    "answer": "LAND는 동일한 지갑에 민팅되며, 더 샌드박스 인벤토리나 그 외 지갑 리더에서 확인할 수 있습니다."
                 },
                 "09": {
-                    "question": "What if my LAND is in cold storage?",
-                    "answer": "You will need to proceed as you usually do when transferring your assets, move it to your selected wallet and migrate your LAND. Then you can move it back to cold storage."
+                    "question": "LAND가 콜드 스토리지에 있으면 어떻게 해야 하나요?",
+                    "answer": "평소 애셋을 전송할 때 사용하는 방법과 동일하게 진행합니다. 더 샌드박스에서는 대부분의 하드웨어 지갑을 지원합니다. EIP-712와 관련하여 문제가 있는 Trezor 및 다른 지갑을 사용하는 경우, 마이그레이션 페이지의 확인란을 선택하여 서명 형식을 변경할 수 있습니다."
                 },
                 "10": {
-                    "question": "What if my LAND is staked in a smart contract?",
-                    "answer": "You will need to withdraw your LAND from the smart contract and migrate it."
+                    "question": "LAND가 스마트 컨트랙트에 스테이킹되어 있으면 어떻게 하나요?",
+                    "answer": "해당 스마트 컨트랙트에서 LAND를 인출한 후 마이그레이션해야 합니다."
                 },
                 "11": {
-                    "question": "There was an error during the transaction, what do I do?",
-                    "answer": "We are normally handling all errors. If you encounter unexpected errors, please contact us through "
+                    "question": "트랜잭션 중에 오류가 발생했습니다. 어떻게 해야 하나요?",
+                    "answer": "대부분의 경우 더 샌드박스에서 모든 오류를 처리합니다. 예기치 않은 오류가 발생하면 다음 연락처를 통해 문의해 주세요."
                 },
                 "12": {
-                    "question": "The migration page says I have several transactions to sign, is it normal ?",
-                    "answer": "Yes, if you have a lot of LAND the contract might need to handle them in separate transactions due to gas limits. This is completely normal and all transaction costs will be covered by The Sandbox."
+                    "question": "마이그레이션 페이지에 서명할 트랜잭션이 여러 개 있다고 하는데 문제가 없는 건가요?",
+                    "answer": "네, LAND를 많이 보유하고 있으면 가스 제한으로 인해 컨트랙트에서 LAND를 별도의 트랜잭션으로 처리해야 할 수도 있습니다. 이는 극히 정상적인 절차이며, 트랜잭션 비용은 모두 더 샌드박스에서 부담합니다."
                 },
                 "13": {
-                    "question": "What is the migration contract address?",
-                    "answer": "Migration contract: "
+                    "question": "마이그레이션 컨트랙트 주소가 어떻게 되나요?",
+                    "answer": "마이그레이션 컨트랙트:"
                 },
                 "14": {
-                    "question": "What is the new LAND contract address?",
-                    "answer": "New LAND contract : "
+                    "question": "새로운 LAND 컨트랙트 주소가 어떻게 되나요?",
+                    "answer": "신규 LAND 컨트랙트:"
                 },
                 "15": {
-                    "question": "What if I purchased a LAND from the old contract after the migration started?",
-                    "answer": "You can migrate it, do not worry. It is not based on a snapshot but on real time ownership."
+                    "question": "마이그레이션이 시작된 후 이전 컨트랙트에서 LAND를 구매하면 어떻게 되나요?",
+                    "answer": "마이그레이션이 가능하니 걱정할 필요 없습니다. 스냅샷이 아닌 실시간 소유권에 따라 결정됩니다."
                 },
                 "16": {
-                    "question": "What if I have no ETH for the migration?",
-                    "answer": "The migration is gasless so you don’t need any ETH. We cover all costs."
+                    "question": "마이그레이션에 사용할 ETH가 없으면 어떻게 되나요?",
+                    "answer": "마이그레이션에는 가스 수수료가 부과되지 않으므로 ETH가 필요 없습니다. 비용은 모두 더 샌드박스에서 부담합니다."
                 }
             },
             "willTake": "The migration will require ",
@@ -4280,24 +4280,24 @@
             "wantToJoin": "시즌에 참여하고 싶으신가요?",
             "buySeasonPass": "누군가가 OpenSea에서 시즌 패스를 판매하면 구매할 수 있습니다",
             "goOpenSea": "OpenSea로 이동",
-            "findOpen": "Look for a Pass on OpenSea",
+            "findOpen": "OpenSea에서 패스 찾기",
             "gotSeasonPass": "시즌 패스를 받았습니다!",
             "descriptionExplore": "첫 번째 시즌이 지금 진행 중입니다. 경험을 플레이하면서 탐험하고 리워드를 받을 수 있습니다.",
             "discover": "시즌 둘러보기",
             "congrats": "축하합니다!",
-            "descriptionWinner": "You are one of the lucky Raffle winners!",
+            "descriptionWinner": "행운의 당첨자로 선정되었습니다!",
             "claim": "패스 받기",
-            "betterLuck": "Sorry...",
-            "learnMore": "Learn more about the Alpha Season 2",
-            "paragraphLooser": "You are not one of the Raffle winners. You might be able to get a Season 2 Alpha Pass by purchasing it from another player.",
+            "betterLuck": "아쉽네요…",
+            "learnMore": "알파 시즌 2에 대해 자세히 알아보기",
+            "paragraphLooser": "추첨 당첨자로 선정되지 않았습니다. 다른 플레이어로부터 시즌 2 알파 패스를 구매할 수 있습니다.",
             "descriptionLooser": "알파 패스에 당첨되지 않았습니다",
             "youWon": "알파 패스에 당첨되었습니다!",
-            "descriptionWinner2": "You can now claim your Season 2 Alpha Pass. You will be able to claim the rewards soon! Until then, you can join a VIP party in Climbing Madness for Pass holders!",
-            "paragraphLooser2": "Tomorrow Alpha Pass holders will be able to claim their rewards.",
-            "seasonIsOver": "The Alpha Season 2 is now over.",
-            "purchaseWarning": "Do not purchase a Season 2 Alpha Pass on the secondary market anymore as you will not be able to use it to claim your rewards.",
-            "seeYouSoon": "We hope to see you soon in Season 3 to try your luck again.",
-            "gotIt": "Got it",
+            "descriptionWinner2": "이제 시즌 2 알파 패스를 받을 수 있습니다. 리워드가 곧 지급됩니다! 리워드가 지급될 때까지 Climbing Madness에서 열리는 패스 보유자 전용 VIP 파티에 참석해 보세요!",
+            "paragraphLooser2": "알파 패스를 보유하고 있다면 내일 리워드를 수령할 수 있습니다.",
+            "seasonIsOver": "알파 시즌 2가 종료되었습니다.",
+            "purchaseWarning": "2차 마켓에서 시즌 2 알파 패스를 구매하지 마세요. 해당 알파 패스로는 리워드 수령이 불가능합니다.",
+            "seeYouSoon": "다음 시즌 3에서 다시 한 번 행운을 시험해 보세요.",
+            "gotIt": "확인",
             "claimButton": "Claim S2 Alpha Pass"
         },
         "avatar": {
@@ -4307,7 +4307,7 @@
             "endedSubtitle": "더 샌드박스 알파에 참여해 주신 모든 분들께 감사의 말씀을 드립니다.",
             "endedSubtitle2": "소중한 피드백을 보내주셔서 감사합니다!\n 곧 다시 뵙기를 바랍니다!",
             "drawInProgressTitle": "추첨 진행 중",
-            "lostSeasonPassTitle": "알파 패스에 당첨되지 않았습니다",
+            "lostSeasonPassTitle": "알파 패스가 없습니다.",
             "notStartSubtitle": "알파에서 플레이하고",
             "startSubtitle": "더 샌드박스 알파가 곧 시작됩니다. \n등록하여 플레이와 당첨 기회를 얻어보세요.",
             "startCountDown": "등록 시작까지 남은 시간:",
@@ -4330,28 +4330,28 @@
             "claimAvailableAt": "수령 가능:",
             "alphaEndsIn": "알파 종료까지 남은 시간:",
             "claimRewardsButton": "리워드 받기",
-            "unregisteredStartingSubtitle": "The Sandbox Alpha Season 2 will start soon.",
-            "playButton": "Play",
+            "unregisteredStartingSubtitle": "알파 패스가 있습니다.",
+            "playButton": "플레이",
             "newLottery": {
-                "drawInProgressTitle": "Raffle draw in progress",
-                "getRaffleTickets": "Season 2: Get Raffle Tickets",
-                "alphaPass": "Season 2: Alpha Pass",
-                "seasonPassTitle": "Season 2: Alpha Pass",
+                "drawInProgressTitle": "추첨 진행 중",
+                "getRaffleTickets": "시즌2: 추첨 티켓 받기",
+                "alphaPass": "시즌 2: 알파 패스",
+                "seasonPassTitle": "시즌 2: 알파 패스",
                 "boostRewards": "Boost Rewards",
-                "subtitleSelectWinners": "We'll select 5000 winners! Wait for the results",
-                "subtitleWaitToClaim": "Wait to claim the rewards",
-                "subtitleNoLongerEarn": "You can no longer earn Raffle tickets.\nThe Raffle will take place soon. Good luck!",
-                "getAlphaPassButton": "Get Alpha Pass",
-                "goToPartyButton": "Go To Party!",
-                "claimRewardsSoon": "You will be able to claim the $SAND rewards soon! In the meantime visit the Pass holders VIP Party!",
-                "wonSeason2Pass": "Congratulations! You won a Season 2 Alpha Pass!",
-                "notRaffleWinner": "Sorry, you were not one of the Raffle winners.",
-                "purchaseFromAnother": "You might be able to purchase one from another player",
-                "claimSandRewards": "Congratulations! You can now claim your $SAND rewards.",
-                "completeQuestsRewards": "Complete Quests to earn rewards.",
-                "completeQuestsTickets": "Complete Quests to get Raffle Tickets",
-                "claimSoon": "Claim your rewards soon",
-                "claimPass": "Claim your Alpha Pass now to visit the Pass holders VIP Party and to claim your $SAND rewards later on."
+                "subtitleSelectWinners": "5000명의 당첨자를 선정할 예정입니다! 결과를 기다려 주세요",
+                "subtitleWaitToClaim": "리워드를 받으려면 기다려 주세요",
+                "subtitleNoLongerEarn": "지금은 추첨 티켓을 획득할 수 없습니다.\\n추첨이 곧 시작됩니다. 행운을 빕니다!",
+                "getAlphaPassButton": "알파 패스 받기",
+                "goToPartyButton": "파티하러 가기!",
+                "claimRewardsSoon": "곧 $SAND 리워드를 수령할 수 있습니다. 기다리는 동안 패스 보유자를 위한 VIP 파티에 참석하세요!",
+                "wonSeason2Pass": "축하합니다! 시즌 2 알파 패스에 당첨되었습니다!",
+                "notRaffleWinner": "아쉽지만 당첨되지 않았습니다.",
+                "purchaseFromAnother": "다른 플레이어로부터 패스를 구매할 수 있습니다.",
+                "claimSandRewards": "축하합니다! 이제 $SAND 리워드를 받을 수 있습니다.",
+                "completeQuestsRewards": "퀘스트를 완료하여 리워드를 획득하세요.",
+                "completeQuestsTickets": "퀘스트를 완료하여 추첨 티켓을 획득하세요.",
+                "claimSoon": "곧 리워드를 수령할 수 있습니다",
+                "claimPass": "지금 알파 패스를 받고 패스 보유자를 위한 VIP 파티에 참석하세요. $SAND 리워드는 이후 수령할 수 있습니다."
             }
         },
         "modalLottery": {
@@ -4484,7 +4484,7 @@
         "apy": "4월",
         "weekly": "주간 리워드",
         "share": "지분",
-        "haveLand": "Get more LAND ?",
+        "haveLand": "LAND가 더 필요한가요?",
         "extraInfo": "LAND를 소유하면 리워드를 배로 늘릴 수 있습니다",
         "buyLand": "LAND 구매",
         "titleDeposits": "유동성 예치금",
@@ -4506,10 +4506,10 @@
         "tipOfDay": "유동성 마이닝 인센티브를 추가하면 높은 유동성을 확보하여, 비수탁 방식으로 SAND를 거래하고 쓰고자 하는 사용자들에게 강력한 거래의 장을 제공할 수 있습니다.",
         "greeting": "안녕하세요",
         "wallet": "내 지갑",
-        "title": "The Sandbox Staking",
+        "title": "더 샌드박스 스테이킹",
         "noResult": "결과 없음",
         "tooltipText": {
-            "tvl": "Total Value Locked (TVL) represents the total value of tokens locked within the staking program",
+            "tvl": "잠긴 총 금액 (Total Value Locked, TVL)은 스테이킹 프로그램 내에 예치되어 있는 토큰의 총 가치를 나타냅니다.",
             "apy": "연간 수익률",
             "share": "내 풀 지분",
             "earn": "이 풀의 내 수익금",
@@ -4518,16 +4518,16 @@
             "landOwner": "LAND 소유자",
             "landQty": "#LAND",
             "landMultiplier": "계수",
-            "token-title": "Token",
-            "token": "The token required to stake. When two tokens are indicated, it refers to their LP pair.",
-            "tvl-title": "Total Value Locked",
-            "apr-title": "Annual Percentage Rate",
-            "apr": "Represents the rewards rate for a whole year, applied to your staked funds.",
-            "weekly-title": "Weekly Reward",
-            "weekly": "Rewards are replenished each week. This represents the amount distributed over a single week.",
-            "earnings-title": "Earnings",
-            "earnings": "Your claimable accumulated earnings.",
-            "landMultiplierNotActive": "LAND multiplier is not available yet on Polygon network"
+            "token-title": "토큰",
+            "token": "스테이킹에 필요한 토큰입니다. 토큰 2개가 표시되어 있을 경우 해당 LP 페어를 의미합니다.",
+            "tvl-title": "잠긴 총 금액 (TVL)",
+            "apr-title": "연간 수익률 (APR)",
+            "apr": "스테이킹한 자금에 대한 한 해의 리워드 비율을 나타냅니다.",
+            "weekly-title": "주간 리워드",
+            "weekly": "리워드는 매주 지급됩니다. 이 수치는 한 주 동안 배포되는 수량을 나타냅니다.",
+            "earnings-title": "수익금",
+            "earnings": "수령이 가능한 누적 수익금입니다.",
+            "landMultiplierNotActive": "LAND 계수는 아직 폴리곤 네트워크에서 지원되지 않습니다."
         },
         "modalWithdraw": {
             "withdraw": "인출",
@@ -4542,7 +4542,7 @@
             "stake": "스테이킹",
             "more": "유동 자산을 얻는 방법",
             "amount": "수량",
-            "inactive": "Inactive"
+            "inactive": "비활성"
         },
         "transaction": {
             "contract": "계약",
@@ -4554,8 +4554,8 @@
         },
         "transactionHistory": {
             "title": "거래 내역",
-            "noTransactions": "There are no new transactions to show in the last few days",
-            "oldTransactions": "View old transactions"
+            "noTransactions": "지난 며칠 동안 진행된 신규 트랜잭션이 없습니다.",
+            "oldTransactions": "지난 트랜잭션 내역 확인하기"
         },
         "walletTab": {
             "mainnetL1Title": "ETHEREUM NETWORK L1",
@@ -4607,45 +4607,45 @@
         "claimTitle": "수령",
         "depositTitle": "예치금",
         "historyTitle": "거래 내역",
-        "pool": "Token",
+        "pool": "토큰",
         "myPools": "내 풀",
         "totalRewards": "총 리워드",
         "landMultiplierHeader": "LAND 계수",
         "sidebar": {
-            "action-desc-deposit": "Deposit LP tokens to earn more SAND",
-            "footer-text-deposit": "This transaction will deposit the selected amount of LP tokens and increase your total deposit.",
-            "footer-text-claim": "This transaction will claim all earnings and credit them to your wallet.",
-            "footer-text-withdraw": "This transaction will withdraw the selected LP amount from your total deposit.",
-            "onEtherscan": "View on Etherscan",
-            "onPolyscan": "View on Polygonscan",
-            "pairAnalytics": "Pair analytics",
-            "gasless": "",
-            "free": "",
-            "noTxsLeft": "",
-            "txsLeft": "",
+            "action-desc-deposit": "LP 토큰을 예치하여 SAND를 더 많이 벌어들이세요.",
+            "footer-text-deposit": "이 트랜잭션은 선택한 수량의 LP 토큰을 예치합니다. 총 예치금이 올라갑니다.",
+            "footer-text-claim": "이 트랜잭션은 수익금을 전액 수령하여 지갑으로 전송합니다.",
+            "footer-text-withdraw": "이 트랜잭션은 선택한 수량의 LP를 총 예치금에서 인출합니다. 또한 가스 수수료를 절감하기 위해 수익금이 있을 경우 수령합니다.",
+            "onEtherscan": "Etherscan에서 보기",
+            "onPolyscan": "Polygonscan에서 보기",
+            "pairAnalytics": "페어 애널리틱스",
+            "gasless": "Gasless",
+            "free": "Free",
+            "noTxsLeft": "No transactions left",
+            "txsLeft": "transactions left",
             "payGasWith": "Pay gas with:",
             "estimatedGas": "Estimated gas cost",
             "polygonNetwork": "Polygon",
             "ethereumNetwork": "Ethereum",
-            "action-desc-deposit-single": "to earn more SAND",
-            "footer-text-deposit-single": "This transaction will deposit the selected amount of mSAND and increase your total deposit.",
+            "action-desc-deposit-single": "SAND 획득하기",
+            "footer-text-deposit-single": "이 트랜잭션은 선택한 수량의 mSAND를 예치합니다. 총 예치금이 올라갑니다.",
             "footer-text-claim-single": "This transaction will claim current mSAND rewards to your wallet.",
             "footer-text-exit": "This transaction will withdraw the selected LP amount from your total deposit. It will also claim any available earnings to save you some gas fee.",
-            "footer-text-withdraw-single": "This transaction will withdraw your mSAND from your total deposit.",
+            "footer-text-withdraw-single": "이 트랜잭션은 mSAND를 총 예치금에서 인출합니다. 또한 가스 수수료를 절감하기 위해 수익금이 있을 경우 수령합니다.",
             "footer-text-withdraw-exit": "This transaction will withdraw your mSAND from your total deposit. It will also claim any available earnings to save you some gas fee.",
-            "addMsand": "Get mSAND",
-            "howtoMsand": "Get more mSAND"
+            "addMsand": "mSAND 받기",
+            "howtoMsand": "mSAND 더 받기"
         },
-        "allowanceError": "Your allowance is still less than the amount you want to stake",
-        "sub-title": "Earn SAND by staking on Ethereum and Polygon networks",
-        "haveLandText": "Each LAND counts, the more you have, the higher the multiplier!",
-        "landOwnerRewards": "Earn additional rewards for each LAND in your wallet",
-        "needToBridge": "Do you need SAND on Polygon?",
+        "allowanceError": "보유량이 스테이킹하려는 수량보다 적습니다.",
+        "sub-title": "이더리움과 폴리곤 네트워크에서 스테이킹으로 SAND 획득하기",
+        "haveLandText": "보유한 LAND의 수가 많을수록 계수가 높아집니다.",
+        "landOwnerRewards": "보유한 LAND의 수에 따라 추가 리워드를 획득할 수 있습니다",
+        "needToBridge": "폴리곤 네트워크에서 SAND가 필요하신가요?",
         "uniswap": "Uniswap",
-        "quickswap": "Quickswap",
-        "periodEndedOn": "Rewards ended on:",
+        "quickswap": "QuickSwap",
+        "periodEndedOn": "리워드 종료 시점:",
         "tvlResumed": "TVL",
-        "search-placeholder": "Search",
+        "search-placeholder": "검색",
         "land-entitling": {
             "unique": "Unique",
             "proprietor": "Proprietor",
@@ -4654,36 +4654,36 @@
             "mogul": "Mogul"
         },
         "guide-links": {
-            "how-to": "How to stake",
+            "how-to": "스테이킹 방법",
             "learn-more": "Learn more about staking",
-            "support": "Get support"
+            "support": "문의하기"
         },
         "dropdownFilter": {
-            "name": "Name",
-            "highTvl": "Highest TVL",
-            "lowTvl": "Lowest TVL",
+            "name": "이름",
+            "highTvl": "TVL 높음",
+            "lowTvl": "TVL 낮음",
             "highAPR": "Highest APR",
             "lowAPR": "Lowest APR",
-            "highShare": "Highest Share",
-            "lowShare": "Lowest Share",
-            "highEarn": "Highest Earnings",
-            "lowEarn": "Lowest Earnings"
+            "highShare": "지분 높음",
+            "lowShare": "지분 낮음",
+            "highEarn": "수익금 높음",
+            "lowEarn": "수익금 낮음"
         },
         "exitTitle": "인출 및 수령",
         "singleToken": {
-            "network": "Polygon mainnet",
-            "gasWarning": "Remember to keep some SAND for gas fee or switch to MATIC in your chain settings",
+            "network": "폴리곤 메인넷",
+            "gasWarning": "가스 수수료를 지불할 수 있도록 SAND를 일부 남겨두거나 체인 설정에서 MATIC으로 변경하세요.",
             "communityBooster": {
-                "title": "Season 2",
-                "subtitle": "Community Staking Score",
-                "text": "Stake $SAND to increase the total prize pool. You will also get extra Raffle Tickets for staking.",
+                "title": "시즌 2",
+                "subtitle": "커뮤니티 부스터 리워드",
+                "text": "$SAND를 스테이킹하여 총 상금 풀을 늘리세요. 스테이킹을 하면 추가로 추첨 티켓이 주어집니다.",
                 "titlePolygon": "Now can stake SAND",
                 "subtitlePolygon": "and enjoy the benefits of staking.",
                 "earnMorePolygon": "Earn more ",
                 "textPolygon": "Stay tuned for more announcements",
-                "stakePhrase01": "You can now enjoy the benefits of staking with ",
-                "stakePhrase02": " and ",
-                "stakePhrase03": " only.",
+                "stakePhrase01": "이제",
+                "stakePhrase02": "및",
+                "stakePhrase03": "에서만 스테이킹의 이점을 누릴 수 있습니다.",
                 "rewardBooster": {
                     "title": "Reward Booster",
                     "text": "and increse the total prize pool.",
@@ -4748,11 +4748,11 @@
                 "button1": "LAND 구매하기",
                 "title3": "탐험과 발견",
                 "subtitle2": "전에 없던 방법으로 스눕 독의 세계를 즐겨보세요. ",
-                "subtitle3": "LAND를 구매하세요",
+                "subtitle3": "LAND 획득하기",
                 "subtitle4": "landing.snoopdogg.bannerMiddle.subtitle4",
                 "subtitle5": "Doggfather가 되어보세요",
-                "paragraph2": "스눕의 맨션에서 오랜 친구, 새로 사귄 친구와 즐거운 시간을 보내세요.",
-                "paragraph3": "더 샌드박스 메타버스에서 사용할 수 있는 수제 복셀 아바타 덕분에 직접 스눕 독이 될 기회도 얻을 수 있습니다.",
+                "paragraph2": "LAND를 획득하고 12월의 LAND 세일에서 더 샌드박스에 들어가세요.",
+                "paragraph3": "스눕 패스 소유자는 2022년 초에 지급되는 스눕 독 아바타 컬렉션의 화이트리스트에 자동으로 추가됩니다. 스눕 독이 되어 메타버스를 누벼 보세요!",
                 "linkAbout": "더 샌드박스 소개"
             },
             "hookedup": {
@@ -4823,137 +4823,137 @@
                 }
             },
             "getYourSnoopPassEarly": {
-                "title1": "Get your Snoopverse",
-                "title2": "Early access Pass",
-                "bold": "The Snoopverse Early Access ",
-                "descriptionRegular1": "pass gives you access to the Snoop Dogg Metaverse Experiences in The Sandbox before anyone else. Become a part of the development, give your feedback, enter Snoop’s world!",
-                "button": "Get your early Pass"
+                "title1": "스눕버스 얼리 액세스",
+                "title2": "패스를 받으세요",
+                "bold": "스눕버스 얼리 액세스",
+                "descriptionRegular1": "패스로 누구보다 빨리 더 샌드박스에서 스눕 독 메타버스 경험을 즐길 수 있습니다. 피드백을 통해 개발에 참여하고, 스눕의 세계에 들어가 보세요!",
+                "button": "얼리 패스 받기"
             },
-            "videoContainer": "DISCOVER THE SNOOPVERSE",
+            "videoContainer": "스눕버스 둘러보기",
             "comparisonPass": {
                 "left": {
-                    "title1": "Snoopverse early",
-                    "title2": "access Pass",
-                    "description": "The Snoopverse Early Access pass gives you access to the Snoop Dogg Metaverse Experiences in The Sandbox before anyone else. Become a part of the development, give your feedback, enter Snoop's world!",
+                    "title1": "스눕버스",
+                    "title2": "얼리 액세스 패스",
+                    "description": "스눕버스 얼리 액세스 패스로 더 샌드박스에서 누구보다 먼저 스눕독 메타버스 경험을 즐길 수 있습니다. 피드백을 통해 개발에 참여하고, 스눕의 세계를 탐험하세요!",
                     "list": {
-                        "1": "Early access to",
-                        "1link": "Snoopverse",
-                        "2": "Get involved in the development process of Snoopverse",
-                        "2link": "Exclusive NFT",
-                        "3": "drops",
-                        "4": "Whitelist access to",
-                        "3link": "Snoop Avatar",
-                        "5": "drop",
-                        "6": "Invitation to the",
-                        "4link": "Cozomo Art gallery opening",
-                        "7": "Future multiplier on",
-                        "5link": "staking",
-                        "8": "SAND Rewards in",
-                        "6link": "Snoopverse play-to-earn"
+                        "1": "얼리 액세스:",
+                        "1link": "스눕버스",
+                        "2": "스눕버스 개발 과정에 참여하세요",
+                        "2link": "독점 NFT",
+                        "3": "드롭",
+                        "4": "화이트리스트 추가:",
+                        "3link": "더 도기즈",
+                        "5": "드롭",
+                        "6": "초대장:",
+                        "4link": "코조모 아트 갤러리 개관식",
+                        "7": "향후 스테이킹 시",
+                        "5link": "계수 적용",
+                        "8": "SAND 리워드",
+                        "6link": "스눕버스 플레이 투 언 (P2E)"
                     },
-                    "button": "Go to Marketplace"
+                    "button": "마켓플레이스로 이동"
                 },
                 "right": {
-                    "title1": "Snoop private",
-                    "title2": "party Pass",
-                    "description": "The Snoop Private Party Pass token gives you access to step into Snoop Dogg's lifestyle.",
+                    "title1": "스눕 프라이빗",
+                    "title2": "파티 패스",
+                    "description": "스눕 프라이빗 파티 패스 토큰으로 스눕독의 라이프스타일을 체험하세요.",
                     "list": {
-                        "1": "Invitation to ",
-                        "1link": "Snoop's Private Party",
-                        "2": "Access to Snoop's first",
-                        "2link": "Metaverse concert",
-                        "3": "Invitation to",
-                        "3link": "Cozomo Art gallery opening",
-                        "4": "Whitelist access to ",
-                        "4link": "Snoop Avatar drop",
-                        "5": "Future multiplier on",
-                        "5link": "staking "
+                        "1": "초대장:",
+                        "1link": "스눕의 프라이빗 파티",
+                        "2": "스눕 최초의",
+                        "2link": "메타버스 콘서트 관람권",
+                        "3": "초대장:",
+                        "3link": "코조모 아트 갤러리 개관식",
+                        "4": "화이트리스트 추가:",
+                        "4link": "더 도기즈 드롭",
+                        "5": "향후 스테이킹 시",
+                        "5link": "계수 적용"
                     },
-                    "button": "Go to Opensea"
+                    "button": "OpenSea로 이동"
                 }
             },
             "mintYourSnoopAvatar": {
-                "title1": "Mint your",
-                "title2": "Doggy",
+                "title1": "더 도기즈를",
+                "title2": "민팅하세요",
                 "description": "Be among the first ones to mint your own Snoop avatars. Up to 10 avatars available for pass holders.",
-                "button": "Mint now",
-                "prelaunch": "Coming straight to tha metaverse. 10K unique Doggies dropping February 2022. Join the Discord to stay informed!",
-                "joinDiscord": "JOIN DISCORD",
-                "postlaunch": "The Doggies are SOLD OUT! Head over to OpenSea and explore all available avatars for sale.",
-                "joinOpensea": "GO TO OPENSEA",
-                "comingSoon": "Coming soon",
-                "coming": "Coming",
-                "soon": "Soon",
-                "getYour": "Get your",
-                "snoopAvatar": "Doggies",
+                "button": "지금 민팅하기",
+                "prelaunch": "지금 바로 메타버스에 참여하세요! 2022년 2월, 세상에 하나뿐인 더 도기즈 10,000개가 여러분을 찾아옵니다. 디스코드 채널에 가입하고 최신 정보를 받아 보세요!",
+                "joinDiscord": "디스코드 참여하기",
+                "postlaunch": "더 도기즈가 매진되었습니다! OpenSea로 가서 판매 중인 아바타를 확인하세요.",
+                "joinOpensea": "OpenSea로 이동",
+                "comingSoon": "공개 예정",
+                "coming": "공개",
+                "soon": "예정",
+                "getYour": "더 도기즈",
+                "snoopAvatar": "획득하기",
                 "description1": "Be among the first ones to mint your own Doggy. Up to",
                 "description2": "avatars available for pass holders."
             },
             "meta": {
-                "title": "The Sandbox Game - Snoop Dogg avatars are coming to The Sandbox",
-                "description": "Snoop Dogg brings a truly new in-game experience inside The Sandbox. Have fun with the Game Maker toolkit and bring this world to life in your own way or enjoy the experience in other players' LANDs",
-                "keywords": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token, snoop dogg, raffle",
+                "title": "더 샌드박스 게임 - 스눕독 아바타가 더 샌드박스를 찾아옵니다",
+                "description": "스놉 독 아바타가 더 샌드박스를 찾아옵니다. 친구들과 함께 메타버스를 즐겁게 탐험하며 이 세계에 생명을 불어넣으세요. 지금 아바타를 받고 더 샌드박스에 들어가세요.",
+                "keywords": "인증된 컬렉션으로는 샌드박스, 복셀 아트, 3D 복셀 게임, 복셀 아티스트, 3D 온라인 PC 게임, 커뮤니티, 블록체인 dapp, PC 복셀 게임, PC 복셀 아트, 탈중앙화 게임, SAND, 토큰, 스눕독, 추첨 등이 있습니다.",
                 "og": {
-                    "title": "The Sandbox Game - Snoop Dogg avatars are coming to The Sandbox",
-                    "description": "Snoop Dogg brings a truly new in-game experience inside The Sandbox. Have fun with the Game Maker toolkit and bring this world to life in your own way or enjoy the experience in other players' LANDs",
+                    "title": "더 샌드박스 게임 - 더 도기즈가 더 샌드박스를 찾아옵니다",
+                    "description": "더 도기즈가 더 샌드박스를 찾아옵니다. 친구들과 함께 메타버스를 즐겁게 탐험하며 이 세계에 생명을 불어넣으세요. 지금 아바타를 받고 더 샌드박스에 들어가세요.",
                     "url": "https://www.sandbox.game/en/snoopdogg/",
-                    "site_name": "The Sandbox Game - Snoop Dogg avatars are coming to The Sandbox",
+                    "site_name": "더 샌드박스 게임 - 더 도기즈가 더 샌드박스를 찾아옵니다",
                     "image": "/img/30_Landing/snoopdogg/metadata-image.jpg"
                 },
                 "twitter": {
-                    "title": "The Sandbox Game - Snoop Dogg avatars are coming to The Sandbox",
-                    "description": "Snoop Dogg brings a truly new in-game experience inside The Sandbox. Have fun with the Game Maker toolkit and bring this world to life in your own way or enjoy the experience in other players' LANDs",
-                    "card": "Snoop Dogg avatars are coming to The Sandbox",
+                    "title": "더 샌드박스 게임 - 더 도기즈가 더 샌드박스를 찾아옵니다",
+                    "description": "더 도기즈가 더 샌드박스를 찾아옵니다. 친구들과 함께 메타버스를 즐겁게 탐험하며 이 세계에 생명을 불어넣으세요. 지금 아바타를 받고 더 샌드박스에 들어가세요.",
+                    "card": "더 도기즈가 더 샌드박스를 찾아옵니다",
                     "site": "@thesandboxgame",
                     "creator": "@thesandboxgame",
                     "image": "/img/30_Landing/snoopdogg/metadata-image.jpg"
                 }
             },
             "menu": {
-                "home": "Home",
-                "unique": "Unique Avatars",
-                "snoopverse": "Snoopverse",
+                "home": "홈",
+                "unique": "고유 아바타",
+                "snoopverse": "스눕버스",
                 "roadmap": "Roadmap",
-                "mint": "Mint your avatar",
-                "mintSoon": "Minting soon"
+                "mint": "아바타 민팅하기",
+                "mintSoon": "곧 민팅 예정"
             },
             "mintYoursNow": {
-                "title1": "10K NEXT-GENERATION,",
-                "title2": "METAVERSE AVATARS",
-                "description1": "Unique, hand-crafted, and playable Snoop Dogg Avatars coming The Sandbox.",
-                "description2": "Designed and crafted with tha Doggfather himself.",
-                "button": "MINT YOURS NOW!",
+                "title1": "차세대 메타버스",
+                "title2": "아바타 10,000개",
+                "description1": "그 어디에서도 찾아볼 수 없었던, 하나하나 수작업으로 제작되고 플레이까지 가능한 더 도기즈가 더 샌드박스를 찾아옵니다.",
+                "description2": "Doggfather 스눕독의 손에서 탄생한 도기즈를 만나보세요.",
+                "button": "지금 민팅하세요!",
                 "definitions": {
-                    "title1": "WHAT ARE",
-                    "title2": "SNOOP DOGG",
-                    "title3": "AVATARS?",
-                    "description": "The Snoop Dogg avatars are an NFT collection comprised of 10,000 programmatically generated Snoop Doggs, playable in The Sandbox. Each Snoop is completely unique, hand-crafted from over 150 traits by The Sandbox’s skilled voxel-artists."
+                    "title1": "더 도기즈란",
+                    "title2": "무엇인가요?",
+                    "title3": "무엇인가요?",
+                    "description": "더 도기즈란 프로그램으로 생성한 10,000개의 스눕독 아바타 NFT 컬렉션으로, 모두 더 샌드박스에서 플레이 가능합니다. 각 스눕독 아바타는 저마다의 개성을 지니고 있으며 더 샌드박스의 실력 있는 복셀 아티스트들이 150개가 넘는 속성을 조합해 하나하나 직접 제작했습니다."
                 }
             },
             "metaverseReady": {
-                "title1": "Play it in Alpha",
-                "title2": "Season 2",
-                "description": "Each Doggy will be playable inside The Sandbox, starting with the upcoming Alpha Season 2. Get your Avatar, jump into the game and share your avatar with the world!"
+                "title1": "알파",
+                "title2": "시즌 2에서 플레이하세요",
+                "description": "다가오는 알파 시즌 2부터 더 샌드박스에서 각 아바타를 모두 플레이할 수 있습니다. 나만의 아바타를 만들어 게임을 플레이하며 내 아바타를 뽐내 보세요!"
             },
             "chanceUniqueAvatars": {
-                "title1": "A CHANCE TO GET",
-                "title2": "UNIQUE AVATARS",
-                "description": "First-ever avatar to be part of a metaverse music video. Unique, hand-crafted, and playable Doggies coming to The Sandbox. Designed and crafted with tha Doggfather himself.",
-                "unique": "Unique",
-                "avatars": "Avatars",
-                "classic": "Classic",
-                "signature": "Signature",
-                "edition": "Edition",
-                "descriptionUnique1": "A set of unique 1/1 avatars which have been custom designed by the teams at The Sandbox and Snoop Dogg himself. Only one exists of each, who will be the lucky one?",
-                "descriptionUnique2": "Take a stroll down the history of Snoop Dogg and discover a number of unique avatars that are directly linked to some of Snoop’s greatest tracks throughout the years.",
-                "descriptionUnique3": "We’ve teamed up with some of the greatest collections in the space to bring some unique 1/1 Snoop Dogg avatars to the metaverse, making them playable in The Sandbox."
+                "title1": "하나뿐인 아바타",
+                "title2": "획득 기회",
+                "description": "메타버스 뮤직비디오에 함께 할 최초의 아바타를 소개합니다. 그 어디에서도 찾아볼 수 없었던, 하나하나 수작업으로 제작되고 플레이까지 가능한 더 도기즈가 더 샌드박스를 찾아옵니다. Doggfather 스눕독의 손에서 탄생한 도기즈를 만나보세요.",
+                "unique": "멋진",
+                "avatars": "아바타",
+                "classic": "클래식",
+                "signature": "시그니처",
+                "edition": "에디션",
+                "descriptionUnique1": "더 샌드박스와 스눕독이 함께 디자인한 멋지고, 참신하고, 펑키한 아바타 세트입니다. 각 아바타는 오직 한 사람씩만 차지할 수 있습니다. 행운의 주인공은 누구일까요?",
+                "descriptionUnique2": "스눕독의 역사를 거슬러 올라가며 개성 넘치는 아바타를 살펴보세요. 각 아바타에는 그가 발매했던 최고의 음악들이 링크되어 있습니다.",
+                "descriptionUnique3": "이 시대 최고의 컬렉션과 협업하여 세상에서 오직 하나뿐인 더 도기즈를 메타버스에서 만나볼 수 있습니다. 더 샌드박스에서 플레이 가능합니다."
             },
             "date": {
-                "starton": "Launching",
-                "startdate": "FEB 22 2022"
+                "starton": "출시",
+                "startdate": "2022년 02월 22일"
             },
             "miindedstudio": {
-                "title": "In participation with"
+                "title": "함께합니다"
             }
         },
         "alpha": {
@@ -5003,7 +5003,7 @@
                             "subtitle2": "알파 패스는 단 5,000개만 생성되어 커뮤니티에 제공됩니다.",
                             "4": "LAND 소유자는 추첨에 등록하여 알파 패스를 받을 기회를 잡을 수 있습니다.",
                             "5": "일일 대회:",
-                            "6": "알파 허브에서 일일 대회에 참여하면 누구나 알파 패스를 받을 기회를 잡을 수 있습니다. 참여하려면",
+                            "6": "Twitter, Twitch, YouTube의 공식 소셜 미디어 채널에서 진행되는 일일 소셜 콘테스트에 참여하세요. 누구나 알파 패스를 획득할 기회를 잡을 수 있습니다!",
                             "7": "더 샌드박스 소식과",
                             "8": "소셜 미디어를 놓치지 말고 확인하세요.",
                             "9": "OpenSea:",
@@ -5100,7 +5100,7 @@
             },
             "notSupported": {
                 "alpha": "알파",
-                "deviceNotSupported": "이 기기는 현재 지원되지 않습니다. 플레이하려면 Windows PC를 사용하세요.",
+                "deviceNotSupported": "이 기기는 현재 지원되지 않습니다. 플레이하려면 Mac 또는 Windows PC를 이용하세요.",
                 "backToHome": "홈으로 돌아가기"
             },
             "onboarding": {
@@ -5124,12 +5124,12 @@
                 "subtitle3.3": "이 NFT를 경험에 배치하여 다른 경험과 차별화하거나 다른 플레이어에게 판매해 보세요. 잠금 해제한 리워드는 모두 알파가 종료되면 받을 수 있습니다."
             },
             "alphaClosed": {
-                "title": "Alpha Season 1 is now closed",
-                "description": "Thank you for participating",
-                "feedback": "YOUR FEEDBACK MATTERS",
-                "feedbackDescription": "Send us your feedback and get one ticket for Alpha Season 2 Raffle",
-                "buttonText": "Send feedback",
-                "buttonDescription": "You will get your raffle ticket when Alpha Season 2 starts"
+                "title": "알파 시즌 1 종료",
+                "description": "참여해 주셔서 감사합니다.",
+                "feedback": "여러분의 피드백에 귀를 기울입니다.",
+                "feedbackDescription": "피드백을 보내 알파 시즌 2 추첨 티켓의 기회를 잡아보세요",
+                "buttonText": "피드백 보내기",
+                "buttonDescription": "알파 시즌 2가 시작되면 추첨 티켓이 지급됩니다"
             },
             "alpha2Coming": {
                 "title": "ALPHA SEASON 2 COMING SOON",
@@ -5144,47 +5144,47 @@
                 "endText": "and much more based on your feedback! We are listening to you."
             },
             "lookBack": {
-                "title": "A LOOK BACK AT ALPHA SEASON 1",
+                "title": "알파 시즌 1 돌아보기",
                 "metrics": {
-                    "0": "SAND DISTRIBUTED",
-                    "1": "ALPHA PASS DISTRIBUTED",
-                    "2": "NFTs DISTRIBUTED",
-                    "3": "POSITIVE FEEDBACK",
-                    "4": "ALPHA HUB VISITORS",
-                    "5": "HOURS PLAYED CUMULATIVELY",
-                    "6": "TWITTER CONTEST PARTICIPANTS",
-                    "7": "FEEDBACK MESSAGES SENT"
+                    "0": "배포된 SAND",
+                    "1": "배포된 알파 패스",
+                    "2": "배포된 NFT",
+                    "3": "긍정적인 피드백",
+                    "4": "알파 허브 방문자",
+                    "5": "누적 플레이 시간",
+                    "6": "트위터 콘테스트 참가자",
+                    "7": "보낸 피드백 메시지"
                 }
             },
             "alphaNumbers": {
-                "title": "The Alpha in numbers",
+                "title": "숫자로 보는 알파",
                 "sections": {
                     "0": {
-                        "number": "+200K",
-                        "description": "ALPHA HUB VISITOR"
+                        "number": "20만",
+                        "description": "알파 허브 방문자"
                     },
                     "1": {
-                        "number": "+150K",
-                        "description": "HOURS PLAYED COMULATIVELY"
+                        "number": "15만",
+                        "description": "누적 플레이 시간"
                     },
                     "2": {
-                        "number": "+100K",
-                        "description": "TWITTER CONTEST PARTICIPANTS"
+                        "number": "10만",
+                        "description": "트위터 콘테스트 참가자"
                     },
                     "3": {
                         "number": "400",
-                        "description": "FEEDBACKS SENT"
+                        "description": "보낸 피드백 메시지"
                     }
                 }
             },
             "bestMoments": {
-                "title": "ALPHA SEASON 1 BEST MOMENTS"
+                "title": "알파 시즌 1 최고의 순간들"
             },
             "alphaComing": {
-                "title": "ALPHA SEASON 2 COMING SOON",
+                "title": "알파 시즌 2가 곧 찾아옵니다",
                 "bulletPoints": {
-                    "1": "All content will be open to everyone!",
-                    "2": "Anyone may win a Season 2 Alpha Pass just by playing the game.",
+                    "1": "누구나 모든 콘텐츠를 체험할 수 있습니다!",
+                    "2": "누구나 게임 플레이만으로 시즌 2 알파 패스를 획득할 수 있습니다.",
                     "3": {
                         "1": "Complete as many",
                         "2": "Quests",
@@ -5195,12 +5195,12 @@
                 }
             },
             "modal": {
-                "title": "The Alpha Season 2 will start soon.",
+                "title": "알파 시즌 2가 곧 시작됩니다.",
                 "description": {
-                    "1": "You will receive more information and details about Alpha Season 2 by email soon.",
-                    "2": "You will be among the first to know, stay tuned!"
+                    "1": "곧 이메일로 알파 시즌 2에 관한 상세 정보가 발송됩니다.",
+                    "2": "제일 먼저 정보를 전해 드리겠습니다. 기다려 주세요!"
                 },
-                "button": "Gotcha"
+                "button": "확인"
             },
             "season2": {
                 "title": {
@@ -5210,11 +5210,11 @@
                 "dates": {
                     "1": {
                         "title": "ALPHA SEASON 2 STARTS",
-                        "date": "MARCH 03"
+                        "date": "3월 3일"
                     },
                     "2": {
                         "title": "RUFFLE DAY / SEASON END",
-                        "date": "MARCH 31"
+                        "date": "3월 31일"
                     }
                 },
                 "sections": {
@@ -5223,7 +5223,7 @@
                         "body": {
                             "1": "Season 2 Alpha Pass Reward up to",
                             "2": "1,000 $SAND.",
-                            "3": "Boost rewards by staking",
+                            "3": "를 스테이킹하여",
                             "4": "SAND."
                         }
                     },
@@ -5232,8 +5232,8 @@
                         "body": {
                             "1": "Everyone can play",
                             "2": "all Season 2 content and get a chance to",
-                            "3": "win one of the",
-                            "4": "10,000 Season 2 Alpha Passes."
+                            "3": "리워드를 부스트하고",
+                            "4": "10,000개의 시즌 2 알파 패스 중 하나를 획득하세요."
                         }
                     },
                     "3": {
@@ -5242,11 +5242,11 @@
                             "1": "Increase your chances to win a Season 2 Alpha Pass by",
                             "2": "completing Quests",
                             "3": "to earn Raffle Tickets.",
-                            "4": "Raffle Tickets are not NFTs"
+                            "4": "추첨 티켓은 NFT가 아닙니다"
                         }
                     },
                     "4": {
-                        "title": "GET MORE CHANCES TO WIN",
+                        "title": "당첨 가능성 높이기",
                         "body": {
                             "1": "Owning a LAND and/or a Season 1 Alpha Pass",
                             "2": "greatly increases chances to win a Season 2 Alpha Pass."
@@ -5255,11 +5255,11 @@
                     "5": {
                         "title": "STAKING REWARDS",
                         "body": {
-                            "1": "Stake",
-                            "2": "mSAND",
-                            "3": "to double",
-                            "4": "the amount of rewards",
-                            "5": "FOR EVERYONE!",
+                            "1": "두 배의 리워드를 받으려면",
+                            "2": "SAND를",
+                            "3": "스테이킹하세요",
+                            "4": "모든 사람의 리워드가 늘어납니다!",
+                            "5": "추첨 티켓도 추가로 획득할 수 있습니다.",
                             "6": "You will also get up to 200 extra Raffle Tickets",
                             "7": "for staking"
                         },
@@ -5268,15 +5268,15 @@
                 }
             },
             "game": {
-                "future": "Alpha Season 2 will be available for",
+                "future": "알파 시즌 2 지원 플랫폼:",
                 "systems": {
                     "pc": "PC",
                     "mac": "macOS"
                 },
-                "download": "Download Alpha",
+                "download": "알파 다운로드",
                 "nowAvailable": {
-                    "1": "Now is available for PC and",
-                    "2": "macOS"
+                    "1": "이제 PC와",
+                    "2": "macOS에서 모두 이용 가능합니다"
                 }
             }
         },
@@ -5469,219 +5469,219 @@
             "placeBid": "입찰하기",
             "cancel": "취소"
         },
-        "goingOutOfSite": "You are about to leave the website of sandbox.game and view the content of an external website. The Sandbox cannot be held responsible for the content of external websites.",
+        "goingOutOfSite": "sandbox.game 홈페이지에서 나가 외부 웹사이트 콘텐츠를 확인합니다. 더 샌드박스는 외부 웹사이트의 콘텐츠에 책임을 지지 않습니다.",
         "raffleInProgress": {
-            "raffleDraw": "RAFFLE DRAW",
-            "inProgress": "IN PROGRESS",
-            "raffleDescription": "At the end of the Raffle, you will find out if you win a Season 2 Alpha Pass. Good luck!",
-            "raffleTickets": "You are participating in the Raffle with",
-            "season": "SEASON",
-            "staking": "STAKING",
-            "lands": "LANDS",
-            "alphaPass": "ALPHA PASS",
-            "feedback": "FEEDBACK",
-            "crossFingers": "Cross your fingers!"
+            "raffleDraw": "추첨",
+            "inProgress": "진행 중",
+            "raffleDescription": "추첨이 끝나면 시즌 2 알파 패스 당첨 여부를 확인할 수 있습니다. 행운을 빕니다!",
+            "raffleTickets": "추첨에 사용한 티켓 수:",
+            "season": "시즌",
+            "staking": "스테이킹",
+            "lands": "LAND",
+            "alphaPass": "알파 패스",
+            "feedback": "피드백",
+            "crossFingers": "행운의 주인공이 되기를 바랍니다!"
         }
     },
     "raffle": {
         "meta": {
-            "title": "The Sandbox Game - Raffle Page",
-            "description": "Come and participate in the raffle! Anyone can win, all you have to do is try your luck!",
-            "keywords": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token, raffle",
+            "title": "더 샌드박스 게임 - 추첨 페이지",
+            "description": "추첨에 참여하세요! 당첨의 기회는 누구에게나 열려 있습니다. 행운을 시험해 보세요!",
+            "keywords": "샌드박스, 복셀 아트, 3D 복셀 게임, 복셀 아티스트, 3D 온라인 PC 게임, 커뮤니티, 블록체인 dapp, PC 복셀 게임, PC 복셀 아트, 탈중앙화 게임, SAND, 토큰, 추첨",
             "og": {
-                "title": "The Sandbox Game - Raffle Page",
-                "description": "Come and participate in the raffle! Anyone can win, all you have to do is try your luck!",
+                "title": "더 샌드박스 게임 - 추첨 페이지",
+                "description": "추첨에 참여하세요! 당첨의 기회는 누구에게나 열려 있습니다. 행운을 시험해 보세요!",
                 "url": "https://www.sandbox.game/en/raffle/",
-                "site_name": "The Sandbox Game - Raffle Page",
+                "site_name": "더 샌드박스 게임 - 추첨 페이지",
                 "image": "/img/30_Landing/snoopdogg/metadata-image.jpg"
             },
             "twitter": {
-                "title": "The Sandbox Game - Raffle Page",
-                "description": "Come and participate in the raffle! Anyone can win, all you have to do is try your luck!",
-                "card": "The Sandbox Game - Raffle Page",
+                "title": "더 샌드박스 게임 - 추첨 페이지",
+                "description": "추첨에 참여하세요! 당첨의 기회는 누구에게나 열려 있습니다. 행운을 시험해 보세요!",
+                "card": "더 샌드박스 게임 - 추첨 페이지",
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame",
                 "image": "/img/30_Landing/snoopdogg/metadata-image.jpg"
             }
         },
-        "title": "Mint your own Snoop Dogg Avatar!",
+        "title": "나만의 스눕 독 아바타를 민팅하세요!",
         "connectWallet": {
-            "title": "Connect Wallet",
-            "title2": "Your wallet is connected!",
-            "howMany": "How many avatars do you want?",
-            "button": "Mint now",
-            "process": "Your transaction is being processed.",
-            "finish": "Your transaction was successful! Head over to OpenSea to see your avatar or mint more.",
-            "refresh": "Mint again!",
-            "errorButton": "Try again!",
-            "error": "Something went wrong!",
-            "wrongWallet": "Sorry! You are connected with the wrong wallet! Please log in again with Metamask.",
-            "raffleEndTitle": "Sale is now closed.",
-            "raffleEnd": "Thank you for you participating.",
-            "sandWarning": "You need to have some SAND in your wallet to continue.",
-            "etherWarning": "You need to have some ETH in your wallet to continue.",
-            "etherAndSandWarning": "You need to have some ETH and SAND in your wallet to continue.",
-            "refreshButton": "Refresh",
-            "popUpError": "Something went wrong. Make sure you allow sandbox pop-up to open in your browser and then, refresh the page.",
-            "sorry": "Not whitelisted!",
-            "errorWhitelisted": "Your connected wallet is not on the whitelist. Make sure to be connected with the correct wallet.",
-            "reconnect": "Reconnect",
-            "insufficientFunds": "You don't have enough funds in your wallet.",
-            "contractsIssue": "Something went wrong. If you tried to change your wallet, please note: you have to sign the contract every time you change your wallet.",
-            "toManyAvatars1": "No more avatars can be minted at this time.",
-            "toManyAvatars2": "Head to OpenSea to buy more."
+            "title": "지갑 연결",
+            "title2": "지갑이 연결되었습니다!",
+            "howMany": "원하는 아바타의 개수를 설정해 주세요.",
+            "button": "지금 민팅하기",
+            "process": "트랜잭션을 처리하는 중입니다.",
+            "finish": "트랜잭션에 성공했습니다! 아바타를 보거나 더 민팅하려면 OpenSea에서 확인하세요.",
+            "refresh": "다시 민팅하기",
+            "errorButton": "다시 시도하기",
+            "error": "문제가 생겼습니다.",
+            "wrongWallet": "죄송합니다. 잘못된 지갑에 연결되어 있습니다. Metamask 또는 WalletConnect로 다시 로그인하시기 바랍니다.",
+            "raffleEndTitle": "세일이 종료되었습니다.",
+            "raffleEnd": "참여해 주셔서 감사합니다.",
+            "sandWarning": "계속하려면 지갑에 SAND를 보유해야 합니다.",
+            "etherWarning": "계속하려면 지갑에 ETH를 보유해야 합니다.",
+            "etherAndSandWarning": "계속하려면 지갑에 ETH와 SAND를 보유해야 합니다.",
+            "refreshButton": "새로고침",
+            "popUpError": "문제가 발생했습니다. 브라우저에서 샌드박스 팝업을 허용한 후에 페이지를 새로고침해 주세요.",
+            "sorry": "화이트리스트에 없습니다!",
+            "errorWhitelisted": "연결하신 지갑이 화이트리스트에 등록되어 있지 않습니다. 올바른 지갑을 연결하시기 바랍니다.",
+            "reconnect": "다시 연결",
+            "insufficientFunds": "지갑에 자금이 부족합니다.",
+            "contractsIssue": "문제가 발생했습니다. 지갑을 변경하려 하신 경우, 지갑을 변경할 때마다 계약에 서명해야 한다는 점에 유의해 주세요.",
+            "toManyAvatars1": "아바타는 최대",
+            "toManyAvatars2": "개만 민팅할 수 있습니다. 더 구매하려면 OpenSea를 확인하세요."
         },
         "textFormMint": {
             "isPublic": "",
-            "ticketBased": "Presale for ticket holders is now live!"
+            "ticketBased": "티켓 소지자를 위한 프리세일이 진행 중입니다!"
         },
         "price": {
-            "currentPrice": "Current price for each Avatar",
+            "currentPrice": "각 아바타의 현재 가격",
             "buy": "Buy Sand",
             "notEnoughSand": "You don't have enough SAND to mint {amount} avatars"
         },
         "FAQ": {
-            "title": "F.A.Q.",
+            "title": "F.A.Q",
             "1": {
-                "title": "How many Doggies are there?",
+                "title": "더 도기즈는 총 몇 개인가요?",
                 "paragraph": "There are 10,000 unique Snoop Avatars, programmatically generated from over 150 hand-crafted traits.",
                 "paragraphs": {
-                    "1": "There are a total of 10,000 programmatically generated “Doggies” Avatars that will be minted."
+                    "1": "총 10,000개의 \"더 도기즈\" 아바타가 프로그램으로 생성되어 민팅됩니다."
                 }
             },
             "2": {
-                "title": "What is their rarity/tier?",
+                "title": "더 도기즈의 희귀도/등급은 어떤가요?",
                 "paragraph": "Each avatar will unlock unique utility that goes beyond a simple NFT. They will be playable in The Sandbox, and can be used to unlock future mints, and features in the metaverse. In addition, they will be part of the first ever Snoop Dogg music video, happening in The Sandbox.",
                 "paragraphs": {
-                    "1": "Doggies are divided into a variety of rarity categories depending on traits. There are multiple Doggies, as well as 10+ hand-crafted 1/1 Doggies, including Dope, Classic, and Signature Doggies."
+                    "1": "더 도기즈는 속성에 따라 여러 희귀도 카테고리로 분류됩니다. 하나하나 손수 제작한 다양한 도기즈를 만나 보세요."
                 }
             },
             "3": {
-                "title": "Where do I have to go to claim the Avatars?",
+                "title": "아바타는 어디에서 받을 수 있나요?",
                 "paragraph": "Follow us on @TheSnoopAvatars on Twitter to find out how to get whitelisted and get your hands on an avatar before everyone else.",
                 "paragraphs": {
-                    "1": "There is only one place where you can mint the Avatars:",
-                    "2": "https://sandbox.game/en/snoopdogg/raffle/mint/"
+                    "1": "아바타는 다음 경로에서만 민팅 가능합니다.",
+                    "2": "https://sandbox.game/kr/snoopdogg/raffle/mint/"
                 }
             },
             "4": {
-                "title": "At what time does the sale start?",
+                "title": "언제부터 판매가 시작되나요?",
                 "paragraph": "Winners will be informed through our social channels and/or Discords. Keep an eye out for more info.",
                 "paragraphs": {
-                    "1": "The sale will start on February 23rd, 2022, 10pm UTC.",
-                    "2": "Whitelisted users will have access 24 hours before."
+                    "1": "2022년 2월 23일 오후 10시(UTC)에 판매가 시작됩니다.",
+                    "2": "화이트리스트에 추가된 사용자는 판매 시작 24시간 전부터 액세스할 수 있습니다."
                 }
             },
             "5": {
-                "title": "How much should I expect to pay for one Doggy NFT?",
+                "title": "더 도기즈 NFT 개별 가격은 얼마인가요?",
                 "paragraphs": {
-                    "1": "One Doggy NFT will cost 150 SAND."
+                    "1": "더 도기즈 NFT는 하나당 150 SAND입니다."
                 }
             },
             "6": {
-                "title": "How many Doggies can I mint per wallet address?",
+                "title": "지갑 주소 하나당 몇 개의 더 도기즈를 민팅할 수 있나요?",
                 "paragraphs": {
-                    "1": "The Doggies will be released in two waves:",
-                    "2": "1) Whitelisted users will have a chance to mint one Doggy with a time limit of 24 hours, between February 22nd and February 23rd.",
-                    "3": "2) When the public release is live, users will have the chance to mint up to",
+                    "1": "더 도기즈는 2회에 걸쳐 출시됩니다.",
+                    "2": "1) 화이트리스트에 추가된 사용자는 2월 22일부터 2월 23일까지 24시간 동안 더 도기즈 하나를 민팅할 수 있습니다.",
+                    "3": "2) 정식 출시 이후 2월 23일부터 2월 24일까지 최대 10개의 더 도기즈를 민팅할 수 있습니다.",
                     "4": "Doggy from February 23rd to February 24th."
                 }
             },
             "7": {
-                "title": "When can I discover what Doggy I minted?",
+                "title": "내가 어떤 도기즈를 민팅했는지 언제 알 수 있나요?",
                 "paragraphs": {
-                    "1": "The Doggies will be revealed 48 hours after minting on OpenSea."
+                    "1": "더 도기즈는 민팅 후 48시간이 지나면 OpenSea에서 공개됩니다."
                 }
             },
             "8": {
-                "title": "Can I mint using any wallet (Binance, Ledger...)?",
+                "title": "민팅할 때 어느 지갑을 사용해도 상관이 없나요? (예: Binance, Ledger 등)",
                 "paragraphs": {
-                    "1": "Yes, you can mint with whatever wallet you have."
+                    "1": "네, 지갑의 종류는 상관없습니다."
                 }
             },
             "9": {
-                "title": "What can I do with the Doggies?",
+                "title": "더 도기즈로 무엇을 할 수 있나요?",
                 "paragraphs": {
-                    "1": "Each Doggy Avatar will be playable inside The Sandbox in all the multiplayer experiences to come starting from the Sandbox Alpha Season 2."
+                    "1": "모든 도기 아바타는 더 샌드박스 알파 시즌 2에 출시될 모든 멀티플레이어 경험에서 플레이 가능합니다."
                 }
             },
             "10": {
-                "title": "How can I use my Doggy during the Alpha?",
+                "title": "알파 기간에 더 도기즈를 어떻게 사용하나요?",
                 "paragraphs": {
-                    "1": "You will be able to use it as an Avatar by simply selecting it in the Avatar Manager in The Sandbox dashboard."
+                    "1": "더 샌드박스 대쉬보드의 아바타 매니저에서 선택하기만 하면 내 아바타로 사용할 수 있습니다."
                 }
             },
             "11": {
-                "title": "Does owning the Doggy grant me other perks?",
+                "title": "더 도기즈를 소유하면 혜택이 있나요?",
                 "paragraphs": {
-                    "1": "A selected few Doggy owners will have the chance to have their avatar appear in an upcoming Snoop music video. This is a unique chance to dance your way into Snoop’s history."
+                    "1": "더 도기즈 소유자 몇 명을 선정하여 앞으로 공개될 스눕의 뮤직비디오에 아바타를 출연시킬 기회를 드립니다. 스눕의 역사에 길이 남을 춤을 선보일 기회입니다."
                 }
             },
             "12": {
-                "title": "Where can I buy a Doggy after the initial sale is over?",
+                "title": "첫 판매가 종료되면 어디에서 더 도기즈를 구매할 수 있나요?",
                 "paragraphs": {
-                    "1": "After the initial sale is over, you will be able to purchase a Doggy from users that are willing to sell theirs on the secondary marketplace",
-                    "2": "Opensea"
+                    "1": "2차 마켓을 통해 판매자가 있을 경우 해당 판매자로부터 구매할 수 있습니다.",
+                    "2": "OpenSea"
                 }
             },
             "13": {
-                "title": "How do I get whitelisted?",
+                "title": "화이트리스트에 추가되려면 어떻게 해야 하나요?",
                 "paragraphs": {
-                    "1": "If you hold one of the NFT listed below, 24 hours before the minting starts, you will have early access to mint your Doggy:",
-                    "2": "- Snoopverse Early Access Pass",
-                    "3": "- Snoop Dogg Party Pass",
+                    "1": "민팅이 시작되기 24시간 전에 아래 NFT 중 하나를 소유하고 있다면 얼리 액세스로 더 도기즈를 민팅할 수 있습니다.",
+                    "2": "- 스눕버스 얼리 액세스 패스",
+                    "3": "- 스눕 파티 패스",
                     "4": "- JADU Jetpack",
                     "5": "- JADU Hoverboard",
-                    "6": "- Selected SupDucks (See SupDucks Discord)",
-                    "7": "- Selected FLUF burrows (See Fluf Discord)",
+                    "6": "- 선택한 SupDucks(SupDucks 디스코드 참조)",
+                    "7": "- 선택한 FLUF(Fluf 디스코드 참조)",
                     "8": "- Rumble Kong League",
-                    "9": "Winning one of our",
-                    "10": "Twitter contests",
-                    "11": "can also give you early access to mint your NFT."
+                    "9": "트위터 콘테스트에서",
+                    "10": "우승하면",
+                    "11": "얼리 액세스를 받아 NFT를 민팅할 수 있습니다."
                 }
             },
             "14": {
-                "title": "How do I know if I’m whitelisted?",
+                "title": "내가 화이트리스트에 추가되었는지 어떻게 알 수 있나요?",
                 "paragraphs": {
-                    "1": "If you hold an NFT of the above collection, you will be able to mint, as long as you hold the NFT in the wallet with which you are whitelisted, and connected on the minting page."
+                    "1": "민팅 페이지와 연결된 지갑에 위 컬렉션의 NFT 중 하나를 보유하고 있을 경우 화이트리스트에 추가되며 민팅을 진행할 수 있습니다."
                 }
             },
             "15": {
-                "title": "How many Doggies can I mint as a whitelisted user?",
+                "title": "화이트리스트에 추가된 사용자는 더 도기즈를 몇 개 민팅할 수 있나요?",
                 "paragraphs": {
-                    "1": "You will be able to mint one Doggy as a whitelisted user."
+                    "1": "화이트리스트에 추가된 사용자는 한 개의 도기를 민팅할 수 있습니다."
                 }
             },
             "16": {
-                "title": "My Doggies are not revealed yet on OpenSea. What can I do?",
+                "title": "OpenSea에 아직 내 더 도기즈가 공개되지 않았습니다. 어떻게 해야 하나요?",
                 "paragraphs": {
-                    "1": "If you are checking before February 24, 10pm UTC, this is normal. If you are checking after that date, feel free to press the “Refresh Metadata” button on the top-right corner of OpenSea."
+                    "1": "2월 24일 오후 10시(UTC) 전에 확인했다면 지갑에 도기가 나타나지 않습니다. 해당일 이후라면 OpenSea 페이지 우측 상단의 'Refresh Metadata'(메타데이터 새로고침)를 클릭하세요."
                 }
             },
             "17": {
-                "title": "Buying NFT for the first time, how can I get started?",
+                "title": "NFT를 처음 구매합니다. 어떻게 하면 되나요?",
                 "paragraphs": {
-                    "1": "The process is quite simple. You need to ensure that you have ",
-                    "2": "created an account",
-                    "3": " on The Sandbox.",
-                    "4": "Ensure you have both the correct amount of SAND to mint the number of Doggies you want and some ETH to cover the gas fees.",
-                    "5": "Log into your account and head over to the mint page",
-                    "6": "https://sandbox.game/en/snoopdogg/raffle/mint/",
-                    "7": "Check that your wallet is properly connected and just press the Mint button to retrieve your Doggy."
+                    "1": "방법은 간단합니다. 먼저 더 샌드박스에서",
+                    "2": "계정을 생성",
+                    "3": "한 상태여야 합니다.",
+                    "4": "원하는 수량의 더 도기즈를 민팅할하기 위한 SAND와 가스 수수료로 지불할 ETH가 충분한지 확인합니다.",
+                    "5": "계정에 로그인한 후 민팅 페이지로 이동합니다.",
+                    "6": "https://sandbox.game/kr/snoopdogg/raffle/mint/",
+                    "7": "지갑이 제대로 연결되었는지 확인하고 '민팅하기' 버튼을 눌러 더 도기즈를 가져옵니다."
                 }
             }
         },
         "howToMint": "How to mint an avatar?"
     },
     "modelViewer": {
-        "view3D": "View 3D",
-        "preview": "Preview",
-        "ground": "Show the ground",
-        "loading": "Loading 3D...",
-        "loadingPreview": "Preview is loading...",
+        "view3D": "3D 보기",
+        "preview": "미리 보기",
+        "ground": "바닥 보기",
+        "loading": "3D 불러오는 중...",
+        "loadingPreview": "미리 보기를 불러오는 중입니다...",
         "meta": {
-            "title": "The Sandbox -",
-            "defaultTitle": "Preview",
+            "title": "더 샌드박스 -",
+            "defaultTitle": "미리 보기",
             "description": "더 샌드박스 마켓플레이스는 크리에이터의 애셋을 검색하여 샌드로 구매할 수 있는 NFT 마켓플레이스입니다. 구매한 애셋은 내 LAND에서 사용할 수 있습니다.",
             "keywords": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token",
             "og": {
@@ -5715,8 +5715,8 @@
             "usePolygonLink": ""
         },
         "sidebar": {
-            "amount": "Transfer Amount",
-            "amountSet": "Set amount",
+            "amount": "전송 수량",
+            "amountSet": "수량 설정",
             "amountEnter": "Enter amount",
             "view": "View on Etherscan",
             "failure": {
