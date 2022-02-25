@@ -200,10 +200,10 @@
                 "confirmDates": "確認",
                 "nextDate": "繼續"
             },
-            "invalidPrice": "Invalid price.",
-            "invalidAmount": "Invalid amount.",
-            "maxPrice": "Sell price must not be greater than 3000000000.",
-            "maxAmount": "Maximum amount to sell is 12000."
+            "invalidPrice": "價格無效",
+            "invalidAmount": "數量無效",
+            "maxPrice": "售價不得高於 3,000,000,000。",
+            "maxAmount": "銷售數量上限為 12,000。"
         },
         "readMore": "",
         "windows": "Windows",
@@ -236,8 +236,8 @@
                 "requiredAmount1": "你需要",
                 "requiredAmount2": "完成交易",
                 "titleStaking": "Get SAND",
-                "aboutBiconomy": "The Sandbox Meta Transactions on new features deployed on Polygon network. They allow us to wrap transactions so the only token you need is mSAND.",
-                "changeSettings": "Chain settings"
+                "aboutBiconomy": "Polygon 網路新部署的功能現在可以進行《The Sandbox》元交易了。這項功能可以將交易打包，如此一來，你需要的代幣就只有 mSAND。",
+                "changeSettings": "鏈設定"
             },
             "lottery": {
                 "inPreseason": "在 Alpha",
@@ -249,9 +249,9 @@
                     "go": "前往季前內容"
                 },
                 "hasRewards": "Alpha Rewards",
-                "noRewards": "No Alpha Rewards",
-                "noAlphaPass": "NOT IN ALPHA",
-                "alphaPass": "IN ALPHA"
+                "noRewards": "無 Alpha 獎勵",
+                "noAlphaPass": "不在 ALPHA",
+                "alphaPass": "在 ALPHA"
             },
             "balances": {
                 "testNetRinkeby": "TESTNET RINKEBY NETWORK",
@@ -303,8 +303,8 @@
                 "market": "市場",
                 "play": "開始遊戲",
                 "whitepaper": "白皮書",
-                "faq": "常見問題",
-                "map": " 地圖",
+                "faq": "常見問答",
+                "map": "地圖",
                 "sand": "SAND",
                 "press": "新聞稿",
                 "terms": "使用條款",
@@ -347,8 +347,8 @@
         "header": {
             "title": "歡迎來到開放式元宇宙",
             "description": {
-                "preSeason": "The Alpha Season 2 is coming soon. Register to recieve more information.",
-                "duringSeason": "Play the Alpha Season 2 and try to win an Alpha Pass by completing Quests."
+                "preSeason": "Alpha 第 2 季即將到來。註冊以獲得更多資訊。",
+                "duringSeason": "遊玩 Alpha 第 2 季，並完成任務以試圖贏得 Alpha Pass。"
             },
             "preseason": "探索我們的第一季度",
             "buttonText": {
@@ -365,8 +365,8 @@
             "description2": "Click here to see the rewards of Alpha Season 1",
             "createButtonText": "Create Account",
             "ribbon": {
-                "preSeason": "ALPHA SEASON 2 IS COMING SOON",
-                "duringSeason": "ALPHA SEASON 2 IS LIVE"
+                "preSeason": "Alpha 第 2 季即將於 2022 年 3 月 3 日登場",
+                "duringSeason": "ALPHA 第 2 季上線了"
             },
             "createAccount": "Create account"
         },
@@ -398,19 +398,19 @@
             "button": "瞭解更多"
         },
         "community": {
-            "badge": "",
-            "title": "",
-            "description": ""
+            "badge": "what's new!",
+            "title": "Community",
+            "description": "Stay tuned with the latest The Sandbox’s news. Read everything you need to know in our blog."
         },
         "avatar": {
-            "title": "The Sandbox Avatar",
+            "title": "《The Sandbox》虛擬化身",
             "description": {
-                "1": "Take your profile pic to the next level. Now you can choose your favourite Avatar to explore The Sandbox Metaverse.",
-                "2": "Connect your favourite wallet to find out if you own an External Avatar."
+                "1": "升級你的個人檔案圖片。現在你可以選擇最愛的虛擬化身來探索《The Sandbox》元宇宙。",
+                "2": "連結你最愛的錢包，看看你是否擁有外部虛擬化身。"
             },
             "button": {
-                "wallet": "Connect Wallet",
-                "avatar": "Create Avatar"
+                "wallet": "連結錢包",
+                "avatar": "創造虛擬化身"
             }
         }
     },
@@ -419,12 +419,12 @@
             "play": "開始遊戲",
             "rewards": "獎勵",
             "info": "資訊",
-            "raffleTickets": "Tickets",
-            "contests": "Contests"
+            "raffleTickets": "抽獎券",
+            "contests": "競賽"
         },
         "play": {
-            "selectAvatar": "選取你的虛擬人像",
-            "enter": "Enter the Alpha Lobby",
+            "selectAvatar": "選取你的虛擬化身",
+            "enter": "進入 Alpha 大廳",
             "learnMore": "進一步瞭解 Alpha",
             "legend": "需要 Alpha 方面的幫助嗎？",
             "sendFeedback": "Send Feedback",
@@ -545,69 +545,69 @@
                 "seasonLockedTitle": "你沒有 Alpha 通行證",
                 "seasonLockedDescription": "你需要 Alpha 通行證才能夠進行 Alpha 並獲得 1,000 SAND 和 3 個非同質化代幣獎勵",
                 "seasonLockedButton": "在 Opensea 尋找",
-                "description3": "You will be able to claim your rewards at the end of the Alpha, on December 20, 2021. Keep your Alpha Pass with you until that date.",
+                "description3": "2021 年 12 月 20 日，即 Alpha 結束當天你即可領取所有 Alpha 獎勵。請留存你的 Alpha Pass直到那一天。",
                 "alpha2": {
-                    "title": "Rewards",
-                    "subtitle": "Alpha Season 2",
-                    "date": "From March 3 until March 31",
-                    "seasonOverTitle": "THE ALPHA SEASON 2 IS OVER!",
+                    "title": "獎勵",
+                    "subtitle": "Alpha 第 2 季",
+                    "date": "從 3 月 3 日至 3 月 31 日",
+                    "seasonOverTitle": "ALPHA 第 2 季結束！",
                     "seasonOverDescription": "Thanks for joining the Alpha, we are getting your rewards ready! When enabled, click the Claim button.",
-                    "raffleStartsIn": "RAFFLE STARTS IN",
-                    "raffleResultsIn": "RAFFLE RESULTS IN",
-                    "claimAvailableAt": "CLAIM AVAILABLE AT",
-                    "raffleTitle": "RAFFLE DAY",
+                    "raffleStartsIn": "距離抽獎開始還有",
+                    "raffleResultsIn": "距離開獎還有",
+                    "claimAvailableAt": "可領取時間：",
+                    "raffleTitle": "抽獎日",
                     "raffleTitle2": "MARCH",
-                    "raffleDrawTitle": "RAFFLE DRAW",
-                    "raffleDrawTitle2": "IN PROGRESS",
-                    "raffleDescription": "Earn Raffle Tickets by completing Quests.",
-                    "raffleDescription2": "More Tickets = More chances to win an Alpha Pass.",
+                    "raffleDrawTitle": "抽獎",
+                    "raffleDrawTitle2": "進行中",
+                    "raffleDescription": "完成任務贏得抽獎券。",
+                    "raffleDescription2": "抽獎券越多 = 贏得 Alpha 通行證的機率就越大。",
                     "raffleDrawDescription": "At the end of the Raffle, you will find out if you win a Season 2 Alpha Pass. Good luck!",
-                    "howToGet": "How to get the Season 2 Alpha Pass?",
-                    "raffleButton": "Raffle",
+                    "howToGet": "如何取得第 2 季 Alpha 通行證？",
+                    "raffleButton": "抽獎",
                     "contestButton": "Contest",
-                    "buyButton": "Buy",
-                    "claimRewards": "Claim Rewards",
-                    "claimRewardsDescription": "Claim your Rewards on",
-                    "claimRewardsDescription2": "March 25.",
-                    "moreInfo": "More info",
-                    "freeToPlay": "Free to Play",
-                    "alphaPass": "Alpha Pass",
-                    "locked": "Locked",
-                    "summary": "Summary",
-                    "totalRaffleTickets": "Total Raffle Tickets",
-                    "getMoreTickets": "Get More Tickets",
-                    "winAlphaDescription": "Increases your chances of winning an Alpha Pass during the Raffle by collecting Raffle Tickets.",
-                    "raffleTicket": "Raffle Ticket",
-                    "youCannotParticipate": "You cannot participate in the raffle because you already own an Alpha Pass",
-                    "youAlreadyOwn": "You own a Season 2 Alpha Pass so you cannot participate in the Raffle.",
-                    "wonAlpha": "Congratulations! You won a Season 2 Alpha Pass.",
-                    "totalRewards": "Total Rewards",
-                    "boostRewards": "Stake mSAND",
-                    "communityBooster": "Community Booster",
-                    "increaseTotalDescription": "Boost rewards by staking",
-                    "youCanWinDescription": "You can win an Alpha Pass on Raffle on March 18th. Get Raffle ticket by completing quests!",
-                    "alreadyOwn": "You already own an Alpha Pass",
-                    "claimIt": "To unlock rewards Claim it.",
-                    "betterLuck": "Better luck next time",
-                    "didNotWin": "You did not win a Season 2 Alpha Pass",
-                    "communityBoosterRewards": "Community Booster Rewards",
-                    "baseRewards": "Base Rewards",
-                    "boostedRewards": "Boosted Rewards",
-                    "staking": "Staking",
-                    "lands": "LANDS",
-                    "feedbackForm": "Feedback Form",
-                    "raffleDaysLeft": "DAYS UNTIL RAFFLE",
-                    "raffleDay": "DAY FOR RAFFLE RESULTS",
-                    "raffleGoodLuck": "Good Luck!!",
-                    "raffleDayDesc": "Win an Alpha Pass!",
-                    "claimPass": "Claim Pass",
-                    "enterTheParty": "Enter the Party!",
+                    "buyButton": "購買",
+                    "claimRewards": "領取獎勵",
+                    "claimRewardsDescription": "獎勵領取日期為：",
+                    "claimRewardsDescription2": "3 月 25 日。",
+                    "moreInfo": "更多資訊",
+                    "freeToPlay": "免費遊戲",
+                    "alphaPass": "Alpha 通行證",
+                    "locked": "已鎖定",
+                    "summary": "摘要",
+                    "totalRaffleTickets": "總抽獎券",
+                    "getMoreTickets": "獲得更多抽獎券",
+                    "winAlphaDescription": "蒐集抽獎券，增加你在抽獎贏得 Alpha 通行證的機會。",
+                    "raffleTicket": "抽獎券",
+                    "youCannotParticipate": "你已有 Alpha 通行證，因此無法參加抽獎",
+                    "youAlreadyOwn": "你已有第 2 季 Alpha 通行證，因此無法參加抽獎。",
+                    "wonAlpha": "恭喜！你贏得第 2 季 Alpha 通行證了。",
+                    "totalRewards": "總獎勵",
+                    "boostRewards": "質押 mSAND",
+                    "communityBooster": "社群加速器",
+                    "increaseTotalDescription": "透過質押加碼獎勵",
+                    "youCanWinDescription": "你可以在 3 月 18 日的抽獎中贏得 Alpha 通行證。完成任務即可獲得抽獎券！",
+                    "alreadyOwn": "你已有 Alpha 通行證",
+                    "claimIt": "若要解鎖獎勵，請領取。",
+                    "betterLuck": "下次手氣會更好",
+                    "didNotWin": "你沒有贏得第 2 季 Alpha 通行證",
+                    "communityBoosterRewards": "社群加速器獎勵",
+                    "baseRewards": "基本獎勵",
+                    "boostedRewards": "已加碼獎勵",
+                    "staking": "質押",
+                    "lands": "LAND",
+                    "feedbackForm": "意見回饋表單",
+                    "raffleDaysLeft": "距離抽獎開始的剩餘天數",
+                    "raffleDay": "開獎日",
+                    "raffleGoodLuck": "祝你好運！",
+                    "raffleDayDesc": "贏得 Alpha 通行證！",
+                    "claimPass": "領取通行證",
+                    "enterTheParty": "加入派對！",
                     "contest": {
-                        "results": "Contest Results",
-                        "checkResults": "Check contest results here every Thursday. You will also receive an email if you won the Alpha Pass",
-                        "buttonTooltip": "Claim your Season 2 Alpha Pass before March 31.",
-                        "didntWin": "You didn't win yet",
-                        "won": "YOU WON!",
+                        "results": "競賽結果",
+                        "checkResults": "每週四到這裡查看競賽結果。若贏得 Alpha 通行證就會收到電子郵件",
+                        "buttonTooltip": "在 3 月 31 日前領取第 2 季 Alpha 通行證。",
+                        "didntWin": "你還未勝出",
+                        "won": "你贏了！",
                         "sub1": "Check contest results here every Thursday.",
                         "sub2": "You will also receive an email if you won.",
                         "didntYet": "You didn't win yet",
@@ -617,51 +617,51 @@
                         "week2": "Week March 10 - March 16",
                         "week3": "Week March 17 - March 23"
                     },
-                    "seasonOverDescription2": "Claim your Alpha Pass now to visit the Pass holders VIP Party and to claim your $SAND rewards later on!",
-                    "seasonOverDescription3": "Unfortunately you did not win a Season 2 Alpha Pass.",
-                    "raffleTitle3": "RAFFLE CLAIM DAY",
-                    "raffleDescription3": "Unlock your $SAND rewards by completing Quests. More Quests completed = more rewards unlocked.",
-                    "communityBoosterDescription1": "Stake",
-                    "communityBoosterDescription2": "to increase the total prize pool. Up to + 100%.",
-                    "communityBoosterDescription3": "You will also get up to 200 extra Raffle Tickets",
-                    "raffleHasPass": "DAYS TO CLAIM",
-                    "raffleHasPassDesc": "You own a S2 Alpha Pass",
+                    "seasonOverDescription2": "立即領取你的 Alpha 通行證並造訪通行證持有者的 VIP 派對，之後再領取你的 $SAND 獎勵！",
+                    "seasonOverDescription3": "很遺憾，你並未贏得第 2 季 Alpha 通行證。",
+                    "raffleTitle3": "領獎日",
+                    "raffleDescription3": "完成任務解鎖你的 $SAND 獎勵。完成越多任務 = 解鎖越多獎勵。",
+                    "communityBoosterDescription1": "質押",
+                    "communityBoosterDescription2": "以增加總獎池。最高可達 + 100%。",
+                    "communityBoosterDescription3": "你還將獲得最多 200 張額外抽獎券",
+                    "raffleHasPass": "距離領取的剩餘天數",
+                    "raffleHasPassDesc": "你已有第 2 季 Alpha 通行證",
                     "communityBoosterDescription": "",
-                    "enterThePartyDescription": "Add Join the VIP Party on Thursday March 24 at 7PM",
+                    "enterThePartyDescription": "在 3 月 24 日週四下午 7 點參加 VIP 派對",
                     "seasonOverDescription4": "",
-                    "communityBoosterDescription4": "for staking",
-                    "communityBoosterDescription5": "1 point is earned for each",
-                    "communityBoosterDescription6": "staked for the whole season.",
+                    "communityBoosterDescription4": "透過質押",
+                    "communityBoosterDescription5": "在整個賽季中，每質押一個",
+                    "communityBoosterDescription6": "就會獲得 1 分。",
                     "enterThePartyDescription2": "Enter to be part of the VIP Party for Pass holders only!"
                 },
-                "timeRewards": "CLAIM REWARDS IN",
-                "raffleResults": "RAFFLE RESULTS IN",
-                "raffleStarts": "RAFFLE STARTS IN",
+                "timeRewards": "距離領取獎勵還有",
+                "raffleResults": "距離開獎還有：",
+                "raffleStarts": "距離抽獎開始還有：",
                 "timeLeft": "剩餘時間",
                 "timeLeftToClaim": "剩餘領取時間"
             },
-            "experienceToVisit": "Quest completed",
+            "experienceToVisit": "任務已完成",
             "raffleTickets": {
-                "quest": "Quest",
-                "capsAt": "Caps at",
-                "perWallet": "per wallet",
-                "seasonFeedback": "Season 1 Feedback form",
-                "seasonFeedbackEarned": "Earned by answering the feedback form at the end of Season 1",
-                "seasonFeedbackDesc": "Feedback form is no longer available",
-                "title": "Raffle Tickets source",
-                "subTitle": "More tickets more chance to win a Season 2 Alpha Pass",
-                "questDesc": "Earn by leveling up",
-                "stakingDesc": "Earn by staking",
-                "snoop": "Snoop Dogg Private Party Pass",
-                "nftDesc": "Earn by owning this NFTs",
-                "snoop2": "Snoopers Early Access Pass",
-                "season1": "Season 1 Alpha Pass",
-                "land": "Earn by owning LAND(s)",
-                "total": "Your Total Raffle Tickets",
-                "getNFT": "Get NFT",
-                "stake": "Stake",
-                "notTraded": "Raffle Tickets are not NFTs and",
-                "notTraded2": "cannot be traded on the secondary market",
+                "quest": "任務",
+                "capsAt": "上限為",
+                "perWallet": "每個錢包",
+                "seasonFeedback": "第 1 季意見回饋表單",
+                "seasonFeedbackEarned": "第 1 季結束時填寫意見回饋表單即可獲得",
+                "seasonFeedbackDesc": "不再提供意見回饋表單",
+                "title": "抽獎券來源",
+                "subTitle": "抽獎券越多，贏得第 2 季 Alpha 通行證的機率也就越大",
+                "questDesc": "升級即可獲得",
+                "stakingDesc": "質押即可獲得",
+                "snoop": "Snoop Dogg 私人派對通行證",
+                "nftDesc": "擁有此非同質化代幣即可獲得",
+                "snoop2": "Snoopers 早鳥通行證",
+                "season1": "第 1 季 Alpha 通行證",
+                "land": "擁有 LAND 即可獲得",
+                "total": "你的總抽獎券",
+                "getNFT": "獲得非同質化代幣",
+                "stake": "質押",
+                "notTraded": "抽獎券不是非同質化代幣，且",
+                "notTraded2": "無法在次級市場交易",
                 "questTooltipDesc": "You get Raffle tickets everytime you level up. The amount of tickets per level is indicated in the Rewards tab.",
                 "stakeTooltipDesc": "Get 1 extra Raffle Tickets for every [stakingAmount/stakingMultiplier] mSAND you stake during the whole Season 2 duration (28 days). 200 Raffle Tickets maximum.",
                 "snoopTooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoop Dogg Private Party Pass NFT. You need to own the NFT in your wallet when the Raffle starts (March 31).",
@@ -670,13 +670,13 @@
                 "landTooltipDesc": "Get 40 extra Raffle Tickets per LAND you own. You need to own the NFT(s) in your wallet when the Raffle starts (March 31). 200 Raffle Tickets maximum.",
                 "feedbackTooltipDesc": "If you answered the Season 1 feedback form, you get 10 extra Raffle Tickets. This form is now closed. This is our way of thanking our community for engaging in the Alpha Season 1. Remember to fill in the feedback form at the end of Season 2!"
             },
-            "downloadAlpha": "Download Alpha"
+            "downloadAlpha": "下載 Alpha"
         },
         "info": {
             "title": "歡迎來到 Alpha",
             "description": {
-                "1": "Win the Season 2 Alpha Pass and earn up to",
-                "2": "1,000 $SAND rewards.",
+                "1": "贏得第 2 季 Alpha 通行證，並賺取最高",
+                "2": "1,000 $SAND 的獎勵。",
                 "3": "《The Sandbox》版本！",
                 "4": "獲得 Alpha 通行證，邊玩邊賺",
                 "5": "1,000 SAND 和超酷非同質化代幣獎勵！"
@@ -701,7 +701,7 @@
                 }
             },
             "earn": {
-                "title": "$SAND Rewards",
+                "title": "$SAND 獎勵",
                 "subtitle1": "擁有 Alpha 通行證",
                 "firstDescription1": "邊玩邊賺：",
                 "firstDescription2": "獲得",
@@ -714,23 +714,23 @@
                 "fifthDescription1": "內容：",
                 "fifthDescription2": "你可以進入 Alpha 中心 (Alpha Hub) 並進行 3 項體驗。",
                 "description": {
-                    "1": "Earn up to",
-                    "2": "1,000 $SAND",
-                    "3": "rewards with the Season 2 Alpha Pass."
+                    "1": "有了",
+                    "2": "第 2 季 Alpha 通行證，",
+                    "3": "最高能賺取 1,000 $SAND。"
                 },
-                "seeRewards": "See Rewards",
+                "seeRewards": "查看獎勵",
                 "bulletPoints": {
                     "1": {
-                        "1": "Max. Base rewards:",
+                        "1": "基本獎勵上限：",
                         "2": "500 $SAND"
                     },
                     "2": {
-                        "1": "Max. Boosted rewards:",
+                        "1": "加碼獎勵上限：",
                         "2": "1,000 $SAND"
                     },
-                    "booster": "Check the Community Booster section for more info."
+                    "booster": "查看社群加速器區域瞭解更多資訊。"
                 },
-                "boostRewards": "Boost Rewards"
+                "boostRewards": "加碼獎勵"
             },
             "whatCanIEarn": {
                 "title1": "我能",
@@ -775,49 +775,49 @@
             "faq": {
                 "faqTitle": "常見問答",
                 "about": {
-                    "title": "About the Alpha Season 2",
-                    "text1": "Who can access the Alpha?",
-                    "description1": "Everyone with a TSB account!! Contrary to Alpha Season 1, all of the 30 Season 2 experiences will be opened to all, except one that will be gated to Alpha Pass owners. The dynamic of the Season will be very different, everybody can play, and everybody has a chance to win an Alpha Pass by playing!",
-                    "text2": "How long does the Alpha last?",
-                    "description2": "4 weeks, from March 3 till March 31 2022."
+                    "title": "關於 Alpha 第 2 季",
+                    "text1": "誰能進入 Alpha？",
+                    "description1": "每個擁有《The Sandbox》帳戶的人都能進入 Alpha！！與 Alpha 第 1 季不同，除了專為 Alpha 通行證擁有者開放的體驗之外，第 2 季的所有 30 個體驗會全面開放所有玩家探索。本次活動季機制大有不同，人人都能玩遊戲，而且個個有機會透過玩遊戲贏得 Alpha 通行證！",
+                    "text2": "Alpha 為期多久？",
+                    "description2": "為期 4 週，從 2022 年 3 月 3 日至 31 日。"
                 },
                 "howToJoin": {
-                    "title": "Joining the Alpha Season 2 (Raffle)",
-                    "text1": "How can I get an Alpha Pass?",
+                    "title": "加入 Alpha 第 2 季 (抽獎)",
+                    "text1": "如何獲得 Alpha 通行證？",
                     "bulletPoints": {
-                        "title1": "- The Raffle:",
-                        "description1": "at the end of the Alpha Season 2: the more you play and the more you invest yourself in The Sandbox ecosystem, the more chances you have to win. S2AP will be distributed to the Raffle winners on Mar. 31, 2022.",
-                        "title2": "- Social Contests:",
-                        "description2": "Weekly distribution to the daily Social Contests winners.",
-                        "title3": "- OpenSea:",
-                        "description3": "You can buy a S2AP on the secondary market if someone is willing to sell theirs.",
-                        "warning": "Be careful when purchasing a S2AP on the secondary market as there may be fakes and there is no point in purchasing one after Season 2 has ended on March 31, 2022 at 4 PM UTC."
+                        "title1": "- 抽獎：",
+                        "description1": "Alpha 第 2 季結束時：在《The Sandbox》生態系中遊玩並投資得越多，就有越高的機率能夠中獎。第 2 季 Alpha 通行證將在 2022 年 3 月 31 日發送給抽獎得主。",
+                        "title2": "- 每日社群媒體競賽：",
+                        "description2": "每週發送給每日社群媒體競賽贏家。",
+                        "title3": "- OpenSea：",
+                        "description3": "若有人願意割愛，你就能在次級市場上買到第 2 季 Alpha 通行證。",
+                        "warning": "請小心，你可能會在次級市場買到造假的第 2 季 Alpha 通行證，而且在第 2 季結束 (2022 年 3 月 31 日 UTC 時間下午 4 點) 之後購買通行證也毫無意義。"
                     },
                     "text2": "How do I register for the raffle?",
-                    "description2": "The Raffle will occur at the end of the Alpha Season 2 on March 31, 2022. Contrary to Season 1, there is no Raffle before the Season starts. To register for the Season 2 Raffle, you simply have to play the game. By completing quests in the game (which everybody can do for free) you will earn Raffle Tickets by leveling up. As soon as you reach level 1 (which is very fast, you only need to complete a few quests) you will become eligible for the Raffle.",
+                    "description2": "抽獎會在 2022 年 3 月 31 日 (即 Alpha 第 2 季結束當天) 舉辦。與第 1 季不同，本次活動季開始前並不會有抽獎。你只要玩遊戲就能註冊第 2 季抽獎。完成遊戲中的任務 (所有人都能免費進行) 就能破關贏得抽獎券。只要達到關卡 1 (只需完成幾個任務即可，很快) 就能參加抽獎。",
                     "hrefText": "https://www.sandbox.game/en/season/",
                     "description3": "註冊。",
-                    "text3": "What is the maximum number of Raffle tickets that I can get?",
-                    "description4": "Yes. You get 40 Raffle Tickets for each LAND you have in your wallet by the end of the Alpha Season 2 when the Raffle starts. Caped to a maximum of 200 Raffle Tickets (5 LANDs). This is going to significantly increase your chances but does not guarantee you to win.",
-                    "text4": "Do I have more chances to win an Alpha Pass if I’m a LAND owner?",
-                    "description5": "Yes. You get 90 extra Raffle Tickets if you have a Season 1 Alpha Pass in your wallet by the end of the Alpha Season 2 when the Raffle starts. This is not cumulative, only one S1AP per wallet will count for extra Raffle Tickets.",
-                    "text0": "What is the point of the Alpha Pass if everything is open to everyone?",
-                    "description0": "The $SAND rewards! Only Alpha Pass owners can claim the S2 Alpha Rewards at the end of the Alpha Season 2. Rewards can go up to 1,000 $SAND per S2 Alpha Pass.",
+                    "text3": "我最多可得到幾張抽獎券？",
+                    "description4": "會。在 Alpha 第 2 季結束前、抽獎開始時，你錢包中的每塊 LAND 都能讓你得到 40 張抽獎券。抽獎券上限為 200 張 (即 5 塊 LAND)。這會大幅增加你的中獎機率，但不保證獲獎。",
+                    "text4": "如果我是 LAND 擁有者，我贏得 Alpha 通行證的機率會比較高嗎？",
+                    "description5": "會。在 Alpha 第 2 季結束前、抽獎開始時，若你的錢包有第 1 季 Alpha 通行證，即可獲得額外 90 張抽獎券。此數量無法累計，每個錢包只會有一張第 1 季 Alpha 通行證能為你換來額外抽獎券。",
+                    "text0": "如果內容全面開放，那 Alpha 通行證有什麼意義？",
+                    "description0": "$SAND 獎勵！只有 Alpha 通行證擁有者能在 Alpha 第 2 季結束時領取第 2 季 Alpha 獎勵。每張第 2 季 Alpha 通行證的獎勵最高可達 1,000 $SAND。",
                     "description1": "There are 3 ways of winning a S2 Alpha Pass:",
-                    "description3a": "Please check the tab “Raffle Tickets” for more details.",
-                    "description3b": "In total, you can earn up to 1000 Raffle Tickets if you max out every source.",
-                    "text5": "Do I have more chances to win a Season 2 Alpha Pass if I own a Season 1 Alpha Pass?",
-                    "text6": "Do I have more chances to win a Season 2 Alpha Pass if I participated in Alpha Season 1 but did not keep my Season 1 Alpha Pass?",
-                    "description6": "No. You need to own a Season 1 Alpha Pass to get the associated extra Raffle Tickets.",
-                    "text7": "Can I win more than 1 Season 2 Alpha Pass in the Raffle if I own many LANDS and many Season 1 Alpha Passes?",
-                    "description7": "No. One Season 2 Alpha Pass per wallet only. If you get a Season 2 Alpha Pass by participating in Social Contests, you will not be able to get another one from the Raffle.",
-                    "text8": "Is there a moment where there is no point anymore to get a Season 2 Alpha Pass?",
-                    "description8a": "Yes. Do not purchase a S2AP on the secondary market after Season 2 has ended, on March 31, 2022 16 UTC, as you will not be able to claim the $SAND rewards with it anymore if you purchase it after this date.",
-                    "description8b": "But, you can safely purchase a S2AP on OpenSea while Alpha Season 2 is ongoing, as long as you own it before March 31, 2022 16 UTC."
+                    "description3a": "請查看「抽獎券」頁面瞭解更多詳情。",
+                    "description3b": "若你妥善開發所有來源，一共能贏得最多 1,000 張抽獎券。",
+                    "text5": "如果我擁有第 1 季 Alpha 通行證，我贏得第 2 季 Alpha 通行證的機率會更大嗎？",
+                    "text6": "如果我有參加 Alpha 第 1 季但沒有留下第 1 季 Alpha 通行證，我贏得第 2 季 Alpha 通行證的機率會更大嗎？",
+                    "description6": "不會。你要擁有第 1 季 Alpha 通行證才能獲得相關的額外抽獎券。",
+                    "text7": "如果我擁有多塊 LAND 及多張第 1 季 Alpha 通行證，我能在抽獎中贏得 1 張以上的第 2 季 Alpha 通行證嗎？",
+                    "description7": "不能。每個錢包只會算入一張第 2 季 Alpha 通行證。如果你透過參加社群媒體競賽獲得第 2 季 Alpha 通行證，就無法從抽獎中再次獲得通行證。",
+                    "text8": "是否在某個時間點過後，就無法再獲得第 2 季 Alpha 通行證？",
+                    "description8a": "是的。請勿在 2022 年 3 月 31 日 UTC 時間 16 點過後，即第 2 季結束之後在次級市場上購買第 2 季 Alpha 通行證，在這之後購買通行證也無法領取 $SAND 獎勵。",
+                    "description8b": "不過，你可以在 Alpha 第 2 季活動期間在 OpenSea 上安心購買第 2 季 Alpha 通行證，只要確保在 2022 年 3 月 31 日 UTC 時間 16 點之前持有通行證即可。"
                 },
                 "playing": {
-                    "title": "Playing the Alpha Season 2",
-                    "text1": "What do I need to play the Alpha Season 2?",
+                    "title": "玩 Alpha 第 2 季",
+                    "text1": "我需要什麼才能玩 Alpha 第 2 季？",
                     "description1": "- 你需要在 Windows 上遊玩 (其他的電腦作業系統和行動裝置版本將會在未來推出)。",
                     "description2": "- 你需要固定的網路連線。",
                     "description3": "- 若要獲得 Alpha 通行證和獎勵，你將會需要一些 ETH 來支付你的礦工費。",
@@ -829,22 +829,22 @@
                         "4": "RAM：8192 Mb 或更高"
                     },
                     "text2": "How do I play the Alpha?",
-                    "description4": "Up to 40 players can be in one experience at the same time. When more than 40 players try to enter the same experience, a new instance of that experience is created. This means that when you are in a multiplayer experience you will only see up to 39 other players, but there could be more players in other instances.",
+                    "description4": "最多只能有 40 位玩家同時在同一項體驗中遊玩。若有超過 40 位玩家嘗試進入同一項體驗中，系統就會產生該體驗的新副本。這意味著當你進入多人體驗，最多只會看到其他 39 位玩家，不過在同一體驗的其他副本中可能會有更多玩家。",
                     "hrefText1": "點擊此處下載遊戲客戶端。",
-                    "text3": "Can I play the Alpha Season 2 on the Game Maker?",
-                    "description5": "Content will be released progressively with 1 to 4 experiences released every weekday during the 4 weeks of Season 2.",
+                    "text3": "我能在 Game Maker 上玩 Alpha 第 2 季嗎？",
+                    "description5": "內容將在第 2 季的 4 週活動期間，於週間平日逐步推出 1 至 4 項體驗。",
                     "hrefText2": "https://www.sandbox.game/",
-                    "description6": "If you click on the Experience thumbnails on the Alpha Map, you’ll see the date and time it will be revealed. In the top right corner of the Alpha Map, you will also find a calendar showing when new Experiences will be released in the future.",
+                    "description6": "若你在 Alpha 地圖上點擊體驗圖示，就能看見體驗出現的日期和時間。在 Alpha 地圖的右上角也能找到行事曆，顯示未來即將推出新體驗的時間。",
                     "text4": "How many people can get in one Experience at the same time?",
                     "description7": "是的，你能夠進入 Alpha 中心 (Alpha Hub) 並進行 3 項額外體驗：「非同質化代幣學院 (The NFT Institute)」藝廊、「XYZ 俱樂部 (Club XYZ)」跳舞俱樂部以及「當伊茲地下城 (Dungeon of Dum-Yz)」冒險。",
-                    "text5": "When will content be released?",
-                    "description8": "Yes. This is a very important thing to understand, contrary to Season 1, you don’t need the Alpha Pass to progress. Everybody can play and everybody can earn Raffle Tickets to win a Season 2 Alpha Pass during the Raffle at the end of Season 2.",
+                    "text5": "何時會發佈內容？",
+                    "description8": "可以。這點非常重要，本次活動季與第 1 季不同，你不需 Alpha 通行證就能獲得遊戲進度。每人都能參加遊戲，而且都能獲得抽獎券，以在第 2 季結束時的抽獎中贏得第 2 季 Alpha 通行證。",
                     "text6": "How do I know when an Experience will be revealed?",
-                    "description9": "While you have your Season 2 Alpha Pass, the website interface will tell you that, since you already have an Alpha Pass you are no longer eligible to win one during the Raffle at the end of Alpha Season 2, thus you will see that you don’t have any Raffle Tickets - but if you sell / giveaway / lose your Alpha Pass, we tracked your progression in the background so you won’t have to redo the quests you already completed.",
-                    "text7": "Can I play along with a friend?",
-                    "description10": "No, you cannot keep playing after the closing date. On March 31 all experiences of the Alpha Season 2 will be closed, except for one gated experience that will remain open for S2AP owners only for 24 extra hours (more info below).",
-                    "description11": "After the Raffle, once the lucky people who won a Season 2 Alpha Pass have been picked, we will open the last experience of the Alpha Season 2 for 24 hours only. That experience will be accessible only to Season 2 Alpha Pass owners at that time. This will be the Season 2 VIP party!",
-                    "description12": "Players can play your games inside the Game Maker Gallery. However, you can’t publish your games on your LAND yet. We are working to enable publishing on your LAND in the near future. Get a chance to put your games in one of our upcoming seasons by participating in our Alpha Game Jams.",
+                    "description9": "你持有第 2 季 Alpha 通行證時，網站介面會告訴你，由於你已有 Alpha 通行證而無法在 Alpha 第 2 季結束時的抽獎中贏得第二張通行證，因此你會看到自己並沒有任何抽獎券——但若你出售/贈送/失去你的 Alpha 通行證，我們還是會在後台追蹤你的進度，讓你無須重新進行已完成的任務。",
+                    "text7": "我可以和好友一起玩遊戲嗎？",
+                    "description10": "不行，活動季結束後就無法繼續玩。Alpha 第 2 季的所有體驗都會在 3 月 31 日關閉，只有第 2 季 Alpha 通行證持有者限定遊玩的一項體驗會另外開放 24 小時 (下方有更多資訊)。",
+                    "description11": "抽獎結束後，當贏得第 2 季 Alpha 通行證的幸運兒雀屏中選後，我們就會開放 Alpha 第 2 季的最後一項體驗，開放時間僅限 24 小時。該項體驗屆時只會開放給第 2 季 Alpha 通行證的持有者進入。是第 2 季 VIP 派對喔！",
+                    "description12": "玩家可以在 Game Maker Gallery 中玩你的遊戲。但是，你還無法在你的 LAND 上發佈遊戲。我們正在努力，讓你能盡快發佈你的 LAND。歡迎參加我們的 Alpha Game Jams 來爭取機會，在即將到來的活動季中上架你的遊戲。",
                     "description13": "Chat commands are as follow:",
                     "description14": "- 若要進入好友的副本，在聊天中輸入",
                     "description15": "/join <副本 ID>",
@@ -854,17 +854,17 @@
                     "description19": "在遊戲聊天中輸入",
                     "description20": "/help",
                     "description21": "查看聊天指令。",
-                    "text8": "Can I Earn progression by completing quests without a Season 2 Alpha Pass?",
+                    "text8": "若我沒有第 2 季 Alpha 通行證，是否能夠透過完成任務獲得進度呢？",
                     "description22": "不能，Alpha 結束後，在未來通知之前所有的體驗都不可用。",
-                    "text9": "If I get an Alpha Pass, do quests, then lose my Alpha Pass, will my progression be retroactively tracked or do I need to redo all the quests I did?",
+                    "text9": "若我取得 Alpha 通行證、完成任務，然後失去我的 Alpha 通行證，我可以回溯我的進度，還是必須重新進行已完成的任務？",
                     "description23": "可以，玩家們能夠使用 Game Maker Gallery 遊玩你創造的遊戲。然而，你還不能將遊戲在你的 LAND 上公開。我們正致力於在近期讓你能公開 LAND。",
-                    "text10": "Can I keep playing the Alpha Season 2 after it ends on March 31, 2022?",
+                    "text10": "2022 年 3 月 31 日 (即 Alpha 第 2 季結束當天) 過後，我還能繼續玩 Alpha 第 2 季嗎？",
                     "commands": {
                         "1": "/w username message Whispers a message to username.",
-                        "2": "/m message Send a message to the metaverse channel.",
-                        "3": "/I message Send a message to the land channel.",
+                        "2": "/m 訊息：傳送訊息至元宇宙頻道。",
+                        "3": "/I 訊息：傳送訊息至 LAND 頻道。",
                         "4": "/respawn Teleport to the spawn point.",
-                        "5": "/users Show connected players list and count.",
+                        "5": "/users：顯示已連線玩家列表和人數。",
                         "6": "/instances Shows a list of the available instances running this experience.",
                         "7": "/join instanceld Connects to the instance defined in instanceld.",
                         "8": "/north Transport to land in the north.",
@@ -875,27 +875,27 @@
                         "13": "/Idle Stop current emote."
                     },
                     "bulletPoints": {
-                        "pc": "Minimum configuration PC:",
-                        "pc1": "OS: Windows 10 64bit",
-                        "pc2": "GPU: NVIDIA GeForce GTX 760 or newer",
-                        "pc3": "CPU: i5-8400 or newer (AVX support is required)",
-                        "pc4": "RAM: 8192Mb or more"
+                        "pc": "PC 最低系統需求：",
+                        "pc1": "作業系統：Windows 10 64bit",
+                        "pc2": "GPU：NVIDIA GeForce GTX 760 或更高規格",
+                        "pc3": "CPU：i5-8400 或更高規格 (需 AVX 支援)",
+                        "pc4": "RAM：8192Mb 或更高"
                     },
-                    "description1a": "You need to play on Windows or MAC OS (now available in Season 2!)",
-                    "description1b": "- You also need a permanent internet connection.",
-                    "description1c": "- To claim your Season 2 Alpha Pass and rewards, you’ll need some ETH to pay for the gas fees.",
-                    "description2a": "You will need to download the latest version of the Game Client that will be released alongside the Alpha Season 2. Click",
-                    "description2b": "here",
-                    "description2c": "to download the Game Client. Everybody with the right configuration can play and it’s free.",
+                    "description1a": "你需在 Windows 或 MAC 作業系統 (第 2 季現已支援！) 上玩本遊戲",
+                    "description1b": "你也需要持續運作的網路連線。",
+                    "description1c": "若要獲得第 2 季 Alpha 通行證和獎勵，你會需要一些 ETH 來支付礦工費。",
+                    "description2a": "你會需要下載即將與 Alpha 第 2 季一同推出的最新版遊戲客戶端。點擊",
+                    "description2b": "此處",
+                    "description2c": "下載遊戲客戶端。只要有合適系統，人人都能玩遊戲，而且無須付費。",
                     "description3a": "No, you will need to play on the Game Client. You will be able to download the Game Client at",
                     "description3b": "https://www.sandbox.game/",
-                    "description3c": "when the Alpha Season 2 opens.",
-                    "description7a": "An Experience can have up to 40 players at a time; if there are more than 40 players, new instances are created to host the additional players. If you join an Experience at the same time as your friend, you have a high chance to end up in the same instance. But if you don’t, you can join them by following these steps:",
+                    "description3c": "可以，只要 Alpha 第 2 季開放了就可以。",
+                    "description7a": "一項體驗最多同時能有 40 位玩家；若有超過 40 位玩家，系統就會建立新副本託管多出來的玩家。如果你和好友同時加入某項體驗，就很有機會進入同一個副本中。若非如此，你可以透過下列步驟加入他們：",
                     "description7b": "- To find your instance ID after you enter the game, type",
                     "description7c": "/instances",
                     "description7d": "in the chat.",
-                    "description7e": "- Give your instance ID to your friend who wants to join your instance.",
-                    "description7f": "- To jump to your instance, your friend must type",
+                    "description7e": "將副本 ID 提供給想加入你所在副本的好友。",
+                    "description7f": "若要進入你的副本，你的好友就一定要輸入",
                     "description7g": "/join <INSTANCE ID>",
                     "description7h": "in the chat. For example,",
                     "description7i": "/join 2234",
@@ -903,50 +903,50 @@
                     "description7k": "Type",
                     "description7l": "/help",
                     "description7m": "in the in-game chat to see the chat commands.",
-                    "text11": "You mentioned above that 1 experience will require a Season 2 Alpha Pass to enter, what is it?",
-                    "text12": "Can players play the games I made?",
-                    "text13": "What are the chat commands?"
+                    "text11": "你們提到有 1 項體驗需要持有第 2 季 Alpha 通行證才能進入，那是什麼？",
+                    "text12": "玩家能玩我製作的遊戲嗎？",
+                    "text13": "聊天指令為何？"
                 },
                 "rewards": {
-                    "title": "Alpha Season 2 Rewards",
-                    "text1": "Are Raffle Tickets NFTs?",
-                    "description1": "No. You can see Raffle Tickets as an indicator of a player’s investment in the Alpha Season 2, but they are not NFTs and cannot be traded on the secondary market.",
-                    "description2": "You will receive an email if you won, and you will get a popup on the website informing you if you won the Raffle or not on the Raffle day.",
-                    "text2": "How will I know if I won the Raffle?",
-                    "description3": "No. The Season 2 Alpha Pass is the key that allows you to claim the $SAND rewards. However, please remember not to purchase the S2AP after the Season 2 has closed on March 31, 2022, at 4 PM UTC.",
-                    "text3": "Is there a way to earn the $SAND rewards if I don’t have the Season 2 Alpha Pass?",
-                    "description4": "No. Only one S2AP per wallet.",
-                    "text4": "Can I get multiple Season 2 Alpha Passes?",
-                    "description5": "Yes. You can own one Alpha Pass of each Season in your wallet.",
-                    "text5": "Can I get a Season 2 Alpha Pass if I already have a Season 1 Alpha Pass?",
+                    "title": "Alpha 第 2 季獎勵",
+                    "text1": "抽獎券是非同質化代幣嗎？",
+                    "description1": "不是。你可以將抽獎券視作玩家在 Alpha 第 2 季中的投資指標，但它們並不是非同質化代幣，且無法在次要市場中交易。",
+                    "description2": "中獎會收到一封電子郵件，而且開獎當天網站會顯示彈出式視窗，告知你是否中獎。",
+                    "text2": "我該如何得知自己中獎了？",
+                    "description3": "不能。擁有第 2 季 Alpha 通行證才能領取 $SAND 獎勵。",
+                    "text3": "若我沒有第 2 季 Alpha 通行證，能贏得 $SAND 獎勵嗎？",
+                    "description4": "不行。一個錢包只能有一張第 2 季 Alpha 通行證。",
+                    "text4": "我可以獲得多張第 2 季 Alpha 通行證嗎？",
+                    "description5": "可以。你的錢包中可以擁有每個賽季的 Alpha 通行證各一張。",
+                    "text5": "若我已有第 1 季 Alpha 通行證，我還能獲得第 2 季 Alpha 通行證嗎？",
                     "description6": "要贏得 1,000 $SAND 獎勵，你將會需要邊玩邊賺，透過完成遊戲中 Alpha 任務，完成 Alpha 通行證的 5 個等級。Alpha 任務是非常簡單的任務，只需要探索 Alpha 體驗。查看獎勵頁面區域即可了解更多 Alpha 任務和獎勵的相關資訊。",
-                    "text6": "Do I get the 1,000 $SAND reward just for playing the Alpha Season 2?",
-                    "description7": "No. You need the Season 2 Alpha Pass to trigger the rewards claim, so hold on to it if you want your $SAND rewards!",
-                    "description8": "24 hours. During that time Season 2 Alpha Pass winners will be able to hang out in a gated VIP experience that only they can access.",
-                    "description9": "You can claim the $SAND rewards only at the end of the Alpha Season 2 (March 31, 2022), if you own a Season 2 Alpha Pass.",
-                    "description10": "You won’t be able to claim rewards. However, if you reach level 2, lose your Pass but then either get it back or another Pass back, you will be back to level 2, your progression will be saved.",
-                    "text7": "If I gift/sell my Season 2 Alpha Pass, can I still get the $SAND rewards for the levels I completed?",
-                    "description11": "Claim of the Season 2 Alpha Pass NFT and the $SAND rewards will still be on layer 1.",
-                    "text8": "How long between the Raffle and the Reward Claim?",
+                    "text6": "只要玩 Alpha 第 2 季就能獲得 1,000 $SAND 嗎？",
+                    "description7": "不行。你需要第 2 季 Alpha 通行證才能領取獎勵，所以如果想要 $SAND 獎勵，請保留好通行證！",
+                    "description8": "24 小時。這段期間第 2 季 Alpha 通行證得主能到只有他們才進得去的 VIP 限定體驗中逛逛。",
+                    "description9": "若你擁有第 2 季 Alpha 通行證，你只能在 Alpha 第 2 季結束時 (即 2022 年 3 月 31 日) 領取 $SAND 獎勵。",
+                    "description10": "你會無法領取獎勵。但如果你是在破到關卡 2 之後失去通行證，不論你接下來是取回該通行證或是獲得另一張通行證，都能恢復關卡 2 的進度，系統會儲存你的進度。",
+                    "text7": "如果我送出/賣掉我的第 2 季 Alpha 通行證，我還能獲得破關的 $SAND 獎勵嗎？",
+                    "description11": "第 2 季 Alpha 通行證非同質化代幣和 $SAND 獎勵的領取依然會在 Layer 1。",
+                    "text8": "抽獎結束多久後可以領取獎勵？",
                     "description12": "It depends on how you got your Alpha Pass.",
-                    "description13": "There is no time limit to claim your $SAND rewards.",
+                    "description13": "領取 $SAND 獎勵沒有時間限制。",
                     "description14": "不過，請注意！由於僅有一個人的錢包內會在 Alpha 結束時擁有通行證，所以僅有一個人能夠領取獎勵。你可以將通行證交易給好友，讓他們探索遊戲並玩得盡興，不過你需要取回通行證才能領取獎勵！",
-                    "text9": "When can I claim the $SAND rewards? Can I claim them as I progress through each level?",
+                    "text9": "我什麼時候才能領取 $SAND 獎勵？我可以在通過每個關卡的同時領取獎勵嗎？",
                     "description15": "Alpha 通行證持有者需要保有他們的 Alpha 通行證到 Alpha 結束為止才能領取獎勵。重要的是日期 (Alpha 結束的 12 月 20 日)，而非通行證上的進度。Alpha 通行證持有者必須保留通行證至結束日期，即便他們在該日期之前就完成所有目標。Alpha 結束後，Alpha 通行證就僅有紀念功用，任何人都無法使用它來提升進度或獲得獎勵。",
                     "description16": "如果你希望提升進度和獲得獎勵，請不要在 Alpha 結束後 (12 月 20 日後) 才購買 Alpha 通行證。僅有如果你需要紀念品，不需要其功用的情況下才於 12 月 20 日後購買。",
-                    "description6a": "First, the rewards might go up to 1,000 $SAND but it’s not guaranteed, please see the section below about Reward Community Booster. Rewards will be AT LEAST 500 $SAND for completing the 5 levels of Season 2.",
-                    "description6b": "Second, playing the Alpha gives you a chance to win a Season 2 Alpha Pass. If you win, the rewards are yours!",
-                    "text10": "Alpha passes can be traded. What happens if I make it to Level 2 and then trade my pass?",
-                    "text11": "On which chain will the Season 2 Alpha Pass and $SAND rewards be claimed?",
-                    "text12": "How much time do I have to claim my Season 2 Alpha Pass?",
+                    "description6a": "首先，獎勵有機會高達 1,000 $SAND，但這並非保證獎勵數量，請參閱下方與獎勵社群加速器有關的區域。完成第 2 季的 5 個關卡後，獎勵「至少」會有 500 $SAND。",
+                    "description6b": "第二，玩 Alpha 能讓你獲得贏得第 2 季 Alpha 通行證的機會。若你中獎，獎勵就會是你的！",
+                    "text10": "由於 Alpha 通行證為可交易，如果我在破到關卡 2 後就將我的通行證賣掉會怎麼樣？",
+                    "text11": "我能在哪個鏈上領取第 2 季 Alpha 通行證及 $SAND 獎勵？",
+                    "text12": "我有多少時間能領取我的第 2 季 Alpha 通行證？",
                     "bulletPoints": {
                         "description1": "1. If you won your S2AP through a Social Contest, while Alpha Season 2 was ongoing, you must claim it before March 31, 2022.",
                         "description2": "2. If you won your S2AP through the Raffle at the end of Alpha Season 2, there is no deadline to claim it."
                     },
-                    "text13": "How much time do I have to claim my $SAND rewards?",
-                    "text14": "I forgot to claim my $SAND rewards from Alpha Season 1, can I still do that?",
-                    "description14a": "You can claim all unclaimed rewards related to previous Seasons (NFT rewards, $SAND, Alpha Passes…) on this",
-                    "description14b": "page"
+                    "text13": "我有多少時間能領取我的 $SAND 獎勵？",
+                    "text14": "我忘記領取 Alpha 第 1 季的 $SAND 獎勵了，我還能領取嗎？",
+                    "description14a": "你可以前往此頁面領取先前活動季中所有未領取的獎勵 (非同質化代幣獎勵、$SAND、",
+                    "description14b": "Alpha 通行證...)"
                 },
                 "level": {
                     "title": "進度",
@@ -958,8 +958,8 @@
                 },
                 "presscoverage": {
                     "title": "Press Coverage",
-                    "text1": "How does the press access the Alpha Season 2?",
-                    "description1": "Contrary to Alpha Season 1, Press won’t have to request whitelisting access to discover the game, as everybody will be able to play and access 100% of the content.",
+                    "text1": "媒體要如何進入 Alpha 第 2 季？",
+                    "description1": "與 Alpha 第 1 季不同，媒體記者不需要申請許可就能探索遊戲，因為人人都能夠玩遊戲並使用 100% 完整內容。",
                     "text2": "如何申請以新聞稿撰寫進入 Alpha？",
                     "description2": "若要申請網紅通行證，請透過此處聯絡我們：contact@sandbox.game。請記得附上你的通訊頻道，以及觀眾、觸及率和進入 Alpha 的目標總覽。"
                 },
@@ -983,18 +983,18 @@
                     "description4": "Additional security resources:",
                     "description5": "- Basic Safety and Security Tips for Metamask",
                     "description6": "- To be your Own Bank with MetaMask, you need to master these best practices",
-                    "text2": "Will The Sandbox ever request my secret seedphrase (aka passphrase)?",
+                    "text2": "《The Sandbox》會要求我提供秘密助記詞 (又稱複雜密碼) 嗎？",
                     "description7": "不會，《The Sandbox》將不會要求你提供秘密複雜密碼，你也不應該項任何人分享你的秘密複雜密碼！分享你的秘密複雜密碼將會將你的錢包暴露在危險之中，可能會導致你失去所有代幣和非同質化代幣。",
                     "text3": "How can I report suspicious activity?",
                     "description8": "If you detect any suspicious activity on social media, email or OpenSea, you can report it on our",
                     "hrefText1": "Discord channel",
                     "description9": "via the #reporting-scams channel. You can also reach us by email at contact@sandbox.game",
-                    "text4": "How do I know which assets are safe to buy at OpenSea?",
-                    "description10": "When looking for Alpha Passes, Assets, or LANDs at OpenSea, make sure it belongs to our verified Sandbox collection at",
+                    "text4": "如何得知我能安全購買 OpenSea 上的哪些 ASSET？",
+                    "description10": "在 OpenSea 上尋找 Alpha 通行證、ASSET 和 LAND 時，請確認這些物品都是屬於通過認證的《The Sandbox》收藏，網址為",
                     "hrefText2": "https://opensea.io/collection/sandbox",
                     "text5": "What are the official links so I make sure I don’t get scammed?",
                     "description7a": "NO NO NO, The Sandbox will never request your secret seedphrase and you should not share your secret seedphrase with anyone, ever! Sharing your secret seedphrase will compromise your wallet and you might lose all your tokens and NFTs.",
-                    "description7b": "Scammers are VERY creative and will go as far as steal TSB employee’s identities to try to get you to give away information! NEVER. GIVE. AWAY. YOUR. SEED. PHRASE. TO. ANYONE."
+                    "description7b": "騙子的手法非常多變，甚至會盜用《The Sandbox》員工身分試圖藉此將你的資訊騙到手！永、遠、不、要、將、你、的、助、記、詞、交、給、別、人。"
                 },
                 "roadmap": {
                     "title": "路線圖",
@@ -1003,56 +1003,56 @@
                 },
                 "title": "Frequently asked question",
                 "staking": {
-                    "title": "Staking & Community Reward Booster",
-                    "text1": "What is staking?",
-                    "description1a": "To make things overly simple: Staking (in the context of TSB Alpha Season 2) means that you “lock” some of your cryptocurrency, which will in return earn you a yield over time. You can stop your staking and recover your funds at any time, but you will stop earning the yield. The more you stake for the longer time, the bigger the yield you will get.",
-                    "description1b": "You’ll find a lot more details here:",
+                    "title": "質押和社群獎勵加速器",
+                    "text1": "質押是什麼？",
+                    "description1a": "簡單來說：質押 (在《The Sandbox》Alpha 第 2 季中) 代表你「鎖定」了一些加密貨幣，並會隨時間產生利潤作為回報。你可以隨時停止質押並收回資金，但你會停止獲利。質押額度越高、時間越長，利潤就會越多。",
+                    "description1b": "你可以在這裡瞭解更多詳情：",
                     "description1c": "https://sandboxgame.gitbook.io/the-sandbox/staking/about-staking",
-                    "description1d": "For people who are not familiar with staking, and will read the questions below, it’s very important to understand that you do not",
-                    "description1e": "spend",
-                    "description1f": "$SAND to earn bonuses related to Alpha Season 2, you get bonuses from staking $SAND, which can already be a very profitable feature in itself.",
-                    "text2": "In summary, how does the Staking feature relates to Season 2?",
-                    "description2a": "1. Extra Raffle Tickets:",
-                    "description2b": "staking $SAND will grant you extra Raffle Tickets.",
-                    "description2c": "2. Community Reward Booster:",
-                    "description2d": "a booster will be applied to all S2AP $SAND rewards based on the total amount of $SAND staked by the whole community.",
-                    "text3": "In detail, how does the Staking feature relates to Season 2?",
-                    "description3a": "This feature is a bit complex, but you do not have to understand how it works under the hood to make optimal use of it, However you can find the details below:",
-                    "description3b": "1. Extra Raffle Tickets:",
-                    "description3c": "The more and the longer you stake $SAND, the more your “staking score” increases. The bigger the staking score you have, the more Raffle Tickets you will get.",
-                    "description3d": "To get the maximum number of Raffle Tickets from the staking feature (which is 200, the total maximum from all features is 1000) you need to have accumulated at least 2000 staking score points by the end of the Alpha Season 2.",
-                    "description3e": "2. Community Reward Booster:",
-                    "description3f": "The bigger everyone’s staking score is, the more the Community Reward Booster increases. The more the Community Reward Booster increases, the more the Season 2 Alpha Pass $SAND reward is increased for all. The Community Reward Booster is capped at a maximum of +100%. To reach this cap, the community staking score has to reach the target of 100,000,000 (100 Million) points.",
-                    "description3g": "Examples:",
-                    "description3h": "- The S2AP base reward is 500 $SAND. If by the end of Alpha Season 2, the community staking score reached 100,000,000 points or more, the Community Reward Booster will reach +100%. Therefore, the S2AP reward will be increased by +100% and reach 1,000 $SAND for all S2AP owners.",
-                    "description3i": "- If by the end of Alpha Season 2, the community staking score reached 57,000,000 points, the Community Reward Booster will reach +57%. Therefore, the S2AP reward will be increased by +57% and reach 785 $SAND (500 + 57% of 500) for all S2AP owners.",
-                    "text4": "Will I still get the same yield for staking $SAND during Alpha Season 2?",
-                    "description4": "Yes, the staking features related to Alpha Season 2 act as a bonus and will not impact the yield in any way. Your $SAND will not be locked for longer. Nothing changes with the staking feature itself. The “caps” related to Alpha Season 2 features have no impact on the yield at all.",
-                    "text5": "On which chain does the Community Reward Booster work?",
-                    "description5": "On Layer 2, but only on the SAND staking program (not on the SAND/MATIC program). The whole point of the feature is to incentivize $SAND staking on layer 2 to continue our transition to layer 2, which will be a great improvement to the game by reducing gas fees and making TSB a lot greener!",
-                    "text6": "How is the staking score calculated?",
-                    "description6a": "Again, you do not need to understand the math to make optimal use of this feature, but if you are curious, this is how it works:",
-                    "description6b": "You get 5 staking score points for every 1 $SAND staked during 28 days.",
-                    "description6c": "This number is a float, you will get exactly the amount of staking score points related to your staking contribution.",
-                    "description6d": "In details:",
-                    "description6e": "It is important to understand that both time and $SAND staked amount are taken into account to calculate the staking score.",
-                    "description6f": "1. Extra Raffle Tickets:",
-                    "description6g": "The cap is 2000 staking score points (to get 200 Raffle Tickets). To reach that cap you could, for example, stake 400 $SAND (or more) for 28 days, or 800 $AND for 14 days, or 1600 $SAND for 7 days.",
-                    "description6h": "2. Community Reward Booster:",
-                    "description6i": "The cap is 100,000,000 collective cumulated staking score points (to get the Community Reward Booster to +100%). To reach that score, the community could, for example, stake 20,000,000 $SAND (or more) for 28 days, or 40,000,000 $SAND for 14 days, or 80,000,000 $SAND for 7 days.",
-                    "description6j": "Of course, the actual numbers won’t be as round and clean, but this gives you an overall idea of how the calculation is done.",
-                    "description6k": "Please note that the amount of days that $SAND is staked does not have to be consecutive.",
-                    "text7": "Should I wait for Alpha Season 2 to begin to start staking $SAND?",
-                    "description7a": "You can start staking right now, you don’t have to wait. If you want to stake now, you definitely should. Might as well get your yield growing as soon as possible!",
-                    "description7b": "You will start to earn staking score points related to Alpha Season 2 features once the Alpha Season 2 starts, but we will simply look at how much you have previously staked at that moment and start calculating your score.",
-                    "description7c": "You do not need to wait for Alpha Season 2 to begin to start staking, and you do not need to withdraw and stake back your funds once Alpha Season 2 has started to optimize your staking score.",
-                    "description7d": "You, and the community, will not start earning staking score points until the Alpha Season 2 has started. The staking score points objectives, both individual (2000) and collective (20,000,000), have to be met in between the start and the end of the Alpha Season 2.",
-                    "text8": "You are only talking about $SAND staking, what about the TSB SAND/MATIC staking program?",
-                    "description8": "Alpha Season 2 features are only linked to the SAND staking pool. Staking on the SAND/MATIC program does not offer any bonus related to Alpha Season 2. This program will still work the same and produce the same yield, we do not abandon it, it’s just not related to the Alpha Season 2.",
-                    "text9": "Can I lose staking score points?",
-                    "description9": "No, this number can not go down. Points earned are earned for you and added to the Community Booster cumulative score. If you withdraw your stake, you will stop earning staking points, but you won’t lose what you have earned.",
-                    "text10": "The Alpha already started multiple weeks ago, is there still a point for me to start staking now, am I too late?",
-                    "description10": "You are never too late. The later you stake, the more $SAND you will have to stake if you want to max out the number of Raffle Tickets that can be earned through staking (200). Even if you don’t stake that much and Alpha Season 2 will end soon, you can still get some Raffle Tickets for staking. It’s not because you don’t have the time and/or resources to hit the 200 Raffle Tickets cap that there is no point to try to get some. Also, staking can be a very profitable feature in itself, even when unrelated to Alpha Season 2 bonuses"
+                    "description1d": "若你對質押不熟悉且想要閱讀以下問題，請務必瞭解你不必",
+                    "description1e": "花費",
+                    "description1f": "$SAND 來獲得 Alpha 第 2 季中的額外獎勵，而是會透過質押 $SAND 來獲得額外獎勵，質押自身就是高利潤的功能。",
+                    "text2": "簡言之，質押功能和第 2 季有何關聯？",
+                    "description2a": "1. 額外抽獎券：",
+                    "description2b": "質押 $SAND 將會獲得額外抽獎券。",
+                    "description2c": "2. 社群獎勵加速器：",
+                    "description2d": "加速器會依據全體社群質押的 $SAND 數量，套用於所有第 2 季 Alpha 通行證 $SAND 獎勵。",
+                    "text3": "詳細而言，質押功能與第 2 季有何關聯？",
+                    "description3a": "這項功能有點複雜，但你不必瞭解箇中運作方式也能完全發揮其作用，不過您還是可以參考以下詳情：",
+                    "description3b": "1. 額外抽獎券：",
+                    "description3c": "質押 $SAND 的數量越多、時間越長，「質押點數」就會增加。你擁有的質押點數越高，就能獲得越多抽獎券。",
+                    "description3d": "若要透過質押功能爭取最多張抽獎券 (張數上限為 200 張，而所有功能可獲得的張數總計上限為 1,000 張)，你需在 Alpha 第 2 季結束前累積至少 2,000 質押點數。",
+                    "description3e": "2. 社群獎勵加速器：",
+                    "description3f": "全體社群玩家質押點數越大，社群獎勵加速器就會增加得越多。社群獎勵加速器增加得越多，全體社群玩家可領取的第 2 季 Alpha 通行證 $SAND 獎勵就會越多。",
+                    "description3g": "範例：",
+                    "description3h": "- 第 2 季 Alpha 通行證基本獎勵為 500 $SAND。若社群的質押點數在 Alpha 第 2 季結束前達到 100,000,000 點或以上，社群獎勵加速器就會達到 +100%。因此，第 2 季 Alpha 通行證獎勵將會增加 +100%，全體第 2 季 Alpha 通行證持有者的獎勵即可達到 1,000 $SAND。",
+                    "description3i": "- 若在第 2 季 Alpha 通行證結束前，社群質押點數達到 57,000,000 點，則社群獎勵加速器就會達到 +57%。因此，第 2 季 Alpha 通行證獎勵將會增加 +57%，全體第 2 季 Alpha 通行證擁有者的獎勵即可達到 785 $SAND (500 + 500 的 57%)。",
+                    "text4": "在 Alpha 第 2 季期間質押 $SAND，獲得的利潤還是一樣嗎？",
+                    "description4": "是的，Alpha 第 2 季相關的質押功能是額外獎勵，不會對利潤造成任何影響。你的 $SAND 鎖定時間也不會更長。質押功能本身沒有任何變動。Alpha 第 2 季功能相關的「上限」對利潤也不會造成任何影響。",
+                    "text5": "社群獎勵加速器在哪個鏈上運作？",
+                    "description5": "在 Layer 2，但只在 SAND 質押計劃運作 (不在 SAND/MATIC 計劃運作)。這項功能的重點在於刺激 Layer 2 的 $SAND 質押，以繼續我們往 Layer 2 的過渡期。這麼做會減少礦工費，使《The Sandbox》更加環保，大幅改進遊戲！",
+                    "text6": "質押點數如何計算？",
+                    "description6a": "請讓我們再強調一次，你不需要理解計算方式也能完全發揮其作用，但如果你很好奇，請參考以下計算方式：",
+                    "description6b": "28 天期間，每質押 1 $SAND 就能獲得 5 質押點數。",
+                    "description6c": "此數字為浮數，你實際獲得的質押點數與你的質押貢獻有關。",
+                    "description6d": "細節：",
+                    "description6e": "請務必瞭解時間和 $SAND 質押數量都會列入計算質押點數的考量。",
+                    "description6f": "1. 額外抽獎券：",
+                    "description6g": "上限為 2,000 質押點數 (可獲得 200 張抽獎券)。若要達到上限，舉例來說，你可以質押 400 $SAND (或以上) 28 天，或是 800 $SAND 14 天，或是 1600 $SAND 7 天。",
+                    "description6h": "2. 社群獎勵加速器：",
+                    "description6i": "共同累計的質押點數上限為 100,000,000 (將社群獎勵加速器提升至 +100%)。舉例來說，若要達到此點數，社群可以質押 20,000,000 $SAND (或更多) 28 天，或 40,000,000 $SAND 14 天，或 80,000,000 $SAND 7 天。",
+                    "description6j": "當然，實際數字不會那麼工整，這只是讓你對計算方式有個大致的概念。",
+                    "description6k": "請注意，$SAND 的質押天數不必為連續天數。",
+                    "text7": "我該等到 Alpha 第 2 季開始再質押 $SAND 嗎？",
+                    "description7a": "你可以立即開始質押，不需等待。",
+                    "description7b": "你會在 Alpha 第 2 季開始時獲得 Alpha 第 2 季功能相關的質押點數，但我們只會查看你當下的先前已質押數量，再據此開始計算點數。",
+                    "description7c": "你不需等到 Alpha 第 2 季開始再開始質押，也不需在 Alpha 第 2 季開始後將資金先行提領再回頭質押，也能最大化你的質押點數。",
+                    "description7d": "你及社群在 Alpha 第 2 季開始前都不會獲得質押點數。質押點數目標 (個人為 200 點或集體為 20,000,000 點) 必須在 Alpha 第 2 季開始到結束期間達成。",
+                    "text8": "你們只談到 $SAND 質押，那《The Sandbox》SAND/MATIC 質押計劃呢？",
+                    "description8": "Alpha 第 2 季功能僅連結 SAND 質押池。對 SAND/MATIC 計劃質押無法獲得任何 Alpha 第 2 季相關的額外獎勵。此計劃將如往常運作並產生同樣利潤，我們並沒有放棄該計劃，只是該計劃與 Alpha 第 2 季無關。",
+                    "text9": "我會失去質押點數嗎？",
+                    "description9": "不會，此數字不會減少。這是你為自己贏得的點數，也會計入社群加速器的累計點數中。若提領質押即會停止賺取質押點數，但不會失去已贏得的點數。",
+                    "text10": "Alpha 已經開始幾個星期了，我現在開始質押還有意義嗎？會不會太晚？",
+                    "description10": "絕對不會。若你想透過質押爭取最多抽獎券 (200 張)，則越晚質押就需要質押更多 $SAND。即使你並未質押這麼多，Alpha 第 2 季又眼看快要結束，你還是能透過質押獲得一些抽獎券。並不是說你的時間和/或資源不足以爭取到 200 張抽獎券上限，就認為獲得較少量的抽獎券沒有意義。此外，即便質押與 Alpha 第 2 季額外獎勵無關，質押本身就是高利潤的功能。"
                 },
                 "progression": {
                     "title": "Progression",
@@ -1072,67 +1072,67 @@
                 "3": "第 4 天，11 月 19 日：XYZ 俱樂部 (Club XYZ)"
             },
             "alphaPass": {
-                "title": "Season 2 Alpha Pass",
-                "question": "HOW TO GET A SEASON 2 ALPHA PASS?",
+                "title": "第 2 季 Alpha 通行證",
+                "question": "如何取得第 2 季 Alpha 通行證？",
                 "bulletPoints": {
                     "1": {
-                        "title": "Raffle",
+                        "title": "在 2022 年 3 月 31 日 (即 Alpha 第 2 季結束當天) 參加抽獎。",
                         "body": "Participate in the Raffle at the end of Alpha Season 2, on March 31, 2022."
                     },
                     "2": {
-                        "title": "Contests",
-                        "body": "Participate in the daily social contests on The Sandbox Twitter.",
-                        "link": "View Contests Tab"
+                        "title": "競賽",
+                        "body": "在《The Sandbox》推特上參加每日社群媒體競賽。",
+                        "link": "查看競賽頁面"
                     },
                     "3": {
                         "title": "OpenSea:",
-                        "body": "Anyone can buy a Season 2 Alpha Pass on Opensea. If someone is willing to sell it"
+                        "body": "只要有人願意割愛，人人都有機會在 OpenSea 上買到第 2 季 Alpha 通行證。"
                     }
                 },
                 "warning": {
-                    "1": "Do not purchase an Alpha Pass after the end of Alpha Season 2 on March 31, 2022.",
-                    "2": "Be careful not to purchase a fake Season 2 Alpha Pass. Only use the link provided on this website. Only use this link:",
-                    "link": "Buy on OpenSea"
+                    "1": "請不要在 2022 年 3 月 31 日 (即 Alpha 第 2 季結束當天) 之後購買 Alpha 通行證。",
+                    "2": "請小心，不要購買到造假的第 2 季 Alpha 通行證。請僅使用此網站提供的連結。連結如下：",
+                    "link": "在 OpenSea 上購買"
                 }
             },
             "schedule": {
-                "desc1": "ALPHA SEASON 2 STARTS",
-                "date1": "MARCH 03",
-                "desc2": "RAFFLE DAY / SEASON END",
-                "date2": "MARCH 31"
+                "desc1": "ALPHA 第 2 季開始了",
+                "date1": "3 月 3 日",
+                "desc2": "抽獎日/活動季結束",
+                "date2": "3 月 31 日"
             },
             "raffle": {
-                "title": "The Raffle",
-                "subtitle": "THE RAFFLE OCCURS ON MARCH 31, 2022.",
+                "title": "抽獎",
+                "subtitle": "抽獎會在 2022 年 3 月 31 日進行。",
                 "description": {
-                    "1": "Earn Raffle Tickets",
-                    "2": "by completing Quests inside each experience on the",
-                    "link": "Alpha Map."
+                    "1": "在 Alpha 地圖中",
+                    "2": "完成各項體驗中的任務，",
+                    "link": "即可贏得抽獎券。"
                 },
                 "moreTickets": {
-                    "1": "MORE",
-                    "2": "= MORE CHANCE TO WIN A SEASON 2 ALPHA PASS"
+                    "1": "更多",
+                    "2": "#ERROR!"
                 },
-                "moreQuests": "MORE QUESTS COMPLETED = MORE",
+                "moreQuests": "完成更多任務 = 更多",
                 "bulletPoints": {
-                    "title": "YOU CAN GET EXTRA RAFFLE TICKETS BY",
+                    "title": "質押還能爭取額外",
                     "1": {
-                        "1": "Staking",
+                        "1": "抽獎券",
                         "2": "mSAND"
                     },
-                    "2": "Owning LANDs",
-                    "3": "Owning a Season 1 Alpha Pass",
-                    "4": "Owning a Snoop Dogg Private Party Pass",
-                    "5": "Owning a Snoopverse Early Access Pass",
-                    "6": "Answering the Alpha Season 1 feedback form"
+                    "2": "擁有 LAND",
+                    "3": "擁有第 1 季 Alpha 通行證",
+                    "4": "擁有 Snoop Dogg 私人派對通行證",
+                    "5": "擁有 SnoopVerse 早鳥通行證",
+                    "6": "填寫 Alpha 第 1 季意見回饋表單"
                 },
                 "warning": {
-                    "1": "Raffle Tickets are not NFTs and cannot be traded on the secondary market.",
-                    "2": "You must reach at least Level 1 to be elegible for the Raffle."
+                    "1": "抽獎券不是非同質化代幣，無法在次級市場中交易。",
+                    "2": "你必須至少達到關卡 1 才能參加抽獎。"
                 }
             },
             "quests": {
-                "title": "Quests & Raffle Tickets",
+                "title": "任務和抽獎券",
                 "blocks": {
                     "first": {
                         "number": "1",
@@ -1168,96 +1168,96 @@
                     }
                 },
                 "warning": {
-                    "title": "Warning",
+                    "title": "警告",
                     "first": {
-                        "1": "As The Sandbox is in Alpha state at the moment,",
-                        "2": "we are missing some quest features that could create confusion",
-                        "3": "but that will never prevent you from earning your rewards:"
+                        "1": "由於《The Sandbox》目前仍處於 Alpha 階段，",
+                        "2": "我們遺漏了可能會造成混淆的部分下列任務功能",
+                        "3": "，但你絕不會因此無法贏得獎勵："
                     },
                     "second": {
-                        "1": "- There is no feedback informing you if you already completed a specific quest",
-                        "2": "when returning to an experience you already visited."
+                        "1": "- 當返回已造訪過的體驗時，",
+                        "2": "系統不會告知你，你是否已完成某項特定任務。"
                     },
                     "third": {
-                        "1": "- If you",
-                        "2": "complete the same quest multiple times, it will grant you progression only once."
+                        "1": "- 若你",
+                        "2": "完成同一個任務多次，系統只會授予單次任務進度。"
                     },
                     "fourth": {
-                        "1": "- To avoid confusion on which quest you have already completed or not, we advise you to",
-                        "2": "keep track of it on a notepad while playing the game."
+                        "1": "- 為避免混淆你已完成和尚未完成的任務，我們建議你",
+                        "2": "玩遊戲時在記事本上追蹤任務進度。"
                     },
                     "fifth": {
-                        "1": "To help you with that, you will always be able to",
-                        "2": "see on the Alpha Map the number of quests you have already completed",
-                        "3": "for each experience."
+                        "1": "為方便你追蹤任務進度，你隨時都能在",
+                        "2": "Alpha 地圖上看見你已在每項體驗",
+                        "3": "完成的任務數量。"
                     },
                     "sixth": {
-                        "1": "Also, please note that you do not have to complete all the quests in Season 2 to max out the number of Raffle Tickets you will earn.",
-                        "2": "Just choose the quests you like the most!"
+                        "1": "此外，請注意，第 2 季不需完成所有任務，也能贏得最多抽獎券。",
+                        "2": "只要挑選你最喜歡的任務完成即可！"
                     }
                 }
             },
             "communityBooster": {
                 "mSand": "mSAND",
-                "title": "Staking & Community Booster",
+                "title": "質押和社群加速器",
                 "subtitle": {
-                    "1": "EXTRA RAFLLE TICKETS FOR SAND STAKING:",
-                    "2": "COMMUNITY REWARD BOOSTER:"
+                    "1": "質押 SAND 以爭取額外抽獎券：",
+                    "2": "社群獎勵加速器："
                 },
                 "bulletPoints": {
                     "1": {
-                        "1": "You can get",
-                        "2": "up to 200 extra Raffle Tickets by staking"
+                        "1": "透過質押 mSAND",
+                        "2": "你有機會獲得最多 200 張的額外"
                     },
                     "2": {
-                        "1": "The higher your staking score is, the more Raffle Tickets you will get. The staking score is calculated from how much",
-                        "2": "you staked, and how long you staked it, even if you don’t stake a lot, we value your loyalty!"
+                        "1": "質押點數越高就能獲得越多抽獎券。質押點數是根據你已質押的",
+                        "2": "數量及質押時間長度計算，即使你質押得不多，我們也很重視你的忠誠度！"
                     },
                     "3": {
-                        "1": "The more the community stakes",
-                        "2": "the",
-                        "3": "more rewards everyone gets!"
+                        "1": "社群質押越多",
+                        "2": "，全體社群",
+                        "3": "就能獲得越多獎勵！"
                     },
                     "4": {
-                        "1": "The staking score of the whole community will be added together to create a Reward Community Booster that will increase the S2 Alpha Pass rewards for everyone.",
-                        "2": "At its highest, the Reward Community Booster can DOUBLE the regards (+100%)."
+                        "1": "我們會加總整個社群的質押點數來建立獎勵社群加速器，為全體社群加碼第 2 季 Alpha 通行證的獎勵。",
+                        "2": "點數達最高，獎勵社群加速器就能「倍翻」獎勵 (+100%)。"
                     }
                 }
             },
             "contest": {
-                "title": "Contests",
+                "title": "競賽",
                 "description": {
                     "1": {
-                        "1": "Participate every day in social contests on",
-                        "2": "The Sandbox Twitter",
-                        "3": "account to get a chance to win a Season 2 Alpha Pass."
+                        "1": "在《The Sandbox》推特帳戶",
+                        "2": "上參加每日社群媒體競賽，",
+                        "3": "獲得贏得第 2 季 Alpha 通行證的機會。"
                     },
-                    "2": "1,000 Season 2 Alpha Passes are distributed every Thursday."
+                    "2": "每週四發送 1,000 張第 2 季 Alpha 通行證。"
                 },
                 "bulletPoints": {
-                    "1": "You can participate in each daily contest only once but you can maximize your chances of winning by participating in the daily contest every day of the week!",
-                    "2": "Daily contest activities will range from trying to find Easter eggs in the game or capturing cool screenshots."
+                    "1": "每日競賽只能參加一次，但你可以在一週內天天參加每日競賽，提高你的中獎機率！",
+                    "2": "每日競賽活動五花八門，包括試圖尋找遊戲中的復活節彩蛋，或是拍攝酷炫的螢幕截圖。"
                 },
-                "warning": "Please note that if you get a Season 2 Alpha Pass through daily contests you will no longer be elegible to receive one from the Raffle at the end of Alpha Season 2."
+                "warning": "請注意，若你是透過每日競賽取得第 2 季 Alpha 通行證，就無法透過 Alpha 第 2 季結束當天開獎的抽獎再次獲得通行證。"
             },
             "experiences": {
-                "title": "Types of experiences",
+                "title": "體驗類型",
                 "cards": {
                     "sandbox": {
-                        "title": "THE SANDBOX",
-                        "body": "Official TSB experiences, created by The Sandbox team."
+                        "title": "《The Sandbox》",
+                        "body": "官方《The Sandbox》體驗，由《The Sandbox》團隊建立。"
                     },
                     "partners": {
-                        "title": "PARTNERS",
-                        "body": "Created by our Partners. They have the ownership and responsibility of their content."
+                        "title": "合作夥伴",
+                        "body": "由合作夥伴建立。合作夥伴擁有內容所有權並承擔相關責任。"
                     },
                     "gameMaker": {
-                        "title": "GAME MAKER FUND",
-                        "body": "Experiences made by the GMF creators, funded and supported by TSB."
+                        "title": "GAME MAKER 基金會",
+                        "body": "由 Game Maker 基金會創作者打造的體驗。由《The Sandbox》提供資金和支援。"
                     },
                     "gameJam": {
                         "title": "GAME JAM",
-                        "body": "The best experiences made by the community for the TSB Alpha Game Jam."
+                        "body": "由社群為《The Sandbox》Alpha Game Jam 打造的最佳體驗。"
                     }
                 }
             }
@@ -1304,8 +1304,8 @@
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame"
             },
-            "title": "The Sandbox -",
-            "defaultTitle": "Asset"
+            "title": "The Sandbox-",
+            "defaultTitle": "ASSET"
         },
         "smart": "智能合約",
         "loadMoreUsers": "載入更多使用者",
@@ -1393,7 +1393,7 @@
             "equipment": "裝備",
             "wearable": "可穿戴物",
             "art": "藝術品",
-            "avatar": "Skins",
+            "avatar": "皮膚",
             "block": "",
             "bodypart": ""
         },
@@ -1512,12 +1512,12 @@
             "title": "排序依據",
             "newest": "最新",
             "oldest": "最舊",
-            "lowerPrice": "較低價格",
+            "lowerPrice": "最低價格",
             "highPrice": "最高價格",
             "leastAmount": "最低數量",
             "highAmount": "最高數量",
-            "az": "Name (A-Z)",
-            "za": "Name (Z-A)"
+            "az": "名稱 (A-Z)",
+            "za": "名稱 (Z-A)"
         },
         "sizes": {
             "title": "尺寸",
@@ -1631,7 +1631,7 @@
             "alreadyClaim": "已領取",
             "putOnSale": "出售",
             "saleQuestion": "確定要在我們的市場出售此 NFT 嗎？",
-            "putOnSaleSuccess": "Asset is now for sale"
+            "putOnSaleSuccess": "ASSET 現正出售中"
         }
     },
     "create": {
@@ -2411,10 +2411,10 @@
             "quan": "QUAN",
             "megacities2": "Mega Cities (2)",
             "megacities1": "Mega Cities (1)",
-            "snoopDogg1": "SNOOP DOGG",
+            "snoopDogg1": "SNOOP DOGG (1)",
             "steveAoki": "STEVE AOKI",
-            "warnermusic": "WARNER MUSIC",
-            "gucci": "GUCCI",
+            "warnermusic": "Warner Music",
+            "gucci": "Gucci",
             "web3": "Web 3",
             "ubisoft": "Ubisoft"
         },
@@ -2463,7 +2463,7 @@
             "seeAll": "查看全部",
             "viewInMap": "在地圖中查看",
             "readMorePremium": "閱讀更多有關優質的介紹",
-            "parcel": "parcel"
+            "parcel": "土地"
         },
         "onboarding": {
             "title": "Sandbox 地圖",
@@ -2520,12 +2520,12 @@
             "text8": "All the experiences at the Alpha were built using VoxEdit and Game Maker. You can build our own experience!"
         },
         "transfer": {
-            "transferExperience": "Transfer your experience",
-            "walletUser": "Enter the target wallet:",
-            "confirm": "Confirm",
-            "successTransfer": "Successfully transferred",
-            "closeForm": "close",
-            "transferAssets": "Also transfer assets"
+            "transferExperience": "轉移你的體驗",
+            "walletUser": "輸入目標錢包：",
+            "confirm": "確認",
+            "successTransfer": "已成功轉移",
+            "closeForm": "關閉",
+            "transferAssets": "同時轉移 ASSET"
         }
     },
     "about": {
@@ -2808,7 +2808,7 @@
                     "image": "https://www.sandbox.game/images/logo.png"
                 }
             },
-            "title": "部落格",
+            "title": "《The Sandbox》社群",
             "noPost": "",
             "noPostCategory": "",
             "latestArticles": "",
@@ -2865,14 +2865,14 @@
         "signin": "登入",
         "menu": {
             "profile": "個人檔案",
-            "defi": "Staking",
+            "defi": "質押",
             "defi-soon": "去中心化金融 (即將推出)",
             "referral": "推薦",
             "inventory": "物品欄",
             "avatar": "虛擬化身",
             "edit": "編輯",
             "logout": "登出",
-            "settings": "Settings"
+            "settings": "設定"
         },
         "profile": {
             "sandAmount": "你的",
@@ -2954,7 +2954,7 @@
                 "unpublished": "未發佈",
                 "exclusive": "獨家",
                 "basic": "基本",
-                "sale": "On Sale"
+                "sale": "出售中"
             },
             "actions": {
                 "title": "動作",
@@ -3015,7 +3015,7 @@
                 "purchaseGemsDisclaimer": "你需要先購買 CATALYST 和 GEM 才能繼續",
                 "removing": "即將移除所有屬性。",
                 "wishToContinue": " 確定要繼續嗎？",
-                "invalidAndMaxed": "Invalid amount, using maximum possible amount."
+                "invalidAndMaxed": "數量無效，目前使用最大可用數量。"
             },
             "search": "搜尋……",
             "preview": "預覽",
@@ -3057,7 +3057,7 @@
                 "9": "已擁有的優質虛擬化身"
             },
             "tabs": {
-                "1": "My Avatars",
+                "1": "我的虛擬化身",
                 "2": "市場",
                 "3": "虛擬化身創造工具"
             },
@@ -3138,34 +3138,34 @@
                 "name": "名稱",
                 "presetName": "預設名稱"
             },
-            "titleCreator": "虛擬化身創造工具",
-            "title": "Create your Avatar",
+            "titleCreator": "虛擬化身創作工具",
+            "title": "創造你的虛擬化身",
             "custom": "",
-            "iosWarning": "Your device is not compatible with this feature. Please try on desktop version.",
-            "iosWarningTitle": "Sorry",
+            "iosWarning": "你的設備與該功能不兼容。請嘗試使用桌面版本。",
+            "iosWarningTitle": "抱歉",
             "externalAvatarsPopUp": {
-                "title1": "Hey!",
-                "title2": "You have external avatars",
-                "description": "Do you want to check them out?",
-                "skipButton": "skip",
-                "editButton": "Edit Avatar"
+                "title1": "嘿！",
+                "title2": "你擁有外部虛擬化身",
+                "description": "你想要看看嗎？",
+                "skipButton": "略過",
+                "editButton": "編輯虛擬化身"
             },
             "noNfts": {
-                "title": "Ups!",
-                "description1": "You don't have external avatars",
-                "description2": "But you can create your own"
+                "title": "啊哦！",
+                "description1": "你沒有外部虛擬化身",
+                "description2": "但是你可以創建你自己的虛擬化身"
             },
             "notWhitelisted": {
                 "title": "Ups!",
-                "description1": "Your wallet is not whitelisted!",
-                "description2": "You don't have access to this section."
+                "description1": "你的錢包尚未加入許可名單！",
+                "description2": "你沒有進入此部分的權限。"
             }
         },
         "loginModal": {
             "title": "登入或建立帳戶",
             "description": "請連結加密貨幣錢包以登入。無須基金，基金不會被提取。",
             "wallet": "什麼是加密錢包？",
-            "whatsAWallet": "A crypto-wallet is the place where you can safely store all your cryptocurrencies and digital game ASSETS. No funds are required in the wallet to create an account. FREE to sign-up.",
+            "whatsAWallet": "加密錢包是你能安全存放所有加密貨幣和數位遊戲 ASSET 的地方。建立帳戶不需為錢包投入資金。註冊完全免費。",
             "continue": "繼續",
             "agree": "建立帳戶並連結至你的加密錢包，即表示你同意我們的",
             "terms": "條款及條件",
@@ -3308,19 +3308,19 @@
                 "oldEmail-sub": "真實電子郵件",
                 "submitEmail": "變更電子郵件",
                 "websiteUrl": "個人網站",
-                "generic-error": "There are one or more errors encountered.",
+                "generic-error": "發生一或多個錯誤。",
                 "error": "Invalid Format",
-                "name": "Name",
+                "name": "名稱",
                 "socialDescription": {
-                    "youtube": "Enter your Youtube user ID",
-                    "twitter": "Enter your Twitter Handle",
-                    "discord": "Enter your user#id",
-                    "facebook": "Enter your Facebook username",
-                    "instagram": "Enter your Instagram username",
-                    "telegram": "Enter your Telegram username"
+                    "youtube": "輸入你的 YouTube 使用者 ID",
+                    "twitter": "輸入你的推特使用者名稱",
+                    "discord": "輸入你的使用者 ID",
+                    "facebook": "輸入你的 Facebook 使用者名稱",
+                    "instagram": "輸入你的 Instagram 使用者名稱",
+                    "telegram": "輸入你的 Telegram 使用者名稱"
                 },
                 "username-invalid": "",
-                "profilePictureErrorHigh": "Profile picture name is more than 200 characters long (including file extension)."
+                "profilePictureErrorHigh": "個人檔案相片名稱長度超過 200 個字元 (包含副檔名)。"
             },
             "security": {
                 "title": "安全性和密碼",
@@ -3331,11 +3331,11 @@
                 "repeat-password": "再次輸入密碼"
             },
             "chainSettings": {
-                "title": "Chain Settings",
-                "subtitle": "Polygon Meta transactions",
-                "text": "The Sandbox Meta Transactions on new features deployed on Polygon network. They allow us to wrap transactions so the only token you need is mSAND",
-                "useMatic": "All transaction cost are paid in MATIC, Polygon Network native Token.",
-                "useMsand": "All transaction cost are paid in mSAND, The Sandbox Governance Token.",
+                "title": "鏈設定",
+                "subtitle": "Polygon 元交易",
+                "text": "Polygon 網路新部署的功能現在可以進行《The Sandbox》元交易了。這項功能可以將交易打包，如此一來，你需要的代幣就只有 mSAND。",
+                "useMatic": "所有的交易成本均以 MATIC 支付，即 Polygon 網路原生代幣。",
+                "useMsand": "所有的交易成本均以 mSAND 支付，即《The Sandbox》管理代幣。",
                 "subtitleGasless": "Polygon Gasless",
                 "textGasless": "The Sandbox offers a monthly number of gasless transactions on Polygon network through the use of Biconomy so you can perform a few essential transactions without a need for gas.",
                 "useGasless": "Free transactions left",
@@ -3394,8 +3394,8 @@
             "assetOwnership": "ASSET 擁有權",
             "presales": "預售",
             "faucet": "Sand & Ether Faucets",
-            "ticketDetails": "",
-            "raffleTickets": ""
+            "ticketDetails": "Ticket details",
+            "raffleTickets": "Raffle tickets"
         },
         "users": {
             "profile": "個人檔案",
@@ -3452,18 +3452,18 @@
         "faucet": {
             "layer1": "LAYER 1 TESTNETS",
             "layer2": "LAYER 2 TESTNETS",
-            "claim": "Claim",
-            "ext": "Go to Faucet",
-            "nextClaim": "Next claim will be available in ",
-            "claimInfo": "You can claim Sand once every day. Please use only if required",
-            "external": "You can claim ETH through the external faucet",
-            "goToFaucet": "Go to Faucet",
+            "claim": "領取",
+            "ext": "前往水龍頭",
+            "nextClaim": "距離下次領取時間：",
+            "claimInfo": "你每天可以領取一次 SAND。請只在需要時使用",
+            "external": "你可以透過外部水龍頭領取 ETH",
+            "goToFaucet": "前往水龍頭",
             "goerli": "Goerli",
             "rinkeby": "Rinkeby",
             "mumbai": "Mumbai",
-            "switchToGoerli": "Switch to Goerli",
-            "switchToRinkeby": "Switch to Rinkeby",
-            "switchToMumbai": "Switch to Mumbai",
+            "switchToGoerli": "改用 Goerli",
+            "switchToRinkeby": "改用 Rinkeby",
+            "switchToMumbai": "改用 Mumbai",
             "sand": "SAND",
             "msand": "mSAND",
             "eth": "ETH",
@@ -3531,7 +3531,7 @@
     },
     "newPlay": {
         "discoverHub": "探索《The Sandbox》中心",
-        "buyLand": "購買 LAND",
+        "buyLand": "LAND",
         "TWD": "The Walking Dead",
         "seeRewards": "查看獎勵",
         "endingSoon": "Alpha 即將結束",
@@ -3547,7 +3547,7 @@
         "coming": "即將推出",
         "selectAvatar": "選取你的虛擬人像",
         "infoTooltip": "每擁有一塊 LAND，即可額外獲得 1 張抽獎券",
-        "helpUs": "Help us improve The Sandbox experience!"
+        "helpUs": "幫助我們改善《The Sandbox》體驗！"
     },
     "experiencePage": {
         "progressSeason": "季度進度",
@@ -3792,14 +3792,14 @@
             "whyPolygon": "為何選用 Polygon？",
             "whyPolygonText": "《The Sandbox》遷移至 Polygon，快速且高效率的管理區塊鍊交易。即將開放 Ethereum 和 Polygon 之間的跨鏈橋。",
             "whatsBlockchain": "什麼是區塊鍊跨鏈橋？",
-            "bridgeSand": "BRIDGE SAND",
-            "bridge": "Bridge",
+            "bridgeSand": "把SAND跨鏈",
+            "bridge": "跨鏈橋",
             "mainnetL1": "ETHEREUM NETWORK",
             "mainnetL2": "POLYGON NETWORK",
-            "discoverPolygon": "Discover Polygon benefits",
-            "noActivePool": "You can earn more SAND by staking",
-            "bridgeNotAvailable": "Your wallet is not yet supported by the Polygon Bridge for now. Please use Metamask. If you don’t have a Metamask wallet, you can still acquire SAND on ",
-            "learn": "Learn how"
+            "discoverPolygon": "探索 Polygon 的優勢",
+            "noActivePool": "你可以透過質押賺取更多 SAND。",
+            "bridgeNotAvailable": "Polygon Bridge 目前還不支援你的錢包。請使用 Metamask。如果你還沒有 Metamask 錢包，仍然可以在「未啟用」上獲得",
+            "learn": "了解方法"
         },
         "avatars": {
             "title": "虛擬化身",
@@ -3847,7 +3847,7 @@
         "linkWallet": "連結錢包",
         "linkWalletText": "連結錢包即可查看餘額並解鎖所有功能",
         "myWallet": "我的錢包",
-        "copied": "Copied!",
+        "copied": "已複製！",
         "inventory": {
             "title": "我的物品欄",
             "cardState": {
@@ -3864,123 +3864,123 @@
             }
         },
         "migration": {
-            "title": "Migrations",
-            "subTitle": "LANDs Migration",
-            "text1": "Duo to a vulnerability discovered on December 25th 2021 by",
-            "text2": ", we've decided after running thorough investigations to patch and deploy a new fixed and improved version of the LAND smart contract. Further information can be found on our",
-            "mediumArticle": " Medium article",
-            "text3": "On this page, you will be able to redeem the exact same LANDs you own from the new smart contract based on their unique ID. The process will then lock and burn the previous version to avoid any confusion in the future.",
-            "text4": "If you need any help in the process, you can contact us:",
-            "text5": "The new version of the smart contract has been audited on December 30th by ",
+            "title": "遷移",
+            "subTitle": "LAND 遷移",
+            "text1": "我們在 2021 年 12 月 25 日發現了漏洞，發現者為",
+            "text2": "，在進行了詳細的調查後，我們決定進行修補，並部署經過修正和改善的新版 LAND 智能合約。詳情請參閱我們的",
+            "mediumArticle": "Medium 文章",
+            "text3": "你將能在此頁面根據 LAND 擁有的獨特 ID，從新版智能合約中兌換相同的 LAND。此過程將鎖定先前版本並將其作廢，以免日後造成混淆。",
+            "text4": "若你在此過程中需任何協助，敬請聯絡我們：",
+            "text5": "新版智能合約已於 12 月 30 日完成稽核，稽核者為",
             "and": " and ",
-            "text6": "It was deployed on January the 30th",
-            "newContractAddress": "The new smart contract address is ",
-            "text7": "The vulnerability has not been exploited by any malicious user and has now been secured.",
-            "text8": "Investigation did not reveal any breach on other smart contracts.",
-            "thanks": "Thank you for your unwavering support.",
-            "oldContract": " Old Contract",
-            "newContract": " New Contract",
-            "migrateBtn": "Migrate all my LANDs to the New Contract",
-            "viewMigrateContract": "View Migrate Contract on Etherscan",
-            "reviewAudit": "Review Migration Contract Audit",
-            "gasless1": "This process is gasless.",
-            "gasless2": "There won't be any costs for you.",
-            "didYouKnow": "Did you know?",
-            "sandDropTitle": "There was a SAND airdrop in January for LAND owners",
-            "readTheArticle": "Read the article",
-            "sandDropSubtitle": "You ware eligible for ",
-            "checkYourWallet": ", check your wallet on Polygon",
-            "success": "All your LANDs have been successfully migrated.",
+            "text6": "部署日期為 1 月 30 日",
+            "newContractAddress": "新版智能合約地址為",
+            "text7": "漏洞並未遭到任何惡意使用者濫用，現已受到保護。",
+            "text8": "調查結果並未發現其他智能合約上有任何漏洞。",
+            "thanks": "感謝你一路以來的支持。",
+            "oldContract": "舊合約",
+            "newContract": "新合約",
+            "migrateBtn": "將我的所有 LAND 遷移至「新合約」",
+            "viewMigrateContract": "在 Etherscan 上查看遷移合約",
+            "reviewAudit": "詳閱「遷移合約稽核」",
+            "gasless1": "此過程不需支付礦工費。",
+            "gasless2": "你不需負擔任何費用。",
+            "didYouKnow": "你知道嗎？",
+            "sandDropTitle": "我們曾在 1 月為 LAND 擁有者舉辦 SAND 空投活動",
+            "readTheArticle": "閱讀文章",
+            "sandDropSubtitle": "你已符合資格：",
+            "checkYourWallet": "，在 Polygon 上查看你的錢包",
+            "success": "已成功遷移你的所有 LAND。",
             "gaslessWarningMobile": "This process is gasless. We got you covered.",
             "insideProfile": {
-                "title": "New LANDs smart contract",
-                "subtitle": "We have enhanced our LANDs smart contract and deployed a new version of them.",
-                "buttonText": "Migrate Lands",
-                "infoText": "This process is gasless"
+                "title": "全新 LAND 智能合約",
+                "subtitle": "我們已增強 LAND 智能合約並部署新版本。",
+                "buttonText": "遷移 LAND",
+                "infoText": "此過程不須支付礦工費"
             },
             "banners": {
-                "title1": "You have LAND to Migrate",
-                "title2": "New LANDs smart contract",
-                "buttonText": "Migrate Lands",
-                "text0": "We have deployed a new and enhanced version of the LAND smart contract.",
-                "text1": "You can find all the details related to the migration on the ",
-                "text2": "dedicated article",
-                "text3": ".",
-                "text41": "It appears you have some LANDs to migrate.",
-                "text42": "This LAND needs to be migrated.",
-                "text5": "Please proceed to the migration page. The migration is completely free.",
-                "required": "MIGRATION REQUIRED",
-                "infoText": "This process is gasless",
+                "title1": "你有待遷移的 LAND",
+                "title2": "全新 LAND 智能合約",
+                "buttonText": "遷移 LAND",
+                "text0": "我們已部署經調整的新版 LAND 智能合約。",
+                "text1": "欲瞭解所有遷移詳情，請參閱",
+                "text2": "專文",
+                "text3": "。",
+                "text41": "你似乎有些 LAND 需遷移。",
+                "text42": "這塊 LAND 需遷移。",
+                "text5": "請前往遷移頁面。遷移程序完全免費。",
+                "required": "需遷移",
+                "infoText": "此過程不須支付礦工費",
                 "textInventory": "We have deployed a new and enhanced version of the LAND smart contract.",
                 "textInventory2": "You can find all the details related to the migration on the ",
                 "textInventorySubtext": "Please proceed to the migration page. The migration is completely free."
             },
             "faqs": {
                 "01": {
-                    "question": "When does the migration start?",
-                    "answer": "The migration page will be deployed on January the 26th."
+                    "question": "遷移何時開始？",
+                    "answer": "遷移頁面將於 1 月 26 日部署。"
                 },
                 "02": {
-                    "question": "How to migrate?",
-                    "answer1": "Go to the migration page ",
-                    "answer2": " and follow the instructions. You need to be logged in with your wallet and associated Sandbox account."
+                    "question": "如何遷移？",
+                    "answer1": "前往遷移頁面",
+                    "answer2": "並遵照指示進行。你需登入你的錢包及相關 Sandbox 帳戶。"
                 },
                 "03": {
-                    "question": "What does the migration do exactly?",
-                    "answer": "The migration page lists all LAND for a given LAND owner. Upon signing the transaction, the smart contract locks away LANDs from the old contract and mints the exact same LANDs on the new contract for the owner."
+                    "question": "遷移到底在做什麼？",
+                    "answer": "遷移頁面會列出該 LAND 擁有者的所有 LAND。交易簽署後，智能合約即會鎖定舊合約的 LAND，並在新合約中為擁有者鑄造相同的 LAND。"
                 },
                 "04": {
-                    "question": "How much does it cost?",
-                    "answer": "Nothing. We have deployed a gasless solution to enable free transactions for our users."
+                    "question": "要多少費用？",
+                    "answer": "不需要。我們已部署免礦工費的解決方案，為我們的使用者提供免費交易。"
                 },
                 "05": {
-                    "question": "How long does it take?",
-                    "answer": "Once the transaction is signed, it will take a couple minutes to go through the network."
+                    "question": "需多少時間？",
+                    "answer": "交易簽署後，網路傳輸會需要幾分鐘的時間。"
                 },
                 "06": {
-                    "question": "Is there a time limit?",
-                    "answer": "Not at this moment. We want to give you space to migrate LANDs at your own pace."
+                    "question": "有時間限制嗎？",
+                    "answer": "目前沒有。我們希望為你提供彈性，讓你以自己的步調遷移 LAND。"
                 },
                 "07": {
-                    "question": "How do I know which LAND I still have to migrate to the new contract ?",
-                    "answer1": "When going to ",
-                    "answer2": ", you will see all LAND you own on their respective contracts."
+                    "question": "要如何知道我還需要將哪個 LAND 遷移至新合約？",
+                    "answer1": "前往",
+                    "answer2": "，即可查看各合約中所包含的全部 LAND。"
                 },
                 "08": {
-                    "question": "How do I find my LAND after the migration?",
-                    "answer": "Your LAND will be minted in the same wallet and can be found in your The Sandbox inventory or any other wallet reader."
+                    "question": "完成遷移後要如何找到我的 LAND？",
+                    "answer": "你的 LAND 會被鑄造至同一個錢包中，你可以在《The Sandbox》物品欄或任何其他錢包讀取器中查看。"
                 },
                 "09": {
-                    "question": "What if my LAND is in cold storage?",
-                    "answer": "You will need to proceed as you usually do when transferring your assets, move it to your selected wallet and migrate your LAND. Then you can move it back to cold storage."
+                    "question": "若我的 LAND 放在冷儲存裡，該怎麼辦？",
+                    "answer": "你會需要以平常轉移 ASSET 的相同做法處理，我們支援大部分的硬體錢包。對於 Trezor 與其他無法處理 EIP-712 的錢包，你可以在遷移頁面中核取選項來更改簽署格式。"
                 },
                 "10": {
-                    "question": "What if my LAND is staked in a smart contract?",
-                    "answer": "You will need to withdraw your LAND from the smart contract and migrate it."
+                    "question": "若我的 LAND 在智能合約中已被質押，該怎麼辦？",
+                    "answer": "你需要先從智能合約中提領 LAND 再進行遷移。"
                 },
                 "11": {
-                    "question": "There was an error during the transaction, what do I do?",
-                    "answer": "We are normally handling all errors. If you encounter unexpected errors, please contact us through "
+                    "question": "交易期間發生錯誤該怎麼辦？",
+                    "answer": "我們通常會修復所有錯誤。若你發生了未預期的錯誤，請聯絡我們，聯絡方式為："
                 },
                 "12": {
-                    "question": "The migration page says I have several transactions to sign, is it normal ?",
-                    "answer": "Yes, if you have a lot of LAND the contract might need to handle them in separate transactions due to gas limits. This is completely normal and all transaction costs will be covered by The Sandbox."
+                    "question": "遷移頁面說我有多筆交易需完成簽署，這是正常的嗎？",
+                    "answer": "是的，若你有大量的 LAND，合約可能會因礦工費限制而拆分成多筆交易處理。這是正常情況，所有的交易費用都會由《The Sandbox》支付。"
                 },
                 "13": {
-                    "question": "What is the migration contract address?",
-                    "answer": "Migration contract: "
+                    "question": "遷移合約地址為何？",
+                    "answer": "遷移合約："
                 },
                 "14": {
-                    "question": "What is the new LAND contract address?",
-                    "answer": "New LAND contract : "
+                    "question": "新的 LAND 合約地址為何？",
+                    "answer": "新的 LAND 合約："
                 },
                 "15": {
-                    "question": "What if I purchased a LAND from the old contract after the migration started?",
-                    "answer": "You can migrate it, do not worry. It is not based on a snapshot but on real time ownership."
+                    "question": "若我在遷移開始後買到舊合約的 LAND 會怎麼樣？",
+                    "answer": "別擔心，你還是可以遷移該 LAND。是否可進行遷移並非根據快照，而是根據實際時間的擁有權而定。"
                 },
                 "16": {
-                    "question": "What if I have no ETH for the migration?",
-                    "answer": "The migration is gasless so you don’t need any ETH. We cover all costs."
+                    "question": "如果我沒有 ETH 可以遷移該怎麼辦？",
+                    "answer": "遷移不需礦工費，所以你不需要任何 ETH。我們會支付所有費用。"
                 }
             },
             "willTake": "The migration will require ",
@@ -4280,24 +4280,24 @@
             "wantToJoin": "想要加入這次的季度嗎？",
             "buySeasonPass": "只要有人在 OpenSea 出售季票，你就有機會取得",
             "goOpenSea": "前往 OpenSea",
-            "findOpen": "Look for a Pass on OpenSea",
+            "findOpen": "在 OpenSea 上尋找通行證",
             "gotSeasonPass": "你拿到季票了！",
             "descriptionExplore": "我們的第一季度現正舉辦中。你可盡情探索，並遊玩體驗以贏得獎勵。",
             "discover": "探索本季度",
             "congrats": "恭喜！",
-            "descriptionWinner": "You are one of the lucky Raffle winners!",
+            "descriptionWinner": "你是抽獎活動的幸運得主！",
             "claim": "領取季票",
-            "betterLuck": "Sorry...",
-            "learnMore": "Learn more about the Alpha Season 2",
-            "paragraphLooser": "You are not one of the Raffle winners. You might be able to get a Season 2 Alpha Pass by purchasing it from another player.",
+            "betterLuck": "抱歉...",
+            "learnMore": "進一步瞭解 Alpha 第 2 季",
+            "paragraphLooser": "你沒有贏得抽獎。只要其他玩家願意割愛，你還是有機會買到第 2 季 Alpha 通行證。",
             "descriptionLooser": "你沒有贏得 Alpha 通行證",
             "youWon": "你贏得 Alpha 通行證了！",
-            "descriptionWinner2": "You can now claim your Season 2 Alpha Pass. You will be able to claim the rewards soon! Until then, you can join a VIP party in Climbing Madness for Pass holders!",
-            "paragraphLooser2": "Tomorrow Alpha Pass holders will be able to claim their rewards.",
-            "seasonIsOver": "The Alpha Season 2 is now over.",
-            "purchaseWarning": "Do not purchase a Season 2 Alpha Pass on the secondary market anymore as you will not be able to use it to claim your rewards.",
-            "seeYouSoon": "We hope to see you soon in Season 3 to try your luck again.",
-            "gotIt": "Got it",
+            "descriptionWinner2": "你現在可領取第 2 季 Alpha 通行證。你很快就能領取獎勵！現在你可先參加為通行證持有者在 Climbing Madness 所舉辦的 VIP 派對！",
+            "paragraphLooser2": "Alpha 通行證持有者明天就能領取獎勵。",
+            "seasonIsOver": "Alpha 第 2 季目前已結束。",
+            "purchaseWarning": "請勿在次級市場上購買第 2 季 Alpha 通行證，因為通行證已無法使用來領取獎勵。",
+            "seeYouSoon": "我們希望很快能在第 3 季見到你，到時再試試你的手氣。",
+            "gotIt": "瞭解",
             "claimButton": "Claim S2 Alpha Pass"
         },
         "avatar": {
@@ -4307,7 +4307,7 @@
             "endedSubtitle": "感謝參與《The Sandbox》Alpha 的所有玩家！",
             "endedSubtitle2": "感謝你寶貴的意見回饋！\n 期待很快再次見到你！",
             "drawInProgressTitle": "正在進行抽籤",
-            "lostSeasonPassTitle": "你沒有贏得 Alpha 通行證",
+            "lostSeasonPassTitle": "你沒有 Alpha 通行證",
             "notStartSubtitle": "爭取遊玩機會並贏得",
             "startSubtitle": "《The Sandbox》Alpha 即將上線。\n註冊以爭取遊戲獲利的機會！",
             "startCountDown": "距離註冊開始：",
@@ -4330,28 +4330,28 @@
             "claimAvailableAt": "距離可領取時間：",
             "alphaEndsIn": "距離 Alpha 結束：",
             "claimRewardsButton": "領取獎勵",
-            "unregisteredStartingSubtitle": "The Sandbox Alpha Season 2 will start soon.",
-            "playButton": "Play",
+            "unregisteredStartingSubtitle": "你已有 Alpha 通行證",
+            "playButton": "開始遊戲",
             "newLottery": {
-                "drawInProgressTitle": "Raffle draw in progress",
-                "getRaffleTickets": "Season 2: Get Raffle Tickets",
-                "alphaPass": "Season 2: Alpha Pass",
-                "seasonPassTitle": "Season 2: Alpha Pass",
+                "drawInProgressTitle": "正在進行抽獎",
+                "getRaffleTickets": "第 2 季：獲得抽獎券",
+                "alphaPass": "第 2 季：Alpha 通行證",
+                "seasonPassTitle": "第 2 季：Alpha Pass",
                 "boostRewards": "Boost Rewards",
-                "subtitleSelectWinners": "We'll select 5000 winners! Wait for the results",
-                "subtitleWaitToClaim": "Wait to claim the rewards",
-                "subtitleNoLongerEarn": "You can no longer earn Raffle tickets.\nThe Raffle will take place soon. Good luck!",
-                "getAlphaPassButton": "Get Alpha Pass",
-                "goToPartyButton": "Go To Party!",
-                "claimRewardsSoon": "You will be able to claim the $SAND rewards soon! In the meantime visit the Pass holders VIP Party!",
-                "wonSeason2Pass": "Congratulations! You won a Season 2 Alpha Pass!",
-                "notRaffleWinner": "Sorry, you were not one of the Raffle winners.",
-                "purchaseFromAnother": "You might be able to purchase one from another player",
-                "claimSandRewards": "Congratulations! You can now claim your $SAND rewards.",
-                "completeQuestsRewards": "Complete Quests to earn rewards.",
-                "completeQuestsTickets": "Complete Quests to get Raffle Tickets",
-                "claimSoon": "Claim your rewards soon",
-                "claimPass": "Claim your Alpha Pass now to visit the Pass holders VIP Party and to claim your $SAND rewards later on."
+                "subtitleSelectWinners": "我們會選出 5,000 名得主！敬請耐心等待抽獎結果",
+                "subtitleWaitToClaim": "等待領取獎勵",
+                "subtitleNoLongerEarn": "你無法再賺取抽獎券了。\\n即將開獎。祝好運！",
+                "getAlphaPassButton": "獲得 Alpha Pass",
+                "goToPartyButton": "前往派對！",
+                "claimRewardsSoon": "你即將可領取 $SAND 獎勵！同時也能造訪通行證持有者的 VIP 派對！",
+                "wonSeason2Pass": "恭喜！你贏得第 2 季的 Alpha Pass了！",
+                "notRaffleWinner": "抱歉，你沒有獲獎。",
+                "purchaseFromAnother": "你或許可以向其他玩家購買通行證",
+                "claimSandRewards": "恭喜！你現在可領取 $SAND 獎勵了。",
+                "completeQuestsRewards": "完成任務以獲得獎勵。",
+                "completeQuestsTickets": "完成任務以獲得抽獎券",
+                "claimSoon": "盡快領取你的獎勵",
+                "claimPass": "立即領取你的 Alpha 通行證並造訪通行證持有者的 VIP 派對，之後再領取你的 $SAND 獎勵。"
             }
         },
         "modalLottery": {
@@ -4484,7 +4484,7 @@
         "apy": "4 月",
         "weekly": "每週獎勵",
         "share": "份額",
-        "haveLand": "Get more LAND ?",
+        "haveLand": "獲得更多 LAND？",
         "extraInfo": "成為地主，即可享有獎勵加成",
         "buyLand": "購買 Land",
         "titleDeposits": "你的流動性存款",
@@ -4506,10 +4506,10 @@
         "tipOfDay": "新增流動性挖礦措施可以進一步培養深度流動性，為那些希望合法交易並使用 SAND 的使用者提供強大的交易場所。",
         "greeting": "你好",
         "wallet": "我的錢包",
-        "title": "The Sandbox Staking",
+        "title": "The Sandbox質押",
         "noResult": "找不到結果",
         "tooltipText": {
-            "tvl": "Total Value Locked (TVL) represents the total value of tokens locked within the staking program",
+            "tvl": "總鎖倉量 (TVL) 代表質押計劃中已鎖定的代幣總價值。",
             "apy": "年收益率",
             "share": "你在此池的份額！",
             "earn": "你在此池的收益！",
@@ -4518,16 +4518,16 @@
             "landOwner": "地主",
             "landQty": "#LAND",
             "landMultiplier": "加成",
-            "token-title": "Token",
-            "token": "The token required to stake. When two tokens are indicated, it refers to their LP pair.",
-            "tvl-title": "Total Value Locked",
-            "apr-title": "Annual Percentage Rate",
-            "apr": "Represents the rewards rate for a whole year, applied to your staked funds.",
-            "weekly-title": "Weekly Reward",
-            "weekly": "Rewards are replenished each week. This represents the amount distributed over a single week.",
-            "earnings-title": "Earnings",
-            "earnings": "Your claimable accumulated earnings.",
-            "landMultiplierNotActive": "LAND multiplier is not available yet on Polygon network"
+            "token-title": "代幣",
+            "token": "質押所需的代幣。若指定兩種代幣，即表示是這兩種代幣的 LP 組合。",
+            "tvl-title": "總鎖倉量 (TVL)",
+            "apr-title": "年利率",
+            "apr": "代表套用於你已質押資金的全年獎勵率。",
+            "weekly-title": "每週獎勵",
+            "weekly": "每週都會補充獎勵。此值代表過去一週所發行的數量。",
+            "earnings-title": "收益",
+            "earnings": "你可領取的累計收益。",
+            "landMultiplierNotActive": "Polygon 網路上還無法使用 LAND 加成"
         },
         "modalWithdraw": {
             "withdraw": "你的提領",
@@ -4542,7 +4542,7 @@
             "stake": "質押",
             "more": "如何獲得流動性？",
             "amount": "數量",
-            "inactive": "Inactive"
+            "inactive": "未啟用"
         },
         "transaction": {
             "contract": "合約",
@@ -4554,15 +4554,15 @@
         },
         "transactionHistory": {
             "title": "交易紀錄",
-            "noTransactions": "There are no new transactions to show in the last few days",
-            "oldTransactions": "View old transactions"
+            "noTransactions": "過去幾天沒有新的可顯示交易",
+            "oldTransactions": "查看過往交易"
         },
         "walletTab": {
             "mainnetL1Title": "Ethereum Network L1",
             "testnetL1Title": "Testnet Network L1",
             "eth": "ETH",
             "poly": "Polygon",
-            "msand": "百萬 SAND",
+            "msand": "mSAND",
             "sand-poly": "百萬 SAND：Polygon",
             "sand-poly-text": "全新的去中心化金融功能即將在 Polygon 上推出。準備好質押 SAND，贏得更多獎勵！",
             "sand": "SAND",
@@ -4607,45 +4607,45 @@
         "claimTitle": "領取",
         "depositTitle": "存款",
         "historyTitle": "交易紀錄",
-        "pool": "Token",
+        "pool": "代幣",
         "myPools": "我的池",
         "totalRewards": "獎勵總計",
         "landMultiplierHeader": "LAND 加成",
         "sidebar": {
-            "action-desc-deposit": "Deposit LP tokens to earn more SAND",
-            "footer-text-deposit": "This transaction will deposit the selected amount of LP tokens and increase your total deposit.",
-            "footer-text-claim": "This transaction will claim all earnings and credit them to your wallet.",
-            "footer-text-withdraw": "This transaction will withdraw the selected LP amount from your total deposit.",
-            "onEtherscan": "View on Etherscan",
-            "onPolyscan": "View on Polygonscan",
-            "pairAnalytics": "Pair analytics",
-            "gasless": "",
-            "free": "",
-            "noTxsLeft": "",
-            "txsLeft": "",
+            "action-desc-deposit": "存入 LP 代幣，賺取更多 SAND",
+            "footer-text-deposit": "此筆交易將存入所選的 LP 代幣數量，增加你的總存款。",
+            "footer-text-claim": "此筆交易將領取所有收益，並存入你的錢包。",
+            "footer-text-withdraw": "此筆交易將從你的總存款中提領所選 LP 數量，也會領取所有可用收益，為你省下部分礦工費。",
+            "onEtherscan": "在 Etherscan 上查看",
+            "onPolyscan": "在 Polygonscan 上查看",
+            "pairAnalytics": "組合分析",
+            "gasless": "Gasless",
+            "free": "Free",
+            "noTxsLeft": "No transactions left",
+            "txsLeft": "transactions left",
             "payGasWith": "Pay gas with:",
             "estimatedGas": "Estimated gas cost",
             "polygonNetwork": "Polygon",
             "ethereumNetwork": "Ethereum",
-            "action-desc-deposit-single": "to earn more SAND",
-            "footer-text-deposit-single": "This transaction will deposit the selected amount of mSAND and increase your total deposit.",
+            "action-desc-deposit-single": "以賺取更多 SAND",
+            "footer-text-deposit-single": "此筆交易將存入所選的 mSAND 數量，增加你的總存款。",
             "footer-text-claim-single": "This transaction will claim current mSAND rewards to your wallet.",
             "footer-text-exit": "This transaction will withdraw the selected LP amount from your total deposit. It will also claim any available earnings to save you some gas fee.",
-            "footer-text-withdraw-single": "This transaction will withdraw your mSAND from your total deposit.",
+            "footer-text-withdraw-single": "此筆交易將從你的總存款中提領 mSAND，也會領取所有可用收益，為你省下部分礦工費。",
             "footer-text-withdraw-exit": "This transaction will withdraw your mSAND from your total deposit. It will also claim any available earnings to save you some gas fee.",
-            "addMsand": "Get mSAND",
-            "howtoMsand": "Get more mSAND"
+            "addMsand": "獲得 mSAND",
+            "howtoMsand": "獲得更多 mSAND"
         },
-        "allowanceError": "Your allowance is still less than the amount you want to stake",
-        "sub-title": "Earn SAND by staking on Ethereum and Polygon networks",
-        "haveLandText": "Each LAND counts, the more you have, the higher the multiplier!",
-        "landOwnerRewards": "Earn additional rewards for each LAND in your wallet",
-        "needToBridge": "Do you need SAND on Polygon?",
+        "allowanceError": "你的可用數量仍低於你想質押的數量",
+        "sub-title": "透過質押在 Ethereum 和 Polygon 網路上賺取 SAND",
+        "haveLandText": "每塊 LAND 都很重要，擁有得越多，加成就越多！",
+        "landOwnerRewards": "為你錢包中的每塊 LAND 賺取額外獎勵",
+        "needToBridge": "你要在 Polygon 網路使用 SAND 嗎？",
         "uniswap": "Uniswap",
-        "quickswap": "Quickswap",
-        "periodEndedOn": "Rewards ended on:",
+        "quickswap": "QuickSwap ",
+        "periodEndedOn": "獎勵結束時間：",
         "tvlResumed": "TVL",
-        "search-placeholder": "Search",
+        "search-placeholder": "搜尋",
         "land-entitling": {
             "unique": "Unique",
             "proprietor": "Proprietor",
@@ -4654,36 +4654,36 @@
             "mogul": "Mogul"
         },
         "guide-links": {
-            "how-to": "How to stake",
+            "how-to": "如何質押",
             "learn-more": "Learn more about staking",
-            "support": "Get support"
+            "support": "聯繫客服"
         },
         "dropdownFilter": {
-            "name": "Name",
-            "highTvl": "Highest TVL",
-            "lowTvl": "Lowest TVL",
+            "name": "名稱",
+            "highTvl": "最高 TVL",
+            "lowTvl": "最低 TVL",
             "highAPR": "Highest APR",
             "lowAPR": "Lowest APR",
-            "highShare": "Highest Share",
-            "lowShare": "Lowest Share",
-            "highEarn": "Highest Earnings",
-            "lowEarn": "Lowest Earnings"
+            "highShare": "最高份額",
+            "lowShare": "最低份額",
+            "highEarn": "最高收益",
+            "lowEarn": "最低收益"
         },
         "exitTitle": "提領和領取",
         "singleToken": {
-            "network": "Polygon mainnet",
-            "gasWarning": "Remember to keep some SAND for gas fee or switch to MATIC in your chain settings",
+            "network": "Polygon 主網路",
+            "gasWarning": "記得保留一些 SAND 支付礦工費，或是到鏈設定改用 MATIC",
             "communityBooster": {
-                "title": "Season 2",
-                "subtitle": "Community Staking Score",
-                "text": "Stake $SAND to increase the total prize pool. You will also get extra Raffle Tickets for staking.",
+                "title": "第 2 季",
+                "subtitle": "社群加速器獎勵",
+                "text": "質押 $SAND 增加總獎金池金額。質押後也能獲得額外抽獎券。",
                 "titlePolygon": "Now can stake SAND",
                 "subtitlePolygon": "and enjoy the benefits of staking.",
                 "earnMorePolygon": "Earn more ",
                 "textPolygon": "Stay tuned for more announcements",
-                "stakePhrase01": "You can now enjoy the benefits of staking with ",
-                "stakePhrase02": " and ",
-                "stakePhrase03": " only.",
+                "stakePhrase01": "你現在可以享受 SAND",
+                "stakePhrase02": "單幣質押",
+                "stakePhrase03": "的好處了。",
                 "rewardBooster": {
                     "title": "Reward Booster",
                     "text": "and increse the total prize pool.",
@@ -4748,11 +4748,11 @@
                 "button1": "取得你的 LAND",
                 "title3": "以嶄新方式探索和發掘",
                 "subtitle2": "Snoop Dogg 的世界。 ",
-                "subtitle3": "取得你的 LAND",
+                "subtitle3": "獲得你的 LAND",
                 "subtitle4": "",
                 "subtitle5": "成為狗狗教父",
-                "paragraph2": "在 Snoop 的豪宅旁與新朋舊友一同聚會！",
-                "paragraph3": "你將有機會成為 Snoop Dogg，這都要多虧能在《The Sandbox》元宇宙使用自訂體素虛擬化身！",
+                "paragraph2": "獲得你的 LAND，參加The Sandbox12 月的 LAND 銷售活動",
+                "paragraph3": "只要持有任何 Snoop 通行證，系統就會將你自動加進 2022 年初 Snoop Dogg 虛擬化身收藏發行的許可名單中。你將化身為狗狗教父，漫步元宇宙！",
                 "linkAbout": "探索《The Sandbox》"
             },
             "hookedup": {
@@ -4823,137 +4823,137 @@
                 }
             },
             "getYourSnoopPassEarly": {
-                "title1": "Get your Snoopverse",
-                "title2": "Early access Pass",
-                "bold": "The Snoopverse Early Access ",
-                "descriptionRegular1": "pass gives you access to the Snoop Dogg Metaverse Experiences in The Sandbox before anyone else. Become a part of the development, give your feedback, enter Snoop’s world!",
-                "button": "Get your early Pass"
+                "title1": "獲得你的 SnoopVerse",
+                "title2": "早鳥通行證",
+                "bold": "SnoopVerse 早鳥通行權",
+                "descriptionRegular1": "通行證可以讓你早他人一步搶先體驗 Snoop Dogg 元宇宙。參與開發、提供你的意見回饋，進入 Snoop 的世界！",
+                "button": "獲得你的早鳥通行證"
             },
-            "videoContainer": "DISCOVER THE SNOOPVERSE",
+            "videoContainer": "探索 SNOOPVERSE",
             "comparisonPass": {
                 "left": {
-                    "title1": "Snoopverse early",
-                    "title2": "access Pass",
-                    "description": "The Snoopverse Early Access pass gives you access to the Snoop Dogg Metaverse Experiences in The Sandbox before anyone else. Become a part of the development, give your feedback, enter Snoop's world!",
+                    "title1": "SnoopVerse 早鳥",
+                    "title2": "通行證",
+                    "description": "SnoopVerse 早鳥通行證可以讓你早他人一步搶先進入《The Sandbox》中的 Snoop Dogg 元宇宙體驗。參與開發、提供你的意見回饋，進入 Snoop 的世界！",
                     "list": {
-                        "1": "Early access to",
-                        "1link": "Snoopverse",
-                        "2": "Get involved in the development process of Snoopverse",
-                        "2link": "Exclusive NFT",
-                        "3": "drops",
-                        "4": "Whitelist access to",
-                        "3link": "Snoop Avatar",
-                        "5": "drop",
-                        "6": "Invitation to the",
-                        "4link": "Cozomo Art gallery opening",
-                        "7": "Future multiplier on",
-                        "5link": "staking",
-                        "8": "SAND Rewards in",
-                        "6link": "Snoopverse play-to-earn"
+                        "1": "搶先體驗",
+                        "1link": "SnoopVerse",
+                        "2": "參與 SnoopVerse 的開發過程",
+                        "2link": "獨家非同質化代幣",
+                        "3": "發行",
+                        "4": "許可名單：",
+                        "3link": "Doggies",
+                        "5": "發行",
+                        "6": "邀請函：",
+                        "4link": "Cozomo 美術館開幕",
+                        "7": "未來加成：",
+                        "5link": "質押",
+                        "8": "SAND 獎勵：",
+                        "6link": "SnoopVerse 邊玩邊賺"
                     },
-                    "button": "Go to Marketplace"
+                    "button": "前往「市場」"
                 },
                 "right": {
-                    "title1": "Snoop private",
-                    "title2": "party Pass",
-                    "description": "The Snoop Private Party Pass token gives you access to step into Snoop Dogg's lifestyle.",
+                    "title1": "Snoop 私人",
+                    "title2": "派對通行證",
+                    "description": "Snoop 私人派對通行證代幣可讓你一窺 Snoop Dogg 的生活風格。",
                     "list": {
-                        "1": "Invitation to ",
-                        "1link": "Snoop's Private Party",
-                        "2": "Access to Snoop's first",
-                        "2link": "Metaverse concert",
-                        "3": "Invitation to",
-                        "3link": "Cozomo Art gallery opening",
-                        "4": "Whitelist access to ",
-                        "4link": "Snoop Avatar drop",
-                        "5": "Future multiplier on",
-                        "5link": "staking "
+                        "1": "邀請函：",
+                        "1link": "Snoop 的私人派對",
+                        "2": "參加 Snoop 首個",
+                        "2link": "元宇宙音樂會",
+                        "3": "邀請函：",
+                        "3link": "Cozomo 美術館開幕",
+                        "4": "許可名單：",
+                        "4link": "Doggies 發行",
+                        "5": "未來加成：",
+                        "5link": "質押"
                     },
-                    "button": "Go to Opensea"
+                    "button": "前往 OpenSea"
                 }
             },
             "mintYourSnoopAvatar": {
-                "title1": "Mint your",
+                "title1": "鑄造你的",
                 "title2": "Doggy",
                 "description": "Be among the first ones to mint your own Snoop avatars. Up to 10 avatars available for pass holders.",
-                "button": "Mint now",
-                "prelaunch": "Coming straight to tha metaverse. 10K unique Doggies dropping February 2022. Join the Discord to stay informed!",
-                "joinDiscord": "JOIN DISCORD",
-                "postlaunch": "The Doggies are SOLD OUT! Head over to OpenSea and explore all available avatars for sale.",
-                "joinOpensea": "GO TO OPENSEA",
-                "comingSoon": "Coming soon",
-                "coming": "Coming",
-                "soon": "Soon",
-                "getYour": "Get your",
+                "button": "立即鑄造",
+                "prelaunch": "直達元宇宙。1 萬個獨一無二的 Doggies 將於 2022 年 2 月發行。加入 Discord，隨時掌握最新資訊！",
+                "joinDiscord": "加入 DISCORD",
+                "postlaunch": "Doggies 已售罄！前往 OpenSea 探索所有出售中的虛擬化身。",
+                "joinOpensea": "前往 OpenSea",
+                "comingSoon": "即將推出",
+                "coming": "即將",
+                "soon": "推出",
+                "getYour": "獲得你的",
                 "snoopAvatar": "Doggies",
                 "description1": "Be among the first ones to mint your own Doggy. Up to",
                 "description2": "avatars available for pass holders."
             },
             "meta": {
-                "title": "The Sandbox Game - Snoop Dogg avatars are coming to The Sandbox",
-                "description": "Snoop Dogg brings a truly new in-game experience inside The Sandbox. Have fun with the Game Maker toolkit and bring this world to life in your own way or enjoy the experience in other players' LANDs",
-                "keywords": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token, snoop dogg, raffle",
+                "title": "《The Sandbox》遊戲 - Snoop Dogg 虛擬化身即將加入《The Sandbox》",
+                "description": "Snoop Dogg 虛擬化身即將加入The Sandbox。快來開心探索元宇宙，和好友一起讓這個世界精彩起來。立即獲得你的虛擬化身並進入The Sandbox。",
+                "keywords": "sandbox, 體素藝術, 3D 體素遊戲, 體素藝術家, 3D 線上電腦遊戲, 社群, 區塊鏈 dapp, 電腦體素遊戲, 電腦體素藝術, 去中心化遊戲, SAND, 代幣, snoop dogg, 抽獎",
                 "og": {
-                    "title": "The Sandbox Game - Snoop Dogg avatars are coming to The Sandbox",
-                    "description": "Snoop Dogg brings a truly new in-game experience inside The Sandbox. Have fun with the Game Maker toolkit and bring this world to life in your own way or enjoy the experience in other players' LANDs",
+                    "title": "《The Sandbox》遊戲 - The Doggies 即將加入《The Sandbox》",
+                    "description": "The Doggies 即將加入《The Sandbox》。快來開心探索元宇宙，和好友一起讓這個世界充滿朝氣。立即獲得你的虛擬化身並進入《The Sandbox》。",
                     "url": "https://www.sandbox.game/en/snoopdogg/",
-                    "site_name": "Snoop Dogg avatars are coming to The Sandbox",
+                    "site_name": "《The Sandbox》遊戲 - The Doggies 即將加入《The Sandbox》",
                     "image": "/img/30_Landing/snoopdogg/metadata-image.jpg"
                 },
                 "twitter": {
-                    "title": "The Sandbox Game - Snoop Dogg avatars are coming to The Sandbox",
-                    "description": "Snoop Dogg brings a truly new in-game experience inside The Sandbox. Have fun with the Game Maker toolkit and bring this world to life in your own way or enjoy the experience in other players' LANDs",
-                    "card": "The Sandbox Game - Snoop Dogg avatars are coming to The Sandbox",
+                    "title": "《The Sandbox》遊戲 - The Doggies 即將加入《The Sandbox》",
+                    "description": "The Doggies 即將加入《The Sandbox》。快來開心探索元宇宙，和好友一起讓這個世界充滿朝氣。立即獲得你的虛擬化身並進入《The Sandbox》。",
+                    "card": "The Doggies 即將加入《The Sandbox》",
                     "site": "@thesandboxgame",
                     "creator": "@thesandboxgame",
                     "image": "/img/30_Landing/snoopdogg/metadata-image.jpg"
                 }
             },
             "menu": {
-                "home": "Home",
-                "unique": "Unique Avatars",
-                "snoopverse": "Snoopverse",
+                "home": "首頁",
+                "unique": "獨特虛擬化身",
+                "snoopverse": "SnoopVerse",
                 "roadmap": "Roadmap",
-                "mint": "Mint your avatar",
-                "mintSoon": "Minting soon"
+                "mint": "鑄造你的虛擬化身",
+                "mintSoon": "即將鑄造"
             },
             "mintYoursNow": {
-                "title1": "10K NEXT-GENERATION,",
-                "title2": "METAVERSE AVATARS",
-                "description1": "Unique, hand-crafted, and playable Snoop Dogg Avatars coming The Sandbox.",
-                "description2": "Designed and crafted with tha Doggfather himself.",
-                "button": "MINT YOURS NOW!",
+                "title1": "1 萬個次世代",
+                "title2": "元宇宙虛擬化身",
+                "description1": "獨一無二、手繪設計、可在遊戲中使用的 Doggies 即將加入《The Sandbox》。",
+                "description2": "由狗狗教父親自設計打造。",
+                "button": "立即鑄造你的虛擬化身！",
                 "definitions": {
-                    "title1": "WHAT ARE",
-                    "title2": "SNOOP DOGG",
-                    "title3": "AVATARS?",
-                    "description": "The Snoop Dogg avatars are an NFT collection comprised of 10,000 programmatically generated Snoop Doggs, playable in The Sandbox. Each Snoop is completely unique, hand-crafted from over 150 traits by The Sandbox’s skilled voxel-artists."
+                    "title1": "什麼是",
+                    "title2": "Doggies？",
+                    "title3": "虛擬化身？",
+                    "description": "Doggies 是一種非同質化代幣收藏，共有 10,000 個以程式設計方式產生的 Snoop Dogg，並可在《The Sandbox》遊戲中使用。每個 Snoop 都是獨一無二，由《The Sandbox》才華洋溢的體素藝術家以超過 150 個特性手繪設計。"
                 }
             },
             "metaverseReady": {
-                "title1": "Play it in Alpha",
-                "title2": "Season 2",
-                "description": "Each Doggy will be playable inside The Sandbox, starting with the upcoming Alpha Season 2. Get your Avatar, jump into the game and share your avatar with the world!"
+                "title1": "在 Alpha 中開始遊戲",
+                "title2": "第 2 季",
+                "description": "從即將開放的 Alpha 第 2 季起，每個虛擬化身都能在《The Sandbox》遊戲中使用。取得你的虛擬化身，躍入遊戲世界，和全世界分享你的虛擬化身！"
             },
             "chanceUniqueAvatars": {
-                "title1": "A CHANCE TO GET",
-                "title2": "UNIQUE AVATARS",
-                "description": "First-ever avatar to be part of a metaverse music video. Unique, hand-crafted, and playable Doggies coming to The Sandbox. Designed and crafted with tha Doggfather himself.",
-                "unique": "Unique",
-                "avatars": "Avatars",
-                "classic": "Classic",
-                "signature": "Signature",
-                "edition": "Edition",
-                "descriptionUnique1": "A set of unique 1/1 avatars which have been custom designed by the teams at The Sandbox and Snoop Dogg himself. Only one exists of each, who will be the lucky one?",
-                "descriptionUnique2": "Take a stroll down the history of Snoop Dogg and discover a number of unique avatars that are directly linked to some of Snoop’s greatest tracks throughout the years.",
-                "descriptionUnique3": "We’ve teamed up with some of the greatest collections in the space to bring some unique 1/1 Snoop Dogg avatars to the metaverse, making them playable in The Sandbox."
+                "title1": "有機會獲取",
+                "title2": "獨特的虛擬化身",
+                "description": "史上第一個現身於元宇宙音樂錄影帶中的虛擬化身。獨一無二、手繪設計、可在遊戲中使用的 Doggies 虛擬化身即將加入《The Sandbox》。由狗狗教父親自設計打造。",
+                "unique": "酷炫",
+                "avatars": "虛擬化身",
+                "classic": "經典",
+                "signature": "標誌",
+                "edition": "版",
+                "descriptionUnique1": "一組酷炫又新鮮有趣的虛擬化身，由《The Sandbox》團隊及 Snoop Dogg 本人特別設計。每款僅有一個，誰才是那位幸運兒呢？",
+                "descriptionUnique2": "漫步參觀 Snoop Dogg 的生涯，並探索一系列獨特的虛擬化身，這些虛擬化身與 Snoop 歷年來的最佳單曲有著直接關聯。",
+                "descriptionUnique3": "我們和全宇宙最棒的收藏合作，在元宇宙中加入多個獨特 1 比 1 Doggies 虛擬化身，還能讓你在《The Sandbox》遊戲中使用。"
             },
             "date": {
                 "starton": "Launching",
                 "startdate": "FEB 22 2022"
             },
             "miindedstudio": {
-                "title": "In participation with"
+                "title": "參與"
             }
         },
         "alpha": {
@@ -5003,7 +5003,7 @@
                             "subtitle2": "只會創造並向社群提供 5,000 張 Alpha 通行證。",
                             "4": "地主能夠註冊抽獎活動，獲得贏得 Alpha 通行證的機會。",
                             "5": "每日競賽：",
-                            "6": "只要參與 Alpha 中心 (Alpha Hub) 中的每日競賽，所有人都有機會贏得 Alpha 通行證。持續關注",
+                            "6": "快來參加在我們在社群媒體、推特、Twitch 和 YouTube 上舉辦的每日社交媒體比賽。人人都有機會贏得 Alpha Pass！",
                             "7": "《The Sandbox》最新消息",
                             "8": "和供大家參與的社群媒體。",
                             "9": "OpenSea：",
@@ -5100,7 +5100,7 @@
             },
             "notSupported": {
                 "alpha": "Alpha",
-                "deviceNotSupported": "Your device isn't currently supported. To play please use a Mac or Windows PC.",
+                "deviceNotSupported": "目前不支援你的裝置。若要開始遊戲，請使用 Mac 或 Windows PC。",
                 "backToHome": "返回首頁"
             },
             "onboarding": {
@@ -5124,12 +5124,12 @@
                 "subtitle3.3": "在你的體驗中放置非同質化代幣，讓其脫穎而出，或是販售給其他玩家！所有獎勵都能在 Alpha 結束後領取"
             },
             "alphaClosed": {
-                "title": "Alpha Season 1 is now closed",
-                "description": "Thank you for participating",
-                "feedback": "YOUR FEEDBACK MATTERS",
-                "feedbackDescription": "Send us your feedback and get one ticket for Alpha Season 2 Raffle",
-                "buttonText": "Send feedback",
-                "buttonDescription": "You will get your raffle ticket when Alpha Season 2 starts"
+                "title": "Alpha 第 1 季目前已結束",
+                "description": "感謝你的參與",
+                "feedback": "我們很重視你的意見回饋",
+                "feedbackDescription": "傳送你的意見回饋即可獲得票券，獲得在 Alpha 第 2 季大發利市的機會",
+                "buttonText": "傳送意見回饋",
+                "buttonDescription": "Alpha 第 2 季開始時即可獲得你的抽獎券"
             },
             "alpha2Coming": {
                 "title": "ALPHA SEASON 2 COMING SOON",
@@ -5144,47 +5144,47 @@
                 "endText": "and much more based on your feedback! We are listening to you."
             },
             "lookBack": {
-                "title": "A LOOK BACK AT ALPHA SEASON 1",
+                "title": "ALPHA 第 1 季回顧",
                 "metrics": {
-                    "0": "SAND DISTRIBUTED",
-                    "1": "ALPHA PASS DISTRIBUTED",
-                    "2": "NFTs DISTRIBUTED",
-                    "3": "POSITIVE FEEDBACK",
-                    "4": "ALPHA HUB VISITORS",
-                    "5": "HOURS PLAYED CUMULATIVELY",
-                    "6": "TWITTER CONTEST PARTICIPANTS",
-                    "7": "FEEDBACK MESSAGES SENT"
+                    "0": "已發行的 SAND",
+                    "1": "已發行的 Alpha Pass",
+                    "2": "已發行的NFT",
+                    "3": "正面意見回饋",
+                    "4": "ALPHA 中心訪客",
+                    "5": "累計遊戲時數",
+                    "6": "推特競賽參賽者",
+                    "7": "已傳送的意見回饋訊息"
                 }
             },
             "alphaNumbers": {
-                "title": "The Alpha in numbers",
+                "title": "Alpha 數量",
                 "sections": {
                     "0": {
-                        "number": "+200K",
-                        "description": "ALPHA HUB VISITOR"
+                        "number": "20 萬",
+                        "description": "ALPHA 中心訪客"
                     },
                     "1": {
-                        "number": "+150K",
-                        "description": "HOURS PLAYED COMULATIVELY"
+                        "number": "15 萬",
+                        "description": "累計遊戲時數"
                     },
                     "2": {
-                        "number": "+100K",
-                        "description": "TWITTER CONTEST PARTICIPANTS"
+                        "number": "10 萬",
+                        "description": "推特競賽參賽者"
                     },
                     "3": {
                         "number": "400",
-                        "description": "FEEDBACKS SENT"
+                        "description": "已傳送的意見回饋訊息"
                     }
                 }
             },
             "bestMoments": {
-                "title": "ALPHA SEASON 1 BEST MOMENTS"
+                "title": "ALPHA 第 1 季精彩時刻"
             },
             "alphaComing": {
-                "title": "ALPHA SEASON 2 COMING SOON",
+                "title": "ALPHA 第 2 季即將到來",
                 "bulletPoints": {
-                    "1": "All content will be open to everyone!",
-                    "2": "Anyone may win a Season 2 Alpha Pass just by playing the game.",
+                    "1": "內容將會全面開放給所有人！",
+                    "2": "只要玩遊戲，人人都有機會贏得第 2 季 Alpha 通行證。",
                     "3": {
                         "1": "Complete as many",
                         "2": "Quests",
@@ -5195,12 +5195,12 @@
                 }
             },
             "modal": {
-                "title": "The Alpha Season 2 will start soon.",
+                "title": "Alpha 第 2 季即將開始。",
                 "description": {
-                    "1": "You will receive more information and details about Alpha Season 2 by email soon.",
-                    "2": "You will be among the first to know, stay tuned!"
+                    "1": "你很快就能透過電子郵件收到更多 Alpha 第 2 季相關資訊與詳情。",
+                    "2": "你將能搶先掌握最新消息！"
                 },
-                "button": "Gotcha"
+                "button": "瞭解"
             },
             "season2": {
                 "title": {
@@ -5210,11 +5210,11 @@
                 "dates": {
                     "1": {
                         "title": "ALPHA SEASON 2 STARTS",
-                        "date": "MARCH 03"
+                        "date": "3 月 3 日"
                     },
                     "2": {
                         "title": "RUFFLE DAY / SEASON END",
-                        "date": "MARCH 31"
+                        "date": "3 月 31 日"
                     }
                 },
                 "sections": {
@@ -5223,7 +5223,7 @@
                         "body": {
                             "1": "Season 2 Alpha Pass Reward up to",
                             "2": "1,000 $SAND.",
-                            "3": "Boost rewards by staking",
+                            "3": "透過質押加碼獎勵",
                             "4": "SAND."
                         }
                     },
@@ -5232,8 +5232,8 @@
                         "body": {
                             "1": "Everyone can play",
                             "2": "all Season 2 content and get a chance to",
-                            "3": "win one of the",
-                            "4": "10,000 Season 2 Alpha Passes."
+                            "3": "10,000 張",
+                            "4": "第 2 季 Alpha 通行證大放送，敬請把握萬分之一的機會贏得你的通行證。"
                         }
                     },
                     "3": {
@@ -5242,11 +5242,11 @@
                             "1": "Increase your chances to win a Season 2 Alpha Pass by",
                             "2": "completing Quests",
                             "3": "to earn Raffle Tickets.",
-                            "4": "Raffle Tickets are not NFTs"
+                            "4": "「抽獎券不是非同質化代幣"
                         }
                     },
                     "4": {
-                        "title": "GET MORE CHANCES TO WIN",
+                        "title": "提高中獎機率",
                         "body": {
                             "1": "Owning a LAND and/or a Season 1 Alpha Pass",
                             "2": "greatly increases chances to win a Season 2 Alpha Pass."
@@ -5255,11 +5255,11 @@
                     "5": {
                         "title": "STAKING REWARDS",
                         "body": {
-                            "1": "Stake",
-                            "2": "mSAND",
-                            "3": "to double",
-                            "4": "the amount of rewards",
-                            "5": "FOR EVERYONE!",
+                            "1": "質押",
+                            "2": "SAND 即可",
+                            "3": "加碼全體玩家的",
+                            "4": "獎勵數量！",
+                            "5": "並為自己贏得額外抽獎券。",
                             "6": "You will also get up to 200 extra Raffle Tickets",
                             "7": "for staking"
                         },
@@ -5268,15 +5268,15 @@
                 }
             },
             "game": {
-                "future": "Alpha Season 2 will be available for",
+                "future": "Alpha 第 2 季將推出以下版本：",
                 "systems": {
                     "pc": "PC",
-                    "mac": "macOS"
+                    "mac": "MacOS"
                 },
-                "download": "Download Alpha",
+                "download": "下載 Alpha",
                 "nowAvailable": {
-                    "1": "Now is available for PC and",
-                    "2": "macOS"
+                    "1": "現已推出 PC 和",
+                    "2": "MacOS 版本"
                 }
             }
         },
@@ -5469,219 +5469,219 @@
             "placeBid": "競標",
             "cancel": "取消"
         },
-        "goingOutOfSite": "You are about to leave the website of sandbox.game and view the content of an external website. The Sandbox cannot be held responsible for the content of external websites.",
+        "goingOutOfSite": "你即將離開The Sandbox遊戲網站並查看外部網站內容。The Sandbox概不負責外部網站內容。",
         "raffleInProgress": {
-            "raffleDraw": "RAFFLE DRAW",
-            "inProgress": "IN PROGRESS",
-            "raffleDescription": "At the end of the Raffle, you will find out if you win a Season 2 Alpha Pass. Good luck!",
-            "raffleTickets": "You are participating in the Raffle with",
-            "season": "SEASON",
-            "staking": "STAKING",
-            "lands": "LANDS",
-            "alphaPass": "ALPHA PASS",
-            "feedback": "FEEDBACK",
-            "crossFingers": "Cross your fingers!"
+            "raffleDraw": "抽獎",
+            "inProgress": "進行中",
+            "raffleDescription": "抽獎結束即可得知你是否贏得第 2 季 Alpha 通行證。祝你好運！",
+            "raffleTickets": "你參加抽獎使用的是",
+            "season": "活動季",
+            "staking": "質押",
+            "lands": "LAND",
+            "alphaPass": "ALPHA 通行證",
+            "feedback": "意見回饋",
+            "crossFingers": "祈求好運降臨吧！"
         }
     },
     "raffle": {
         "meta": {
-            "title": "The Sandbox Game - Raffle Page",
-            "description": "Come and participate in the raffle! Anyone can win, all you have to do is try your luck!",
-            "keywords": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token, raffle",
+            "title": "The Sandbox- 抽獎活動頁面",
+            "description": "快來參加本次抽獎活動！人人都可參加，無須任何條件，只需來試試你的手氣！",
+            "keywords": "sandbox, 體素藝術, 3D體素遊戲, 體素藝術家, 3D 線上電腦遊戲, 社群, 區塊鏈 dapp, 電腦體素遊戲, 電腦體素藝術, 去中心化遊戲, SAND, 代幣, 抽獎活動",
             "og": {
-                "title": "The Sandbox Game - Raffle Page",
-                "description": "Come and participate in the raffle! Anyone can win, all you have to do is try your luck!",
+                "title": "The Sandbox- 抽獎活動頁面",
+                "description": "快來參加本次抽獎活動！人人都可參加，無須任何條件，只需來試試你的手氣！",
                 "url": "https://www.sandbox.game/en/raffle/",
-                "site_name": "The Sandbox Game - Raffle Page",
+                "site_name": "The Sandbox- 抽獎活動頁面",
                 "image": "/img/30_Landing/snoopdogg/metadata-image.jpg"
             },
             "twitter": {
-                "title": "The Sandbox Game - Raffle Page",
-                "description": "Come and participate in the raffle! Anyone can win, all you have to do is try your luck!",
-                "card": "The Sandbox Game - Raffle Page",
+                "title": "The Sandbox- 抽獎活動頁面",
+                "description": "快來參加本次抽獎活動！人人都可參加，無須任何條件，只需來試試你的手氣！",
+                "card": "The Sandbox- 抽獎活動頁面",
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame",
                 "image": "/img/30_Landing/snoopdogg/metadata-image.jpg"
             }
         },
-        "title": "Mint your own Snoop Dogg Avatar!",
+        "title": "鑄造你專屬的 Snoop Dogg 虛擬化身！",
         "connectWallet": {
-            "title": "Connect Wallet",
-            "title2": "Your wallet is connected!",
-            "howMany": "How many avatars do you want?",
-            "button": "Mint now",
-            "process": "Your transaction is being processed.",
-            "finish": "Your transaction was successful! Head over to OpenSea to see your avatar or mint more.",
-            "refresh": "Mint again!",
-            "errorButton": "Try again!",
-            "error": "Something went wrong!",
-            "wrongWallet": "Sorry! You are connected with the wrong wallet! Please log in again with Metamask.",
-            "raffleEndTitle": "Sale is now closed.",
-            "raffleEnd": "Thank you for you participating.",
-            "sandWarning": "You need to have some SAND in your wallet to continue.",
-            "etherWarning": "You need to have some ETH in your wallet to continue.",
-            "etherAndSandWarning": "You need to have some ETH and SAND in your wallet to continue.",
-            "refreshButton": "Refresh",
-            "popUpError": "Something went wrong. Make sure you allow sandbox pop-up to open in your browser and then, refresh the page.",
-            "sorry": "Not whitelisted!",
-            "errorWhitelisted": "Your connected wallet is not on the whitelist. Make sure to be connected with the correct wallet.",
-            "reconnect": "Reconnect",
-            "insufficientFunds": "You don't have enough funds in your wallet.",
-            "contractsIssue": "Something went wrong. If you tried to change your wallet, please note: you have to sign the contract every time you change your wallet.",
-            "toManyAvatars1": "No more avatars can be minted at this time.",
-            "toManyAvatars2": "Head to OpenSea to buy more."
+            "title": "連結錢包",
+            "title2": "你的錢包已連結！",
+            "howMany": "你想要幾個虛擬化身？",
+            "button": "立即鑄造",
+            "process": "你的交易正在處理中。",
+            "finish": "你的交易已成功！前往 OpenSea 查看你的虛擬化身或鑄造更多。",
+            "refresh": "再次鑄造！",
+            "errorButton": "再試一次！",
+            "error": "發生問題了！",
+            "wrongWallet": "抱歉！你連結的錢包有誤！請再次登入 Metamask 或 WalletConnect。",
+            "raffleEndTitle": "銷售現已結束。",
+            "raffleEnd": "感謝你的參與。",
+            "sandWarning": "你的錢包要有一些 SAND 才能繼續。",
+            "etherWarning": "你的錢包要有一些 ETH 才能繼續。",
+            "etherAndSandWarning": "你的錢包要有一些 ETH 和 SAND 才能繼續。",
+            "refreshButton": "刷新",
+            "popUpError": "發生問題了。請確認你的瀏覽器允許開啟The Sandbox的彈出式視窗，然後刷新頁面。",
+            "sorry": "尚未加入許可名單！",
+            "errorWhitelisted": "你的已連結錢包不在許可名單上。請確認已連結正確的錢包。",
+            "reconnect": "再次連結",
+            "insufficientFunds": "你的錢包資金不足。",
+            "contractsIssue": "發生問題了。如果你嘗試更換錢包，請注意：每次更換錢包都必須簽署合約。",
+            "toManyAvatars1": "你已達虛擬化身鑄造數量",
+            "toManyAvatars2": "上限。前往 OpenSea 購買更多數量。"
         },
         "textFormMint": {
             "isPublic": "",
-            "ticketBased": "Presale for ticket holders is now live!"
+            "ticketBased": "票券持有者限定的預售活動現已上線！"
         },
         "price": {
-            "currentPrice": "Current price for each Avatar",
+            "currentPrice": "每個虛擬化身的時價",
             "buy": "Buy Sand",
             "notEnoughSand": "You don't have enough SAND to mint {amount} avatars"
         },
         "FAQ": {
-            "title": "F.A.Q.",
+            "title": "常見問答",
             "1": {
-                "title": "How many Doggies are there?",
+                "title": "一共有多少個 Doggies？",
                 "paragraph": "There are 10,000 unique Snoop Avatars, programmatically generated from over 150 hand-crafted traits.",
                 "paragraphs": {
-                    "1": "There are a total of 10,000 programmatically generated “Doggies” Avatars that will be minted."
+                    "1": "我們即將鑄造共 10,000 個以程式設計方式產生的「Doggies」虛擬化身。"
                 }
             },
             "2": {
-                "title": "What is their rarity/tier?",
+                "title": "這些虛擬化身的稀有性/層級為何？",
                 "paragraph": "Each avatar will unlock unique utility that goes beyond a simple NFT. They will be playable in The Sandbox, and can be used to unlock future mints, and features in the metaverse. In addition, they will be part of the first ever Snoop Dogg music video, happening in The Sandbox.",
                 "paragraphs": {
-                    "1": "Doggies are divided into a variety of rarity categories depending on traits. There are multiple Doggies, as well as 10+ hand-crafted 1/1 Doggies, including Dope, Classic, and Signature Doggies."
+                    "1": "根據不同特性，Doggies 分成各種稀有類別。Doggies 不只有一個，還有超過 10 個手繪設計的 1 比 1 Doggies，包括「酷炫」、「經典」和「標誌」系列的 Doggies。"
                 }
             },
             "3": {
-                "title": "Where do I have to go to claim the Avatars?",
+                "title": "我必須去哪裡領取虛擬化身？",
                 "paragraph": "Follow us on @TheSnoopAvatars on Twitter to find out how to get whitelisted and get your hands on an avatar before everyone else.",
                 "paragraphs": {
-                    "1": "There is only one place where you can mint the Avatars:",
+                    "1": "你只能在一個地方鑄造虛擬化身：",
                     "2": "https://sandbox.game/en/snoopdogg/raffle/mint/"
                 }
             },
             "4": {
-                "title": "At what time does the sale start?",
+                "title": "銷售何時開始？",
                 "paragraph": "Winners will be informed through our social channels and/or Discords. Keep an eye out for more info.",
                 "paragraphs": {
-                    "1": "The sale will start on February 23rd, 2022, 10pm UTC.",
-                    "2": "Whitelisted users will have access 24 hours before."
+                    "1": "銷售將於 2022 年 2 月 23 日 UTC 時間下午 10 點開始。",
+                    "2": "列入許可名單的使用者將能提早 24 小時購買。"
                 }
             },
             "5": {
-                "title": "How much should I expect to pay for one Doggy NFT?",
+                "title": "一個 Doggy 非同質化代幣預計要價多少？",
                 "paragraphs": {
-                    "1": "One Doggy NFT will cost 150 SAND."
+                    "1": "一個 Doggy 非同質化代幣要價 150 SAND。"
                 }
             },
             "6": {
-                "title": "How many Doggies can I mint per wallet address?",
+                "title": "一個錢包地址能鑄造幾個 Doggies？",
                 "paragraphs": {
-                    "1": "The Doggies will be released in two waves:",
-                    "2": "1) Whitelisted users will have a chance to mint one Doggy with a time limit of 24 hours, between February 22nd and February 23rd.",
-                    "3": "2) When the public release is live, users will have the chance to mint up to",
+                    "1": "Doggies 將分成兩波推出：",
+                    "2": "1) 列入許可名單的使用者將有機會在 2 月 22 日和 2 月 23 日的 24 小時之間限時鑄造一個 Doggy。",
+                    "3": "2) 公開銷售開始後，使用者將有機會於 2 月 23 日至 2 月 24 日之間鑄造最多 10 個 Doggies。",
                     "4": "Doggy from February 23rd to February 24th."
                 }
             },
             "7": {
-                "title": "When can I discover what Doggy I minted?",
+                "title": "我何時能查看自己鑄造的 Doggy？",
                 "paragraphs": {
-                    "1": "The Doggies will be revealed 48 hours after minting on OpenSea."
+                    "1": "Doggies 會在於 OpenSea 上鑄造後的 48 小時公開。"
                 }
             },
             "8": {
-                "title": "Can I mint using any wallet (Binance, Ledger...)?",
+                "title": "我可以使用任何錢包 (Binance、Ledger 等) 進行鑄造嗎？",
                 "paragraphs": {
-                    "1": "Yes, you can mint with whatever wallet you have."
+                    "1": "可以，你可以使用自己的任一個錢包進行鑄造。"
                 }
             },
             "9": {
-                "title": "What can I do with the Doggies?",
+                "title": "Doggies 能用來做什麼？",
                 "paragraphs": {
-                    "1": "Each Doggy Avatar will be playable inside The Sandbox in all the multiplayer experiences to come starting from the Sandbox Alpha Season 2."
+                    "1": "每個 Doggy 虛擬化身都能在《The Sandbox》遊戲即將於 Sandbox Alpha 第 2 季上線的所有多人體驗中使用。"
                 }
             },
             "10": {
-                "title": "How can I use my Doggy during the Alpha?",
+                "title": "我能在 Alpha 活動季期間使用我的 Doggy 嗎？",
                 "paragraphs": {
-                    "1": "You will be able to use it as an Avatar by simply selecting it in the Avatar Manager in The Sandbox dashboard."
+                    "1": "只要在《The Sandbox》主控板的「虛擬化身管理員」中選取你的 Doggy，就能作為虛擬化身使用。"
                 }
             },
             "11": {
-                "title": "Does owning the Doggy grant me other perks?",
+                "title": "擁有 Doggy 能享有其他福利嗎？",
                 "paragraphs": {
-                    "1": "A selected few Doggy owners will have the chance to have their avatar appear in an upcoming Snoop music video. This is a unique chance to dance your way into Snoop’s history."
+                    "1": "多個雀屏中選 Doggy 擁有者將有機會讓自己的虛擬化身在即將推出的 Snoop 音樂錄影帶中亮相。你將能透過這次的獨特機會參與 Snoop 歷史。"
                 }
             },
             "12": {
-                "title": "Where can I buy a Doggy after the initial sale is over?",
+                "title": "初次銷售結束後還能去哪裡買 Doggy？",
                 "paragraphs": {
-                    "1": "After the initial sale is over, you will be able to purchase a Doggy from users that are willing to sell theirs on the secondary marketplace",
-                    "2": "Opensea"
+                    "1": "初次銷售結束後，你能在次級市場中向願意割愛的使用者購買 Doggy",
+                    "2": "OpenSea"
                 }
             },
             "13": {
-                "title": "How do I get whitelisted?",
+                "title": "要如何加入許可名單？",
                 "paragraphs": {
-                    "1": "If you hold one of the NFT listed below, 24 hours before the minting starts, you will have early access to mint your Doggy:",
-                    "2": "- Snoopverse Early Access Pass",
-                    "3": "- Snoop Dogg Party Pass",
+                    "1": "如果你在鑄造開始前的 24 小時擁有一個下列其中一種非同質化代幣，就能搶先鑄造 Doggy：",
+                    "2": "- SnoopVerse 早鳥通行證",
+                    "3": "- Snoop 派對通行證",
                     "4": "- JADU Jetpack",
                     "5": "- JADU Hoverboard",
-                    "6": "- Selected SupDucks (See SupDucks Discord)",
-                    "7": "- Selected FLUF burrows (See Fluf Discord)",
+                    "6": "- SupDucks",
+                    "7": "- FLUF",
                     "8": "- Rumble Kong League",
-                    "9": "Winning one of our",
-                    "10": "Twitter contests",
-                    "11": "can also give you early access to mint your NFT."
+                    "9": "贏得一場我們的",
+                    "10": "推特競賽",
+                    "11": "也能讓你搶先鑄造自己的非同質化代幣。"
                 }
             },
             "14": {
-                "title": "How do I know if I’m whitelisted?",
+                "title": "如何知道我是不是已加入許可名單？",
                 "paragraphs": {
-                    "1": "If you hold an NFT of the above collection, you will be able to mint, as long as you hold the NFT in the wallet with which you are whitelisted, and connected on the minting page."
+                    "1": "如果你持有上述收藏的非同質化代幣，並將該非同質化代幣放進你獲加入許可名單的錢包 (需於鑄造頁面中完成連結) 中，就能夠鑄造自己的非同質化代幣。"
                 }
             },
             "15": {
-                "title": "How many Doggies can I mint as a whitelisted user?",
+                "title": "許可名單使用者能鑄造幾個 Doggies？",
                 "paragraphs": {
-                    "1": "You will be able to mint one Doggy as a whitelisted user."
+                    "1": "許可名單使用者可鑄造一個 Doggy。"
                 }
             },
             "16": {
-                "title": "My Doggies are not revealed yet on OpenSea. What can I do?",
+                "title": "我的 Doggies 尚未在 OpenSea 上公開，該怎麼辦？",
                 "paragraphs": {
-                    "1": "If you are checking before February 24, 10pm UTC, this is normal. If you are checking after that date, feel free to press the “Refresh Metadata” button on the top-right corner of OpenSea."
+                    "1": "如果你是在 2 月 24 日 UTC 時間下午 10 點前查看，則屬於正常情況。如果你在該日期之後查看卻還是沒公開，那麼請按下 OpenSea 右上角的「Refresh Metadata」(重新整理中繼資料) 按鈕。"
                 }
             },
             "17": {
-                "title": "Buying NFT for the first time, how can I get started?",
+                "title": "我是第一次購買非同質化代幣，該如何開始購買？",
                 "paragraphs": {
-                    "1": "The process is quite simple. You need to ensure that you have ",
-                    "2": "created an account",
-                    "3": " on The Sandbox.",
-                    "4": "Ensure you have both the correct amount of SAND to mint the number of Doggies you want and some ETH to cover the gas fees.",
-                    "5": "Log into your account and head over to the mint page",
+                    "1": "過程十分簡單。你只需確保自己已",
+                    "2": "在《The Sandbox》上",
+                    "3": "建立帳戶。",
+                    "4": "確定你已持有鑄造所需 Doggies 數量的 SAND 數量，並準備好支付礦工費所需的 ETH。",
+                    "5": "登入你的帳戶並前往鑄造頁面",
                     "6": "https://sandbox.game/en/snoopdogg/raffle/mint/",
-                    "7": "Check that your wallet is properly connected and just press the Mint button to retrieve your Doggy."
+                    "7": "檢查你的錢包是否已正確連結，接著只要按下「鑄造」按鈕就能取得你的 Doggy。"
                 }
             }
         },
         "howToMint": "How to mint an avatar?"
     },
     "modelViewer": {
-        "view3D": "View 3D",
-        "preview": "Preview",
-        "ground": "Show the ground",
-        "loading": "Loading 3D...",
-        "loadingPreview": "Preview is loading...",
+        "view3D": "查看 3D",
+        "preview": "預覽",
+        "ground": "顯示地面",
+        "loading": "正在載入 3D...",
+        "loadingPreview": "正在載入預覽...",
         "meta": {
-            "title": "The Sandbox -",
-            "defaultTitle": "Preview",
+            "title": "The Sandbox-",
+            "defaultTitle": "預覽",
             "description": "《The Sandbox》市場為 NFT 市場，你可以在這裡尋找並以 SAND 購買創作者的 ASSET，將這些 ASSET 應用到你的 LAND。",
             "keywords": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token",
             "og": {
@@ -5715,8 +5715,8 @@
             "usePolygonLink": ""
         },
         "sidebar": {
-            "amount": "Transfer Amount",
-            "amountSet": "Set amount",
+            "amount": "傳輸數量",
+            "amountSet": "設定數量",
             "amountEnter": "Enter amount",
             "view": "View on Etherscan",
             "failure": {
