@@ -346,9 +346,15 @@
         },
         "header": {
             "title": "Welcome to the Open Metaverse",
-            "description": "The Alpha Season 2 is coming soon",
+            "description": {
+                "preSeason": "The Alpha Season 2 is coming on March 3, 2022. Register to receive more information.",
+                "duringSeason": "Play the Alpha Season 2 and try to win an Alpha Pass by completing Quests."
+            },
             "preseason": "Discover our very first season",
-            "buttonText": "See Rewards",
+            "buttonText": {
+                "preSeason": "Register for Season 2",
+                "duringSeason": "Play now"
+            },
             "discover": "Snoop Dogg",
             "howToJoin": "How do I join?",
             "buyLand": "Buy Land",
@@ -357,7 +363,12 @@
             "alphaDate": "FROM NOV 29 TO DEC 20",
             "readMore": "More Info",
             "description2": "Click here to see the rewards of Alpha Season 1",
-            "createButtonText": "Create Account"
+            "createButtonText": "Create Account",
+            "ribbon": {
+                "preSeason": "ALPHA SEASON 2 IS COMING SOON",
+                "duringSeason": "ALPHA SEASON 2 IS LIVE"
+            },
+            "createAccount": "Create account"
         },
         "discover": {
             "title": "Discover The Sandbox",
@@ -390,6 +401,17 @@
             "badge": "what's new!",
             "title": "Community",
             "description": "Stay tuned with the latest The Sandbox’s news. Read everything you need to know in our blog."
+        },
+        "avatar": {
+            "title": "The Sandbox Avatar",
+            "description": {
+                "1": "Take your profile pic to the next level. Now you can choose your favourite Avatar to explore The Sandbox Metaverse.",
+                "2": "Connect your favourite wallet to find out if you own an External Avatar."
+            },
+            "button": {
+                "wallet": "Connect Wallet",
+                "avatar": "Create Avatar"
+            }
         }
     },
     "season": {
@@ -585,7 +607,15 @@
                         "checkResults": "Check contest results here every Thursday. You will also receive an email if you won the Alpha Pass",
                         "buttonTooltip": "Claim your Season 2 Alpha Pass before March 31.",
                         "didntWin": "You didn't win yet",
-                        "won": "YOU WON!"
+                        "won": "YOU WON!",
+                        "sub1": "Check contest results here every Thursday.",
+                        "sub2": "You will also receive an email if you won.",
+                        "didntYet": "You didn't win yet",
+                        "alreadyWon": "You've already claimed your pass",
+                        "claimS2": "Claim S2 Alpha Pass",
+                        "week1": "Week March 3 - March 9",
+                        "week2": "Week March 10 - March 16",
+                        "week3": "Week March 17 - March 23"
                     },
                     "seasonOverDescription2": "Claim your Alpha Pass now to visit the Pass holders VIP Party and to claim your $SAND rewards later on!",
                     "seasonOverDescription3": "Unfortunately you did not win a Season 2 Alpha Pass.",
@@ -597,7 +627,12 @@
                     "raffleHasPass": "DAYS TO CLAIM",
                     "raffleHasPassDesc": "You own a S2 Alpha Pass",
                     "communityBoosterDescription": "Stake $SAND to increase the total prize pool. Community booster will be applied on everyone’s $SAND rewards. The more the Community stakes, the more the Community earns. You will also get extra Raffle Tickets for staking.",
-                    "enterThePartyDescription": "Add Join the VIP Party on Thursday March 24 at 7PM"
+                    "enterThePartyDescription": "Add Join the VIP Party on Thursday March 24 at 7PM",
+                    "seasonOverDescription4": "You will be able to claim the $SAND rewards soon! In the meantime visit the Pass holders VIP Party!",
+                    "communityBoosterDescription4": "for staking",
+                    "communityBoosterDescription5": "1 point is earned for each",
+                    "communityBoosterDescription6": "staked for the whole season.",
+                    "enterThePartyDescription2": "Enter to be part of the VIP Party for Pass holders only!"
                 },
                 "timeRewards": "CLAIM REWARDS IN",
                 "raffleResults": "RAFFLE RESULTS IN",
@@ -626,8 +661,16 @@
                 "getNFT": "Get NFT",
                 "stake": "Stake",
                 "notTraded": "Raffle Tickets are not NFTs and",
-                "notTraded2": "cannot be traded on the secondary market"
-            }
+                "notTraded2": "cannot be traded on the secondary market",
+                "questTooltipDesc": "You get Raffle tickets everytime you level up. The amount of tickets per level is indicated in the Rewards tab.",
+                "stakeTooltipDesc": "Get 1 extra Raffle Tickets for every [stakingAmount/stakingMultiplier] mSAND you stake during the whole Season 2 duration (28 days). 200 Raffle Tickets maximum.",
+                "snoopTooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoop Dogg Private Party Pass NFT. You need to own the NFT in your wallet when the Raffle starts (March 31).",
+                "snoop2TooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoopverse Early Access Pass NFT. You need to own the NFT in your wallet when the Raffle starts (March 31).",
+                "alphaTooltipDesc": "Get 30 extra Raffle Tickets by owning the Season 1 Alpha Pass (NFT name: Alpha Pass). You need to own the NFT in your wallet when the Raffle starts (March 31).",
+                "landTooltipDesc": "Get 40 extra Raffle Tickets per LAND you own. You need to own the NFT(s) in your wallet when the Raffle starts (March 31). 200 Raffle Tickets maximum.",
+                "feedbackTooltipDesc": "If you answered the Season 1 feedback form, you get 10 extra Raffle Tickets. This form is now closed. This is our way of thanking our community for engaging in the Alpha Season 1. Remember to fill in the feedback form at the end of Season 2!"
+            },
+            "downloadAlpha": "Download Alpha"
         },
         "info": {
             "title": "Welcome to the Alpha",
@@ -4640,7 +4683,23 @@
                 "textPolygon": "Stay tuned for more announcements",
                 "stakePhrase01": "You can now enjoy the benefits of staking with ",
                 "stakePhrase02": " and ",
-                "stakePhrase03": " only."
+                "stakePhrase03": " only.",
+                "rewardBooster": {
+                    "title": "Reward Booster",
+                    "text": "and increse the total prize pool.",
+                    "tooltipTitle": "More info:",
+                    "tooltipStart": "5 Community Booster point is earned for each ",
+                    "tooltipEnd": "staked for the whole Season 2 duration (28 days)."
+                },
+                "extraRaffle": {
+                    "title": "Extra Raffle Tickets",
+                    "text": "Get extra raffle tickets for staking ",
+                    "tooltipGet": "Get",
+                    "tooltipStart": "extra Raffle Ticket for every",
+                    "tooltipEnd": "mSAND you stake during the whole Season 2 duration (28 days). 200 Raffle Tickets maximum."
+                },
+                "infoStart": "points are earned for each",
+                "infoEnd": "staked for the whole season."
             }
         }
     },
@@ -5120,6 +5179,105 @@
             },
             "bestMoments": {
                 "title": "ALPHA SEASON 1 BEST MOMENTS"
+            },
+            "alphaComing": {
+                "title": "ALPHA SEASON 2 COMING SOON",
+                "bulletPoints": {
+                    "1": "All content will be open to everyone!",
+                    "2": "Anyone may win a Season 2 Alpha Pass just by playing the game.",
+                    "3": {
+                        "1": "Complete as many",
+                        "2": "Quests",
+                        "3": "as you can to increase your chances of winning."
+                    },
+                    "4": "Discover new Experiences and Quests.",
+                    "5": "Get Ready to Play to Earn!"
+                }
+            },
+            "modal": {
+                "title": "The Alpha Season 2 will start soon.",
+                "description": {
+                    "1": "You will receive more information and details about Alpha Season 2 by email soon.",
+                    "2": "You will be among the first to know, stay tuned!"
+                },
+                "button": "Gotcha"
+            },
+            "season2": {
+                "title": {
+                    "1": "Play the Alpha Season 2 and try to",
+                    "2": "win an Alpha Pass"
+                },
+                "dates": {
+                    "1": {
+                        "title": "ALPHA SEASON 2 STARTS",
+                        "date": "MARCH 03"
+                    },
+                    "2": {
+                        "title": "RUFFLE DAY / SEASON END",
+                        "date": "MARCH 31"
+                    }
+                },
+                "sections": {
+                    "1": {
+                        "title": "PLAY TO EARN",
+                        "body": {
+                            "1": "Season 2 Alpha Pass Reward up to",
+                            "2": "1,000 $SAND.",
+                            "3": "Boost rewards by staking",
+                            "4": "SAND."
+                        }
+                    },
+                    "2": {
+                        "title": "OPEN TO EVERYONE",
+                        "body": {
+                            "1": "Everyone can play",
+                            "2": "all Season 2 content and get a chance to",
+                            "3": "win one of the",
+                            "4": "10,000 Season 2 Alpha Passes."
+                        }
+                    },
+                    "3": {
+                        "title": "COMPLETING QUESTS TO WIN",
+                        "body": {
+                            "1": "Increase your chances to win a Season 2 Alpha Pass by",
+                            "2": "completing Quests",
+                            "3": "to earn Raffle Tickets.",
+                            "4": "Raffle Tickets are not NFTs"
+                        }
+                    },
+                    "4": {
+                        "title": "GET MORE CHANCES TO WIN",
+                        "body": {
+                            "1": "Owning a LAND and/or a Season 1 Alpha Pass",
+                            "2": "greatly increases chances to win a Season 2 Alpha Pass."
+                        }
+                    },
+                    "5": {
+                        "title": "STAKING REWARDS",
+                        "body": {
+                            "1": "Stake",
+                            "2": "mSAND",
+                            "3": "to double",
+                            "4": "the amount of rewards",
+                            "5": "FOR EVERYONE!",
+                            "6": "You will also get up to 200 extra Raffle Tickets",
+                            "7": "for staking"
+                        },
+                        "button": "Boost Rewards"
+                    }
+                }
+            },
+            "game": {
+                "future": "Alpha Season 2 will be available for",
+                "systems": {
+                    "pc": "PC",
+                    "mac": "macOS"
+                },
+                "download": "Download Alpha",
+                "nowAvailable": {
+                    "1": "Now is available for PC and",
+                    "2": "macOS"
+                }
             }
         },
         "quan": {
