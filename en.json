@@ -568,9 +568,9 @@
                     "buyButton": "Buy",
                     "claimRewards": "Claim Rewards",
                     "claimRewardsDescription": "Claim your Rewards on",
-                    "claimRewardsDescription2": "March 25.",
+                    "claimRewardsDescription2": "April 1.",
                     "moreInfo": "More info",
-                    "freeToPlay": "Free to Play",
+                    "freeToPlay": "Raffle Tickets",
                     "alphaPass": "Alpha Pass",
                     "locked": "Locked",
                     "summary": "Summary",
@@ -630,9 +630,11 @@
                     "enterThePartyDescription": "Add Join the VIP Party on Thursday March 24 at 7PM",
                     "seasonOverDescription4": "You will be able to claim the $SAND rewards soon! In the meantime visit the Pass holders VIP Party!",
                     "communityBoosterDescription4": "for staking",
-                    "communityBoosterDescription5": "1 point is earned for each",
+                    "communityBoosterDescription5": "{stakingMultiplier} point is earned for each",
                     "communityBoosterDescription6": "staked for the whole season.",
-                    "enterThePartyDescription2": "Enter to be part of the VIP Party for Pass holders only!"
+                    "enterThePartyDescription2": "Enter to be part of the VIP Party for Pass holders only!",
+                    "raffleTitle4": "APRIL",
+                    "lockedDesc": "You need a Season 2 Alpha Pass to claim the $SAND reward at the end of Alpha Season 2."
                 },
                 "timeRewards": "CLAIM REWARDS IN",
                 "raffleResults": "RAFFLE RESULTS IN",
@@ -654,7 +656,7 @@
                 "stakingDesc": "Earn by staking",
                 "snoop": "Snoop Dogg Private Party Pass",
                 "nftDesc": "Earn by owning this NFTs",
-                "snoop2": "Snoopers Early Access Pass",
+                "snoop2": "Snoopverse Early Access Pass",
                 "season1": "Season 1 Alpha Pass",
                 "land": "Earn by owning LAND(s)",
                 "total": "Your Total Raffle Tickets",
@@ -663,7 +665,7 @@
                 "notTraded": "Raffle Tickets are not NFTs and",
                 "notTraded2": "cannot be traded on the secondary market",
                 "questTooltipDesc": "You get Raffle tickets everytime you level up. The amount of tickets per level is indicated in the Rewards tab.",
-                "stakeTooltipDesc": "Get 1 extra Raffle Tickets for every [stakingAmount/stakingMultiplier] mSAND you stake during the whole Season 2 duration (28 days). 200 Raffle Tickets maximum.",
+                "stakeTooltipDesc": "Get 1 extra Raffle Tickets for every {ticketAmount} mSAND you stake during the whole Season 2 duration (28 days). 200 Raffle Tickets maximum.",
                 "snoopTooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoop Dogg Private Party Pass NFT. You need to own the NFT in your wallet when the Raffle starts (March 31).",
                 "snoop2TooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoopverse Early Access Pass NFT. You need to own the NFT in your wallet when the Raffle starts (March 31).",
                 "alphaTooltipDesc": "Get 30 extra Raffle Tickets by owning the Season 1 Alpha Pass (NFT name: Alpha Pass). You need to own the NFT in your wallet when the Raffle starts (March 31).",
@@ -800,12 +802,12 @@
                     "text3": "What is the maximum number of Raffle tickets that I can get?",
                     "description4": "Yes. You get 40 Raffle Tickets for each LAND you have in your wallet by the end of the Alpha Season 2 when the Raffle starts. Caped to a maximum of 200 Raffle Tickets (5 LANDs). This is going to significantly increase your chances but does not guarantee you to win.",
                     "text4": "Do I have more chances to win an Alpha Pass if I’m a LAND owner?",
-                    "description5": "Yes. You get 90 extra Raffle Tickets if you have a Season 1 Alpha Pass in your wallet by the end of the Alpha Season 2 when the Raffle starts. This is not cumulative, only one S1AP per wallet will count for extra Raffle Tickets.",
+                    "description5": "Yes. You get 130 extra Raffle Tickets if you have a Season 1 Alpha Pass in your wallet by the end of the Alpha Season 2 when the Raffle starts. This is not cumulative, only one S1AP per wallet will count for extra Raffle Tickets.",
                     "text0": "What is the point of the Alpha Pass if everything is open to everyone?",
                     "description0": "The $SAND rewards! Only Alpha Pass owners can claim the S2 Alpha Rewards at the end of the Alpha Season 2. Rewards can go up to 1,000 $SAND per S2 Alpha Pass.",
                     "description1": "There are 3 ways of winning a S2 Alpha Pass:",
                     "description3a": "Please check the tab “Raffle Tickets” for more details.",
-                    "description3b": "In total, you can earn up to 1000 Raffle Tickets if you max out every source.",
+                    "description3b": "In total, you can earn up to 1100 Raffle Tickets if you max out every source.",
                     "text5": "Do I have more chances to win a Season 2 Alpha Pass if I own a Season 1 Alpha Pass?",
                     "text6": "Do I have more chances to win a Season 2 Alpha Pass if I participated in Alpha Season 1 but did not keep my Season 1 Alpha Pass?",
                     "description6": "No. You need to own a Season 1 Alpha Pass to get the associated extra Raffle Tickets.",
@@ -879,7 +881,12 @@
                         "pc1": "OS: Windows 10 64bit",
                         "pc2": "GPU: NVIDIA GeForce GTX 760 or newer",
                         "pc3": "CPU: i5-8400 or newer (AVX support is required)",
-                        "pc4": "RAM: 8192Mb or more"
+                        "pc4": "RAM: 8192Mb or more",
+                        "mac": "Minimum model: MacBookPro14,2 or newer (or 2017 Mac Mini/Desktop equivalents)",
+                        "mac1": "SO : MAC OS 10.13 or newer",
+                        "mac2": "GPU : HD4000 equivalent or newer",
+                        "mac3": "CPU : 3.1GHz dual-core Intel Core i5 or newer",
+                        "mac4": "RAM : 8192Mb or more"
                     },
                     "description1a": "You need to play on Windows or MAC OS (now available in Season 2!)",
                     "description1b": "- You also need a permanent internet connection.",
@@ -1020,39 +1027,53 @@
                     "description3a": "This feature is a bit complex, but you do not have to understand how it works under the hood to make optimal use of it, However you can find the details below:",
                     "description3b": "1. Extra Raffle Tickets:",
                     "description3c": "The more and the longer you stake $SAND, the more your “staking score” increases. The bigger the staking score you have, the more Raffle Tickets you will get.",
-                    "description3d": "To get the maximum number of Raffle Tickets from the staking feature (which is 200, the total maximum from all features is 1000) you need to have accumulated at least 2000 staking score points by the end of the Alpha Season 2.",
+                    "description3d": "To get the maximum number of Raffle Tickets from the staking feature (200) you need to have accumulated at least",
                     "description3e": "2. Community Reward Booster:",
-                    "description3f": "The bigger everyone’s staking score is, the more the Community Reward Booster increases. The more the Community Reward Booster increases, the more the Season 2 Alpha Pass $SAND reward is increased for all. The Community Reward Booster is capped at a maximum of +100%. To reach this cap, the community staking score has to reach the target of 100,000,000 (100 Million) points.",
+                    "description3f": "The bigger everyone’s staking score is, the more the Community Reward Booster increases. The more the Community Reward Booster increases, the more the Season 2 Alpha Pass $SAND reward is increased for all. The Community Reward Booster is capped at a maximum of +100%. To reach this cap, the community staking score has to reach the target of",
                     "description3g": "Examples:",
-                    "description3h": "- The S2AP base reward is 500 $SAND. If by the end of Alpha Season 2, the community staking score reached 100,000,000 points or more, the Community Reward Booster will reach +100%. Therefore, the S2AP reward will be increased by +100% and reach 1,000 $SAND for all S2AP owners.",
-                    "description3i": "- If by the end of Alpha Season 2, the community staking score reached 57,000,000 points, the Community Reward Booster will reach +57%. Therefore, the S2AP reward will be increased by +57% and reach 785 $SAND (500 + 57% of 500) for all S2AP owners.",
+                    "description3h": "- The S2AP base reward is 500 $SAND. If by the end of Alpha Season 2, the community staking score reached",
+                    "description3i": "- If by the end of Alpha Season 2, the community staking score reached",
                     "text4": "Will I still get the same yield for staking $SAND during Alpha Season 2?",
-                    "description4": "Yes, the staking features related to Alpha Season 2 act as a bonus and will not impact the yield in any way. Your $SAND will not be locked for longer. Nothing changes with the staking feature itself. The “caps” related to Alpha Season 2 features have no impact on the yield at all.",
+                    "description4": "Yes, the staking features related to Alpha Season 2 act as a bonus and will not impact the yield in any way. Your mSAND will not be locked for longer. Nothing changes with the staking feature itself. The “caps” related to Alpha Season 2 features have no impact on the yield at all.",
                     "text5": "On which chain does the Community Reward Booster work?",
-                    "description5": "On Layer 2, but only on the SAND staking program (not on the SAND/MATIC program). The whole point of the feature is to incentivize $SAND staking on layer 2 to continue our transition to layer 2, which will be a great improvement to the game by reducing gas fees and making TSB a lot greener!",
+                    "description5": "On Layer 2, but only on the mSAND staking program (not on the mSAND/MATIC program). The whole point of the feature is to incentivize mSAND staking on layer 2 to continue our transition to layer 2, which will be a great improvement to the game by reducing gas fees and making TSB a lot greener!",
                     "text6": "How is the staking score calculated?",
                     "description6a": "Again, you do not need to understand the math to make optimal use of this feature, but if you are curious, this is how it works:",
-                    "description6b": "You get 5 staking score points for every 1 $SAND staked during 28 days.",
+                    "description6b": "You get",
                     "description6c": "This number is a float, you will get exactly the amount of staking score points related to your staking contribution.",
                     "description6d": "In details:",
-                    "description6e": "It is important to understand that both time and $SAND staked amount are taken into account to calculate the staking score.",
+                    "description6e": "It is important to understand that both time and mSAND staked amount are taken into account to calculate the staking score.",
                     "description6f": "1. Extra Raffle Tickets:",
-                    "description6g": "The cap is 2000 staking score points (to get 200 Raffle Tickets). To reach that cap you could, for example, stake 400 $SAND (or more) for 28 days, or 800 $AND for 14 days, or 1600 $SAND for 7 days.",
+                    "description6g": "The cap is",
                     "description6h": "2. Community Reward Booster:",
-                    "description6i": "The cap is 100,000,000 collective cumulated staking score points (to get the Community Reward Booster to +100%). To reach that score, the community could, for example, stake 20,000,000 $SAND (or more) for 28 days, or 40,000,000 $SAND for 14 days, or 80,000,000 $SAND for 7 days.",
-                    "description6j": "Of course, the actual numbers won’t be as round and clean, but this gives you an overall idea of how the calculation is done.",
-                    "description6k": "Please note that the amount of days that $SAND is staked does not have to be consecutive.",
-                    "text7": "Should I wait for Alpha Season 2 to begin to start staking $SAND?",
+                    "description6i": "The cap is",
+                    "description6j": "The total amount of staking score point for the community is just the sum of each user's staking score.",
+                    "description6k": "Please note that the amount of days that mSAND is staked does not have to be consecutive.",
+                    "text7": "Should I wait for Alpha Season 2 to begin to start staking mSAND?",
                     "description7a": "You can start staking right now, you don’t have to wait. If you want to stake now, you definitely should. Might as well get your yield growing as soon as possible!",
                     "description7b": "You will start to earn staking score points related to Alpha Season 2 features once the Alpha Season 2 starts, but we will simply look at how much you have previously staked at that moment and start calculating your score.",
                     "description7c": "You do not need to wait for Alpha Season 2 to begin to start staking, and you do not need to withdraw and stake back your funds once Alpha Season 2 has started to optimize your staking score.",
-                    "description7d": "You, and the community, will not start earning staking score points until the Alpha Season 2 has started. The staking score points objectives, both individual (2000) and collective (20,000,000), have to be met in between the start and the end of the Alpha Season 2.",
+                    "description7d": "You, and the community, will not start earning staking score points until the Alpha Season 2 has started. The staking score points objectives, both individual",
                     "text8": "You are only talking about $SAND staking, what about the TSB SAND/MATIC staking program?",
                     "description8": "Alpha Season 2 features are only linked to the SAND staking pool. Staking on the SAND/MATIC program does not offer any bonus related to Alpha Season 2. This program will still work the same and produce the same yield, we do not abandon it, it’s just not related to the Alpha Season 2.",
                     "text9": "Can I lose staking score points?",
                     "description9": "No, this number can not go down. Points earned are earned for you and added to the Community Booster cumulative score. If you withdraw your stake, you will stop earning staking points, but you won’t lose what you have earned.",
                     "text10": "The Alpha already started multiple weeks ago, is there still a point for me to start staking now, am I too late?",
-                    "description10": "You are never too late. The later you stake, the more $SAND you will have to stake if you want to max out the number of Raffle Tickets that can be earned through staking (200). Even if you don’t stake that much and Alpha Season 2 will end soon, you can still get some Raffle Tickets for staking. It’s not because you don’t have the time and/or resources to hit the 200 Raffle Tickets cap that there is no point to try to get some. Also, staking can be a very profitable feature in itself, even when unrelated to Alpha Season 2 bonuses"
+                    "description10": "You are never too late. The later you stake, the more $SAND you will have to stake if you want to max out the number of Raffle Tickets that can be earned through staking (200). Even if you don’t stake that much and Alpha Season 2 will end soon, you can still get some Raffle Tickets for staking. It’s not because you don’t have the time and/or resources to hit the 200 Raffle Tickets cap that there is no point to try to get some. Also, staking can be a very profitable feature in itself, even when unrelated to Alpha Season 2 bonuses",
+                    "description3d1": "staking score points by the end of the Alpha Season 2.",
+                    "description3f1": "points.",
+                    "description3h1": "points or more, the Community Reward Booster will reach +100%. Therefore, the S2AP reward will be increased by +100% and reach 1,000 $SAND for all S2AP owners.",
+                    "description3i1": "points, the Community Reward Booster will reach +57%. Therefore, the S2AP reward will be increased by +57% and reach 785 $SAND (500 + 57% of 500) for all S2AP owners.",
+                    "description6b1": "staking score points for every 1 mSAND staked during 28 days.",
+                    "description6g1": "staking score points (to get 200 Raffle Tickets). For every 1 mSAND staked for the whole duration of the Alpha (28 days) you get",
+                    "description6g2": "staking score point.",
+                    "description6g3": "For example you will get:",
+                    "description6g4": "staking score point by staking 1 mSAND over 14 days",
+                    "description6g5": "staking score point by staking 2 mSAND over 28 days",
+                    "description6g6": "staking score point by staking 4 mSAND over 7 days",
+                    "description6i2": "collective cumulated staking score points (to get the Community Reward Booster to +100%).",
+                    "description7d1": "and collective",
+                    "description7d2": "have to be met in between the start and the end of the Alpha Season 2."
                 },
                 "progression": {
                     "title": "Progression",
@@ -1105,7 +1126,7 @@
                 "title": "The Raffle",
                 "subtitle": "THE RAFFLE OCCURS ON MARCH 31, 2022.",
                 "description": {
-                    "1": "Earn Raffle Tickets",
+                    "1": "Earn Raffle Tickets by completing Quests inside each experience on the",
                     "2": "by completing Quests inside each experience on the",
                     "link": "Alpha Map."
                 },
@@ -1140,7 +1161,8 @@
                         "description": {
                             "1": "Look for",
                             "2": "yellow exclamation",
-                            "3": "marks inside the experiences to find quests"
+                            "3": "marks inside the experiences to find quests",
+                            "4": "Completed quests appears with a grey exclamation Mark"
                         }
                     },
                     "second": {
@@ -1220,7 +1242,7 @@
                     },
                     "4": {
                         "1": "The staking score of the whole community will be added together to create a Reward Community Booster that will increase the S2 Alpha Pass rewards for everyone.",
-                        "2": "At its highest, the Reward Community Booster can DOUBLE the regards (+100%)."
+                        "2": "At its highest, the Reward Community Booster can DOUBLE the rewards (+100%)."
                     }
                 }
             },
@@ -1941,8 +1963,8 @@
                 "button": "Download"
             },
             "section5": {
-                "title": "Boost your Avatar’s attributes with Equipment",
-                "subtitle": "Coming soon",
+                "title": "Boost your Avatar's attributes with Equipment",
+                "subtitle": "Equip your avatar and get special skills",
                 "part1": {
                     "title": "Equip your avatar and get special skills.",
                     "text1": "All avatars come with a specific set of Attributes that define their abilities in",
@@ -1962,7 +1984,9 @@
                     "title1": "Coming Soon",
                     "title2": "Customize it",
                     "description1": "Quickly combine different outfits, hairstyles and colors to create a unique style."
-                }
+                },
+                "text1": "All avatars come with specific set of Attributes that define their abilities in The Sandbox Game Maker: Power, Defense, Speed and Magic.",
+                "text2": "Want a stronger avatar? Visit the Marketplace and choose the right weapon, from thousands of options created by the Community. They will soon become available."
             },
             "user": {
                 "signin": "サインイン",
@@ -2220,7 +2244,17 @@
             "section6": {
                 "title": "What are you waiting for?",
                 "description": "Join the Community of thousands of users that have already registered in The Sandbox with their unique avatars.",
-                "buttonText": "Create Avatar"
+                "buttonText": "Create Avatar",
+                "part1": {
+                    "title1": "Create custom Equipment with VoxEdit",
+                    "description1": "Equipment are Tokens that can be traded. They have Catalysts and Gems just as other assets do. Yes, you can also create and mint Equipment through VoxEdit!",
+                    "button": "Learn more"
+                },
+                "part2": {
+                    "title1": "Coming Soon",
+                    "title2": "Customize it",
+                    "description1": "Quickly combine different outfits, hairstyles and colors to create a unique style."
+                }
             },
             "old": {
                 "section1": {
@@ -2277,6 +2311,11 @@
                     "description": "Join the Community of thousands of users that have already registered in The Sandbox with their unique avatars.",
                     "buttonText": "Create avatar now"
                 }
+            },
+            "section7": {
+                "title": "What are you waiting for?",
+                "description": "Join the Community of thousands of users that have already registered in The Sandbox with their unique avatars.",
+                "buttonText": "Create Avatar"
             }
         }
     },
@@ -2416,7 +2455,8 @@
             "warnermusic": "WARNER MUSIC",
             "gucci": "GUCCI",
             "web3": "Web 3",
-            "ubisoft": "Ubisoft"
+            "ubisoft": "Ubisoft",
+            "avex": "Metavex"
         },
         "booked": "Booked by",
         "visit": "Visit site",
@@ -2511,7 +2551,7 @@
         },
         "alpha": {
             "text1": "The Metaverse is open to Everyone, select an experience on the map and click Play!",
-            "text2": "You can win an Alpha Pass by joining daily contests on social media (Twitter, Discord, Twitch)",
+            "text2": "You can win a Season 2 Alpha Pass by joining daily contests on social media (Twitter, Twitch)",
             "text3": "The Alpha will be open until March 31",
             "text4": "This is an open Alpha, please share your feedback and help us improving the Metaverse",
             "text5": "All the experiences at the Alpha were built using VoxEdit and Game Maker. You can build our own experience!",
@@ -3159,7 +3199,8 @@
                 "title": "Ups!",
                 "description1": "Your wallet is not whitelisted!",
                 "description2": "You don't have access to this section."
-            }
+            },
+            "effects": "Disable Effects"
         },
         "loginModal": {
             "title": "Log in or Create an account",
@@ -4302,7 +4343,7 @@
         },
         "avatar": {
             "alphaRegistrationTitle": "Alpha Registration",
-            "wonSeasonPassTitle": "You own an Alpha Pass",
+            "wonSeasonPassTitle": "You won a Season 2 Alpha Pass!",
             "endedTitle": "The Alpha is over",
             "endedSubtitle": "Thank you very much to everyone who participated in The Sandbox Alpha!",
             "endedSubtitle2": "Thank you for your precious feedback!\n We hope to see you again soon!",
@@ -4329,25 +4370,25 @@
             "notStartSubtitle3": "in the Alpha!",
             "claimAvailableAt": "CLAIM AVAILABLE AT:",
             "alphaEndsIn": "ALPHA ENDS IN:",
-            "claimRewardsButton": "Claim Rewards",
+            "claimRewardsButton": "Claim Reward",
             "unregisteredStartingSubtitle": "The Sandbox Alpha Season 2 will start soon.",
             "playButton": "Play",
             "newLottery": {
                 "drawInProgressTitle": "Raffle draw in progress",
                 "getRaffleTickets": "Season 2: Get Raffle Tickets",
-                "alphaPass": "Season 2: Alpha Pass",
+                "alphaPass": "Alpha Season 2",
                 "seasonPassTitle": "Season 2: Alpha Pass",
                 "boostRewards": "Boost Rewards",
                 "subtitleSelectWinners": "We'll select 5000 winners! Wait for the results",
-                "subtitleWaitToClaim": "Wait to claim the rewards",
+                "subtitleWaitToClaim": "Claim your rewards soon",
                 "subtitleNoLongerEarn": "You can no longer earn Raffle tickets.\nThe Raffle will take place soon. Good luck!",
-                "getAlphaPassButton": "Get Alpha Pass",
+                "getAlphaPassButton": "Buy Alpha Pass",
                 "goToPartyButton": "Go To Party!",
                 "claimRewardsSoon": "You will be able to claim the $SAND rewards soon! In the meantime visit the Pass holders VIP Party!",
-                "wonSeason2Pass": "Congratulations! You won a Season 2 Alpha Pass!",
+                "wonSeason2Pass": "Congratulations!",
                 "notRaffleWinner": "Sorry, you were not one of the Raffle winners.",
                 "purchaseFromAnother": "You might be able to purchase one from another player",
-                "claimSandRewards": "Congratulations! You can now claim your $SAND rewards.",
+                "claimSandRewards": "You can now claim your $SAND rewards.",
                 "completeQuestsRewards": "Complete Quests to earn rewards.",
                 "completeQuestsTickets": "Complete Quests to get Raffle Tickets",
                 "claimSoon": "Claim your rewards soon",
@@ -4690,7 +4731,7 @@
                     "title": "Reward Booster",
                     "text": "and increse the total prize pool.",
                     "tooltipTitle": "More info:",
-                    "tooltipStart": "5 Community Booster point is earned for each ",
+                    "tooltipStart": "{stakingMultiplier} Community Booster point is earned for each ",
                     "tooltipEnd": "staked for the whole Season 2 duration (28 days)."
                 },
                 "extraRaffle": {
@@ -4700,7 +4741,7 @@
                     "tooltipStart": "extra Raffle Ticket for every",
                     "tooltipEnd": "mSAND you stake during the whole Season 2 duration (28 days). 200 Raffle Tickets maximum."
                 },
-                "infoStart": "points are earned for each",
+                "infoStart": "{stakingMultiplier} points are earned for each",
                 "infoEnd": "staked for the whole season."
             }
         }
@@ -5265,7 +5306,11 @@
                             "6": "You will also get up to 200 extra Raffle Tickets",
                             "7": "for staking"
                         },
-                        "button": "Boost Rewards"
+                        "button": "Boost Rewards",
+                        "booster": {
+                            "title": "Community Booster*",
+                            "sand": "SAND"
+                        }
                     }
                 }
             },
