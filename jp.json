@@ -568,9 +568,9 @@
                     "buyButton": "購入",
                     "claimRewards": "報酬を受け取る",
                     "claimRewardsDescription": "3月25日に報酬を",
-                    "claimRewardsDescription2": "受け取りましょう。",
+                    "claimRewardsDescription2": "April 1.",
                     "moreInfo": "他の情報",
-                    "freeToPlay": "プレイは無料",
+                    "freeToPlay": "Raffle Tickets",
                     "alphaPass": "アルファパス",
                     "locked": "ロック中",
                     "summary": "概要",
@@ -630,9 +630,11 @@
                     "enterThePartyDescription": "そして、3月24日木曜日の午後7時から始まるVIPパーティーに参加しましょう",
                     "seasonOverDescription4": "",
                     "communityBoosterDescription4": "も入手",
-                    "communityBoosterDescription5": "全シーズンでステーキングした各",
+                    "communityBoosterDescription5": "{stakingMultiplier} point is earned for each",
                     "communityBoosterDescription6": "ごとに1ポイントを獲得。",
-                    "enterThePartyDescription2": "Enter to be part of the VIP Party for Pass holders only!"
+                    "enterThePartyDescription2": "Enter to be part of the VIP Party for Pass holders only!",
+                    "raffleTitle4": "",
+                    "lockedDesc": "You need a Season 2 Alpha Pass to claim the $SAND reward at the end of Alpha Season 2."
                 },
                 "timeRewards": "報酬を受け取りまで：",
                 "raffleResults": "抽選の結果発表まで：",
@@ -654,7 +656,7 @@
                 "stakingDesc": "ステーキングで獲得",
                 "snoop": "スヌープのプライベートパーティー用パス",
                 "nftDesc": "このNFTを所有することで獲得",
-                "snoop2": "スヌーパーの早期アクセスパス",
+                "snoop2": "Snoopverse Early Access Pass",
                 "season1": "シーズン1アルファパス",
                 "land": "LANDを所有することで獲得",
                 "total": "抽選チケット合計枚数",
@@ -663,7 +665,7 @@
                 "notTraded": "抽選チケットはNFTではなく、",
                 "notTraded2": "セカンダリーマーケットで取引することはできません",
                 "questTooltipDesc": "You get Raffle tickets everytime you level up. The amount of tickets per level is indicated in the Rewards tab.",
-                "stakeTooltipDesc": "Get 1 extra Raffle Tickets for every [stakingAmount/stakingMultiplier] mSAND you stake during the whole Season 2 duration (28 days). 200 Raffle Tickets maximum.",
+                "stakeTooltipDesc": "Get 1 extra Raffle Tickets for every {ticketAmount} mSAND you stake during the whole Season 2 duration (28 days). 200 Raffle Tickets maximum.",
                 "snoopTooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoop Dogg Private Party Pass NFT. You need to own the NFT in your wallet when the Raffle starts (March 31).",
                 "snoop2TooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoopverse Early Access Pass NFT. You need to own the NFT in your wallet when the Raffle starts (March 31).",
                 "alphaTooltipDesc": "Get 30 extra Raffle Tickets by owning the Season 1 Alpha Pass (NFT name: Alpha Pass). You need to own the NFT in your wallet when the Raffle starts (March 31).",
@@ -800,12 +802,12 @@
                     "text3": "最大何枚まで抽選チケットを手に入れることができますか？",
                     "description4": "上がります。アルファシーズン2終了後、抽選会が始まると、ウォレット内のLAND1つに対して抽選チケット40枚が与えられます。上限は抽選チケット200枚 (5LAND) になります。LANDを所有していると、大幅にアルファパス獲得チャンスは上がりますが、獲得を保証するものではありません。",
                     "text4": "LANDを所有していれば、アルファパス獲得のチャンスが上がりますか？",
-                    "description5": "上がります。アルファシーズン2終了後、抽選会が始まると、ウォレット内のシーズン1アルファパス1枚に対して抽選チケット90枚が与えられます。ただし、複数枚シーズン1アルファパスを所有していても、1枚分のみが認められます。",
+                    "description5": "Yes. You get 130 extra Raffle Tickets if you have a Season 1 Alpha Pass in your wallet by the end of the Alpha Season 2 when the Raffle starts. This is not cumulative, only one S1AP per wallet will count for extra Raffle Tickets.",
                     "text0": "あらゆるものが全員に開放されているのなら、アルファパスの意味がないのでは？",
                     "description0": "$SAND報酬です！アルファパス所有者のみ、アルファシーズン2終了時にシーズン2アルファ報酬を受け取ることができます。シーズン2アルファパス1枚ごとに、最大1,000$SANDまで報酬は上がっていきます。",
                     "description1": "There are 3 ways of winning a S2 Alpha Pass:",
                     "description3a": "詳細は「抽選チケット」タブをご覧ください。",
-                    "description3b": "すべての獲得チャンスを最大限に活用することで、合計で最大1,000枚の抽選チケットが手に入ります。",
+                    "description3b": "In total, you can earn up to 1100 Raffle Tickets if you max out every source.",
                     "text5": "シーズン1アルファパスを所有していれば、シーズン2アルファパス獲得のチャンスが上がりますか？",
                     "text6": "アルファシーズン1に参加していたがシーズン1アルファパスは持っていない場合、シーズン2アルファパス獲得のチャンスが上がりますか？",
                     "description6": "上がりません。シーズン1アルファパスを所有している場合のみ、追加の抽選チケットが手に入ります。",
@@ -879,7 +881,12 @@
                         "pc1": "OS： Windows 10 (64ビット)",
                         "pc2": "GPU： NVIDIA GeForce GTX 760以上",
                         "pc3": "CPU： i5-8400以降のCPU (AVX対応必須)",
-                        "pc4": "RAM： 8192MB以上"
+                        "pc4": "RAM： 8192MB以上",
+                        "mac": "Minimum model: MacBookPro14,2 or newer (or 2017 Mac Mini/Desktop equivalents)",
+                        "mac1": "SO : MAC OS 10.13 or newer",
+                        "mac2": "GPU : HD4000 equivalent or newer",
+                        "mac3": "CPU : 3.1GHz dual-core Intel Core i5 or newer",
+                        "mac4": "RAM : 8192Mb or more"
                     },
                     "description1a": "WindowsまたはmacOS (シーズン2から対応) にてプレイしてください",
                     "description1b": "他には永続的なインターネット接続が必要です。",
@@ -1020,39 +1027,53 @@
                     "description3a": "この機能は少し複雑ですが、その仕組みを理解しなくても最適な使い方ができますが、詳細は以下をご覧ください。",
                     "description3b": "1．追加の抽選チケット：",
                     "description3c": "$SANDをより多く、そして長い期間ステーキングすることで、「ステーキングスコア」が増えます。自分のスコアが増えるほど、多くの抽選チケットが手に入ります。",
-                    "description3d": "ステーキング機能から最大数の抽選チケット (200枚。すべての機能の最大枚数は1000枚) を手に入れるには、アルファシーズン2終了までに最低でも累計でステーキングスコア2000に達している必要があります。",
-                    "description3e": "2. コミュニティ報酬ブースター：",
-                    "description3f": "コミュニティメンバーのステーキングスコアが高いほど、コミュニティ報酬ブースターが増えます。コミュニティ報酬ブースターが増えるほど、メンバーに配布されるシーズン2アルファパスの$SAND報酬が増えます。",
-                    "description3g": "例：",
-                    "description3h": "- シーズン2アルファパスの基本報酬は500$SANDです。アルファシーズン2終了時点でコミュニティのステーキングスコアが100,000,000ポイント以上に到達していると、コミュニティ報酬ブースターは+100%に到達します。つまり、アルファパス所有者に対するシーズン2アルファパス報酬が+100%の1,000$SANDになります。",
-                    "description3i": "- アルファシーズン2終了時点でコミュニティのステーキングスコアが57,000,000ポイントに到達していると、コミュニティ報酬ブースターは+57%に到達します。つまり、アルファパス所有者に対するシーズン2アルファパス報酬が+57%の785$SAND (500+500の57%) になります。",
-                    "text4": "アルファシーズン2開催中に$SANDをステーキングしても、同じ利回りが得られるのでしょうか？",
-                    "description4": "そうです。アルファシーズン2に関連するステーキング機能はボーナスとして提供されるものであり、利回りに影響を与えるものではありません。$SANDが長くロックされることはなく、ステーキング機能そのものは何も変わりません。アルファシーズン2の機能に関連する「上限」は、利回りに全く影響を与えません。",
-                    "text5": "コミュニティ報酬ブースターはどちらのチェーン上で機能しますか？",
-                    "description5": "レイヤー2ですが、SANDステーキングプログラム上のみとなります (SAND/MATICプログラムではありません)。この機能で肝心なことは、レイヤー2への移行を継続するために、レイヤー2でステーキングしている$SANDにインセンティブを与えることです。これによりネットワーク手数料を削減し、The Sandboxをより環境に優しいものにすることによって、ゲームを大きく改善することになります。",
-                    "text6": "ステーキングスコアの計算方法",
-                    "description6a": "繰り返しますが、この機能を最大限に活用するにあたって数学的な部分を理解する必要はありませんが、興味のある方のために説明します。",
-                    "description6b": "28日間で1$SANDをステーキングするたびに、ステーキングスコア5を得ます。",
-                    "description6c": "スコアは浮動小数点で表されており、ステーキングの貢献度に応じたステーキングスコアを得られます。",
-                    "description6d": "詳しく説明すると、",
-                    "description6e": "$SANDのステーキング時間とステーキング量の両方がステーキングスコアの計算の際には考慮されます。",
-                    "description6f": "1．追加の抽選チケット：",
-                    "description6g": "上限は2000ステーキングスコアポイント(200枚の抽選チケット分) です。この上限に達するには、たとえば、28日間で400$SAND (またはそれ以上)、14日間で800$SAND、7日間で1,600$SANDをステーキングすることになります。",
-                    "description6h": "2. コミュニティ報酬ブースター：",
-                    "description6i": "上限はコミュニティ全体で累積100,000,000ポイント (コミュニティ報酬ブースターを+100%にするための値) になります。このスコアに到達するためには、たとえば、コミュニティは28日間で20,000,000$SAND (またはそれ以上)、14日間で40,000,000$SAND、または7日間で80,000,000$SANDをステーキングすることになります。",
-                    "description6j": "当然ながら、実際の数字はこのようなきりのいい数字ではありませんが、これでステーキングスコアの計算方法がお分かりいただけるかと思います。",
-                    "description6k": "$SANDのステーキング期間は必ずしも連続した日数である必要はありません。",
-                    "text7": "アルファシーズン2が始まるまで、$SANDのステーキングを待つべきですか？",
-                    "description7a": "今からでもステーキングを始められます。シーズン2の開始を待つ必要はありません。",
-                    "description7b": "アルファシーズン2が始まると、アルファシーズン2の機能に関連したステーキングスコアポイントを獲得できるようになりますが、単純にその時点で以前にどれだけステーキングしたかを確認してからスコアの計算を開始することになります。",
-                    "description7c": "アルファシーズン2の開始を待たずにステーキングを開始することができます。ステーキングスコアを最適化するために、一度資金を引きだし、アルファシーズン2開始後に改めて預け入れる必要はありません。",
-                    "description7d": "ご自身とコミュニティは、アルファシーズン2が始まるまでステーキングスコアポイントを獲得することはできません。個人目標 (2000) および全体目標 (200万) のステーキングスコアポイント目標は、アルファシーズン2の開始から終了までの間に達成する必要があります。",
+                    "description3d": "To get the maximum number of Raffle Tickets from the staking feature (200) you need to have accumulated at least",
+                    "description3e": "2. Community Reward Booster:",
+                    "description3f": "The bigger everyone’s staking score is, the more the Community Reward Booster increases. The more the Community Reward Booster increases, the more the Season 2 Alpha Pass $SAND reward is increased for all. The Community Reward Booster is capped at a maximum of +100%. To reach this cap, the community staking score has to reach the target of",
+                    "description3g": "Examples:",
+                    "description3h": "- The S2AP base reward is 500 $SAND. If by the end of Alpha Season 2, the community staking score reached",
+                    "description3i": "- If by the end of Alpha Season 2, the community staking score reached",
+                    "text4": "Will I still get the same yield for staking $SAND during Alpha Season 2?",
+                    "description4": "Yes, the staking features related to Alpha Season 2 act as a bonus and will not impact the yield in any way. Your mSAND will not be locked for longer. Nothing changes with the staking feature itself. The “caps” related to Alpha Season 2 features have no impact on the yield at all.",
+                    "text5": "On which chain does the Community Reward Booster work?",
+                    "description5": "On Layer 2, but only on the mSAND staking program (not on the mSAND/MATIC program). The whole point of the feature is to incentivize mSAND staking on layer 2 to continue our transition to layer 2, which will be a great improvement to the game by reducing gas fees and making TSB a lot greener!",
+                    "text6": "How is the staking score calculated?",
+                    "description6a": "Again, you do not need to understand the math to make optimal use of this feature, but if you are curious, this is how it works:",
+                    "description6b": "You get",
+                    "description6c": "This number is a float, you will get exactly the amount of staking score points related to your staking contribution.",
+                    "description6d": "In details:",
+                    "description6e": "It is important to understand that both time and mSAND staked amount are taken into account to calculate the staking score.",
+                    "description6f": "1. Extra Raffle Tickets:",
+                    "description6g": "The cap is",
+                    "description6h": "2. Community Reward Booster:",
+                    "description6i": "The cap is",
+                    "description6j": "The total amount of staking score point for the community is just the sum of each user's staking score.",
+                    "description6k": "Please note that the amount of days that mSAND is staked does not have to be consecutive.",
+                    "text7": "Should I wait for Alpha Season 2 to begin to start staking mSAND?",
+                    "description7a": "You can start staking right now, you don’t have to wait. If you want to stake now, you definitely should. Might as well get your yield growing as soon as possible!",
+                    "description7b": "You will start to earn staking score points related to Alpha Season 2 features once the Alpha Season 2 starts, but we will simply look at how much you have previously staked at that moment and start calculating your score.",
+                    "description7c": "You do not need to wait for Alpha Season 2 to begin to start staking, and you do not need to withdraw and stake back your funds once Alpha Season 2 has started to optimize your staking score.",
+                    "description7d": "You, and the community, will not start earning staking score points until the Alpha Season 2 has started. The staking score points objectives, both individual",
                     "text8": "今説明しているのは$SANDステーキングですが、The Sandbox SAND/MATICステーキングプログラムはどうですか？",
                     "description8": "アルファシーズン2の機能は、SANDステーキングプールとのみリンクしています。SAND/MATICプログラムへのステーキングからは、アルファシーズン2に関連するボーナスは受け取れません。このプログラムはこれまでと同じように機能し、同じ利回りを生み出しますので放棄することはありませんが、アルファシーズン2との関連はありません。",
                     "text9": "ステーキングスコアポイントを失うことはありますか？",
                     "description9": "ステーキングスコアポイントが下がることはありません。獲得したポイントはご自身のものであり、コミュニティブースターの累計スコアとして加算されます。ステークを引きだした場合、ステーキングポイントの獲得が停止しますが、これまでに獲得したポイントを失うことはありません。",
                     "text10": "アルファが始まってすでに数週間経過していますが、今からステーキングを始めてもポイントを獲得できますか？もう遅いでしょうか？",
-                    "description10": "遅いということはありません。ステーキングの開始が遅くなれば、その分だけ$SANDをステーキングしなければ、最大数の抽選チケット (200枚) を獲得できないというだけです。それほどステーキングできず、アルファシーズン2が終了間近であっても、ステーキングした分の対価としての抽選チケットが手に入ります。抽選チケット200枚を獲得できるだけの時間および/またはリソースがないといっても、ステーキングしない理由にはなりません。ステーキング自体が、仮にアルファシーズン2のボーナスと関連がなくても、非常に有益な機能でなのです。"
+                    "description10": "遅いということはありません。ステーキングの開始が遅くなれば、その分だけ$SANDをステーキングしなければ、最大数の抽選チケット (200枚) を獲得できないというだけです。それほどステーキングできず、アルファシーズン2が終了間近であっても、ステーキングした分の対価としての抽選チケットが手に入ります。抽選チケット200枚を獲得できるだけの時間および/またはリソースがないといっても、ステーキングしない理由にはなりません。ステーキング自体が、仮にアルファシーズン2のボーナスと関連がなくても、非常に有益な機能でなのです。",
+                    "description3d1": "staking score points by the end of the Alpha Season 2.",
+                    "description3f1": "points.",
+                    "description3h1": "points or more, the Community Reward Booster will reach +100%. Therefore, the S2AP reward will be increased by +100% and reach 1,000 $SAND for all S2AP owners.",
+                    "description3i1": "points, the Community Reward Booster will reach +57%. Therefore, the S2AP reward will be increased by +57% and reach 785 $SAND (500 + 57% of 500) for all S2AP owners.",
+                    "description6b1": "staking score points for every 1 mSAND staked during 28 days.",
+                    "description6g1": "staking score points (to get 200 Raffle Tickets). For every 1 mSAND staked for the whole duration of the Alpha (28 days) you get",
+                    "description6g2": "staking score point.",
+                    "description6g3": "For example you will get:",
+                    "description6g4": "staking score point by staking 1 mSAND over 14 days",
+                    "description6g5": "staking score point by staking 2 mSAND over 28 days",
+                    "description6g6": "staking score point by staking 4 mSAND over 7 days",
+                    "description6i2": "collective cumulated staking score points (to get the Community Reward Booster to +100%).",
+                    "description7d1": "and collective",
+                    "description7d2": "have to be met in between the start and the end of the Alpha Season 2."
                 },
                 "progression": {
                     "title": "Progression",
@@ -1105,7 +1126,7 @@
                 "title": "抽選会",
                 "subtitle": "抽選会開催日は2022年3月31日です。",
                 "description": {
-                    "1": "アルファマップ上の",
+                    "1": "Earn Raffle Tickets by completing Quests inside each experience on the",
                     "2": "それぞれの体験でクエストを完了して",
                     "link": "抽選チケットを獲得"
                 },
@@ -1140,7 +1161,8 @@
                         "description": {
                             "1": "Look for",
                             "2": "yellow exclamation",
-                            "3": "marks inside the experiences to find quests"
+                            "3": "marks inside the experiences to find quests",
+                            "4": "Completed quests appears with a grey exclamation Mark"
                         }
                     },
                     "second": {
@@ -1220,7 +1242,7 @@
                     },
                     "4": {
                         "1": "コミュニティ全体のステーキングスコアは合算されて、報酬コミュニティブースターとなります。これによりメンバーが受け取るシーズン2アルファパス報酬が増加します。",
-                        "2": "最大で、報酬コミュニティブースターにより、報酬量が2倍になります (+100%)。"
+                        "2": "At its highest, the Reward Community Booster can DOUBLE the rewards (+100%)."
                     }
                 }
             },
@@ -1941,8 +1963,8 @@
                 "button": "Download"
             },
             "section5": {
-                "title": "装備をつけてアバターの属性を強化",
-                "subtitle": "近日登場",
+                "title": "Boost your Avatar's attributes with Equipment",
+                "subtitle": "Equip your avatar and get special skills",
                 "part1": {
                     "title": "アバターを装備して特殊能力を入手。",
                     "text1": "各アバターには、自分の能力を特徴づける一連の属性が揃っていてます",
@@ -1962,7 +1984,9 @@
                     "title1": "Coming Soon",
                     "title2": "Customize it",
                     "description1": "Quickly combine different outfits, hairstyles and colors to create a unique style."
-                }
+                },
+                "text1": "All avatars come with specific set of Attributes that define their abilities in The Sandbox Game Maker: Power, Defense, Speed and Magic.",
+                "text2": "Want a stronger avatar? Visit the Marketplace and choose the right weapon, from thousands of options created by the Community. They will soon become available."
             },
             "user": {
                 "signin": "サインイン",
@@ -2220,7 +2244,17 @@
             "section6": {
                 "title": "What are you waiting for?",
                 "description": "Join the Community of thousands of users that have already registered in The Sandbox with their unique avatars.",
-                "buttonText": "Create Avatar"
+                "buttonText": "Create Avatar",
+                "part1": {
+                    "title1": "Create custom Equipment with VoxEdit",
+                    "description1": "Equipment are Tokens that can be traded. They have Catalysts and Gems just as other assets do. Yes, you can also create and mint Equipment through VoxEdit!",
+                    "button": "Learn more"
+                },
+                "part2": {
+                    "title1": "Coming Soon",
+                    "title2": "Customize it",
+                    "description1": "Quickly combine different outfits, hairstyles and colors to create a unique style."
+                }
             },
             "old": {
                 "section1": {
@@ -2277,6 +2311,11 @@
                     "description": "何千人というユーザーが、『The Sandbox』に自分のアバターをすでに登録しています。このコミュニティに参加しましょう。",
                     "buttonText": "今すぐアバターを作成"
                 }
+            },
+            "section7": {
+                "title": "What are you waiting for?",
+                "description": "Join the Community of thousands of users that have already registered in The Sandbox with their unique avatars.",
+                "buttonText": "Create Avatar"
             }
         }
     },
@@ -2416,7 +2455,8 @@
             "warnermusic": "Warner Music",
             "gucci": "Gucci",
             "web3": "Web 3",
-            "ubisoft": "Ubisoft"
+            "ubisoft": "Ubisoft",
+            "avex": "Metavex"
         },
         "booked": "予約者：",
         "visit": "サイトにアクセス",
@@ -2511,7 +2551,7 @@
         },
         "alpha": {
             "text1": "The Metaverse is open to Everyone, select an experience on the map and click Play!",
-            "text2": "You can win an Alpha Pass by joining daily contests on social media (Twitter, Discord, Twitch)",
+            "text2": "You can win a Season 2 Alpha Pass by joining daily contests on social media (Twitter, Twitch)",
             "text3": "The Alpha will be open until March 31",
             "text4": "This is an open Alpha, please share your feedback and help us improving the Metaverse",
             "text5": "All the experiences at the Alpha were built using VoxEdit and Game Maker. You can build our own experience!",
@@ -3159,7 +3199,8 @@
                 "title": "Ups!",
                 "description1": "あなたのウォレットは優先リストに入っていません！",
                 "description2": "このセクションにアクセスできません。"
-            }
+            },
+            "effects": "Disable Effects"
         },
         "loginModal": {
             "title": "ログインまたはアカウントの作成",
@@ -4690,7 +4731,7 @@
                     "title": "Reward Booster",
                     "text": "and increse the total prize pool.",
                     "tooltipTitle": "More info:",
-                    "tooltipStart": "1 Community Booster point is earned for each ",
+                    "tooltipStart": "{stakingMultiplier} Community Booster point is earned for each ",
                     "tooltipEnd": "staked for the whole Season 2 duration (28 days)."
                 },
                 "extraRaffle": {
@@ -4700,7 +4741,7 @@
                     "tooltipStart": "extra Raffle Ticket for every",
                     "tooltipEnd": "mSAND you stake during the whole Season 2 duration (28 days). 200 Raffle Tickets maximum."
                 },
-                "infoStart": "points are earned for each",
+                "infoStart": "{stakingMultiplier} points are earned for each",
                 "infoEnd": "staked for the whole season."
             }
         }
@@ -5265,7 +5306,11 @@
                             "6": "You will also get up to 200 extra Raffle Tickets",
                             "7": "for staking"
                         },
-                        "button": "Boost Rewards"
+                        "button": "Boost Rewards",
+                        "booster": {
+                            "title": "Community Booster*",
+                            "sand": "SAND"
+                        }
                     }
                 }
             },
