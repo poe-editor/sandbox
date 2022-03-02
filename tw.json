@@ -568,9 +568,9 @@
                     "buyButton": "購買",
                     "claimRewards": "領取獎勵",
                     "claimRewardsDescription": "獎勵領取日期為：",
-                    "claimRewardsDescription2": "3 月 25 日。",
+                    "claimRewardsDescription2": "April 1.",
                     "moreInfo": "更多資訊",
-                    "freeToPlay": "免費遊戲",
+                    "freeToPlay": "Raffle Tickets",
                     "alphaPass": "Alpha 通行證",
                     "locked": "已鎖定",
                     "summary": "摘要",
@@ -630,9 +630,11 @@
                     "enterThePartyDescription": "在 3 月 24 日週四下午 7 點參加 VIP 派對",
                     "seasonOverDescription4": "",
                     "communityBoosterDescription4": "透過質押",
-                    "communityBoosterDescription5": "在整個賽季中，每質押一個",
+                    "communityBoosterDescription5": "{stakingMultiplier} point is earned for each",
                     "communityBoosterDescription6": "就會獲得 1 分。",
-                    "enterThePartyDescription2": "Enter to be part of the VIP Party for Pass holders only!"
+                    "enterThePartyDescription2": "Enter to be part of the VIP Party for Pass holders only!",
+                    "raffleTitle4": "",
+                    "lockedDesc": "You need a Season 2 Alpha Pass to claim the $SAND reward at the end of Alpha Season 2."
                 },
                 "timeRewards": "距離領取獎勵還有",
                 "raffleResults": "距離開獎還有：",
@@ -654,7 +656,7 @@
                 "stakingDesc": "質押即可獲得",
                 "snoop": "Snoop Dogg 私人派對通行證",
                 "nftDesc": "擁有此非同質化代幣即可獲得",
-                "snoop2": "Snoopers 早鳥通行證",
+                "snoop2": "Snoopverse Early Access Pass",
                 "season1": "第 1 季 Alpha 通行證",
                 "land": "擁有 LAND 即可獲得",
                 "total": "你的總抽獎券",
@@ -663,7 +665,7 @@
                 "notTraded": "抽獎券不是非同質化代幣，且",
                 "notTraded2": "無法在次級市場交易",
                 "questTooltipDesc": "You get Raffle tickets everytime you level up. The amount of tickets per level is indicated in the Rewards tab.",
-                "stakeTooltipDesc": "Get 1 extra Raffle Tickets for every [stakingAmount/stakingMultiplier] mSAND you stake during the whole Season 2 duration (28 days). 200 Raffle Tickets maximum.",
+                "stakeTooltipDesc": "Get 1 extra Raffle Tickets for every {ticketAmount} mSAND you stake during the whole Season 2 duration (28 days). 200 Raffle Tickets maximum.",
                 "snoopTooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoop Dogg Private Party Pass NFT. You need to own the NFT in your wallet when the Raffle starts (March 31).",
                 "snoop2TooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoopverse Early Access Pass NFT. You need to own the NFT in your wallet when the Raffle starts (March 31).",
                 "alphaTooltipDesc": "Get 30 extra Raffle Tickets by owning the Season 1 Alpha Pass (NFT name: Alpha Pass). You need to own the NFT in your wallet when the Raffle starts (March 31).",
@@ -800,12 +802,12 @@
                     "text3": "我最多可得到幾張抽獎券？",
                     "description4": "會。在 Alpha 第 2 季結束前、抽獎開始時，你錢包中的每塊 LAND 都能讓你得到 40 張抽獎券。抽獎券上限為 200 張 (即 5 塊 LAND)。這會大幅增加你的中獎機率，但不保證獲獎。",
                     "text4": "如果我是 LAND 擁有者，我贏得 Alpha 通行證的機率會比較高嗎？",
-                    "description5": "會。在 Alpha 第 2 季結束前、抽獎開始時，若你的錢包有第 1 季 Alpha 通行證，即可獲得額外 90 張抽獎券。此數量無法累計，每個錢包只會有一張第 1 季 Alpha 通行證能為你換來額外抽獎券。",
+                    "description5": "Yes. You get 130 extra Raffle Tickets if you have a Season 1 Alpha Pass in your wallet by the end of the Alpha Season 2 when the Raffle starts. This is not cumulative, only one S1AP per wallet will count for extra Raffle Tickets.",
                     "text0": "如果內容全面開放，那 Alpha 通行證有什麼意義？",
                     "description0": "$SAND 獎勵！只有 Alpha 通行證擁有者能在 Alpha 第 2 季結束時領取第 2 季 Alpha 獎勵。每張第 2 季 Alpha 通行證的獎勵最高可達 1,000 $SAND。",
                     "description1": "There are 3 ways of winning a S2 Alpha Pass:",
                     "description3a": "請查看「抽獎券」頁面瞭解更多詳情。",
-                    "description3b": "若你妥善開發所有來源，一共能贏得最多 1,000 張抽獎券。",
+                    "description3b": "In total, you can earn up to 1100 Raffle Tickets if you max out every source.",
                     "text5": "如果我擁有第 1 季 Alpha 通行證，我贏得第 2 季 Alpha 通行證的機率會更大嗎？",
                     "text6": "如果我有參加 Alpha 第 1 季但沒有留下第 1 季 Alpha 通行證，我贏得第 2 季 Alpha 通行證的機率會更大嗎？",
                     "description6": "不會。你要擁有第 1 季 Alpha 通行證才能獲得相關的額外抽獎券。",
@@ -879,7 +881,12 @@
                         "pc1": "作業系統：Windows 10 64bit",
                         "pc2": "GPU：NVIDIA GeForce GTX 760 或更高規格",
                         "pc3": "CPU：i5-8400 或更高規格 (需 AVX 支援)",
-                        "pc4": "RAM：8192Mb 或更高"
+                        "pc4": "RAM：8192Mb 或更高",
+                        "mac": "Minimum model: MacBookPro14,2 or newer (or 2017 Mac Mini/Desktop equivalents)",
+                        "mac1": "SO : MAC OS 10.13 or newer",
+                        "mac2": "GPU : HD4000 equivalent or newer",
+                        "mac3": "CPU : 3.1GHz dual-core Intel Core i5 or newer",
+                        "mac4": "RAM : 8192Mb or more"
                     },
                     "description1a": "你需在 Windows 或 MAC 作業系統 (第 2 季現已支援！) 上玩本遊戲",
                     "description1b": "你也需要持續運作的網路連線。",
@@ -1020,39 +1027,53 @@
                     "description3a": "這項功能有點複雜，但你不必瞭解箇中運作方式也能完全發揮其作用，不過您還是可以參考以下詳情：",
                     "description3b": "1. 額外抽獎券：",
                     "description3c": "質押 $SAND 的數量越多、時間越長，「質押點數」就會增加。你擁有的質押點數越高，就能獲得越多抽獎券。",
-                    "description3d": "若要透過質押功能爭取最多張抽獎券 (張數上限為 200 張，而所有功能可獲得的張數總計上限為 1,000 張)，你需在 Alpha 第 2 季結束前累積至少 2,000 質押點數。",
-                    "description3e": "2. 社群獎勵加速器：",
-                    "description3f": "全體社群玩家質押點數越大，社群獎勵加速器就會增加得越多。社群獎勵加速器增加得越多，全體社群玩家可領取的第 2 季 Alpha 通行證 $SAND 獎勵就會越多。",
-                    "description3g": "範例：",
-                    "description3h": "- 第 2 季 Alpha 通行證基本獎勵為 500 $SAND。若社群的質押點數在 Alpha 第 2 季結束前達到 100,000,000 點或以上，社群獎勵加速器就會達到 +100%。因此，第 2 季 Alpha 通行證獎勵將會增加 +100%，全體第 2 季 Alpha 通行證持有者的獎勵即可達到 1,000 $SAND。",
-                    "description3i": "- 若在第 2 季 Alpha 通行證結束前，社群質押點數達到 57,000,000 點，則社群獎勵加速器就會達到 +57%。因此，第 2 季 Alpha 通行證獎勵將會增加 +57%，全體第 2 季 Alpha 通行證擁有者的獎勵即可達到 785 $SAND (500 + 500 的 57%)。",
-                    "text4": "在 Alpha 第 2 季期間質押 $SAND，獲得的利潤還是一樣嗎？",
-                    "description4": "是的，Alpha 第 2 季相關的質押功能是額外獎勵，不會對利潤造成任何影響。你的 $SAND 鎖定時間也不會更長。質押功能本身沒有任何變動。Alpha 第 2 季功能相關的「上限」對利潤也不會造成任何影響。",
-                    "text5": "社群獎勵加速器在哪個鏈上運作？",
-                    "description5": "在 Layer 2，但只在 SAND 質押計劃運作 (不在 SAND/MATIC 計劃運作)。這項功能的重點在於刺激 Layer 2 的 $SAND 質押，以繼續我們往 Layer 2 的過渡期。這麼做會減少礦工費，使《The Sandbox》更加環保，大幅改進遊戲！",
-                    "text6": "質押點數如何計算？",
-                    "description6a": "請讓我們再強調一次，你不需要理解計算方式也能完全發揮其作用，但如果你很好奇，請參考以下計算方式：",
-                    "description6b": "28 天期間，每質押 1 $SAND 就能獲得 5 質押點數。",
-                    "description6c": "此數字為浮數，你實際獲得的質押點數與你的質押貢獻有關。",
-                    "description6d": "細節：",
-                    "description6e": "請務必瞭解時間和 $SAND 質押數量都會列入計算質押點數的考量。",
-                    "description6f": "1. 額外抽獎券：",
-                    "description6g": "上限為 2,000 質押點數 (可獲得 200 張抽獎券)。若要達到上限，舉例來說，你可以質押 400 $SAND (或以上) 28 天，或是 800 $SAND 14 天，或是 1600 $SAND 7 天。",
-                    "description6h": "2. 社群獎勵加速器：",
-                    "description6i": "共同累計的質押點數上限為 100,000,000 (將社群獎勵加速器提升至 +100%)。舉例來說，若要達到此點數，社群可以質押 20,000,000 $SAND (或更多) 28 天，或 40,000,000 $SAND 14 天，或 80,000,000 $SAND 7 天。",
-                    "description6j": "當然，實際數字不會那麼工整，這只是讓你對計算方式有個大致的概念。",
-                    "description6k": "請注意，$SAND 的質押天數不必為連續天數。",
-                    "text7": "我該等到 Alpha 第 2 季開始再質押 $SAND 嗎？",
-                    "description7a": "你可以立即開始質押，不需等待。",
-                    "description7b": "你會在 Alpha 第 2 季開始時獲得 Alpha 第 2 季功能相關的質押點數，但我們只會查看你當下的先前已質押數量，再據此開始計算點數。",
-                    "description7c": "你不需等到 Alpha 第 2 季開始再開始質押，也不需在 Alpha 第 2 季開始後將資金先行提領再回頭質押，也能最大化你的質押點數。",
-                    "description7d": "你及社群在 Alpha 第 2 季開始前都不會獲得質押點數。質押點數目標 (個人為 200 點或集體為 20,000,000 點) 必須在 Alpha 第 2 季開始到結束期間達成。",
+                    "description3d": "To get the maximum number of Raffle Tickets from the staking feature (200) you need to have accumulated at least",
+                    "description3e": "2. Community Reward Booster:",
+                    "description3f": "The bigger everyone’s staking score is, the more the Community Reward Booster increases. The more the Community Reward Booster increases, the more the Season 2 Alpha Pass $SAND reward is increased for all. The Community Reward Booster is capped at a maximum of +100%. To reach this cap, the community staking score has to reach the target of",
+                    "description3g": "Examples:",
+                    "description3h": "- The S2AP base reward is 500 $SAND. If by the end of Alpha Season 2, the community staking score reached",
+                    "description3i": "- If by the end of Alpha Season 2, the community staking score reached",
+                    "text4": "Will I still get the same yield for staking $SAND during Alpha Season 2?",
+                    "description4": "Yes, the staking features related to Alpha Season 2 act as a bonus and will not impact the yield in any way. Your mSAND will not be locked for longer. Nothing changes with the staking feature itself. The “caps” related to Alpha Season 2 features have no impact on the yield at all.",
+                    "text5": "On which chain does the Community Reward Booster work?",
+                    "description5": "On Layer 2, but only on the mSAND staking program (not on the mSAND/MATIC program). The whole point of the feature is to incentivize mSAND staking on layer 2 to continue our transition to layer 2, which will be a great improvement to the game by reducing gas fees and making TSB a lot greener!",
+                    "text6": "How is the staking score calculated?",
+                    "description6a": "Again, you do not need to understand the math to make optimal use of this feature, but if you are curious, this is how it works:",
+                    "description6b": "You get",
+                    "description6c": "This number is a float, you will get exactly the amount of staking score points related to your staking contribution.",
+                    "description6d": "In details:",
+                    "description6e": "It is important to understand that both time and mSAND staked amount are taken into account to calculate the staking score.",
+                    "description6f": "1. Extra Raffle Tickets:",
+                    "description6g": "The cap is",
+                    "description6h": "2. Community Reward Booster:",
+                    "description6i": "The cap is",
+                    "description6j": "The total amount of staking score point for the community is just the sum of each user's staking score.",
+                    "description6k": "Please note that the amount of days that mSAND is staked does not have to be consecutive.",
+                    "text7": "Should I wait for Alpha Season 2 to begin to start staking mSAND?",
+                    "description7a": "You can start staking right now, you don’t have to wait. If you want to stake now, you definitely should. Might as well get your yield growing as soon as possible!",
+                    "description7b": "You will start to earn staking score points related to Alpha Season 2 features once the Alpha Season 2 starts, but we will simply look at how much you have previously staked at that moment and start calculating your score.",
+                    "description7c": "You do not need to wait for Alpha Season 2 to begin to start staking, and you do not need to withdraw and stake back your funds once Alpha Season 2 has started to optimize your staking score.",
+                    "description7d": "You, and the community, will not start earning staking score points until the Alpha Season 2 has started. The staking score points objectives, both individual",
                     "text8": "你們只談到 $SAND 質押，那《The Sandbox》SAND/MATIC 質押計劃呢？",
                     "description8": "Alpha 第 2 季功能僅連結 SAND 質押池。對 SAND/MATIC 計劃質押無法獲得任何 Alpha 第 2 季相關的額外獎勵。此計劃將如往常運作並產生同樣利潤，我們並沒有放棄該計劃，只是該計劃與 Alpha 第 2 季無關。",
                     "text9": "我會失去質押點數嗎？",
                     "description9": "不會，此數字不會減少。這是你為自己贏得的點數，也會計入社群加速器的累計點數中。若提領質押即會停止賺取質押點數，但不會失去已贏得的點數。",
                     "text10": "Alpha 已經開始幾個星期了，我現在開始質押還有意義嗎？會不會太晚？",
-                    "description10": "絕對不會。若你想透過質押爭取最多抽獎券 (200 張)，則越晚質押就需要質押更多 $SAND。即使你並未質押這麼多，Alpha 第 2 季又眼看快要結束，你還是能透過質押獲得一些抽獎券。並不是說你的時間和/或資源不足以爭取到 200 張抽獎券上限，就認為獲得較少量的抽獎券沒有意義。此外，即便質押與 Alpha 第 2 季額外獎勵無關，質押本身就是高利潤的功能。"
+                    "description10": "絕對不會。若你想透過質押爭取最多抽獎券 (200 張)，則越晚質押就需要質押更多 $SAND。即使你並未質押這麼多，Alpha 第 2 季又眼看快要結束，你還是能透過質押獲得一些抽獎券。並不是說你的時間和/或資源不足以爭取到 200 張抽獎券上限，就認為獲得較少量的抽獎券沒有意義。此外，即便質押與 Alpha 第 2 季額外獎勵無關，質押本身就是高利潤的功能。",
+                    "description3d1": "staking score points by the end of the Alpha Season 2.",
+                    "description3f1": "points.",
+                    "description3h1": "points or more, the Community Reward Booster will reach +100%. Therefore, the S2AP reward will be increased by +100% and reach 1,000 $SAND for all S2AP owners.",
+                    "description3i1": "points, the Community Reward Booster will reach +57%. Therefore, the S2AP reward will be increased by +57% and reach 785 $SAND (500 + 57% of 500) for all S2AP owners.",
+                    "description6b1": "staking score points for every 1 mSAND staked during 28 days.",
+                    "description6g1": "staking score points (to get 200 Raffle Tickets). For every 1 mSAND staked for the whole duration of the Alpha (28 days) you get",
+                    "description6g2": "staking score point.",
+                    "description6g3": "For example you will get:",
+                    "description6g4": "staking score point by staking 1 mSAND over 14 days",
+                    "description6g5": "staking score point by staking 2 mSAND over 28 days",
+                    "description6g6": "staking score point by staking 4 mSAND over 7 days",
+                    "description6i2": "collective cumulated staking score points (to get the Community Reward Booster to +100%).",
+                    "description7d1": "and collective",
+                    "description7d2": "have to be met in between the start and the end of the Alpha Season 2."
                 },
                 "progression": {
                     "title": "Progression",
@@ -1105,7 +1126,7 @@
                 "title": "抽獎",
                 "subtitle": "抽獎會在 2022 年 3 月 31 日進行。",
                 "description": {
-                    "1": "在 Alpha 地圖中",
+                    "1": "Earn Raffle Tickets by completing Quests inside each experience on the",
                     "2": "完成各項體驗中的任務，",
                     "link": "即可贏得抽獎券。"
                 },
@@ -1140,7 +1161,8 @@
                         "description": {
                             "1": "Look for",
                             "2": "yellow exclamation",
-                            "3": "marks inside the experiences to find quests"
+                            "3": "marks inside the experiences to find quests",
+                            "4": "Completed quests appears with a grey exclamation Mark"
                         }
                     },
                     "second": {
@@ -1220,7 +1242,7 @@
                     },
                     "4": {
                         "1": "我們會加總整個社群的質押點數來建立獎勵社群加速器，為全體社群加碼第 2 季 Alpha 通行證的獎勵。",
-                        "2": "點數達最高，獎勵社群加速器就能「倍翻」獎勵 (+100%)。"
+                        "2": "At its highest, the Reward Community Booster can DOUBLE the rewards (+100%)."
                     }
                 }
             },
@@ -1941,8 +1963,8 @@
                 "button": "Download"
             },
             "section5": {
-                "title": "使用裝備強化你虛擬化身的屬性",
-                "subtitle": "即將推出",
+                "title": "Boost your Avatar's attributes with Equipment",
+                "subtitle": "Equip your avatar and get special skills",
                 "part1": {
                     "title": "為你的虛擬化身換上裝備，並取得特殊技能。",
                     "text1": "所有虛擬化身的技能都是根據",
@@ -1962,7 +1984,9 @@
                     "title1": "Coming Soon",
                     "title2": "Customize it",
                     "description1": "Quickly combine different outfits, hairstyles and colors to create a unique style."
-                }
+                },
+                "text1": "All avatars come with specific set of Attributes that define their abilities in The Sandbox Game Maker: Power, Defense, Speed and Magic.",
+                "text2": "Want a stronger avatar? Visit the Marketplace and choose the right weapon, from thousands of options created by the Community. They will soon become available."
             },
             "user": {
                 "signin": "サインイン",
@@ -2220,7 +2244,17 @@
             "section6": {
                 "title": "What are you waiting for?",
                 "description": "Join the Community of thousands of users that have already registered in The Sandbox with their unique avatars.",
-                "buttonText": "Create Avatar"
+                "buttonText": "Create Avatar",
+                "part1": {
+                    "title1": "Create custom Equipment with VoxEdit",
+                    "description1": "Equipment are Tokens that can be traded. They have Catalysts and Gems just as other assets do. Yes, you can also create and mint Equipment through VoxEdit!",
+                    "button": "Learn more"
+                },
+                "part2": {
+                    "title1": "Coming Soon",
+                    "title2": "Customize it",
+                    "description1": "Quickly combine different outfits, hairstyles and colors to create a unique style."
+                }
             },
             "old": {
                 "section1": {
@@ -2277,6 +2311,11 @@
                     "description": "已有數千名使用者使用獨一無二的虛擬化身註冊《The Sandbox》，快來加入他們的使用者社群吧。",
                     "buttonText": "立即創造虛擬化身"
                 }
+            },
+            "section7": {
+                "title": "What are you waiting for?",
+                "description": "Join the Community of thousands of users that have already registered in The Sandbox with their unique avatars.",
+                "buttonText": "Create Avatar"
             }
         }
     },
@@ -2416,7 +2455,8 @@
             "warnermusic": "Warner Music",
             "gucci": "Gucci",
             "web3": "Web 3",
-            "ubisoft": "Ubisoft"
+            "ubisoft": "Ubisoft",
+            "avex": "Metavex"
         },
         "booked": "預訂者",
         "visit": "造訪網站",
@@ -2511,7 +2551,7 @@
         },
         "alpha": {
             "text1": "The Metaverse is open to Everyone, select an experience on the map and click Play!",
-            "text2": "You can win an Alpha Pass by joining daily contests on social media (Twitter, Discord, Twitch)",
+            "text2": "You can win a Season 2 Alpha Pass by joining daily contests on social media (Twitter, Twitch)",
             "text3": "The Alpha will be open until March 31",
             "text4": "This is an open Alpha, please share your feedback and help us improving the Metaverse",
             "text5": "All the experiences at the Alpha were built using VoxEdit and Game Maker. You can build our own experience!",
@@ -3159,7 +3199,8 @@
                 "title": "Ups!",
                 "description1": "你的錢包尚未加入許可名單！",
                 "description2": "你沒有進入此部分的權限。"
-            }
+            },
+            "effects": "Disable Effects"
         },
         "loginModal": {
             "title": "登入或建立帳戶",
@@ -4690,7 +4731,7 @@
                     "title": "Reward Booster",
                     "text": "and increse the total prize pool.",
                     "tooltipTitle": "More info:",
-                    "tooltipStart": "1 Community Booster point is earned for each ",
+                    "tooltipStart": "{stakingMultiplier} Community Booster point is earned for each ",
                     "tooltipEnd": "staked for the whole Season 2 duration (28 days)."
                 },
                 "extraRaffle": {
@@ -4700,7 +4741,7 @@
                     "tooltipStart": "extra Raffle Ticket for every",
                     "tooltipEnd": "mSAND you stake during the whole Season 2 duration (28 days). 200 Raffle Tickets maximum."
                 },
-                "infoStart": "points are earned for each",
+                "infoStart": "{stakingMultiplier} points are earned for each",
                 "infoEnd": "staked for the whole season."
             }
         }
@@ -5197,10 +5238,10 @@
                 }
             },
             "modal": {
-                "title": "The Alpha Season 2 will start soon.",
+                "title": "Alpha 第 2 季即將開始。",
                 "description": {
-                    "1": "You will receive more information and details about Alpha Season 2 by email soon.",
-                    "2": "You will receive more information and details about Alpha Season 2 by email soon."
+                    "1": "你很快就能透過電子郵件收到更多 Alpha 第 2 季相關資訊與詳情。",
+                    "2": "你將能搶先掌握最新消息！"
                 },
                 "button": "瞭解"
             },
@@ -5265,7 +5306,11 @@
                             "6": "You will also get up to 200 extra Raffle Tickets",
                             "7": "for staking"
                         },
-                        "button": "Boost Rewards"
+                        "button": "Boost Rewards",
+                        "booster": {
+                            "title": "Community Booster*",
+                            "sand": "SAND"
+                        }
                     }
                 }
             },
