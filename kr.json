@@ -568,9 +568,9 @@
                     "buyButton": "구매",
                     "claimRewards": "리워드 받기",
                     "claimRewardsDescription": "3월 25일에",
-                    "claimRewardsDescription2": "리워드를 수령하세요.",
+                    "claimRewardsDescription2": "April 1.",
                     "moreInfo": "자세히 알아보기",
-                    "freeToPlay": "무료 플레이",
+                    "freeToPlay": "Raffle Tickets",
                     "alphaPass": "알파 패스",
                     "locked": "잠김",
                     "summary": "요약",
@@ -630,9 +630,11 @@
                     "enterThePartyDescription": "3월 24일 목요일 오후 7시 VIP 파티에 참여하세요",
                     "seasonOverDescription4": "",
                     "communityBoosterDescription4": "스테이킹해서",
-                    "communityBoosterDescription5": "전체 시즌 동안 스테이킹하는",
+                    "communityBoosterDescription5": "{stakingMultiplier} point is earned for each",
                     "communityBoosterDescription6": "한 개마다 1포인트를 얻게 됩니다.",
-                    "enterThePartyDescription2": "Enter to be part of the VIP Party for Pass holders only!"
+                    "enterThePartyDescription2": "Enter to be part of the VIP Party for Pass holders only!",
+                    "raffleTitle4": "",
+                    "lockedDesc": "You need a Season 2 Alpha Pass to claim the $SAND reward at the end of Alpha Season 2."
                 },
                 "timeRewards": "리워드 수령까지 남은 기간:",
                 "raffleResults": "추첨 결과 발표까지 남은 시간:",
@@ -654,7 +656,7 @@
                 "stakingDesc": "스테이킹으로 획득",
                 "snoop": "스눕독 프라이빗 파티 패스",
                 "nftDesc": "추첨일에 해당 NFT를 소유하고 있을 경우 획득",
-                "snoop2": "스누퍼 얼리 액세스 패스",
+                "snoop2": "Snoopverse Early Access Pass",
                 "season1": "시즌 1 알파 패스",
                 "land": "LAND를 소유하여 획득",
                 "total": "총 추첨 티켓",
@@ -663,7 +665,7 @@
                 "notTraded": "추첨 티켓은 NFT가 아니며,",
                 "notTraded2": "2차 마켓에서 거래할 수 없음",
                 "questTooltipDesc": "You get Raffle tickets everytime you level up. The amount of tickets per level is indicated in the Rewards tab.",
-                "stakeTooltipDesc": "Get 1 extra Raffle Tickets for every [stakingAmount/stakingMultiplier] mSAND you stake during the whole Season 2 duration (28 days). 200 Raffle Tickets maximum.",
+                "stakeTooltipDesc": "Get 1 extra Raffle Tickets for every {ticketAmount} mSAND you stake during the whole Season 2 duration (28 days). 200 Raffle Tickets maximum.",
                 "snoopTooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoop Dogg Private Party Pass NFT. You need to own the NFT in your wallet when the Raffle starts (March 31).",
                 "snoop2TooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoopverse Early Access Pass NFT. You need to own the NFT in your wallet when the Raffle starts (March 31).",
                 "alphaTooltipDesc": "Get 30 extra Raffle Tickets by owning the Season 1 Alpha Pass (NFT name: Alpha Pass). You need to own the NFT in your wallet when the Raffle starts (March 31).",
@@ -800,12 +802,12 @@
                     "text3": "획득할 수 있는 추첨 티켓은 최대 몇 개인가요?",
                     "description4": "네, 추첨이 시작되는 알파 시즌 2 종료 시점에 지갑에 보유한 LAND 1개당 40개의 추첨 티켓이 주어집니다. 최대 한도는 200개 (LAND 5개)입니다. LAND가 있으면 당첨 확률이 크게 증가하지만 당첨이 보장되지는 않습니다.",
                     "text4": "LAND를 보유하고 있다면 알파 패스를 받을 확률이 증가하나요?",
-                    "description5": "네, 추첨이 시작되는 알파 시즌 2 종료 시점에 지갑에 시즌 1 알파 패스를 보유하고 있다면 90개의 추첨 티켓이 추가로 주어집니다. 다수의 시즌 1 알파 패스를 보유하고 있어도 주어지는 추첨 티켓의 수는 누적되지 않으며, 지갑당 한 개의 시즌 1 알파 패스로만 계산됩니다.",
+                    "description5": "Yes. You get 130 extra Raffle Tickets if you have a Season 1 Alpha Pass in your wallet by the end of the Alpha Season 2 when the Raffle starts. This is not cumulative, only one S1AP per wallet will count for extra Raffle Tickets.",
                     "text0": "누구나 이용할 수 있는데 알파 패스가 왜 필요한가요?",
                     "description0": "알파 패스에는 $SAND 리워드가 주어집니다. 알파 시즌 2 종료 후, 알파 패스를 보유하고 있는 유저만 시즌 2 알파 리워드를 받을 수 있습니다. 리워드는 시즌 2 알파 패스 한 개당 최대 1,000 $SAND입니다.",
                     "description1": "There are 3 ways of winning a S2 Alpha Pass:",
                     "description3a": "자세한 내용은 '추첨 티켓' 탭을 확인하세요.",
-                    "description3b": "획득 가능한 곳에서 최대로 획득할 수 있는 티켓 수는 1,000개입니다.",
+                    "description3b": "In total, you can earn up to 1100 Raffle Tickets if you max out every source.",
                     "text5": "시즌 1 알파 패스를 소유하면 시즌 2 알파 패스를 받을 확률이 증가하나요?",
                     "text6": "알파 시즌 1에 참여했지만 시즌 1 알파 패스를 가지고 있지 않으면 시즌 2 알파 패스를 받을 확률이 증가하나요?",
                     "description6": "아니요. 추가로 추첨 티켓을 받으려면 시즌 1 알파 패스를 보유해야 합니다.",
@@ -879,7 +881,12 @@
                         "pc1": "OS: Windows 10 64비트",
                         "pc2": "GPU: NVIDIA GeForce GTX 760 이상",
                         "pc3": "CPU: i5-8400 이상(AVX 지원 필요)",
-                        "pc4": "RAM: 8,192Mb 이상"
+                        "pc4": "RAM: 8,192Mb 이상",
+                        "mac": "Minimum model: MacBookPro14,2 or newer (or 2017 Mac Mini/Desktop equivalents)",
+                        "mac1": "SO : MAC OS 10.13 or newer",
+                        "mac2": "GPU : HD4000 equivalent or newer",
+                        "mac3": "CPU : 3.1GHz dual-core Intel Core i5 or newer",
+                        "mac4": "RAM : 8192Mb or more"
                     },
                     "description1a": "Windows 또는 MacOS(시즌 2에서 새롭게 지원됩니다)에서 플레이해야 합니다.",
                     "description1b": "또한 안정적인 인터넷 연결이 필요합니다.",
@@ -1020,39 +1027,53 @@
                     "description3a": "이 기능은 조금 복잡하지만 이 기능을 최대한 활용하기 위해 원리까지 이해할 필요는 없습니다. 그러나 아래에서 자세한 내용을 확인할 수 있습니다.",
                     "description3b": "1. 추가 추첨 티켓:",
                     "description3c": "$SAND를 많이, 오래 스테이킹할수록 '스테이킹 점수'가 높아집니다. 스테이킹 점수가 높을수록 더 많은 추첨 티켓을 획득할 수 있습니다.",
-                    "description3d": "스테이킹 기능으로 최대한 많은 티켓(200개, 모든 획득처에서 획득할 수 있는 총 개수는 1,000개)을 획득하려면 알파 시즌 2가 끝날 때까지 누적 스테이킹 점수가 최소 2,000점이어야 합니다.",
-                    "description3e": "2. 커뮤니티 리워드 부스터:",
-                    "description3f": "모두의 스테이킹 점수가 높을수록 커뮤니티 리워드 부스터가 더 강력해집니다. 커뮤니티 리워드 부스터가 강력해질수록 모두의 시즌 2 알파 패스 $SAND 리워드가 더 많아집니다.",
-                    "description3g": "예:",
-                    "description3h": "- 시즌 2 알파 패스 기본 리워드는 500 $SAND입니다. 알파 시즌 2가 끝날 때까지 커뮤니티의 스테이킹 점수가 100,000,000점 이상이 되면 커뮤니티 리워드 부스터는 +100%가 됩니다. 따라서 시즌 2 알파 패스 리워드가 +100% 늘어나므로 모든 시즌 2 알파 패스 소유자가 1,000 $SAND를 받게 됩니다.",
-                    "description3i": "- 알파 시즌 2가 끝날 때까지 커뮤니티의 스테이킹 점수가 57,000,000점이 되면 커뮤니티 리워드 부스터는 +57%가 됩니다. 따라서 시즌 2 알파 패스 리워드가 +57% 늘어나므로 모든 시즌 2 알파 패스 소유자가 785 $SAND(500 + 500의 57%)를 받게 됩니다.",
-                    "text4": "알파 시즌 2 진행 중에 $SAND를 스테이킹하면 같은 수익을 얻을 수 있나요?",
-                    "description4": "네, 알파 시즌 2에서 스테이킹 기능은 보너스 역할을 하며 수익에 영향을 미치지 않습니다. $SAND가 더 오래 잠기지 않습니다. 스테이킹 기능 그 자체에 변경되는 사항은 없습니다. 알파 시즌 2 기능과 관련된 '한도'는 수익에 전혀 영향을 미치지 않습니다.",
-                    "text5": "커뮤니티 리워드 부스터가 어느 체인에서 적용되나요?",
-                    "description5": "레이어 2에서 적용됩니다. 그러나 SAND/MATIC 프로그램이 아닌 SAND 스테이킹 프로그램에만 해당합니다. 이 기능은 레이어 2에서 $SAND 스테이킹을 장려하여 레이어 2로의 이전을 계속하도록 하는 것이 목적입니다. 그러면 가스 수수료가 낮아지며 더 샌드박스는 더 친환경적인 모습이 되어 게임이 크게 향상될 것입니다.",
-                    "text6": "스테이킹 점수는 어떻게 계산하나요?",
-                    "description6a": "산수를 몰라도 얼마든지 이 기능을 활용할 수 있습니다. 하지만 궁금해하시는 분들을 위해 설명해 드리겠습니다.",
-                    "description6b": "28일 동안 스테이킹되는 1 $SAND당 스테이킹 점수는 5점입니다.",
-                    "description6c": "이 숫자는 부동 소수점 수이며 스테이킹에 기여한 정도에 따라 정확히 같은 스테이킹 점수를 받게 됩니다.",
-                    "description6d": "상세 설명:",
-                    "description6e": "스테이킹 점수를 계산하는 데는 스테이킹한 시간과 스테이킹한 $SAND의 양이 모두 고려된다는 점을 이해해야 합니다.",
-                    "description6f": "1. 추가 추첨 티켓:",
-                    "description6g": "스테이킹 점수 최대치는 2,000점입니다(추첨 티켓 200개). 이 최대치에 도달하려면, 예를 들면 28일간 400 $SAND 이상을 스테이킹하거나 14일간 800 $SAND 또는 7일간 1,600 $SAND를 스테이킹하면 됩니다.",
-                    "description6h": "2. 커뮤니티 리워드 부스터:",
-                    "description6i": "총 누적 스테이킹 최대 점수는 100,000,000점입니다(커뮤니티 리워드 부스터 +100%). 이 점수에 도달하고자 하는 경우, 예를 들면 커뮤니티에서 28일간 20,000,000 $SAND 이상을 스테이킹하거나 14일간 40,000,000 $SAND 또는 7일간 80,000,000 $SAND를 스테이킹하면 됩니다.",
-                    "description6j": "물론 실제 숫자가 깔끔하게 떨어지지는 않겠지만 대략적인 계산 방식은 이와 같습니다.",
-                    "description6k": "참고로 $SAND를 스테이킹하는 일수는 연속되지 않아도 괜찮습니다.",
-                    "text7": "$SAND 스테이킹을 시작하려면 알파 시즌 2가 시작되기를 기다려야 하나요?",
-                    "description7a": "지금 바로 스테이킹을 시작해도 됩니다.",
-                    "description7b": "알파 시즌 2 기능과 관련한 스테이킹 점수는 알파 시즌 2가 시작 후에 집계되지만 더 샌드박스에서 시즌 시작 전에 스테이킹한 양을 확인하고 점수 계산을 시작합니다.",
-                    "description7c": "스테이킹을 시작하기 위해 알파 시즌 2를 기다릴 필요는 없으며 알파 시즌 2가 시작되고 나서 스테이킹 점수를 극대화하기 위해 자금을 인출한 후 다시 스테이킹하지 않아도 됩니다.",
-                    "description7d": "사용자와 커뮤니티는 알파 시즌 2가 시작되기 전에는 스테이킹 점수를 받지 못합니다. 스테이킹 점수 목표인 개인 2,000점, 커뮤니티 누적 20,000,000점은 알파 시즌 2가 시작된 후부터 종료되기 전까지 달성해야 합니다.",
+                    "description3d": "To get the maximum number of Raffle Tickets from the staking feature (200) you need to have accumulated at least",
+                    "description3e": "2. Community Reward Booster:",
+                    "description3f": "The bigger everyone’s staking score is, the more the Community Reward Booster increases. The more the Community Reward Booster increases, the more the Season 2 Alpha Pass $SAND reward is increased for all. The Community Reward Booster is capped at a maximum of +100%. To reach this cap, the community staking score has to reach the target of",
+                    "description3g": "Examples:",
+                    "description3h": "- The S2AP base reward is 500 $SAND. If by the end of Alpha Season 2, the community staking score reached",
+                    "description3i": "- If by the end of Alpha Season 2, the community staking score reached",
+                    "text4": "Will I still get the same yield for staking $SAND during Alpha Season 2?",
+                    "description4": "Yes, the staking features related to Alpha Season 2 act as a bonus and will not impact the yield in any way. Your mSAND will not be locked for longer. Nothing changes with the staking feature itself. The “caps” related to Alpha Season 2 features have no impact on the yield at all.",
+                    "text5": "On which chain does the Community Reward Booster work?",
+                    "description5": "On Layer 2, but only on the mSAND staking program (not on the mSAND/MATIC program). The whole point of the feature is to incentivize mSAND staking on layer 2 to continue our transition to layer 2, which will be a great improvement to the game by reducing gas fees and making TSB a lot greener!",
+                    "text6": "How is the staking score calculated?",
+                    "description6a": "Again, you do not need to understand the math to make optimal use of this feature, but if you are curious, this is how it works:",
+                    "description6b": "You get",
+                    "description6c": "This number is a float, you will get exactly the amount of staking score points related to your staking contribution.",
+                    "description6d": "In details:",
+                    "description6e": "It is important to understand that both time and mSAND staked amount are taken into account to calculate the staking score.",
+                    "description6f": "1. Extra Raffle Tickets:",
+                    "description6g": "The cap is",
+                    "description6h": "2. Community Reward Booster:",
+                    "description6i": "The cap is",
+                    "description6j": "The total amount of staking score point for the community is just the sum of each user's staking score.",
+                    "description6k": "Please note that the amount of days that mSAND is staked does not have to be consecutive.",
+                    "text7": "Should I wait for Alpha Season 2 to begin to start staking mSAND?",
+                    "description7a": "You can start staking right now, you don’t have to wait. If you want to stake now, you definitely should. Might as well get your yield growing as soon as possible!",
+                    "description7b": "You will start to earn staking score points related to Alpha Season 2 features once the Alpha Season 2 starts, but we will simply look at how much you have previously staked at that moment and start calculating your score.",
+                    "description7c": "You do not need to wait for Alpha Season 2 to begin to start staking, and you do not need to withdraw and stake back your funds once Alpha Season 2 has started to optimize your staking score.",
+                    "description7d": "You, and the community, will not start earning staking score points until the Alpha Season 2 has started. The staking score points objectives, both individual",
                     "text8": "$SAND 스테이킹만 설명되어 있는데 더 샌드박스 SAND/MATIC 스테이킹 프로그램은 어떻게 진행되나요?",
                     "description8": "알파 시즌 2 기능은 SAND 스테이킹 풀에만 연결되어 있습니다. SAND/MATIC 프로그램에서의 스테이킹에는 알파 시즌 2와 관련한 보너스를 제공하지 않습니다. 이 프로그램은 계속해서 이전과 같이 운영되며 같은 수익이 발생합니다. 이 기능은 중단된 것이 아니라 알파 시즌 2와 관련이 없을 뿐입니다.",
                     "text9": "스테이킹 점수를 잃을 수 있나요?",
                     "description9": "아니오, 점수가 낮아지지는 않습니다. 획득한 점수는 개인 점수와 커뮤니티 부스터 누적 점수에 모두 추가됩니다. 스테이킹한 자금을 인출하면 스테이킹 점수 획득이 중단되지만 이미 획득한 점수를 잃지는 않습니다.",
                     "text10": "알파가 시작된 지 이미 몇 주가 지났는데 지금부터 스테이킹을 시작해도 괜찮나요? 너무 늦었나요?",
-                    "description10": "늦지 않았습니다. 스테이킹을 늦게 시작한 경우, 스테이킹으로 얻을 수 있는 최대한의 추첨 티켓(200개)을 얻고 싶다면 더 많은 $SAND를 스테이킹해야 합니다. 그만큼 스테이킹하지 않고 알파 시즌 2가 곧 종료된다고 하더라도 여전히 스테이킹을 통해 어느 정도의 추첨 티켓은 얻을 수 있습니다. 추첨 티켓 200개 한도에 도달할 시간과 리소스는 없더라도 여전히 몇 개를 얻을 기회가 남아 있습니다. 또한 알파 시즌 2 보너스를 위해서가 아니더라도 스테이킹은 그 자체로 매우 이득이 되는 기능입니다."
+                    "description10": "늦지 않았습니다. 스테이킹을 늦게 시작한 경우, 스테이킹으로 얻을 수 있는 최대한의 추첨 티켓(200개)을 얻고 싶다면 더 많은 $SAND를 스테이킹해야 합니다. 그만큼 스테이킹하지 않고 알파 시즌 2가 곧 종료된다고 하더라도 여전히 스테이킹을 통해 어느 정도의 추첨 티켓은 얻을 수 있습니다. 추첨 티켓 200개 한도에 도달할 시간과 리소스는 없더라도 여전히 몇 개를 얻을 기회가 남아 있습니다. 또한 알파 시즌 2 보너스를 위해서가 아니더라도 스테이킹은 그 자체로 매우 이득이 되는 기능입니다.",
+                    "description3d1": "staking score points by the end of the Alpha Season 2.",
+                    "description3f1": "points.",
+                    "description3h1": "points or more, the Community Reward Booster will reach +100%. Therefore, the S2AP reward will be increased by +100% and reach 1,000 $SAND for all S2AP owners.",
+                    "description3i1": "points, the Community Reward Booster will reach +57%. Therefore, the S2AP reward will be increased by +57% and reach 785 $SAND (500 + 57% of 500) for all S2AP owners.",
+                    "description6b1": "staking score points for every 1 mSAND staked during 28 days.",
+                    "description6g1": "staking score points (to get 200 Raffle Tickets). For every 1 mSAND staked for the whole duration of the Alpha (28 days) you get",
+                    "description6g2": "staking score point.",
+                    "description6g3": "For example you will get:",
+                    "description6g4": "staking score point by staking 1 mSAND over 14 days",
+                    "description6g5": "staking score point by staking 2 mSAND over 28 days",
+                    "description6g6": "staking score point by staking 4 mSAND over 7 days",
+                    "description6i2": "collective cumulated staking score points (to get the Community Reward Booster to +100%).",
+                    "description7d1": "and collective",
+                    "description7d2": "have to be met in between the start and the end of the Alpha Season 2."
                 },
                 "progression": {
                     "title": "Progression",
@@ -1105,7 +1126,7 @@
                 "title": "추첨 기회",
                 "subtitle": "추첨은 2022년 3월 31일에 진행됩니다.",
                 "description": {
-                    "1": "알파 맵에서",
+                    "1": "Earn Raffle Tickets by completing Quests inside each experience on the",
                     "2": "각 경험 안의 퀘스트를 완료하여",
                     "link": "추첨 티켓을 받으세요."
                 },
@@ -1140,7 +1161,8 @@
                         "description": {
                             "1": "Look for",
                             "2": "yellow exclamation",
-                            "3": "marks inside the experiences to find quests"
+                            "3": "marks inside the experiences to find quests",
+                            "4": "Completed quests appears with a grey exclamation Mark"
                         }
                     },
                     "second": {
@@ -1220,7 +1242,7 @@
                     },
                     "4": {
                         "1": "커뮤니티 전체의 스테이킹 점수가 합산되어 리워드 커뮤니티 부스터를 생성합니다. 이를 통해 모두에게 돌아가는 시즌 2 알파 패스 리워드 또한 상승하게 됩니다.",
-                        "2": "리워드 커뮤니티 부스터는 리워드를 최대 두 배(+100%)까지 늘려줍니다."
+                        "2": "At its highest, the Reward Community Booster can DOUBLE the rewards (+100%)."
                     }
                 }
             },
@@ -1941,8 +1963,8 @@
                 "button": "Download"
             },
             "section5": {
-                "title": "장비로 아바타 능력치 올리기",
-                "subtitle": "출시 예정",
+                "title": "Boost your Avatar's attributes with Equipment",
+                "subtitle": "Equip your avatar and get special skills",
                 "part1": {
                     "title": "아바타에 장비를 장착하고 특수 스킬을 획득하세요.",
                     "text1": "모든 아바타는",
@@ -1962,7 +1984,9 @@
                     "title1": "Coming Soon",
                     "title2": "Customize it",
                     "description1": "Quickly combine different outfits, hairstyles and colors to create a unique style."
-                }
+                },
+                "text1": "All avatars come with specific set of Attributes that define their abilities in The Sandbox Game Maker: Power, Defense, Speed and Magic.",
+                "text2": "Want a stronger avatar? Visit the Marketplace and choose the right weapon, from thousands of options created by the Community. They will soon become available."
             },
             "user": {
                 "signin": "로그인",
@@ -2220,7 +2244,17 @@
             "section6": {
                 "title": "What are you waiting for?",
                 "description": "Join the Community of thousands of users that have already registered in The Sandbox with their unique avatars.",
-                "buttonText": "Create Avatar"
+                "buttonText": "Create Avatar",
+                "part1": {
+                    "title1": "Create custom Equipment with VoxEdit",
+                    "description1": "Equipment are Tokens that can be traded. They have Catalysts and Gems just as other assets do. Yes, you can also create and mint Equipment through VoxEdit!",
+                    "button": "Learn more"
+                },
+                "part2": {
+                    "title1": "Coming Soon",
+                    "title2": "Customize it",
+                    "description1": "Quickly combine different outfits, hairstyles and colors to create a unique style."
+                }
             },
             "old": {
                 "section1": {
@@ -2277,6 +2311,11 @@
                     "description": "수천 명의 사용자가 저마다 자신만의 아바타를 가지고 더 샌드박스에 등록했습니다. 그 대열에 참여해 보세요.",
                     "buttonText": "지금 아바타 만들기"
                 }
+            },
+            "section7": {
+                "title": "What are you waiting for?",
+                "description": "Join the Community of thousands of users that have already registered in The Sandbox with their unique avatars.",
+                "buttonText": "Create Avatar"
             }
         }
     },
@@ -2416,7 +2455,8 @@
             "warnermusic": "Warner Music",
             "gucci": "Gucci",
             "web3": "Web 3",
-            "ubisoft": "Ubisoft"
+            "ubisoft": "Ubisoft",
+            "avex": "Metavex"
         },
         "booked": "예약자:",
         "visit": "사이트 방문",
@@ -2511,7 +2551,7 @@
         },
         "alpha": {
             "text1": "The Metaverse is open to Everyone, select an experience on the map and click Play!",
-            "text2": "You can win an Alpha Pass by joining daily contests on social media (Twitter, Discord, Twitch)",
+            "text2": "You can win a Season 2 Alpha Pass by joining daily contests on social media (Twitter, Twitch)",
             "text3": "The Alpha will be open until March 31",
             "text4": "This is an open Alpha, please share your feedback and help us improving the Metaverse",
             "text5": "All the experiences at the Alpha were built using VoxEdit and Game Maker. You can build our own experience!",
@@ -3159,7 +3199,8 @@
                 "title": "Ups!",
                 "description1": "화이트리스트에 해당 지갑 주소가 포함되어 있지 않습니다!",
                 "description2": "이 섹션에 액세스 권한이 없습니다."
-            }
+            },
+            "effects": "Disable Effects"
         },
         "loginModal": {
             "title": "로그인하거나 계정을 만드세요",
@@ -4690,7 +4731,7 @@
                     "title": "Reward Booster",
                     "text": "and increse the total prize pool.",
                     "tooltipTitle": "More info:",
-                    "tooltipStart": "1 Community Booster point is earned for each ",
+                    "tooltipStart": "{stakingMultiplier} Community Booster point is earned for each ",
                     "tooltipEnd": "staked for the whole Season 2 duration (28 days)."
                 },
                 "extraRaffle": {
@@ -4700,7 +4741,7 @@
                     "tooltipStart": "extra Raffle Ticket for every",
                     "tooltipEnd": "mSAND you stake during the whole Season 2 duration (28 days). 200 Raffle Tickets maximum."
                 },
-                "infoStart": "points are earned for each",
+                "infoStart": "{stakingMultiplier} points are earned for each",
                 "infoEnd": "staked for the whole season."
             }
         }
@@ -5197,10 +5238,10 @@
                 }
             },
             "modal": {
-                "title": "The Alpha Season 2 will start soon.",
+                "title": "알파 시즌 2가 곧 시작됩니다.",
                 "description": {
-                    "1": "You will receive more information and details about Alpha Season 2 by email soon.",
-                    "2": "You will be among the first to know, stay tuned!"
+                    "1": "곧 이메일로 알파 시즌 2에 관한 상세 정보가 발송됩니다.",
+                    "2": "제일 먼저 정보를 전해 드리겠습니다. 기다려 주세요!"
                 },
                 "button": "확인"
             },
@@ -5265,7 +5306,11 @@
                             "6": "You will also get up to 200 extra Raffle Tickets",
                             "7": "for staking"
                         },
-                        "button": "Boost Rewards"
+                        "button": "Boost Rewards",
+                        "booster": {
+                            "title": "Community Booster*",
+                            "sand": "SAND"
+                        }
                     }
                 }
             },
