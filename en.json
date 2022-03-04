@@ -1284,6 +1284,17 @@
                         "body": "The best experiences made by the community for the TSB Alpha Game Jam."
                     }
                 }
+            },
+            "officialLinks": {
+                "website": "Website:",
+                "twitter": "Twitter:",
+                "discord": "Discord:",
+                "telegram": "Telegram:",
+                "instagram": "Instagram:",
+                "facebook": "Facebook:",
+                "youtube": "YouTube:",
+                "twitch": "Twitch:",
+                "opensea": "OpenSea:"
             }
         },
         "levelUp": {
@@ -3074,7 +3085,88 @@
             "cancel": "Cancel",
             "confirm": "Confirm",
             "close": "Close",
-            "failedExperienceTransferAssets": "An asset is used in one or more other experience"
+            "failedExperienceTransferAssets": "An asset is used in one or more other experience",
+            "noResultCard": {
+                "assets": {
+                    "title": "How to get Assets",
+                    "img": "/img/30_Profile/noresult-entities.png",
+                    "text": "Assets have an important role in the ecosystem, you need them to build an experience or to improve your game. Stake them to earn rewards or build your own assets to sell them on the Marketplace.",
+                    "links": {
+                        "1": {
+                            "name": "How to create an asset",
+                            "url": "https://sandboxgame.gitbook.io/the-sandbox/other/earning-sand-and-nfts#create-and-sell-voxel-assets-on-the-sandbox-marketplace"
+                        },
+                        "2": {
+                            "name": "About VoxEdit",
+                            "url": "https://www.sandbox.game/en/create/vox-edit/"
+                        },
+                        "3": {
+                            "name": "How to buy on the Marketplace",
+                            "url": "https://sandboxgame.gitbook.io/the-sandbox/marketplace/about-the-sandboxs-marketplace/the-sandbox-marketplace-beta#buying-from-the-marketplace-beta"
+                        }
+                    },
+                    "actions": {
+                        "1": {
+                            "name": "Download VoxEdit",
+                            "url": "https://www.sandbox.game/en/create/vox-edit/"
+                        },
+                        "2": {
+                            "name": "Get assets on the Marketplace",
+                            "url": "https://www.sandbox.game/en/shop/"
+                        }
+                    }
+                },
+                "experiences": {
+                    "title": "How to create an Experience",
+                    "img": "/img/30_Profile/noresult-experiences.png",
+                    "text": "To make a game on your LAND or ESTATE, you will need to download the free Game Maker software. You will also be able to buy a game on the Marketplace. Design and test your game using the Game Maker, publishing experiences will be available soon.",
+                    "links": {
+                        "1": {
+                            "name": "What are Experiences?",
+                            "url": "https://sandboxgame.gitbook.io/the-sandbox/land/games-and-experiences-on-land"
+                        },
+                        "2": {
+                            "name": "About Game Maker",
+                            "url": "https://www.sandbox.game/en/create/game-maker/"
+                        }
+                    },
+                    "actions": {
+                        "1": {
+                            "name": "Download Game Maker",
+                            "url": "https://www.sandbox.game/en/create/game-maker/"
+                        }
+                    }
+                },
+                "lands": {
+                    "title": "How to buy a LAND",
+                    "img": "/img/30_Profile/noresult-land.png",
+                    "text": "The Sandbox Metaverse is made up of LAND owned by players to create and monetize experiences. There will only ever be 166,464 LANDs available, which can be used to host games, build multiplayer experiences, create housing, or offer social experiences to the community. You can buy LANDs during our public sales or at OpenSea.",
+                    "links": {
+                        "1": {
+                            "name": "What is a LAND",
+                            "url": "https://www.sandbox.game/en/about/land/"
+                        },
+                        "2": {
+                            "name": "How to buy a LAND",
+                            "url": "https://medium.com/sandbox-game/how-to-buy-a-land-in-the-sandbox-48e2a871cd36"
+                        },
+                        "3": {
+                            "name": "About the Map",
+                            "url": "https://medium.com/sandbox-game/the-new-upgraded-sandbox-metaverse-map-96abb787ef1f"
+                        }
+                    },
+                    "actions": {
+                        "1": {
+                            "name": "Go to the Map",
+                            "url": "https://sandbox.game/en/map"
+                        },
+                        "2": {
+                            "name": "Find LANDs at OpenSea",
+                            "url": "https://opensea.io/assets/sandbox?search[categories][0]=virtual-worlds&search[query]=LAND"
+                        }
+                    }
+                }
+            }
         },
         "avatar": {
             "empty": "This list is empty",
@@ -3385,7 +3477,8 @@
                 "cantUseGasless": "You don't have any more free transactions remaining for this month.",
                 "resetGasless": "Reset on:",
                 "useGaslessFirst": "You have",
-                "useGaslessSecond": " free transactions remaining for this month."
+                "useGaslessSecond": " free transactions remaining for this month.",
+                "wallet": "HARDWARE WALLET"
             }
         }
     },
@@ -4604,7 +4697,7 @@
         },
         "walletTab": {
             "mainnetL1Title": "Ethereum Network",
-            "testnetL1Title": "Rinkeby Network",
+            "testnetL1Title": "Goerli Network",
             "eth": "ETH",
             "poly": "POLYGON",
             "msand": "mSAND",
@@ -4731,7 +4824,7 @@
                 "stakePhrase03": " only.",
                 "rewardBooster": {
                     "title": "Reward Booster",
-                    "text": "and increse the total prize pool.",
+                    "text": "and increase the total prize pool.",
                     "tooltipTitle": "More info:",
                     "tooltipStart": "{stakingMultiplier} Community Booster point is earned for each ",
                     "tooltipEnd": "staked for the whole Season 2 duration (28 days)."
@@ -4746,6 +4839,10 @@
                 "infoStart": "{stakingMultiplier} points are earned for each",
                 "infoEnd": "staked for the whole season."
             }
+        },
+        "network": {
+            "polygon": "Polygon mainnet",
+            "ethereum": "Ethereum mainnet"
         }
     },
     "login": {
@@ -5258,7 +5355,7 @@
                         "date": "MARCH 03"
                     },
                     "2": {
-                        "title": "RUFFLE DAY / SEASON END",
+                        "title": "RAFFLE DAY / SEASON END",
                         "date": "MARCH 31"
                     }
                 },
@@ -5837,7 +5934,12 @@
                 "step6": {
                     "title": "Transfer completed"
                 }
-            }
-        }
+            },
+            "noTransactions": "There are no transactions to display"
+        },
+        "buySand": "Buy SAND",
+        "buymSand": "Buy mSAND",
+        "confirmDeposit": "Confirm Deposit",
+        "confirmWithdraw": "Confirm Withdraw"
     }
 }
