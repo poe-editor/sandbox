@@ -205,7 +205,7 @@
             "maxPrice": "售價不得高於 3,000,000,000。",
             "maxAmount": "銷售數量上限為 12,000。"
         },
-        "readMore": "",
+        "readMore": "Read more",
         "windows": "Windows",
         "mac": "macOS"
     },
@@ -442,7 +442,8 @@
                 "scheduleText": "按一下日期即可查看全新推出的體驗和以 SAND 為獎勵的已預定社交活動！",
                 "ready": "你準備好了嗎？",
                 "noEvents": "沒有任何已預定的活動",
-                "moreExperiences": "即將推出更多體驗"
+                "moreExperiences": "即將推出更多體驗",
+                "day": "DAYS"
             },
             "welcome": {
                 "back": "返回",
@@ -658,7 +659,7 @@
                 "questDesc": "升級即可獲得",
                 "stakingDesc": "質押即可獲得",
                 "snoop": "Snoop Dogg 私人派對通行證",
-                "nftDesc": "Earn by owning this NFT",
+                "nftDesc": "擁有此非同質化代幣即可獲得",
                 "snoop2": "Snoopverse Early Access Pass",
                 "season1": "第 1 季 Alpha 通行證",
                 "land": "擁有 LAND 即可獲得",
@@ -2864,54 +2865,54 @@
                 }
             },
             "title": "《The Sandbox》社群",
-            "noPost": "",
-            "noPostCategory": "",
-            "latestArticles": "",
-            "searchTitle": "",
-            "emptySearch": "",
-            "gameMakerAcademy": "",
-            "highlights": "",
-            "twitchTitle": "",
-            "youtubeTitle": "",
-            "viewMore": "",
-            "share": "",
-            "newsletter": "",
-            "newslettersDescription": "",
-            "subscribe": "",
-            "relatedArticles": "",
+            "noPost": "There are no posts available.",
+            "noPostCategory": "There are no posts available for this category.",
+            "latestArticles": "Latest Articles",
+            "searchTitle": "Results of your search",
+            "emptySearch": "No result for your search",
+            "gameMakerAcademy": "The Sandbox Game Maker Academy",
+            "highlights": "Highlights",
+            "twitchTitle": "Streaming",
+            "youtubeTitle": "Latest Videos",
+            "viewMore": "View more",
+            "share": "Share",
+            "newsletter": "Newsletter",
+            "newslettersDescription": "Enter your email adress below to subscribe to SANDBOX's newsletter;",
+            "subscribe": "Subscribe",
+            "relatedArticles": "Related Articles",
             "socials": {
                 "discord": {
-                    "title": "",
-                    "text": ""
+                    "title": "Community",
+                    "text": "Join our Discord Community."
                 },
                 "twitter": {
-                    "title": "",
-                    "text": ""
+                    "title": "News",
+                    "text": "Be the first to discover our news."
                 },
                 "twitch": {
-                    "title": "",
-                    "text": ""
+                    "title": "Streams",
+                    "text": "Follow our live streams"
                 },
                 "youtube": {
-                    "title": "",
-                    "text": ""
+                    "title": "YouTube",
+                    "text": "Watch all our latest videos"
                 }
             },
             "gmAcademy": {
                 "0": {
-                    "title": "",
-                    "description": "",
-                    "link": ""
+                    "title": "Welcome to The Sandbox GM Academy",
+                    "description": "Learn how to Build and Share your experiences in the Metaverse using the Sandbox Game Maker.",
+                    "link": "https://sandboxgame.gitbook.io/the-game-maker-academy/"
                 },
                 "1": {
-                    "title": "",
-                    "description": "",
-                    "link": ""
+                    "title": "What is the Game Maker?",
+                    "description": "The program you use to build and then publish experiences within The Sandbox Metaverse.",
+                    "link": "https://sandboxgame.gitbook.io/the-game-maker-academy/welcome-to-the-sandbox/game-maker"
                 },
                 "2": {
-                    "title": "",
-                    "description": "",
-                    "link": ""
+                    "title": "What Can I Make?",
+                    "description": "Some examples of experiences you can create using The Sandbox GM resources and tools.",
+                    "link": "https://sandboxgame.gitbook.io/the-game-maker-academy/welcome-to-the-sandbox/what-can-i-make"
                 }
             }
         }
