@@ -205,7 +205,7 @@
             "maxPrice": "판매 가격은 3,000,000,000 이하로 설정해야 합니다.",
             "maxAmount": "최소 판매 수량은 12,000입니다."
         },
-        "readMore": "",
+        "readMore": "더 읽기",
         "windows": "Windows",
         "mac": "macOS"
     },
@@ -314,7 +314,7 @@
             },
             "social": "소셜 미디어",
             "copyright": "Copyright ©",
-            "rights": "All Rights Reserved"
+            "rights": "The Sandbox All Rights Reserved"
         },
         "createAvatarModal": {
             "title": "LAND NFT를 구매해 보세요",
@@ -352,8 +352,8 @@
             },
             "preseason": "첫 시즌을 확인하세요",
             "buttonText": {
-                "preSeason": "Register for Season 2",
-                "duringSeason": "Play now"
+                "preSeason": "시즌 2 등록하기",
+                "duringSeason": "지금 플레이하기"
             },
             "discover": "스눕 독",
             "howToJoin": "참여 방법",
@@ -368,7 +368,7 @@
                 "preSeason": "2022년 3월 3일, 알파 시즌 2가 시작됩니다",
                 "duringSeason": "알파 시즌 2 진행 중"
             },
-            "createAccount": "Create account"
+            "createAccount": "계정 만들기"
         },
         "discover": {
             "title": "더 샌드박스 소개",
@@ -427,7 +427,7 @@
             "enter": "알파 로비 입장하기",
             "learnMore": "알파에 관해 더 알아보기",
             "legend": "알파에 관해 도움이 필요하신가요?",
-            "sendFeedback": "Send Feedback",
+            "sendFeedback": "피드백 보내기",
             "alpha": {
                 "title": "TSB 내부 알파에 오신 것을 환영합니다!",
                 "description": "메타버스가 천천히 문을 열고 있습니다. 메타버스를 암호화폐가 통용되는 장소로 만드는 데 여러분의 도움이 필요합니다! 여기에서 피드백 양식을 작성해 주시면 1,000 SAND를 받으실 수 있습니다. 좋은 시간 되시길 바랍니다!",
@@ -442,7 +442,8 @@
                 "scheduleText": "요일을 클릭하여 새로운 경험 출시와 SAND로 리워드가 지급되는 소셜 이벤트 일정을 확인해 보세요.",
                 "ready": "준비되셨나요?",
                 "noEvents": "이벤트 일정이 없습니다",
-                "moreExperiences": "곧 더 많은 경험이 출시됩니다"
+                "moreExperiences": "곧 더 많은 경험이 출시됩니다",
+                "day": "일"
             },
             "welcome": {
                 "back": "뒤로",
@@ -505,7 +506,7 @@
                 "step4": "설치를 마쳤으면 아래 '플레이'를 클릭하세요!"
             },
             "liveSupport": "실시간 지원",
-            "joinDiscord": "Discord 참여하기"
+            "joinDiscord": "디스코드 참여하기"
         },
         "pass": {
             "title": "리워드",
@@ -564,7 +565,7 @@
                     "raffleDrawDescription": "At the end of the Raffle, you will find out if you win a Season 2 Alpha Pass. Good luck!",
                     "howToGet": "어떻게 시즌 2 알파 패스를 획득할 수 있나요?",
                     "raffleButton": "추첨",
-                    "contestButton": "Contest",
+                    "contestButton": "콘테스트",
                     "buyButton": "구매",
                     "claimRewards": "리워드 받기",
                     "claimRewardsDescription": "4월 1일에 리워드를 받을 수 있습니다.",
@@ -622,15 +623,15 @@
                     "seasonOverDescription3": "아쉽지만 시즌 2 알파 패스에 당첨되지 않았습니다.",
                     "raffleTitle3": "추첨 수령일",
                     "raffleDescription3": "퀘스트를 완료하여 $SAND 리워드를 잠금 해제하세요. 퀘스트를 많이 완료할수록 더 많은 리워드가 주어집니다.",
-                    "communityBoosterDescription1": "전체 상금 풀을 늘리려면",
+                    "communityBoosterDescription1": "스테이킹하여 총 상금 풀을 최대 100%까지 늘려 보세요.",
                     "communityBoosterDescription2": "총 상금 풀을 최대 100%까지 늘려 보세요.",
-                    "communityBoosterDescription3": "최대 200개의 추첨 티켓을 추가로 획득할 수 있습니다",
+                    "communityBoosterDescription3": "스테이킹하면 최대 200개의 추첨 티켓",
                     "raffleHasPass": "수령까지 남은 일수",
                     "raffleHasPassDesc": "S2 알파 패스가 있습니다.",
                     "communityBoosterDescription": "",
                     "enterThePartyDescription": "3월 24일 목요일 오후 7시 VIP 파티에 참여하세요",
                     "seasonOverDescription4": "",
-                    "communityBoosterDescription4": "스테이킹해서",
+                    "communityBoosterDescription4": "추가로 획득할 수 있습니다.",
                     "communityBoosterDescription5": "{stakingMultiplier} point is earned for each",
                     "communityBoosterDescription6": "한 개마다 1포인트를 얻게 됩니다.",
                     "enterThePartyDescription2": "Enter to be part of the VIP Party for Pass holders only!",
@@ -658,7 +659,7 @@
                 "questDesc": "레벨업하여 획득",
                 "stakingDesc": "스테이킹으로 획득",
                 "snoop": "스눕독 프라이빗 파티 패스",
-                "nftDesc": "Earn by owning this NFT\n",
+                "nftDesc": "추첨일에 해당 NFT를 소유하고 있을 경우 획득",
                 "snoop2": "Snoopverse Early Access Pass",
                 "season1": "시즌 1 알파 패스",
                 "land": "LAND를 소유하여 획득",
@@ -667,13 +668,13 @@
                 "stake": "스테이킹",
                 "notTraded": "추첨 티켓은 NFT가 아니며,",
                 "notTraded2": "2차 마켓에서 거래할 수 없음",
-                "questTooltipDesc": "You get Raffle tickets everytime you level up. The amount of tickets per level is indicated in the Rewards tab.",
-                "stakeTooltipDesc": "Get 1 extra Raffle Tickets for every {ticketAmount} mSAND you stake during the whole Season 2 duration (28 days). 200 Raffle Tickets maximum.",
-                "snoopTooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoop Dogg Private Party Pass NFT. You need to own the NFT in your wallet when the Raffle starts (March 31).",
-                "snoop2TooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoopverse Early Access Pass NFT. You need to own the NFT in your wallet when the Raffle starts (March 31).",
-                "alphaTooltipDesc": "Get 130 extra Raffle Tickets by owning the Season 1 Alpha Pass (NFT name: Alpha Pass). You need to own the NFT in your wallet when the Raffle starts (March 31).",
-                "landTooltipDesc": "Get 40 extra Raffle Tickets per LAND you own. You need to own the NFT(s) in your wallet when the Raffle starts (March 31). 200 Raffle Tickets maximum.",
-                "feedbackTooltipDesc": "If you answered the Season 1 feedback form, you get 10 extra Raffle Tickets. This form is now closed. This is our way of thanking our community for engaging in the Alpha Season 1. Remember to fill in the feedback form at the end of Season 2!"
+                "questTooltipDesc": "레벨업할 때마다 추첨 티켓을 획득합니다. 레벨당 주어지는 티켓의 수량은 리워드 탭을 참고하세요.",
+                "stakeTooltipDesc": "시즌 2 전체 기간 (28일) 동안 스테이킹하는 mSAND {ticketAmount}개마다 1장의 추가 추첨 티켓이 주어집니다. 최대 200장의 추첨 티켓을 획득할 수 있습니다.",
+                "snoopTooltipDesc": "스눕 독 프라이빗 파티 패스 NFT를 보유하고 있다면 30장의 추가 추첨 티켓이 주어집니다. 추첨이 시작하는 3월 31일에 지갑에 해당 NFT를 가지고 있어야 합니다.",
+                "snoop2TooltipDesc": "스눕버스 얼리 액세스 패스 NFT를 보유하고 있다면 30장의 추가 추첨 티켓이 주어집니다. 추첨이 시작하는 3월 31일에 지갑에 해당 NFT를 가지고 있어야 합니다.",
+                "alphaTooltipDesc": "시즌 1 알파 패스 (NFT 이름: Alpha Pass)를 보유하고 있다면 30장의 추가 추첨 티켓이 주어집니다. 추첨이 시작하는 3월 31일에 지갑에 해당 NFT를 가지고 있어야 합니다.",
+                "landTooltipDesc": "보유한 LAND당 40장의 추가 추첨 티켓이 주어집니다. 추첨이 시작하는 3월 31일에 지갑에 해당 NFT를 가지고 있어야 합니다. 최대 200장의 추첨 티켓을 획득할 수 있습니다.",
+                "feedbackTooltipDesc": "시즌 1 피드백 양식에 응답한 경우 10개의 추가 추첨 티켓이 주어집니다. 이 양식은 현재 마감되었습니다. 이는 알파 시즌 1에 참여해 주신 커뮤니티 멤버 여러분에 대한 감사의 표시입니다. 시즌 2가 종료되면 피드백을 작성하는 것을 잊지 마세요!"
             },
             "downloadAlpha": "알파 다운로드"
         },
@@ -837,7 +838,7 @@
                     "description4": "경험 하나에서 동시에 플레이 가능한 플레이어 수는 최대 40명입니다. 같은 경험에 입장하려는 플레이어가 40명 이상일 경우 해당 경험의 인스턴스가 새로 생성됩니다. 즉, 멀티플레이어 경험에 입장해 있을 때는 다른 플레이어를 최대 39명까지만 확인할 수 있지만 동일한 경험의 다른 인스턴스에 더 많은 플레이어가 존재할 수 있습니다.",
                     "hrefText1": "게임 클라이언트를 다운로드하려면 여기를 클릭하세요.",
                     "text3": "게임 메이커에서 알파 시즌 2를 플레이할 수 있나요?",
-                    "description5": "시즌 2가 진행되는 4주 동안 매주 평일에 1~3개의 콘텐츠가 순차적으로 공개됩니다.",
+                    "description5": "시즌 2가 진행되는 4주 동안 매주 평일에 1~4개의 콘텐츠가 순차적으로 공개됩니다.",
                     "hrefText2": "https://www.sandbox.game/",
                     "description6": "알파 맵에서 경험 아이콘을 클릭하면 공개되는 날짜와 시간을 볼 수 있습니다. 알파 맵의 오른쪽 상단에서 신규 경험의 출시 일정을 보여주는 캘린더도 확인할 수 있습니다.",
                     "text4": "한 경험에 몇 명의 플레이어가 입장할 수 있나요?",
@@ -1063,7 +1064,7 @@
                     "text9": "스테이킹 점수를 잃을 수 있나요?",
                     "description9": "아니오, 점수가 낮아지지는 않습니다. 획득한 점수는 개인 점수와 커뮤니티 부스터 누적 점수에 모두 추가됩니다. 스테이킹한 자금을 인출하면 스테이킹 점수 획득이 중단되지만 이미 획득한 점수를 잃지는 않습니다.",
                     "text10": "알파가 시작된 지 이미 몇 주가 지났는데 지금부터 스테이킹을 시작해도 괜찮나요? 너무 늦었나요?",
-                    "description10": "늦지 않았습니다. 스테이킹을 늦게 시작한 경우, 스테이킹으로 얻을 수 있는 최대한의 추첨 티켓(200개)을 얻고 싶다면 더 많은 mSAND를 스테이킹해야 합니다. 그만큼 스테이킹하지 않고 알파 시즌 2가 곧 종료된다고 하더라도 여전히 스테이킹을 통해 어느 정도의 추첨 티켓은 얻을 수 있습니다. 추첨 티켓 200개 한도에 도달할 시간과 리소스는 없더라도 여전히 몇 개를 얻을 기회가 남아 있습니다. 또한 알파 시즌 2 보너스를 위해서가 아니더라도 스테이킹은 그 자체로 매우 이득이 되는 기능입니다.",
+                    "description10": "늦지 않았습니다. 스테이킹을 늦게 시작한 경우, 스테이킹으로 얻을 수 있는 최대한의 추첨 티켓(200개)을 얻고 싶다면 더 많은 $SAND를 스테이킹해야 합니다. 그만큼 스테이킹하지 않고 알파 시즌 2가 곧 종료된다고 하더라도 여전히 스테이킹을 통해 어느 정도의 추첨 티켓은 얻을 수 있습니다. 추첨 티켓 200개 한도에 도달할 시간과 리소스는 없더라도 여전히 몇 개를 얻을 기회가 남아 있습니다. 또한 알파 시즌 2 보너스를 위해서가 아니더라도 스테이킹은 그 자체로 매우 이득이 되는 기능입니다.",
                     "description3d1": "staking score points by the end of the Alpha Season 2.",
                     "description3f1": "points.",
                     "description3h1": "points or more, the Community Reward Booster will reach +100%. Therefore, the S2AP reward will be increased by +100% and reach 1,000 $SAND for all S2AP owners.",
@@ -1101,8 +1102,8 @@
                 "question": "시즌 2 알파 패스를 획득하려면 어떻게 해야 하나요?",
                 "bulletPoints": {
                     "1": {
-                        "title": "2022년 3월 31일, 알파 시즌 2 종료 후 추첨에 참여하세요.",
-                        "body": "Participate in the Raffle at the end of Alpha Season 2, on March 31, 2022."
+                        "title": "추첨:",
+                        "body": "2022년 3월 31일, 알파 시즌 2 종료 후 추첨에 참여하세요."
                     },
                     "2": {
                         "title": "콘테스트:",
@@ -1136,7 +1137,7 @@
                 },
                 "moreTickets": {
                     "1": "더 많은",
-                    "2": "시즌2 알파 패스 획득 확률 상승"
+                    "2": "= 시즌 2 알파 패스 획득 확률 상승"
                 },
                 "moreQuests": "더 많은 퀘스트 완료 = 더 많은",
                 "bulletPoints": {
@@ -2565,11 +2566,11 @@
             }
         },
         "alpha": {
-            "text1": "The Metaverse is open to Everyone, select an experience on the map and click Play!",
-            "text2": "You can win a Season 2 Alpha Pass by joining daily contests on social media (Twitter, Twitch)",
-            "text3": "The Alpha will be open until March 31",
-            "text4": "This is an open Alpha, please share your feedback and help us improving the Metaverse",
-            "text5": "All the experiences at the Alpha were built using VoxEdit and Game Maker. You can build our own experience!",
+            "text1": "메타버스는 누구에게나 열려 있습니다. 맵에서 경험을 선택한 후 플레이를 클릭하세요!",
+            "text2": "트위터, 트위치, 유튜브의 공식 소셜 미디어 채널에서 진행되는 일일 소셜 콘테스트에 참여해 알파 패스를 획득할 수 있습니다.",
+            "text3": "알파는 3월 31일까지 진행됩니다.",
+            "text4": "이번 알파는 공개 알파로 진행됩니다. 여러분의 피드백은 더 나은 메타버스를 위한 첫 발걸음입니다.",
+            "text5": "알파 내 경험은 모두 복스에딧과 게임 메이커로 제작되었습니다. 나만의 경험을 제작해 보세요!",
             "text6": "The Alpha will be open until December 20",
             "text7": "This is an open Alpha, please share your feedback and help us improving the Metaverse",
             "text8": "All the experiences at the Alpha were built using VoxEdit and Game Maker. You can build our own experience!"
@@ -4475,7 +4476,7 @@
                 "getRaffleTickets": "시즌2: 추첨 티켓 받기",
                 "alphaPass": "시즌 2: 알파 패스",
                 "seasonPassTitle": "시즌 2: 알파 패스",
-                "boostRewards": "Boost Rewards",
+                "boostRewards": "리워드 부스트",
                 "subtitleSelectWinners": "5000명의 당첨자를 선정할 예정입니다! 결과를 기다려 주세요",
                 "subtitleWaitToClaim": "리워드를 받으려면 기다려 주세요",
                 "subtitleNoLongerEarn": "지금은 추첨 티켓을 획득할 수 없습니다.\\n추첨이 곧 시작됩니다. 행운을 빕니다!",
@@ -4826,7 +4827,7 @@
                 "stakePhrase03": "에서만 스테이킹의 이점을 누릴 수 있습니다.",
                 "rewardBooster": {
                     "title": "리워드 부스터",
-                    "text": "and increase the total prize pool.",
+                    "text": "스테이킹하고 총 상금 풀을 늘려보세요.",
                     "tooltipTitle": "더 알아보기:",
                     "tooltipStart": "시즌 2 전체 기간 (28일) 동안 스테이킹한",
                     "tooltipEnd": "장의 추가 추첨 티켓을 획득합니다. 최대 200장의 추첨 티켓을 획득할 수 있습니다."
@@ -5330,12 +5331,12 @@
                     "1": "누구나 모든 콘텐츠를 체험할 수 있습니다!",
                     "2": "누구나 게임 플레이만으로 시즌 2 알파 패스를 획득할 수 있습니다.",
                     "3": {
-                        "1": "Complete as many",
-                        "2": "Quests",
+                        "1": "최대한 많이 완료 Complete as many",
+                        "2": "퀘스트를",
                         "3": "as you can to increase your chances of winning."
                     },
-                    "4": "Discover new Experiences and Quests.",
-                    "5": "Get Ready to Play to Earn!"
+                    "4": "새로운 경험과 퀘스트를 발견하세요.",
+                    "5": "플레이 투 언을 준비하세요!"
                 }
             },
             "modal": {
@@ -5348,43 +5349,43 @@
             },
             "season2": {
                 "title": {
-                    "1": "Play the Alpha Season 2 and try to",
-                    "2": "win an Alpha Pass"
+                    "1": "알파 시즌 2를 플레이하고",
+                    "2": "알파 패스를 획득해 보세요"
                 },
                 "dates": {
                     "1": {
-                        "title": "ALPHA SEASON 2 STARTS",
+                        "title": "알파 시즌 2 시작",
                         "date": "3월 3일"
                     },
                     "2": {
-                        "title": "RAFFLE DAY / SEASON END",
+                        "title": "추첨일/시즌 종료",
                         "date": "3월 31일"
                     }
                 },
                 "sections": {
                     "1": {
-                        "title": "PLAY TO EARN",
+                        "title": "플레이 투 언",
                         "body": {
-                            "1": "Season 2 Alpha Pass Reward up to",
-                            "2": "1,000 $SAND.",
-                            "3": "를 스테이킹하여",
-                            "4": "SAND."
+                            "1": "시즌 2 알파 패스 리워드는 최대",
+                            "2": "1,000 $SAND입니다.",
+                            "3": "SAND",
+                            "4": "스테이킹하고 리워드를 늘리세요."
                         }
                     },
                     "2": {
-                        "title": "OPEN TO EVERYONE",
+                        "title": "누구나 플레이 가능",
                         "body": {
-                            "1": "Everyone can play",
-                            "2": "all Season 2 content and get a chance to",
-                            "3": "리워드를 부스트하고",
-                            "4": "10,000개의 시즌 2 알파 패스 중 하나를 획득하세요."
+                            "1": "누구나",
+                            "2": "시즌 2의 모든 콘텐츠를 플레이하고",
+                            "3": "10,000개의 시즌 2 알파 패스 중 하나",
+                            "4": "를 획득할 수 있습니다."
                         }
                     },
                     "3": {
-                        "title": "COMPLETING QUESTS TO WIN",
+                        "title": "퀘스트 완료하기",
                         "body": {
-                            "1": "Increase your chances to win a Season 2 Alpha Pass by",
-                            "2": "completing Quests",
+                            "1": "퀘스트를 완료",
+                            "2": "하고 추첨 티켓을 획득하여 시즌 2 알파 패스 획득 확률을 높이세요.",
                             "3": "to earn Raffle Tickets.",
                             "4": "추첨 티켓은 NFT가 아닙니다"
                         }
@@ -5392,24 +5393,24 @@
                     "4": {
                         "title": "당첨 가능성 높이기",
                         "body": {
-                            "1": "Owning a LAND and/or a Season 1 Alpha Pass",
-                            "2": "greatly increases chances to win a Season 2 Alpha Pass."
+                            "1": "LAND 또는 시즌 1 알파 패스",
+                            "2": "를 가지고 있으면 시즌 2 알파 패스 획득 확률이 크게 증가합니다."
                         }
                     },
                     "5": {
-                        "title": "STAKING REWARDS",
+                        "title": "스테이킹 리워드",
                         "body": {
-                            "1": "두 배의 리워드를 받으려면",
+                            "1": "mSAND를 스테이킹하고 모두를 위한 리워드를 두 배로 늘려보세요!",
                             "2": "SAND를",
                             "3": "스테이킹하세요",
                             "4": "모든 사람의 리워드가 늘어납니다!",
                             "5": "추첨 티켓도 추가로 획득할 수 있습니다.",
-                            "6": "You will also get up to 200 extra Raffle Tickets",
+                            "6": "또한 mSAND를 스테이킹하여 200개의 추가 추첨 티켓[TICKET]을 획득할 수 있습니다.",
                             "7": "for staking"
                         },
-                        "button": "Boost Rewards",
+                        "button": "리워드 부스트",
                         "booster": {
-                            "title": "Community Booster*",
+                            "title": "커뮤니티 부스터*",
                             "sand": "SAND"
                         }
                     }
