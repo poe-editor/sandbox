@@ -659,7 +659,7 @@
                 "questDesc": "레벨업하여 획득",
                 "stakingDesc": "스테이킹으로 획득",
                 "snoop": "스눕독 프라이빗 파티 패스",
-                "nftDesc": "추첨일에 해당 NFT를 소유하고 있을 경우 획득",
+                "nftDesc": "Earn by owning this NFT on Raffle Day",
                 "snoop2": "Snoopverse Early Access Pass",
                 "season1": "시즌 1 알파 패스",
                 "land": "LAND를 소유하여 획득",
@@ -674,7 +674,9 @@
                 "snoop2TooltipDesc": "스눕버스 얼리 액세스 패스 NFT를 보유하고 있다면 30장의 추가 추첨 티켓이 주어집니다. 추첨이 시작하는 3월 31일에 지갑에 해당 NFT를 가지고 있어야 합니다.",
                 "alphaTooltipDesc": "시즌 1 알파 패스 (NFT 이름: Alpha Pass)를 보유하고 있다면 30장의 추가 추첨 티켓이 주어집니다. 추첨이 시작하는 3월 31일에 지갑에 해당 NFT를 가지고 있어야 합니다.",
                 "landTooltipDesc": "보유한 LAND당 40장의 추가 추첨 티켓이 주어집니다. 추첨이 시작하는 3월 31일에 지갑에 해당 NFT를 가지고 있어야 합니다. 최대 200장의 추첨 티켓을 획득할 수 있습니다.",
-                "feedbackTooltipDesc": "시즌 1 피드백 양식에 응답한 경우 10개의 추가 추첨 티켓이 주어집니다. 이 양식은 현재 마감되었습니다. 이는 알파 시즌 1에 참여해 주신 커뮤니티 멤버 여러분에 대한 감사의 표시입니다. 시즌 2가 종료되면 피드백을 작성하는 것을 잊지 마세요!"
+                "feedbackTooltipDesc": "시즌 1 피드백 양식에 응답한 경우 10개의 추가 추첨 티켓이 주어집니다. 이 양식은 현재 마감되었습니다. 이는 알파 시즌 1에 참여해 주신 커뮤니티 멤버 여러분에 대한 감사의 표시입니다. 시즌 2가 종료되면 피드백을 작성하는 것을 잊지 마세요!",
+                "snoop3": "Doggie Avatar",
+                "snoop3TooltipDesc": "Get 100 extra Raffle Tickets by owning a Doggie Avatar NFT. You need to own the NFT in your wallet when the Raffle starts (March 31)."
             },
             "downloadAlpha": "알파 다운로드"
         },
@@ -811,11 +813,11 @@
                     "description0": "알파 패스에는 $SAND 리워드가 주어집니다. 알파 시즌 2 종료 후, 알파 패스를 보유하고 있는 유저만 시즌 2 알파 리워드를 받을 수 있습니다. 리워드는 시즌 2 알파 패스 한 개당 최대 1,000 $SAND입니다.",
                     "description1": "There are 3 ways of winning a S2 Alpha Pass:",
                     "description3a": "자세한 내용은 '추첨 티켓' 탭을 확인하세요.",
-                    "description3b": "In total, you can earn up to 1100 Raffle Tickets if you max out every source.",
+                    "description3b": "In total, you can earn up to 1200 Raffle Tickets if you max out every source.",
                     "text5": "시즌 1 알파 패스를 소유하면 시즌 2 알파 패스를 받을 확률이 증가하나요?",
                     "text6": "알파 시즌 1에 참여했지만 시즌 1 알파 패스를 가지고 있지 않으면 시즌 2 알파 패스를 받을 확률이 증가하나요?",
                     "description6": "아니요. 추가로 추첨 티켓을 받으려면 시즌 1 알파 패스를 보유해야 합니다.",
-                    "text7": "LAND와 시즌 1 알파 패스를 여러 개 가지고 있으면 추첨에서 시즌 2 알파 패스를 두 개 이상 받을 수 있나요?",
+                    "text7": "Can I win more than one Season 2 Alpha Pass in the Raffle if I own many LANDS and many Season 1 Alpha Passes?",
                     "description7": "아니요. 지갑당 하나의 시즌 2 알파 패스만 받을 수 있습니다. 소셜 콘테스트에 참여하여 시즌 2 알파 패스를 받으면 추첨에서는 받을 수 없습니다.",
                     "text8": "시즌 2 알파 패스를 받아도 더 이상 소용이 없는 시점이 있나요?",
                     "description8a": "네, 2022년 3월 31일 16시(UTC)에 시즌 2가 종료된 후에는 2차 마켓에서 시즌 2 알파 패스를 구매하지 마세요 이 시점 이후에는 구매해도 $SAND 리워드를 받을 수 없습니다.",
@@ -902,7 +904,7 @@
                     "description3b": "https://www.sandbox.game/",
                     "description3c": "알파 시즌 2가 공개된 후에 가능합니다.",
                     "description7a": "하나의 경험에는 최대 40명의 플레이어가 동시에 입장 가능하며 40명 이상일 경우 새로운 인스턴스가 생성되어 나머지 플레이어가 입장하게 됩니다. 친구와 동시에 경험에 입장할 경우 같은 인스턴스로 입장할 들어갈 가능성이 크지만, 그렇지 못할 경우 다음 단계를 따라 함께 플레이할 수 있습니다.",
-                    "description7b": "- 게임에 입장 후 인스턴스 ID를 검색하려면 채팅탕에",
+                    "description7b": "- 게임에 입장 후 인스턴스 ID를 검색하려면 채팅창에",
                     "description7c": "/instances를",
                     "description7d": "입력합니다.",
                     "description7e": "내 인스턴스에 들어오고 싶어 하는 친구에게 인스턴스 ID를 알려줍니다.",
@@ -990,8 +992,8 @@
                         "7": "모르는 사람으로부터 전달받은 이메일, 디스코드, 채팅 혹은 다른 소스의 링크를 클릭하지 마세요.",
                         "8": "언제나 주의하세요."
                     },
-                    "description2": "에서 더 자세히 알아보세요.",
-                    "description3": "여기",
+                    "description2": "여기",
+                    "description3": "에서 더 자세히 알아보세요.",
                     "description4": "추가 보안 리소스:",
                     "description5": "- 메타마스크의 기본 안전과 보안 팁",
                     "description6": "- 메타마스크로 자체 은행이 되기 위한 패스워드 설정 방법",
@@ -1148,9 +1150,10 @@
                     },
                     "2": "LAND 소유",
                     "3": "시즌 1 알파 패스 소유",
-                    "4": "스눕독 프라이빗 파티 패스 소유",
-                    "5": "스눕버스 얼리 액세스 패스 소유",
-                    "6": "알파 시즌 1 피드백 양식에 답변"
+                    "4": "Owning a Doggie Avatar",
+                    "5": "스눕독 프라이빗 파티 패스 소유",
+                    "6": "스눕버스 얼리 액세스 패스 소유",
+                    "7": "알파 시즌 1 피드백 양식에 답변"
                 },
                 "warning": {
                     "1": "추첨 티켓은 NFT가 아니며, 2차 마켓에서 거래할 수 없습니다.",
@@ -1671,6 +1674,14 @@
             "putOnSale": "상품 등록",
             "saleQuestion": "더 샌드박스 마켓플레이스에서 이 NFT를 판매하고 싶으신가요?",
             "putOnSaleSuccess": "애셋이 현재 판매 중입니다."
+        },
+        "assetTypes": {
+            "1": "Equipment",
+            "2": "Entity",
+            "3": "Block",
+            "4": "Avatar",
+            "5": "Bodypart",
+            "6": "Art"
         }
     },
     "create": {
@@ -2929,7 +2940,8 @@
             "avatar": "아바타",
             "edit": "편집",
             "logout": "로그아웃",
-            "settings": "설정"
+            "settings": "설정",
+            "claim": "Claims"
         },
         "profile": {
             "sandAmount": "내",
@@ -3298,7 +3310,12 @@
                 "description1": "화이트리스트에 해당 지갑 주소가 포함되어 있지 않습니다!",
                 "description2": "이 섹션에 액세스 권한이 없습니다."
             },
-            "effects": "Disable Effects"
+            "effects": "Disable Effects",
+            "noConnection": {
+                "title": "Ups!",
+                "description1": "You are not connected",
+                "button": "CONNECT WALLET"
+            }
         },
         "loginModal": {
             "title": "로그인하거나 계정을 만드세요",
@@ -3484,6 +3501,19 @@
                 "useGaslessSecond": "회의 무료 트랜잭션 횟수가 남아 있습니다.",
                 "wallet": "하드웨어 월렛"
             }
+        },
+        "claims": {
+            "claims": "Claim Rewards",
+            "all": "All claims",
+            "unlock": "Unlock Claim",
+            "details": "View details",
+            "claim": "Claim",
+            "claimed": "Claimed",
+            "goToAlpha": "Go to Alpha",
+            "goToTwitter": "Twitter",
+            "goToDiscord": "Discord",
+            "noClaims": "No claims available",
+            "bannerSubtitle": "Live the real play to earn experience. Follow us on your social media to know what's coming on. Stay tuned for al the benefits you can get on The Sandbox"
         }
     },
     "moderator": {
@@ -4669,7 +4699,14 @@
             "weekly": "리워드는 매주 지급됩니다. 이 수치는 한 주 동안 배포되는 수량을 나타냅니다.",
             "earnings-title": "수익금",
             "earnings": "수령이 가능한 누적 수익금입니다.",
-            "landMultiplierNotActive": "LAND 계수는 아직 폴리곤 네트워크에서 지원되지 않습니다."
+            "landMultiplierNotActive": "LAND 계수는 아직 폴리곤 네트워크에서 지원되지 않습니다.",
+            "myScore": "The score you accumulated so far. It unlocks tickets for the raffle (up to 200)",
+            "myScore2": "Currently unlocked : {ticketAmount} tickets",
+            "communityScore": "The score accumulated by the whole community. This will boost Alpha rewards up to 100%",
+            "communityScore2": "Current boost : {boostPercentage}%",
+            "earnScorePoints": "The points you can earn cannot be lost, they will grant you more tickets for the raffle and help the comminity reach its goal.",
+            "projectedScoreTitle": "Projected Score",
+            "projectedScore": "This is the projected community score at the end of the Season with the current amount of mSAND staked."
         },
         "modalWithdraw": {
             "withdraw": "인출",
@@ -4724,7 +4761,10 @@
             },
             "maticCoin": "MATIC",
             "mainnetL2Title": "Polygon Network",
-            "testnetL2Title": "Mumbai Network"
+            "testnetL2Title": "Mumbai Network",
+            "lands": "",
+            "estate": "",
+            "estates": ""
         },
         "tutorial": {
             "step1": {
@@ -4840,14 +4880,21 @@
                     "tooltipStart": "2개마다",
                     "tooltipEnd": "최대 200장의 추첨 티켓을 획득할 수 있습니다."
                 },
-                "infoStart": "전체 시즌 동안 스테이킹한 각 mSAND마다",
-                "infoEnd": "{stakingMultiplier} 포인트를 획득합니다."
+                "infoStart": "{stakingMultiplier} point is earned for each | {stakingMultiplier} points are earned for each",
+                "infoEnd": "{stakingMultiplier} 포인트를 획득합니다.",
+                "pointsInfo1": "You earn points over time for each ",
+                "pointsInfo2": " staked. Points accumulated cannot be lost. ",
+                "pointsInfo3": "staked for 28 days grants {stakingMultiplier} point.",
+                "myScore": "My Score",
+                "earnScorePoints": "Earn Score Points"
             }
         },
         "network": {
             "polygon": "폴리곤 메인넷",
             "ethereum": "이더리움 메인넷"
-        }
+        },
+        "exitOnDeprecationLP": "Claim all your earnings and get back all your LP.",
+        "discontinued": "Discontinued"
     },
     "login": {
         "refresh": "플러그인 설치 후에 브라우저를 새로 고치세요",
@@ -5332,7 +5379,7 @@
                     "1": "누구나 모든 콘텐츠를 체험할 수 있습니다!",
                     "2": "누구나 게임 플레이만으로 시즌 2 알파 패스를 획득할 수 있습니다.",
                     "3": {
-                        "1": "최대한 많이 완료 Complete as many",
+                        "1": "퀘스트를 최대한 많이 완료해서 패스 획득 확률을 높여 보세요.",
                         "2": "퀘스트를",
                         "3": "as you can to increase your chances of winning."
                     },
@@ -5412,7 +5459,8 @@
                         "button": "리워드 부스트",
                         "booster": {
                             "title": "커뮤니티 부스터*",
-                            "sand": "SAND"
+                            "sand": "SAND",
+                            "estimate": "Estimated % on March 31"
                         }
                     }
                 }
