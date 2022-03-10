@@ -659,7 +659,7 @@
                 "questDesc": "通过升级获得",
                 "stakingDesc": "通过质押获得",
                 "snoop": "Snoop Dogg私人派对通行证",
-                "nftDesc": "通过拥有此非同质化代币获得",
+                "nftDesc": "Earn by owning this NFT on Raffle Day",
                 "snoop2": "Snoopverse Early Access Pass",
                 "season1": "赛季1的Alpha通行证",
                 "land": "通过拥有LAND获得",
@@ -674,7 +674,9 @@
                 "snoop2TooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoopverse Early Access Pass NFT. You need to own the NFT in your wallet when the Raffle starts (March 31).",
                 "alphaTooltipDesc": "Get 130 extra Raffle Tickets by owning the Season 1 Alpha Pass (NFT name: Alpha Pass). You need to own the NFT in your wallet when the Raffle starts (March 31).",
                 "landTooltipDesc": "Get 40 extra Raffle Tickets per LAND you own. You need to own the NFT(s) in your wallet when the Raffle starts (March 31). 200 Raffle Tickets maximum.",
-                "feedbackTooltipDesc": "If you answered the Season 1 feedback form, you get 10 extra Raffle Tickets. This form is now closed. This is our way of thanking our community for engaging in the Alpha Season 1. Remember to fill in the feedback form at the end of Season 2!"
+                "feedbackTooltipDesc": "If you answered the Season 1 feedback form, you get 10 extra Raffle Tickets. This form is now closed. This is our way of thanking our community for engaging in the Alpha Season 1. Remember to fill in the feedback form at the end of Season 2!",
+                "snoop3": "Doggie Avatar",
+                "snoop3TooltipDesc": "Get 100 extra Raffle Tickets by owning a Doggie Avatar NFT. You need to own the NFT in your wallet when the Raffle starts (March 31)."
             },
             "downloadAlpha": "下载Alpha"
         },
@@ -811,11 +813,11 @@
                     "description0": "区别在于$SAND奖励！只有Alpha通行证拥有者才能在Alpha赛季2结束后领取相应奖励。每份赛季2的Alpha通行证最多可领取高达1,000 $SAND。",
                     "description1": "There are 3 ways of winning a S2 Alpha Pass:",
                     "description3a": "请前往「抽奖券」页面查看更多详情。",
-                    "description3b": "In total, you can earn up to 1100 Raffle Tickets if you max out every source.",
+                    "description3b": "In total, you can earn up to 1200 Raffle Tickets if you max out every source.",
                     "text5": "如果我获得了赛季1的Alpha通行证，我赢得赛季2的Alpha通行证的几率会更大吗？",
                     "text6": "如果我参加了Alpha赛季1，但并没有保留我赛季1的Alpha通行证，我赢得赛季2的Alpha通行证的几率会更大吗？",
                     "description6": "不会。你需要拥有赛季1的Alpha通行证才能获得对应的额外抽奖券。",
-                    "text7": "如果我拥有多块LAND以及多张赛季1的Alpha通行证，我能赢得一张以上的赛季2的Alpha通行证吗？",
+                    "text7": "Can I win more than one Season 2 Alpha Pass in the Raffle if I own many LANDS and many Season 1 Alpha Passes?",
                     "description7": "不能。每个钱包只会计算一张赛季2的Alpha通行证。如果你已通过社交媒体竞赛获得了一张赛季2的Alpha通行证，则无法从抽奖活动中再次获得。",
                     "text8": "是否从某个时间点开始，我无法再获得赛季2的Alpha通行证？",
                     "description8a": "是的。在赛季2结束后（2022年3月31日UTC时间16点），请勿继续从二级市场购买赛季2的Alpha通行证。因为在这个时间之后购买你将无法领取$SAND奖励。",
@@ -1148,9 +1150,10 @@
                     },
                     "2": "拥有LAND",
                     "3": "拥有赛季1的Alpha通行证",
-                    "4": "拥有Snoop Dogg私人派对通行证",
-                    "5": "拥有Snoopverse抢先体验通行证",
-                    "6": "回答Alpha赛季1反馈表"
+                    "4": "Owning a Doggie Avatar",
+                    "5": "拥有Snoop Dogg私人派对通行证",
+                    "6": "拥有Snoopverse抢先体验通行证",
+                    "7": "回答Alpha赛季1反馈表"
                 },
                 "warning": {
                     "1": "抽奖券并非同质化代币，无法在二级市场中进行交易。",
@@ -1167,7 +1170,7 @@
                             "1": "Look for",
                             "2": "yellow exclamation",
                             "3": "marks inside the experiences to find quests",
-                            "4": ""
+                            "4": "Completed quests appears with a grey exclamation Mark"
                         }
                     },
                     "second": {
@@ -1671,6 +1674,14 @@
             "putOnSale": "出售",
             "saleQuestion": "你想在我们的市场上出售此NFT吗？",
             "putOnSaleSuccess": "Asset出售中"
+        },
+        "assetTypes": {
+            "1": "Equipment",
+            "2": "Entity",
+            "3": "Block",
+            "4": "Avatar",
+            "5": "Bodypart",
+            "6": "Art"
         }
     },
     "create": {
@@ -2929,7 +2940,8 @@
             "avatar": "人物造型",
             "edit": "编辑",
             "logout": "登出",
-            "settings": "设置"
+            "settings": "设置",
+            "claim": "Claims"
         },
         "profile": {
             "sandAmount": "你的",
@@ -3298,7 +3310,12 @@
                 "description1": "你的钱包未被加入白名单！",
                 "description2": "你没有进入该部分的权限。"
             },
-            "effects": "Disable Effects"
+            "effects": "Disable Effects",
+            "noConnection": {
+                "title": "Ups!",
+                "description1": "You are not connected",
+                "button": "CONNECT WALLET"
+            }
         },
         "loginModal": {
             "title": "登录或创建账户",
@@ -3484,6 +3501,19 @@
                 "useGaslessSecond": " free transactions remaining for this month.",
                 "wallet": "HARDWARE WALLET"
             }
+        },
+        "claims": {
+            "claims": "Claim Rewards",
+            "all": "All claims",
+            "unlock": "Unlock Claim",
+            "details": "View details",
+            "claim": "Claim",
+            "claimed": "Claimed",
+            "goToAlpha": "Go to Alpha",
+            "goToTwitter": "Twitter",
+            "goToDiscord": "Discord",
+            "noClaims": "No claims available",
+            "bannerSubtitle": "Live the real play to earn experience. Follow us on your social media to know what's coming on. Stay tuned for al the benefits you can get on The Sandbox"
         }
     },
     "moderator": {
@@ -4669,7 +4699,14 @@
             "weekly": "奖励每周进行补充。这代表一周内分配的金额。",
             "earnings-title": "收益",
             "earnings": "你可以领取的累计收益。",
-            "landMultiplierNotActive": "Polygon网络上还没有LAND加成"
+            "landMultiplierNotActive": "Polygon网络上还没有LAND加成",
+            "myScore": "The score you accumulated so far. It unlocks tickets for the raffle (up to 200)",
+            "myScore2": "Currently unlocked : {ticketAmount} tickets",
+            "communityScore": "The score accumulated by the whole community. This will boost Alpha rewards up to 100%",
+            "communityScore2": "Current boost : {boostPercentage}%",
+            "earnScorePoints": "The points you can earn cannot be lost, they will grant you more tickets for the raffle and help the comminity reach its goal.",
+            "projectedScoreTitle": "Projected Score",
+            "projectedScore": "This is the projected community score at the end of the Season with the current amount of mSAND staked."
         },
         "modalWithdraw": {
             "withdraw": "你的提取",
@@ -4724,7 +4761,10 @@
             },
             "maticCoin": "MATIC",
             "mainnetL2Title": "Polygon Network",
-            "testnetL2Title": "Mumbai Network"
+            "testnetL2Title": "Mumbai Network",
+            "lands": "",
+            "estate": "",
+            "estates": ""
         },
         "tutorial": {
             "step1": {
@@ -4840,14 +4880,21 @@
                     "tooltipStart": "extra Raffle Ticket for every",
                     "tooltipEnd": "mSAND you stake during the whole Season 2 duration (28 days). 200 Raffle Tickets maximum."
                 },
-                "infoStart": "{stakingMultiplier} points are earned for each",
-                "infoEnd": "staked for the whole season."
+                "infoStart": "{stakingMultiplier} point is earned for each | {stakingMultiplier} points are earned for each",
+                "infoEnd": "staked for the whole season.",
+                "pointsInfo1": "You earn points over time for each ",
+                "pointsInfo2": " staked. Points accumulated cannot be lost. ",
+                "pointsInfo3": "staked for 28 days grants {stakingMultiplier} point.",
+                "myScore": "My Score",
+                "earnScorePoints": "Earn Score Points"
             }
         },
         "network": {
             "polygon": "Polygon mainnet",
             "ethereum": "Ethereum mainnet"
-        }
+        },
+        "exitOnDeprecationLP": "Claim all your earnings and get back all your LP.",
+        "discontinued": "Discontinued"
     },
     "login": {
         "refresh": "安装插件后请刷新浏览器",
@@ -5403,7 +5450,7 @@
                         "body": {
                             "1": "质押",
                             "2": "SAND",
-                            "3": "使奖励数量加倍",
+                            "3": "to increase",
                             "4": "面向所有人开放！",
                             "5": "为自己争取额外的抽奖券。",
                             "6": "You will also get up to 200 extra Raffle Tickets",
@@ -5412,7 +5459,8 @@
                         "button": "Boost Rewards",
                         "booster": {
                             "title": "Community Booster*",
-                            "sand": "SAND"
+                            "sand": "SAND",
+                            "estimate": "Estimated % on March 31"
                         }
                     }
                 }
