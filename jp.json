@@ -659,7 +659,7 @@
                 "questDesc": "レベルアップして獲得",
                 "stakingDesc": "ステーキングで獲得",
                 "snoop": "スヌープのプライベートパーティー用パス",
-                "nftDesc": "このNFTを所有することで獲得",
+                "nftDesc": "Earn by owning this NFT on Raffle Day",
                 "snoop2": "Snoopverse Early Access Pass",
                 "season1": "シーズン1アルファパス",
                 "land": "LANDを所有することで獲得",
@@ -674,7 +674,9 @@
                 "snoop2TooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoopverse Early Access Pass NFT. You need to own the NFT in your wallet when the Raffle starts (March 31).",
                 "alphaTooltipDesc": "Get 130 extra Raffle Tickets by owning the Season 1 Alpha Pass (NFT name: Alpha Pass). You need to own the NFT in your wallet when the Raffle starts (March 31).",
                 "landTooltipDesc": "Get 40 extra Raffle Tickets per LAND you own. You need to own the NFT(s) in your wallet when the Raffle starts (March 31). 200 Raffle Tickets maximum.",
-                "feedbackTooltipDesc": "If you answered the Season 1 feedback form, you get 10 extra Raffle Tickets. This form is now closed. This is our way of thanking our community for engaging in the Alpha Season 1. Remember to fill in the feedback form at the end of Season 2!"
+                "feedbackTooltipDesc": "If you answered the Season 1 feedback form, you get 10 extra Raffle Tickets. This form is now closed. This is our way of thanking our community for engaging in the Alpha Season 1. Remember to fill in the feedback form at the end of Season 2!",
+                "snoop3": "Doggie Avatar",
+                "snoop3TooltipDesc": "Get 100 extra Raffle Tickets by owning a Doggie Avatar NFT. You need to own the NFT in your wallet when the Raffle starts (March 31)."
             },
             "downloadAlpha": "アルファ版をダウンロード"
         },
@@ -811,11 +813,11 @@
                     "description0": "$SAND報酬です！アルファパス所有者のみ、アルファシーズン2終了時にシーズン2アルファ報酬を受け取ることができます。シーズン2アルファパス1枚ごとに、最大1,000$SANDまで報酬は上がっていきます。",
                     "description1": "There are 3 ways of winning a S2 Alpha Pass:",
                     "description3a": "詳細は「抽選チケット」タブをご覧ください。",
-                    "description3b": "In total, you can earn up to 1100 Raffle Tickets if you max out every source.",
+                    "description3b": "In total, you can earn up to 1200 Raffle Tickets if you max out every source.",
                     "text5": "シーズン1アルファパスを所有していれば、シーズン2アルファパス獲得のチャンスが上がりますか？",
                     "text6": "アルファシーズン1に参加していたがシーズン1アルファパスは持っていない場合、シーズン2アルファパス獲得のチャンスが上がりますか？",
                     "description6": "上がりません。シーズン1アルファパスを所有している場合のみ、追加の抽選チケットが手に入ります。",
-                    "text7": "LANDを多く所有していて、シーズン1アルファパスを複数枚持っている場合、シーズン2アルファパスを複数枚獲得できますか？",
+                    "text7": "Can I win more than one Season 2 Alpha Pass in the Raffle if I own many LANDS and many Season 1 Alpha Passes?",
                     "description7": "いいえ。ウォレット1つに対してシーズン2アルファパス1枚です。ソーシャルコンテストに参加してシーズン2アルファパスを獲得した場合、抽選会で新たにパスを手にすることはできません。",
                     "text8": "この時点以降、シーズン2アルファパスを手に入れても意味がないというタイミングはありますか？",
                     "description8a": "はい。2022年3月31日の午後4時 (協定世界時) にシーズン2が終了して以降はセカンダリーマーケットでシーズン2アルファパスを購入しないでください。この期日以降にパスを購入しても、そのパスでは$SAND報酬を受け取ることはできません。",
@@ -1102,8 +1104,8 @@
                 "question": "シーズン2アルファパスの獲得方法",
                 "bulletPoints": {
                     "1": {
-                        "title": "シーズン2終了の2022年3月31日に開催される抽選会に参加しましょう。",
-                        "body": "Participate in the Raffle at the end of Alpha Season 2, on March 31, 2022."
+                        "title": "Raffle",
+                        "body": "シーズン2終了の2022年3月31日に開催される抽選会に参加しましょう。"
                     },
                     "2": {
                         "title": "コンテスト",
@@ -1148,9 +1150,10 @@
                     },
                     "2": "LANDを所有する",
                     "3": "シーズン1アルファパスを所有する",
-                    "4": "スヌープのプライベートパーティー用パスを所有する",
-                    "5": "スヌープバースの早期アクセスパスを所有する",
-                    "6": "アルファシーズン1のフィードバックフォームに回答する"
+                    "4": "Owning a Doggie Avatar",
+                    "5": "スヌープのプライベートパーティー用パスを所有する",
+                    "6": "スヌープバースの早期アクセスパスを所有する",
+                    "7": "アルファシーズン1のフィードバックフォームに回答する"
                 },
                 "warning": {
                     "1": "抽選チケットはNFTではないので、セカンダリーマーケットで取引することはできません。",
@@ -1671,6 +1674,14 @@
             "putOnSale": "売りに出す",
             "saleQuestion": "こちらのNFTをマーケットプレイスで販売しますか？",
             "putOnSaleSuccess": "ASSETは現在販売中"
+        },
+        "assetTypes": {
+            "1": "Equipment",
+            "2": "Entity",
+            "3": "Block",
+            "4": "Avatar",
+            "5": "Bodypart",
+            "6": "Art"
         }
     },
     "create": {
@@ -2929,7 +2940,8 @@
             "avatar": "アバター",
             "edit": "編集",
             "logout": "ログアウト",
-            "settings": "設定"
+            "settings": "設定",
+            "claim": "Claims"
         },
         "profile": {
             "sandAmount": "あなたの",
@@ -3298,7 +3310,12 @@
                 "description1": "あなたのウォレットは優先リストに入っていません！",
                 "description2": "このセクションにアクセスできません。"
             },
-            "effects": "Disable Effects"
+            "effects": "Disable Effects",
+            "noConnection": {
+                "title": "Ups!",
+                "description1": "You are not connected",
+                "button": "CONNECT WALLET"
+            }
         },
         "loginModal": {
             "title": "ログインまたはアカウントの作成",
@@ -3484,6 +3501,19 @@
                 "useGaslessSecond": " free transactions remaining for this month.",
                 "wallet": "HARDWARE WALLET"
             }
+        },
+        "claims": {
+            "claims": "Claim Rewards",
+            "all": "All claims",
+            "unlock": "Unlock Claim",
+            "details": "View details",
+            "claim": "Claim",
+            "claimed": "Claimed",
+            "goToAlpha": "Go to Alpha",
+            "goToTwitter": "Twitter",
+            "goToDiscord": "Discord",
+            "noClaims": "No claims available",
+            "bannerSubtitle": "Live the real play to earn experience. Follow us on your social media to know what's coming on. Stay tuned for al the benefits you can get on The Sandbox"
         }
     },
     "moderator": {
@@ -4669,7 +4699,14 @@
             "weekly": "報酬は毎週補充されます。ここには、一週間で配布される量を表示しています。",
             "earnings-title": "収益",
             "earnings": "受け取り可能な収益の累計額です。",
-            "landMultiplierNotActive": "PolygonネットワークではまだLAND所有数に対する利率はご利用いただけません。"
+            "landMultiplierNotActive": "PolygonネットワークではまだLAND所有数に対する利率はご利用いただけません。",
+            "myScore": "The score you accumulated so far. It unlocks tickets for the raffle (up to 200)",
+            "myScore2": "Currently unlocked : {ticketAmount} tickets",
+            "communityScore": "The score accumulated by the whole community. This will boost Alpha rewards up to 100%",
+            "communityScore2": "Current boost : {boostPercentage}%",
+            "earnScorePoints": "The points you can earn cannot be lost, they will grant you more tickets for the raffle and help the comminity reach its goal.",
+            "projectedScoreTitle": "Projected Score",
+            "projectedScore": "This is the projected community score at the end of the Season with the current amount of mSAND staked."
         },
         "modalWithdraw": {
             "withdraw": "引き出す",
@@ -4724,7 +4761,10 @@
             },
             "maticCoin": "MATIC",
             "mainnetL2Title": "Polygon Network",
-            "testnetL2Title": "Mumbai Network"
+            "testnetL2Title": "Mumbai Network",
+            "lands": "",
+            "estate": "",
+            "estates": ""
         },
         "tutorial": {
             "step1": {
@@ -4840,14 +4880,21 @@
                     "tooltipStart": "extra Raffle Ticket for every",
                     "tooltipEnd": "mSAND you stake during the whole Season 2 duration (28 days). 200 Raffle Tickets maximum."
                 },
-                "infoStart": "{stakingMultiplier} 전체 시즌 동안 스테이킹한 각",
-                "infoEnd": "마다 5 포인트를 획득합니다."
+                "infoStart": "{stakingMultiplier} point is earned for each | {stakingMultiplier} points are earned for each",
+                "infoEnd": "마다 5 포인트를 획득합니다.",
+                "pointsInfo1": "You earn points over time for each ",
+                "pointsInfo2": " staked. Points accumulated cannot be lost. ",
+                "pointsInfo3": "staked for 28 days grants {stakingMultiplier} point.",
+                "myScore": "My Score",
+                "earnScorePoints": "Earn Score Points"
             }
         },
         "network": {
             "polygon": "Polygon mainnet",
             "ethereum": "Ethereum mainnet"
-        }
+        },
+        "exitOnDeprecationLP": "Claim all your earnings and get back all your LP.",
+        "discontinued": "Discontinued"
     },
     "login": {
         "refresh": "プラグインのインストール後、ブラウザを更新してください",
@@ -5403,7 +5450,7 @@
                         "body": {
                             "1": "ステーキング",
                             "2": "ステーキングして",
-                            "3": "皆が受け取る報酬量を",
+                            "3": "to increase",
                             "4": "2倍にしましょう！",
                             "5": "そして、追加の抽選チケットを手に入れましょう。",
                             "6": "You will also get up to 200 extra Raffle Tickets",
@@ -5412,7 +5459,8 @@
                         "button": "Boost Rewards",
                         "booster": {
                             "title": "Community Booster*",
-                            "sand": "SAND"
+                            "sand": "SAND",
+                            "estimate": "Estimated % on March 31"
                         }
                     }
                 }
