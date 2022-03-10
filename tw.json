@@ -674,7 +674,9 @@
                 "snoop2TooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoopverse Early Access Pass NFT. You need to own the NFT in your wallet when the Raffle starts (March 31).",
                 "alphaTooltipDesc": "Get 130 extra Raffle Tickets by owning the Season 1 Alpha Pass (NFT name: Alpha Pass). You need to own the NFT in your wallet when the Raffle starts (March 31).",
                 "landTooltipDesc": "Get 40 extra Raffle Tickets per LAND you own. You need to own the NFT(s) in your wallet when the Raffle starts (March 31). 200 Raffle Tickets maximum.",
-                "feedbackTooltipDesc": "If you answered the Season 1 feedback form, you get 10 extra Raffle Tickets. This form is now closed. This is our way of thanking our community for engaging in the Alpha Season 1. Remember to fill in the feedback form at the end of Season 2!"
+                "feedbackTooltipDesc": "If you answered the Season 1 feedback form, you get 10 extra Raffle Tickets. This form is now closed. This is our way of thanking our community for engaging in the Alpha Season 1. Remember to fill in the feedback form at the end of Season 2!",
+                "snoop3": "",
+                "snoop3TooltipDesc": ""
             },
             "downloadAlpha": "下載 Alpha"
         },
@@ -1150,7 +1152,8 @@
                     "3": "擁有第 1 季 Alpha 通行證",
                     "4": "擁有 Snoop Dogg 私人派對通行證",
                     "5": "擁有 SnoopVerse 早鳥通行證",
-                    "6": "填寫 Alpha 第 1 季意見回饋表單"
+                    "6": "填寫 Alpha 第 1 季意見回饋表單",
+                    "7": ""
                 },
                 "warning": {
                     "1": "抽獎券不是非同質化代幣，無法在次級市場中交易。",
@@ -1671,6 +1674,14 @@
             "putOnSale": "出售",
             "saleQuestion": "確定要在我們的市場出售此 NFT 嗎？",
             "putOnSaleSuccess": "ASSET 現正出售中"
+        },
+        "assetTypes": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "6": ""
         }
     },
     "create": {
@@ -2929,7 +2940,8 @@
             "avatar": "虛擬化身",
             "edit": "編輯",
             "logout": "登出",
-            "settings": "設定"
+            "settings": "設定",
+            "claim": ""
         },
         "profile": {
             "sandAmount": "你的",
@@ -3298,7 +3310,12 @@
                 "description1": "你的錢包尚未加入許可名單！",
                 "description2": "你沒有進入此部分的權限。"
             },
-            "effects": "Disable Effects"
+            "effects": "Disable Effects",
+            "noConnection": {
+                "title": "",
+                "description1": "",
+                "button": ""
+            }
         },
         "loginModal": {
             "title": "登入或建立帳戶",
@@ -3484,6 +3501,19 @@
                 "useGaslessSecond": " free transactions remaining for this month.",
                 "wallet": "HARDWARE WALLET"
             }
+        },
+        "claims": {
+            "claims": "",
+            "all": "",
+            "unlock": "",
+            "details": "",
+            "claim": "",
+            "claimed": "",
+            "goToAlpha": "",
+            "goToTwitter": "",
+            "goToDiscord": "",
+            "noClaims": "",
+            "bannerSubtitle": ""
         }
     },
     "moderator": {
@@ -4669,7 +4699,14 @@
             "weekly": "每週都會補充獎勵。此值代表過去一週所發行的數量。",
             "earnings-title": "收益",
             "earnings": "你可領取的累計收益。",
-            "landMultiplierNotActive": "Polygon 網路上還無法使用 LAND 加成"
+            "landMultiplierNotActive": "Polygon 網路上還無法使用 LAND 加成",
+            "myScore": "",
+            "myScore2": "",
+            "communityScore": "",
+            "communityScore2": "",
+            "earnScorePoints": "",
+            "projectedScoreTitle": "",
+            "projectedScore": ""
         },
         "modalWithdraw": {
             "withdraw": "你的提領",
@@ -4724,7 +4761,10 @@
             },
             "maticCoin": "MATIC",
             "mainnetL2Title": "Polygon Network",
-            "testnetL2Title": "Mumbai Network"
+            "testnetL2Title": "Mumbai Network",
+            "lands": "",
+            "estate": "",
+            "estates": ""
         },
         "tutorial": {
             "step1": {
@@ -4841,13 +4881,20 @@
                     "tooltipEnd": "mSAND you stake during the whole Season 2 duration (28 days). 200 Raffle Tickets maximum."
                 },
                 "infoStart": "{stakingMultiplier} points are earned for each",
-                "infoEnd": "staked for the whole season."
+                "infoEnd": "staked for the whole season.",
+                "pointsInfo1": "",
+                "pointsInfo2": "",
+                "pointsInfo3": "",
+                "myScore": "",
+                "earnScorePoints": ""
             }
         },
         "network": {
             "polygon": "Polygon mainnet",
             "ethereum": "Ethereum mainnet"
-        }
+        },
+        "exitOnDeprecationLP": "",
+        "discontinued": ""
     },
     "login": {
         "refresh": "外掛程式安裝完成後，請重新整理你的瀏覽器",
@@ -5412,7 +5459,8 @@
                         "button": "Boost Rewards",
                         "booster": {
                             "title": "Community Booster*",
-                            "sand": "SAND"
+                            "sand": "SAND",
+                            "estimate": ""
                         }
                     }
                 }
