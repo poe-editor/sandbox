@@ -855,7 +855,7 @@
                     "description12": "Players can play your games inside the Game Maker Gallery. However, you can’t publish your games on your LAND yet. We are working to enable publishing on your LAND in the near future. Get a chance to put your games in one of our upcoming seasons by participating in our Alpha Game Jams.",
                     "description13": "Chat commands are as follow:",
                     "description14": "All players reaching level 5 will get the season's Memorabilia (not an NFT), which will grant them extra rewards for all future seasons. We will communicate more details about that soon.",
-                    "description15": "/join <INSTANCE ID>",
+                    "description15": "Just be patient. There is a possibility of high latency on blockchain between purchasing an avatar (Doggy) and that avatar showing up in Avatar Creator.",
                     "description16": "in the chat. For example,",
                     "description17": "/join 2234",
                     "description18": "to join instance 2234.",
@@ -919,7 +919,8 @@
                     "text11": "You mentioned above that 1 experience will require a Season 2 Alpha Pass to enter, what is it?",
                     "text12": "Can players play the games I made?",
                     "text13": "What are the chat commands?",
-                    "text14": "I reached level 5 but did not win the Raffle, do I really get nothing?"
+                    "text14": "I reached level 5 but did not win the Raffle, do I really get nothing?",
+                    "text15": "I purchased a Doggy avatar and I still don't see it on the avatar selection screen."
                 },
                 "rewards": {
                     "title": "Alpha Season 2 Rewards",
@@ -2483,8 +2484,8 @@
             "warnermusic": "WARNER MUSIC",
             "gucci": "GUCCI",
             "web3": "Web 3",
-            "ubisoft": "Ubisoft",
-            "avex": "Metavex"
+            "ubisoft": "UBISOFT",
+            "avex": "METAVEX"
         },
         "booked": "Booked by",
         "visit": "Visit site",
@@ -4748,7 +4749,7 @@
             "usd": "USD",
             "buy": "Buy",
             "nftMainnet": "NFTs on",
-            "land": "Land",
+            "land": "LAND",
             "asset": "Assets",
             "matic": {
                 "title": "Active MATIC in your Wallet",
@@ -4763,7 +4764,7 @@
             "mainnetL2Title": "Polygon Network",
             "testnetL2Title": "Mumbai Network",
             "lands": "Lands",
-            "estate": "Estate",
+            "estate": "ESTATE",
             "estates": "Estates"
         },
         "tutorial": {
