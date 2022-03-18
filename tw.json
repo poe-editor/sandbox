@@ -638,7 +638,8 @@
                     "raffleTitle4": "",
                     "lockedDesc": "You need a Season 2 Alpha Pass to claim the $SAND reward at the end of Alpha Season 2.",
                     "memorabilia": "Memorabilia",
-                    "memorabiliaTooltip": "All players reaching level 5 will get the season's Memorabilia, that will grant them extra rewards for all future seasons. Please note that a Memorabilia is not a NFT."
+                    "memorabiliaTooltip": "All players reaching level 5 will get the season's Memorabilia, that will grant them extra rewards for all future seasons. Please note that a Memorabilia is not a NFT.",
+                    "increaseTotalDescriptionEnd": ""
                 },
                 "timeRewards": "距離領取獎勵還有",
                 "raffleResults": "距離開獎還有：",
@@ -1654,6 +1655,9 @@
                 "amount": "數量",
                 "price": "價格",
                 "status": "狀態"
+            },
+            "cartItem": {
+                "available": "Available"
             }
         },
         "assets": {
@@ -2027,7 +2031,8 @@
                     "inventory": "物品欄",
                     "avatar": "虛擬化身",
                     "edit": "編輯",
-                    "logout": "登出"
+                    "logout": "登出",
+                    "settings": ""
                 },
                 "profile": {
                     "sandAmount": "あなたのSAND",
@@ -3316,7 +3321,11 @@
                 "title": "Ups!",
                 "description1": "You are not connected",
                 "button": "CONNECT WALLET"
-            }
+            },
+            "noResultAvatar": "Create your custom avatar!",
+            "noResultLand": "You don't have any land",
+            "noResultExperience": "You don't have any experience",
+            "noResultEntity": "You don't have any entity"
         },
         "loginModal": {
             "title": "登入或建立帳戶",
@@ -3477,7 +3486,9 @@
                     "telegram": "輸入你的 Telegram 使用者名稱"
                 },
                 "username-invalid": "",
-                "profilePictureErrorHigh": "個人檔案相片名稱長度超過 200 個字元 (包含副檔名)。"
+                "profilePictureErrorHigh": "個人檔案相片名稱長度超過 200 個字元 (包含副檔名)。",
+                "profile-updated": "Profile updated!",
+                "password-changed": "Your account password was changed successfully."
             },
             "security": {
                 "title": "安全性和密碼",
@@ -3514,8 +3525,9 @@
             "goToTwitter": "Twitter",
             "goToDiscord": "Discord",
             "noClaims": "No claims available",
-            "bannerSubtitle": "Live the real play to earn experience. Follow us on your social media to know what's coming on. Stay tuned for al the benefits you can get on The Sandbox"
-        }
+            "bannerSubtitle": "Start earning today! Follow us on our social media channels to know what's coming up."
+        },
+        "tag-new": "NEW"
     },
     "moderator": {
         "title": "版主",
@@ -3718,7 +3730,8 @@
         "coming": "即將推出",
         "selectAvatar": "選取你的虛擬人像",
         "infoTooltip": "每擁有一塊 LAND，即可額外獲得 1 張抽獎券",
-        "helpUs": "幫助我們改善《The Sandbox》體驗！"
+        "helpUs": "幫助我們改善《The Sandbox》體驗！",
+        "readMore": ""
     },
     "experiencePage": {
         "progressSeason": "季度進度",
@@ -4012,7 +4025,10 @@
                 "profit": "獲利"
             },
             "etherscan": "在 Etherscan 上查看",
-            "nothing": "沒有獲得的傭金。"
+            "nothing": "沒有獲得的傭金。",
+            "percentage": "10%",
+            "referral": "Referral",
+            "fee": "FEE"
         },
         "linkAWallet": "連結一個錢包",
         "linkWallet": "連結錢包",
@@ -4157,7 +4173,11 @@
             "willTake": "The migration will require ",
             "transactions": "transactions. Please note there is a time buffer of one hour between each transaction.",
             "trezor": "I am using a Trezor* wallet.",
-            "trezorNote": "* Or any other hardware wallet not compatible with EIP-712."
+            "trezorNote": "* Or any other hardware wallet not compatible with EIP-712.",
+            "menu": {
+                "land": "Land",
+                "faqs": "S.S.S"
+            }
         }
     },
     "search": "搜尋",
@@ -5456,7 +5476,9 @@
                             "4": "獎勵數量！",
                             "5": "並為自己贏得額外抽獎券。",
                             "6": "You will also get up to 200 extra Raffle Tickets",
-                            "7": "for staking"
+                            "7": "for staking",
+                            "8": "",
+                            "9": ""
                         },
                         "button": "Boost Rewards",
                         "booster": {
