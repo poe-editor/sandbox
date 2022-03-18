@@ -1655,6 +1655,9 @@
                 "amount": "수량",
                 "price": "가격",
                 "status": "상태"
+            },
+            "cartItem": {
+                "available": ""
             }
         },
         "assets": {
@@ -3318,7 +3321,11 @@
                 "title": "Ups!",
                 "description1": "You are not connected",
                 "button": "CONNECT WALLET"
-            }
+            },
+            "noResultAvatar": "",
+            "noResultLand": "",
+            "noResultExperience": "",
+            "noResultEntity": ""
         },
         "loginModal": {
             "title": "로그인하거나 계정을 만드세요",
@@ -3479,7 +3486,9 @@
                     "telegram": "텔레그램 사용자 이름 입력"
                 },
                 "username-invalid": "유효하지 않은 사용자 이름",
-                "profilePictureErrorHigh": "프로필 사진 이름이 200자를 초과합니다 (파일 확장자 포함)."
+                "profilePictureErrorHigh": "프로필 사진 이름이 200자를 초과합니다 (파일 확장자 포함).",
+                "profile-updated": "",
+                "password-changed": ""
             },
             "security": {
                 "title": "보안 및 비밀번호",
@@ -3517,7 +3526,8 @@
             "goToDiscord": "Discord",
             "noClaims": "No claims available",
             "bannerSubtitle": "Live the real play to earn experience. Follow us on your social media to know what's coming on. Stay tuned for al the benefits you can get on The Sandbox"
-        }
+        },
+        "tag-new": ""
     },
     "moderator": {
         "title": "운영자",
@@ -4015,7 +4025,10 @@
                 "profit": "수익금"
             },
             "etherscan": "Etherscan에서 보기",
-            "nothing": "받은 커미션이 없습니다."
+            "nothing": "받은 커미션이 없습니다.",
+            "percentage": "",
+            "referral": "",
+            "fee": ""
         },
         "linkAWallet": "지갑 연결하기",
         "linkWallet": "지갑 연결하기",
@@ -4160,7 +4173,11 @@
             "willTake": "The migration will require ",
             "transactions": "transactions. Please note there is a time buffer of one hour between each transaction.",
             "trezor": "I am using a Trezor* wallet.",
-            "trezorNote": "* Or any other hardware wallet not compatible with EIP-712."
+            "trezorNote": "* Or any other hardware wallet not compatible with EIP-712.",
+            "menu": {
+                "land": "",
+                "faqs": ""
+            }
         }
     },
     "search": "검색",
