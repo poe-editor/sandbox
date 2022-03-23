@@ -36,7 +36,7 @@
         "tax": "요금",
         "duration": "기간",
         "day": "DAY",
-        "days": "DAYS",
+        "days": "일",
         "hours": "시간",
         "minutes": "분",
         "seconds": "초",
@@ -569,7 +569,7 @@
                     "buyButton": "구매",
                     "claimRewards": "리워드 받기",
                     "claimRewardsDescription": "4월 1일에 리워드를 받을 수 있습니다.",
-                    "claimRewardsDescription2": "April 1.",
+                    "claimRewardsDescription2": "",
                     "moreInfo": "자세히 알아보기",
                     "freeToPlay": "추첨 티켓",
                     "alphaPass": "알파 패스",
@@ -3516,7 +3516,7 @@
         },
         "claims": {
             "claims": "리워드 수령하기",
-            "all": "All claims",
+            "all": "모든 내역",
             "unlock": "Unlock Claim",
             "details": "자세히 보기",
             "claim": "Claim",
@@ -3524,7 +3524,7 @@
             "goToAlpha": "알파로 이동",
             "goToTwitter": "트위터",
             "goToDiscord": "디스코드",
-            "noClaims": "No claims available",
+            "noClaims": "수령할 대상이 없습니다",
             "bannerSubtitle": "지금 바로 수익을 획득해 보세요! 더 샌드박스 소셜 미디어 채널을 팔로우하고 최신 소식을 놓치지 마세요."
         },
         "tag-new": "NEW"
@@ -4739,7 +4739,7 @@
         "modalStake": {
             "add": "유동성 추가",
             "balance": "잔액: ",
-            "stake": "스테이킹",
+            "stake": "",
             "more": "유동 자산을 얻는 방법",
             "amount": "수량",
             "inactive": "비활성"
@@ -4889,14 +4889,14 @@
                 "stakePhrase03": "에서만 스테이킹의 이점을 누릴 수 있습니다.",
                 "rewardBooster": {
                     "title": "리워드 부스터",
-                    "text": "스테이킹하고 총 상금 풀을 늘려보세요.",
+                    "text": "를 스테이킹하고 총 상금 풀을 늘려보세요.",
                     "tooltipTitle": "더 알아보기:",
                     "tooltipStart": "시즌 2 전체 기간 (28일) 동안 스테이킹한",
                     "tooltipEnd": "장의 추가 추첨 티켓을 획득합니다. 최대 200장의 추첨 티켓을 획득할 수 있습니다."
                 },
                 "extraRaffle": {
                     "title": "추가 추첨 티켓",
-                    "text": "스테이킹하고 추가 추첨 티켓을 획득하세요.",
+                    "text": "를 스테이킹하고 추가 추첨 티켓을 획득하세요.",
                     "tooltipGet": "얻다",
                     "tooltipStart": "2개마다",
                     "tooltipEnd": "최대 200장의 추첨 티켓을 획득할 수 있습니다."
