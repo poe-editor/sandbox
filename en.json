@@ -621,7 +621,9 @@
                         "week4": "Referral Quest - March 25 | March 31",
                         "referFriend": "Refer a friend and get a chance of winning a Season 2 Alpha Pass",
                         "completeGoal": "Complete the community goal to unlock a special contest.",
-                        "communityGoal": "Community Goal: 100,000 New Accounts"
+                        "communityGoal": "Community Goal: {currentAccounts} / 100,000 New Accounts",
+                        "currentAccounts": "",
+                        "lastUpdate": "Last Update March {lastUpdateDate} UTC {utcTime}"
                     },
                     "seasonOverDescription2": "Claim your Alpha Pass now to visit the Pass holders VIP Party and to claim your $SAND rewards later on!",
                     "seasonOverDescription3": "Unfortunately you did not win a Season 2 Alpha Pass.",
@@ -643,7 +645,9 @@
                     "lockedDesc": "You need a Season 2 Alpha Pass to claim the $SAND reward at the end of Alpha Season 2.",
                     "memorabilia": "Memorabilia",
                     "memorabiliaTooltip": "All players reaching level 5 will get the season's Memorabilia, that will grant them extra rewards for all future seasons. Please note that a Memorabilia is not a NFT.",
-                    "increaseTotalDescriptionEnd": ""
+                    "increaseTotalDescriptionEnd": "",
+                    "seasonStart": "1",
+                    "seasonFinish": "31"
                 },
                 "timeRewards": "CLAIM REWARDS IN",
                 "raffleResults": "RAFFLE RESULTS IN",
@@ -1443,7 +1447,8 @@
             "art": "Art",
             "avatar": "Skins",
             "block": "Block",
-            "bodypart": "Bodypart"
+            "bodypart": "Bodypart",
+            "and": "and"
         },
         "rarities": {
             "title": "Catalyst",
@@ -3192,7 +3197,8 @@
                         }
                     }
                 }
-            }
+            },
+            "title": "Inventory"
         },
         "avatar": {
             "empty": "This list is empty",
@@ -3531,7 +3537,8 @@
             "noClaims": "No claims available",
             "bannerSubtitle": "Start earning today! Follow us on our social media channels to know what's coming up."
         },
-        "tag-new": "NEW"
+        "tag-new": "NEW",
+        "tagNew": "NEW"
     },
     "moderator": {
         "title": "Moderator",
@@ -5507,7 +5514,7 @@
                 },
                 "download": "Download Alpha",
                 "nowAvailable": {
-                    "1": "Now available in PC and",
+                    "1": "Now is available for PC and",
                     "2": "macOS"
                 }
             }
