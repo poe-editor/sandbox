@@ -420,7 +420,7 @@
             "rewards": "리워드",
             "info": "정보",
             "raffleTickets": "티켓",
-            "contests": "콘테스트"
+            "contests": "콘테스트:"
         },
         "play": {
             "selectAvatar": "아바타 선택",
@@ -623,7 +623,7 @@
                         "completeGoal": "커뮤니티 목표를 달성해 특별 콘테스트를 해금하세요.",
                         "communityGoal": "커뮤니티 목표: {currentAccounts} / 100,000 신규 계정",
                         "currentAccounts": "currentAccounts",
-                        "lastUpdate": "Last Update March {lastUpdateDate} UTC {utcTime}"
+                        "lastUpdate": "마지막 업데이트 3월 {lastUpdateDate} UTC {utcTime}"
                     },
                     "seasonOverDescription2": "지금 알파 패스를 수령하여 패스 보유자를 위한 VIP 파티에 참석하세요. $SAND 리워드는 나중에 수령할 수 있습니다!",
                     "seasonOverDescription3": "아쉽지만 시즌 2 알파 패스에 당첨되지 않았습니다.",
@@ -943,7 +943,7 @@
                     "text4": "시즌 2 알파 패스를 여러 개 보유할 수 있나요?",
                     "description5": "네, 지갑에 각 시즌의 알파 패스를 하나씩 보유할 수 있습니다.",
                     "text5": "이미 시즌 1 알파 패스를 가지고 있으면 시즌 2 알파 패스를 받을 수 있나요?",
-                    "description6": "1,000 $SAND의 리워드를 받으려면 게임에서 알파 퀘스트를 완료하여 알파 패스의 레벨 다섯 개를 모두 완료해야 합니다. 알파 퀘스트는 아주 간단하여, 알파 경험을 탐험하면 완료할 수 있습니다. 리워드 탭 섹션에서 알파 퀘스트와 리워드에 관해 자세히 알아보세요.",
+                    "description6": "1,000 $SAND의 리워드를 받으려면 게임에서 알파 퀘스트를 완료하여 알파 패스의 레벨 다섯 개를 모두 완료해야 합니다. 알파 퀘스트는 아주 간단하며, 알파 경험을 탐험하면 완료할 수 있습니다. 리워드 탭 섹션에서 알파 퀘스트와 리워드에 관해 자세히 알아보세요.",
                     "text6": "알파 시즌 2를 플레이하기만 해도 리워드로 1,000 $SAND를 받을 수 있나요?",
                     "description7": "아니요. 리워드를 수령하려면 시즌 2 알파 패스가 필요합니다. $SAND 리워드를 위해 패스를 보유해 주세요!",
                     "description8": "24시간 후에 리워드가 지급되며, 기다리는 동안 시즌 2 알파 패스 당첨자만 이용할 수 있는 전용 VIP 경험을 즐길 수 있습니다.",
@@ -1114,7 +1114,7 @@
                 "question": "시즌 2 알파 패스를 획득하려면 어떻게 해야 하나요?",
                 "bulletPoints": {
                     "1": {
-                        "title": "추첨",
+                        "title": "추첨:",
                         "body": "2022년 3월 31일, 알파 시즌 2 종료 후 추첨에 참여하세요."
                     },
                     "2": {
@@ -1143,13 +1143,13 @@
                 "title": "추첨 기회",
                 "subtitle": "추첨은 2022년 3월 31일에 진행됩니다.",
                 "description": {
-                    "1": "각 경험 내 퀘스트를 완료하여 추첨 티켓을 획득하세요",
+                    "1": "각 경험 내 퀘스트를 완료하여 추첨 티켓을 획득하세요.",
                     "2": "각 경험 안의 퀘스트를 완료하여",
-                    "link": "추첨 티켓을 받으세요."
+                    "link": "알파 맵으로 이동하기"
                 },
                 "moreTickets": {
                     "1": "더 많은",
-                    "2": "시즌2 알파 패스 획득 확률 상승"
+                    "2": "= 시즌 2 알파 패스 획득 확률 상승"
                 },
                 "moreQuests": "더 많은 퀘스트 완료 = 더 많은",
                 "bulletPoints": {
@@ -1499,7 +1499,7 @@
         },
         "themes": {
             "title": "바이옴",
-            "atari": "아타리",
+            "atari": "Atari",
             "city": "도시",
             "fantasy": "판타지",
             "heroes": "영웅",
@@ -1752,29 +1752,29 @@
             },
             "metaverse": {
                 "title": "메타버스 게임 만들기",
-                "description": "코딩을 몰라도 누구나 무료로 3D 게임을 만들 수 있습니다. 기상천외한 창작물과 경험으로 가득한 방대한 메타버스를 함께 만들어 주세요.",
+                "description": "누구나 무료로 3D 게임을 만들 수 있습니다. 코딩 지식 없이도 말이죠. 끝내주는 창작물과 환상적인 경험으로 가득한 거대한 메타버스, 함께 만들어 나가요!",
                 "buttonText": "다운로드"
             },
             "create": {
                 "1": {
-                    "title": "이용료가 없는 창작의 세계",
+                    "title": "무료로 창작하기",
                     "description": "커뮤니티가 복스에딧으로 만든 수천 개의 복셀 모델(NFT)를 사용해서 멋진 3D 게임을 만들어 보세요.",
                     "image": "block 1.png"
                 },
                 "2": {
                     "title": "만들고 공유하는 즐거움",
-                    "description": "게임을 만드는 것도 플레이하는 것만큼이나 재미있습니다. 갤러리에서 친구에게 공유하고 친구의 기억에 영영 남을 만한 창작물을 만들어 보세요.",
+                    "description": "플레이하는 것만큼이나 재미있는 게임 제작의 세계! 갤러리에서 내 경험을 친구와 공유하고 기억에 남을만한 멋진 작품을 만들어 보세요.",
                     "image": "block 2.png"
                 },
                 "3": {
                     "title": "코딩 없이 만드는 게임",
-                    "description": "배우기가 쉽습니다. 간단하고 직관적으로 행동을 만들고 능력치를 편집할 수 있습니다.",
+                    "description": "코딩 없이도 뚝딱! 간단하고 직관적으로 행동을 만들고 능력치를 편집할 수 있습니다.",
                     "image": "block 3.png"
                 }
             },
             "play": {
-                "title": "돈 버는 게임",
-                "description": "돈 쓰는 게임은 과거의 이야기입니다. 더 샌드박스에서는 게임을 만들어 돈을 벌 수 있습니다. 플레이어와 크리에이터에게 리워드를 제공하는 더 샌드박스의 모델로 플레이 투 언(Play-to-Earn, 수익형 게임)의 시대가 열렸습니다. 게임을 하거나 창작하는 사람들은 실제 세계에서도 가치를 가지는 강력한 인센티브를 받게 됩니다.",
+                "title": "Play To Earn",
+                "description": "프리 투 플레이(Free-to-play, 부분 유료화 게임)는 과거의 이야기입니다. 더 샌드박스에서는 창작하는 게임으로 수익을 창출할 수 있습니다. 플레이어와 크리에이터에게 리워드를 제공하는 더 샌드박스의 모델로 플레이 투 언(Play-to-Earn, 수익형 게임)의 시대가 열렸습니다. 게임을 플레이하거나 창작하는 사람들은 실제 세계에서도 가치를 가지는 강력한 인센티브를 받게 됩니다.",
                 "listTitle": "더 샌드박스에서 수익을 창출하는 방법",
                 "earn": {
                     "1": "게임 플레이를 통해 리워드 획득",
@@ -1788,25 +1788,25 @@
                 "minimum": {
                     "title": "최소 요구 사항",
                     "text": {
-                        "bits": "64비트 프로세서와 운영 체제가 필요함",
+                        "bits": "64비트 프로세서 및 운영 체제 필요",
                         "os": "운영 체제: Windows 7",
                         "cpu": "프로세서: 듀얼 코어 2GHz",
                         "ram": "메모리: 4GB RAM",
                         "gpu": "그래픽: 512MB VRAM",
                         "directx": "DirectX: 버전 11",
-                        "storage": "스토리지: 여유 공간 2GB"
+                        "storage": "필요 여유 공간: 2GB"
                     }
                 },
                 "recommended": {
                     "title": "권장 요구 사항",
                     "text": {
-                        "bits": "64비트 프로세서와 운영 체제가 필요함",
+                        "bits": "64비트 프로세서 및 운영 체제 필요",
                         "os": "운영 체제: Windows 10",
                         "cpu": "프로세서: 쿼드 코어 3GHz",
                         "ram": "메모리: 8GB RAM",
                         "gpu": "그래픽: 2GB VRAM",
                         "directx": "DirectX: 버전 11",
-                        "storage": "스토리지: 여유 공간 2GB"
+                        "storage": "필요 여유 공간: 2GB"
                     }
                 }
             },
@@ -2351,13 +2351,13 @@
                 },
                 "section6": {
                     "title": "망설이지 마세요",
-                    "description": "수천 명의 사용자가 저마다 자신만의 아바타를 가지고 더 샌드박스에 등록했습니다. 그 대열에 참여해 보세요.",
+                    "description": "개성 넘치는 나만의 아바타를 만들어 더 샌드박스 커뮤니티에 합류하세요.",
                     "buttonText": "지금 아바타 만들기"
                 }
             },
             "section7": {
                 "title": "지금 바로 시작하세요!",
-                "description": "수천 명의 사용자가 저마다 자신만의 아바타를 가지고 더 샌드박스에 등록했습니다. 그 대열에 참여해 보세요.",
+                "description": "개성 넘치는 나만의 아바타를 만들어 더 샌드박스 커뮤니티에 합류하세요.",
                 "buttonText": "아바타 만들기"
             }
         }
@@ -2483,11 +2483,11 @@
             "innovators": "Innovators",
             "pranksy_metapurse": "Pranksy Metapurse",
             "coinmarketcap": "CoinMarketCap",
-            "the_smurfs": "스머프",
+            "the_smurfs": "THE SMURFS",
             "care_bears": "Care Bears",
             "binance": "Binance",
             "moon": "달",
-            "atari": "아타리",
+            "atari": "ATARI",
             "hub2": "The Hub(파트 2)",
             "hub1": "The Hub(파트 1)",
             "quan": "QUAN",
@@ -2645,23 +2645,23 @@
                 "title": "제품 알아보기",
                 "voxedit": {
                     "title": "복스에딧",
-                    "description": "복셀 아트를 창작하고 애니메이션으로 만들어 보세요. 어디에나 내보낼 수 있습니다."
+                    "description": "어디에나 사용할 수 있는 나만의 복셀 아트를 만드세요."
                 },
                 "marketplace": {
                     "title": "마켓플레이스",
-                    "description": "한곳에서 최고의 애셋을 판매하고 수집할 수 있습니다."
+                    "description": "판매부터 수집까지, 최고의 애셋을 이곳에서 바로 만나보세요."
                 },
                 "gameMaker": {
                     "title": "게임 메이커",
-                    "description": "상상할 수 있는 게임은 무엇이든 만들어 플레이할 수 있습니다."
+                    "description": "상상력을 마음껏 펼쳐보세요."
                 },
                 "land": {
                     "title": "LAND",
-                    "description": "가능성이 무궁무진합니다. 오늘 LAND를 예약해 보세요!"
+                    "description": "무궁무진한 가능성. 나만의 LAND를 구입하세요!"
                 },
                 "gameMakerProduct": {
                     "title": "게임 메이커",
-                    "description": "상상할 수 있는 게임은 무엇이든 만들어 플레이할 수 있습니다."
+                    "description": "상상력을 마음껏 펼쳐보세요."
                 },
                 "fund": {
                     "title": "게임 메이커 펀드",
@@ -2745,7 +2745,7 @@
                 },
                 "marketplace": {
                     "title": "마켓플레이스",
-                    "description": "한곳에서 최고의 애셋을 판매하고 수집할 수 있습니다."
+                    "description": "판매부터 수집까지, 최고의 애셋을 이곳에서 바로 만나보세요."
                 },
                 "gameMaker": {
                     "title": "게임 메이커",
@@ -2834,8 +2834,8 @@
                 "buttonText": "계정 만들기"
             },
             "play": {
-                "title": "돈 버는 게임",
-                "description": "돈 쓰는 게임은 과거의 이야기입니다. 더 샌드박스에서는 게임을 만들어 돈을 벌 수 있습니다. 플레이어와 크리에이터에게 리워드를 제공하는 더 샌드박스의 모델로 플레이 투 언(Play-to-Earn, 수익형 게임)의 시대가 열렸습니다. 게임을 하거나 창작하는 사람들은 실제 세계에서도 가치를 가지는 강력한 인센티브를 받게 됩니다.",
+                "title": "Play To Earn",
+                "description": "프리 투 플레이(Free-to-play, 부분 유료화 게임)는 과거의 이야기입니다. 더 샌드박스에서는 창작하는 게임으로 수익을 창출할 수 있습니다. 플레이어와 크리에이터에게 리워드를 제공하는 더 샌드박스의 모델로 플레이 투 언(Play-to-Earn, 수익형 게임)의 시대가 열렸습니다. 게임을 플레이하거나 창작하는 사람들은 실제 세계에서도 가치를 가지는 강력한 인센티브를 받게 됩니다.",
                 "listTitle": "더 샌드박스에서 수익을 창출하는 방법",
                 "earn": {
                     "play": "게임 플레이를 통해 리워드 획득",
@@ -4251,16 +4251,16 @@
         "sandbox": {
             "voxEdit": {
                 "title": "복스에딧",
-                "info": "복셀 아트를 창작하고 애니메이션으로 만들어 보세요. 어디에나 내보낼 수 있습니다."
+                "info": "어디에나 사용할 수 있는 나만의 복셀 아트를 만드세요."
             },
             "marketplace": {
                 "title": "마켓플레이스",
-                "info": "한곳에서 최고의 애셋을 판매하고 수집할 수 있습니다.",
+                "info": "판매부터 수집까지, 최고의 애셋을 이곳에서 바로 만나보세요.",
                 "info1": "start.sandbox.marketplace.info1"
             },
             "gameMaker": {
                 "title": "게임 메이커",
-                "info": "상상할 수 있는 게임은 무엇이든 만들어 플레이할 수 있습니다.",
+                "info": "상상력을 마음껏 펼쳐보세요.",
                 "info1": "start.sandbox.gameMaker.info1"
             }
         },
@@ -4269,7 +4269,7 @@
             "welcome": "환영합니다",
             "lands": {
                 "title": "LAND",
-                "info": "가능성이 무궁무진합니다. 오늘 LAND를 예약해 보세요!",
+                "info": "무궁무진한 가능성. 나만의 LAND를 구입하세요!",
                 "info1": "start.aboutUs.lands.info1",
                 "header": {
                     "title": "LAND",
@@ -4328,7 +4328,7 @@
                     }
                 },
                 "playToEarn": {
-                    "title": "돈 버는 게임",
+                    "title": "Play To Earn",
                     "content": "프리 투 플레이(Free-to-play, 부분 유료화 게임)는 과거의 이야기입니다. 더 샌드박스에서는 창작하는 게임으로 수익을 창출할 수 있습니다. 플레이어와 크리에이터에게 리워드를 제공하는 더 샌드박스의 모델로 플레이 투 언(Play-to-Earn, 수익형 게임)의 시대가 열렸습니다. 게임을 플레이하거나 창작하는 사람들은 실제 세계에서도 가치를 가지는 강력한 인센티브를 받게 됩니다.",
                     "subtitle": "더 샌드박스에서 수익을 창출하는 방법",
                     "list": {
@@ -4425,16 +4425,16 @@
         "24x24": "24x24",
         "tsb": "TSB",
         "careBears": "Care Bears",
-        "atari": "아타리",
-        "theSmurf": "스머프",
+        "atari": "Atari",
+        "theSmurf": "The Smurfs",
         "binance": "Binance",
         "coinMarketCap": "CoinMarketCap",
-        "avengedSevenfold": "어벤지드 세븐폴드",
+        "avengedSevenfold": "Avenged Sevenfold",
         "gemini": "Gemini",
         "revv": "REVV",
-        "zepeto": "제페토",
+        "zepeto": "Zepeto",
         "pranksy": "Pranksy NFT Boxes",
-        "deadMau": "데드마우스",
+        "deadMau": "Deadmau5",
         "metaverse": "메타버스",
         "summerJam": "Summer Jam",
         "euphoria": "Euphoria",
