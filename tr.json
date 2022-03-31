@@ -1,6 +1,6 @@
 {
     "common": {
-        "sandbox": "SAND",
+        "sandbox": "The Sandbox",
         "$sand": "$SAND",
         "sand": "SAND",
         "land": "land",
@@ -352,12 +352,12 @@
             },
             "preseason": "",
             "buttonText": {
-                "preSeason": "Register for Season 2",
-                "duringSeason": "Play now"
+                "preSeason": "Alpha Sezon 2 için kayıt ol",
+                "duringSeason": "Şimdi oyna"
             },
             "discover": "",
             "howToJoin": "",
-            "buyLand": "Buy Land",
+            "buyLand": "Arazi Satın Al",
             "alphaOpened": "",
             "alpha": "",
             "alphaDate": "",
@@ -365,10 +365,10 @@
             "description2": "",
             "createButtonText": "",
             "ribbon": {
-                "preSeason": "ALPHA SEASON 2 IS COMING SOON",
-                "duringSeason": "ALPHA SEASON 2 IS LIVE"
+                "preSeason": "Alpha Sezon 2 çok yakında geliyor",
+                "duringSeason": "ALPHA SEZON 2 YAYINDA"
             },
-            "createAccount": "Create account"
+            "createAccount": "Hesap Oluştur"
         },
         "discover": {
             "title": "Sandbox'u keşfet",
@@ -403,14 +403,14 @@
             "description": "Son Sandbox yeniliklerinden haberdar kalın. Bloğumuzda bilmeniz gereken her şeyi okuyabilirsiniz."
         },
         "avatar": {
-            "title": "",
+            "title": "The Sandbox Avatar",
             "description": {
-                "1": "",
-                "2": ""
+                "1": "Profil fotoğrafını bir üst seviyeye taşı. Artık kendi favori Avatar'ını seçip Sandbox Metaverse'ü keşfedebilirsin.",
+                "2": "Dış Avatar sahibi olup olmadığını öğrenmek için favori cüzdanına bağlan."
             },
             "button": {
-                "wallet": "",
-                "avatar": ""
+                "wallet": "Cüzdan Bağla",
+                "avatar": "Avatar Oluştur"
             }
         }
     },
@@ -548,23 +548,23 @@
                 "seasonLockedButton": "Opensea'de bul",
                 "description3": "Ödüllerini Alpha sonunda, Aralık 20, 2021 tarihinde alabilirsin.  Bu tarihe kadar Alpha Bileti'ni yanında tut.",
                 "alpha2": {
-                    "title": "Rewards",
-                    "subtitle": "Alpha Season 2",
-                    "date": "From March 3 until March 31",
-                    "seasonOverTitle": "THE ALPHA SEASON 2 IS OVER!",
-                    "seasonOverDescription": "Thanks for joining the Alpha, we are getting your rewards ready! When enabled, click the Claim button.",
-                    "raffleStartsIn": "RAFFLE STARTS IN",
-                    "raffleResultsIn": "RAFFLE RESULTS IN",
+                    "title": "Ödüller",
+                    "subtitle": "Alpha Sezon 2",
+                    "date": "From Mart 3 until Mart 31",
+                    "seasonOverTitle": "ALPHA SEZON 2 SONA ERMİŞTİR!",
+                    "seasonOverDescription": "Alpha'ya katıldığınız için teşekkürler, ödüllerinizi hazırlıyoruz! Hazır olduğunda, Topla butonuna tıkla.",
+                    "raffleStartsIn": "ÇEKİLİŞ BAŞLIYOR",
+                    "raffleResultsIn": "ÇEKİLİŞ ÖDÜLLERİ İÇİN",
                     "claimAvailableAt": "CLAIM AVAILABLE AT",
-                    "raffleTitle": "RAFFLE DAY",
-                    "raffleTitle2": "MARCH",
-                    "raffleDrawTitle": "RAFFLE DRAW",
-                    "raffleDrawTitle2": "IN PROGRESS",
-                    "raffleDescription": "Earn Raffle Tickets by completing Quests.",
-                    "raffleDescription2": "More Tickets = More chances to win an Alpha Pass.",
-                    "raffleDrawDescription": "At the end of the Raffle, you will find out if you win a Season 2 Alpha Pass. Good luck!",
-                    "howToGet": "How to get the Season 2 Alpha Pass?",
-                    "raffleButton": "Raffle",
+                    "raffleTitle": "TOPLAMAYA",
+                    "raffleTitle2": "MART",
+                    "raffleDrawTitle": "ÇEKİLİŞ KURASI",
+                    "raffleDrawTitle2": "SÜRÜYOR",
+                    "raffleDescription": "Görevleri tamamlayarak Çekiliş Biletleri kazan",
+                    "raffleDescription2": "Daha Fazla Bilet = Alpha Bileti kazanmak için daha fazla şans.",
+                    "raffleDrawDescription": "Çekiliş sonunda, Sezon 2 Alpha Bileti kazanıp kazanmadığınızı öğreneceksiniz. İyi Şanslar!",
+                    "howToGet": "HNASIL SEZON 2 ALPHA BİLETİ ELDE EDİLİR?",
+                    "raffleButton": "ÇEKİLİŞ",
                     "contestButton": "Contest",
                     "buyButton": "Buy",
                     "claimRewards": "Claim Rewards",
@@ -586,7 +586,7 @@
                     "boostRewards": "Stake mSAND",
                     "communityBooster": "Topluluk Takviyesi",
                     "increaseTotalDescription": "Boost rewards by staking",
-                    "youCanWinDescription": "You can win an Alpha Pass on Raffle on March 18th. Get Raffle ticket by completing quests!",
+                    "youCanWinDescription": "You can win an Alpha Pass on Raffle on Mart 18th. Get Raffle ticket by completing quests!",
                     "alreadyOwn": "You already own an Alpha Pass",
                     "claimIt": "To unlock rewards Claim it.",
                     "betterLuck": "Better luck next time",
@@ -606,7 +606,7 @@
                     "contest": {
                         "results": "Contest Results",
                         "checkResults": "Check contest results here every Thursday. You will also receive an email if you won the Alpha Pass",
-                        "buttonTooltip": "Claim your Season 2 Alpha Pass before March 31.",
+                        "buttonTooltip": "Claim your Season 2 Alpha Pass before Mart 31.",
                         "didntWin": "You didn't win yet",
                         "won": "YOU WON!",
                         "sub1": "Check contest results here every Thursday.",
@@ -614,27 +614,29 @@
                         "didntYet": "You didn't win yet",
                         "alreadyWon": "You've already claimed your pass",
                         "claimS2": "Claim S2 Alpha Pass",
-                        "week1": "Week March 3 - March 9",
-                        "week2": "Week March 10 - March 16",
-                        "week3": "Week March 17 - March 23",
+                        "week1": "Week Mart 3 - Mart 9",
+                        "week2": "Week Mart 10 - Mart 16",
+                        "week3": "Week Mart 17 - Mart 23",
                         "claimBefore": "Claim your Alpha Pass before March 31, 2022",
                         "week4": "Referral Quest - March 25 | March 31",
                         "referFriend": "Refer a friend and get a change of winning a Season 2 Alpha Pass",
                         "completeGoal": "Complete the community goal to unlock a special contest.",
-                        "communityGoal": "Community Goal: 100,000 New Accounts"
+                        "communityGoal": "Community Goal: {currentAccounts} / 100,000 New Accounts",
+                        "currentAccounts": "",
+                        "lastUpdate": "Last Update March {lastUpdateDate} UTC {utcTime}"
                     },
-                    "seasonOverDescription2": "Claim your Alpha Pass now to visit the Pass holders VIP Party and to claim your $SAND rewards later on!",
-                    "seasonOverDescription3": "Unfortunately you did not win a Season 2 Alpha Pass.",
-                    "raffleTitle3": "RAFFLE CLAIM DAY",
-                    "raffleDescription3": "Unlock your $SAND rewards by completing Quests. More Quests completed = more rewards unlocked.",
+                    "seasonOverDescription2": "Bilet sahiplerinin VIP Partisini ziyaret etmek ve daha sonra $SAND ödüllerinizi almak için Alpha Biletinizi şimdi alın!",
+                    "seasonOverDescription3": "Maalesef Sezon 2 Alpha Bileti kazanamadınız.",
+                    "raffleTitle3": "ÇEKİLİŞ ÖDÜL TOPLAMA GÜNÜ",
+                    "raffleDescription3": "Görevleri tamamlayarak $SAND ödüllerinin kilidini aç. Ne kadar çok görev = O kadar çok ödül",
                     "communityBoosterDescription1": "Stake",
                     "communityBoosterDescription2": "to increase the total prize pool. Up to + 100%.",
                     "communityBoosterDescription3": "You will also get up to 200 extra Raffle Tickets",
                     "raffleHasPass": "DAYS TO CLAIM",
                     "raffleHasPassDesc": "You own a S2 Alpha Pass",
                     "communityBoosterDescription": "",
-                    "enterThePartyDescription": "Add Join the VIP Party on Thursday March 24 at 7PM",
-                    "seasonOverDescription4": "You will be able to claim the $SAND rewards soon! In the meantime visit the Pass holders VIP Party!",
+                    "enterThePartyDescription": "Add Join the VIP Party on Thursday Mart 24 at 7PM",
+                    "seasonOverDescription4": "Yakında $SAND ödülleri kazanabileceksiniz! Bu arada Bilet Sahiplerinin VIP Partisi'ni ziyaret etmeyi unutmayın!",
                     "communityBoosterDescription4": "for staking",
                     "communityBoosterDescription5": "{stakingMultiplier} point is earned for each",
                     "communityBoosterDescription6": "staked for the whole season.",
@@ -643,7 +645,9 @@
                     "lockedDesc": "You need a Season 2 Alpha Pass to claim the $SAND reward at the end of Alpha Season 2.",
                     "memorabilia": "Memorabilia",
                     "memorabiliaTooltip": "All players reaching level 5 will get the season's Memorabilia, that will grant them extra rewards for all future seasons. Please note that a Memorabilia is not a NFT.",
-                    "increaseTotalDescriptionEnd": ""
+                    "increaseTotalDescriptionEnd": "",
+                    "seasonStart": "1",
+                    "seasonFinish": "31"
                 },
                 "timeRewards": "ÖDÜLLERİ TOPLAMAK İÇİN",
                 "raffleResults": "ÇEKİLİŞ ÖDÜLLERİ İÇİN",
@@ -671,17 +675,17 @@
                 "total": "Toplam Çekiliş Biletlerin",
                 "getNFT": "NFT Edin",
                 "stake": "Stake",
-                "notTraded": "Çekiliş Biletleri NFT değildir ve",
+                "notTraded": "Çekiliş Biletleri NFT Değildir",
                 "notTraded2": "ikincil bir pazarda takas edilemez.",
                 "questTooltipDesc": "You get Raffle tickets everytime you level up. The amount of tickets per level is indicated in the Rewards tab.",
                 "stakeTooltipDesc": "Get 1 extra Raffle Tickets for every {ticketAmount} mSAND you stake during the whole Season 2 duration (28 days). 200 Raffle Tickets maximum.",
-                "snoopTooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoop Dogg Private Party Pass NFT. You need to own the NFT in your wallet when the Raffle starts (March 31).",
-                "snoop2TooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoopverse Early Access Pass NFT. You need to own the NFT in your wallet when the Raffle starts (March 31).",
-                "alphaTooltipDesc": "Get 130 extra Raffle Tickets by owning the Season 1 Alpha Pass (NFT name: Alpha Pass). You need to own the NFT in your wallet when the Raffle starts (March 31).",
-                "landTooltipDesc": "Get 40 extra Raffle Tickets per LAND you own. You need to own the NFT(s) in your wallet when the Raffle starts (March 31). 200 Raffle Tickets maximum.",
+                "snoopTooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoop Dogg Private Party Pass NFT. You need to own the NFT in your wallet when the Raffle starts (Mart 31).",
+                "snoop2TooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoopverse Early Access Pass NFT. You need to own the NFT in your wallet when the Raffle starts (Mart 31).",
+                "alphaTooltipDesc": "Get 130 extra Raffle Tickets by owning the Season 1 Alpha Pass (NFT name: Alpha Pass). You need to own the NFT in your wallet when the Raffle starts (Mart 31).",
+                "landTooltipDesc": "Get 40 extra Raffle Tickets per LAND you own. You need to own the NFT(s) in your wallet when the Raffle starts (Mart 31). 200 Raffle Tickets maximum.",
                 "feedbackTooltipDesc": "If you answered the Season 1 feedback form, you get 10 extra Raffle Tickets. This form is now closed. This is our way of thanking our community for engaging in the Alpha Season 1. Remember to fill in the feedback form at the end of Season 2!",
                 "snoop3": "Doggie Avatar",
-                "snoop3TooltipDesc": "Get 100 extra Raffle Tickets by owning a Doggie Avatar NFT. You need to own the NFT in your wallet when the Raffle starts (March 31)."
+                "snoop3TooltipDesc": "Get 100 extra Raffle Tickets by owning a Doggie Avatar NFT. You need to own the NFT in your wallet when the Raffle starts (Mart 31)."
             },
             "downloadAlpha": "Alpha'yı İndir"
         },
@@ -792,7 +796,7 @@
                     "text1": "Who can access the Alpha?",
                     "description1": "Everyone with a TSB account!! Contrary to Alpha Season 1, all of the 30 Season 2 experiences will be opened to all, except one that will be gated to Alpha Pass owners. The dynamic of the Season will be very different, everybody can play, and everybody has a chance to win an Alpha Pass by playing!",
                     "text2": "How long does the Alpha last?",
-                    "description2": "4 weeks, from March 3 till March 31 2022."
+                    "description2": "4 weeks, from Mart 3 till Mart 31 2022."
                 },
                 "howToJoin": {
                     "title": "Joining the Alpha Season 2 (Raffle)",
@@ -804,10 +808,10 @@
                         "description2": "Weekly distribution to the daily Social Contests winners.",
                         "title3": "- OpenSea:",
                         "description3": "You can buy a S2AP on the secondary market if someone is willing to sell theirs.",
-                        "warning": "Be careful when purchasing a S2AP on the secondary market as there may be fakes and there is no point in purchasing one after Season 2 has ended on March 31, 2022 at 4 PM UTC."
+                        "warning": "Be careful when purchasing a S2AP on the secondary market as there may be fakes and there is no point in purchasing one after Season 2 has ended on Mart 31, 2022 at 4 PM UTC."
                     },
                     "text2": "How do I register for the raffle?",
-                    "description2": "The Raffle will occur at the end of the Alpha Season 2 on March 31, 2022. Contrary to Season 1, there is no Raffle before the Season starts. To register for the Season 2 Raffle, you simply have to play the game. By completing quests in the game (which everybody can do for free) you will earn Raffle Tickets by leveling up. As soon as you reach level 1 (which is very fast, you only need to complete a few quests) you will become eligible for the Raffle.",
+                    "description2": "The Raffle will occur at the end of the Alpha Season 2 on Mart 31, 2022. Contrary to Season 1, there is no Raffle before the Season starts. To register for the Season 2 Raffle, you simply have to play the game. By completing quests in the game (which everybody can do for free) you will earn Raffle Tickets by leveling up. As soon as you reach level 1 (which is very fast, you only need to complete a few quests) you will become eligible for the Raffle.",
                     "hrefText": "",
                     "description3": "",
                     "text3": "What is the maximum number of Raffle tickets that I can get?",
@@ -825,8 +829,8 @@
                     "text7": "Can I win more than one Season 2 Alpha Pass in the Raffle if I own many LANDS and many Season 1 Alpha Passes?",
                     "description7": "No. One Season 2 Alpha Pass per wallet only. If you get a Season 2 Alpha Pass by participating in Social Contests, you will not be able to get another one from the Raffle.",
                     "text8": "Is there a moment where there is no point anymore to get a Season 2 Alpha Pass?",
-                    "description8a": "Yes. Do not purchase a S2AP on the secondary market after Season 2 has ended, on March 31, 2022 16 UTC, as you will not be able to claim the $SAND rewards with it anymore if you purchase it after this date.",
-                    "description8b": "But, you can safely purchase a S2AP on OpenSea while Alpha Season 2 is ongoing, as long as you own it before March 31, 2022 16 UTC."
+                    "description8a": "Yes. Do not purchase a S2AP on the secondary market after Season 2 has ended, on Mart 31, 2022 16 UTC, as you will not be able to claim the $SAND rewards with it anymore if you purchase it after this date.",
+                    "description8b": "But, you can safely purchase a S2AP on OpenSea while Alpha Season 2 is ongoing, as long as you own it before Mart 31, 2022 16 UTC."
                 },
                 "playing": {
                     "title": "Playing the Alpha Season 2",
@@ -855,7 +859,7 @@
                     "text6": "How do I know when an Experience will be revealed?",
                     "description9": "While you have your Season 2 Alpha Pass, the website interface will tell you that, since you already have an Alpha Pass you are no longer eligible to win one during the Raffle at the end of Alpha Season 2, thus you will see that you don’t have any Raffle Tickets - but if you sell / giveaway / lose your Alpha Pass, we tracked your progression in the background so you won’t have to redo the quests you already completed.",
                     "text7": "Can I play along with a friend?",
-                    "description10": "No, you cannot keep playing after the closing date. On March 31 all experiences of the Alpha Season 2 will be closed, except for one gated experience that will remain open for S2AP owners only for 24 extra hours (more info below).",
+                    "description10": "No, you cannot keep playing after the closing date. On Mart 31 all experiences of the Alpha Season 2 will be closed, except for one gated experience that will remain open for S2AP owners only for 24 extra hours (more info below).",
                     "description11": "After the Raffle, once the lucky people who won a Season 2 Alpha Pass have been picked, we will open the last experience of the Alpha Season 2 for 24 hours only. That experience will be accessible only to Season 2 Alpha Pass owners at that time. This will be the Season 2 VIP party!",
                     "description12": "Players can play your games inside the Game Maker Gallery. However, you can’t publish your games on your LAND yet. We are working to enable publishing on your LAND in the near future. Get a chance to put your games in one of our upcoming seasons by participating in our Alpha Game Jams.",
                     "description13": "Chat commands are as follow:",
@@ -871,7 +875,7 @@
                     "description22": "",
                     "text9": "If I get an Alpha Pass, do quests, then lose my Alpha Pass, will my progression be retroactively tracked or do I need to redo all the quests I did?",
                     "description23": "",
-                    "text10": "Can I keep playing the Alpha Season 2 after it ends on March 31, 2022?",
+                    "text10": "Can I keep playing the Alpha Season 2 after it ends on Mart 31, 2022?",
                     "commands": {
                         "1": "/w username message Whispers a message to username.",
                         "2": "/m message Send a message to the metaverse channel.",
@@ -933,7 +937,7 @@
                     "description1": "No. You can see Raffle Tickets as an indicator of a player’s investment in the Alpha Season 2, but they are not NFTs and cannot be traded on the secondary market.",
                     "description2": "You will receive an email if you won, and you will get a popup on the website informing you if you won the Raffle or not on the Raffle day.",
                     "text2": "How will I know if I won the Raffle?",
-                    "description3": "No. The Season 2 Alpha Pass is the key that allows you to claim the $SAND rewards. However, please remember not to purchase the S2AP after the Season 2 has closed on March 31, 2022, at 4 PM UTC.",
+                    "description3": "No. The Season 2 Alpha Pass is the key that allows you to claim the $SAND rewards. However, please remember not to purchase the S2AP after the Season 2 has closed on Mart 31, 2022, at 4 PM UTC.",
                     "text3": "Is there a way to earn the $SAND rewards if I don’t have the Season 2 Alpha Pass?",
                     "description4": "No. Only one S2AP per wallet.",
                     "text4": "Can I get multiple Season 2 Alpha Passes?",
@@ -943,7 +947,7 @@
                     "text6": "Do I get the 1,000 $SAND reward just for playing the Alpha Season 2?",
                     "description7": "No. You need the Season 2 Alpha Pass to trigger the rewards claim, so hold on to it if you want your $SAND rewards!",
                     "description8": "24 hours. During that time Season 2 Alpha Pass winners will be able to hang out in a gated VIP experience that only they can access.",
-                    "description9": "You can claim the $SAND rewards only at the end of the Alpha Season 2 (March 31, 2022), if you own a Season 2 Alpha Pass.",
+                    "description9": "You can claim the $SAND rewards only at the end of the Alpha Season 2 (Mart 31, 2022), if you own a Season 2 Alpha Pass.",
                     "description10": "You won’t be able to claim rewards. However, if you reach level 2, lose your Pass but then either get it back or another Pass back, you will be back to level 2, your progression will be saved.",
                     "text7": "If I gift/sell my Season 2 Alpha Pass, can I still get the $SAND rewards for the levels I completed?",
                     "description11": "Claim of the Season 2 Alpha Pass NFT and the $SAND rewards will still be on layer 1.",
@@ -960,7 +964,7 @@
                     "text11": "On which chain will the Season 2 Alpha Pass and $SAND rewards be claimed?",
                     "text12": "How much time do I have to claim my Season 2 Alpha Pass?",
                     "bulletPoints": {
-                        "description1": "1. If you won your S2AP through a Social Contest, while Alpha Season 2 was ongoing, you must claim it before March 31, 2022.",
+                        "description1": "1. If you won your S2AP through a Social Contest, while Alpha Season 2 was ongoing, you must claim it before Mart 31, 2022.",
                         "description2": "2. If you won your S2AP through the Raffle at the end of Alpha Season 2, there is no deadline to claim it."
                     },
                     "text13": "How much time do I have to claim my $SAND rewards?",
@@ -977,26 +981,26 @@
                     "description3": ""
                 },
                 "presscoverage": {
-                    "title": "Press Coverage",
-                    "text1": "How does the press access the Alpha Season 2?",
-                    "description1": "Contrary to Alpha Season 1, Press won’t have to request whitelisting access to discover the game, as everybody will be able to play and access 100% of the content.",
+                    "title": "Basın Bülteni",
+                    "text1": "Cüzdan walletımı nasıl güvende tutabilirim?",
+                    "description1": "Tokenlarınızı ve NFT'lerinizi ele geçirmek isteyebilecek kötü niyetli kişiler olabilir. Bu konuda dikkatli olmalısınız. Bu tavisyeleri uygulamanız sizi güvende tutar: ",
                     "text2": "",
                     "description2": ""
                 },
                 "security": {
-                    "title": "Security",
-                    "text1": "How can I keep my wallet safe?",
-                    "description1": "There are a lot of bad actors waiting for an opportunity to get your tokens and NFTs. You need to be really careful! We suggest that you always keep in mind the following recommendations:",
+                    "title": "Güvenlik",
+                    "text1": "Cüzdan walletımı nasıl güvende tutabilirim?",
+                    "description1": "Tokenlarınızı ve NFT'lerinizi ele geçirmek isteyebilecek kötü niyetli kişiler olabilir. Bu konuda dikkatli olmalısınız. Bu tavisyeleri uygulamanız sizi güvende tutar:",
                     "bulletPoints": {
-                        "0": "Never share your seed phrase with anyone",
-                        "1": "Don’t keep your seed phrase unprotected",
-                        "2": "Create strong passwords for your wallet & any accounts associated with it",
-                        "3": "Use a password manager with a very strong master password",
-                        "4": "Do not, under any circumstances, leave your wallet unlocked in the browser",
-                        "5": "Encrypt your PC drive and use strong passwords for it and your user account",
-                        "6": "Avoid using public Wi-Fi, and if it cannot be helped, use a VPN to protect yourself",
-                        "7": "Do not click links from any unknown email, Discord, chat, or other source",
-                        "8": "Stay alert"
+                        "0": "Özel anahtar kelimelerinizi kimseyle paylaşmayınız.",
+                        "1": "Özel anahtar kelimelerinizi güvende tutun.",
+                        "2": "Cüzdanınız ve buna bağlı hesaplarınız için güvenli şifreler oluşturun",
+                        "3": "Güvenli bir şifre yöneticisi kullanın",
+                        "4": "Cüzdanınızı browserda kesinlikle açık unutmayın",
+                        "5": "PC işlemcinizi enkripte edin ve kullanıcı hesabınız için güvenli şifreler oluşturun",
+                        "6": "Halka açık Wifi kullanmaktan kaçının ve eğer kullanmak zorundaysanız VPN ile kendinizi korumaya çalışın",
+                        "7": "Bilinmeyen emaillerdeki linklere tıklamayın (gönderen kısmına dikkat edin), Discord, chat, ve diğer kaynaklarda gönderilen linklere de dikkat edin",
+                        "8": "Dikkatli olun"
                     },
                     "description2": "Read more about these suggestions",
                     "description3": "here.",
@@ -1089,14 +1093,14 @@
                     "description7d2": "have to be met in between the start and the end of the Alpha Season 2."
                 },
                 "progression": {
-                    "title": "Progression",
-                    "text1": "How do I progress in the Alpha? How can I reach level 5?",
-                    "description1a": "You need to complete Alpha Quests to progress in the Alpha. Enter any experience other than the Alpha Hub and locate the Metaverse Guide. Talk to him to get an Alpha Quest. You can easily spot him thanks to the blue exclamation mark above his head.",
-                    "description1b": "Most quests are indicated by a yellow exclamation mark above the head of the NPC that will trigger the quest.",
-                    "description1c": "Some quests are part of Quests Chains and will automatically be triggered when you complete other quests.",
-                    "description1d": "Look for yellow exclamation marks and talk to NPCs (even if they don’t have Quests to give you they might steer you in the direction of an NPC who does!).",
-                    "text2": "Do I need to perform a daily action repeatedly?",
-                    "description2": "No. New experiences (hence new quests) are released every weekday, so eager players will play every day but if you want you can come late and do a lot of quests at once! Be careful though, there are a lot of quests and a lot of content! Some people will accumulate a lot of Raffle Tickets by completing a lot of quests. If you want to have good chances to win the Season 2 Alpha Pass by the end of the Alpha Season 2, you better not start working on quests too late or you won’t have time to complete much."
+                    "title": "İlerleme",
+                    "text1": "Alpha'da nasıl ilerlerim? 5. Seviyeye nasıl ulaşırım?",
+                    "description1a": "Alpha görevlerini tamamlayarak Alpha sezonunda ilerleme sağlayabilirsin. Alpha Hub ve Metaverse rehberi üzerindeki her hangi bir deneyime girebilirsin. Rehberle konuşup Alpha Görevi alabilirsin. Onu mavi ünlem işaretinden kolaylıkla tanıyabilirsin. ",
+                    "description1b": "Görevlerin çoğu kafalarının üzerinde sarı ünlem işaretiyle beliren NPC'ler üzerinden alınır.",
+                    "description1c": "Bazı görevler Görev Zincirlerinin bir parçası olup, diğer görevleri bitirince başlıyor olacaktır.",
+                    "description1d": "Kafalarında sarı ünlem NPC'lere dikkat edin (görev vermeseler bile sizi diğer NPC'lerin oldukları yere yönlendirebilirler).",
+                    "text2": "Her gün aktif olmak zorunda mıyım?",
+                    "description2": "Hayır. Yeni deneyimler her gün hafta içerisinde yayınlanır , her gün ya da tek seferde bir günde de görevler yapılıp deneyim oynanabilir. Ancak çok fazla deneyim içeriğinin olduğunu unutma. Bazı oyuncular çok fazla görev yapıp Çekiliş Bileti adetlerini maksimumda tutarlar. Sezon sonunda Alpha 2 bileti şansını arttırmak için ne kadar fazla görev yaparsanız şansınız o kadar fazla olacaktır. "
                 }
             },
             "carousel": {
@@ -1111,7 +1115,7 @@
                 "bulletPoints": {
                     "1": {
                         "title": "Raffle",
-                        "body": "Participate in the Raffle at the end of Alpha Season 2, on March 31, 2022."
+                        "body": "Participate in the Raffle at the end of Alpha Season 2, on Mart 31, 2022."
                     },
                     "2": {
                         "title": "Contests",
@@ -1124,20 +1128,20 @@
                     }
                 },
                 "warning": {
-                    "1": "Do not purchase an Alpha Pass after the end of Alpha Season 2 on March 31, 2022.",
+                    "1": "Do not purchase an Alpha Pass after the end of Alpha Season 2 on Mart 31, 2022.",
                     "2": "Be careful not to purchase a fake Season 2 Alpha Pass. Only use the link provided on this website. Only use this link:",
                     "link": "Buy on OpenSea"
                 }
             },
             "schedule": {
                 "desc1": "ALPHA SEASON 2 STARTS",
-                "date1": "MARCH 03",
+                "date1": "MART 03",
                 "desc2": "RAFFLE DAY / SEASON END",
-                "date2": "MARCH 31"
+                "date2": "MART 31"
             },
             "raffle": {
                 "title": "The Raffle",
-                "subtitle": "THE RAFFLE OCCURS ON MARCH 31, 2022.",
+                "subtitle": "THE RAFFLE OCCURS ON MART 31, 2022.",
                 "description": {
                     "1": "Earn Raffle Tickets by completing Quests inside each experience on the",
                     "2": "",
@@ -1437,13 +1441,14 @@
             "title": "NFT Türü",
             "all": "Hepsi",
             "land": "Lands",
-            "entity": "Varlıklar",
-            "equipment": "Teçhizat",
+            "entity": "Kimlik",
+            "equipment": "Ekipman",
             "wearable": "Giyilebilir",
             "art": "Sanat",
             "avatar": "Kostümler",
             "block": "Blok",
-            "bodypart": "Gövde parçası"
+            "bodypart": "Gövde parçası",
+            "and": "ve"
         },
         "rarities": {
             "title": "Catalyst",
@@ -2284,9 +2289,9 @@
                 "description": "",
                 "buttonText": "",
                 "part1": {
-                    "title1": "",
-                    "description1": "",
-                    "button": ""
+                    "title1": "Ne için bekliyorsun?",
+                    "description1": "Eşsiz avatarlarıyla Sandbox'a önceden kaydolmuş binlerce kullanıcının Topluluğuna katılın.",
+                    "button": "Avatar Oluştur"
                 },
                 "part2": {
                     "title1": "Çok yakında",
@@ -2489,7 +2494,7 @@
             "megacities2": "Mega Cities (2)",
             "megacities1": "Mega Cities (1)",
             "snoopDogg1": "SNOOP DOGG (1)",
-            "steveAoki": "STEVE APOKI",
+            "steveAoki": "STEVE AOKI",
             "warnermusic": "Warner Music",
             "gucci": "Gucci",
             "web3": "Web 3",
@@ -3192,7 +3197,8 @@
                         }
                     }
                 }
-            }
+            },
+            "title": "Çanta"
         },
         "avatar": {
             "empty": "Bu liste boş",
@@ -3531,7 +3537,8 @@
             "noClaims": "No claims available",
             "bannerSubtitle": "Start earning today! Follow us on our social media channels to know what's coming up."
         },
-        "tag-new": "YENİ"
+        "tag-new": "YENİ",
+        "tagNew": "YENİ"
     },
     "moderator": {
         "title": "Moderatör",
@@ -5414,81 +5421,81 @@
                 }
             },
             "modal": {
-                "title": "The Alpha Season 2 will start soon.",
+                "title": "Alpha Sezon 2 yakında başlayacak.",
                 "description": {
-                    "1": "You will receive more information and details about Alpha Season 2 by email soon.",
-                    "2": "You will be among the first to know, stay tuned!"
+                    "1": "Yakında e-posta aracılığı ile Alpha Sezon 2 hakkında daha fazla bilgi ve detay elde edeceksiniz.",
+                    "2": "İlk bilenlerden olmak için, takipte kalın!"
                 },
-                "button": "Gotcha"
+                "button": "Anladım"
             },
             "season2": {
                 "title": {
-                    "1": "Play the Alpha Season 2 and try to",
-                    "2": "win an Alpha Pass"
+                    "1": "Alpha Sezon 2 ile oyna ve Görevleri tamamlayarak Alpha Bileti kazanmaya çalış.",
+                    "2": "Alpha Bileti kazanmaya çalşın"
                 },
                 "dates": {
                     "1": {
-                        "title": "ALPHA SEASON 2 STARTS",
-                        "date": "MARCH 03"
+                        "title": "ALPHA SEZON 2 BAŞLANGIÇ TARİHİ",
+                        "date": "MART 03"
                     },
                     "2": {
-                        "title": "RUFFLE DAY / SEASON END",
-                        "date": "MARCH 31"
+                        "title": "ÇEKİLİŞ GÜNÜ / SEZON BİTİŞİ",
+                        "date": "MART 31"
                     }
                 },
                 "sections": {
                     "1": {
-                        "title": "PLAY TO EARN",
+                        "title": "Play to Earn oyunu için hazır ol!",
                         "body": {
-                            "1": "Season 2 Alpha Pass Reward up to",
+                            "1": "Sezon 2 Alpha Bileti Ödülleri",
                             "2": "1,000 $SAND.",
-                            "3": "Boost rewards by staking",
-                            "4": "SAND."
+                            "3": "Elinizde SAND bulundurarak",
+                            "4": "ödülleri arttırın."
                         }
                     },
                     "2": {
-                        "title": "OPEN TO EVERYONE",
+                        "title": "HERKESE AÇIK",
                         "body": {
-                            "1": "Everyone can play",
-                            "2": "all Season 2 content and get a chance to",
-                            "3": "win one of the",
+                            "1": "Herkes oynayabilir ve",
+                            "2": "Sezon 2 içerikleriyle Alpha Bileti",
+                            "3": "10,000 Sezon 2 Alpha Bileti'nden",
                             "4": "10,000 Season 2 Alpha Passes."
                         }
                     },
                     "3": {
-                        "title": "COMPLETING QUESTS TO WIN",
+                        "title": "KAZANMAK İÇİN GÖREVLERİ TAMAMLA",
                         "body": {
-                            "1": "Increase your chances to win a Season 2 Alpha Pass by",
-                            "2": "completing Quests",
-                            "3": "to earn Raffle Tickets.",
+                            "1": "Sezon 2 Alpha Bileti kazanma şansını arttırmak için",
+                            "2": "Görevleri tamamla",
+                            "3": "ve Çekiliş Biletleri kazan",
                             "4": "\"Çekiliş Biletleri NFT Değildir"
                         }
                     },
                     "4": {
-                        "title": "GET MORE CHANCES TO WIN",
+                        "title": "DAHA FAZLA KAZANMA ŞANSI ELDE ET",
                         "body": {
-                            "1": "Owning a LAND and/or a Season 1 Alpha Pass",
-                            "2": "greatly increases chances to win a Season 2 Alpha Pass."
+                            "1": "Bir LAND ve/veya Sezon 1 Alpha Bileti sahibi olmak",
+                            "2": "Sezon 2 Alpha Bileti kazanma şansını arttırır."
                         }
                     },
                     "5": {
-                        "title": "STAKING REWARDS",
+                        "title": "STAKING ÖDÜLLERİ",
                         "body": {
                             "1": "Stake Ettiğin",
                             "2": "SAND'ler ile ",
-                            "3": "to increase",
-                            "4": "HEM DE HERKES İÇİN!",
+                            "3": "HERKESİN ŞANSINI ARTTIR!",
+                            "4": "Ayrıca kendin de Çekiliş Bileti kazan.",
                             "5": "Ve sen de ekstra Çekiliş Bileti kazan.",
                             "6": "You will also get up to 200 extra Raffle Tickets",
                             "7": "for staking",
                             "8": "",
                             "9": ""
                         },
-                        "button": "Boost Rewards",
+                        "button": "Güçlendirme Ödülleri",
                         "booster": {
-                            "title": "Community Booster*",
+                            "title": "Topluluk Takviyesi",
                             "sand": "SAND",
-                            "estimate": "Estimated % on March 31"
+                            "estimate": "Tahmini % on Mart 31"
                         }
                     }
                 },
@@ -5500,7 +5507,7 @@
                 }
             },
             "game": {
-                "future": "Alpha Season 2 will be available for",
+                "future": "Alpha Sezon 2 şu kadar süre için açık olacak",
                 "systems": {
                     "pc": "PC",
                     "mac": "macOS"
