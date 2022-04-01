@@ -207,7 +207,10 @@
         },
         "readMore": "Read more",
         "windows": "Windows",
-        "mac": "macOS"
+        "mac": "macOS",
+        "wrongNet": "",
+        "pleaseChangeMain": "",
+        "pleaseChangeRinkeby": ""
     },
     "layout": {
         "topbar": {
@@ -647,7 +650,20 @@
                     "memorabiliaTooltip": "レベル5に到達したすべてのプレイヤーがシーズン記念品を獲得し、今後のシーズンすべてで追加報酬を受け取る権利が与えられます。ちなみに記念品はNFTではありません。",
                     "increaseTotalDescriptionEnd": "",
                     "seasonStart": "1",
-                    "seasonFinish": "31"
+                    "seasonFinish": "31",
+                    "hasJustEnded": "",
+                    "welcomeOpen": "",
+                    "thanks": "",
+                    "canClaim": "",
+                    "claim": "",
+                    "reachedLevel": "",
+                    "notNFT": "",
+                    "gotIt": "",
+                    "goSeeIt": "",
+                    "completeSurvey": "",
+                    "earnRT": "",
+                    "helpImprove": "",
+                    "take": ""
                 },
                 "timeRewards": "報酬を受け取りまで：",
                 "raffleResults": "抽選の結果発表まで：",
@@ -4189,6 +4205,13 @@
                 "land": "Land",
                 "faqs": "S.S.S"
             }
+        },
+        "achievements": {
+            "title": "",
+            "gotIt": "",
+            "description": "",
+            "description2": "",
+            "disclaimer": ""
         }
     },
     "search": "検索",
@@ -4374,7 +4397,12 @@
             "link": "最新情報をご覧ください！"
         },
         "partners": {
-            "title": "パートナー"
+            "title": "パートナー",
+            "title2": "",
+            "description": "",
+            "description2": "",
+            "stayTuned": "",
+            "register": ""
         },
         "modules": {
             "zero": {
@@ -5380,7 +5408,8 @@
                     "5": "総プレイ時間",
                     "6": "Twitterコンテストの参加者",
                     "7": "フィードバックのメッセージを送信"
-                }
+                },
+                "subtitle": ""
             },
             "alphaNumbers": {
                 "title": "アルファ版の参加者が増加",
@@ -5404,7 +5433,8 @@
                 }
             },
             "bestMoments": {
-                "title": "アルファシーズン1 の最高の瞬間"
+                "title": "アルファシーズン1 の最高の瞬間",
+                "title2": ""
             },
             "alphaComing": {
                 "title": "アルファシーズン2がまもなく登場",
