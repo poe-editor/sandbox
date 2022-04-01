@@ -207,7 +207,10 @@
         },
         "readMore": "Read more",
         "windows": "Windows",
-        "mac": "macOS"
+        "mac": "macOS",
+        "wrongNet": "Wrong Network!",
+        "pleaseChangeMain": "Please change to Mainnet Network",
+        "pleaseChangeRinkeby": "Please change to Rinkeby Network"
     },
     "layout": {
         "topbar": {
@@ -647,7 +650,20 @@
                     "memorabiliaTooltip": "All players reaching level 5 will get the season's Memorabilia, that will grant them extra rewards for all future seasons. Please note that a Memorabilia is not a NFT.",
                     "increaseTotalDescriptionEnd": "",
                     "seasonStart": "1",
-                    "seasonFinish": "31"
+                    "seasonFinish": "31",
+                    "hasJustEnded": "ALPHA SEASON 2 HAS JUST ENDED",
+                    "welcomeOpen": "WELCOME TO THE OPEN METAVERSE",
+                    "thanks": "Thanks to all Alpha Season 2 players!",
+                    "canClaim": "Season 2 Alpha Pass winners can now claim their rewards",
+                    "claim": "Claim",
+                    "reachedLevel": "All players who reached level 5 won the Alpha S2 Memorabilia. It will grant rewards for all future seasons.",
+                    "notNFT": "The memorabilia is not an NFT.",
+                    "gotIt": "Congrats! You got it",
+                    "goSeeIt": "Go to see it",
+                    "completeSurvey": "COMPLETE THE SURVEY",
+                    "earnRT": "EARN A RT FOR S3",
+                    "helpImprove": "Help us improving The Sandbox by sending your feedback. Complete the survey now and get extra Raffle Tickets for Alpha Season 3!",
+                    "take": "Take the survey"
                 },
                 "timeRewards": "CLAIM REWARDS IN",
                 "raffleResults": "RAFFLE RESULTS IN",
@@ -4189,6 +4205,13 @@
                 "land": "Land",
                 "faqs": "FAQs"
             }
+        },
+        "achievements": {
+            "title": "Achievements",
+            "gotIt": "Congrats, you got it!",
+            "description": "By reaching level 5, you’ve earned Alpha Season 2 Memorabilia, which will grant you ",
+            "description2": "additional rewards for all featured seasons.",
+            "disclaimer": "Please, note that a memorabilia is not a NFT."
         }
     },
     "search": "Search",
@@ -4374,7 +4397,12 @@
             "link": "See the latest news!"
         },
         "partners": {
-            "title": "SOME OF OUR"
+            "title": "SOME OF OUR",
+            "title2": "COMING SOON",
+            "description": "PARTNERS",
+            "description2": "SEASON 3",
+            "stayTuned": "Stay tuned for the Season 3 date announcement.",
+            "register": "Register for Season 3"
         },
         "modules": {
             "zero": {
@@ -5380,7 +5408,8 @@
                     "5": "CONTESTS PARTICIPANTS",
                     "6": "ALPHA HUB VISITORS",
                     "7": "POSITIVE FEEDBACK"
-                }
+                },
+                "subtitle": "ALPHA SEASON 2"
             },
             "alphaNumbers": {
                 "title": "The Alpha in numbers",
@@ -5404,7 +5433,8 @@
                 }
             },
             "bestMoments": {
-                "title": "ALPHA SEASON 2"
+                "title": "ALPHA SEASON 2",
+                "title2": "BEST MOMENTS"
             },
             "alphaComing": {
                 "title": "ALPHA SEASON 2 COMING SOON",
