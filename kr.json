@@ -207,7 +207,10 @@
         },
         "readMore": "더 읽기",
         "windows": "Windows",
-        "mac": "macOS"
+        "mac": "macOS",
+        "wrongNet": "",
+        "pleaseChangeMain": "",
+        "pleaseChangeRinkeby": ""
     },
     "layout": {
         "topbar": {
@@ -647,7 +650,20 @@
                     "memorabiliaTooltip": "레벨 5에 도달하는 모든 플레이어는 해당 시즌의 기념품을 획득할 수 있으며, 기념품을 통해 이후 모든 시즌에 추가 리워드를 받을 수 있습니다. 기념품은 NFT가 아니라는 점에 유념하시기 바랍니다.",
                     "increaseTotalDescriptionEnd": "스테이킹하세요.",
                     "seasonStart": "4월 1일",
-                    "seasonFinish": "31일"
+                    "seasonFinish": "31일",
+                    "hasJustEnded": "",
+                    "welcomeOpen": "",
+                    "thanks": "",
+                    "canClaim": "",
+                    "claim": "",
+                    "reachedLevel": "",
+                    "notNFT": "",
+                    "gotIt": "",
+                    "goSeeIt": "",
+                    "completeSurvey": "",
+                    "earnRT": "",
+                    "helpImprove": "",
+                    "take": ""
                 },
                 "timeRewards": "리워드 수령까지 남은 기간:",
                 "raffleResults": "추첨 결과 발표까지 남은 시간:",
@@ -4189,6 +4205,13 @@
                 "land": "Land",
                 "faqs": "S.S.S"
             }
+        },
+        "achievements": {
+            "title": "",
+            "gotIt": "",
+            "description": "",
+            "description2": "",
+            "disclaimer": ""
         }
     },
     "search": "검색",
@@ -4374,7 +4397,12 @@
             "link": "최신 소식을 확인해 보세요!"
         },
         "partners": {
-            "title": "파트너"
+            "title": "파트너",
+            "title2": "",
+            "description": "",
+            "description2": "",
+            "stayTuned": "",
+            "register": ""
         },
         "modules": {
             "zero": {
@@ -5380,7 +5408,8 @@
                     "5": "누적 플레이 시간",
                     "6": "트위터 콘테스트 참가자",
                     "7": "보낸 피드백 메시지"
-                }
+                },
+                "subtitle": ""
             },
             "alphaNumbers": {
                 "title": "숫자로 보는 알파",
@@ -5404,7 +5433,8 @@
                 }
             },
             "bestMoments": {
-                "title": "알파 시즌 1 최고의 순간들"
+                "title": "알파 시즌 1 최고의 순간들",
+                "title2": ""
             },
             "alphaComing": {
                 "title": "알파 시즌 2가 곧 찾아옵니다",
