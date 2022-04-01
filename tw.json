@@ -207,7 +207,10 @@
         },
         "readMore": "Read more",
         "windows": "Windows",
-        "mac": "macOS"
+        "mac": "macOS",
+        "wrongNet": "Wrong Network!",
+        "pleaseChangeMain": "Please change to Mainnet Network",
+        "pleaseChangeRinkeby": "Please change to Rinkeby Network"
     },
     "layout": {
         "topbar": {
@@ -400,7 +403,7 @@
         "community": {
             "badge": "最新消息！",
             "title": "社群",
-            "description": "敬請鎖定《The Sandbox》最新消息。到我們的部落格閱讀須知資訊。"
+            "description": "WHAT'S NEW"
         },
         "avatar": {
             "title": "《The Sandbox》虛擬化身",
@@ -635,7 +638,7 @@
                     "raffleHasPass": "距離領取的剩餘天數",
                     "raffleHasPassDesc": "你已有第 2 季 Alpha 通行證",
                     "communityBoosterDescription": "",
-                    "enterThePartyDescription": "在 3 月 31 日週四下午 7 點參加 VIP 派對",
+                    "enterThePartyDescription": "在 3 月 24 日週四下午 7 點參加 VIP 派對",
                     "seasonOverDescription4": "",
                     "communityBoosterDescription4": "透過質押",
                     "communityBoosterDescription5": "每質押一次可取得 {stakingMultiplierVariable} 點",
@@ -647,7 +650,20 @@
                     "memorabiliaTooltip": "所有達到等級 5 的玩家都能取得當季的 Memorabilia，還可以在日後所有活動季中取得更多獎勵。請注意，Memorabilia 並非 NFT。",
                     "increaseTotalDescriptionEnd": "",
                     "seasonStart": "1",
-                    "seasonFinish": "31"
+                    "seasonFinish": "31",
+                    "hasJustEnded": "ALPHA SEASON 2 HAS JUST ENDED",
+                    "welcomeOpen": "WELCOME TO THE OPEN METAVERSE",
+                    "thanks": "Thanks to all Alpha Season 2 players!",
+                    "canClaim": "Season 2 Alpha Pass winners can now claim their rewards",
+                    "claim": "Claim",
+                    "reachedLevel": "All players who reached level 5 won the Alpha S2 Memorabilia. It will grant rewards for all future seasons.",
+                    "notNFT": "The memorabilia is not an NFT.",
+                    "gotIt": "Congrats! You got it",
+                    "goSeeIt": "Go to see it",
+                    "completeSurvey": "COMPLETE THE SURVEY",
+                    "earnRT": "EARN A RT FOR S3",
+                    "helpImprove": "Help us improving The Sandbox by sending your feedback. Complete the survey now and get extra Raffle Tickets for Alpha Season 3!",
+                    "take": "Take the survey"
                 },
                 "timeRewards": "距離領取獎勵還有",
                 "raffleResults": "距離開獎還有：",
@@ -1129,7 +1145,7 @@
                 },
                 "warning": {
                     "1": "請不要在 2022 年 3 月 31 日 (即 Alpha 第 2 季結束當天) 之後購買 Alpha 通行證。",
-                    "2": "請小心，不要購買到造假的第 2 季 Alpha 通行證。請僅使用此網站提供的連結。連結如下：",
+                    "2": "Be careful not to purchase a fake Season 2 Alpha Pass.",
                     "link": "在 OpenSea 上購買"
                 }
             },
@@ -4187,8 +4203,15 @@
             "trezorNote": "* Or any other hardware wallet not compatible with EIP-712.",
             "menu": {
                 "land": "Land",
-                "faqs": "S.S.S"
+                "faqs": "FAQs"
             }
+        },
+        "achievements": {
+            "title": "Achievements",
+            "gotIt": "Congrats, you got it!",
+            "description": "By reaching level 5, you’ve earned Alpha Season 2 Memorabilia, which will grant you ",
+            "description2": "additional rewards for all featured seasons.",
+            "disclaimer": "Please, note that a memorabilia is not a NFT."
         }
     },
     "search": "搜尋",
@@ -4374,7 +4397,12 @@
             "link": "查看最新消息！"
         },
         "partners": {
-            "title": "合作夥伴"
+            "title": "合作夥伴",
+            "title2": "COMING SOON",
+            "description": "PARTNERS",
+            "description2": "SEASON 3",
+            "stayTuned": "Stay tuned for the Season 3 date announcement.",
+            "register": "Register for Season 3"
         },
         "modules": {
             "zero": {
@@ -5370,17 +5398,18 @@
                 "endText": "and much more based on your feedback! We are listening to you."
             },
             "lookBack": {
-                "title": "ALPHA 第 1 季回顧",
+                "title": "A LOOK BACK AT",
                 "metrics": {
-                    "0": "已發行的 SAND",
-                    "1": "已發行的 Alpha Pass",
-                    "2": "已發行的NFT",
-                    "3": "正面意見回饋",
-                    "4": "ALPHA 中心訪客",
-                    "5": "累計遊戲時數",
-                    "6": "推特競賽參賽者",
-                    "7": "已傳送的意見回饋訊息"
-                }
+                    "0": "SAND DISTRIBUTED",
+                    "1": "STAKING VOLUME S2",
+                    "2": "COMMUNITY BOOSTER",
+                    "3": "ALPHA PASSES DISTRIBUTED",
+                    "4": "NFT DISTRIBUTED",
+                    "5": "CONTESTS PARTICIPANTS",
+                    "6": "ALPHA HUB VISITORS",
+                    "7": "POSITIVE FEEDBACK"
+                },
+                "subtitle": "ALPHA SEASON 2"
             },
             "alphaNumbers": {
                 "title": "Alpha 數量",
@@ -5404,7 +5433,8 @@
                 }
             },
             "bestMoments": {
-                "title": "ALPHA 第 1 季精彩時刻"
+                "title": "ALPHA 第 1 季精彩時刻",
+                "title2": "BEST MOMENTS"
             },
             "alphaComing": {
                 "title": "ALPHA 第 2 季即將到來",
@@ -5421,9 +5451,9 @@
                 }
             },
             "modal": {
-                "title": "Alpha 第 2 季即將開始。",
+                "title": "Alpha 第 3 季即將開始。",
                 "description": {
-                    "1": "你很快就能透過電子郵件收到更多 Alpha 第 2 季相關資訊與詳情。",
+                    "1": "你很快就能透過電子郵件收到更多 Alpha 第 3 季相關資訊與詳情。",
                     "2": "你將能搶先掌握最新消息！"
                 },
                 "button": "瞭解"
