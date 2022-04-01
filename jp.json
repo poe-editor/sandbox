@@ -208,9 +208,9 @@
         "readMore": "Read more",
         "windows": "Windows",
         "mac": "macOS",
-        "wrongNet": "",
-        "pleaseChangeMain": "",
-        "pleaseChangeRinkeby": ""
+        "wrongNet": "Wrong Network!",
+        "pleaseChangeMain": "Please change to Mainnet Network",
+        "pleaseChangeRinkeby": "Please change to Rinkeby Network"
     },
     "layout": {
         "topbar": {
@@ -403,7 +403,7 @@
         "community": {
             "badge": "新着情報！",
             "title": "コミュニティ",
-            "description": "最新のThe Sandboxニュースをお見逃しなく。大切な情報が掲載される弊社ブログで、すべてチェックしましょう。"
+            "description": "WHAT'S NEW"
         },
         "avatar": {
             "title": "The Sandboxアバター",
@@ -638,7 +638,7 @@
                     "raffleHasPass": "日で受け取り可能",
                     "raffleHasPassDesc": "シーズン2アルファパスを持っています",
                     "communityBoosterDescription": "",
-                    "enterThePartyDescription": "そして、3月31日木曜日の午後7時から始まるVIPパーティーに参加しましょう",
+                    "enterThePartyDescription": "そして、3月24日木曜日の午後7時から始まるVIPパーティーに参加しましょう",
                     "seasonOverDescription4": "",
                     "communityBoosterDescription4": "も入手",
                     "communityBoosterDescription5": "次に対してそれぞれ{stakingMultiplierVariable}ポイントを獲得します",
@@ -651,19 +651,19 @@
                     "increaseTotalDescriptionEnd": "",
                     "seasonStart": "1",
                     "seasonFinish": "31",
-                    "hasJustEnded": "",
-                    "welcomeOpen": "",
-                    "thanks": "",
-                    "canClaim": "",
-                    "claim": "",
-                    "reachedLevel": "",
-                    "notNFT": "",
-                    "gotIt": "",
-                    "goSeeIt": "",
-                    "completeSurvey": "",
-                    "earnRT": "",
-                    "helpImprove": "",
-                    "take": ""
+                    "hasJustEnded": "ALPHA SEASON 2 HAS JUST ENDED",
+                    "welcomeOpen": "WELCOME TO THE OPEN METAVERSE",
+                    "thanks": "Thanks to all Alpha Season 2 players!",
+                    "canClaim": "Season 2 Alpha Pass winners can now claim their rewards",
+                    "claim": "Claim",
+                    "reachedLevel": "All players who reached level 5 won the Alpha S2 Memorabilia. It will grant rewards for all future seasons.",
+                    "notNFT": "The memorabilia is not an NFT.",
+                    "gotIt": "Congrats! You got it",
+                    "goSeeIt": "Go to see it",
+                    "completeSurvey": "COMPLETE THE SURVEY",
+                    "earnRT": "EARN A RT FOR S3",
+                    "helpImprove": "Help us improving The Sandbox by sending your feedback. Complete the survey now and get extra Raffle Tickets for Alpha Season 3!",
+                    "take": "Take the survey"
                 },
                 "timeRewards": "報酬を受け取りまで：",
                 "raffleResults": "抽選の結果発表まで：",
@@ -1145,7 +1145,7 @@
                 },
                 "warning": {
                     "1": "シーズン2終了の2022年3月31日以降には、アルファパスを購入しないようにしてください。",
-                    "2": "間違って偽物のシーズン2アルファパスを購入しないように。購入の際はこちらのウェブサイトにあるリンクのみを使用してください：",
+                    "2": "Be careful not to purchase a fake Season 2 Alpha Pass.",
                     "link": "OpenSeaで購入"
                 }
             },
@@ -4203,15 +4203,15 @@
             "trezorNote": "* Or any other hardware wallet not compatible with EIP-712.",
             "menu": {
                 "land": "Land",
-                "faqs": "S.S.S"
+                "faqs": "FAQs"
             }
         },
         "achievements": {
-            "title": "",
-            "gotIt": "",
-            "description": "",
-            "description2": "",
-            "disclaimer": ""
+            "title": "Achievements",
+            "gotIt": "Congrats, you got it!",
+            "description": "By reaching level 5, you’ve earned Alpha Season 2 Memorabilia, which will grant you ",
+            "description2": "additional rewards for all featured seasons.",
+            "disclaimer": "Please, note that a memorabilia is not a NFT."
         }
     },
     "search": "検索",
@@ -4398,11 +4398,11 @@
         },
         "partners": {
             "title": "パートナー",
-            "title2": "",
-            "description": "",
-            "description2": "",
-            "stayTuned": "",
-            "register": ""
+            "title2": "COMING SOON",
+            "description": "PARTNERS",
+            "description2": "SEASON 3",
+            "stayTuned": "Stay tuned for the Season 3 date announcement.",
+            "register": "Register for Season 3"
         },
         "modules": {
             "zero": {
@@ -5398,18 +5398,18 @@
                 "endText": "and much more based on your feedback! We are listening to you."
             },
             "lookBack": {
-                "title": "アルファシーズン1 の実績",
+                "title": "A LOOK BACK AT",
                 "metrics": {
-                    "0": "SAND 配布数",
-                    "1": "アルファパス 配布数",
-                    "2": "NFT 配布数",
-                    "3": "好評価",
-                    "4": "アルファハブの訪問者",
-                    "5": "総プレイ時間",
-                    "6": "Twitterコンテストの参加者",
-                    "7": "フィードバックのメッセージを送信"
+                    "0": "SAND DISTRIBUTED",
+                    "1": "STAKING VOLUME S2",
+                    "2": "COMMUNITY BOOSTER",
+                    "3": "ALPHA PASSES DISTRIBUTED",
+                    "4": "NFT DISTRIBUTED",
+                    "5": "CONTESTS PARTICIPANTS",
+                    "6": "ALPHA HUB VISITORS",
+                    "7": "POSITIVE FEEDBACK"
                 },
-                "subtitle": ""
+                "subtitle": "ALPHA SEASON 2"
             },
             "alphaNumbers": {
                 "title": "アルファ版の参加者が増加",
@@ -5434,7 +5434,7 @@
             },
             "bestMoments": {
                 "title": "アルファシーズン1 の最高の瞬間",
-                "title2": ""
+                "title2": "BEST MOMENTS"
             },
             "alphaComing": {
                 "title": "アルファシーズン2がまもなく登場",
@@ -5451,9 +5451,9 @@
                 }
             },
             "modal": {
-                "title": "アルファシーズン2はまもなく開始です。",
+                "title": "アルファシーズン3はまもなく開始です。",
                 "description": {
-                    "1": "まもなく、Eメールでアルファシーズン2に関する詳細情報が送られます。",
+                    "1": "まもなく、Eメールでアルファシーズン3に関する詳細情報が送られます。",
                     "2": "いち早く最新情報を受け取れるよう、お見逃しなく！"
                 },
                 "button": "わかりました"
