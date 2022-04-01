@@ -207,7 +207,10 @@
         },
         "readMore": "daha fazla oku",
         "windows": "Windows",
-        "mac": "macOS"
+        "mac": "macOS",
+        "wrongNet": "",
+        "pleaseChangeMain": "",
+        "pleaseChangeRinkeby": ""
     },
     "layout": {
         "topbar": {
@@ -647,7 +650,20 @@
                     "memorabiliaTooltip": "All players reaching level 5 will get the season's Memorabilia, that will grant them extra rewards for all future seasons. Please note that a Memorabilia is not a NFT.",
                     "increaseTotalDescriptionEnd": "",
                     "seasonStart": "1",
-                    "seasonFinish": "31"
+                    "seasonFinish": "31",
+                    "hasJustEnded": "",
+                    "welcomeOpen": "",
+                    "thanks": "",
+                    "canClaim": "",
+                    "claim": "",
+                    "reachedLevel": "",
+                    "notNFT": "",
+                    "gotIt": "",
+                    "goSeeIt": "",
+                    "completeSurvey": "",
+                    "earnRT": "",
+                    "helpImprove": "",
+                    "take": ""
                 },
                 "timeRewards": "ÖDÜLLERİ TOPLAMAK İÇİN",
                 "raffleResults": "ÇEKİLİŞ ÖDÜLLERİ İÇİN",
@@ -4189,6 +4205,13 @@
                 "land": "Land",
                 "faqs": "S.S.S"
             }
+        },
+        "achievements": {
+            "title": "",
+            "gotIt": "",
+            "description": "",
+            "description2": "",
+            "disclaimer": ""
         }
     },
     "search": "Ara",
@@ -4374,7 +4397,12 @@
             "link": "En son haberlere bakın!"
         },
         "partners": {
-            "title": "Ortaklar"
+            "title": "Ortaklar",
+            "title2": "",
+            "description": "",
+            "description2": "",
+            "stayTuned": "",
+            "register": ""
         },
         "modules": {
             "zero": {
@@ -5380,7 +5408,8 @@
                     "5": "SAAT TOPLAM OYUN SÜRESİ",
                     "6": "TWITTER İÇERİK KATILIMCISI",
                     "7": "GERİ BİLDİRİM GÖNDERİLDİ"
-                }
+                },
+                "subtitle": ""
             },
             "alphaNumbers": {
                 "title": "Alpha sayısı",
@@ -5404,7 +5433,8 @@
                 }
             },
             "bestMoments": {
-                "title": "ALPHA SEZON 1 EN İYİ ANLAR"
+                "title": "ALPHA SEZON 1 EN İYİ ANLAR",
+                "title2": ""
             },
             "alphaComing": {
                 "title": "ALPHA SEASON 2 COMING SOON",
