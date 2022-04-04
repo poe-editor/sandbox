@@ -208,9 +208,9 @@
         "readMore": "더 읽기",
         "windows": "Windows",
         "mac": "macOS",
-        "wrongNet": "잘못된 네트워크입니다.",
-        "pleaseChangeMain": "메인넷 네트워크로 변경해 주세요.",
-        "pleaseChangeRinkeby": "린케비 네트워크로 변경해 주세요."
+        "wrongNet": "Wrong Network!",
+        "pleaseChangeMain": "Please change to Mainnet Network",
+        "pleaseChangeRinkeby": "Please change to Rinkeby Network"
     },
     "layout": {
         "topbar": {
@@ -403,7 +403,7 @@
         "community": {
             "badge": "새 소식",
             "title": "커뮤니티",
-            "description": "새 소식 알아보기"
+            "description": "더 샌드박스의 새 소식을 놓치지 마세요. 블로그를 확인하여 자세한 정보를 알아보세요."
         },
         "avatar": {
             "title": "더 샌드박스 아바타",
@@ -621,10 +621,10 @@
                         "week2": "Week March 10 - March 16",
                         "week3": "Week March 17 - March 23",
                         "claimBefore": "2022년 3월 31일 이전에 알파 패스를 수령하세요",
-                        "week4": "추천 퀘스트 - 3월 25일 | 3월 31일",
-                        "referFriend": "친구를 추천하고 시즌 2 알파 패스 당첨 기회를 잡아보세요.",
-                        "completeGoal": "커뮤니티 목표 점수를 달성하면 특별 콘테스트를 해금할 수 있습니다.",
-                        "communityGoal": "커뮤니니 목표: 100,000 신규 계정",
+                        "week4": "Referral Quest - March 25 | March 31",
+                        "referFriend": "Refer a friend and get a change of winning a Season 2 Alpha Pass",
+                        "completeGoal": "Complete the community goal to unlock a special contest.",
+                        "communityGoal": "Community Goal: 100,000 New Accounts",
                         "currentAccounts": "currentAccounts",
                         "lastUpdate": "마지막 업데이트 3월 {lastUpdateDate} UTC {utcTime}"
                     },
@@ -651,19 +651,19 @@
                     "increaseTotalDescriptionEnd": "스테이킹하세요.",
                     "seasonStart": "4월 1일",
                     "seasonFinish": "31일",
-                    "hasJustEnded": "알파 시즌 2 종료",
-                    "welcomeOpen": "오픈 메타버스에 오신 것을 환영합니다",
-                    "thanks": "알파 시즌 2에 참여해 주셔서 감사합니다!",
-                    "canClaim": "시즌 2 알파 패스 당첨자는 리워드를 수령할 수 있습니다.",
-                    "claim": "리워드 수령하기",
-                    "reachedLevel": "레벨 5를 달성했다면 향후 모든 시즌에 대한 리워드를 제공하는 알파 시즌 2 기념품이 주어집니다.",
-                    "notNFT": "기념품은 NFT가 아닙니다.",
-                    "gotIt": "축하합니다. 기념품을 획득했습니다!",
-                    "goSeeIt": "확인하기",
-                    "completeSurvey": "설문조사 참여",
-                    "earnRT": "시즌 3 추첨 티켓 획득하기",
-                    "helpImprove": "더 나은 메타버스 세상을 위해 여러분의 목소리를 들려주세요. 설문조사를 완료하여 알파 시즌 3의 추첨 티켓을 획득하세요!",
-                    "take": "설문조사 참여하기"
+                    "hasJustEnded": "ALPHA SEASON 2 HAS JUST ENDED",
+                    "welcomeOpen": "WELCOME TO THE OPEN METAVERSE",
+                    "thanks": "Thanks to all Alpha Season 2 players!",
+                    "canClaim": "Season 2 Alpha Pass winners can now claim their rewards",
+                    "claim": "Claim",
+                    "reachedLevel": "All players who reached level 5 won the Alpha S2 Memorabilia. It will grant rewards for all future seasons.",
+                    "notNFT": "The memorabilia is not an NFT.",
+                    "gotIt": "Congrats! You got it",
+                    "goSeeIt": "Go to see it",
+                    "completeSurvey": "COMPLETE THE SURVEY",
+                    "earnRT": "EARN A RT FOR S3",
+                    "helpImprove": "Help us improving The Sandbox by sending your feedback. Complete the survey now and get extra Raffle Tickets for Alpha Season 3!",
+                    "take": "Take the survey"
                 },
                 "timeRewards": "리워드 수령까지 남은 기간:",
                 "raffleResults": "추첨 결과 발표까지 남은 시간:",
@@ -856,7 +856,7 @@
                     "description3": "- 알파 패스와 리워드를 받으려면 가스 수수료를 지불하기 위해 소량의 ETH가 필요합니다.",
                     "requirements": {
                         "title": "더 샌드박스 알파 게임 클라이언트 최소 사양",
-                        "1": "OS: Windows 10 64비트",
+                        "1": "SO: Windows 10 64비트:",
                         "2": "NVIDIA GeForce GTX 760 이상",
                         "3": "i5-8400 이상(AVX 지원 필요)",
                         "4": "RAM: 8,192Mb 이상"
@@ -1804,25 +1804,25 @@
                 "minimum": {
                     "title": "최소 요구 사항",
                     "text": {
-                        "bits": "64비트 프로세서 및 운영 체제가 필요",
+                        "bits": "64비트 프로세서와 운영 체제가 필요함",
                         "os": "운영 체제: Windows 7",
                         "cpu": "프로세서: 듀얼 코어 2GHz",
                         "ram": "메모리: 4GB RAM",
                         "gpu": "그래픽: 512MB VRAM",
                         "directx": "DirectX: 버전 11",
-                        "storage": "필요 여유 공간: 2GB"
+                        "storage": "스토리지: 여유 공간 2GB"
                     }
                 },
                 "recommended": {
                     "title": "권장 요구 사항",
                     "text": {
-                        "bits": "64비트 프로세서 및 운영 체제가 필요",
+                        "bits": "64비트 프로세서와 운영 체제가 필요함",
                         "os": "운영 체제: Windows 10",
                         "cpu": "프로세서: 쿼드 코어 3GHz",
                         "ram": "메모리: 8GB RAM",
                         "gpu": "그래픽: 2GB VRAM",
                         "directx": "DirectX: 버전 11",
-                        "storage": "필요 여유 공간: 2GB"
+                        "storage": "스토리지: 여유 공간 2GB"
                     }
                 }
             },
@@ -3344,8 +3344,8 @@
             },
             "effects": "Disable Effects",
             "noConnection": {
-                "title": "이런!",
-                "description1": "연결되지 않았습니다.",
+                "title": "Ups!",
+                "description1": "You are not connected",
                 "button": "지갑 연결하기"
             },
             "noResultAvatar": "나만의 아바타를 만들어 보세요!",
@@ -3545,8 +3545,8 @@
             "all": "모든 내역",
             "unlock": "Unlock Claim",
             "details": "자세히 보기",
-            "claim": "수령하기",
-            "claimed": "수령함",
+            "claim": "Claim",
+            "claimed": "Claimed",
             "goToAlpha": "알파로 이동",
             "goToTwitter": "트위터",
             "goToDiscord": "디스코드",
@@ -4054,7 +4054,7 @@
             "etherscan": "Etherscan에서 보기",
             "nothing": "받은 커미션이 없습니다.",
             "percentage": "10%",
-            "referral": "추천",
+            "referral": "Referral",
             "fee": "FEE"
         },
         "linkAWallet": "지갑 연결하기",
@@ -4207,11 +4207,11 @@
             }
         },
         "achievements": {
-            "title": "달성한 업적",
-            "gotIt": "축하합니다. 기념품을 획득했습니다!",
-            "description": "레벨 5를 달성했다면 알파 시즌 2 기념품이 주어집니다. 이 기념품을 보유하면",
-            "description2": "향후 모든 시즌에 대한 추가 리워드를 획득할 수 있습니다.",
-            "disclaimer": "기념품은 NFT가 아닙니다."
+            "title": "Achievements",
+            "gotIt": "Congrats, you got it!",
+            "description": "By reaching level 5, you’ve earned Alpha Season 2 Memorabilia, which will grant you ",
+            "description2": "additional rewards for all featured seasons.",
+            "disclaimer": "Please, note that a memorabilia is not a NFT."
         }
     },
     "search": "검색",
@@ -4397,12 +4397,12 @@
             "link": "최신 소식을 확인해 보세요!"
         },
         "partners": {
-            "title": "더 샌드박스와 함께하는",
-            "title2": "곧 찾아옵니다",
-            "description": "파트너",
-            "description2": "시즌 3",
-            "stayTuned": "시즌 3 발표일을 기대해 주세요!",
-            "register": "시즌 3 등록하기"
+            "title": "파트너",
+            "title2": "COMING SOON",
+            "description": "PARTNERS",
+            "description2": "SEASON 3",
+            "stayTuned": "Stay tuned for the Season 3 date announcement.",
+            "register": "Register for Season 3"
         },
         "modules": {
             "zero": {
@@ -4760,13 +4760,13 @@
             "earnings-title": "수익금",
             "earnings": "수령이 가능한 누적 수익금입니다.",
             "landMultiplierNotActive": "LAND 계수는 아직 폴리곤 네트워크에서 지원되지 않습니다.",
-            "myScore": "현재까지 누적된 점수입니다. 최대 200개의 추첨 티켓을 획득할 수 있습니다.",
-            "myScore2": "현재 획득한 티켓 수 : {ticketAmount}개",
-            "communityScore": "전체 커뮤니티 누적 점수입니다. 최대 100%까지 알파 리워드가 부스트됩니다.",
-            "communityScore2": "현재 백분율 : {boostPercentage}%",
-            "earnScorePoints": "획득한 점수는 손실되지 않습니다. 해당 점수로 추첨 티켓을 획득하고 커뮤니티 목표 달성에 기여할 수 있습니다.",
-            "projectedScoreTitle": "목표 점수",
-            "projectedScore": "시즌 종료까지 현재 스테이킹된 mSAND 총량으로 계산되는 목표 점수입니다."
+            "myScore": "The score you accumulated so far. It unlocks tickets for the raffle (up to 200)",
+            "myScore2": "Currently unlocked : {ticketAmount} tickets",
+            "communityScore": "The score accumulated by the whole community. This will boost Alpha rewards up to 100%",
+            "communityScore2": "Current boost : {boostPercentage}%",
+            "earnScorePoints": "The points you can earn cannot be lost, they will grant you more tickets for the raffle and help the comminity reach its goal.",
+            "projectedScoreTitle": "Projected Score",
+            "projectedScore": "This is the projected community score at the end of the Season with the current amount of mSAND staked."
         },
         "modalWithdraw": {
             "withdraw": "인출",
@@ -4942,18 +4942,18 @@
                 },
                 "infoStart": "전체 시즌 동안 스테이킹한 각 ",
                 "infoEnd": "마다 1 포인트를 획득합니다.",
-                "pointsInfo1": "스테이킹한 각",
-                "pointsInfo2": "마다 점수를 획득합니다. 누적된 점수는 손실되지 않습니다.",
-                "pointsInfo3": "를 28일 간 스테이킹하면 {stakingMultiplier}점을 획득합니다.",
+                "pointsInfo1": "You earn points over time for each ",
+                "pointsInfo2": " staked. Points accumulated cannot be lost. ",
+                "pointsInfo3": "staked for 28 days grants {stakingMultiplier} point.",
                 "myScore": "내 점수",
-                "earnScorePoints": "점수 획득"
+                "earnScorePoints": "Earn Score Points"
             }
         },
         "network": {
             "polygon": "폴리곤 메인넷",
             "ethereum": "이더리움 메인넷"
         },
-        "exitOnDeprecationLP": "이자를 모두 수령하고 모든 LP를 회수하세요.",
+        "exitOnDeprecationLP": "Claim all your earnings and get back all your LP.",
         "discontinued": "정지됨",
         "refillWarning": "유지보수 문제로 mSAND와 mSAND-MATIC 리워드 지급이 연기될 예정입니다. 곧 원상복귀될 예정이니 인내심을 가지고 조금만 기다려 주세요."
     },
@@ -5434,7 +5434,7 @@
             },
             "bestMoments": {
                 "title": "알파 시즌 1 최고의 순간들",
-                "title2": "최고의 순간들"
+                "title2": "BEST MOMENTS"
             },
             "alphaComing": {
                 "title": "알파 시즌 2가 곧 찾아옵니다",
@@ -5478,9 +5478,9 @@
                         "title": "플레이 투 언",
                         "body": {
                             "1": "시즌 2 알파 패스 리워드는 최대",
-                            "2": "1,000 $SAND입니다.",
-                            "3": "SAND",
-                            "4": "스테이킹하고 리워드를 늘리세요."
+                            "2": "1,000 $SAND",
+                            "3": "입니다.",
+                            "4": "SAND"
                         }
                     },
                     "2": {
@@ -6060,12 +6060,12 @@
                     "title": "Transfer completed"
                 }
             },
-            "noTransactions": "표시할 트랜잭션이 없습니다."
+            "noTransactions": "There are no transactions to display"
         },
         "buySand": "SAND 구매",
         "buymSand": "mSAND 구매",
-        "confirmDeposit": "예치 확인하기",
-        "confirmWithdraw": "인출 확인하기"
+        "confirmDeposit": "Confirm Deposit",
+        "confirmWithdraw": "Confirm Withdraw"
     },
     "season.info.communityBooster.bulletPoints.1.3": {
         "3": "을 획득할 수 있습니다."
