@@ -210,7 +210,8 @@
         "mac": "macOS",
         "wrongNet": "Wrong Network!",
         "pleaseChangeMain": "Please change to Mainnet Network",
-        "pleaseChangeRinkeby": "Please change to Rinkeby Network"
+        "pleaseChangeRinkeby": "Please change to Rinkeby Network",
+        "recommended": "recommended"
     },
     "layout": {
         "topbar": {
@@ -2563,7 +2564,8 @@
             "seeAll": "See all",
             "viewInMap": "View in Map",
             "readMorePremium": "Read more about premium",
-            "parcel": "parcel"
+            "parcel": "parcel",
+            "polygonChain": "Polygon Network"
         },
         "onboarding": {
             "title": "Sandbox Map",
@@ -3108,7 +3110,7 @@
                 }
             },
             "minting": {
-                "purchaseGems": "Purchase Gems",
+                "purchaseGems": "Claim Gems",
                 "mint": "Mint",
                 "commonmint": "Common Mint",
                 "commonMintDisclaimer": "Remember to set these assets to ART type",
@@ -3555,7 +3557,8 @@
             "bannerSubtitle": "Start earning today! Follow us on our social media channels to know what's coming up."
         },
         "tag-new": "NEW",
-        "tagNew": "NEW"
+        "tagNew": "NEW",
+        "signinWithEmail": "Sign in with email"
     },
     "moderator": {
         "title": "Moderator",
@@ -3889,7 +3892,8 @@
             "categories": "Categories",
             "themes": "Theme",
             "send": "Send for approval",
-            "sendExclusive": "Save as Exclusive"
+            "sendExclusive": "Save as Exclusive",
+            "saveDraft": "Save as Draft"
         }
     },
     "onboarding": {
@@ -4964,7 +4968,8 @@
         "reload": "Reload page",
         "choose": "Choose your wallet",
         "sub-choose": "You don't have a wallet installed, select one to continue",
-        "warning": "If you are on your phone, please login from your wallet application to use its browser."
+        "warning": "If you are on your phone, please login from your wallet application to use its browser.",
+        "changeBrowser": "Please visit the page in your new browser"
     },
     "licenses": {
         "license": "LICENSES",
@@ -5988,7 +5993,16 @@
             "usePolygonLink": "Why use POLYGON?"
         },
         "sidebar": {
-            "amount": "Transfer Amount",
+            "amount": {
+                "main": "Set amount",
+                "token": [
+                    "SAND",
+                    "mSAND",
+                    "LAND",
+                    "ASSET"
+                ],
+                "banner": "Transfer Amount"
+            },
             "amountSet": "Set amount",
             "amountEnter": "Enter amount",
             "view": "View on Etherscan",
@@ -6062,12 +6076,127 @@
                     "title": "Transfer completed"
                 }
             },
-            "noTransactions": "There are no transactions to display"
+            "noTransactions": "There are no transactions to display",
+            "viewEth": "View on Etherscan",
+            "viewPol": "View on Polygonscan",
+            "back": "Back to the Bridge",
+            "confirm": "Confirm",
+            "deposit": "DEPOSIT",
+            "withdraw": "WITHDRAW",
+            "stages": {
+                "selection": {
+                    "deposit": {
+                        "headerTitle": "Select amount to deposit",
+                        "headerSubTitle": "Please select a SAND amount to transfer to Polygon.",
+                        "footerTitle": "Reminder",
+                        "footerText": [
+                            "Polygon is a PoS network, your tokens will be sent to the Polygon network in two steps.",
+                            "After signing the first transaction you will have to wait - 10 minutes for the networks to synchronize."
+                        ],
+                        "button": "Start Deposit"
+                    },
+                    "withdraw": {
+                        "headerTitle": "Select amount to withdraw",
+                        "headerSubTitle": "Please select a SAND amount to transfer to Ethereum.",
+                        "footerText": [
+                            "Your tokens will be sent back the Ethereum network in two steps.",
+                            "After signing the first transaction you will have to wait - 3-4 hours for the networks to synchronize.",
+                            "Then you will be asked to sign a second transaction."
+                        ],
+                        "button": "Start Withdrawal"
+                    }
+                },
+                "confirm": {
+                    "headerTitle": "Review transaction",
+                    "headerSubTitle": "Please review the transaction details.",
+                    "footerTitle": "Estimated Gas Fee",
+                    "feePol": "Polygon Fee",
+                    "feeEth": "Ethereum Fee"
+                },
+                "wait": {
+                    "headerTitle": "Transaction in progress",
+                    "headerSubTitle": "Please wait until the transfer is confirmed.",
+                    "footerText": "Depending on your settings, it takes between a few seconds to a few minutes to confirm."
+                },
+                "route": {
+                    "headerSubTitle": "Please wait until the transfer is completed.",
+                    "deposit": {
+                        "headerTitle": "Deposit en route",
+                        "footerTitle": "Deposit is in progress",
+                        "footerText": "It will take about - 10 minutes to synchronize. Once the transfer is completed the funds will be available on Polygon."
+                    },
+                    "withdraw": {
+                        "headerTitle": "Withdrawal en route",
+                        "footerTitle": "Withdrawal is in progress",
+                        "footerText": "It will take about - 3-4 hours to synchronize. Once the checkpoint is reached, you will be prompted to sign a second transaction to complete the withdrawal."
+                    }
+                },
+                "checkpoint": {
+                    "headerTitle": "Withdrawal in Checkpoint",
+                    "headerSubTitle": "Please sign the second transaction to complete the withdrawal"
+                },
+                "success": {
+                    "headerSubTitle": "The transfer is now completed.",
+                    "deposit": {
+                        "headerTitle": "Deposit completed",
+                        "footerText": "Your tokens have been successfully deposited to Polygon."
+                    },
+                    "withdraw": {
+                        "headerTitle": "Withdrawal completed",
+                        "footerText": "Your tokens have been successfully withdrawn to Ethereum."
+                    }
+                },
+                "fail": {
+                    "headerTitle": "Transfer failed",
+                    "footerTitle": "The transaction has failed",
+                    "footerText1": "Something has happened that the transaction has not been succesfull. Try again later.",
+                    "button": "Make a new deposit"
+                },
+                "rejected": {
+                    "headerTitle": "Transfer rejected",
+                    "footerTitle": "The transaction has been rejected"
+                }
+            },
+            "steps": {
+                "name": "STEP",
+                "base4": [
+                    "1/4",
+                    "2/4",
+                    "3/4",
+                    "4/4"
+                ],
+                "base5": [
+                    "1/5",
+                    "2/5",
+                    "3/5",
+                    "4/5",
+                    "5/5"
+                ],
+                "base6": [
+                    "1/6",
+                    "2/6",
+                    "3/6",
+                    "4/6",
+                    "5/6",
+                    "6/6"
+                ],
+                "base7": [
+                    "1/7",
+                    "2/7",
+                    "3/7",
+                    "4/7",
+                    "5/7",
+                    "6/7",
+                    "7/7"
+                ]
+            }
         },
         "buySand": "Buy SAND",
         "buymSand": "Buy mSAND",
         "confirmDeposit": "Confirm Deposit",
-        "confirmWithdraw": "Confirm Withdraw"
+        "confirmWithdraw": "Confirm Withdraw",
+        "noTransactions": "There are no transactions to display",
+        "pending": "Pending"
     },
     "season.info.communityBooster.bulletPoints.1.3": {
         "3": ""
