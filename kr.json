@@ -210,7 +210,8 @@
         "mac": "macOS",
         "wrongNet": "잘못된 네트워크입니다.",
         "pleaseChangeMain": "메인넷 네트워크로 변경해 주세요.",
-        "pleaseChangeRinkeby": "린케비 네트워크로 변경해 주세요."
+        "pleaseChangeRinkeby": "린케비 네트워크로 변경해 주세요.",
+        "recommended": ""
     },
     "layout": {
         "topbar": {
@@ -2563,7 +2564,8 @@
             "seeAll": "모두 보기",
             "viewInMap": "맵에서 보기",
             "readMorePremium": "프리미엄에 관해 더 알아보기",
-            "parcel": "구획"
+            "parcel": "구획",
+            "polygonChain": ""
         },
         "onboarding": {
             "title": "더 샌드박스 맵",
@@ -3555,7 +3557,8 @@
             "bannerSubtitle": "지금 바로 수익을 획득해 보세요! 더 샌드박스 소셜 미디어 채널을 팔로우하고 최신 소식을 놓치지 마세요."
         },
         "tag-new": "NEW",
-        "tagNew": "NEW"
+        "tagNew": "NEW",
+        "signinWithEmail": "Sign in with email"
     },
     "moderator": {
         "title": "운영자",
@@ -3889,7 +3892,8 @@
             "categories": "카테고리",
             "themes": "테마",
             "send": "승인을 위해 전송",
-            "sendExclusive": "특별로 저장"
+            "sendExclusive": "특별로 저장",
+            "saveDraft": ""
         }
     },
     "onboarding": {
@@ -4964,7 +4968,8 @@
         "reload": "페이지 다시 불러오기",
         "choose": "지갑 선택",
         "sub-choose": "설치한 지갑이 없습니다. 하나를 선택하여 계속하세요.",
-        "warning": "모바일을 사용하고 있을 경우, 지갑 애플케이션에서 로그인하여 브라우저를 이용하세요."
+        "warning": "모바일을 사용하고 있을 경우, 지갑 애플케이션에서 로그인하여 브라우저를 이용하세요.",
+        "changeBrowser": ""
     },
     "licenses": {
         "license": "라이선스",
@@ -5988,7 +5993,13 @@
             "usePolygonLink": "왜 폴리곤을 사용해야 하나요?"
         },
         "sidebar": {
-            "amount": "전송 수량",
+            "amount": {
+                "main": "",
+                "token": [
+                    ""
+                ],
+                "banner": ""
+            },
             "amountSet": "수량 설정",
             "amountEnter": "수량 입력",
             "view": "Etherscan에서 확인하기",
@@ -6062,12 +6073,106 @@
                     "title": "트랜스퍼 완료"
                 }
             },
-            "noTransactions": "표시할 트랜잭션이 없습니다."
+            "noTransactions": "표시할 트랜잭션이 없습니다.",
+            "viewEth": "",
+            "viewPol": "",
+            "back": "",
+            "confirm": "",
+            "deposit": "",
+            "withdraw": "",
+            "stages": {
+                "selection": {
+                    "deposit": {
+                        "headerTitle": "",
+                        "headerSubTitle": "",
+                        "footerTitle": "",
+                        "footerText": [
+                            ""
+                        ],
+                        "button": ""
+                    },
+                    "withdraw": {
+                        "headerTitle": "",
+                        "headerSubTitle": "",
+                        "footerText": [
+                            ""
+                        ],
+                        "button": ""
+                    }
+                },
+                "confirm": {
+                    "headerTitle": "",
+                    "headerSubTitle": "",
+                    "footerTitle": "",
+                    "feePol": "",
+                    "feeEth": ""
+                },
+                "wait": {
+                    "headerTitle": "",
+                    "headerSubTitle": "",
+                    "footerText": ""
+                },
+                "route": {
+                    "headerSubTitle": "",
+                    "deposit": {
+                        "headerTitle": "",
+                        "footerTitle": "",
+                        "footerText": ""
+                    },
+                    "withdraw": {
+                        "headerTitle": "",
+                        "footerTitle": "",
+                        "footerText": ""
+                    }
+                },
+                "checkpoint": {
+                    "headerTitle": "",
+                    "headerSubTitle": ""
+                },
+                "success": {
+                    "headerSubTitle": "",
+                    "deposit": {
+                        "headerTitle": "",
+                        "footerText": ""
+                    },
+                    "withdraw": {
+                        "headerTitle": "",
+                        "footerText": ""
+                    }
+                },
+                "fail": {
+                    "headerTitle": "",
+                    "footerTitle": "",
+                    "footerText1": "",
+                    "button": ""
+                },
+                "rejected": {
+                    "headerTitle": "",
+                    "footerTitle": ""
+                }
+            },
+            "steps": {
+                "name": "",
+                "base4": [
+                    ""
+                ],
+                "base5": [
+                    ""
+                ],
+                "base6": [
+                    ""
+                ],
+                "base7": [
+                    ""
+                ]
+            }
         },
         "buySand": "SAND 구매",
         "buymSand": "mSAND 구매",
         "confirmDeposit": "예치 확인하기",
-        "confirmWithdraw": "인출 확인하기"
+        "confirmWithdraw": "인출 확인하기",
+        "noTransactions": "",
+        "pending": ""
     },
     "season.info.communityBooster.bulletPoints.1.3": {
         "3": "을 획득할 수 있습니다."
