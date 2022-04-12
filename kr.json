@@ -2565,7 +2565,7 @@
             "viewInMap": "맵에서 보기",
             "readMorePremium": "프리미엄에 관해 더 알아보기",
             "parcel": "구획",
-            "polygonChain": ""
+            "polygonChain": "폴리곤 네트워크"
         },
         "onboarding": {
             "title": "더 샌드박스 맵",
@@ -3699,7 +3699,7 @@
             "availableSand": "SAND 이용 가능 서비스",
             "buySand": "SAND 구매",
             "howToBuySand": "SAND 구매 방법",
-            "viewEtherscan": "Etherscan에서 보기",
+            "viewEtherscan": "Etherscan에서 확인하기",
             "txHash": "거래 해시:",
             "txSent": "거래 보냄",
             "buyMore": "더 구매하기",
@@ -4056,7 +4056,7 @@
                 "currency": "통화",
                 "profit": "수익금"
             },
-            "etherscan": "Etherscan에서 보기",
+            "etherscan": "Etherscan에서 확인하기",
             "nothing": "받은 커미션이 없습니다.",
             "percentage": "10%",
             "referral": "추천",
@@ -4863,8 +4863,8 @@
             "footer-text-deposit": "이 트랜잭션은 선택한 수량의 LP 토큰을 예치합니다. 총 예치금이 올라갑니다.",
             "footer-text-claim": "이 트랜잭션은 수익금을 전액 수령하여 지갑으로 전송합니다.",
             "footer-text-withdraw": "이 트랜잭션은 선택한 수량의 LP를 총 예치금에서 인출합니다. 또한 가스 수수료를 절감하기 위해 수익금이 있을 경우 수령합니다.",
-            "onEtherscan": "Etherscan에서 보기",
-            "onPolyscan": "Polygonscan에서 보기",
+            "onEtherscan": "Etherscan에서 확인하기",
+            "onPolyscan": "Polygonscan에서 확인하기",
             "pairAnalytics": "페어 애널리틱스",
             "gasless": "Gasless",
             "free": "Free",
@@ -5405,15 +5405,15 @@
                 "endText": "여러분의 피드백에 언제나 귀를 기울이고 있습니다."
             },
             "lookBack": {
-                "title": "알파 시즌 1 돌아보기",
+                "title": "돌아보기",
                 "metrics": {
                     "0": "배포된 SAND",
-                    "1": "배포된 알파 패스",
-                    "2": "배포된 NFT",
-                    "3": "긍정적인 피드백",
-                    "4": "알파 허브 방문자",
-                    "5": "누적 플레이 시간",
-                    "6": "트위터 콘테스트 참가자",
+                    "1": "시즌 2 스테이킹 총량",
+                    "2": "커뮤니티 부스터",
+                    "3": "배포된 알파 패스",
+                    "4": "배포된 NFT",
+                    "5": "콘테스트 참여 인원",
+                    "6": "알파 허브 방문자",
                     "7": "보낸 피드백 메시지"
                 },
                 "subtitle": "알파 시즌 2"
@@ -5994,11 +5994,14 @@
         },
         "sidebar": {
             "amount": {
-                "main": "",
+                "main": "수량 설정",
                 "token": [
-                    ""
+                    "SAND",
+                    "mSAND",
+                    "LAND",
+                    "애셋"
                 ],
-                "banner": ""
+                "banner": "트랜스퍼 수량"
             },
             "amountSet": "수량 설정",
             "amountEnter": "수량 입력",
@@ -6074,96 +6077,114 @@
                 }
             },
             "noTransactions": "표시할 트랜잭션이 없습니다.",
-            "viewEth": "",
-            "viewPol": "",
-            "back": "",
-            "confirm": "",
-            "deposit": "",
-            "withdraw": "",
+            "viewEth": "Etherscan에서 확인하기",
+            "viewPol": "Polygonscan에서 확인하기",
+            "back": "브릿지로 돌아가기",
+            "confirm": "확인",
+            "deposit": "예치",
+            "withdraw": "인출",
             "stages": {
                 "selection": {
                     "deposit": {
-                        "headerTitle": "",
-                        "headerSubTitle": "",
+                        "headerTitle": "예치할 수량을 선택해 주세요.",
+                        "headerSubTitle": "폴리곤으로 트랜스퍼할 SAND 양을 선택해 주세요.",
                         "footerTitle": "",
                         "footerText": [
                             ""
                         ],
-                        "button": ""
+                        "button": "예치 시작하기"
                     },
                     "withdraw": {
-                        "headerTitle": "",
-                        "headerSubTitle": "",
+                        "headerTitle": "인출할 수량을 선택해 주세요.",
+                        "headerSubTitle": "이더리움으로 트랜스퍼할 SAND 수량을 선택해 주세요.",
                         "footerText": [
                             ""
                         ],
-                        "button": ""
+                        "button": "예치 시작하기"
                     }
                 },
                 "confirm": {
-                    "headerTitle": "",
-                    "headerSubTitle": "",
-                    "footerTitle": "",
-                    "feePol": "",
-                    "feeEth": ""
+                    "headerTitle": "트랜잭션 확인하기",
+                    "headerSubTitle": "트랜잭션 내역을 확인해 주세요.",
+                    "footerTitle": "예상 가스비",
+                    "feePol": "폴리곤 요금",
+                    "feeEth": "이더리움 요금"
                 },
                 "wait": {
-                    "headerTitle": "",
-                    "headerSubTitle": "",
-                    "footerText": ""
+                    "headerTitle": "트랜잭션 진행 중",
+                    "headerSubTitle": "트랜스퍼가 확인될 때까지 기다려 주세요.",
+                    "footerText": "설정에 따라 몇 초에서 몇 분의 시간이 소요될 수 있습니다."
                 },
                 "route": {
-                    "headerSubTitle": "",
+                    "headerSubTitle": "트랜스퍼가 완료될 때까지 기다려 주세요.",
                     "deposit": {
-                        "headerTitle": "",
-                        "footerTitle": "",
-                        "footerText": ""
+                        "headerTitle": "예치 진행 중",
+                        "footerTitle": "예치가 진행 중입니다.",
+                        "footerText": "동기화까지는 약 10분 정도의 시간이 소요됩니다. 트랜스퍼가 완료되면 폴리곤에 자금이 표시됩니다."
                     },
                     "withdraw": {
-                        "headerTitle": "",
-                        "footerTitle": "",
-                        "footerText": ""
+                        "headerTitle": "예치 진행 중",
+                        "footerTitle": "예치가 진행 중입니다.",
+                        "footerText": "동기화까지 약 3~4 시간이 소요됩니다. 체크포인트에 도착하면 인출 완료를 위한 두 번째 트랜잭션 서명 메시지 창이 나타납니다."
                     }
                 },
                 "checkpoint": {
-                    "headerTitle": "",
-                    "headerSubTitle": ""
+                    "headerTitle": "체크포인트에서 인출",
+                    "headerSubTitle": "인출을 완료하기 위해 두 번째 트랜잭션에 서명해 주세요."
                 },
                 "success": {
-                    "headerSubTitle": "",
+                    "headerSubTitle": "트랜스퍼가 완료되었습니다.",
                     "deposit": {
-                        "headerTitle": "",
-                        "footerText": ""
+                        "headerTitle": "예치 완료",
+                        "footerText": "토큰이 폴리곤에 성공적으로 예치되었습니다."
                     },
                     "withdraw": {
-                        "headerTitle": "",
-                        "footerText": ""
+                        "headerTitle": "인출 완료",
+                        "footerText": "토큰이 이더리움에서 성공적으로 인출되었습니다."
                     }
                 },
                 "fail": {
-                    "headerTitle": "",
-                    "footerTitle": "",
-                    "footerText1": "",
-                    "button": ""
+                    "headerTitle": "트랜스퍼 실패",
+                    "footerTitle": "트랜잭션이 실패했습니다.",
+                    "footerText1": "오류가 발생하여 트랜잭션에 실패했습니다. 잠시 후 다시 시도해 주세요.",
+                    "button": "신규 예치하기"
                 },
                 "rejected": {
-                    "headerTitle": "",
-                    "footerTitle": ""
+                    "headerTitle": "트랜스퍼가 거부됨",
+                    "footerTitle": "트랜잭션이 거부되었습니다."
                 }
             },
             "steps": {
-                "name": "",
+                "name": "STEP",
                 "base4": [
-                    ""
+                    "1/4",
+                    "2/4",
+                    "3/4",
+                    "4/4"
                 ],
                 "base5": [
-                    ""
+                    "1/5",
+                    "2/5",
+                    "3/5",
+                    "4/5",
+                    "5/5"
                 ],
                 "base6": [
-                    ""
+                    "1/6",
+                    "2/6",
+                    "3/6",
+                    "4/6",
+                    "5/6",
+                    "6/6"
                 ],
                 "base7": [
-                    ""
+                    "1/7",
+                    "2/7",
+                    "3/7",
+                    "4/7",
+                    "5/7",
+                    "6/7",
+                    "7/7"
                 ]
             }
         },
@@ -6171,8 +6192,8 @@
         "buymSand": "mSAND 구매",
         "confirmDeposit": "예치 확인하기",
         "confirmWithdraw": "인출 확인하기",
-        "noTransactions": "",
-        "pending": ""
+        "noTransactions": "표시할 트랜잭션이 없습니다.",
+        "pending": "보류 중"
     },
     "season.info.communityBooster.bulletPoints.1.3": {
         "3": "을 획득할 수 있습니다."
@@ -6180,9 +6201,9 @@
     "roadmap": {
         "2011": {
             "date": "2011",
-            "month": "month",
+            "month": "",
             "title": "Pixowl 설립",
-            "text": "text"
+            "text": ""
         },
         "2012": {
             "date": "2012",
@@ -6194,36 +6215,36 @@
             "date": "2013",
             "month": "2월",
             "title": "안드로이드 버전 더 샌드박스 출시 (최초 타이틀)",
-            "text": "text"
+            "text": ""
         },
         "2014": {
             "date": "2014",
-            "month": "month",
+            "month": "",
             "title": "더 샌드박스 다운로드 수 1,000만 돌파",
             "text": "더 샌드박스 스팀 버전 출시. 스카이바운드 (Skybound) - 인빈서블 (The Invincible)과 파트너쉽 체결. 더 샌드박스 교육 버전 출시"
         },
         "2015": {
             "date": "2015",
-            "month": "month",
+            "month": "",
             "title": "게임 개발자 컨퍼런스 (Game Developers Conference, GDC)에서 더 샌드박스 에볼루션 발표 (2차 타이틀)",
             "text": "더 샌드박스 다운로드 수 1,600만 돌파"
         },
         "2016": {
             "date": "2016",
-            "month": "month",
+            "month": "",
             "title": "더 샌드박스 에볼루션, iOS, 안드로이드 및 스팀에 출시",
             "text": "소니 (Sony) - 고스트 버스터즈 (Ghostbusters)와 파트너쉽 체결"
         },
         "2017": {
             "date": "2017",
-            "month": "month",
+            "month": "",
             "title": "더 샌드박스 에볼루션, 2개의 거대 파트너쉽 체결",
             "text": "반다이 남코 (Bandai Namco)의 팩맨 (PAC-MAN), 드림웍스 (DreamWorks)의 슈렉 (Shrek) 게임에 추가. 스팀에서 더 샌드박스 에볼루션 무료 다운로드 시작"
         },
         "2018": {
             "1": {
                 "date": "2017",
-                "month": "month",
+                "month": "",
                 "title": "더 샌드박스 다운로드 수 4,000만 돌파 및 7,000만 유저 제작 콘텐츠 생성",
                 "text": "더 샌드박스 페이스북 팔로워 수 75만 명 돌파"
             },
@@ -6231,7 +6252,7 @@
                 "date": "2018",
                 "month": "5월",
                 "title": "포켓 케이머 커넥트 (Pocket Gamer Connect, PGC) 컨퍼런스에서 블록체인 기반의 더 샌드박스 3D 프로젝트 발표",
-                "text": "text"
+                "text": ""
             }
         },
         "2019": {
@@ -6347,7 +6368,7 @@
                 "items": {
                     "1": {
                         "title": "멀티 플레이어 시즌 퍼블릭 알파 출시",
-                        "text": "text"
+                        "text": ""
                     }
                 }
             },
@@ -6357,19 +6378,19 @@
                 "items": {
                     "1": {
                         "title": "IP를 기반으로 한 최초 NFT 아바타 컬렉션 출시",
-                        "text": "text"
+                        "text": ""
                     },
                     "2": {
                         "title": "레이어 2의 디파이 (DeFi) 스테이킹 메커니즘 도입",
-                        "text": "text"
+                        "text": ""
                     },
                     "3": {
                         "title": "최초 플레이 투 언 및 익스플로러 시즌 출시",
-                        "text": "text"
+                        "text": ""
                     },
                     "4": {
                         "title": "매틱 (Matic)에 대한 레이어 2 듀얼 체인 솔루션 출시 및 UGC 마켓플레이스 전체 오픈",
-                        "text": "text"
+                        "text": ""
                     }
                 }
             }
@@ -6381,7 +6402,7 @@
                 "items": {
                     "1": {
                         "title": "고품질의 경험을 제작한 LAND 오너에게 메타버스 단계적 개방",
-                        "text": "text"
+                        "text": ""
                     }
                 }
             },
@@ -6391,7 +6412,7 @@
                 "items": {
                     "1": {
                         "title": "스테이킹을 포함한 DAO 출시 및 SAND, LAND, 아바타 보유자들에게 투표권 부여",
-                        "text": "text"
+                        "text": ""
                     },
                     "2": {
                         "title": "DAO",
@@ -6405,7 +6426,7 @@
                 "items": {
                     "1": {
                         "title": "최초 가상 콘서트 (데드마우스, 리치 호튼) 및 워킹 데드 게임 출시",
-                        "text": "text"
+                        "text": ""
                     }
                 }
             },
@@ -6415,7 +6436,7 @@
                 "items": {
                     "1": {
                         "title": "모바일 버전 출시",
-                        "text": "text"
+                        "text": ""
                     }
                 }
             },
@@ -6457,7 +6478,7 @@
         "2023": {
             "1": {
                 "date": "2023",
-                "month": "month",
+                "month": "",
                 "items": {
                     "1": {
                         "title": "게임 플랫폼",
@@ -6740,13 +6761,13 @@
                 }
             },
             "1": {
-                "date": "March 26th, 2020, Public Beta Release, Update 1",
+                "date": "2020년 3월 26일, 퍼블릭 베타 출시, 1차 업데이트",
                 "list": {
                     "0": {
                         "title": "Tilemap 3D"
                     },
                     "1": {
-                        "title": "Updates notification"
+                        "title": "업데이트 알림"
                     },
                     "2": {
                         "title": "Shortcuts System"
@@ -6757,7 +6778,7 @@
                 }
             },
             "2": {
-                "date": "April 29th, 2020, Public Beta Release, Update 2",
+                "date": "2020년 4월 29일, 퍼블릭 베타 출시, 2차 업데이트",
                 "list": {
                     "0": {
                         "title": "Multi Language"
@@ -6768,10 +6789,10 @@
                 }
             },
             "3": {
-                "date": "August 20th, 2020",
+                "date": "2020년 8월 20일",
                 "list": {
                     "0": {
-                        "title": "Timeline v4"
+                        "title": "타임라인 v4"
                     },
                     "1": {
                         "title": "Animation duration display"
@@ -6806,7 +6827,7 @@
                 }
             },
             "4": {
-                "date": "September 22nd, 2020",
+                "date": "2020년 9월 22일",
                 "list": {
                     "0": {
                         "title": "Light Source Control"
@@ -6836,7 +6857,7 @@
                         "title": "Fixed Material Hex field not validating properly"
                     },
                     "9": {
-                        "title": "Fixed Rigger"
+                        "title": "리거 수정"
                     },
                     "10": {
                         "title": "Contextual Menus now keep whitin the window"
@@ -6844,10 +6865,10 @@
                 }
             },
             "5": {
-                "date": "November 25th, 2020 - Public Beta Release",
+                "date": "2020년 11월 25일 - 퍼블릭 베타 출시",
                 "list": {
                     "0": {
-                        "title": "Features",
+                        "title": "기능",
                         "list": {
                             "0": {
                                 "title": "Large-Medium-Small Palette layouts."
@@ -6882,7 +6903,7 @@
                         }
                     },
                     "1": {
-                        "title": "Bug fixes",
+                        "title": "버그 수정",
                         "list": {
                             "0": {
                                 "title": "Keyboard now works in detached panels."
@@ -7039,7 +7060,7 @@
                         "subtitle": "You can now easily publish your Experience to the Gallery and allow other users to play to the content you created."
                     },
                     "11": {
-                        "title": "Behaviors and Components",
+                        "title": "행동 및 컴포넌트",
                         "subtitle": "Behaviors and Components had their tooltips and parameters updated. They should now be easier to understand."
                     },
                     "12": {
@@ -7054,7 +7075,7 @@
                         }
                     },
                     "13": {
-                        "title": "New Melee Enemy",
+                        "title": "신규 근거리 적",
                         "list": {
                             "0": {
                                 "title": "The Enemy fighter behavior has been automatically replaced by the Melee Enemy behavior."
@@ -7068,7 +7089,7 @@
                         }
                     },
                     "14": {
-                        "title": "Quest Icons",
+                        "title": "퀘스트 아이콘",
                         "subtitle": "As said before, a Quest is split into 4 steps. For 3 of them, a specific Quest Icon is displayed during the Play Mode.",
                         "list": {
                             "0": "Quest can be started: Gold '!' ",
@@ -7077,7 +7098,7 @@
                         }
                     },
                     "15": {
-                        "title": "Inventory & Equipment",
+                        "title": "인벤토리와 장비",
                         "subtitle": "Players will be able to pick up equipment and quest items from experiences and save them in their local inventories. Equip different sets of items to change your character's attributes and become stronger."
                     },
                     "16": {
@@ -7185,14 +7206,14 @@
                 }
             },
             "001": {
-                "title": "Play Mode Improvements",
+                "title": "플레이 모드 개선 사항",
                 "list": {
                     "0": {
-                        "title": "Mini Map (Compass)",
+                        "title": "미니맵 (콤파스)",
                         "subtitle": "We’ve added a new HUD element into our Play Mode in the form of a Mini Map, now you’ll be able to orientate yourself and be provided with specific experience data. This is a simplified version of our Mini Map, stay tuned to see the finalized version soon."
                     },
                     "1": {
-                        "title": "Gameplay Improvements",
+                        "title": "게임 플레이 개선 사항",
                         "subtitle": "As part of our constant improvements to the Gameplay and Combat system we’ve added the following features:",
                         "list": {
                             "0": {
@@ -7200,11 +7221,11 @@
                                 "subtitle": "The heavy attack will now have a reticle that shows the area of effect of your attack, as you charge it more, it will deal more damage and the area will be bigger."
                             },
                             "1": {
-                                "title": "Stun System:",
+                                "title": "기절 시스템:",
                                 "subtitle": "Heavy Attacks charged up to its limit will now stun all enemies in range when released."
                             },
                             "2": {
-                                "title": "Parry System:",
+                                "title": "막기 시스템:",
                                 "subtitle": "You will be able to parry enemy attacks to reduce the damage you’ve taken. If your timing is right you’ll be able to Perfect Parry them, stunning the enemy in consequence."
                             }
                         }
@@ -7212,8 +7233,8 @@
                 }
             },
             "0": {
-                "date": "April 6th, 2021 - Game Maker 0.6.0",
-                "title": "Game Maker Improvements",
+                "date": "2021년 4월 6일 - 게임 메이커 0.6.0",
+                "title": "게임 메이커 개선 사항",
                 "list": {
                     "0": {
                         "title": "NFT Images",
@@ -7528,7 +7549,7 @@
                 }
             },
             "8": {
-                "date": "2021년 11월 4일 - 게임 메이커 0.6.14 체인지 로그",
+                "date": "<span style='color:red'>2021년 11월 4일 - 게임 메이커 0.6.14 체인지 로그</span>",
                 "title": "버그 수정 및 개선",
                 "list": {
                     "0": {
