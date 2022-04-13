@@ -211,7 +211,7 @@
         "wrongNet": "Wrong Network!",
         "pleaseChangeMain": "Please change to Mainnet Network",
         "pleaseChangeRinkeby": "Please change to Rinkeby Network",
-        "recommended": "受到推崇的"
+        "recommended": "recommended"
     },
     "layout": {
         "topbar": {
@@ -318,7 +318,9 @@
             },
             "social": "社群媒體",
             "copyright": "Copyright ©",
-            "rights": "保留所有權利"
+            "rights": "保留所有權利",
+            "followUs": "Follow us",
+            "subsidiary": "Subsidiary of"
         },
         "createAvatarModal": {
             "title": "獲得你自己的 LAND NFT",
@@ -2565,7 +2567,7 @@
             "viewInMap": "在地圖中查看",
             "readMorePremium": "閱讀更多有關優質的介紹",
             "parcel": "土地",
-            "polygonChain": ""
+            "polygonChain": "Polygon Network"
         },
         "onboarding": {
             "title": "Sandbox 地圖",
@@ -3110,7 +3112,7 @@
                 }
             },
             "minting": {
-                "purchaseGems": "購買 GEM",
+                "purchaseGems": "Claim Gems",
                 "mint": "鑄造",
                 "commonmint": "常見鑄造",
                 "commonMintDisclaimer": "別忘了將這些 ASSET 設為藝術品類型",
@@ -3558,7 +3560,7 @@
         },
         "tag-new": "NEW",
         "tagNew": "NEW",
-        "signinWithEmail": "使用電子郵件登錄"
+        "signinWithEmail": "Sign in with email"
     },
     "moderator": {
         "title": "版主",
@@ -3893,7 +3895,7 @@
             "themes": "主題",
             "send": "送審",
             "sendExclusive": "儲存為獨家",
-            "saveDraft": ""
+            "saveDraft": "Save as Draft"
         }
     },
     "onboarding": {
@@ -4969,7 +4971,7 @@
         "choose": "選擇你的錢包",
         "sub-choose": "你還沒有安裝錢包，請選擇一個才能繼續",
         "warning": "If you are on your phone, please login from your wallet application to use its browser.",
-        "changeBrowser": ""
+        "changeBrowser": "Please visit the page in your new browser"
     },
     "licenses": {
         "license": "授權",
@@ -5973,7 +5975,7 @@
     },
     "bridge": {
         "greeting": "Hi",
-        "walletBalance": "Your wallet balance",
+        "walletBalance": "My balance",
         "nftOnEth": "NFT's on Ethereum Mainnet",
         "nftOnPolygon": "NFT's on Polygon Mainnet",
         "banner": {
@@ -5994,11 +5996,14 @@
         },
         "sidebar": {
             "amount": {
-                "main": "",
+                "main": "Set amount",
                 "token": [
-                    ""
+                    "SAND",
+                    "mSAND",
+                    "LAND",
+                    "ASSET"
                 ],
-                "banner": ""
+                "banner": "Transfer Amount"
             },
             "amountSet": "設定數量",
             "amountEnter": "Enter amount",
@@ -6074,96 +6079,117 @@
                 }
             },
             "noTransactions": "There are no transactions to display",
-            "viewEth": "",
-            "viewPol": "",
-            "back": "",
-            "confirm": "",
-            "deposit": "",
-            "withdraw": "",
+            "viewEth": "View on Etherscan",
+            "viewPol": "View on Polygonscan",
+            "back": "Back to the Bridge",
+            "confirm": "Confirm",
+            "deposit": "DEPOSIT",
+            "withdraw": "WITHDRAW",
             "stages": {
                 "selection": {
                     "deposit": {
-                        "headerTitle": "",
-                        "headerSubTitle": "",
-                        "footerTitle": "",
+                        "headerTitle": "Select amount to deposit",
+                        "headerSubTitle": "Please select a SAND amount to transfer to Polygon.",
+                        "footerTitle": "Reminder",
                         "footerText": [
-                            ""
+                            "Polygon is a PoS network, your tokens will be sent to the Polygon network in two steps.",
+                            "After signing the first transaction you will have to wait - 10 minutes for the networks to synchronize."
                         ],
-                        "button": ""
+                        "button": "Start Deposit"
                     },
                     "withdraw": {
-                        "headerTitle": "",
-                        "headerSubTitle": "",
+                        "headerTitle": "Select amount to withdraw",
+                        "headerSubTitle": "Please select a SAND amount to transfer to Ethereum.",
                         "footerText": [
-                            ""
+                            "Your tokens will be sent back the Ethereum network in two steps.",
+                            "After signing the first transaction you will have to wait - 3-4 hours for the networks to synchronize.",
+                            "Then you will be asked to sign a second transaction."
                         ],
-                        "button": ""
+                        "button": "Start Withdrawal"
                     }
                 },
                 "confirm": {
-                    "headerTitle": "",
-                    "headerSubTitle": "",
-                    "footerTitle": "",
-                    "feePol": "",
-                    "feeEth": ""
+                    "headerTitle": "Review transaction",
+                    "headerSubTitle": "Please review the transaction details.",
+                    "footerTitle": "Estimated Gass Fee",
+                    "feePol": "Polygon Fee",
+                    "feeEth": "Ethereum Fee"
                 },
                 "wait": {
-                    "headerTitle": "",
-                    "headerSubTitle": "",
-                    "footerText": ""
+                    "headerTitle": "Transaction in progress",
+                    "headerSubTitle": "Please wait until the transfer is confirmed.",
+                    "footerText": "Depending on your settings, it takes between a few seconds to a few minutes to confirm."
                 },
                 "route": {
-                    "headerSubTitle": "",
+                    "headerSubTitle": "Please wait until the transfer is completed.",
                     "deposit": {
-                        "headerTitle": "",
-                        "footerTitle": "",
-                        "footerText": ""
+                        "headerTitle": "Deposit en route",
+                        "footerTitle": "Deposit is in progress",
+                        "footerText": "It will take about - 10 minutes to synchronize. Once the transfer is completed the funds will be available on Polygon."
                     },
                     "withdraw": {
-                        "headerTitle": "",
-                        "footerTitle": "",
-                        "footerText": ""
+                        "headerTitle": "Withdrawal en route",
+                        "footerTitle": "Withdrawal is in progress",
+                        "footerText": "It will take about - 3-4 hours to synchronize. Once the checkpoint is reached, you will be prompted to sign a second transaction to complete the withdrawal."
                     }
                 },
                 "checkpoint": {
-                    "headerTitle": "",
-                    "headerSubTitle": ""
+                    "headerTitle": "Withdrawal in Checkpoint",
+                    "headerSubTitle": "Please sign the second transaction to complete the withdrawal"
                 },
                 "success": {
-                    "headerSubTitle": "",
+                    "headerSubTitle": "The transfer is now completed.",
                     "deposit": {
-                        "headerTitle": "",
-                        "footerText": ""
+                        "headerTitle": "Deposit completed",
+                        "footerText": "Your tokens have been successfully deposited to Polygon."
                     },
                     "withdraw": {
-                        "headerTitle": "",
-                        "footerText": ""
+                        "headerTitle": "Withdrawal completed",
+                        "footerText": "Your tokens have been successfully withdrawn to Ethereum."
                     }
                 },
                 "fail": {
-                    "headerTitle": "",
-                    "footerTitle": "",
-                    "footerText1": "",
-                    "button": ""
+                    "headerTitle": "Transfer failed",
+                    "footerTitle": "The transaction has failed",
+                    "footerText1": "Something has happened that the transaction has not been succesfull. Try again later.",
+                    "button": "Make a new deposit"
                 },
                 "rejected": {
-                    "headerTitle": "",
-                    "footerTitle": ""
+                    "headerTitle": "Transfer rejected",
+                    "footerTitle": "The transaction has been rejected"
                 }
             },
             "steps": {
-                "name": "",
+                "name": "STEP",
                 "base4": [
-                    ""
+                    "1/4",
+                    "2/4",
+                    "3/4",
+                    "4/4"
                 ],
                 "base5": [
-                    ""
+                    "1/5",
+                    "2/5",
+                    "3/5",
+                    "4/5",
+                    "5/5"
                 ],
                 "base6": [
-                    ""
+                    "1/6",
+                    "2/6",
+                    "3/6",
+                    "4/6",
+                    "5/6",
+                    "6/6"
                 ],
                 "base7": [
-                    ""
+                    "1/7",
+                    "2/7",
+                    "3/7",
+                    "4/7",
+                    "5/7",
+                    "6/7",
+                    "7/7"
                 ]
             }
         },
@@ -6171,8 +6197,8 @@
         "buymSand": "Buy mSAND",
         "confirmDeposit": "Confirm Deposit",
         "confirmWithdraw": "Confirm Withdraw",
-        "noTransactions": "",
-        "pending": ""
+        "noTransactions": "There are no transactions to display",
+        "pending": "Pending"
     },
     "season.info.communityBooster.bulletPoints.1.3": {
         "3": ""
@@ -7545,6 +7571,37 @@
                         "list": {
                             "0": {
                                 "title": "Fixed an issue which caused some assets didn’t have the ID on the saved file."
+                            }
+                        }
+                    }
+                }
+            },
+            "9": {
+                "date": "April 5, 2022 - Game Maker 0.6.24 changelog",
+                "title": "Bug Fixing and Enhancements",
+                "list": {
+                    "0": {
+                        "title": "MacOS Compatibility",
+                        "list": {
+                            "0": {
+                                "title": "MacOS build was released with feature parity with Windows version. Both builds are in the same state and should not present any differences."
+                            }
+                        }
+                    },
+                    "1": {
+                        "title": "Game Maker Improvements",
+                        "list": {
+                            "0": {
+                                "title": "Performance Improvements: ",
+                                "subtitle": "Several fixes were made that improved the general performance of the Game Maker."
+                            },
+                            "1": {
+                                "title": "UI Improvements: ",
+                                "subtitle": "Visual issues were spotted and fixed on the UI: Scroll bars on the main menu were fixed and Toggles fixed."
+                            },
+                            "2": {
+                                "title": "Lighting Enhancements: ",
+                                "subtitle": "General lighting enhancements were achieved in playmode, as well as more saturated colours reducing the fog."
                             }
                         }
                     }
