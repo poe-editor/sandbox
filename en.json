@@ -318,7 +318,9 @@
             },
             "social": "Social",
             "copyright": "Copyright ©",
-            "rights": "All Rights Reserved"
+            "rights": "All Rights Reserved",
+            "followUs": "Follow us",
+            "subsidiary": "Subsidiary of"
         },
         "createAvatarModal": {
             "title": "Get your very own LAND NFT",
@@ -7569,6 +7571,37 @@
                         "list": {
                             "0": {
                                 "title": "Fixed an issue which caused some assets didn’t have the ID on the saved file."
+                            }
+                        }
+                    }
+                }
+            },
+            "9": {
+                "date": "April 5, 2022 - Game Maker 0.6.24 changelog",
+                "title": "Bug Fixing and Enhancements",
+                "list": {
+                    "0": {
+                        "title": "MacOS Compatibility",
+                        "list": {
+                            "0": {
+                                "title": "MacOS build was released with feature parity with Windows version. Both builds are in the same state and should not present any differences."
+                            }
+                        }
+                    },
+                    "1": {
+                        "title": "Game Maker Improvements",
+                        "list": {
+                            "0": {
+                                "title": "Performance Improvements: ",
+                                "subtitle": "Several fixes were made that improved the general performance of the Game Maker."
+                            },
+                            "1": {
+                                "title": "UI Improvements: ",
+                                "subtitle": "Visual issues were spotted and fixed on the UI: Scroll bars on the main menu were fixed and Toggles fixed."
+                            },
+                            "2": {
+                                "title": "Lighting Enhancements: ",
+                                "subtitle": "General lighting enhancements were achieved in playmode, as well as more saturated colours reducing the fog."
                             }
                         }
                     }
