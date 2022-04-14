@@ -208,10 +208,10 @@
         "readMore": "더 읽기",
         "windows": "Windows",
         "mac": "macOS",
-        "wrongNet": "Wrong Network!",
-        "pleaseChangeMain": "Please change to Mainnet Network",
-        "pleaseChangeRinkeby": "Please change to Rinkeby Network",
-        "recommended": "recommended"
+        "wrongNet": "잘못된 네트워크입니다.",
+        "pleaseChangeMain": "메인넷 네트워크로 변경해 주세요.",
+        "pleaseChangeRinkeby": "린케비 네트워크로 변경해 주세요.",
+        "recommended": "추천"
     },
     "layout": {
         "topbar": {
@@ -222,8 +222,8 @@
                     "binance": "Binance에서 SAND 구매",
                     "uniswap": "Uniswap에서 SAND 구매",
                     "simplex": "Simplex에서 SAND 구매",
-                    "binanceCS": "Buy SAND on Binance (coming soon)",
-                    "quickswap": "Swap SAND on Quickswap",
+                    "binanceCS": "Binance에서 SAND 구매 (곧 찾아옵니다)",
+                    "quickswap": "Quickswap에서 SAND 스왑",
                     "comingSoon": "More options coming soon..."
                 },
                 "values": {
@@ -239,7 +239,7 @@
                 "out": "$SAND가 없음",
                 "requiredAmount1": "거래를",
                 "requiredAmount2": "완료해야 합니다",
-                "titleStaking": "Get SAND",
+                "titleStaking": "SAND 획득",
                 "aboutBiconomy": "새로운 기능에 대한 더 샌드박스 메타 트랜잭션이 폴리곤 네트워크에 배포되었습니다. 이를 통해 트랜잭션을 래핑할 수 있으므로 mSAND 외 다른 토큰은 필요하지 않습니다.",
                 "changeSettings": "체인 설정"
             },
@@ -252,7 +252,7 @@
                     "preRegistered": "이미 사전 등록이 완료되었습니다",
                     "go": "프리 시즌으로 이동"
                 },
-                "hasRewards": "Alpha Rewards",
+                "hasRewards": "알파 리워드",
                 "noRewards": "알파 리워드 없음",
                 "noAlphaPass": "알파 진행 중 아님",
                 "alphaPass": "알파 진행 중"
@@ -266,8 +266,8 @@
             "notifications": {
                 "status": {
                     "awaiting": "Awaiting Exit",
-                    "success": "Success",
-                    "pending": "Pending"
+                    "success": "성공",
+                    "pending": "보류 중"
                 },
                 "deposit": {
                     "of": "Deposit of",
@@ -279,7 +279,7 @@
                     "toPoly": "to Polygon",
                     "toEth": "to Ethereum"
                 },
-                "route": "Transaction in Route - "
+                "route": "트랜잭션 진행 중 - "
             }
         },
         "sidebar": {
@@ -318,7 +318,7 @@
             },
             "social": "소셜 미디어",
             "copyright": "Copyright ©",
-            "rights": "The Sandbox All Rights Reserved",
+            "rights": "All Rights Reserved",
             "followUs": "Follow us",
             "subsidiary": "Subsidiary of"
         },
@@ -353,7 +353,7 @@
         "header": {
             "title": "오픈 메타버스에 오신 것을 환영합니다",
             "description": {
-                "preSeason": "알파 시즌 2가 곧 찾아옵니다. 등록해서 상세 정보를 받아보세요.",
+                "preSeason": "알파 시즌 2가 2022년 3월 3일 시작됩니다. 등록해서 상세 정보를 받아보세요.",
                 "duringSeason": "알파 시즌 2를 플레이하고 퀘스트를 완료해서 알파 패스를 획득해 보세요."
             },
             "preseason": "첫 시즌을 확인하세요",
@@ -364,14 +364,14 @@
             "discover": "스눕 독",
             "howToJoin": "참여 방법",
             "buyLand": "LAND 구매",
-            "alphaOpened": "ALPHA SEASON 1 IS NOW CLOSED",
+            "alphaOpened": "알파 시즌 1 종료",
             "alpha": "알파",
             "alphaDate": "11월 29일부터 12월 20일까지",
             "readMore": "정보 더 보기",
             "description2": "Click here to see the rewards of Alpha Season 1",
-            "createButtonText": "Create Account",
+            "createButtonText": "계정 만들기",
             "ribbon": {
-                "preSeason": "2022년 3월 3일, 알파 시즌 2가 시작됩니다",
+                "preSeason": "알파 시즌 2가 곧 찾아옵니다",
                 "duringSeason": "알파 시즌 2 진행 중"
             },
             "createAccount": "계정 만들기"
@@ -406,7 +406,7 @@
         "community": {
             "badge": "새 소식",
             "title": "커뮤니티",
-            "description": "더 샌드박스의 새 소식을 놓치지 마세요. 블로그를 확인하여 자세한 정보를 알아보세요."
+            "description": "새 소식 알아보기"
         },
         "avatar": {
             "title": "더 샌드박스 아바타",
@@ -431,7 +431,7 @@
         "play": {
             "selectAvatar": "아바타 선택",
             "enter": "알파 로비 입장하기",
-            "learnMore": "알파에 관해 더 알아보기",
+            "learnMore": "알파 자세히 알아보기",
             "legend": "알파에 관해 도움이 필요하신가요?",
             "sendFeedback": "피드백 보내기",
             "alpha": {
@@ -498,7 +498,7 @@
             },
             "download": {
                 "title": "더 샌드박스를 플레이할 시간입니다!",
-                "alpha": "게임 메이커 알파를 다운로드하세요",
+                "alpha": "게임 메이커 알파 다운받기",
                 "downloadInstall": "다운로드 및 설치",
                 "downloadGameMaker": "게임 메이커 다운로드",
                 "optionText": "아직 클라이언트를 다운로드하지 않았으면 여기에서 다운로드하세요",
@@ -535,7 +535,7 @@
                 "alphaEnded": "알파 종료됨",
                 "inProgress": "진행 중",
                 "endingSoon": "곧 종료",
-                "seasonOver": "더 샌드박스 알파가 종료되었습니다.",
+                "seasonOver": "알파 시즌 1이 종료되었습니다.",
                 "seasonOverDescription": "알파에 참여해 주셔서 감사합니다. 리워드를 준비하고 있습니다. 활성화되면 아래의 받기 버튼을 클릭하세요.",
                 "description2": "리워드를 받았습니다! 수령을 확인하면 잠시 후 인벤토리와 지갑에 표시됩니다",
                 "claimed": "받음",
@@ -558,7 +558,7 @@
                     "subtitle": "알파 시즌 2",
                     "date": "3월 3일~3월 31일",
                     "seasonOverTitle": "알파 시즌 2가 종료되었습니다.",
-                    "seasonOverDescription": "Thanks for joining the Alpha, we are getting your rewards ready! When enabled, click the Claim button.",
+                    "seasonOverDescription": "알파에 참여해 주셔서 감사합니다. 리워드를 준비하고 있습니다. 활성화되면 아래의 받기 버튼을 클릭하세요.",
                     "raffleStartsIn": "추첨 시작까지 남은 시간:",
                     "raffleResultsIn": "추첨 결과 발표까지 남은 시간:",
                     "claimAvailableAt": "수령 가능:",
@@ -574,7 +574,7 @@
                     "contestButton": "콘테스트",
                     "buyButton": "구매",
                     "claimRewards": "리워드 받기",
-                    "claimRewardsDescription": "4월 1일에 리워드를 받을 수 있습니다.",
+                    "claimRewardsDescription": "리워드 수령은",
                     "claimRewardsDescription2": "4월 1일에 진행됩니다.",
                     "moreInfo": "자세히 알아보기",
                     "freeToPlay": "추첨 티켓",
@@ -624,10 +624,10 @@
                         "week2": "Week March 10 - March 16",
                         "week3": "Week March 17 - March 23",
                         "claimBefore": "2022년 3월 31일 이전에 알파 패스를 수령하세요",
-                        "week4": "Referral Quest - March 25 | March 31",
-                        "referFriend": "Refer a friend and get a change of winning a Season 2 Alpha Pass",
-                        "completeGoal": "Complete the community goal to unlock a special contest.",
-                        "communityGoal": "Community Goal: 100,000 New Accounts",
+                        "week4": "추천 퀘스트 - 3월 25일 | 3월 31일",
+                        "referFriend": "친구를 추천하고 시즌 2 알파 패스 당첨 기회를 잡아보세요.",
+                        "completeGoal": "커뮤니티 목표 점수를 달성하면 특별 콘테스트를 해금할 수 있습니다.",
+                        "communityGoal": "커뮤니니 목표: 100,000 신규 계정",
                         "currentAccounts": "currentAccounts",
                         "lastUpdate": "마지막 업데이트 3월 {lastUpdateDate} UTC {utcTime}"
                     },
@@ -649,24 +649,24 @@
                     "enterThePartyDescription2": "패스 보유자만 입장할 수 있는 VIP 파티에 참석해 보세요!",
                     "raffleTitle4": "4월",
                     "lockedDesc": "알파 시즌 2 종료 후 $SAND 리워드를 수하려면 시즌 2 알파 패스를 보유해야 합니다.",
-                    "memorabilia": "Memorabilia",
+                    "memorabilia": "기념품",
                     "memorabiliaTooltip": "레벨 5에 도달하는 모든 플레이어는 해당 시즌의 기념품을 획득할 수 있으며, 기념품을 통해 이후 모든 시즌에 추가 리워드를 받을 수 있습니다. 기념품은 NFT가 아니라는 점에 유념하시기 바랍니다.",
                     "increaseTotalDescriptionEnd": "스테이킹하세요.",
                     "seasonStart": "4월 1일",
                     "seasonFinish": "31일",
-                    "hasJustEnded": "ALPHA SEASON 2 HAS JUST ENDED",
-                    "welcomeOpen": "WELCOME TO THE OPEN METAVERSE",
-                    "thanks": "Thanks to all Alpha Season 2 players!",
-                    "canClaim": "Season 2 Alpha Pass winners can now claim their rewards",
-                    "claim": "Claim",
-                    "reachedLevel": "All players who reached level 5 won the Alpha S2 Memorabilia. It will grant rewards for all future seasons.",
-                    "notNFT": "The memorabilia is not an NFT.",
-                    "gotIt": "Congrats! You got it",
-                    "goSeeIt": "Go to see it",
-                    "completeSurvey": "COMPLETE THE SURVEY",
-                    "earnRT": "EARN A RT FOR S3",
-                    "helpImprove": "Help us improving The Sandbox by sending your feedback. Complete the survey now and get extra Raffle Tickets for Alpha Season 3!",
-                    "take": "Take the survey",
+                    "hasJustEnded": "알파 시즌 2 종료",
+                    "welcomeOpen": "오픈 메타버스에 오신 것을 환영합니다",
+                    "thanks": "알파 시즌 2에 참여해 주셔서 감사합니다!",
+                    "canClaim": "시즌 2 알파 패스 당첨자는 리워드를 수령할 수 있습니다.",
+                    "claim": "리워드 수령하기",
+                    "reachedLevel": "레벨 5를 달성했다면 향후 모든 시즌에 대한 리워드를 제공하는 알파 시즌 2 기념품이 주어집니다.",
+                    "notNFT": "기념품은 NFT가 아닙니다.",
+                    "gotIt": "축하합니다. 기념품을 획득했습니다!",
+                    "goSeeIt": "확인하기",
+                    "completeSurvey": "설문조사 참여",
+                    "earnRT": "시즌 3 추첨 티켓 획득하기",
+                    "helpImprove": "더 나은 메타버스 세상을 위해 여러분의 목소리를 들려주세요. 설문조사를 완료하여 알파 시즌 3의 추첨 티켓을 획득하세요!",
+                    "take": "설문조사 참여하기",
                     "enterAlphaLobby": "Enter Alpha Lobby",
                     "didNotWinMemorabilia": "You didn't win the memorabilia"
                 },
@@ -861,7 +861,7 @@
                     "description3": "- 알파 패스와 리워드를 받으려면 가스 수수료를 지불하기 위해 소량의 ETH가 필요합니다.",
                     "requirements": {
                         "title": "더 샌드박스 알파 게임 클라이언트 최소 사양",
-                        "1": "SO: Windows 10 64비트:",
+                        "1": "OS: Windows 10 64비트",
                         "2": "NVIDIA GeForce GTX 760 이상",
                         "3": "i5-8400 이상(AVX 지원 필요)",
                         "4": "RAM: 8,192Mb 이상"
@@ -883,7 +883,7 @@
                     "description10": "아니요. 종료일 후에는 플레이할 수 없습니다. 3월 31일에 알파 시즌 2의 모든 경험이 닫힙니다. 단, 시즌 2 알파 패스 소유자를 위한 한 개의 경험은 종료일로부터 24시간 동안 열려 있습니다. 자세한 정보는 아래를 참고하세요.",
                     "description11": "추첨을 통해 시즌 2 알파 패스 당첨자가 선정되면 24시간 동안 알파 시즌 2의 마지막 경험이 공개됩니다. 이 경험은 공개 시점에 시즌 2 알파 패스를 보유한 사람만 이용할 수 있습니다. 바로 시즌 2 VIP 파티입니다!",
                     "description12": "다른 플레이어가 게임 메이커 갤러리 내에서 내가 만든 게임을 플레이할 수 있습니다. 그러나 아직 LAND에는 게임을 게시할 수 없습니다. 더 샌드박스는 가까운 시일 내 LAND에 게임을 게시할 수 있도록 열심히 노력하고 있습니다. 알파 게임 잼에 참여하여 향후 시즌에 다른 유저들에게 내 게임을 뽐낼 기회를 잡아보세요.",
-                    "description13": "Chat commands are as follow:",
+                    "description13": "채팅 명령으로는 아래가 있습니다.",
                     "description14": "레벨 5를 달성한 모든 플레이어는 해당 시즌의 기념품 (NFT 아님)을 획득할 수 있으며, 이를 통해 이후 모든 시즌에 추가 리워드가 주어집니다. 곧 자세한 내용을 공유드리겠습니다.",
                     "description15": "조금만 기다려 주세요. 블록체인 상 대기 시간이 발생하여 아바타 (도기)를 구매하고 아바타 크리에이터 창에 나타나기까지 조금 시간이 걸릴 수 있습니다.",
                     "description16": "를 입력합니다. 예를 들어",
@@ -1013,7 +1013,7 @@
                     "text1": "어떻게 내 지갑을 안전하게 지킬 수 있나요?",
                     "description1": "호시탐탐 내 토큰과 NFT를 노리는 악역들이 넘쳐납니다. 그러니 정말 조심해야 하죠! 아래의 권장사항은 언제나 명심하시기 바랍니다.",
                     "bulletPoints": {
-                        "0": "Never share your seed phrase with anyone",
+                        "0": "절대로 타인에게 시드 문구를 공유하지 마세요.",
                         "1": "시드 문구를 안전한 곳에 보관하세요.",
                         "2": "지갑과 해당 지갑에 연결된 계정에는 모두 강력한 패스워드를 설정하세요.",
                         "3": "강력한 마스터 패스워드를 사용하는 패스워드 매니저를 이용하세요.",
@@ -1150,7 +1150,7 @@
                 },
                 "warning": {
                     "1": "2022년 3월 31일 알파 시즌 2 종료 후에는 알파 패스를 구매하지 마세요.",
-                    "2": "Be careful not to purchase a fake Season 2 Alpha Pass.",
+                    "2": "가짜 시즌 2 알파 패스를 구매하지 않도록 주의하세요.",
                     "link": "OpenSea에서 구매하기"
                 }
             },
@@ -1446,15 +1446,15 @@
         "onSale": "판매 중",
         "title": "NFT 마켓플레이스에 오신 것을 환영합니다",
         "subtitle": "여기에서 크리에이터의 애셋을 검색하고 SAND로 구매하여 내 LAND에서 사용할 수 있습니다.",
-        "welcomeTo": "NFT 컬렉션에 오신 것을",
-        "nftCollections": "환영합니다",
+        "welcomeTo": "환영합니다",
+        "nftCollections": "NFT 컬렉션",
         "fluid": "유동성",
         "transparency": "투명성",
         "search": "검색",
         "attributesTitle": "능력치",
         "noCopies": "현재 구매할 수 있는 사본이 없습니다",
         "collections": {
-            "title": "환영합니다",
+            "title": "NFT 컬렉션",
             "sandbox": "더 샌드박스",
             "featured": "추천"
         },
@@ -1467,8 +1467,8 @@
             "wearable": "웨어러블",
             "art": "아트",
             "avatar": "스킨",
-            "block": "Block",
-            "bodypart": "Bodypart",
+            "block": "블록",
+            "bodypart": "신체 부위",
             "and": "&"
         },
         "rarities": {
@@ -1809,25 +1809,25 @@
                 "minimum": {
                     "title": "최소 요구 사항",
                     "text": {
-                        "bits": "64비트 프로세서와 운영 체제가 필요함",
+                        "bits": "64비트 프로세서 및 운영 체제가 필요",
                         "os": "운영 체제: Windows 7",
                         "cpu": "프로세서: 듀얼 코어 2GHz",
                         "ram": "메모리: 4GB RAM",
                         "gpu": "그래픽: 512MB VRAM",
                         "directx": "DirectX: 버전 11",
-                        "storage": "스토리지: 여유 공간 2GB"
+                        "storage": "필요 여유 공간: 2GB"
                     }
                 },
                 "recommended": {
                     "title": "권장 요구 사항",
                     "text": {
-                        "bits": "64비트 프로세서와 운영 체제가 필요함",
+                        "bits": "64비트 프로세서 및 운영 체제가 필요",
                         "os": "운영 체제: Windows 10",
                         "cpu": "프로세서: 쿼드 코어 3GHz",
                         "ram": "메모리: 8GB RAM",
                         "gpu": "그래픽: 2GB VRAM",
                         "directx": "DirectX: 버전 11",
-                        "storage": "스토리지: 여유 공간 2GB"
+                        "storage": "필요 여유 공간: 2GB"
                     }
                 }
             },
@@ -1900,18 +1900,18 @@
                 "title": "복셀 아티스트의 후기",
                 "cards": {
                     "0": {
-                        "text": "복스에딧에는 진짜 감탄했어요. 모델링 에디터와 애니메이션 시스템이 하나의 소프트웨어에 다 들어 있거든요.",
+                        "text": "\"복스에딧은 정말 놀라운 툴이에요. 하나의 소프트웨어에서 모델링 에디터와 애니메이션 시스템을 모두 활용할 수 있거든요.\"",
                         "job": "프로 복셀 아티스트",
-                        "author": "윌리엄 산타크루스(William Santacruz)"
+                        "author": "윌리엄 산타크루즈 (William Santacruz)"
                     },
                     "1": {
-                        "text": "복스에딧은 애니메이션을 만들려는 복셀 아티스트에게 획기적인 툴이에요. 스켈레턴 조작과 타임라인 애니메이션 기능이 있는 복셀 편집 전용 도구이니까요.",
+                        "text": "\"복스에딧은 애니메이션을 제작하려는 복셀 아티스트에게 아주 획기적인 툴이죠. 스켈레톤 리깅과 타임라인 애니메이션 기능을 제공하는 유일한 복셀 편집 전용 툴이니까요.\"",
                         "job": "프로 복셀 아티스트",
-                        "author": "알렉스 플로레스(Alex Florez)"
+                        "author": "알렉스 플로레즈 (Alex Florez)"
                     },
                     "2": {
-                        "text": "“복셀 아트로 애니메이션을 만들기 가장 쉬우 툴입니다. 초보자들도 쉽게 사용할 수 있도록 심플하고 사용하기 쉬운 인터페이스를 제공합니다.”",
-                        "job": "윌리엄 산타크루즈 - 프로 복셀 아티스트",
+                        "text": "“복스에딧은 복셀 아트로 애니메이션을 만들 수 있는 가장 쉬운 툴입니다. 아주 심플한 인터페이스 덕에 초보자도 쉽게 사용할 수 있죠.”",
+                        "job": "프로 복셀 아티스트",
                         "author": "Nicolas Morrone"
                     }
                 }
@@ -2160,7 +2160,7 @@
                     "title": "로그인하거나 계정을 만드세요",
                     "description": "로그인하려면 암호화폐 지갑을 연결해야 합니다",
                     "wallet": "암호화폐 지갑이란?",
-                    "whatsAWallet": "A crypto-wallet is the place where you can safely store all your cryptocurrencies and digital game ASSETS. No funds are required in the wallet to create an account. FREE to sign-up.",
+                    "whatsAWallet": "암호화폐 지갑이란 모든 암호화폐와 디지털 게임 애셋을 안전하게 저장할 수 있는 공간입니다. 지갑에 자금이 없어도 계정을 만들 수 있습니다. 가입은 무료입니다.",
                     "continue": "다음으로 계속",
                     "agree": "계정을 만들고 암호화폐 지갑을 계정에 연결하면 더 샌드박스의",
                     "terms": "이용 약관에 동의하는 것으로 간주합니다.",
@@ -2306,9 +2306,9 @@
                 }
             },
             "section6": {
-                "title": "What are you waiting for?",
+                "title": "지금 바로 시작하세요!",
                 "description": "개성 넘치는 나만의 아바타를 만들어 더 샌드박스 커뮤니티에 합류하세요.",
-                "buttonText": "Create Avatar",
+                "buttonText": "아바타 만들기",
                 "part1": {
                     "title1": "복스에딧으로 맞춤 장비 만들기",
                     "description1": "장비는 거래할 수 있는 토큰이며 다른 애셋과 마찬가지로 카탈리스트와 젬을 추가할 수 있습니다. 또한 복스에딧을 이용해 장비를 직접 만들어 민팅하는 것도 가능합니다.",
@@ -2371,7 +2371,7 @@
                     }
                 },
                 "section6": {
-                    "title": "망설이지 마세요",
+                    "title": "지금 바로 시작하세요!",
                     "description": "개성 넘치는 나만의 아바타를 만들어 더 샌드박스 커뮤니티에 합류하세요.",
                     "buttonText": "지금 아바타 만들기"
                 }
@@ -2490,11 +2490,11 @@
         },
         "presales": {
             "metaverse": "메타버스",
-            "pororo": "뽀로로",
-            "twd1": "워킹 데드(1)",
-            "twd2": "워킹 데드(2)",
-            "twd3": "워킹 데드(3)",
-            "twd4": "워킹 데드(4)",
+            "pororo": "PORORO",
+            "twd1": "THE WALKING DEAD (1)",
+            "twd2": "THE WALKING DEAD (2)",
+            "twd3": "THE WALKING DEAD (3)",
+            "twd4": "THE WALKING DEAD (4)",
             "summer_jam1": "SUMMER JAM(1)",
             "summer_jam2": "SUMMER JAM(2)",
             "summer_jam3": "SUMMER JAM(3)",
@@ -2507,14 +2507,14 @@
             "the_smurfs": "THE SMURFS",
             "care_bears": "Care Bears",
             "binance": "Binance",
-            "moon": "달",
+            "moon": "MOON",
             "atari": "ATARI",
-            "hub2": "The Hub(파트 2)",
-            "hub1": "The Hub(파트 1)",
+            "hub2": "THE HUB (Part 2)",
+            "hub1": "THE HUB (Part 1)",
             "quan": "QUAN",
             "megacities2": "Mega Cities (2)",
             "megacities1": "Mega Cities (1)",
-            "snoopDogg1": "스눕 독 (1)",
+            "snoopDogg1": "SNOOP DOGG",
             "steveAoki": "STEVE AOKI",
             "warnermusic": "Warner Music",
             "gucci": "Gucci",
@@ -2619,11 +2619,11 @@
             "text1": "메타버스는 누구에게나 열려 있습니다. 맵에서 경험을 선택한 후 플레이를 클릭하세요!",
             "text2": "트위터, 트위치, 유튜브의 공식 소셜 미디어 채널에서 진행되는 일일 소셜 콘테스트에 참여해 알파 패스를 획득할 수 있습니다.",
             "text3": "알파는 3월 31일까지 진행됩니다.",
-            "text4": "이번 알파는 공개 알파로 진행됩니다. 여러분의 피드백은 더 나은 메타버스를 위한 첫 발걸음입니다.",
+            "text4": "이번 알파는 오픈 알파로 진행됩니다. 여러분의 피드백은 더 나은 메타버스를 위한 첫 발걸음입니다.",
             "text5": "알파 내 경험은 모두 복스에딧과 게임 메이커로 제작되었습니다. 나만의 경험을 제작해 보세요!",
-            "text6": "The Alpha will be open until December 20",
-            "text7": "This is an open Alpha, please share your feedback and help us improving the Metaverse",
-            "text8": "All the experiences at the Alpha were built using VoxEdit and Game Maker. You can build our own experience!"
+            "text6": "알파는 12월 20일까지 진행됩니다.",
+            "text7": "이번 알파는 오픈 알파로 진행됩니다. 여러분의 피드백은 더 나은 메타버스를 위한 첫 발걸음입니다.",
+            "text8": "알파 내 경험은 모두 복스에딧과 게임 메이커로 제작되었습니다. 나만의 경험을 제작해 보세요!"
         },
         "transfer": {
             "transferExperience": "경험 이전하기",
@@ -2724,7 +2724,7 @@
         "sand": {
             "meta": {
                 "title": "더 샌드박스 | SAND 토큰",
-                "description": "SAND는 더 샌드박스 생태계 전반의 거래와 상호작용에서 기본으로 사용하는 유틸리티 토큰입니다. ERC-20 유틸리티 토큰으로, 이더리움 블록체인에서 만들어졌습니다. 공급량은 30억 SAND로, 유한합니다. ",
+                "description": "SAND는 더 샌드박스 생태계 전반의 거래와 상호작용에서 기본으로 사용하는 유틸리티 토큰입니다. ERC-20 유틸리티 토큰으로, 이더리움 블록체인에서 만들어졌습니다. 공급량은 30억 SAND로, 유한합니다.",
                 "keywords": "샌드박스, 복셀 아트, 3D 복셀 게임, 복셀 아티스트, 3D 온라인 PC 게임, 커뮤니티, 블록체인 dapp, PC 복셀 게임, PC 복셀 아트, 탈중앙화 게임, SAND, 토큰",
                 "og": {
                     "title": "더 샌드박스 | SAND 소개",
@@ -2735,7 +2735,7 @@
                 },
                 "twitter": {
                     "title": "더 샌드박스 | SAND 소개",
-                    "description": "SAND는 더 샌드박스 생태계 전반의 거래와 상호작용에서 기본으로 사용하는 유틸리티 토큰입니다. ERC-20 유틸리티 토큰으로, 이더리움 블록체인에서 만들어졌습니다. 공급량은 30억 SAND로, 유한합니다. ",
+                    "description": "SAND는 더 샌드박스 생태계 전반의 거래와 상호작용에서 기본으로 사용하는 유틸리티 토큰입니다. ERC-20 유틸리티 토큰으로, 이더리움 블록체인에서 만들어졌습니다. 공급량은 30억 SAND로, 유한합니다.",
                     "card": "플레이어들이 만들어 가는 탈중앙화된 게임 플랫폼",
                     "site": "@thesandboxgame",
                     "creator": "@thesandboxgame",
@@ -2997,7 +2997,7 @@
                 "referred": "추천함"
             },
             "earning": "총 수익금",
-            "learnMoreButtonText": "추천에 관해 더 알아보기",
+            "learnMoreButtonText": "추천 자세히 알아보기",
             "createAvatarButtonText": "아바타 만들기",
             "editAvatarButtonText": "아바타 만들기",
             "yourAccount": "내 계정",
@@ -3017,8 +3017,8 @@
                 "newPasswordIsRequired": "새로운 비밀번호가 필요합니다.",
                 "newPasswordTooShort": "새로운 비밀번호가 너무 짧습니다.",
                 "passwordDoNotMatch": "비밀번호가 일치하지 않습니다.",
-                "errorAvatarImageSize": "File size to big please use a lighter file",
-                "errorAvatarImageType": "File extension not supported, please use .jpg, .png or .jpeg"
+                "errorAvatarImageSize": "파일 크기 초과입니다. 더 작은 크기의 파일을 사용해 주세요.",
+                "errorAvatarImageType": "지원되는 파일 확장자 형식이 아닙니다. jpg, png, 또는 jpeg 형식을 사용해 주세요."
             },
             "edit": {
                 "editTitle": "프로필 편집",
@@ -3135,11 +3135,11 @@
             "startEndDate": "날짜",
             "price": "가격",
             "viewInMap": "맵에서 보기",
-            "forceTransfer": "Force transfer",
-            "cancel": "Cancel",
-            "confirm": "Confirm",
-            "close": "Close",
-            "failedExperienceTransferAssets": "An asset is used in one or more other experience",
+            "forceTransfer": "트랜스퍼 진행",
+            "cancel": "취소",
+            "confirm": "확인",
+            "close": "닫기",
+            "failedExperienceTransferAssets": "애셋이 하나 이상의 다른 경험에서 사용됩니다.",
             "noResultCard": {
                 "assets": {
                     "title": "애셋 획득하기",
@@ -3221,7 +3221,7 @@
                     }
                 }
             },
-            "title": "목록"
+            "title": "인벤토리"
         },
         "avatar": {
             "empty": "이 목록은 비어 있습니다",
@@ -3345,14 +3345,14 @@
                 "description2": "직접 만들어 보세요"
             },
             "notWhitelisted": {
-                "title": "Ups!",
+                "title": "이런!",
                 "description1": "화이트리스트에 해당 지갑 주소가 포함되어 있지 않습니다!",
                 "description2": "이 섹션에 액세스 권한이 없습니다."
             },
-            "effects": "Disable Effects",
+            "effects": "효과 비활성화",
             "noConnection": {
-                "title": "Ups!",
-                "description1": "You are not connected",
+                "title": "이런!",
+                "description1": "연결되지 않았습니다.",
                 "button": "지갑 연결하기"
             },
             "noResultAvatar": "나만의 아바타를 만들어 보세요!",
@@ -3508,7 +3508,7 @@
                 "submitEmail": "이메일 변경",
                 "websiteUrl": "개인 웹",
                 "generic-error": "하나 이상의 오류가 발생했습니다.",
-                "error": "Invalid Format",
+                "error": "올바르지 않은 형식",
                 "name": "이름",
                 "socialDescription": {
                     "youtube": "유튜브 사용자 ID 입력",
@@ -3550,10 +3550,10 @@
         "claims": {
             "claims": "리워드 수령하기",
             "all": "모든 내역",
-            "unlock": "Unlock Claim",
+            "unlock": "보상 수령 잠금 해제",
             "details": "자세히 보기",
-            "claim": "Claim",
-            "claimed": "Claimed",
+            "claim": "수령하기",
+            "claimed": "수령함",
             "goToAlpha": "알파로 이동",
             "goToTwitter": "트위터",
             "goToDiscord": "디스코드",
@@ -3562,7 +3562,7 @@
         },
         "tag-new": "NEW",
         "tagNew": "NEW",
-        "signinWithEmail": "Sign in with email"
+        "signinWithEmail": "이메일로 로그인"
     },
     "moderator": {
         "title": "운영자",
@@ -3703,7 +3703,7 @@
             "availableSand": "SAND 이용 가능 서비스",
             "buySand": "SAND 구매",
             "howToBuySand": "SAND 구매 방법",
-            "viewEtherscan": "Etherscan에서 보기",
+            "viewEtherscan": "Etherscan에서 확인하기",
             "txHash": "거래 해시:",
             "txSent": "거래 보냄",
             "buyMore": "더 구매하기",
@@ -3754,7 +3754,7 @@
         "seeRewards": "리워드 보기",
         "endingSoon": "알파가 곧 종료됩니다",
         "dontOwnSeasonPass": "알파 패스가 없습니다",
-        "learnMore": "알파에 관해 더 알아보기",
+        "learnMore": "알파 자세히 알아보기",
         "welcome": "환영합니다",
         "earn": "SAND 획득하기",
         "welcomeAlpha": "알파에 오신 것을 환영합니다",
@@ -4008,14 +4008,14 @@
         "updatePwd": "비밀번호를 업데이트하세요",
         "staking": {
             "title": "내 스테이킹",
-            "polyWallet": "POLYGON NETWORK L2",
+            "polyWallet": "폴리곤 네트워크 L2",
             "whyPolygon": "폴리곤을 사용하는 이유",
             "whyPolygonText": "더 샌드박스는 블록체인 거래를 더 빠르고 좋은 성능으로 관리할 방법을 제공하기 위해 폴리곤으로 이전합니다. 이더리움과 폴리곤 간에 전송을 위해 브릿지가 곧 지원됩니다.",
             "whatsBlockchain": "블록체인 브릿지란?",
             "bridgeSand": "SAND 브릿지",
             "bridge": "브릿지",
-            "mainnetL1": "ETHEREUM NETWORK",
-            "mainnetL2": "POLYGON NETWORK",
+            "mainnetL1": "이더리움 네트워크",
+            "mainnetL2": "폴리곤 네트워크",
             "discoverPolygon": "폴리곤 혜택 확인하기",
             "noActivePool": "스테이킹으로 SAND를 획득하세요",
             "bridgeNotAvailable": "폴리곤 브릿지가 현재 지갑을 지원하지 않습니다. Metamask를 사용하시기 바랍니다. Metamask 지갑이 없어도 SAND는 획득할 수 있습니다.",
@@ -4046,7 +4046,7 @@
             "sharein": "공유:",
             "amountreferred": "총 추천 수:",
             "amountearnings": "총 수익금: ",
-            "link": "추천에 관해 더 알아보기 >",
+            "link": "추천 자세히 알아보기 >",
             "details": {
                 "title": "추천 로그",
                 "date": "날짜",
@@ -4060,10 +4060,10 @@
                 "currency": "통화",
                 "profit": "수익금"
             },
-            "etherscan": "Etherscan에서 보기",
+            "etherscan": "Etherscan에서 확인하기",
             "nothing": "받은 커미션이 없습니다.",
             "percentage": "10%",
-            "referral": "Referral",
+            "referral": "추천",
             "fee": "FEE"
         },
         "linkAWallet": "지갑 연결하기",
@@ -4114,7 +4114,7 @@
             "sandDropSubtitle": "받을 수 있는 SAND는",
             "checkYourWallet": "이었습니다. 폴리곤에서 지갑을 확인해 보세요.",
             "success": "LAND를 모두 성공적으로 마이그레이션했습니다.",
-            "gaslessWarningMobile": "This process is gasless. We got you covered.",
+            "gaslessWarningMobile": "가스 수수료 없음",
             "insideProfile": {
                 "title": "신규 LAND 스마트 컨트랙트",
                 "subtitle": "LAND 스마트 컨트랙트를 개선하여 새로운 버전을 배포했습니다.",
@@ -4216,11 +4216,11 @@
             }
         },
         "achievements": {
-            "title": "Achievements",
-            "gotIt": "Congrats, you got it!",
-            "description": "By reaching level 5, you’ve earned Alpha Season 2 Memorabilia, which will grant you ",
-            "description2": "additional rewards for all featured seasons.",
-            "disclaimer": "Please, note that a memorabilia is not a NFT."
+            "title": "달성한 업적",
+            "gotIt": "축하합니다. 기념품을 획득했습니다!",
+            "description": "레벨 5를 달성했다면 알파 시즌 2 기념품이 주어집니다. 이 기념품을 보유하면",
+            "description2": "향후 모든 시즌에 대한 추가 리워드를 획득할 수 있습니다.",
+            "disclaimer": "기념품은 NFT가 아닙니다."
         }
     },
     "search": "검색",
@@ -4406,12 +4406,12 @@
             "link": "최신 소식을 확인해 보세요!"
         },
         "partners": {
-            "title": "파트너",
-            "title2": "COMING SOON",
-            "description": "PARTNERS",
-            "description2": "SEASON 3",
-            "stayTuned": "Stay tuned for the Season 3 date announcement.",
-            "register": "Register for Season 3"
+            "title": "더 샌드박스와 함께하는",
+            "title2": "곧 찾아옵니다",
+            "description": "파트너",
+            "description2": "시즌 3",
+            "stayTuned": "시즌 3 발표일을 기대해 주세요!",
+            "register": "시즌 3 등록하기"
         },
         "modules": {
             "zero": {
@@ -4445,7 +4445,7 @@
         "premiumTooltip": "프리미엄 LAND에는 특별 애셋 세트가 포함됩니다",
         "countdownBuyLand": "여기에서 LAND를 검색하고 SAND로 구매하여 직접 월드를 만들 수 있습니다",
         "discover": "둘러보기",
-        "landNft": "LAND NTF",
+        "landNft": "LAND NFT",
         "findLand": "OpenSea에서 LAND 찾기",
         "onSale": "판매 중",
         "buyLand": "LAND 구매",
@@ -4472,14 +4472,14 @@
         "zepeto": "Zepeto",
         "pranksy": "Pranksy NFT Boxes",
         "deadMau": "Deadmau5",
-        "metaverse": "메타버스",
+        "metaverse": "METAVERSE",
         "summerJam": "Summer Jam",
         "euphoria": "Euphoria",
         "innovators": "Innovators",
         "pranksyMetapurse": "Pranksy & Metapurse",
         "moon": "달",
-        "theHub1": "The Hub(파트 1)",
-        "theHub2": "The Hub(파트 2)",
+        "theHub1": "THE HUB (Part 1)",
+        "theHub2": "THE HUB (Part 2)",
         "sizes": "크기",
         "coordinates": "좌표",
         "wallet": "지갑",
@@ -4527,7 +4527,7 @@
             "descriptionWinner": "행운의 당첨자로 선정되었습니다!",
             "claim": "패스 받기",
             "betterLuck": "아쉽네요…",
-            "learnMore": "알파 시즌 2에 대해 자세히 알아보기",
+            "learnMore": "알파 시즌 2 자세히 알아보기",
             "paragraphLooser": "추첨 당첨자로 선정되지 않았습니다. 다른 플레이어로부터 시즌 2 알파 패스를 구매할 수 있습니다.",
             "descriptionLooser": "알파 패스에 당첨되지 않았습니다",
             "youWon": "알파 패스에 당첨되었습니다!",
@@ -4600,7 +4600,7 @@
                 "title": "알파 등록",
                 "mustLandOwn": "LAND 소유자만 알파 추첨에 등록할 수 있습니다.",
                 "mustLandOwn2": "걱정하지 마세요. 알파는 누구나 이용할 수 있습니다. 단, 알파 패스가 없으면 일부 경험 이용이 제한됩니다.",
-                "learnMore": "알파에 관해 더 알아보기",
+                "learnMore": "알파 자세히 알아보기",
                 "buyLand": "LAND 구매",
                 "subtitle": "알파 패스 당첨 기회를 노려보세요",
                 "mustLandOwn3": "알파 패스가 있으면 알파의 모든 경험을 이용하고",
@@ -4712,7 +4712,7 @@
         "LP": "LP",
         "yourDeposit": "내 예치금 유동 자산",
         "yourRewards": "내 리워드",
-        "deposit": "예치금",
+        "deposit": "예치",
         "findPool": "풀 찾기",
         "landAsset": "LAND<>애셋",
         "liquidity": "유동성 마이닝",
@@ -4769,13 +4769,13 @@
             "earnings-title": "수익금",
             "earnings": "수령이 가능한 누적 수익금입니다.",
             "landMultiplierNotActive": "LAND 계수는 아직 폴리곤 네트워크에서 지원되지 않습니다.",
-            "myScore": "The score you accumulated so far. It unlocks tickets for the raffle (up to 200)",
-            "myScore2": "Currently unlocked : {ticketAmount} tickets",
-            "communityScore": "The score accumulated by the whole community. This will boost Alpha rewards up to 100%",
-            "communityScore2": "Current boost : {boostPercentage}%",
-            "earnScorePoints": "The points you can earn cannot be lost, they will grant you more tickets for the raffle and help the comminity reach its goal.",
-            "projectedScoreTitle": "Projected Score",
-            "projectedScore": "This is the projected community score at the end of the Season with the current amount of mSAND staked."
+            "myScore": "현재까지 누적된 점수입니다. 최대 200개의 추첨 티켓을 획득할 수 있습니다.",
+            "myScore2": "현재 획득한 티켓 수 : {ticketAmount}개",
+            "communityScore": "전체 커뮤니티 누적 점수입니다. 최대 100%까지 알파 리워드가 부스트됩니다.",
+            "communityScore2": "현재 백분율 : {boostPercentage}%",
+            "earnScorePoints": "획득한 점수는 손실되지 않습니다. 해당 점수로 추첨 티켓을 획득하고 커뮤니티 목표 달성에 기여할 수 있습니다.",
+            "projectedScoreTitle": "목표 점수",
+            "projectedScore": "시즌 종료까지 현재 스테이킹된 mSAND 총량으로 계산되는 목표 점수입니다."
         },
         "modalWithdraw": {
             "withdraw": "인출",
@@ -4796,9 +4796,9 @@
             "contract": "계약",
             "fee": "가스 수수료",
             "block": "차단",
-            "stake": "Deposit",
-            "withdraw": "Withdraw",
-            "claim": "Claim"
+            "stake": "예치",
+            "withdraw": "인출",
+            "claim": "수령하기"
         },
         "transactionHistory": {
             "title": "거래 내역",
@@ -4806,7 +4806,7 @@
             "oldTransactions": "지난 트랜잭션 내역 확인하기"
         },
         "walletTab": {
-            "mainnetL1Title": "Ethereum Network",
+            "mainnetL1Title": "이더리움 네트워크",
             "testnetL1Title": "Goerli Network",
             "eth": "ETH",
             "poly": "폴리곤",
@@ -4829,8 +4829,8 @@
                 "why": "MATIC을 사용해야 하는 이유"
             },
             "maticCoin": "MATIC",
-            "mainnetL2Title": "Polygon Network",
-            "testnetL2Title": "Mumbai Network",
+            "mainnetL2Title": "폴리곤 네트워크",
+            "testnetL2Title": "뭄바이 네트워크",
             "lands": "LAND",
             "estate": "이스테이트",
             "estates": "이스테이트"
@@ -4854,9 +4854,9 @@
             }
         },
         "sushiswap": "Sushiswap",
-        "withdrawTitle": "Withdraw",
+        "withdrawTitle": "인출",
         "claimTitle": "수령",
-        "depositTitle": "예치금",
+        "depositTitle": "예치",
         "historyTitle": "거래 내역",
         "pool": "토큰",
         "myPools": "내 풀",
@@ -4867,23 +4867,23 @@
             "footer-text-deposit": "이 트랜잭션은 선택한 수량의 LP 토큰을 예치합니다. 총 예치금이 올라갑니다.",
             "footer-text-claim": "이 트랜잭션은 수익금을 전액 수령하여 지갑으로 전송합니다.",
             "footer-text-withdraw": "이 트랜잭션은 선택한 수량의 LP를 총 예치금에서 인출합니다. 또한 가스 수수료를 절감하기 위해 수익금이 있을 경우 수령합니다.",
-            "onEtherscan": "Etherscan에서 보기",
-            "onPolyscan": "Polygonscan에서 보기",
+            "onEtherscan": "Etherscan에서 확인하기",
+            "onPolyscan": "Polygonscan에서 확인하기",
             "pairAnalytics": "페어 애널리틱스",
             "gasless": "Gasless",
             "free": "Free",
-            "noTxsLeft": "No transactions left",
-            "txsLeft": "transactions left",
+            "noTxsLeft": "남은 트랜잭션이 없습니다.",
+            "txsLeft": "남은 트랜잭션",
             "payGasWith": "Pay gas with:",
-            "estimatedGas": "Estimated gas cost",
-            "polygonNetwork": "Polygon",
+            "estimatedGas": "예상 가스비",
+            "polygonNetwork": "폴리곤",
             "ethereumNetwork": "Ethereum",
             "action-desc-deposit-single": "SAND 획득하기",
             "footer-text-deposit-single": "이 트랜잭션은 선택한 수량의 mSAND를 예치합니다. 총 예치금이 올라갑니다.",
-            "footer-text-claim-single": "This transaction will claim current mSAND rewards to your wallet.",
-            "footer-text-exit": "This transaction will withdraw the selected LP amount from your total deposit. It will also claim any available earnings to save you some gas fee.",
-            "footer-text-withdraw-single": "이 트랜잭션은 mSAND를 총 예치금에서 인출합니다. 또한 가스 수수료를 절감하기 위해 수익금이 있을 경우 수령합니다.",
-            "footer-text-withdraw-exit": "This transaction will withdraw your mSAND from your total deposit. It will also claim any available earnings to save you some gas fee.",
+            "footer-text-claim-single": "이 트랜잭션은 지갑으로 현재 mSAND 리워드를 청구합니다.",
+            "footer-text-exit": "이 트랜잭션은 전체 예치금에서 선택한 LP 금액을 인출합니다. 가스비를 절약하기 위해 가능한 수익금을 수령할 수 있습니다.",
+            "footer-text-withdraw-single": "이 트랜잭션은 총 예치금에서 mSAND를  인출합니다.",
+            "footer-text-withdraw-exit": "이 트랜잭션은 전체 예치금에서 선택한 LP 금액을 인출합니다. 가스비를 절약하기 위해 가능한 수익금을 수령할 수 있습니다.",
             "addMsand": "mSAND 받기",
             "howtoMsand": "mSAND 더 받기"
         },
@@ -4906,7 +4906,7 @@
         },
         "guide-links": {
             "how-to": "스테이킹 방법",
-            "learn-more": "Learn more about staking",
+            "learn-more": "스테이킹 자세히 알아보기",
             "support": "문의하기"
         },
         "dropdownFilter": {
@@ -4928,10 +4928,10 @@
                 "title": "시즌 2",
                 "subtitle": "커뮤니티 부스터 리워드",
                 "text": "$SAND를 스테이킹하여 총 상금 풀을 늘리세요. 스테이킹을 하면 추가로 추첨 티켓이 주어집니다.",
-                "titlePolygon": "Now can stake SAND",
-                "subtitlePolygon": "and enjoy the benefits of staking.",
-                "earnMorePolygon": "Earn more ",
-                "textPolygon": "Stay tuned for more announcements",
+                "titlePolygon": "이제 SAND를 스테이킹하고",
+                "subtitlePolygon": "이득을 누릴 수 있습니다.",
+                "earnMorePolygon": "더 많이 획득하기",
+                "textPolygon": "추가 공지사항이 있을 예정이니 지켜봐 주세요!",
                 "stakePhrase01": "이제",
                 "stakePhrase02": "및",
                 "stakePhrase03": "에서만 스테이킹의 이점을 누릴 수 있습니다.",
@@ -4951,19 +4951,19 @@
                 },
                 "infoStart": "전체 시즌 동안 스테이킹한 각 ",
                 "infoEnd": "마다 1 포인트를 획득합니다.",
-                "pointsInfo1": "You earn points over time for each ",
-                "pointsInfo2": " staked. Points accumulated cannot be lost. ",
-                "pointsInfo3": "staked for 28 days grants {stakingMultiplier} point.",
+                "pointsInfo1": "스테이킹한 각",
+                "pointsInfo2": "마다 점수를 획득합니다. 누적된 점수는 손실되지 않습니다.",
+                "pointsInfo3": "를 28일 간 스테이킹하면 {stakingMultiplier}점을 획득합니다.",
                 "myScore": "내 점수",
-                "earnScorePoints": "Earn Score Points",
-                "cardFirstTitle": "Stake {0} and enjoy the benefits of staking."
+                "earnScorePoints": "점수 획득",
+                "cardFirstTitle": "{0}를 스테이킹하고 이득을 누리세요."
             }
         },
         "network": {
             "polygon": "폴리곤 메인넷",
             "ethereum": "이더리움 메인넷"
         },
-        "exitOnDeprecationLP": "Claim all your earnings and get back all your LP.",
+        "exitOnDeprecationLP": "이자를 모두 수령하고 모든 LP를 회수하세요.",
         "discontinued": "정지됨",
         "refillWarning": "유지보수 문제로 mSAND와 mSAND-MATIC 리워드 지급이 연기될 예정입니다. 곧 원상복귀될 예정이니 인내심을 가지고 조금만 기다려 주세요."
     },
@@ -5157,7 +5157,7 @@
             "meta": {
                 "title": "더 샌드박스 게임 - 스눕독 아바타가 더 샌드박스를 찾아옵니다",
                 "description": "스놉 독 아바타가 더 샌드박스를 찾아옵니다. 친구들과 함께 메타버스를 즐겁게 탐험하며 이 세계에 생명을 불어넣으세요. 지금 아바타를 받고 더 샌드박스에 들어가세요.",
-                "keywords": "인증된 컬렉션으로는 샌드박스, 복셀 아트, 3D 복셀 게임, 복셀 아티스트, 3D 온라인 PC 게임, 커뮤니티, 블록체인 dapp, PC 복셀 게임, PC 복셀 아트, 탈중앙화 게임, SAND, 토큰, 스눕독, 추첨 등이 있습니다.",
+                "keywords": "샌드박스, 복셀 아트, 3D 복셀 게임, 복셀 아티스트, 3D 온라인 PC 게임, 커뮤니티, 블록체인 dapp, PC 복셀 게임, PC 복셀 아트, 탈중앙화 게임, SAND, 토큰, 추첨",
                 "og": {
                     "title": "더 샌드박스 게임 - 더 도기즈가 더 샌드박스를 찾아옵니다",
                     "description": "더 도기즈가 더 샌드박스를 찾아옵니다. 친구들과 함께 메타버스를 즐겁게 탐험하며 이 세계에 생명을 불어넣으세요. 지금 아바타를 받고 더 샌드박스에 들어가세요.",
@@ -5397,27 +5397,27 @@
                 "buttonDescription": "알파 시즌 2가 시작되면 추첨 티켓이 지급됩니다"
             },
             "alpha2Coming": {
-                "title": "ALPHA SEASON 2 COMING SOON",
-                "subtitle": "STAY TUNED!",
+                "title": "알파 시즌 2가 곧 찾아옵니다",
+                "subtitle": "새로운 소식을 놓치지 마세요!",
                 "bulletPoints": {
-                    "1": "Open to everyone to participate and progress through experiences",
-                    "2": "More Alpha Passes available",
-                    "3": "New type of Experiences",
-                    "4": "Even more Play-to-Earn Rewards",
-                    "5": "Some surprises in the metaverse"
+                    "1": "누구나 플레이 가능하며 경험을 통해 레벨업할 수 있습니다.",
+                    "2": "더 많은 알파 패스",
+                    "3": "새로운 형식의 경험들",
+                    "4": "더 많은 플레이 투 언 리워드",
+                    "5": "메타버스에서 마주할 놀라움"
                 },
-                "endText": "and much more based on your feedback! We are listening to you."
+                "endText": "여러분의 피드백에 언제나 귀를 기울이고 있습니다."
             },
             "lookBack": {
-                "title": "알파 시즌 1 돌아보기",
+                "title": "돌아보기",
                 "metrics": {
                     "0": "배포된 SAND",
-                    "1": "배포된 알파 패스",
-                    "2": "배포된 NFT",
-                    "3": "긍정적인 피드백",
-                    "4": "알파 허브 방문자",
-                    "5": "누적 플레이 시간",
-                    "6": "트위터 콘테스트 참가자",
+                    "1": "시즌 2 스테이킹 총량",
+                    "2": "커뮤니티 부스터",
+                    "3": "배포된 알파 패스",
+                    "4": "배포된 NFT",
+                    "5": "콘테스트 참여 인원",
+                    "6": "알파 허브 방문자",
                     "7": "보낸 피드백 메시지"
                 },
                 "subtitle": "알파 시즌 2"
@@ -5444,8 +5444,8 @@
                 }
             },
             "bestMoments": {
-                "title": "알파 시즌 1 최고의 순간들",
-                "title2": "BEST MOMENTS"
+                "title": "알파 시즌 2",
+                "title2": "최고의 순간들"
             },
             "alphaComing": {
                 "title": "알파 시즌 2가 곧 찾아옵니다",
@@ -5453,9 +5453,9 @@
                     "1": "누구나 모든 콘텐츠를 체험할 수 있습니다!",
                     "2": "누구나 게임 플레이만으로 시즌 2 알파 패스를 획득할 수 있습니다.",
                     "3": {
-                        "1": "퀘스트를 최대한 많이 완료해서 패스 획득 확률을 높여 보세요.",
-                        "2": "퀘스트를",
-                        "3": "as you can to increase your chances of winning."
+                        "1": "퀘스트를",
+                        "2": "최대한 많이 완료해서",
+                        "3": "패스 획득 확률을 높여 보세요."
                     },
                     "4": "새로운 경험과 퀘스트를 발견하세요.",
                     "5": "플레이 투 언을 준비하세요!"
@@ -5489,9 +5489,9 @@
                         "title": "플레이 투 언",
                         "body": {
                             "1": "시즌 2 알파 패스 리워드는 최대",
-                            "2": "1,000 $SAND",
-                            "3": "입니다.",
-                            "4": "SAND"
+                            "2": "1,000 $SAND입니다.",
+                            "3": "SAND",
+                            "4": "스테이킹하고 리워드를 늘리세요."
                         }
                     },
                     "2": {
@@ -5657,7 +5657,7 @@
             "descriptionWinner": "시즌 패스에 당첨되었습니다! 지금 받아서 잘 가지고 계시기 바랍니다. 알파가 곧 시작됩니다!",
             "claim": "패스 받기",
             "betterLuck": "다음에는 행운을 빌겠습니다",
-            "learnMore": "시즌에 관해 더 알아보기",
+            "learnMore": "시즌 자세히 알아보기",
             "paragraphLooser": "너무 슬퍼하지 마세요. 더 샌드박스 허브는 계속 이용할 수 있고 소셜 이벤트에 참여하여 리워드를 얻을 수 있습니다.",
             "descriptionLooser": "시즌 패스는 받지 못했지만 행운의 당첨자가 시즌 패스를 판매할지도 모릅니다.",
             "close": "닫기"
@@ -5680,7 +5680,7 @@
             "title": "알파 등록",
             "mustLandOwn": "LAND 소유자만 비공개 알파에 등록할 수 있습니다.",
             "mustLandOwn2": "걱정하지 마세요. 곧 누구나 메타버스를 이용할 수 있게 됩니다.",
-            "learnMore": "알파에 관해 더 알아보기"
+            "learnMore": "알파 자세히 알아보기"
         },
         "uponUs": {
             "buyLand": "LAND 구매",
@@ -5833,14 +5833,14 @@
             },
             "2": {
                 "title": "더 도기즈의 희귀도/등급은 어떤가요?",
-                "paragraph": "Each avatar will unlock unique utility that goes beyond a simple NFT. They will be playable in The Sandbox, and can be used to unlock future mints, and features in the metaverse. In addition, they will be part of the first ever Snoop Dogg music video, happening in The Sandbox.",
+                "paragraph": "각 아바타는 단순 NFT 이상의 고유한 기능을 가지고 있습니다. 더 샌드박스에서 플레이 가능하며 추후 민팅을 해금하거나 메타버스에서 기능을 수행합니다. 이와 더불어 스눕 독과 더 샌드박스가 콜라보레이션하여 만들어질 최초의 뮤직비디오에 출현하게 됩니다.",
                 "paragraphs": {
                     "1": "더 도기즈는 속성에 따라 여러 희귀도 카테고리로 분류됩니다. 하나하나 손수 제작한 다양한 도기즈를 만나 보세요."
                 }
             },
             "3": {
                 "title": "아바타는 어디에서 받을 수 있나요?",
-                "paragraph": "Follow us on @TheSnoopAvatars on Twitter to find out how to get whitelisted and get your hands on an avatar before everyone else.",
+                "paragraph": "트위터에서 @TheSnoopAvatars를 팔로우하여 화이트리스트 등록 방법을 알아보고 누구보다 먼저 아바타를 획득해 보세요.",
                 "paragraphs": {
                     "1": "아바타는 다음 경로에서만 민팅 가능합니다.",
                     "2": "https://sandbox.game/kr/snoopdogg/raffle/mint/"
@@ -5848,7 +5848,7 @@
             },
             "4": {
                 "title": "언제부터 판매가 시작되나요?",
-                "paragraph": "Winners will be informed through our social channels and/or Discords. Keep an eye out for more info.",
+                "paragraph": "디스코드의 소셜 채널을 통해 우승자가 발표됩니다. 새로운 소식을 놓치지 마세요!",
                 "paragraphs": {
                     "1": "2022년 2월 23일 오후 10시(UTC)에 판매가 시작됩니다.",
                     "2": "화이트리스트에 추가된 사용자는 판매 시작 24시간 전부터 액세스할 수 있습니다."
@@ -5965,7 +5965,7 @@
             "title": "더 샌드박스 -",
             "defaultTitle": "미리 보기",
             "description": "더 샌드박스 마켓플레이스는 크리에이터의 애셋을 검색하여 샌드로 구매할 수 있는 NFT 마켓플레이스입니다. 구매한 애셋은 내 LAND에서 사용할 수 있습니다.",
-            "keywords": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token",
+            "keywords": "샌드박스, 복셀 아트, 3D 복셀 게임, 복셀 아티스트, 3D 온라인 PC 게임, 커뮤니티, 블록체인 dapp, PC 복셀 게임, PC 복셀 아트, 탈중앙화 게임, SAND, 토큰",
             "og": {
                 "url": "https://www.sandbox.game/model-viewer/"
             },
@@ -5978,8 +5978,8 @@
     "bridge": {
         "greeting": "Hi",
         "walletBalance": "Your wallet balance",
-        "nftOnEth": "NFT's on Ethereum Mainnet",
-        "nftOnPolygon": "NFT's on Polygon Mainnet",
+        "nftOnEth": "이더리움 메인넷의 NFT",
+        "nftOnPolygon": "폴리곤 메인넷 NFT",
         "banner": {
             "title": "폴리곤 브릿지",
             "subtitleDeposit1": ": 애셋을 폴리곤으로 트랜스퍼하고",
@@ -6011,76 +6011,76 @@
             "amountEnter": "수량 입력",
             "view": "Etherscan에서 확인하기",
             "failure": {
-                "title": "Transfer failed",
-                "footerTitle": "The transaction has failed",
-                "footerText1": "Something has happened that the transaction has not been succesfull. Try again later.",
-                "button": "Make a new deposit"
+                "title": "트랜스퍼 실패",
+                "footerTitle": "트랜잭션이 실패했습니다.",
+                "footerText1": "오류가 발생하여 트랜잭션에 실패했습니다. 잠시 후 다시 시도해 주세요.",
+                "button": "신규 예치하기"
             },
             "toPolygon": {
                 "step1": {
-                    "title": "Convert to Polygon SAND",
-                    "subTitle": "Deposit SAND from Ethereum into Polygon",
-                    "footerText1": "Remember, any transaction that moves assets within, to, or from the Ethereum blockchain will incur gas fees.",
-                    "footerText2": "Only transactions conducted exclusively on Polygon are gas cheaper.",
-                    "button": "Start Deposit"
+                    "title": "폴리곤 SAND로 전환",
+                    "subTitle": "이더리움에서 폴리곤으로 SAND 예치하기",
+                    "footerText1": "이더리움 블록체인 내에서 또는 이더리움 블록체인에서 애셋을 이동하는 모든 트랜잭션에는 가스비가 발생합니다.",
+                    "footerText2": "폴리곤 레이어의 트랜잭션에서만 더 저렴한 가스비가 적용됩니다.",
+                    "button": "예치 시작하기"
                 },
                 "step2": {
-                    "title": "Confirm Transfer",
-                    "subTitle": "Please review your transaction",
-                    "footerTitle": "Estimated transaction fee",
-                    "gasGuessEth": "Deposit Complete",
+                    "title": "트랜스퍼 확인",
+                    "subTitle": "트랜잭션을 확인해 주세요.",
+                    "footerTitle": "예상 트랜잭션 요금",
+                    "gasGuessEth": "예치 완료",
                     "button": "계속"
                 },
                 "step3": {
                     "step103": "STEP 1/3",
-                    "title": "Transfer in progress",
-                    "footerTitle": "Transaction in progress",
-                    "footerText1": "Etherum transaction can take longer time to complete based upon network congestion. Please wait or increase the gas price of the transaction."
+                    "title": "트랜스퍼 진행 중",
+                    "footerTitle": "트랜잭션 진행 중",
+                    "footerText1": "이더리움 트랜잭션은 네트워크 혼잡도에 따라 시간이 더 오래 소요될 수 있습니다. 기다리거나 가스비를 올려 보세요."
                 },
                 "step4": {
                     "step203": "STEP 2/3",
-                    "title": "Transfer en route",
-                    "footerTitle": "Your transaction is almost there",
-                    "footerText1": "Your transfer is en-route. It will take 7 - 8 minutes for the deposit to get completed. On completion, your balance will be uploaded"
+                    "title": "트랜스퍼 진행 중",
+                    "footerTitle": "트랜잭션이 거의 완료되었습니다.",
+                    "footerText1": "트랜스퍼가 진행 중입니다. 완료까지 7~8분 정도 소요됩니다. 완료되면 잔고가 업데이트됩니다."
                 },
                 "step5": {
                     "step303": "STEP 3/3",
-                    "title": "Transfer completed",
-                    "footerTitle": "Transfer completed successfully",
-                    "footerText1": "Your transfer is completed successfully",
-                    "button": "Back to Wallet"
+                    "title": "트랜스퍼 완료",
+                    "footerTitle": "트랜스퍼가 성공적으로 완료되었습니다.",
+                    "footerText1": "트랜스퍼가 성공적으로 완료되었습니다.",
+                    "button": "지갑으로 돌아가기"
                 }
             },
             "toEthereum": {
                 "step1": {
-                    "title": "Convert to Ethereum SAND",
-                    "subTitle": "Withdraw SAND from Polygon into Ethereum",
-                    "button": "Start Withdrawal"
+                    "title": "이더리움 SAND로 전환",
+                    "subTitle": "폴리곤에서 이더리움으로 SAND 인출하기",
+                    "button": "인출 시작하기"
                 },
                 "step2": {
-                    "title": "Confirm Transfer",
-                    "footerTitle": "Withdraw process for PoS consists of two transactions",
-                    "footerText1": "Estimation of total gas required for those transactions",
-                    "gasGuessPol": "Withdraw initialized",
-                    "gasGuessEth": "Withdraw Complete"
+                    "title": "트랜스퍼 확인",
+                    "footerTitle": "PoS 인출에는 두 가지 트랜잭션을 포함합니다.",
+                    "footerText1": "트랜잭션 예상 가스비",
+                    "gasGuessPol": "인출 시작",
+                    "gasGuessEth": "인출 완료"
                 },
                 "step3": {
-                    "footerTitle": "Waiting for checkpoint",
-                    "footerText1": "Please wait until Matic checkpoint arrive with your previous transaction. Checkpoint takes 45 mins to 3 hour. In case of any issue please reach our support"
+                    "footerTitle": "체크포인트 대기 중",
+                    "footerText1": "이전 트랜잭션과 함께 매틱 체크포인트 도착까지 기다려 주십시오. 체크포인트는 45분에서 3시간 정도 소요됩니다. 문제가 발생할 경우 지원팀에 문의해 주세요."
                 },
                 "step4": {
-                    "footerTitle": "Checkpoint arrived",
-                    "footerText1": "Your transaction is checkpinted on Etherum network.",
-                    "footerText2": "You need for confirm one more transaction to get your found in your Etherum account."
+                    "footerTitle": "체크포인트 도착",
+                    "footerText1": "트랜잭션이 이더리움 네트워크에서 체크포인트됩니다.",
+                    "footerText2": "이더리움 계정에서 찾을 수 있도록 트랜잭션을 한 번 더 확인해야 합니다."
                 },
                 "step5": {
-                    "title": "Withdrawn initiated"
+                    "title": "인출 시작"
                 },
                 "step6": {
-                    "title": "Transfer completed"
+                    "title": "트랜스퍼 완료"
                 }
             },
-            "noTransactions": "There are no transactions to display",
+            "noTransactions": "표시할 트랜잭션이 없습니다.",
             "viewEth": "Etherscan에서 확인하기",
             "viewPol": "Polygonscan에서 확인하기",
             "back": "브릿지로 돌아가기",
@@ -6194,8 +6194,8 @@
         },
         "buySand": "SAND 구매",
         "buymSand": "mSAND 구매",
-        "confirmDeposit": "Confirm Deposit",
-        "confirmWithdraw": "Confirm Withdraw",
+        "confirmDeposit": "예치 확인하기",
+        "confirmWithdraw": "인출 확인하기",
         "noTransactions": "표시할 트랜잭션이 없습니다.",
         "pending": "보류 중"
     },
@@ -6212,125 +6212,125 @@
         "2012": {
             "date": "2012",
             "month": "5월",
-            "title": "IOS에서 더 샌드박스 프랜차이즈 출시",
-            "text": "더 샌드박스 2012년 최고의 게임으로 애플에 의해 선정"
+            "title": "iOS에서 더 샌드박스 프랜차이즈 출시",
+            "text": "2012 앱스토어 최고의 게임으로 선정"
         },
         "2013": {
             "date": "2013",
             "month": "2월",
-            "title": "안드로이드 버전 샌드박스 게임 출시(최초 타이틀)",
+            "title": "안드로이드 버전 더 샌드박스 출시 (최초 타이틀)",
             "text": ""
         },
         "2014": {
             "date": "2014",
             "month": "",
-            "title": "1천만 다운로드 수 초과달성",
-            "text": "더 샌드박스의 스팀 버전 출시. 스카이바운드 - 더 인빈서블과 파트너십. 더 샌드박스 교육 버전 출시"
+            "title": "더 샌드박스 다운로드 수 1,000만 돌파",
+            "text": "더 샌드박스 스팀 버전 출시. 스카이바운드 (Skybound) - 인빈서블 (The Invincible)과 파트너쉽 체결. 더 샌드박스 교육 버전 출시"
         },
         "2015": {
             "date": "2015",
             "month": "",
-            "title": "GDC 컨퍼런스에서 더 샌드박스 에볼루션 발표 (2차 타이틀)",
-            "text": "더 샌드박스 1천6백만 다운로드 초과달성"
+            "title": "게임 개발자 컨퍼런스 (Game Developers Conference, GDC)에서 더 샌드박스 에볼루션 발표 (2차 타이틀)",
+            "text": "더 샌드박스 다운로드 수 1,600만 돌파"
         },
         "2016": {
             "date": "2016",
             "month": "",
-            "title": "더 샌드박스 에볼루션 IOS, 안드로이드, 및 스팀에서 출시",
-            "text": "소니 - 고스트버스터즈와 파트너십"
+            "title": "더 샌드박스 에볼루션, iOS, 안드로이드 및 스팀에 출시",
+            "text": "소니 (Sony) - 고스트 버스터즈 (Ghostbusters)와 파트너쉽 체결"
         },
         "2017": {
             "date": "2017",
             "month": "",
-            "title": "더 샌드박스 에볼루션 2개의 거대 파트너쉽 체결",
-            "text": "반다이 남코 PAC-MAN 게임 더 샌드박스에 추가. DreamWorks 슈렉 추가. 스팀에서 더 샌드박스 에볼루션 무료 다운로드 시작"
+            "title": "더 샌드박스 에볼루션, 2개의 거대 파트너쉽 체결",
+            "text": "반다이 남코 (Bandai Namco)의 팩맨 (PAC-MAN), 드림웍스 (DreamWorks)의 슈렉 (Shrek) 게임에 추가. 스팀에서 더 샌드박스 에볼루션 무료 다운로드 시작"
         },
         "2018": {
             "1": {
-                "date": "2018",
+                "date": "2017",
                 "month": "4 월",
-                "title": "더 샌드박스 4천만 다운로드 초과달성 및 7천만 유저 컨텐츠 생성",
-                "text": "페이스북 팔로워 750,000명 초과달성"
+                "title": "더 샌드박스 다운로드 수 4,000만 돌파 및 7,000만 유저 제작 콘텐츠 생성",
+                "text": "더 샌드박스 페이스북 팔로워 수 75만 명 돌파"
             },
             "2": {
                 "date": "2018",
                 "month": "5월",
-                "title": "포켓 게이머 컨퍼런스에서 블록체인 기반의 더 샌드박스 3D 버전 발표",
+                "title": "포켓 케이머 커넥트 (Pocket Gamer Connect, PGC) 컨퍼런스에서 블록체인 기반의 더 샌드박스 3D 프로젝트 발표",
                 "text": ""
             }
         },
         "2019": {
             "1": {
                 "date": "2019",
-                "month": "9월",
-                "title": "더 샌드박스 대시보드 퍼블릭 출시",
-                "text": "대시보드 퍼블릭 버전 출시. 유저들은 대시보드를 활용해서 자신의 계정을 생성하고 컨텐츠 탐색"
+                "month": "10월",
+                "title": "더 샌드박스 대쉬보드 출시",
+                "text": "대쉬보드 퍼블릭 버전 출시. 유저들은 자신의 계정을 생성해 가입하고 콘텐츠 탐색 가능."
             },
             "2": {
                 "date": "2019",
                 "month": "4분기",
-                "title": "LAND 프리세일 및 VoxEdit 베타 버전 출시",
-                "text": "유저들 LAND 프리세일에 참여. 자신의 애셋을 마켓플레이스와 블록체인에 등록 가능"
+                "title": "LAND 프리세일 및 복스에딧 베타 버전 출시",
+                "text": "유저들은 독점 LAND 프리세일에 참여. 마켓플레이스로 애셋 내보내 블록체인에 등록 가능."
             }
         },
         "2020": {
             "1": {
                 "date": "2020",
-                "month": "Q1",
+                "month": "1분기",
                 "items": {
                     "1": {
-                        "title": "VoxEdit",
-                        "text": "VoxEdit 베타 릴리스 출시"
+                        "title": "복스에딧",
+                        "text": "복스에딧 베타 버전 출시"
                     },
                     "2": {
-                        "title": "LAND 사전 판매",
-                        "text": "라운드 2 및 라운드 3을 시작하여 몇 시간 내에 지도의 5% 및 10%를 판매합니다."
+                        "title": "LAND 프리세일",
+                        "text": "2차와 3차 판매를 통해 맵 상의 LAND 5%, 10% 지분 판매"
                     }
                 }
             },
             "2": {
                 "date": "2020",
-                "month": "Q2",
+                "month": "2분기",
                 "items": {
                     "1": {
-                        "title": "게임 메이커 클로즈드 알파",
-                        "text": "소수의 초기 테스터에게 Game Maker Alpha의 비공개 출시"
+                        "title": "게임 메이커 클로즈 알파",
+                        "text": "일부 테스터에게 게임 메이커 알파 버전 비공개 출시"
                     },
                     "2": {
                         "title": "LAND 문세일",
-                        "text": "5주 동안 6회 LAND 판매"
+                        "text": "5주 동안 6차에 걸쳐 LAND 판매"
                     }
                 }
             },
             "3": {
                 "date": "2020",
-                "month": "Q3",
+                "month": "3분기",
                 "items": {
                     "1": {
-                        "title": "게임 메이커 공개 베타",
-                        "text": "게임 메이커 베타 공개 출시"
+                        "title": "게임 메이커 퍼블릭 베타",
+                        "text": "게임 메이커 베타 버전 출시"
                     },
                     "2": {
-                        "title": "LAND 사전 판매",
-                        "text": "4라운드 오프닝"
+                        "title": "LAND 프리세일",
+                        "text": "4차 공개"
                     },
                     "3": {
-                        "title": "시장",
-                        "text": "SAND 구매, P2P 판매, 보석 및 촉매로 ASSET 주조"
+                        "title": "마켓플레이스",
+                        "text": "SAND 구매, P2P 판매, 젬과 카탈리스트 추가하여 애셋 민팅"
                     }
                 }
             },
             "4": {
                 "date": "2020",
-                "month": "Q4",
+                "month": "4분기",
                 "items": {
                     "1": {
-                        "title": "LAND 공개 판매",
-                        "text": "정기적인 LAND 판매 및 Game Maker 지원"
+                        "title": "LAND 퍼블릭 세일",
+                        "text": "정기 LAND 세일 및 게임 메이커 지원"
                     },
                     "2": {
-                        "title": "VoxEdit ",
-                        "text": "공식 릴리스 1.0"
+                        "title": "복스에딧",
+                        "text": "공식 릴리즈 1.0"
                     }
                 }
             }
@@ -6338,62 +6338,62 @@
         "2021": {
             "1": {
                 "date": "2021",
-                "month": "Q1 & Q2",
+                "month": "1, 2분기",
                 "items": {
                     "1": {
-                        "title": "파트너십",
-                        "text": "새로운 IP 및 프리미엄 NFT 발표 예정"
+                        "title": "파트너쉽",
+                        "text": "신규 IP와 프리미엄 NFT 발표 예정"
                     },
                     "2": {
                         "title": "게임 메이커",
-                        "text": "공식 릴리스 1.0 및 더 많은 게임 패키지 및 동작이 포함된 주요 업데이트"
+                        "text": "공식 릴리즈 1.0 및 더 많은 게임 패키지와 행동을 포함한 주요 업데이트"
                     },
                     "3": {
                         "title": "게임",
-                        "text": "공식 릴리스 1.0 및 주요 업데이트"
+                        "text": "공식 릴리즈 1.0 및 주요 업데이트"
                     },
                     "4": {
-                        "title": "LAND 공개 판매",
-                        "text": "정규 LAND 판매는 계속됩니다."
+                        "title": "LAND 퍼블릭 세일",
+                        "text": "정기 LAND 판매 계속"
                     },
                     "5": {
                         "title": "이벤트",
-                        "text": "큰 보상을 받을 수 있는 추가 시즌"
+                        "text": "대형 리워드를 획득할 수 있는 추가 시즌"
                     },
                     "6": {
                         "title": "SAND",
-                        "text": "수익 창출 및 기타 보상을 위한 스테이킹 메커니즘"
+                        "text": "수익 생성 및 기타 보상을 위한 스테이킹 메커니즘 구축"
                     }
                 }
             },
             "2": {
                 "date": "2021",
-                "month": "Q3",
+                "month": "3분기",
                 "items": {
                     "1": {
-                        "title": "멀티플레이어 시즈 퍼블릭 베타",
+                        "title": "멀티 플레이어 시즌 퍼블릭 알파 출시",
                         "text": ""
                     }
                 }
             },
             "3": {
                 "date": "2021",
-                "month": "Q4",
+                "month": "4분기",
                 "items": {
                     "1": {
-                        "title": "IP기반을 포함한 첫 아바타 컬렉션 론칭",
+                        "title": "IP를 기반으로 한 최초 NFT 아바타 컬렉션 출시",
                         "text": ""
                     },
                     "2": {
-                        "title": "레이어 2의 디파이 스테이킹 메커니즘 소개",
+                        "title": "레이어 2의 디파이 (DeFi) 스테이킹 메커니즘 도입",
                         "text": ""
                     },
                     "3": {
-                        "title": "첫 Play2Earn 시즌 및 익스플로러 시즌 라이브",
+                        "title": "최초 플레이 투 언 및 익스플로러 시즌 출시",
                         "text": ""
                     },
                     "4": {
-                        "title": "마틱 레이어 2 듀얼 체인 솔루션 론칭 및 마켓플레이스 UGC 오프닝",
+                        "title": "매틱 (Matic)에 대한 레이어 2 듀얼 체인 솔루션 출시 및 UGC 마켓플레이스 전체 오픈",
                         "text": ""
                     }
                 }
@@ -6402,44 +6402,44 @@
         "2022": {
             "1": {
                 "date": "2022",
-                "month": "Q1",
+                "month": "1분기",
                 "items": {
                     "1": {
-                        "title": "높은 퀄리티의 경험을 제작한 랜드 오너들에게 단계적 메타버스 공개",
+                        "title": "고품질의 경험을 제작한 LAND 오너에게 메타버스 단계적 개방",
                         "text": ""
                     }
                 }
             },
             "2": {
                 "date": "2022",
-                "month": "Q2",
+                "month": "2분기",
                 "items": {
                     "1": {
-                        "title": "스테이킹과 DAO 론칭 및 SAND, LAND, 아바타 홀더들에게 투표 권한 부여",
+                        "title": "스테이킹을 포함한 DAO 출시 및 SAND, LAND, 아바타 보유자들에게 투표권 부여",
                         "text": ""
                     },
                     "2": {
                         "title": "DAO",
-                        "text": "Sandbox DAO는 게임 플랫폼의 주요 결정에 참여할 수 있습니다."
+                        "text": "플레이어들은 더 샌드박스 DAO를 통해 게임 플랫폼 내 주요 의사 결정에 참여"
                     }
                 }
             },
             "3": {
                 "date": "2022",
-                "month": "Q3",
+                "month": "3분기",
                 "items": {
                     "1": {
-                        "title": "첫 버츄얼 콘서트(스눕독, 데드마우스, 리치 호틴) 및 워킹 데드 게임 출시",
+                        "title": "최초 가상 콘서트 (데드마우스, 리치 호튼) 및 워킹 데드 게임 출시",
                         "text": ""
                     }
                 }
             },
             "4": {
                 "date": "2022",
-                "month": "Q4",
+                "month": "4분기",
                 "items": {
                     "1": {
-                        "title": "모바일 버전 론칭",
+                        "title": "모바일 버전 출시",
                         "text": ""
                     }
                 }
@@ -6449,32 +6449,32 @@
                 "month": "TBD",
                 "items": {
                     "1": {
-                        "title": "Partnerships",
-                        "text": "새로운 IP 및 프리미엄 NFT 발표 예정"
+                        "title": "파트너쉽",
+                        "text": "신규 IP와 프리미엄 NFT 발표 예정"
                     },
                     "2": {
                         "title": "게임 플랫폼",
-                        "text": "1,000개 이상의 게임 사용 가능"
+                        "text": "1,000개 이상의 게임 플레이 가능"
                     },
                     "3": {
-                        "title": "다중 플랫폼",
-                        "text": "콘솔 게임의 가용성"
+                        "title": "멀티 플랫폼",
+                        "text": "콘솔에서 게임 플레이 가능"
                     },
                     "4": {
-                        "title": "LAND 공개 판매",
-                        "text": "정규 LAND 판매는 계속됩니다."
+                        "title": "LAND 퍼블릭 세일",
+                        "text": "정기 LAND 판매 지속"
                     },
                     "5": {
                         "title": "게임 메이커",
-                        "text": "공동 구축 모드 - 친구와 함께 게임 만들기, 프로그래밍 3층을 사용한 사용자 정의 스크립팅 및 더 많은 게임 패키지 및 동작으로 주요 업데이트"
+                        "text": "공동 제작 모드 - 친구와 함께 게임 제작, 3계층 프로그래밍을 통한 커스텀 스크립트 작성 및 더 많은 게임 패키지와 행동을 포함한 주요 업데이트"
                     },
                     "6": {
                         "title": "이벤트",
-                        "text": "큰 보상을 받을 수 있는 추가 시즌"
+                        "text": "대형 리워드를 획득할 수 있는 추가 시즌"
                     },
                     "7": {
-                        "title": "VoxEdit",
-                        "text": "복셀 자산 및 NFT를 더 쉽게 생성할 수 있도록 더 많은 동작으로 주요 업데이트를 획득할 수 있는 큰 보상을 제공하는 추가 시즌"
+                        "title": "복스에딧",
+                        "text": "복셀 에셋과 NFT를 더 쉽게 제작할 수 있는 다양한 행동을 포함한 주요 업데이트"
                     }
                 }
             }
@@ -6486,23 +6486,23 @@
                 "items": {
                     "1": {
                         "title": "게임 플랫폼",
-                        "text": "5,000개 이상의 게임 사용 가능"
+                        "text": "5,000개 이상의 게임 플레이 가능"
                     },
                     "2": {
-                        "title": "파트너십",
-                        "text": "새로운 IP 및 프리미엄 NFT 발표 예정"
+                        "title": "파트너쉽",
+                        "text": "신규 IP와 프리미엄 NFT 발표 예정"
                     },
                     "3": {
                         "title": "게임 메이커",
-                        "text": "더 많은 게임 패키지 및 동작이 추가된 주요 업데이트"
+                        "text": "더 많은 게임 패키지와 행동을 포함한 주요 업데이트"
                     },
                     "4": {
                         "title": "이벤트",
-                        "text": "정규 LAND 판매는 계속됩니다."
+                        "text": "정기 LAND 판매 지속"
                     },
                     "5": {
-                        "title": "VoxEdit",
-                        "text": "제작자에게 최고의 복셀 편집기를 제공하기 위한 지속적인 지원"
+                        "title": "복스에딧",
+                        "text": "크리에이터에게 최고의 복셀 에디터 프로그램을 제공하기 위한 지속적 지원"
                     }
                 }
             }
@@ -6510,199 +6510,199 @@
     },
     "changelog": {
         "2018": {
-            "date": "December 21st, 2018 - v0.3.0 from key",
+            "date": "2018년 12월 21일 - v0.3.0",
             "list": {
                 "0": {
-                    "title": "Added a Linux version"
+                    "title": "리눅스 버전 추가"
                 },
                 "1": {
-                    "title": "Undo with ctrl+z (Win)"
+                    "title": "Ctrl + Z로 실행 취소 (Win)"
                 },
                 "2": {
-                    "title": "Redo with ctrl+y (Win)"
+                    "title": "Ctrl + Y로 재실행 (Win)"
                 },
                 "3": {
-                    "title": "Undo with cmd+z (Mac)"
+                    "title": "Cmd + Z로 실행 취소 (Mac)"
                 },
                 "4": {
-                    "title": "Redo with cmd+y (Mac)"
+                    "title": "Cmd + Y로 재실행 (Mac)"
                 },
                 "5": {
-                    "title": "10 steps for undo/redo"
+                    "title": "실행 취소/재실행을 위한 10단계"
                 },
                 "6": {
-                    "title": "CrashLogs Java embedded in windows"
+                    "title": "윈도우에 크래쉬로그 자바 임베드"
                 },
                 "7": {
-                    "title": "Bug fixing"
+                    "title": "버그 수정"
                 }
             }
         },
         "2019": {
             "0": {
-                "date": "January 25th, 2019 - v0.3.13",
+                "date": "2019년 1월 25일 - v0.3.13",
                 "list": {
                     "0": {
-                        "title": "New canvas size limit, 256 voxels from 128."
+                        "title": "신규 캔버스 사이즈 제한 (128 복셀에서 256 복셀)"
                     },
                     "1": {
-                        "title": "You will be able to export models to obj format."
+                        "title": "OBJ 포맷으로 모델 내보내기 가능"
                     },
                     "2": {
-                        "title": "2 new buttons had been added to the top bar: File & Edit:"
+                        "title": "상단바에 파일, 편집 두 개 버튼 추가"
                     },
                     "3": {
-                        "title": "File: Save, Open, Recent and Export functionalities."
+                        "title": "파일: 저장, 열기, 최근 파일, 내보내기 기능"
                     },
                     "4": {
-                        "title": "Edit: Undo and Redo functionalities."
+                        "title": "편집: 실행 취소, 재실행 기능"
                     },
                     "5": {
-                        "title": "Nice edges button added, which only show the edges of the voxels as a whole instead of block by block."
+                        "title": "멋진 모서리 버튼 추가 (블록 단위 대신 복셀 모서리만 표시)"
                     },
                     "6": {
-                        "title": "Ambient occlusion and SSAO: You will now able to notice a change on the way voxels are rendered."
+                        "title": "앰비언트 오클루전 및 SSAO: 복셀이 렌더링되는 방식의 변경 사항 확인"
                     },
                     "7": {
-                        "title": "Screenshots: You will find a new button on the modeler and rigger to take a Screenshot of your creations."
+                        "title": "스크린샷: 모델러와 리거에 새로운 버튼 추가되어 제작한 애셋의 스크린샷 촬영 가능"
                     },
                     "8": {
-                        "title": "Several Bug Fixing"
+                        "title": "여러 버그 수정"
                     },
                     "9": {
-                        "title": "Performance may be affected by changes in the render(WIP)"
+                        "title": "렌더 (업데이트 진행 중) 변경으로 성능이 저하될 수 있음"
                     }
                 }
             },
             "01": {
-                "date": "March 15th, 2019 - v0.3.14",
+                "date": "2019년 3월 15일 - v0.3.14",
                 "list": {
                     "0": {
-                        "title": "Export to .glTF and .DAE format"
+                        "title": ".glTF 및 .DAE 포맷으로 내보내기"
                     },
                     "1": {
-                        "title": "Copy/Paste Key-frames"
+                        "title": "키프레임 복사/붙여넣기"
                     },
                     "2": {
-                        "title": "Global/Local mode Pivot"
+                        "title": "글로벌/로컬 모드 피벗"
                     },
                     "3": {
-                        "title": "Tool General bug fixing"
+                        "title": "도구 일반 버그 수정"
                     }
                 }
             },
             "1": {
-                "date": "March 29th, 2019 - v0.3.15",
+                "date": "2019년 3월 29일 - v0.3.15",
                 "list": {
                     "0": {
-                        "title": "General bug fixing"
+                        "title": "일반 버그 수정"
                     }
                 }
             },
             "2": {
-                "date": "June 13th, 2019 - v0.12.0",
+                "date": "2019년 6월 13일 - v0.12.0",
                 "list": {
                     "0": {
-                        "title": "Global/Local mode tweaks"
+                        "title": "글로벌/로컬 모드 조정"
                     },
                     "1": {
-                        "title": "Position, Rotate, and Scale inputs"
+                        "title": "위치, 회전 및 스케일 입력"
                     },
                     "2": {
-                        "title": "Voxel Animation Format"
+                        "title": "복셀 애니메이션 포맷"
                     },
                     "3": {
-                        "title": "Voxel Compressed Format"
+                        "title": "복셀 압축 포맷"
                     },
                     "5": {
-                        "title": "Animation Selector"
+                        "title": "애니메이션 셀렉터"
                     },
                     "6": {
-                        "title": "Menu Multiple"
+                        "title": "다중 메뉴"
                     },
                     "7": {
-                        "title": "Keyframes Stretch"
+                        "title": "키프레임 연장"
                     },
                     "8": {
-                        "title": "Import multiple .vox and .vxm"
+                        "title": "다수의 .vox 및 .vxm 파일 불러오기"
                     },
                     "9": {
-                        "title": "Duplicate VXMs from Library"
+                        "title": "라이브러리에서 VXM 복사"
                     },
                     "10": {
-                        "title": "Duplicate nodes of skeleton"
+                        "title": "스켈레톤 노드 복사"
                     },
                     "11": {
-                        "title": "General bug fixing Performance improvement"
+                        "title": "일반 버그 수정 - 성능 개선"
                     }
                 }
             },
             "3": {
-                "date": "July 5th, 2019 - v0.12.6",
+                "date": "2019년 7월 5일 - v0.12.6",
                 "list": {
                     "0": {
-                        "title": "Open .vox directly to the Modeler "
+                        "title": "모델러에서 .vox 파일 바로 열기"
                     },
                     "1": {
-                        "title": "General bug fixing"
+                        "title": "일반 버그 수정"
                     },
                     "2": {
-                        "title": "Performance improvement"
+                        "title": "성능 개선"
                     }
                 }
             },
             "4": {
-                "date": "October 4th, 2019 - v0.3.15",
+                "date": "2019년 10월 4일 - v0.3.15",
                 "list": {
                     "0": {
-                        "title": "Fixed GLTF exportingt"
+                        "title": "GLTF 내보내기 기능 수정"
                     },
                     "1": {
-                        "title": "Fixed OSX issues (various freezes and camera sensitivity)"
+                        "title": "OSX 이슈 수정 (멈춤 현상 및 카메라 민감도)"
                     },
                     "2": {
-                        "title": "Added poly count limit when exporting to the Marketplacet "
+                        "title": "마켓플레이스로 내보낼 때 폴리 카운트 제한 추가"
                     },
                     "3": {
-                        "title": "Added more help tooltipst"
+                        "title": "다양한 도움말 툴팁 추가"
                     },
                     "4": {
-                        "title": "Shortened Editor loading timet"
+                        "title": "에디터 로딩 시간 단축"
                     }
                 }
             },
             "5": {
-                "date": "November 7th, 2019 - Private Beta Release",
+                "date": "2019년 11월 7일 - 프라이빗 베타 릴리즈",
                 "list": {
                     "0": {
-                        "title": "New UI"
+                        "title": "새로운 UI"
                     },
                     "1": {
-                        "title": "Multi Animations"
+                        "title": "다양한 애니메이션"
                     },
                     "2": {
-                        "title": "Multiple Viewports"
+                        "title": "다중 뷰포트"
                     },
                     "3": {
                         "title": "Rig Easy Symmetry Tool"
                     },
                     "4": {
-                        "title": "Flip Model"
+                        "title": "모델 뒤집기"
                     },
                     "5": {
-                        "title": "Freestyle Pen Tool"
+                        "title": "프리스타일 펜 도구"
                     },
                     "6": {
-                        "title": "Inverse Kinematics"
+                        "title": "인버스 키네마틱"
                     },
                     "7": {
-                        "title": "Material Picker"
+                        "title": "물질 선택창"
                     },
                     "8": {
                         "title": "Perspective/Orthographic Camera"
                     },
                     "9": {
-                        "title": "Line Tool"
+                        "title": "라인 도구"
                     },
                     "10": {
                         "title": "Full Rig Ghost in Modeler"
@@ -6712,16 +6712,16 @@
         },
         "2020": {
             "0": {
-                "date": "January 31th, 2020 - Public Beta Release",
+                "date": "2020년 1월 31일 - 퍼블릭 베타 릴리즈",
                 "list": {
                     "0": {
-                        "title": "Templates (Private Version)"
+                        "title": "템플릿 (프라이빗 버전)"
                     },
                     "1": {
-                        "title": "Save Keyboard Shortcut"
+                        "title": "키보드 바로가기 저장"
                     },
                     "2": {
-                        "title": "Dynamic Template Screen"
+                        "title": "다이나믹 템플릿 화면"
                     },
                     "3": {
                         "title": "Focus Camera on Model/Block/Rig/Rig Node"
@@ -6730,34 +6730,34 @@
                         "title": "1/4 Seconds ticks in Seeker"
                     },
                     "5": {
-                        "title": "Select Tool in Modeler"
+                        "title": "모델러 내 선택 도구"
                     },
                     "6": {
-                        "title": "Remove Scale setting in Rigger"
+                        "title": "리거에서 스케일 설정 삭제"
                     },
                     "7": {
-                        "title": "UI Polishing"
+                        "title": "UI 조정"
                     },
                     "8": {
-                        "title": "Save shortcut"
+                        "title": "바로가기 저장"
                     },
                     "9": {
-                        "title": "Pan con MIDDLE"
+                        "title": "MMB 패닝"
                     },
                     "10": {
-                        "title": "Create, Paint and Delete with Left Mouse Button"
+                        "title": "마우스 왼쪽 버튼으로 제작, 칠하기, 삭제"
                     },
                     "11": {
-                        "title": "Camera Orbit with Right Mouse Button"
+                        "title": "마우스 오른쪽 버튼으로 카메라 공전"
                     },
                     "12": {
-                        "title": "Camera Pan with Middle Mouse Button"
+                        "title": "마우스 가운데 버튼으로 카메라 패닝"
                     },
                     "13": {
                         "title": "All the Features and Fixes from private will be public now"
                     },
                     "14": {
-                        "title": "Tilemap 3D"
+                        "title": "3D 타일맵"
                     },
                     "15": {
                         "title": "Option to unify palettes for all VXM attached to a VXR"
@@ -6765,13 +6765,13 @@
                 }
             },
             "1": {
-                "date": "March 26th, 2020, Public Beta Release, Update 1",
+                "date": "2020년 3월 26일, 퍼블릭 베타 출시, 1차 업데이트",
                 "list": {
                     "0": {
                         "title": "Tilemap 3D"
                     },
                     "1": {
-                        "title": "Updates notification"
+                        "title": "업데이트 알림"
                     },
                     "2": {
                         "title": "Shortcuts System"
@@ -6782,7 +6782,7 @@
                 }
             },
             "2": {
-                "date": "April 29th, 2020, Public Beta Release, Update 2",
+                "date": "2020년 4월 29일, 퍼블릭 베타 출시, 2차 업데이트",
                 "list": {
                     "0": {
                         "title": "Multi Language"
@@ -6793,10 +6793,10 @@
                 }
             },
             "3": {
-                "date": "August 20th, 2020",
+                "date": "2020년 8월 20일",
                 "list": {
                     "0": {
-                        "title": "Timeline v4"
+                        "title": "타임라인 v4"
                     },
                     "1": {
                         "title": "Animation duration display"
@@ -6831,7 +6831,7 @@
                 }
             },
             "4": {
-                "date": "September 22nd, 2020",
+                "date": "2020년 9월 22일",
                 "list": {
                     "0": {
                         "title": "Light Source Control"
@@ -6861,7 +6861,7 @@
                         "title": "Fixed Material Hex field not validating properly"
                     },
                     "9": {
-                        "title": "Fixed Rigger"
+                        "title": "리거 수정"
                     },
                     "10": {
                         "title": "Contextual Menus now keep whitin the window"
@@ -6869,10 +6869,10 @@
                 }
             },
             "5": {
-                "date": "November 25th, 2020 - Public Beta Release",
+                "date": "2020년 11월 25일 - 퍼블릭 베타 출시",
                 "list": {
                     "0": {
-                        "title": "Features",
+                        "title": "기능",
                         "list": {
                             "0": {
                                 "title": "Large-Medium-Small Palette layouts."
@@ -6907,7 +6907,7 @@
                         }
                     },
                     "1": {
-                        "title": "Bug fixes",
+                        "title": "버그 수정",
                         "list": {
                             "0": {
                                 "title": "Keyboard now works in detached panels."
@@ -7064,7 +7064,7 @@
                         "subtitle": "You can now easily publish your Experience to the Gallery and allow other users to play to the content you created."
                     },
                     "11": {
-                        "title": "Behaviors and Components",
+                        "title": "행동 및 컴포넌트",
                         "subtitle": "Behaviors and Components had their tooltips and parameters updated. They should now be easier to understand."
                     },
                     "12": {
@@ -7079,7 +7079,7 @@
                         }
                     },
                     "13": {
-                        "title": "New Melee Enemy",
+                        "title": "신규 근거리 적",
                         "list": {
                             "0": {
                                 "title": "The Enemy fighter behavior has been automatically replaced by the Melee Enemy behavior."
@@ -7093,7 +7093,7 @@
                         }
                     },
                     "14": {
-                        "title": "Quest Icons",
+                        "title": "퀘스트 아이콘",
                         "subtitle": "As said before, a Quest is split into 4 steps. For 3 of them, a specific Quest Icon is displayed during the Play Mode.",
                         "list": {
                             "0": "Quest can be started: Gold '!' ",
@@ -7102,12 +7102,12 @@
                         }
                     },
                     "15": {
-                        "title": "Inventory & Equipment",
+                        "title": "인벤토리와 장비",
                         "subtitle": "Players will be able to pick up equipment and quest items from experiences and save them in their local inventories. Equip different sets of items to change your character's attributes and become stronger."
                     },
                     "16": {
-                        "title": "Known Issues",
-                        "subtitle": "These are the following known issues for this version of the Game Maker",
+                        "title": "알려진 문제",
+                        "subtitle": "아래는 게임 메이커의 해당 버전에서 알려진 문제입니다.",
                         "litle": {
                             "0": {
                                 "title": "Some equipment types may cause experiences to seldomly crash while resetting them."
@@ -7174,7 +7174,7 @@
                         }
                     },
                     "1": {
-                        "title": "Library Improvements",
+                        "title": "라이브러리 개선 사항",
                         "subtitle": "We’ve reworked the Library internal structure from scratch, in order to make it faster and smoother when loading and utilizing it. You will notice a big improvement from the previous version."
                     },
                     "2": {
@@ -7182,12 +7182,12 @@
                         "subtitle": "We’ve added a new Neutral Lighting preset, in case you don’t want to use any of our current lighting options. We’ve also improved on the already existing presets, eliminating refraction errors on light surfaces as well as correcting color emanation."
                     },
                     "3": {
-                        "title": "Behaviors",
+                        "title": "행동",
                         "subtitle": "We’ve fixed some of the behaviors to make better use of our technical stack. Most of our known issues regarding the behavior system have been successfully addressed."
                     },
                     "4": {
-                        "title": "New Templates",
-                        "subtitle": "We’ve added three new experience templates for you to use and learn more about the Game Maker:",
+                        "title": "신규 템플릿",
+                        "subtitle": "세 가지 신규 경험 템플릿을 추가했습니다. 아래를 통해 업데이트 내역을 자세히 알아보세요.",
                         "list": {
                             "0": "Logic - Behaviours: An experience that lets you test out the different behaviors we have and different ways to use them",
                             "1": "Logic - Victory and Defeat: understand the basics of Victory and Defeat conditions in your game",
@@ -7210,14 +7210,14 @@
                 }
             },
             "001": {
-                "title": "Play Mode Improvements",
+                "title": "플레이 모드 개선 사항",
                 "list": {
                     "0": {
-                        "title": "Mini Map (Compass)",
+                        "title": "미니맵 (콤파스)",
                         "subtitle": "We’ve added a new HUD element into our Play Mode in the form of a Mini Map, now you’ll be able to orientate yourself and be provided with specific experience data. This is a simplified version of our Mini Map, stay tuned to see the finalized version soon."
                     },
                     "1": {
-                        "title": "Gameplay Improvements",
+                        "title": "게임 플레이 개선 사항",
                         "subtitle": "As part of our constant improvements to the Gameplay and Combat system we’ve added the following features:",
                         "list": {
                             "0": {
@@ -7225,11 +7225,11 @@
                                 "subtitle": "The heavy attack will now have a reticle that shows the area of effect of your attack, as you charge it more, it will deal more damage and the area will be bigger."
                             },
                             "1": {
-                                "title": "Stun System:",
+                                "title": "기절 시스템:",
                                 "subtitle": "Heavy Attacks charged up to its limit will now stun all enemies in range when released."
                             },
                             "2": {
-                                "title": "Parry System:",
+                                "title": "막기 시스템:",
                                 "subtitle": "You will be able to parry enemy attacks to reduce the damage you’ve taken. If your timing is right you’ll be able to Perfect Parry them, stunning the enemy in consequence."
                             }
                         }
@@ -7237,38 +7237,38 @@
                 }
             },
             "0": {
-                "date": "April 6th, 2021 - Game Maker 0.6.0",
-                "title": "Game Maker Improvements",
+                "date": "2021년 4월 6일 - 게임 메이커 0.6.0",
+                "title": "게임 메이커 개선 사항",
                 "list": {
                     "0": {
-                        "title": "NFT Images",
+                        "title": "NFT 이미지",
                         "subtitle": "We’ve added the NFT Image component to the Game Maker. Now you’ll be able to add NFT images from Opensea:",
                         "list": {
-                            "0": "Put them on Billboards and Picture frames to create an NFT environment or art Gallery",
-                            "1": "Showcase your owned NFT inside the Sandbox to the players and creators",
+                            "0": "NFT 환경 및 아트 갤러리 조성을 위해 광고판과 사진 프레임에 삽입",
+                            "1": "더 샌드박스에서 내가 보유한 NFT를 다른 플레이어와 크리에이터가 볼 수 있도록 전시",
                             "2": "Use the NFT Inventory feature to be able to see the NFT in Opensea"
                         }
                     },
                     "1": {
-                        "title": "Play Mode Settings",
+                        "title": "플레이 모드 설정",
                         "subtitle": "We’ve added settings to this version of the Game Maker in order to provide a better quality of life for users. In this iteration of the feature you’ll be able to:",
                         "list": {
                             "0": "Change Resolution and Screen Mode",
-                            "1": "Turn Sound on/off",
-                            "2": "Control the Play Camera sensitivity",
+                            "1": "음향 켜기/끄기",
+                            "2": "플레이 모드 카메라 민감도 조정",
                             "3": "View the play mode Control Scheme (We now support AZERTY too)"
                         }
                     },
                     "2": {
-                        "title": "Version Check",
+                        "title": "버전 체크",
                         "subtitle": "Now, everytime a new version of the Game Maker is available, our servers will check against your current installed version and request you to update to the newest version."
                     }
                 }
             },
             "1": {
-                "title": "Game Maker Improvements",
+                "title": "게임 메이커 개선 사항",
                 "list": {
-                    "title": "GM v0.6.2 Hotfixes",
+                    "title": "게임 메이커 v0.6.2 긴급 패치",
                     "list": {
                         "0": {
                             "title": "Fixed assets not fully loading even though they are seen in the experience, if the user switches to play before, they will be lost and several unwanted behaviours occurs. There is now a very small waiting timer before being able to switch to play."
@@ -7292,12 +7292,12 @@
                 }
             },
             "2": {
-                "date": " May 17, 2021 - Game Maker 0.6.5",
-                "title": "Game Maker Improvements",
+                "date": "2021년 5월 17일 - 게임 메이커 0.6.5",
+                "title": "게임 메이커 개선 사항",
                 "list": {
                     "0": {
-                        "title": "Known Issues",
-                        "subtitle": "The following are the known issues for this version:",
+                        "title": "알려진 문제",
+                        "subtitle": "아래는 해당 버전에서 알려진 문제입니다.",
                         "list": {
                             "0": {
                                 "title": "We’ve temporarily disabled the PRESET SYSTEM from the Game Maker due to various issues and crashes happening around its use. All experiences that currently use this feature will still be functional, but the presets won’t be modifiable any further. We’ll be working to get it back up as soon as possible."
@@ -7305,7 +7305,7 @@
                         }
                     },
                     "1": {
-                        "title": "Game Maker Improvements",
+                        "title": "게임 메이커 개선 사항",
                         "list": {
                             "0": {
                                 "title": "Initial Equipment :",
@@ -7316,44 +7316,44 @@
                                 "subtitle": "From now on, we’ll be pre-loading assets into the Game Maker upon installation. This will help substantially with experience loading speeds, both on the Editor and the Gallery."
                             },
                             "2": {
-                                "title": "Version Check :",
+                                "title": "버전 체크:",
                                 "subtitle": "Now, everytime a new version of the Game Maker is available, our servers will check against your current installed version and request you to update to the newest version."
                             }
                         }
                     },
                     "2": {
-                        "title": "Game Maker Improvements",
+                        "title": "게임 메이커 개선 사항",
                         "list": {
                             "0": {
                                 "title": "Transportation Changes :",
                                 "subtitle": "We’re preparing various of our systems for some upcoming new releases. In order to enable new and exciting features regarding how players can move from an experience to another, we’ve made some architecture level changes into our current transportation and waygate system."
                             },
                             "1": {
-                                "title": "Server Templates :",
+                                "title": "서버 템플릿:",
                                 "subtitle": "Previously, our Game Maker Templates were handled locally, now they’ll be held inside our servers so that we can update them in real time with new and exciting content as well as adding new templates without having to release a new Game Maker version."
                             }
                         }
                     },
                     "3": {
-                        "title": "Play Mode Improvements",
+                        "title": "플레이 모드 개선 사항",
                         "list": {
                             "0": {
-                                "title": "Gameplay Improvements :",
+                                "title": "게임 플레이 개선 사항:",
                                 "subtitle": "As part of our constant improvements to the Gameplay and Combat system we’ve added the following features:"
                             }
                         }
                     },
                     "4": {
-                        "title": "Bug Fixes",
+                        "title": "버그 수정",
                         "list": {
                             "0": {
-                                "title": "Fixed various issues that caused random application crashes."
+                                "title": "임의의 응용 프로그램 충돌을 일으키는 다양한 문제 수정"
                             },
                             "1": {
-                                "title": "Fixed various issues that caused the application to become unresponsive"
+                                "title": "응용 프로그램이 응답하지 않는 다양한 문제 수정"
                             },
                             "2": {
-                                "title": "Fixed various issues regarding gameplay"
+                                "title": "게임 플레이와 관련된 다양한 문제 수정"
                             },
                             "3": {
                                 "title": "Fixed various issues regarding Editor Usability"
@@ -7363,11 +7363,11 @@
                 }
             },
             "3": {
-                "date": "September 1, 2021 - Game Maker 0.6.9",
-                "title": "Game Maker Improvements",
+                "date": "2021년 9월 1일 - 게임 메이커 0.6.9",
+                "title": "게임 메이커 개선 사항",
                 "list": {
                     "0": {
-                        "title": "Game Maker Improvements",
+                        "title": "게임 메이커 개선 사항",
                         "list": {
                             "0": {
                                 "title": "NFT Image Self Illumination :",
@@ -7378,22 +7378,22 @@
                                 "subtitle": "Gives the creator the opportunity to let the players inspect the NFTs that have this behaviour added."
                             },
                             "2": {
-                                "title": "Gameplay Improvements :",
+                                "title": "게임 메이커 개선 사항:",
                                 "subtitle": "As part of our constant improvements to the Gameplay and Combat system we’ve added the following features:"
                             }
                         }
                     },
                     "1": {
-                        "title": "Bug Fixes",
+                        "title": "버그 수정",
                         "list": {
                             "0": {
-                                "title": "Fixed various issues that caused random application crashes."
+                                "title": "임의의 응용 프로그램 충돌을 일으키는 다양한 문제 수정"
                             },
                             "1": {
-                                "title": "Fixed various issues that caused the application to become unresponsive"
+                                "title": "응용 프로그램이 응답하지 않는 다양한 문제 수정"
                             },
                             "2": {
-                                "title": "Fixed various issues regarding gameplay"
+                                "title": "게임 플레이와 관련된 다양한 문제 수정"
                             },
                             "3": {
                                 "title": "Fixed various issues regarding Editor Usability"
@@ -7401,8 +7401,8 @@
                         }
                     },
                     "2": {
-                        "title": "Known Issues",
-                        "subtitle": "The following are the known issues for this version:",
+                        "title": "알려진 문제",
+                        "subtitle": "아래는 해당 버전에서 알려진 문제입니다.",
                         "list": {
                             "0": {
                                 "title": "Farmer Behaviour is presenting issues when collecting the selected target asset. In addition to this, the farmer's behaviour does not flee when attacked by a selected hostile tag."
@@ -7412,20 +7412,20 @@
                 }
             },
             "4": {
-                "date": "September 17, 2021 - Game Maker 0.6.10",
-                "title": "Game Maker Improvements",
+                "date": "2021년 9월 17일 - 게임 메이커 0.6.10",
+                "title": "게임 메이커 개선 사항",
                 "list": {
                     "0": {
-                        "title": "Bug Fixes",
+                        "title": "버그 수정",
                         "list": {
                             "0": {
-                                "title": "Fixed various issues that caused random application crashes."
+                                "title": "임의의 응용 프로그램 충돌을 일으키는 다양한 문제 수정"
                             },
                             "1": {
-                                "title": "Fixed various issues that caused the application to become unresponsive"
+                                "title": "응용 프로그램이 응답하지 않는 다양한 문제 수정"
                             },
                             "2": {
-                                "title": "Fixed various issues regarding gameplay"
+                                "title": "게임 플레이와 관련된 다양한 문제 수정"
                             },
                             "3": {
                                 "title": "Fixed various issues regarding Editor Usability"
@@ -7436,10 +7436,10 @@
             },
             "5": {
                 "date": "September 24, 2021 - Game Maker 0.6.11",
-                "title": "Bug Fixing and Enhancements",
+                "title": "버그 수정 및 개선",
                 "list": {
                     "0": {
-                        "title": "Bug Fixes",
+                        "title": "버그 수정",
                         "list": {
                             "0": {
                                 "title": "Fixed library issues that caused application crashes."
@@ -7461,7 +7461,7 @@
             },
             "6": {
                 "date": "October 18, 2021 - Game Maker 0.6.12",
-                "title": "Bug Fixing and Enhancements",
+                "title": "버그 수정 및 개선",
                 "list": {
                     "0": {
                         "title": "Game Maker Improvements",
@@ -7477,16 +7477,16 @@
                         }
                     },
                     "1": {
-                        "title": "Bug Fixes",
+                        "title": "버그 수정",
                         "list": {
                             "0": {
-                                "title": "Fixed various issues that caused random application crashes."
+                                "title": "임의의 응용 프로그램 충돌을 일으키는 다양한 문제 수정"
                             },
                             "1": {
-                                "title": "Fixed various issues that caused the application to become unresponsive."
+                                "title": "응용 프로그램이 응답하지 않는 다양한 문제 수정"
                             },
                             "2": {
-                                "title": "Fixed various issues regarding gameplay."
+                                "title": "게임 플레이와 관련된 다양한 문제 수정"
                             },
                             "3": {
                                 "title": "Fixed various issues regarding Editor Usability."
@@ -7494,8 +7494,8 @@
                         }
                     },
                     "2": {
-                        "title": "Known Issues",
-                        "subtitle": "The following are the known issues for this version:",
+                        "title": "알려진 문제",
+                        "subtitle": "아래는 해당 버전에서 알려진 문제입니다.",
                         "list": {
                             "0": {
                                 "title": "Farmer Behaviour is presenting issues when attacking the selected target asset."
@@ -7508,33 +7508,33 @@
                 }
             },
             "7": {
-                "date": "October 28, 2021 - Game Maker 0.6.13",
-                "title": "Bug Fixing and Enhancements",
+                "date": "2021년 10월 28일 - 게임 메이커 0.6.13",
+                "title": "버그 수정 및 개선",
                 "list": {
                     "0": {
-                        "title": "Game Maker Improvements",
+                        "title": "게임 메이커 개선 사항",
                         "list": {
                             "0": {
-                                "title": "Game Maker Improvements:",
+                                "title": "게임 메이커 개선 사항:",
                                 "subtitle": "Save: now unique IDs are generated for each quest within the experience."
                             },
                             "1": {
-                                "title": "Upgraded Components:",
+                                "title": "컴포넌트 업그레이트:",
                                 "subtitle": "Sound Component: Added Pause and Stop message, and fixed the autoplay feature."
                             }
                         }
                     },
                     "1": {
-                        "title": "Bug Fixes",
+                        "title": "버그 수정",
                         "list": {
                             "0": {
-                                "title": "Fixed various issues that caused random application crashes."
+                                "title": "임의의 응용 프로그램 충돌을 일으키는 다양한 문제 수정"
                             },
                             "1": {
-                                "title": "Fixed various issues that caused the application to become unresponsive."
+                                "title": "응용 프로그램이 응답하지 않는 다양한 문제 수정"
                             },
                             "2": {
-                                "title": "Fixed various issues regarding gameplay."
+                                "title": "게임 플레이와 관련된 다양한 문제 수정"
                             },
                             "3": {
                                 "title": "Fixed various issues regarding Editor Usability."
@@ -7542,8 +7542,8 @@
                         }
                     },
                     "2": {
-                        "title": "Known Issues",
-                        "subtitle": "The following are the known issues for this version:",
+                        "title": "알려진 문제",
+                        "subtitle": "아래는 해당 버전에서 알려진 문제입니다.",
                         "list": {
                             "0": {
                                 "title": "Toggle Behaviour is presenting several issues."
@@ -7553,23 +7553,23 @@
                 }
             },
             "8": {
-                "date": "November 4, 2021 - Game Maker 0.6.14 changelog",
-                "title": "Bug Fixing and Enhancements",
+                "date": "2021년 11월 4일 - 게임 메이커 0.6.14 체인지 로그",
+                "title": "버그 수정 및 개선",
                 "list": {
                     "0": {
-                        "title": "Game Maker Improvements",
+                        "title": "게임 메이커 개선 사항",
                         "list": {
                             "0": {
-                                "title": "Upgraded Components:",
-                                "subtitle": "Sound Component: Added more music tracks to the sound component."
+                                "title": "컴포넌트 업그레이드:",
+                                "subtitle": "사운드 컴포넌트: 사운트 컴포넌트에 음원 추가"
                             }
                         }
                     },
                     "1": {
-                        "title": "Bug Fixes",
+                        "title": "버그 수정",
                         "list": {
                             "0": {
-                                "title": "Fixed an issue which caused some assets didn’t have the ID on the saved file."
+                                "title": "일부 애셋의 저장 파일에 ID가 없는 문제 수정"
                             }
                         }
                     }
