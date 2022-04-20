@@ -1,6 +1,6 @@
 {
     "common": {
-        "sandbox": "The Sandbox",
+        "sandbox": "더 샌드박스",
         "$sand": "$SAND",
         "sand": "SAND",
         "land": "LAND",
@@ -319,7 +319,7 @@
             "social": "소셜 미디어",
             "copyright": "Copyright ©",
             "rights": "All Rights Reserved",
-            "followUs": "Follow us",
+            "followUs": "FOLLOW US",
             "subsidiary": "Subsidiary of"
         },
         "createAvatarModal": {
@@ -667,8 +667,8 @@
                     "earnRT": "시즌 3 추첨 티켓 획득하기",
                     "helpImprove": "더 나은 메타버스 세상을 위해 여러분의 목소리를 들려주세요. 설문조사를 완료하여 알파 시즌 3의 추첨 티켓을 획득하세요!",
                     "take": "설문조사 참여하기",
-                    "enterAlphaLobby": "Enter Alpha Lobby",
-                    "didNotWinMemorabilia": "You didn't win the memorabilia"
+                    "enterAlphaLobby": "알파 로비 입장하기",
+                    "didNotWinMemorabilia": "기념품을 획득하지 못했습니다."
                 },
                 "timeRewards": "리워드 수령까지 남은 기간:",
                 "raffleResults": "추첨 결과 발표까지 남은 시간:",
@@ -1809,7 +1809,7 @@
                 "minimum": {
                     "title": "최소 요구 사항",
                     "text": {
-                        "bits": "64비트 프로세서 및 운영 체제가 필요",
+                        "bits": "64비트 프로세서 및 운영 체제 필요",
                         "os": "운영 체제: Windows 7",
                         "cpu": "프로세서: 듀얼 코어 2GHz",
                         "ram": "메모리: 4GB RAM",
@@ -1821,7 +1821,7 @@
                 "recommended": {
                     "title": "권장 요구 사항",
                     "text": {
-                        "bits": "64비트 프로세서 및 운영 체제가 필요",
+                        "bits": "64비트 프로세서 및 운영 체제 필요",
                         "os": "운영 체제: Windows 10",
                         "cpu": "프로세서: 쿼드 코어 3GHz",
                         "ram": "메모리: 8GB RAM",
@@ -1912,7 +1912,7 @@
                     "2": {
                         "text": "“복스에딧은 복셀 아트로 애니메이션을 만들 수 있는 가장 쉬운 툴입니다. 아주 심플한 인터페이스 덕에 초보자도 쉽게 사용할 수 있죠.”",
                         "job": "프로 복셀 아티스트",
-                        "author": "Nicolas Morrone"
+                        "author": "니콜라스 모로네 (Nicolas Morrone)"
                     }
                 }
             },
@@ -2489,7 +2489,7 @@
             "onSale": "판매 중"
         },
         "presales": {
-            "metaverse": "메타버스",
+            "metaverse": "METAVERSE",
             "pororo": "PORORO",
             "twd1": "THE WALKING DEAD (1)",
             "twd2": "THE WALKING DEAD (2)",
@@ -2656,7 +2656,7 @@
             }
         },
         "title": "환영합니다",
-        "description": "더 샌드박스는 블록체인에서 크리에이터가 복셀 애셋과 게임 경험으로 수익을 창출할 수 있는 커뮤니티 기반 플랫폼입니다.",
+        "description": "는 블록체인에서 크리에이터가 복셀 애셋과 게임 경험으로 수익을 창출할 수 있는 커뮤니티 기반 플랫폼입니다.",
         "menu": {
             "sandbox": "더 샌드박스",
             "sand": "SAND",
@@ -2833,8 +2833,8 @@
                 "secondaryButton": "맵 둘러보기"
             },
             "buy": {
-                "title": "LAND를 사본 적이 없으신가요?",
-                "description": "생각보다 쉽습니다. 상세한 온라인 자료를 통해 자세히 알아보세요. 궁금한 점이 있으면 Discord 서버에서 더 샌드박스 커뮤니티 멤버에게 직접 물어보세요.",
+                "title": "LAND를 구매해본 적이 없다면?",
+                "description": "LAND 구매는 생각보다 어렵지 않답니다! 더 샌드박스의 상세한 온라인 자료를 참조하여 자세히 알아보세요. 디스코드 서버에 가입하여 커뮤니티 멤버들에게 직접 질문을 던져보아도 좋습니다.",
                 "buttonText": "더 알아보기"
             },
             "cards": {
@@ -3897,7 +3897,7 @@
             "themes": "테마",
             "send": "승인을 위해 전송",
             "sendExclusive": "특별로 저장",
-            "saveDraft": ""
+            "saveDraft": "임시로 저장"
         }
     },
     "onboarding": {
@@ -4349,8 +4349,8 @@
                 },
                 "content": {
                     "item1": {
-                        "title": "LAND를 사본 적이 없으신가요?",
-                        "content": "생각보다 쉽습니다. 상세한 온라인 자료를 통해 자세히 알아보세요. 질문이 있으면 Discord 서버에서 더 샌드박스 커뮤니티 멤버에게 직접 물어보세요.",
+                        "title": "LAND를 구매해본 적이 없다면?",
+                        "content": "LAND 구매는 생각보다 어렵지 않답니다! 더 샌드박스의 상세한 온라인 자료를 참조하여 자세히 알아보세요. 디스코드 서버에 가입하여 커뮤니티 멤버들에게 직접 질문을 던져보아도 좋습니다.",
                         "btn": "더 알아보기"
                     },
                     "item2": {
@@ -6091,10 +6091,10 @@
                 "selection": {
                     "deposit": {
                         "headerTitle": "예치할 수량을 선택해 주세요.",
-                        "headerSubTitle": "폴리곤으로 트랜스퍼할 SAND 양을 선택해 주세요.",
-                        "footerTitle": "",
+                        "headerSubTitle": "폴리곤으로 트랜스퍼할 SAND 수량을 선택해 주세요.",
+                        "footerTitle": "알림",
                         "footerText": [
-                            ""
+                            "폴리곤은 PoS 네트워크이며 토큰은 두 단계를 거쳐 폴리곤 네트워크로 전송됩니다. 첫 번째 트랜잭션에 서명한 후 네트워크가 동기화될 수 있도록 약 10분 정도 기다려 주세요."
                         ],
                         "button": "예치 시작하기"
                     },
@@ -6102,7 +6102,7 @@
                         "headerTitle": "인출할 수량을 선택해 주세요.",
                         "headerSubTitle": "이더리움으로 트랜스퍼할 SAND 수량을 선택해 주세요.",
                         "footerText": [
-                            ""
+                            "토큰이 두 단계를 거쳐 이더리움 네트워크로 전송됩니다. 첫 번째 트랜잭션에 서명한 후 네트워크가 동기화될 수 있도록 약 3~4 시간 정도 기다린 후 두 번째 트랜잭션 창에 서명해 주세요."
                         ],
                         "button": "예치 시작하기"
                     }
@@ -6531,7 +6531,7 @@
                     "title": "실행 취소/재실행을 위한 10단계"
                 },
                 "6": {
-                    "title": "윈도우에 크래쉬로그 자바 임베드"
+                    "title": "윈도우에 크래시로그 자바 임베드"
                 },
                 "7": {
                     "title": "버그 수정"
@@ -6684,7 +6684,7 @@
                         "title": "다중 뷰포트"
                     },
                     "3": {
-                        "title": "Rig Easy Symmetry Tool"
+                        "title": "쉬운 대칭 툴 리깅"
                     },
                     "4": {
                         "title": "모델 뒤집기"
@@ -6699,7 +6699,7 @@
                         "title": "물질 선택창"
                     },
                     "8": {
-                        "title": "Perspective/Orthographic Camera"
+                        "title": "퍼스펙티브/오르토그래픽 카메라"
                     },
                     "9": {
                         "title": "라인 도구"
@@ -6724,7 +6724,7 @@
                         "title": "다이나믹 템플릿 화면"
                     },
                     "3": {
-                        "title": "Focus Camera on Model/Block/Rig/Rig Node"
+                        "title": "모델/블록/리그/리그 노드에 카메라 초점 맞추기"
                     },
                     "4": {
                         "title": "1/4 Seconds ticks in Seeker"
@@ -6754,7 +6754,7 @@
                         "title": "마우스 가운데 버튼으로 카메라 패닝"
                     },
                     "13": {
-                        "title": "All the Features and Fixes from private will be public now"
+                        "title": "프라이빗 버전의 모든 기능과 수정을 퍼블릭으로 전환"
                     },
                     "14": {
                         "title": "3D 타일맵"
@@ -6768,16 +6768,16 @@
                 "date": "2020년 3월 26일, 퍼블릭 베타 출시, 1차 업데이트",
                 "list": {
                     "0": {
-                        "title": "Tilemap 3D"
+                        "title": "3D 타일맵"
                     },
                     "1": {
                         "title": "업데이트 알림"
                     },
                     "2": {
-                        "title": "Shortcuts System"
+                        "title": "바로가기 시스템"
                     },
                     "3": {
-                        "title": "UX Improvement"
+                        "title": "UX 개선"
                     }
                 }
             },
@@ -6785,10 +6785,10 @@
                 "date": "2020년 4월 29일, 퍼블릭 베타 출시, 2차 업데이트",
                 "list": {
                     "0": {
-                        "title": "Multi Language"
+                        "title": "다국어 지원"
                     },
                     "1": {
-                        "title": "Website for guidelines"
+                        "title": "가이드라인 웹사이트 개설"
                     }
                 }
             },
@@ -6799,25 +6799,25 @@
                         "title": "타임라인 v4"
                     },
                     "1": {
-                        "title": "Animation duration display"
+                        "title": "애니메이션 지속 시간 표시"
                     },
                     "2": {
-                        "title": "Animation loop limits"
+                        "title": "애니메이션 루프 제한"
                     },
                     "3": {
-                        "title": "Timeline multi channel"
+                        "title": "타임라인 멀티 채널"
                     },
                     "4": {
-                        "title": "TimeSlider"
+                        "title": "타임 슬라이더"
                     },
                     "5": {
-                        "title": "Adjust Timeline Auto Pan"
+                        "title": "타임라인 자동 패닝 조정"
                     },
                     "6": {
                         "title": "Templates Facial expresions"
                     },
                     "7": {
-                        "title": "Custom Tooltips v0.1"
+                        "title": "커스텀 툴팁 v0.1"
                     },
                     "8": {
                         "title": "VXM warning"
@@ -6826,7 +6826,7 @@
                         "title": "Rename Modal in Dialog Folder"
                     },
                     "10": {
-                        "title": "New UI for Select Animation Dropdown"
+                        "title": "애니메이션 선택 드롭다운 UI 업데이트"
                     }
                 }
             },
@@ -6834,25 +6834,25 @@
                 "date": "2020년 9월 22일",
                 "list": {
                     "0": {
-                        "title": "Light Source Control"
+                        "title": "광원 제어"
                     },
                     "1": {
-                        "title": "Pivot shortcut (P)"
+                        "title": "피벗 바로가기 (P)"
                     },
                     "2": {
-                        "title": "Screen Rect Tool"
+                        "title": "스크린 직사각형 도구"
                     },
                     "3": {
                         "title": "Fixed Lights Parallel to Y axis"
                     },
                     "4": {
-                        "title": "Added shortcuts to Tooltips"
+                        "title": "툴팁에 바로가기 추가"
                     },
                     "5": {
                         "title": "Timeline > Animated Options (Rename}, Duplicate}, Delete)"
                     },
                     "6": {
-                        "title": "Updated LOCs"
+                        "title": "LOC 업데이트"
                     },
                     "7": {
                         "title": "Fixed Material picking not upgrading Material text fields"
@@ -6875,25 +6875,25 @@
                         "title": "기능",
                         "list": {
                             "0": {
-                                "title": "Large-Medium-Small Palette layouts."
+                                "title": "라지-미디움-스몰 팔레트 레이아웃"
                             },
                             "1": {
                                 "title": "Rebindable Shortcuts: Users can rebinding editor keys to define new keyboard shortcuts."
                             },
                             "2": {
-                                "title": "New Template list UI."
+                                "title": "템플릿 리스트 UI 업데이트"
                             },
                             "3": {
                                 "title": "VXMB format with palette metadata."
                             },
                             "4": {
-                                "title": "New camera panning shortcut with Space Bar."
+                                "title": "스페이스바를 이용한 카메라 패닝 바로가기"
                             },
                             "5": {
-                                "title": "New “All” sections on Templates."
+                                "title": "템플릿 탭에 '전체' 섹션 추가"
                             },
                             "6": {
-                                "title": "Build Version name on Welcome screens."
+                                "title": "시작 화면에 버전명 표시"
                             },
                             "7": {
                                 "title": "Template Mode with interactive nodes for Avatar body parts."
@@ -6910,7 +6910,7 @@
                         "title": "버그 수정",
                         "list": {
                             "0": {
-                                "title": "Keyboard now works in detached panels."
+                                "title": "분리된 패널에서 키보드 작동"
                             },
                             "1": {
                                 "title": "Added Long Way Rotation icon in Timeline."
@@ -6952,78 +6952,78 @@
                                 "title": "Fixed crash when renaming or duplicating already attached models in the library."
                             },
                             "14": {
-                                "title": "Fixed panel layout when detaching Material panel in Block editor."
+                                "title": "블록 에디터 내 물질 패널을 분리했을 때의 패널 레이아웃 수정"
                             },
                             "15": {
                                 "title": "Fixed DAE export sometimes entering infinite loop."
                             },
                             "16": {
-                                "title": "Fixed position of Welcome screen's \"Open File\" button."
+                                "title": "시작 화면의 '파일 열기' 버튼 위치 수정"
                             },
                             "17": {
-                                "title": "Fixed layout of Block Editor panel so it fits in lower screen resolutions."
+                                "title": "블록 에디터 패널의 레이아웃을 낮은 해상도에도 적합하도록 수정"
                             },
                             "18": {
-                                "title": "Added error when importing VXM/VOX file with same name as already existing VXM."
+                                "title": "기존 VXM과 동일한 이름의 VXM/VOX 파일을 불러올 때 에러 수정"
                             }
                         }
                     }
                 }
             },
             "6": {
-                "date": "December 23th, 2020 - Game Maker 0.4",
+                "date": "2020년 12월 23일 - 게임 메이커 0.4",
                 "list": {
                     "0": {
-                        "title": "Avatar",
-                        "subtitle": "The avatar now spawns from the Avatar’s portal, highlighted by the blue cursor.",
+                        "title": "아바타",
+                        "subtitle": "이제 아바타가 파란색 커서로 하이라이트 표시된 아바타 포털에서 생성됩니다.",
                         "list": {
                             "0": {
-                                "title": "You can now customize the avatar’s behavior, components, camera and model by going into the new GLOBAL PARAMETERS button. You also get access to this menu by clicking on the AVATAR SETTINGS button in the inspector while selecting the Avatar’s portal."
+                                "title": "새롭게 생긴 GLOBAL PARAMETERS 버튼을 눌러 아바타의 행동, 컴포넌트, 카메라와 모델을 수정할 수 있습니다. You also get access to this menu by clicking on the AVATAR SETTINGS button in the inspector while selecting the Avatar’s portal."
                             },
                             "1": {
-                                "title": "Avatar: In this menu, you can select which avatar’s type is spawned and add tags to it."
+                                "title": "Avatar: 이 메뉴에서 생성될 아바타 종류를 선택하고 태그를 추가할 수 있습니다."
                             },
                             "2": {
                                 "title": "Camera: In this menu, you can easily change the camera views and customize each value to make the camera you want."
                             },
                             "3": {
-                                "title": "Controller: In this menu, you can change the avatar’s behavior values and add / remove components."
+                                "title": "Controller: 이 메뉴에서 아바타의 행동값과 컴포넌트를 추가/삭제할 수 있습니다."
                             },
                             "4": {
-                                "title": "Lighting: In this menu, you can easily change between different lighting atmospheres."
+                                "title": "Lighting: 이 메뉴에서 다른 라이트닝 환경으로 변경할 수 있습니다."
                             }
                         }
                     },
                     "1": {
-                        "title": "Global Game Maker Improvements",
-                        "subtitle": "The Game Maker tools have been reworked and improved to provide a better user experience with a lot more functionalities.",
+                        "title": "글로벌 게임 메이커 개선",
+                        "subtitle": "다양한 기능으로 더 나은 사용자 환경을 제공하기 위해 게임 메이커를 업데이트하고 개선했습니다.",
                         "list": {
                             "0": {
-                                "title": "The terraform tool is now easier to use. More options have also been added to it."
+                                "title": "이제 지형 툴을 더 쉽게 이용할 수 있습니다. 다양한 옵션 또한 추가되었습니다."
                             },
                             "1": {
-                                "title": "The way you place the assets in the experience has also been improved to allow you to easily add and manage your assets position and rotation."
+                                "title": "경험 내 애셋을 배치하는 방식이 개선되어 애셋의 위치와 회전을 쉽게 추가하고 조정할 수 있습니다."
                             }
                         }
                     },
                     "2": {
-                        "title": "Library",
+                        "title": "라이브러리",
                         "subtitle": "The whole Library has been revamped to provide a better user experience. You can now quickly search and use filters to find what you need. Presets are now accessible within it and usable inside the Hotbar."
                     },
                     "3": {
-                        "title": "Selection Window",
+                        "title": "선택창",
                         "subtitle": "The Selection Window has been revamped to provide a better user experience. You can now quickly search and use filters to find what you need. Behaviors and Components have now an Icon and a ToolTip for each of them, to make them easier to understand."
                     },
                     "4": {
-                        "title": "New Message System",
-                        "subtitle": "Instead of having to write or copy & paste text, the New Message System allows you to easily create a Message and re-use it anywhere you want."
+                        "title": "새로운 메시지 시스템",
+                        "subtitle": "텍스트를 작성하거나 복사 붙여넣기하는 대신, 새로운 메시지 시스템을 이용하여 쉽게 메시지를 생성해 원하는 곳에서 재사용할 수 있습니다."
                     },
                     "5": {
-                        "title": "Rules Window",
+                        "title": "규칙창",
                         "subtitle": "The Rules Window has been revamped to provide a better user experience. You can now collapse and uncollapse Quests, and manage them easily. You can also quickly define the information that you want to display within the Victory and Defeat screens."
                     },
                     "6": {
-                        "title": "Quest System V2",
+                        "title": "퀘스트 시스템 V2",
                         "list": {
                             "0": {
                                 "title": "The new Quest System allows you to fully customize the Quests"
@@ -7032,13 +7032,13 @@
                                 "title": "New options have been added to allow more customization and quests that have been done before should be easier to do now."
                             },
                             "2": {
-                                "title": "Timer Objective has been improved"
+                                "title": "타이머 목표가 개선"
                             }
                         }
                     },
                     "7": {
-                        "title": "Indicator Component",
-                        "subtitle": "The Indicator Component has received a major update, related to the new Quest System and some other improvements",
+                        "title": "Indicator 컴포넌트",
+                        "subtitle": "Indicator 컴포넌트에 신규 퀘스트 시스템 및 일부 다른 개선 사항과 관련된 대량 업데이트가 진행되었습니다.",
                         "list": {
                             "0": {
                                 "title": "LifeBar color parameter has been removed to provide a more consistent User Experience within all Metaverse Experiences."
@@ -7047,34 +7047,34 @@
                                 "title": "Objective Cursor parameter has been removed to provide a more consistent User Experience within all Metaverse Experiences."
                             },
                             "2": {
-                                "title": "The Quest Cursors are now split in 3 parameters: Giver, Objective, Receiver"
+                                "title": "퀘스트 커서가 3개의 파라미터로 분리되었습니다 - Giver, Objective, Receiver"
                             }
                         }
                     },
                     "8": {
-                        "title": "Presets",
+                        "title": "프리셋",
                         "subtitle": "Creating a Preset has never been so easy. Select the Object you want to transform as a Preset, and click on the related button in the Toolbar to do so.  You can also easily replace an existing Preset by clicking on it when creating a new one. Plus, it is now possible to use Presets inside the Asset Spawner, which gives you more possibilities."
                     },
                     "9": {
-                        "title": "Tags",
-                        "subtitle": "The Tags related to Behaviors and Components have been changed. It might not change your current Experience functionalities as they will remain the same for already-created Experiences, but we suggest taking a look at them."
+                        "title": "태그",
+                        "subtitle": "행동 및 컴포넌트와 관련된 태그가 변경되었습니다. 이미 제작된 경험에서는 이전과 동일하게 유지되어 기능이 변경되지 않지만, 한 번 더 확인하시기 바랍니다."
                     },
                     "10": {
-                        "title": "Publish",
-                        "subtitle": "You can now easily publish your Experience to the Gallery and allow other users to play to the content you created."
+                        "title": "게시",
+                        "subtitle": "내가 제작한 경험을 갤러리에 손쉽게 게시하여 다른 유저가 플레이할 수 있습니다."
                     },
                     "11": {
                         "title": "행동 및 컴포넌트",
-                        "subtitle": "Behaviors and Components had their tooltips and parameters updated. They should now be easier to understand."
+                        "subtitle": "기능에 대한 더 쉬운 이해를 위해 행동 및 컴포넌트의 툴팁과 파라미터가 업데이트 되었습니다."
                     },
                     "12": {
-                        "title": "New Balancing & Grades",
+                        "title": "신규 밸런싱 및 등급",
                         "list": {
                             "0": {
-                                "title": "The balancing has been reworked to provide a better difficulty. Each object has now its difficulty mainly driven by its Catalyst and also its Gems."
+                                "title": "더 원활한 난이도 조정을 위해 밸런싱이 수정되었습니다. 이제 각 오브젝트는 포함된 카탈리스트와 젬을 통해 난이도가 결정됩니다."
                             },
                             "1": {
-                                "title": "Each Object has a Grade displayed next to its Lifebar. This Grade represents the Catalyst of the Object and the amount of Gems inside it. Thanks to this, Players can now identify the power of an Object easily."
+                                "title": "각 오브젝트의 체력바 옆에 등급이 표시됩니다. 이 등급은 오브젝트가 가지고 있는 카탈리스트와 젬의 수량을 나타냅니다. 플레이어는 이제 오브젝트가 지닌 파워를 쉽게 파악할 수 있습니다."
                             }
                         }
                     },
@@ -7094,41 +7094,41 @@
                     },
                     "14": {
                         "title": "퀘스트 아이콘",
-                        "subtitle": "As said before, a Quest is split into 4 steps. For 3 of them, a specific Quest Icon is displayed during the Play Mode.",
+                        "subtitle": "이전 버전에서 공지한 것과 같이 하나의 퀘스트가 4가지 단계로 구분됩니다. 플레이 모드 환경에서 이 중 3개는 특정 퀘스트 아이콘이 표시됩니다.",
                         "list": {
-                            "0": "Quest can be started: Gold '!' ",
-                            "1": "Quest’s Objective: Gold Target Icon",
-                            "2": "Quest can be finished: Gold '?'"
+                            "0": "노란색 '!' 표시로 퀘스트 시작",
+                            "1": "노란색 타겟 아이콘으로 퀘스트 목표 표시",
+                            "2": "노란색 '?' 표시로 퀘스트 종료"
                         }
                     },
                     "15": {
                         "title": "인벤토리와 장비",
-                        "subtitle": "Players will be able to pick up equipment and quest items from experiences and save them in their local inventories. Equip different sets of items to change your character's attributes and become stronger."
+                        "subtitle": "플레이어는 경험에서 장비나 퀘스트 아이템을 주워 로컬 인벤토리에 보관할 수 있게 됩니다. 다양한 아이템 세트를 착용하면 캐릭터의 능력치가 변경되어 더 강력하게 업그레이드할 수 있습니다."
                     },
                     "16": {
                         "title": "알려진 문제",
                         "subtitle": "아래는 게임 메이커의 해당 버전에서 알려진 문제입니다.",
                         "litle": {
                             "0": {
-                                "title": "Some equipment types may cause experiences to seldomly crash while resetting them."
+                                "title": "일부 장비 유형은 플레이어가 해당 장비를 다시 설정하는 동안 드물게 충돌을 발생시켰습니다."
                             },
                             "1": {
-                                "title": "On some machines, 4x4 experiences may make the character not move properly."
+                                "title": "일부 기기에서는 4x4 크기의 경험에서 캐릭터가 제대로 움직이지 않았습니다."
                             },
                             "2": {
-                                "title": "If an experience uses unpublished assets, a “selection error” may occur inside the Gallery."
+                                "title": "경험에 게시되지 않은 애셋이 포함되어 있을 경우 갤러리에서 '선택 오류' 문제가 발생할 수 있습니다."
                             },
                             "3": {
-                                "title": "Experiences that use Loot or Asset Spawner components may cause a crash during gameplay."
+                                "title": "Loot 또는 Asset Spawner 컴포넌트를 포함한 경험은 게임 플레이 도중 충돌이 발생했을 수 있습니다."
                             },
                             "4": {
                                 "title": "Lighting presets may cause brightness issues on light blocks and assets."
                             },
                             "5": {
-                                "title": "Library load times may be longer than expected depending on the amount of assets the user has."
+                                "title": "유저가 사용한 애셋의 수량에 따라 라이브러리가 로딩되는 시간이 예상보다 길어졌을 수 있습니다."
                             },
                             "6": {
-                                "title": "Some avatar body parts may look brighter in some environments."
+                                "title": "특정 환경에서 아바타의 일부 신체 부위가 더 환하게 보이는 현상"
                             },
                             "7": {
                                 "title": "Some inputs may be lost while hopping through experiences without opening the inventory beforehand."
@@ -7139,38 +7139,38 @@
             }
         },
         "improvements": {
-            "title": "Play Mode Improvements",
+            "title": "플레이 모드 개선",
             "list": {
                 "0": {
-                    "title": "Chat Bubbles (Multiplayer)",
-                    "subtitle": "We’ve added Chat Bubbles on top of the Avatar head. Whenever you or someone else types out something in the chat you’ll see a chat bubble on top of their heads if you are close enough to them. This is our first iteration of the feature, we’re planning on revamping the UI for the next release"
+                    "title": "채팅 말풍선 (멀티플레이어)",
+                    "subtitle": "아바타 머리 위에 채팅 말풍선을 추가했습니다. 서로의 거리가 충분히 가깝다면 나 또는 다른 사람이 채팅창에 내용을 입력할 때마다 아바타 머리 위에 채팅 말풍선이 표시됩니다. 이 기능은 이번 버전에 처음으로 도입되었으며, 다음 릴리즈에 UI가 수정될 예정입니다."
                 },
                 "1": {
                     "title": "NFT Inspect",
-                    "subtitle": "From the Inventory, you will be able to access a new Tab called NFT, here you can see a full list of NFT’s and ASSETS used inside an experience and identify what are the trending assets all creators are using. "
+                    "subtitle": "인벤토리에 NFT 탭이 새로 생겼습니다. 여기에서 경험 내 사용된 전체 NFT와 애셋 리스트를 확인하고 다른 크리에이터들이 많이 사용한 애셋은 무엇인지 알아볼 수 있습니다."
                 },
                 "2": {
-                    "title": "Fighting System UI & VFX",
-                    "subtitle": "We’re constantly improving on our Avatar, Enemy and Combat Systems. This time we’ve added Visual queues to attacks that show damage numbers when hitting an enemy as well as blocking. We’ve also added and improved upon existing VFX to make combat queues much more clear."
+                    "title": "전투 시스템 UI & VFX",
+                    "subtitle": "지속적으로 아바타, 적, 전투 시스템을 개선하고 있습니다. 이번 업데이트에는 적을 타격하거나 막았을 때 데미지 수치를 표시하는 비주얼 요소가 추가되었습니다.  또한 기존 VFX를 추가하고 개선하여 전투 대기열이 더 명확해졌습니다."
                 },
                 "3": {
-                    "title": "UI Improvements",
-                    "subtitle": "We’ve made some UI/UX improvements across the board. We’ve added pop-ups, improved windows current flows and fixed issues with some screens that were not working optimally."
+                    "title": "UX 개선",
+                    "subtitle": "UI/UX를 전반적으로 개선했습니다. 팝업창 추가, 현재 보이는 윈도우 개선, 그 외 일부 화면이 최적으로 작동하지 않는 문제가 수정되었습니다."
                 }
             }
         },
         "2021": {
             "00": {
-                "date": "February 10th, 2021 - Game Maker 0.5.0",
-                "title": "Game Maker Improvements",
+                "date": "2021년 2월 10일 - 게임 메이커 0.5.0",
+                "title": "게임 메이커 개선",
                 "list": {
                     "0": {
-                        "title": "Global Game Maker Improvements",
-                        "subtitle": "Our main focus with this version was all about performance. We’ve still got ways to go before we can provide the absolute best experience possible but we’ve made quite a few changes in our architecture and you will be able to notice:",
+                        "title": "글로벌 게임 메이커 개선",
+                        "subtitle": "해당 버전은 성능을 위주로 업데이트 되었습니다. 최상의 환경을 제공하기 위해서는 아직 더 많은 업데이트가 필요하지만, 아키텍쳐가 다수 변경되어 다음의 항목을 확인할 수 있습니다.",
                         "list": {
-                            "0": "Faster loading and response times of the Game Maker Tools",
-                            "1": "Improved performance on different types of PC’s",
-                            "2": "Improved performance on bigger experiences with a large amount of assets"
+                            "0": "빨라진 게임 메이커 로딩과 응답 시간",
+                            "1": "다양한 종류의 PC에서 성능 개선",
+                            "2": "대량의 애셋을 포함한 더 큰 크기의 경험 성능 개선"
                         }
                     },
                     "1": {
@@ -7178,7 +7178,7 @@
                         "subtitle": "We’ve reworked the Library internal structure from scratch, in order to make it faster and smoother when loading and utilizing it. You will notice a big improvement from the previous version."
                     },
                     "2": {
-                        "title": "Lighting Presets",
+                        "title": "라이트닝 프리셋",
                         "subtitle": "We’ve added a new Neutral Lighting preset, in case you don’t want to use any of our current lighting options. We’ve also improved on the already existing presets, eliminating refraction errors on light surfaces as well as correcting color emanation."
                     },
                     "3": {
@@ -7189,13 +7189,13 @@
                         "title": "신규 템플릿",
                         "subtitle": "세 가지 신규 경험 템플릿을 추가했습니다. 아래를 통해 업데이트 내역을 자세히 알아보세요.",
                         "list": {
-                            "0": "Logic - Behaviours: An experience that lets you test out the different behaviors we have and different ways to use them",
-                            "1": "Logic - Victory and Defeat: understand the basics of Victory and Defeat conditions in your game",
-                            "2": "Logic - Counter Quest: learn how to make a Death Counter and Collection Counter quest"
+                            "0": "로직 - 행동: 게임 메이커가 제공하는 다양한 행동과 이들을 활용할 수 있는 여러 방법을 테스트할 수 있는 경험",
+                            "1": "로직 - 승리와 패배: 게임 속 기초적인 승리 및 패배 조건의 이해",
+                            "2": "로직 - 카운터 퀘스트: 사망 카운터와 컬렉션 카운터 퀘스트 제작 방법 알아보기"
                         }
                     },
                     "5": {
-                        "subtitle": "We’ve also added another 8 new experience templates without any logic for you to use as starting points:",
+                        "subtitle": "이에 더하여 시작점으로 이용할 수 있는 8개의 신규 경험 템플릿 (로직 미포함)을 추가했습니다.",
                         "list": {
                             "0": "Landscape - Desert 1x1 / Forgotten Wasteland",
                             "1": "Landscape - Desert 2x2 / Barren Night",
@@ -7210,27 +7210,27 @@
                 }
             },
             "001": {
-                "title": "플레이 모드 개선 사항",
+                "title": "플레이 모드 개선",
                 "list": {
                     "0": {
                         "title": "미니맵 (콤파스)",
-                        "subtitle": "We’ve added a new HUD element into our Play Mode in the form of a Mini Map, now you’ll be able to orientate yourself and be provided with specific experience data. This is a simplified version of our Mini Map, stay tuned to see the finalized version soon."
+                        "subtitle": "플레이 모드에 미니맵 형태로 새로운 HUD 요소를 추가하여, 이제 경험 속에서 방향을 잡고 특정 경험 데이터를 제공받을 수 있습니다. 이는 미니맵의 간결화한 버전이며 곧 최종 버전으로 업데이트 예정이니 지켜봐 주세요."
                     },
                     "1": {
-                        "title": "게임 플레이 개선 사항",
-                        "subtitle": "As part of our constant improvements to the Gameplay and Combat system we’ve added the following features:",
+                        "title": "게임 플레이 개선",
+                        "subtitle": "게임 플레이 및 전투 시스템의 지속적인 업데이트 일환으로 다음 기능을 추가했습니다.",
                         "list": {
                             "0": {
-                                "title": "Heavy Attack Damage Zone:",
-                                "subtitle": "The heavy attack will now have a reticle that shows the area of effect of your attack, as you charge it more, it will deal more damage and the area will be bigger."
+                                "title": "강력한 공격 데미지 범위:",
+                                "subtitle": "강력한 공격은 이제 공격의 효과 범위를 표시하는 조준선을 가지게 되며, 충전 게이지 수치가 높아질수록 더 큰 데미지를 주고 공격 범위가 더 넓어집니다."
                             },
                             "1": {
                                 "title": "기절 시스템:",
-                                "subtitle": "Heavy Attacks charged up to its limit will now stun all enemies in range when released."
+                                "subtitle": "강력한 공격 게이지가 최대로 차면 공격했을 때 범위 안의 모든 적을 기절시킵니다."
                             },
                             "2": {
                                 "title": "막기 시스템:",
-                                "subtitle": "You will be able to parry enemy attacks to reduce the damage you’ve taken. If your timing is right you’ll be able to Perfect Parry them, stunning the enemy in consequence."
+                                "subtitle": "적의 공격을 막아 데미지를 줄일 수 있습니다. 타이밍을 잘 맞추면 공격을 완벽히 막아내어 적을 기절 상태에 빠트릴 수 있습니다."
                             }
                         }
                     }
@@ -7238,22 +7238,22 @@
             },
             "0": {
                 "date": "2021년 4월 6일 - 게임 메이커 0.6.0",
-                "title": "게임 메이커 개선 사항",
+                "title": "게임 메이커 개선",
                 "list": {
                     "0": {
-                        "title": "NFT 이미지",
-                        "subtitle": "We’ve added the NFT Image component to the Game Maker. Now you’ll be able to add NFT images from Opensea:",
+                        "title": "NFT Images",
+                        "subtitle": "게임 메이커에 NFT Image 컴포넌트를 추가하여 이제 OpenSea에서 NFT 이미지를 불러와 경험에 추가할 수 있습니다.",
                         "list": {
                             "0": "NFT 환경 및 아트 갤러리 조성을 위해 광고판과 사진 프레임에 삽입",
                             "1": "더 샌드박스에서 내가 보유한 NFT를 다른 플레이어와 크리에이터가 볼 수 있도록 전시",
-                            "2": "Use the NFT Inventory feature to be able to see the NFT in Opensea"
+                            "2": "NFT Inventory 기능을 이용하여 OpenSea의 NFT를 볼 수 있도록 업데이트"
                         }
                     },
                     "1": {
                         "title": "플레이 모드 설정",
                         "subtitle": "We’ve added settings to this version of the Game Maker in order to provide a better quality of life for users. In this iteration of the feature you’ll be able to:",
                         "list": {
-                            "0": "Change Resolution and Screen Mode",
+                            "0": "해상도 및 스크린 모드 변경",
                             "1": "음향 켜기/끄기",
                             "2": "플레이 모드 카메라 민감도 조정",
                             "3": "View the play mode Control Scheme (We now support AZERTY too)"
@@ -7261,12 +7261,12 @@
                     },
                     "2": {
                         "title": "버전 체크",
-                        "subtitle": "Now, everytime a new version of the Game Maker is available, our servers will check against your current installed version and request you to update to the newest version."
+                        "subtitle": "이제 게임 메이커 신규 버전이 나올 때마다 서버에서 현재 설치된 버전을 확인하고 가장 최신 버전으로 업데이트를 요청합니다."
                     }
                 }
             },
             "1": {
-                "title": "게임 메이커 개선 사항",
+                "title": "게임 메이커 개선",
                 "list": {
                     "title": "게임 메이커 v0.6.2 긴급 패치",
                     "list": {
@@ -7274,7 +7274,7 @@
                             "title": "Fixed assets not fully loading even though they are seen in the experience, if the user switches to play before, they will be lost and several unwanted behaviours occurs. There is now a very small waiting timer before being able to switch to play."
                         },
                         "1": {
-                            "title": "Fixed several issues related to the Asset Rarity Counts"
+                            "title": "애셋 희귀도 카운트와 관련된 몇 가지 문제 수정"
                         },
                         "2": {
                             "title": "Validated not allowing to enter playmode, save, publish, share and go to home if experience not fully loaded."
@@ -7293,36 +7293,36 @@
             },
             "2": {
                 "date": "2021년 5월 17일 - 게임 메이커 0.6.5",
-                "title": "게임 메이커 개선 사항",
+                "title": "게임 메이커 개선",
                 "list": {
                     "0": {
                         "title": "알려진 문제",
                         "subtitle": "아래는 해당 버전에서 알려진 문제입니다.",
                         "list": {
                             "0": {
-                                "title": "We’ve temporarily disabled the PRESET SYSTEM from the Game Maker due to various issues and crashes happening around its use. All experiences that currently use this feature will still be functional, but the presets won’t be modifiable any further. We’ll be working to get it back up as soon as possible."
+                                "title": "게임 메이커에서 프리셋 시스템을 사용할 때 발생하는 다양한 문제와 충돌로 인해 일시적으로 프리셋 기능을 중지했습니다. 현재 프리셋을 이용하여 제작된 모든 경험은 정상 작동하지만 해당 프리셋은 추가로 수정할 수 없습니다. 최대한 빨리 복구할 수 있도록 노력하겠습니다."
                             }
                         }
                     },
                     "1": {
-                        "title": "게임 메이커 개선 사항",
+                        "title": "게임 메이커 개선",
                         "list": {
                             "0": {
                                 "title": "Initial Equipment :",
                                 "subtitle": "A set of options was added on the Global Parameters Menu that lets users select the starting weapon and equipment the Avatar will commence an experience with."
                             },
                             "1": {
-                                "title": "Pre-Packaged Assets :",
+                                "title": "프리 패키지 애셋:",
                                 "subtitle": "From now on, we’ll be pre-loading assets into the Game Maker upon installation. This will help substantially with experience loading speeds, both on the Editor and the Gallery."
                             },
                             "2": {
                                 "title": "버전 체크:",
-                                "subtitle": "Now, everytime a new version of the Game Maker is available, our servers will check against your current installed version and request you to update to the newest version."
+                                "subtitle": "이제 게임 메이커 신규 버전이 나올 때마다 서버에서 현재 설치된 버전을 확인하고 가장 최신 버전으로 업데이트를 요청합니다."
                             }
                         }
                     },
                     "2": {
-                        "title": "게임 메이커 개선 사항",
+                        "title": "게임 메이커 개선",
                         "list": {
                             "0": {
                                 "title": "Transportation Changes :",
@@ -7335,11 +7335,11 @@
                         }
                     },
                     "3": {
-                        "title": "플레이 모드 개선 사항",
+                        "title": "플레이 모드 개선",
                         "list": {
                             "0": {
-                                "title": "게임 플레이 개선 사항:",
-                                "subtitle": "As part of our constant improvements to the Gameplay and Combat system we’ve added the following features:"
+                                "title": "게임 플레이 개선:",
+                                "subtitle": "게임 플레이 및 전투 시스템의 지속적인 업데이트 일환으로 다음 기능을 추가했습니다."
                             }
                         }
                     },
@@ -7356,7 +7356,7 @@
                                 "title": "게임 플레이와 관련된 다양한 문제 수정"
                             },
                             "3": {
-                                "title": "Fixed various issues regarding Editor Usability"
+                                "title": "에디터 사용성과 관련된 다양한 문제 수정"
                             }
                         }
                     }
@@ -7364,22 +7364,22 @@
             },
             "3": {
                 "date": "2021년 9월 1일 - 게임 메이커 0.6.9",
-                "title": "게임 메이커 개선 사항",
+                "title": "게임 메이커 개선",
                 "list": {
                     "0": {
-                        "title": "게임 메이커 개선 사항",
+                        "title": "게임 메이커 개선",
                         "list": {
                             "0": {
                                 "title": "NFT Image Self Illumination :",
                                 "subtitle": "An option was added on the NFT Image Component that lets users select if the environment Illumination affects the NFT image or if it is Self Illuminated."
                             },
                             "1": {
-                                "title": "NFT Interact Component :",
-                                "subtitle": "Gives the creator the opportunity to let the players inspect the NFTs that have this behaviour added."
+                                "title": "NFT Interact 컴포넌트:",
+                                "subtitle": "플레이어가 이 행동이 추가된 NFT를 검사할 수 있도록 합니다."
                             },
                             "2": {
-                                "title": "게임 메이커 개선 사항:",
-                                "subtitle": "As part of our constant improvements to the Gameplay and Combat system we’ve added the following features:"
+                                "title": "게임 메이커 개선:",
+                                "subtitle": "게임 플레이 및 전투 시스템의 지속적인 업데이트 일환으로 다음 기능을 추가했습니다."
                             }
                         }
                     },
@@ -7396,7 +7396,7 @@
                                 "title": "게임 플레이와 관련된 다양한 문제 수정"
                             },
                             "3": {
-                                "title": "Fixed various issues regarding Editor Usability"
+                                "title": "에디터 사용성과 관련된 다양한 문제 수정"
                             }
                         }
                     },
@@ -7405,7 +7405,7 @@
                         "subtitle": "아래는 해당 버전에서 알려진 문제입니다.",
                         "list": {
                             "0": {
-                                "title": "Farmer Behaviour is presenting issues when collecting the selected target asset. In addition to this, the farmer's behaviour does not flee when attacked by a selected hostile tag."
+                                "title": "선택한 타겟 애셋을 수집할 때 농부 행동에 문제가 발견되었습니다. 이와 더불어 농부 행동을 추가하면 적대적 태그가 붙은 선택된 대상으로부터 공격받을 때 달아나지 않는 문제가 발생했습니다."
                             }
                         }
                     }
@@ -7413,7 +7413,7 @@
             },
             "4": {
                 "date": "2021년 9월 17일 - 게임 메이커 0.6.10",
-                "title": "게임 메이커 개선 사항",
+                "title": "게임 메이커 개선",
                 "list": {
                     "0": {
                         "title": "버그 수정",
@@ -7428,51 +7428,51 @@
                                 "title": "게임 플레이와 관련된 다양한 문제 수정"
                             },
                             "3": {
-                                "title": "Fixed various issues regarding Editor Usability"
+                                "title": "에디터 사용성과 관련된 다양한 문제 수정"
                             }
                         }
                     }
                 }
             },
             "5": {
-                "date": "September 24, 2021 - Game Maker 0.6.11",
+                "date": "2021년 9월 24일 - 게임 메이커 0.6.11",
                 "title": "버그 수정 및 개선",
                 "list": {
                     "0": {
                         "title": "버그 수정",
                         "list": {
                             "0": {
-                                "title": "Fixed library issues that caused application crashes."
+                                "title": "응용 프로그램 충돌을 일으키는 라이브러리 문제 수정"
                             },
                             "1": {
-                                "title": "Fixed serialization issues that caused application crashes."
+                                "title": "응용 프로그램 충돌을 일으키는 직렬화 문제 수정"
                             }
                         }
                     },
                     "1": {
-                        "title": "Enhancements",
+                        "title": "개선",
                         "list": {
                             "0": {
-                                "title": "Licenses button was added into GM settings."
+                                "title": "게임 메이커 설정에 라이선스 버튼이 추가되었습니다."
                             }
                         }
                     }
                 }
             },
             "6": {
-                "date": "October 18, 2021 - Game Maker 0.6.12",
+                "date": "2021년 10월 18일 - 게임 메이커 0.6.12",
                 "title": "버그 수정 및 개선",
                 "list": {
                     "0": {
-                        "title": "Game Maker Improvements",
+                        "title": "게임 메이커 개선",
                         "list": {
                             "0": {
-                                "title": "Game Maker Improvements: ",
-                                "subtitle": "UI Rework, Library Improvements."
+                                "title": "게임 메이커 개선:",
+                                "subtitle": "UI 재작업, 라이브러리 개선"
                             },
                             "1": {
-                                "title": "Upgraded Components: ",
-                                "subtitle": "Sound Component."
+                                "title": "컴포넌트 업그레이드:",
+                                "subtitle": "사운드 컴포넌트"
                             }
                         }
                     },
@@ -7489,7 +7489,7 @@
                                 "title": "게임 플레이와 관련된 다양한 문제 수정"
                             },
                             "3": {
-                                "title": "Fixed various issues regarding Editor Usability."
+                                "title": "에디터 사용성과 관련된 다양한 문제 수정"
                             }
                         }
                     },
@@ -7498,10 +7498,10 @@
                         "subtitle": "아래는 해당 버전에서 알려진 문제입니다.",
                         "list": {
                             "0": {
-                                "title": "Farmer Behaviour is presenting issues when attacking the selected target asset."
+                                "title": "선택한 타겟 애셋을 공격할 때 농부 행동에 문제가 발견되었습니다."
                             },
                             "1": {
-                                "title": "Toggle Component is presenting several issues."
+                                "title": "컴포넌트 토글에 여러 문제가 발견되었습니다."
                             }
                         }
                     }
@@ -7512,15 +7512,15 @@
                 "title": "버그 수정 및 개선",
                 "list": {
                     "0": {
-                        "title": "게임 메이커 개선 사항",
+                        "title": "게임 메이커 개선",
                         "list": {
                             "0": {
-                                "title": "게임 메이커 개선 사항:",
-                                "subtitle": "Save: now unique IDs are generated for each quest within the experience."
+                                "title": "게임 메이커 개선:",
+                                "subtitle": "저장: 이제 경험 내 각 퀘스트에 고유 ID가 생성됩니다."
                             },
                             "1": {
                                 "title": "컴포넌트 업그레이트:",
-                                "subtitle": "Sound Component: Added Pause and Stop message, and fixed the autoplay feature."
+                                "subtitle": "사운드 컴포넌트: 일시 중미 및 중지 메시지를 추가하고 자동 재생 기능을 수정했습니다."
                             }
                         }
                     },
@@ -7537,7 +7537,7 @@
                                 "title": "게임 플레이와 관련된 다양한 문제 수정"
                             },
                             "3": {
-                                "title": "Fixed various issues regarding Editor Usability."
+                                "title": "에디터 사용성과 관련된 다양한 문제 수정"
                             }
                         }
                     },
@@ -7546,7 +7546,7 @@
                         "subtitle": "아래는 해당 버전에서 알려진 문제입니다.",
                         "list": {
                             "0": {
-                                "title": "Toggle Behaviour is presenting several issues."
+                                "title": "행동 토글에 여러 문제가 발견되었습니다."
                             }
                         }
                     }
@@ -7557,7 +7557,7 @@
                 "title": "버그 수정 및 개선",
                 "list": {
                     "0": {
-                        "title": "게임 메이커 개선 사항",
+                        "title": "게임 메이커 개선",
                         "list": {
                             "0": {
                                 "title": "컴포넌트 업그레이드:",
@@ -7576,31 +7576,31 @@
                 }
             },
             "9": {
-                "date": "",
-                "title": "",
+                "date": "2022년 4월 5일 - 게임 메이커 0.6.24 체인지 로그",
+                "title": "버그 수정 및 개선",
                 "list": {
                     "0": {
-                        "title": "",
+                        "title": "MacOS 호환",
                         "list": {
                             "0": {
-                                "title": ""
+                                "title": "Windows 버전과 동일한 기능의 MacOS 빌드가 출시되었습니다. 두 빌드는 차이점이 없는 동일한 버전입니다."
                             }
                         }
                     },
                     "1": {
-                        "title": "",
+                        "title": "게임 메이커 개선",
                         "list": {
                             "0": {
-                                "title": "",
-                                "subtitle": ""
+                                "title": "성능 개선:",
+                                "subtitle": "게임 메이커의 일반적 성능 향상을 위해 몇 가지 버그가 수정되었습니다."
                             },
                             "1": {
-                                "title": "",
-                                "subtitle": ""
+                                "title": "UI 개선:",
+                                "subtitle": "시각적 결함이 발견되어 UI가 수정되었습니다 (메인 메뉴의 스크롤바와 토글)."
                             },
                             "2": {
-                                "title": "",
-                                "subtitle": ""
+                                "title": "라이트닝 개선:",
+                                "subtitle": "플레이 모드에서 일반적인 라이트닝이 개선되었으며 더 높은 채도의 색상을 추가하여 안개를 줄였습니다."
                             }
                         }
                     }
