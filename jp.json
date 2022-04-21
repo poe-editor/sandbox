@@ -211,7 +211,8 @@
         "wrongNet": "Wrong Network!",
         "pleaseChangeMain": "Please change to Mainnet Network",
         "pleaseChangeRinkeby": "Please change to Rinkeby Network",
-        "recommended": "recommended"
+        "recommended": "recommended",
+        "enablePopups": "Make sure you have popups enabled"
     },
     "layout": {
         "topbar": {
@@ -3544,7 +3545,12 @@
                 "resetGasless": "リセットまで：",
                 "useGaslessFirst": "今月は",
                 "useGaslessSecond": "回の無料トランザクションが利用できます。",
-                "wallet": "HARDWARE WALLET"
+                "wallet": "HARDWARE WALLET",
+                "learnMore": "",
+                "gassless": "",
+                "forward": "",
+                "hardwareWallet": "",
+                "notes": ""
             }
         },
         "claims": {
@@ -7609,6 +7615,67 @@
                     }
                 }
             }
+        }
+    },
+    "buySandModal": {
+        "ethereumNetwork": "Ethereum Network",
+        "polygonNetwork": "Polygon Network",
+        "ethereum": {
+            "title": "Add SAND to your wallet",
+            "description": "SAND is the currency you need to buy NFTs at The Sandbox"
+        },
+        "polygon": {
+            "title": "Add mSAND to your wallet",
+            "description": "mSAND is the currency you need to buy NFTs at The Sandbox on Polygon Network"
+        },
+        "options": {
+            "moonpay": {
+                "text": "Buy with Credit Card (MoonPay)",
+                "extra": "Switch Provider"
+            },
+            "binance": {
+                "text-ethereum": "Buy SAND on Binance",
+                "text-polygon": "Buy mSAND on Binance",
+                "extra": "(Coming soon)"
+            },
+            "uniswap": {
+                "text-ethereum": "Buy SAND on Uniswap",
+                "text-polygon": "Buy mSAND on Uniswap"
+            },
+            "quickswap": {
+                "text": "Buy mSAND on Quickswap"
+            }
+        },
+        "notes": {
+            "note1-ethereum": "Make sure you also have ETH in your wallet. ETH is required to pay Gas fees.",
+            "note1-polygon": "Make sure you also have MATIC in your wallet. MATIC is required to pay Gas fees.",
+            "note2": {
+                "text-ethereum": "Buy ETH on:",
+                "text-polygon": "Buy MATIC on:",
+                "options": {
+                    "option1": "With Credit/Debit Card",
+                    "option2": "Binance",
+                    "option3": "Uniswap",
+                    "option4": "Wyre"
+                }
+            }
+        },
+        "help": {
+            "question1": "What is a wallet?",
+            "question2-ethereum": "How to buy SAND?",
+            "question2-polygon": "How to buy mSAND?",
+            "question3": "Why do I need ETH?",
+            "question3-polygon": "Why do I need MATIC?",
+            "question4": "What is Gas fee?",
+            "more": "See more FAQs"
+        },
+        "fiatOptions": {
+            "moonpay": "Moonpay",
+            "simplex": "Simplex",
+            "uphold": "Uphold",
+            "ramp": "Ramp",
+            "comingSoon": "(Coming Soon)",
+            "recommended": "Recommended"
         }
     }
 }
