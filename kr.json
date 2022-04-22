@@ -212,7 +212,7 @@
         "pleaseChangeMain": "메인넷 네트워크로 변경해 주세요.",
         "pleaseChangeRinkeby": "린케비 네트워크로 변경해 주세요.",
         "recommended": "추천",
-        "enablePopups": "Make sure you have popups enabled"
+        "enablePopups": "팝업창 허용이 활성화되어 있는지 확인해 주세요."
     },
     "layout": {
         "topbar": {
@@ -655,7 +655,7 @@
                     "increaseTotalDescriptionEnd": "스테이킹하세요.",
                     "seasonStart": "4월 1일",
                     "seasonFinish": "31일",
-                    "hasJustEnded": "알파 시즌 2 종료",
+                    "hasJustEnded": "알파 시즌 2 종료 2",
                     "welcomeOpen": "오픈 메타버스에 오신 것을 환영합니다",
                     "thanks": "알파 시즌 2에 참여해 주셔서 감사합니다!",
                     "canClaim": "시즌 2 알파 패스 당첨자는 리워드를 수령할 수 있습니다.",
@@ -3546,11 +3546,11 @@
                 "useGaslessFirst": "이번 달에",
                 "useGaslessSecond": "회의 무료 트랜잭션 횟수가 남아 있습니다.",
                 "wallet": "하드웨어 월렛",
-                "learnMore": "",
-                "gassless": "",
+                "learnMore": "여기에서 Biconomy에 대해 더 자세히 알아보세요.",
+                "gassless": "가스비 무료 - 28일마다 10번의 무료 트랜잭션 횟수가 충전됩니다.",
                 "forward": "",
-                "hardwareWallet": "",
-                "notes": ""
+                "hardwareWallet": "하드웨어 지갑의 EIP-172 호환성 극대화",
+                "notes": "현재 설정으로 28일마다 10번의 무료 트랜잭션을 진행할 수 있으며 가스비는 mSAND로 지불됩니다. 현재 7번의 무료 트랜잭션이 남아 있습니다."
             }
         },
         "claims": {
@@ -7615,65 +7615,65 @@
         }
     },
     "buySandModal": {
-        "ethereumNetwork": "Ethereum Network",
-        "polygonNetwork": "Polygon Network",
+        "ethereumNetwork": "이더리움 네트워크",
+        "polygonNetwork": "폴리곤 네트워크",
         "ethereum": {
-            "title": "Add SAND to your wallet",
-            "description": "SAND is the currency you need to buy NFTs at The Sandbox"
+            "title": "지갑에 SAND 추가하기",
+            "description": "SAND란 더 샌드박스의 NFT를 구매할 때 사용되는 통화입니다."
         },
         "polygon": {
-            "title": "Add mSAND to your wallet",
-            "description": "mSAND is the currency you need to buy NFTs at The Sandbox on Polygon Network"
+            "title": "지갑에 mSAND 추가하기",
+            "description": "mSAND란 폴리곤 네트워크에서 더 샌드박스의 NFT를 구매할 때 사용되는 통화입니다."
         },
         "options": {
             "moonpay": {
-                "text": "Buy with Credit Card (MoonPay)",
+                "text": "신용카드로 구입하기 (MoonPay)",
                 "extra": "Switch Provider"
             },
             "binance": {
-                "text-ethereum": "Buy SAND on Binance",
-                "text-polygon": "Buy mSAND on Binance",
-                "extra": "(Coming soon)"
+                "text-ethereum": "Binance에서 SAND 구입하기",
+                "text-polygon": "Binance에서 mSAND 구입하기",
+                "extra": "(곧 찾아옵니다)"
             },
             "uniswap": {
-                "text-ethereum": "Buy SAND on Uniswap",
-                "text-polygon": "Buy mSAND on Uniswap"
+                "text-ethereum": "UniSwap에서 SAND 구입하기",
+                "text-polygon": "UniSwap에서 mSAND 구입하기"
             },
             "quickswap": {
-                "text": "Buy mSAND on Quickswap"
+                "text": "QuickSwap에서 mSAND 구입하기"
             }
         },
         "notes": {
-            "note1-ethereum": "Make sure you also have ETH in your wallet. ETH is required to pay Gas fees.",
-            "note1-polygon": "Make sure you also have MATIC in your wallet. MATIC is required to pay Gas fees.",
+            "note1-ethereum": "지갑에 가스비 지불을 위한 ETH가 있는지 확인하세요.",
+            "note1-polygon": "지갑에 가스비 지불을 위한 MATIC이 있는지 확인하세요.",
             "note2": {
-                "text-ethereum": "Buy ETH on:",
-                "text-polygon": "Buy MATIC on:",
+                "text-ethereum": "ETH 구입:",
+                "text-polygon": "MATIC 구입:",
                 "options": {
-                    "option1": "With Credit/Debit Card",
+                    "option1": "신용/직불카드",
                     "option2": "Binance",
-                    "option3": "Uniswap",
+                    "option3": "UniSwap",
                     "option4": "Wyre",
-                    "option5": "Quickswap"
+                    "option5": "QuickSwap"
                 }
             }
         },
         "help": {
-            "question1": "What is a wallet?",
-            "question2-ethereum": "How to buy SAND?",
-            "question2-polygon": "How to buy mSAND?",
-            "question3": "Why do I need ETH?",
-            "question3-polygon": "Why do I need MATIC?",
-            "question4": "What is Gas fee?",
-            "more": "See more FAQs"
+            "question1": "지갑이란 무엇인가요?",
+            "question2-ethereum": "어떻게 SAND를 구입하나요?",
+            "question2-polygon": "어떻게 mSAND를 구입하나요?",
+            "question3": "왜 ETH가 필요한가요?",
+            "question3-polygon": "왜 MATIC이 필요한가요?",
+            "question4": "가스비란 무엇인가요?",
+            "more": "더 많은 FAQ 확인하기"
         },
         "fiatOptions": {
-            "moonpay": "Moonpay",
+            "moonpay": "MoonPay",
             "simplex": "Simplex",
             "uphold": "Uphold",
             "ramp": "Ramp",
-            "comingSoon": "(Coming Soon)",
-            "recommended": "Recommended"
+            "comingSoon": "(곧 찾아옵니다)",
+            "recommended": "권장"
         }
     }
 }
