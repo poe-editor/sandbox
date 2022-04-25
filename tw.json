@@ -225,14 +225,16 @@
                     "simplex": "在 Simplex 上購買 SAND",
                     "binanceCS": "Buy SAND on Binance (coming soon)",
                     "quickswap": "Swap SAND on Quickswap",
-                    "comingSoon": "More options coming soon..."
+                    "comingSoon": "More options coming soon...",
+                    "moonpay": ""
                 },
                 "values": {
                     "binance": "Binance",
                     "uniswap": "Uniswap",
                     "simplex": "Simplex",
                     "binanceCS": "BinanceCS",
-                    "quickswap": "Quickswap"
+                    "quickswap": "Quickswap",
+                    "moonpay": ""
                 },
                 "how": "如何購買 SAND",
                 "about": "ETH 可用來購買必要的礦工費，且會隨交易速率影響價格。",
@@ -665,10 +667,10 @@
                     "gotIt": "Congrats! You got it",
                     "goSeeIt": "Go to see it",
                     "completeSurvey": "COMPLETE THE SURVEY",
-                    "earnRT": "EARN 10 RAFFLE TICKETS FOR SEASON 3",
+                    "earnRT": "EARN A RT FOR S3",
                     "helpImprove": "Help us improving The Sandbox by sending your feedback. Complete the survey now and get extra Raffle Tickets for Alpha Season 3!",
                     "take": "Take the survey",
-                    "enterAlphaLobby": "Enter Alpha Lobby",
+                    "enterAlphaLobby": "進入阿爾法大廳",
                     "didNotWinMemorabilia": "You didn't win the memorabilia"
                 },
                 "timeRewards": "距離領取獎勵還有",
@@ -1468,9 +1470,9 @@
             "wearable": "可穿戴物",
             "art": "藝術品",
             "avatar": "皮膚",
-            "block": "",
-            "bodypart": "",
-            "and": ""
+            "block": "Block",
+            "bodypart": "Bodypart",
+            "and": "and"
         },
         "rarities": {
             "title": "催化劑",
@@ -2185,7 +2187,8 @@
                         "signin": "請登入 Venly"
                     },
                     "login": "我已經有帳戶了",
-                    "waiting": "請登入/註冊 Venly"
+                    "waiting": "請登入/註冊 Venly",
+                    "notAvailableWallet": "{walletName} is not available in {browserName}"
                 },
                 "signinModal": {
                     "title": "登入",
@@ -2980,7 +2983,8 @@
             "edit": "編輯",
             "logout": "登出",
             "settings": "設定",
-            "claim": "Claims"
+            "claim": "Claims",
+            "bridge": "Bridge"
         },
         "profile": {
             "sandAmount": "你的",
@@ -3222,7 +3226,7 @@
                     }
                 }
             },
-            "title": "Inventory"
+            "title": "存貨"
         },
         "avatar": {
             "empty": "此清單為空",
@@ -3389,7 +3393,8 @@
                 "signin": "請登入 Venly"
             },
             "login": "我已經有帳戶了",
-            "waiting": "請登入/註冊 Venly"
+            "waiting": "請登入/註冊 Venly",
+            "notAvailableWallet": "{walletName} is not available in {browserName}"
         },
         "signinModal": {
             "title": "登入",
@@ -3530,7 +3535,54 @@
                 "password-note": "為了提高安全性，我們強烈建議你使用沒有在其他線上帳戶使用的獨特密碼。",
                 "old-password": "目前密碼",
                 "new-password": "新密碼",
-                "repeat-password": "再次輸入密碼"
+                "repeat-password": "再次輸入密碼",
+                "sub": "Account security",
+                "note": "For your security, we highly recommend that you choose a unique password that you don’t use for any other online account.",
+                "email": "Email",
+                "password": "Password",
+                "check": "Security check",
+                "check-note": "Please enter your password to continue",
+                "continue": "Continue",
+                "pass-forgot": "Forgot your password?",
+                "password-section": {
+                    "title": "Edit Password",
+                    "new-password": "New Password",
+                    "repeat-password": "Repeat Password",
+                    "no-match": "Your password don't match",
+                    "match": "Password matches",
+                    "validation": "Password must be at least 8 characters with 1 upper case letter and 1 number",
+                    "save": "Save change",
+                    "success": "Successfully changed!",
+                    "months": {
+                        "0": "January",
+                        "1": "February",
+                        "2": "March",
+                        "3": "April",
+                        "4": "May",
+                        "5": "June",
+                        "6": "July",
+                        "7": "August",
+                        "8": "September",
+                        "9": "October",
+                        "10": "November",
+                        "11": "December"
+                    },
+                    "modificated": "Last update on",
+                    "not-modificated": "not modified yet"
+                },
+                "email-section": {
+                    "title": "Edit Email",
+                    "note": "For your security, you will have to validate your new email with a code that will be send to your new email.",
+                    "current-email": "Current email:"
+                },
+                "code": {
+                    "send": "Send code",
+                    "title": "Enter security code",
+                    "note": "A security code has been sent to",
+                    "check-spam": "You have not received the email? Check your spam folder",
+                    "confirm": "Confirm",
+                    "resend": "Resend code"
+                }
             },
             "chainSettings": {
                 "title": "鏈設定",
@@ -3618,8 +3670,8 @@
             "assetOwnership": "ASSET 擁有權",
             "presales": "預售",
             "faucet": "Sand & Ether Faucets",
-            "ticketDetails": "Ticket details",
-            "raffleTickets": "Raffle tickets"
+            "ticketDetails": "門票詳情",
+            "raffleTickets": "抽獎券"
         },
         "users": {
             "profile": "個人檔案",
@@ -3842,7 +3894,9 @@
     "collectionPage": {
         "goBack": "返回",
         "addedAssets": "已新增",
-        "selectAssets": "勾選收藏中所有你想要的 ASSET"
+        "selectAssets": "勾選收藏中所有你想要的 ASSET",
+        "createCollection": "創建集合",
+        "editCollection": "編輯收藏"
     },
     "presaleToast": {
         "button": "立即加入",
@@ -4222,11 +4276,11 @@
             }
         },
         "achievements": {
-            "title": "Achievements",
-            "gotIt": "Congrats, you got it!",
-            "description": "By reaching level 5, you’ve earned Alpha Season 2 Memorabilia, which will grant you ",
-            "description2": "additional rewards for all featured seasons.",
-            "disclaimer": "Please, note that a memorabilia is not a NFT."
+            "title": "成就",
+            "gotIt": "恭喜，你得到它 !",
+            "description": "達到 5 級後，您已獲得 Alpha Season 2 紀念品，這將授予您 ",
+            "description2": "所有特色季節的額外獎勵。",
+            "disclaimer": "請注意，紀念品不是 NFT。"
         }
     },
     "search": "搜尋",
@@ -4812,8 +4866,8 @@
             "oldTransactions": "查看過往交易"
         },
         "walletTab": {
-            "mainnetL1Title": "Ethereum Network",
-            "testnetL1Title": "Goerli Network",
+            "mainnetL1Title": "Ethereum",
+            "testnetL1Title": "Goerli",
             "eth": "ETH",
             "poly": "Polygon",
             "msand": "mSAND",
@@ -4835,8 +4889,8 @@
                 "why": "為什麼要使用 MATIC？"
             },
             "maticCoin": "MATIC",
-            "mainnetL2Title": "Polygon Network",
-            "testnetL2Title": "Mumbai Network",
+            "mainnetL2Title": "Polygon",
+            "testnetL2Title": "Mumbai",
             "lands": "",
             "estate": "",
             "estates": ""
@@ -4960,7 +5014,7 @@
                 "pointsInfo1": "You earn points over time for each ",
                 "pointsInfo2": " staked. Points accumulated cannot be lost. ",
                 "pointsInfo3": "staked for 28 days grants {stakingMultiplier} point.",
-                "myScore": "My Score",
+                "myScore": "我的分數",
                 "earnScorePoints": "Earn Score Points",
                 "cardFirstTitle": "Stake {0} and enjoy the benefits of staking."
             }
@@ -5547,10 +5601,10 @@
                     }
                 },
                 "completion": {
-                    "title": "COMPLETION REWARD",
-                    "subtitle": "Players who completed {hundred} of the Alpha Season 2 content will get {surprise}",
+                    "title": "完成獎勵",
+                    "subtitle": "完成 {hund} Alpha Season 2 內容的玩家將獲得 {surprise}",
                     "hundred": "100%",
-                    "surprise": "surprise rewards."
+                    "surprise": "驚喜獎勵。"
                 }
             },
             "game": {
@@ -6168,7 +6222,7 @@
                 }
             },
             "steps": {
-                "name": "STEP",
+                "name": "Step",
                 "base4": [
                     "1/4",
                     "2/4",
@@ -6199,14 +6253,18 @@
                     "6/7",
                     "7/7"
                 ]
-            }
+            },
+            "totalCashback": "Total Cashback:"
         },
         "buySand": "Buy SAND",
         "buymSand": "Buy mSAND",
         "confirmDeposit": "Confirm Deposit",
         "confirmWithdraw": "Confirm Withdraw",
         "noTransactions": "There are no transactions to display",
-        "pending": "Pending"
+        "pending": "Pending",
+        "checkTransactions": "Check previous transactions or confirm pending ones",
+        "pendingWithdrawals": "Pending Withdrawals",
+        "pendingDeposits": "Pending Deposits"
     },
     "season.info.communityBooster.bulletPoints.1.3": {
         "3": ""
