@@ -225,14 +225,16 @@
                     "simplex": "Simplex'te SAND al",
                     "binanceCS": "Binance üzerinden SAND al (çok yakında)",
                     "quickswap": "Quickswap'ta SAND takas et",
-                    "comingSoon": "Daha fazla seçenekler çok yakında..."
+                    "comingSoon": "Daha fazla seçenekler çok yakında...",
+                    "moonpay": ""
                 },
                 "values": {
                     "binance": "Binance",
                     "uniswap": "Uniswap",
                     "simplex": "Simplex",
                     "binanceCS": "BinanceCS",
-                    "quickswap": "Quickswap"
+                    "quickswap": "Quickswap",
+                    "moonpay": ""
                 },
                 "how": "Nasıl SAND alınır",
                 "about": "Gaz ücretleri için ETH kullanılacak; ücret işlemin hızına göre değişiklik gösterebilir.",
@@ -579,7 +581,7 @@
                     "claimRewardsDescription2": "April 1.",
                     "moreInfo": "More info",
                     "freeToPlay": "Free to Play",
-                    "alphaPass": "Alpha Pass",
+                    "alphaPass": "Alfa Geçişi",
                     "locked": "Locked",
                     "summary": "Summary",
                     "totalRaffleTickets": "Total Raffle Tickets",
@@ -605,11 +607,11 @@
                     "lands": "LANDS",
                     "feedbackForm": "Feedback Form",
                     "raffleDaysLeft": "DAYS UNTIL RAFFLE",
-                    "raffleDay": "DAY FOR RAFFLE RESULTS",
-                    "raffleGoodLuck": "Good Luck!!",
-                    "raffleDayDesc": "Win an Alpha Pass!",
-                    "claimPass": "Claim Pass",
-                    "enterTheParty": "Enter the Party!",
+                    "raffleDay": "ÇEKİLİŞ SONUÇLARI GÜNÜ",
+                    "raffleGoodLuck": "İyi Şanslar !!",
+                    "raffleDayDesc": "Alpha Pass kazanın!",
+                    "claimPass": "Talep Geçidi",
+                    "enterTheParty": "Partiye Girin!",
                     "contest": {
                         "results": "Contest Results",
                         "checkResults": "Check contest results here every Thursday. You will also receive an email if you won the Alpha Pass",
@@ -640,35 +642,35 @@
                     "communityBoosterDescription2": "to increase the total prize pool. Up to + 100%.",
                     "communityBoosterDescription3": "You will also get up to 200 extra Raffle Tickets",
                     "raffleHasPass": "DAYS TO CLAIM",
-                    "raffleHasPassDesc": "You own a S2 Alpha Pass",
+                    "raffleHasPassDesc": "S2 Alpha Pass sahibisiniz",
                     "communityBoosterDescription": "Toplam ödül havuzunu artırmak için $SAND yatırın. Topluluk güçlendirici, herkesin $SAND ödüllerine uygulanacaktır. Topluluk ne kadar çok bahis oynarsa, Topluluk o kadar çok kazanır. Ayrıca stake için ekstra Çekiliş Biletleri alacaksınız.",
-                    "enterThePartyDescription": "Add Join the VIP Party on Thursday Mart 24 at 7PM",
+                    "enterThePartyDescription": "24 Mart Perşembe günü saat 19:00'da VIP Partisine Katılın",
                     "seasonOverDescription4": "Yakında $SAND ödülleri kazanabileceksiniz! Bu arada Bilet Sahiplerinin VIP Partisi'ni ziyaret etmeyi unutmayın!",
                     "communityBoosterDescription4": "for staking",
                     "communityBoosterDescription5": "{stakingMultiplier} point is earned for each",
                     "communityBoosterDescription6": "staked for the whole season.",
-                    "enterThePartyDescription2": "Enter to be part of the VIP Party for Pass holders only!",
+                    "enterThePartyDescription2": "Yalnızca Pass sahipleri için VIP Partisinin bir parçası olmak için girin!",
                     "raffleTitle4": "APRIL",
-                    "lockedDesc": "You need a Season 2 Alpha Pass to claim the $SAND reward at the end of Alpha Season 2.",
-                    "memorabilia": "Memorabilia",
-                    "memorabiliaTooltip": "All players reaching level 5 will get the season's Memorabilia, that will grant them extra rewards for all future seasons. Please note that a Memorabilia is not a NFT.",
+                    "lockedDesc": "Alpha Season 2'nin sonunda $ SAND ödülünü almak için 2. Sezon Alpha Pass'a ihtiyacınız var.",
+                    "memorabilia": "HATIRLATMA",
+                    "memorabiliaTooltip": "5. seviyeye ulaşan tüm oyuncular sezonun Hatıralarını alacaklar, bu da onlara gelecek sezonlar için ekstra ödüller verecek.Bir Hatıra'nın bir NFT olmadığını lütfen unutmayın.",
                     "increaseTotalDescriptionEnd": "",
                     "seasonStart": "1",
                     "seasonFinish": "31",
-                    "hasJustEnded": "ALPHA SEASON 2 HAS JUST ENDED",
-                    "welcomeOpen": "WELCOME TO THE OPEN METAVERSE",
-                    "thanks": "Thanks to all Alpha Season 2 players!",
-                    "canClaim": "Season 2 Alpha Pass winners can now claim their rewards",
-                    "claim": "Claim",
-                    "reachedLevel": "All players who reached level 5 won the Alpha S2 Memorabilia. It will grant rewards for all future seasons.",
-                    "notNFT": "The memorabilia is not an NFT.",
+                    "hasJustEnded": "ALPHA 2. SEZON YENİ BİTİRDİ",
+                    "welcomeOpen": "OPEN METAVERSE'E HOŞ GELDİNİZ",
+                    "thanks": "Tüm Alpha Sezon 2 oyuncularına teşekkürler!",
+                    "canClaim": "Sezon 2 Alpha Pass kazananları artık ödüllerini talep edebilir",
+                    "claim": "Talep",
+                    "reachedLevel": "5. seviyeye ulaşan tüm oyuncular Alpha S2 Hatırasını kazandı ve gelecek tüm sezonlar için ödüller verecek.",
+                    "notNFT": "Hatıra bir NFT değildir.",
                     "gotIt": "Congrats! You got it",
                     "goSeeIt": "Go to see it",
-                    "completeSurvey": "COMPLETE THE SURVEY",
-                    "earnRT": "EARN 10 RAFFLE TICKETS FOR SEASON 3",
-                    "helpImprove": "Help us improving The Sandbox by sending your feedback. Complete the survey now and get extra Raffle Tickets for Alpha Season 3!",
-                    "take": "Take the survey",
-                    "enterAlphaLobby": "Enter Alpha Lobby",
+                    "completeSurvey": "ANKETİ TAMAMLAYIN",
+                    "earnRT": "EARN A RT FOR S3",
+                    "helpImprove": "Geri bildiriminizi göndererek Sandbox'ı geliştirmemize yardımcı olun. Anketi şimdi tamamlayın ve Alpha Sezon 3 için ekstra Çekiliş Biletleri kazanın!",
+                    "take": "Ankete katılmak",
+                    "enterAlphaLobby": "Alfa Lobisine Girin",
                     "didNotWinMemorabilia": "You didn't win the memorabilia"
                 },
                 "timeRewards": "ÖDÜLLERİ TOPLAMAK İÇİN",
@@ -1311,7 +1313,7 @@
                         "body": "Official TSB experiences, created by The Sandbox team."
                     },
                     "partners": {
-                        "title": "PARTNERS",
+                        "title": "ORTAKLAR",
                         "body": "Created by our Partners. They have the ownership and responsibility of their content."
                     },
                     "gameMaker": {
@@ -2185,7 +2187,8 @@
                         "signin": "Lütfen Venly ile oturum açın"
                     },
                     "login": "zaten bir hesabım var",
-                    "waiting": "Lütfen giriş yapın / Venly ile kaydolun"
+                    "waiting": "Lütfen giriş yapın / Venly ile kaydolun",
+                    "notAvailableWallet": "{walletName} is not available in {browserName}"
                 },
                 "signinModal": {
                     "title": "Giriş yap",
@@ -2980,7 +2983,8 @@
             "edit": "Düzenle",
             "logout": "Çıkış Yap",
             "settings": "Ayarlar",
-            "claim": "Claims"
+            "claim": "Claims",
+            "bridge": "Bridge"
         },
         "profile": {
             "sandAmount": "Senin",
@@ -3389,7 +3393,8 @@
                 "signin": "Lütfen Venly ile kayıt olun"
             },
             "login": "Zaten bir hesabım var",
-            "waiting": "Lütfen Venly ile giriş yapın / üye olun"
+            "waiting": "Lütfen Venly ile giriş yapın / üye olun",
+            "notAvailableWallet": "{walletName} is not available in {browserName}"
         },
         "signinModal": {
             "title": "Giriş Yap",
@@ -3530,7 +3535,54 @@
                 "password-note": "Güvenliğiniz için, başka herhangi bir çevrimiçi hesap için kullanmadığınız benzersiz bir şifre seçmenizi önemle tavsiye ederiz.",
                 "old-password": "Güncel Şifre",
                 "new-password": "Yeni Şifre",
-                "repeat-password": "Şifreyi Tekrarla"
+                "repeat-password": "Şifreyi Tekrarla",
+                "sub": "Account security",
+                "note": "For your security, we highly recommend that you choose a unique password that you don’t use for any other online account.",
+                "email": "Email",
+                "password": "Password",
+                "check": "Security check",
+                "check-note": "Please enter your password to continue",
+                "continue": "Continue",
+                "pass-forgot": "Forgot your password?",
+                "password-section": {
+                    "title": "Edit Password",
+                    "new-password": "New Password",
+                    "repeat-password": "Repeat Password",
+                    "no-match": "Your password don't match",
+                    "match": "Password matches",
+                    "validation": "Password must be at least 8 characters with 1 upper case letter and 1 number",
+                    "save": "Save change",
+                    "success": "Successfully changed!",
+                    "months": {
+                        "0": "January",
+                        "1": "February",
+                        "2": "March",
+                        "3": "April",
+                        "4": "May",
+                        "5": "June",
+                        "6": "July",
+                        "7": "August",
+                        "8": "September",
+                        "9": "October",
+                        "10": "November",
+                        "11": "December"
+                    },
+                    "modificated": "Last update on",
+                    "not-modificated": "not modified yet"
+                },
+                "email-section": {
+                    "title": "Edit Email",
+                    "note": "For your security, you will have to validate your new email with a code that will be send to your new email.",
+                    "current-email": "Current email:"
+                },
+                "code": {
+                    "send": "Send code",
+                    "title": "Enter security code",
+                    "note": "A security code has been sent to",
+                    "check-spam": "You have not received the email? Check your spam folder",
+                    "confirm": "Confirm",
+                    "resend": "Resend code"
+                }
             },
             "chainSettings": {
                 "title": "Zincir Ayarları",
@@ -3842,7 +3894,9 @@
     "collectionPage": {
         "goBack": "Geri",
         "addedAssets": "Eklendi",
-        "selectAssets": "Koleksiyonda olmasını istediğiniz tüm varlıkları kontrol edin"
+        "selectAssets": "Koleksiyonda olmasını istediğiniz tüm varlıkları kontrol edin",
+        "createCollection": "Koleksiyon oluştur",
+        "editCollection": "Koleksiyonu düzenle"
     },
     "presaleToast": {
         "button": "Şimdi Katıl",
@@ -4222,11 +4276,11 @@
             }
         },
         "achievements": {
-            "title": "Achievements",
-            "gotIt": "Congrats, you got it!",
-            "description": "By reaching level 5, you’ve earned Alpha Season 2 Memorabilia, which will grant you ",
-            "description2": "additional rewards for all featured seasons.",
-            "disclaimer": "Please, note that a memorabilia is not a NFT."
+            "title": "Başarılar",
+            "gotIt": "Tebrikler, anladınız!",
+            "description": "5. seviyeye ulaşarak, size kazandıracak olan Alpha Season 2 Hatırasını kazandınız",
+            "description2": "Öne çıkan tüm sezonlar için ek ödüller.",
+            "disclaimer": "Lütfen, bir hatıranın bir NFT olmadığını unutmayın."
         }
     },
     "search": "Ara",
@@ -4413,11 +4467,11 @@
         },
         "partners": {
             "title": "Ortaklar",
-            "title2": "COMING SOON",
-            "description": "PARTNERS",
-            "description2": "SEASON 3",
-            "stayTuned": "Stay tuned for the Season 3 date announcement.",
-            "register": "Register for Season 3"
+            "title2": "YAKINDA",
+            "description": "ORTAKLAR",
+            "description2": "SEZON 3",
+            "stayTuned": "3. Sezon tarih duyurusu için bizi takip etmeye devam edin.",
+            "register": "3. Sezon için Kaydol"
         },
         "modules": {
             "zero": {
@@ -4960,7 +5014,7 @@
                 "pointsInfo1": "You earn points over time for each ",
                 "pointsInfo2": " staked. Points accumulated cannot be lost. ",
                 "pointsInfo3": "staked for 28 days grants {stakingMultiplier} point.",
-                "myScore": "My Score",
+                "myScore": "puanım",
                 "earnScorePoints": "Earn Score Points",
                 "cardFirstTitle": "Stake {0} and enjoy the benefits of staking."
             }
@@ -5415,18 +5469,18 @@
                 "endText": "ve geri bildiriminize göre çok daha fazlası! Sizi dinliyoruz."
             },
             "lookBack": {
-                "title": "A LOOK BACK AT",
+                "title": "GERİ BİR BAKIŞ",
                 "metrics": {
-                    "0": "SAND DISTRIBUTED",
-                    "1": "STAKING VOLUME S2",
-                    "2": "COMMUNITY BOOSTER",
-                    "3": "ALPHA PASSES DISTRIBUTED",
-                    "4": "NFT DISTRIBUTED",
-                    "5": "CONTESTS PARTICIPANTS",
-                    "6": "ALPHA HUB VISITORS",
-                    "7": "POSITIVE FEEDBACK"
+                    "0": "KUM DAĞITIMI",
+                    "1": "BELİRLENEN HACİM S2",
+                    "2": "TOPLUK GÜÇLENDİRİCİ",
+                    "3": "ALFA GEÇİŞLERİ DAĞITILDI",
+                    "4": "NFT DAĞITILAN",
+                    "5": "YARIŞMALARA KATILAN PANTOLONLAR",
+                    "6": "ALFA HUB ZİYARETÇİLERİ",
+                    "7": "POZİTİF GERİ BİLDİRİM"
                 },
-                "subtitle": "ALPHA SEASON 2"
+                "subtitle": "ALFA SEZON 2"
             },
             "alphaNumbers": {
                 "title": "Alpha sayısı",
@@ -5451,7 +5505,7 @@
             },
             "bestMoments": {
                 "title": "ALPHA SEZON 1 EN İYİ ANLAR",
-                "title2": "BEST MOMENTS"
+                "title2": "EN İYİ ANLAR"
             },
             "alphaComing": {
                 "title": "ALPHA SEASON 2 COMING SOON",
@@ -5547,10 +5601,10 @@
                     }
                 },
                 "completion": {
-                    "title": "COMPLETION REWARD",
-                    "subtitle": "Players who completed {hundred} of the Alpha Season 2 content will get {surprise}",
+                    "title": "TAMAMLAMA ÖDÜLÜ",
+                    "subtitle": "Alpha Season 2 içeriğinin {hundred} bölümünü tamamlayan oyuncular {surprise} alacak",
                     "hundred": "100%",
-                    "surprise": "surprise rewards."
+                    "surprise": "sürpriz ödüller."
                 }
             },
             "game": {
@@ -6175,14 +6229,18 @@
                 "base7": [
                     ""
                 ]
-            }
+            },
+            "totalCashback": ""
         },
         "buySand": "KUM satın al",
         "buymSand": "mSAND satın al",
         "confirmDeposit": "Depozitoyu Onayla",
         "confirmWithdraw": "Para Çekmeyi Onayla",
         "noTransactions": "",
-        "pending": ""
+        "pending": "",
+        "checkTransactions": "Check previous transactions or confirm pending ones",
+        "pendingWithdrawals": "Pending Withdrawals",
+        "pendingDeposits": "Pending Deposits"
     },
     "season.info.communityBooster.bulletPoints.1.3": {
         "3": "3"
