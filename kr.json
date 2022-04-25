@@ -665,10 +665,10 @@
                     "gotIt": "축하합니다. 기념품을 획득했습니다!",
                     "goSeeIt": "확인하기",
                     "completeSurvey": "설문조사 참여",
-                    "earnRT": "시즌 3 추첨 티켓 획득하기",
+                    "earnRT": "EARN 10 RAFFLE TICKETS FOR SEASON 3",
                     "helpImprove": "더 나은 메타버스 세상을 위해 여러분의 목소리를 들려주세요. 설문조사를 완료하여 알파 시즌 3의 추첨 티켓을 획득하세요!",
                     "take": "설문조사 참여하기",
-                    "enterAlphaLobby": "test",
+                    "enterAlphaLobby": "알파 로비 입장하기",
                     "didNotWinMemorabilia": "기념품을 획득하지 못했습니다."
                 },
                 "timeRewards": "리워드 수령까지 남은 기간:",
@@ -3548,7 +3548,7 @@
                 "wallet": "하드웨어 월렛",
                 "learnMore": "여기에서 Biconomy에 대해 더 자세히 알아보세요.",
                 "gassless": "가스비 무료 - 28일마다 10번의 무료 트랜잭션 횟수가 충전됩니다.",
-                "forward": "",
+                "forward": "포워드 - MATIC 대신 mSAND로 가스비 지불",
                 "hardwareWallet": "하드웨어 지갑의 EIP-172 호환성 극대화",
                 "notes": "현재 설정으로 28일마다 10번의 무료 트랜잭션을 진행할 수 있으며 가스비는 mSAND로 지불됩니다. 현재 7번의 무료 트랜잭션이 남아 있습니다."
             }
@@ -6135,7 +6135,7 @@
                     "withdraw": {
                         "headerTitle": "예치 진행 중",
                         "footerTitle": "예치가 진행 중입니다.",
-                        "footerText": "동기화까지 약 3~4 시간이 소요됩니다. 체크포인트에 도착하면 인출 완료를 위한 두 번째 트랜잭션 서명 메시지 창이 나타납니다."
+                        "footerText": "동기화까지 약 3~4시간이 소요됩니다. 체크포인트에 도착하면 인출 완료를 위한 두 번째 트랜잭션 서명 메시지 창이 나타납니다."
                     }
                 },
                 "checkpoint": {
@@ -7032,7 +7032,7 @@
                         "title": "퀘스트 시스템 V2",
                         "list": {
                             "0": {
-                                "title": "The new Quest System allows you to fully customize the Quests"
+                                "title": "새로운 퀘스트 시스템을 통해 퀘스트를 전체 커스텀할 수 있습니다."
                             },
                             "1": {
                                 "title": "New options have been added to allow more customization and quests that have been done before should be easier to do now."
@@ -7088,13 +7088,13 @@
                         "title": "신규 근거리 적",
                         "list": {
                             "0": {
-                                "title": "The Enemy fighter behavior has been automatically replaced by the Melee Enemy behavior."
+                                "title": "적 전사 (Enemy fighter) 행동이 Melee Enemy (근거리 적) 행동으로 자동 대체되었습니다."
                             },
                             "1": {
                                 "title": "This behavior follows the same intentions as the previous one but has been improved to make the fights much more enjoyable."
                             },
                             "2": {
-                                "title": "A targeting system has been added to make your attacks move your avatar towards the enemies, emoving a previous frustrating experience with this."
+                                "title": "타겟팅 시스템이 추가되어 내 아바타가 적을 공격하면 자동으로 적 방향으로 향하게 되어 전투 환경을 개선했습니다."
                             }
                         }
                     },
@@ -7125,7 +7125,7 @@
                                 "title": "경험에 게시되지 않은 애셋이 포함되어 있을 경우 갤러리에서 '선택 오류' 문제가 발생할 수 있습니다."
                             },
                             "3": {
-                                "title": "Loot 또는 Asset Spawner 컴포넌트를 포함한 경험은 게임 플레이 도중 충돌이 발생했을 수 있습니다."
+                                "title": "Loot 또는 Asset Spawner 컴포넌트를 포함한 경험은 게임 플레이 도중 충돌이 발생할 수 있습니다."
                             },
                             "4": {
                                 "title": "Lighting presets may cause brightness issues on light blocks and assets."
