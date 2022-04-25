@@ -225,14 +225,16 @@
                     "simplex": "Buy SAND on Simplex",
                     "binanceCS": "Buy SAND on Binance (coming soon)",
                     "quickswap": "Swap SAND on Quickswap",
-                    "comingSoon": "More options coming soon..."
+                    "comingSoon": "More options coming soon...",
+                    "moonpay": ""
                 },
                 "values": {
                     "binance": "Binance",
                     "uniswap": "Uniswap",
                     "simplex": "Simplex",
                     "binanceCS": "BinanceCS",
-                    "quickswap": "Quickswap"
+                    "quickswap": "Quickswap",
+                    "moonpay": ""
                 },
                 "how": "SANDの購入方法",
                 "about": "支払いにはETHを使用しますが、トランザクション速度により価格が変動します。",
@@ -665,10 +667,10 @@
                     "gotIt": "Congrats! You got it",
                     "goSeeIt": "Go to see it",
                     "completeSurvey": "COMPLETE THE SURVEY",
-                    "earnRT": "EARN 10 RAFFLE TICKETS FOR SEASON 3",
+                    "earnRT": "EARN A RT FOR S3",
                     "helpImprove": "Help us improving The Sandbox by sending your feedback. Complete the survey now and get extra Raffle Tickets for Alpha Season 3!",
                     "take": "Take the survey",
-                    "enterAlphaLobby": "Enter Alpha Lobby",
+                    "enterAlphaLobby": "アルファロビーに入る",
                     "didNotWinMemorabilia": "You didn't win the memorabilia"
                 },
                 "timeRewards": "報酬を受け取りまで：",
@@ -2185,7 +2187,8 @@
                         "signin": "Venlyでサインインしてください"
                     },
                     "login": "既にアカウントを持っている",
-                    "waiting": "ログインまたはVenlyに登録してください"
+                    "waiting": "ログインまたはVenlyに登録してください",
+                    "notAvailableWallet": "{walletName} is not available in {browserName}"
                 },
                 "signinModal": {
                     "title": "ログイン",
@@ -2872,24 +2875,24 @@
                 "title": "The SandboxにあるNFT Landで何が出来るのか",
                 "cards": {
                     "host": {
-                        "text1": "コンテストやイベントの",
-                        "text2": "開催"
+                        "text1": "開催",
+                        "text2": "コンテストやイベントの"
                     },
                     "monetize": {
-                        "text1": "アセットや体験の",
-                        "text2": "収益化"
+                        "text1": "収益化",
+                        "text2": "アセットや体験の"
                     },
                     "play": {
-                        "text1": "自身や他の人が制作したゲームを",
-                        "text2": "プレイ"
+                        "text1": "プレイ",
+                        "text2": "自身や他の人が制作したゲームを"
                     },
                     "vote": {
-                        "text1": "メタバース・ガバナンスで",
-                        "text2": "投票"
+                        "text1": "投票",
+                        "text2": "メタバース・ガバナンスで"
                     },
                     "sand": {
-                        "text1": "SANDをステークして",
-                        "text2": "アセットの獲得とカスタマイズ"
+                        "text1": "アセットの獲得とカスタマイズ",
+                        "text2": "SANDをステークして"
                     }
                 }
             }
@@ -2980,7 +2983,8 @@
             "edit": "編集",
             "logout": "ログアウト",
             "settings": "設定",
-            "claim": "Claims"
+            "claim": "Claims",
+            "bridge": "Bridge"
         },
         "profile": {
             "sandAmount": "あなたの",
@@ -3222,7 +3226,7 @@
                     }
                 }
             },
-            "title": "Inventory"
+            "title": "在庫"
         },
         "avatar": {
             "empty": "このリストは空です",
@@ -3389,7 +3393,8 @@
                 "signin": "Venlyでサインインしてください"
             },
             "login": "既にアカウントを持っている",
-            "waiting": "ログインまたはVenlyに登録してください"
+            "waiting": "ログインまたはVenlyに登録してください",
+            "notAvailableWallet": "{walletName} is not available in {browserName}"
         },
         "signinModal": {
             "title": "ログイン",
@@ -3530,7 +3535,54 @@
                 "password-note": "安全のために、他のオンラインアカウントでは使用していない独自のパスワードを選ぶことを強くお勧めいたします。",
                 "old-password": "現在のパスワード",
                 "new-password": "新しいパスワード",
-                "repeat-password": "パスワードの再入力"
+                "repeat-password": "パスワードの再入力",
+                "sub": "Account security",
+                "note": "For your security, we highly recommend that you choose a unique password that you don’t use for any other online account.",
+                "email": "Email",
+                "password": "Password",
+                "check": "Security check",
+                "check-note": "Please enter your password to continue",
+                "continue": "Continue",
+                "pass-forgot": "Forgot your password?",
+                "password-section": {
+                    "title": "Edit Password",
+                    "new-password": "New Password",
+                    "repeat-password": "Repeat Password",
+                    "no-match": "Your password don't match",
+                    "match": "Password matches",
+                    "validation": "Password must be at least 8 characters with 1 upper case letter and 1 number",
+                    "save": "Save change",
+                    "success": "Successfully changed!",
+                    "months": {
+                        "0": "January",
+                        "1": "February",
+                        "2": "March",
+                        "3": "April",
+                        "4": "May",
+                        "5": "June",
+                        "6": "July",
+                        "7": "August",
+                        "8": "September",
+                        "9": "October",
+                        "10": "November",
+                        "11": "December"
+                    },
+                    "modificated": "Last update on",
+                    "not-modificated": "not modified yet"
+                },
+                "email-section": {
+                    "title": "Edit Email",
+                    "note": "For your security, you will have to validate your new email with a code that will be send to your new email.",
+                    "current-email": "Current email:"
+                },
+                "code": {
+                    "send": "Send code",
+                    "title": "Enter security code",
+                    "note": "A security code has been sent to",
+                    "check-spam": "You have not received the email? Check your spam folder",
+                    "confirm": "Confirm",
+                    "resend": "Resend code"
+                }
             },
             "chainSettings": {
                 "title": "チェーン設定",
@@ -3618,8 +3670,8 @@
             "assetOwnership": "アセット所有権",
             "presales": "プリセール",
             "faucet": "Sand & Ether Faucets",
-            "ticketDetails": "Ticket details",
-            "raffleTickets": "Raffle tickets"
+            "ticketDetails": "チケットの詳細",
+            "raffleTickets": "ラッフルチケット"
         },
         "users": {
             "profile": "プロフィール",
@@ -3842,7 +3894,9 @@
     "collectionPage": {
         "goBack": "戻る",
         "addedAssets": "追加しました",
-        "selectAssets": "コレクション内の欲しいアセットをすべて見てみましょう"
+        "selectAssets": "コレクション内の欲しいアセットをすべて見てみましょう",
+        "createCollection": "コレクションを作成する",
+        "editCollection": "コレクションを編集する"
     },
     "presaleToast": {
         "button": "今すぐ参加",
@@ -4222,11 +4276,11 @@
             }
         },
         "achievements": {
-            "title": "Achievements",
-            "gotIt": "Congrats, you got it!",
-            "description": "By reaching level 5, you’ve earned Alpha Season 2 Memorabilia, which will grant you ",
-            "description2": "additional rewards for all featured seasons.",
-            "disclaimer": "Please, note that a memorabilia is not a NFT."
+            "title": "実績",
+            "gotIt": "おめでとう、あなたはそれを手に入れました！",
+            "description": "レベル5に到達すると、Alpha Season 2Memorabiliaを獲得できます。これにより ",
+            "description2": "すべての注目シーズンの追加報酬。",
+            "disclaimer": "記念品はNFTではないことに注意してください。"
         }
     },
     "search": "検索",
@@ -4812,8 +4866,8 @@
             "oldTransactions": "以前のトランザクションを表示"
         },
         "walletTab": {
-            "mainnetL1Title": "Ethereum Network",
-            "testnetL1Title": "Goerli Network",
+            "mainnetL1Title": "Ethereum",
+            "testnetL1Title": "Goerli",
             "eth": "ETH",
             "poly": "POLYGON",
             "msand": "mSAND",
@@ -4835,8 +4889,8 @@
                 "why": "MATICを使う理由"
             },
             "maticCoin": "MATIC",
-            "mainnetL2Title": "Polygon Network",
-            "testnetL2Title": "Mumbai Network",
+            "mainnetL2Title": "Polygon",
+            "testnetL2Title": "Mumbai",
             "lands": "",
             "estate": "",
             "estates": ""
@@ -4934,10 +4988,10 @@
                 "title": "シーズン2",
                 "subtitle": "コミュニティステーキングスコア",
                 "text": "$SANDをステーキングして合計プライズプールを増やしましょう。ステーキングで追加の抽選チケットも手に入ります。",
-                "titlePolygon": "Now can stake SAND",
-                "subtitlePolygon": "and enjoy the benefits of staking.",
-                "earnMorePolygon": "Earn more ",
-                "textPolygon": "Stay tuned for more announcements",
+                "titlePolygon": "今SANDを賭けることができます",
+                "subtitlePolygon": "ステーキングのメリットを享受できます",
+                "earnMorePolygon": "もっと稼ぐ ",
+                "textPolygon": "今後の発表にご期待ください",
                 "stakePhrase01": "ステーキングで利益を享受できるのは",
                 "stakePhrase02": "と",
                 "stakePhrase03": "だけ。",
@@ -4957,11 +5011,11 @@
                 },
                 "infoStart": "シーズン期間中にステーキングした分",
                 "infoEnd": "ごとにポイントを獲得します。",
-                "pointsInfo1": "You earn points over time for each ",
-                "pointsInfo2": " staked. Points accumulated cannot be lost. ",
-                "pointsInfo3": "staked for 28 days grants {stakingMultiplier} point.",
-                "myScore": "My Score",
-                "earnScorePoints": "Earn Score Points",
+                "pointsInfo1": "それぞれの時間の経過とともにポイントを獲得します ",
+                "pointsInfo2": " 賭けた。 蓄積されたポイントは失われません。 ",
+                "pointsInfo3": "28日間賭けた場合、{stakingMultiplier}ポイントが付与されます。",
+                "myScore": "私の成績",
+                "earnScorePoints": "スコアポイントを獲得する",
                 "cardFirstTitle": "Stake {0} and enjoy the benefits of staking."
             }
         },
@@ -5547,10 +5601,10 @@
                     }
                 },
                 "completion": {
-                    "title": "COMPLETION REWARD",
-                    "subtitle": "Players who completed {hundred} of the Alpha Season 2 content will get {surprise}",
+                    "title": "完了報酬",
+                    "subtitle": "アルファシーズン2のコンテンツを {hundred} 完了したプレイヤーは、{surprise} を獲得できます。",
                     "hundred": "100%",
-                    "surprise": "surprise rewards."
+                    "surprise": "サプライズリワード。"
                 }
             },
             "game": {
@@ -6168,7 +6222,7 @@
                 }
             },
             "steps": {
-                "name": "STEP",
+                "name": "Step",
                 "base4": [
                     "1/4",
                     "2/4",
@@ -6199,14 +6253,18 @@
                     "6/7",
                     "7/7"
                 ]
-            }
+            },
+            "totalCashback": "Total Cashback:"
         },
         "buySand": "Buy SAND",
         "buymSand": "Buy mSAND",
         "confirmDeposit": "Confirm Deposit",
         "confirmWithdraw": "Confirm Withdraw",
         "noTransactions": "There are no transactions to display",
-        "pending": "Pending"
+        "pending": "Pending",
+        "checkTransactions": "Check previous transactions or confirm pending ones",
+        "pendingWithdrawals": "",
+        "pendingDeposits": ""
     },
     "season.info.communityBooster.bulletPoints.1.3": {
         "3": ""
