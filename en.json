@@ -224,15 +224,17 @@
                     "uniswap": "Buy SAND on Uniswap",
                     "simplex": "Buy SAND on Simplex",
                     "binanceCS": "Buy SAND on Binance (coming soon)",
-                    "quickswap": "Swap SAND on QuickSwap",
-                    "comingSoon": "More options coming soon..."
+                    "quickswap": "Swap SAND on Quickswap",
+                    "comingSoon": "More options coming soon...",
+                    "moonpay": "Buy SAND on MoonPay"
                 },
                 "values": {
                     "binance": "Binance",
                     "uniswap": "Uniswap",
                     "simplex": "Simplex",
                     "binanceCS": "BinanceCS",
-                    "quickswap": "QuickSwap"
+                    "quickswap": "Quickswap",
+                    "moonpay": "MoonPay"
                 },
                 "how": "How to buy SAND",
                 "about": "ETH will be used to pay the necessary amount of Gas; the price will be affected depending on the speed of the transaction.",
@@ -665,7 +667,7 @@
                     "gotIt": "Congrats! You got it",
                     "goSeeIt": "Go to see it",
                     "completeSurvey": "COMPLETE THE SURVEY",
-                    "earnRT": "EARN 10 RAFFLE TICKETS FOR SEASON 3",
+                    "earnRT": "EARN A RT FOR S3",
                     "helpImprove": "Help us improving The Sandbox by sending your feedback. Complete the survey now and get extra Raffle Tickets for Alpha Season 3!",
                     "take": "Take the survey",
                     "enterAlphaLobby": "Enter Alpha Lobby",
@@ -2185,7 +2187,8 @@
                         "signin": "Please sign in with Venly"
                     },
                     "login": "I already have an account",
-                    "waiting": "Please log in / sign up with Venly"
+                    "waiting": "Please log in / sign up with Venly",
+                    "notAvailableWallet": "{walletName} is not available in {browserName}"
                 },
                 "signinModal": {
                     "title": "Log in",
@@ -2980,7 +2983,8 @@
             "edit": "Edit",
             "logout": "Log Out",
             "settings": "Settings",
-            "claim": "Claims"
+            "claim": "Claims",
+            "bridge": "Bridge"
         },
         "profile": {
             "sandAmount": "Your",
@@ -3389,7 +3393,8 @@
                 "signin": "Please sign in with Venly"
             },
             "login": "I already have an account",
-            "waiting": "Please log in / sign up with Venly"
+            "waiting": "Please log in / sign up with Venly",
+            "notAvailableWallet": "{walletName} is not available in {browserName}"
         },
         "signinModal": {
             "title": "Log in",
@@ -3525,12 +3530,59 @@
                 "password-changed": "Your account password was changed successfully."
             },
             "security": {
-                "title": "Security and Password",
+                "title": "Email & Password",
                 "password-sub": "Password",
                 "password-note": "For your security, we highly recommend that you choose a unique password that you don’t use for any other online account.",
                 "old-password": "Current Password",
                 "new-password": "New Password",
-                "repeat-password": "Repeat Password"
+                "repeat-password": "Repeat Password",
+                "sub": "Account security",
+                "note": "For your security, we highly recommend that you choose a unique password that you don’t use for any other online account.",
+                "email": "Email",
+                "password": "Password",
+                "check": "Security check",
+                "check-note": "Please enter your password to continue",
+                "continue": "Continue",
+                "pass-forgot": "Forgot your password?",
+                "password-section": {
+                    "title": "Edit Password",
+                    "new-password": "New Password",
+                    "repeat-password": "Repeat Password",
+                    "no-match": "Your password don't match",
+                    "match": "Password matches",
+                    "validation": "Password must be at least 8 characters with 1 upper case letter and 1 number",
+                    "save": "Save change",
+                    "success": "Successfully changed!",
+                    "months": {
+                        "0": "January",
+                        "1": "February",
+                        "2": "March",
+                        "3": "April",
+                        "4": "May",
+                        "5": "June",
+                        "6": "July",
+                        "7": "August",
+                        "8": "September",
+                        "9": "October",
+                        "10": "November",
+                        "11": "December"
+                    },
+                    "modificated": "Last update on",
+                    "not-modificated": "not modified yet"
+                },
+                "email-section": {
+                    "title": "Edit Email",
+                    "note": "For your security, you will have to validate your new email with a code that will be send to your new email.",
+                    "current-email": "Current email:"
+                },
+                "code": {
+                    "send": "Send code",
+                    "title": "Enter security code",
+                    "note": "A security code has been sent to",
+                    "check-spam": "You have not received the email? Check your spam folder",
+                    "confirm": "Confirm",
+                    "resend": "Resend code"
+                }
             },
             "chainSettings": {
                 "title": "Chain Settings",
@@ -3545,7 +3597,7 @@
                 "resetGasless": "Reset on:",
                 "useGaslessFirst": "You have",
                 "useGaslessSecond": " free transactions remaining for this month.",
-                "wallet": "HARDWARE WALLET",
+                "wallet": "Hardware Wallet - Maximize EIP-172 compatibility for your hardware wallet",
                 "learnMore": "Learn more about Biconomy here",
                 "gassless": "Gasless - You get 10 free transaction every 28 days",
                 "forward": "Forward - Pay your gas fee in mSAND instead of MATIC",
@@ -3842,7 +3894,9 @@
     "collectionPage": {
         "goBack": "Back",
         "addedAssets": "Added",
-        "selectAssets": "Check all the assets you want in the collection"
+        "selectAssets": "Check all the assets you want in the collection",
+        "createCollection": "Create collection",
+        "editCollection": "Edit collection"
     },
     "presaleToast": {
         "button": "Join Now",
@@ -4812,8 +4866,8 @@
             "oldTransactions": "View old transactions"
         },
         "walletTab": {
-            "mainnetL1Title": "Ethereum Network",
-            "testnetL1Title": "Goerli Network",
+            "mainnetL1Title": "Ethereum",
+            "testnetL1Title": "Goerli",
             "eth": "ETH",
             "poly": "POLYGON",
             "msand": "mSAND",
@@ -4835,8 +4889,8 @@
                 "why": "Why use MATIC?"
             },
             "maticCoin": "MATIC",
-            "mainnetL2Title": "Polygon Network",
-            "testnetL2Title": "Mumbai Network",
+            "mainnetL2Title": "Polygon",
+            "testnetL2Title": "Mumbai",
             "lands": "Lands",
             "estate": "ESTATE",
             "estates": "Estates"
@@ -4848,7 +4902,7 @@
             },
             "step2": {
                 "title": "Get your LP tokens",
-                "text": "Go to QuickSwap and get your Liquidity pair tokens"
+                "text": "Go to quickswap and get your Liquidity pair tokens"
             },
             "step3": {
                 "title": "Deposit your LP tokens",
@@ -4899,7 +4953,7 @@
         "landOwnerRewards": "Earn additional rewards for each LAND in your wallet",
         "needToBridge": "Do you need SAND on Polygon?",
         "uniswap": "Uniswap",
-        "quickswap": "QuickSwap",
+        "quickswap": "Quickswap",
         "periodEndedOn": "Rewards ended on:",
         "tvlResumed": "TVL",
         "search-placeholder": "Search",
@@ -6168,7 +6222,7 @@
                 }
             },
             "steps": {
-                "name": "STEP",
+                "name": "Step",
                 "base4": [
                     "1/4",
                     "2/4",
@@ -6199,14 +6253,18 @@
                     "6/7",
                     "7/7"
                 ]
-            }
+            },
+            "totalCashback": "Total Cashback:"
         },
         "buySand": "Buy SAND",
         "buymSand": "Buy mSAND",
         "confirmDeposit": "Confirm Deposit",
         "confirmWithdraw": "Confirm Withdraw",
         "noTransactions": "There are no transactions to display",
-        "pending": "Pending"
+        "pending": "Pending",
+        "checkTransactions": "Check previous transactions or confirm pending ones",
+        "pendingWithdrawals": "Pending Withdrawals",
+        "pendingDeposits": "Pending Deposits"
     },
     "season.info.communityBooster.bulletPoints.1.3": {
         "3": ""
@@ -6256,9 +6314,9 @@
         },
         "2018": {
             "1": {
-                "date": "2017",
-                "month": "",
-                "title": "The Sandbox Evolution receives 2 big partnerships",
+                "date": "2018",
+                "month": "APR",
+                "title": "The Sandbox surpasses 40M downloads and 70M player creations",
                 "text": "Bandai Namco brings PAC-MAN to the game. DreamWorks brings Shrek to the game. The Sandbox Evolution announced free download in Steam"
             },
             "2": {
@@ -7643,7 +7701,7 @@
                 "text-polygon": "Buy mSAND on Uniswap"
             },
             "quickswap": {
-                "text": "Buy mSAND on QuickSwap"
+                "text": "Buy mSAND on Quickswap"
             }
         },
         "notes": {
@@ -7657,7 +7715,7 @@
                     "option2": "Binance",
                     "option3": "Uniswap",
                     "option4": "Wyre",
-                    "option5": "QuickSwap"
+                    "option5": "Quickswap"
                 }
             }
         },
