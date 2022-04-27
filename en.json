@@ -653,7 +653,7 @@
                     "raffleTitle4": "APRIL",
                     "lockedDesc": "You need a Season 2 Alpha Pass to claim the $SAND reward at the end of Alpha Season 2.",
                     "memorabilia": "Memorabilia",
-                    "memorabiliaTooltip": "All players reaching level 5 will get the season's Memorabilia, that will grant them extra rewards for all future seasons. Please note that a Memorabilia is not a NFT.",
+                    "memorabiliaTooltip": "All players reaching level 5 will get the season's Memorabilia, that will grant them extra rewards for all future seasons. Please note that a Memorabilia is not an NFT.",
                     "increaseTotalDescriptionEnd": "",
                     "seasonStart": "1",
                     "seasonFinish": "31",
@@ -1402,6 +1402,12 @@
                 "sell": "A 5% commission for The Sandbox will be added to the price of your asset once you put it up for sale.",
                 "cancel": "A 5% commission for The Sandbox has been added to the price of your asset on the market."
             }
+        },
+        "info": {
+            "amount": "Amount on sale:",
+            "price": "Price on",
+            "from": "From:",
+            "to": "To:"
         }
     },
     "shop": {
@@ -2573,7 +2579,9 @@
             "viewInMap": "View in Map",
             "readMorePremium": "Read more about premium",
             "parcel": "parcel",
-            "polygonChain": "Polygon Network"
+            "polygonChain": "Polygon Network",
+            "network": "Network",
+            "ethereumChain": "Ethereum Network"
         },
         "onboarding": {
             "title": "Sandbox Map",
@@ -3602,7 +3610,10 @@
                 "gassless": "Gasless - You get 10 free transaction every 28 days",
                 "forward": "Forward - Pay your gas fee in mSAND instead of MATIC",
                 "hardwareWallet": "Maximize EIP-172 compatibility for your hardware wallet",
-                "notes": "With your current settings, you get 10 free transactions every 28 days, then Gas Fees will be paid in mSAND. You have 7 free transactions left."
+                "notes": "With your current settings, you get 10 free transactions every 28 days, then Gas Fees will be paid in mSAND.",
+                "gasless": "Gasless - You get 10 free transaction every 28 days",
+                "transactionsLeft1": "You have",
+                "transactionsLeft2": "free transactions left."
             }
         },
         "claims": {
@@ -3671,7 +3682,8 @@
             "presales": "Presales",
             "faucet": "Sand & Ether Faucets",
             "ticketDetails": "Ticket details",
-            "raffleTickets": "Raffle tickets"
+            "raffleTickets": "Raffle tickets",
+            "products": "Product Releases"
         },
         "users": {
             "profile": "Profile",
@@ -3744,6 +3756,12 @@
             "msand": "mSAND",
             "eth": "ETH",
             "matic": "MATIC"
+        },
+        "products": {
+            "product": "Product Release",
+            "view": "View",
+            "edit": "Edit",
+            "delete": "Delete"
         }
     },
     "whitelist": {
@@ -4149,7 +4167,7 @@
         "migration": {
             "title": "Migrations",
             "subTitle": "LANDs Migration",
-            "text1": "Due to a vulnerability discovered on December 25th 2021 by",
+            "text1": "Duo to a vulnerability discovered on December 25th 2021 by",
             "text2": ", we've decided after running thorough investigations to patch and deploy a new fixed and improved version of the LAND smart contract. Further information can be found on our",
             "mediumArticle": " Medium article",
             "text3": "On this page, you will be able to redeem the exact same LANDs you own from the new smart contract based on their unique ID. The process will then lock and burn the previous version to avoid any confusion in the future.",
@@ -4552,7 +4570,10 @@
         "noResults": "No results were found in your search",
         "liteMapTooltip": "The Lite Map will show Estate images depending on the zoom level.",
         "applyButton": "Apply",
-        "disclaimer": "Experimental mode. The Map may not work correctly on some mobile devices. We continue making improvements."
+        "disclaimer": "Experimental mode. The Map may not work correctly on some mobile devices. We continue making improvements.",
+        "chain": "chain",
+        "eth": "Ethereum",
+        "polygon": "Polygon"
     },
     "auctionInfo": {
         "description": "Description",
@@ -5615,7 +5636,7 @@
                 },
                 "download": "Download Alpha",
                 "nowAvailable": {
-                    "1": "Now is available for PC and",
+                    "1": "Now available in PC and",
                     "2": "macOS"
                 }
             }
@@ -6264,7 +6285,11 @@
         "pending": "Pending",
         "checkTransactions": "Check previous transactions or confirm pending ones",
         "pendingWithdrawals": "Pending Withdrawals",
-        "pendingDeposits": "Pending Deposits"
+        "pendingDeposits": "Pending Deposits",
+        "cashback": {
+            "total": "🔥 Total Cashback accumulated 🔥",
+            "claim": "Claim Cashback"
+        }
     },
     "season.info.communityBooster.bulletPoints.1.3": {
         "3": ""
@@ -6314,9 +6339,9 @@
         },
         "2018": {
             "1": {
-                "date": "2018",
+                "date": "2017",
                 "month": "APR",
-                "title": "The Sandbox surpasses 40M downloads and 70M player creations",
+                "title": "The Sandbox Evolution receives 2 big partnerships",
                 "text": "Bandai Namco brings PAC-MAN to the game. DreamWorks brings Shrek to the game. The Sandbox Evolution announced free download in Steam"
             },
             "2": {
