@@ -1402,6 +1402,12 @@
                 "sell": "《The Sandbox》会在你出售的ASSET上加上5%的佣金。",
                 "cancel": "《The Sandbox》已在你出售的ASSET上加上5%的佣金。"
             }
+        },
+        "info": {
+            "amount": "Amount on sale:",
+            "price": "Price on",
+            "from": "From:",
+            "to": "To:"
         }
     },
     "shop": {
@@ -2573,7 +2579,9 @@
             "viewInMap": "在地图中查看",
             "readMorePremium": "了解更多关于优质的介绍",
             "parcel": "土地",
-            "polygonChain": "Polygon Network"
+            "polygonChain": "Polygon Network",
+            "network": "Network",
+            "ethereumChain": "Ethereum Network"
         },
         "onboarding": {
             "title": "Sandbox地图",
@@ -3602,7 +3610,10 @@
                 "gassless": "",
                 "forward": "",
                 "hardwareWallet": "",
-                "notes": ""
+                "notes": "",
+                "gasless": "",
+                "transactionsLeft1": "",
+                "transactionsLeft2": ""
             }
         },
         "claims": {
@@ -3671,7 +3682,8 @@
             "presales": "预售",
             "faucet": "Sand & Ether Faucets",
             "ticketDetails": "門票詳情",
-            "raffleTickets": "抽獎券"
+            "raffleTickets": "抽獎券",
+            "products": ""
         },
         "users": {
             "profile": "个人档案",
@@ -3744,6 +3756,12 @@
             "msand": "mSAND",
             "eth": "ETH",
             "matic": "MATIC"
+        },
+        "products": {
+            "product": "",
+            "view": "",
+            "edit": "",
+            "delete": ""
         }
     },
     "whitelist": {
@@ -4552,7 +4570,10 @@
         "noResults": "无搜索结果",
         "liteMapTooltip": "精简版地图会根据缩放程度显示ESTATE图像。",
         "applyButton": "应用",
-        "disclaimer": "实验模式。在某些移动设备上，地图可能无法正确运作。我们将持续改进。"
+        "disclaimer": "实验模式。在某些移动设备上，地图可能无法正确运作。我们将持续改进。",
+        "chain": "chain",
+        "eth": "Ethereum",
+        "polygon": "Polygon"
     },
     "auctionInfo": {
         "description": "描述",
@@ -6264,7 +6285,11 @@
         "pending": "Pending",
         "checkTransactions": "Check previous transactions or confirm pending ones",
         "pendingWithdrawals": "Pending Withdrawals",
-        "pendingDeposits": "Pending Deposits"
+        "pendingDeposits": "Pending Deposits",
+        "cashback": {
+            "total": "🔥 Total Cashback accumulated 🔥",
+            "claim": "Claim Cashback"
+        }
     },
     "season.info.communityBooster.bulletPoints.1.3": {
         "3": ""
