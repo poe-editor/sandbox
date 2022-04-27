@@ -1402,6 +1402,12 @@
                 "sell": "アセットを売りに出すと、The Sandboxへの手数料としてアセット価格の5%が追加されます。",
                 "cancel": "アセットをマーケットに出すと、The Sandboxへの手数料としてアセット価格の5%が追加されます。"
             }
+        },
+        "info": {
+            "amount": "Amount on sale:",
+            "price": "Price on",
+            "from": "From:",
+            "to": "To:"
         }
     },
     "shop": {
@@ -2573,7 +2579,9 @@
             "viewInMap": "マップで表示",
             "readMorePremium": "プレミアムの詳細を読む",
             "parcel": "区画",
-            "polygonChain": "Polygon Network"
+            "polygonChain": "Polygon Network",
+            "network": "Network",
+            "ethereumChain": "Ethereum Network"
         },
         "onboarding": {
             "title": "サンドボックスマップ",
@@ -3602,7 +3610,10 @@
                 "gassless": "",
                 "forward": "",
                 "hardwareWallet": "",
-                "notes": ""
+                "notes": "",
+                "gasless": "",
+                "transactionsLeft1": "",
+                "transactionsLeft2": ""
             }
         },
         "claims": {
@@ -3671,7 +3682,8 @@
             "presales": "プリセール",
             "faucet": "Sand & Ether Faucets",
             "ticketDetails": "チケットの詳細",
-            "raffleTickets": "ラッフルチケット"
+            "raffleTickets": "ラッフルチケット",
+            "products": ""
         },
         "users": {
             "profile": "プロフィール",
@@ -3744,6 +3756,12 @@
             "msand": "mSAND",
             "eth": "ETH",
             "matic": "MATIC"
+        },
+        "products": {
+            "product": "",
+            "view": "",
+            "edit": "",
+            "delete": ""
         }
     },
     "whitelist": {
@@ -4552,7 +4570,10 @@
         "noResults": "検索結果が見つかりませんでした",
         "liteMapTooltip": "ライトマップはズームレベルに応じてEstateの画像を表示します。",
         "applyButton": "適用",
-        "disclaimer": "実験モード。お使いの携帯デバイスによっては、正しくマップが表示されない可能性があります。今後も改良を続けていきます。"
+        "disclaimer": "実験モード。お使いの携帯デバイスによっては、正しくマップが表示されない可能性があります。今後も改良を続けていきます。",
+        "chain": "chain",
+        "eth": "Ethereum",
+        "polygon": "Polygon"
     },
     "auctionInfo": {
         "description": "説明",
@@ -6264,7 +6285,11 @@
         "pending": "Pending",
         "checkTransactions": "Check previous transactions or confirm pending ones",
         "pendingWithdrawals": "",
-        "pendingDeposits": ""
+        "pendingDeposits": "",
+        "cashback": {
+            "total": "🔥 Total Cashback accumulated 🔥",
+            "claim": "Claim Cashback"
+        }
     },
     "season.info.communityBooster.bulletPoints.1.3": {
         "3": ""
