@@ -212,7 +212,7 @@
         "pleaseChangeMain": "메인넷 네트워크로 변경해 주세요.",
         "pleaseChangeRinkeby": "린케비 네트워크로 변경해 주세요.",
         "recommended": "추천",
-        "enablePopups": "팝업창 허용이 활성화되어 있는지 확인해 주세요."
+        "enablePopups": "Make sure you have popups enabled"
     },
     "layout": {
         "topbar": {
@@ -1402,6 +1402,12 @@
                 "sell": "판매 시 더 샌드박스에 지불해야 하는 5%의 수수료가 애셋 가격에 추가됩니다.",
                 "cancel": "더 샌드박스에 지불해야 하는 5%의 수수료가 상점의 애셋 가격에 추가되었습니다."
             }
+        },
+        "info": {
+            "amount": "Amount on sale:",
+            "price": "Price on",
+            "from": "From:",
+            "to": "To:"
         }
     },
     "shop": {
@@ -2573,7 +2579,9 @@
             "viewInMap": "맵에서 보기",
             "readMorePremium": "프리미엄에 관해 더 알아보기",
             "parcel": "구획",
-            "polygonChain": "폴리곤 네트워크"
+            "polygonChain": "폴리곤 네트워크",
+            "network": "Network",
+            "ethereumChain": "Ethereum Network"
         },
         "onboarding": {
             "title": "더 샌드박스 맵",
@@ -2956,12 +2964,12 @@
                 "0": {
                     "title": "더 샌드박스 GM 아카데미에 오신 것을 환영합니다",
                     "description": "게임 메이커를 이용하여 메타버스에서 경험을 만들고 공유하는 방법을 알아보세요.",
-                    "link": "https://sandboxgame.gitbook.io/the-game-maker-academy/"
+                    "link": "https://sandboxgame.gitbook.io/the-game-maker-academy_kr/QXVjiJZSETueiVsHSiOX/"
                 },
                 "1": {
                     "title": "게임 메이커란?",
                     "description": "더 샌드박스 메타버스 내에서 경험을 만든 후 게시하는 데 사용하는 프로그램입니다.",
-                    "link": "https://sandboxgame.gitbook.io/the-game-maker-academy/welcome-to-the-sandbox/game-maker"
+                    "link": "https://sandboxgame.gitbook.io/the-game-maker-academy_kr/QXVjiJZSETueiVsHSiOX/welcome-to-the-sandbox/game-maker"
                 },
                 "2": {
                     "title": "무엇을 만들 수 있나요?",
@@ -3494,7 +3502,7 @@
         },
         "settings": {
             "title": "설정",
-            "gral": "일반 설정",
+            "gral": "Gral. 설정",
             "securityMobile": "보안 및 비밀번호",
             "general": {
                 "title": "일반 설정",
@@ -3530,58 +3538,58 @@
                 "password-changed": "계정의 패스워드가 성공적으로 변경되었습니다."
             },
             "security": {
-                "title": "이메일 및 비밀번호",
+                "title": "Email & Password",
                 "password-sub": "비밀번호",
                 "password-note": "보안을 위해 다른 온라인 계정에서는 사용하지 않는 새로운 비밀번호를 사용하는 것이 좋습니다.",
                 "old-password": "기존 비밀번호",
                 "new-password": "새 비밀번호",
                 "repeat-password": "비밀번호 다시 입력",
-                "sub": "계정 보안",
-                "note": "보안을 위해 다른 온라인 계정에서는 사용하지 않는 새로운 비밀번호를 사용하는 것이 좋습니다.",
-                "email": "이메일",
-                "password": "비밀번호",
-                "check": "보안 확인",
-                "check-note": "계속하려면 비밀번호를 입력하세요.",
-                "continue": "계속",
-                "pass-forgot": "비밀번호를 잊어버렸습니다.",
+                "sub": "Account security",
+                "note": "For your security, we highly recommend that you choose a unique password that you don’t use for any other online account.",
+                "email": "Email",
+                "password": "Password",
+                "check": "Security check",
+                "check-note": "Please enter your password to continue",
+                "continue": "Continue",
+                "pass-forgot": "Forgot your password?",
                 "password-section": {
-                    "title": "비밀번호 수정",
-                    "new-password": "새 비밀번호",
-                    "repeat-password": "비밀번호 다시 입력",
-                    "no-match": "비밀번호가 일치하지 않습니다.",
-                    "match": "비밀번호가 일치합니다.",
-                    "validation": "비밀번호는 최소 1개의 대문자와 1개의 숫자를 포함한 8글자 이상이어야 합니다.",
-                    "save": "변경사항 저장",
-                    "success": "성공적으로 변경되었습니다!",
+                    "title": "Edit Password",
+                    "new-password": "New Password",
+                    "repeat-password": "Repeat Password",
+                    "no-match": "Your password don't match",
+                    "match": "Password matches",
+                    "validation": "Password must be at least 8 characters with 1 upper case letter and 1 number",
+                    "save": "Save change",
+                    "success": "Successfully changed!",
                     "months": {
-                        "0": "1월",
-                        "1": "2월",
-                        "2": "3월",
-                        "3": "4월",
-                        "4": "5월",
-                        "5": "6월",
-                        "6": "7월",
-                        "7": "8월",
-                        "8": "9월",
-                        "9": "10월",
-                        "10": "11월",
-                        "11": "12월"
+                        "0": "January",
+                        "1": "February",
+                        "2": "March",
+                        "3": "April",
+                        "4": "May",
+                        "5": "June",
+                        "6": "July",
+                        "7": "August",
+                        "8": "September",
+                        "9": "October",
+                        "10": "November",
+                        "11": "December"
                     },
-                    "modificated": "마지막 업데이트:",
-                    "not-modificated": "아직 수정되지 않음"
+                    "modificated": "Last update on",
+                    "not-modificated": "not modified yet"
                 },
                 "email-section": {
-                    "title": "이메일 수정",
-                    "note": "보안을 위해 새로운 이메일 주소로 전송된 코드를 확인해 주세요.",
-                    "current-email": "현재 이메일:"
+                    "title": "Edit Email",
+                    "note": "For your security, you will have to validate your new email with a code that will be send to your new email.",
+                    "current-email": "Current email:"
                 },
                 "code": {
-                    "send": "코드 전송",
-                    "title": "보안 코드 입력",
-                    "note": "보안 코드가 다음으로 전송되었습니다:",
-                    "check-spam": "이메일을 받지 못했다면 스팸 메일함을 확인해 보세요.",
-                    "confirm": "확인",
-                    "resend": "코드 재전송"
+                    "send": "Send code",
+                    "title": "Enter security code",
+                    "note": "A security code has been sent to",
+                    "check-spam": "You have not received the email? Check your spam folder",
+                    "confirm": "Confirm",
+                    "resend": "Resend code"
                 }
             },
             "chainSettings": {
@@ -3602,7 +3610,10 @@
                 "gassless": "가스비 무료 - 28일마다 10번의 무료 트랜잭션 횟수가 충전됩니다.",
                 "forward": "포워드 - MATIC 대신 mSAND로 가스비 지불",
                 "hardwareWallet": "하드웨어 지갑의 EIP-172 호환성 극대화",
-                "notes": "현재 설정으로 28일마다 10번의 무료 트랜잭션을 진행할 수 있으며 가스비는 mSAND로 지불됩니다. 현재 7번의 무료 트랜잭션이 남아 있습니다."
+                "notes": "현재 설정으로 28일마다 10번의 무료 트랜잭션을 진행할 수 있으며 가스비는 mSAND로 지불됩니다. 현재 7번의 무료 트랜잭션이 남아 있습니다.",
+                "gasless": "",
+                "transactionsLeft1": "",
+                "transactionsLeft2": ""
             }
         },
         "claims": {
@@ -3671,7 +3682,8 @@
             "presales": "프리세일",
             "faucet": "Sand & Ether Faucets",
             "ticketDetails": "Ticket details",
-            "raffleTickets": "추첨 티켓"
+            "raffleTickets": "추첨 티켓",
+            "products": ""
         },
         "users": {
             "profile": "프로필",
@@ -3744,6 +3756,12 @@
             "msand": "mSAND",
             "eth": "ETH",
             "matic": "MATIC"
+        },
+        "products": {
+            "product": "",
+            "view": "",
+            "edit": "",
+            "delete": ""
         }
     },
     "whitelist": {
@@ -4163,7 +4181,7 @@
             "thanks": "변함없는 응원에 감사드립니다.",
             "oldContract": "이전 컨트랙트",
             "newContract": "신규 컨트랙트",
-            "migrateBtn": "모든 LAND를 신규 컨트랙트로 마이그레이션하기",
+            "migrateBtn": "LAND를 모두 신규 컨트랙트로 마이그레이션하기",
             "viewMigrateContract": "Etherscan에서 마이그레이션 컨트랙트 보기",
             "reviewAudit": "마이그레이션 컨트랙트 감사 내역 확인하기",
             "gasless1": "마이그레이션에는 가스 수수료가 발생하지 않습니다.",
@@ -4173,7 +4191,7 @@
             "readTheArticle": "기사 확인하기",
             "sandDropSubtitle": "받을 수 있는 SAND는",
             "checkYourWallet": "이었습니다. 폴리곤에서 지갑을 확인해 보세요.",
-            "success": "모든 LAND가 성공적으로 마이그레이션되었습니다.",
+            "success": "LAND를 모두 성공적으로 마이그레이션했습니다.",
             "gaslessWarningMobile": "가스 수수료 없음",
             "insideProfile": {
                 "title": "신규 LAND 스마트 컨트랙트",
@@ -4272,7 +4290,7 @@
             "trezorNote": "* Or any other hardware wallet not compatible with EIP-712.",
             "menu": {
                 "land": "Land",
-                "faqs": "FAQ"
+                "faqs": "S.S.S"
             }
         },
         "achievements": {
@@ -4552,7 +4570,10 @@
         "noResults": "검색 결과가 없습니다",
         "liteMapTooltip": "라이트 맵에는 확대/축소 수준에 따라 이스테이트 이미지가 표시됩니다.",
         "applyButton": "적용",
-        "disclaimer": "실험 모드. 일부 모바일 기기에서는 맵이 제대로 작동하지 않을 수 있습니다. 계속해서 개선하고 있습니다."
+        "disclaimer": "실험 모드. 일부 모바일 기기에서는 맵이 제대로 작동하지 않을 수 있습니다. 계속해서 개선하고 있습니다.",
+        "chain": "chain",
+        "eth": "Ethereum",
+        "polygon": "Polygon"
     },
     "auctionInfo": {
         "description": "설명",
@@ -5671,8 +5692,8 @@
             "verifyEmail": "이메일 확인 중",
             "login": "로그인",
             "emailVerification": "이메일 확인",
-            "emailRetry1": "이메일을 전송했습니다.",
-            "emailRetry2": "초 후에 다시 시도하세요.",
+            "emailRetry1": "이메일을 전송했습니다. ",
+            "emailRetry2": "초 이내에 다시 시도하세요.",
             "sentEmailVerif": "확인 이메일 전송",
             "setEmail": "이메일을 설정하세요.",
             "pleaseLogIn": "이메일 확인을 요청하려면 로그인하세요."
@@ -6189,7 +6210,7 @@
                     "withdraw": {
                         "headerTitle": "예치 진행 중",
                         "footerTitle": "예치가 진행 중입니다.",
-                        "footerText": "동기화까지 약 3~4시간이 소요됩니다. 체크포인트에 도착하면 인출 완료를 위한 두 번째 트랜잭션 서명 메시지 창이 나타납니다."
+                        "footerText": "동기화까지 약 3~4 시간이 소요됩니다. 체크포인트에 도착하면 인출 완료를 위한 두 번째 트랜잭션 서명 메시지 창이 나타납니다."
                     }
                 },
                 "checkpoint": {
@@ -6261,7 +6282,11 @@
         "pending": "보류 중",
         "checkTransactions": "이전 트랜잭션이나 보류 중인 트랜잭션을 확인하세요.",
         "pendingWithdrawals": "보류 중인 인출",
-        "pendingDeposits": "보류 중인 예치"
+        "pendingDeposits": "보류 중인 예치",
+        "cashback": {
+            "total": "🔥 Total Cashback accumulated 🔥",
+            "claim": "Claim Cashback"
+        }
     },
     "season.info.communityBooster.bulletPoints.1.3": {
         "3": "을 획득할 수 있습니다."
@@ -6907,7 +6932,7 @@
                         "title": "스크린 직사각형 도구"
                     },
                     "3": {
-                        "title": "Y 축과 평행한 고정 라이트"
+                        "title": "Fixed Lights Parallel to Y axis"
                     },
                     "4": {
                         "title": "툴팁에 바로가기 추가"
@@ -6948,7 +6973,7 @@
                                 "title": "템플릿 리스트 UI 업데이트"
                             },
                             "3": {
-                                "title": "팔레트 메타데이터가 포함된 VXMB 포맷"
+                                "title": "VXMB format with palette metadata."
                             },
                             "4": {
                                 "title": "스페이스바를 이용한 카메라 패닝 바로가기"
@@ -7042,13 +7067,13 @@
                         "subtitle": "이제 아바타가 파란색 커서로 하이라이트 표시된 아바타 포털에서 생성됩니다.",
                         "list": {
                             "0": {
-                                "title": "새롭게 생긴 GLOBAL PARAMETERS 버튼을 눌러 아바타의 행동, 컴포넌트, 카메라와 모델을 수정할 수 있습니다. 아바타 포털을 선택하고 속성에서 AVATAR SETTINGS 버튼을 클릭하여 이 메뉴에 액세스할 수도 있습니다."
+                                "title": "새롭게 생긴 GLOBAL PARAMETERS 버튼을 눌러 아바타의 행동, 컴포넌트, 카메라와 모델을 수정할 수 있습니다. You also get access to this menu by clicking on the AVATAR SETTINGS button in the inspector while selecting the Avatar’s portal."
                             },
                             "1": {
                                 "title": "Avatar: 이 메뉴에서 생성될 아바타 종류를 선택하고 태그를 추가할 수 있습니다."
                             },
                             "2": {
-                                "title": "Camera: 이 메뉴에서 카메라 시점을 변경하거나 각 값을 원하는 대로 지정하여 시야를 조정할 수 있습니다."
+                                "title": "Camera: In this menu, you can easily change the camera views and customize each value to make the camera you want."
                             },
                             "3": {
                                 "title": "Controller: 이 메뉴에서 아바타의 행동값과 컴포넌트를 추가/삭제할 수 있습니다."
@@ -7090,7 +7115,7 @@
                         "title": "퀘스트 시스템 V2",
                         "list": {
                             "0": {
-                                "title": "새로운 퀘스트 시스템을 통해 퀘스트를 전체 커스텀할 수 있습니다."
+                                "title": "The new Quest System allows you to fully customize the Quests"
                             },
                             "1": {
                                 "title": "New options have been added to allow more customization and quests that have been done before should be easier to do now."
@@ -7146,13 +7171,13 @@
                         "title": "신규 근거리 적",
                         "list": {
                             "0": {
-                                "title": "적 전사 (Enemy fighter) 행동이 Melee Enemy (근거리 적) 행동으로 자동 대체되었습니다."
+                                "title": "The Enemy fighter behavior has been automatically replaced by the Melee Enemy behavior."
                             },
                             "1": {
                                 "title": "This behavior follows the same intentions as the previous one but has been improved to make the fights much more enjoyable."
                             },
                             "2": {
-                                "title": "타겟팅 시스템이 추가되어 내 아바타가 적을 공격하면 자동으로 적 방향으로 향하게 되어 전투 환경을 개선했습니다."
+                                "title": "A targeting system has been added to make your attacks move your avatar towards the enemies, emoving a previous frustrating experience with this."
                             }
                         }
                     },
@@ -7183,7 +7208,7 @@
                                 "title": "경험에 게시되지 않은 애셋이 포함되어 있을 경우 갤러리에서 '선택 오류' 문제가 발생할 수 있습니다."
                             },
                             "3": {
-                                "title": "Loot 또는 Asset Spawner 컴포넌트를 포함한 경험은 게임 플레이 도중 충돌이 발생할 수 있습니다."
+                                "title": "Loot 또는 Asset Spawner 컴포넌트를 포함한 경험은 게임 플레이 도중 충돌이 발생했을 수 있습니다."
                             },
                             "4": {
                                 "title": "Lighting presets may cause brightness issues on light blocks and assets."
@@ -7247,7 +7272,7 @@
                     },
                     "3": {
                         "title": "행동",
-                        "subtitle": "게임 내 원활한 동작을 위해 일부 행동을 수정했습니다. 행동 시스템에 관련하여 알려진 대부분의 문제는 성공적으로 해결되었습니다."
+                        "subtitle": "We’ve fixed some of the behaviors to make better use of our technical stack. Most of our known issues regarding the behavior system have been successfully addressed."
                     },
                     "4": {
                         "title": "신규 템플릿",
@@ -7673,65 +7698,65 @@
         }
     },
     "buySandModal": {
-        "ethereumNetwork": "이더리움 네트워크",
-        "polygonNetwork": "폴리곤 네트워크",
+        "ethereumNetwork": "Ethereum Network",
+        "polygonNetwork": "Polygon Network",
         "ethereum": {
-            "title": "지갑에 SAND 추가하기",
-            "description": "SAND란 더 샌드박스의 NFT를 구매할 때 사용되는 통화입니다."
+            "title": "Add SAND to your wallet",
+            "description": "SAND is the currency you need to buy NFTs at The Sandbox"
         },
         "polygon": {
-            "title": "지갑에 mSAND 추가하기",
-            "description": "mSAND란 폴리곤 네트워크에서 더 샌드박스의 NFT를 구매할 때 사용되는 통화입니다."
+            "title": "Add mSAND to your wallet",
+            "description": "mSAND is the currency you need to buy NFTs at The Sandbox on Polygon Network"
         },
         "options": {
             "moonpay": {
-                "text": "신용카드로 구입하기 (MoonPay)",
+                "text": "Buy with Credit Card (MoonPay)",
                 "extra": "Switch Provider"
             },
             "binance": {
-                "text-ethereum": "Binance에서 SAND 구입하기",
-                "text-polygon": "Binance에서 mSAND 구입하기",
-                "extra": "(곧 찾아옵니다)"
+                "text-ethereum": "Buy SAND on Binance",
+                "text-polygon": "Buy mSAND on Binance",
+                "extra": "(Coming soon)"
             },
             "uniswap": {
-                "text-ethereum": "UniSwap에서 SAND 구입하기",
-                "text-polygon": "UniSwap에서 mSAND 구입하기"
+                "text-ethereum": "Buy SAND on Uniswap",
+                "text-polygon": "Buy mSAND on Uniswap"
             },
             "quickswap": {
-                "text": "QuickSwap에서 mSAND 구입하기"
+                "text": "Buy mSAND on Quickswap"
             }
         },
         "notes": {
-            "note1-ethereum": "지갑에 가스비 지불을 위한 ETH가 있는지 확인하세요.",
-            "note1-polygon": "지갑에 가스비 지불을 위한 MATIC이 있는지 확인하세요.",
+            "note1-ethereum": "Make sure you also have ETH in your wallet. ETH is required to pay Gas fees.",
+            "note1-polygon": "Make sure you also have MATIC in your wallet. MATIC is required to pay Gas fees.",
             "note2": {
-                "text-ethereum": "ETH 구입:",
-                "text-polygon": "MATIC 구입:",
+                "text-ethereum": "Buy ETH on:",
+                "text-polygon": "Buy MATIC on:",
                 "options": {
-                    "option1": "신용/직불카드",
+                    "option1": "With Credit/Debit Card",
                     "option2": "Binance",
-                    "option3": "UniSwap",
+                    "option3": "Uniswap",
                     "option4": "Wyre",
-                    "option5": "QuickSwap"
+                    "option5": "Quickswap"
                 }
             }
         },
         "help": {
-            "question1": "지갑이란 무엇인가요?",
-            "question2-ethereum": "어떻게 SAND를 구입하나요?",
-            "question2-polygon": "어떻게 mSAND를 구입하나요?",
-            "question3": "왜 ETH가 필요한가요?",
-            "question3-polygon": "왜 MATIC이 필요한가요?",
-            "question4": "가스비란 무엇인가요?",
-            "more": "더 많은 FAQ 확인하기"
+            "question1": "What is a wallet?",
+            "question2-ethereum": "How to buy SAND?",
+            "question2-polygon": "How to buy mSAND?",
+            "question3": "Why do I need ETH?",
+            "question3-polygon": "Why do I need MATIC?",
+            "question4": "What is Gas fee?",
+            "more": "See more FAQs"
         },
         "fiatOptions": {
-            "moonpay": "MoonPay",
+            "moonpay": "Moonpay",
             "simplex": "Simplex",
             "uphold": "Uphold",
             "ramp": "Ramp",
-            "comingSoon": "(곧 찾아옵니다)",
-            "recommended": "권장"
+            "comingSoon": "(Coming Soon)",
+            "recommended": "Recommended"
         }
     }
 }
