@@ -226,7 +226,7 @@
                     "binanceCS": "Binance üzerinden SAND al (çok yakında)",
                     "quickswap": "Quickswap'ta SAND takas et",
                     "comingSoon": "Daha fazla seçenekler çok yakında...",
-                    "moonpay": ""
+                    "moonpay": "MoonPay'de SAND satın alın"
                 },
                 "values": {
                     "binance": "Binance",
@@ -234,7 +234,7 @@
                     "simplex": "Simplex",
                     "binanceCS": "BinanceCS",
                     "quickswap": "Quickswap",
-                    "moonpay": ""
+                    "moonpay": "MoonPay"
                 },
                 "how": "Nasıl SAND alınır",
                 "about": "Gaz ücretleri için ETH kullanılacak; ücret işlemin hızına göre değişiklik gösterebilir.",
@@ -631,7 +631,7 @@
                         "referFriend": "Refer a friend and get a change of winning a Season 2 Alpha Pass",
                         "completeGoal": "Complete the community goal to unlock a special contest.",
                         "communityGoal": "Community Goal: {currentAccounts} / 100,000 New Accounts",
-                        "currentAccounts": "",
+                        "currentAccounts": "Hesaplar",
                         "lastUpdate": "Last Update March {lastUpdateDate} UTC {utcTime}"
                     },
                     "seasonOverDescription2": "Bilet sahiplerinin VIP Partisini ziyaret etmek ve daha sonra $SAND ödüllerinizi almak için Alpha Biletinizi şimdi alın!",
@@ -654,7 +654,7 @@
                     "lockedDesc": "Alpha Season 2'nin sonunda $ SAND ödülünü almak için 2. Sezon Alpha Pass'a ihtiyacınız var.",
                     "memorabilia": "HATIRLATMA",
                     "memorabiliaTooltip": "5. seviyeye ulaşan tüm oyuncular sezonun Hatıralarını alacaklar, bu da onlara gelecek sezonlar için ekstra ödüller verecek.Bir Hatıra'nın bir NFT olmadığını lütfen unutmayın.",
-                    "increaseTotalDescriptionEnd": "",
+                    "increaseTotalDescriptionEnd": "Açıklama",
                     "seasonStart": "1",
                     "seasonFinish": "31",
                     "hasJustEnded": "ALPHA 2. SEZON YENİ BİTİRDİ",
@@ -677,7 +677,7 @@
                 "raffleResults": "ÇEKİLİŞ ÖDÜLLERİ İÇİN",
                 "raffleStarts": "ÇEKİLİŞ BAŞLIYOR",
                 "timeLeft": "KALAN ZAMAN",
-                "timeLeftToClaim": "TALEP MEVCUTTUR"
+                "timeLeftToClaim": "TALEP İÇİN SON"
             },
             "experienceToVisit": "Alpha görevi tamamlandı",
             "raffleTickets": {
@@ -1234,7 +1234,7 @@
                 "warning": {
                     "title": "Uyarı",
                     "first": {
-                        "1": "Sandbox şu anda Alfa durumunda olduğundan,",
+                        "1": "Sandbox şu anda Alpha durumunda olduğundan,",
                         "2": "karışıklık yaratabilecek bazı görev özelliklerini kaçırıyoruz",
                         "3": "ama bu asla ödüllerinizi kazanmanızı engellemez:"
                     },
@@ -1244,7 +1244,7 @@
                     },
                     "third": {
                         "1": "- Eğer sen",
-                        "2": "aynı görevi birden çok kez tamamlayın, bu size yalnızca bir kez ilerleme sağlayacaktır."
+                        "2": "aynı görevi birden çok kez tamamladıysan, bu size yalnızca bir kez ilerleme sağlayacaktır."
                     },
                     "fourth": {
                         "1": "- Hangi görevi tamamlayıp tamamlamadığınız konusunda kafa karışıklığını önlemek için,",
@@ -1252,7 +1252,7 @@
                     },
                     "fifth": {
                         "1": "Bu konuda size yardımcı olmak için, her zaman",
-                        "2": "Alfa Haritasında tamamladığınız görevlerin sayısını görün",
+                        "2": "Alpha Haritasında tamamladığınız görevlerin sayısını görün",
                         "3": "her deneyim için."
                     },
                     "sixth": {
@@ -1404,10 +1404,10 @@
             }
         },
         "info": {
-            "amount": "",
-            "price": "",
-            "from": "",
-            "to": ""
+            "amount": "Satıştaki Miktar:",
+            "price": "Fiyat",
+            "from": "Buradan:",
+            "to": "Buraya:"
         }
     },
     "shop": {
@@ -2829,11 +2829,11 @@
                     "5": "Sanbox ekibi tarafından dünyadaki Sandbox bilinirliğini arttırmak amaçlı düzelenen büyük etkinlik ödülleri için sponsorluk (VoxEdit Yarışması ve Game Jam).",
                     "6": "SAND kullanımı teşvik etmek için play-to-earn turnuvalarını farkı cross-gaming etkinliklerle desteklemek.",
                     "2a": "https://www.sandbox.game/game/top",
-                    "2b": "",
+                    "2b": "2b",
                     "3a": "http://www.sandbox.game/shop",
-                    "3b": "",
+                    "3b": "3b",
                     "4a": "https://medium.com/sandbox-game/the-sandbox-ambassador-program-4f00bb5c9c24",
-                    "4b": ""
+                    "4b": "4b"
                 }
             }
         },
@@ -3606,14 +3606,14 @@
                 "useGaslessFirst": "Bu ay için toplam",
                 "useGaslessSecond": "adet ücretsiz transfer hakkınız bulunmaktadır.",
                 "wallet": "HARDWARE WALLET",
-                "learnMore": "",
-                "gassless": "",
-                "forward": "",
-                "hardwareWallet": "",
-                "notes": "",
-                "gasless": "",
-                "transactionsLeft1": "",
-                "transactionsLeft2": ""
+                "learnMore": "Biconomy hakkında buradan daha fazla bilgi edinin",
+                "gassless": "Gazsız - Her 28 günde bir 10 ücretsiz işlem alırsınız",
+                "forward": "Forward - Gaz ücretinizi MATIC yerine mSAND olarak ödeyin",
+                "hardwareWallet": "Donanım cüzdanınız için EIP-172 uyumluluğunu en üst düzeye çıkarın",
+                "notes": "Mevcut ayarlarınızla 28 günde bir 10 ücretsiz işlem alırsınız, ardından Gaz Ücretleri mSAND olarak ödenir",
+                "gasless": "Gazsız - 28 günde bir 10 ücretsiz işlem alırsınız",
+                "transactionsLeft1": "Sahipsin",
+                "transactionsLeft2": "ücretsiz işlemler kaldı."
             }
         },
         "claims": {
@@ -3683,7 +3683,7 @@
             "faucet": "Sand & Ether Muslukları",
             "ticketDetails": "Bilet detayları",
             "raffleTickets": "Çekiliş biletleri",
-            "products": ""
+            "products": "Ürün Sürümleri"
         },
         "users": {
             "profile": "Profil",
@@ -3758,10 +3758,10 @@
             "matic": "MATIC"
         },
         "products": {
-            "product": "",
-            "view": "",
-            "edit": "",
-            "delete": ""
+            "product": "Ürün Sürümleri",
+            "view": "Göster",
+            "edit": "Düzenle",
+            "delete": "Sil"
         }
     },
     "whitelist": {
@@ -3842,7 +3842,7 @@
         "selectAvatar": "Avatar'ını seç",
         "infoTooltip": "Sahip olduğunuz her LAND için 1 ekstra çekiliş bileti kazanın",
         "helpUs": "Sandbox deneyimini daha da iyileştirmek için yardım et!",
-        "readMore": ""
+        "readMore": "Oku"
     },
     "experiencePage": {
         "progressSeason": "Sezon İlerlemesi",
@@ -3975,7 +3975,7 @@
             "themes": "Tema",
             "send": "Onay için gönder",
             "sendExclusive": "Özel olarak kaydet",
-            "saveDraft": ""
+            "saveDraft": "Taslak olarak kaydet"
         }
     },
     "onboarding": {
@@ -4913,8 +4913,8 @@
             "mainnetL2Title": "Polygon Network",
             "testnetL2Title": "Mumbai Network",
             "lands": "topraklar",
-            "estate": "ARAZİ",
-            "estates": "mülkler"
+            "estate": "ESTATE",
+            "estates": "Estate"
         },
         "tutorial": {
             "step1": {
@@ -5054,7 +5054,7 @@
         "choose": "Cüzdanını seç",
         "sub-choose": "Yüklü bir cüzdanınız yok, devam etmek için birini seçin",
         "warning": "Telefonunuzdaysanız, tarayıcısını kullanmak için lütfen cüzdan uygulamanızdan giriş yapın.",
-        "changeBrowser": ""
+        "changeBrowser": "Lütfen sayfayı yeni tarayıcınızda ziyaret edin"
     },
     "licenses": {
         "license": "LİSANSLAR",
@@ -5581,7 +5581,7 @@
                             "1": "Herkes oynayabilir ve",
                             "2": "Sezon 2 içerikleriyle Alpha Bileti",
                             "3": "10,000 Sezon 2 Alpha Bileti'nden",
-                            "4": "10,000 Season 2 Alpha Passes."
+                            "4": "birini kazan."
                         }
                     },
                     "3": {
@@ -5590,7 +5590,7 @@
                             "1": "Sezon 2 Alpha Bileti kazanma şansını arttırmak için",
                             "2": "Görevleri tamamla",
                             "3": "ve Çekiliş Biletleri kazan",
-                            "4": "\"Çekiliş Biletleri NFT Değildir"
+                            "4": "Çekiliş Biletleri NFT Değildir"
                         }
                     },
                     "4": {
@@ -5610,8 +5610,8 @@
                             "5": "Ve sen de ekstra Çekiliş Bileti kazan.",
                             "6": "You will also get up to 200 extra Raffle Tickets",
                             "7": "for staking",
-                            "8": "",
-                            "9": ""
+                            "8": "8",
+                            "9": "9"
                         },
                         "button": "Güçlendirme Ödülleri",
                         "booster": {
@@ -5717,8 +5717,8 @@
             "tooltip": "Katılmak için LAND sahibi olmalısın",
             "inPreseason": "ALPHA'DA",
             "outPreseason": "ALPHA'DA DEĞİL",
-            "noAlphaPass": "",
-            "alphaPass": ""
+            "noAlphaPass": "Alpha Bileti Yok",
+            "alphaPass": "Alpha Bileti"
         },
         "currentBalance": {
             "balance": "Güncel Bakiyeniz",
@@ -6079,11 +6079,14 @@
         },
         "sidebar": {
             "amount": {
-                "main": "",
+                "main": "Tutarı ayarla",
                 "token": [
-                    ""
+                    "SAND",
+                    "mSAND",
+                    "LAND",
+                    "VARLIK"
                 ],
-                "banner": ""
+                "banner": "Transfer miktarı"
             },
             "amountSet": "Miktar Girin",
             "amountEnter": "Miktarı Girin",
@@ -6159,106 +6162,127 @@
                 }
             },
             "noTransactions": "Görüntülenecek işlem yok",
-            "viewEth": "",
-            "viewPol": "",
-            "back": "",
-            "confirm": "",
-            "deposit": "",
-            "withdraw": "",
+            "viewEth": "Etherscan'da görüntüle",
+            "viewPol": "Polygonscan'de görüntüle",
+            "back": "Köprüye Geri Dön",
+            "confirm": "Onaylamak",
+            "deposit": "YATIR",
+            "withdraw": "ÇEK",
             "stages": {
                 "selection": {
                     "deposit": {
-                        "headerTitle": "",
-                        "headerSubTitle": "",
-                        "footerTitle": "",
+                        "headerTitle": "Yatırılacak tutarı seçin",
+                        "headerSubTitle": "Lütfen Polygon'a aktarmak için bir SAND miktarı seçin.",
+                        "footerTitle": "Hatırlatıcı",
                         "footerText": [
-                            ""
+                            "Polygon bir PoS ağıdır, jetonlarınız iki adımda Polygon ağına gönderilecektir.",
+                            "İlk işlemi imzaladıktan sonra beklemeniz gerekecek - ağların senkronize olması için 10 dakika"
                         ],
-                        "button": ""
+                        "button": "Para Yatırma Başlat"
                     },
                     "withdraw": {
-                        "headerTitle": "",
-                        "headerSubTitle": "",
+                        "headerTitle": "Çekilecek tutarı seçin",
+                        "headerSubTitle": "Lütfen Ethereum'a aktarmak için bir SAND tutarı seçin.",
                         "footerText": [
-                            ""
+                            "Jetonlarınız iki adımda Ethereum ağına geri gönderilecek.",
+                            "İlk işlemi imzaladıktan sonra, ağların senkronize olması için 3-4 saat beklemeniz gerekecek.",
+                            "Ardından ikinci bir işlem imzalamanız istenecektir."
                         ],
-                        "button": ""
+                        "button": "Para Çekmeyi Başlat"
                     }
                 },
                 "confirm": {
-                    "headerTitle": "",
-                    "headerSubTitle": "",
-                    "footerTitle": "",
-                    "feePol": "",
-                    "feeEth": ""
+                    "headerTitle": "İşlemi gözden geçir",
+                    "headerSubTitle": "Lütfen işlem ayrıntılarını inceleyin.",
+                    "footerTitle": "Tahmini Gaz Ücreti",
+                    "feePol": "Polygon Ücreti",
+                    "feeEth": "Ethereum Ücreti"
                 },
                 "wait": {
-                    "headerTitle": "",
-                    "headerSubTitle": "",
-                    "footerText": ""
+                    "headerTitle": "İşlem devam ediyor",
+                    "headerSubTitle": "Lütfen transfer onaylanana kadar bekleyin.",
+                    "footerText": "Ayarlarınıza bağlı olarak, onaylanması birkaç saniye ile birkaç dakika arasında sürer."
                 },
                 "route": {
-                    "headerSubTitle": "",
+                    "headerSubTitle": "Lütfen aktarım tamamlanana kadar bekleyin.",
                     "deposit": {
-                        "headerTitle": "",
-                        "footerTitle": "",
-                        "footerText": ""
+                        "headerTitle": "Yatırma işlemi yolda",
+                        "footerTitle": "Yatırma işlemi devam ediyor",
+                        "footerText": "Senkronize etmek yaklaşık - 10 dakika sürecektir. Transfer tamamlandıktan sonra fonlar Polygon'da kullanılabilir olacak."
                     },
                     "withdraw": {
-                        "headerTitle": "",
-                        "footerTitle": "",
-                        "footerText": ""
+                        "headerTitle": "Çekme işlemi yolda",
+                        "footerTitle": "Çekme işlemi devam ediyor",
+                        "footerText": "Senkronize etmek yaklaşık - 3-4 saat sürecektir. Kontrol noktasına ulaşıldığında, para çekme işlemini tamamlamak için ikinci bir işlemi imzalamanız istenecektir."
                     }
                 },
                 "checkpoint": {
-                    "headerTitle": "",
-                    "headerSubTitle": ""
+                    "headerTitle": "Çekme işlemi kontrol ediliyor",
+                    "headerSubTitle": "Lütfen para çekme işlemini tamamlamak için ikinci işlemi imzalayın"
                 },
                 "success": {
-                    "headerSubTitle": "",
+                    "headerSubTitle": "Artık aktarım tamamlandı.",
                     "deposit": {
-                        "headerTitle": "",
-                        "footerText": ""
+                        "headerTitle": "Yatırma tamamlandı",
+                        "footerText": "Jetonlarınız başarıyla Polygon'a yatırıldı."
                     },
                     "withdraw": {
-                        "headerTitle": "",
-                        "footerText": ""
+                        "headerTitle": "Çekim tamamlandı",
+                        "footerText": "Jetonlarınız başarıyla Ethereum'a çekildi."
                     }
                 },
                 "fail": {
-                    "headerTitle": "",
-                    "footerTitle": "",
-                    "footerText1": "",
-                    "button": ""
+                    "headerTitle": "Transfer Başarısız.",
+                    "footerTitle": "Transfer Başarısız.",
+                    "footerText1": "İşlemin başarılı olmadığı bir şey oldu. Daha sonra tekrar deneyin.",
+                    "button": "Yeni para yatırın"
                 },
                 "rejected": {
-                    "headerTitle": "",
-                    "footerTitle": ""
+                    "headerTitle": "Transfer reddedildi",
+                    "footerTitle": "işlem reddedildi"
                 }
             },
             "steps": {
-                "name": "",
+                "name": "Aşama",
                 "base4": [
-                    ""
+                    "1/4",
+                    "2/4",
+                    "3/4",
+                    "4/4"
                 ],
                 "base5": [
-                    ""
+                    "1/5",
+                    "2/5",
+                    "3/5",
+                    "4/5",
+                    "5/5"
                 ],
                 "base6": [
-                    ""
+                    "1/6",
+                    "2/6",
+                    "3/6",
+                    "4/6",
+                    "5/6",
+                    "6/6"
                 ],
                 "base7": [
-                    ""
+                    "1/7",
+                    "2/7",
+                    "3/7",
+                    "4/7",
+                    "5/7",
+                    "6/7",
+                    "7/7"
                 ]
             },
-            "totalCashback": ""
+            "totalCashback": "Toplam Geri Ödeme:"
         },
-        "buySand": "KUM satın al",
+        "buySand": "SAND satın al",
         "buymSand": "mSAND satın al",
         "confirmDeposit": "Depozitoyu Onayla",
         "confirmWithdraw": "Para Çekmeyi Onayla",
-        "noTransactions": "",
-        "pending": "",
+        "noTransactions": "Görüntülenecek işlem yok",
+        "pending": "Bekliyor",
         "checkTransactions": "Check previous transactions or confirm pending ones",
         "pendingWithdrawals": "Pending Withdrawals",
         "pendingDeposits": "Pending Deposits",
@@ -6273,9 +6297,9 @@
     "roadmap": {
         "2011": {
             "date": "2011",
-            "month": "",
+            "month": "ay",
             "title": "Pixowl kuruldu",
-            "text": ""
+            "text": "yazı"
         },
         "2012": {
             "date": "2012",
@@ -6287,29 +6311,29 @@
             "date": "2013",
             "month": "ŞUBAT",
             "title": "Sandbox Android için yayınlandı (1. başlık)",
-            "text": ""
+            "text": "yazı"
         },
         "2014": {
             "date": "2014",
-            "month": "",
+            "month": "ay",
             "title": "Sandbox, 10 milyon indirmeyi aştı",
             "text": "The Sandbox'ın Steam Sürümü yayınlandı. Skybound - The Invincible ile ortaklık. STEM eğitimi için Sandbox'ın yeni EDU versiyonu"
         },
         "2015": {
             "date": "2015",
-            "month": "",
+            "month": "ay",
             "title": "Sandbox Evolution, GDC konferansında duyuruldu (2. başlık)",
             "text": "Sandbox, 16 milyon yüklemeyi aştı"
         },
         "2016": {
             "date": "2016",
-            "month": "",
+            "month": "ay",
             "title": "iOS, Android ve Steam'de yayınlanan Sandbox Evolution",
             "text": "Sony ile Ortaklık - Ghostbusters"
         },
         "2017": {
             "date": "2017",
-            "month": "",
+            "month": "ay",
             "title": "Sandbox Evolution 2 büyük ortaklık aldı",
             "text": "Bandai Namco, PAC-MAN'i oyuna getiriyor. DreamWorks, Shrek'i oyuna getiriyor. Sandbox Evolution, Steam'de ücretsiz indirildiğini duyurdu"
         },
@@ -6324,7 +6348,7 @@
                 "date": "2018",
                 "month": "MAY",
                 "title": "Blockchain projesindeki Sandbox 3D, Pocket Gamer Connect konferansında duyuruldu",
-                "text": ""
+                "text": "yazı"
             }
         },
         "2019": {
@@ -6440,7 +6464,7 @@
                 "items": {
                     "1": {
                         "title": "Çok Oyunculu Sezon genel alfasının lansmanı",
-                        "text": ""
+                        "text": "yazı"
                     }
                 }
             },
@@ -6450,19 +6474,19 @@
                 "items": {
                     "1": {
                         "title": "IP tabanlı olanlar da dahil olmak üzere ilk NFT Avatar koleksiyonlarının lansmanı",
-                        "text": ""
+                        "text": "yazı"
                     },
                     "2": {
                         "title": "Katman 2'de DeFi Staking mekanizmalarını tanıtın",
-                        "text": ""
+                        "text": "yazı"
                     },
                     "3": {
                         "title": "İlk kazan-kazan sezonları ve Explorer Sezonu yayında",
-                        "text": ""
+                        "text": "yazı"
                     },
                     "4": {
                         "title": "Matic'te Katman 2 çift zincir çözümünün lansmanı ve UGC için pazar yerinin tamamen açılması",
-                        "text": ""
+                        "text": "yazı"
                     }
                 }
             }
@@ -6474,7 +6498,7 @@
                 "items": {
                     "1": {
                         "title": "Metaverse'in yüksek kaliteli deneyimler inşa eden LAND sahiplerine aşamalı olarak açılması",
-                        "text": ""
+                        "text": "yazı"
                     }
                 }
             },
@@ -6484,7 +6508,7 @@
                 "items": {
                     "1": {
                         "title": "DAO'nun SAND, LAND ve AVATAR sahipleri için stake ve oylama mekanizmalarıyla lansmanı ",
-                        "text": ""
+                        "text": "yazı"
                     },
                     "2": {
                         "title": "DAO",
@@ -6498,7 +6522,7 @@
                 "items": {
                     "1": {
                         "title": "İlk sanal konserlerin (Deadmau5, Richie Hawtin) ve The Walking Dead oyununun lansmanı",
-                        "text": ""
+                        "text": "yazı"
                     }
                 }
             },
@@ -6550,7 +6574,7 @@
         "2023": {
             "1": {
                 "date": "2023",
-                "month": "",
+                "month": "ay",
                 "items": {
                     "1": {
                         "title": "Oyun Platformu",
