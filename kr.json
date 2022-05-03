@@ -1,6 +1,6 @@
 {
     "common": {
-        "sandbox": "The Sandbox",
+        "sandbox": "더 샌드박스",
         "$sand": "$SAND",
         "sand": "SAND",
         "land": "LAND",
@@ -32,7 +32,7 @@
             "luck": "행운"
         },
         "catalystGemShopTitle": "카탈리스트 및 젬 상점",
-        "catalystGemShopDesc": "catalystGemShopDesc",
+        "catalystGemShopDesc": "common.catalystGemShopDesc",
         "tax": "요금",
         "duration": "기간",
         "day": "DAY",
@@ -131,7 +131,7 @@
         "website": "웹사이트",
         "congratulations": "축하합니다",
         "finish": "완료",
-        "shareIn": "공유하기",
+        "shareIn": "공유:",
         "ok": "확인",
         "continue": "계속",
         "cancel": "취소",
@@ -212,7 +212,8 @@
         "pleaseChangeMain": "메인넷 네트워크로 변경해 주세요.",
         "pleaseChangeRinkeby": "린케비 네트워크로 변경해 주세요.",
         "recommended": "추천",
-        "enablePopups": "팝업창 허용이 활성화되어 있는지 확인해 주세요."
+        "enablePopups": "팝업창 허용이 활성화되어 있는지 확인해 주세요.",
+        "msand": "mSAND"
     },
     "layout": {
         "topbar": {
@@ -1404,10 +1405,11 @@
             }
         },
         "info": {
-            "amount": "판매 중인 수량:",
+            "amount": "판매 금액:",
             "price": "가격",
-            "from": "최저가:",
-            "to": "최고가:"
+            "from": "에서 날짜",
+            "to": "에게",
+            "cancel": "판매 취소"
         }
     },
     "shop": {
@@ -3605,15 +3607,18 @@
                 "resetGasless": "초기화 날짜:",
                 "useGaslessFirst": "이번 달에",
                 "useGaslessSecond": "회의 무료 트랜잭션 횟수가 남아 있습니다.",
-                "wallet": "하드웨어 월렛 - 하드웨어 지갑의 EIP-172 호환성을 극대화하세요.",
+                "wallet": "하드웨어 월렛",
                 "learnMore": "여기에서 Biconomy에 대해 더 자세히 알아보세요.",
                 "gassless": "가스비 무료 - 28일마다 10번의 무료 트랜잭션 횟수가 충전됩니다.",
                 "forward": "포워드 - MATIC 대신 mSAND로 가스비 지불",
-                "hardwareWallet": "하드웨어 지갑의 EIP-172 호환성을 극대화하세요.",
-                "notes": "현재 설정으로 28일마다 10번의 무료 트랜잭션을 진행할 수 있으며 가스비는 mSAND로 지불됩니다. 현재 7번의 무료 트랜잭션이 남아 있습니다.",
-                "gasless": "가스비 무료 - 28일마다 10번의 무료 트랜잭션 횟수가 충전됩니다.",
-                "transactionsLeft1": "현재",
-                "transactionsLeft2": "번의 무료 트랜잭션이 남았습니다."
+                "hardwareWallet": "하드웨어 지갑의 EIP-712 호환성 극대화",
+                "notes": "현재 설정으로 28일마다 {txsLimit}번의 무료 트랜잭션을 진행할 수 있으며 가스비는 mSAND로 지불됩니다. 현재 7번의 무료 트랜잭션이 남아 있습니다.",
+                "gasless": "Gasless - You get {txsLimit} free transaction every 28 days ({txsLeft} left)",
+                "transactionsLeft1": "있다",
+                "transactionsLeft2": "무료 거래가 남았습니다.",
+                "changeGasSettings": "Change gas settings",
+                "payWithMatic": "Pay gas with MATIC",
+                "payWithMsand": "Pay gas with mSAND"
             }
         },
         "claims": {
@@ -4290,7 +4295,16 @@
             "trezorNote": "* Or any other hardware wallet not compatible with EIP-712.",
             "menu": {
                 "land": "Land",
-                "faqs": "FAQ"
+                "faqs": "S.S.S",
+                "msand": "mSAND"
+            },
+            "msand": {
+                "title": "mSAND 마이그레이션",
+                "text1": "SAND를 Polygon에 공식적으로 배포하기 전에 일반 버전이 생성되어 일부 사용자가 잘못된 계약으로 자금을 보내게 되었습니다.",
+                "text2": " 귀하가 그러한 사용자 중 하나라면 저희가 귀하를 보호해 드립니다. 여기에서 더 이상 사용되지 않는 SAND를 공식 버전으로 교환할 수 있습니다.",
+                "gasless2": "우리는 당신을 덮었습니다.",
+                "viewMigrationContract": "Polygonscan에서 청구 계약 보기",
+                "success": "모든 mSAND가 성공적으로 마이그레이션되었습니다."
             }
         },
         "achievements": {
@@ -7142,7 +7156,7 @@
                     },
                     "8": {
                         "title": "프리셋",
-                        "subtitle": "프리셋 생성이 쉽고 간편해졌습니다. 프리셋으로 만들고 싶은 오브젝트를 선택하고 툴바에서 관련 버튼을 클릭하기만 하면 됩니다. 기존 프리셋을 클릭하여 새로운 프리셋으로 쉽게 대체할 수 있습니다. 또한, Asset Spawner에서 프리셋을 사용할 수 있어 게임 디자인에 더 많은 다양성이 추가되었습니다."
+                        "subtitle": "Creating a Preset has never been so easy. Select the Object you want to transform as a Preset, and click on the related button in the Toolbar to do so.  You can also easily replace an existing Preset by clicking on it when creating a new one. Plus, it is now possible to use Presets inside the Asset Spawner, which gives you more possibilities."
                     },
                     "9": {
                         "title": "태그",
@@ -7174,7 +7188,7 @@
                                 "title": "Enemy fighter 행동이 Melee Enemy 행동으로 자동 대체되었습니다."
                             },
                             "1": {
-                                "title": "이 행동은 이전 버전의 행동과 동일한 작업을 수행하며 전투가 더 즐겁도록 성능이 개선되었습니다."
+                                "title": "This behavior follows the same intentions as the previous one but has been improved to make the fights much more enjoyable."
                             },
                             "2": {
                                 "title": "타겟팅 시스템이 추가되어 내 아바타가 적을 공격하면 자동으로 적 방향으로 향하게 되어 전투 환경을 개선했습니다."
@@ -7211,16 +7225,16 @@
                                 "title": "Loot 또는 Asset Spawner 컴포넌트를 포함한 경험은 게임 플레이 도중 충돌이 발생할 수 있습니다."
                             },
                             "4": {
-                                "title": "조명 프리셋으로 인해 블록과 애셋 조명의 밝기 조절 문제가 발생했습니다."
+                                "title": "Lighting presets may cause brightness issues on light blocks and assets."
                             },
                             "5": {
                                 "title": "유저가 사용한 애셋의 수량에 따라 라이브러리가 로딩되는 시간이 예상보다 길어졌을 수 있습니다."
                             },
                             "6": {
-                                "title": "특정 환경에서 아바타의 일부 신체 부위가 더 환하게 보일 수 있습니다."
+                                "title": "특정 환경에서 아바타의 일부 신체 부위가 더 환하게 보이는 현상"
                             },
                             "7": {
-                                "title": "사전에 인벤토리를 오픈하지 않고 여러 경험을 이동하는 동안 입력한 내용이 손실될 수 있습니다."
+                                "title": "Some inputs may be lost while hopping through experiences without opening the inventory beforehand."
                             }
                         }
                     }
@@ -7268,7 +7282,7 @@
                     },
                     "2": {
                         "title": "라이트닝 프리셋",
-                        "subtitle": "현재 조명 옵션을 사용하고 싶지 않을 경우를 대비해 Neutral Lighting 프리셋을 추가했습니다. 기존의 프리셋 성능을 개선하여 밝은 표면의 굴절 오류를 제거하고 색상 발산을 조정했습니다."
+                        "subtitle": "We’ve added a new Neutral Lighting preset, in case you don’t want to use any of our current lighting options. We’ve also improved on the already existing presets, eliminating refraction errors on light surfaces as well as correcting color emanation."
                     },
                     "3": {
                         "title": "행동",
@@ -7345,7 +7359,7 @@
                             "0": "해상도 및 스크린 모드 변경",
                             "1": "음향 켜기/끄기",
                             "2": "플레이 모드 카메라 민감도 조정",
-                            "3": "플레이 모드 Control Scheme 보기 (이제 AZERTY도 지원됩니다)"
+                            "3": "View the play mode Control Scheme (We now support AZERTY too)"
                         }
                     },
                     "2": {
@@ -7397,8 +7411,8 @@
                         "title": "게임 메이커 개선",
                         "list": {
                             "0": {
-                                "title": "시작 장비:",
-                                "subtitle": "Global Parameters 메뉴에 옵션이 추가되어 경험 시작 시 유저는 아바타가 갖출 무기와 장비를 선택할 수 있습니다."
+                                "title": "Initial Equipment :",
+                                "subtitle": "A set of options was added on the Global Parameters Menu that lets users select the starting weapon and equipment the Avatar will commence an experience with."
                             },
                             "1": {
                                 "title": "프리 패키지 애셋:",
@@ -7419,7 +7433,7 @@
                             },
                             "1": {
                                 "title": "서버 템플릿:",
-                                "subtitle": "이전 버전에서는 게임 메이커 템플릿이 로컬로 관리되었으나 이제부터 서버에서 관리됩니다. 이에 따라 새롭고 흥미로운 콘텐츠가 실시간으로 업데이트되며 게임 메이커 버전 업데이트 없이 신규 템플릿이 추가됩니다."
+                                "subtitle": "Previously, our Game Maker Templates were handled locally, now they’ll be held inside our servers so that we can update them in real time with new and exciting content as well as adding new templates without having to release a new Game Maker version."
                             }
                         }
                     },
@@ -7711,7 +7725,7 @@
         "options": {
             "moonpay": {
                 "text": "신용카드로 구입하기 (MoonPay)",
-                "extra": "프로바이더 변경"
+                "extra": "Switch Provider"
             },
             "binance": {
                 "text-ethereum": "Binance에서 SAND 구입하기",
