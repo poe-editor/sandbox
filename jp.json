@@ -212,7 +212,8 @@
         "pleaseChangeMain": "Please change to Mainnet Network",
         "pleaseChangeRinkeby": "Please change to Rinkeby Network",
         "recommended": "recommended",
-        "enablePopups": "Make sure you have popups enabled"
+        "enablePopups": "Make sure you have popups enabled",
+        "msand": "mSAND"
     },
     "layout": {
         "topbar": {
@@ -1404,10 +1405,11 @@
             }
         },
         "info": {
-            "amount": "Amount on sale:",
-            "price": "Price on",
-            "from": "From:",
-            "to": "To:"
+            "amount": "販売額：",
+            "price": "価格",
+            "from": "デートから",
+            "to": "に",
+            "cancel": "販売をキャンセルする"
         }
     },
     "shop": {
@@ -2823,16 +2825,16 @@
                 "text9": "現在、組織は以下に関与しています：",
                 "foundation": {
                     "1": "Game Maker基金およびクリエイター基金の管理、The Sandbox内での高品質コンテンツおよびゲーム制作を奨励する助成金の提供。",
-                    "2": "17本のゲームプロジェクトへの資金提供。以下で一般公開されているゲームもあります。<a style='color:white' target='_blank' href='https://www.sandbox.game/game/top'>https://www.sandbox.game/game/top</a>",
-                    "3": "NFTを制作する100名のアーティストへの助成金の分配。大半は以下からご覧いただけます。<a style='color:white' target='_blank' href='http://www.sandbox.game/shop'>http://www.sandbox.game/shop</a>",
-                    "4": "コミュニティ報酬およびアンバサダープログラムを通じて、The SandboxやNFT、ブロックチェーンゲームの認知度を高めるために、ローカルコミュニティマネージャーをサポートします。<a style='color:white' target='_blank' href='https://medium.com/sandbox-game/the-sandbox-ambassador-program-4f00bb5c9c24'>https://medium.com/sandbox-game/the-sandbox-ambassador-program-4f00bb5c9c24</a>",
+                    "2": "17本のゲームプロジェクトへの資金提供。以下で一般公開されているゲームもあります。",
+                    "3": "NFTを制作する100名のアーティストへの助成金の分配。大半は以下からご覧いただけます。",
+                    "4": "コミュニティ報酬およびアンバサダープログラムを通じて、The SandboxやNFT、ブロックチェーンゲームの認知度を高めるために、ローカルコミュニティマネージャーをサポートします。",
                     "5": "The Sandboxチームが運営するさまさまなコンテストに賞金を提供して、世界中のユーザーの創造力を刺激し、当社プラットフォームに搭載されたツールの使用を促進しています。",
                     "6": "「プレイして稼ぐ」トーナメントおよび、SANDの採用を奨励するアクティビティとのクロスプレイをサポートします。",
-                    "2a": "",
+                    "2a": "https://www.sandbox.game/game/top",
                     "2b": "",
-                    "3a": "",
+                    "3a": "http://www.sandbox.game/shop",
                     "3b": "",
-                    "4a": "",
+                    "4a": "https://medium.com/sandbox-game/the-sandbox-ambassador-program-4f00bb5c9c24",
                     "4b": ""
                 }
             }
@@ -2899,8 +2901,8 @@
                         "text2": "メタバース・ガバナンスで"
                     },
                     "sand": {
-                        "text1": "アセットの獲得とカスタマイズ",
-                        "text2": "SANDをステークして"
+                        "text1": "SANDをステークして",
+                        "text2": "アセットの獲得とカスタマイズ"
                     }
                 }
             }
@@ -3609,11 +3611,14 @@
                 "learnMore": "バイコノミーの詳細については、こちらをご覧ください",
                 "gassless": "",
                 "forward": "転送-MATICではなくmSANDでガス料金を支払います",
-                "hardwareWallet": "ハードウェアウォレットのEIP-172互換性を最大化する",
-                "notes": "現在の設定では、28日ごとに10回の無料トランザクションが発生し、ガス料金はmSANDで支払われます。",
-                "gasless": "ガスレス-28日ごとに10回の無料取引があります",
+                "hardwareWallet": "ハードウェアウォレットのEIP-712互換性を最大化する",
+                "notes": "現在の設定では、28日ごとに{txsLimit}回の無料トランザクションが発生し、ガス料金はmSANDで支払われます。",
+                "gasless": "Gasless - You get {txsLimit} free transaction every 28 days ({txsLeft} left)",
                 "transactionsLeft1": "あなたが持っている",
-                "transactionsLeft2": "無料の取引が残っています。"
+                "transactionsLeft2": "無料の取引が残っています。",
+                "changeGasSettings": "Change gas settings",
+                "payWithMatic": "Pay gas with MATIC",
+                "payWithMsand": "Pay gas with mSAND"
             }
         },
         "claims": {
@@ -4290,7 +4295,16 @@
             "trezorNote": "* Or any other hardware wallet not compatible with EIP-712.",
             "menu": {
                 "land": "Land",
-                "faqs": "FAQs"
+                "faqs": "FAQs",
+                "msand": "mSAND"
+            },
+            "msand": {
+                "title": "mSANDの移行",
+                "text1": "SANDをPolygonに正式にデプロイする前に、汎用バージョンが作成され、一部のユーザーが間違った契約に資金を送っていました。",
+                "text2": " あなたがそれらのユーザーの一人であるなら、私たちはあなたをカバーしてもらいました。 廃止されたSANDを公式バージョンと交換できます。",
+                "gasless2": "私たちはあなたをカバーしてもらいました。",
+                "viewMigrationContract": "Polygonscanでクレーム契約を表示",
+                "success": "すべてのmSANDが正常に移行されました。."
             }
         },
         "achievements": {
