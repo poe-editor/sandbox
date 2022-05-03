@@ -212,7 +212,8 @@
         "pleaseChangeMain": "Please change to Mainnet Network",
         "pleaseChangeRinkeby": "Please change to Rinkeby Network",
         "recommended": "recommended",
-        "enablePopups": "Make sure you have popups enabled"
+        "enablePopups": "Make sure you have popups enabled",
+        "msand": "mSAND"
     },
     "layout": {
         "topbar": {
@@ -1404,10 +1405,11 @@
             }
         },
         "info": {
-            "amount": "Amount on sale:",
-            "price": "Price on",
-            "from": "From:",
-            "to": "To:"
+            "amount": "Amount to sell:",
+            "price": "Price in",
+            "from": "Date from",
+            "to": "to",
+            "cancel": "Cancel sale"
         }
     },
     "shop": {
@@ -3605,15 +3607,18 @@
                 "resetGasless": "Reset on:",
                 "useGaslessFirst": "You have",
                 "useGaslessSecond": " free transactions remaining for this month.",
-                "wallet": "Hardware Wallet - Maximize EIP-172 compatibility for your hardware wallet",
+                "wallet": "Hardware Wallet - Maximize EIP-712 compatibility for your hardware wallet",
                 "learnMore": "Learn more about Biconomy here",
                 "gassless": "Gasless - You get 10 free transaction every 28 days",
                 "forward": "Forward - Pay your gas fee in mSAND instead of MATIC",
-                "hardwareWallet": "Maximize EIP-172 compatibility for your hardware wallet",
-                "notes": "With your current settings, you get 10 free transactions every 28 days, then Gas Fees will be paid in mSAND.",
-                "gasless": "Gasless - You get 10 free transaction every 28 days",
+                "hardwareWallet": "Maximize EIP-712 compatibility for your hardware wallet",
+                "notes": "With your current settings, you get {txsLimit} free transactions every 28 days, then Gas Fees will be paid in mSAND.",
+                "gasless": "Gasless - You get {txsLimit} free transaction every 28 days ({txsLeft} left)",
                 "transactionsLeft1": "You have",
-                "transactionsLeft2": "free transactions left."
+                "transactionsLeft2": "free transactions left.",
+                "changeGasSettings": "Change gas settings",
+                "payWithMatic": "Pay gas with MATIC",
+                "payWithMsand": "Pay gas with mSAND"
             }
         },
         "claims": {
@@ -4167,7 +4172,7 @@
         "migration": {
             "title": "Migrations",
             "subTitle": "LANDs Migration",
-            "text1": "Duo to a vulnerability discovered on December 25th 2021 by",
+            "text1": "Due to a vulnerability discovered on December 25th 2021 by",
             "text2": ", we've decided after running thorough investigations to patch and deploy a new fixed and improved version of the LAND smart contract. Further information can be found on our",
             "mediumArticle": " Medium article",
             "text3": "On this page, you will be able to redeem the exact same LANDs you own from the new smart contract based on their unique ID. The process will then lock and burn the previous version to avoid any confusion in the future.",
@@ -4290,7 +4295,16 @@
             "trezorNote": "* Or any other hardware wallet not compatible with EIP-712.",
             "menu": {
                 "land": "Land",
-                "faqs": "FAQs"
+                "faqs": "FAQs",
+                "msand": "mSAND"
+            },
+            "msand": {
+                "title": "mSAND Migration",
+                "text1": "Before we officially deployed SAND to Polygon, a generic version was created and led to some users sending funds to the wrong contract.",
+                "text2": " If you are one of those users, we got you covered. You can trade your deprecated SAND for the official version here.",
+                "gasless2": "We got you covered.",
+                "viewMigrationContract": "View Claim Contract on Polygonscan",
+                "success": "All your mSAND has been successfully migrated."
             }
         },
         "achievements": {
@@ -6339,10 +6353,10 @@
         },
         "2018": {
             "1": {
-                "date": "2017",
+                "date": "2018",
                 "month": "APR",
-                "title": "The Sandbox Evolution receives 2 big partnerships",
-                "text": "Bandai Namco brings PAC-MAN to the game. DreamWorks brings Shrek to the game. The Sandbox Evolution announced free download in Steam"
+                "title": "The Sandbox surpasses 40M downloads and 70M player creations",
+                "text": "The Sandbox Facebook followers exceed 750,000"
             },
             "2": {
                 "date": "2018",
