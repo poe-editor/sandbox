@@ -212,7 +212,8 @@
         "pleaseChangeMain": "Please change to Mainnet Network",
         "pleaseChangeRinkeby": "Please change to Rinkeby Network",
         "recommended": "recommended",
-        "enablePopups": "Make sure you have popups enabled"
+        "enablePopups": "Make sure you have popups enabled",
+        "msand": "mSAND"
     },
     "layout": {
         "topbar": {
@@ -1404,10 +1405,11 @@
             }
         },
         "info": {
-            "amount": "Satıştaki Miktar:",
+            "amount": "Satılacak miktar:",
             "price": "Fiyat",
-            "from": "Buradan:",
-            "to": "Buraya:"
+            "from": "Başlangıç tarihi",
+            "to": "ile",
+            "cancel": "satışı iptal et"
         }
     },
     "shop": {
@@ -3609,11 +3611,14 @@
                 "learnMore": "Biconomy hakkında buradan daha fazla bilgi edinin",
                 "gassless": "Gazsız - Her 28 günde bir 10 ücretsiz işlem alırsınız",
                 "forward": "Forward - Gaz ücretinizi MATIC yerine mSAND olarak ödeyin",
-                "hardwareWallet": "Donanım cüzdanınız için EIP-172 uyumluluğunu en üst düzeye çıkarın",
-                "notes": "Mevcut ayarlarınızla 28 günde bir 10 ücretsiz işlem alırsınız, ardından Gaz Ücretleri mSAND olarak ödenir",
-                "gasless": "Gazsız - 28 günde bir 10 ücretsiz işlem alırsınız",
+                "hardwareWallet": "Donanım cüzdanınız için EIP-712 uyumluluğunu en üst düzeye çıkarın",
+                "notes": "Mevcut ayarlarınızla 28 günde bir {txsLimit} ücretsiz işlem alırsınız, ardından Gaz Ücretleri mSAND olarak ödenir",
+                "gasless": "Gasless - You get {txsLimit} free transaction every 28 days ({txsLeft} left)",
                 "transactionsLeft1": "Sahipsin",
-                "transactionsLeft2": "ücretsiz işlemler kaldı."
+                "transactionsLeft2": "ücretsiz işlemler kaldı.",
+                "changeGasSettings": "Change gas settings",
+                "payWithMatic": "Pay gas with MATIC",
+                "payWithMsand": "Pay gas with mSAND"
             }
         },
         "claims": {
@@ -4290,7 +4295,16 @@
             "trezorNote": "* Or any other hardware wallet not compatible with EIP-712.",
             "menu": {
                 "land": "Land",
-                "faqs": "FAQs"
+                "faqs": "FAQs",
+                "msand": "mSAND"
+            },
+            "msand": {
+                "title": "mSAND taşıma",
+                "text1": "SAND'ı resmi olarak Polygon'a dağıtmadan önce, genel bir sürüm oluşturuldu ve bazı kullanıcıların yanlış sözleşmeye para göndermesine yol açtı.",
+                "text2": " Bu kullanıcılardan biriyseniz, sizi koruduk. Kullanımdan kaldırılan SAND'ınızı burada resmi sürümle takas edebilirsiniz.",
+                "gasless2": "Seni koruduk.",
+                "viewMigrationContract": "Polygonscan'da Talep Sözleşmesini Görüntüle",
+                "success": "Tüm mSAND'ınız başarıyla taşındı."
             }
         },
         "achievements": {
