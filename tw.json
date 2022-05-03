@@ -212,7 +212,8 @@
         "pleaseChangeMain": "Please change to Mainnet Network",
         "pleaseChangeRinkeby": "Please change to Rinkeby Network",
         "recommended": "recommended",
-        "enablePopups": "Make sure you have popups enabled"
+        "enablePopups": "Make sure you have popups enabled",
+        "msand": "mSAND"
     },
     "layout": {
         "topbar": {
@@ -1404,10 +1405,11 @@
             }
         },
         "info": {
-            "amount": "Amount on sale:",
-            "price": "Price on",
-            "from": "From:",
-            "to": "To:"
+            "amount": "出售金額：",
+            "price": "價格在",
+            "from": "日期從",
+            "to": "到",
+            "cancel": "取消銷售"
         }
     },
     "shop": {
@@ -3609,11 +3611,14 @@
                 "learnMore": "在此處了解有關 Biconomy 的更多信息",
                 "gassless": "",
                 "forward": "Forward - 用 mSAND 而不是 MATIC 支付你的汽油費",
-                "hardwareWallet": "最大化您的硬件錢包的 EIP-172 兼容性",
-                "notes": "使用您當前的設置，您每 28 天獲得 10 次免費交易，然後 Gas Fees 將以 mSAND 支付。",
-                "gasless": "Gasless - 您每 28 天獲得 10 次免費交易",
+                "hardwareWallet": "最大化您的硬件錢包的 EIP-712 兼容性",
+                "notes": "使用您當前的設置，您每 28 天獲得 {txsLimit} 次免費交易，然後 Gas Fees 將以 mSAND 支付。",
+                "gasless": "Gasless - You get {txsLimit} free transaction every 28 days ({txsLeft} left)",
                 "transactionsLeft1": "你有",
-                "transactionsLeft2": "剩餘自由交易。"
+                "transactionsLeft2": "剩餘自由交易。",
+                "changeGasSettings": "Change gas settings",
+                "payWithMatic": "Pay gas with MATIC",
+                "payWithMsand": "Pay gas with mSAND"
             }
         },
         "claims": {
@@ -4290,7 +4295,16 @@
             "trezorNote": "* Or any other hardware wallet not compatible with EIP-712.",
             "menu": {
                 "land": "Land",
-                "faqs": "FAQs"
+                "faqs": "FAQs",
+                "msand": "mSAND"
+            },
+            "msand": {
+                "title": "mSAND 遷移",
+                "text1": "在我們正式將 SAND 部署到 Polygon 之前，創建了一個通用版本並導致一些用戶向錯誤的合約發送資金。",
+                "text2": "如果您是這些用戶中的一員，我們將為您提供保障。 您可以在此處將已棄用的 SAND 換成正式版本。",
+                "gasless2": "我們為您提供保障。",
+                "viewMigrationContract": "在 Polygonscan 上查看索賠合同",
+                "success": "您的所有 mSAND 都已成功遷移。"
             }
         },
         "achievements": {
