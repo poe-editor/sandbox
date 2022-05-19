@@ -127,7 +127,7 @@
         "to": "受信者",
         "time": "時間",
         "seeMore": "さらに表示",
-        "learnMore": "詳細",
+        "learnMore": "詳細はこちら",
         "website": "ウェブサイト",
         "congratulations": "おめでとうございます",
         "finish": "終了",
@@ -217,7 +217,7 @@
     },
     "layout": {
         "topbar": {
-            "signin": "サインイン",
+            "signin": "サインインする",
             "buy": {
                 "title": "今すぐ購入！",
                 "cards": {
@@ -388,16 +388,16 @@
         "nft": {
             "title": "NFT",
             "description": "非代替性トークン (NFT) とは、ブロックチェーン上で発行される、デジタルセキュリティ、安全性、信頼性の高い仮想トークンです。ゲーム内アセットのデジタル所有を実現する唯一の不可分かつ代替不可能なトークンです。",
-            "buttonText": "アセットを買う"
+            "buttonText": "NFTのアセットを買う"
         },
         "land": {
-            "title": "自分のLandで作成",
+            "title": "自分のLANDを作ろう",
             "description": "非代替性トークン (NFT) とは、ブロックチェーン上で発行される、デジタルセキュリティ、安全性、信頼性の高い仮想トークンです。ゲーム内アセットのデジタル所有を実現する唯一の不可分かつ代替不可能なトークンです。",
             "buttonText": "Landを買う",
             "discoverMap": "マップの紹介"
         },
         "sand": {
-            "title": "SANDを使う理由",
+            "title": "SANDとは？",
             "description": "有効なトークン$SANDを使って、『The Sandbox』メタバース内でLandやアセットの売買できます。",
             "buttonText": "買う "
         },
@@ -413,13 +413,13 @@
             "description": "WHAT'S NEW"
         },
         "avatar": {
-            "title": "The Sandboxアバター",
+            "title": "The Sandboxのアバター",
             "description": {
-                "1": "プロフィール写真をワンランク上に！お気に入りのアバターを選んで、The Sandboxメタバースを探索しましょう。",
+                "1": "プロフィール写真をワンランク上に！お気に入りのアバターを選んで、The Sandboxのメタバースを探索しよう。ウォレットに接続すると、外部アバターを所有しているかわかります。",
                 "2": "お気に入りのウォレットを接続すると、自分が外部アバターを所有しているかがわかります。"
             },
             "button": {
-                "wallet": "ウォレットの接続",
+                "wallet": "ウォレットに接続する",
                 "avatar": "アバターを作成"
             }
         }
@@ -672,7 +672,7 @@
                     "helpImprove": "Help us improving The Sandbox by sending your feedback. Complete the survey now and get extra Raffle Tickets for Alpha Season 3!",
                     "take": "Take the survey",
                     "enterAlphaLobby": "アルファロビーに入る",
-                    "didNotWinMemorabilia": "You didn't win the memorabilia"
+                    "didNotWinMemorabilia": "あなたは記念品の配布対象者ではありません"
                 },
                 "timeRewards": "報酬を受け取りまで：",
                 "raffleResults": "抽選の結果発表まで：",
@@ -702,15 +702,15 @@
                 "stake": "ステーキング",
                 "notTraded": "抽選チケットはNFTではなく、",
                 "notTraded2": "セカンダリーマーケットで取引することはできません",
-                "questTooltipDesc": "You get Raffle tickets everytime you level up. The amount of tickets per level is indicated in the Rewards tab.",
-                "stakeTooltipDesc": "Get 1 extra Raffle Tickets for every {ticketAmount} mSAND you stake during the whole Season 2 duration (28 days). 200 Raffle Tickets maximum.",
-                "snoopTooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoop Dogg Private Party Pass NFT. You need to own the NFT in your wallet when the Raffle starts (March 31).",
-                "snoop2TooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoopverse Early Access Pass NFT. You need to own the NFT in your wallet when the Raffle starts (March 31).",
-                "alphaTooltipDesc": "Get 130 extra Raffle Tickets by owning the Season 1 Alpha Pass (NFT name: Alpha Pass). You need to own the NFT in your wallet when the Raffle starts (March 31).",
-                "landTooltipDesc": "Get 40 extra Raffle Tickets per LAND you own. You need to own the NFT(s) in your wallet when the Raffle starts (March 31). 200 Raffle Tickets maximum.",
-                "feedbackTooltipDesc": "If you answered the Season 1 feedback form, you get 10 extra Raffle Tickets. This form is now closed. This is our way of thanking our community for engaging in the Alpha Season 1. Remember to fill in the feedback form at the end of Season 2!",
+                "questTooltipDesc": "レベルアップするたびに抽選券がもらえます。レベルごとのチケットの枚数は、「報酬」タブに表示されています。",
+                "stakeTooltipDesc": "シーズン2期間中（28日間）、{ticketAmount} mSANDを賭けるごとにラッフルチケットを1枚追加で獲得します。最大200ラッフルチケット。\n",
+                "snoopTooltipDesc": "Snoop Dogg Private Party Pass NFTをお持ちの方は、抽選券を30枚追加で差し上げます。抽選会開始時（3月31日）にお財布の中にNFTがあることが条件です。",
+                "snoop2TooltipDesc": "Snoopverse Early Access Pass NFTを所有すると、抽選券を30枚追加で入手できます。抽選会開始時（3月31日）に財布にNFTを所持している必要があります。",
+                "alphaTooltipDesc": "シーズン1アルファパス（NFT名：アルファパス）を所有することで、130枚の追加ラッフルチケットを手に入れることができます。抽選会開始時（3月31日）に財布にNFTを所持している必要があります。",
+                "landTooltipDesc": "LAND1台につき40枚のラッフルチケットを追加でプレゼント。ラッフル開始時（3月31日）に財布の中にあるNFTを所有している必要があります。抽選券は最大200枚です。\n",
+                "feedbackTooltipDesc": "シーズン1のフィードバックフォームに回答すると、ラッフルチケット10枚が追加でもらえます。このフォームは現在閉鎖されています。アルファ版シーズン1へのご参加ありがとうございました。シーズン2終了後も、フィードバックフォームへの記入をお忘れなく。",
                 "snoop3": "Doggie Avatar",
-                "snoop3TooltipDesc": "Get 100 extra Raffle Tickets by owning a Doggie Avatar NFT. You need to own the NFT in your wallet when the Raffle starts (March 31)."
+                "snoop3TooltipDesc": "Doggie Avatar NFTを所有することで、抽選券を100枚追加で入手することができます。抽選会開始時（3月31日）に財布の中にあるNFTを所有する必要があります。"
             },
             "downloadAlpha": "アルファ版をダウンロード"
         },
@@ -1455,7 +1455,7 @@
         },
         "shopTitle": "ショップ",
         "onSale": "販売中",
-        "title": "NFTマーケットプレイスへようこそ",
+        "title": "NFTマーケットプレイスへようこそ！",
         "subtitle": "クリエイターのアセットを検索してSANDで購入し、自分のLandへ取り込むことができます",
         "welcomeTo": "ようこそ。",
         "nftCollections": "NFTコレクション",
@@ -1613,7 +1613,7 @@
             "24x24": "24x24"
         },
         "enties": "NFTエンティティ",
-        "land": "OpenSeaのNFTLand",
+        "land": "OpenSeaにあるNFT LAND",
         "results": "結果",
         "noResults": "結果なし",
         "clearFilters": "フィルターをクリア",
@@ -1711,7 +1711,7 @@
             "description": " 本当に続けますか？"
         },
         "opensea": {
-            "disclaimerPart1": "こちらに並ぶLandはすべてOpenSeaにて他のユーザーから直接販売されているもので、SANDが通貨として設定されています。表示されている価格はすべてユーザーが直接設定してもので、The Sandboxが当初Landを販売した価格とは無関係です。こちらに自分のLandを掲載したい場合、リストに記載し、",
+            "disclaimerPart1": "こちらに並ぶLANDはすべてOpenSeaにて他のユーザーから直接販売されているもので、SANDが通貨として設定されています。表示されている価格はすべてユーザーが直接設定してもので、The Sandboxが当初LANDを販売した価格とは無関係です。こちらに自分のLANDを掲載したい場合、リストに記載し、 OpenSea.io SANDを通貨として設定してください。",
             "disclaimerPart2": "SANDを通貨として設定してください"
         },
         "claim": {
@@ -1778,7 +1778,7 @@
                 }
             },
             "header": {
-                "title": "自分のゲームを制作。プログラミングは必要なし",
+                "title": "自分でゲームを作ろう！プログラミングはいりません！",
                 "description": "あなたの想像力を現実のものにするために必要なツールボックス",
                 "buttonText": "ダウンロード"
             },
@@ -1845,7 +1845,7 @@
             "changelog": "変更履歴",
             "gameExperiences": "The Sandboxで構築されたゲーム",
             "download": {
-                "title": "Game Makerのダウンロード"
+                "title": "Game Makerをダウンロード"
             },
             "end": {
                 "text": "ゲームを起動して、アセットを自由に配置して体験を作り出そう！",
@@ -1884,7 +1884,7 @@
                     "2": "VoxEditはマーケットプレイスにアセットをエクスポートすることのできる唯一のソフトウェアです。VoxEditをダウンロードし、アセットの制作をする。",
                     "3": "自分のモデル完成したら、次の手順で簡単にマーケットプレイスにエクスポートできます。"
                 },
-                "link": "詳細",
+                "link": "詳細はこちら",
                 "buttonText": "VoxEditをダウンロード"
             },
             "features": {
@@ -1977,7 +1977,7 @@
                 }
             },
             "header": {
-                "title": "The Sandboxアバター",
+                "title": "The Sandboxのアバター",
                 "description": "見た目をカスタマイズして、装備でさらにかっこよくして、The Sandboxのメタバースで友達と一緒にプレイするチャンスに備えましょう。",
                 "buttonText": "アバターを作成"
             },
@@ -1996,7 +1996,7 @@
                 },
                 "title1": "あなたの",
                 "title2": "アバターになろう",
-                "description1": "プロフィール写真をワンランク上に！お気に入りのアバターを選んで、The Sandboxメタバースを探索しましょう。",
+                "description1": "プロフィール写真をワンランク上に！お気に入りのアバターを選んで、The Sandboxのメタバースを探索しよう。ウォレットに接続すると、外部アバターを所有しているかわかります。",
                 "description2": "ウォレットを接続すると、自分が外部アバターを所有しているかがわかります。",
                 "button": "ウォレットに接続する"
             },
@@ -2049,12 +2049,12 @@
                     "text4": "コミュニティのみんなが作った数多くの武器の中から、自分に見合ったものを選びましょう。まもなく利用できるようになります。",
                     "title1": "Create custom Equipment with VoxEdit",
                     "description1": "Equipment are Tokens that can be traded. They have Catalysts and Gems just as other assets do. Yes, you can also create and mint Equipment through VoxEdit!",
-                    "button": "Learn more"
+                    "button": "詳細はこちら"
                 },
                 "part2": {
                     "title": "VoxEditでカスタム装備を作成",
                     "description": "装備はトークンとして取引することができます。装備には、他のアセット同様、カタリストとジェムがあります。ですから、VoxEditで装備を作成そして発行することができます！",
-                    "link": "詳細",
+                    "link": "詳細はこちら",
                     "title1": "Coming Soon",
                     "title2": "Customize it",
                     "description1": "Quickly combine different outfits, hairstyles and colors to create a unique style."
@@ -2324,7 +2324,7 @@
                 "part1": {
                     "title1": "VoxEditでカスタム装備を作成",
                     "description1": "装備はトークンとして取引することができます。装備には、他のアセット同様、カタリストとジェムがあります。ですから、VoxEditで装備を作成そして発行することができます！",
-                    "button": "詳細"
+                    "button": "詳細はこちら"
                 },
                 "part2": {
                     "title1": "近日登場",
@@ -2379,7 +2379,7 @@
                     "part2": {
                         "title": "VoxEditでカスタム装備を作成",
                         "description": "装備はトークンとして取引することができます。装備には、他のアセット同様、カタリストとジェムがあります。ですから、VoxEditで装備を作成そして発行することができます！",
-                        "link": "詳細"
+                        "link": "詳細はこちら"
                     }
                 },
                 "section6": {
@@ -2611,7 +2611,7 @@
             "notifications": {
                 "not1": {
                     "text": "次のプリセールの日時を確認",
-                    "btn": "サインイン"
+                    "btn": "サインインする"
                 },
                 "not2": {
                     "text": "マーケットでNFTを検索して購入",
@@ -2622,7 +2622,7 @@
         "notifications": {
             "not1": {
                 "text": "次のプリセールの日時を確認",
-                "button": "サインイン"
+                "button": "サインインする"
             },
             "not2": {
                 "text": "マーケットでNFTを検索して購入",
@@ -2849,7 +2849,7 @@
             "buy": {
                 "title": "まだLandを購入したことがない方へ",
                 "description": "想像以上に簡単です！膨大なオンラインリソースを確認して、詳細を知りましょう。当社のDiscordサーバーに参加すれば、The Sandboxのコミュニティメンバーと直接質疑応答ができます。",
-                "buttonText": "詳細"
+                "buttonText": "詳細はこちら"
             },
             "cards": {
                 "land": {
@@ -2982,7 +2982,7 @@
         }
     },
     "user": {
-        "signin": "サインイン",
+        "signin": "サインインする",
         "menu": {
             "profile": "プロフィール",
             "defi": "ステーキング",
@@ -3368,7 +3368,7 @@
             "noConnection": {
                 "title": "おっと！",
                 "description1": "接続されていません",
-                "button": "ウォレットを接続する"
+                "button": "ウォレットに接続する"
             },
             "noResultAvatar": "Create your custom avatar!",
             "noResultLand": "You don't have any land",
@@ -3607,7 +3607,7 @@
                 "resetGasless": "リセットまで：",
                 "useGaslessFirst": "今月は",
                 "useGaslessSecond": "回の無料トランザクションが利用できます。",
-                "wallet": "HARDWARE WALLET",
+                "wallet": "Hardware Wallet - Maximize EIP-712 compatibility for your hardware wallet",
                 "learnMore": "バイコノミーの詳細については、こちらをご覧ください",
                 "gassless": "",
                 "forward": "転送-MATICではなくmSANDでガス料金を支払います",
@@ -3830,7 +3830,7 @@
     },
     "newPlay": {
         "discoverHub": "The Sandboxハブの紹介",
-        "buyLand": "LAND",
+        "buyLand": "LANDを買う",
         "TWD": "ウォーキング・デッド",
         "seeRewards": "報酬を見る",
         "endingSoon": "まもなくアルファ版は終了します",
@@ -4351,7 +4351,7 @@
         },
         "carousel": {
             "title1": "ようこそ。",
-            "title2": "The Sandboxアバター",
+            "title2": "The Sandboxのアバター",
             "title3": "The Sandbox",
             "preRegisterStart": "シーズン1で体験をプレイしてみますか？抽選の事前登録をしてパスを入手",
             "preRegisterEnd": "準備はいいですか？シーズン1が利用可能になる抽選に参加可能になりました",
@@ -4443,7 +4443,7 @@
                     "item1": {
                         "title": "まだLandを購入したことがない方へ",
                         "content": "想像以上に簡単です！膨大なオンラインリソースを確認して、詳細を知りましょう。当社のDiscordサーバーに参加すれば、The Sandboxのコミュニティメンバーと直接質疑応答ができます。",
-                        "btn": "詳細"
+                        "btn": "詳細はこちら"
                     },
                     "item2": {
                         "title": "「The Sandbox」 とは",
@@ -4501,14 +4501,14 @@
             "title": "パートナー",
             "title2": "COMING SOON",
             "description": "PARTNERS",
-            "description2": "SEASON 3",
-            "stayTuned": "Stay tuned for the Season 3 date announcement.",
-            "register": "Register for Season 3"
+            "description2": "シーズン3",
+            "stayTuned": "シーズン3のスケジュール発表をお楽しみに！。",
+            "register": "登録する"
         },
         "modules": {
             "zero": {
                 "title": "流動性マイニング",
-                "paragraph1": "メタバースの『The Sandbox』は、プレイヤーが自分たちの仮想体験をプレイし、所有者となり、そして収益化出来るメタバースです。お手持ちの仮想通貨を投資して、さらにSANDを獲得することもできます",
+                "paragraph1": "『The Sandbox』は、プレイヤーがメタバース空間でプレイし、メタバースの土地やアセットの所有者となり、収益化もできるメタバースです。お持ちの仮想通貨を投資することで、さらにSANDを獲得することもできます。",
                 "button": "今すぐステーク"
             },
             "first": {
@@ -4522,14 +4522,14 @@
                 "button2": "マップの確認"
             },
             "third": {
-                "title": "SANDを使う理由",
+                "title": "SANDとは？",
                 "paragraph1": "有効なトークン$SANDを使って、『The Sandbox』メタバース内でLandやアセットの売買できます。",
                 "button": "今すぐ購入"
             },
             "fourth": {
                 "title": "NFT",
                 "paragraph1": "非代替性トークン (NFT) とは、ブロックチェーン上で発行される、デジタルセキュリティ、安全性、信頼性の高い仮想トークンです。ゲーム内アセットのデジタル所有を実現する唯一の不可分かつ代替不可能なトークンです。",
-                "button": "アセットを買う"
+                "button": "NFTのアセットを買う"
             }
         }
     },
@@ -5078,7 +5078,7 @@
     "landing": {
         "snoopdogg": {
             "bannerTop": {
-                "signin": "サインイン",
+                "signin": "サインインする",
                 "title": "スヌープ・ドッグ",
                 "button": "アカウントの作成",
                 "subtitle1": "メタバースに入場",
@@ -5089,7 +5089,7 @@
             },
             "loginVIP": {
                 "title": "VIPパーティーパス",
-                "button": "詳細",
+                "button": "詳細はこちら",
                 "descriptionRegular1": "スヌープのプライベートパーティー用パスがあれば、スヌープ・ドッグの生活を垣間見ることができます。パーティーパスで、スヌープのプライベート・メタバースパーティーに参加して、限定NFTがもらえます。"
             },
             "loginVIPNow": {
@@ -5506,16 +5506,16 @@
             "lookBack": {
                 "title": "A LOOK BACK AT",
                 "metrics": {
-                    "0": "SAND DISTRIBUTED",
+                    "0": "SANDの 配布数",
                     "1": "STAKING VOLUME S2",
-                    "2": "COMMUNITY BOOSTER",
-                    "3": "ALPHA PASSES DISTRIBUTED",
-                    "4": "NFT DISTRIBUTED",
+                    "2": "コミュニティ ブースター",
+                    "3": "アルファパス 配布数",
+                    "4": "NFT 配布数",
                     "5": "CONTESTS PARTICIPANTS",
                     "6": "ALPHA HUB VISITORS",
                     "7": "POSITIVE FEEDBACK"
                 },
-                "subtitle": "ALPHA SEASON 2"
+                "subtitle": "アルファシーズン2"
             },
             "alphaNumbers": {
                 "title": "アルファ版の参加者が増加",
@@ -5540,7 +5540,7 @@
             },
             "bestMoments": {
                 "title": "アルファシーズン1 の最高の瞬間",
-                "title2": "BEST MOMENTS"
+                "title2": "振り返り"
             },
             "alphaComing": {
                 "title": "アルファシーズン2がまもなく登場",
@@ -5811,7 +5811,7 @@
             "userPasswordMismatches": "ユーザー名またはパスワードが一致しません",
             "logWithWallet": "ウォレットでログイン",
             "walletIsNotAssociatedAnyUser": "ウォレットがユーザーに関連付けされていません",
-            "signIn": "サインイン",
+            "signIn": "サインインする",
             "title": "ログイン",
             "subtitle": "マーケットプレイスにアップロードするには、ログインしている必要があります。",
             "placeholder1": "ユーザー名/Eメール",
