@@ -702,15 +702,15 @@
                 "stake": "質押",
                 "notTraded": "抽獎券不是非同質化代幣，且",
                 "notTraded2": "無法在次級市場交易",
-                "questTooltipDesc": "每次升級時，您都會獲得抽獎券。每個級別的門票數量在「獎勵」選項卡中顯示。\n",
-                "stakeTooltipDesc": "在整個第 2 季（28 天）期間，每注 {ticketAmount} mSAND，即可額外獲得 1 張抽獎券。最多200張抽獎券。\n",
-                "snoopTooltipDesc": "通過擁有史努比狗狗私人派對通行證NFT獲得30張額外的抽獎券。當抽獎開始時（3月31日），您需要擁有錢包中的NFT。\n",
-                "snoop2TooltipDesc": "通過擁有史努比搶先體驗通行證 NFT 獲得 30 張額外的抽獎券。當抽獎開始時（3月31日），您需要擁有錢包中的NFT。\n",
-                "alphaTooltipDesc": "通過擁有第 1 季 Alpha 通行證（NFT 名稱：Alpha 通行證）獲得 130 張額外的抽獎券。當抽獎開始時（3月31日），您需要擁有錢包中的NFT。\n",
-                "landTooltipDesc": "每片土地可額外獲得 40 張抽獎券。當抽獎開始時（3月31日），您需要擁有錢包中的NFT。最多200張抽獎券。\n",
-                "feedbackTooltipDesc": "如果您回答了第 1 季反饋表，您將額外獲得 10 張抽獎券。此表格現已關閉。這是我們感謝社區參與 Alpha 第 1 季的方式。記得在第 2 季結束時填寫反饋表！",
+                "questTooltipDesc": "You get Raffle tickets everytime you level up. The amount of tickets per level is indicated in the Rewards tab.",
+                "stakeTooltipDesc": "Get 1 extra Raffle Tickets for every {ticketAmount} mSAND you stake during the whole Season 2 duration (28 days). 200 Raffle Tickets maximum.",
+                "snoopTooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoop Dogg Private Party Pass NFT. You need to own the NFT in your wallet when the Raffle starts (March 31).",
+                "snoop2TooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoopverse Early Access Pass NFT. You need to own the NFT in your wallet when the Raffle starts (March 31).",
+                "alphaTooltipDesc": "Get 130 extra Raffle Tickets by owning the Season 1 Alpha Pass (NFT name: Alpha Pass). You need to own the NFT in your wallet when the Raffle starts (March 31).",
+                "landTooltipDesc": "Get 40 extra Raffle Tickets per LAND you own. You need to own the NFT(s) in your wallet when the Raffle starts (March 31). 200 Raffle Tickets maximum.",
+                "feedbackTooltipDesc": "If you answered the Season 1 feedback form, you get 10 extra Raffle Tickets. This form is now closed. This is our way of thanking our community for engaging in the Alpha Season 1. Remember to fill in the feedback form at the end of Season 2!",
                 "snoop3": "Doggie Avatar",
-                "snoop3TooltipDesc": "通過擁有狗狗頭像NFT獲得100張額外的抽獎券。當抽獎開始時（3月31日），您需要擁有錢包中的NFT。\n"
+                "snoop3TooltipDesc": "Get 100 extra Raffle Tickets by owning a Doggie Avatar NFT. You need to own the NFT in your wallet when the Raffle starts (March 31)."
             },
             "downloadAlpha": "下載 Alpha"
         },
@@ -2617,7 +2617,8 @@
                     "text": "在市場搜尋和購買我們上架的 NFT",
                     "btn": "前往市場"
                 }
-            }
+            },
+            "partner": "Partner"
         },
         "notifications": {
             "not1": {
@@ -2646,6 +2647,15 @@
             "successTransfer": "已成功轉移",
             "closeForm": "關閉",
             "transferAssets": "同時轉移 ASSET"
+        },
+        "notificationBar": {
+            "oldMap": "There's a new version of the Metaverse Map available. Now supporting images on 1x1 LANDs!",
+            "oldMapMobile": "There's a new version available for the Metaverse Map!",
+            "oldMapButton": "Try the New Map",
+            "newMap": "This map is currently in experimental mode",
+            "newMapMobile": "This map is currently in experimental mode",
+            "newMapButton": "Go to Previous Version",
+            "whatsnew": "What's New"
         }
     },
     "about": {
@@ -3688,7 +3698,8 @@
             "faucet": "Sand & Ether Faucets",
             "ticketDetails": "門票詳情",
             "raffleTickets": "抽獎券",
-            "products": ""
+            "products": "",
+            "partners": "Partners"
         },
         "users": {
             "profile": "個人檔案",
@@ -4587,7 +4598,24 @@
         "disclaimer": "實驗模式。某些行動裝置上，地圖可能無法正常運作。我們持續改善。",
         "chain": "chain",
         "eth": "Ethereum",
-        "polygon": "Polygon"
+        "polygon": "Polygon",
+        "partnersList": {
+            "tsb": "TSB",
+            "atari": "Atari",
+            "avenged-sevenfold": "Avenged Sevenfold",
+            "binance": "Binance",
+            "care-bears": "Care Bears",
+            "coin-market": "CoinMarketCap",
+            "deadmau5": "Deadmau5",
+            "gemini": "Gemini",
+            "pranksy": "Pranksy NFT Boxes",
+            "pororo": "Pororo",
+            "revv": "REVV",
+            "smurfs": "The Smurfs",
+            "snoop-dogg": "Snoop Dogg",
+            "twd": "The Walking Dead",
+            "zepeto": "Zepeto"
+        }
     },
     "auctionInfo": {
         "description": "描述",
@@ -5858,6 +5886,16 @@
             "alphaPass": "ALPHA 通行證",
             "feedback": "意見回饋",
             "crossFingers": "祈求好運降臨吧！"
+        },
+        "presaleStarting": {
+            "title": "LAND Sale starting soon",
+            "description": "The current map doesn't support buying LAND. To join the LAND Sale please enter the Sale Map or click the button below.",
+            "countdownText": "Next LAND SALE",
+            "buttonText": "Join the LAND Sale"
+        },
+        "presaleStarted": {
+            "title": "There's a LAND Sale in progress.",
+            "description": "The current map doesn't support buying LAND. To join the LAND Sale please access the Sale Map or click the button below."
         }
     },
     "raffle": {
