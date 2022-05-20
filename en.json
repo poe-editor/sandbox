@@ -1149,7 +1149,7 @@
                     },
                     "3": {
                         "title": "OpenSea:",
-                        "body": "Anyone can buy a Season 2 Alpha Pass on Opensea. If someone is willing to sell it. Users who live in Japan cannot use the Alpha Pass through 3rd party purchase. Please contact us if you have any questions"
+                        "body": "Anyone can buy a Season 2 Alpha Pass on Opensea. If someone is willing to sell it"
                     }
                 },
                 "warning": {
@@ -2402,7 +2402,7 @@
         "description": "Description",
         "url": "URL",
         "logo": "Logo",
-        "logoDisclaimer": "You can upload an image to be shown on the map (WEBP or JPG). the file size should be less than 90 kb. After changing the image it might take up to 10 minutes to update the map.",
+        "logoDisclaimer": "You can upload an image to be shown on the map (WEBP or JPG). the file size should be less than 90 kb.",
         "howTo": "How to edit your ESTATE",
         "errors": {
             "assetNameRequired": "Asset name is required",
@@ -2617,7 +2617,8 @@
                     "text": "Search and buy NFTs in our Market",
                     "btn": "Go to Market"
                 }
-            }
+            },
+            "partner": "Partner"
         },
         "notifications": {
             "not1": {
@@ -2646,6 +2647,15 @@
             "successTransfer": "Successfully transferred",
             "closeForm": "close",
             "transferAssets": "Also transfer assets"
+        },
+        "notificationBar": {
+            "oldMap": "There's a new version of the Metaverse Map available. Now supporting images on 1x1 LANDs!",
+            "oldMapMobile": "There's a new version available for the Metaverse Map!",
+            "oldMapButton": "Try the New Map",
+            "newMap": "This map is currently in experimental mode",
+            "newMapMobile": "This map is currently in experimental mode",
+            "newMapButton": "Go to Previous Version",
+            "whatsnew": "What's New"
         }
     },
     "about": {
@@ -3688,7 +3698,8 @@
             "faucet": "Sand & Ether Faucets",
             "ticketDetails": "Ticket details",
             "raffleTickets": "Raffle tickets",
-            "products": "Product Releases"
+            "products": "Product Releases",
+            "partners": "Partners"
         },
         "users": {
             "profile": "Profile",
@@ -4587,7 +4598,24 @@
         "disclaimer": "Experimental mode. The Map may not work correctly on some mobile devices. We continue making improvements.",
         "chain": "chain",
         "eth": "Ethereum",
-        "polygon": "Polygon"
+        "polygon": "Polygon",
+        "partnersList": {
+            "tsb": "TSB",
+            "atari": "Atari",
+            "avenged-sevenfold": "Avenged Sevenfold",
+            "binance": "Binance",
+            "care-bears": "Care Bears",
+            "coin-market": "CoinMarketCap",
+            "deadmau5": "Deadmau5",
+            "gemini": "Gemini",
+            "pranksy": "Pranksy NFT Boxes",
+            "pororo": "Pororo",
+            "revv": "REVV",
+            "smurfs": "The Smurfs",
+            "snoop-dogg": "Snoop Dogg",
+            "twd": "The Walking Dead",
+            "zepeto": "Zepeto"
+        }
     },
     "auctionInfo": {
         "description": "Description",
@@ -5858,6 +5886,16 @@
             "alphaPass": "ALPHA PASS",
             "feedback": "FEEDBACK",
             "crossFingers": "Cross your fingers!"
+        },
+        "presaleStarting": {
+            "title": "LAND Sale starting soon",
+            "description": "The current map doesn't support buying LAND. To join the LAND Sale please enter the Sale Map or click the button below.",
+            "countdownText": "Next LAND SALE",
+            "buttonText": "Join the LAND Sale"
+        },
+        "presaleStarted": {
+            "title": "There's a LAND Sale in progress.",
+            "description": "The current map doesn't support buying LAND. To join the LAND Sale please access the Sale Map or click the button below."
         }
     },
     "raffle": {
