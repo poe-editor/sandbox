@@ -331,6 +331,14 @@
             "description": "前往OpenSea探索大量出售的LAND和NFT。",
             "buttonText": "购买LAND",
             "notAgain": "不再显示"
+        },
+        "termsAndConditions": {
+            "title": "Special Terms and Conditions apply for Japan residents: ",
+            "description": "If you are resident of Japan, you may participate in contests and different activities to obtain rewards; due to restrictions in Japan, these rewards will not include SAND.",
+            "accept": "Accept",
+            "reject": "Reject",
+            "error": "Unfortunately you can’t use The Sandbox products and services unless you read and accept our Terms and Conditions.",
+            "goBack": "Go back"
         }
     },
     "home": {
@@ -3547,7 +3555,10 @@
                 "username-invalid": "用户名无效",
                 "profilePictureErrorHigh": "个人档案照片名称长度超过200个字符（包括文件扩展名）。",
                 "profile-updated": "Profile updated!",
-                "password-changed": "Your account password was changed successfully."
+                "password-changed": "Your account password was changed successfully.",
+                "bannerText": "Add a banner image",
+                "bannerSize": "Optimal dimensions 2000x330",
+                "bannerLength": "Banner picture name is more than 200 characters long (including file extension)"
             },
             "security": {
                 "title": "安全与密码",
@@ -3619,7 +3630,7 @@
                 "useGaslessSecond": "次免费交易机会",
                 "wallet": "Hardware Wallet - Maximize EIP-712 compatibility for your hardware wallet",
                 "learnMore": "在此處了解有關 Biconomy 的更多信息",
-                "gassless": "",
+                "gassless": "Gasless - You get 10 free transaction every 28 days",
                 "forward": "Forward - 用 mSAND 而不是 MATIC 支付你的汽油費",
                 "hardwareWallet": "最大化您的硬件錢包的 EIP-712 兼容性",
                 "notes": "使用您當前的設置，您每 28 天獲得 {txsLimit} 次免費交易，然後 Gas Fees 將以 mSAND 支付。",
