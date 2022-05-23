@@ -32,7 +32,7 @@
             "luck": "행운"
         },
         "catalystGemShopTitle": "카탈리스트 및 젬 상점",
-        "catalystGemShopDesc": "catalystGemShopDesc",
+        "catalystGemShopDesc": "",
         "tax": "요금",
         "duration": "기간",
         "day": "DAY",
@@ -331,6 +331,14 @@
             "description": "OpenSea에서 판매 중인 다양한 LAND와 NFT를 확인해 보세요.",
             "buttonText": "LAND 구매",
             "notAgain": "다시 보지 않기"
+        },
+        "termsAndConditions": {
+            "title": "Special Terms and Conditions apply for Japan residents: ",
+            "description": "If you are resident of Japan, you may participate in contests and different activities to obtain rewards; due to restrictions in Japan, these rewards will not include SAND.",
+            "accept": "Accept",
+            "reject": "Reject",
+            "error": "Unfortunately you can’t use The Sandbox products and services unless you read and accept our Terms and Conditions.",
+            "goBack": "Go back"
         }
     },
     "home": {
@@ -3547,7 +3555,10 @@
                 "username-invalid": "유효하지 않은 사용자 이름",
                 "profilePictureErrorHigh": "프로필 사진 이름이 200자를 초과합니다 (파일 확장자 포함).",
                 "profile-updated": "프로필이 업데이트되었습니다!",
-                "password-changed": "계정의 패스워드가 성공적으로 변경되었습니다."
+                "password-changed": "계정의 패스워드가 성공적으로 변경되었습니다.",
+                "bannerText": "Add a banner image",
+                "bannerSize": "Optimal dimensions 2000x330",
+                "bannerLength": "Banner picture name is more than 200 characters long (including file extension)"
             },
             "security": {
                 "title": "이메일 및 비밀번호",
@@ -3897,7 +3908,7 @@
         "socialMedia": "소셜 미디어",
         "collaborator": "협력자",
         "moreSimilarExperiences": "유사한 경험 더 보기",
-        "shareIn": "공유:",
+        "shareIn": "공유하기",
         "landsLinkedToTheExperience": "경험에 연결된 LAND",
         "assetsOnSaleFromCreator": "크리에이터가 판매 중인 애셋",
         "publishDate": "게시 날짜",
@@ -4137,7 +4148,7 @@
             "share": "추천 링크 공유하기",
             "duration": "링크 유효 기간:",
             "days": "일",
-            "sharein": "공유:",
+            "sharein": "공유하기",
             "amountreferred": "총 추천 수:",
             "amountearnings": "총 수익금: ",
             "link": "추천 자세히 알아보기 >",
