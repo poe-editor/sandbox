@@ -331,6 +331,14 @@
             "description": "Head over to OpenSea and discover a wide range of LANDS and NFTs for sale.",
             "buttonText": "Buy Land",
             "notAgain": "Don't show me this again"
+        },
+        "termsAndConditions": {
+            "title": "Special Terms and Conditions apply for Japan residents: ",
+            "description": "If you are resident of Japan, you may participate in contests and different activities to obtain rewards; due to restrictions in Japan, these rewards will not include SAND.",
+            "accept": "Accept",
+            "reject": "Reject",
+            "error": "Unfortunately you can’t use The Sandbox products and services unless you read and accept our Terms and Conditions.",
+            "goBack": "Go back"
         }
     },
     "home": {
@@ -3547,7 +3555,10 @@
                 "username-invalid": "Invalid Username",
                 "profilePictureErrorHigh": "Profile picture name is more than 200 characters long (including file extension).",
                 "profile-updated": "Profile updated!",
-                "password-changed": "Your account password was changed successfully."
+                "password-changed": "Your account password was changed successfully.",
+                "bannerText": "Add a banner image",
+                "bannerSize": "Optimal dimensions 2000x330",
+                "bannerLength": "Banner picture name is more than 200 characters long (including file extension)"
             },
             "security": {
                 "title": "Email & Password",
