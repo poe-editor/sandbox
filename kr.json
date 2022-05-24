@@ -213,7 +213,9 @@
         "pleaseChangeRinkeby": "린케비 네트워크로 변경해 주세요.",
         "recommended": "추천",
         "enablePopups": "팝업창 허용이 활성화되어 있는지 확인해 주세요.",
-        "msand": "mSAND"
+        "msand": "mSAND",
+        "requestMinting": "Request Minting",
+        "cancelRequest": "Cancel Request"
     },
     "layout": {
         "topbar": {
@@ -1736,7 +1738,9 @@
             "4": "아바타",
             "5": "신체 부위",
             "6": "아트"
-        }
+        },
+        "mintingApprovalPending": "Pending minting approval",
+        "mintingApprovalRejected": "Minting not approved"
     },
     "create": {
         "meta": {
@@ -3051,7 +3055,8 @@
                 "newPasswordTooShort": "새로운 비밀번호가 너무 짧습니다.",
                 "passwordDoNotMatch": "비밀번호가 일치하지 않습니다.",
                 "errorAvatarImageSize": "파일 크기 초과입니다. 더 작은 크기의 파일을 사용해 주세요.",
-                "errorAvatarImageType": "지원되는 파일 확장자 형식이 아닙니다. jpg, png, 또는 jpeg 형식을 사용해 주세요."
+                "errorAvatarImageType": "지원되는 파일 확장자 형식이 아닙니다. jpg, png, 또는 jpeg 형식을 사용해 주세요.",
+                "errorBannerImageSize": ""
             },
             "edit": {
                 "editTitle": "프로필 편집",
@@ -3064,6 +3069,24 @@
                 "repeatPassword": "비밀번호 다시 입력",
                 "buttonText": "적용",
                 "validated": "프로필이 변경되었습니다"
+            },
+            "public": {
+                "showMore": "Show More",
+                "showLess": "Show Less",
+                "filters": "Filters",
+                "sortBy": "Sort By",
+                "onSaleMessage": "{amount} {entity} on sale",
+                "onInventoryMessage": "{amount} {entity} on inventory",
+                "all": "All",
+                "entities": "Entities",
+                "collections": "Collections (Soon)",
+                "lands": "LAND",
+                "estates": "Estates",
+                "experiences": "Experiences",
+                "onSale": "On Sale (",
+                "onInventory": "Inventory (",
+                "addresCopied": "Address copied to clipboard",
+                "userCopied": "User copied to clipboard"
             }
         },
         "inventory": {
