@@ -214,8 +214,8 @@
         "recommended": "recommended",
         "enablePopups": "Make sure you have popups enabled",
         "msand": "mSAND",
-        "requestMinting": "",
-        "cancelRequest": ""
+        "requestMinting": "Request Minting",
+        "cancelRequest": "Cancel Request"
     },
     "layout": {
         "topbar": {
@@ -1739,8 +1739,8 @@
             "5": "身體部位",
             "6": "藝術品"
         },
-        "mintingApprovalPending": "",
-        "mintingApprovalRejected": ""
+        "mintingApprovalPending": "Pending minting approval",
+        "mintingApprovalRejected": "Minting not approved"
     },
     "create": {
         "meta": {
@@ -3071,22 +3071,22 @@
                 "validated": "Profiliniz değiştirilmiştir"
             },
             "public": {
-                "showMore": "",
-                "showLess": "",
-                "filters": "",
-                "sortBy": "",
-                "onSaleMessage": "",
-                "onInventoryMessage": "",
-                "all": "",
-                "entities": "",
-                "collections": "",
-                "lands": "",
-                "estates": "",
-                "experiences": "",
-                "onSale": "",
-                "onInventory": "",
-                "addresCopied": "",
-                "userCopied": ""
+                "showMore": "Show More",
+                "showLess": "Show Less",
+                "filters": "Filters",
+                "sortBy": "Sort By",
+                "onSaleMessage": "{amount} {entity} on sale",
+                "onInventoryMessage": "{amount} {entity} on inventory",
+                "all": "All",
+                "entities": "Entities",
+                "collections": "Collections (Soon)",
+                "lands": "LAND",
+                "estates": "Estates",
+                "experiences": "Experiences",
+                "onSale": "On Sale (",
+                "onInventory": "Inventory (",
+                "addresCopied": "Address copied to clipboard",
+                "userCopied": "User copied to clipboard"
             }
         },
         "inventory": {
