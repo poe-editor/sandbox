@@ -213,7 +213,9 @@
         "pleaseChangeRinkeby": "Please change to Rinkeby Network",
         "recommended": "recommended",
         "enablePopups": "Make sure you have popups enabled",
-        "msand": "mSAND"
+        "msand": "mSAND",
+        "requestMinting": "Request Minting",
+        "cancelRequest": "Cancel Request"
     },
     "layout": {
         "topbar": {
@@ -1736,7 +1738,9 @@
             "4": "人物造型",
             "5": "身体部位",
             "6": "艺术"
-        }
+        },
+        "mintingApprovalPending": "Pending minting approval",
+        "mintingApprovalRejected": "Minting not approved"
     },
     "create": {
         "meta": {
@@ -3051,7 +3055,8 @@
                 "newPasswordTooShort": "新密码过短",
                 "passwordDoNotMatch": "密码不符",
                 "errorAvatarImageSize": "File size to big please use a lighter file",
-                "errorAvatarImageType": "File extension not supported, please use .jpg, .png or .jpeg"
+                "errorAvatarImageType": "File extension not supported, please use .jpg, .png or .jpeg",
+                "errorBannerImageSize": "File size too big please use a lighter file (Maximum: 2 Mb)"
             },
             "edit": {
                 "editTitle": "编辑个人档案",
@@ -3064,6 +3069,24 @@
                 "repeatPassword": "重置密码",
                 "buttonText": "应用",
                 "validated": "你的个人档案已更改"
+            },
+            "public": {
+                "showMore": "Show More",
+                "showLess": "Show Less",
+                "filters": "Filters",
+                "sortBy": "Sort By",
+                "onSaleMessage": "{amount} {entity} on sale",
+                "onInventoryMessage": "{amount} {entity} on inventory",
+                "all": "All",
+                "entities": "Entities",
+                "collections": "Collections (Soon)",
+                "lands": "LAND",
+                "estates": "Estates",
+                "experiences": "Experiences",
+                "onSale": "On Sale (",
+                "onInventory": "Inventory (",
+                "addresCopied": "Address copied to clipboard",
+                "userCopied": "User copied to clipboard"
             }
         },
         "inventory": {
