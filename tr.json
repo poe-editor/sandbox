@@ -213,7 +213,9 @@
         "pleaseChangeRinkeby": "Please change to Rinkeby Network",
         "recommended": "recommended",
         "enablePopups": "Make sure you have popups enabled",
-        "msand": "mSAND"
+        "msand": "mSAND",
+        "requestMinting": "",
+        "cancelRequest": ""
     },
     "layout": {
         "topbar": {
@@ -1736,7 +1738,9 @@
             "4": "虛擬化身",
             "5": "身體部位",
             "6": "藝術品"
-        }
+        },
+        "mintingApprovalPending": "",
+        "mintingApprovalRejected": ""
     },
     "create": {
         "meta": {
@@ -3051,7 +3055,8 @@
                 "newPasswordTooShort": "Yeni Şifre çok kısa",
                 "passwordDoNotMatch": "Şifreler eşleşmiyor",
                 "errorAvatarImageSize": "Dosya boyutu çok büyük, lütfen daha küçük bir dosya deneyin",
-                "errorAvatarImageType": "Dosya uzantısı desteklenmiyor, lütfen .jpg, .png or .jpeg uzantılı bir dosya kullanın"
+                "errorAvatarImageType": "Dosya uzantısı desteklenmiyor, lütfen .jpg, .png or .jpeg uzantılı bir dosya kullanın",
+                "errorBannerImageSize": ""
             },
             "edit": {
                 "editTitle": "Profilini Düzenle",
@@ -3064,6 +3069,24 @@
                 "repeatPassword": "Şifrenizi Tekrarlayın",
                 "buttonText": "Uygula",
                 "validated": "Profiliniz değiştirilmiştir"
+            },
+            "public": {
+                "showMore": "",
+                "showLess": "",
+                "filters": "",
+                "sortBy": "",
+                "onSaleMessage": "",
+                "onInventoryMessage": "",
+                "all": "",
+                "entities": "",
+                "collections": "",
+                "lands": "",
+                "estates": "",
+                "experiences": "",
+                "onSale": "",
+                "onInventory": "",
+                "addresCopied": "",
+                "userCopied": ""
             }
         },
         "inventory": {
