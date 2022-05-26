@@ -17,8 +17,8 @@
         "price": "가격",
         "catalyst": {
             "title": "카탈리스트",
-            "legendary": "전설",
-            "epic": "특급",
+            "legendary": "레전더리",
+            "epic": "에픽",
             "rare": "희귀",
             "common": "일반",
             "none": "해당 없음"
@@ -32,7 +32,7 @@
             "luck": "행운"
         },
         "catalystGemShopTitle": "카탈리스트 및 젬 상점",
-        "catalystGemShopDesc": "",
+        "catalystGemShopDesc": "catalystGemShopDesc",
         "tax": "요금",
         "duration": "기간",
         "day": "DAY",
@@ -112,7 +112,7 @@
                 },
                 "2": {
                     "title": "마인크래프트",
-                    "description": "작업물 가져오기"
+                    "description": "내 애셋 사용하기"
                 },
                 "3": {
                     "title": "NFT",
@@ -214,8 +214,8 @@
         "recommended": "추천",
         "enablePopups": "팝업창 허용이 활성화되어 있는지 확인해 주세요.",
         "msand": "mSAND",
-        "requestMinting": "Request Minting",
-        "cancelRequest": "Cancel Request"
+        "requestMinting": "민팅 요청하기",
+        "cancelRequest": "요청 취소하기"
     },
     "layout": {
         "topbar": {
@@ -1445,25 +1445,25 @@
         },
         "collectionsMeta": {
             "title": "더 샌드박스 샵 - ",
-            "description": "더 샌드박스 블록체인 NFT 마켓플레이스에서 [이름] NFT를 구매해 보세요.",
+            "description": "더 샌드박스 블록체인 NFT 마켓플레이스에서 [name] NFT를 구매해 보세요.",
             "keywords": "샌드박스, nft, 마켓플레이스, 애셋, 크리에이터, 컬렉션, 아타리, 스머프, 바이낸스, 워킹데드, LAND, 엔티티",
             "og": {
                 "title": "더 샌드박스 샵 - ",
-                "description": "더 샌드박스 블록체인 NFT 마켓플레이스에서 [name]을(를) NFT로 구매해 보세요.",
+                "description": "더 샌드박스 블록체인 NFT 마켓플레이스에서 [name] NFT를 구매해 보세요.",
                 "url": "https://sandbox.game/shop/",
                 "site_name": "더 샌드박스",
                 "image": "https://www.sandbox.game/images/logo.png"
             },
             "twitter": {
                 "title": "더 샌드박스 샵 - ",
-                "description": "더 샌드박스 블록체인 NFT 마켓플레이스에서 [이름] NFT를 구매해 보세요.",
-                "card": "더 샌드박스 샵",
+                "description": "더 샌드박스 블록체인 NFT 마켓플레이스에서 [name] NFT를 구매해 보세요.",
+                "card": "더 샌드박스 마켓",
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame",
                 "image": "https://www.sandbox.game/images/logo.png"
             }
         },
-        "shopTitle": "샵",
+        "shopTitle": "마켓",
         "onSale": "판매 중",
         "title": "NFT 마켓플레이스에 오신 것을 환영합니다",
         "subtitle": "여기에서 크리에이터의 애셋을 검색하고 SAND로 구매하여 내 LAND에서 사용할 수 있습니다.",
@@ -1494,8 +1494,8 @@
         },
         "rarities": {
             "title": "카탈리스트",
-            "legendary": "전설",
-            "epic": "특급",
+            "legendary": "레전더리",
+            "epic": "에픽",
             "rare": "희귀",
             "common": "일반",
             "none": "해당 없음"
@@ -1526,7 +1526,7 @@
             "groundPrey": "지상 사냥감",
             "healer": "치유사",
             "messageBroadcaster": "메시지 송출기",
-            "replaceAsset": "애셋 교체",
+            "replaceAsset": "애셋 교체하기",
             "void": "빈 공간",
             "multi": "멀티",
             "plant": "식물",
@@ -1541,7 +1541,7 @@
         },
         "themes": {
             "title": "바이옴",
-            "atari": "Atari",
+            "atari": "아타리",
             "city": "도시",
             "fantasy": "판타지",
             "heroes": "영웅",
@@ -1609,8 +1609,8 @@
             "oldest": "오래된 순",
             "lowerPrice": "가격 낮음",
             "highPrice": "가격 높음",
-            "leastAmount": "수량 적음",
-            "highAmount": "수량 많음",
+            "leastAmount": "최소 수량",
+            "highAmount": "최대 수량",
             "az": "이름 알파벳순 (A-Z)",
             "za": "이름 알파벳 역순 (Z-A)"
         },
@@ -1623,7 +1623,7 @@
             "24x24": "24x24"
         },
         "enties": "NFT 엔티티",
-        "land": "OpenSea에서 판매 중인 NFT LAND",
+        "land": "OpenSea에서 판매 중인 LAND",
         "results": "결과",
         "noResults": "결과 없음",
         "clearFilters": "필터 지우기",
@@ -1678,7 +1678,7 @@
         "buy": {
             "asset": "구매할 애셋",
             "amount": "구매할 수량",
-            "copies": "사본",
+            "copies": "에디션",
             "price": "가격",
             "buttonText": "계속"
         },
@@ -1708,7 +1708,7 @@
                 "status": "상태"
             },
             "cartItem": {
-                "available": "Available"
+                "available": "구입 가능"
             }
         },
         "assets": {
@@ -1718,17 +1718,17 @@
         },
         "removing": {
             "title": "모든 능력치가 삭제됩니다.",
-            "description": " 계속하시겠어요?"
+            "description": " 계속 진행하시겠습니까?"
         },
         "opensea": {
             "disclaimerPart1": "여기에 등록된 모든 LAND는 OpenSea에서 다른 사용자가 직접 판매하는 LAND이며 통화는 SAND를 사용합니다. 표시 가격은 모두 사용자가 직접 책정한 가격이며 더 샌드박스의 기본 LAND 판매와는 연관이 없습니다. 여기에 LAND를 나타나게 하려면",
             "disclaimerPart2": "에서 등록하고 통화를 SAND로 설정하세요."
         },
         "claim": {
-            "claim": "받기",
-            "alreadyClaim": "이미 받음",
-            "putOnSale": "상품 등록",
-            "saleQuestion": "더 샌드박스 마켓플레이스에서 이 NFT를 판매하고 싶으신가요?",
+            "claim": "수령하기",
+            "alreadyClaim": "이미 수령함",
+            "putOnSale": "판매",
+            "saleQuestion": "더 샌드박스 마켓플레이스에서 이 NFT를 판매하시겠습니까?",
             "putOnSaleSuccess": "애셋이 현재 판매 중입니다."
         },
         "assetTypes": {
@@ -1739,8 +1739,8 @@
             "5": "신체 부위",
             "6": "아트"
         },
-        "mintingApprovalPending": "Pending minting approval",
-        "mintingApprovalRejected": "Minting not approved"
+        "mintingApprovalPending": "민팅 승인 보류 중",
+        "mintingApprovalRejected": "민팅이 승인되지 않았습니다."
     },
     "create": {
         "meta": {
@@ -2108,8 +2108,8 @@
                     "createAvatarButtonText": "아바타 만들기",
                     "editAvatarButtonText": "아바타 만들기",
                     "errors": {
-                        "errorUsername1": "사용자 이름이 너무 짧습니다. 3자 이상이어야 합니다.",
-                        "errorUsername2": "사용자 이름은 영숫자로 구성해야 합니다.",
+                        "errorUsername1": "유저네임이 너무 짧습니다. 3자 이상이어야 합니다.",
+                        "errorUsername2": "유저네임은 영문 알파벳과 숫자로 구성해야 합니다.",
                         "errorUsername3": "ユーザー名は必須フィールドです。必ず入力してください。",
                         "titleTooLong": "제목이 너무 깁니다.",
                         "descriptionTooLong": "제목이 너무 깁니다.",
@@ -2218,24 +2218,24 @@
                     "withWallet": "지갑으로 로그인할 수도 있습니다.",
                     "walletButtonText": "지갑으로 로그인",
                     "placeholders": {
-                        "usernameOrEmail": "사용자 이름 또는 이메일",
+                        "usernameOrEmail": "유저네임 또는 이메일",
                         "password": "비밀번호"
                     },
                     "errors": {
-                        "usernameEmailMissing": "사용자 이름/이메일이 없습니다",
+                        "usernameEmailMissing": "유저네임/이메일이 없습니다",
                         "passwordMissing": "비밀번호가 없습니다",
-                        "userPasswordMismatches": "사용자 또는 비밀번호가 일치하지 않습니다"
+                        "userPasswordMismatches": "유저네임 또는 비밀번호가 일치하지 않습니다"
                     }
                 },
                 "forgotModal": {
                     "title": "비밀번호 찾기",
-                    "emailOrUsername": "이메일 또는 사용자 이름",
+                    "emailOrUsername": "이메일 또는 유저네임",
                     "recover": "찾기",
                     "sent": "이메일 주소로 이메일을 전송했습니다",
                     "emailTo": "비밀번호 변경 이메일을",
                     "changeAfterEmail": "주소로 전송했습니다.",
                     "errors": {
-                        "emailUsernameIsRequired": "이메일 또는 사용자 이름은 필수 항목입니다"
+                        "emailUsernameIsRequired": "이메일 또는 유저네임은 필수 항목입니다"
                     }
                 },
                 "changePasswordModal": {
@@ -2288,10 +2288,10 @@
                         "emailIsRequired": "이메일은 필수 항목입니다",
                         "emailIsIncorrect": "이메일 주소가 올바르지 않습니다",
                         "emailAlreadyInUse": "이미 사용 중인 이메일입니다",
-                        "usernameIncorrect": "사용자 이름이 잘못되었습니다",
-                        "usernameTooShort": "사용자 이름이 너무 짧습니다",
-                        "usernameTooLong": "사용자 이름이 너무 깁니다",
-                        "usernameAlreadyInUse": "이미 사용 중인 사용자 이름입니다"
+                        "usernameIncorrect": "유저네임이 올바르지 않습니다",
+                        "usernameTooShort": "유저네임이 너무 짧습니다",
+                        "usernameTooLong": "유저네임이 너무 깁니다",
+                        "usernameAlreadyInUse": "이미 사용 중인 유저네임입니다"
                     }
                 },
                 "signupPasswordModal": {
@@ -3040,9 +3040,9 @@
             "yourAccount": "내 계정",
             "yourAvatar": "내 아바타",
             "errors": {
-                "errorUsername1": "사용자 이름이 너무 짧습니다. 3자 이상이어야 합니다.",
-                "errorUsername2": "사용자 이름은 영숫자로 구성해야 합니다.",
-                "errorUsername3": "사용자 이름은 필수 항목입니다. 비워둘 수 없습니다.",
+                "errorUsername1": "유저네임이 너무 짧습니다. 3자 이상이어야 합니다.",
+                "errorUsername2": "유저네임은 영문 알파벳과 숫자로 구성해야 합니다.",
+                "errorUsername3": "유저네임은 필수 항목입니다. 비워둘 수 없습니다.",
                 "titleTooLong": "제목이 너무 깁니다.",
                 "descriptionTooLong": "제목이 너무 깁니다.",
                 "emailIsRequired": "이메일은 필수 항목입니다.",
@@ -3056,7 +3056,7 @@
                 "passwordDoNotMatch": "비밀번호가 일치하지 않습니다.",
                 "errorAvatarImageSize": "파일 크기 초과입니다. 더 작은 크기의 파일을 사용해 주세요.",
                 "errorAvatarImageType": "지원되는 파일 확장자 형식이 아닙니다. jpg, png, 또는 jpeg 형식을 사용해 주세요.",
-                "errorBannerImageSize": ""
+                "errorBannerImageSize": "파일 사이즈가 초과되었습니다 (최대 크기: 2 Mb)."
             },
             "edit": {
                 "editTitle": "프로필 편집",
@@ -3071,22 +3071,22 @@
                 "validated": "프로필이 변경되었습니다"
             },
             "public": {
-                "showMore": "Show More",
-                "showLess": "Show Less",
-                "filters": "Filters",
-                "sortBy": "Sort By",
-                "onSaleMessage": "{amount} {entity} on sale",
-                "onInventoryMessage": "{amount} {entity} on inventory",
-                "all": "All",
-                "entities": "Entities",
-                "collections": "Collections (Soon)",
+                "showMore": "자세히 보기",
+                "showLess": "최소화하기",
+                "filters": "필터",
+                "sortBy": "정렬 기준",
+                "onSaleMessage": "{amount}개의 {entity} 판매 중",
+                "onInventoryMessage": "{amount}개의 {entity} 인벤토리에 보관 중",
+                "all": "전체",
+                "entities": "엔티티",
+                "collections": "컬렉션 (곧 추가됩니다)",
                 "lands": "LAND",
-                "estates": "Estates",
-                "experiences": "Experiences",
-                "onSale": "On Sale (",
-                "onInventory": "Inventory (",
-                "addresCopied": "Address copied to clipboard",
-                "userCopied": "User copied to clipboard"
+                "estates": "이스테이트",
+                "experiences": "경험",
+                "onSale": "판매 중 (",
+                "onInventory": "인벤토리 (",
+                "addresCopied": "주소가 클립보드에 복사되었습니다.",
+                "userCopied": "유저 정보가 클립보드에 복사되었습니다."
             }
         },
         "inventory": {
@@ -3455,23 +3455,23 @@
             "withWallet": "지갑으로 로그인할 수도 있습니다.",
             "walletButtonText": "지갑으로 로그인",
             "placeholders": {
-                "usernameOrEmail": "사용자 이름 또는 이메일",
+                "usernameOrEmail": "유저네임 또는 이메일",
                 "password": "비밀번호"
             },
             "errors": {
-                "titwordMismatches": "사용자 또는 비밀번호가 일치하지 않습니다",
-                "userPasswordMismatches": "사용자 또는 비밀번호가 일치하지 않습니다"
+                "titwordMismatches": "유저네임 또는 비밀번호가 일치하지 않습니다",
+                "userPasswordMismatches": "유저네임 또는 비밀번호가 일치하지 않습니다"
             }
         },
         "forgotModal": {
             "title": "비밀번호 찾기",
-            "emailOrUsername": "이메일 또는 사용자 이름",
+            "emailOrUsername": "이메일 또는 유저네임",
             "recover": "찾기",
             "sent": "이메일 주소로 이메일을 전송했습니다",
             "emailTo": "비밀번호 변경 이메일을",
             "changeAfterEmail": "주소로 전송했습니다.",
             "errors": {
-                "emailUsernameIsRequired": "이메일 또는 사용자 이름은 필수 항목입니다"
+                "emailUsernameIsRequired": "이메일 또는 유저네임은 필수 항목입니다"
             }
         },
         "changePasswordModal": {
@@ -3503,10 +3503,10 @@
                 "emailIsRequired": "이메일은 필수 항목입니다",
                 "emailIsIncorrect": "이메일 주소가 올바르지 않습니다",
                 "emailAlreadyInUse": "이미 사용 중인 이메일입니다",
-                "usernameIncorrect": "사용자 이름이 잘못되었습니다",
-                "usernameTooShort": "사용자 이름이 너무 짧습니다",
-                "usernameTooLong": "사용자 이름이 너무 깁니다",
-                "usernameAlreadyInUse": "이미 사용 중인 사용자 이름입니다"
+                "usernameIncorrect": "유저네임이 올바르지 않습니다",
+                "usernameTooShort": "유저네임이 너무 짧습니다",
+                "usernameTooLong": "유저네임이 너무 깁니다",
+                "usernameAlreadyInUse": "이미 사용 중인 유저네임입니다"
             }
         },
         "signupPasswordModal": {
@@ -3555,11 +3555,11 @@
                 "newEmail-sub": "새 이메일",
                 "submit": "설정 저장",
                 "info": "개인정보",
-                "info-note": "이름을 추가하고 사용자 이름을 변경하고 멋진 설명을 덧붙여 사람들에게 소개해 보세요.",
-                "username": "사용자 이름",
+                "info-note": "이름을 추가하고 유저네임을 변경하고 멋진 설명을 덧붙여 사람들에게 소개해 보세요.",
+                "username": "유저네임",
                 "desc": "설명",
                 "social": "소셜 미디어",
-                "social-note": "다른 사용자의 방문이 가능한 소셜 미디어 계정을 연결할 수 있습니다.",
+                "social-note": "소셜 미디어 계정을 연결하여 다른 사람과 만날 수 있습니다. 다른 사람이 프로필과 맵을 통해 나에게 연락할 수 있게 하려면 아래의 정보를 입력하세요.",
                 "email-invalid": "이메일 형식이 잘못됨",
                 "oldEmail-sub": "기존 이메일",
                 "submitEmail": "이메일 변경",
@@ -3571,11 +3571,11 @@
                     "youtube": "유튜브 사용자 ID 입력",
                     "twitter": "트위터 사용자 이름 입력",
                     "discord": "사용자#id 입력",
-                    "facebook": "페이스북 사용자 이름 입력",
-                    "instagram": "인스타그램 사용자 이름 입력",
-                    "telegram": "텔레그램 사용자 이름 입력"
+                    "facebook": "페이스북 유저네임 입력",
+                    "instagram": "인스타그램 유저네임 입력",
+                    "telegram": "텔레그램 유저네임 입력"
                 },
-                "username-invalid": "유효하지 않은 사용자 이름",
+                "username-invalid": "유효하지 않은 유저네임",
                 "profilePictureErrorHigh": "프로필 사진 이름이 200자를 초과합니다 (파일 확장자 포함).",
                 "profile-updated": "프로필이 업데이트되었습니다!",
                 "password-changed": "계정의 패스워드가 성공적으로 변경되었습니다.",
@@ -3987,9 +3987,9 @@
         "text1": "게임 메이커 알파 체험자로 선정되셨습니다!",
         "continue": "계속",
         "title2": "프로필을 완성해 주세요.",
-        "errorUsername1": "사용자 이름이 너무 짧습니다. 3자 이상이어야 합니다.",
-        "errorUsername2": "사용자 이름은 영숫자로 구성해야 합니다.",
-        "errorUsername3": "사용자 이름은 필수 항목입니다. 비워둘 수 없습니다.",
+        "errorUsername1": "유저네임이 너무 짧습니다. 3자 이상이어야 합니다.",
+        "errorUsername2": "유저네임은 영문 알파벳과 숫자로 구성해야 합니다.",
+        "errorUsername3": "유저네임은 필수 항목입니다. 비워둘 수 없습니다.",
         "confirmPass": "비밀번호 확인",
         "title3": "좋습니다! 준비가 끝났습니다!",
         "text3": "더 샌드박스 메타버스에 참여하여 게임을 플레이, 창작, 공유하고 수익도 올려보세요!"
@@ -4379,7 +4379,7 @@
     "artistmoderator": "아티스트 운영자",
     "artist": "아티스트",
     "addedAssets": "추가한 애셋",
-    "unpublishedAssets": "게시 안 한 애셋",
+    "unpublishedAssets": "게시되지 않은 애셋",
     "publishedAssets": "게시한 애셋",
     "pendingAssets": "보류 중인 애셋",
     "iteratingAssets": "반복 중인 애셋",
@@ -4534,7 +4534,7 @@
             },
             "minecraft": {
                 "title": "마인크래프트",
-                "info": "작업물 가져오기"
+                "info": "내 애셋 사용하기"
             },
             "nfts": {
                 "title": "NFT",
@@ -5102,7 +5102,7 @@
                 "extraRaffle": {
                     "title": "추가 추첨 티켓",
                     "text": "를 스테이킹하고 추가 추첨 티켓을 획득하세요.",
-                    "tooltipGet": "얻다",
+                    "tooltipGet": "획득",
                     "tooltipStart": "2개마다",
                     "tooltipEnd": "최대 200장의 추첨 티켓을 획득할 수 있습니다."
                 },
@@ -5741,7 +5741,7 @@
         "descriptionTooLong": "설명이 너무 깁니다",
         "descriptionRequired": "설명이 필요합니다",
         "congratulations": "축하합니다",
-        "usernameAlreadyInUse": "이미 사용 중인 사용자 이름입니다",
+        "usernameAlreadyInUse": "이미 사용 중인 유저네임입니다",
         "apply": "적용",
         "doNotShow": "다시 보지 않기",
         "chooseCurrency": "통화 선택",
@@ -5859,24 +5859,24 @@
             "step1": {
                 "title": "애셋 업로드",
                 "step1Title": "새로운 애셋",
-                "step2Title": "애셋 교체"
+                "step2Title": "애셋 교체하기"
             },
             "step2": {
-                "title": "애셋 교체",
+                "title": "애셋 교체하기",
                 "text": "교체할 애셋을 드롭다운 메뉴에서 선택하세요."
             }
         },
         "signIn": {
             "createAccount": "계정 만들기",
-            "usernameEmailMissing": "사용자 이름/이메일이 없습니다",
+            "usernameEmailMissing": "유저네임/이메일이 없습니다",
             "passwordMissing": "비밀번호가 없습니다",
-            "userPasswordMismatches": "사용자 또는 비밀번호가 일치하지 않습니다",
+            "userPasswordMismatches": "유저네임 또는 비밀번호가 일치하지 않습니다",
             "logWithWallet": "지갑으로 로그인",
             "walletIsNotAssociatedAnyUser": "지갑이 연결된 사용자가 없습니다",
             "signIn": "로그인",
             "title": "로그인",
             "subtitle": "마켓플레이스에 업로드하려면 로그인한 상태여야 합니다.",
-            "placeholder1": "사용자 이름/이메일",
+            "placeholder1": "유저네임/이메일",
             "placeholder2": "비밀번호",
             "forgotPass": "비밀번호를 잊었습니다",
             "walletLoginMsg": "지갑으로 로그인할 수도 있습니다.",
