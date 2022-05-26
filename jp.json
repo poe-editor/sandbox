@@ -126,7 +126,7 @@
         "from": "送信者",
         "to": "受信者",
         "time": "時間",
-        "seeMore": "さらに表示",
+        "seeMore": "もっと見る",
         "learnMore": "詳細を見る",
         "website": "ウェブサイト",
         "congratulations": "おめでとうございます",
@@ -149,7 +149,7 @@
         "copies": "数量",
         "amountCopies": "数量(合計)",
         "soldout": "Sold Out",
-        "doNotShow": "次は表示しない",
+        "doNotShow": "次から表示しない",
         "goToHome": "ホームへ移動",
         "daysMonths": {
             "day": "曜日",
@@ -329,14 +329,14 @@
             "subsidiary": "Subsidiary of"
         },
         "createAvatarModal": {
-            "title": "Landを入手しましょう",
-            "description": "OpenSeaにて、購入可能なLandやNFTを探しましょう。",
+            "title": "Landを入手しよう",
+            "description": "OpenSeaにて、購入可能なLandやNFTを探そう。",
             "buttonText": "LANDを買う",
             "notAgain": "次からは表示しない"
         },
         "termsAndConditions": {
             "title": "Special Terms and Conditions apply for Japan residents: ",
-            "description": "日本在住の方は、アルファパスを獲得もしくはご購入をされても、今回のSAND報酬を受け取ることができません。ご了承ください。",
+            "description": "日本在住の方は、日本の制限により、一部のコンテストの報酬は受け取ることができますが、アルファパスの報酬のSANDを受け取ることができません。このサービスの利用条件に同意しますか。",
             "accept": "同意する",
             "reject": "同意しません",
             "error": "Unfortunately you can’t use The Sandbox products and services unless you read and accept our Terms and Conditions.",
@@ -345,8 +345,8 @@
     },
     "home": {
         "meta": {
-            "title": "The Sandbox ゲーム - ユーザー制作によるブロックチェーンゲーム",
-            "description": "The Sandboxで、自分が制作したボクセルアートを販売し、収益化しましょう。Create & Play!",
+            "title": "The Sandbox ゲーム - ユーザーが作るブロックチェーンゲーム",
+            "description": "The Sandboxで、自分が制作したボクセルアートを販売し、収益化しよう。Create & Play!",
             "keywords": "サンドボックス, ボクセルアート, 3Dボクセルゲーム, ボクセルアーティスト, 3DオンラインPCゲーム, コミュニティ, ブロックチェーン DAPP, PC用ボクセルゲーム, PCのボクセルアート, 分散型ゲーム",
             "og": {
                 "title": "プレイヤーが作り上げるオープンゲーム メタバース",
@@ -356,7 +356,7 @@
                 "image": "https://www.sandbox.game/media/The-Sandbox-Banner1-1200px.png"
             },
             "twitter": {
-                "title": "プレイヤーが作り上げる分散型ゲームのメタバース。",
+                "title": "プレイヤーが作り上げるゲーム メタバース。",
                 "description": "オープンメタバース『The Sandbox』は、ブロックチェーン技術によりクリエイターがボクセルアートやゲーム体験を収益化することができます！",
                 "card": "プレイヤーが作り上げるオープン ゲームプラットフォーム。",
                 "site": "@thesandboxgame",
@@ -402,7 +402,7 @@
         },
         "land": {
             "title": "自分のLANDを作ろう",
-            "description": "非代替性トークン (NFT) とは、ブロックチェーン上で発行される、デジタルセキュリティ、安全性、信頼性の高い仮想トークンです。ゲーム内アセットのデジタル所有を実現する唯一の不可分かつ代替不可能なトークンです。",
+            "description": "NFTとは、ブロックチェーン上で発行される、セキュリティ、安全性、信頼性の高い仮想トークンです。ゲーム内アセットのデジタル所有を実現する唯一の方法です。",
             "buttonText": "LANDを買う",
             "discoverMap": "マップの紹介"
         },
@@ -444,7 +444,7 @@
         },
         "play": {
             "selectAvatar": "アバターを選択",
-            "enter": "アルファロビーに入場",
+            "enter": "アルファロビーに入る",
             "learnMore": "アルファの詳細",
             "legend": "アルファで何かお困りですか？",
             "sendFeedback": "Send Feedback",
@@ -668,7 +668,7 @@
                     "increaseTotalDescriptionEnd": "",
                     "seasonStart": "1",
                     "seasonFinish": "31",
-                    "hasJustEnded": "ALPHA SEASON 2 HAS JUST ENDED",
+                    "hasJustEnded": "アルファ シーズン２は終了しました",
                     "welcomeOpen": "WELCOME TO THE OPEN METAVERSE",
                     "thanks": "Thanks to all Alpha Season 2 players!",
                     "canClaim": "Season 2 Alpha Pass winners can now claim their rewards",
@@ -755,13 +755,13 @@
             "earn": {
                 "title": "$SAND報酬",
                 "subtitle1": "アルファパスを使って",
-                "firstDescription1": "プレイして稼ぐ：",
+                "firstDescription1": "PLAY TO EARN：",
                 "firstDescription2": "1000SANDと",
                 "firstDescription3": "3つの素敵なNFT報酬を手に入れよう。",
                 "secondDescription1": "内容：",
                 "secondDescription2": "アルファハブと18の体験をご利用いただけます。",
                 "subtitle2": "アルファパスなしで",
-                "fourthDescription1": "プレイして稼ぐ：",
+                "fourthDescription1": "PLAY TO EARN：",
                 "fourthDescription2": "アルファ報酬を手に入れるには、アルファパスが必要です",
                 "fifthDescription1": "内容：",
                 "fifthDescription2": "アルファハブと3つの体験をご利用いただけます。",
@@ -1790,13 +1790,13 @@
                 }
             },
             "header": {
-                "title": "自分のゲームを制作。プログラミングは必要なし",
-                "description": "あなたの想像力を現実のものにするために必要なツールボックス",
+                "title": "無料で使えるゲーム制作ツール。プログラミングは必要なし！",
+                "description": "今すぐ使ってみよう！",
                 "buttonText": "ダウンロード"
             },
             "metaverse": {
-                "title": "メタバースにゲームを構築しましょう",
-                "description": "誰でも無料で3Dゲームが構築できます。プログラミングは必要ありません。素晴らしい創造物と体験を生み出すことで、広大なメタバースに貢献しましょう。",
+                "title": "メタバースにゲームを構築しよう",
+                "description": "誰でも無料で3Dゲームが構築できます。プログラミングは必要ありません。メタバースにボクセルの建物やゲームを建築しよう。",
                 "buttonText": "ダウンロード"
             },
             "create": {
@@ -1887,13 +1887,13 @@
             },
             "header": {
                 "title": "VoxEdit- NFTクリエイター",
-                "description": "自分だけのボクセルベースのNFTを作成してリギング、動かすことができる最先端のソフトウェアです。制作物はThe Sandboxのマーケットプレイスで販売して、新たな世界を発見しましょう。"
+                "description": "ボクセルNFTを作成してリギング、動かすことができる最先端のソフトウェアです。制作したものをThe Sandboxのマーケットプレイスで販売したり、メタバースに設置しよう。"
             },
             "models": {
                 "title": "自分だけのボクセルモデルを制作",
                 "cards": {
                     "1": "作品をアップロードするには、クリエイターファンドのアーティスト登録を行う必要があります。",
-                    "2": "VoxEditはマーケットプレイスにアセットをエクスポートすることのできる唯一のソフトウェアです。VoxEditをダウンロードし、アセットの制作をする。",
+                    "2": "VoxEditはThe Sandboxのマーケットプレイスにアセットをエクスポートすることのできる唯一のソフトウェアです。",
                     "3": "自分のモデル完成したら、次の手順で簡単にマーケットプレイスにエクスポートできます。"
                 },
                 "link": "詳細",
@@ -2530,7 +2530,7 @@
             "coinmarketcap": "COINMARKETCAP",
             "the_smurfs": "スマーフ",
             "care_bears": "ケアベア",
-            "binance": "Binance (バイナンス)",
+            "binance": "Binance",
             "moon": "MOON",
             "atari": "ATARI",
             "hub2": "THE HUB (パート 2)",
@@ -2760,7 +2760,7 @@
         "sand": {
             "meta": {
                 "title": "The Sandbox | SANDトークン",
-                "description": "『The Sandbox』エコシステムでは、取引や交流の基盤としてSANDというユーティリティトークンを使用します。これはイーサリアムブロックチェーン上に構築されたERC-20ユーティリティトークンです。SANDの供給には限りがあり、上限を3,000,000,000SANDとします。 ",
+                "description": "『The Sandbox』では、SAND（ERC-20)というトークンで取引をします。SANDの供給には限りがあり、発行総数は30億です。 ",
                 "keywords": "サンドボックス, ボクセルアート, 3Dボクセルゲーム, ボクセルアーティスト, 3DオンラインPCゲーム, コミュニティ, ブロックチェーン DAPP, PC用ボクセルゲーム, PCのボクセルアート, 分散型ゲーム, SAND, トークン",
                 "og": {
                     "title": "The Sandbox | SANDについて",
@@ -2771,7 +2771,7 @@
                 },
                 "twitter": {
                     "title": "The Sandbox | SANDについて",
-                    "description": "『The Sandbox』エコシステムでは、取引や交流の基盤としてSANDというユーティリティトークンを使用します。これはイーサリアムブロックチェーン上に構築されたERC-20ユーティリティトークンです。SANDの供給には限りがあり、上限を3,000,000,000SANDとします。 ",
+                    "description": "『The Sandbox』では、SAND（ERC-20)というトークンで取引をします。SANDの供給には限りがあり、発行総数は30億です。 ",
                     "card": "プレイヤーが作り上げる分散型ゲームプラットフォーム。",
                     "site": "@thesandboxgame",
                     "creator": "@thesandboxgame",
@@ -2779,16 +2779,16 @@
                 }
             },
             "header": {
-                "description": "『The Sandbox』エコシステムでは、取引や交流の基盤としてSANDというユーティリティトークンを使用します。これはイーサリアムブロックチェーン上に構築されたERC-20ユーティリティトークンです。SANDの供給には限りがあり、上限を3,000,000,000SANDとします。",
+                "description": "『The Sandbox』では、SAND（ERC-20)というトークンで取引をします。SANDの供給には限りがあり、発行総数は30億です。 ",
                 "mainButtonText": "買う",
-                "secondaryButtonText": "ステークス",
-                "link": "Binance (バイナンス) のリサーチを読む"
+                "secondaryButtonText": "ステーク",
+                "link": "Binanceリサーチを読む"
             },
             "platforms": "は次で利用可能です",
             "brands": {
                 "sandbox": {
                     "name": "The Sandbox",
-                    "description": "メタバースの『The Sandbox』は、イーサリアムブロックチェーン上に構築され、自分たちのゲーム体験を構築し、所有し、そして収益化出来るメタバースです。"
+                    "description": "イーサリアムブロックチェーン上に構築されたゲーム メイキング メタバースです。"
                 },
                 "sand": {
                     "name": "$SAND",
@@ -2817,7 +2817,7 @@
                     "title": "チケット",
                     "circulating": "供給量",
                     "total": "合計トークン供給量",
-                    "binance": "Binance (バイナンス) ローンチパッド販売価格"
+                    "binance": "Binance ローンチパッド販売価格"
                 }
             },
             "sandbox": {
@@ -3826,7 +3826,7 @@
     },
     "sand": {
         "buy": {
-            "availableSand": "SANDは次で利用可能です：",
+            "availableSand": "SAND取引パートナー",
             "buySand": "SANDを購入",
             "howToBuySand": "SANDの購入方法",
             "viewEtherscan": "Etherscanで表示",
@@ -4944,7 +4944,7 @@
         "modalStake": {
             "add": "流動性を追加",
             "balance": "残高： ",
-            "stake": "ステークス",
+            "stake": "ステーク",
             "more": "流動性の取得方法",
             "amount": "数量",
             "inactive": "非アクティブ"
@@ -5437,7 +5437,7 @@
                         "button": "OpenSeaで探す"
                     },
                     "3": {
-                        "subtitle": "プレイして稼ぐ",
+                        "subtitle": "PLAY TO EARN",
                         "title1": "アルファをプレイして稼ぐ\n",
                         "title2": "仮想通貨とNFTを獲得",
                         "paragraphs": {
@@ -5568,13 +5568,13 @@
             "lookBack": {
                 "title": "A LOOK BACK AT",
                 "metrics": {
-                    "0": "SANDの 配布数",
-                    "1": "STAKING VOLUME S2",
+                    "0": "SAND配布量",
+                    "1": "S2 ステーキング量",
                     "2": "コミュニティブースター",
-                    "3": "ALPHA PASSES DISTRIBUTED",
+                    "3": "アルファパス配布数",
                     "4": "NFT 配布数",
-                    "5": "CONTESTS PARTICIPANTS",
-                    "6": "ALPHA HUB VISITORS",
+                    "5": "コンテスト参加者",
+                    "6": "アルファハブ訪問者",
                     "7": "POSITIVE FEEDBACK"
                 },
                 "subtitle": "アルファシーズン2"
@@ -5615,7 +5615,7 @@
                         "3": "as you can to increase your chances of winning."
                     },
                     "4": "Discover new Experiences and Quests.",
-                    "5": "Get Ready to Play to Earn!"
+                    "5": "Play to Earnの準備はできていますか？"
                 }
             },
             "modal": {
@@ -5666,7 +5666,7 @@
                             "1": "Increase your chances to win a Season 2 Alpha Pass by",
                             "2": "completing Quests",
                             "3": "to earn Raffle Tickets.",
-                            "4": "「抽選チケットはNFTではありません"
+                            "4": "抽選チケットはNFTではありません"
                         }
                     },
                     "4": {
@@ -6390,44 +6390,44 @@
         "2012": {
             "date": "2012",
             "month": "5月",
-            "title": "Sandboxフランチャイズ、IOSでリリース",
+            "title": "The Sandboxフランチャイズ、iOS版をリリース",
             "text": "SandboxがAppleの「ベスト・ゲーム・オブ・ザ・イヤー」を受賞"
         },
         "2013": {
             "date": "2013",
             "month": "2月",
-            "title": "Sandbox、アンドロイドでリリース(最初のタイトル)",
+            "title": "The Sandbox、アンドロイド版をリリース",
             "text": ""
         },
         "2014": {
             "date": "2014",
             "month": "",
-            "title": "Sandboxが1,000万ダウンロード突破",
+            "title": "The Sandbox、1,000万ダウンロード突破",
             "text": "The Sandboxのストリーミングバージョンがリリース。SkyboundのThe invincibleと提携。科学/技術/工学/数学教育用のThe Sandboxがリリース。"
         },
         "2015": {
             "date": "2015",
             "month": "",
-            "title": "Sandbox Evolution、GDCカンファレンスで発表(2番目のタイトル)",
+            "title": "The Sandbox Evolution、GDCカンファレンスで発表",
             "text": "Sandbox Evolution、1,600万インストール突破"
         },
         "2016": {
             "date": "2016",
             "month": "",
-            "title": "Sandbox Evolution、iOS、アンドロイド、ストリーム版リリース",
+            "title": "The Sandbox Evolution、iOS、アンドロイド、Steam版をリリース",
             "text": "Sonyと提携 - ゴーストバスターズ"
         },
         "2017": {
             "date": "2017",
             "month": "",
-            "title": "Sandbox Evolution、2つの大きな提携",
+            "title": "The Sandbox Evolution、２件の大型大型業務提携を発表",
             "text": "バンダイナムコが、ゲームにパックマンを導入。DreamWorksがゲームにシュレックを導入。Sandbox EvolutionはSteamにて無料ダウンロードを発表"
         },
         "2018": {
             "1": {
                 "date": "2018",
                 "month": "4月",
-                "title": "Sandboxが4,000万ダウンロードを達成し、プレーヤーによるクリエーションは7,000万を突破",
+                "title": "The Sandbox、4,000万ダウンロード突破、プレーヤーによるクリエーションは7,000万を突破",
                 "text": "Sandbox、Facebookのフォロワーが75万人突破"
             },
             "2": {
@@ -6520,7 +6520,7 @@
                 "items": {
                     "1": {
                         "title": "パートナーシップ",
-                        "text": "新しいIPとプレミアムNFTが発表される"
+                        "text": "新しいパートナーとプレミアムNFTの発表"
                     },
                     "2": {
                         "title": "ゲームメーカー",
@@ -6628,7 +6628,7 @@
                 "items": {
                     "1": {
                         "title": "パートナーシップ",
-                        "text": "新しいIPとプレミアムNFTが発表される"
+                        "text": "新しいパートナーとプレミアムNFTの発表"
                     },
                     "2": {
                         "title": "ゲームプラットフォーム",
@@ -6652,7 +6652,7 @@
                     },
                     "7": {
                         "title": "VoxEdit",
-                        "text": "ボクセルアセットとNFTの作成を容易にするためのより多くの動作を備えたメジャーアップデート"
+                        "text": "ボクセルアセットとNFT制作に関するアップデート"
                     }
                 }
             }
@@ -6668,7 +6668,7 @@
                     },
                     "2": {
                         "title": "パートナーシップ",
-                        "text": "新しいIPとプレミアムNFTが発表される"
+                        "text": "新しいパートナーとプレミアムNFTの発表"
                     },
                     "3": {
                         "title": "ゲームメーカー",
