@@ -215,7 +215,10 @@
         "enablePopups": "Make sure you have popups enabled",
         "msand": "mSAND",
         "requestMinting": "Request Minting",
-        "cancelRequest": "Cancel Request"
+        "cancelRequest": "Cancel Request",
+        "reportNFT": "Report NFT",
+        "report": "Report",
+        "failedTryAgain": "Something went wrong. Please try again."
     },
     "layout": {
         "topbar": {
@@ -1420,6 +1423,53 @@
             "from": "日期從",
             "to": "到",
             "cancel": "取消銷售"
+        },
+        "reportModal": {
+            "modalTitle": "Report NFT",
+            "dropdownPlaceholder": "Select one option",
+            "dropdown2Placeholder": "What do you want to report?",
+            "textareaPlaceholder": "Provide additional information",
+            "text1": "Accounts are penalized for Community Guidelines violations, and serious or repeated violations can lead to account termination.",
+            "text2a": "Join the discussion about",
+            "text2b": "Community Guidelines",
+            "text2c": "violation on Discord.",
+            "text2d": "Community Guidelines.",
+            "summaryThankyou": "Thank you for reporting this asset",
+            "summaryIssue": "Issue:",
+            "summaryReported": "What you reported:",
+            "summaryAdditionalInformation": "Additional information:",
+            "summaryCommunityTexta": "We will look into this report and remove this asset from our Marketplace if it does not comply with our",
+            "summaryCommunityTextb": "Once assets are minted we can remove them from the Marketplace but the asset will be available on the blockchain so you might still find it on other marketplaces.",
+            "summaryClose": "Close",
+            "items": {
+                "asset": "Asset",
+                "title": "Title",
+                "description": "Description",
+                "colname": "Collection name",
+                "usrname": "User name"
+            },
+            "options": {
+                "pornographic": "Pornographic content",
+                "hateful": "Hateful or abusive content",
+                "harrasment": "Harassment or bullying",
+                "selfharm": "Threats of harm or encouragement of self harm",
+                "crimes": "Promotion or glorification of real life violence",
+                "spam": "Spam",
+                "scams": "Scams",
+                "myrights": "Infringes on my rights",
+                "othersrights": "Infringes on the rights of another",
+                "reportTooltips": {
+                    "pornographicTooltip": "Vulgar and sexually explicit, not necessarily nudity",
+                    "hatefulTooltip": "Racism, sexism, ageism, and other hate directed towards groups either symbolically or literally",
+                    "harrasmentTooltip": "Theatens individuals or targets them with malicious insults",
+                    "selfharmTooltip": "Could promote acts that may result in physical harm",
+                    "crimesTooltip": "Violence, crime, or terrorism (storytelling is fine, promoting real life terrorist groups or exhalating real life crimes/criminals is not)",
+                    "spamTooltip": "Ad for another game as just an image, not an NPC that can be used in The Sandbox from that other game.",
+                    "scamsTooltip": "Items used to defraud buyers - knock offs posing as official content",
+                    "myrightsTooltip": "I believe this content is not authorized and the IP holder should be alerted",
+                    "othersrightsTooltip": "Promotion of products and services outside of The Sandbox without any purpose in The Sandbox"
+                }
+            }
         }
     },
     "shop": {
@@ -1490,7 +1540,8 @@
             "avatar": "皮肤",
             "block": "Block",
             "bodypart": "Bodypart",
-            "and": "and"
+            "and": "and",
+            "onOpenseaTitle": "NFTs LAND on Opensea"
         },
         "rarities": {
             "title": "CATALYST",
@@ -2208,7 +2259,9 @@
                     },
                     "login": "我已经有账号了",
                     "waiting": "请登录/注册Venly",
-                    "notAvailableWallet": "{walletName} is not available in {browserName}"
+                    "notAvailableWallet": "{walletName} is not available in {browserName}",
+                    "walletInUse": "",
+                    "walletLegacy": ""
                 },
                 "signinModal": {
                     "title": "登录",
@@ -2255,6 +2308,97 @@
                         "newPasswordIsRequired": "新密码为必填项",
                         "newPasswordTooShort": "新密码过短",
                         "passwordDoNotMatch": "新密码不匹配"
+                    }
+                },
+                "claims": {
+                    "bannerTitle": "LAND Owners Claim",
+                    "bannerSubtitle1": "We continue to bring value to our land owners",
+                    "bannerSubtitle2": "ROADMAP 2022 for LAND Owner",
+                    "bannerSubtitle3": "SAND Airdrop for LAND owner",
+                    "checkButtonText": "Check your Claim",
+                    "landOwner": {
+                        "landsCount1": "You own",
+                        "landsCount2": "LANDS",
+                        "landsCount3": "You will receive",
+                        "step1Title1": "Claim your",
+                        "step1Subtitle": "Your are eligible for the reward! Each LAND Owner is receiving some $mSAND based on the amount of LAND they owned on May 13, 2022.",
+                        "step5Title": "Here is your claim",
+                        "step5Subtitle": "We were happy to share this exciting roadmap with all of you. As a LAND owner you are building the future, and we can’t wait to see what it will bring!",
+                        "steps2To4Title1": "LAND Owners",
+                        "steps2To4Title2": "Roadmap 2022",
+                        "steps2To4Subtitle1": "On May 13, 2022 we introduced our latest roadmap for LAND Owners. Let us go through the perks and features you can expect in 2022!",
+                        "steps2To4Subtitle2": "Your are not eligible for the reward! Each LAND Owner is receiving some $mSAND based on the amount of LAND they owned on May 13, 2022.",
+                        "footer": "Make sure to grab LAND to be eligible for the next claim!",
+                        "alreadyClaimed": "Already Claimed",
+                        "congrats": {
+                            "title1": "Congrats!",
+                            "title2": "Earn SAND",
+                            "subtitle1": "You have successfully claimed",
+                            "subtitle2": "Here are some ways you can put it to good use",
+                            "subtitle3": "Get rewards by",
+                            "subtitle4": "staking",
+                            "subtitle5": "your"
+                        },
+                        "milestones": {
+                            "dates": {
+                                "1": "November 2021",
+                                "2": "January 2022",
+                                "3": "February 2022",
+                                "4": "May 2022",
+                                "5": "June 2022",
+                                "6": "July 2022",
+                                "7": "September 2022",
+                                "8": "May / June 2022",
+                                "9": "Q2/Q3 2022",
+                                "10": "Q3 2022",
+                                "11": "Q4 2022"
+                            },
+                            "claim": {
+                                "title": "CLAIM",
+                                "text1": "2.5M $mSAND airdrop to LAND owners",
+                                "text2": "5M $mSAND airdrop to LAND owners",
+                                "text3": "$mSAND claim to celebrate the Metaverse's 1,000th day based on LAND holding time"
+                            },
+                            "stake": {
+                                "title": "STAKE",
+                                "text1": "Multiplier on SAND-ETH staking (Uniswap)",
+                                "text2": "Multiplier on mSAND-MATIC staking (Quickswap)",
+                                "text3": "Multiplier on mSAND staking (Layer 2)",
+                                "text4": "LAND owner exclusive $CATALYST and $GEM farming (Layer 2)",
+                                "text5": "LAND owner exclusive 10M $mSAND farming (Layer 2)"
+                            },
+                            "buy": {
+                                "title": "BUY",
+                                "text1": "More than 100,000 LAND acquired by over 20,000 LAND owners",
+                                "text2": "New partners",
+                                "text3": "New sales system with a raffle and KYC for a fair and distributed process",
+                                "text4": "Upcoming LAND sale Ubisoft, Paris Hilton, Warner Music Group, Gucci"
+                            },
+                            "play": {
+                                "title": "PLAY",
+                                "text1": "Season 1 : Exclusive Rewards",
+                                "text2": "Season 2 : Earn more $SAND and Raffle Tickets",
+                                "text3": "Season 3 : Extra Raffle Tickets, increased rewards, special raffle for LAND Owners only, raffle bonus"
+                            },
+                            "build": {
+                                "title": "BUILD",
+                                "text1": "35+ certified Builders community",
+                                "text2": "Create ESTATEs with your LANDs",
+                                "text3": "Publish experiences on your LAND",
+                                "text4": "Rent LANDs & ESTATEs",
+                                "text5": "Premium LAND will unlock new assets and behaviors in the Game Maker"
+                            },
+                            "migrate": {
+                                "title": "MIGRATE",
+                                "text1": "Get access to all features on Polygon Layer 2",
+                                "text2": "1M $mSAND distributed in cashback on migrated LANDs"
+                            },
+                            "meet": {
+                                "title": "MEET",
+                                "text1": "Organize exclusive IRL events with our LAND owners including brands, talents and more… Soon at www.nft.nyc ✈️",
+                                "text2": "Organize and finance local Meetups"
+                            }
+                        }
                     }
                 }
             },
@@ -3445,7 +3589,9 @@
             },
             "login": "我已经有账号了",
             "waiting": "请登录/注册Venly",
-            "notAvailableWallet": "{walletName} is not available in {browserName}"
+            "notAvailableWallet": "{walletName} is not available in {browserName}",
+            "walletInUse": "",
+            "walletLegacy": ""
         },
         "signinModal": {
             "title": "登录",
@@ -6457,7 +6603,9 @@
                     "7/7"
                 ]
             },
-            "totalCashback": "Total Cashback:"
+            "totalCashback": "Total Cashback:",
+            "cashback": "Cashback:",
+            "pendingSecond": "Pending second transaction"
         },
         "buySand": "Buy SAND",
         "buymSand": "Buy mSAND",
@@ -6471,7 +6619,10 @@
         "cashback": {
             "total": "🔥 Total Cashback accumulated 🔥",
             "claim": "Claim Cashback"
-        }
+        },
+        "deposits": "Deposits",
+        "withdraws": "Withdraws",
+        "actionRequired": "Action Required"
     },
     "season.info.communityBooster.bulletPoints.1.3": {
         "3": ""
@@ -7943,5 +8094,13 @@
             "comingSoon": "(Coming Soon)",
             "recommended": "Recommended"
         }
+    },
+    "exteralCollections": {
+        "name": "外部收藏",
+        "header": {
+            "title": "探索外部收藏",
+            "description": "發現可以在元節上使用的外部集合"
+        },
+        "link": "在 OpenSea 上購買"
     }
 }
