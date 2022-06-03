@@ -1387,22 +1387,22 @@
         },
         "alpha3": {
             "contest": {
-                "ranking": "",
-                "socialContests": "",
-                "howItWorks": "",
-                "howItWorksDesc": "",
-                "ongoing": "",
-                "coming": "",
-                "onlyForOwners": "",
-                "seeMore": "",
-                "shared": "",
-                "rewards": "",
-                "comingSoon": "",
-                "upcoming": "",
-                "upcomingDesc": "",
-                "play": "",
-                "openUntil": "",
-                "upcomingEvents": ""
+                "ranking": "ranking",
+                "socialContests": "socialContests",
+                "howItWorks": "howItWorks",
+                "howItWorksDesc": "howItWorksDesc",
+                "ongoing": "ongoing",
+                "coming": "coming",
+                "onlyForOwners": "onlyForOwners",
+                "seeMore": "seeMore",
+                "shared": "shared",
+                "rewards": "rewards",
+                "comingSoon": "comingSoon",
+                "upcoming": "upcoming",
+                "upcomingDesc": "upcomingDesc",
+                "play": "play",
+                "openUntil": "openUntil",
+                "upcomingEvents": "upcomingEvents"
             }
         }
     },
@@ -2280,8 +2280,8 @@
                     "login": "zaten bir hesabım var",
                     "waiting": "Lütfen giriş yapın / Venly ile kaydolun",
                     "notAvailableWallet": "{walletName} is not available in {browserName}",
-                    "walletInUse": "",
-                    "walletLegacy": ""
+                    "walletInUse": "walletInUse",
+                    "walletLegacy": "walletLegacy"
                 },
                 "signinModal": {
                     "title": "Giriş yap",
@@ -3222,7 +3222,7 @@
                 "passwordDoNotMatch": "Şifreler eşleşmiyor",
                 "errorAvatarImageSize": "Dosya boyutu çok büyük, lütfen daha küçük bir dosya deneyin",
                 "errorAvatarImageType": "Dosya uzantısı desteklenmiyor, lütfen .jpg, .png or .jpeg uzantılı bir dosya kullanın",
-                "errorBannerImageSize": ""
+                "errorBannerImageSize": "errorBannerImageSize"
             },
             "edit": {
                 "editTitle": "Profilini Düzenle",
@@ -3616,8 +3616,8 @@
             "login": "Zaten bir hesabım var",
             "waiting": "Lütfen Venly ile giriş yapın / üye olun",
             "notAvailableWallet": "{walletName} is not available in {browserName}",
-            "walletInUse": "",
-            "walletLegacy": ""
+            "walletInUse": "walletInUse",
+            "walletLegacy": "walletLegacy"
         },
         "signinModal": {
             "title": "Giriş Yap",
@@ -8131,7 +8131,7 @@
     },
     "alpha3": {
         "contest": {
-            "play": ""
+            "play": "play"
         }
     }
 }
