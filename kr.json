@@ -216,9 +216,9 @@
         "msand": "mSAND",
         "requestMinting": "민팅 요청하기",
         "cancelRequest": "요청 취소하기",
-        "reportNFT": "Report NFT",
-        "report": "Report",
-        "failedTryAgain": "Something went wrong. Please try again."
+        "reportNFT": "NFT 신고하기",
+        "report": "신고하기",
+        "failedTryAgain": "오류가 발생했습니다. 잠시 후 다시 시도해 주세요."
     },
     "layout": {
         "topbar": {
@@ -1425,49 +1425,49 @@
             "cancel": "판매 취소"
         },
         "reportModal": {
-            "modalTitle": "Report NFT",
-            "dropdownPlaceholder": "Select one option",
-            "dropdown2Placeholder": "What do you want to report?",
-            "textareaPlaceholder": "Provide additional information",
-            "text1": "Accounts are penalized for Community Guidelines violations, and serious or repeated violations can lead to account termination.",
-            "text2a": "Join the discussion about",
-            "text2b": "Community Guidelines",
-            "text2c": "violation on Discord.",
-            "text2d": "Community Guidelines.",
-            "summaryThankyou": "Thank you for reporting this asset",
-            "summaryIssue": "Issue:",
-            "summaryReported": "What you reported:",
-            "summaryAdditionalInformation": "Additional information:",
-            "summaryCommunityTexta": "We will look into this report and remove this asset from our Marketplace if it does not comply with our",
-            "summaryCommunityTextb": "Once assets are minted we can remove them from the Marketplace but the asset will be available on the blockchain so you might still find it on other marketplaces.",
-            "summaryClose": "Close",
+            "modalTitle": "NFT 신고하기",
+            "dropdownPlaceholder": "하나를 선택하세요.",
+            "dropdown2Placeholder": "무엇을 신고하시겠습니까?",
+            "textareaPlaceholder": "추가 정보 기입",
+            "text1": "커뮤니티 가이드라인을 위반할 경우 계정에 제재 조치를 취할 수 있으며 심각하거나 반복적인 위반 시 계정이 해지될 수 있습니다.",
+            "text2a": "토론 참여하기:",
+            "text2b": "커뮤니티 가이드라인",
+            "text2c": "디스코드 위반",
+            "text2d": "커뮤니티 가이드라인",
+            "summaryThankyou": "이 애셋을 신고해 주셔서 감사합니다.",
+            "summaryIssue": "문제:",
+            "summaryReported": "신고 내역:",
+            "summaryAdditionalInformation": "추가 정보:",
+            "summaryCommunityTexta": "신고 내역을 살펴보고 커뮤니티 가이드라인에 부합하지 않을 경우 해당 애셋을 마켓플레이스에서 삭제합니다.",
+            "summaryCommunityTextb": "애셋이 민팅되면 더 샌드박스 마켓플레이스에서 삭제할 수 있으나 블록체인에서 완전히 삭제되는 것은 아니므로 타 마켓플레이스에서는 여전히 해당 애셋을 찾을 수 있습니다.",
+            "summaryClose": "닫기",
             "items": {
-                "asset": "Asset",
-                "title": "Title",
-                "description": "Description",
-                "colname": "Collection name",
-                "usrname": "User name"
+                "asset": "애셋",
+                "title": "제목",
+                "description": "설명",
+                "colname": "컬렉션 이름",
+                "usrname": "유저네임"
             },
             "options": {
-                "pornographic": "Pornographic content",
-                "hateful": "Hateful or abusive content",
-                "harrasment": "Harassment or bullying",
-                "selfharm": "Threats of harm or encouragement of self harm",
-                "crimes": "Promotion or glorification of real life violence",
-                "spam": "Spam",
-                "scams": "Scams",
-                "myrights": "Infringes on my rights",
-                "othersrights": "Infringes on the rights of another",
+                "pornographic": "음란물",
+                "hateful": "폭력적이거나 혐오물",
+                "harrasment": "학대 또는 따돌림을 조장",
+                "selfharm": "위해를 가하거나 자해를 권장",
+                "crimes": "실제 폭력을 조장하거나 미화",
+                "spam": "스팸",
+                "scams": "스캠",
+                "myrights": "나의 권리를 침해",
+                "othersrights": "타인의 권리를 침해",
                 "reportTooltips": {
-                    "pornographicTooltip": "Vulgar and sexually explicit, not necessarily nudity",
-                    "hatefulTooltip": "Racism, sexism, ageism, and other hate directed towards groups either symbolically or literally",
-                    "harrasmentTooltip": "Theatens individuals or targets them with malicious insults",
-                    "selfharmTooltip": "Could promote acts that may result in physical harm",
-                    "crimesTooltip": "Violence, crime, or terrorism (storytelling is fine, promoting real life terrorist groups or exhalating real life crimes/criminals is not)",
-                    "spamTooltip": "Ad for another game as just an image, not an NPC that can be used in The Sandbox from that other game.",
-                    "scamsTooltip": "Items used to defraud buyers - knock offs posing as official content",
-                    "myrightsTooltip": "I believe this content is not authorized and the IP holder should be alerted",
-                    "othersrightsTooltip": "Promotion of products and services outside of The Sandbox without any purpose in The Sandbox"
+                    "pornographicTooltip": "저속하고 성적으로 노골적(반드시 누드일 필요는 없음)",
+                    "hatefulTooltip": "인종차별, 성차별, 연령차별, 그리고 상징적 또는 직접적으로 특정 집단을 향한 기타 증오",
+                    "harrasmentTooltip": "악의적인 모욕으로 개인이나 집단을 위협",
+                    "selfharmTooltip": "신체적 손상을 초래하는 행위를 조장",
+                    "crimesTooltip": "폭력, 범죄 또는 테러(스토리텔링은 허용 가능하나 실제 테러리스트 그룹을 홍보하거나 실제 범죄 및 범죄자를 낳을 수 있는 행위는 금지)",
+                    "spamTooltip": "더 샌드박스에서 사용할 수 있는 NPC 형태가 아닌 이미지로 타 게임 홍보",
+                    "scamsTooltip": "구매자를 기만하는 아이템 - 공식 콘텐츠로 가장한 모조품",
+                    "myrightsTooltip": "해당 콘텐츠는 승인되지 않았으며 IP 보유자에게 이를 고지해야 합니다.",
+                    "othersrightsTooltip": "더 샌드박스 내 사용 목적 없이 외부에서 제품 및 서비스 홍보"
                 }
             }
         }
@@ -2260,8 +2260,8 @@
                     "login": "이미 계정이 있습니다",
                     "waiting": "Venly으로 로그인하거나 가입하세요",
                     "notAvailableWallet": "{browserName}에서는 {walletName}을 사용할 수 없습니다.",
-                    "walletInUse": "",
-                    "walletLegacy": ""
+                    "walletInUse": "지갑이 다른 계정에서 사용 중입니다.",
+                    "walletLegacy": "기존의 지갑을 사용하고 있는 것 같습니다. 수동으로 지갑의 잠금을 해제하고 다시 시도해 주세요."
                 },
                 "signinModal": {
                     "title": "로그인",
@@ -2311,92 +2311,92 @@
                     }
                 },
                 "claims": {
-                    "bannerTitle": "LAND Owners Claim",
-                    "bannerSubtitle1": "We continue to bring value to our land owners",
-                    "bannerSubtitle2": "ROADMAP 2022 for LAND Owner",
-                    "bannerSubtitle3": "SAND Airdrop for LAND owner",
-                    "checkButtonText": "Check your Claim",
+                    "bannerTitle": "LAND 보유자를 위한 보상 수령하기",
+                    "bannerSubtitle1": "더 샌드박스는 지속적으로 LAND 보유자를 위한 가치를 제공합니다.",
+                    "bannerSubtitle2": "LAND 보유자를 위한 2022 로드맵",
+                    "bannerSubtitle3": "LAND 보유자를 위한 SAND 에어드롭",
+                    "checkButtonText": "내 보상 내역 확인하기",
                     "landOwner": {
-                        "landsCount1": "You own",
-                        "landsCount2": "LANDS",
-                        "landsCount3": "You will receive",
-                        "step1Title1": "Claim your",
-                        "step1Subtitle": "Your are eligible for the reward! Each LAND Owner is receiving some $mSAND based on the amount of LAND they owned on May 13, 2022.",
-                        "step5Title": "Here is your claim",
-                        "step5Subtitle": "We were happy to share this exciting roadmap with all of you. As a LAND owner you are building the future, and we can’t wait to see what it will bring!",
-                        "steps2To4Title1": "LAND Owners",
-                        "steps2To4Title2": "Roadmap 2022",
-                        "steps2To4Subtitle1": "On May 13, 2022 we introduced our latest roadmap for LAND Owners. Let us go through the perks and features you can expect in 2022!",
-                        "steps2To4Subtitle2": "Your are not eligible for the reward! Each LAND Owner is receiving some $mSAND based on the amount of LAND they owned on May 13, 2022.",
-                        "footer": "Make sure to grab LAND to be eligible for the next claim!",
-                        "alreadyClaimed": "Already Claimed",
+                        "landsCount1": "현재",
+                        "landsCount2": "개의 LAND를 보유하고 있습니다.",
+                        "landsCount3": "다음의 보상을 획득하게 됩니다:",
+                        "step1Title1": "수령하기:",
+                        "step1Subtitle": "보상 획득 조건을 충족했습니다. 모든 LAND 보유자는 2022년 5월 13일 기준으로 보유한 LAND 수에 따라 $mSAND를 획득하게 됩니다.",
+                        "step5Title": "다음의 보상을 수령할 수 있습니다.",
+                        "step5Subtitle": "여러분에게 이 흥미로운 로드맵을 공유하게 되어 매우 기쁘게 생각합니다. 여러분은 LAND 보유자로서 미래를 건설해 나아가며, 더 샌드박스는 여러분과 함께 만들어 나갈 미래를 기대하고 있습니다!",
+                        "steps2To4Title1": "LAND 보유자",
+                        "steps2To4Title2": "2022 로드맵",
+                        "steps2To4Subtitle1": "2022년 5월 13일, LAND 보유자를 위한 최신 로드맵을 발표했습니다. 2022년에 기대할 수 있는 특전과 새로운 기능을 살펴보세요!",
+                        "steps2To4Subtitle2": "보상 획득 조건을 충족하지 못했습니다. 모든 LAND 보유자는 2022년 5월 13일 기준으로 보유한 LAND 수에 따라 $mSAND를 획득하게 됩니다.",
+                        "footer": "다음 보상 수령을 위해 LAND를 구입하세요!",
+                        "alreadyClaimed": "이미 보상을 수령했습니다.",
                         "congrats": {
-                            "title1": "Congrats!",
-                            "title2": "Earn SAND",
-                            "subtitle1": "You have successfully claimed",
-                            "subtitle2": "Here are some ways you can put it to good use",
-                            "subtitle3": "Get rewards by",
-                            "subtitle4": "staking",
-                            "subtitle5": "your"
+                            "title1": "축하합니다!",
+                            "title2": "SAND 획득",
+                            "subtitle1": "성공적으로 보상을 수령했습니다.",
+                            "subtitle2": "유용하게 사용할 수 있는 몇 가지 방법을 알아보세요.",
+                            "subtitle3": "스테이킹하고",
+                            "subtitle4": "보상을",
+                            "subtitle5": "획득하세요 -"
                         },
                         "milestones": {
                             "dates": {
-                                "1": "November 2021",
-                                "2": "January 2022",
-                                "3": "February 2022",
-                                "4": "May 2022",
-                                "5": "June 2022",
-                                "6": "July 2022",
-                                "7": "September 2022",
-                                "8": "May / June 2022",
-                                "9": "Q2/Q3 2022",
-                                "10": "Q3 2022",
-                                "11": "Q4 2022"
+                                "1": "2021년 11월",
+                                "2": "2022년 1월",
+                                "3": "2022년 2월",
+                                "4": "2022년 5월",
+                                "5": "2022년 6월",
+                                "6": "2022년 7월",
+                                "7": "2022년 9월",
+                                "8": "2022년 5, 6월",
+                                "9": "2022년 2, 3분기",
+                                "10": "2022 3분기",
+                                "11": "2022 4분기"
                             },
                             "claim": {
-                                "title": "CLAIM",
-                                "text1": "2.5M $mSAND airdrop to LAND owners",
-                                "text2": "5M $mSAND airdrop to LAND owners",
-                                "text3": "$mSAND claim to celebrate the Metaverse's 1,000th day based on LAND holding time"
+                                "title": "보상 수령",
+                                "text1": "LAND 보유자를 위한 2.5M $mSAND 에어드롭",
+                                "text2": "LAND 보유자를 위한 5M $mSAND 에어드롭",
+                                "text3": "LAND 보유일 기준 메타버스 1,000일 기념 $mSAND 보상 수령"
                             },
                             "stake": {
-                                "title": "STAKE",
-                                "text1": "Multiplier on SAND-ETH staking (Uniswap)",
-                                "text2": "Multiplier on mSAND-MATIC staking (Quickswap)",
-                                "text3": "Multiplier on mSAND staking (Layer 2)",
-                                "text4": "LAND owner exclusive $CATALYST and $GEM farming (Layer 2)",
-                                "text5": "LAND owner exclusive 10M $mSAND farming (Layer 2)"
+                                "title": "스테이킹",
+                                "text1": "SAND-ETH 스테이킹 계수 (유니스왑)",
+                                "text2": "mSAND-MATIC 스테이킹 계수 (퀵스왑)",
+                                "text3": "mSAND 스테이킹 계수 (레이어 2)",
+                                "text4": "LAND 보유자 전용 $CATALYST 및 $GEM 파밍 (레이어 2)",
+                                "text5": "LAND 보유자 전용 10M $mSAND 파밍 (레이어 2)"
                             },
                             "buy": {
-                                "title": "BUY",
-                                "text1": "More than 100,000 LAND acquired by over 20,000 LAND owners",
-                                "text2": "New partners",
-                                "text3": "New sales system with a raffle and KYC for a fair and distributed process",
-                                "text4": "Upcoming LAND sale Ubisoft, Paris Hilton, Warner Music Group, Gucci"
+                                "title": "구입",
+                                "text1": "20,000명 이상의 LAND 보유자가 100,000개 이상의 LAND 획득",
+                                "text2": "새로운 파트너",
+                                "text3": "공정하고 분산된 프로세스를 위한 추첨 및 KYC를 통한 새로운 판매 시스템",
+                                "text4": "유비소프트, 패리스 힐튼, 워너뮤직 그룹, 구찌 LAND 세일"
                             },
                             "play": {
-                                "title": "PLAY",
-                                "text1": "Season 1 : Exclusive Rewards",
-                                "text2": "Season 2 : Earn more $SAND and Raffle Tickets",
-                                "text3": "Season 3 : Extra Raffle Tickets, increased rewards, special raffle for LAND Owners only, raffle bonus"
+                                "title": "플레이",
+                                "text1": "시즌 1 : 독점 보상",
+                                "text2": "시즌 2 : 추가 $SAND 획득 및 추첨 티켓",
+                                "text3": "시즌 3 : 추가 추첨 티켓, 더 많은 보상, LAND 보유자 전용 특별 추첨, 추첨 보너스"
                             },
                             "build": {
-                                "title": "BUILD",
-                                "text1": "35+ certified Builders community",
-                                "text2": "Create ESTATEs with your LANDs",
-                                "text3": "Publish experiences on your LAND",
-                                "text4": "Rent LANDs & ESTATEs",
-                                "text5": "Premium LAND will unlock new assets and behaviors in the Game Maker"
+                                "title": "건설",
+                                "text1": "35개 이상의 인증된 빌더 커뮤니티",
+                                "text2": "보유한 LAND로 이스테이트 생성",
+                                "text3": "보유한 LAND에 경험 게시",
+                                "text4": "LAND 및 이스테이트 대여",
+                                "text5": "프리미엄 LAND 보유 시 게임 메이커에서 신규 애셋 및 행동 선택 가능"
                             },
                             "migrate": {
-                                "title": "MIGRATE",
-                                "text1": "Get access to all features on Polygon Layer 2",
-                                "text2": "1M $mSAND distributed in cashback on migrated LANDs"
+                                "title": "마이그레이션",
+                                "text1": "폴리곤 레이어 2에서 모든 기능에 액세스",
+                                "text2": "마이그레이션된 LAND에 캐시백으로 1M $mSAND 배포"
                             },
                             "meet": {
-                                "title": "MEET",
-                                "text1": "Organize exclusive IRL events with our LAND owners including brands, talents and more… Soon at www.nft.nyc ✈️",
-                                "text2": "Organize and finance local Meetups"
+                                "title": "소통",
+                                "text1": "다양한 브랜드 및 재능있는 LAND 보유자들과 함께 독점 IRL 이벤트 개최 /  www.nft.nyc에서 곧 찾아옵니다 ✈️",
+                                "text2": "로컬 밋업 구성 및 자금 조달"
                             }
                         }
                     }
@@ -2762,8 +2762,8 @@
                 "assetNameTooShort": "애셋 이름이 너무 짧습니다",
                 "assetDescriptionTooLong": "애셋 설명이 너무 깁니다",
                 "preview": "미리 보기 파일의 형식 또는 용량이 잘못되었습니다. 이미지 형식이어야 하며 파일 용량은 90KB 미만이어야 합니다.",
-                "type": "Please enter a jpg, jpeg or webp file",
-                "size": "Please enter a file with a valid size no larger than 90k"
+                "type": "jpg, jpeg 또는 webp 파일을 사용해 주세요",
+                "size": "최대 파일 크기는 90k입니다"
             },
             "viewInMap": "맵에서 보기",
             "notifications": {
@@ -3234,7 +3234,7 @@
                 "addresCopied": "주소가 클립보드에 복사되었습니다.",
                 "userCopied": "유저 정보가 클립보드에 복사되었습니다.",
                 "card": {
-                    "lastCard": "Last One!",
+                    "lastCard": "마지막 수량!",
                     "unique": "Unique"
                 }
             }
@@ -3596,8 +3596,8 @@
             "login": "이미 계정이 있습니다",
             "waiting": "Venly으로 로그인하거나 가입하세요",
             "notAvailableWallet": "{browserName}에서는 {walletName}을 사용할 수 없습니다.",
-            "walletInUse": "",
-            "walletLegacy": ""
+            "walletInUse": "지갑이 다른 계정에서 사용 중입니다.",
+            "walletLegacy": "기존의 지갑을 사용하고 있는 것 같습니다. 수동으로 지갑의 잠금을 해제하고 다시 시도해 주세요."
         },
         "signinModal": {
             "title": "로그인",
@@ -3829,99 +3829,99 @@
             "goToDiscord": "디스코드",
             "noClaims": "수령할 대상이 없습니다",
             "bannerSubtitle": "지금 바로 수익을 획득해 보세요! 더 샌드박스 소셜 미디어 채널을 팔로우하고 최신 소식을 놓치지 마세요.",
-            "bannerTitle": "LAND Owners Claim",
-            "bannerSubtitle1": "We continue to bring value to our LAND owners",
-            "bannerSubtitle2": "ROADMAP 2022",
-            "bannerSubtitle3": "5m mSAND claim",
-            "checkButtonText": "Check your Claim",
+            "bannerTitle": "LAND 보유자를 위한 보상 수령하기",
+            "bannerSubtitle1": "더 샌드박스는 지속적으로 LAND 보유자를 위한 가치를 제공합니다.",
+            "bannerSubtitle2": "로드맵 2022",
+            "bannerSubtitle3": "5m mSAND 보상 수령",
+            "checkButtonText": "내 보상 내역 확인하기",
             "landOwner": {
                 "lands": "{0} LAND",
                 "msand": "{0} {1} mSAND",
-                "results": "{0} results",
-                "startProcess": "Start Claim Process",
-                "claim": "Claim",
-                "next": "Next",
-                "landsCount1": "You owned {0} LAND on {1}",
-                "landsCount2": "You will receive {0} {1} {2}",
-                "landsCount3": "You received {0} {1} {2}",
-                "step1Title1": "Claim your",
-                "step1Subtitle": "You are eligible for the reward! Each LAND Owner is receiving some $mSAND based on the amount of LAND they owned on May 13, 2022.",
-                "step5Title": "Here is your claim",
-                "step5Subtitle": "We were happy to share this exciting roadmap with all of you. As a LAND owner you are building the future, and we can’t wait to see what it will bring!",
-                "steps2To4Title1": "LAND Owners",
-                "steps2To4Title2": "Roadmap 2022",
-                "steps2To4Subtitle1": "On May 13, 2022 we introduced our latest roadmap for LAND Owners. Let us go through the perks and features you can expect in 2022!",
-                "steps2To4Subtitle2": "You are not eligible for the reward! Each LAND Owner is receiving some $mSAND based on the amount of LAND they owned on May 13, 2022.",
-                "footer": "Make sure to grab LAND to be eligible for the next claim!",
-                "alreadyClaimed": "Already Claimed",
+                "results": "{0} 결과",
+                "startProcess": "보상 수령 시작하기",
+                "claim": "수령하기",
+                "next": "다음",
+                "landsCount1": "{1} 기준 {0}개의 LAND를 보유하고 있습니다.",
+                "landsCount2": "다음의 보상을 획득하게 됩니다: {0} {1} {2}",
+                "landsCount3": "다음의 보상을 획득하게 됩니다: {0} {1} {2}",
+                "step1Title1": "수령하기:",
+                "step1Subtitle": "보상 획득 조건을 충족했습니다. 모든 LAND 보유자는 2022년 5월 13일 기준으로 보유한 LAND 수에 따라 $mSAND를 획득하게 됩니다.",
+                "step5Title": "다음의 보상을 수령할 수 있습니다.",
+                "step5Subtitle": "여러분에게 이 흥미로운 로드맵을 공유하게 되어 매우 기쁘게 생각합니다. 여러분은 LAND 보유자로서 미래를 건설해 나아가며, 더 샌드박스는 여러분과 함께 만들어 나갈 미래를 기대하고 있습니다!",
+                "steps2To4Title1": "LAND 보유자",
+                "steps2To4Title2": "2022 로드맵",
+                "steps2To4Subtitle1": "2022년 5월 13일, LAND 보유자를 위한 최신 로드맵을 발표했습니다. 2022년에 기대할 수 있는 특전과 새로운 기능을 살펴보세요!",
+                "steps2To4Subtitle2": "보상 획득 조건을 충족하지 못했습니다. 모든 LAND 보유자는 2022년 5월 13일 기준으로 보유한 LAND 수에 따라 $mSAND를 획득하게 됩니다.",
+                "footer": "다음 보상 수령을 위해 LAND를 구입하세요!",
+                "alreadyClaimed": "이미 보상을 수령했습니다.",
                 "congrats": {
-                    "title1": "Congrats!",
-                    "title2": "Earn SAND",
-                    "subtitle1": "You have successfully claimed",
-                    "subtitle2": "Here are some ways you can put it to good use",
-                    "subtitle3": "Get rewards by",
-                    "subtitle4": "staking",
-                    "subtitle5": "your"
+                    "title1": "축하합니다!",
+                    "title2": "SAND 획득",
+                    "subtitle1": "성공적으로 보상을 수령했습니다.",
+                    "subtitle2": "유용하게 사용할 수 있는 몇 가지 방법을 알아보세요.",
+                    "subtitle3": "스테이킹하고",
+                    "subtitle4": "보상을",
+                    "subtitle5": "획득하세요 -"
                 },
                 "milestones": {
                     "dates": {
-                        "1": "November 2021",
-                        "2": "January 2022",
-                        "3": "February 2022",
-                        "4": "May 2022",
-                        "5": "June 2022",
-                        "6": "July 2022",
-                        "7": "September 2022",
-                        "8": "May / June 2022",
-                        "9": "Q2/Q3 2022",
-                        "10": "Q3 2022",
-                        "11": "Q4 2022",
-                        "12": "May 2020"
+                        "1": "2021년 11월",
+                        "2": "2022년 1월",
+                        "3": "2022년 2월",
+                        "4": "2022년 5월",
+                        "5": "2022년 6월",
+                        "6": "2022년 7월",
+                        "7": "2022년 9월",
+                        "8": "2022년 5, 6월",
+                        "9": "2022년 2, 3분기",
+                        "10": "2022 3분기",
+                        "11": "2022 4분기",
+                        "12": "2020년 5월"
                     },
                     "claim": {
-                        "title": "CLAIM",
-                        "text1": "2.5M $mSAND airdrop to LAND owners",
-                        "text2": "5M $mSAND airdrop to LAND owners",
-                        "text3": "$mSAND claim to celebrate the Metaverse's 1,000th day based on LAND holding time"
+                        "title": "보상 수령",
+                        "text1": "LAND 보유자를 위한 2.5M $mSAND 에어드롭",
+                        "text2": "LAND 보유자를 위한 5M $mSAND 에어드롭",
+                        "text3": "LAND 보유일 기준 메타버스 1,000일 기념 $mSAND 보상 수령"
                     },
                     "stake": {
-                        "title": "STAKE",
-                        "text1": "Multiplier on SAND-ETH staking (Uniswap)",
-                        "text2": "Multiplier on mSAND-MATIC staking (Quickswap)",
-                        "text3": "Multiplier on mSAND staking (Layer 2)",
-                        "text4": "LAND owner exclusive $CATALYST and $GEM farming (Layer 2)",
-                        "text5": "LAND owner exclusive 10M $mSAND farming (Layer 2)"
+                        "title": "스테이킹",
+                        "text1": "SAND-ETH 스테이킹 계수 (유니스왑)",
+                        "text2": "mSAND-MATIC 스테이킹 계수 (퀵스왑)",
+                        "text3": "mSAND 스테이킹 계수 (레이어 2)",
+                        "text4": "LAND 보유자 전용 $CATALYST 및 $GEM 파밍 (레이어 2)",
+                        "text5": "LAND 보유자 전용 10M $mSAND 파밍 (레이어 2)"
                     },
                     "buy": {
-                        "title": "BUY",
-                        "text1": "More than 100,000 LAND acquired by over 20,000 LAND owners",
-                        "text2": "New partners",
-                        "text3": "New sales system with a raffle and KYC for a fair and distributed process",
-                        "text4": "Upcoming LAND sale Ubisoft, Paris Hilton, Warner Music Group, Gucci"
+                        "title": "구입",
+                        "text1": "20,000명 이상의 LAND 보유자가 100,000개 이상의 LAND 획득",
+                        "text2": "새로운 파트너",
+                        "text3": "공정하고 분산된 프로세스를 위한 추첨 및 KYC를 통한 새로운 판매 시스템",
+                        "text4": "유비소프트, 패리스 힐튼, 워너뮤직 그룹, 구찌 LAND 세일"
                     },
                     "play": {
-                        "title": "PLAY",
-                        "text1": "Season 1 : Exclusive Rewards",
-                        "text2": "Season 2 : Earn more $SAND and Raffle Tickets",
-                        "text3": "Season 3 : Extra Raffle Tickets, increased rewards, special raffle for LAND Owners only, raffle bonus"
+                        "title": "플레이",
+                        "text1": "시즌 1 : 독점 보상",
+                        "text2": "시즌 2 : 추가 $SAND 획득 및 추첨 티켓",
+                        "text3": "시즌 3 : 추가 추첨 티켓, 더 많은 보상, LAND 보유자 전용 특별 추첨, 추첨 보너스"
                     },
                     "build": {
-                        "title": "BUILD",
-                        "text1": "35+ certified Builders community",
-                        "text2": "Create ESTATEs with your LAND",
-                        "text3": "Publish experiences on your LAND",
-                        "text4": "Rent LAND & ESTATEs",
-                        "text5": "Premium LAND will unlock new assets and behaviors in the Game Maker"
+                        "title": "건설",
+                        "text1": "35개 이상의 인증된 빌더 커뮤니티",
+                        "text2": "보유한 LAND로 이스테이트 생성",
+                        "text3": "보유한 LAND에 경험 게시",
+                        "text4": "LAND 및 이스테이트 대여",
+                        "text5": "프리미엄 LAND 보유 시 게임 메이커에서 신규 애셋 및 행동 선택 가능"
                     },
                     "migrate": {
-                        "title": "MIGRATE",
-                        "text1": "Get access to all features on Polygon Layer 2",
-                        "text2": "1M $mSAND distributed in cashback on migrated LAND"
+                        "title": "마이그레이션",
+                        "text1": "폴리곤 레이어 2에서 모든 기능에 액세스",
+                        "text2": "마이그레이션된 LAND에 캐시백으로 1M $mSAND 배포"
                     },
                     "meet": {
-                        "title": "MEET",
-                        "text1": "Organize exclusive IRL events with our LAND owners including brands, talents and more… Soon at www.nft.nyc ✈️",
-                        "text2": "Organize and finance local Meetups"
+                        "title": "소통",
+                        "text1": "다양한 브랜드 및 재능있는 LAND 보유자들과 함께 독점 IRL 이벤트 개최 /  www.nft.nyc에서 곧 찾아옵니다 ✈️",
+                        "text2": "로컬 밋업 구성 및 자금 조달"
                     }
                 }
             }
@@ -6607,8 +6607,8 @@
                 ]
             },
             "totalCashback": "총 캐시백:",
-            "cashback": "Cashback:",
-            "pendingSecond": "Pending second transaction"
+            "cashback": "캐시백:",
+            "pendingSecond": "두 번째 트랜잭션 보류 중"
         },
         "buySand": "SAND 구매",
         "buymSand": "mSAND 구매",
@@ -6623,9 +6623,9 @@
             "total": "🔥 누적된 총 캐시백 🔥",
             "claim": "캐시백 수령하기"
         },
-        "deposits": "Deposits",
-        "withdraws": "Withdraws",
-        "actionRequired": "Action Required"
+        "deposits": "예치",
+        "withdraws": "인출",
+        "actionRequired": "조치 필요"
     },
     "season.info.communityBooster.bulletPoints.1.3": {
         "3": "을 획득할 수 있습니다."
@@ -8099,11 +8099,16 @@
         }
     },
     "exteralCollections": {
-        "name": "외부 컬렉션.",
+        "name": "외부 컬렉션",
         "header": {
             "title": "외부 컬렉션 살펴보기",
             "description": "메타버스에서 사용할 수 있는 외부 컬렉션을 찾아보세요"
         },
         "link": "OpenSea에서 구매하세요"
+    },
+    "alpha3": {
+        "contest": {
+            "play": "플레이"
+        }
     }
 }
