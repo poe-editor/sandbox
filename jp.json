@@ -3949,7 +3949,8 @@
         },
         "tag-new": "NEW",
         "tagNew": "NEW",
-        "signinWithEmail": "Sign in with email"
+        "signinWithEmail": "Sign in with email",
+        "venlyDowntimeAlert": "Venly services will experience downtime between Monday 13, June from 03:00 UTC to 05:00 UTC."
     },
     "moderator": {
         "title": "モデレーター",
@@ -5149,7 +5150,7 @@
         "totalPoolRewards": "プール報酬/週",
         "tvl": "ロックされた合計額",
         "apy": "4月",
-        "weekly": "ウィークリー報酬",
+        "weekly": "ウィークリー報酬額",
         "share": "共有",
         "haveLand": "Get more LAND？",
         "extraInfo": "Land所有者になることで、報酬が倍増することになります",
@@ -5157,7 +5158,7 @@
         "titleDeposits": "流動性入金",
         "addLiquidity": "流動性を追加",
         "landMultiplier": "マルチプライヤー",
-        "withdraw": "引き出す",
+        "withdraw": "出金する",
         "titleUnclaimed": "受け取っていない報酬",
         "claim": "受け取る",
         "claimAndWithdraw": "受け取り&引き出し",
@@ -5190,7 +5191,7 @@
             "tvl-title": "TV（合計ロック額）",
             "apr-title": "APR",
             "apr": "保管されている資産に適用される一年間の報酬率です。",
-            "weekly-title": "ウィークリー報酬",
+            "weekly-title": "ウィークリー報酬額",
             "weekly": "報酬は毎週補充されます。ここには、一週間で配布される量を表示しています。",
             "earnings-title": "収益",
             "earnings": "受け取り可能な収益の累計額です。",
@@ -5204,7 +5205,7 @@
             "projectedScore": "This is the projected community score at the end of the Season with the current amount of mSAND staked."
         },
         "modalWithdraw": {
-            "withdraw": "引き出す",
+            "withdraw": "出金額",
             "token": "LPトークン",
             "claim": "あなたの収益",
             "sand": "SAND",
@@ -5314,10 +5315,10 @@
             "howtoMsand": "より多くのmSANDを獲得"
         },
         "allowanceError": "SANDが希望ステーキング量を下回っています",
-        "sub-title": "EthereumおよびPOLYGONネットワークでステーキングを行いSANDを獲得",
+        "sub-title": "Ethereum / POLYGONネットワークでステーキングしてSANDを獲得しよう",
         "haveLandText": "LAND所有数が多ければ多いほど、利率が上がります！",
         "landOwnerRewards": "ウォレット内にある各LANDに対して、追加報酬を獲得する",
-        "needToBridge": "POLYGONネットワークでSANDが必要ですか？",
+        "needToBridge": "POLYGONネットワークのmSANDが必要ですか？",
         "uniswap": "Uniswap",
         "quickswap": "QuickSwap",
         "periodEndedOn": "報酬終了日：",
@@ -6700,7 +6701,7 @@
         "2018": {
             "1": {
                 "date": "2018",
-                "month": "4月",
+                "month": "APR",
                 "title": "The Sandbox、4,000万ダウンロード突破、プレーヤーによるクリエーションは7,000万を突破",
                 "text": "Sandbox、Facebookのフォロワーが75万人突破"
             },
