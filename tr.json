@@ -300,7 +300,8 @@
             "about": "Hakkında",
             "mod": "Mod",
             "admin": "Admin",
-            "user": "Ben"
+            "user": "Ben",
+            "communities": "Spaces"
         },
         "footer": {
             "community": {
@@ -1489,7 +1490,8 @@
                     "myrightsTooltip": "I believe this content is not authorized and the IP holder should be alerted",
                     "othersrightsTooltip": "Promotion of products and services outside of The Sandbox without any purpose in The Sandbox"
                 }
-            }
+            },
+            "toastSucceed": "Thanks for reporting this asset. We will look into it as soon as possible."
         }
     },
     "shop": {
@@ -2796,7 +2798,8 @@
                     "btn": "Pazaryerine git"
                 }
             },
-            "partner": "Partner"
+            "partner": "Partner",
+            "unselected": "Unselected"
         },
         "notifications": {
             "not1": {
@@ -3373,28 +3376,13 @@
                     "img": "/img/30_Profile/noresult-entities.png",
                     "text": "Assets have an important role in the ecosystem, you need them to build an experience or to improve your game. Stake them to earn rewards or build your own assets to sell them on the Marketplace.",
                     "links": {
-                        "1": {
-                            "name": "How to create an asset",
-                            "url": "https://sandboxgame.gitbook.io/the-sandbox/other/earning-sand-and-nfts#create-and-sell-voxel-assets-on-the-sandbox-marketplace"
-                        },
-                        "2": {
-                            "name": "About VoxEdit",
-                            "url": "https://www.sandbox.game/en/create/vox-edit/"
-                        },
-                        "3": {
-                            "name": "How to buy on the Marketplace",
-                            "url": "https://sandboxgame.gitbook.io/the-sandbox/marketplace/about-the-sandboxs-marketplace/the-sandbox-marketplace-beta#buying-from-the-marketplace-beta"
-                        }
+                        "1": "How to create an asset",
+                        "2": "About VoxEdit",
+                        "3": "How to buy on the Marketplace"
                     },
                     "actions": {
-                        "1": {
-                            "name": "Download VoxEdit",
-                            "url": "https://www.sandbox.game/en/create/vox-edit/"
-                        },
-                        "2": {
-                            "name": "Get assets on the Marketplace",
-                            "url": "https://www.sandbox.game/en/shop/"
-                        }
+                        "1": "Download VoxEdit",
+                        "2": "Get assets on the Marketplace"
                     }
                 },
                 "experiences": {
@@ -3402,20 +3390,11 @@
                     "img": "/img/30_Profile/noresult-experiences.png",
                     "text": "To make a game on your LAND or ESTATE, you will need to download the free Game Maker software. You will also be able to buy a game on the Marketplace. Design and test your game using the Game Maker, publishing experiences will be available soon.",
                     "links": {
-                        "1": {
-                            "name": "What are Experiences?",
-                            "url": "https://sandboxgame.gitbook.io/the-sandbox/land/games-and-experiences-on-land"
-                        },
-                        "2": {
-                            "name": "About Game Maker",
-                            "url": "https://www.sandbox.game/en/create/game-maker/"
-                        }
+                        "1": "What are Experiences?",
+                        "2": "About Game Maker"
                     },
                     "actions": {
-                        "1": {
-                            "name": "Download Game Maker",
-                            "url": "https://www.sandbox.game/en/create/game-maker/"
-                        }
+                        "1": "Download Game Maker"
                     }
                 },
                 "lands": {
@@ -3423,28 +3402,13 @@
                     "img": "/img/30_Profile/noresult-land.png",
                     "text": "The Sandbox Metaverse is made up of LAND owned by players to create and monetize experiences. There will only ever be 166,464 LANDs available, which can be used to host games, build multiplayer experiences, create housing, or offer social experiences to the community. You can buy LANDs during our public sales or at OpenSea.",
                     "links": {
-                        "1": {
-                            "name": "What is a LAND",
-                            "url": "https://www.sandbox.game/en/about/land/"
-                        },
-                        "2": {
-                            "name": "How to buy a LAND",
-                            "url": "https://medium.com/sandbox-game/how-to-buy-a-land-in-the-sandbox-48e2a871cd36"
-                        },
-                        "3": {
-                            "name": "About the Map",
-                            "url": "https://medium.com/sandbox-game/the-new-upgraded-sandbox-metaverse-map-96abb787ef1f"
-                        }
+                        "1": "What is a LAND",
+                        "2": "How to buy a LAND",
+                        "3": "About the Map"
                     },
                     "actions": {
-                        "1": {
-                            "name": "Go to the Map",
-                            "url": "https://sandbox.game/en/map"
-                        },
-                        "2": {
-                            "name": "Find LANDs at OpenSea",
-                            "url": "https://opensea.io/assets/sandbox?search[categories][0]=virtual-worlds&search[query]=LAND"
-                        }
+                        "1": "Go to the Map",
+                        "2": "Find LANDs at OpenSea"
                     }
                 }
             },
@@ -6650,7 +6614,8 @@
         },
         "deposits": "Deposits",
         "withdraws": "Withdraws",
-        "actionRequired": "Action Required"
+        "actionRequired": "Action Required",
+        "actionsRequired": "Actions Required"
     },
     "season.info.communityBooster.bulletPoints.1.3": {
         "3": "3"
@@ -8127,13 +8092,542 @@
         "name": "Dış koleksiyonlar.",
         "header": {
             "title": "HARİCİ KOLEKSİYONLARI KEŞFEDİN",
-            "description": "Meta veri deposunda kullanabileceğiniz dış koleksiyonları keşfedin"
+            "description": "Meta veri deposunda kullanabileceğiniz dış koleksiyonları keşfedin",
+            "info": "Koleksiyon Bilgileri",
+            "owners": "SAHİBLER",
+            "assets": "VARLIKLAR",
+            "link": "KAMU BAĞLANTISI",
+            "created": "Oluşturan"
         },
-        "link": "OpenSea'den satın alın"
+        "link": "OpenSea'den satın alın",
+        "sidebar": "Avatar",
+        "explore": "Harici Koleksiyonları Keşfet",
+        "total": " Koleksiyondaki varlıklar"
     },
     "alpha3": {
         "contest": {
             "play": "Play"
         }
+    },
+    "community": {
+        "wrongUrl": "Value must only contain letters and numbers",
+        "deleteButton": "Delete",
+        "cancelButton": "Cancel",
+        "back": "Back",
+        "community": "Community",
+        "collaboration": "Collaboration",
+        "createButton": "Create",
+        "saveButton": "Save",
+        "transferButton": "Transfer",
+        "editButton": "Edit",
+        "yes": "Yes",
+        "later": "Later",
+        "reset": "Reset",
+        "linkCopied": "Link copied to clipboard",
+        "sidebar": {
+            "settings": "Settings",
+            "members": "Members",
+            "workspaces": "Workspaces",
+            "reporting": "Reporting"
+        },
+        "onlyAdminOrCreator": "This section is only available for community admins or workspace creators",
+        "onlyIfHasRolePermission": "This section is only available if you have permissions",
+        "workspaces": {
+            "title": "Workspaces",
+            "workspace": "Workspace",
+            "add": "+ Add",
+            "new": "+ New",
+            "settings": "Settings",
+            "roles": "Roles",
+            "members": "Members",
+            "assets": "Assets",
+            "experiences": "Experiences",
+            "titleFilter": "Workspace created {value}/{total}",
+            "noResultTitle": "This Community doesn't have any Workspaces yet.",
+            "searchName": "Search by name",
+            "noResultText": "Click on 'Add Workspace' to start!",
+            "icon": "Icon",
+            "workspaceName": "Workspace name",
+            "workspaceMembersCount": "Members",
+            "workspaceAssetsCount": "Assets",
+            "workspaceExperiencesCount": "Experiences",
+            "link": "Link",
+            "workflow": "Workflow",
+            "copy": "Copy link",
+            "viewMembers": "View Members",
+            "modal": {
+                "add": {
+                    "addWorkspace": "Add New Workspace",
+                    "workspaceName": "Workspace Name *",
+                    "workspaceNamePlaceholder": "Eg: Smurfs Playground",
+                    "workflowType": "Workflow Type",
+                    "enterURL": "Enter a URL",
+                    "workflows": {
+                        "simplified": "Simplified - No review",
+                        "reviewTransfer": "Review - With ownership transfer",
+                        "reviewWithoutTransfer": "Review - Without ownership transfer"
+                    }
+                },
+                "delete": {
+                    "deleteWorkspace": "Delete Workspace",
+                    "deleteWorkspaceQuestion": "Are you sure that you want to delete permanently the follow workspace?",
+                    "deleteButton": "Delete",
+                    "cancelButton": "Cancel",
+                    "name": "NAME",
+                    "workflow": "WORKFLOW"
+                },
+                "edit": {
+                    "editWorkspace": "Edit members"
+                }
+            }
+        },
+        "members": {
+            "newMember": "+ Add New member",
+            "newInvitation": "Create invitation",
+            "invitations": "Invitations",
+            "members": "Members",
+            "tab": {
+                "numberOfMembers": "Members",
+                "numberOfInvitations": "Invitation created",
+                "table": {
+                    "user": "User",
+                    "groups": "Groups",
+                    "ban": "Ban",
+                    "actions": "Actions"
+                }
+            },
+            "modal": {
+                "assignRol": "Assign Roles",
+                "assignedRol": "Assigned Roles",
+                "toast": {
+                    "already": "{member} already exists.",
+                    "okAdded": "{member} was successfully added.",
+                    "okAddedPlu": "{member} were successfully added.",
+                    "otherMemberAlready": "{member} and other member already exists.",
+                    "otherMemberOk": "{member} and other member was successfully added.",
+                    "othersMembersAlready": "{member} and {count} others members already exists.",
+                    "othersMembersOk": "{member} and {count} others members were successfully added.",
+                    "notFound": "{member} not found"
+                },
+                "add": {
+                    "addMembers": "Add members",
+                    "addNewMembers": "Add New Members",
+                    "addInviteLink": "Create new Link Invitation",
+                    "removeAll": "Remove all",
+                    "membersToAdd": "Type or copy mails separated by commas",
+                    "errorEmails": "There is an error with one or more emails"
+                },
+                "delete": {
+                    "deleteMember": "Delete Member",
+                    "deleteInvite": "Delete Link Invitation",
+                    "questionMember": "Are you sure that you want to delete permanently the follow Member?",
+                    "questionInvite": "Are you sure that you want to delete permanently the follow Link Invitation?",
+                    "roles": "ROLES",
+                    "claims": "CLAIMS",
+                    "username": "Username"
+                },
+                "edit": {
+                    "editMember": "Edit Member"
+                }
+            }
+        },
+        "invites": {
+            "numberOfUses": "Number of uses",
+            "lastEdition": "LAST EDITION",
+            "linkUses": "LINK USES",
+            "link": "LINK",
+            "actions": "ACTIONS",
+            "roles": "ROLES",
+            "claims": "CLAIMS",
+            "noInvitation": "This workspace doesn't have any invitations yet",
+            "noPrivateWorkspaceInvite": "Can not create invite for private workspace",
+            "clickToAddInvitation": "Click on 'Create invitation' to start"
+        },
+        "settings": {
+            "generalSettings": "General Settings",
+            "manageCommunity": "Manage the community details, info and more.",
+            "workspaceName": "Workspace Name",
+            "workflowType": "Workflow Type",
+            "url": "URL",
+            "saveChanges": "Save Changes",
+            "quotas": "Quotas",
+            "membersLimit": "Members Limit",
+            "membersPerGroup": "Members per group",
+            "assetLimit": "Asset Limit",
+            "experiencesLimit": "Experiences Limit",
+            "actions": "Actions",
+            "exportWorkspace": "Export workspace",
+            "importWorkspace": "Import workspace",
+            "wantToRemove": "Do you want to remove this workplace from Administrator?",
+            "wantToRemoveDescription": "Removing your team will remove all users and administrators from your team. The action of deleting a workspace is PERMANENT and the data associated with it cannot be recovered.",
+            "wantToRemoveLink": "I want to delete this workplace permanently"
+        },
+        "roles": {
+            "modal": {
+                "Asset_creator": "Asset Creator",
+                "Asset_editor": "Asset Editor",
+                "Asset_reviewer": "Asset Reviewer",
+                "Asset_reviewer_edit": "Asset Reviewer Edition",
+                "Asset_request_approval": "Asset Request Approval",
+                "Asset_show": "Asset Show",
+                "Role_creator": "Role Creator",
+                "Roles_editor": "Role Editor",
+                "Roles_destroyer": "Role Destroyer",
+                "Roles_updater": "Role Updater",
+                "Roles_show": "Role Assigner",
+                "Members_creator": "Member Creator",
+                "Members_editor": "Member Editor",
+                "Members_updater": "Member Updater",
+                "Members_destroyer": "Member Destroyer",
+                "Workspace_updater": "Workspace Updater",
+                "Workspace_invite_creator": "Invite Creator",
+                "Workspace_invite_show": "Invite Display",
+                "Workspace_invite_destroyer": "Invite Destroyer",
+                "Workspace_owned_asset_add": "Add owned asset",
+                "Workspace_transfer_asset_ownership": "Transfer Asset Ownership",
+                "Workspace_asset_move_verify": "Move Asset to Verify",
+                "Asset_send_iterate": "Send Asset Iterate",
+                "Asset_view_history": "Asset View History",
+                "Asset_restore": "Asset Restore",
+                "Workspaces_assets_transfer_to_workspace": "Transfer Asset to Workspace",
+                "menuAction": {
+                    "manageMembers": "Manage members",
+                    "editRole": "Edit role",
+                    "deleteRole": "Delete role"
+                },
+                "manageMembers": {
+                    "title1": "Manage Members to ",
+                    "title2": " role",
+                    "placeholder": "Search by email",
+                    "noMembersShow": "There's not members to show",
+                    "newMembersToAdd": "NEW MEMBERS SELECTED TO ADD",
+                    "members": "Members",
+                    "roleWithoutMember": "This role doesn't have any member yet.",
+                    "success": "{name} was successfully updated"
+                },
+                "addEdit": {
+                    "title": "Create New Role",
+                    "nameRole": "Name Role",
+                    "placeholderName": "Eg. Smurfs playground",
+                    "permissions": "Permissions",
+                    "description": "Description",
+                    "placeholderDescription": "Give to the members a short description of the group"
+                },
+                "delete": {
+                    "title": "Delete Role",
+                    "question": "Are you sure that you want to delete permanently the follow Role?",
+                    "role": "ROLE",
+                    "members": "MEMBERS",
+                    "permissions": "PERMISSIONS",
+                    "workflow": "WORKFLOW",
+                    "success": "{member} was successfully deleted"
+                }
+            },
+            "addNewRoles": "+ Add New Role",
+            "quantityRoles": "Roles created",
+            "gridRole": "ROLE",
+            "gridPermissions": "PERMISSIONS",
+            "gridMembers": "MEMBERS",
+            "gridActions": "ACTIONS",
+            "youDontHaveRoles": "This Workspace doesn’t have any role yet.",
+            "notRolesYet": "This Workspace doesn't have any roles yet.",
+            "clickToCreate": "Click on “Add New Role” to start!",
+            "workspacePrivate": "You cannot create roles for the private Workspace."
+        },
+        "assets": {
+            "loading": "Loading assets...",
+            "uploadingAsset": "Loading asset...",
+            "notAssets": "There are no assets in your workspace. ",
+            "notAssetsOwnedToAdd": "You don't have more assets to add. Go to Marketplace to buy assets.",
+            "notAssetsUpload_1": " Use ",
+            "notAssetsUpload_2": " Vox Edit to upload one.",
+            "noAssetsCatalog": "Go to Marketplace to buy assets or use Vox Edit to create one",
+            "notAssets_2": "Go to Marketplace to buy assets or use Vox Edit to create one",
+            "onlyMyAssets": "Show only my Assets",
+            "searchName": "Search by name",
+            "notPermissions": "You don't have permission to see assets",
+            "assetsTotal": "Assets total {count}",
+            "readyToMint": "Ready to Mint",
+            "positionOf": "{current} of {total}",
+            "assetsApproval": "{count} assets were successfully requested approval",
+            "singleAssetApproval": "was successfully requested approval",
+            "deletedOk": "Asset successfully deleted",
+            "bannedOk": "Asset successfully banned",
+            "transferedOk": "Asset transfered correctly",
+            "tokenCopied": "Token ID copied to clipboard",
+            "alreadyBelogsCommunity": "This Asset already belongs to this Collection",
+            "stats": {
+                "copies": "COPIES",
+                "behavior": "BEHAVIOR",
+                "none": "NONE"
+            },
+            "minting": {
+                "title": "ASSETS {amount}"
+            },
+            "owned": {
+                "addOwned": "Add Owned",
+                "allocate": "Allocate",
+                "unallocate": "Unallocate",
+                "search": "Search",
+                "all": "All",
+                "successOnlyMove": "An asset was successfully {action} in the workspace",
+                "successOnlyAllocate": "An asset was successfully allocated in the workspace",
+                "successOnlyUnallocate": "An asset was successfully unallocated in the workspace",
+                "successGroupMove": "{amount} assets were successfully moved in the workspace",
+                "successGroupAllocate": "{amount} assets were successfully allocated in the workspace",
+                "successGroupUnallocate": "{amount} assets were successfully unallocated in the workspace"
+            },
+            "history": {
+                "searchUser": "Search user",
+                "snapshots": "Snapshots",
+                "title": "History"
+            },
+            "upload": {
+                "noPermissions": "You don't have permission to upload or update an asset",
+                "workspaceStep": {
+                    "title": "Do you want to pick another workspace to upload this asset ?",
+                    "workspace": "Workspace",
+                    "community": "Community"
+                },
+                "transferToWorkspace": {
+                    "title": "Transfer to Workspace",
+                    "community": "Select Community",
+                    "workspace": "Select Workspace",
+                    "transfer": "Transfer"
+                },
+                "preStep": {
+                    "setAttributes": "Do you want to set the attributes now?",
+                    "description1": "- You can configure your biome on your Voxel and tag it with its main characteristics so that it is recognized by our users.",
+                    "description2": "- Also establish attributes that will be given to your asset great powers to use in Game Maker and your experiences"
+                },
+                "name": {
+                    "name": "NFT Full Name",
+                    "description": "Description",
+                    "placeDescription": "Enter the NFT description",
+                    "placeName": "Enter the NFT name"
+                },
+                "rarity": {
+                    "behaviour": "Behaviour",
+                    "pickBehaviour": "Choose the behavior of your NFT",
+                    "description": "The behavior defines how ehe asset is going to behave in Game Maker.",
+                    "artOrProp": "If you choose Art or Prop Tier, you can't add some gems to your asset",
+                    "stepCommonInfo": "This is the first tier for NFT. They have limited use in the Game Maker and generate little Ethos Points.",
+                    "stepRareInfo": "Rare NFT have increased Game Maker usage and rewards more Ethos Point.",
+                    "stepEpicInfo": "Epic NFT have access to almost all Game Maker functionalities and can reward Catalyst and Gems.",
+                    "stepLegendaryInfo": "This is the first tier for NFT. They have limited use in the Game Maker and generate little Ethos Point.",
+                    "stepPropInfo": "Art NFT have no special capcities in the Game Maker but allow you to maje unique pieces to showcase your talent.",
+                    "stepArtInfo": "Art NFT have no special capcities in the Game Maker but allow you to maje unique pieces to showcase your talent.",
+                    "uploadAsset": "Upload Asset",
+                    "previousStep": "Previous Step",
+                    "continue": "Continue",
+                    "skipAll": "Skip All",
+                    "save": "Save"
+                },
+                "tabs": {
+                    "title1": "1. What is your NFT's name",
+                    "title2": "2. Choose its main characteristics",
+                    "title3": "3. What kind of NFT do you want to create?",
+                    "title4": "4. How do you want to boost the NFT?",
+                    "title5": "Pick a theme",
+                    "subtitle1_1": "",
+                    "subtitle2_1": "These tags will help people searching for this type of NFT on Game Maker or out Marketplace. Choose up to 3 tags",
+                    "subtitle3_1": "The catalyst define the Tier of your asset, they can be socketed with Gems.",
+                    "subtitle3_2": "The higher the Tier, the more sockets.",
+                    "subtitle4_1": "Each Gem gives a different attribute to your asset. The more Gems of the same type, the more attributes you get.",
+                    "subtitle4_2": "Drag or click in your gems to add or remove then inside the Catalyst."
+                },
+                "theme": {
+                    "pickTheme": "Pick a theme",
+                    "theme": "Theme"
+                },
+                "card": {
+                    "art": "Art",
+                    "prop": "Prop"
+                }
+            },
+            "previewInModal": {
+                "copies": "Copies: {copies}"
+            },
+            "transferOwnership": {
+                "title": "Transfer Ownership",
+                "owner": "Select new owner",
+                "search": "Search by email or name",
+                "transfer": "Transfer"
+            },
+            "delete": {
+                "title": "Delete permanently",
+                "subtitle": "Are you sure that you want to delete the follow assets?",
+                "action": "Delete"
+            },
+            "unpublish": {
+                "title": "Unpublish",
+                "subtitle": "Are you sure that you want to unpublished the follow assets?",
+                "action": "Unpublish"
+            },
+            "usedInExperience": {
+                "empty": "Empty preview",
+                "review": "Review",
+                "title": "Used in the following experiences: "
+            },
+            "comments": {
+                "message": "Leave a comment to the artist",
+                "explain": "Please explain the reasons you have, to reject the asset to the artist",
+                "placeholderArea": "Write an iterating/reject reason",
+                "reject": "Reject",
+                "iterate": "Send to Iterate",
+                "comments": "COMMENTS"
+            },
+            "display": {
+                "voxEdit": "Edit on VoxEdit",
+                "reviewVE": "Review in VoxEdit"
+            },
+            "info": {
+                "putOnSale": "Put on Sale",
+                "transferOwnership": "Transfer Ownership",
+                "transferToWorkspace": "Transfer to Workspace",
+                "unpublish": "Unpublish",
+                "requestApproval": "Request Approval",
+                "approve": "Approve",
+                "moveToVerify": "Move To Verify",
+                "deletePerma": "Delete Permanently",
+                "delete": "Delete",
+                "mint": "Mint",
+                "catalyst": "Catalyst",
+                "gems": "Gems",
+                "owner": "OWNER",
+                "viewHistory": "View History",
+                "updatedOk": "Asset updated correctly",
+                "ban": "Ban Asset",
+                "restore": "Restore"
+            },
+            "pagination": {
+                "page": "Page",
+                "pageOf": "of {amount}",
+                "maxPage": "The maximum of pages are {amount}"
+            },
+            "filter": {
+                "all": "All",
+                "minted": "Minted",
+                "inProgress": "In progress",
+                "toVerify": "To Verify",
+                "rejected": "Rejected",
+                "approved": "Approved"
+            }
+        },
+        "experiences": {
+            "construction": "This section is under development"
+        }
+    },
+    "strapi": {
+        "POC_LANDING_MINT_AVATAR_TITLE": "",
+        "POC_LANDING_MINT_AVATAR_DESCRIPTION": "",
+        "POC_LANDING_MINT_AVATAR_BUTTON": "",
+        "POC_LANDING_HEADER_MENU_HOME_LABEL": "",
+        "POC_LANDING_HEADER_MENU_UNIQUE_AVATARS_LABEL": "",
+        "POC_LANDING_HEADER_MENU_PEOPLE_OF_CRYPTO_LABEL": "",
+        "POC_LANDING_HEADER_MENU_MINT_YOUR_AVATAR_LABEL": "",
+        "POC_LANDING_INTRO_START_DATE": "",
+        "POC_LANDING_INTRO_BUTTON": "",
+        "POC_LANDING_INTRO_TITLE": "",
+        "POC_LANDING_INTRO_SUBTITLE": "",
+        "POC_LANDING_INTRO_DESCRIPTION": "",
+        "POC_LANDING_INTRO_MOVIE_DESCRIPTION": "",
+        "POC_LANDING_INTRO_PERSONALIZE_BUTTON": "",
+        "POC_LANDING_OUR_VISION_TITLE": "",
+        "POC_LANDING_OUR_VISION_DESCRIPTION_PRIMARY": "",
+        "POC_LANDING_OUR_VISION_DESCRIPTION_SECONDARY": "",
+        "POC_LANDING_PLAY_IN_SEASON_TITLE": "",
+        "POC_LANDING_PLAY_IN_SEASON_SUBTITLE": "",
+        "POC_LANDING_PLAY_IN_SEASON_DESCRIPTION": "",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TITLE": "",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_SUBTITLE": "",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_DESCRIPTION": "",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_TITLE": "",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_SUBTITLE": "",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_DESCRIPTION": "",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_TITLE": "",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_SUBTITLE": "",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_DESCRIPTION": "",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_TITLE": "",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_SUBTITLE": "",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_DESCRIPTION": "",
+        "POC_LANDING_BRANDS_IN_THE_SANDBOX_TITLE": "",
+        "POC_LANDING_FAQ_HOW_MANY_POC_TITLE": "",
+        "POC_LANDING_FAQ_HOW_MANY_POC_DESCRIPTION": "",
+        "POC_LANDING_FAQ_WHAT_IS_THEIR_RARITY_TITLE": "",
+        "POC_LANDING_FAQ_WHAT_IS_THEIR_RARITY_DESCRIPTION": "",
+        "POC_LANDING_FAQ_WHERE_DO_I_HAVE_TO_GO_TITLE": "",
+        "POC_LANDING_FAQ_WHERE_DO_I_HAVE_TO_GO_DESCRIPTION": "",
+        "POC_LANDING_FAQ_AT_WHAT_TIME_TITLE": "",
+        "POC_LANDING_FAQ_AT_WHAT_TIME_DESCRIPTION": "",
+        "POC_LANDING_FAQ_HOW_MUCH_SHOULD_I_TITLE": "",
+        "POC_LANDING_FAQ_HOW_MUCH_SHOULD_I_DESCRIPTION": "",
+        "POC_LANDING_FAQ_HOW_MANY_CAN_I_MINT_TITLE": "",
+        "POC_LANDING_FAQ_HOW_MANY_CAN_I_MINT_DESCRIPTION": "",
+        "POC_LANDING_FAQ_WHEN_CAN_I_DISCOVER_TITLE": "",
+        "POC_LANDING_FAQ_WHEN_CAN_I_DISCOVER_DESCRIPTION": "",
+        "POC_LANDING_FAQ_CAN_I_MINT_USING_TITLE": "",
+        "POC_LANDING_FAQ_CAN_I_MINT_USING_DESCRIPTION": "",
+        "POC_LANDING_FAQ_WHAT_CAN_I_DO_TITLE": "",
+        "POC_LANDING_FAQ_WHAT_WHAT_CAN_I_DO_DESCRIPTION": "",
+        "POC_LANDING_FAQ_HOW_CAN_I_USE_TITLE": "",
+        "POC_LANDING_FAQ_HOW_CAN_I_USE_DESCRIPTION": "",
+        "POC_LANDING_FAQ_DOES_OWNING_TITLE": "",
+        "POC_LANDING_FAQ_DOES_OWNING_DESCRIPTION": "",
+        "POC_LANDING_FAQ_WHERE_CAN_I_BUY_TITLE": "",
+        "POC_LANDING_FAQ_WHERE_CAN_I_BUY_DESCRIPTION": "",
+        "POC_LANDING_FAQ_HOW_DO_I_GET_WHITELISTED_TITLE": "",
+        "POC_LANDING_FAQ_HOW_DO_I_GET_WHITELISTED_DESCRIPTION": "",
+        "POC_LANDING_FAQ_HOW_DO_I_KNOW_IF_TITLE": "",
+        "POC_LANDING_FAQ_HOW_DO_I_KNOW_IF_DESCRIPTION": "",
+        "POC_LANDING_FAQ_HOW_MANY_MINT_AS_WHITELISTED_TITLE": "",
+        "POC_LANDING_FAQ_HOW_MANY_MINT_AS_WHITELISTED_DESCRIPTION": "",
+        "POC_LANDING_FAQ_MY_AVATARS_TITLE": "",
+        "POC_LANDING_FAQ_MY_AVATARS_DESCRIPTION": "",
+        "POC_LANDING_FAQ_BUYING_NFT_TITLE": "",
+        "POC_LANDING_FAQ_BUYING_NFT_DESCRIPTION": "",
+        "POC_RAFFLE_HEADER_RAFFLE_TITLE_PRIMARY": "",
+        "POC_RAFFLE_HEADER_RAFFLE_TITLE_SECONDARY": "",
+        "POC_RAFFLE_HOW_TO_MINT_TITLE": "",
+        "POC_RAFFLE_PLAY_CREATE_GOVERN_TITLE_PRIMARY": "",
+        "POC_RAFFLE_PLAY_CREATE_GOVERN_TITLE_SECONDARY": "",
+        "POC_RAFFLE_PLAY_CREATE_GOVERN_SUBTITLE": "",
+        "POC_RAFFLE_PLAY_CREATE_GOVERN_DESCRIPTION_PRIMARY": "",
+        "POC_RAFFLE_PLAY_CREATE_GOVERN_DESCRIPTION_SECONDARY": "",
+        "POC_RAFFLE_JOIN_OUR_COMMUNITY_TITLE": "",
+        "POC_RAFFLE_JOIN_OUR_COMMUNITY_SUBTITLE": "",
+        "POC_RAFFLE_JOIN_OUR_COMMUNITY_BUTTON": "",
+        "POC_RAFFLE_CONNECT_END_WARNING_TITLE": "",
+        "POC_RAFFLE_CONNECT_WRONG_WALLET_TITLE": "",
+        "POC_RAFFLE_CONNECT_WALLET_VERIFYING_TITLE": "",
+        "POC_RAFFLE_CONNECT_WALLET_VERIFYING_DESCRIPTION": "",
+        "POC_RAFFLE_CONNECT_CUSTOMIZE_AVATAR_TITLE": "",
+        "POC_RAFFLE_CONNECT_CUSTOMIZE_AVATAR_SUBTITLE": "",
+        "POC_RAFFLE_CONNECT_CUSTOMIZE_AVATAR_BUTTON": "",
+        "POC_RAFFLE_CONNECT_CUSTOMIZE_AVATAR_BORN_THIS_WAY": "",
+        "POC_RAFFLE_CONNECT_CUSTOMIZE_AVATAR_PROUDLY_ME": "",
+        "POC_RAFFLE_PERSONALIZE_LOADING_AVATARS_TITLE": "",
+        "POC_RAFFLE_PERSONALIZE_FREE_LABEL_PRIMARY": "",
+        "POC_RAFFLE_PERSONALIZE_FREE_LABEL_SECONDARY": "",
+        "POC_RAFFLE_PERSONALIZE_FREE_TITLE": "",
+        "POC_RAFFLE_PERSONALIZE_ERROR_TITLE": "",
+        "POC_RAFFLE_PERSONALIZE_ERROR_DESCRIPTION": "",
+        "POC_RAFFLE_PERSONALIZE_ERROR_LABEL": "",
+        "POC_RAFFLE_PERSONALIZE_PROCESSING_TITLE": "",
+        "POC_RAFFLE_PERSONALIZE_PROCESSING_DESCRIPTION": "",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_BORN_THIS_WAY_SECRET": "",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_GAY_AF": "",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_LESBIONIC": "",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_QUEERLY_AWESOME": "",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_BI_BOY": "",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_BI_GIRL": "",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_BI_IDGAF": "",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_TRANSTASTIC": "",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_DRAGTASTIC": "",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_STRAIGHT_UP_ALLY": "",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_PROUDLY_ME_SECRET": "",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_THEY_THEM": "",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_HE_HIM": "",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_SHE_HER": ""
     }
 }
