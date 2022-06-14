@@ -3252,15 +3252,15 @@
                 "lands": "LAND",
                 "estates": "이스테이트",
                 "experiences": "경험",
-                "onSale": "판매 중 (",
-                "onInventory": "인벤토리 (",
+                "onSale": "On Sale ({amount})",
+                "onInventory": "Inventory ({amount})",
                 "addresCopied": "주소가 클립보드에 복사되었습니다.",
                 "userCopied": "유저 정보가 클립보드에 복사되었습니다.",
                 "card": {
                     "lastCard": "마지막 수량!",
                     "unique": "Unique"
                 },
-                "onPublished": "게시됨 ("
+                "onPublished": "Published ({amount})"
             }
         },
         "inventory": {
@@ -6206,8 +6206,8 @@
             "etherAndSandWarning": "계속하려면 지갑에 ETH와 SAND를 보유해야 합니다.",
             "refreshButton": "새로고침",
             "popUpError": "문제가 발생했습니다. 브라우저에서 샌드박스 팝업을 허용한 후에 페이지를 새로고침해 주세요.",
-            "sorry": "화이트리스트에 없습니다!",
-            "errorWhitelisted": "연결하신 지갑이 화이트리스트에 등록되어 있지 않습니다. 올바른 지갑을 연결하시기 바랍니다.",
+            "sorry": "Not welcomelisted!",
+            "errorWhitelisted": "Your connected wallet is not on the welcome list. Make sure to be connected with the correct wallet.",
             "reconnect": "다시 연결",
             "insufficientFunds": "지갑에 자금이 부족합니다.",
             "contractsIssue": "문제가 발생했습니다. 지갑을 변경하려 하신 경우, 지갑을 변경할 때마다 계약에 서명해야 한다는 점에 유의해 주세요.",
@@ -6383,12 +6383,12 @@
         "nftOnEth": "이더리움 메인넷의 NFT",
         "nftOnPolygon": "폴리곤 메인넷 NFT",
         "banner": {
-            "title": "폴리곤 브릿지",
-            "subtitleDeposit1": ": 애셋을 폴리곤으로 트랜스퍼하고",
-            "subtitleDeposit2": "캐시백 받기",
+            "title": "The Sandbox Bridge",
+            "subtitleDeposit1": "Bridge your SAND and LAND between Ethereum (L1) and Polygon (L2)",
+            "subtitleDeposit2": "LAND bridged grant a SAND cashback on their first transfer to Polygon",
             "subtitleWithdraw": ": 애셋을 이더리움으로 트랜스퍼",
-            "howToLink": "어떻게 작동하나요?",
-            "guideLink": "유저 가이드",
+            "howToLink": "How to Bridge",
+            "guideLink": "Get Support",
             "faqLink": "FAQ"
         },
         "polygonCard": {
@@ -6604,8 +6604,8 @@
         "noTransactions": "표시할 트랜잭션이 없습니다.",
         "pending": "보류 중",
         "checkTransactions": "이전 트랜잭션이나 보류 중인 트랜잭션을 확인하세요.",
-        "pendingWithdrawals": "보류 중인 인출",
-        "pendingDeposits": "보류 중인 예치",
+        "pendingWithdrawals": "Pending Withdrawal | Pending Withdrawals",
+        "pendingDeposits": "Pending Deposit | Pending Deposits",
         "cashback": {
             "total": "🔥 누적된 총 캐시백 🔥",
             "claim": "캐시백 수령하기"
