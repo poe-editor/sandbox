@@ -3252,15 +3252,15 @@
                 "lands": "LAND",
                 "estates": "Estates",
                 "experiences": "Experiences",
-                "onSale": "On Sale (",
-                "onInventory": "Inventory (",
+                "onSale": "On Sale ({amount})",
+                "onInventory": "Inventory ({amount})",
                 "addresCopied": "Address copied to clipboard",
                 "userCopied": "User copied to clipboard",
                 "card": {
                     "lastCard": "Last One!",
                     "unique": "Unique"
                 },
-                "onPublished": "Published ("
+                "onPublished": "Published ({amount})"
             }
         },
         "inventory": {
@@ -6206,8 +6206,8 @@
             "etherAndSandWarning": "Devam edebilmek için cüzdanınızda bir miktar ETH ve SAND bulunması gerekmektedir.",
             "refreshButton": "Yenile",
             "popUpError": "Bir şeyler yanlış gitti. Lütfen tarayıcınızda Sandbox Pop-Up erişimine izin verdiğinizden emin olun, sonrasında sayfayı yenileyin.",
-            "sorry": "Beyaz Listelenmedi!",
-            "errorWhitelisted": "Bağlı cüzdanınız beyaz listede değildir. Lütfen doğru cüzdanın bağlı olduğundan emin olun.",
+            "sorry": "Not welcomelisted!",
+            "errorWhitelisted": "Your connected wallet is not on the welcome list. Make sure to be connected with the correct wallet.",
             "reconnect": "Tekrar Bağlan",
             "insufficientFunds": "Cüzdanınızda yeterli miktar bulunmamaktadır.",
             "contractsIssue": "Bir şeyler yanlış gitti. Eğer cüzdanınızı değiştirmeye çalıştıysanız, aklınızda bulunsun, her cüzdan değiştirdiğinizde sözleşmeyi tekrar imzalamak zorundasınız.",
@@ -6384,7 +6384,7 @@
         "nftOnPolygon": "Polygon Ana Ağı'ndaki NFT'ler",
         "banner": {
             "title": "The Sandbox Bridge",
-            "subtitleDeposit1": "Bridge your SAND, LAND and ASSET from Ethereum (L1) to Polygon (L2) or from Polygon (L2) to Ethereum (L1)",
+            "subtitleDeposit1": "Bridge your SAND and LAND between Ethereum (L1) and Polygon (L2)",
             "subtitleDeposit2": "LAND and ASSET grant a SAND cashback on their first transfer to Polygon",
             "subtitleWithdraw": ": Transfer your assets to Ethereum",
             "howToLink": "How to Bridge",
@@ -6607,8 +6607,8 @@
         "noTransactions": "There are no transactions to display",
         "pending": "Pending",
         "checkTransactions": "Check previous transactions or confirm pending ones",
-        "pendingWithdrawals": "Pending Withdrawals",
-        "pendingDeposits": "Pending Deposits",
+        "pendingWithdrawals": "Pending Withdrawal | Pending Withdrawals",
+        "pendingDeposits": "Pending Deposit | Pending Deposits",
         "cashback": {
             "total": "🔥 Total Cashback accumulated 🔥",
             "claim": "Claim Cashback"
