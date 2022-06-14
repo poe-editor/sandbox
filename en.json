@@ -3252,15 +3252,15 @@
                 "lands": "LAND",
                 "estates": "Estates",
                 "experiences": "Experiences",
-                "onSale": "On Sale (",
-                "onInventory": "Inventory (",
+                "onSale": "On Sale ({amount})",
+                "onInventory": "Inventory ({amount})",
                 "addresCopied": "Address copied to clipboard",
                 "userCopied": "User copied to clipboard",
                 "card": {
                     "lastCard": "Last One!",
                     "unique": "Unique"
                 },
-                "onPublished": "Published ("
+                "onPublished": "Published ({amount})"
             }
         },
         "inventory": {
@@ -6206,8 +6206,8 @@
             "etherAndSandWarning": "You need to have some ETH and SAND in your wallet to continue.",
             "refreshButton": "Refresh",
             "popUpError": "Something went wrong. Make sure you allow sandbox pop-up to open in your browser and then, refresh the page.",
-            "sorry": "Not whitelisted!",
-            "errorWhitelisted": "Your connected wallet is not on the whitelist. Make sure to be connected with the correct wallet.",
+            "sorry": "Not welcomelisted!",
+            "errorWhitelisted": "Your connected wallet is not on the welcome list. Make sure to be connected with the correct wallet.",
             "reconnect": "Reconnect",
             "insufficientFunds": "You don't have enough funds in your wallet.",
             "contractsIssue": "Something went wrong. If you tried to change your wallet, please note: you have to sign the contract every time you change your wallet.",
@@ -6383,12 +6383,12 @@
         "nftOnEth": "NFT's on Ethereum Mainnet",
         "nftOnPolygon": "NFT's on Polygon Mainnet",
         "banner": {
-            "title": "Bridge Polygon",
-            "subtitleDeposit1": ": Transfer your assets to Polygon and get",
-            "subtitleDeposit2": " Cash-back for it",
+            "title": "The Sandbox Bridge",
+            "subtitleDeposit1": "Bridge your SAND and LAND between Ethereum (L1) and Polygon (L2)",
+            "subtitleDeposit2": "LAND bridged grant a SAND cashback on their first transfer to Polygon",
             "subtitleWithdraw": ": Transfer your assets to Ethereum",
-            "howToLink": "How it works?",
-            "guideLink": "User guide",
+            "howToLink": "How to Bridge",
+            "guideLink": "Get Support",
             "faqLink": "FAQs"
         },
         "polygonCard": {
@@ -6607,8 +6607,8 @@
         "noTransactions": "There are no transactions to display",
         "pending": "Pending",
         "checkTransactions": "Check previous transactions or confirm pending ones",
-        "pendingWithdrawals": "Pending Withdrawals",
-        "pendingDeposits": "Pending Deposits",
+        "pendingWithdrawals": "Pending Withdrawal | Pending Withdrawals",
+        "pendingDeposits": "Pending Deposit | Pending Deposits",
         "cashback": {
             "total": "🔥 Total Cashback accumulated 🔥",
             "claim": "Claim Cashback"
@@ -8527,14 +8527,14 @@
         "POC_LANDING_HEADER_MENU_UNIQUE_AVATARS_LABEL": "Unique avatars",
         "POC_LANDING_HEADER_MENU_PEOPLE_OF_CRYPTO_LABEL": "People of crypto",
         "POC_LANDING_HEADER_MENU_MINT_YOUR_AVATAR_LABEL": "Mint your avatar",
-        "POC_LANDING_INTRO_START_DATE": "Launching June 17",
+        "POC_LANDING_INTRO_START_DATE": "Launching June 20",
         "POC_LANDING_INTRO_BUTTON": "Mint yours now",
         "POC_LANDING_INTRO_TITLE": "8,430 Next-generation",
         "POC_LANDING_INTRO_SUBTITLE": "Metaverse avatars",
         "POC_LANDING_INTRO_DESCRIPTION": "We are building the metaversal blueprint for diversity across Web3. Our first step is a unique selection of The Sandbox metaverse avatars, all around inclusion and diversity.",
         "POC_LANDING_INTRO_MOVIE_DESCRIPTION": "United in advancing and celebrating representation, diversity and culture",
         "POC_LANDING_INTRO_PERSONALIZE_BUTTON": "Personalize it",
-        "POC_LANDING_OUR_VISION_TITLE": "Our vision",
+        "POC_LANDING_OUR_VISION_TITLE": "The future is diverse",
         "POC_LANDING_OUR_VISION_DESCRIPTION_PRIMARY": "To ensure the advancement of black and brown women, LGBTQIA+, differently-abled, and POC individuals across Web 3.0. ",
         "POC_LANDING_OUR_VISION_DESCRIPTION_SECONDARY": "We envision a community where we are represented and amplified at every level from developers, creators, brands, thought leaders, founders, and collectors.",
         "POC_LANDING_PLAY_IN_SEASON_TITLE": "Play it in Alpha",
@@ -8560,7 +8560,7 @@
         "POC_LANDING_FAQ_WHERE_DO_I_HAVE_TO_GO_TITLE": "Where do I have to go to claim the Avatars?",
         "POC_LANDING_FAQ_WHERE_DO_I_HAVE_TO_GO_DESCRIPTION": "There is only one place where you can mint the Avatars: \n https://sandbox.game/en/people-of-crypto/raffle/mint/",
         "POC_LANDING_FAQ_AT_WHAT_TIME_TITLE": "At what time does the sale start?",
-        "POC_LANDING_FAQ_AT_WHAT_TIME_DESCRIPTION": "The sale will start on June 17th, 2022, 10pm UTC. \n Welcomelisted users will have access 24 hours before.",
+        "POC_LANDING_FAQ_AT_WHAT_TIME_DESCRIPTION": "The sale will start on June 20th, 2022, 10pm UTC. \n Welcomelisted users will have access 24 hours before.",
         "POC_LANDING_FAQ_HOW_MUCH_SHOULD_I_TITLE": "How much should I expect to pay for one People of Crypto NFT?",
         "POC_LANDING_FAQ_HOW_MUCH_SHOULD_I_DESCRIPTION": "One POC NFT will cost {sandAmount} SAND.",
         "POC_LANDING_FAQ_HOW_MANY_CAN_I_MINT_TITLE": "How many POC Avatars can I mint per wallet address?",
