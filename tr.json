@@ -6415,7 +6415,7 @@
             "failure": {
                 "title": "Transfer başarısız",
                 "footerTitle": "Aktarımınız başarısız oldu",
-                "footerText1": "Bir aksilik sonucu aktarımınız başarısızlıkla sonuçlandı. Lütfen tekrar deneyin.",
+                "footerText1": "Something happened and the transaction was either rejected or reverted. Please retry.",
                 "button": "Yeni yatırma işlemi başlat"
             },
             "toPolygon": {
@@ -6505,7 +6505,7 @@
                         "headerTitle": "Select amount to withdraw",
                         "headerSubTitle": "Please select a SAND amount to transfer to Ethereum.",
                         "footerText": [
-                            "Your tokens will be sent back the Ethereum network in two steps.",
+                            "Your tokens will be sent back to the Ethereum network in two steps.",
                             "After signing the first transaction you will have to wait - 3-4 hours for the networks to synchronize.",
                             "Then you will be asked to sign a second transaction."
                         ],
