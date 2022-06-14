@@ -3252,15 +3252,15 @@
                 "lands": "LAND",
                 "estates": "Estates",
                 "experiences": "Experiences",
-                "onSale": "On Sale (",
-                "onInventory": "Inventory (",
+                "onSale": "On Sale ({amount})",
+                "onInventory": "Inventory ({amount})",
                 "addresCopied": "Address copied to clipboard",
                 "userCopied": "User copied to clipboard",
                 "card": {
                     "lastCard": "Last One!",
                     "unique": "Unique"
                 },
-                "onPublished": "Published ("
+                "onPublished": "Published ({amount})"
             }
         },
         "inventory": {
@@ -6206,8 +6206,8 @@
             "etherAndSandWarning": "続けるには、ウォレットにETHおよびSANDを保有している必要があります。",
             "refreshButton": "更新",
             "popUpError": "問題が発生しました。ブラウザでThe Sandboxのポップアップを許可してから、ページを更新してください。",
-            "sorry": "ホワイトリストに入っていません！",
-            "errorWhitelisted": "接続済みのウォレットがホワイトリストに登録されていません。正しいウォレットを接続してください。",
+            "sorry": "Not welcomelisted!",
+            "errorWhitelisted": "Your connected wallet is not on the welcome list. Make sure to be connected with the correct wallet.",
             "reconnect": "再接続",
             "insufficientFunds": "ウォレットの資金が不足しています。",
             "contractsIssue": "問題が発生しました。ウォレットを変更した場合、新たな署名が必要になります。",
@@ -6383,12 +6383,12 @@
         "nftOnEth": "NFT's on Ethereum Mainnet",
         "nftOnPolygon": "NFT's on Polygon Mainnet",
         "banner": {
-            "title": "Bridge Polygon",
-            "subtitleDeposit1": ": Transfer your assets to Polygon and get",
-            "subtitleDeposit2": " Cash-back for it",
+            "title": "The Sandbox Bridge",
+            "subtitleDeposit1": "Bridge your SAND and LAND between Ethereum (L1) and Polygon (L2)",
+            "subtitleDeposit2": "LAND bridged grant a SAND cashback on their first transfer to Polygon",
             "subtitleWithdraw": ": Transfer your assets to Ethereum",
-            "howToLink": "How it works?",
-            "guideLink": "User guide",
+            "howToLink": "How to Bridge",
+            "guideLink": "Get Support",
             "faqLink": "FAQs"
         },
         "polygonCard": {
@@ -6607,8 +6607,8 @@
         "noTransactions": "There are no transactions to display",
         "pending": "Pending",
         "checkTransactions": "Check previous transactions or confirm pending ones",
-        "pendingWithdrawals": "Pending Withdrawals",
-        "pendingDeposits": "Pending Deposits",
+        "pendingWithdrawals": "Pending Withdrawal | Pending Withdrawals",
+        "pendingDeposits": "Pending Deposit | Pending Deposits",
         "cashback": {
             "total": "🔥 Total Cashback accumulated 🔥",
             "claim": "Claim Cashback"
