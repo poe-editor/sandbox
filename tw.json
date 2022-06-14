@@ -3252,15 +3252,15 @@
                 "lands": "LAND",
                 "estates": "Estates",
                 "experiences": "Experiences",
-                "onSale": "On Sale (",
-                "onInventory": "Inventory (",
+                "onSale": "On Sale ({amount})",
+                "onInventory": "Inventory ({amount})",
                 "addresCopied": "Address copied to clipboard",
                 "userCopied": "User copied to clipboard",
                 "card": {
                     "lastCard": "Last One!",
                     "unique": "Unique"
                 },
-                "onPublished": "Published ("
+                "onPublished": "Published ({amount})"
             }
         },
         "inventory": {
@@ -6206,8 +6206,8 @@
             "etherAndSandWarning": "你的錢包要有一些 ETH 和 SAND 才能繼續。",
             "refreshButton": "刷新",
             "popUpError": "發生問題了。請確認你的瀏覽器允許開啟The Sandbox的彈出式視窗，然後刷新頁面。",
-            "sorry": "尚未加入許可名單！",
-            "errorWhitelisted": "你的已連結錢包不在許可名單上。請確認已連結正確的錢包。",
+            "sorry": "Not welcomelisted!",
+            "errorWhitelisted": "Your connected wallet is not on the welcome list. Make sure to be connected with the correct wallet.",
             "reconnect": "再次連結",
             "insufficientFunds": "你的錢包資金不足。",
             "contractsIssue": "發生問題了。如果你嘗試更換錢包，請注意：每次更換錢包都必須簽署合約。",
@@ -6383,12 +6383,12 @@
         "nftOnEth": "NFT's on Ethereum Mainnet",
         "nftOnPolygon": "NFT's on Polygon Mainnet",
         "banner": {
-            "title": "Bridge Polygon",
-            "subtitleDeposit1": ": Transfer your assets to Polygon and get",
-            "subtitleDeposit2": " Cash-back for it",
+            "title": "The Sandbox Bridge",
+            "subtitleDeposit1": "Bridge your SAND and LAND between Ethereum (L1) and Polygon (L2)",
+            "subtitleDeposit2": "LAND bridged grant a SAND cashback on their first transfer to Polygon",
             "subtitleWithdraw": ": Transfer your assets to Ethereum",
-            "howToLink": "How it works?",
-            "guideLink": "User guide",
+            "howToLink": "How to Bridge",
+            "guideLink": "Get Support",
             "faqLink": "FAQs"
         },
         "polygonCard": {
@@ -6607,8 +6607,8 @@
         "noTransactions": "There are no transactions to display",
         "pending": "Pending",
         "checkTransactions": "Check previous transactions or confirm pending ones",
-        "pendingWithdrawals": "Pending Withdrawals",
-        "pendingDeposits": "Pending Deposits",
+        "pendingWithdrawals": "Pending Withdrawal | Pending Withdrawals",
+        "pendingDeposits": "Pending Deposit | Pending Deposits",
         "cashback": {
             "total": "🔥 Total Cashback accumulated 🔥",
             "claim": "Claim Cashback"
