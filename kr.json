@@ -301,7 +301,7 @@
             "mod": "MOD",
             "admin": "관리자",
             "user": "나",
-            "communities": "Spaces"
+            "communities": "공간"
         },
         "footer": {
             "community": {
@@ -1491,7 +1491,7 @@
                     "othersrightsTooltip": "더 샌드박스 내 사용 목적 없이 외부에서 제품 및 서비스 홍보"
                 }
             },
-            "toastSucceed": "Thanks for reporting this asset. We will look into it as soon as possible."
+            "toastSucceed": "이 애셋을 신고해 주셔서 감사합니다. 빠른 시일 내 검토를 진행하겠습니다."
         }
     },
     "shop": {
@@ -2799,7 +2799,7 @@
                 }
             },
             "partner": "파트너",
-            "unselected": "Unselected"
+            "unselected": "선택되지 않음"
         },
         "notifications": {
             "not1": {
@@ -3252,15 +3252,15 @@
                 "lands": "LAND",
                 "estates": "이스테이트",
                 "experiences": "경험",
-                "onSale": "On Sale ({amount})",
-                "onInventory": "Inventory ({amount})",
+                "onSale": "판매 중 (",
+                "onInventory": "인벤토리 (",
                 "addresCopied": "주소가 클립보드에 복사되었습니다.",
                 "userCopied": "유저 정보가 클립보드에 복사되었습니다.",
                 "card": {
                     "lastCard": "마지막 수량!",
                     "unique": "Unique"
                 },
-                "onPublished": "Published ({amount})"
+                "onPublished": "게시됨 ({amount})"
             }
         },
         "inventory": {
@@ -6206,14 +6206,14 @@
             "etherAndSandWarning": "계속하려면 지갑에 ETH와 SAND를 보유해야 합니다.",
             "refreshButton": "새로고침",
             "popUpError": "문제가 발생했습니다. 브라우저에서 샌드박스 팝업을 허용한 후에 페이지를 새로고침해 주세요.",
-            "sorry": "Not welcomelisted!",
-            "errorWhitelisted": "Your connected wallet is not on the welcome list. Make sure to be connected with the correct wallet.",
+            "sorry": "화이트리스트에 없습니다!",
+            "errorWhitelisted": "연결하신 지갑이 화이트리스트에 등록되어 있지 않습니다. 올바른 지갑을 연결하시기 바랍니다.",
             "reconnect": "다시 연결",
             "insufficientFunds": "지갑에 자금이 부족합니다.",
             "contractsIssue": "문제가 발생했습니다. 지갑을 변경하려 하신 경우, 지갑을 변경할 때마다 계약에 서명해야 한다는 점에 유의해 주세요.",
             "toManyAvatars1": "아바타는 최대",
             "toManyAvatars2": "개만 민팅할 수 있습니다. 더 구매하려면 OpenSea를 확인하세요.",
-            "walletLocked": ""
+            "walletLocked": "문제가 발생했습니다. 민팅을 위해 지갑을 연결해 주세요."
         },
         "textFormMint": {
             "isPublic": "",
@@ -6383,12 +6383,12 @@
         "nftOnEth": "이더리움 메인넷의 NFT",
         "nftOnPolygon": "폴리곤 메인넷 NFT",
         "banner": {
-            "title": "The Sandbox Bridge",
-            "subtitleDeposit1": "Bridge your SAND and LAND between Ethereum (L1) and Polygon (L2)",
-            "subtitleDeposit2": "LAND bridged grant a SAND cashback on their first transfer to Polygon",
+            "title": "폴리곤 브릿지",
+            "subtitleDeposit1": ": 애셋을 폴리곤으로 트랜스퍼하고",
+            "subtitleDeposit2": "캐시백 받기",
             "subtitleWithdraw": ": 애셋을 이더리움으로 트랜스퍼",
-            "howToLink": "How to Bridge",
-            "guideLink": "Get Support",
+            "howToLink": "어떻게 작동하나요?",
+            "guideLink": "유저 가이드",
             "faqLink": "FAQ"
         },
         "polygonCard": {
@@ -6553,7 +6553,7 @@
                     "headerTitle": "트랜스퍼 실패",
                     "footerTitle": "트랜잭션이 실패했습니다.",
                     "footerText1": "오류가 발생하여 트랜잭션에 실패했습니다. 잠시 후 다시 시도해 주세요.",
-                    "button": "Retry"
+                    "button": "신규 예치하기"
                 },
                 "rejected": {
                     "headerTitle": "트랜스퍼가 거부됨",
@@ -6604,8 +6604,8 @@
         "noTransactions": "표시할 트랜잭션이 없습니다.",
         "pending": "보류 중",
         "checkTransactions": "이전 트랜잭션이나 보류 중인 트랜잭션을 확인하세요.",
-        "pendingWithdrawals": "Pending Withdrawal | Pending Withdrawals",
-        "pendingDeposits": "Pending Deposit | Pending Deposits",
+        "pendingWithdrawals": "보류 중인 인출",
+        "pendingDeposits": "보류 중인 예치",
         "cashback": {
             "total": "🔥 누적된 총 캐시백 🔥",
             "claim": "캐시백 수령하기"
@@ -8109,57 +8109,57 @@
     },
     "community": {
         "wrongUrl": "Value must only contain letters and numbers",
-        "deleteButton": "Delete",
-        "cancelButton": "Cancel",
-        "back": "Back",
-        "community": "Community",
-        "collaboration": "Collaboration",
-        "createButton": "Create",
-        "saveButton": "Save",
-        "transferButton": "Transfer",
-        "editButton": "Edit",
-        "yes": "Yes",
-        "later": "Later",
-        "reset": "Reset",
-        "linkCopied": "Link copied to clipboard",
+        "deleteButton": "삭제",
+        "cancelButton": "취소",
+        "back": "뒤로",
+        "community": "커뮤니티",
+        "collaboration": "콜라보레이션",
+        "createButton": "생성",
+        "saveButton": "저장",
+        "transferButton": "트랜스퍼",
+        "editButton": "수정",
+        "yes": "예",
+        "later": "나중에",
+        "reset": "리셋",
+        "linkCopied": "링크가 클립보드에 복사되었습니다.",
         "sidebar": {
-            "settings": "Settings",
-            "members": "Members",
-            "workspaces": "Workspaces",
-            "reporting": "Reporting"
+            "settings": "설정",
+            "members": "멤버",
+            "workspaces": "워크스페이스",
+            "reporting": "신고"
         },
         "onlyAdminOrCreator": "This section is only available for community admins or workspace creators",
         "onlyIfHasRolePermission": "This section is only available if you have permissions",
         "workspaces": {
-            "title": "Workspaces",
-            "workspace": "Workspace",
-            "add": "+ Add",
-            "new": "+ New",
-            "settings": "Settings",
-            "roles": "Roles",
-            "members": "Members",
-            "assets": "Assets",
-            "experiences": "Experiences",
+            "title": "워크스페이스",
+            "workspace": "워크스페이스",
+            "add": "+ 추가",
+            "new": "+ 신규",
+            "settings": "설정",
+            "roles": "역할",
+            "members": "멤버",
+            "assets": "애셋",
+            "experiences": "경험",
             "titleFilter": "Workspace created {value}/{total}",
-            "noResultTitle": "This Community doesn't have any Workspaces yet.",
-            "searchName": "Search by name",
-            "noResultText": "Click on 'Add Workspace' to start!",
-            "icon": "Icon",
-            "workspaceName": "Workspace name",
-            "workspaceMembersCount": "Members",
-            "workspaceAssetsCount": "Assets",
-            "workspaceExperiencesCount": "Experiences",
-            "link": "Link",
-            "workflow": "Workflow",
-            "copy": "Copy link",
-            "viewMembers": "View Members",
+            "noResultTitle": "이 커뮤니티에는 아직 워크스페이스가 없습니다.",
+            "searchName": "이름으로 검색",
+            "noResultText": "'워크스페이스 추가'를 클릭하여 시작하세요!",
+            "icon": "아이콘",
+            "workspaceName": "워크스페이스 이름",
+            "workspaceMembersCount": "멤버",
+            "workspaceAssetsCount": "애셋",
+            "workspaceExperiencesCount": "경험",
+            "link": "링크",
+            "workflow": "워크플로우",
+            "copy": "링크 복사하기",
+            "viewMembers": "멤버 보기",
             "modal": {
                 "add": {
-                    "addWorkspace": "Add New Workspace",
-                    "workspaceName": "Workspace Name *",
-                    "workspaceNamePlaceholder": "Eg: Smurfs Playground",
+                    "addWorkspace": "새로운 워크스페이스 추가하기",
+                    "workspaceName": "워크스페이스 이름 *",
+                    "workspaceNamePlaceholder": "예: Smurfs Playground",
                     "workflowType": "Workflow Type",
-                    "enterURL": "Enter a URL",
+                    "enterURL": "URL 입력하기",
                     "workflows": {
                         "simplified": "Simplified - No review",
                         "reviewTransfer": "Review - With ownership transfer",
@@ -8167,36 +8167,36 @@
                     }
                 },
                 "delete": {
-                    "deleteWorkspace": "Delete Workspace",
+                    "deleteWorkspace": "워크스페이스 삭제",
                     "deleteWorkspaceQuestion": "Are you sure that you want to delete permanently the follow workspace?",
-                    "deleteButton": "Delete",
-                    "cancelButton": "Cancel",
-                    "name": "NAME",
-                    "workflow": "WORKFLOW"
+                    "deleteButton": "삭제",
+                    "cancelButton": "취소",
+                    "name": "이름",
+                    "workflow": "워크플로우"
                 },
                 "edit": {
-                    "editWorkspace": "Edit members"
+                    "editWorkspace": "멤버 수정"
                 }
             }
         },
         "members": {
-            "newMember": "+ Add New member",
-            "newInvitation": "Create invitation",
-            "invitations": "Invitations",
-            "members": "Members",
+            "newMember": "+ 신규 멤버 추가",
+            "newInvitation": "초대 생성",
+            "invitations": "초대",
+            "members": "멤버",
             "tab": {
-                "numberOfMembers": "Members",
-                "numberOfInvitations": "Invitation created",
+                "numberOfMembers": "멤버",
+                "numberOfInvitations": "초대 생성됨",
                 "table": {
-                    "user": "User",
-                    "groups": "Groups",
+                    "user": "유저",
+                    "groups": "그룹",
                     "ban": "Ban",
                     "actions": "Actions"
                 }
             },
             "modal": {
-                "assignRol": "Assign Roles",
-                "assignedRol": "Assigned Roles",
+                "assignRol": "역할 지정",
+                "assignedRol": "지정된 역할",
                 "toast": {
                     "already": "{member} already exists.",
                     "okAdded": "{member} was successfully added.",
@@ -8208,24 +8208,24 @@
                     "notFound": "{member} not found"
                 },
                 "add": {
-                    "addMembers": "Add members",
-                    "addNewMembers": "Add New Members",
+                    "addMembers": "멤버 추가",
+                    "addNewMembers": "신규 멤버 추가",
                     "addInviteLink": "Create new Link Invitation",
-                    "removeAll": "Remove all",
+                    "removeAll": "모두 제거",
                     "membersToAdd": "Type or copy mails separated by commas",
                     "errorEmails": "There is an error with one or more emails"
                 },
                 "delete": {
-                    "deleteMember": "Delete Member",
+                    "deleteMember": "멤버 삭제",
                     "deleteInvite": "Delete Link Invitation",
                     "questionMember": "Are you sure that you want to delete permanently the follow Member?",
                     "questionInvite": "Are you sure that you want to delete permanently the follow Link Invitation?",
-                    "roles": "ROLES",
+                    "roles": "역할",
                     "claims": "CLAIMS",
-                    "username": "Username"
+                    "username": "유저네임"
                 },
                 "edit": {
-                    "editMember": "Edit Member"
+                    "editMember": "멤버 수정"
                 }
             }
         },
@@ -8235,39 +8235,39 @@
             "linkUses": "LINK USES",
             "link": "LINK",
             "actions": "ACTIONS",
-            "roles": "ROLES",
+            "roles": "역할",
             "claims": "CLAIMS",
             "noInvitation": "This workspace doesn't have any invitations yet",
             "noPrivateWorkspaceInvite": "Can not create invite for private workspace",
             "clickToAddInvitation": "Click on 'Create invitation' to start"
         },
         "settings": {
-            "generalSettings": "General Settings",
+            "generalSettings": "일반 설정",
             "manageCommunity": "Manage the community details, info and more.",
-            "workspaceName": "Workspace Name",
+            "workspaceName": "워크스페이스 이름",
             "workflowType": "Workflow Type",
             "url": "URL",
-            "saveChanges": "Save Changes",
+            "saveChanges": "변경사항 저장",
             "quotas": "Quotas",
             "membersLimit": "Members Limit",
-            "membersPerGroup": "Members per group",
+            "membersPerGroup": "그룹별 멤버",
             "assetLimit": "Asset Limit",
             "experiencesLimit": "Experiences Limit",
             "actions": "Actions",
-            "exportWorkspace": "Export workspace",
-            "importWorkspace": "Import workspace",
-            "wantToRemove": "Do you want to remove this workplace from Administrator?",
+            "exportWorkspace": "워크스페이스 내보내기",
+            "importWorkspace": "워크스페이스 불러오기",
+            "wantToRemove": "",
             "wantToRemoveDescription": "Removing your team will remove all users and administrators from your team. The action of deleting a workspace is PERMANENT and the data associated with it cannot be recovered.",
             "wantToRemoveLink": "I want to delete this workplace permanently"
         },
         "roles": {
             "modal": {
-                "Asset_creator": "Asset Creator",
-                "Asset_editor": "Asset Editor",
-                "Asset_reviewer": "Asset Reviewer",
+                "Asset_creator": "애셋 크리에이터",
+                "Asset_editor": "애셋 에디터",
+                "Asset_reviewer": "애셋 리뷰어",
                 "Asset_reviewer_edit": "Asset Reviewer Edition",
                 "Asset_request_approval": "Asset Request Approval",
-                "Asset_show": "Asset Show",
+                "Asset_show": "애셋 표시",
                 "Role_creator": "Role Creator",
                 "Roles_editor": "Role Editor",
                 "Roles_destroyer": "Role Destroyer",
@@ -8287,77 +8287,77 @@
                 "Asset_send_iterate": "Send Asset Iterate",
                 "Asset_view_history": "Asset View History",
                 "Asset_restore": "Asset Restore",
-                "Workspaces_assets_transfer_to_workspace": "Transfer Asset to Workspace",
+                "Workspaces_assets_transfer_to_workspace": "애셋을 워크스페이스로 트랜스퍼",
                 "menuAction": {
-                    "manageMembers": "Manage members",
-                    "editRole": "Edit role",
-                    "deleteRole": "Delete role"
+                    "manageMembers": "멤버 관리",
+                    "editRole": "역할 수정",
+                    "deleteRole": "역할 삭제"
                 },
                 "manageMembers": {
                     "title1": "Manage Members to ",
                     "title2": " role",
-                    "placeholder": "Search by email",
-                    "noMembersShow": "There's not members to show",
+                    "placeholder": "이메일로 검색",
+                    "noMembersShow": "표시할 멤버가 없습니다",
                     "newMembersToAdd": "NEW MEMBERS SELECTED TO ADD",
-                    "members": "Members",
+                    "members": "멤버",
                     "roleWithoutMember": "This role doesn't have any member yet.",
                     "success": "{name} was successfully updated"
                 },
                 "addEdit": {
-                    "title": "Create New Role",
-                    "nameRole": "Name Role",
-                    "placeholderName": "Eg. Smurfs playground",
-                    "permissions": "Permissions",
-                    "description": "Description",
-                    "placeholderDescription": "Give to the members a short description of the group"
+                    "title": "신규 역할 생성",
+                    "nameRole": "역할 이름",
+                    "placeholderName": "예: Smurfs playground",
+                    "permissions": "권한",
+                    "description": "설명",
+                    "placeholderDescription": "그룹의 간단한 설명을 기입합니다"
                 },
                 "delete": {
-                    "title": "Delete Role",
+                    "title": "역할 삭제",
                     "question": "Are you sure that you want to delete permanently the follow Role?",
-                    "role": "ROLE",
-                    "members": "MEMBERS",
-                    "permissions": "PERMISSIONS",
-                    "workflow": "WORKFLOW",
+                    "role": "역할",
+                    "members": "멤버",
+                    "permissions": "권한",
+                    "workflow": "워크플로우",
                     "success": "{member} was successfully deleted"
                 }
             },
-            "addNewRoles": "+ Add New Role",
-            "quantityRoles": "Roles created",
-            "gridRole": "ROLE",
-            "gridPermissions": "PERMISSIONS",
-            "gridMembers": "MEMBERS",
+            "addNewRoles": "+ 신규 역할 추가",
+            "quantityRoles": "역할 생성됨",
+            "gridRole": "역할",
+            "gridPermissions": "권한",
+            "gridMembers": "멤버",
             "gridActions": "ACTIONS",
-            "youDontHaveRoles": "This Workspace doesn’t have any role yet.",
-            "notRolesYet": "This Workspace doesn't have any roles yet.",
-            "clickToCreate": "Click on “Add New Role” to start!",
-            "workspacePrivate": "You cannot create roles for the private Workspace."
+            "youDontHaveRoles": "이 워크스페이스는 아직 역할이 없습니다.",
+            "notRolesYet": "이 워크스페이스는 아직 역할이 없습니다.",
+            "clickToCreate": "'신규 역할 추가'를 클릭하여 시작하세요!",
+            "workspacePrivate": "비공개 워크스페이스에는 역할을 생성할 수 없습니다."
         },
         "assets": {
-            "loading": "Loading assets...",
-            "uploadingAsset": "Loading asset...",
-            "notAssets": "There are no assets in your workspace. ",
-            "notAssetsOwnedToAdd": "You don't have more assets to add. Go to Marketplace to buy assets.",
+            "loading": "애셋 불러오는 중...",
+            "uploadingAsset": "애셋 불러오는 중...",
+            "notAssets": "워크스페이스에 애셋이 없습니다.",
+            "notAssetsOwnedToAdd": "추가할 애셋이 없습니다. 마켓플레이스에서 애셋을 구매하세요.",
             "notAssetsUpload_1": " Use ",
             "notAssetsUpload_2": " Vox Edit to upload one.",
-            "noAssetsCatalog": "Go to Marketplace to buy assets or use Vox Edit to create one",
-            "notAssets_2": "Go to Marketplace to buy assets or use Vox Edit to create one",
-            "onlyMyAssets": "Show only my Assets",
-            "searchName": "Search by name",
-            "notPermissions": "You don't have permission to see assets",
+            "noAssetsCatalog": "마켓플레이스에서 애셋을 구매하거나 복스에딧으로 애셋을 제작하세요",
+            "notAssets_2": "마켓플레이스에서 애셋을 구매하거나 복스에딧으로 애셋을 제작하세요",
+            "onlyMyAssets": "내 애셋만 표시",
+            "searchName": "이름으로 검색",
+            "notPermissions": "애셋을 볼 수 있는 권한이 없습니다.",
             "assetsTotal": "Assets total {count}",
-            "readyToMint": "Ready to Mint",
-            "positionOf": "{current} of {total}",
-            "assetsApproval": "{count} assets were successfully requested approval",
+            "readyToMint": "민팅 준비 완료",
+            "positionOf": "{current}/{total}",
+            "assetsApproval": "{count}개 애셋의 승인 요청이 완료되었습니다.",
             "singleAssetApproval": "was successfully requested approval",
-            "deletedOk": "Asset successfully deleted",
+            "deletedOk": "애셋이 성공적으로 삭제되었습니다",
             "bannedOk": "Asset successfully banned",
             "transferedOk": "Asset transfered correctly",
-            "tokenCopied": "Token ID copied to clipboard",
-            "alreadyBelogsCommunity": "This Asset already belongs to this Collection",
+            "tokenCopied": "토큰 ID가 클립보드에 복사되었습니다.",
+            "alreadyBelogsCommunity": "이 애셋은 이미 이 컬렉션에 포함되어 있습니다",
             "stats": {
                 "copies": "COPIES",
-                "behavior": "BEHAVIOR",
-                "none": "NONE"
+                "behavior": "행동",
+                "none": "해당없음"
             },
             "minting": {
                 "title": "ASSETS {amount}"
@@ -8366,8 +8366,8 @@
                 "addOwned": "Add Owned",
                 "allocate": "Allocate",
                 "unallocate": "Unallocate",
-                "search": "Search",
-                "all": "All",
+                "search": "검색",
+                "all": "전체",
                 "successOnlyMove": "An asset was successfully {action} in the workspace",
                 "successOnlyAllocate": "An asset was successfully allocated in the workspace",
                 "successOnlyUnallocate": "An asset was successfully unallocated in the workspace",
@@ -8384,29 +8384,29 @@
                 "noPermissions": "You don't have permission to upload or update an asset",
                 "workspaceStep": {
                     "title": "Do you want to pick another workspace to upload this asset ?",
-                    "workspace": "Workspace",
-                    "community": "Community"
+                    "workspace": "워크스페이스",
+                    "community": "커뮤니티"
                 },
                 "transferToWorkspace": {
                     "title": "Transfer to Workspace",
-                    "community": "Select Community",
-                    "workspace": "Select Workspace",
-                    "transfer": "Transfer"
+                    "community": "커뮤니티 선택",
+                    "workspace": "워크스페이스 선택",
+                    "transfer": "트랜스퍼"
                 },
                 "preStep": {
-                    "setAttributes": "Do you want to set the attributes now?",
+                    "setAttributes": "지금 능력치를 설정하시겠습니까?",
                     "description1": "- You can configure your biome on your Voxel and tag it with its main characteristics so that it is recognized by our users.",
                     "description2": "- Also establish attributes that will be given to your asset great powers to use in Game Maker and your experiences"
                 },
                 "name": {
-                    "name": "NFT Full Name",
-                    "description": "Description",
-                    "placeDescription": "Enter the NFT description",
-                    "placeName": "Enter the NFT name"
+                    "name": "NFT 전체 이름",
+                    "description": "설명",
+                    "placeDescription": "NFT의 설명을 입력하세요",
+                    "placeName": "NFT의 이름을 입력하세요"
                 },
                 "rarity": {
-                    "behaviour": "Behaviour",
-                    "pickBehaviour": "Choose the behavior of your NFT",
+                    "behaviour": "행동",
+                    "pickBehaviour": "NFT의 행동을 선택하세요",
                     "description": "The behavior defines how ehe asset is going to behave in Game Maker.",
                     "artOrProp": "If you choose Art or Prop Tier, you can't add some gems to your asset",
                     "stepCommonInfo": "This is the first tier for NFT. They have limited use in the Game Maker and generate little Ethos Points.",
@@ -8415,32 +8415,32 @@
                     "stepLegendaryInfo": "This is the first tier for NFT. They have limited use in the Game Maker and generate little Ethos Point.",
                     "stepPropInfo": "Art NFT have no special capcities in the Game Maker but allow you to maje unique pieces to showcase your talent.",
                     "stepArtInfo": "Art NFT have no special capcities in the Game Maker but allow you to maje unique pieces to showcase your talent.",
-                    "uploadAsset": "Upload Asset",
-                    "previousStep": "Previous Step",
-                    "continue": "Continue",
-                    "skipAll": "Skip All",
-                    "save": "Save"
+                    "uploadAsset": "애셋 업로드",
+                    "previousStep": "이전 단계",
+                    "continue": "계속",
+                    "skipAll": "모두 건너뛰기",
+                    "save": "저장"
                 },
                 "tabs": {
                     "title1": "1. What is your NFT's name",
                     "title2": "2. Choose its main characteristics",
                     "title3": "3. What kind of NFT do you want to create?",
                     "title4": "4. How do you want to boost the NFT?",
-                    "title5": "Pick a theme",
-                    "subtitle1_1": "",
+                    "title5": "테마 선택",
+                    "subtitle1_1": "subtitle1_1",
                     "subtitle2_1": "These tags will help people searching for this type of NFT on Game Maker or out Marketplace. Choose up to 3 tags",
-                    "subtitle3_1": "The catalyst define the Tier of your asset, they can be socketed with Gems.",
-                    "subtitle3_2": "The higher the Tier, the more sockets.",
+                    "subtitle3_1": "카탈리스트는 애셋의 등급을 결정하며 젬을 추가할 수 있는 소켓이 주어집니다.",
+                    "subtitle3_2": "등급이 높을수록 소켓 수가 많아집니다.",
                     "subtitle4_1": "Each Gem gives a different attribute to your asset. The more Gems of the same type, the more attributes you get.",
                     "subtitle4_2": "Drag or click in your gems to add or remove then inside the Catalyst."
                 },
                 "theme": {
-                    "pickTheme": "Pick a theme",
-                    "theme": "Theme"
+                    "pickTheme": "테마 선택",
+                    "theme": "테마"
                 },
                 "card": {
-                    "art": "Art",
-                    "prop": "Prop"
+                    "art": "아트",
+                    "prop": "소품"
                 }
             },
             "previewInModal": {
@@ -8449,13 +8449,13 @@
             "transferOwnership": {
                 "title": "Transfer Ownership",
                 "owner": "Select new owner",
-                "search": "Search by email or name",
-                "transfer": "Transfer"
+                "search": "이메일 또는 이름으로 검색",
+                "transfer": "트랜스퍼"
             },
             "delete": {
-                "title": "Delete permanently",
+                "title": "영구 삭제",
                 "subtitle": "Are you sure that you want to delete the follow assets?",
-                "action": "Delete"
+                "action": "삭제"
             },
             "unpublish": {
                 "title": "Unpublish",
@@ -8464,35 +8464,35 @@
             },
             "usedInExperience": {
                 "empty": "Empty preview",
-                "review": "Review",
-                "title": "Used in the following experiences: "
+                "review": "리뷰",
+                "title": "다음의 경험에서 사용됨: "
             },
             "comments": {
-                "message": "Leave a comment to the artist",
+                "message": "아티스트에게 코멘트 남기기",
                 "explain": "Please explain the reasons you have, to reject the asset to the artist",
                 "placeholderArea": "Write an iterating/reject reason",
                 "reject": "Reject",
                 "iterate": "Send to Iterate",
-                "comments": "COMMENTS"
+                "comments": "코멘트"
             },
             "display": {
-                "voxEdit": "Edit on VoxEdit",
-                "reviewVE": "Review in VoxEdit"
+                "voxEdit": "복스에딧에서 수정",
+                "reviewVE": "복스에딧에서 리뷰"
             },
             "info": {
                 "putOnSale": "Put on Sale",
                 "transferOwnership": "Transfer Ownership",
                 "transferToWorkspace": "Transfer to Workspace",
                 "unpublish": "Unpublish",
-                "requestApproval": "Request Approval",
-                "approve": "Approve",
+                "requestApproval": "승인 요청",
+                "approve": "승인",
                 "moveToVerify": "Move To Verify",
-                "deletePerma": "Delete Permanently",
-                "delete": "Delete",
-                "mint": "Mint",
-                "catalyst": "Catalyst",
-                "gems": "Gems",
-                "owner": "OWNER",
+                "deletePerma": "영구 삭제",
+                "delete": "삭제",
+                "mint": "민팅",
+                "catalyst": "카탈리스트",
+                "gems": "젬",
+                "owner": "소유자",
                 "viewHistory": "View History",
                 "updatedOk": "Asset updated correctly",
                 "ban": "Ban Asset",
@@ -8504,12 +8504,12 @@
                 "maxPage": "The maximum of pages are {amount}"
             },
             "filter": {
-                "all": "All",
-                "minted": "Minted",
-                "inProgress": "In progress",
+                "all": "전체",
+                "minted": "민팅됨",
+                "inProgress": "진행 중",
                 "toVerify": "To Verify",
-                "rejected": "Rejected",
-                "approved": "Approved"
+                "rejected": "거절됨",
+                "approved": "승인됨"
             }
         },
         "experiences": {
@@ -8520,14 +8520,14 @@
         "POC_LANDING_MINT_AVATAR_TITLE": "Express yourself in the metaverse",
         "POC_LANDING_MINT_AVATAR_DESCRIPTION": "In addition to be fully playable avatars in The Sandbox, POC Avatars will give holders the ability to display their sexual orientation and pronouns. You decide who you want to be!",
         "POC_LANDING_MINT_AVATAR_BUTTON": "Mint yours now!",
-        "POC_LANDING_HEADER_MENU_HOME_LABEL": "Home",
+        "POC_LANDING_HEADER_MENU_HOME_LABEL": "홈",
         "POC_LANDING_HEADER_MENU_UNIQUE_AVATARS_LABEL": "Unique avatars",
         "POC_LANDING_HEADER_MENU_PEOPLE_OF_CRYPTO_LABEL": "People of crypto",
         "POC_LANDING_HEADER_MENU_MINT_YOUR_AVATAR_LABEL": "Mint your avatar",
-        "POC_LANDING_INTRO_START_DATE": "Launching June 20",
+        "POC_LANDING_INTRO_START_DATE": "June 20일에 찾아옵니다",
         "POC_LANDING_INTRO_BUTTON": "Mint yours now",
-        "POC_LANDING_INTRO_TITLE": "8,430 Next-generation",
-        "POC_LANDING_INTRO_SUBTITLE": "Metaverse avatars",
+        "POC_LANDING_INTRO_TITLE": "8,430개의 차세대",
+        "POC_LANDING_INTRO_SUBTITLE": "메타버스 아바타",
         "POC_LANDING_INTRO_DESCRIPTION": "We are building the metaversal blueprint for diversity across Web3. Our first step is a unique selection of The Sandbox metaverse avatars, all around inclusion and diversity.",
         "POC_LANDING_INTRO_MOVIE_DESCRIPTION": "United in advancing and celebrating representation, diversity and culture",
         "POC_LANDING_INTRO_PERSONALIZE_BUTTON": "Personalize it",
@@ -8535,7 +8535,7 @@
         "POC_LANDING_OUR_VISION_DESCRIPTION_PRIMARY": "To ensure the advancement of black and brown women, LGBTQIA+, differently-abled, and POC individuals across Web 3.0. ",
         "POC_LANDING_OUR_VISION_DESCRIPTION_SECONDARY": "We envision a community where we are represented and amplified at every level from developers, creators, brands, thought leaders, founders, and collectors.",
         "POC_LANDING_PLAY_IN_SEASON_TITLE": "Play it in Alpha",
-        "POC_LANDING_PLAY_IN_SEASON_SUBTITLE": "Season 3 ",
+        "POC_LANDING_PLAY_IN_SEASON_SUBTITLE": "시즌 3",
         "POC_LANDING_PLAY_IN_SEASON_DESCRIPTION": "Each Avatar will be playable inside The Sandbox, starting with the upcoming Alpha Season 3. Get your Avatar, jump into the game and share your avatar with the world!In addition we will also host POC exclusive events and Play & Earn activities for avatar holders.",
         "POC_LANDING_CHANCE_UNIQUE_AVATAR_TITLE": "A chance to get",
         "POC_LANDING_CHANCE_UNIQUE_AVATAR_SUBTITLE": "Unique avatars",
@@ -8549,30 +8549,30 @@
         "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_TITLE": "Be",
         "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_SUBTITLE": "Unique",
         "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_DESCRIPTION": "Included in the collection is a limited amount of hand-crafted 1:1 avatars. Who will be the lucky person?",
-        "POC_LANDING_BRANDS_IN_THE_SANDBOX_TITLE": "Brands & IPs already in The Sandbox Metaverse",
-        "POC_LANDING_FAQ_HOW_MANY_POC_TITLE": "How many People of Crypto(POC) Avatars are there?",
-        "POC_LANDING_FAQ_HOW_MANY_POC_DESCRIPTION": "There are a total of 8,430 programmatically generated People of Crypto Avatars that will be minted.",
-        "POC_LANDING_FAQ_WHAT_IS_THEIR_RARITY_TITLE": "What is their rarity/tier?",
-        "POC_LANDING_FAQ_WHAT_IS_THEIR_RARITY_DESCRIPTION": "The POC Avatars are divided into a variety of rarity categories depending on traits. There are thousands of unique avatars, as well as several hand-crafted 1/1 avatars.",
+        "POC_LANDING_BRANDS_IN_THE_SANDBOX_TITLE": "더 샌드박스 메타버스와 함께하는 브랜드&IP",
+        "POC_LANDING_FAQ_HOW_MANY_POC_TITLE": "People of Crypto(POC) 아바타는 총 몇 개인가요?",
+        "POC_LANDING_FAQ_HOW_MANY_POC_DESCRIPTION": "프로그래밍 방식으로 생성된 People of Crypto 아바타 총 8,430개가 민팅될 예정입니다.",
+        "POC_LANDING_FAQ_WHAT_IS_THEIR_RARITY_TITLE": "희귀도/등급은 어떻게 되나요?",
+        "POC_LANDING_FAQ_WHAT_IS_THEIR_RARITY_DESCRIPTION": "POC 아바타는 특성에 따라 다양한 희귀도로 분류됩니다. 수천 개의 독특한 아바타뿐만 아니라 수작업으로 직접 만든 1/1 아바타도 여러 개 존재합니다.",
         "POC_LANDING_FAQ_WHERE_DO_I_HAVE_TO_GO_TITLE": "Where do I have to go to claim the Avatars?",
         "POC_LANDING_FAQ_WHERE_DO_I_HAVE_TO_GO_DESCRIPTION": "There is only one place where you can mint the Avatars: \n https://sandbox.game/en/people-of-crypto/raffle/mint/",
-        "POC_LANDING_FAQ_AT_WHAT_TIME_TITLE": "At what time does the sale start?",
+        "POC_LANDING_FAQ_AT_WHAT_TIME_TITLE": "판매는 언제 시작하나요?",
         "POC_LANDING_FAQ_AT_WHAT_TIME_DESCRIPTION": "The sale will start on June 20th, 2022, 10pm UTC. \n Welcomelisted users will have access 24 hours before.",
-        "POC_LANDING_FAQ_HOW_MUCH_SHOULD_I_TITLE": "How much should I expect to pay for one People of Crypto NFT?",
-        "POC_LANDING_FAQ_HOW_MUCH_SHOULD_I_DESCRIPTION": "One POC NFT will cost {sandAmount} SAND.",
-        "POC_LANDING_FAQ_HOW_MANY_CAN_I_MINT_TITLE": "How many POC Avatars can I mint per wallet address?",
+        "POC_LANDING_FAQ_HOW_MUCH_SHOULD_I_TITLE": "People of Crypto NFT 1개는 대략 얼마인가요?",
+        "POC_LANDING_FAQ_HOW_MUCH_SHOULD_I_DESCRIPTION": "POC NFT 1개는 {sandAmount} SAND의 가격으로 판매됩니다.",
+        "POC_LANDING_FAQ_HOW_MANY_CAN_I_MINT_TITLE": "지갑 주소 하나당 몇 개의 POC 아바타를 민팅할 수 있나요?",
         "POC_LANDING_FAQ_HOW_MANY_CAN_I_MINT_DESCRIPTION": "The POC Avatars will be released in two waves: \n 1) Welcomelisted users will have a chance to mint a maximum of two avatar with a time limit of 24 hours, between June 15th and June 16th. \n 2) When the public release is live, users will have the chance to mint up to three.",
-        "POC_LANDING_FAQ_WHEN_CAN_I_DISCOVER_TITLE": "When can I discover what POC Avatar I minted?",
+        "POC_LANDING_FAQ_WHEN_CAN_I_DISCOVER_TITLE": "내가 민팅한 POC 아바타가 무엇인지 어디서 확인할 수 있나요?",
         "POC_LANDING_FAQ_WHEN_CAN_I_DISCOVER_DESCRIPTION": "The POC Avatars will be revealed 24 hours after public sale start on OpenSea.",
         "POC_LANDING_FAQ_CAN_I_MINT_USING_TITLE": "Can I mint using any wallet (Binance, Ledger...)?",
-        "POC_LANDING_FAQ_CAN_I_MINT_USING_DESCRIPTION": "Yes, you can mint with whatever wallet you have.",
-        "POC_LANDING_FAQ_WHAT_CAN_I_DO_TITLE": "What can I do with the POC Avatars?",
+        "POC_LANDING_FAQ_CAN_I_MINT_USING_DESCRIPTION": "네, 지갑 종류와 상관없이 민팅이 가능합니다.",
+        "POC_LANDING_FAQ_WHAT_CAN_I_DO_TITLE": "POC 아바타로 무엇을 할 수 있나요?",
         "POC_LANDING_FAQ_WHAT_WHAT_CAN_I_DO_DESCRIPTION": "Each Avatar will be playable inside The Sandbox in all the multiplayer experiences to come starting from the Sandbox Alpha Season 3.",
-        "POC_LANDING_FAQ_HOW_CAN_I_USE_TITLE": "How can I use my People of Crypto Avatar during the Alpha?",
+        "POC_LANDING_FAQ_HOW_CAN_I_USE_TITLE": "알파 기간 동안 People of Crypto 아바타를 어떻게 사용할 수 있나요?",
         "POC_LANDING_FAQ_HOW_CAN_I_USE_DESCRIPTION": "You will be able to use it as an Avatar by simply selecting it in the Avatar Manager in The Sandbox dashboard.",
         "POC_LANDING_FAQ_DOES_OWNING_TITLE": "Does owning the POC Avatar grant me other perks?",
         "POC_LANDING_FAQ_DOES_OWNING_DESCRIPTION": "Owning your own avatar will grant you access and features within the Diversity and Inclusion Center, as well as other Play & Earn perks.",
-        "POC_LANDING_FAQ_WHERE_CAN_I_BUY_TITLE": "Where can I buy an avatar after the initial sale is over?",
+        "POC_LANDING_FAQ_WHERE_CAN_I_BUY_TITLE": "첫 세일 종료 이후에는 어디서 아바타를 구매할 수 있나요?",
         "POC_LANDING_FAQ_WHERE_CAN_I_BUY_DESCRIPTION": "After the initial sale is over, you will be able to purchase an avatar from users that are willing to sell theirs on the secondary marketplace Opensea",
         "POC_LANDING_FAQ_HOW_DO_I_GET_WHITELISTED_TITLE": "How do I get on welcome the list?",
         "POC_LANDING_FAQ_HOW_DO_I_GET_WHITELISTED_DESCRIPTION": "If you hold one of the NFT listed below, 24 hours before the minting starts, you will have early access to mint your POC avatar: \n - Snoopverse Early Access Pass \n - Snoop Dogg Party Pass \n - JADU Jetpack \n - JADU Hoverboard \n - Selected SupDucks (See SupDucks Discord) \n - Selected FLUF burrows (See Fluf Discord) \n - Rumble Kong League \n Winning one of our \n Twitter contests \n can also give you early access to mint your NFT.",
@@ -8605,10 +8605,10 @@
         "POC_RAFFLE_CONNECT_CUSTOMIZE_AVATAR_BORN_THIS_WAY": "Born this way",
         "POC_RAFFLE_CONNECT_CUSTOMIZE_AVATAR_PROUDLY_ME": "Proudly me",
         "POC_RAFFLE_PERSONALIZE_LOADING_AVATARS_TITLE": "Loading your avatars",
-        "POC_RAFFLE_PERSONALIZE_FREE_LABEL_PRIMARY": "Mint now",
-        "POC_RAFFLE_PERSONALIZE_FREE_LABEL_SECONDARY": "Buy now",
+        "POC_RAFFLE_PERSONALIZE_FREE_LABEL_PRIMARY": "지금 민팅하기",
+        "POC_RAFFLE_PERSONALIZE_FREE_LABEL_SECONDARY": "지금 구매하기",
         "POC_RAFFLE_PERSONALIZE_FREE_TITLE": "No avatar minted",
-        "POC_RAFFLE_PERSONALIZE_ERROR_TITLE": "Something went wrong",
+        "POC_RAFFLE_PERSONALIZE_ERROR_TITLE": "문제가 발생했습니다",
         "POC_RAFFLE_PERSONALIZE_ERROR_DESCRIPTION": "The application has encountered an unknown error.",
         "POC_RAFFLE_PERSONALIZE_ERROR_LABEL": "Try again",
         "POC_RAFFLE_PERSONALIZE_PROCESSING_TITLE": "Processing",
@@ -8627,10 +8627,10 @@
         "POC_RAFFLE_PERSONALIZE_TRAIT_THEY_THEM": "They / Them",
         "POC_RAFFLE_PERSONALIZE_TRAIT_HE_HIM": "He / Him",
         "POC_RAFFLE_PERSONALIZE_TRAIT_SHE_HER": "She / Her",
-        "POC_LANDING_META_TITLE": "The Sandbox Game – People of Crypto Avatars coming to the metaverse",
+        "POC_LANDING_META_TITLE": "더 샌드박스 게임 – People of Crypto 아바타가 메타버스에 찾아왔습니다",
         "POC_LANDING_META_DESCRIPTION": "The People of Crypto avatars are entering The Sandbox. Have fun exploring the metaverse and bring this world to life with your friends. Get your avatar now and enter The Sandbox.",
         "POC_LANDING_META_KEYWORDS": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token, snoop dogg, raffle",
-        "POC_LANDING_META_OG_TITLE": "The Sandbox Game – People of Crypto Avatars coming to the metaverse",
+        "POC_LANDING_META_OG_TITLE": "더 샌드박스 게임 – People of Crypto 아바타가 메타버스에 찾아왔습니다",
         "POC_LANDING_META_OG_DESCRIPTION": "The People of Crypto avatars are entering The Sandbox. Have fun exploring the metaverse and bring this world to life with your friends. Get your avatar now and enter The Sandbox.",
         "POC_LANDING_META_OG_URL": "https://www.sandbox.game/en/people-of-crypto/",
         "POC_LANDING_META_OG_SITE_URL": "The Sandbox Game – People of Crypto Avatars coming to the metaverse",
