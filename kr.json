@@ -438,9 +438,9 @@
             }
         },
         "poc": {
-            "title": "Express yourself in the Metaverse",
-            "description": "In addition to be fully playable avatars in The Sandbox, POC Avatars will give holders the ability to display their sexual orientation and pronouns. You decide who you want to be!",
-            "button": "Get your Avatar"
+            "title": "메타버스에서 개성 표현하기",
+            "description": "POC 아바타는 더 샌드박스에서 완벽히 플레이 가능하며, 보유자는 아바타를 통해 본인의 성적 지향성 및 본인을 대표하는 모습을 나타낼 수 있습니다. 원하는 모습을 직접 선택하세요!",
+            "button": "아바타 획득하기"
         }
     },
     "season": {
@@ -8145,7 +8145,7 @@
             "members": "멤버",
             "assets": "애셋",
             "experiences": "경험",
-            "titleFilter": "Workspace created {value}/{total}",
+            "titleFilter": "워크스페이스 생성됨: {value}/{total}",
             "noResultTitle": "이 커뮤니티에는 아직 워크스페이스가 없습니다.",
             "searchName": "이름으로 검색",
             "noResultText": "'워크스페이스 추가'를 클릭하여 시작하세요!",
@@ -8216,14 +8216,14 @@
                     "addMembers": "멤버 추가",
                     "addNewMembers": "신규 멤버 추가",
                     "addInviteLink": "Create new Link Invitation",
-                    "removeAll": "모두 제거",
+                    "removeAll": "모두 삭제",
                     "membersToAdd": "Type or copy mails separated by commas",
-                    "errorEmails": "There is an error with one or more emails"
+                    "errorEmails": "하나 이상의 이메일 주소에 오류가 있습니다"
                 },
                 "delete": {
                     "deleteMember": "멤버 삭제",
-                    "deleteInvite": "Delete Link Invitation",
-                    "questionMember": "Are you sure that you want to delete permanently the follow Member?",
+                    "deleteInvite": "링크 초대 삭제",
+                    "questionMember": "다음 멤버를 영구적으로 삭제하시겠습니까?",
                     "questionInvite": "Are you sure that you want to delete permanently the follow Link Invitation?",
                     "roles": "역할",
                     "claims": "CLAIMS",
@@ -8238,7 +8238,7 @@
             "numberOfUses": "Number of uses",
             "lastEdition": "LAST EDITION",
             "linkUses": "LINK USES",
-            "link": "LINK",
+            "link": "링크",
             "actions": "ACTIONS",
             "roles": "역할",
             "claims": "CLAIMS",
@@ -8250,7 +8250,7 @@
             "generalSettings": "일반 설정",
             "manageCommunity": "Manage the community details, info and more.",
             "workspaceName": "워크스페이스 이름",
-            "workflowType": "Workflow Type",
+            "workflowType": "워크플로우 유형",
             "url": "URL",
             "saveChanges": "변경사항 저장",
             "quotas": "Quotas",
@@ -8261,7 +8261,7 @@
             "actions": "Actions",
             "exportWorkspace": "워크스페이스 내보내기",
             "importWorkspace": "워크스페이스 불러오기",
-            "wantToRemove": "",
+            "wantToRemove": "이 워크",
             "wantToRemoveDescription": "Removing your team will remove all users and administrators from your team. The action of deleting a workspace is PERMANENT and the data associated with it cannot be recovered.",
             "wantToRemoveLink": "I want to delete this workplace permanently"
         },
@@ -8436,8 +8436,8 @@
                     "subtitle2_1": "These tags will help people searching for this type of NFT on Game Maker or out Marketplace. Choose up to 3 tags",
                     "subtitle3_1": "카탈리스트는 애셋의 등급을 결정하며 젬을 추가할 수 있는 소켓이 주어집니다.",
                     "subtitle3_2": "등급이 높을수록 소켓 수가 많아집니다.",
-                    "subtitle4_1": "Each Gem gives a different attribute to your asset. The more Gems of the same type, the more attributes you get.",
-                    "subtitle4_2": "Drag or click in your gems to add or remove then inside the Catalyst."
+                    "subtitle4_1": "각 젬은 애셋에 다양한 능력치를 부여합니다. 같은 유형의 젬이 많을수록 해당 유형의 능력치가 커집니다.",
+                    "subtitle4_2": "젬을 드래그하거나 클릭하여 카탈리스트 내부에 추가 및 제거합니다."
                 },
                 "theme": {
                     "pickTheme": "테마 선택",
@@ -8452,14 +8452,14 @@
                 "copies": "Copies: {copies}"
             },
             "transferOwnership": {
-                "title": "Transfer Ownership",
-                "owner": "Select new owner",
+                "title": "소유권 이전",
+                "owner": "새로운 소유자 선택",
                 "search": "이메일 또는 이름으로 검색",
                 "transfer": "트랜스퍼"
             },
             "delete": {
                 "title": "영구 삭제",
-                "subtitle": "Are you sure that you want to delete the follow assets?",
+                "subtitle": "다음 애셋을 정말로 삭제하시겠습니까?",
                 "action": "삭제"
             },
             "unpublish": {
@@ -8486,7 +8486,7 @@
             },
             "info": {
                 "putOnSale": "Put on Sale",
-                "transferOwnership": "Transfer Ownership",
+                "transferOwnership": "소유권 이전",
                 "transferToWorkspace": "Transfer to Workspace",
                 "unpublish": "Unpublish",
                 "requestApproval": "승인 요청",
@@ -8498,7 +8498,7 @@
                 "catalyst": "카탈리스트",
                 "gems": "젬",
                 "owner": "소유자",
-                "viewHistory": "View History",
+                "viewHistory": "내역 확인하기",
                 "updatedOk": "Asset updated correctly",
                 "ban": "Ban Asset",
                 "restore": "Restore"
@@ -8523,7 +8523,7 @@
     },
     "strapi": {
         "POC_LANDING_MINT_AVATAR_TITLE": "메타버스에서 내 모습 표현하기",
-        "POC_LANDING_MINT_AVATAR_DESCRIPTION": "In addition to be fully playable avatars in The Sandbox, POC Avatars will give holders the ability to display their sexual orientation and pronouns. You decide who you want to be!",
+        "POC_LANDING_MINT_AVATAR_DESCRIPTION": "POC 아바타는 더 샌드박스에서 완벽히 플레이 가능하며, 보유자는 아바타를 통해 본인의 성적 지향성 및 본인을 대표하는 모습을 나타낼 수 있습니다. 원하는 모습을 직접 선택하세요!",
         "POC_LANDING_MINT_AVATAR_BUTTON": "Mint yours now!",
         "POC_LANDING_HEADER_MENU_HOME_LABEL": "홈",
         "POC_LANDING_HEADER_MENU_UNIQUE_AVATARS_LABEL": "다양한 아바타",
@@ -8614,9 +8614,9 @@
         "POC_RAFFLE_PERSONALIZE_FREE_LABEL_SECONDARY": "지금 구매하기",
         "POC_RAFFLE_PERSONALIZE_FREE_TITLE": "No avatar minted",
         "POC_RAFFLE_PERSONALIZE_ERROR_TITLE": "문제가 발생했습니다",
-        "POC_RAFFLE_PERSONALIZE_ERROR_DESCRIPTION": "The application has encountered an unknown error.",
-        "POC_RAFFLE_PERSONALIZE_ERROR_LABEL": "Try again",
-        "POC_RAFFLE_PERSONALIZE_PROCESSING_TITLE": "Processing",
+        "POC_RAFFLE_PERSONALIZE_ERROR_DESCRIPTION": "알 수 없는 에러가 발생했습니다.",
+        "POC_RAFFLE_PERSONALIZE_ERROR_LABEL": "다시 시도해 주세요.",
+        "POC_RAFFLE_PERSONALIZE_PROCESSING_TITLE": "진행 중",
         "POC_RAFFLE_PERSONALIZE_PROCESSING_DESCRIPTION": "Your transaction is being processed.",
         "POC_RAFFLE_PERSONALIZE_TRAIT_BORN_THIS_WAY_SECRET": "Secret",
         "POC_RAFFLE_PERSONALIZE_TRAIT_GAY_AF": "Gay AF",
@@ -8633,15 +8633,15 @@
         "POC_RAFFLE_PERSONALIZE_TRAIT_HE_HIM": "He / Him",
         "POC_RAFFLE_PERSONALIZE_TRAIT_SHE_HER": "She / Her",
         "POC_LANDING_META_TITLE": "더 샌드박스 게임 – People of Crypto 아바타가 메타버스에 찾아왔습니다",
-        "POC_LANDING_META_DESCRIPTION": "The People of Crypto avatars are entering The Sandbox. Have fun exploring the metaverse and bring this world to life with your friends. Get your avatar now and enter The Sandbox.",
+        "POC_LANDING_META_DESCRIPTION": "People of Crypto 아바타가 더 샌드박스와 함께합니다. 즐겁게 메타버스를 탐험하며 친구들과 함께 메타버스 세상에 활기를 불어넣어 봅시다. 지금 바로 아바타를 획득하여 더 샌드박스에 접속하세요.",
         "POC_LANDING_META_KEYWORDS": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token, snoop dogg, raffle",
         "POC_LANDING_META_OG_TITLE": "더 샌드박스 게임 – People of Crypto 아바타가 메타버스에 찾아왔습니다",
-        "POC_LANDING_META_OG_DESCRIPTION": "The People of Crypto avatars are entering The Sandbox. Have fun exploring the metaverse and bring this world to life with your friends. Get your avatar now and enter The Sandbox.",
+        "POC_LANDING_META_OG_DESCRIPTION": "People of Crypto 아바타가 더 샌드박스와 함께합니다. 즐겁게 메타버스를 탐험하며 친구들과 함께 메타버스 세상에 활기를 불어넣어 봅시다. 지금 바로 아바타를 획득하여 더 샌드박스에 접속하세요.",
         "POC_LANDING_META_OG_URL": "https://www.sandbox.game/en/people-of-crypto/",
-        "POC_LANDING_META_OG_SITE_URL": "The Sandbox Game – People of Crypto Avatars coming to the metaverse",
-        "POC_LANDING_META_TWITTER_TITLE": "The Sandbox Game – People of Crypto Avatars coming to the metaverse",
-        "POC_LANDING_META_TWITTER_DESCRIPTION": "The People of Crypto avatars are entering The Sandbox. Have fun exploring the metaverse and bring this world to life with your friends. Get your avatar now and enter The Sandbox.",
-        "POC_LANDING_META_TWITTER_CARD": "People of Crypto are coming to The Sandbox",
+        "POC_LANDING_META_OG_SITE_URL": "더 샌드박스 게임 – People of Crypto 아바타가 메타버스로 찾아옵니다",
+        "POC_LANDING_META_TWITTER_TITLE": "더 샌드박스 게임 – People of Crypto 아바타가 메타버스로 찾아옵니다",
+        "POC_LANDING_META_TWITTER_DESCRIPTION": "People of Crypto 아바타가 더 샌드박스와 함께합니다. 즐겁게 메타버스를 탐험하며 친구들과 함께 메타버스 세상에 활기를 불어넣어 봅시다. 지금 바로 아바타를 획득하여 더 샌드박스에 접속하세요.",
+        "POC_LANDING_META_TWITTER_CARD": "People of Crypto 아바타가 더 샌드박스로 찾아옵니다",
         "POC_LANDING_META_TWITTER_SITE": "@thesandboxgame",
         "POC_LANDING_META_TWITTER_CREATOR": "@thesandboxgame",
         "POC_RAFFLE_PLAY_CREATE_GOVERN_BUTTON": "Discover the sandbox",
@@ -8653,17 +8653,17 @@
         "POC_RAFFLE_FAQ_HOW_MANY_TIMES_CAN_AN_AVATAR_DESCRIPTION": "Each avatar can be customized one time, the process is free, and only gas costs will need to be covered by the user.",
         "POC_RAFFLE_FAQ_DO_THEY_NEED_TO_PAY_TITLE": "Do they need to pay every time they want to customize an avatar?",
         "POC_RAFFLE_FAQ_DO_THEY_NEED_TO_PAY_DESCRIPTION": "Yes, the transaction itself is free, but gas needs to be covered by the user.",
-        "POC_RAFFLE_FAQ_CAN_I_CUSTOMIZE_MULTIPLE_TITLE": "Can I customize multiple avatars at the same time?",
+        "POC_RAFFLE_FAQ_CAN_I_CUSTOMIZE_MULTIPLE_TITLE": "동시에 여러 개의 아바타를 커스텀할 수 있나요?",
         "POC_RAFFLE_FAQ_CAN_I_CUSTOMIZE_MULTIPLE_DESCRIPTION": "No, the interaction needs to be done for each avatar you own individually",
-        "POC_RAFFLE_META_TITLE": "The Sandbox Game - Raffle Page",
-        "POC_RAFFLE_META_DESCRIPTION": "Come and participate in the raffle! Anyone can win, all you have to do is try your luck!",
+        "POC_RAFFLE_META_TITLE": "더 샌드박스 게임 - 추첨 페이지",
+        "POC_RAFFLE_META_DESCRIPTION": "추첨에 참여하세요! 당첨의 기회는 누구에게나 열려 있습니다. 행운을 시험해 보세요!",
         "POC_RAFFLE_META_KEYWORDS": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token, raffle",
-        "POC_RAFFLE_META_OG_TITLE": "The Sandbox Game - Raffle Page",
-        "POC_RAFFLE_META_OG_DESCRIPTION": "Come and participate in the raffle! Anyone can win, all you have to do is try your luck!",
+        "POC_RAFFLE_META_OG_TITLE": "더 샌드박스 게임 - 추첨 페이지",
+        "POC_RAFFLE_META_OG_DESCRIPTION": "추첨에 참여하세요! 당첨의 기회는 누구에게나 열려 있습니다. 행운을 시험해 보세요!",
         "POC_RAFFLE_META_OG_URL": "https://www.sandbox.game/en/people-of-crypto/raffle/",
         "POC_RAFFLE_META_OG_SITE_URL": "더 샌드박스 게임 - 추첨 페이지",
         "POC_RAFFLE_META_TWITTER_TITLE": "더 샌드박스 게임 - 추첨 페이지",
-        "POC_RAFFLE_META_TWITTER_DESCRIPTION": "Come and participate in the raffle! Anyone can win, all you have to do is try your luck!",
+        "POC_RAFFLE_META_TWITTER_DESCRIPTION": "추첨에 참여하세요! 당첨의 기회는 누구에게나 열려 있습니다. 행운을 시험해 보세요!",
         "POC_RAFFLE_META_TWITTER_CARD": "더 샌드박스 게임 - 추첨 페이지",
         "POC_RAFFLE_META_TWITTER_SITE": "@thesandboxgame",
         "POC_RAFFLE_META_TWITTER_CREATOR": "@thesandboxgame"
