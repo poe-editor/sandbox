@@ -6218,7 +6218,9 @@
             "contractsIssue": "Something went wrong. If you tried to change your wallet, please note: you have to sign the contract every time you change your wallet.",
             "toManyAvatars1": "No more avatars can be minted at this time.",
             "toManyAvatars2": "Head to OpenSea to buy more.",
-            "walletLocked": "Something went wrong. Please connect a wallet in order to mint."
+            "walletLocked": "Something went wrong. Please connect a wallet in order to mint.",
+            "pleaseReconnect": "Please try to reconnect with:",
+            "doesNotMatch": "Your connected wallet does not match the one on your account."
         },
         "textFormMint": {
             "isPublic": "",
@@ -6621,7 +6623,8 @@
         "deposits": "Deposits",
         "withdraws": "Withdraws",
         "actionRequired": "Action Required",
-        "actionsRequired": "Actions Required"
+        "actionsRequired": "Actions Required",
+        "land": "Land | Lands"
     },
     "season.info.communityBooster.bulletPoints.1.3": {
         "3": ""
