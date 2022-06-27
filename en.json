@@ -218,7 +218,9 @@
         "cancelRequest": "Cancel Request",
         "reportNFT": "Report NFT",
         "report": "Report",
-        "failedTryAgain": "Something went wrong. Please try again."
+        "failedTryAgain": "Something went wrong. Please try again.",
+        "search_name": "Search by name",
+        "options_selected": "{count} options selected"
     },
     "layout": {
         "topbar": {
@@ -324,7 +326,8 @@
                 "terms": "Terms of use",
                 "onepager": "One Pager",
                 "license": "Licenses",
-                "careers": "Careers"
+                "careers": "Careers",
+                "partners": "Partners"
             },
             "social": "Social",
             "copyright": "Copyright ©",
@@ -1570,7 +1573,8 @@
             "block": "Block",
             "bodypart": "Bodypart",
             "and": "and",
-            "onOpenseaTitle": "NFTs LAND on Opensea"
+            "onOpenseaTitle": "NFTs LAND on Opensea",
+            "externalcollections": "Avatar"
         },
         "rarities": {
             "title": "Catalyst",
@@ -1820,7 +1824,11 @@
             "6": "Art"
         },
         "mintingApprovalPending": "Pending minting approval",
-        "mintingApprovalRejected": "Minting not approved"
+        "mintingApprovalRejected": "Minting not approved",
+        "sell": {
+            "asset": "Asset to sell",
+            "cancel": "Cancel Sale"
+        }
     },
     "create": {
         "meta": {
@@ -6607,7 +6615,9 @@
             },
             "totalCashback": "Total Cashback:",
             "cashback": "Cashback:",
-            "pendingSecond": "Pending second transaction"
+            "pendingSecond": "Pending second transaction",
+            "olderTransactions": "For older pending transactions, please check the {0} {1}",
+            "polygonBridge": "Polygon Bridge Explorer"
         },
         "buySand": "Buy SAND",
         "buymSand": "Buy mSAND",
@@ -8108,12 +8118,15 @@
             "owners": "OWNERS",
             "assets": "ASSETS",
             "link": "PUBLIC LINK",
-            "created": "Created by"
+            "created": "Created by",
+            "description2": " Connect your wallet to find out if you own an External Avatar."
         },
         "link": "Buy on OpenSea",
         "sidebar": "Avatar",
         "explore": "Explore External Collections",
-        "total": " Assets in the collection"
+        "total": " Assets in the collection",
+        "exploreLands": "Explore Lands & Estates",
+        "exploreLatest": "Explore Latest Drops"
     },
     "alpha3": {
         "contest": {
@@ -8190,7 +8203,8 @@
                 "edit": {
                     "editWorkspace": "Edit members"
                 }
-            }
+            },
+            "workflowType": "Workflow Type"
         },
         "members": {
             "newMember": "+ Add New member",
@@ -8332,7 +8346,15 @@
                     "permissions": "PERMISSIONS",
                     "workflow": "WORKFLOW",
                     "success": "{member} was successfully deleted"
-                }
+                },
+                "divider": {
+                    "asset": "Asset",
+                    "asset_approval": "Asset Approval",
+                    "user": "User",
+                    "role": "Role",
+                    "workspace": "Workspace"
+                },
+                "options_selected": "{count} permissions selected"
             },
             "addNewRoles": "+ Add New Role",
             "quantityRoles": "Roles created",
@@ -8523,7 +8545,8 @@
                 "toVerify": "To Verify",
                 "rejected": "Rejected",
                 "approved": "Approved"
-            }
+            },
+            "redirectToUpload": "Redirecting to upload page"
         },
         "experiences": {
             "construction": "This section is under development"
@@ -8675,5 +8698,181 @@
         "POC_RAFFLE_META_TWITTER_CARD": "The Sandbox Game - Raffle Page",
         "POC_RAFFLE_META_TWITTER_SITE": "@thesandboxgame",
         "POC_RAFFLE_META_TWITTER_CREATOR": "@thesandboxgame"
+    },
+    "partners": {
+        "meta": {
+            "title": "The Sandbox partnership",
+            "description": "The Sandbox offers a unique way to create, assemble and share 3D voxel models. Make your own 3D voxel objects, animate them, and publish/sell them in our worldwide marketplace, for free!",
+            "keywords": "sandbox, create, create voxel art, 3D voxel game, voxel artists, voxel game art, voxel market, blockchain dapp, PC voxel game, PC voxel art",
+            "og": {
+                "title": "The Sandbox | Create, Animate, Publish and Sell 3D Voxel objects",
+                "description": "The Sandbox offers a unique way to create, assemble and share 3D voxel models. Make 3D voxel objects, animate them, and publish/sell them in our worldwide marketplace.",
+                "url": "https://sandbox.game/create/",
+                "site_name": "The Sandbox",
+                "image": "https://www.sandbox.game/media/The-Sandbox-VoxEdit-Character-Preview.gif"
+            },
+            "twitter": {
+                "title": "The Sandbox | Create, Animate, Publish and Sell 3D Voxel objects",
+                "description": "The Sandbox offers a unique way to create, assemble and share 3D voxel models. Make your own 3D voxel objects, animate them, and publish/sell them in our worldwide marketplace.",
+                "card": "Create in a Decentralized Gaming Ecosystem.",
+                "site": "@thesandboxgame",
+                "creator": "@thesandboxgame",
+                "image": "https://www.sandbox.game/media/The-Sandbox-VoxEdit-Character-Preview.gif"
+            }
+        },
+        "journey": {
+            "title": "Let’s build the open Metaverse together",
+            "desc": "Everyone is welcome inside The Sandbox : brands, studios, independent creators, you are all part of our ecosystem. As we are all different, you all have different needs and we are here to help you get into our world.",
+            "desc1": "You want to partner with The Sandbox?",
+            "desc2": "Have a look at our opportunities",
+            "button": "Join now"
+        },
+        "community": {
+            "title": "Join a community where worlds are merging",
+            "desc": "See for yourself how our partners have entered the metaverse",
+            "cards": {
+                "1": {
+                    "desc": "One of the easier tool to create animations in voxel art, with an attractive and a very simple easy-to-use interface for beginners.",
+                    "name": "Snoop Dogg",
+                    "owner": "IP Owner"
+                },
+                "2": {
+                    "desc": "One of the easier tool to create animations in voxel art, with an attractive and a very simple easy-to-use interface for beginners.",
+                    "name": "The Smurfs",
+                    "owner": "IP Owner"
+                },
+                "3": {
+                    "desc": "One of the easier tool to create animations in voxel art, with an attractive and a very simple easy-to-use interface for beginners.",
+                    "name": "Care Bears",
+                    "owner": "IP Owner"
+                }
+            }
+        },
+        "build": {
+            "title": "Let’s build the open Metaverse together",
+            "desc1": "Everyone is welcome inside The Sandbox : brands, studios, independent creators, you are all part of our ecosystem.",
+            "desc2": "As we are all different, you all have different needs and we are here to help you get into our world",
+            "button": "Join now"
+        },
+        "partnership": {
+            "title": "The Sandbox is a place for any kind of partnerships",
+            "button": "Join us now",
+            "cards": {
+                "1": {
+                    "title": "IPs and brands",
+                    "desc": "You have a brand and you are wondering how you can enter The Sandbox? You are at the right place, we will help you develop your brand image into our ecosystem.",
+                    "button": "Enter now"
+                },
+                "2": {
+                    "title": "Metaverse agencies",
+                    "desc": "You are advising clients to design their web3 strategy and you consider partnering with The Sandbox. We have room for you as well.",
+                    "button": "Join the Metaverse"
+                },
+                "3": {
+                    "title": "Independent studios",
+                    "desc": "You are a gaming studio and you want to develop your own concept inside our voxel world, contact us so we can help you develop your genuine experience.",
+                    "button": "Develop now"
+                }
+            }
+        },
+        "whypartner": {
+            "title": "Why partner with us ?",
+            "blocks": {
+                "1": {
+                    "title": "+3 million and growing everyday",
+                    "subtitle": "Wallets registered",
+                    "desc1": "We have already gathered a strongly involved community, ready to jump on any interesting experiences.",
+                    "desc2": "Our idea has always been to make sure the final end user is able to live the most out of each projects."
+                },
+                "2": {
+                    "title": "Access",
+                    "subtitle": "For all",
+                    "desc1": "Partnering with The Sandbox is not only a way to join one of the biggest metaverse in the world, it is also a true standpoint for accessibility.",
+                    "desc2": "Everyone, from a powerful gaming computer to a mobile device, will be able to access our plateform.",
+                    "desc3": "Our quest toward interoperability also will help our community and the overall market mege worlds all together."
+                },
+                "3": {
+                    "title": "200+ brands",
+                    "subtitle": "Already involved",
+                    "desc1": "Our unique identity and our plan to market have already helped more than 200 brands to get into our space and develop their own world. When you join The Sandbox, you also join Gucci, Adidas, Snoop Dogg, Ubisoft and much more…",
+                    "desc2": "Jump in and create your own voxelised world! Be part of the amazing ecosystem where brands create out of this world experiences for the pleasure and growth of their community."
+                }
+            }
+        },
+        "howpartner": {
+            "title": "How partners developed their own world…",
+            "seecollection": "See Collection",
+            "createdby": "Created by",
+            "block": {
+                "1": {
+                    "title": "Care Bears",
+                    "desc": "Care Bears and The Sandbox partnered up to bring a selection of unique and colorful NFTs to the world..."
+                },
+                "2": {
+                    "title": "Snoop Dogg",
+                    "desc": "Snoop Dogg and The Sandbox partnered up to bring a selection of unique and colorful NFTs to the world..."
+                },
+                "3": {
+                    "title": "The Walking Dead",
+                    "desc": "The Walking Dead and The Sandbox partnered up to bring a selection of unique and colorful NFTs to the world..."
+                },
+                "4": {
+                    "title": "Deadmau5",
+                    "desc": "Deadmau5 and The Sandbox partnered up to bring a selection of unique and colorful NFTs to the world..."
+                },
+                "5": {
+                    "title": "The Smurfs",
+                    "desc": "The Smurfs and The Sandbox partnered up to bring a selection of unique and colorful NFTs to the world..."
+                }
+            }
+        },
+        "createdunique": {
+            "title": "And created unique experiences!",
+            "desc": "Entering The Sandbox means you craft your own universe where communities will navigate and discover your brand and enjoy a truly unique experience in a voxel world. From building houses and cities, to cat walking during fashion shows and defeating dragons and monsters, you are free to offer the experience you dream of.",
+            "button": "Join us now",
+            "createdby": "Created by",
+            "blocks": {
+                "1": {
+                    "title": "Fashion",
+                    "desc": "Virtual cat-walking is now a thing. Come join us to experience a new way to consider fashion, to own virtual assets from worldwide digital brands and access a brand new ecosystem.",
+                    "screen": "Alpha Lobby"
+                },
+                "2": {
+                    "title": "Gaming",
+                    "desc": "The Sandbox metaverse draws its roots from a deep gaming culture, where the fun is a whole part of the show. Enter our universe to build your own and dive into a voxel world where anything is possible.",
+                    "screen": "Forest"
+                },
+                "3": {
+                    "title": "Lifestyle",
+                    "desc": "Chilling by the pool with some friends sounds cool? The metaverse can help you deliver a social experience as you would in real life, without limiting yourself with physical hurdles. The metaverse is a place where you can do whatever you want, embody an avatar, visit, shop and play.",
+                    "screen": "Modern House"
+                },
+                "4": {
+                    "title": "Sports",
+                    "desc": "Playing soccer, supporting your favorite club, watching tennis matches etc… this is all possible in the voxel world. The Sandbox translates the physical experience in a new way to embody our favorite disciplines",
+                    "screen": "Race Maze"
+                },
+                "5": {
+                    "title": "Music",
+                    "desc": "From LA to The Sandbox, there is only one step, and Snoop Dogg understood this. The Sandbox is about delivering a new viewer experience during concerts and live performance. Enabling broader access to everyone, interacting with the crowd, through their avatars. Fans are now complete part of the deal.",
+                    "screen": "Climbing madness"
+                }
+            }
+        },
+        "realworld": {
+            "title": "An extension of Real-World Experiences",
+            "blocks": {
+                "1": "Real Estate & Home Related",
+                "2": "Music, Concerts & Streaming",
+                "3": "Fashion & Apparel",
+                "4": "Art & Museums",
+                "5": "Professional interactions",
+                "6": "Shopping",
+                "7": "Social & Dating",
+                "8": "Automotive",
+                "9": "Video Games",
+                "10": "Sports"
+            }
+        }
     }
 }
