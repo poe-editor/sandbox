@@ -218,7 +218,9 @@
         "cancelRequest": "Cancel Request",
         "reportNFT": "Report NFT",
         "report": "Report",
-        "failedTryAgain": "Something went wrong. Please try again."
+        "failedTryAgain": "Something went wrong. Please try again.",
+        "search_name": "",
+        "options_selected": ""
     },
     "layout": {
         "topbar": {
@@ -324,7 +326,8 @@
                 "terms": "使用条款",
                 "onepager": "精简报告",
                 "license": "许可证",
-                "careers": "职业"
+                "careers": "职业",
+                "partners": ""
             },
             "social": "社交媒体",
             "copyright": "Copyright ©",
@@ -1570,7 +1573,8 @@
             "block": "Block",
             "bodypart": "Bodypart",
             "and": "and",
-            "onOpenseaTitle": "NFTs LAND on Opensea"
+            "onOpenseaTitle": "NFTs LAND on Opensea",
+            "externalcollections": ""
         },
         "rarities": {
             "title": "CATALYST",
@@ -1820,7 +1824,11 @@
             "6": "艺术"
         },
         "mintingApprovalPending": "Pending minting approval",
-        "mintingApprovalRejected": "Minting not approved"
+        "mintingApprovalRejected": "Minting not approved",
+        "sell": {
+            "asset": "",
+            "cancel": ""
+        }
     },
     "create": {
         "meta": {
@@ -6607,7 +6615,9 @@
             },
             "totalCashback": "Total Cashback:",
             "cashback": "Cashback:",
-            "pendingSecond": "Pending second transaction"
+            "pendingSecond": "Pending second transaction",
+            "olderTransactions": "For older pending transactions, please check the {0} {1}",
+            "polygonBridge": "Polygon Bridge Explorer"
         },
         "buySand": "Buy SAND",
         "buymSand": "Buy mSAND",
@@ -8108,12 +8118,15 @@
             "owners": "所有者",
             "assets": "資產",
             "link": "公共鏈接",
-            "created": "創建者"
+            "created": "創建者",
+            "description2": ""
         },
         "link": "在 OpenSea 上購買",
         "sidebar": "頭像",
         "explore": "探索外部收藏",
-        "total": " 集合中的資產"
+        "total": " 集合中的資產",
+        "exploreLands": "",
+        "exploreLatest": ""
     },
     "alpha3": {
         "contest": {
@@ -8190,7 +8203,8 @@
                 "edit": {
                     "editWorkspace": "Edit members"
                 }
-            }
+            },
+            "workflowType": ""
         },
         "members": {
             "newMember": "+ Add New member",
@@ -8332,7 +8346,15 @@
                     "permissions": "PERMISSIONS",
                     "workflow": "WORKFLOW",
                     "success": "{member} was successfully deleted"
-                }
+                },
+                "divider": {
+                    "asset": "",
+                    "asset_approval": "",
+                    "user": "",
+                    "role": "",
+                    "workspace": ""
+                },
+                "options_selected": ""
             },
             "addNewRoles": "+ Add New Role",
             "quantityRoles": "Roles created",
@@ -8523,7 +8545,8 @@
                 "toVerify": "To Verify",
                 "rejected": "Rejected",
                 "approved": "Approved"
-            }
+            },
+            "redirectToUpload": ""
         },
         "experiences": {
             "construction": "This section is under development"
@@ -8675,5 +8698,181 @@
         "POC_RAFFLE_META_TWITTER_CARD": "The Sandbox Game - Raffle Page",
         "POC_RAFFLE_META_TWITTER_SITE": "@thesandboxgame",
         "POC_RAFFLE_META_TWITTER_CREATOR": "@thesandboxgame"
+    },
+    "partners": {
+        "meta": {
+            "title": "",
+            "description": "",
+            "keywords": "",
+            "og": {
+                "title": "",
+                "description": "",
+                "url": "",
+                "site_name": "",
+                "image": ""
+            },
+            "twitter": {
+                "title": "",
+                "description": "",
+                "card": "",
+                "site": "",
+                "creator": "",
+                "image": ""
+            }
+        },
+        "journey": {
+            "title": "",
+            "desc": "",
+            "desc1": "",
+            "desc2": "",
+            "button": ""
+        },
+        "community": {
+            "title": "",
+            "desc": "",
+            "cards": {
+                "1": {
+                    "desc": "",
+                    "name": "",
+                    "owner": ""
+                },
+                "2": {
+                    "desc": "",
+                    "name": "",
+                    "owner": ""
+                },
+                "3": {
+                    "desc": "",
+                    "name": "",
+                    "owner": ""
+                }
+            }
+        },
+        "build": {
+            "title": "",
+            "desc1": "",
+            "desc2": "",
+            "button": ""
+        },
+        "partnership": {
+            "title": "",
+            "button": "",
+            "cards": {
+                "1": {
+                    "title": "",
+                    "desc": "",
+                    "button": ""
+                },
+                "2": {
+                    "title": "",
+                    "desc": "",
+                    "button": ""
+                },
+                "3": {
+                    "title": "",
+                    "desc": "",
+                    "button": ""
+                }
+            }
+        },
+        "whypartner": {
+            "title": "",
+            "blocks": {
+                "1": {
+                    "title": "",
+                    "subtitle": "",
+                    "desc1": "",
+                    "desc2": ""
+                },
+                "2": {
+                    "title": "",
+                    "subtitle": "",
+                    "desc1": "",
+                    "desc2": "",
+                    "desc3": ""
+                },
+                "3": {
+                    "title": "",
+                    "subtitle": "",
+                    "desc1": "",
+                    "desc2": ""
+                }
+            }
+        },
+        "howpartner": {
+            "title": "",
+            "seecollection": "",
+            "createdby": "",
+            "block": {
+                "1": {
+                    "title": "",
+                    "desc": ""
+                },
+                "2": {
+                    "title": "",
+                    "desc": ""
+                },
+                "3": {
+                    "title": "",
+                    "desc": ""
+                },
+                "4": {
+                    "title": "",
+                    "desc": ""
+                },
+                "5": {
+                    "title": "",
+                    "desc": ""
+                }
+            }
+        },
+        "createdunique": {
+            "title": "",
+            "desc": "",
+            "button": "",
+            "createdby": "",
+            "blocks": {
+                "1": {
+                    "title": "",
+                    "desc": "",
+                    "screen": ""
+                },
+                "2": {
+                    "title": "",
+                    "desc": "",
+                    "screen": ""
+                },
+                "3": {
+                    "title": "",
+                    "desc": "",
+                    "screen": ""
+                },
+                "4": {
+                    "title": "",
+                    "desc": "",
+                    "screen": ""
+                },
+                "5": {
+                    "title": "",
+                    "desc": "",
+                    "screen": ""
+                }
+            }
+        },
+        "realworld": {
+            "title": "",
+            "blocks": {
+                "1": "",
+                "2": "",
+                "3": "",
+                "4": "",
+                "5": "",
+                "6": "",
+                "7": "",
+                "8": "",
+                "9": "",
+                "10": ""
+            }
+        }
     }
 }
