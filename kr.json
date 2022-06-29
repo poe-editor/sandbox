@@ -141,7 +141,7 @@
         "premium": "프리미엄",
         "publish": "게시",
         "published": "게시함",
-        "unpublished": "게시 안 함",
+        "unpublished": "게시되지 않음",
         "clearFilters": "필터 지우기",
         "applyingFilters": "필터 적용 중...",
         "play": "플레이",
@@ -219,8 +219,8 @@
         "reportNFT": "NFT 신고하기",
         "report": "신고하기",
         "failedTryAgain": "오류가 발생했습니다. 잠시 후 다시 시도해 주세요.",
-        "search_name": "",
-        "options_selected": ""
+        "search_name": "이름으로 검색",
+        "options_selected": "{count}개 옵션 선택됨"
     },
     "layout": {
         "topbar": {
@@ -327,7 +327,7 @@
                 "onepager": "요약 자료",
                 "license": "라이선스",
                 "careers": "채용",
-                "partners": ""
+                "partners": "파트너"
             },
             "social": "소셜 미디어",
             "copyright": "Copyright ©",
@@ -1574,7 +1574,7 @@
             "bodypart": "신체 부위",
             "and": "&",
             "onOpenseaTitle": "OpenSea에서 판매 중인 LAND",
-            "externalcollections": ""
+            "externalcollections": "아바타"
         },
         "rarities": {
             "title": "카탈리스트",
@@ -1826,15 +1826,15 @@
         "mintingApprovalPending": "민팅 승인 보류 중",
         "mintingApprovalRejected": "민팅이 승인되지 않았습니다.",
         "sell": {
-            "asset": "",
-            "cancel": ""
+            "asset": "판매할 애셋",
+            "cancel": "판매 취소"
         }
     },
     "create": {
         "meta": {
             "title": "더 샌드박스에서 직접 게임을 만들어 보세요",
             "description": "더 샌드박스는 3D 복셀 모델을 창작하고 조립하고 공유하는 독창적인 방법을 제공합니다. 직접 3D 복셀 오브젝트를 만들어 애니메이션을 적용하고 전 세계 사람들이 이용하는 마켓플레이스에서 게시/판매해 보세요. 이용 요금은 무료입니다.",
-            "keywords": "샌드박스, 창작, 복셀 아트 창작, 3D 복셀 게임, 복셀 아티스트, 복셀 게임 아트, 복셀 상점, 블록체인 dapp, PC 복셀 게임, PC 복셀 아트",
+            "keywords": "샌드박스, 창작, 복셀 아트 창작, 3D 복셀 게임, 복셀 아티스트, 복셀 게임 아트, 복셀 마켓, 블록체인 dapp, PC 복셀 게임, PC 복셀 아트",
             "og": {
                 "title": "더 샌드박스 | 3D 복셀 오브젝트 창작, 애니메이션 적용, 게시, 판매",
                 "description": "더 샌드박스는 3D 복셀 모델을 창작하고 조립하고 공유하는 독창적인 방법을 제공합니다. 3D 복셀 오브젝트를 만들어 애니메이션을 적용하고 전 세계 사람들이 이용하는 마켓플레이스에서 게시/판매해 보세요.",
@@ -2059,7 +2059,7 @@
             "meta": {
                 "title": "더 샌드박스에서 아바타 만들기",
                 "description": "더 샌드박스 아바타를 만들어 보세요. 외모를 원하는 대로 꾸미고 장비로 능력치를 올려 더 샌드박스 메타버스에서 친구들과 함께 게임을 할 준비를 해보세요.",
-                "keywords": "샌드박스, 창작, 복셀 아트 창작, 3D 복셀 게임, 복셀 아티스트, 복셀 게임 아트, 복셀 상점, 블록체인 dapp, 아바타, 아바타 크리에이터",
+                "keywords": "샌드박스, 창작, 복셀 아트 창작, 3D 복셀 게임, 복셀 아티스트, 복셀 게임 아트, 복셀 마켓, 블록체인 dapp, 아바타, 아바타 크리에이터",
                 "og": {
                     "title": "더 샌드박스 | 더 샌드박스에서 아바타 만들기",
                     "description": "더 샌드박스 아바타를 만들어 보세요. 외모를 원하는 대로 꾸미고 장비로 능력치를 올려 더 샌드박스 메타버스에서 친구들과 함께 게임을 할 준비를 해보세요.",
@@ -2234,7 +2234,7 @@
                     "sort": {
                         "title": "정렬 기준",
                         "readyMint": "민팅 준비 완료",
-                        "unpublished": "게시 안 함",
+                        "unpublished": "게시되지 않음",
                         "exclusive": "특별",
                         "basic": "기본",
                         "pending": "보류 중",
@@ -2837,12 +2837,12 @@
             "text8": "알파 내 경험은 모두 복스에딧과 게임 메이커로 제작되었습니다. 나만의 경험을 제작해 보세요!"
         },
         "transfer": {
-            "transferExperience": "경험 이전하기",
+            "transferExperience": "경험을 이동합니다",
             "walletUser": "대상 지갑 입력:",
             "confirm": "확인",
             "successTransfer": "이전 성공",
             "closeForm": "닫기",
-            "transferAssets": "애셋도 이전하기"
+            "transferAssets": "애셋도 이동합니다"
         },
         "notificationBar": {
             "oldMap": "새로운 메타버스 맵 버전이 출시되었습니다. 이제 1x1 LAND에도 이미지를 삽입할 수 있습니다!",
@@ -3303,7 +3303,7 @@
                 "title": "상태",
                 "published": "게시함",
                 "added": "추가함",
-                "unpublished": "게시 안 함",
+                "unpublished": "게시되지 않음",
                 "exclusive": "특별",
                 "basic": "기본",
                 "sale": "판매 중"
@@ -3325,7 +3325,7 @@
             "sort": {
                 "title": "정렬 기준",
                 "readyMint": "민팅 준비 완료",
-                "unpublished": "게시 안 함",
+                "unpublished": "게시되지 않음",
                 "exclusive": "특별",
                 "basic": "기본",
                 "pending": "보류 중",
@@ -4460,7 +4460,7 @@
                 "approved": "승인됨",
                 "rejected": "거부됨",
                 "purchased": "구매함",
-                "unpublished": "게시 안 함"
+                "unpublished": "게시되지 않음"
             }
         },
         "migration": {
@@ -6396,13 +6396,13 @@
     },
     "bridge": {
         "greeting": "Hi",
-        "walletBalance": "Your wallet balance",
+        "walletBalance": "내 잔고",
         "nftOnEth": "이더리움 메인넷의 NFT",
         "nftOnPolygon": "폴리곤 메인넷 NFT",
         "banner": {
             "title": "폴리곤 브릿지",
-            "subtitleDeposit1": ": 애셋을 폴리곤으로 트랜스퍼하고",
-            "subtitleDeposit2": "캐시백 받기",
+            "subtitleDeposit1": "이더리움(L1)과 폴리곤(L2) 네트워크에서 SAND와 LAND 브릿지하기",
+            "subtitleDeposit2": "LAND 폴리곤 첫 이전 시 SAND 캐시백 제공",
             "subtitleWithdraw": ": 애셋을 이더리움으로 트랜스퍼",
             "howToLink": "어떻게 작동하나요?",
             "guideLink": "유저 가이드",
@@ -8116,14 +8116,14 @@
             "assets": "자산",
             "link": "공개 링크",
             "created": "만든 사람",
-            "description2": ""
+            "description2": "지갑을 연결하여 외부 아바타를 보유하고 있는지 확인하세요."
         },
         "link": "OpenSea에서 구매하세요",
         "sidebar": "아바타",
         "explore": "외부 컬렉션 탐색",
         "total": " 컬렉션의 자산",
-        "exploreLands": "",
-        "exploreLatest": ""
+        "exploreLands": "LAND와 이스테이트 탐험하기",
+        "exploreLatest": "최신 NFT 드롭 살펴보기"
     },
     "alpha3": {
         "contest": {
@@ -8201,7 +8201,7 @@
                     "editWorkspace": "멤버 수정"
                 }
             },
-            "workflowType": ""
+            "workflowType": "워크플로우 유형"
         },
         "members": {
             "newMember": "+ 신규 멤버 추가",
@@ -8345,13 +8345,13 @@
                     "success": "{member}가 성공적으로 삭제되었습니다"
                 },
                 "divider": {
-                    "asset": "",
-                    "asset_approval": "",
-                    "user": "",
-                    "role": "",
-                    "workspace": ""
+                    "asset": "애셋",
+                    "asset_approval": "애셋 승인",
+                    "user": "유저",
+                    "role": "역할",
+                    "workspace": "워크스페이스"
                 },
-                "options_selected": ""
+                "options_selected": "{count}개의 권한 선택됨"
             },
             "addNewRoles": "+ 신규 역할 추가",
             "quantityRoles": "역할 생성됨",
@@ -8383,7 +8383,7 @@
             "singleAssetApproval": "was successfully requested approval",
             "deletedOk": "애셋이 성공적으로 삭제되었습니다",
             "bannedOk": "Asset successfully banned",
-            "transferedOk": "Asset transfered correctly",
+            "transferedOk": "애셋이 올바르게 이동되었습니다",
             "tokenCopied": "토큰 ID가 클립보드에 복사되었습니다.",
             "alreadyBelogsCommunity": "이 애셋은 이미 이 컬렉션에 포함되어 있습니다",
             "stats": {
@@ -8543,7 +8543,7 @@
                 "rejected": "거절됨",
                 "approved": "승인됨"
             },
-            "redirectToUpload": ""
+            "redirectToUpload": "업로드 페이지로 리다이렉팅"
         },
         "experiences": {
             "construction": "이 섹션은 현재 개발 중입니다."
@@ -8617,8 +8617,8 @@
         "POC_LANDING_FAQ_MY_AVATARS_DESCRIPTION": "공개일 이후(공개 판매 시작 24시간 후)라면 오픈시 페이지의 우측 상단에 있는 Refresh Metadata(메타데이터 새로고침) 버튼을 클릭해 보세요.",
         "POC_LANDING_FAQ_BUYING_NFT_TITLE": "처음으로 NFT를 구매하는데, 어떻게 시작해야 하나요?",
         "POC_LANDING_FAQ_BUYING_NFT_DESCRIPTION": "절차는 간단합니다. 아래 내용을 참고하세요.  \n - 더 샌드박스에서 계정을 생성합니다.\n - 원하는 아바타 개수를 민팅할 수 있는 SAND와 가스비로 사용될 ETH가 충분한지 확인합니다.\n - 계정에 로그인하고 민팅 페이지로 이동합니다: https://sandbox.game/en/people-of-crypto/raffle/mint/ \n - 지갑이 올바르게 연결되었는지 확인 후 민팅하기(Mint) 버튼을 클릭합니다.",
-        "POC_RAFFLE_HEADER_RAFFLE_TITLE_PRIMARY": "Mint your own",
-        "POC_RAFFLE_HEADER_RAFFLE_TITLE_SECONDARY": "avatar now!",
+        "POC_RAFFLE_HEADER_RAFFLE_TITLE_PRIMARY": "나만의 아바타를",
+        "POC_RAFFLE_HEADER_RAFFLE_TITLE_SECONDARY": "민팅하세요!",
         "POC_RAFFLE_HOW_TO_MINT_TITLE": "POC 아바타 민팅하기",
         "POC_RAFFLE_PLAY_CREATE_GOVERN_TITLE_PRIMARY": "플레이하고, 제작하고,",
         "POC_RAFFLE_PLAY_CREATE_GOVERN_TITLE_SECONDARY": "소유하고, 참여하자",
@@ -8646,20 +8646,20 @@
         "POC_RAFFLE_PERSONALIZE_ERROR_LABEL": "다시 시도해 주세요.",
         "POC_RAFFLE_PERSONALIZE_PROCESSING_TITLE": "진행 중",
         "POC_RAFFLE_PERSONALIZE_PROCESSING_DESCRIPTION": "트랜잭션을 처리하는 중입니다.",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_BORN_THIS_WAY_SECRET": "Secret",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_BORN_THIS_WAY_SECRET": "지향성을 공개하지 않습니다",
         "POC_RAFFLE_PERSONALIZE_TRAIT_GAY_AF": "Gay AF",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_LESBIONIC": "Lesbionic",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_LESBIONIC": "레즈비언",
         "POC_RAFFLE_PERSONALIZE_TRAIT_QUEERLY_AWESOME": "Queerly Awesome",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_BI_BOY": "Bi-boy",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_BI_GIRL": "Bi-girl",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_BI_IDGAF": "Bi-idgaf",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_TRANSTASTIC": "Transtastic",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_DRAGTASTIC": "Dragtastic",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_BI_BOY": "바이섹슈얼 남성",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_BI_GIRL": "바이섹슈얼 여성",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_BI_IDGAF": "바이섹슈얼 사람",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_TRANSTASTIC": "트랜스젠더",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_DRAGTASTIC": "드랙퀸/드랙킹",
         "POC_RAFFLE_PERSONALIZE_TRAIT_STRAIGHT_UP_ALLY": "Str8 Up Ally",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_PROUDLY_ME_SECRET": "Secret",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_THEY_THEM": "They / Them",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_HE_HIM": "He / Him",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_SHE_HER": "She / Her",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_PROUDLY_ME_SECRET": "지향성을 공개하지 않습니다",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_THEY_THEM": "복수의 사람",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_HE_HIM": "남성",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_SHE_HER": "여성",
         "POC_LANDING_META_TITLE": "더 샌드박스 게임 – People of Crypto 아바타가 메타버스에 찾아왔습니다",
         "POC_LANDING_META_DESCRIPTION": "People of Crypto 아바타가 더 샌드박스와 함께합니다. 즐겁게 메타버스를 탐험하며 친구들과 함께 메타버스 세상에 활기를 불어넣어 봅시다. 지금 바로 아바타를 획득하여 더 샌드박스에 접속하세요.",
         "POC_LANDING_META_KEYWORDS": "샌드박스, 복셀 아트, 3D 복셀 게임, 복셀 아티스트, 3D 온라인 PC 게임, 커뮤니티, 블록체인 dapp, PC 복셀 게임, PC 복셀 아트, 탈중앙화 게임, SAND, 토큰, 스눕 독, 추첨",
@@ -8698,29 +8698,29 @@
     },
     "partners": {
         "meta": {
-            "title": "",
-            "description": "",
-            "keywords": "",
+            "title": "더 샌드박스 파트너십",
+            "description": "더 샌드박스는 3D 복셀 모델을 창작하고 조립하여 공유할 수 있는 특별한 방법을 제공합니다. 나만의 3D 복셀 오브젝트를 만들어 애니메이션을 추가하고 전 세계 유저들이 모이는 마켓플레이스에서 판매해 보세요. 물론, 이 모든 과정은 무료입니다!",
+            "keywords": "샌드박스, 창작, 복셀 아트 창작, 3D 복셀 게임, 복셀 아티스트, 복셀 게임 아트, 복셀 마켓, 블록체인 dapp, PC 복셀 게임, PC 복셀 아트",
             "og": {
-                "title": "",
-                "description": "",
-                "url": "",
-                "site_name": "",
-                "image": ""
+                "title": "더 샌드박스 | 3D 복셀 오브젝트를 창작하고, 애니메이션화하고, 게시하여 판매하세요",
+                "description": "더 샌드박스는 3D 복셀 모델을 창작하고 조립하여 공유할 수 있는 특별한 방법을 제공합니다. 나만의 3D 복셀 오브젝트를 만들어 애니메이션을 추가하고 전 세계 유저들이 모이는 마켓플레이스에서 판매해 보세요.",
+                "url": "https://sandbox.game/create/",
+                "site_name": "더 샌드박스",
+                "image": "https://www.sandbox.game/media/The-Sandbox-VoxEdit-Character-Preview.gif"
             },
             "twitter": {
-                "title": "",
-                "description": "",
-                "card": "",
-                "site": "",
-                "creator": "",
-                "image": ""
+                "title": "더 샌드박스 | 3D 복셀 오브젝트를 창작하고, 애니메이션화하고, 게시하여 판매하세요",
+                "description": "더 샌드박스는 3D 복셀 모델을 창작하고 조립하여 공유할 수 있는 특별한 방법을 제공합니다. 나만의 3D 복셀 오브젝트를 만들어 애니메이션을 추가하고 전 세계 유저들이 모이는 마켓플레이스에서 판매해 보세요.",
+                "card": "탈중앙화 게이밍 생태계에서 창작하기",
+                "site": "@thesandboxgame",
+                "creator": "@thesandboxgame",
+                "image": "https://www.sandbox.game/media/The-Sandbox-VoxEdit-Character-Preview.gif"
             }
         },
         "journey": {
-            "title": "",
+            "title": "함께 만들어 나가는 오픈 메타버스",
             "desc": "",
-            "desc1": "",
+            "desc1": "더 샌드박스와 파트너 맺기",
             "desc2": "",
             "button": ""
         },
@@ -8730,18 +8730,18 @@
             "cards": {
                 "1": {
                     "desc": "",
-                    "name": "",
-                    "owner": ""
+                    "name": "Snoop Dogg",
+                    "owner": "IP 보유자"
                 },
                 "2": {
                     "desc": "",
-                    "name": "",
-                    "owner": ""
+                    "name": "The Smurfs",
+                    "owner": "IP 보유자"
                 },
                 "3": {
                     "desc": "",
-                    "name": "",
-                    "owner": ""
+                    "name": "Care Bears",
+                    "owner": "IP 보유자"
                 }
             }
         },
@@ -8756,17 +8756,17 @@
             "button": "",
             "cards": {
                 "1": {
-                    "title": "",
+                    "title": "IP와 브랜드",
                     "desc": "",
                     "button": ""
                 },
                 "2": {
-                    "title": "",
+                    "title": "메타버스 에이전시",
                     "desc": "",
                     "button": ""
                 },
                 "3": {
-                    "title": "",
+                    "title": "개별 스튜디오",
                     "desc": "",
                     "button": ""
                 }
@@ -8785,11 +8785,11 @@
                     "title": "",
                     "subtitle": "",
                     "desc1": "",
-                    "desc2": "",
+                    "desc2": "최고 성능의 게이밍 컴퓨터부터 모바일 기기까지, 누구나 더 샌드박스 플랫폼에 접근할 수 있습니다.",
                     "desc3": ""
                 },
                 "3": {
-                    "title": "",
+                    "title": "200개 이상의 브랜드",
                     "subtitle": "",
                     "desc1": "",
                     "desc2": ""
@@ -8798,27 +8798,27 @@
         },
         "howpartner": {
             "title": "",
-            "seecollection": "",
-            "createdby": "",
+            "seecollection": "컬렉션 보기",
+            "createdby": "제작:",
             "block": {
                 "1": {
-                    "title": "",
+                    "title": "Care Bears",
                     "desc": ""
                 },
                 "2": {
-                    "title": "",
+                    "title": "Snoop Dogg",
                     "desc": ""
                 },
                 "3": {
-                    "title": "",
+                    "title": "The Walking Dead",
                     "desc": ""
                 },
                 "4": {
-                    "title": "",
+                    "title": "Deadmau5",
                     "desc": ""
                 },
                 "5": {
-                    "title": "",
+                    "title": "The Smurfs",
                     "desc": ""
                 }
             }
@@ -8832,27 +8832,27 @@
                 "1": {
                     "title": "",
                     "desc": "",
-                    "screen": ""
+                    "screen": "알파 로비"
                 },
                 "2": {
-                    "title": "",
+                    "title": "게이밍",
                     "desc": "",
                     "screen": ""
                 },
                 "3": {
-                    "title": "",
+                    "title": "라이프스타일",
                     "desc": "",
-                    "screen": ""
+                    "screen": "모던 하우스"
                 },
                 "4": {
-                    "title": "",
+                    "title": "스포츠",
                     "desc": "",
-                    "screen": ""
+                    "screen": "레이스 메이즈"
                 },
                 "5": {
-                    "title": "",
+                    "title": "음악",
                     "desc": "",
-                    "screen": ""
+                    "screen": "클라이밍 매드니스"
                 }
             }
         },
