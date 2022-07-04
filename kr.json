@@ -302,7 +302,7 @@
             "about": "소개",
             "mod": "MOD",
             "admin": "관리자",
-            "user": "나",
+            "user": "내 계정",
             "communities": "공간"
         },
         "footer": {
@@ -5207,7 +5207,7 @@
             "claim": "수령하기"
         },
         "transactionHistory": {
-            "title": "거래 내역",
+            "title": "트랜잭션 내역",
             "noTransactions": "지난 며칠 동안 진행된 신규 트랜잭션이 없습니다.",
             "oldTransactions": "지난 트랜잭션 내역 확인하기"
         },
@@ -5263,7 +5263,7 @@
         "withdrawTitle": "인출",
         "claimTitle": "수령",
         "depositTitle": "예치",
-        "historyTitle": "거래 내역",
+        "historyTitle": "트랜잭션 내역",
         "pool": "토큰",
         "myPools": "내 풀",
         "totalRewards": "총 리워드",
@@ -6613,8 +6613,8 @@
             "totalCashback": "총 캐시백:",
             "cashback": "캐시백:",
             "pendingSecond": "두 번째 트랜잭션 보류 중",
-            "olderTransactions": "For older pending transactions, please check the {0} {1}",
-            "polygonBridge": "Polygon Bridge Explorer"
+            "olderTransactions": "보류 중인 이전 트랜잭션의 경우 {0} {1}",
+            "polygonBridge": "POS Bridge Explorer를 확인하세요."
         },
         "buySand": "SAND 구매",
         "buymSand": "mSAND 구매",
@@ -6632,7 +6632,7 @@
         "deposits": "예치",
         "withdraws": "인출",
         "actionRequired": "조치 필요",
-        "actionsRequired": "Actions Required",
+        "actionsRequired": "개의 액션 필요",
         "land": "Land | Lands"
     },
     "season.info.communityBooster.bulletPoints.1.3": {
@@ -8115,7 +8115,7 @@
             "owners": "소유자",
             "assets": "자산",
             "link": "공개 링크",
-            "created": "만든 사람",
+            "created": "크리에이터:",
             "description2": "지갑을 연결하여 외부 아바타를 보유하고 있는지 확인하세요."
         },
         "link": "OpenSea에서 구매하세요",
@@ -8215,7 +8215,7 @@
                     "user": "유저",
                     "groups": "그룹",
                     "ban": "Ban",
-                    "actions": "Actions"
+                    "actions": "액션"
                 }
             },
             "modal": {
@@ -8258,7 +8258,7 @@
             "lastEdition": "LAST EDITION",
             "linkUses": "LINK USES",
             "link": "링크",
-            "actions": "ACTIONS",
+            "actions": "액션",
             "roles": "역할",
             "claims": "CLAIMS",
             "noInvitation": "This workspace doesn't have any invitations yet",
@@ -8277,7 +8277,7 @@
             "membersPerGroup": "그룹별 멤버",
             "assetLimit": "애셋 제한",
             "experiencesLimit": "경험 제한",
-            "actions": "Actions",
+            "actions": "액션",
             "exportWorkspace": "워크스페이스 내보내기",
             "importWorkspace": "워크스페이스 불러오기",
             "wantToRemove": "이 워크",
@@ -8358,7 +8358,7 @@
             "gridRole": "역할",
             "gridPermissions": "권한",
             "gridMembers": "멤버",
-            "gridActions": "ACTIONS",
+            "gridActions": "액션",
             "youDontHaveRoles": "이 워크스페이스는 아직 역할이 없습니다.",
             "notRolesYet": "이 워크스페이스는 아직 역할이 없습니다.",
             "clickToCreate": "'신규 역할 추가'를 클릭하여 시작하세요!",
@@ -8594,7 +8594,7 @@
         "POC_LANDING_FAQ_HOW_MUCH_SHOULD_I_TITLE": "People of Crypto NFT 1개는 대략 얼마인가요?",
         "POC_LANDING_FAQ_HOW_MUCH_SHOULD_I_DESCRIPTION": "POC NFT 1개는 {sandAmount} SAND의 가격으로 판매됩니다.",
         "POC_LANDING_FAQ_HOW_MANY_CAN_I_MINT_TITLE": "지갑 주소 하나당 몇 개의 POC 아바타를 민팅할 수 있나요?",
-        "POC_LANDING_FAQ_HOW_MANY_CAN_I_MINT_DESCRIPTION": "The POC Avatars will be released in two waves: \n 1) Welcomelisted users will have a chance to mint a maximum of two avatar with a time limit of 24 hours, between June 20th and June 21th. \n 2) When the public release is live, users will have the chance to mint up to ten.",
+        "POC_LANDING_FAQ_HOW_MANY_CAN_I_MINT_DESCRIPTION": "POC 아바타는 두 번에 걸쳐 공개됩니다.\n 1) 웰컴리스트에 등록된 유저는 6월 20일부터 21일까지 24시간 동안 최대 두 개의 아바타를 민팅할 수 있습니다. \n 2) 아바타가 전체 공개되면 각 유저는 최대 열 개의 아바타를 민팅할 수 있습니다.",
         "POC_LANDING_FAQ_WHEN_CAN_I_DISCOVER_TITLE": "내가 민팅한 POC 아바타가 무엇인지 어디서 확인할 수 있나요?",
         "POC_LANDING_FAQ_WHEN_CAN_I_DISCOVER_DESCRIPTION": "POC 아바타는 오픈시(OpenSea)에서 공개 판매 시작 24시간 이후에 공개됩니다.",
         "POC_LANDING_FAQ_CAN_I_MINT_USING_TITLE": "민팅에는 지갑 종류 제한이 없나요?",
@@ -8647,15 +8647,15 @@
         "POC_RAFFLE_PERSONALIZE_PROCESSING_TITLE": "진행 중",
         "POC_RAFFLE_PERSONALIZE_PROCESSING_DESCRIPTION": "트랜잭션을 처리하는 중입니다.",
         "POC_RAFFLE_PERSONALIZE_TRAIT_BORN_THIS_WAY_SECRET": "지향성을 공개하지 않습니다",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_GAY_AF": "Gay AF",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_GAY_AF": "게이",
         "POC_RAFFLE_PERSONALIZE_TRAIT_LESBIONIC": "레즈비언",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_QUEERLY_AWESOME": "Queerly Awesome",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_QUEERLY_AWESOME": "멋진 퀴어",
         "POC_RAFFLE_PERSONALIZE_TRAIT_BI_BOY": "바이섹슈얼 남성",
         "POC_RAFFLE_PERSONALIZE_TRAIT_BI_GIRL": "바이섹슈얼 여성",
         "POC_RAFFLE_PERSONALIZE_TRAIT_BI_IDGAF": "바이섹슈얼 사람",
         "POC_RAFFLE_PERSONALIZE_TRAIT_TRANSTASTIC": "트랜스젠더",
         "POC_RAFFLE_PERSONALIZE_TRAIT_DRAGTASTIC": "드랙퀸/드랙킹",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_STRAIGHT_UP_ALLY": "Str8 Up Ally",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_STRAIGHT_UP_ALLY": "퀴어 친화적인 스트레이트",
         "POC_RAFFLE_PERSONALIZE_TRAIT_PROUDLY_ME_SECRET": "지향성을 공개하지 않습니다",
         "POC_RAFFLE_PERSONALIZE_TRAIT_THEY_THEM": "복수의 사람",
         "POC_RAFFLE_PERSONALIZE_TRAIT_HE_HIM": "남성",
@@ -8746,7 +8746,7 @@
             }
         },
         "build": {
-            "title": "",
+            "title": "함께 만들어 나가는 오픈 메타버스",
             "desc1": "",
             "desc2": "",
             "button": ""
@@ -8758,12 +8758,12 @@
                 "1": {
                     "title": "IP와 브랜드",
                     "desc": "",
-                    "button": ""
+                    "button": "지금 접속하기"
                 },
                 "2": {
                     "title": "메타버스 에이전시",
                     "desc": "",
-                    "button": ""
+                    "button": "메타버스에 합류하기"
                 },
                 "3": {
                     "title": "개별 스튜디오",
@@ -8799,7 +8799,7 @@
         "howpartner": {
             "title": "",
             "seecollection": "컬렉션 보기",
-            "createdby": "제작:",
+            "createdby": "크리에이터:",
             "block": {
                 "1": {
                     "title": "Care Bears",
@@ -8827,10 +8827,10 @@
             "title": "",
             "desc": "",
             "button": "",
-            "createdby": "",
+            "createdby": "크리에이터:",
             "blocks": {
                 "1": {
-                    "title": "",
+                    "title": "패션",
                     "desc": "",
                     "screen": "알파 로비"
                 },
@@ -8846,7 +8846,7 @@
                 },
                 "4": {
                     "title": "스포츠",
-                    "desc": "",
+                    "desc": "축구 경기에서 뛰기, 내가 좋아하는 클럽 응원하기, 테니스 경기 관람하기 등, 복셀 세상에서는 이 모든 것이 가능합니다. 더 샌드박스는 우리가 열광하는 분야를 새로운 방식으로 구현하여 실제 물리적인 경험을 재창조합니다.",
                     "screen": "레이스 메이즈"
                 },
                 "5": {
@@ -8857,18 +8857,18 @@
             }
         },
         "realworld": {
-            "title": "",
+            "title": "실제 경험의 확장",
             "blocks": {
-                "1": "",
-                "2": "",
-                "3": "",
-                "4": "",
-                "5": "",
-                "6": "",
-                "7": "",
-                "8": "",
-                "9": "",
-                "10": ""
+                "1": "부동산 & 주택 관련 산업",
+                "2": "음악, 콘서트 및 스트리밍",
+                "3": "패션 & 의류",
+                "4": "아트 & 박물관",
+                "5": "전문가와 소통",
+                "6": "쇼핑",
+                "7": "친목 도모 & 데이트",
+                "8": "자동차",
+                "9": "비디오 게임",
+                "10": "스포츠"
             }
         }
     }
