@@ -220,7 +220,8 @@
         "report": "Report",
         "failedTryAgain": "Something went wrong. Please try again.",
         "search_name": "",
-        "options_selected": ""
+        "options_selected": "",
+        "savedChanges": "Saved!"
     },
     "layout": {
         "topbar": {
@@ -327,7 +328,7 @@
                 "onepager": "1ページ資料",
                 "license": "ライセンス",
                 "careers": "キャリア",
-                "partners": ""
+                "partners": "パートナー"
             },
             "social": "ソーシャルメディア",
             "copyright": "Copyright ©",
@@ -1575,7 +1576,7 @@
             "bodypart": "Bodypart",
             "and": "and",
             "onOpenseaTitle": "NFTs LAND on Opensea",
-            "externalcollections": ""
+            "externalcollections": "Avatar"
         },
         "rarities": {
             "title": "カタリスト",
@@ -3369,7 +3370,8 @@
                 "purchaseGemsDisclaimer": "続けるにはカタリストとジェムを購入してください",
                 "removing": "属性はすべて削除されます。",
                 "wishToContinue": " 本当に続けますか？",
-                "invalidAndMaxed": "無効な数量です。可能な最大数量を使用しています。"
+                "invalidAndMaxed": "無効な数量です。可能な最大数量を使用しています。",
+                "requiredTokens": "To continue minting you need the following tokens:"
             },
             "search": "検索…",
             "preview": "プレビュー",
@@ -3614,7 +3616,8 @@
             },
             "errors": {
                 "titwordMismatches": "ユーザー名またはパスワードが一致しません",
-                "userPasswordMismatches": "ユーザー名またはパスワードが一致しません"
+                "userPasswordMismatches": "ユーザー名またはパスワードが一致しません",
+                "venlyConnectionError": "Something went wrong. Make sure you have pop-ups enabled on your browser, reload and try again."
             }
         },
         "forgotModal": {
@@ -8206,7 +8209,7 @@
                     "editWorkspace": "Edit members"
                 }
             },
-            "workflowType": ""
+            "workflowType": "Workflow Type"
         },
         "members": {
             "newMember": "+ Add New member",
@@ -8350,13 +8353,13 @@
                     "success": "{member} was successfully deleted"
                 },
                 "divider": {
-                    "asset": "",
-                    "asset_approval": "",
-                    "user": "",
-                    "role": "",
-                    "workspace": ""
+                    "asset": "Asset",
+                    "asset_approval": "Asset Approval",
+                    "user": "User",
+                    "role": "Role",
+                    "workspace": "Workspace"
                 },
-                "options_selected": ""
+                "options_selected": "{count} permissions selected"
             },
             "addNewRoles": "+ Add New Role",
             "quantityRoles": "Roles created",
@@ -8548,7 +8551,12 @@
                 "rejected": "Rejected",
                 "approved": "Approved"
             },
-            "redirectToUpload": ""
+            "redirectToUpload": "Redirecting to upload page",
+            "users": {
+                "fail": "",
+                "home": "",
+                "account": ""
+            }
         },
         "experiences": {
             "construction": "This section is under development"
@@ -8699,182 +8707,330 @@
         "POC_RAFFLE_META_TWITTER_DESCRIPTION": "Come and participate in the raffle! Anyone can win, all you have to do is try your luck!",
         "POC_RAFFLE_META_TWITTER_CARD": "The Sandbox Game - Raffle Page",
         "POC_RAFFLE_META_TWITTER_SITE": "@thesandboxgame",
-        "POC_RAFFLE_META_TWITTER_CREATOR": "@thesandboxgame"
+        "POC_RAFFLE_META_TWITTER_CREATOR": "@thesandboxgame",
+        "STEVE_AOKI_LANDING_HEADER_MENU_HOME_LABEL": "Home",
+        "STEVE_AOKI_LANDING_HEADER_MENU_UNIQUE_AVATARS_LABEL": "Unique avatars",
+        "STEVE_AOKI_LANDING_HEADER_MENU_STEVE_AOKI_LABEL": "Steve aoki",
+        "STEVE_AOKI_LANDING_HEADER_MENU_MINT_YOUR_AVATAR_LABEL": "Mint your avatar",
+        "STEVE_AOKI_LANDING_HEADER_MENU_BUY_NOW_LABEL": "Buy now",
+        "STEVE_AOKI_LANDING_INTRO_TITLE": "3,333 Steve Aoki",
+        "STEVE_AOKI_LANDING_INTRO_SUBTITLE": "Metaverse avatars",
+        "STEVE_AOKI_LANDING_INTRO_DESCRIPTION": "Coming at your harder than a cake-throw, Steve Aoki is entering The Sandbox and gives anyone the opportunity to be Steve Aoki in the metaverse. Unique designs, hand-crafted and curated with one of the world’s coolest musicians.",
+        "STEVE_AOKI_LANDING_INTRO_BUTTON": "Mint yours now",
+        "STEVE_AOKI_LANDING_INTRO_START_DATE": "Launching July 18",
+        "STEVE_AOKI_LANDING_OUR_VISION_TITLE": "Be Steve",
+        "STEVE_AOKI_LANDING_OUR_VISION_DESCRIPTION_PRIMARY": "The Steve Aoki Avatars are a collection of 3,333 unique and randomly generated metaverse avatars for The Sandbox. Each avatar will be a playable avatar inside The Sandbox and unlock unique functionality and gives users the possibility to earn SAND through playing.",
+        "STEVE_AOKI_LANDING_OUR_VISION_DESCRIPTION_SECONDARY": "Become Steve Aoki and enter The Sandbox today!",
+        "STEVE_AOKI_LANDING_MINT_AVATAR_TITLE": "Mint your Steve Aoki avatar",
+        "STEVE_AOKI_LANDING_MINT_AVATAR_DESCRIPTION": "Get your unique Steve Aoki avatar for The Sandbox today and enter the metaverse.",
+        "STEVE_AOKI_LANDING_MINT_AVATAR_BUTTON": "Mint yours now!",
+        "STEVE_AOKI_LANDING_PLAY_IN_SEASON_TITLE": "Play it in Alpha",
+        "STEVE_AOKI_LANDING_PLAY_IN_SEASON_SUBTITLE": "Season 3",
+        "STEVE_AOKI_LANDING_PLAY_IN_SEASON_DESCRIPTION": "Each Avatar will be playable inside The Sandbox, starting with the upcoming Alpha Season 3. Get your Avatar, jump into the game and share your avatar with the world! In addition we will also host Steve Aoki exclusive events and Play & Earn activities for avatar holders.",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TITLE": "Unlimited possibilities",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_DESCRIPTION": "Each Aoki avatar has been created by randomly generating 3,333 playable metaverse avatars. Over 100 hand-crafted traits, as well as several unique 1/1 designs can be created!",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_TITLE": "Unique",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_SUBTITLE": "Avatars",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_DESCRIPTION": "No two avatars will look alike. Discover a collection of 3,333 entirely unique looking avatars.",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_TITLE": "Special",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_SUBTITLE": "Design",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_DESCRIPTION": "Discover multiple unique designs and exclusive 1/1 Aoki’s, which are super rare.",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_TITLE": "Play and",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_SUBTITLE": "Earn",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_DESCRIPTION": "Use your avatar to unlock new functionality within The Sandbox, including access to experiences and possibilities to earn SAND.",
+        "STEVE_AOKI_LANDING_FAQ_HOW_MANY_STEVE_AOKI_TITLE": "How many Steve Aoki Avatars are there?",
+        "STEVE_AOKI_LANDING_FAQ_HOW_MANY_STEVE_AOKI_DESCRIPTION": "There are a total of 3,333 Aoki Avatars that will be minted.",
+        "STEVE_AOKI_LANDING_FAQ_WHAT_IS_THEIR_RARITY_TITLE": "What is their rarity/tier?",
+        "STEVE_AOKI_LANDING_FAQ_WHAT_IS_THEIR_RARITY_DESCRIPTION": "The avatars are divided into a variety of rarity categories depending on traits. Each avatar will be unique, and generated through a random weight of traits which affect the visual look&feel. In addition there will be multiple unique 1/1 NFTs.",
+        "STEVE_AOKI_LANDING_FAQ_WHERE_DO_I_HAVE_TO_GO_TITLE": "Where do I have to go to claim the Avatars?",
+        "STEVE_AOKI_LANDING_FAQ_WHERE_DO_I_HAVE_TO_GO_DESCRIPTION": "There is only one place where you can mint the Avatars: \n https://sandbox.game/en/steve-aoki/raffle/mint/",
+        "STEVE_AOKI_LANDING_FAQ_AT_WHAT_TIME_TITLE": "At what time does the sale start?",
+        "STEVE_AOKI_LANDING_FAQ_AT_WHAT_TIME_DESCRIPTION": "The sale will start on July 19, 2022, 2PM UTC. \n Whitelisted users will have access 24 hours before.",
+        "STEVE_AOKI_LANDING_FAQ_HOW_MUCH_SHOULD_I_TITLE": "How much should I expect to pay for one Steve Aoki Avatar NFT?",
+        "STEVE_AOKI_LANDING_FAQ_HOW_MUCH_SHOULD_I_DESCRIPTION": "One Avatar NFT will cost {sandAmount} SAND.",
+        "STEVE_AOKI_LANDING_FAQ_HOW_MANY_CAN_I_MINT_TITLE": "How many Avatars can I mint per wallet address?",
+        "STEVE_AOKI_LANDING_FAQ_HOW_MANY_CAN_I_MINT_DESCRIPTION": "The Aoki Avatars will be released in two waves: \n 1) Whitelisted users will have a chance to mint up to two avatars per wallet, within a 24 hours timeframe. \n 2) When the public release is live, users will have the chance to mint up to four avatars per wallet.",
+        "STEVE_AOKI_LANDING_FAQ_WHEN_CAN_I_DISCOVER_TITLE": "How can I see my avatar?",
+        "STEVE_AOKI_LANDING_FAQ_WHEN_CAN_I_DISCOVER_DESCRIPTION": "The Steve Aoki Avatars will be revealed 48 hours after minting on OpenSea.",
+        "STEVE_AOKI_LANDING_FAQ_CAN_I_MINT_USING_TITLE": "Can I mint using any wallet?",
+        "STEVE_AOKI_LANDING_FAQ_CAN_I_MINT_USING_DESCRIPTION": "Yes, you can mint with whatever wallet you have.",
+        "STEVE_AOKI_LANDING_FAQ_WHAT_CAN_I_DO_TITLE": "What can I do with the Avatars?",
+        "STEVE_AOKI_LANDING_FAQ_WHAT_WHAT_CAN_I_DO_DESCRIPTION": "Each Avatar will be playable inside The Sandbox in all the multiplayer experiences to come starting from the Sandbox Alpha Season 3. We will also introduce unique Play&Earn opportunites for avatar holders, giving any holder the opportunity to earn SAND through gameplay.",
+        "STEVE_AOKI_LANDING_FAQ_HOW_CAN_I_USE_TITLE": "How can I use my Avatar inside The Sandbox?",
+        "STEVE_AOKI_LANDING_FAQ_HOW_CAN_I_USE_DESCRIPTION": "You will be able to use it as an Avatar by simply selecting it in the Avatar Manager in The Sandbox dashboard once it has been enabled.",
+        "STEVE_AOKI_LANDING_FAQ_WHERE_CAN_I_BUY_TITLE": "Where can I buy a Steve Aoki avatar after the initial sale is over?",
+        "STEVE_AOKI_LANDING_FAQ_WHERE_CAN_I_BUY_DESCRIPTION": "After the initial sale is over, you will be able to purchase as many avatars as you like from users that are willing to sell theirs on the secondary marketplace Opensea",
+        "STEVE_AOKI_LANDING_FAQ_HOW_DO_I_GET_WHITELISTED_TITLE": "How do I get whitelisted?",
+        "STEVE_AOKI_LANDING_FAQ_HOW_DO_I_GET_WHITELISTED_DESCRIPTION": "If you hold one of the NFT listed below, 24 hours before the minting starts, you will have early access to mint your Aoki Avatar: \n - XXXXXXX \n - XXXXXX \n - XXXXX \n - XXXXXX \n Winning one of our Twitter contests can also give you early access to mint your NFT.",
+        "STEVE_AOKI_LANDING_FAQ_HOW_DO_I_KNOW_IF_TITLE": "How do I know if I’m whitelisted?",
+        "STEVE_AOKI_LANDING_FAQ_HOW_DO_I_KNOW_IF_DESCRIPTION": "If you hold an NFT of the above collection, you will be able to mint, as long as you hold the NFT in the wallet with which you are whitelisted, and connected on the minting page.",
+        "STEVE_AOKI_LANDING_FAQ_MY_AVATARS_TITLE": "My Avatars are not revealed yet on OpenSea. What can I do?",
+        "STEVE_AOKI_LANDING_FAQ_MY_AVATARS_DESCRIPTION": "If you are checking before they have been revealed, this is normal. If you are checking after that date, press the “Refresh Metadata” button on the top-right corner of OpenSea.",
+        "STEVE_AOKI_LANDING_FAQ_BUYING_NFT_TITLE": "Buying NFT for the first time, how can I get started?",
+        "STEVE_AOKI_LANDING_FAQ_BUYING_NFT_DESCRIPTION": "The process is quite simple. You need to ensure that you have:  \n - Created an account on The Sandbox. \n - Ensure you have both the correct amount of SAND to mint the number of avatars you want and some ETH to cover the gas fees. \n - Log into your account and head over to the mint page: https://sandbox.game/en/steve-aoki/raffle/mint/ \n - Check that your wallet is properly connected and just press the Mint button to retrieve your Avatar.",
+        "STEVE_AOKI_LANDING_BRANDS_IN_THE_SANDBOX_TITLE": "Brands & IPs already in The Sandbox Metaverse",
+        "STEVE_AOKI_LANDING_QR_TITLE": "Snap. Dance. Share",
+        "STEVE_AOKI_LANDING_QR_SUBTITLE": "Scan this QR code and show us your best moves.",
+        "STEVE_AOKI_LANDING_QR_BUTTON": "Show us your best moves",
+        "STEVE_AOKI_LANDING_SANDBOX_METAVERSE_TITLE": "The sandbox metaverse",
+        "STEVE_AOKI_LANDING_SANDBOX_METAVERSE_DESCRIPTION_PRIMARY": "A decentralized Universe on the blockchain owned by the community",
+        "STEVE_AOKI_LANDING_SANDBOX_METAVERSE_DESCRIPTION_SECONDARY": "A place where your NFTs becomes alive",
+        "STEVE_AOKI_LANDING_SANDBOX_METAVERSE_BUTTON": "Create account",
+        "STEVE_AOKI_LANDING_META_TITLE": "The Sandbox Game – Steve Aoki Avatars coming to the metaverse",
+        "STEVE_AOKI_LANDING_META_DESCRIPTION": "Be Steve Aoki in the metaverse! Each avatar is a unique, hand-crafted, playable NFT avatar in The Sandbox with unique utilities giving owners the possibility to earn SAND through playing.",
+        "STEVE_AOKI_LANDING_META_KEYWORDS": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token, snoop dogg, raffle",
+        "STEVE_AOKI_LANDING_META_OG_TITLE": "The Sandbox Game – Steve Aoki Avatars coming to the metaverse",
+        "STEVE_AOKI_LANDING_META_OG_DESCRIPTION": "Be Steve Aoki in the metaverse! Each avatar is a unique, hand-crafted, playable NFT avatar in The Sandbox with unique utilities giving owners the possibility to earn SAND through playing.",
+        "STEVE_AOKI_LANDING_META_OG_URL": "https://www.sandbox.game/en/steve-aoki/",
+        "STEVE_AOKI_LANDING_META_OG_SITE_URL": "The Sandbox Game – Steve Aoki Avatars coming to the metaverse",
+        "STEVE_AOKI_LANDING_META_TWITTER_TITLE": "The Sandbox Game – Steve Aoki Avatars coming to the metaverse",
+        "STEVE_AOKI_LANDING_META_TWITTER_DESCRIPTION": "Be Steve Aoki in the metaverse! Each avatar is a unique, hand-crafted, playable NFT avatar in The Sandbox with unique utilities giving owners the possibility to earn SAND through playing.",
+        "STEVE_AOKI_LANDING_META_TWITTER_CARD": "Steve Aoki is coming to The Sandbox",
+        "STEVE_AOKI_LANDING_META_TWITTER_SITE": "@thesandboxgame",
+        "STEVE_AOKI_LANDING_META_TWITTER_CREATOR": "@thesandboxgame",
+        "STEVE_AOKI_RAFFLE_HEADER_MENU_HOME_LABEL": "Home",
+        "STEVE_AOKI_RAFFLE_HEADER_MENU_HOW_TO_MINT_LABEL": "How to mint",
+        "STEVE_AOKI_RAFFLE_HEADER_MENU_FAQ_LABEL": "FAQ",
+        "STEVE_AOKI_RAFFLE_HEADER_MENU_LOGOUT_LABEL": "Log Out",
+        "STEVE_AOKI_RAFFLE_HOW_TO_MINT_TITLE": "How to mint a steve aoki avatar",
+        "STEVE_AOKI_RAFFLE_FAQ_HOW_MANY_STEVE_AOKI_TITLE": "How many Steve Aoki Avatars are there?",
+        "STEVE_AOKI_RAFFLE_FAQ_HOW_MANY_STEVE_AOKI_DESCRIPTION": "There are a total of 3,333 Aoki Avatars that will be minted.",
+        "STEVE_AOKI_RAFFLE_FAQ_WHAT_IS_THEIR_RARITY_TITLE": "What is their rarity/tier?",
+        "STEVE_AOKI_RAFFLE_FAQ_WHAT_IS_THEIR_RARITY_DESCRIPTION": "The avatars are divided into a variety of rarity categories depending on traits. Each avatar will be unique, and generated through a random weight of traits which affect the visual look&feel. In addition there will be multiple unique 1/1 NFTs.",
+        "STEVE_AOKI_RAFFLE_FAQ_WHERE_DO_I_HAVE_TO_GO_TITLE": "Where do I have to go to claim the Avatars?",
+        "STEVE_AOKI_RAFFLE_FAQ_WHERE_DO_I_HAVE_TO_GO_DESCRIPTION": "There is only one place where you can mint the Avatars: \n https://sandbox.game/en/steve-aoki/raffle/mint/",
+        "STEVE_AOKI_RAFFLE_FAQ_AT_WHAT_TIME_TITLE": "At what time does the sale start?",
+        "STEVE_AOKI_RAFFLE_FAQ_AT_WHAT_TIME_DESCRIPTION": "The sale will start on July 19, 2022, 2PM UTC. \n Whitelisted users will have access 24 hours before.",
+        "STEVE_AOKI_RAFFLE_FAQ_HOW_MUCH_SHOULD_I_TITLE": "How much should I expect to pay for one Steve Aoki Avatar NFT?",
+        "STEVE_AOKI_RAFFLE_FAQ_HOW_MUCH_SHOULD_I_DESCRIPTION": "One Avatar NFT will cost {sandAmount} SAND.",
+        "STEVE_AOKI_RAFFLE_FAQ_HOW_MANY_CAN_I_MINT_TITLE": "How many Avatars can I mint per wallet address?",
+        "STEVE_AOKI_RAFFLE_FAQ_HOW_MANY_CAN_I_MINT_DESCRIPTION": "The Aoki Avatars will be released in two waves: \n 1) Whitelisted users will have a chance to mint up to two avatars per wallet, within a 24 hours timeframe. \n 2) When the public release is live, users will have the chance to mint up to four avatars per wallet.",
+        "STEVE_AOKI_RAFFLE_FAQ_WHEN_CAN_I_DISCOVER_TITLE": "How can I see my avatar?",
+        "STEVE_AOKI_RAFFLE_FAQ_WHEN_CAN_I_DISCOVER_DESCRIPTION": "The Steve Aoki Avatars will be revealed 48 hours after minting on OpenSea.",
+        "STEVE_AOKI_RAFFLE_FAQ_CAN_I_MINT_USING_TITLE": "Can I mint using any wallet?",
+        "STEVE_AOKI_RAFFLE_FAQ_CAN_I_MINT_USING_DESCRIPTION": "Yes, you can mint with whatever wallet you have.",
+        "STEVE_AOKI_RAFFLE_FAQ_WHAT_CAN_I_DO_TITLE": "What can I do with the Avatars?",
+        "STEVE_AOKI_RAFFLE_FAQ_WHAT_WHAT_CAN_I_DO_DESCRIPTION": "Each Avatar will be playable inside The Sandbox in all the multiplayer experiences to come starting from the Sandbox Alpha Season 3. We will also introduce unique Play&Earn opportunites for avatar holders, giving any holder the opportunity to earn SAND through gameplay.",
+        "STEVE_AOKI_RAFFLE_FAQ_HOW_CAN_I_USE_TITLE": "How can I use my Avatar inside The Sandbox?",
+        "STEVE_AOKI_RAFFLE_FAQ_HOW_CAN_I_USE_DESCRIPTION": "You will be able to use it as an Avatar by simply selecting it in the Avatar Manager in The Sandbox dashboard once it has been enabled.",
+        "STEVE_AOKI_RAFFLE_FAQ_WHERE_CAN_I_BUY_TITLE": "Where can I buy a Steve Aoki avatar after the initial sale is over?",
+        "STEVE_AOKI_RAFFLE_FAQ_WHERE_CAN_I_BUY_DESCRIPTION": "After the initial sale is over, you will be able to purchase as many avatars as you like from users that are willing to sell theirs on the secondary marketplace Opensea",
+        "STEVE_AOKI_RAFFLE_FAQ_HOW_DO_I_GET_WHITELISTED_TITLE": "How do I get whitelisted?",
+        "STEVE_AOKI_RAFFLE_FAQ_HOW_DO_I_GET_WHITELISTED_DESCRIPTION": "If you hold one of the NFT listed below, 24 hours before the minting starts, you will have early access to mint your Aoki Avatar: \n - XXXXXXX \n - XXXXXX \n - XXXXX \n - XXXXXX \n Winning one of our Twitter contests can also give you early access to mint your NFT.",
+        "STEVE_AOKI_RAFFLE_FAQ_HOW_DO_I_KNOW_IF_TITLE": "How do I know if I’m whitelisted?",
+        "STEVE_AOKI_RAFFLE_FAQ_HOW_DO_I_KNOW_IF_DESCRIPTION": "If you hold an NFT of the above collection, you will be able to mint, as long as you hold the NFT in the wallet with which you are whitelisted, and connected on the minting page.",
+        "STEVE_AOKI_RAFFLE_FAQ_MY_AVATARS_TITLE": "My Avatars are not revealed yet on OpenSea. What can I do?",
+        "STEVE_AOKI_RAFFLE_FAQ_MY_AVATARS_DESCRIPTION": "If you are checking before they have been revealed, this is normal. If you are checking after that date, press the “Refresh Metadata” button on the top-right corner of OpenSea.",
+        "STEVE_AOKI_RAFFLE_FAQ_BUYING_NFT_TITLE": "Buying NFT for the first time, how can I get started?",
+        "STEVE_AOKI_RAFFLE_FAQ_BUYING_NFT_DESCRIPTION": "The process is quite simple. You need to ensure that you have:  \n - Created an account on The Sandbox. \n - Ensure you have both the correct amount of SAND to mint the number of avatars you want and some ETH to cover the gas fees. \n - Log into your account and head over to the mint page: https://sandbox.game/en/steve-aoki/raffle/mint/ \n -Check that your wallet is properly connected and just press the Mint button to retrieve your Avatar.",
+        "STEVE_AOKI_RAFFLE_META_TITLE": "The Sandbox Game – Steve Aoki Avatars coming to the metaverse",
+        "STEVE_AOKI_RAFFLE_META_DESCRIPTION": "Be Steve Aoki in the metaverse! Each avatar is a unique, hand-crafted, playable NFT avatar in The Sandbox with unique utilities giving owners the possibility to earn SAND through playing.",
+        "STEVE_AOKI_RAFFLE_META_KEYWORDS": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token, snoop dogg, raffle",
+        "STEVE_AOKI_RAFFLE_META_OG_TITLE": "The Sandbox Game – Steve Aoki Avatars coming to the metaverse",
+        "STEVE_AOKI_RAFFLE_META_OG_DESCRIPTION": "Be Steve Aoki in the metaverse! Each avatar is a unique, hand-crafted, playable NFT avatar in The Sandbox with unique utilities giving owners the possibility to earn SAND through playing.",
+        "STEVE_AOKI_RAFFLE_META_OG_URL": "https://www.sandbox.game/en/steve-aoki/",
+        "STEVE_AOKI_RAFFLE_META_OG_SITE_URL": "The Sandbox Game – Steve Aoki Avatars coming to the metaverse",
+        "STEVE_AOKI_RAFFLE_META_TWITTER_TITLE": "The Sandbox Game – Steve Aoki Avatars coming to the metaverse",
+        "STEVE_AOKI_RAFFLE_META_TWITTER_DESCRIPTION": "Be Steve Aoki in the metaverse! Each avatar is a unique, hand-crafted, playable NFT avatar in The Sandbox with unique utilities giving owners the possibility to earn SAND through playing.",
+        "STEVE_AOKI_RAFFLE_META_TWITTER_CARD": "Steve Aoki is coming to The Sandbox",
+        "STEVE_AOKI_RAFFLE_META_TWITTER_SITE": "@thesandboxgame",
+        "STEVE_AOKI_RAFFLE_META_TWITTER_CREATOR": "@thesandboxgame",
+        "COMMON_BRANDS_IN_THE_SANDBOX_TITLE": "Brands & IPs already in The Sandbox Metaverse"
     },
     "partners": {
         "meta": {
-            "title": "",
-            "description": "",
-            "keywords": "",
+            "title": "The Sandbox partnership",
+            "description": "The Sandbox offers a unique way to create, assemble and share 3D voxel models. Make your own 3D voxel objects, animate them, and publish/sell them in our worldwide marketplace, for free!",
+            "keywords": "sandbox, create, create voxel art, 3D voxel game, voxel artists, voxel game art, voxel market, blockchain dapp, PC voxel game, PC voxel art",
             "og": {
-                "title": "",
-                "description": "",
-                "url": "",
-                "site_name": "",
-                "image": ""
+                "title": "The Sandbox | Create, Animate, Publish and Sell 3D Voxel objects",
+                "description": "The Sandbox offers a unique way to create, assemble and share 3D voxel models. Make 3D voxel objects, animate them, and publish/sell them in our worldwide marketplace.",
+                "url": "https://sandbox.game/create/",
+                "site_name": "The Sandbox",
+                "image": "https://www.sandbox.game/media/The-Sandbox-VoxEdit-Character-Preview.gif"
             },
             "twitter": {
-                "title": "",
-                "description": "",
-                "card": "",
-                "site": "",
-                "creator": "",
-                "image": ""
+                "title": "The Sandbox | Create, Animate, Publish and Sell 3D Voxel objects",
+                "description": "The Sandbox offers a unique way to create, assemble and share 3D voxel models. Make your own 3D voxel objects, animate them, and publish/sell them in our worldwide marketplace.",
+                "card": "Create in a Decentralized Gaming Ecosystem.",
+                "site": "@thesandboxgame",
+                "creator": "@thesandboxgame",
+                "image": "https://www.sandbox.game/media/The-Sandbox-VoxEdit-Character-Preview.gif"
             }
         },
         "journey": {
-            "title": "",
-            "desc": "",
-            "desc1": "",
-            "desc2": "",
-            "button": ""
+            "title": "Let’s build the open Metaverse together",
+            "desc": "Everyone is welcome inside The Sandbox : brands, studios, independent creators, you are all part of our ecosystem. As we are all different, you all have different needs and we are here to help you get into our world.",
+            "desc1": "You want to partner with The Sandbox?",
+            "desc2": "Have a look at our opportunities",
+            "button": "Join now"
         },
         "community": {
-            "title": "",
-            "desc": "",
+            "title": "Join a community where worlds are merging",
+            "desc": "See for yourself how our partners have entered the metaverse",
             "cards": {
                 "1": {
-                    "desc": "",
-                    "name": "",
-                    "owner": ""
+                    "desc": "One of the easier tool to create animations in voxel art, with an attractive and a very simple easy-to-use interface for beginners.",
+                    "name": "Snoop Dogg",
+                    "owner": "IP Owner"
                 },
                 "2": {
-                    "desc": "",
-                    "name": "",
-                    "owner": ""
+                    "desc": "One of the easier tool to create animations in voxel art, with an attractive and a very simple easy-to-use interface for beginners.",
+                    "name": "The Smurfs",
+                    "owner": "IP Owner"
                 },
                 "3": {
-                    "desc": "",
-                    "name": "",
-                    "owner": ""
+                    "desc": "One of the easier tool to create animations in voxel art, with an attractive and a very simple easy-to-use interface for beginners.",
+                    "name": "Care Bears",
+                    "owner": "IP Owner"
                 }
             }
         },
         "build": {
-            "title": "",
-            "desc1": "",
-            "desc2": "",
-            "button": ""
+            "title": "Let’s build the open Metaverse together",
+            "desc1": "Everyone is welcome inside The Sandbox : brands, studios, independent creators, you are all part of our ecosystem.",
+            "desc2": "As we are all different, you all have different needs and we are here to help you get into our world",
+            "button": "Join now"
         },
         "partnership": {
-            "title": "",
-            "button": "",
+            "title": "The Sandbox is a place for any kind of partnerships",
+            "button": "Join us now",
             "cards": {
                 "1": {
-                    "title": "",
-                    "desc": "",
-                    "button": ""
+                    "title": "IPs and brands",
+                    "desc": "You have a brand and you are wondering how you can enter The Sandbox? You are at the right place, we will help you develop your brand image into our ecosystem.",
+                    "button": "Enter now"
                 },
                 "2": {
-                    "title": "",
-                    "desc": "",
-                    "button": ""
+                    "title": "Metaverse agencies",
+                    "desc": "You are advising clients to design their web3 strategy and you consider partnering with The Sandbox. We have room for you as well.",
+                    "button": "Join the Metaverse"
                 },
                 "3": {
-                    "title": "",
-                    "desc": "",
-                    "button": ""
+                    "title": "Independent studios",
+                    "desc": "You are a gaming studio and you want to develop your own concept inside our voxel world, contact us so we can help you develop your genuine experience.",
+                    "button": "Develop now"
                 }
             }
         },
         "whypartner": {
-            "title": "",
+            "title": "Why partner with us ?",
             "blocks": {
                 "1": {
-                    "title": "",
-                    "subtitle": "",
-                    "desc1": "",
-                    "desc2": ""
+                    "title": "+3 million and growing everyday",
+                    "subtitle": "Wallet registered",
+                    "desc1": "We have already gathered a strongly involved community, ready to jump on any interesting experiences.",
+                    "desc2": "Our idea has always been to make sure the final end user is able to live the most out of each projects."
                 },
                 "2": {
-                    "title": "",
-                    "subtitle": "",
-                    "desc1": "",
-                    "desc2": "",
-                    "desc3": ""
+                    "title": "Access",
+                    "subtitle": "For all",
+                    "desc1": "Partnering with The Sandbox is not only a way to join one of the biggest metaverse in the world, it is also a true standpoint for accessibility.",
+                    "desc2": "Everyone, from a powerful gaming computer to a mobile device, will be able to access our plateform.",
+                    "desc3": "Our quest toward interoperability also will help our community and the overall market mege worlds all together."
                 },
                 "3": {
-                    "title": "",
-                    "subtitle": "",
-                    "desc1": "",
-                    "desc2": ""
+                    "title": "200+ brands",
+                    "subtitle": "Already involved",
+                    "desc1": "Our unique identity and our plan to market have already helped more than 200 brands to get into our space and develop their own world. When you join The Sandbox, you also join Gucci, Adidas, Snoop Dogg, Ubisoft and much more…",
+                    "desc2": "Jump in and create your own voxelised world! Be part of the amazing ecosystem where brands create out of this world experiences for the pleasure and growth of their community."
                 }
             }
         },
         "howpartner": {
-            "title": "",
-            "seecollection": "",
-            "createdby": "",
+            "title": "How partners developed their own world…",
+            "seecollection": "See Collection",
+            "createdby": "Created by",
             "block": {
                 "1": {
-                    "title": "",
-                    "desc": ""
+                    "title": "Care Bears",
+                    "desc": "Care Bears and The Sandbox partnered up to bring a selection of unique and colorful NFTs to the world..."
                 },
                 "2": {
-                    "title": "",
-                    "desc": ""
+                    "title": "Snoop Dogg",
+                    "desc": "Snoop Dogg and The Sandbox partnered up to bring a selection of unique and colorful NFTs to the world..."
                 },
                 "3": {
-                    "title": "",
-                    "desc": ""
+                    "title": "The Walking Dead",
+                    "desc": "The Walking Dead and The Sandbox partnered up to bring a selection of unique and colorful NFTs to the world..."
                 },
                 "4": {
-                    "title": "",
-                    "desc": ""
+                    "title": "Deadmau5",
+                    "desc": "Deadmau5 and The Sandbox partnered up to bring a selection of unique and colorful NFTs to the world..."
                 },
                 "5": {
-                    "title": "",
-                    "desc": ""
+                    "title": "The Smurfs",
+                    "desc": "The Smurfs and The Sandbox partnered up to bring a selection of unique and colorful NFTs to the world..."
                 }
             }
         },
         "createdunique": {
-            "title": "",
-            "desc": "",
-            "button": "",
-            "createdby": "",
+            "title": "And created unique experiences!",
+            "desc": "Entering The Sandbox means you craft your own universe where communities will navigate and discover your brand and enjoy a truly unique experience in a voxel world. From building houses and cities, to cat walking during fashion shows and defeating dragons and monsters, you are free to offer the experience you dream of.",
+            "button": "Join us now",
+            "createdby": "Created by",
             "blocks": {
                 "1": {
-                    "title": "",
-                    "desc": "",
-                    "screen": ""
+                    "title": "Fashion",
+                    "desc": "Virtual cat-walking is now a thing. Come join us to experience a new way to consider fashion, to own virtual assets from worldwide digital brands and access a brand new ecosystem.",
+                    "screen": "Alpha Lobby"
                 },
                 "2": {
-                    "title": "",
-                    "desc": "",
-                    "screen": ""
+                    "title": "Gaming",
+                    "desc": "The Sandbox metaverse draws its roots from a deep gaming culture, where the fun is a whole part of the show. Enter our universe to build your own and dive into a voxel world where anything is possible.",
+                    "screen": "Forest"
                 },
                 "3": {
-                    "title": "",
-                    "desc": "",
-                    "screen": ""
+                    "title": "Lifestyle",
+                    "desc": "Chilling by the pool with some friends sounds cool? The metaverse can help you deliver a social experience as you would in real life, without limiting yourself with physical hurdles. The metaverse is a place where you can do whatever you want, embody an avatar, visit, shop and play.",
+                    "screen": "Modern House"
                 },
                 "4": {
-                    "title": "",
-                    "desc": "",
-                    "screen": ""
+                    "title": "Sports",
+                    "desc": "Playing soccer, supporting your favorite club, watching tennis matches etc… this is all possible in the voxel world. The Sandbox translates the physical experience in a new way to embody our favorite disciplines",
+                    "screen": "Race Maze"
                 },
                 "5": {
-                    "title": "",
-                    "desc": "",
-                    "screen": ""
+                    "title": "Music",
+                    "desc": "From LA to The Sandbox, there is only one step, and Snoop Dogg understood this. The Sandbox is about delivering a new viewer experience during concerts and live performance. Enabling broader access to everyone, interacting with the crowd, through their avatars. Fans are now complete part of the deal.",
+                    "screen": "Climbing madness"
                 }
             }
         },
         "realworld": {
-            "title": "",
+            "title": "An extension of Real-World Experiences",
             "blocks": {
-                "1": "",
-                "2": "",
-                "3": "",
-                "4": "",
-                "5": "",
-                "6": "",
-                "7": "",
-                "8": "",
-                "9": "",
-                "10": ""
+                "1": "Real Estate & Home Related",
+                "2": "Music, Concerts & Streaming",
+                "3": "Fashion & Apparel",
+                "4": "Art & Museums",
+                "5": "Professional interactions",
+                "6": "Shopping",
+                "7": "Social & Dating",
+                "8": "Automotive",
+                "9": "Video Games",
+                "10": "Sports"
             }
+        }
+    },
+    "externalCollections": {
+        "name": "アバター",
+        "sidebar": "アバター",
+        "explore": "外部コレクションを探索する",
+        "exploreLands": "Lands＆Estatesを探索する",
+        "exploreLatest": "最新のドロップを探索する",
+        "total": " コレクション内のアセット",
+        "header": {
+            "title": "サンドボックスアバター",
+            "description": "プロフィール写真を次のレベルに引き上げます。 これで、お気に入りのアバターを選択して、サンドボックスメタバースを探索できます。",
+            "description2": " ウォレットを接続して、外部アバターを所有しているかどうかを確認します。",
+            "info": "コレクション情報",
+            "owners": "所有者",
+            "assets": "資産",
+            "link": "パブリックリンク",
+            "created": "によって作成された",
+            "assetscard": "資産",
+            "bycard": "に"
         }
     }
 }
