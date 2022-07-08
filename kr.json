@@ -221,7 +221,7 @@
         "failedTryAgain": "오류가 발생했습니다. 잠시 후 다시 시도해 주세요.",
         "search_name": "이름으로 검색",
         "options_selected": "{count}개 옵션 선택됨",
-        "savedChanges": "Saved!"
+        "savedChanges": "저장되었습니다!"
     },
     "layout": {
         "topbar": {
@@ -1686,7 +1686,7 @@
         },
         "filters": {
             "all": "전체",
-            "sale": "Latest Drops",
+            "sale": "신규 애셋",
             "notSale": "판매 안 함"
         },
         "sorts": {
@@ -1982,9 +1982,9 @@
             "models": {
                 "title": "직접 복스 모델 만들기",
                 "cards": {
-                    "1": "모델을 업로드하려면 크리에이터 펀드를 통해 아티스트가 되어야 합니다.",
-                    "2": "복스에딧은 더 샌드박스 마켓플레이스로 애셋을 내보낼 수 있는 유일한 소프트웨어입니다. 복스에딧을 다운로드하여 창작을 시작해 보세요.",
-                    "3": "모델을 만들었으면 간단한 단계를 거쳐 마켓플레이스로 내보내세요."
+                    "1": "이제 나도 크리에이터! 혼자 애셋을 창작해 보거나 크리에이터 펀드에 지원하세요.",
+                    "2": "마켓플레이스로 내 애셋을 내보내려면 복스에딧을 이용해야 합니다. 지금 바로 다운로드하고 창작을 시작해 보세요.",
+                    "3": "모델을 완성했다면 간단한 절차를 거쳐 마켓플레이스로 내보낼 수 있습니다."
                 },
                 "link": "더 알아보기",
                 "buttonText": "복스에딧 다운로드"
@@ -1994,15 +1994,15 @@
                 "cards": {
                     "1": {
                         "title": "모델러",
-                        "description": "창의력을 마음껏 발휘해 보세요. 탁월한 도구와 쉽게 사용할 수 있는 인터페이스 덕분에 초보자와 전문가는 물론, 누구나 질 좋은 창작물을 만들 수 있습니다."
+                        "description": "창의력을 마음껏 뽐내 보세요! 초보자부터 전문가까지, 멋진 툴과 간편한 인터페이스로 누구나 끝내주는 작품을 만들 수 있습니다."
                     },
                     "2": {
                         "title": "애니메이터",
-                        "description": "복셀 창작의 판도를 바꾼 도구입니다. 당사의 스켈레턴 시스템을 채용한 복스에딧에서는, 사용하기 쉬운 키프레이밍 모드를 통해 타임라인을 사용하여 무엇이든 자유롭게 조작하고 애니메이션을 적용할 수 있습니다."
+                        "description": "복셀 창작의 세계에서 이보다 획기적인 도구는 없었습니다. 스켈레톤 시스템과 손쉬운 키프레이밍 모드로 무엇이든 리깅하고 애니메이팅해 보세요."
                     },
                     "3": {
                         "title": "NFT 메이커",
-                        "description": "더 샌드박스의 마켓플레이스에서 복스에딧 애셋을 판매하고 거래하고 구매하면서 창작물로 수익을 창출하세요. 거래 수익금의 95%가 크리에이터에게 돌아갑니다."
+                        "description": "더 샌드박스 마켓플레이스에서 복스에딧으로 제작한 애셋을 판매, 거래, 구매하여 수익을 창출하세요. 거래 수익금의 95%는 크리에이터에게 돌아갑니다!"
                     }
                 }
             },
@@ -2098,7 +2098,7 @@
                 },
                 "title1": "만들어 봐요",
                 "title2": "나만의 아바타",
-                "description1": "프로필 사진을 한층 더 새롭게 꾸며보세요. 이제 마음에 드는\n아바타를 선택하여 더 샌드박스 메타버스를 탐험할 수 있습니다.",
+                "description1": "프로필 사진을 한층 더 새롭게 꾸며보세요. 이제 마음에 드는 아바타를 선택하여 더 샌드박스 메타버스를 탐험할 수 있습니다.",
                 "description2": "지갑을 연결하여 외부 아바타가 있는지 확인해 보세요.",
                 "button": "지갑 연결하기"
             },
@@ -3371,7 +3371,7 @@
                 "removing": "능력치가 모두 삭제됩니다.",
                 "wishToContinue": " 계속하시겠어요?",
                 "invalidAndMaxed": "수량이 잘못되었습니다. 사용 가능한 최대 수량을 사용합니다.",
-                "requiredTokens": "To continue minting you need the following tokens:"
+                "requiredTokens": "민팅을 계속하려면 다음의 토큰이 필요합니다:"
             },
             "search": "검색...",
             "preview": "미리 보기",
@@ -3617,7 +3617,7 @@
             "errors": {
                 "titwordMismatches": "유저네임 또는 비밀번호가 일치하지 않습니다",
                 "userPasswordMismatches": "유저네임 또는 비밀번호가 일치하지 않습니다",
-                "venlyConnectionError": "Something went wrong. Make sure you have pop-ups enabled on your browser, reload and try again."
+                "venlyConnectionError": "문제가 발생했습니다. 브라우저에서 팝업창을 허용했는지 확인 후, 페이지를 새로고침한 뒤 다시 시도해 보세요."
             }
         },
         "forgotModal": {
@@ -5401,7 +5401,7 @@
                 "paragraph1": "스눕 독(Snoop Dogg)이 더 샌드박스 안에 저택을 건설하고 있습니다. 그리고 여러분을 파티에 초대했습니다!",
                 "paragraph2": "공놀이를 하고 영화도 보고 수영장 근처에서 편히 휴식을 취해보세요.",
                 "paragraph3": "스눕 독의 맨션에 방문하여 Doggfather의 NFT를 확인해 보세요.",
-                "mintNow": "Mint yours now!"
+                "mintNow": "아바타 민팅하기"
             },
             "loginVIP": {
                 "title": "VIP 파티 패스",
@@ -5598,7 +5598,7 @@
                 "title2": "아바타 10,000개",
                 "description1": "그 어디에서도 찾아볼 수 없었던, 하나하나 수작업으로 제작되고 플레이까지 가능한 더 도기즈가 더 샌드박스를 찾아옵니다.",
                 "description2": "Doggfather 스눕독의 손에서 탄생한 도기즈를 만나보세요.",
-                "button": "지금 민팅하세요!",
+                "button": "아바타 민팅하기",
                 "definitions": {
                     "title1": "더 도기즈란",
                     "title2": "무엇인가요?",
@@ -6377,7 +6377,7 @@
                 }
             }
         },
-        "howToMint": "How to mint an avatar?"
+        "howToMint": "어떻게 아바타를 민팅할 수 있나요?"
     },
     "modelViewer": {
         "view3D": "3D 보기",
@@ -8128,7 +8128,7 @@
         "explore": "외부 컬렉션 탐색",
         "total": " 컬렉션의 자산",
         "exploreLands": "LAND와 이스테이트 탐험하기",
-        "exploreLatest": "최신 NFT 드롭 살펴보기"
+        "exploreLatest": "모든 애셋 살펴보기"
     },
     "alpha3": {
         "contest": {
@@ -8550,9 +8550,9 @@
             },
             "redirectToUpload": "업로드 페이지로 리다이렉팅",
             "users": {
-                "fail": "",
-                "home": "",
-                "account": ""
+                "fail": "업로드하려는 계정과 복스에딧에 로그인된 계정이 다릅니다",
+                "home": "홈으로 돌아가기",
+                "account": "다른 계정으로 로그인"
             }
         },
         "experiences": {
@@ -8562,7 +8562,7 @@
     "strapi": {
         "POC_LANDING_MINT_AVATAR_TITLE": "메타버스에서 내 모습 표현하기",
         "POC_LANDING_MINT_AVATAR_DESCRIPTION": "POC 아바타는 더 샌드박스에서 완벽히 플레이 가능하며, 보유자는 아바타를 통해 본인의 성적 지향성 및 본인을 대표하는 모습을 나타낼 수 있습니다. 원하는 모습을 직접 선택하세요!",
-        "POC_LANDING_MINT_AVATAR_BUTTON": "내 아바타 민팅하기",
+        "POC_LANDING_MINT_AVATAR_BUTTON": "아바타 민팅하기",
         "POC_LANDING_HEADER_MENU_HOME_LABEL": "홈",
         "POC_LANDING_HEADER_MENU_UNIQUE_AVATARS_LABEL": "다양한 아바타",
         "POC_LANDING_HEADER_MENU_PEOPLE_OF_CRYPTO_LABEL": "People Of Crypto",
@@ -8598,7 +8598,7 @@
         "POC_LANDING_FAQ_WHAT_IS_THEIR_RARITY_TITLE": "희귀도/등급은 어떻게 되나요?",
         "POC_LANDING_FAQ_WHAT_IS_THEIR_RARITY_DESCRIPTION": "POC 아바타는 특성에 따라 다양한 희귀도로 분류됩니다. 수천 개의 독특한 아바타뿐만 아니라 수작업으로 직접 만든 1/1 아바타도 여러 개 존재합니다.",
         "POC_LANDING_FAQ_WHERE_DO_I_HAVE_TO_GO_TITLE": "아바타를 획득하려면 어디로 가야 하나요?",
-        "POC_LANDING_FAQ_WHERE_DO_I_HAVE_TO_GO_DESCRIPTION": "아바타 민팅은 오직 다음 경로에서만 가능합니다:\n https://sandbox.game/en/people-of-crypto/raffle/mint/",
+        "POC_LANDING_FAQ_WHERE_DO_I_HAVE_TO_GO_DESCRIPTION": "아바타 민팅은 다음 경로에서만 가능합니다:\n https://sandbox.game/en/people-of-crypto/raffle/mint/",
         "POC_LANDING_FAQ_AT_WHAT_TIME_TITLE": "판매는 언제 시작하나요?",
         "POC_LANDING_FAQ_AT_WHAT_TIME_DESCRIPTION": "판매는 2022년 6월 21일 오후 4시(KST)에 시작됩니다.\n웰컴리스트 유저는 24시간 먼저 아바타를 구매할 수 있습니다.",
         "POC_LANDING_FAQ_HOW_MUCH_SHOULD_I_TITLE": "People of Crypto NFT 1개는 대략 얼마인가요?",
@@ -8705,134 +8705,134 @@
         "POC_RAFFLE_META_TWITTER_CARD": "더 샌드박스 게임 - 추첨 페이지",
         "POC_RAFFLE_META_TWITTER_SITE": "@thesandboxgame",
         "POC_RAFFLE_META_TWITTER_CREATOR": "@thesandboxgame",
-        "STEVE_AOKI_LANDING_HEADER_MENU_HOME_LABEL": "Home",
-        "STEVE_AOKI_LANDING_HEADER_MENU_UNIQUE_AVATARS_LABEL": "Unique avatars",
-        "STEVE_AOKI_LANDING_HEADER_MENU_STEVE_AOKI_LABEL": "Steve aoki",
-        "STEVE_AOKI_LANDING_HEADER_MENU_MINT_YOUR_AVATAR_LABEL": "Mint your avatar",
-        "STEVE_AOKI_LANDING_HEADER_MENU_BUY_NOW_LABEL": "Buy now",
-        "STEVE_AOKI_LANDING_INTRO_TITLE": "3,333 Steve Aoki",
-        "STEVE_AOKI_LANDING_INTRO_SUBTITLE": "Metaverse avatars",
-        "STEVE_AOKI_LANDING_INTRO_DESCRIPTION": "Coming at your harder than a cake-throw, Steve Aoki is entering The Sandbox and gives anyone the opportunity to be Steve Aoki in the metaverse. Unique designs, hand-crafted and curated with one of the world’s coolest musicians.",
-        "STEVE_AOKI_LANDING_INTRO_BUTTON": "Mint yours now",
-        "STEVE_AOKI_LANDING_INTRO_START_DATE": "Launching July 18",
-        "STEVE_AOKI_LANDING_OUR_VISION_TITLE": "Be Steve",
-        "STEVE_AOKI_LANDING_OUR_VISION_DESCRIPTION_PRIMARY": "The Steve Aoki Avatars are a collection of 3,333 unique and randomly generated metaverse avatars for The Sandbox. Each avatar will be a playable avatar inside The Sandbox and unlock unique functionality and gives users the possibility to earn SAND through playing.",
-        "STEVE_AOKI_LANDING_OUR_VISION_DESCRIPTION_SECONDARY": "Become Steve Aoki and enter The Sandbox today!",
-        "STEVE_AOKI_LANDING_MINT_AVATAR_TITLE": "Mint your Steve Aoki avatar",
-        "STEVE_AOKI_LANDING_MINT_AVATAR_DESCRIPTION": "Get your unique Steve Aoki avatar for The Sandbox today and enter the metaverse.",
-        "STEVE_AOKI_LANDING_MINT_AVATAR_BUTTON": "Mint yours now!",
-        "STEVE_AOKI_LANDING_PLAY_IN_SEASON_TITLE": "Play it in Alpha",
-        "STEVE_AOKI_LANDING_PLAY_IN_SEASON_SUBTITLE": "Season 3",
-        "STEVE_AOKI_LANDING_PLAY_IN_SEASON_DESCRIPTION": "Each Avatar will be playable inside The Sandbox, starting with the upcoming Alpha Season 3. Get your Avatar, jump into the game and share your avatar with the world! In addition we will also host Steve Aoki exclusive events and Play & Earn activities for avatar holders.",
-        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TITLE": "Unlimited possibilities",
-        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_DESCRIPTION": "Each Aoki avatar has been created by randomly generating 3,333 playable metaverse avatars. Over 100 hand-crafted traits, as well as several unique 1/1 designs can be created!",
-        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_TITLE": "Unique",
-        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_SUBTITLE": "Avatars",
-        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_DESCRIPTION": "No two avatars will look alike. Discover a collection of 3,333 entirely unique looking avatars.",
-        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_TITLE": "Special",
-        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_SUBTITLE": "Design",
-        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_DESCRIPTION": "Discover multiple unique designs and exclusive 1/1 Aoki’s, which are super rare.",
-        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_TITLE": "Play and",
-        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_SUBTITLE": "Earn",
-        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_DESCRIPTION": "Use your avatar to unlock new functionality within The Sandbox, including access to experiences and possibilities to earn SAND.",
-        "STEVE_AOKI_LANDING_FAQ_HOW_MANY_STEVE_AOKI_TITLE": "How many Steve Aoki Avatars are there?",
-        "STEVE_AOKI_LANDING_FAQ_HOW_MANY_STEVE_AOKI_DESCRIPTION": "There are a total of 3,333 Aoki Avatars that will be minted.",
-        "STEVE_AOKI_LANDING_FAQ_WHAT_IS_THEIR_RARITY_TITLE": "What is their rarity/tier?",
-        "STEVE_AOKI_LANDING_FAQ_WHAT_IS_THEIR_RARITY_DESCRIPTION": "The avatars are divided into a variety of rarity categories depending on traits. Each avatar will be unique, and generated through a random weight of traits which affect the visual look&feel. In addition there will be multiple unique 1/1 NFTs.",
-        "STEVE_AOKI_LANDING_FAQ_WHERE_DO_I_HAVE_TO_GO_TITLE": "Where do I have to go to claim the Avatars?",
-        "STEVE_AOKI_LANDING_FAQ_WHERE_DO_I_HAVE_TO_GO_DESCRIPTION": "There is only one place where you can mint the Avatars: \n https://sandbox.game/en/steve-aoki/raffle/mint/",
-        "STEVE_AOKI_LANDING_FAQ_AT_WHAT_TIME_TITLE": "At what time does the sale start?",
-        "STEVE_AOKI_LANDING_FAQ_AT_WHAT_TIME_DESCRIPTION": "The sale will start on July 19, 2022, 2PM UTC. \n Whitelisted users will have access 24 hours before.",
-        "STEVE_AOKI_LANDING_FAQ_HOW_MUCH_SHOULD_I_TITLE": "How much should I expect to pay for one Steve Aoki Avatar NFT?",
-        "STEVE_AOKI_LANDING_FAQ_HOW_MUCH_SHOULD_I_DESCRIPTION": "One Avatar NFT will cost {sandAmount} SAND.",
-        "STEVE_AOKI_LANDING_FAQ_HOW_MANY_CAN_I_MINT_TITLE": "How many Avatars can I mint per wallet address?",
-        "STEVE_AOKI_LANDING_FAQ_HOW_MANY_CAN_I_MINT_DESCRIPTION": "The Aoki Avatars will be released in two waves: \n 1) Whitelisted users will have a chance to mint up to two avatars per wallet, within a 24 hours timeframe. \n 2) When the public release is live, users will have the chance to mint up to four avatars per wallet.",
-        "STEVE_AOKI_LANDING_FAQ_WHEN_CAN_I_DISCOVER_TITLE": "How can I see my avatar?",
-        "STEVE_AOKI_LANDING_FAQ_WHEN_CAN_I_DISCOVER_DESCRIPTION": "The Steve Aoki Avatars will be revealed 48 hours after minting on OpenSea.",
-        "STEVE_AOKI_LANDING_FAQ_CAN_I_MINT_USING_TITLE": "Can I mint using any wallet?",
-        "STEVE_AOKI_LANDING_FAQ_CAN_I_MINT_USING_DESCRIPTION": "Yes, you can mint with whatever wallet you have.",
-        "STEVE_AOKI_LANDING_FAQ_WHAT_CAN_I_DO_TITLE": "What can I do with the Avatars?",
-        "STEVE_AOKI_LANDING_FAQ_WHAT_WHAT_CAN_I_DO_DESCRIPTION": "Each Avatar will be playable inside The Sandbox in all the multiplayer experiences to come starting from the Sandbox Alpha Season 3. We will also introduce unique Play&Earn opportunites for avatar holders, giving any holder the opportunity to earn SAND through gameplay.",
-        "STEVE_AOKI_LANDING_FAQ_HOW_CAN_I_USE_TITLE": "How can I use my Avatar inside The Sandbox?",
-        "STEVE_AOKI_LANDING_FAQ_HOW_CAN_I_USE_DESCRIPTION": "You will be able to use it as an Avatar by simply selecting it in the Avatar Manager in The Sandbox dashboard once it has been enabled.",
-        "STEVE_AOKI_LANDING_FAQ_WHERE_CAN_I_BUY_TITLE": "Where can I buy a Steve Aoki avatar after the initial sale is over?",
-        "STEVE_AOKI_LANDING_FAQ_WHERE_CAN_I_BUY_DESCRIPTION": "After the initial sale is over, you will be able to purchase as many avatars as you like from users that are willing to sell theirs on the secondary marketplace Opensea",
-        "STEVE_AOKI_LANDING_FAQ_HOW_DO_I_GET_WHITELISTED_TITLE": "How do I get whitelisted?",
-        "STEVE_AOKI_LANDING_FAQ_HOW_DO_I_GET_WHITELISTED_DESCRIPTION": "If you hold one of the NFT listed below, 24 hours before the minting starts, you will have early access to mint your Aoki Avatar: \n - XXXXXXX \n - XXXXXX \n - XXXXX \n - XXXXXX \n Winning one of our Twitter contests can also give you early access to mint your NFT.",
-        "STEVE_AOKI_LANDING_FAQ_HOW_DO_I_KNOW_IF_TITLE": "How do I know if I’m whitelisted?",
-        "STEVE_AOKI_LANDING_FAQ_HOW_DO_I_KNOW_IF_DESCRIPTION": "If you hold an NFT of the above collection, you will be able to mint, as long as you hold the NFT in the wallet with which you are whitelisted, and connected on the minting page.",
-        "STEVE_AOKI_LANDING_FAQ_MY_AVATARS_TITLE": "My Avatars are not revealed yet on OpenSea. What can I do?",
-        "STEVE_AOKI_LANDING_FAQ_MY_AVATARS_DESCRIPTION": "If you are checking before they have been revealed, this is normal. If you are checking after that date, press the “Refresh Metadata” button on the top-right corner of OpenSea.",
-        "STEVE_AOKI_LANDING_FAQ_BUYING_NFT_TITLE": "Buying NFT for the first time, how can I get started?",
-        "STEVE_AOKI_LANDING_FAQ_BUYING_NFT_DESCRIPTION": "The process is quite simple. You need to ensure that you have:  \n - Created an account on The Sandbox. \n - Ensure you have both the correct amount of SAND to mint the number of avatars you want and some ETH to cover the gas fees. \n - Log into your account and head over to the mint page: https://sandbox.game/en/steve-aoki/raffle/mint/ \n - Check that your wallet is properly connected and just press the Mint button to retrieve your Avatar.",
-        "STEVE_AOKI_LANDING_BRANDS_IN_THE_SANDBOX_TITLE": "Brands & IPs already in The Sandbox Metaverse",
+        "STEVE_AOKI_LANDING_HEADER_MENU_HOME_LABEL": "홈",
+        "STEVE_AOKI_LANDING_HEADER_MENU_UNIQUE_AVATARS_LABEL": "고유 아바타",
+        "STEVE_AOKI_LANDING_HEADER_MENU_STEVE_AOKI_LABEL": "스티브 아오키",
+        "STEVE_AOKI_LANDING_HEADER_MENU_MINT_YOUR_AVATAR_LABEL": "아바타 민팅하기",
+        "STEVE_AOKI_LANDING_HEADER_MENU_BUY_NOW_LABEL": "지금 구매",
+        "STEVE_AOKI_LANDING_INTRO_TITLE": "3,333개의 스티브 아오키",
+        "STEVE_AOKI_LANDING_INTRO_SUBTITLE": "메타버스 아바타",
+        "STEVE_AOKI_LANDING_INTRO_DESCRIPTION": "당신에게 케이크를 던지며, 스티브 아오키가 더 샌드박스로 찾아옵니다! 이제 누구나 메타버스에서 스티브 아오키가 될 수 있습니다. 지구상에서 가장 쿨한 디제이 중 하나인 스티브 아오키를 표현한 독특한 디자인, 수작업 아바타 컬렉션을 만나보세요.",
+        "STEVE_AOKI_LANDING_INTRO_BUTTON": "아바타 민팅하기",
+        "STEVE_AOKI_LANDING_INTRO_START_DATE": "7월 18일 공개",
+        "STEVE_AOKI_LANDING_OUR_VISION_TITLE": "스티브가 되어봐요",
+        "STEVE_AOKI_LANDING_OUR_VISION_DESCRIPTION_PRIMARY": "스티브 아오키 아바타는 랜덤 생성된 3,333개의 고유한 아바타 컬렉션입니다. 각 아바타는 더 샌드박스 세상에서 플레이 가능하며 각 아바타마다 고유한 기능이 있어 게임 플레이를 통해 SAND를 획득할 수 있습니다.",
+        "STEVE_AOKI_LANDING_OUR_VISION_DESCRIPTION_SECONDARY": "스티브 아오키가 되어 지금 바로 더 샌드박스에 접속하세요!",
+        "STEVE_AOKI_LANDING_MINT_AVATAR_TITLE": "스티브 아오키 아바타 민팅",
+        "STEVE_AOKI_LANDING_MINT_AVATAR_DESCRIPTION": "나만의 스티브 아오키 아바타를 획득하고 메타버스에 접속하세요.",
+        "STEVE_AOKI_LANDING_MINT_AVATAR_BUTTON": "아바타 민팅하기",
+        "STEVE_AOKI_LANDING_PLAY_IN_SEASON_TITLE": "알파에서 플레이",
+        "STEVE_AOKI_LANDING_PLAY_IN_SEASON_SUBTITLE": "시즌 3",
+        "STEVE_AOKI_LANDING_PLAY_IN_SEASON_DESCRIPTION": "모든 아바타는 다가오는 알파 시즌 3부터 더 샌드박스에서 플레이할 수 있습니다. 아바타를 획득하여 게임에 접속해 모두에게 내 모습을 뽐내 보세요! 스티브 아오키 아바타 보유자들을 위한 전용 이벤트와 플레이 앤 언(Play&Earn) 활동 또한 놓치지 마세요.",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TITLE": "무한한 가능성",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_DESCRIPTION": "각 아오키 아바타는 랜덤으로 생성된 3,333개의 플레이 가능 메타버스 아바타입니다. 수작업으로 제작한 100개 이상의 특성과 더불어 고유한 1/1 디자인 또한 만나볼 수 있습니다.",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_TITLE": "고유",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_SUBTITLE": "아바타",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_DESCRIPTION": "모든 아바타는 각자의 개성이 있습니다. 3,333개의 아바타 컬렉션을 만나보세요",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_TITLE": "스페셜",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_SUBTITLE": "디자인",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_DESCRIPTION": "최고 희귀도의 1/1 아오키를 포함해 여러 독특한 디자인의 아바타를 만나보세요.",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_TITLE": "플레이 앤",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_SUBTITLE": "언",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_DESCRIPTION": "내 아바타를 이용해 특별한 경험에 접속하고 SAND를 획득해 보세요.",
+        "STEVE_AOKI_LANDING_FAQ_HOW_MANY_STEVE_AOKI_TITLE": "몇 개의 스티브 아오키가 존재하나요?",
+        "STEVE_AOKI_LANDING_FAQ_HOW_MANY_STEVE_AOKI_DESCRIPTION": "총 3,333개의 아오키 아바타가 민팅될 예정입니다.",
+        "STEVE_AOKI_LANDING_FAQ_WHAT_IS_THEIR_RARITY_TITLE": "희귀도/등급은 어떤가요?",
+        "STEVE_AOKI_LANDING_FAQ_WHAT_IS_THEIR_RARITY_DESCRIPTION": "아바타는 특성에 따라 다양한 희귀도로 분류됩니다. 각 아바타는 고유하며, 각기 다른 외형과 느낌에 따라 랜덤으로 특성이 부여되어 생성됩니다. 또한, 1/1 NFT 아바타도 여러 개 존재합니다.",
+        "STEVE_AOKI_LANDING_FAQ_WHERE_DO_I_HAVE_TO_GO_TITLE": "아바타는 어디에서 받을 수 있나요?",
+        "STEVE_AOKI_LANDING_FAQ_WHERE_DO_I_HAVE_TO_GO_DESCRIPTION": "아바타 민팅은 다음 경로에서만 가능합니다:\n https://sandbox.game/en/steve-aoki/raffle/mint/",
+        "STEVE_AOKI_LANDING_FAQ_AT_WHAT_TIME_TITLE": "언제부터 판매가 시작되나요?",
+        "STEVE_AOKI_LANDING_FAQ_AT_WHAT_TIME_DESCRIPTION": "판매는 2022년 7월 19일 오후 11시(KST)에 시작됩니다.\n화이스리스트 유저는 24시간 먼저 아바타를 구매할 수 있습니다.",
+        "STEVE_AOKI_LANDING_FAQ_HOW_MUCH_SHOULD_I_TITLE": "스티브 아오키 아바타 NFT 1개는 대략 얼마인가요?",
+        "STEVE_AOKI_LANDING_FAQ_HOW_MUCH_SHOULD_I_DESCRIPTION": "아바타 NFT 1개는 {sandAmount} SAND입니다.",
+        "STEVE_AOKI_LANDING_FAQ_HOW_MANY_CAN_I_MINT_TITLE": "지갑 주소 1개당 몇 개의 아바타를 민팅할 수 있나요?",
+        "STEVE_AOKI_LANDING_FAQ_HOW_MANY_CAN_I_MINT_DESCRIPTION": "스티브 아오키 아바타는 두 번에 걸쳐 공개됩니다.\n 1) 화이트리스트에 등록된 유저는 24시간 동안 최대 두 개의 아바타를 민팅할 수 있습니다. \n 2) 아바타가 전체 공개되면 각 유저는 최대 네 개의 아바타를 민팅할 수 있습니다.",
+        "STEVE_AOKI_LANDING_FAQ_WHEN_CAN_I_DISCOVER_TITLE": "어떻게 내 아바타를 확인할 수 있나요?",
+        "STEVE_AOKI_LANDING_FAQ_WHEN_CAN_I_DISCOVER_DESCRIPTION": "스티브 아오키 아바타는 오픈시 민팅 48시간 이후에 공개됩니다.",
+        "STEVE_AOKI_LANDING_FAQ_CAN_I_MINT_USING_TITLE": "민팅에는 지갑 종류 제한이 없나요?",
+        "STEVE_AOKI_LANDING_FAQ_CAN_I_MINT_USING_DESCRIPTION": "네, 지갑의 종류는 상관없습니다.",
+        "STEVE_AOKI_LANDING_FAQ_WHAT_CAN_I_DO_TITLE": "아바타로 무엇을 할 수 있나요?",
+        "STEVE_AOKI_LANDING_FAQ_WHAT_WHAT_CAN_I_DO_DESCRIPTION": "모든 아바타는 다가오는 알파 시즌 3부터 더 샌드박스에서 플레이할 수 있습니다.  아바타 보유자 전용 플레이 앤 언(Play&Earn)의 기회도 마련되어 있으므로, 아바타를 구해하고 게임 플레이를 통해 SAND를 획득해 보세요.",
+        "STEVE_AOKI_LANDING_FAQ_HOW_CAN_I_USE_TITLE": "더 샌드박스에서 어떻게 내 아바타를 사용할 수 있나요?",
+        "STEVE_AOKI_LANDING_FAQ_HOW_CAN_I_USE_DESCRIPTION": "더 샌드박스 대시보드의 아바타 관리자에서 해당 아바타를 선택하기만 하면 바로 사용할 수 있습니다.",
+        "STEVE_AOKI_LANDING_FAQ_WHERE_CAN_I_BUY_TITLE": "첫 세일 종료 이후에는 어디서 스티브 아오키 아바타를 구매할 수 있나요?",
+        "STEVE_AOKI_LANDING_FAQ_WHERE_CAN_I_BUY_DESCRIPTION": "최초 판매가 종료되면, 오픈시(OpenSea) 등의 2차 마켓에서 보유한 아바타를 판매하려는 유저들로부터 아바타를 구매할 수 있습니다.",
+        "STEVE_AOKI_LANDING_FAQ_HOW_DO_I_GET_WHITELISTED_TITLE": "화이트리스트에 추가되려면 어떻게 해야 하나요?",
+        "STEVE_AOKI_LANDING_FAQ_HOW_DO_I_GET_WHITELISTED_DESCRIPTION": "아래 목록의 NFT 중 하나를 보유하고 있을 경우, 민팅 시작 24시간 전 아오키 아바타를 먼저 민팅할 기회가 주어집니다.\n- XXXXXXX\n- XXXXXX\n- XXXXX\n- XXXXXX\n위 NFT 중 어느 것도 보유하고 있지 않을 경우, 트위터 콘테스트에 참여하여 당첨되면 NFT 얼리 액세스 민팅 기회를 획득할 수 있습니다.",
+        "STEVE_AOKI_LANDING_FAQ_HOW_DO_I_KNOW_IF_TITLE": "내가 화이트리스트에 추가되었는지 어떻게 알 수 있나요?",
+        "STEVE_AOKI_LANDING_FAQ_HOW_DO_I_KNOW_IF_DESCRIPTION": "민팅 페이지와 연결된 지갑에 위 컬렉션의 NFT 중 하나를 보유하고 있을 경우 화이트리스트에 추가되며 민팅을 진행할 수 있습니다.",
+        "STEVE_AOKI_LANDING_FAQ_MY_AVATARS_TITLE": "내 아바타가 오픈시에 공개되지 않았습니다. 어떻게 해야 하나요?",
+        "STEVE_AOKI_LANDING_FAQ_MY_AVATARS_DESCRIPTION": "공개 이전에 확인했다면 이는 정상적인 편상입니다. 해당 시점 이후라면 오픈시 페이지 우측 상단의 'Refresh Metadata'(메타데이터 새로고침)를 클릭하세요.",
+        "STEVE_AOKI_LANDING_FAQ_BUYING_NFT_TITLE": "NFT를 처음 구매합니다. 어떻게 하면 되나요?",
+        "STEVE_AOKI_LANDING_FAQ_BUYING_NFT_DESCRIPTION": "절차는 간단합니다. 아래 내용을 참고하세요.  \n - 더 샌드박스에서 계정을 생성합니다.\n - 원하는 아바타 개수를 민팅할 수 있는 SAND와 가스비로 사용될 ETH가 충분한지 확인합니다.\n - 계정에 로그인하고 민팅 페이지로 이동합니다:\nhttps://sandbox.game/en/steve-aoki/raffle/mint/\n - 지갑이 올바르게 연결되었는지 확인 후 민팅하기(Mint) 버튼을 클릭합니다.",
+        "STEVE_AOKI_LANDING_BRANDS_IN_THE_SANDBOX_TITLE": "더 샌드박스 메타버스와 함께하는 브랜드&IP",
         "STEVE_AOKI_LANDING_QR_TITLE": "Snap. Dance. Share",
         "STEVE_AOKI_LANDING_QR_SUBTITLE": "Scan this QR code and show us your best moves.",
         "STEVE_AOKI_LANDING_QR_BUTTON": "Show us your best moves",
-        "STEVE_AOKI_LANDING_SANDBOX_METAVERSE_TITLE": "The sandbox metaverse",
-        "STEVE_AOKI_LANDING_SANDBOX_METAVERSE_DESCRIPTION_PRIMARY": "A decentralized Universe on the blockchain owned by the community",
-        "STEVE_AOKI_LANDING_SANDBOX_METAVERSE_DESCRIPTION_SECONDARY": "A place where your NFTs becomes alive",
-        "STEVE_AOKI_LANDING_SANDBOX_METAVERSE_BUTTON": "Create account",
-        "STEVE_AOKI_LANDING_META_TITLE": "The Sandbox Game – Steve Aoki Avatars coming to the metaverse",
-        "STEVE_AOKI_LANDING_META_DESCRIPTION": "Be Steve Aoki in the metaverse! Each avatar is a unique, hand-crafted, playable NFT avatar in The Sandbox with unique utilities giving owners the possibility to earn SAND through playing.",
-        "STEVE_AOKI_LANDING_META_KEYWORDS": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token, snoop dogg, raffle",
-        "STEVE_AOKI_LANDING_META_OG_TITLE": "The Sandbox Game – Steve Aoki Avatars coming to the metaverse",
-        "STEVE_AOKI_LANDING_META_OG_DESCRIPTION": "Be Steve Aoki in the metaverse! Each avatar is a unique, hand-crafted, playable NFT avatar in The Sandbox with unique utilities giving owners the possibility to earn SAND through playing.",
+        "STEVE_AOKI_LANDING_SANDBOX_METAVERSE_TITLE": "더 샌드박스 메타버스",
+        "STEVE_AOKI_LANDING_SANDBOX_METAVERSE_DESCRIPTION_PRIMARY": "커뮤니티 기반의 탈중앙화 블록체인 세상",
+        "STEVE_AOKI_LANDING_SANDBOX_METAVERSE_DESCRIPTION_SECONDARY": "내 NFT가 살아 숨 쉬는 곳",
+        "STEVE_AOKI_LANDING_SANDBOX_METAVERSE_BUTTON": "계정 만들기",
+        "STEVE_AOKI_LANDING_META_TITLE": "더 샌드박스 게임 – 스티브 아오키가 메타버스에 등장하다",
+        "STEVE_AOKI_LANDING_META_DESCRIPTION": "메타버스의 스티브 아오키가 되어 보세요! 각 아바타는 손수 만들어진 플레이 가능한 NFT 아바타로, 아바타를 보유하면 게임 플레이를 통해 SAND를 획득할 수 있습니다.",
+        "STEVE_AOKI_LANDING_META_KEYWORDS": "샌드박스, 복셀 아트, 3D 복셀 게임, 복셀 아티스트, 3D 온라인 PC 게임, 커뮤니티, 블록체인 dapp, PC 복셀 게임, PC 복셀 아트, 탈중앙화 게임, SAND, 토큰, 스눕 독, 추첨",
+        "STEVE_AOKI_LANDING_META_OG_TITLE": "더 샌드박스 게임 – 스티브 아오키가 메타버스에 등장하다",
+        "STEVE_AOKI_LANDING_META_OG_DESCRIPTION": "메타버스의 스티브 아오키가 되어 보세요! 각 아바타는 손수 만들어진 플레이 가능한 NFT 아바타로, 아바타를 보유하면 게임 플레이를 통해 SAND를 획득할 수 있습니다.",
         "STEVE_AOKI_LANDING_META_OG_URL": "https://www.sandbox.game/en/steve-aoki/",
-        "STEVE_AOKI_LANDING_META_OG_SITE_URL": "The Sandbox Game – Steve Aoki Avatars coming to the metaverse",
-        "STEVE_AOKI_LANDING_META_TWITTER_TITLE": "The Sandbox Game – Steve Aoki Avatars coming to the metaverse",
-        "STEVE_AOKI_LANDING_META_TWITTER_DESCRIPTION": "Be Steve Aoki in the metaverse! Each avatar is a unique, hand-crafted, playable NFT avatar in The Sandbox with unique utilities giving owners the possibility to earn SAND through playing.",
-        "STEVE_AOKI_LANDING_META_TWITTER_CARD": "Steve Aoki is coming to The Sandbox",
+        "STEVE_AOKI_LANDING_META_OG_SITE_URL": "더 샌드박스 게임 – 스티브 아오키가 메타버스에 등장하다",
+        "STEVE_AOKI_LANDING_META_TWITTER_TITLE": "더 샌드박스 게임 – 스티브 아오키가 메타버스에 등장하다",
+        "STEVE_AOKI_LANDING_META_TWITTER_DESCRIPTION": "메타버스의 스티브 아오키가 되어 보세요! 각 아바타는 손수 만들어진 플레이 가능한 NFT 아바타로, 아바타를 보유하면 게임 플레이를 통해 SAND를 획득할 수 있습니다.",
+        "STEVE_AOKI_LANDING_META_TWITTER_CARD": "스티브 아오키가 더 샌드박스와 함께합니다",
         "STEVE_AOKI_LANDING_META_TWITTER_SITE": "@thesandboxgame",
         "STEVE_AOKI_LANDING_META_TWITTER_CREATOR": "@thesandboxgame",
-        "STEVE_AOKI_RAFFLE_HEADER_MENU_HOME_LABEL": "Home",
-        "STEVE_AOKI_RAFFLE_HEADER_MENU_HOW_TO_MINT_LABEL": "How to mint",
+        "STEVE_AOKI_RAFFLE_HEADER_MENU_HOME_LABEL": "홈",
+        "STEVE_AOKI_RAFFLE_HEADER_MENU_HOW_TO_MINT_LABEL": "민팅하기",
         "STEVE_AOKI_RAFFLE_HEADER_MENU_FAQ_LABEL": "FAQ",
-        "STEVE_AOKI_RAFFLE_HEADER_MENU_LOGOUT_LABEL": "Log Out",
-        "STEVE_AOKI_RAFFLE_HOW_TO_MINT_TITLE": "How to mint a steve aoki avatar",
-        "STEVE_AOKI_RAFFLE_FAQ_HOW_MANY_STEVE_AOKI_TITLE": "How many Steve Aoki Avatars are there?",
-        "STEVE_AOKI_RAFFLE_FAQ_HOW_MANY_STEVE_AOKI_DESCRIPTION": "There are a total of 3,333 Aoki Avatars that will be minted.",
-        "STEVE_AOKI_RAFFLE_FAQ_WHAT_IS_THEIR_RARITY_TITLE": "What is their rarity/tier?",
-        "STEVE_AOKI_RAFFLE_FAQ_WHAT_IS_THEIR_RARITY_DESCRIPTION": "The avatars are divided into a variety of rarity categories depending on traits. Each avatar will be unique, and generated through a random weight of traits which affect the visual look&feel. In addition there will be multiple unique 1/1 NFTs.",
-        "STEVE_AOKI_RAFFLE_FAQ_WHERE_DO_I_HAVE_TO_GO_TITLE": "Where do I have to go to claim the Avatars?",
-        "STEVE_AOKI_RAFFLE_FAQ_WHERE_DO_I_HAVE_TO_GO_DESCRIPTION": "There is only one place where you can mint the Avatars: \n https://sandbox.game/en/steve-aoki/raffle/mint/",
-        "STEVE_AOKI_RAFFLE_FAQ_AT_WHAT_TIME_TITLE": "At what time does the sale start?",
-        "STEVE_AOKI_RAFFLE_FAQ_AT_WHAT_TIME_DESCRIPTION": "The sale will start on July 19, 2022, 2PM UTC. \n Whitelisted users will have access 24 hours before.",
-        "STEVE_AOKI_RAFFLE_FAQ_HOW_MUCH_SHOULD_I_TITLE": "How much should I expect to pay for one Steve Aoki Avatar NFT?",
-        "STEVE_AOKI_RAFFLE_FAQ_HOW_MUCH_SHOULD_I_DESCRIPTION": "One Avatar NFT will cost {sandAmount} SAND.",
-        "STEVE_AOKI_RAFFLE_FAQ_HOW_MANY_CAN_I_MINT_TITLE": "How many Avatars can I mint per wallet address?",
-        "STEVE_AOKI_RAFFLE_FAQ_HOW_MANY_CAN_I_MINT_DESCRIPTION": "The Aoki Avatars will be released in two waves: \n 1) Whitelisted users will have a chance to mint up to two avatars per wallet, within a 24 hours timeframe. \n 2) When the public release is live, users will have the chance to mint up to four avatars per wallet.",
-        "STEVE_AOKI_RAFFLE_FAQ_WHEN_CAN_I_DISCOVER_TITLE": "How can I see my avatar?",
-        "STEVE_AOKI_RAFFLE_FAQ_WHEN_CAN_I_DISCOVER_DESCRIPTION": "The Steve Aoki Avatars will be revealed 48 hours after minting on OpenSea.",
-        "STEVE_AOKI_RAFFLE_FAQ_CAN_I_MINT_USING_TITLE": "Can I mint using any wallet?",
-        "STEVE_AOKI_RAFFLE_FAQ_CAN_I_MINT_USING_DESCRIPTION": "Yes, you can mint with whatever wallet you have.",
-        "STEVE_AOKI_RAFFLE_FAQ_WHAT_CAN_I_DO_TITLE": "What can I do with the Avatars?",
-        "STEVE_AOKI_RAFFLE_FAQ_WHAT_WHAT_CAN_I_DO_DESCRIPTION": "Each Avatar will be playable inside The Sandbox in all the multiplayer experiences to come starting from the Sandbox Alpha Season 3. We will also introduce unique Play&Earn opportunites for avatar holders, giving any holder the opportunity to earn SAND through gameplay.",
-        "STEVE_AOKI_RAFFLE_FAQ_HOW_CAN_I_USE_TITLE": "How can I use my Avatar inside The Sandbox?",
-        "STEVE_AOKI_RAFFLE_FAQ_HOW_CAN_I_USE_DESCRIPTION": "You will be able to use it as an Avatar by simply selecting it in the Avatar Manager in The Sandbox dashboard once it has been enabled.",
-        "STEVE_AOKI_RAFFLE_FAQ_WHERE_CAN_I_BUY_TITLE": "Where can I buy a Steve Aoki avatar after the initial sale is over?",
-        "STEVE_AOKI_RAFFLE_FAQ_WHERE_CAN_I_BUY_DESCRIPTION": "After the initial sale is over, you will be able to purchase as many avatars as you like from users that are willing to sell theirs on the secondary marketplace Opensea",
-        "STEVE_AOKI_RAFFLE_FAQ_HOW_DO_I_GET_WHITELISTED_TITLE": "How do I get whitelisted?",
-        "STEVE_AOKI_RAFFLE_FAQ_HOW_DO_I_GET_WHITELISTED_DESCRIPTION": "If you hold one of the NFT listed below, 24 hours before the minting starts, you will have early access to mint your Aoki Avatar: \n - XXXXXXX \n - XXXXXX \n - XXXXX \n - XXXXXX \n Winning one of our Twitter contests can also give you early access to mint your NFT.",
-        "STEVE_AOKI_RAFFLE_FAQ_HOW_DO_I_KNOW_IF_TITLE": "How do I know if I’m whitelisted?",
-        "STEVE_AOKI_RAFFLE_FAQ_HOW_DO_I_KNOW_IF_DESCRIPTION": "If you hold an NFT of the above collection, you will be able to mint, as long as you hold the NFT in the wallet with which you are whitelisted, and connected on the minting page.",
-        "STEVE_AOKI_RAFFLE_FAQ_MY_AVATARS_TITLE": "My Avatars are not revealed yet on OpenSea. What can I do?",
-        "STEVE_AOKI_RAFFLE_FAQ_MY_AVATARS_DESCRIPTION": "If you are checking before they have been revealed, this is normal. If you are checking after that date, press the “Refresh Metadata” button on the top-right corner of OpenSea.",
-        "STEVE_AOKI_RAFFLE_FAQ_BUYING_NFT_TITLE": "Buying NFT for the first time, how can I get started?",
-        "STEVE_AOKI_RAFFLE_FAQ_BUYING_NFT_DESCRIPTION": "The process is quite simple. You need to ensure that you have:  \n - Created an account on The Sandbox. \n - Ensure you have both the correct amount of SAND to mint the number of avatars you want and some ETH to cover the gas fees. \n - Log into your account and head over to the mint page: https://sandbox.game/en/steve-aoki/raffle/mint/ \n -Check that your wallet is properly connected and just press the Mint button to retrieve your Avatar.",
-        "STEVE_AOKI_RAFFLE_META_TITLE": "The Sandbox Game – Steve Aoki Avatars coming to the metaverse",
-        "STEVE_AOKI_RAFFLE_META_DESCRIPTION": "Be Steve Aoki in the metaverse! Each avatar is a unique, hand-crafted, playable NFT avatar in The Sandbox with unique utilities giving owners the possibility to earn SAND through playing.",
-        "STEVE_AOKI_RAFFLE_META_KEYWORDS": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token, snoop dogg, raffle",
-        "STEVE_AOKI_RAFFLE_META_OG_TITLE": "The Sandbox Game – Steve Aoki Avatars coming to the metaverse",
-        "STEVE_AOKI_RAFFLE_META_OG_DESCRIPTION": "Be Steve Aoki in the metaverse! Each avatar is a unique, hand-crafted, playable NFT avatar in The Sandbox with unique utilities giving owners the possibility to earn SAND through playing.",
+        "STEVE_AOKI_RAFFLE_HEADER_MENU_LOGOUT_LABEL": "로그아웃",
+        "STEVE_AOKI_RAFFLE_HOW_TO_MINT_TITLE": "스티브 아오키 아바타 민팅하기",
+        "STEVE_AOKI_RAFFLE_FAQ_HOW_MANY_STEVE_AOKI_TITLE": "몇 개의 스티브 아오키가 존재하나요?",
+        "STEVE_AOKI_RAFFLE_FAQ_HOW_MANY_STEVE_AOKI_DESCRIPTION": "총 3,333개의 아오키 아바타가 민팅될 예정입니다.",
+        "STEVE_AOKI_RAFFLE_FAQ_WHAT_IS_THEIR_RARITY_TITLE": "희귀도/등급은 어떤가요?",
+        "STEVE_AOKI_RAFFLE_FAQ_WHAT_IS_THEIR_RARITY_DESCRIPTION": "아바타는 특성에 따라 다양한 희귀도로 분류됩니다. 각 아바타는 고유하며, 각기 다른 외형과 느낌에 따라 랜덤으로 특성이 부여되어 생성됩니다. 또한, 1/1 NFT 아바타도 여러 개 존재합니다.",
+        "STEVE_AOKI_RAFFLE_FAQ_WHERE_DO_I_HAVE_TO_GO_TITLE": "아바타는 어디에서 받을 수 있나요?",
+        "STEVE_AOKI_RAFFLE_FAQ_WHERE_DO_I_HAVE_TO_GO_DESCRIPTION": "아바타 민팅은 다음 경로에서만 가능합니다:\n https://sandbox.game/en/steve-aoki/raffle/mint/",
+        "STEVE_AOKI_RAFFLE_FAQ_AT_WHAT_TIME_TITLE": "언제부터 판매가 시작되나요?",
+        "STEVE_AOKI_RAFFLE_FAQ_AT_WHAT_TIME_DESCRIPTION": "판매는 2022년 7월 19일 오후 11시(KST)에 시작됩니다.\n화이스리스트 유저는 24시간 먼저 아바타를 구매할 수 있습니다.",
+        "STEVE_AOKI_RAFFLE_FAQ_HOW_MUCH_SHOULD_I_TITLE": "스티브 아오키 아바타 NFT 1개는 대략 얼마인가요?",
+        "STEVE_AOKI_RAFFLE_FAQ_HOW_MUCH_SHOULD_I_DESCRIPTION": "아바타 NFT 1개는 {sandAmount} SAND입니다.",
+        "STEVE_AOKI_RAFFLE_FAQ_HOW_MANY_CAN_I_MINT_TITLE": "지갑 주소 1개당 몇 개의 아바타를 민팅할 수 있나요?",
+        "STEVE_AOKI_RAFFLE_FAQ_HOW_MANY_CAN_I_MINT_DESCRIPTION": "스티브 아오키 아바타는 두 번에 걸쳐 공개됩니다.\n 1) 화이트리스트에 등록된 유저는 24시간 동안 최대 두 개의 아바타를 민팅할 수 있습니다. \n 2) 아바타가 전체 공개되면 각 유저는 최대 네 개의 아바타를 민팅할 수 있습니다.",
+        "STEVE_AOKI_RAFFLE_FAQ_WHEN_CAN_I_DISCOVER_TITLE": "어떻게 내 아바타를 확인할 수 있나요?",
+        "STEVE_AOKI_RAFFLE_FAQ_WHEN_CAN_I_DISCOVER_DESCRIPTION": "스티브 아오키 아바타는 오픈시 민팅 48시간 이후에 공개됩니다.",
+        "STEVE_AOKI_RAFFLE_FAQ_CAN_I_MINT_USING_TITLE": "민팅에는 지갑 종류 제한이 없나요?",
+        "STEVE_AOKI_RAFFLE_FAQ_CAN_I_MINT_USING_DESCRIPTION": "네, 지갑의 종류는 상관없습니다.",
+        "STEVE_AOKI_RAFFLE_FAQ_WHAT_CAN_I_DO_TITLE": "아바타로 무엇을 할 수 있나요?",
+        "STEVE_AOKI_RAFFLE_FAQ_WHAT_WHAT_CAN_I_DO_DESCRIPTION": "모든 아바타는 다가오는 알파 시즌 3부터 더 샌드박스에서 플레이할 수 있습니다.  아바타 보유자 전용 플레이 앤 언(Play&Earn)의 기회도 마련되어 있으므로, 아바타를 구해하고 게임 플레이를 통해 SAND를 획득해 보세요.",
+        "STEVE_AOKI_RAFFLE_FAQ_HOW_CAN_I_USE_TITLE": "더 샌드박스에서 어떻게 내 아바타를 사용할 수 있나요?",
+        "STEVE_AOKI_RAFFLE_FAQ_HOW_CAN_I_USE_DESCRIPTION": "더 샌드박스 대시보드의 아바타 관리자에서 해당 아바타를 선택하기만 하면 바로 사용할 수 있습니다.",
+        "STEVE_AOKI_RAFFLE_FAQ_WHERE_CAN_I_BUY_TITLE": "첫 세일 종료 이후에는 어디서 스티브 아오키 아바타를 구매할 수 있나요?",
+        "STEVE_AOKI_RAFFLE_FAQ_WHERE_CAN_I_BUY_DESCRIPTION": "최초 판매가 종료되면, 오픈시(OpenSea) 등의 2차 마켓에서 보유한 아바타를 판매하려는 유저들로부터 아바타를 구매할 수 있습니다.",
+        "STEVE_AOKI_RAFFLE_FAQ_HOW_DO_I_GET_WHITELISTED_TITLE": "화이트리스트에 추가되려면 어떻게 해야 하나요?",
+        "STEVE_AOKI_RAFFLE_FAQ_HOW_DO_I_GET_WHITELISTED_DESCRIPTION": "아래 목록의 NFT 중 하나를 보유하고 있을 경우, 민팅 시작 24시간 전 아오키 아바타를 먼저 민팅할 기회가 주어집니다.\n- XXXXXXX\n- XXXXXX\n- XXXXX\n- XXXXXX\n위 NFT 중 어느 것도 보유하고 있지 않을 경우, 트위터 콘테스트에 참여하여 당첨되면 NFT 얼리 액세스 민팅 기회를 획득할 수 있습니다.",
+        "STEVE_AOKI_RAFFLE_FAQ_HOW_DO_I_KNOW_IF_TITLE": "내가 화이트리스트에 추가되었는지 어떻게 알 수 있나요?",
+        "STEVE_AOKI_RAFFLE_FAQ_HOW_DO_I_KNOW_IF_DESCRIPTION": "민팅 페이지와 연결된 지갑에 위 컬렉션의 NFT 중 하나를 보유하고 있을 경우 화이트리스트에 추가되며 민팅을 진행할 수 있습니다.",
+        "STEVE_AOKI_RAFFLE_FAQ_MY_AVATARS_TITLE": "내 아바타가 오픈시에 공개되지 않았습니다. 어떻게 해야 하나요?",
+        "STEVE_AOKI_RAFFLE_FAQ_MY_AVATARS_DESCRIPTION": "공개 이전에 확인했다면 이는 정상적인 편상입니다. 해당 시점 이후라면 오픈시 페이지 우측 상단의 'Refresh Metadata'(메타데이터 새로고침)를 클릭하세요.",
+        "STEVE_AOKI_RAFFLE_FAQ_BUYING_NFT_TITLE": "NFT를 처음 구매합니다. 어떻게 하면 되나요?",
+        "STEVE_AOKI_RAFFLE_FAQ_BUYING_NFT_DESCRIPTION": "절차는 간단합니다. 아래 내용을 참고하세요.  \n - 더 샌드박스에서 계정을 생성합니다.\n - 원하는 아바타 개수를 민팅할 수 있는 SAND와 가스비로 사용될 ETH가 충분한지 확인합니다.\n - 계정에 로그인하고 민팅 페이지로 이동합니다:\nhttps://sandbox.game/en/steve-aoki/raffle/mint/\n - 지갑이 올바르게 연결되었는지 확인 후 민팅하기(Mint) 버튼을 클릭합니다.",
+        "STEVE_AOKI_RAFFLE_META_TITLE": "더 샌드박스 게임 – 스티브 아오키가 메타버스에 등장하다",
+        "STEVE_AOKI_RAFFLE_META_DESCRIPTION": "메타버스의 스티브 아오키가 되어 보세요! 각 아바타는 손수 만들어진 플레이 가능한 NFT 아바타로, 아바타를 보유하면 게임 플레이를 통해 SAND를 획득할 수 있습니다.",
+        "STEVE_AOKI_RAFFLE_META_KEYWORDS": "샌드박스, 복셀 아트, 3D 복셀 게임, 복셀 아티스트, 3D 온라인 PC 게임, 커뮤니티, 블록체인 dapp, PC 복셀 게임, PC 복셀 아트, 탈중앙화 게임, SAND, 토큰, 스눕 독, 추첨",
+        "STEVE_AOKI_RAFFLE_META_OG_TITLE": "더 샌드박스 게임 – 스티브 아오키가 메타버스에 등장하다",
+        "STEVE_AOKI_RAFFLE_META_OG_DESCRIPTION": "메타버스의 스티브 아오키가 되어 보세요! 각 아바타는 손수 만들어진 플레이 가능한 NFT 아바타로, 아바타를 보유하면 게임 플레이를 통해 SAND를 획득할 수 있습니다.",
         "STEVE_AOKI_RAFFLE_META_OG_URL": "https://www.sandbox.game/en/steve-aoki/",
-        "STEVE_AOKI_RAFFLE_META_OG_SITE_URL": "The Sandbox Game – Steve Aoki Avatars coming to the metaverse",
-        "STEVE_AOKI_RAFFLE_META_TWITTER_TITLE": "The Sandbox Game – Steve Aoki Avatars coming to the metaverse",
-        "STEVE_AOKI_RAFFLE_META_TWITTER_DESCRIPTION": "Be Steve Aoki in the metaverse! Each avatar is a unique, hand-crafted, playable NFT avatar in The Sandbox with unique utilities giving owners the possibility to earn SAND through playing.",
-        "STEVE_AOKI_RAFFLE_META_TWITTER_CARD": "Steve Aoki is coming to The Sandbox",
+        "STEVE_AOKI_RAFFLE_META_OG_SITE_URL": "더 샌드박스 게임 – 스티브 아오키가 메타버스에 등장하다",
+        "STEVE_AOKI_RAFFLE_META_TWITTER_TITLE": "더 샌드박스 게임 – 스티브 아오키가 메타버스에 등장하다",
+        "STEVE_AOKI_RAFFLE_META_TWITTER_DESCRIPTION": "메타버스의 스티브 아오키가 되어 보세요! 각 아바타는 손수 만들어진 플레이 가능한 NFT 아바타로, 아바타를 보유하면 게임 플레이를 통해 SAND를 획득할 수 있습니다.",
+        "STEVE_AOKI_RAFFLE_META_TWITTER_CARD": "스티브 아오키가 더 샌드박스와 함께합니다",
         "STEVE_AOKI_RAFFLE_META_TWITTER_SITE": "@thesandboxgame",
         "STEVE_AOKI_RAFFLE_META_TWITTER_CREATOR": "@thesandboxgame",
-        "COMMON_BRANDS_IN_THE_SANDBOX_TITLE": "Brands & IPs already in The Sandbox Metaverse"
+        "COMMON_BRANDS_IN_THE_SANDBOX_TITLE": "더 샌드박스 메타버스와 함께하는 브랜드&IP"
     },
     "partners": {
         "meta": {
@@ -8856,7 +8856,7 @@
             }
         },
         "journey": {
-            "title": "함께 만들어 나가는 오픈 메타버스",
+            "title": "함께 만들어 나가는\n오픈 메타버스",
             "desc": "더 샌드박스는 모두를 환영합니다! 브랜드, 스튜디오, 독립 크리에이터 누구든 생태계의 일부가 될 수 있습니다. 더 샌드박스는 메타버스 세계 속 각자의 필요에 따라 모두를 도울 준비가 되어 있습니다.",
             "desc1": "더 샌드박스와 파트너를 맺고 싶다면?",
             "desc2": "무엇을 할 수 있을지 알아보세요.",
@@ -8867,17 +8867,17 @@
             "desc": "See for yourself how our partners have entered the metaverse",
             "cards": {
                 "1": {
-                    "desc": "One of the easier tool to create animations in voxel art, with an attractive and a very simple easy-to-use interface for beginners.",
+                    "desc": "초보자를 위한 간편한 인터페이스로 구성된 복셀 아트 애니메이션을 창작할 수 있는 가장 쉬운 툴",
                     "name": "Snoop Dogg",
                     "owner": "IP 보유자"
                 },
                 "2": {
-                    "desc": "One of the easier tool to create animations in voxel art, with an attractive and a very simple easy-to-use interface for beginners.",
+                    "desc": "초보자를 위한 간편한 인터페이스로 구성된 복셀 아트 애니메이션을 창작할 수 있는 가장 쉬운 툴",
                     "name": "The Smurfs",
                     "owner": "IP 보유자"
                 },
                 "3": {
-                    "desc": "One of the easier tool to create animations in voxel art, with an attractive and a very simple easy-to-use interface for beginners.",
+                    "desc": "초보자를 위한 간편한 인터페이스로 구성된 복셀 아트 애니메이션을 창작할 수 있는 가장 쉬운 툴",
                     "name": "Care Bears",
                     "owner": "IP 보유자"
                 }
@@ -8885,18 +8885,18 @@
         },
         "build": {
             "title": "함께 만들어 나가는 오픈 메타버스",
-            "desc1": "Everyone is welcome inside The Sandbox : brands, studios, independent creators, you are all part of our ecosystem.",
-            "desc2": "As we are all different, you all have different needs and we are here to help you get into our world",
+            "desc1": "더 샌드박스는 모두를 환영합니다! 브랜드, 스튜디오, 독립 크리에이터 누구든 생태계의 일부가 될 수 있습니다.",
+            "desc2": "더 샌드박스는 메타버스 세계 속 각자의 필요에 따라 모두를 도울 준비가 되어 있습니다.",
             "button": "함께하기"
         },
         "partnership": {
-            "title": "The Sandbox is a place for any kind of partnerships",
+            "title": "다양한 파트너십",
             "button": "함께하기",
             "cards": {
                 "1": {
                     "title": "IP와 브랜드",
                     "desc": "더 샌드박스에서 내 브랜드를 어떻게 활용해야 할지 모르겠다면? 생태계 속에서 내 브랜드를 널리 알릴 수 있도록 더 샌드박스가 도와드리겠습니다.",
-                    "button": "지금 접속하기"
+                    "button": "정보 입력하기"
                 },
                 "2": {
                     "title": "메타버스 에이전시",
@@ -8920,9 +8920,9 @@
                     "desc2": "Our idea has always been to make sure the final end user is able to live the most out of each projects."
                 },
                 "2": {
-                    "title": "Access",
-                    "subtitle": "For all",
-                    "desc1": "Partnering with The Sandbox is not only a way to join one of the biggest metaverse in the world, it is also a true standpoint for accessibility.",
+                    "title": "누구나 쉽게",
+                    "subtitle": "접근하기",
+                    "desc1": "더 샌드박스와 파트너십을 맺고 세계 최대 메타버스에 합류해 진정한 접근성이란 무엇인지 알아보세요",
                     "desc2": "최고 성능의 게이밍 컴퓨터부터 모바일 기기까지, 누구나 더 샌드박스 플랫폼에 접근할 수 있습니다.",
                     "desc3": "Our quest toward interoperability also will help our community and the overall market mege worlds all together."
                 },
@@ -8941,28 +8941,28 @@
             "block": {
                 "1": {
                     "title": "Care Bears",
-                    "desc": "케어 베어스와 더 샌드박스가 파트너십을 맺고 독특하고 다채로운 NFT 컬렉션을 메타버스 세상에 소개합니다..."
+                    "desc": "케어 베어스&더 샌드박스의 파트너십으로 탄생한 독특하고 다채로운 NFT 컬렉션"
                 },
                 "2": {
                     "title": "Snoop Dogg",
-                    "desc": "스눕 독과 더 샌드박스가 파트너십을 맺고 독특하고 다채로운 NFT 컬렉션을 메타버스 세상에 소개합니다..."
+                    "desc": "스눕 독&더 샌드박스의 파트너십으로 탄생한 독특하고 다채로운 NFT 컬렉션"
                 },
                 "3": {
                     "title": "The Walking Dead",
-                    "desc": "워킹 데드와 더 샌드박스가 파트너십을 맺고 독특하고 다채로운 NFT 컬렉션을 메타버스 세상에 소개합니다..."
+                    "desc": "워킹 데드&더 샌드박스의 파트너십으로 탄생한 독특하고 다채로운 NFT 컬렉션"
                 },
                 "4": {
                     "title": "Deadmau5",
-                    "desc": "데드마우스와 더 샌드박스가 파트너십을 맺고 독특하고 다채로운 NFT 컬렉션을 메타버스 세상에 소개합니다..."
+                    "desc": "데드마우스&더 샌드박스의 파트너십으로 탄생한 독특하고 다채로운 NFT 컬렉션"
                 },
                 "5": {
                     "title": "The Smurfs",
-                    "desc": "스머프와 더 샌드박스가 파트너십을 맺고 독특하고 다채로운 NFT 컬렉션을 메타버스 세상에 소개합니다..."
+                    "desc": "스머프&더 샌드박스의 파트너십으로 탄생한 독특하고 다채로운 NFT 컬렉션"
                 }
             }
         },
         "createdunique": {
-            "title": "And created unique experiences!",
+            "title": "다양한 경험 제작까지!",
             "desc": "Entering The Sandbox means you craft your own universe where communities will navigate and discover your brand and enjoy a truly unique experience in a voxel world. From building houses and cities, to cat walking during fashion shows and defeating dragons and monsters, you are free to offer the experience you dream of.",
             "button": "함께하기",
             "createdby": "크리에이터:",
@@ -9015,18 +9015,18 @@
         "sidebar": "화신",
         "explore": "외부 컬렉션 탐색",
         "exploreLands": "토지 및 부동산 탐색",
-        "exploreLatest": "최신 상품 살펴보기",
-        "total": " 컬렉션의 자산",
+        "exploreLatest": "모든 애셋 살펴보기",
+        "total": " 컬렉션의 애셋",
         "header": {
-            "title": "샌드박스 아바타r",
-            "description": "프로필 사진을 한 단계 업그레이드하십시오. 이제 좋아하는 아바타를 선택하여 샌드박스 메타버스를 탐색할 수 있습니다.",
+            "title": "더 샌드박스 아바타",
+            "description": "프로필 사진을 한층 더 새롭게 꾸며보세요. 이제 마음에 드는 아바타를 선택하여 더 샌드박스 메타버스를 탐험할 수 있습니다.",
             "description2": " 지갑을 연결하여 외부 아바타를 소유하고 있는지 확인하십시오.",
             "info": "컬렉션 정보",
-            "owners": "소유자",
-            "assets": "자산",
+            "owners": "보유자",
+            "assets": "애셋",
             "link": "공개 링크",
-            "created": "만든 사람",
-            "assetscard": "자산",
+            "created": "크리에이터:",
+            "assetscard": "애셋",
             "bycard": "~에 의해"
         }
     }
