@@ -1550,7 +1550,7 @@
         "shopTitle": "商店",
         "onSale": "出售中",
         "title": "欢迎来到NFT市场",
-        "subtitle": "在这里，你可以搜索并使用SAND购买创作者的ASSET，并将其应用到你的LAND中。",
+        "subtitle": "Discover Collections, get Equipment, or find assets to build your own unique Experiences.",
         "welcomeTo": "欢迎来到",
         "nftCollections": "NFT收藏",
         "fluid": "光滑度",
@@ -1575,7 +1575,7 @@
             "block": "Block",
             "bodypart": "Bodypart",
             "and": "and",
-            "onOpenseaTitle": "Lands & Estates",
+            "onOpenseaTitle": "LANDs & ESTATES",
             "externalcollections": "Avatar"
         },
         "rarities": {
@@ -1686,7 +1686,7 @@
         },
         "filters": {
             "all": "全部",
-            "sale": "Latest Drops",
+            "sale": "New Assets",
             "notSale": "未出售"
         },
         "sorts": {
@@ -3779,7 +3779,9 @@
                         "11": "December"
                     },
                     "modificated": "Last update on",
-                    "not-modificated": "not modified yet"
+                    "not-modificated": "not modified yet",
+                    "notModified": "",
+                    "oldPassNote": ""
                 },
                 "email-section": {
                     "title": "Edit Email",
@@ -9022,7 +9024,7 @@
         "total": " 收藏中的資產",
         "header": {
             "title": "沙盒頭像",
-            "description": "將您的個人資料照片提升到一個新的水平。 現在你可以選擇你最喜歡的 Avatar 來探索 The Sandbox Metaverse。",
+            "description": "Discover our Interoperable Avatars collection. Own NFTs and unlock special Avatars to explore the Metaverse. New compatible collections will be added progressively!",
             "description2": " 連接您的錢包以查看您是否擁有外部頭像。",
             "info": "收藏信息",
             "owners": "擁有者",
@@ -9030,7 +9032,14 @@
             "link": "公共鏈接",
             "created": "由...制作",
             "assetscard": "资产",
-            "bycard": "经过"
+            "bycard": "经过",
+            "button1": "",
+            "button2": ""
+        },
+        "noresult": {
+            "title": "",
+            "message": "",
+            "button": ""
         }
     }
 }
