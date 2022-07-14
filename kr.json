@@ -1550,7 +1550,7 @@
         "shopTitle": "마켓",
         "onSale": "판매 중",
         "title": "NFT 마켓플레이스에 오신 것을 환영합니다",
-        "subtitle": "여기에서 크리에이터의 애셋을 검색하고 SAND로 구매하여 내 LAND에서 사용할 수 있습니다.",
+        "subtitle": "Discover Collections, get Equipment, or find assets to build your own unique Experiences.",
         "welcomeTo": "환영합니다",
         "nftCollections": "NFT 컬렉션",
         "fluid": "유동성",
@@ -1575,7 +1575,7 @@
             "block": "블록",
             "bodypart": "신체 부위",
             "and": "&",
-            "onOpenseaTitle": "LAND 및 이스테이트",
+            "onOpenseaTitle": "LANDs & ESTATES",
             "externalcollections": "아바타"
         },
         "rarities": {
@@ -1686,7 +1686,7 @@
         },
         "filters": {
             "all": "전체",
-            "sale": "신규 애셋",
+            "sale": "New Assets",
             "notSale": "판매 안 함"
         },
         "sorts": {
@@ -3779,7 +3779,9 @@
                         "11": "12월"
                     },
                     "modificated": "마지막 업데이트:",
-                    "not-modificated": "아직 수정되지 않음"
+                    "not-modificated": "아직 수정되지 않음",
+                    "notModified": "",
+                    "oldPassNote": ""
                 },
                 "email-section": {
                     "title": "이메일 수정",
@@ -9019,7 +9021,7 @@
         "total": " 컬렉션의 애셋",
         "header": {
             "title": "더 샌드박스 아바타",
-            "description": "프로필 사진을 한층 더 새롭게 꾸며보세요. 이제 마음에 드는 아바타를 선택하여 더 샌드박스 메타버스를 탐험할 수 있습니다.",
+            "description": "상호 운용 가능한 아바타 컬렉션을 살펴보세요. NFT를 소유하고 특별한 아바타를 잠금 해제하여 메타버스를 탐험하세요. 호환되는 새로운 컬렉션이 점진적으로 추가될 것입니다!",
             "description2": " 지갑을 연결하여 외부 아바타를 소유하고 있는지 확인하십시오.",
             "info": "컬렉션 정보",
             "owners": "보유자",
@@ -9027,7 +9029,14 @@
             "link": "공개 링크",
             "created": "크리에이터:",
             "assetscard": "애셋",
-            "bycard": "~에 의해"
+            "bycard": "~에 의해",
+            "button1": "",
+            "button2": ""
+        },
+        "noresult": {
+            "title": "",
+            "message": "",
+            "button": ""
         }
     }
 }
