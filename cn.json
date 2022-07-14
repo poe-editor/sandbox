@@ -3780,8 +3780,8 @@
                     },
                     "modificated": "Last update on",
                     "not-modificated": "not modified yet",
-                    "notModified": "",
-                    "oldPassNote": ""
+                    "notModified": "not modified yet",
+                    "oldPassNote": "(Do not complete this field if this account does not have a previously associated password)"
                 },
                 "email-section": {
                     "title": "Edit Email",
@@ -9024,7 +9024,7 @@
         "total": " 收藏中的資產",
         "header": {
             "title": "沙盒頭像",
-            "description": "Discover our Interoperable Avatars collection. Own NFTs and unlock special Avatars to explore the Metaverse. New compatible collections will be added progressively!",
+            "description": "探索我們的互操作頭像系列。 擁有 NFT 並解鎖特殊頭像以探索元宇宙。 新的兼容收藏將逐步添加！",
             "description2": " 連接您的錢包以查看您是否擁有外部頭像。",
             "info": "收藏信息",
             "owners": "擁有者",
@@ -9033,13 +9033,13 @@
             "created": "由...制作",
             "assetscard": "资产",
             "bycard": "经过",
-            "button1": "",
-            "button2": ""
+            "button1": "探索收藏",
+            "button2": "創建免費頭像"
         },
         "noresult": {
-            "title": "",
-            "message": "",
-            "button": ""
+            "title": "什麼都沒找到",
+            "message": "我們找不到任何應用這些過濾器的東西",
+            "button": "全部清除"
         }
     }
 }
