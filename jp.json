@@ -1550,7 +1550,7 @@
         "shopTitle": "ショップ",
         "onSale": "販売中",
         "title": "NFTマーケットプレイスへようこそ",
-        "subtitle": "クリエイターのアセットを検索してSANDで購入し、自分のLandへ取り込むことができます",
+        "subtitle": "Discover Collections, get Equipment, or find assets to build your own unique Experiences.",
         "welcomeTo": "ようこそ。",
         "nftCollections": "NFTコレクション",
         "fluid": "流動型",
@@ -1575,7 +1575,7 @@
             "block": "Block",
             "bodypart": "Bodypart",
             "and": "and",
-            "onOpenseaTitle": "Lands & Estates",
+            "onOpenseaTitle": "LANDs & ESTATES",
             "externalcollections": "Avatar"
         },
         "rarities": {
@@ -1686,7 +1686,7 @@
         },
         "filters": {
             "all": "すべて",
-            "sale": "Latest Drops",
+            "sale": "New Assets",
             "notSale": "非売品"
         },
         "sorts": {
@@ -3779,7 +3779,9 @@
                         "11": "December"
                     },
                     "modificated": "Last update on",
-                    "not-modificated": "not modified yet"
+                    "not-modificated": "not modified yet",
+                    "notModified": "",
+                    "oldPassNote": ""
                 },
                 "email-section": {
                     "title": "Edit Email",
@@ -9022,7 +9024,7 @@
         "total": " コレクション内のアセット",
         "header": {
             "title": "サンドボックスアバター",
-            "description": "プロフィール写真を次のレベルに引き上げます。 これで、お気に入りのアバターを選択して、サンドボックスメタバースを探索できます。",
+            "description": "相互運用可能なアバターコレクションをご覧ください。 NFTを所有し、特別なアバターのロックを解除してメタバースを探索します。 新しい互換性のあるコレクションが徐々に追加されます！",
             "description2": " ウォレットを接続して、外部アバターを所有しているかどうかを確認します。",
             "info": "コレクション情報",
             "owners": "所有者",
@@ -9030,7 +9032,14 @@
             "link": "パブリックリンク",
             "created": "によって作成された",
             "assetscard": "資産",
-            "bycard": "に"
+            "bycard": "に",
+            "button1": "",
+            "button2": ""
+        },
+        "noresult": {
+            "title": "",
+            "message": "",
+            "button": ""
         }
     }
 }
