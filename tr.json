@@ -3780,8 +3780,8 @@
                     },
                     "modificated": "Last update on",
                     "not-modificated": "not modified yet",
-                    "notModified": "",
-                    "oldPassNote": ""
+                    "notModified": "not modified yet",
+                    "oldPassNote": "(Do not complete this field if this account does not have a previously associated password)"
                 },
                 "email-section": {
                     "title": "Edit Email",
@@ -9033,13 +9033,13 @@
             "created": "Tarafından yaratıldı",
             "assetscard": "Varlıklar",
             "bycard": "ile",
-            "button1": "",
-            "button2": ""
+            "button1": "Koleksiyonları Keşfedin",
+            "button2": "Ücretsiz Avatar Oluşturun"
         },
         "noresult": {
-            "title": "",
-            "message": "",
-            "button": ""
+            "title": "Hiçbirşey Bulunamadı",
+            "message": "Bu filtreyi uygulayan hiçbir şey bulamadık",
+            "button": "Hepsini temizle"
         }
     }
 }
