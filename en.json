@@ -1550,7 +1550,7 @@
         "shopTitle": "Shop",
         "onSale": "For Sale",
         "title": "Welcome to the NFT Marketplace",
-        "subtitle": "Here you can search and buy creator's ASSETS with SAND to incorporate them into your LAND",
+        "subtitle": "Discover Collections, get Equipment, or find assets to build your own unique Experiences.",
         "welcomeTo": "Welcome to",
         "nftCollections": "NFT Collections",
         "fluid": "Fluid",
@@ -1575,7 +1575,7 @@
             "block": "Block",
             "bodypart": "Bodypart",
             "and": "and",
-            "onOpenseaTitle": "Lands & Estates",
+            "onOpenseaTitle": "LANDs & ESTATES",
             "externalcollections": "Avatar"
         },
         "rarities": {
@@ -3779,7 +3779,9 @@
                         "11": "December"
                     },
                     "modificated": "Last update on",
-                    "not-modificated": "not modified yet"
+                    "not-modificated": "not modified yet",
+                    "notModified": "not modified yet",
+                    "oldPassNote": "(Do not complete this field if this account does not have a previously associated password)"
                 },
                 "email-section": {
                     "title": "Edit Email",
@@ -9022,7 +9024,7 @@
         "total": " Assets in the collection",
         "header": {
             "title": "The Sandbox Avatar",
-            "description": "Take your profile pic to the next level. Now you can choose your favorite Avatar to explore The Sandbox Metaverse.",
+            "description": "Discover our Interoperable Avatars collection. Own NFTs and unlock special Avatars to explore the Metaverse. New compatible collections will be added progressively!",
             "description2": " Connect your wallet to find out if you own an External Avatar.",
             "info": "Collection Info",
             "owners": "OWNERS",
@@ -9030,7 +9032,14 @@
             "link": "PUBLIC LINK",
             "created": "Created by",
             "assetscard": "Assets",
-            "bycard": "by"
+            "bycard": "by",
+            "button1": "Explore Collections",
+            "button2": "Create Free Avatar"
+        },
+        "noresult": {
+            "title": "Nothing Found",
+            "message": "We couldn't find anything applying these filter",
+            "button": "Clear All"
         }
     }
 }
