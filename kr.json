@@ -1,6 +1,6 @@
 {
     "common": {
-        "sandbox": "The Sandbox",
+        "sandbox": "더 샌드박스",
         "$sand": "$SAND",
         "sand": "SAND",
         "land": "LAND",
@@ -17,8 +17,8 @@
         "price": "가격",
         "catalyst": {
             "title": "카탈리스트",
-            "legendary": "전설",
-            "epic": "특급",
+            "legendary": "레전더리",
+            "epic": "에픽",
             "rare": "희귀",
             "common": "일반",
             "none": "해당 없음"
@@ -32,7 +32,7 @@
             "luck": "행운"
         },
         "catalystGemShopTitle": "카탈리스트 및 젬 상점",
-        "catalystGemShopDesc": "common.catalystGemShopDesc",
+        "catalystGemShopDesc": "catalystGemShopDesc",
         "tax": "요금",
         "duration": "기간",
         "day": "DAY",
@@ -112,7 +112,7 @@
                 },
                 "2": {
                     "title": "마인크래프트",
-                    "description": "작업물 가져오기"
+                    "description": "내 애셋 사용하기"
                 },
                 "3": {
                     "title": "NFT",
@@ -141,7 +141,7 @@
         "premium": "프리미엄",
         "publish": "게시",
         "published": "게시함",
-        "unpublished": "게시 안 함",
+        "unpublished": "게시되지 않음",
         "clearFilters": "필터 지우기",
         "applyingFilters": "필터 적용 중...",
         "play": "플레이",
@@ -214,20 +214,20 @@
         "recommended": "추천",
         "enablePopups": "팝업창 허용이 활성화되어 있는지 확인해 주세요.",
         "msand": "mSAND",
-        "requestMinting": "Request Minting",
-        "cancelRequest": "Cancel Request",
-        "reportNFT": "Report NFT",
-        "report": "Report",
-        "failedTryAgain": "Something went wrong. Please try again.",
+        "requestMinting": "민팅 요청하기",
+        "cancelRequest": "요청 취소하기",
+        "reportNFT": "NFT 신고하기",
+        "report": "신고하기",
+        "failedTryAgain": "오류가 발생했습니다. 잠시 후 다시 시도해 주세요.",
         "search_name": "이름으로 검색",
         "options_selected": "{count}개 옵션 선택됨",
-        "savedChanges": "Saved!"
+        "savedChanges": "저장되었습니다!"
     },
     "layout": {
         "topbar": {
             "signin": "로그인",
             "buy": {
-                "title": "지금 구매",
+                "title": "지금 구매하세요!",
                 "cards": {
                     "binance": "Binance에서 SAND 구매",
                     "uniswap": "Uniswap에서 SAND 구매",
@@ -296,21 +296,21 @@
         },
         "sidebar": {
             "home": "홈",
-            "play": "Play",
+            "play": "플레이",
             "shop": "마켓",
             "create": "만들기",
             "map": "맵",
             "about": "소개",
             "mod": "MOD",
             "admin": "관리자",
-            "user": "나",
-            "communities": "Spaces"
+            "user": "내 계정",
+            "communities": "공간"
         },
         "footer": {
             "community": {
                 "title": "커뮤니티에 참여하세요",
-                "description1": "더 샌드박스 커뮤니티의 일원이 되어",
-                "description2": "최신 소식을 만나보세요.",
+                "description1": "더 샌드박스 커뮤니티에 가입하고",
+                "description2": "최신 소식을 받아보세요.",
                 "buttonText": "참여하기"
             },
             "pages": {
@@ -343,12 +343,12 @@
             "notAgain": "다시 보지 않기"
         },
         "termsAndConditions": {
-            "title": "Special Terms and Conditions apply for Japan residents: ",
-            "description": "If you are resident of Japan, you may participate in contests and different activities to obtain rewards; due to restrictions in Japan, these rewards will not include SAND.",
-            "accept": "Accept",
-            "reject": "Reject",
-            "error": "Unfortunately you can’t use The Sandbox products and services unless you read and accept our Terms and Conditions.",
-            "goBack": "Go back"
+            "title": "일본 거주 유저 (일본 IP 사용 유저) 특별 이용 약관: ",
+            "description": "일본에 거주하거나 일본 IP를 사용하면서 콘테스트 및 다양한 활동에 참여할 경우, 일본 법률 규제에 따라 SAND 보상을 받을 수 없습니다. 해당 사이트를 계속 이용하시려면 이 약관에 동의해 주세요.",
+            "accept": "동의",
+            "reject": "거부",
+            "error": "이용 약관을 읽고 동의하지 않을 경우 더 샌드박스의 제품 및 서비스를 이용할 수 없습니다.",
+            "goBack": "돌아가기"
         }
     },
     "home": {
@@ -395,8 +395,8 @@
             "ribbon": {
                 "preSeason": "알파 시즌 2가 곧 찾아옵니다",
                 "duringSeason": "알파 시즌 2 진행 중",
-                "welcome": "Welcome to the Metaverse",
-                "play": "Play, create and own the future"
+                "welcome": "메타버스에 오신 것을 환영합니다!",
+                "play": "미래를 플레이하고, 창작하고, 소유하세요"
             },
             "createAccount": "계정 만들기"
         },
@@ -450,11 +450,11 @@
             "button2": "무료로 아바타 만들기"
         },
         "aoki": {
-            "title": "Mint your Steve Aoki Avatar",
-            "description": "Get your unique Steve Aoki avatar for The Sandbox Today and enter the metaverse.",
-            "button": "Get Aoki Avatar",
-            "button2": "Create Free Avatar",
-            "disabled": "*Starts on July 25th"
+            "title": "스티브 아오키 아바타 민팅하기",
+            "description": "나만의 스티브 아오키 아바타를 획득하고 메타버스에 함께하세요!",
+            "button": "아오키 아바타 획득하기",
+            "button2": "무료 아바타 생성하기",
+            "disabled": "* 7월 25일 공개"
         }
     },
     "season": {
@@ -693,8 +693,8 @@
                     "seasonFinish": "31일",
                     "hasJustEnded": "알파 시즌 2 종료",
                     "welcomeOpen": "오픈 메타버스에 오신 것을 환영합니다",
-                    "thanks": "알파 시즌 2에 참여해 주셔서 감사합니다!",
-                    "canClaim": "시즌 2 알파 패스 당첨자는 리워드를 수령할 수 있습니다.",
+                    "thanks": "메타버스에 오신 것을 환영합니다!",
+                    "canClaim": "새로운 시즌 3로 다시 찾아올 예정입니다.",
                     "claim": "리워드 수령하기",
                     "reachedLevel": "레벨 5를 달성했다면 향후 모든 시즌에 대한 리워드를 제공하는 알파 시즌 2 기념품이 주어집니다.",
                     "notNFT": "기념품은 NFT가 아닙니다.",
@@ -726,7 +726,7 @@
                 "questDesc": "레벨업하여 획득",
                 "stakingDesc": "스테이킹으로 획득",
                 "snoop": "스눕독 프라이빗 파티 패스",
-                "nftDesc": "추첨일에 해당 NFT 소유",
+                "nftDesc": "Earn by owning this NFTs",
                 "snoop2": "스눕버스 얼리 액세스 패스",
                 "season1": "시즌 1 알파 패스",
                 "land": "LAND를 소유하여 획득",
@@ -880,7 +880,7 @@
                     "description0": "알파 패스에는 $SAND 리워드가 주어집니다. 알파 시즌 2 종료 후, 알파 패스를 보유하고 있는 유저만 시즌 2 알파 리워드를 받을 수 있습니다. 리워드는 시즌 2 알파 패스 한 개당 최대 1,000 $SAND입니다.",
                     "description1": "세 가지 방법으로 시즌 2 알파 패스를 획득할 수 있습니다.",
                     "description3a": "자세한 내용은 '추첨 티켓' 탭을 확인하세요.",
-                    "description3b": "모든 추첨 티켓 획득처에서 최대로 티켓을 모았다면 획득할 수 있는 총 추첨 티켓의 수는 1,200개입니다.",
+                    "description3b": "모든 추첨 티켓 획득처에서 최대로 티켓을 모았다면 획득할 수 있는 총 추첨 티켓의 수는 1,100개입니다.",
                     "text5": "시즌 1 알파 패스를 소유하면 시즌 2 알파 패스를 받을 확률이 증가하나요?",
                     "text6": "알파 시즌 1에 참여했지만 시즌 1 알파 패스를 가지고 있지 않으면 시즌 2 알파 패스를 받을 확률이 증가하나요?",
                     "description6": "아니요. 추가로 추첨 티켓을 받으려면 시즌 1 알파 패스를 보유해야 합니다.",
@@ -1407,22 +1407,22 @@
         },
         "alpha3": {
             "contest": {
-                "ranking": "RANKING SEASON 3",
-                "socialContests": "Events and Contests",
-                "howItWorks": "How does it work?",
-                "howItWorksDesc": "Earn different rewards by participating in activities every weekday.",
-                "ongoing": "ONGOING",
-                "coming": "COMING",
-                "onlyForOwners": "Only For Owners",
-                "seeMore": "Participate",
-                "shared": "Shared",
-                "rewards": "Rewards",
-                "comingSoon": "COMING SOON",
-                "upcoming": "UPCOMING CONTESTS",
-                "upcomingDesc": "Stay tuned for new contests every week!",
-                "play": "Play",
-                "openUntil": "Open until",
-                "upcomingEvents": "Upcoming Events"
+                "ranking": "랭킹 시즌 3",
+                "socialContests": "이벤트 및 콘테스트",
+                "howItWorks": "어떻게 진행되나요?",
+                "howItWorksDesc": "매주 여러 활동에 참여하여 다양한 보상을 획득하세요.",
+                "ongoing": "진행 중",
+                "coming": "진행 예정",
+                "onlyForOwners": "NFT 보유자 전용",
+                "seeMore": "참여하기",
+                "shared": "전체",
+                "rewards": "보상",
+                "comingSoon": "곧 찾아옵니다",
+                "upcoming": "진행될 콘테스트",
+                "upcomingDesc": "매주 찾아올 새로운 콘테스트를 기대해 주세요!",
+                "play": "플레이",
+                "openUntil": "종료:",
+                "upcomingEvents": "진행될 이벤트"
             }
         }
     },
@@ -1465,96 +1465,96 @@
             "cancel": "판매 취소"
         },
         "reportModal": {
-            "modalTitle": "Report NFT",
-            "dropdownPlaceholder": "Select one option",
-            "dropdown2Placeholder": "What do you want to report?",
-            "textareaPlaceholder": "Provide additional information",
-            "text1": "Accounts are penalized for Community Guidelines violations, and serious or repeated violations can lead to account termination.",
-            "text2a": "Join the discussion about",
-            "text2b": "Community Guidelines",
-            "text2c": "violation on Discord.",
-            "text2d": "Community Guidelines.",
-            "summaryThankyou": "Thank you for reporting this asset",
-            "summaryIssue": "Issue:",
-            "summaryReported": "What you reported:",
-            "summaryAdditionalInformation": "Additional information:",
-            "summaryCommunityTexta": "We will look into this report and remove this asset from our Marketplace if it does not comply with our",
-            "summaryCommunityTextb": "Once assets are minted we can remove them from the Marketplace but the asset will be available on the blockchain so you might still find it on other marketplaces.",
-            "summaryClose": "Close",
+            "modalTitle": "NFT 신고하기",
+            "dropdownPlaceholder": "하나를 선택하세요.",
+            "dropdown2Placeholder": "무엇을 신고하시겠습니까?",
+            "textareaPlaceholder": "추가 정보 기입",
+            "text1": "커뮤니티 가이드라인을 위반할 경우 계정에 제재 조치를 취할 수 있으며 심각하거나 반복적인 위반 시 계정이 해지될 수 있습니다.",
+            "text2a": "토론 참여하기:",
+            "text2b": "커뮤니티 가이드라인",
+            "text2c": "디스코드 위반",
+            "text2d": "커뮤니티 가이드라인",
+            "summaryThankyou": "이 애셋을 신고해 주셔서 감사합니다.",
+            "summaryIssue": "문제:",
+            "summaryReported": "신고 내역:",
+            "summaryAdditionalInformation": "추가 정보:",
+            "summaryCommunityTexta": "신고 내역을 살펴보고 커뮤니티 가이드라인에 부합하지 않을 경우 해당 애셋을 마켓플레이스에서 삭제합니다.",
+            "summaryCommunityTextb": "애셋이 민팅되면 더 샌드박스 마켓플레이스에서 삭제할 수 있으나 블록체인에서 완전히 삭제되는 것은 아니므로 타 마켓플레이스에서는 여전히 해당 애셋을 찾을 수 있습니다.",
+            "summaryClose": "닫기",
             "items": {
-                "asset": "Asset",
-                "title": "Title",
-                "description": "Description",
-                "colname": "Collection name",
-                "usrname": "User name"
+                "asset": "애셋",
+                "title": "제목",
+                "description": "설명",
+                "colname": "컬렉션 이름",
+                "usrname": "유저네임"
             },
             "options": {
-                "pornographic": "Pornographic content",
-                "hateful": "Hateful or abusive content",
-                "harrasment": "Harassment or bullying",
-                "selfharm": "Threats of harm or encouragement of self harm",
-                "crimes": "Promotion or glorification of real life violence",
-                "spam": "Spam",
-                "scams": "Scams",
-                "myrights": "Infringes on my rights",
-                "othersrights": "Infringes on the rights of another",
+                "pornographic": "음란물",
+                "hateful": "폭력적이거나 혐오물",
+                "harrasment": "학대 또는 따돌림을 조장",
+                "selfharm": "위해를 가하거나 자해를 권장",
+                "crimes": "실제 폭력을 조장하거나 미화",
+                "spam": "스팸",
+                "scams": "스캠",
+                "myrights": "나의 권리를 침해",
+                "othersrights": "타인의 권리를 침해",
                 "reportTooltips": {
-                    "pornographicTooltip": "Vulgar and sexually explicit, not necessarily nudity",
-                    "hatefulTooltip": "Racism, sexism, ageism, and other hate directed towards groups either symbolically or literally",
-                    "harrasmentTooltip": "Theatens individuals or targets them with malicious insults",
-                    "selfharmTooltip": "Could promote acts that may result in physical harm",
-                    "crimesTooltip": "Violence, crime, or terrorism (storytelling is fine, promoting real life terrorist groups or exhalating real life crimes/criminals is not)",
-                    "spamTooltip": "Ad for another game as just an image, not an NPC that can be used in The Sandbox from that other game.",
-                    "scamsTooltip": "Items used to defraud buyers - knock offs posing as official content",
-                    "myrightsTooltip": "I believe this content is not authorized and the IP holder should be alerted",
-                    "othersrightsTooltip": "Promotion of products and services outside of The Sandbox without any purpose in The Sandbox"
+                    "pornographicTooltip": "저속하고 성적으로 노골적(반드시 누드일 필요는 없음)",
+                    "hatefulTooltip": "인종차별, 성차별, 연령차별, 그리고 상징적 또는 직접적으로 특정 집단을 향한 기타 증오",
+                    "harrasmentTooltip": "악의적인 모욕으로 개인이나 집단을 위협",
+                    "selfharmTooltip": "신체적 손상을 초래하는 행위를 조장",
+                    "crimesTooltip": "폭력, 범죄 또는 테러(스토리텔링은 허용 가능하나 실제 테러리스트 그룹을 홍보하거나 실제 범죄 및 범죄자를 낳을 수 있는 행위는 금지)",
+                    "spamTooltip": "더 샌드박스에서 사용할 수 있는 NPC 형태가 아닌 이미지로 타 게임 홍보",
+                    "scamsTooltip": "구매자를 기만하는 아이템 - 공식 콘텐츠로 가장한 모조품",
+                    "myrightsTooltip": "해당 콘텐츠는 승인되지 않았으며 IP 보유자에게 이를 고지해야 합니다.",
+                    "othersrightsTooltip": "더 샌드박스 내 사용 목적 없이 외부에서 제품 및 서비스 홍보"
                 }
             },
-            "toastSucceed": "Thanks for reporting this asset. We will look into it as soon as possible."
+            "toastSucceed": "이 애셋을 신고해 주셔서 감사합니다. 빠른 시일 내 검토를 진행하겠습니다."
         }
     },
     "shop": {
         "meta": {
-            "title": "더 샌드박스 샵 - 블록체인 NFT 마켓플레이스",
+            "title": "더 샌드박스 마켓 - 블록체인 NFT 마켓플레이스",
             "description": "더 샌드박스 마켓플레이스는 크리에이터의 애셋을 검색하여 샌드로 구매할 수 있는 NFT 마켓플레이스입니다. 구매한 애셋은 내 LAND에서 사용할 수 있습니다.",
             "keywords": "샌드박스, nft, 마켓플레이스, 애셋, 크리에이터, 컬렉션, 아타리, 스머프, 바이낸스, 워킹데드, LAND, 엔티티",
             "og": {
-                "title": "더 샌드박스 | 더 샌드박스 샵 - 블록체인 NFT 마켓플레이스",
+                "title": "더 샌드박스 | 더 샌드박스 마켓 - 블록체인 NFT 마켓플레이스",
                 "description": "더 샌드박스 마켓플레이스는 크리에이터의 애셋을 검색하여 샌드로 구매할 수 있는 NFT 마켓플레이스입니다. 구매한 애셋은 내 LAND에서 사용할 수 있습니다.",
                 "url": "https://sandbox.game/shop/",
                 "site_name": "더 샌드박스",
                 "image": "https://www.sandbox.game/images/logo.png"
             },
             "twitter": {
-                "title": "더 샌드박스 샵 - 블록체인 NFT 마켓플레이스",
+                "title": "더 샌드박스 마켓 - 블록체인 NFT 마켓플레이스",
                 "description": "더 샌드박스 마켓플레이스는 크리에이터의 애셋을 검색하여 샌드로 구매할 수 있는 NFT 마켓플레이스입니다. 구매한 애셋은 내 LAND에서 사용할 수 있습니다.",
-                "card": "더 샌드박스 샵 - 블록체인 NFT 마켓플레이스",
+                "card": "더 샌드박스 마켓 - 블록체인 NFT 마켓플레이스",
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame",
                 "image": "https://www.sandbox.game/images/logo.png"
             }
         },
         "collectionsMeta": {
-            "title": "더 샌드박스 샵 - ",
-            "description": "더 샌드박스 블록체인 NFT 마켓플레이스에서 [이름] NFT를 구매해 보세요.",
+            "title": "더 샌드박스 마켓 - ",
+            "description": "더 샌드박스 블록체인 NFT 마켓플레이스에서 [name] NFT를 구매해 보세요.",
             "keywords": "샌드박스, nft, 마켓플레이스, 애셋, 크리에이터, 컬렉션, 아타리, 스머프, 바이낸스, 워킹데드, LAND, 엔티티",
             "og": {
-                "title": "더 샌드박스 샵 - ",
-                "description": "더 샌드박스 블록체인 NFT 마켓플레이스에서 [name]을(를) NFT로 구매해 보세요.",
+                "title": "더 샌드박스 마켓 - ",
+                "description": "더 샌드박스 블록체인 NFT 마켓플레이스에서 [name] NFT를 구매해 보세요.",
                 "url": "https://sandbox.game/shop/",
                 "site_name": "더 샌드박스",
                 "image": "https://www.sandbox.game/images/logo.png"
             },
             "twitter": {
-                "title": "더 샌드박스 샵 - ",
-                "description": "더 샌드박스 블록체인 NFT 마켓플레이스에서 [이름] NFT를 구매해 보세요.",
-                "card": "더 샌드박스 샵",
+                "title": "더 샌드박스 마켓 - ",
+                "description": "더 샌드박스 블록체인 NFT 마켓플레이스에서 [name] NFT를 구매해 보세요.",
+                "card": "더 샌드박스 마켓",
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame",
                 "image": "https://www.sandbox.game/images/logo.png"
             }
         },
-        "shopTitle": "샵",
+        "shopTitle": "마켓",
         "onSale": "판매 중",
         "title": "NFT 마켓플레이스에 오신 것을 환영합니다",
         "subtitle": "여기에서 크리에이터의 애셋을 검색하고 SAND로 구매하여 내 LAND에서 사용할 수 있습니다.",
@@ -1582,13 +1582,13 @@
             "block": "블록",
             "bodypart": "신체 부위",
             "and": "&",
-            "onOpenseaTitle": "OpenSea에서 판매 중인 LAND",
-            "externalcollections": "Avatar"
+            "onOpenseaTitle": "LAND 및 이스테이트",
+            "externalcollections": "아바타"
         },
         "rarities": {
             "title": "카탈리스트",
-            "legendary": "전설",
-            "epic": "특급",
+            "legendary": "레전더리",
+            "epic": "에픽",
             "rare": "희귀",
             "common": "일반",
             "none": "해당 없음"
@@ -1619,7 +1619,7 @@
             "groundPrey": "지상 사냥감",
             "healer": "치유사",
             "messageBroadcaster": "메시지 송출기",
-            "replaceAsset": "애셋 교체",
+            "replaceAsset": "애셋 교체하기",
             "void": "빈 공간",
             "multi": "멀티",
             "plant": "식물",
@@ -1634,7 +1634,7 @@
         },
         "themes": {
             "title": "바이옴",
-            "atari": "Atari",
+            "atari": "아타리",
             "city": "도시",
             "fantasy": "판타지",
             "heroes": "영웅",
@@ -1693,7 +1693,7 @@
         },
         "filters": {
             "all": "전체",
-            "sale": "판매 중",
+            "sale": "신규 애셋",
             "notSale": "판매 안 함"
         },
         "sorts": {
@@ -1702,8 +1702,8 @@
             "oldest": "오래된 순",
             "lowerPrice": "가격 낮음",
             "highPrice": "가격 높음",
-            "leastAmount": "수량 적음",
-            "highAmount": "수량 많음",
+            "leastAmount": "최소 수량",
+            "highAmount": "최대 수량",
             "az": "이름 알파벳순 (A-Z)",
             "za": "이름 알파벳 역순 (Z-A)"
         },
@@ -1716,7 +1716,7 @@
             "24x24": "24x24"
         },
         "enties": "NFT 엔티티",
-        "land": "OpenSea에서 판매 중인 NFT LAND",
+        "land": "OpenSea에서 판매 중인 LAND",
         "results": "결과",
         "noResults": "결과 없음",
         "clearFilters": "필터 지우기",
@@ -1771,7 +1771,7 @@
         "buy": {
             "asset": "구매할 애셋",
             "amount": "구매할 수량",
-            "copies": "사본",
+            "copies": "에디션",
             "price": "가격",
             "buttonText": "계속"
         },
@@ -1801,7 +1801,7 @@
                 "status": "상태"
             },
             "cartItem": {
-                "available": "Available"
+                "available": "구입 가능"
             }
         },
         "assets": {
@@ -1811,17 +1811,17 @@
         },
         "removing": {
             "title": "모든 능력치가 삭제됩니다.",
-            "description": " 계속하시겠어요?"
+            "description": " 계속 진행하시겠습니까?"
         },
         "opensea": {
             "disclaimerPart1": "여기에 등록된 모든 LAND는 OpenSea에서 다른 사용자가 직접 판매하는 LAND이며 통화는 SAND를 사용합니다. 표시 가격은 모두 사용자가 직접 책정한 가격이며 더 샌드박스의 기본 LAND 판매와는 연관이 없습니다. 여기에 LAND를 나타나게 하려면",
             "disclaimerPart2": "에서 등록하고 통화를 SAND로 설정하세요."
         },
         "claim": {
-            "claim": "받기",
-            "alreadyClaim": "이미 받음",
-            "putOnSale": "상품 등록",
-            "saleQuestion": "더 샌드박스 마켓플레이스에서 이 NFT를 판매하고 싶으신가요?",
+            "claim": "수령하기",
+            "alreadyClaim": "이미 수령함",
+            "putOnSale": "판매",
+            "saleQuestion": "더 샌드박스 마켓플레이스에서 이 NFT를 판매하시겠습니까?",
             "putOnSaleSuccess": "애셋이 현재 판매 중입니다."
         },
         "assetTypes": {
@@ -1832,8 +1832,8 @@
             "5": "신체 부위",
             "6": "아트"
         },
-        "mintingApprovalPending": "Pending minting approval",
-        "mintingApprovalRejected": "Minting not approved",
+        "mintingApprovalPending": "민팅 승인 보류 중",
+        "mintingApprovalRejected": "민팅이 승인되지 않았습니다.",
         "sell": {
             "asset": "판매할 애셋",
             "cancel": "판매 취소"
@@ -1843,7 +1843,7 @@
         "meta": {
             "title": "더 샌드박스에서 직접 게임을 만들어 보세요",
             "description": "더 샌드박스는 3D 복셀 모델을 창작하고 조립하고 공유하는 독창적인 방법을 제공합니다. 직접 3D 복셀 오브젝트를 만들어 애니메이션을 적용하고 전 세계 사람들이 이용하는 마켓플레이스에서 게시/판매해 보세요. 이용 요금은 무료입니다.",
-            "keywords": "샌드박스, 창작, 복셀 아트 창작, 3D 복셀 게임, 복셀 아티스트, 복셀 게임 아트, 복셀 상점, 블록체인 dapp, PC 복셀 게임, PC 복셀 아트",
+            "keywords": "샌드박스, 창작, 복셀 아트 창작, 3D 복셀 게임, 복셀 아티스트, 복셀 게임 아트, 복셀 마켓, 블록체인 dapp, PC 복셀 게임, PC 복셀 아트",
             "og": {
                 "title": "더 샌드박스 | 3D 복셀 오브젝트 창작, 애니메이션 적용, 게시, 판매",
                 "description": "더 샌드박스는 3D 복셀 모델을 창작하고 조립하고 공유하는 독창적인 방법을 제공합니다. 3D 복셀 오브젝트를 만들어 애니메이션을 적용하고 전 세계 사람들이 이용하는 마켓플레이스에서 게시/판매해 보세요.",
@@ -1989,9 +1989,9 @@
             "models": {
                 "title": "직접 복스 모델 만들기",
                 "cards": {
-                    "1": "모델을 업로드하려면 크리에이터 펀드를 통해 아티스트가 되어야 합니다.",
-                    "2": "복스에딧은 더 샌드박스 마켓플레이스로 애셋을 내보낼 수 있는 유일한 소프트웨어입니다. 복스에딧을 다운로드하여 창작을 시작해 보세요.",
-                    "3": "모델을 만들었으면 간단한 단계를 거쳐 마켓플레이스로 내보내세요."
+                    "1": "이제 나도 크리에이터! 혼자 애셋을 창작해 보거나 크리에이터 펀드에 지원하세요.",
+                    "2": "마켓플레이스로 내 애셋을 내보내려면 복스에딧을 이용해야 합니다. 지금 바로 다운로드하고 창작을 시작해 보세요.",
+                    "3": "모델을 완성했다면 간단한 절차를 거쳐 마켓플레이스로 내보낼 수 있습니다."
                 },
                 "link": "더 알아보기",
                 "buttonText": "복스에딧 다운로드"
@@ -2001,15 +2001,15 @@
                 "cards": {
                     "1": {
                         "title": "모델러",
-                        "description": "창의력을 마음껏 발휘해 보세요. 탁월한 도구와 쉽게 사용할 수 있는 인터페이스 덕분에 초보자와 전문가는 물론, 누구나 질 좋은 창작물을 만들 수 있습니다."
+                        "description": "창의력을 마음껏 뽐내 보세요! 초보자부터 전문가까지, 멋진 툴과 간편한 인터페이스로 누구나 끝내주는 작품을 만들 수 있습니다."
                     },
                     "2": {
                         "title": "애니메이터",
-                        "description": "복셀 창작의 판도를 바꾼 도구입니다. 당사의 스켈레턴 시스템을 채용한 복스에딧에서는, 사용하기 쉬운 키프레이밍 모드를 통해 타임라인을 사용하여 무엇이든 자유롭게 조작하고 애니메이션을 적용할 수 있습니다."
+                        "description": "복셀 창작의 세계에서 이보다 획기적인 도구는 없었습니다. 스켈레톤 시스템과 손쉬운 키프레이밍 모드로 무엇이든 리깅하고 애니메이팅해 보세요."
                     },
                     "3": {
                         "title": "NFT 메이커",
-                        "description": "더 샌드박스의 마켓플레이스에서 복스에딧 애셋을 판매하고 거래하고 구매하면서 창작물로 수익을 창출하세요. 거래 수익금의 95%가 크리에이터에게 돌아갑니다."
+                        "description": "더 샌드박스 마켓플레이스에서 복스에딧으로 제작한 애셋을 판매, 거래, 구매하여 수익을 창출하세요. 거래 수익금의 95%는 크리에이터에게 돌아갑니다!"
                     }
                 }
             },
@@ -2038,7 +2038,7 @@
             },
             "changelog": "변경 내역",
             "play": {
-                "title": "규칙을 지키세요",
+                "title": "규격 속 자유로운 창작!",
                 "text1": "기본 크기는 32*32*32입니다. 더 샌드박스 유니버스에서는 이 기본 크기를 1미터로 간주합니다.",
                 "text2": "즉 32x32x32는 1세제곱미터 안에 채울 수 있는 최대의 디테일입니다. 아바타는 키가 대략 2블록(64복셀)입니다.",
                 "text3": "복스에딧에서는 창작을 시작할 때 도움이 되는 템플릿이 많이 제공되므로 기술 가이드라인을 참고하여 게임 메이커에서 애셋이 잘 작동하도록 만들어 보세요.",
@@ -2068,7 +2068,7 @@
             "meta": {
                 "title": "더 샌드박스에서 아바타 만들기",
                 "description": "더 샌드박스 아바타를 만들어 보세요. 외모를 원하는 대로 꾸미고 장비로 능력치를 올려 더 샌드박스 메타버스에서 친구들과 함께 게임을 할 준비를 해보세요.",
-                "keywords": "샌드박스, 창작, 복셀 아트 창작, 3D 복셀 게임, 복셀 아티스트, 복셀 게임 아트, 복셀 상점, 블록체인 dapp, 아바타, 아바타 크리에이터",
+                "keywords": "샌드박스, 창작, 복셀 아트 창작, 3D 복셀 게임, 복셀 아티스트, 복셀 게임 아트, 복셀 마켓, 블록체인 dapp, 아바타, 아바타 크리에이터",
                 "og": {
                     "title": "더 샌드박스 | 더 샌드박스에서 아바타 만들기",
                     "description": "더 샌드박스 아바타를 만들어 보세요. 외모를 원하는 대로 꾸미고 장비로 능력치를 올려 더 샌드박스 메타버스에서 친구들과 함께 게임을 할 준비를 해보세요.",
@@ -2105,7 +2105,7 @@
                 },
                 "title1": "만들어 봐요",
                 "title2": "나만의 아바타",
-                "description1": "프로필 사진을 한층 더 새롭게 꾸며보세요. 이제 마음에 드는\n아바타를 선택하여 더 샌드박스 메타버스를 탐험할 수 있습니다.",
+                "description1": "프로필 사진을 한층 더 새롭게 꾸며보세요. 이제 마음에 드는 아바타를 선택하여 더 샌드박스 메타버스를 탐험할 수 있습니다.",
                 "description2": "지갑을 연결하여 외부 아바타가 있는지 확인해 보세요.",
                 "button": "지갑 연결하기"
             },
@@ -2205,8 +2205,8 @@
                     "createAvatarButtonText": "아바타 만들기",
                     "editAvatarButtonText": "아바타 만들기",
                     "errors": {
-                        "errorUsername1": "사용자 이름이 너무 짧습니다. 3자 이상이어야 합니다.",
-                        "errorUsername2": "사용자 이름은 영숫자로 구성해야 합니다.",
+                        "errorUsername1": "유저네임이 너무 짧습니다. 3자 이상이어야 합니다.",
+                        "errorUsername2": "유저네임은 영문 알파벳과 숫자로 구성해야 합니다.",
                         "errorUsername3": "ユーザー名は必須フィールドです。必ず入力してください。",
                         "titleTooLong": "제목이 너무 깁니다.",
                         "descriptionTooLong": "제목이 너무 깁니다.",
@@ -2243,7 +2243,7 @@
                     "sort": {
                         "title": "정렬 기준",
                         "readyMint": "민팅 준비 완료",
-                        "unpublished": "게시 안 함",
+                        "unpublished": "게시되지 않음",
                         "exclusive": "특별",
                         "basic": "기본",
                         "pending": "보류 중",
@@ -2317,24 +2317,24 @@
                     "withWallet": "지갑으로 로그인할 수도 있습니다.",
                     "walletButtonText": "지갑으로 로그인",
                     "placeholders": {
-                        "usernameOrEmail": "사용자 이름 또는 이메일",
+                        "usernameOrEmail": "유저네임 또는 이메일",
                         "password": "비밀번호"
                     },
                     "errors": {
-                        "usernameEmailMissing": "사용자 이름/이메일이 없습니다",
+                        "usernameEmailMissing": "유저네임/이메일이 없습니다",
                         "passwordMissing": "비밀번호가 없습니다",
-                        "userPasswordMismatches": "사용자 또는 비밀번호가 일치하지 않습니다"
+                        "userPasswordMismatches": "유저네임 또는 비밀번호가 일치하지 않습니다"
                     }
                 },
                 "forgotModal": {
                     "title": "비밀번호 찾기",
-                    "emailOrUsername": "이메일 또는 사용자 이름",
+                    "emailOrUsername": "이메일 또는 유저네임",
                     "recover": "찾기",
                     "sent": "이메일 주소로 이메일을 전송했습니다",
                     "emailTo": "비밀번호 변경 이메일을",
                     "changeAfterEmail": "주소로 전송했습니다.",
                     "errors": {
-                        "emailUsernameIsRequired": "이메일 또는 사용자 이름은 필수 항목입니다"
+                        "emailUsernameIsRequired": "이메일 또는 유저네임은 필수 항목입니다"
                     }
                 },
                 "changePasswordModal": {
@@ -2357,92 +2357,92 @@
                     }
                 },
                 "claims": {
-                    "bannerTitle": "LAND Owners Claim",
-                    "bannerSubtitle1": "We continue to bring value to our land owners",
-                    "bannerSubtitle2": "ROADMAP 2022 for LAND Owner",
-                    "bannerSubtitle3": "SAND Airdrop for LAND owner",
-                    "checkButtonText": "Check your Claim",
+                    "bannerTitle": "LAND 보유자를 위한 보상 수령하기",
+                    "bannerSubtitle1": "더 샌드박스는 지속적으로 LAND 보유자를 위한 가치를 제공합니다.",
+                    "bannerSubtitle2": "LAND 보유자를 위한 2022 로드맵",
+                    "bannerSubtitle3": "LAND 보유자를 위한 SAND 에어드롭",
+                    "checkButtonText": "내 보상 내역 확인하기",
                     "landOwner": {
-                        "landsCount1": "You own",
-                        "landsCount2": "LANDS",
-                        "landsCount3": "You will receive",
-                        "step1Title1": "Claim your",
-                        "step1Subtitle": "Your are eligible for the reward! Each LAND Owner is receiving some $mSAND based on the amount of LAND they owned on May 13, 2022.",
-                        "step5Title": "Here is your claim",
-                        "step5Subtitle": "We were happy to share this exciting roadmap with all of you. As a LAND owner you are building the future, and we can’t wait to see what it will bring!",
-                        "steps2To4Title1": "LAND Owners",
-                        "steps2To4Title2": "Roadmap 2022",
-                        "steps2To4Subtitle1": "On May 13, 2022 we introduced our latest roadmap for LAND Owners. Let us go through the perks and features you can expect in 2022!",
-                        "steps2To4Subtitle2": "Your are not eligible for the reward! Each LAND Owner is receiving some $mSAND based on the amount of LAND they owned on May 13, 2022.",
-                        "footer": "Make sure to grab LAND to be eligible for the next claim!",
-                        "alreadyClaimed": "Already Claimed",
+                        "landsCount1": "현재",
+                        "landsCount2": "개의 LAND를 보유하고 있습니다.",
+                        "landsCount3": "다음의 보상을 획득하게 됩니다:",
+                        "step1Title1": "수령하기:",
+                        "step1Subtitle": "보상 획득 조건을 충족했습니다. 모든 LAND 보유자는 2022년 5월 13일 기준으로 보유한 LAND 수에 따라 $mSAND를 획득하게 됩니다.",
+                        "step5Title": "다음의 보상을 수령할 수 있습니다.",
+                        "step5Subtitle": "여러분에게 이 흥미로운 로드맵을 공유하게 되어 매우 기쁘게 생각합니다. 여러분은 LAND 보유자로서 미래를 건설해 나아가며, 더 샌드박스는 여러분과 함께 만들어 나갈 미래를 기대하고 있습니다!",
+                        "steps2To4Title1": "LAND 보유자",
+                        "steps2To4Title2": "2022 로드맵",
+                        "steps2To4Subtitle1": "2022년 5월 13일, LAND 보유자를 위한 최신 로드맵을 발표했습니다. 2022년에 기대할 수 있는 특전과 새로운 기능을 살펴보세요!",
+                        "steps2To4Subtitle2": "보상 획득 조건을 충족하지 못했습니다. 모든 LAND 보유자는 2022년 5월 13일 기준으로 보유한 LAND 수에 따라 $mSAND를 획득하게 됩니다.",
+                        "footer": "다음 보상 수령을 위해 LAND를 구입하세요!",
+                        "alreadyClaimed": "이미 보상을 수령했습니다.",
                         "congrats": {
-                            "title1": "Congrats!",
-                            "title2": "Earn SAND",
-                            "subtitle1": "You have successfully claimed",
-                            "subtitle2": "Here are some ways you can put it to good use",
-                            "subtitle3": "Get rewards by",
-                            "subtitle4": "staking",
-                            "subtitle5": "your"
+                            "title1": "축하합니다!",
+                            "title2": "SAND 획득",
+                            "subtitle1": "성공적으로 보상을 수령했습니다.",
+                            "subtitle2": "유용하게 사용할 수 있는 몇 가지 방법을 알아보세요.",
+                            "subtitle3": "스테이킹하고",
+                            "subtitle4": "보상을",
+                            "subtitle5": "획득하세요 -"
                         },
                         "milestones": {
                             "dates": {
-                                "1": "November 2021",
-                                "2": "January 2022",
-                                "3": "February 2022",
-                                "4": "May 2022",
-                                "5": "June 2022",
-                                "6": "July 2022",
-                                "7": "September 2022",
-                                "8": "May / June 2022",
-                                "9": "Q2/Q3 2022",
-                                "10": "Q3 2022",
-                                "11": "Q4 2022"
+                                "1": "2021년 11월",
+                                "2": "2022년 1월",
+                                "3": "2022년 2월",
+                                "4": "2022년 5월",
+                                "5": "2022년 6월",
+                                "6": "2022년 7월",
+                                "7": "2022년 9월",
+                                "8": "2022년 5, 6월",
+                                "9": "2022년 2, 3분기",
+                                "10": "2022 3분기",
+                                "11": "2022 4분기"
                             },
                             "claim": {
-                                "title": "CLAIM",
-                                "text1": "2.5M $mSAND airdrop to LAND owners",
-                                "text2": "5M $mSAND airdrop to LAND owners",
-                                "text3": "$mSAND claim to celebrate the Metaverse's 1,000th day based on LAND holding time"
+                                "title": "보상 수령",
+                                "text1": "LAND 보유자를 위한 2.5M $mSAND 에어드롭",
+                                "text2": "LAND 보유자를 위한 5M $mSAND 에어드롭",
+                                "text3": "LAND 보유일 기준 메타버스 1,000일 기념 $mSAND 보상 수령"
                             },
                             "stake": {
-                                "title": "STAKE",
-                                "text1": "Multiplier on SAND-ETH staking (Uniswap)",
-                                "text2": "Multiplier on mSAND-MATIC staking (Quickswap)",
-                                "text3": "Multiplier on mSAND staking (Layer 2)",
-                                "text4": "LAND owner exclusive $CATALYST and $GEM farming (Layer 2)",
-                                "text5": "LAND owner exclusive 10M $mSAND farming (Layer 2)"
+                                "title": "스테이킹",
+                                "text1": "SAND-ETH 스테이킹 계수 (유니스왑)",
+                                "text2": "mSAND-MATIC 스테이킹 계수 (퀵스왑)",
+                                "text3": "mSAND 스테이킹 계수 (레이어 2)",
+                                "text4": "LAND 보유자 전용 $CATALYST 및 $GEM 파밍 (레이어 2)",
+                                "text5": "LAND 보유자 전용 10M $mSAND 파밍 (레이어 2)"
                             },
                             "buy": {
-                                "title": "BUY",
-                                "text1": "More than 100,000 LAND acquired by over 20,000 LAND owners",
-                                "text2": "New partners",
-                                "text3": "New sales system with a raffle and KYC for a fair and distributed process",
-                                "text4": "Upcoming LAND sale Ubisoft, Paris Hilton, Warner Music Group, Gucci"
+                                "title": "구입",
+                                "text1": "20,000명 이상의 LAND 보유자가 100,000개 이상의 LAND 획득",
+                                "text2": "새로운 파트너",
+                                "text3": "공정하고 분산된 프로세스를 위한 추첨 및 KYC를 통한 새로운 판매 시스템",
+                                "text4": "유비소프트, 패리스 힐튼, 워너뮤직 그룹, 구찌 LAND 세일"
                             },
                             "play": {
-                                "title": "PLAY",
-                                "text1": "Season 1 : Exclusive Rewards",
-                                "text2": "Season 2 : Earn more $SAND and Raffle Tickets",
-                                "text3": "Season 3 : Extra Raffle Tickets, increased rewards, special raffle for LAND Owners only, raffle bonus"
+                                "title": "플레이",
+                                "text1": "시즌 1 : 독점 보상",
+                                "text2": "시즌 2 : 추가 $SAND 획득 및 추첨 티켓",
+                                "text3": "시즌 3 : 추가 추첨 티켓, 더 많은 보상, LAND 보유자 전용 특별 추첨, 추첨 보너스"
                             },
                             "build": {
-                                "title": "BUILD",
-                                "text1": "35+ certified Builders community",
-                                "text2": "Create ESTATEs with your LANDs",
-                                "text3": "Publish experiences on your LAND",
-                                "text4": "Rent Lands & Estates",
-                                "text5": "Premium LAND will unlock new assets and behaviors in the Game Maker"
+                                "title": "건설",
+                                "text1": "35개 이상의 인증된 빌더 커뮤니티",
+                                "text2": "보유한 LAND로 이스테이트 생성",
+                                "text3": "보유한 LAND에 경험 게시",
+                                "text4": "LAND 및 이스테이트 대여",
+                                "text5": "프리미엄 LAND 보유 시 게임 메이커에서 신규 애셋 및 행동 선택 가능"
                             },
                             "migrate": {
-                                "title": "MIGRATE",
-                                "text1": "Get access to all features on Polygon Layer 2",
-                                "text2": "1M $mSAND distributed in cashback on migrated LANDs"
+                                "title": "마이그레이션",
+                                "text1": "폴리곤 레이어 2에서 모든 기능에 액세스",
+                                "text2": "마이그레이션된 LAND에 캐시백으로 1M $mSAND 배포"
                             },
                             "meet": {
-                                "title": "MEET",
-                                "text1": "Organize exclusive IRL events with our LAND owners including brands, talents and more… Soon at www.nft.nyc ✈️",
-                                "text2": "Organize and finance local Meetups"
+                                "title": "소통",
+                                "text1": "다양한 브랜드 및 재능있는 LAND 보유자들과 함께 독점 IRL 이벤트 개최 /  www.nft.nyc에서 곧 찾아옵니다 ✈️",
+                                "text2": "로컬 밋업 구성 및 자금 조달"
                             }
                         }
                     }
@@ -2450,7 +2450,7 @@
             },
             "changelog": "변경 내역",
             "play": {
-                "title": "규칙을 지키세요",
+                "title": "규격 속 자유로운 창작!",
                 "text1": "기본 크기는 32*32*32입니다. 더 샌드박스 유니버스에서는 이 기본 크기를 1미터로 간주합니다.",
                 "text2": "즉 32x32x32는 1세제곱미터 안에 채울 수 있는 최대의 디테일입니다. 아바타는 키가 대략 2블록(64복셀)입니다.",
                 "text3": "복스에딧에서는 창작을 시작할 때 도움이 되는 템플릿이 많이 제공되므로 기술 가이드라인을 참고하여 게임 메이커에서 애셋이 잘 작동하도록 만들어 보세요.",
@@ -2478,10 +2478,10 @@
                         "emailIsRequired": "이메일은 필수 항목입니다",
                         "emailIsIncorrect": "이메일 주소가 올바르지 않습니다",
                         "emailAlreadyInUse": "이미 사용 중인 이메일입니다",
-                        "usernameIncorrect": "사용자 이름이 잘못되었습니다",
-                        "usernameTooShort": "사용자 이름이 너무 짧습니다",
-                        "usernameTooLong": "사용자 이름이 너무 깁니다",
-                        "usernameAlreadyInUse": "이미 사용 중인 사용자 이름입니다"
+                        "usernameIncorrect": "유저네임이 올바르지 않습니다",
+                        "usernameTooShort": "유저네임이 너무 짧습니다",
+                        "usernameTooLong": "유저네임이 너무 깁니다",
+                        "usernameAlreadyInUse": "이미 사용 중인 유저네임입니다"
                     }
                 },
                 "signupPasswordModal": {
@@ -2809,8 +2809,8 @@
                 "assetNameTooShort": "애셋 이름이 너무 짧습니다",
                 "assetDescriptionTooLong": "애셋 설명이 너무 깁니다",
                 "preview": "미리 보기 파일의 형식 또는 용량이 잘못되었습니다. 이미지 형식이어야 하며 파일 용량은 90KB 미만이어야 합니다.",
-                "type": "Please enter a jpg, jpeg or webp file",
-                "size": "Please enter a file with a valid size no larger than 90k"
+                "type": "jpg, jpeg 또는 webp 파일을 사용해 주세요",
+                "size": "최대 파일 크기는 90k입니다"
             },
             "viewInMap": "맵에서 보기",
             "notifications": {
@@ -2823,8 +2823,8 @@
                     "btn": "상점으로 이동"
                 }
             },
-            "partner": "Partner",
-            "unselected": "Unselected"
+            "partner": "파트너",
+            "unselected": "선택되지 않음"
         },
         "notifications": {
             "not1": {
@@ -2847,21 +2847,21 @@
             "text8": "알파 내 경험은 모두 복스에딧과 게임 메이커로 제작되었습니다. 나만의 경험을 제작해 보세요!"
         },
         "transfer": {
-            "transferExperience": "경험 이전하기",
+            "transferExperience": "경험을 이동합니다",
             "walletUser": "대상 지갑 입력:",
             "confirm": "확인",
             "successTransfer": "이전 성공",
             "closeForm": "닫기",
-            "transferAssets": "애셋도 이전하기"
+            "transferAssets": "애셋도 이동합니다"
         },
         "notificationBar": {
-            "oldMap": "There's a new version of the Metaverse Map available. Now supporting images on 1x1 LANDs!",
-            "oldMapMobile": "There's a new version available for the Metaverse Map!",
-            "oldMapButton": "Try the New Map",
-            "newMap": "This map is currently in experimental mode",
-            "newMapMobile": "This map is currently in experimental mode",
-            "newMapButton": "Go to Previous Version",
-            "whatsnew": "What's New"
+            "oldMap": "새로운 메타버스 맵 버전이 출시되었습니다. 이제 1x1 LAND에도 이미지를 삽입할 수 있습니다!",
+            "oldMapMobile": "새로운 메타버스 맵 버전이 출시되었습니다!",
+            "oldMapButton": "새 맵 체험하기",
+            "newMap": "이 맵은 현재 실험 모드입니다.",
+            "newMapMobile": "이 맵은 현재 실험 모드입니다.",
+            "newMapButton": "이전 맵으로 돌아가기",
+            "whatsnew": "자세히 알아보기"
         }
     },
     "about": {
@@ -2902,7 +2902,7 @@
                 },
                 "marketplace": {
                     "title": "마켓플레이스",
-                    "description": "한곳에서 최고의 애셋을 판매하고 수집할 수 있습니다."
+                    "description": "최고의 애셋을 판매하고 수집할 수 있는 바로 그곳"
                 },
                 "gameMaker": {
                     "title": "게임 메이커",
@@ -2978,7 +2978,7 @@
                 "secondaryButtonText": "스테이킹",
                 "link": "Binance의 $SAND 관련 연구 보고서를 읽어보세요"
             },
-            "platforms": "이용 가능 서비스",
+            "platforms": "상장 거래소",
             "brands": {
                 "sandbox": {
                     "name": "더 샌드박스",
@@ -2990,28 +2990,28 @@
                 }
             },
             "products": {
-                "title1": "현재 플랫폼에서 제공되는",
-                "title2": "제품:",
+                "title1": "현재",
+                "title2": "플랫폼에서 사용 가능:",
                 "voxedit": {
                     "title": "복스에딧",
-                    "description": "복셀 애셋을 창작하는 소프트웨어로, 창작된 복셀 애셋은 NFT(대체 불가 토큰)이 되고 마켓플레이스로 내보낼 수 있습니다."
+                    "description": "NFT 복셀 애셋을 제작하여 마켓플레이스로 내보내기"
                 },
                 "marketplace": {
                     "title": "마켓플레이스",
-                    "description": "한곳에서 최고의 애셋을 판매하고 수집할 수 있습니다."
+                    "description": "최고의 애셋을 판매하고 수집할 수 있는 바로 그곳"
                 },
                 "gameMaker": {
                     "title": "게임 메이커",
-                    "description": "누구나 무료로 3D 게임을 만들 수 있는 비주얼 스크립팅 도구입니다."
+                    "description": "누구나 무료로 3D 게임을 만들 수 있는 비주얼 스크립팅 도구"
                 }
             },
             "metrics": {
-                "title": "주요 지표(2020년 8월 5일 기준)",
+                "title": "주요 지표 (2020년 1월 기준)",
                 "ticket": {
                     "title": "티켓",
-                    "circulating": "유통 수량",
+                    "circulating": "유통량",
                     "total": "토큰 총 공급량",
-                    "binance": "Binance Launchpad 세일 가격"
+                    "binance": "바이낸스 런치패드 판매가"
                 }
             },
             "sandbox": {
@@ -3182,17 +3182,17 @@
                 "0": {
                     "title": "더 샌드박스 GM 아카데미에 오신 것을 환영합니다",
                     "description": "게임 메이커를 이용하여 메타버스에서 경험을 만들고 공유하는 방법을 알아보세요.",
-                    "link": "https://sandboxgame.gitbook.io/the-game-maker-academy_kr/QXVjiJZSETueiVsHSiOX/"
+                    "link": "https://sandboxgame.gitbook.io/the-game-maker-academy/"
                 },
                 "1": {
                     "title": "게임 메이커란?",
                     "description": "더 샌드박스 메타버스 내에서 경험을 만든 후 게시하는 데 사용하는 프로그램입니다.",
-                    "link": "https://sandboxgame.gitbook.io/the-game-maker-academy_kr/QXVjiJZSETueiVsHSiOX/welcome-to-the-sandbox/game-maker"
+                    "link": "https://sandboxgame.gitbook.io/the-game-maker-academy/welcome-to-the-sandbox/game-maker"
                 },
                 "2": {
                     "title": "무엇을 만들 수 있나요?",
                     "description": "더 샌드박스 GM 리소스와 다양한 도구를 사용하여 만들 수 있는 경험의 예시를 살펴보세요.",
-                    "link": "https://sandboxgame.gitbook.io/the-game-maker-academy_kr/QXVjiJZSETueiVsHSiOX/welcome-to-the-sandbox/what-can-i-make"
+                    "link": "https://sandboxgame.gitbook.io/the-game-maker-academy/welcome-to-the-sandbox/what-can-i-make"
                 }
             }
         }
@@ -3234,9 +3234,9 @@
             "yourAccount": "내 계정",
             "yourAvatar": "내 아바타",
             "errors": {
-                "errorUsername1": "사용자 이름이 너무 짧습니다. 3자 이상이어야 합니다.",
-                "errorUsername2": "사용자 이름은 영숫자로 구성해야 합니다.",
-                "errorUsername3": "사용자 이름은 필수 항목입니다. 비워둘 수 없습니다.",
+                "errorUsername1": "유저네임이 너무 짧습니다. 3자 이상이어야 합니다.",
+                "errorUsername2": "유저네임은 영문 알파벳과 숫자로 구성해야 합니다.",
+                "errorUsername3": "유저네임은 필수 항목입니다. 비워둘 수 없습니다.",
                 "titleTooLong": "제목이 너무 깁니다.",
                 "descriptionTooLong": "제목이 너무 깁니다.",
                 "emailIsRequired": "이메일은 필수 항목입니다.",
@@ -3250,7 +3250,7 @@
                 "passwordDoNotMatch": "비밀번호가 일치하지 않습니다.",
                 "errorAvatarImageSize": "파일 크기 초과입니다. 더 작은 크기의 파일을 사용해 주세요.",
                 "errorAvatarImageType": "지원되는 파일 확장자 형식이 아닙니다. jpg, png, 또는 jpeg 형식을 사용해 주세요.",
-                "errorBannerImageSize": "File size too big please use a lighter file (Maximum: 2 Mb)"
+                "errorBannerImageSize": "파일 사이즈가 초과되었습니다 (최대 크기: 2 Mb)."
             },
             "edit": {
                 "editTitle": "프로필 편집",
@@ -3265,27 +3265,27 @@
                 "validated": "프로필이 변경되었습니다"
             },
             "public": {
-                "showMore": "Show More",
-                "showLess": "Show Less",
+                "showMore": "자세히 보기",
+                "showLess": "최소화하기",
                 "filters": "필터",
-                "sortBy": "Sort By",
-                "onSaleMessage": "{amount} {entity} on sale",
-                "onInventoryMessage": "{amount} {entity} on inventory",
-                "all": "All",
-                "entities": "Entities",
-                "collections": "Collections (Soon)",
+                "sortBy": "정렬 기준",
+                "onSaleMessage": "{amount}개의 {entity} 판매 중",
+                "onInventoryMessage": "{amount}개의 {entity} 인벤토리에 보관 중",
+                "all": "전체",
+                "entities": "엔티티",
+                "collections": "컬렉션 (곧 추가됩니다)",
                 "lands": "LAND",
-                "estates": "Estates",
-                "experiences": "Experiences",
-                "onSale": "On Sale ({amount})",
-                "onInventory": "Inventory ({amount})",
-                "addresCopied": "Address copied to clipboard",
-                "userCopied": "User copied to clipboard",
+                "estates": "이스테이트",
+                "experiences": "경험",
+                "onSale": "판매 중 (",
+                "onInventory": "인벤토리 (",
+                "addresCopied": "주소가 클립보드에 복사되었습니다.",
+                "userCopied": "유저 정보가 클립보드에 복사되었습니다.",
                 "card": {
-                    "lastCard": "Last One!",
+                    "lastCard": "마지막 수량!",
                     "unique": "Unique"
                 },
-                "onPublished": "Published ({amount})"
+                "onPublished": "게시됨 ({amount})"
             }
         },
         "inventory": {
@@ -3296,7 +3296,7 @@
             "nftTypes": {
                 "title": "NFT 유형",
                 "entity": "엔티티",
-                "land": "LAND",
+                "land": "Land & Estate",
                 "estates": "이스테이트",
                 "experiences": "경험",
                 "all": "전체"
@@ -3313,7 +3313,7 @@
                 "title": "상태",
                 "published": "게시함",
                 "added": "추가함",
-                "unpublished": "게시 안 함",
+                "unpublished": "게시되지 않음",
                 "exclusive": "특별",
                 "basic": "기본",
                 "sale": "판매 중"
@@ -3335,7 +3335,7 @@
             "sort": {
                 "title": "정렬 기준",
                 "readyMint": "민팅 준비 완료",
-                "unpublished": "게시 안 함",
+                "unpublished": "게시되지 않음",
                 "exclusive": "특별",
                 "basic": "기본",
                 "pending": "보류 중",
@@ -3378,7 +3378,7 @@
                 "removing": "능력치가 모두 삭제됩니다.",
                 "wishToContinue": " 계속하시겠어요?",
                 "invalidAndMaxed": "수량이 잘못되었습니다. 사용 가능한 최대 수량을 사용합니다.",
-                "requiredTokens": "To continue minting you need the following tokens:"
+                "requiredTokens": "민팅을 계속하려면 다음의 토큰이 필요합니다:"
             },
             "search": "검색...",
             "preview": "미리 보기",
@@ -3527,7 +3527,7 @@
             "deletePopup": {
                 "title": "사전 설정 삭제",
                 "description": "아바타를 삭제했습니다",
-                "text": "다음 아바타 사전 설정을 삭제하시겠어요?"
+                "text": "다음의 아바타 사전 설정을 삭제하시겠습니까?"
             },
             "oversizedPopup": {
                 "title": "경고",
@@ -3618,24 +3618,24 @@
             "withWallet": "지갑으로 로그인할 수도 있습니다.",
             "walletButtonText": "지갑으로 로그인",
             "placeholders": {
-                "usernameOrEmail": "사용자 이름 또는 이메일",
+                "usernameOrEmail": "유저네임 또는 이메일",
                 "password": "비밀번호"
             },
             "errors": {
-                "titwordMismatches": "사용자 또는 비밀번호가 일치하지 않습니다",
-                "userPasswordMismatches": "사용자 또는 비밀번호가 일치하지 않습니다",
-                "venlyConnectionError": "Something went wrong. Make sure you have pop-ups enabled on your browser, reload and try again."
+                "titwordMismatches": "유저네임 또는 비밀번호가 일치하지 않습니다",
+                "userPasswordMismatches": "유저네임 또는 비밀번호가 일치하지 않습니다",
+                "venlyConnectionError": "문제가 발생했습니다. 브라우저에서 팝업창을 허용했는지 확인 후, 페이지를 새로고침한 뒤 다시 시도해 보세요."
             }
         },
         "forgotModal": {
             "title": "비밀번호 찾기",
-            "emailOrUsername": "이메일 또는 사용자 이름",
+            "emailOrUsername": "이메일 또는 유저네임",
             "recover": "찾기",
             "sent": "이메일 주소로 이메일을 전송했습니다",
             "emailTo": "비밀번호 변경 이메일을",
             "changeAfterEmail": "주소로 전송했습니다.",
             "errors": {
-                "emailUsernameIsRequired": "이메일 또는 사용자 이름은 필수 항목입니다"
+                "emailUsernameIsRequired": "이메일 또는 유저네임은 필수 항목입니다"
             }
         },
         "changePasswordModal": {
@@ -3667,10 +3667,10 @@
                 "emailIsRequired": "이메일은 필수 항목입니다",
                 "emailIsIncorrect": "이메일 주소가 올바르지 않습니다",
                 "emailAlreadyInUse": "이미 사용 중인 이메일입니다",
-                "usernameIncorrect": "사용자 이름이 잘못되었습니다",
-                "usernameTooShort": "사용자 이름이 너무 짧습니다",
-                "usernameTooLong": "사용자 이름이 너무 깁니다",
-                "usernameAlreadyInUse": "이미 사용 중인 사용자 이름입니다"
+                "usernameIncorrect": "유저네임이 올바르지 않습니다",
+                "usernameTooShort": "유저네임이 너무 짧습니다",
+                "usernameTooLong": "유저네임이 너무 깁니다",
+                "usernameAlreadyInUse": "이미 사용 중인 유저네임입니다"
             }
         },
         "signupPasswordModal": {
@@ -3719,11 +3719,11 @@
                 "newEmail-sub": "새 이메일",
                 "submit": "설정 저장",
                 "info": "개인정보",
-                "info-note": "이름을 추가하고 사용자 이름을 변경하고 멋진 설명을 덧붙여 사람들에게 소개해 보세요.",
-                "username": "사용자 이름",
+                "info-note": "이름을 추가하고 유저네임을 변경하고 멋진 설명을 덧붙여 사람들에게 소개해 보세요.",
+                "username": "유저네임",
                 "desc": "설명",
                 "social": "소셜 미디어",
-                "social-note": "다른 사용자의 방문이 가능한 소셜 미디어 계정을 연결할 수 있습니다.",
+                "social-note": "소셜 미디어 계정을 연결하여 다른 사람과 만날 수 있습니다. 다른 사람이 프로필과 맵을 통해 나에게 연락할 수 있게 하려면 아래의 정보를 입력하세요.",
                 "email-invalid": "이메일 형식이 잘못됨",
                 "oldEmail-sub": "기존 이메일",
                 "submitEmail": "이메일 변경",
@@ -3735,17 +3735,17 @@
                     "youtube": "유튜브 사용자 ID 입력",
                     "twitter": "트위터 사용자 이름 입력",
                     "discord": "사용자#id 입력",
-                    "facebook": "페이스북 사용자 이름 입력",
-                    "instagram": "인스타그램 사용자 이름 입력",
-                    "telegram": "텔레그램 사용자 이름 입력"
+                    "facebook": "페이스북 유저네임 입력",
+                    "instagram": "인스타그램 유저네임 입력",
+                    "telegram": "텔레그램 유저네임 입력"
                 },
-                "username-invalid": "유효하지 않은 사용자 이름",
+                "username-invalid": "유효하지 않은 유저네임",
                 "profilePictureErrorHigh": "프로필 사진 이름이 200자를 초과합니다 (파일 확장자 포함).",
                 "profile-updated": "프로필이 업데이트되었습니다!",
                 "password-changed": "계정의 패스워드가 성공적으로 변경되었습니다.",
-                "bannerText": "Add a banner image",
-                "bannerSize": "Optimal dimensions 2000x330",
-                "bannerLength": "Banner picture name is more than 200 characters long (including file extension)"
+                "bannerText": "배너 이미지 추가",
+                "bannerSize": "최적 크기 2000x330",
+                "bannerLength": "배너 사진의 이름은 최소 200자 이상입니다 (파일 확장자명 포함)."
             },
             "security": {
                 "title": "이메일 및 비밀번호",
@@ -3786,7 +3786,7 @@
                         "11": "12월"
                     },
                     "modificated": "마지막 업데이트:",
-                    "not-modificated": "not modified yet",
+                    "not-modificated": "아직 수정되지 않음",
                     "notModified": "아직 수정되지 않음",
                     "oldPassNote": "(Do not complete this field if this account does not have a previously associated password)"
                 },
@@ -3843,99 +3843,99 @@
             "goToDiscord": "디스코드",
             "noClaims": "수령할 대상이 없습니다",
             "bannerSubtitle": "지금 바로 수익을 획득해 보세요! 더 샌드박스 소셜 미디어 채널을 팔로우하고 최신 소식을 놓치지 마세요.",
-            "bannerTitle": "LAND Owners Claim",
-            "bannerSubtitle1": "We continue to bring value to our LAND owners",
-            "bannerSubtitle2": "ROADMAP 2022",
-            "bannerSubtitle3": "5m mSAND claim",
-            "checkButtonText": "Check your Claim",
+            "bannerTitle": "LAND 보유자를 위한 보상 수령하기",
+            "bannerSubtitle1": "더 샌드박스는 지속적으로 LAND 보유자를 위한 가치를 제공합니다.",
+            "bannerSubtitle2": "2022 로드맵",
+            "bannerSubtitle3": "5m mSAND 보상 수령",
+            "checkButtonText": "내 보상 내역 확인하기",
             "landOwner": {
                 "lands": "{0} LAND",
                 "msand": "{0} {1} mSAND",
-                "results": "{0} results",
-                "startProcess": "Start Claim Process",
-                "claim": "Claim",
-                "next": "Next",
-                "landsCount1": "You owned {0} LAND on {1}",
-                "landsCount2": "You will receive {0} {1} {2}",
-                "landsCount3": "You received {0} {1} {2}",
-                "step1Title1": "Claim your",
-                "step1Subtitle": "You are eligible for the reward! Each LAND Owner is receiving some $mSAND based on the amount of LAND they owned on May 13, 2022.",
-                "step5Title": "Here is your claim",
-                "step5Subtitle": "We were happy to share this exciting roadmap with all of you. As a LAND owner you are building the future, and we can’t wait to see what it will bring!",
-                "steps2To4Title1": "LAND Owners",
-                "steps2To4Title2": "Roadmap 2022",
-                "steps2To4Subtitle1": "On May 13, 2022 we introduced our latest roadmap for LAND Owners. Let us go through the perks and features you can expect in 2022!",
-                "steps2To4Subtitle2": "You are not eligible for the reward! Each LAND Owner is receiving some $mSAND based on the amount of LAND they owned on May 13, 2022.",
-                "footer": "Make sure to grab LAND to be eligible for the next claim!",
-                "alreadyClaimed": "Already Claimed",
+                "results": "{0} 결과",
+                "startProcess": "보상 수령 시작하기",
+                "claim": "수령하기",
+                "next": "다음",
+                "landsCount1": "{1} 기준 {0}개의 LAND를 보유하고 있습니다.",
+                "landsCount2": "다음의 보상을 획득하게 됩니다: {0} {1} {2}",
+                "landsCount3": "다음의 보상을 획득하게 됩니다: {0} {1} {2}",
+                "step1Title1": "수령하기:",
+                "step1Subtitle": "보상 획득 조건을 충족했습니다. 모든 LAND 보유자는 2022년 5월 13일 기준으로 보유한 LAND 수에 따라 $mSAND를 획득하게 됩니다.",
+                "step5Title": "다음의 보상을 수령할 수 있습니다.",
+                "step5Subtitle": "여러분에게 이 흥미로운 로드맵을 공유하게 되어 매우 기쁘게 생각합니다. 여러분은 LAND 보유자로서 미래를 건설해 나아가며, 더 샌드박스는 여러분과 함께 만들어 나갈 미래를 기대하고 있습니다!",
+                "steps2To4Title1": "LAND 보유자",
+                "steps2To4Title2": "2022 로드맵",
+                "steps2To4Subtitle1": "2022년 5월 13일, LAND 보유자를 위한 최신 로드맵을 발표했습니다. 2022년에 기대할 수 있는 특전과 새로운 기능을 살펴보세요!",
+                "steps2To4Subtitle2": "보상 획득 조건을 충족하지 못했습니다. 모든 LAND 보유자는 2022년 5월 13일 기준으로 보유한 LAND 수에 따라 $mSAND를 획득하게 됩니다.",
+                "footer": "다음 보상 수령을 위해 LAND를 구입하세요!",
+                "alreadyClaimed": "이미 보상을 수령했습니다.",
                 "congrats": {
-                    "title1": "Congrats!",
-                    "title2": "Earn SAND",
-                    "subtitle1": "You have successfully claimed",
-                    "subtitle2": "Here are some ways you can put it to good use",
-                    "subtitle3": "Get rewards by",
-                    "subtitle4": "staking",
-                    "subtitle5": "your"
+                    "title1": "축하합니다!",
+                    "title2": "SAND 획득",
+                    "subtitle1": "성공적으로 보상을 수령했습니다.",
+                    "subtitle2": "유용하게 사용할 수 있는 몇 가지 방법을 알아보세요.",
+                    "subtitle3": "스테이킹하고",
+                    "subtitle4": "보상을",
+                    "subtitle5": "획득하세요 -"
                 },
                 "milestones": {
                     "dates": {
-                        "1": "November 2021",
-                        "2": "January 2022",
-                        "3": "February 2022",
-                        "4": "May 2022",
-                        "5": "June 2022",
-                        "6": "July 2022",
-                        "7": "September 2022",
-                        "8": "May / June 2022",
-                        "9": "Q2/Q3 2022",
-                        "10": "Q3 2022",
-                        "11": "Q4 2022",
-                        "12": "May 2020"
+                        "1": "2021년 11월",
+                        "2": "2022년 1월",
+                        "3": "2022년 2월",
+                        "4": "2022년 5월",
+                        "5": "2022년 6월",
+                        "6": "2022년 7월",
+                        "7": "2022년 9월",
+                        "8": "2022년 5, 6월",
+                        "9": "2022년 2, 3분기",
+                        "10": "2022 3분기",
+                        "11": "2022 4분기",
+                        "12": "2020년 5월"
                     },
                     "claim": {
-                        "title": "CLAIM",
-                        "text1": "2.5M $mSAND airdrop to LAND owners",
-                        "text2": "5M $mSAND airdrop to LAND owners",
-                        "text3": "$mSAND claim to celebrate the Metaverse's 1,000th day based on LAND holding time"
+                        "title": "보상 수령",
+                        "text1": "LAND 보유자를 위한 2.5M $mSAND 에어드롭",
+                        "text2": "LAND 보유자를 위한 5M $mSAND 에어드롭",
+                        "text3": "LAND 보유일 기준 메타버스 1,000일 기념 $mSAND 보상 수령"
                     },
                     "stake": {
-                        "title": "STAKE",
-                        "text1": "Multiplier on SAND-ETH staking (Uniswap)",
-                        "text2": "Multiplier on mSAND-MATIC staking (Quickswap)",
-                        "text3": "Multiplier on mSAND staking (Layer 2)",
-                        "text4": "LAND owner exclusive $CATALYST and $GEM farming (Layer 2)",
-                        "text5": "LAND owner exclusive 10M $mSAND farming (Layer 2)"
+                        "title": "스테이킹",
+                        "text1": "SAND-ETH 스테이킹 계수 (유니스왑)",
+                        "text2": "mSAND-MATIC 스테이킹 계수 (퀵스왑)",
+                        "text3": "mSAND 스테이킹 계수 (레이어 2)",
+                        "text4": "LAND 보유자 전용 $CATALYST 및 $GEM 파밍 (레이어 2)",
+                        "text5": "LAND 보유자 전용 10M $mSAND 파밍 (레이어 2)"
                     },
                     "buy": {
-                        "title": "BUY",
-                        "text1": "More than 100,000 LAND acquired by over 20,000 LAND owners",
-                        "text2": "New partners",
-                        "text3": "New sales system with a raffle and KYC for a fair and distributed process",
-                        "text4": "Upcoming LAND sale Ubisoft, Paris Hilton, Warner Music Group, Gucci"
+                        "title": "구입",
+                        "text1": "20,000명 이상의 LAND 보유자가 100,000개 이상의 LAND 획득",
+                        "text2": "새로운 파트너",
+                        "text3": "공정하고 분산된 프로세스를 위한 추첨 및 KYC를 통한 새로운 판매 시스템",
+                        "text4": "유비소프트, 패리스 힐튼, 워너뮤직 그룹, 구찌 LAND 세일"
                     },
                     "play": {
-                        "title": "PLAY",
-                        "text1": "Season 1 : Exclusive Rewards",
-                        "text2": "Season 2 : Earn more $SAND and Raffle Tickets",
-                        "text3": "Season 3 : Extra Raffle Tickets, increased rewards, special raffle for LAND Owners only, raffle bonus"
+                        "title": "플레이",
+                        "text1": "시즌 1 : 독점 보상",
+                        "text2": "시즌 2 : 추가 $SAND 획득 및 추첨 티켓",
+                        "text3": "시즌 3 : 추가 추첨 티켓, 더 많은 보상, LAND 보유자 전용 특별 추첨, 추첨 보너스"
                     },
                     "build": {
-                        "title": "BUILD",
-                        "text1": "35+ certified Builders community",
-                        "text2": "Create ESTATEs with your LAND",
-                        "text3": "Publish experiences on your LAND",
-                        "text4": "Rent LAND & ESTATEs",
-                        "text5": "Premium LAND will unlock new assets and behaviors in the Game Maker"
+                        "title": "건설",
+                        "text1": "35개 이상의 인증된 빌더 커뮤니티",
+                        "text2": "보유한 LAND로 이스테이트 생성",
+                        "text3": "보유한 LAND에 경험 게시",
+                        "text4": "LAND 및 이스테이트 대여",
+                        "text5": "프리미엄 LAND 보유 시 게임 메이커에서 신규 애셋 및 행동 선택 가능"
                     },
                     "migrate": {
-                        "title": "MIGRATE",
-                        "text1": "Get access to all features on Polygon Layer 2",
-                        "text2": "1M $mSAND distributed in cashback on migrated LAND"
+                        "title": "마이그레이션",
+                        "text1": "폴리곤 레이어 2에서 모든 기능에 액세스",
+                        "text2": "마이그레이션된 LAND에 캐시백으로 1M $mSAND 배포"
                     },
                     "meet": {
-                        "title": "MEET",
-                        "text1": "Organize exclusive IRL events with our LAND owners including brands, talents and more… Soon at www.nft.nyc ✈️",
-                        "text2": "Organize and finance local Meetups"
+                        "title": "소통",
+                        "text1": "다양한 브랜드 및 재능있는 LAND 보유자들과 함께 독점 IRL 이벤트 개최 /  www.nft.nyc에서 곧 찾아옵니다 ✈️",
+                        "text2": "로컬 밋업 구성 및 자금 조달"
                     }
                 }
             }
@@ -3943,7 +3943,7 @@
         "tag-new": "NEW",
         "tagNew": "NEW",
         "signinWithEmail": "이메일로 로그인",
-        "venlyDowntimeAlert": "Venly services will experience downtime between Monday 13, June from 03:00 UTC to 05:00 UTC."
+        "venlyDowntimeAlert": "6월 13일 월요일 오후 12시에서 2시까지 2시간 동안 Venly 서비스가 중단됩니다."
     },
     "moderator": {
         "title": "운영자",
@@ -3996,7 +3996,7 @@
             "ticketDetails": "Ticket details",
             "raffleTickets": "추첨 티켓",
             "products": "상품 출시",
-            "partners": "Partners"
+            "partners": "파트너"
         },
         "users": {
             "profile": "프로필",
@@ -4089,7 +4089,7 @@
     },
     "sand": {
         "buy": {
-            "availableSand": "SAND 이용 가능 서비스",
+            "availableSand": "SAND 상장 거래소",
             "buySand": "SAND 구매",
             "howToBuySand": "SAND 구매 방법",
             "viewEtherscan": "Etherscan에서 확인하기",
@@ -4194,7 +4194,7 @@
         "socialMedia": "소셜 미디어",
         "collaborator": "협력자",
         "moreSimilarExperiences": "유사한 경험 더 보기",
-        "shareIn": "공유:",
+        "shareIn": "공유하기",
         "landsLinkedToTheExperience": "경험에 연결된 LAND",
         "assetsOnSaleFromCreator": "크리에이터가 판매 중인 애셋",
         "publishDate": "게시 날짜",
@@ -4250,9 +4250,9 @@
         "text1": "게임 메이커 알파 체험자로 선정되셨습니다!",
         "continue": "계속",
         "title2": "프로필을 완성해 주세요.",
-        "errorUsername1": "사용자 이름이 너무 짧습니다. 3자 이상이어야 합니다.",
-        "errorUsername2": "사용자 이름은 영숫자로 구성해야 합니다.",
-        "errorUsername3": "사용자 이름은 필수 항목입니다. 비워둘 수 없습니다.",
+        "errorUsername1": "유저네임이 너무 짧습니다. 3자 이상이어야 합니다.",
+        "errorUsername2": "유저네임은 영문 알파벳과 숫자로 구성해야 합니다.",
+        "errorUsername3": "유저네임은 필수 항목입니다. 비워둘 수 없습니다.",
         "confirmPass": "비밀번호 확인",
         "title3": "좋습니다! 준비가 끝났습니다!",
         "text3": "더 샌드박스 메타버스에 참여하여 게임을 플레이, 창작, 공유하고 수익도 올려보세요!"
@@ -4414,7 +4414,7 @@
         },
         "avatars": {
             "title": "아바타",
-            "lands": "LAND 및 이스테이트",
+            "lands": "Lands & Estates",
             "experiences": "경험",
             "entities": "엔티티"
         },
@@ -4434,7 +4434,7 @@
             "share": "추천 링크 공유하기",
             "duration": "링크 유효 기간:",
             "days": "일",
-            "sharein": "공유:",
+            "sharein": "공유하기",
             "amountreferred": "총 추천 수:",
             "amountearnings": "총 수익금: ",
             "link": "추천 자세히 알아보기 >",
@@ -4474,7 +4474,7 @@
                 "approved": "승인됨",
                 "rejected": "거부됨",
                 "purchased": "구매함",
-                "unpublished": "게시 안 함"
+                "unpublished": "게시되지 않음"
             }
         },
         "migration": {
@@ -4642,7 +4642,7 @@
     "artistmoderator": "아티스트 운영자",
     "artist": "아티스트",
     "addedAssets": "추가한 애셋",
-    "unpublishedAssets": "게시 안 한 애셋",
+    "unpublishedAssets": "게시되지 않은 애셋",
     "publishedAssets": "게시한 애셋",
     "pendingAssets": "보류 중인 애셋",
     "iteratingAssets": "반복 중인 애셋",
@@ -4687,7 +4687,7 @@
             },
             "marketplace": {
                 "title": "마켓플레이스",
-                "info": "한곳에서 최고의 애셋을 판매하고 수집할 수 있습니다.",
+                "info": "최고의 애셋을 판매하고 수집할 수 있는 바로 그곳",
                 "info1": "start.sandbox.marketplace.info1"
             },
             "gameMaker": {
@@ -4797,7 +4797,7 @@
             },
             "minecraft": {
                 "title": "마인크래프트",
-                "info": "작업물 가져오기"
+                "info": "내 애셋 사용하기"
             },
             "nfts": {
                 "title": "NFT",
@@ -4872,23 +4872,23 @@
         "zepeto": "Zepeto",
         "pranksy": "Pranksy NFT Boxes",
         "deadMau": "Deadmau5",
-        "metaverse": "元宇宙",
+        "metaverse": "METAVERSE",
         "summerJam": "Summer Jam",
         "euphoria": "Euphoria",
         "innovators": "Innovators",
         "pranksyMetapurse": "Pranksy & Metapurse",
-        "moon": "Moon",
-        "theHub1": "THE HUB（第1部分）",
-        "theHub2": "THE HUB（第2部分）",
+        "moon": "달",
+        "theHub1": "THE HUB (Part 1)",
+        "theHub2": "THE HUB (Part 2)",
         "sizes": "크기",
         "coordinates": "좌표",
         "wallet": "지갑",
         "partners": "파트너",
         "sectors": "부문",
-        "goToNewMap": "新版本地图上线了！切换至 ",
-        "newMapLink": "新版本。",
-        "goToOldMap": "返回至 ",
-        "oldMapLink": "旧地图",
+        "goToNewMap": "새로운 맵 버전을 사용할 수 있습니다! 여기에서 ",
+        "newMapLink": "새로운 버전으로 전환하세요.",
+        "goToOldMap": "레거시 맵으로 ",
+        "oldMapLink": "돌아가기",
         "noResults": "검색 결과가 없습니다",
         "liteMapTooltip": "라이트 맵에는 확대/축소 수준에 따라 이스테이트 이미지가 표시됩니다.",
         "applyButton": "적용",
@@ -4897,21 +4897,21 @@
         "eth": "이더리움",
         "polygon": "폴리곤",
         "partnersList": {
-            "tsb": "TSB",
-            "atari": "아타리",
-            "avenged-sevenfold": "어벤지드 세븐폴드",
+            "tsb": "The Sandbox",
+            "atari": "Atari",
+            "avenged-sevenfold": "Avenged Sevenfold",
             "binance": "Binance",
             "care-bears": "Care Bears",
             "coin-market": "CoinMarketCap",
-            "deadmau5": "데드마우스",
+            "deadmau5": "Deadmau5",
             "gemini": "Gemini",
             "pranksy": "Pranksy NFT Boxes",
             "pororo": "Pororo",
             "revv": "REVV",
-            "smurfs": "스머프",
+            "smurfs": "The Smurfs",
             "snoop-dogg": "Snoop Dogg",
             "twd": "The Walking Dead",
-            "zepeto": "제페토"
+            "zepeto": "Zepeto"
         }
     },
     "auctionInfo": {
@@ -5221,7 +5221,7 @@
             "claim": "수령하기"
         },
         "transactionHistory": {
-            "title": "거래 내역",
+            "title": "트랜잭션 내역",
             "noTransactions": "지난 며칠 동안 진행된 신규 트랜잭션이 없습니다.",
             "oldTransactions": "지난 트랜잭션 내역 확인하기"
         },
@@ -5277,7 +5277,7 @@
         "withdrawTitle": "인출",
         "claimTitle": "수령",
         "depositTitle": "예치",
-        "historyTitle": "거래 내역",
+        "historyTitle": "트랜잭션 내역",
         "pool": "토큰",
         "myPools": "내 풀",
         "totalRewards": "총 리워드",
@@ -5365,7 +5365,7 @@
                 "extraRaffle": {
                     "title": "추가 추첨 티켓",
                     "text": "를 스테이킹하고 추가 추첨 티켓을 획득하세요.",
-                    "tooltipGet": "얻다",
+                    "tooltipGet": "획득",
                     "tooltipStart": "2개마다",
                     "tooltipEnd": "최대 200장의 추첨 티켓을 획득할 수 있습니다."
                 },
@@ -5410,7 +5410,7 @@
                 "paragraph1": "스눕 독(Snoop Dogg)이 더 샌드박스 안에 저택을 건설하고 있습니다. 그리고 여러분을 파티에 초대했습니다!",
                 "paragraph2": "공놀이를 하고 영화도 보고 수영장 근처에서 편히 휴식을 취해보세요.",
                 "paragraph3": "스눕 독의 맨션에 방문하여 Doggfather의 NFT를 확인해 보세요.",
-                "mintNow": "Mint yours now!"
+                "mintNow": "아바타 민팅하기"
             },
             "loginVIP": {
                 "title": "VIP 파티 패스",
@@ -5577,13 +5577,13 @@
             "meta": {
                 "title": "더 샌드박스 게임 - 스눕독 아바타가 더 샌드박스를 찾아옵니다",
                 "description": "스놉 독 아바타가 더 샌드박스를 찾아옵니다. 친구들과 함께 메타버스를 즐겁게 탐험하며 이 세계에 생명을 불어넣으세요. 지금 아바타를 받고 더 샌드박스에 들어가세요.",
-                "keywords": "샌드박스, 복셀 아트, 3D 복셀 게임, 복셀 아티스트, 3D 온라인 PC 게임, 커뮤니티, 블록체인 dapp, PC 복셀 게임, PC 복셀 아트, 탈중앙화 게임, SAND, 토큰, 추첨",
+                "keywords": "샌드박스, 복셀 아트, 3D 복셀 게임, 복셀 아티스트, 3D 온라인 PC 게임, 커뮤니티, 블록체인 dapp, PC 복셀 게임, PC 복셀 아트, 탈중앙화 게임, SAND, 토큰, 스눕 독, 추첨",
                 "og": {
                     "title": "더 샌드박스 게임 - 더 도기즈가 더 샌드박스를 찾아옵니다",
                     "description": "더 도기즈가 더 샌드박스를 찾아옵니다. 친구들과 함께 메타버스를 즐겁게 탐험하며 이 세계에 생명을 불어넣으세요. 지금 아바타를 받고 더 샌드박스에 들어가세요.",
                     "url": "https://www.sandbox.game/en/snoopdogg/",
                     "site_name": "더 샌드박스 게임 - 더 도기즈가 더 샌드박스를 찾아옵니다",
-                    "image": "/img/30_Landing/raffle-doggies/metadata-image.jpg"
+                    "image": "/img/30_Landing/snoopdogg/metadata-image.jpg"
                 },
                 "twitter": {
                     "title": "더 샌드박스 게임 - 더 도기즈가 더 샌드박스를 찾아옵니다",
@@ -5591,7 +5591,7 @@
                     "card": "더 도기즈가 더 샌드박스를 찾아옵니다",
                     "site": "@thesandboxgame",
                     "creator": "@thesandboxgame",
-                    "image": "/img/30_Landing/raffle-doggies/metadata-image.jpg"
+                    "image": "/img/30_Landing/snoopdogg/metadata-image.jpg"
                 }
             },
             "menu": {
@@ -5607,7 +5607,7 @@
                 "title2": "아바타 10,000개",
                 "description1": "그 어디에서도 찾아볼 수 없었던, 하나하나 수작업으로 제작되고 플레이까지 가능한 더 도기즈가 더 샌드박스를 찾아옵니다.",
                 "description2": "Doggfather 스눕독의 손에서 탄생한 도기즈를 만나보세요.",
-                "button": "지금 민팅하세요!",
+                "button": "아바타 민팅하기",
                 "definitions": {
                     "title1": "더 도기즈란",
                     "title2": "무엇인가요?",
@@ -6004,7 +6004,7 @@
         "descriptionTooLong": "설명이 너무 깁니다",
         "descriptionRequired": "설명이 필요합니다",
         "congratulations": "축하합니다",
-        "usernameAlreadyInUse": "이미 사용 중인 사용자 이름입니다",
+        "usernameAlreadyInUse": "이미 사용 중인 유저네임입니다",
         "apply": "적용",
         "doNotShow": "다시 보지 않기",
         "chooseCurrency": "통화 선택",
@@ -6122,24 +6122,24 @@
             "step1": {
                 "title": "애셋 업로드",
                 "step1Title": "새로운 애셋",
-                "step2Title": "애셋 교체"
+                "step2Title": "애셋 교체하기"
             },
             "step2": {
-                "title": "애셋 교체",
+                "title": "애셋 교체하기",
                 "text": "교체할 애셋을 드롭다운 메뉴에서 선택하세요."
             }
         },
         "signIn": {
             "createAccount": "계정 만들기",
-            "usernameEmailMissing": "사용자 이름/이메일이 없습니다",
+            "usernameEmailMissing": "유저네임/이메일이 없습니다",
             "passwordMissing": "비밀번호가 없습니다",
-            "userPasswordMismatches": "사용자 또는 비밀번호가 일치하지 않습니다",
+            "userPasswordMismatches": "유저네임 또는 비밀번호가 일치하지 않습니다",
             "logWithWallet": "지갑으로 로그인",
             "walletIsNotAssociatedAnyUser": "지갑이 연결된 사용자가 없습니다",
             "signIn": "로그인",
             "title": "로그인",
             "subtitle": "마켓플레이스에 업로드하려면 로그인한 상태여야 합니다.",
-            "placeholder1": "사용자 이름/이메일",
+            "placeholder1": "유저네임/이메일",
             "placeholder2": "비밀번호",
             "forgotPass": "비밀번호를 잊었습니다",
             "walletLoginMsg": "지갑으로 로그인할 수도 있습니다.",
@@ -6185,14 +6185,14 @@
             "crossFingers": "행운의 주인공이 되기를 바랍니다!"
         },
         "presaleStarting": {
-            "title": "LAND Sale starting soon",
-            "description": "The current map doesn't support buying LAND. To join the LAND Sale please enter the Sale Map or click the button below.",
-            "countdownText": "Next LAND SALE",
-            "buttonText": "Join the LAND Sale"
+            "title": "곧 LAND 세일이 시작됩니다",
+            "description": "현재 맵은 LAND 구매를 지원하지 않습니다. LAND 세일에 참여하려면 세일 맵으로 이동하거나 아래 버튼을 클릭하세요.",
+            "countdownText": "다음 LAND 세일",
+            "buttonText": "LAND 세일 참여하기"
         },
         "presaleStarted": {
-            "title": "There's a LAND Sale in progress.",
-            "description": "The current map doesn't support buying LAND. To join the LAND Sale please access the Sale Map or click the button below."
+            "title": "LAND 세일이 진행 중입니다.",
+            "description": "현재 맵은 LAND 구매를 지원하지 않습니다. LAND 세일에 참여하려면 세일 맵으로 이동하거나 아래 버튼을 클릭하세요."
         }
     },
     "raffle": {
@@ -6205,7 +6205,7 @@
                 "description": "추첨에 참여하세요! 당첨의 기회는 누구에게나 열려 있습니다. 행운을 시험해 보세요!",
                 "url": "https://www.sandbox.game/en/raffle/",
                 "site_name": "더 샌드박스 게임 - 추첨 페이지",
-                "image": "/img/30_Landing/raffle-doggies/metadata-image.jpg"
+                "image": "/img/30_Landing/snoopdogg/metadata-image.jpg"
             },
             "twitter": {
                 "title": "더 샌드박스 게임 - 추첨 페이지",
@@ -6213,7 +6213,7 @@
                 "card": "더 샌드박스 게임 - 추첨 페이지",
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame",
-                "image": "/img/30_Landing/raffle-doggies/metadata-image.jpg"
+                "image": "/img/30_Landing/snoopdogg/metadata-image.jpg"
             }
         },
         "title": "나만의 스눕 독 아바타를 민팅하세요!",
@@ -6235,7 +6235,7 @@
             "etherAndSandWarning": "계속하려면 지갑에 ETH와 SAND를 보유해야 합니다.",
             "refreshButton": "새로고침",
             "popUpError": "문제가 발생했습니다. 브라우저에서 샌드박스 팝업을 허용한 후에 페이지를 새로고침해 주세요.",
-            "sorry": "화이트리스트에 없습니다!",
+            "sorry": "웰컴리스트에 없습니다!",
             "errorWhitelisted": "연결하신 지갑이 화이트리스트에 등록되어 있지 않습니다. 올바른 지갑을 연결하시기 바랍니다.",
             "reconnect": "다시 연결",
             "insufficientFunds": "지갑에 자금이 부족합니다.",
@@ -6386,7 +6386,7 @@
                 }
             }
         },
-        "howToMint": "How to mint an avatar?"
+        "howToMint": "어떻게 아바타를 민팅할 수 있나요?"
     },
     "modelViewer": {
         "view3D": "3D 보기",
@@ -6410,16 +6410,16 @@
     },
     "bridge": {
         "greeting": "Hi",
-        "walletBalance": "My balance",
+        "walletBalance": "내 잔고",
         "nftOnEth": "이더리움 메인넷의 NFT",
         "nftOnPolygon": "폴리곤 메인넷 NFT",
         "banner": {
-            "title": "The Sandbox Bridge",
-            "subtitleDeposit1": "Bridge your SAND and LAND between Ethereum (L1) and Polygon (L2)",
-            "subtitleDeposit2": "LAND bridged grant a SAND cashback on their first transfer to Polygon",
-            "subtitleWithdraw": ": Transfer your assets to Ethereum",
-            "howToLink": "How to Bridge",
-            "guideLink": "Get Support",
+            "title": "폴리곤 브릿지",
+            "subtitleDeposit1": "이더리움(L1)과 폴리곤(L2) 네트워크에서 SAND와 LAND 브릿지하기",
+            "subtitleDeposit2": "LAND 폴리곤 첫 이전 시 SAND 캐시백 제공",
+            "subtitleWithdraw": ": 애셋을 이더리움으로 트랜스퍼",
+            "howToLink": "어떻게 작동하나요?",
+            "guideLink": "유저 가이드",
             "faqLink": "FAQ"
         },
         "polygonCard": {
@@ -6535,9 +6535,7 @@
                         "headerTitle": "인출할 수량을 선택해 주세요.",
                         "headerSubTitle": "이더리움으로 트랜스퍼할 SAND 수량을 선택해 주세요.",
                         "footerText": [
-                            "Your tokens will be sent back to the Ethereum network in two steps.",
-                            "After signing the first transaction you will have to wait - 3-4 hours for the networks to synchronize.",
-                            "Then you will be asked to sign a second transaction."
+                            "토큰이 두 단계를 거쳐 이더리움 네트워크로 전송됩니다. 첫 번째 트랜잭션에 서명한 후 네트워크가 동기화될 수 있도록 약 3~4 시간 정도 기다린 후 두 번째 트랜잭션 창에 서명해 주세요."
                         ],
                         "button": "예치 시작하기"
                     }
@@ -6627,10 +6625,10 @@
                 ]
             },
             "totalCashback": "총 캐시백:",
-            "cashback": "Cashback:",
-            "pendingSecond": "Pending second transaction",
-            "olderTransactions": "For older pending transactions, please check the {0} {1}",
-            "polygonBridge": "Polygon Bridge Explorer"
+            "cashback": "캐시백:",
+            "pendingSecond": "두 번째 트랜잭션 보류 중",
+            "olderTransactions": "보류 중인 이전 트랜잭션의 경우 {0} {1}",
+            "polygonBridge": "POS Bridge Explorer를 확인하세요."
         },
         "buySand": "SAND 구매",
         "buymSand": "mSAND 구매",
@@ -6639,17 +6637,17 @@
         "noTransactions": "표시할 트랜잭션이 없습니다.",
         "pending": "보류 중",
         "checkTransactions": "이전 트랜잭션이나 보류 중인 트랜잭션을 확인하세요.",
-        "pendingWithdrawals": "Pending Withdrawal | Pending Withdrawals",
-        "pendingDeposits": "Pending Deposit | Pending Deposits",
+        "pendingWithdrawals": "보류 중인 인출",
+        "pendingDeposits": "보류 중인 예치",
         "cashback": {
             "total": "🔥 누적된 총 캐시백 🔥",
             "claim": "캐시백 수령하기"
         },
-        "deposits": "Deposits",
-        "withdraws": "Withdraws",
-        "actionRequired": "Action Required | Actions Required",
-        "actionsRequired": "Actions Required",
-        "land": "Land | Lands"
+        "deposits": "예치",
+        "withdraws": "인출",
+        "actionRequired": "액션 필요",
+        "actionsRequired": "액션 필요",
+        "land": "LAND | LANDs"
     },
     "season.info.communityBooster.bulletPoints.1.3": {
         "3": "을 획득할 수 있습니다."
@@ -6699,7 +6697,7 @@
         },
         "2018": {
             "1": {
-                "date": "2018",
+                "date": "2017",
                 "month": "4 월",
                 "title": "더 샌드박스 다운로드 수 4,000만 돌파 및 7,000만 유저 제작 콘텐츠 생성",
                 "text": "더 샌드박스 페이스북 팔로워 수 75만 명 돌파"
@@ -7212,7 +7210,7 @@
                         "title": "3D 타일맵"
                     },
                     "15": {
-                        "title": "Option to unify palettes for all VXM attached to a VXR"
+                        "title": "VXR에 첨부된 모든 VXM에 대한 팔레트 통합 옵션"
                     }
                 }
             },
@@ -8123,149 +8121,149 @@
         }
     },
     "exteralCollections": {
-        "name": "外部收藏",
+        "name": "외부 컬렉션",
         "header": {
-            "title": "探索外部收藏",
-            "description": "發現可以在元節上使用的外部集合",
-            "info": "收藏信息",
-            "owners": "所有者",
-            "assets": "資產",
-            "link": "公共鏈接",
-            "created": "創建者",
+            "title": "외부 컬렉션 살펴보기",
+            "description": "메타버스에서 사용할 수 있는 외부 컬렉션을 찾아보세요",
+            "info": "컬렉션 정보",
+            "owners": "소유자",
+            "assets": "자산",
+            "link": "공개 링크",
+            "created": "크리에이터:",
             "description2": "지갑을 연결하여 외부 아바타를 보유하고 있는지 확인하세요."
         },
-        "link": "在 OpenSea 上購買",
-        "sidebar": "頭像",
-        "explore": "探索外部收藏",
-        "total": " 集合中的資產",
+        "link": "OpenSea에서 구매하세요",
+        "sidebar": "아바타",
+        "explore": "외부 컬렉션 탐색",
+        "total": " 컬렉션의 자산",
         "exploreLands": "LAND와 이스테이트 탐험하기",
         "exploreLatest": "모든 애셋 살펴보기"
     },
     "alpha3": {
         "contest": {
-            "play": "Play"
+            "play": "플레이"
         }
     },
     "community": {
-        "wrongUrl": "Value must only contain letters and numbers",
-        "deleteButton": "Delete",
-        "cancelButton": "Cancel",
-        "back": "Back",
-        "community": "Community",
-        "collaboration": "Collaboration",
-        "createButton": "Create",
-        "saveButton": "Save",
-        "transferButton": "Transfer",
-        "editButton": "Edit",
-        "yes": "Yes",
-        "later": "Later",
-        "reset": "Reset",
-        "linkCopied": "Link copied to clipboard",
+        "wrongUrl": "값은 글자와 문자만 포함해야 합니다",
+        "deleteButton": "삭제",
+        "cancelButton": "취소",
+        "back": "뒤로",
+        "community": "커뮤니티",
+        "collaboration": "콜라보레이션",
+        "createButton": "생성",
+        "saveButton": "저장",
+        "transferButton": "트랜스퍼",
+        "editButton": "수정",
+        "yes": "예",
+        "later": "나중에",
+        "reset": "리셋",
+        "linkCopied": "링크가 클립보드에 복사되었습니다.",
         "sidebar": {
-            "settings": "Settings",
-            "members": "Members",
-            "workspaces": "Workspaces",
-            "reporting": "Reporting"
+            "settings": "설정",
+            "members": "멤버",
+            "workspaces": "워크스페이스",
+            "reporting": "신고"
         },
-        "onlyAdminOrCreator": "This section is only available for community admins or workspace creators",
-        "onlyIfHasRolePermission": "This section is only available if you have permissions",
+        "onlyAdminOrCreator": "이 섹션은 커뮤니티 관리자 또는 워크스페이스를 생성한 사람만 이용할 수 있습니다",
+        "onlyIfHasRolePermission": "이 섹션은 권한이 있는 경우에만 이용할 수 있습니다",
         "workspaces": {
-            "title": "Workspaces",
-            "workspace": "Workspace",
-            "add": "+ Add",
-            "new": "+ New",
-            "settings": "Settings",
-            "roles": "Roles",
-            "members": "Members",
-            "assets": "Assets",
-            "experiences": "Experiences",
-            "titleFilter": "Workspace created {value}/{total}",
-            "noResultTitle": "This Community doesn't have any Workspaces yet.",
-            "searchName": "Search by name",
-            "noResultText": "Click on 'Add Workspace' to start!",
-            "icon": "Icon",
-            "workspaceName": "Workspace name",
-            "workspaceMembersCount": "Members",
-            "workspaceAssetsCount": "Assets",
-            "workspaceExperiencesCount": "Experiences",
-            "link": "Link",
-            "workflow": "Workflow",
-            "copy": "Copy link",
-            "viewMembers": "View Members",
+            "title": "워크스페이스",
+            "workspace": "워크스페이스",
+            "add": "+ 추가",
+            "new": "+ 신규",
+            "settings": "설정",
+            "roles": "역할",
+            "members": "멤버",
+            "assets": "애셋",
+            "experiences": "경험",
+            "titleFilter": "워크스페이스 생성됨: {value}/{total}",
+            "noResultTitle": "이 커뮤니티에는 아직 워크스페이스가 없습니다.",
+            "searchName": "이름으로 검색",
+            "noResultText": "'워크스페이스 추가'를 클릭하여 시작하세요!",
+            "icon": "아이콘",
+            "workspaceName": "워크스페이스 이름",
+            "workspaceMembersCount": "멤버",
+            "workspaceAssetsCount": "애셋",
+            "workspaceExperiencesCount": "경험",
+            "link": "링크",
+            "workflow": "워크플로우",
+            "copy": "링크 복사하기",
+            "viewMembers": "멤버 보기",
             "modal": {
                 "add": {
-                    "addWorkspace": "Add New Workspace",
-                    "workspaceName": "Workspace Name *",
-                    "workspaceNamePlaceholder": "Eg: Smurfs Playground",
-                    "workflowType": "Workflow Type",
-                    "enterURL": "Enter a URL",
+                    "addWorkspace": "새로운 워크스페이스 추가하기",
+                    "workspaceName": "워크스페이스 이름 *",
+                    "workspaceNamePlaceholder": "예: Smurfs Playground",
+                    "workflowType": "워크플로우 타입",
+                    "enterURL": "URL 입력하기",
                     "workflows": {
-                        "simplified": "Simplified - No review",
-                        "reviewTransfer": "Review - With ownership transfer",
-                        "reviewWithoutTransfer": "Review - Without ownership transfer"
+                        "simplified": "간단함 - 리뷰 없음",
+                        "reviewTransfer": "리뷰 - 소유권 이전 포함",
+                        "reviewWithoutTransfer": "리뷰 - 소유권 이전 불포함"
                     }
                 },
                 "delete": {
-                    "deleteWorkspace": "Delete Workspace",
-                    "deleteWorkspaceQuestion": "Are you sure that you want to delete permanently the follow workspace?",
-                    "deleteButton": "Delete",
-                    "cancelButton": "Cancel",
-                    "name": "NAME",
-                    "workflow": "WORKFLOW"
+                    "deleteWorkspace": "워크스페이스 삭제",
+                    "deleteWorkspaceQuestion": "다음의 워크스페이스를 영구적으로 삭제하시겠습니까?",
+                    "deleteButton": "삭제",
+                    "cancelButton": "취소",
+                    "name": "이름",
+                    "workflow": "워크플로우"
                 },
                 "edit": {
-                    "editWorkspace": "Edit members"
+                    "editWorkspace": "멤버 수정"
                 }
             },
-            "workflowType": "Workflow Type"
+            "workflowType": "워크플로우 유형"
         },
         "members": {
-            "newMember": "+ Add member",
-            "newInvitation": "Create invitation",
-            "invitations": "Invitations",
-            "members": "Members",
+            "newMember": "+ 신규 멤버 추가",
+            "newInvitation": "초대 생성",
+            "invitations": "초대",
+            "members": "멤버",
             "tab": {
-                "numberOfMembers": "Members",
-                "numberOfInvitations": "Invitation created",
+                "numberOfMembers": "멤버",
+                "numberOfInvitations": "초대 생성됨",
                 "table": {
-                    "user": "User",
-                    "groups": "Groups",
-                    "ban": "Ban",
-                    "actions": "Actions"
+                    "user": "유저",
+                    "groups": "그룹",
+                    "ban": "차단",
+                    "actions": "액션"
                 }
             },
             "modal": {
-                "assignRol": "Assign Roles",
-                "assignedRol": "Assigned Roles",
+                "assignRol": "역할 지정",
+                "assignedRol": "지정된 역할",
                 "toast": {
-                    "already": "{member} already exists.",
-                    "okAdded": "{member} was successfully added.",
-                    "okAddedPlu": "{member} were successfully added.",
-                    "otherMemberAlready": "{member} and other member already exists.",
-                    "otherMemberOk": "{member} and other member was successfully added.",
-                    "othersMembersAlready": "{member} and {count} others members already exists.",
-                    "othersMembersOk": "{member} and {count} others members were successfully added.",
-                    "notFound": "{member} not found"
+                    "already": "{member}가 이미 존재합니다.",
+                    "okAdded": "{member}가 성공적으로 추가되었습니다.",
+                    "okAddedPlu": "{member}가 성공적으로 추가되었습니다.",
+                    "otherMemberAlready": "{member}와 다른 멤버가 이미 존재합니다.",
+                    "otherMemberOk": "{member}와 다른 멤버가 성공적으로 추가되었습니다.",
+                    "othersMembersAlready": "{member}와 {count}명의 다른 멤버가 이미 존재합니다.",
+                    "othersMembersOk": "{member}와 {count}명의 다른 멤버가 성공적으로 추가되었습니다.",
+                    "notFound": "{member}를 찾을 수 없습니다."
                 },
                 "add": {
-                    "addMembers": "Add members",
-                    "addNewMembers": "Add New Members",
-                    "addInviteLink": "Create new Link Invitation",
-                    "removeAll": "Remove all",
-                    "membersToAdd": "Type or copy mails separated by commas",
-                    "errorEmails": "There is an error with one or more emails"
+                    "addMembers": "멤버 추가",
+                    "addNewMembers": "신규 멤버 추가",
+                    "addInviteLink": "새로운 초대 링크 생성",
+                    "removeAll": "모두 삭제",
+                    "membersToAdd": "콤마로 구분하여 이메일 입력 또는 복사",
+                    "errorEmails": "하나 이상의 이메일 주소에 오류가 있습니다"
                 },
                 "delete": {
-                    "deleteMember": "Delete Member",
-                    "deleteInvite": "Delete Link Invitation",
-                    "questionMember": "Are you sure that you want to delete permanently the follow Member?",
-                    "questionInvite": "Are you sure that you want to delete permanently the follow Link Invitation?",
-                    "roles": "ROLES",
+                    "deleteMember": "멤버 삭제",
+                    "deleteInvite": "링크 초대 삭제",
+                    "questionMember": "다음의 멤버를 영구적으로 삭제하시겠습니까?",
+                    "questionInvite": "다음의 링크 초대를 영구적으로 삭제하시겠습니까?",
+                    "roles": "역할",
                     "claims": "CLAIMS",
-                    "username": "Username"
+                    "username": "유저네임"
                 },
                 "edit": {
-                    "editMember": "Edit Member"
+                    "editMember": "멤버 수정"
                 }
             }
         },
@@ -8273,41 +8271,41 @@
             "numberOfUses": "Number of uses",
             "lastEdition": "LAST EDITION",
             "linkUses": "LINK USES",
-            "link": "LINK",
-            "actions": "ACTIONS",
-            "roles": "ROLES",
+            "link": "링크",
+            "actions": "액션",
+            "roles": "역할",
             "claims": "CLAIMS",
             "noInvitation": "This workspace doesn't have any invitations yet",
             "noPrivateWorkspaceInvite": "Can not create invite for private workspace",
             "clickToAddInvitation": "Click on 'Create invitation' to start"
         },
         "settings": {
-            "generalSettings": "General Settings",
+            "generalSettings": "일반 설정",
             "manageCommunity": "Manage the community details, info and more.",
-            "workspaceName": "Workspace Name",
-            "workflowType": "Workflow Type",
+            "workspaceName": "워크스페이스 이름",
+            "workflowType": "워크플로우 유형",
             "url": "URL",
-            "saveChanges": "Save Changes",
+            "saveChanges": "변경사항 저장",
             "quotas": "Quotas",
-            "membersLimit": "Members Limit",
-            "membersPerGroup": "Members per group",
-            "assetLimit": "Asset Limit",
-            "experiencesLimit": "Experiences Limit",
-            "actions": "Actions",
-            "exportWorkspace": "Export workspace",
-            "importWorkspace": "Import workspace",
-            "wantToRemove": "Do you want to remove this workplace from Administrator?",
-            "wantToRemoveDescription": "Removing your team will remove all users and administrators from your team. The action of deleting a workspace is PERMANENT and the data associated with it cannot be recovered.",
-            "wantToRemoveLink": "I want to delete this workplace permanently"
+            "membersLimit": "멤버 제한",
+            "membersPerGroup": "그룹별 멤버",
+            "assetLimit": "애셋 제한",
+            "experiencesLimit": "경험 제한",
+            "actions": "액션",
+            "exportWorkspace": "워크스페이스 내보내기",
+            "importWorkspace": "워크스페이스 불러오기",
+            "wantToRemove": "이 워크플레이스를 관리자에서 삭제하시겠습니까?",
+            "wantToRemoveDescription": "팀을 제거하면 팀에서 모든 유저와 관리자가 삭제됩니다. 워크스페이스 삭제는 영구적이며 해당 워크스페이스의 데이터는 복구되지 않습니다.",
+            "wantToRemoveLink": "이 워크스페이스를 영구적으로 삭제합니다."
         },
         "roles": {
             "modal": {
-                "Asset_creator": "Asset Creator",
-                "Asset_editor": "Asset Editor",
-                "Asset_reviewer": "Asset Reviewer",
+                "Asset_creator": "애셋 크리에이터",
+                "Asset_editor": "애셋 에디터",
+                "Asset_reviewer": "애셋 리뷰어",
                 "Asset_reviewer_edit": "Asset Reviewer Edition",
                 "Asset_request_approval": "Asset Request Approval",
-                "Asset_show": "Asset Show",
+                "Asset_show": "애셋 표시",
                 "Role_creator": "Role Creator",
                 "Roles_editor": "Role Editor",
                 "Roles_destroyer": "Role Destroyer",
@@ -8318,144 +8316,144 @@
                 "Members_updater": "Member Updater",
                 "Members_destroyer": "Member Destroyer",
                 "Workspace_updater": "Workspace Updater",
-                "Workspace_invite_creator": "Invite Creator",
+                "Workspace_invite_creator": "크리에이터 초대",
                 "Workspace_invite_show": "Invite Display",
                 "Workspace_invite_destroyer": "Invite Destroyer",
-                "Workspace_owned_asset_add": "Add owned asset",
-                "Workspace_transfer_asset_ownership": "Transfer Asset Ownership",
-                "Workspace_asset_move_verify": "Move Asset to Verify",
+                "Workspace_owned_asset_add": "보유한 애셋 추가",
+                "Workspace_transfer_asset_ownership": "애셋 소유권 이전",
+                "Workspace_asset_move_verify": "확인을 위해 애셋 이동",
                 "Asset_send_iterate": "Send Asset Iterate",
-                "Asset_view_history": "Asset View History",
-                "Asset_restore": "Asset Restore",
-                "Workspaces_assets_transfer_to_workspace": "Transfer Asset to Workspace",
+                "Asset_view_history": "애셋 보기 내역",
+                "Asset_restore": "애셋 복구",
+                "Workspaces_assets_transfer_to_workspace": "애셋을 워크스페이스로 트랜스퍼",
                 "menuAction": {
-                    "manageMembers": "Manage members",
-                    "editRole": "Edit role",
-                    "deleteRole": "Delete role"
+                    "manageMembers": "멤버 관리",
+                    "editRole": "역할 수정",
+                    "deleteRole": "역할 삭제"
                 },
                 "manageMembers": {
                     "title1": "Manage Members to ",
                     "title2": " role",
-                    "placeholder": "Search by email",
-                    "noMembersShow": "There's not members to show",
+                    "placeholder": "이메일로 검색",
+                    "noMembersShow": "표시할 멤버가 없습니다",
                     "newMembersToAdd": "NEW MEMBERS SELECTED TO ADD",
-                    "members": "Members",
-                    "roleWithoutMember": "This role doesn't have any member yet.",
-                    "success": "{name} was successfully updated"
+                    "members": "멤버",
+                    "roleWithoutMember": "이 역할에는 아직 멤버가 없습니다.",
+                    "success": "{name}가 성공적으로 업데이트 되었습니다."
                 },
                 "addEdit": {
-                    "title": "Create New Role",
-                    "nameRole": "Name Role",
-                    "placeholderName": "Eg. Smurfs playground",
-                    "permissions": "Permissions",
-                    "description": "Description",
-                    "placeholderDescription": "Give to the members a short description of the group"
+                    "title": "신규 역할 생성",
+                    "nameRole": "역할 이름",
+                    "placeholderName": "예: Smurfs playground",
+                    "permissions": "권한",
+                    "description": "설명",
+                    "placeholderDescription": "그룹의 간단한 설명을 기입합니다"
                 },
                 "delete": {
-                    "title": "Delete Role",
-                    "question": "Are you sure that you want to delete permanently the follow Role?",
-                    "role": "ROLE",
-                    "members": "MEMBERS",
-                    "permissions": "PERMISSIONS",
-                    "workflow": "WORKFLOW",
-                    "success": "{member} was successfully deleted"
+                    "title": "역할 삭제",
+                    "question": "다음의 역할을 영구적으로 삭제하시겠습니까?",
+                    "role": "역할",
+                    "members": "멤버",
+                    "permissions": "권한",
+                    "workflow": "워크플로우",
+                    "success": "{member}가 성공적으로 삭제되었습니다"
                 },
                 "divider": {
-                    "asset": "Asset",
-                    "asset_approval": "Asset Approval",
-                    "user": "User",
-                    "role": "Role",
-                    "workspace": "Workspace"
+                    "asset": "애셋",
+                    "asset_approval": "애셋 승인",
+                    "user": "유저",
+                    "role": "역할",
+                    "workspace": "워크스페이스"
                 },
-                "options_selected": "{count} permissions selected"
+                "options_selected": "{count}개의 권한 선택됨"
             },
-            "addNewRoles": "+ Add New Role",
-            "quantityRoles": "Roles created",
-            "gridRole": "ROLE",
-            "gridPermissions": "PERMISSIONS",
-            "gridMembers": "MEMBERS",
-            "gridActions": "ACTIONS",
-            "youDontHaveRoles": "This Workspace doesn’t have any role yet.",
-            "notRolesYet": "This Workspace doesn't have any roles yet.",
-            "clickToCreate": "Click on “Add New Role” to start!",
-            "workspacePrivate": "You cannot create roles for the private Workspace."
+            "addNewRoles": "+ 신규 역할 추가",
+            "quantityRoles": "역할 생성됨",
+            "gridRole": "역할",
+            "gridPermissions": "권한",
+            "gridMembers": "멤버",
+            "gridActions": "액션",
+            "youDontHaveRoles": "이 워크스페이스는 아직 역할이 없습니다.",
+            "notRolesYet": "이 워크스페이스는 아직 역할이 없습니다.",
+            "clickToCreate": "'신규 역할 추가'를 클릭하여 시작하세요!",
+            "workspacePrivate": "비공개 워크스페이스에는 역할을 생성할 수 없습니다."
         },
         "assets": {
-            "loading": "Loading assets...",
-            "uploadingAsset": "Loading asset...",
-            "notAssets": "There are no assets in your workspace. ",
-            "notAssetsOwnedToAdd": "You don't have more assets to add. Go to Marketplace to buy assets.",
+            "loading": "애셋 불러오는 중...",
+            "uploadingAsset": "애셋 불러오는 중...",
+            "notAssets": "워크스페이스에 애셋이 없습니다.",
+            "notAssetsOwnedToAdd": "추가할 애셋이 없습니다. 마켓플레이스에서 애셋을 구매하세요.",
             "notAssetsUpload_1": " Use ",
             "notAssetsUpload_2": " Vox Edit to upload one.",
-            "noAssetsCatalog": "Go to Marketplace to buy assets or use Vox Edit to create one",
-            "notAssets_2": "Go to Marketplace to buy assets or use Vox Edit to create one",
-            "onlyMyAssets": "Show only my Assets",
-            "searchName": "Search by name",
-            "notPermissions": "You don't have permission to see assets",
-            "assetsTotal": "Assets total {count}",
-            "readyToMint": "Ready to Mint",
-            "positionOf": "{current} of {total}",
-            "assetsApproval": "{count} assets were successfully requested approval",
-            "singleAssetApproval": "was successfully requested approval",
-            "deletedOk": "Asset successfully deleted",
-            "bannedOk": "Asset successfully banned",
-            "transferedOk": "Asset transfered correctly",
-            "tokenCopied": "Token ID copied to clipboard",
-            "alreadyBelogsCommunity": "This Asset already belongs to this Collection",
+            "noAssetsCatalog": "마켓플레이스에서 애셋을 구매하거나 복스에딧으로 애셋을 제작하세요",
+            "notAssets_2": "마켓플레이스에서 애셋을 구매하거나 복스에딧으로 애셋을 제작하세요",
+            "onlyMyAssets": "내 애셋만 표시",
+            "searchName": "이름으로 검색",
+            "notPermissions": "애셋을 볼 수 있는 권한이 없습니다.",
+            "assetsTotal": "총 {count}개의 애셋",
+            "readyToMint": "민팅 준비 완료",
+            "positionOf": "{current}/{total}",
+            "assetsApproval": "{count}개 애셋의 승인 요청이 완료되었습니다.",
+            "singleAssetApproval": "가 성공적으로 승인 요청되었습니다.",
+            "deletedOk": "애셋이 성공적으로 삭제되었습니다.",
+            "bannedOk": "애셋이 성공적으로 차단되었습니다.",
+            "transferedOk": "애셋이 올바르게 이동되었습니다.",
+            "tokenCopied": "토큰 ID가 클립보드에 복사되었습니다.",
+            "alreadyBelogsCommunity": "이 애셋은 이미 이 컬렉션에 포함되어 있습니다.",
             "stats": {
                 "copies": "COPIES",
-                "behavior": "BEHAVIOR",
-                "none": "NONE"
+                "behavior": "행동",
+                "none": "해당없음"
             },
             "minting": {
-                "title": "ASSETS {amount}"
+                "title": "애셋 {amount}개"
             },
             "owned": {
-                "addOwned": "Add Owned",
-                "allocate": "Allocate",
-                "unallocate": "Unallocate",
-                "search": "Search",
-                "all": "All",
-                "successOnlyMove": "An asset was successfully {action} in the workspace",
-                "successOnlyAllocate": "An asset was successfully allocated in the workspace",
-                "successOnlyUnallocate": "An asset was successfully unallocated in the workspace",
-                "successGroupMove": "{amount} assets were successfully moved in the workspace",
-                "successGroupAllocate": "{amount} assets were successfully allocated in the workspace",
-                "successGroupUnallocate": "{amount} assets were successfully unallocated in the workspace"
+                "addOwned": "보유한 애셋 추가",
+                "allocate": "추가하기",
+                "unallocate": "제거하기",
+                "search": "검색",
+                "all": "전체",
+                "successOnlyMove": "애셋이 워크스페이스에서 성공적으로 {action} 되었습니다.",
+                "successOnlyAllocate": "애셋이 성공적으로 워크스페이스에 추가되었습니다.",
+                "successOnlyUnallocate": "애셋이 성공적으로 워크스페이스에서 제거되었습니다.",
+                "successGroupMove": "{amount}개의 애셋이 성공적으로 워크스페이스에 이동되었습니다.",
+                "successGroupAllocate": "{amount}개의 애셋이 성공적으로 워크스페이스에 추가되었습니다.",
+                "successGroupUnallocate": "{amount}개의 애셋이 성공적으로 워크스페이스에서 제거되었습니다."
             },
             "history": {
-                "searchUser": "Search user",
-                "snapshots": "Snapshots",
-                "title": "History"
+                "searchUser": "유저 검색",
+                "snapshots": "스냅샷",
+                "title": "내역"
             },
             "upload": {
-                "noPermissions": "You don't have permission to upload or update an asset",
+                "noPermissions": "애셋을 업로드하거나 업데이트할 권한이 없습니다",
                 "workspaceStep": {
-                    "title": "Do you want to pick another workspace to upload this asset ?",
-                    "workspace": "Workspace",
-                    "community": "Community"
+                    "title": "다른 워크스페이스를 선택하여 이 애셋을 업로드하시겠습니까?",
+                    "workspace": "워크스페이스",
+                    "community": "커뮤니티"
                 },
                 "transferToWorkspace": {
-                    "title": "Transfer to Workspace",
-                    "community": "Select Community",
-                    "workspace": "Select Workspace",
-                    "transfer": "Transfer"
+                    "title": "워크스페이스로 이동",
+                    "community": "커뮤니티 선택",
+                    "workspace": "워크스페이스 선택",
+                    "transfer": "트랜스퍼"
                 },
                 "preStep": {
-                    "setAttributes": "Do you want to set the attributes now?",
+                    "setAttributes": "지금 능력치를 설정하시겠습니까?",
                     "description1": "- You can configure your biome on your Voxel and tag it with its main characteristics so that it is recognized by our users.",
                     "description2": "- Also establish attributes that will be given to your asset great powers to use in Game Maker and your experiences"
                 },
                 "name": {
-                    "name": "NFT Full Name",
-                    "description": "Description",
-                    "placeDescription": "Enter the NFT description",
-                    "placeName": "Enter the NFT name"
+                    "name": "NFT 전체 이름",
+                    "description": "설명",
+                    "placeDescription": "NFT의 설명을 입력하세요",
+                    "placeName": "NFT의 이름을 입력하세요"
                 },
                 "rarity": {
-                    "behaviour": "Behaviour",
-                    "pickBehaviour": "Choose the behavior of your NFT",
-                    "description": "The behavior defines how ehe asset is going to behave in Game Maker.",
+                    "behaviour": "행동",
+                    "pickBehaviour": "NFT의 행동을 선택하세요",
+                    "description": "행동을 통해 게임 메이커에서 애셋이 어떻게 동작할지 결정합니다.",
                     "artOrProp": "If you choose Art or Prop Tier, you can't add some gems to your asset",
                     "stepCommonInfo": "This is the first tier for NFT. They have limited use in the Game Maker and generate little Ethos Points.",
                     "stepRareInfo": "Rare NFT have increased Game Maker usage and rewards more Ethos Point.",
@@ -8463,103 +8461,103 @@
                     "stepLegendaryInfo": "This is the first tier for NFT. They have limited use in the Game Maker and generate little Ethos Point.",
                     "stepPropInfo": "Art NFT have no special capcities in the Game Maker but allow you to maje unique pieces to showcase your talent.",
                     "stepArtInfo": "Art NFT have no special capcities in the Game Maker but allow you to maje unique pieces to showcase your talent.",
-                    "uploadAsset": "Upload Asset",
-                    "previousStep": "Previous Step",
-                    "continue": "Continue",
-                    "skipAll": "Skip All",
-                    "save": "Save"
+                    "uploadAsset": "애셋 업로드",
+                    "previousStep": "이전 단계",
+                    "continue": "계속",
+                    "skipAll": "모두 건너뛰기",
+                    "save": "저장"
                 },
                 "tabs": {
-                    "title1": "1. What is your NFT's name",
-                    "title2": "2. Choose its main characteristics",
-                    "title3": "3. What kind of NFT do you want to create?",
-                    "title4": "4. How do you want to boost the NFT?",
-                    "title5": "Pick a theme",
+                    "title1": "1. NFT의 이름은 무엇인가요?",
+                    "title2": "2. 주요 특성을 선택하세요.",
+                    "title3": "3. 어떤 종류의 NFT를 제작하고 싶은가요?",
+                    "title4": "4. NFT를 어떻게 강화하고 싶은가요?",
+                    "title5": "테마 선택",
                     "subtitle1_1": "subtitle1_1",
-                    "subtitle2_1": "These tags will help people searching for this type of NFT on Game Maker or out Marketplace. Choose up to 3 tags",
-                    "subtitle3_1": "The catalyst define the Tier of your asset, they can be socketed with Gems.",
-                    "subtitle3_2": "The higher the Tier, the more sockets.",
-                    "subtitle4_1": "Each Gem gives a different attribute to your asset. The more Gems of the same type, the more attributes you get.",
-                    "subtitle4_2": "Drag or click in your gems to add or remove then inside the Catalyst."
+                    "subtitle2_1": "애셋에 부여된 태그를 통해 다른 유저들이 게임 메이커 또는 마켓플레이스에서 해당 유형의 NFT를 검색할 수 있습니다. 최대 3개의 태그를 선택하세요.",
+                    "subtitle3_1": "카탈리스트는 애셋의 등급을 결정하며 젬을 추가할 수 있는 소켓이 주어집니다.",
+                    "subtitle3_2": "등급이 높을수록 소켓 수가 많아집니다.",
+                    "subtitle4_1": "각 젬은 애셋에 다양한 능력치를 부여합니다. 같은 유형의 젬이 많을수록 해당 유형의 능력치가 커집니다.",
+                    "subtitle4_2": "젬을 드래그하거나 클릭하여 카탈리스트 내부에 추가 및 제거합니다."
                 },
                 "theme": {
-                    "pickTheme": "Pick a theme",
-                    "theme": "Theme"
+                    "pickTheme": "테마 선택",
+                    "theme": "테마"
                 },
                 "card": {
-                    "art": "Art",
-                    "prop": "Prop"
+                    "art": "아트",
+                    "prop": "소품"
                 }
             },
             "previewInModal": {
-                "copies": "Copies: {copies}"
+                "copies": "수량: {copies}"
             },
             "transferOwnership": {
-                "title": "Transfer Ownership",
-                "owner": "Select new owner",
-                "search": "Search by email or name",
-                "transfer": "Transfer"
+                "title": "소유권 이전",
+                "owner": "새로운 소유자 선택",
+                "search": "이메일 또는 이름으로 검색",
+                "transfer": "트랜스퍼"
             },
             "delete": {
-                "title": "Delete permanently",
-                "subtitle": "Are you sure that you want to delete the follow assets?",
-                "action": "Delete"
+                "title": "영구 삭제",
+                "subtitle": "다음 애셋을 정말로 삭제하시겠습니까?",
+                "action": "삭제"
             },
             "unpublish": {
-                "title": "Unpublish",
-                "subtitle": "Are you sure that you want to unpublished the follow assets?",
-                "action": "Unpublish"
+                "title": "게시 취소",
+                "subtitle": "다음 애셋을 정말로 게시 취소하시겠습니까?",
+                "action": "게시 취소"
             },
             "usedInExperience": {
-                "empty": "Empty preview",
-                "review": "Review",
-                "title": "Used in the following experiences: "
+                "empty": "미리보기 삭제",
+                "review": "리뷰",
+                "title": "다음의 경험에서 사용됨: "
             },
             "comments": {
-                "message": "Leave a comment to the artist",
-                "explain": "Please explain the reasons you have, to reject the asset to the artist",
+                "message": "아티스트에게 코멘트 남기기",
+                "explain": "애셋을 거부하고 아티스트에게 돌려주어야 하는 이유를 설명해 주세요.",
                 "placeholderArea": "Write an iterating/reject reason",
                 "reject": "Reject",
                 "iterate": "Send to Iterate",
-                "comments": "COMMENTS"
+                "comments": "코멘트"
             },
             "display": {
-                "voxEdit": "Edit on VoxEdit",
-                "reviewVE": "Review in VoxEdit"
+                "voxEdit": "복스에딧에서 수정",
+                "reviewVE": "복스에딧에서 리뷰"
             },
             "info": {
-                "putOnSale": "Put on Sale",
-                "transferOwnership": "Transfer Ownership",
-                "transferToWorkspace": "Transfer to Workspace",
-                "unpublish": "Unpublish",
-                "requestApproval": "Request Approval",
-                "approve": "Approve",
-                "moveToVerify": "Move To Verify",
-                "deletePerma": "Delete Permanently",
-                "delete": "Delete",
-                "mint": "Mint",
-                "catalyst": "Catalyst",
-                "gems": "Gems",
-                "owner": "OWNER",
-                "viewHistory": "View History",
-                "updatedOk": "Asset updated correctly",
-                "ban": "Ban Asset",
-                "restore": "Restore"
+                "putOnSale": "판매 목록에 올리기",
+                "transferOwnership": "소유권 이전",
+                "transferToWorkspace": "워크스페이스로 이동",
+                "unpublish": "게시 취소",
+                "requestApproval": "승인 요청",
+                "approve": "승인",
+                "moveToVerify": "확인을 위해 이동",
+                "deletePerma": "영구 삭제",
+                "delete": "삭제",
+                "mint": "민팅",
+                "catalyst": "카탈리스트",
+                "gems": "젬",
+                "owner": "소유자",
+                "viewHistory": "내역 확인하기",
+                "updatedOk": "애셋이 올바르게 업데이트 되었습니다",
+                "ban": "애셋 차단",
+                "restore": "복구하기"
             },
             "pagination": {
-                "page": "Page",
-                "pageOf": "of {amount}",
-                "maxPage": "The maximum of pages are {amount}"
+                "page": "페이지",
+                "pageOf": "수: {amount}",
+                "maxPage": "최대 페이지 수는 {amount}입니다."
             },
             "filter": {
-                "all": "All",
-                "minted": "Minted",
-                "inProgress": "In progress",
-                "toVerify": "To Verify",
-                "rejected": "Rejected",
-                "approved": "Approved"
+                "all": "전체",
+                "minted": "민팅됨",
+                "inProgress": "진행 중",
+                "toVerify": "확인하기",
+                "rejected": "거절됨",
+                "approved": "승인됨"
             },
-            "redirectToUpload": "Redirecting to upload page",
+            "redirectToUpload": "업로드 페이지로 리다이렉팅",
             "users": {
                 "fail": "업로드하려는 계정과 복스에딧에 로그인된 계정이 다릅니다",
                 "home": "홈으로 돌아가기",
@@ -8567,39 +8565,39 @@
             }
         },
         "experiences": {
-            "construction": "This section is under development"
+            "construction": "이 섹션은 현재 개발 중입니다."
         }
     },
     "strapi": {
         "POC_LANDING_MINT_AVATAR_TITLE": "메타버스에서 내 모습 표현하기",
         "POC_LANDING_MINT_AVATAR_DESCRIPTION": "POC 아바타는 더 샌드박스에서 완벽히 플레이 가능하며, 보유자는 아바타를 통해 본인의 성적 지향성 및 본인을 대표하는 모습을 나타낼 수 있습니다. 원하는 모습을 직접 선택하세요!",
-        "POC_LANDING_MINT_AVATAR_BUTTON": "Mint yours now!",
+        "POC_LANDING_MINT_AVATAR_BUTTON": "아바타 민팅하기",
         "POC_LANDING_HEADER_MENU_HOME_LABEL": "홈",
         "POC_LANDING_HEADER_MENU_UNIQUE_AVATARS_LABEL": "다양한 아바타",
-        "POC_LANDING_HEADER_MENU_PEOPLE_OF_CRYPTO_LABEL": "People of crypto",
+        "POC_LANDING_HEADER_MENU_PEOPLE_OF_CRYPTO_LABEL": "People Of Crypto",
         "POC_LANDING_HEADER_MENU_MINT_YOUR_AVATAR_LABEL": "아바타 민팅하기",
-        "POC_LANDING_INTRO_START_DATE": "Launching June {launchDateWhitelist}",
+        "POC_LANDING_INTRO_START_DATE": "6월 20일에 찾아옵니다",
         "POC_LANDING_INTRO_BUTTON": "아바타 민팅하기",
         "POC_LANDING_INTRO_TITLE": "8,430개의 차세대",
         "POC_LANDING_INTRO_SUBTITLE": "메타버스 아바타",
-        "POC_LANDING_INTRO_DESCRIPTION": "We are building the metaversal blueprint for diversity across Web3. Our first step is a unique selection of The Sandbox metaverse avatars, all around inclusion and diversity.",
-        "POC_LANDING_INTRO_MOVIE_DESCRIPTION": "United in advancing and celebrating representation, diversity and culture",
-        "POC_LANDING_INTRO_PERSONALIZE_BUTTON": "Personalize it",
-        "POC_LANDING_OUR_VISION_TITLE": "The future is diverse",
-        "POC_LANDING_OUR_VISION_DESCRIPTION_PRIMARY": "To ensure the advancement of black and brown women, LGBTQIA+, differently-abled, and POC individuals across Web 3.0. ",
-        "POC_LANDING_OUR_VISION_DESCRIPTION_SECONDARY": "We envision a community where we are represented and amplified at every level from developers, creators, brands, thought leaders, founders, and collectors.",
+        "POC_LANDING_INTRO_DESCRIPTION": "Web3 전반에 걸쳐 다양성을 위한 메타버스의 청사진을 만들어 나갑니다. 그 첫 발걸음으로, 포용과 다양성을 표현한 더 샌드박스 아바타 컬렉션을 선보입니다.",
+        "POC_LANDING_INTRO_MOVIE_DESCRIPTION": "개성 표현, 다양성과 문화를 존중하며 함께 발전해 나가요",
+        "POC_LANDING_INTRO_PERSONALIZE_BUTTON": "내 마음대로 꾸미기",
+        "POC_LANDING_OUR_VISION_TITLE": "다양성으로 가득한 미래",
+        "POC_LANDING_OUR_VISION_DESCRIPTION_PRIMARY": "Web3 전반에서 흑인 및 황인 여성, LGBTQIA+, 장애인, 그리고 POC 개인의 발전을 도모합니다.",
+        "POC_LANDING_OUR_VISION_DESCRIPTION_SECONDARY": "개발자, 크리에이터, 브랜드, 이념의 지도자, 창립자 및 수집가를 아우르는 모든 단계의 유저를 대표하며 성장하는 커뮤니티를 꿈꿉니다.",
         "POC_LANDING_PLAY_IN_SEASON_TITLE": "알파 시즌 3에서",
-        "POC_LANDING_PLAY_IN_SEASON_SUBTITLE": "플레이하기 ",
+        "POC_LANDING_PLAY_IN_SEASON_SUBTITLE": "플레이하기",
         "POC_LANDING_PLAY_IN_SEASON_DESCRIPTION": "모든 아바타는 다가오는 알파 시즌 3부터 더 샌드박스에서 플레이할 수 있습니다. 아바타를 획득하여 게임에 접속해 모두에게 내 모습을 뽐내 보세요! 아바타 보유자들을 위한 POC 전용 이벤트와 플레이 앤 언(Play&Earn) 활동 또한 놓치지 마세요.",
-        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TITLE": "A chance to get",
-        "POC_LANDING_CHANCE_UNIQUE_AVATAR_SUBTITLE": "Unique avatars",
-        "POC_LANDING_CHANCE_UNIQUE_AVATAR_DESCRIPTION": "First ever customizable sandbox avatars celebrating representation, diversity and inclusion. POC has been on a mission to have a positive impact around the world  ",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TITLE": "개성이 가득한",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_SUBTITLE": "아바타 획득하기",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_DESCRIPTION": "개성 표현, 다양성 및 포용을 기념하는 더 샌드박스 최초의 맞춤형 아바타. POC는 전 세계 유저들에게 긍정의 기운을 전파하는 사명을 가지고 있습니다.",
         "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_TITLE": "창의력을",
         "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_SUBTITLE": "펼쳐봐",
-        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_DESCRIPTION": "This is no marketing gimmick. Each avatar trait has been designed by a diverse team with inclusion in mind, resulting in 100+ unique avatar traits.",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_DESCRIPTION": "POC 아바타는 단순한 마케팅 수단으로 만들어지지 않았습니다. 각 아바타는 다양성을 뽐내는 팀에서 포용을 염두에 두고 디자인되었으며, 그 결과 100개 이상의 특성을 가진 아바타가 탄생했습니다.",
         "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_TITLE": "나를",
         "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_SUBTITLE": "표현해봐",
-        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_DESCRIPTION": "Choose your identity in the metaverse and display your orientation and affinity through your digital avatar. A first of its kind, possible in The Sandbox!",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_DESCRIPTION": "메타버스에서 내 정체성을 선택하고 디지털 아바타를 통해 나의 지향성과 친밀감을 표현하세요. 이 모든 것이 최초로 더 샌드박스에서 구현됩니다!",
         "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_TITLE": "개성을",
         "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_SUBTITLE": "뽐내봐",
         "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_DESCRIPTION": "컬렉션에는 한정된 수량의 수제 1:1 아바타가 포함되어 있습니다. 수제 아바타를 차지할 행운의 주인공은 누구일까요?",
@@ -8609,104 +8607,104 @@
         "POC_LANDING_FAQ_WHAT_IS_THEIR_RARITY_TITLE": "희귀도/등급은 어떻게 되나요?",
         "POC_LANDING_FAQ_WHAT_IS_THEIR_RARITY_DESCRIPTION": "POC 아바타는 특성에 따라 다양한 희귀도로 분류됩니다. 수천 개의 독특한 아바타뿐만 아니라 수작업으로 직접 만든 1/1 아바타도 여러 개 존재합니다.",
         "POC_LANDING_FAQ_WHERE_DO_I_HAVE_TO_GO_TITLE": "아바타를 획득하려면 어디로 가야 하나요?",
-        "POC_LANDING_FAQ_WHERE_DO_I_HAVE_TO_GO_DESCRIPTION": "아바타 민팅은 오직 다음 경로에서만 가능합니다:\n {link}",
+        "POC_LANDING_FAQ_WHERE_DO_I_HAVE_TO_GO_DESCRIPTION": "아바타 민팅은 다음 경로에서만 가능합니다:\n https://sandbox.game/en/people-of-crypto/raffle/mint/",
         "POC_LANDING_FAQ_AT_WHAT_TIME_TITLE": "판매는 언제 시작하나요?",
-        "POC_LANDING_FAQ_AT_WHAT_TIME_DESCRIPTION": "The sale will start on June 21st, 2022, 9AM EST. \n Welcomelisted users will have access 24 hours before.",
+        "POC_LANDING_FAQ_AT_WHAT_TIME_DESCRIPTION": "판매는 2022년 6월 21일 오후 4시(KST)에 시작됩니다.\n웰컴리스트 유저는 24시간 먼저 아바타를 구매할 수 있습니다.",
         "POC_LANDING_FAQ_HOW_MUCH_SHOULD_I_TITLE": "People of Crypto NFT 1개는 대략 얼마인가요?",
         "POC_LANDING_FAQ_HOW_MUCH_SHOULD_I_DESCRIPTION": "POC NFT 1개는 {sandAmount} SAND의 가격으로 판매됩니다.",
         "POC_LANDING_FAQ_HOW_MANY_CAN_I_MINT_TITLE": "지갑 주소 하나당 몇 개의 POC 아바타를 민팅할 수 있나요?",
-        "POC_LANDING_FAQ_HOW_MANY_CAN_I_MINT_DESCRIPTION": "POC 아바타는 2차에 걸쳐 공개됩니다. \n 1) Welcomelisted users will have a chance to mint a maximum of two avatar with a time limit of 24 hours, between June 20th and June 21th. \\n 2) When the public release is live, users will have the chance to mint up to three.",
-        "POC_LANDING_FAQ_WHEN_CAN_I_DISCOVER_TITLE": "내가 민팅한 POC 아바타가 무엇인지 어디서 확인할 수 있나요",
-        "POC_LANDING_FAQ_WHEN_CAN_I_DISCOVER_DESCRIPTION": "The POC Avatars will be revealed 24 hours after public sale start on OpenSea.",
-        "POC_LANDING_FAQ_CAN_I_MINT_USING_TITLE": "아무 지갑(바이낸스, 렛저 등)에서나 민팅할 수 있나요?",
+        "POC_LANDING_FAQ_HOW_MANY_CAN_I_MINT_DESCRIPTION": "POC 아바타는 두 번에 걸쳐 공개됩니다.\n 1) 웰컴리스트에 등록된 유저는 6월 20일부터 21일까지 24시간 동안 최대 두 개의 아바타를 민팅할 수 있습니다. \n 2) 아바타가 전체 공개되면 각 유저는 최대 열 개의 아바타를 민팅할 수 있습니다.",
+        "POC_LANDING_FAQ_WHEN_CAN_I_DISCOVER_TITLE": "내가 민팅한 POC 아바타가 무엇인지 어디서 확인할 수 있나요?",
+        "POC_LANDING_FAQ_WHEN_CAN_I_DISCOVER_DESCRIPTION": "POC 아바타는 오픈시(OpenSea)에서 공개 판매 시작 24시간 이후에 공개됩니다.",
+        "POC_LANDING_FAQ_CAN_I_MINT_USING_TITLE": "민팅에는 지갑 종류 제한이 없나요?",
         "POC_LANDING_FAQ_CAN_I_MINT_USING_DESCRIPTION": "네, 지갑 종류와 상관없이 민팅이 가능합니다.",
         "POC_LANDING_FAQ_WHAT_CAN_I_DO_TITLE": "POC 아바타로 무엇을 할 수 있나요?",
         "POC_LANDING_FAQ_WHAT_WHAT_CAN_I_DO_DESCRIPTION": "모든 아바타는 더 샌드박스 알파 시즌 3의 모든 멀티플레이어 경험에서 플레이할 수 있습니다.",
         "POC_LANDING_FAQ_HOW_CAN_I_USE_TITLE": "알파 기간 동안 People of Crypto 아바타를 어떻게 사용할 수 있나요?",
-        "POC_LANDING_FAQ_HOW_CAN_I_USE_DESCRIPTION": "You will be able to use it as an Avatar by simply selecting it in the Avatar Manager in The Sandbox dashboard.",
+        "POC_LANDING_FAQ_HOW_CAN_I_USE_DESCRIPTION": "더 샌드박스 대시보드의 아바타 관리자에서 해당 아바타를 선택하기만 하면 바로 사용할 수 있습니다.",
         "POC_LANDING_FAQ_DOES_OWNING_TITLE": "POC 아바타를 가지고 있으면 다른 특전이 주어지나요?",
-        "POC_LANDING_FAQ_DOES_OWNING_DESCRIPTION": "Owning your own avatar will grant you access and features within the Diversity and Inclusion Center, as well as other Play & Earn perks.",
+        "POC_LANDING_FAQ_DOES_OWNING_DESCRIPTION": "나만의 아바타를 보유하면 다양성과 포용 센터(Diversity and Inclusion Center)에서 제공하는 여러 기능은 물론 다른 플레이 앤 언(Play & Earn) 특전이 주어집니다.",
         "POC_LANDING_FAQ_WHERE_CAN_I_BUY_TITLE": "첫 세일 종료 이후에는 어디서 아바타를 구매할 수 있나요?",
-        "POC_LANDING_FAQ_WHERE_CAN_I_BUY_DESCRIPTION": "After the initial sale is over, you will be able to purchase an avatar from users that are willing to sell theirs on the secondary marketplace Opensea",
-        "POC_LANDING_FAQ_HOW_DO_I_GET_WHITELISTED_TITLE": "How do I get welcomelisted?",
-        "POC_LANDING_FAQ_HOW_DO_I_GET_WHITELISTED_DESCRIPTION": "If you hold one of the NFT listed below, 24 hours before the minting starts, you will have early access to mint your POC avatar: \n - Snoop Dogg Doggies avatar holders \n - Rumble Kong League \n Land owners will also be welcome listed. If you are not a holder of any of these, please go to peopleofcrypto.io. \n Winning one of our Twitter contests can also give you early access to mint your NFT. ",
-        "POC_LANDING_FAQ_HOW_DO_I_KNOW_IF_TITLE": "How do I know if I'm welcomelisted?",
-        "POC_LANDING_FAQ_HOW_DO_I_KNOW_IF_DESCRIPTION": "If you hold an NFT of the above collection, you will be able to mint, as long as you hold the NFT in the wallet with which you are welcome listed, and connected on the minting page.",
-        "POC_LANDING_FAQ_HOW_MANY_MINT_AS_WHITELISTED_TITLE": "How many POC Avatars can I mint as a welcomelisted user?",
-        "POC_LANDING_FAQ_HOW_MANY_MINT_AS_WHITELISTED_DESCRIPTION": "You will be able to mint two NFTs as a welcome listed user.",
-        "POC_LANDING_FAQ_MY_AVATARS_TITLE": "My Avatar(s) is not revealed yet on OpenSea. What can I do?",
-        "POC_LANDING_FAQ_MY_AVATARS_DESCRIPTION": "If you are checking after the reveal date (24 hours after public sale start), feel free to press the Refresh Metadata button on the top-right corner of OpenSea.",
+        "POC_LANDING_FAQ_WHERE_CAN_I_BUY_DESCRIPTION": "최초 판매가 종료되면, 오픈시(OpenSea) 등의 2차 마켓에서 보유한 아바타를 판매하려는 유저들로부터 아바타를 구매할 수 있습니다.",
+        "POC_LANDING_FAQ_HOW_DO_I_GET_WHITELISTED_TITLE": "웰컴리스트 목록에 어떻게 등록할 수 있나요?",
+        "POC_LANDING_FAQ_HOW_DO_I_GET_WHITELISTED_DESCRIPTION": "아래 목록의 NFT 중 하나를 보유하고 있을 경우, 민팅 시작 24시간 전 POC 아바타를 먼저 민팅할 기회가 주어집니다. \n- 스눕 독 도기즈(Snoop Dogg Doggies) 아바타\n- 럼블 콩 리그(Rumble Kong League)\n- LAND 보유자\n위 NFT 중 어느 것도 보유하고 있지 않을 경우, peopleofcrypto.io를 방문하세요.\n트위터 콘테스트에 참여하여 당첨되면 NFT 얼리 액세스 민팅 기회를 획득할 수 있습니다.",
+        "POC_LANDING_FAQ_HOW_DO_I_KNOW_IF_TITLE": "내가 웰컴리스트에 등록되었는지 어떻게 알 수 있나요?",
+        "POC_LANDING_FAQ_HOW_DO_I_KNOW_IF_DESCRIPTION": "위 NFT 컬렉션 중 하나를 보유하고 있다면 웰컴리스트에 등록된 지갑에 해당 NFT를 보유하고 민팅 페이지에 연결하여 민팅의 기회를 획득할 수 있습니다.",
+        "POC_LANDING_FAQ_HOW_MANY_MINT_AS_WHITELISTED_TITLE": "웰컴리스트 유저는 몇 개의 POC 아바타를 민팅할 수 있나요?",
+        "POC_LANDING_FAQ_HOW_MANY_MINT_AS_WHITELISTED_DESCRIPTION": "웰컴리스트 유저는 두 개의 아바타 NFT를 민팅할 수 있습니다.",
+        "POC_LANDING_FAQ_MY_AVATARS_TITLE": "내 아바타가 오픈시에 아직 공개되지 않았습니다. 어떻게 해야 하나요?",
+        "POC_LANDING_FAQ_MY_AVATARS_DESCRIPTION": "공개일 이후(공개 판매 시작 24시간 후)라면 오픈시 페이지의 우측 상단에 있는 Refresh Metadata(메타데이터 새로고침) 버튼을 클릭해 보세요.",
         "POC_LANDING_FAQ_BUYING_NFT_TITLE": "처음으로 NFT를 구매하는데, 어떻게 시작해야 하나요?",
-        "POC_LANDING_FAQ_BUYING_NFT_DESCRIPTION": "절차는 간단합니다. 아래 내용을 참고하세요. \n - 더 샌드박스에서 계정을 생성합니다. \n - 원하는 아바타 개수를 민팅할 수 있는 SAND와 가스비로 사용될 ETH가 충분한지 확인합니다. \n - 계정에 로그인하고 민팅 페이지로 이동합니다: https://sandbox.game/en/people-of-crypto/raffle/mint/ \n - 지갑이 올바르게 연결되었는지 확인 후 민팅하기(Mint) 버튼을 클릭합니다.",
-        "POC_RAFFLE_HEADER_RAFFLE_TITLE_PRIMARY": "Mint your own",
-        "POC_RAFFLE_HEADER_RAFFLE_TITLE_SECONDARY": "avatar now!",
-        "POC_RAFFLE_HOW_TO_MINT_TITLE": "How to mint a poc avatar",
-        "POC_RAFFLE_PLAY_CREATE_GOVERN_TITLE_PRIMARY": "Play, create,",
-        "POC_RAFFLE_PLAY_CREATE_GOVERN_TITLE_SECONDARY": "own and govern",
-        "POC_RAFFLE_PLAY_CREATE_GOVERN_SUBTITLE": "a virtual world made by players",
-        "POC_RAFFLE_PLAY_CREATE_GOVERN_DESCRIPTION_PRIMARY": "Play experiences both singleplayer and multiplayer. Create and animate assets with Voxedit 3D. Build unique game experiences in The Sandbox Metaverse with the Game Maker tool. Buy and Sell assets in the Marketplace to enhance your experience.",
-        "POC_RAFFLE_PLAY_CREATE_GOVERN_DESCRIPTION_SECONDARY": "더 샌드박스에서 가능성은 무궁무진합니다",
-        "POC_RAFFLE_JOIN_OUR_COMMUNITY_TITLE": "Join our community",
-        "POC_RAFFLE_JOIN_OUR_COMMUNITY_SUBTITLE": "Be part of our amazing community and stay tuned for any news.",
-        "POC_RAFFLE_JOIN_OUR_COMMUNITY_BUTTON": "Join us",
+        "POC_LANDING_FAQ_BUYING_NFT_DESCRIPTION": "절차는 간단합니다. 아래 내용을 참고하세요.  \n - 더 샌드박스에서 계정을 생성합니다.\n - 원하는 아바타 개수를 민팅할 수 있는 SAND와 가스비로 사용될 ETH가 충분한지 확인합니다.\n - 계정에 로그인하고 민팅 페이지로 이동합니다: https://sandbox.game/en/people-of-crypto/raffle/mint/ \n - 지갑이 올바르게 연결되었는지 확인 후 민팅하기(Mint) 버튼을 클릭합니다.",
+        "POC_RAFFLE_HEADER_RAFFLE_TITLE_PRIMARY": "나만의 아바타를",
+        "POC_RAFFLE_HEADER_RAFFLE_TITLE_SECONDARY": "민팅하세요!",
+        "POC_RAFFLE_HOW_TO_MINT_TITLE": "POC 아바타 민팅하기",
+        "POC_RAFFLE_PLAY_CREATE_GOVERN_TITLE_PRIMARY": "플레이하고, 제작하고,",
+        "POC_RAFFLE_PLAY_CREATE_GOVERN_TITLE_SECONDARY": "소유하고, 참여하자",
+        "POC_RAFFLE_PLAY_CREATE_GOVERN_SUBTITLE": "플레이어가 만들어 나가는 가상세계",
+        "POC_RAFFLE_PLAY_CREATE_GOVERN_DESCRIPTION_PRIMARY": "싱글플레이어와 멀티플레이어 경험 모두 플레이 가능해요. 복스에딧으로 애셋을 제작하고, 게임 메이커로 더 샌드박스 메타버스에 멋진 경험을 선사하세요. 마켓플레이스에서 내 경험을 더욱 풍성하게 해 줄 애셋을 구입하거나 판매할 수도 있답니다.",
+        "POC_RAFFLE_PLAY_CREATE_GOVERN_DESCRIPTION_SECONDARY": "더 샌드박스에서 가능성은 무궁무진합니다.",
+        "POC_RAFFLE_JOIN_OUR_COMMUNITY_TITLE": "커뮤니티에 참여하세요",
+        "POC_RAFFLE_JOIN_OUR_COMMUNITY_SUBTITLE": "더 샌드박스 커뮤니티에 가입하고 최신 소식을 받아보세요.",
+        "POC_RAFFLE_JOIN_OUR_COMMUNITY_BUTTON": "함께해요",
         "POC_RAFFLE_CONNECT_END_WARNING_TITLE": "end warning",
-        "POC_RAFFLE_CONNECT_WRONG_WALLET_TITLE": "wrong wallet",
-        "POC_RAFFLE_CONNECT_WALLET_VERIFYING_TITLE": "Wallet is getting verified",
-        "POC_RAFFLE_CONNECT_WALLET_VERIFYING_DESCRIPTION": "Please wait while redirecting",
-        "POC_RAFFLE_CONNECT_CUSTOMIZE_AVATAR_TITLE": "Customize avatar",
+        "POC_RAFFLE_CONNECT_WRONG_WALLET_TITLE": "잘못된 지갑",
+        "POC_RAFFLE_CONNECT_WALLET_VERIFYING_TITLE": "지갑을 확인 중입니다",
+        "POC_RAFFLE_CONNECT_WALLET_VERIFYING_DESCRIPTION": "리다이렉팅이 완료될 때까지 기다려 주세요",
+        "POC_RAFFLE_CONNECT_CUSTOMIZE_AVATAR_TITLE": "아바타 커스텀",
         "POC_RAFFLE_CONNECT_CUSTOMIZE_AVATAR_SUBTITLE": "People of crypto",
         "POC_RAFFLE_CONNECT_CUSTOMIZE_AVATAR_BUTTON": "Personalize",
         "POC_RAFFLE_CONNECT_CUSTOMIZE_AVATAR_BORN_THIS_WAY": "Born this way",
         "POC_RAFFLE_CONNECT_CUSTOMIZE_AVATAR_PROUDLY_ME": "Proudly me",
-        "POC_RAFFLE_PERSONALIZE_LOADING_AVATARS_TITLE": "Loading your avatars",
+        "POC_RAFFLE_PERSONALIZE_LOADING_AVATARS_TITLE": "내 아바타 불러오는 중",
         "POC_RAFFLE_PERSONALIZE_FREE_LABEL_PRIMARY": "지금 민팅하기",
-        "POC_RAFFLE_PERSONALIZE_FREE_LABEL_SECONDARY": "지금 구매하기",
-        "POC_RAFFLE_PERSONALIZE_FREE_TITLE": "No avatar minted",
+        "POC_RAFFLE_PERSONALIZE_FREE_LABEL_SECONDARY": "지금 구매",
+        "POC_RAFFLE_PERSONALIZE_FREE_TITLE": "아바타가 민팅되지 않았습니다",
         "POC_RAFFLE_PERSONALIZE_ERROR_TITLE": "문제가 발생했습니다",
         "POC_RAFFLE_PERSONALIZE_ERROR_DESCRIPTION": "알 수 없는 에러가 발생했습니다.",
         "POC_RAFFLE_PERSONALIZE_ERROR_LABEL": "다시 시도해 주세요.",
         "POC_RAFFLE_PERSONALIZE_PROCESSING_TITLE": "진행 중",
-        "POC_RAFFLE_PERSONALIZE_PROCESSING_DESCRIPTION": "Your transaction is being processed.",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_BORN_THIS_WAY_SECRET": "Secret",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_GAY_AF": "Gay AF",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_LESBIONIC": "Lesbionic",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_QUEERLY_AWESOME": "Queerly Awesome",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_BI_BOY": "Bi-boy",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_BI_GIRL": "Bi-girl",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_BI_IDGAF": "Bi-idgaf",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_TRANSTASTIC": "Transtastic",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_DRAGTASTIC": "Dragtastic",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_STRAIGHT_UP_ALLY": "Str8 Up Ally",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_PROUDLY_ME_SECRET": "Secret",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_THEY_THEM": "They / Them",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_HE_HIM": "He / Him",
-        "POC_RAFFLE_PERSONALIZE_TRAIT_SHE_HER": "She / Her",
+        "POC_RAFFLE_PERSONALIZE_PROCESSING_DESCRIPTION": "트랜잭션을 처리하는 중입니다.",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_BORN_THIS_WAY_SECRET": "지향성을 공개하지 않습니다",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_GAY_AF": "게이",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_LESBIONIC": "레즈비언",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_QUEERLY_AWESOME": "멋진 퀴어",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_BI_BOY": "바이섹슈얼 남성",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_BI_GIRL": "바이섹슈얼 여성",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_BI_IDGAF": "바이섹슈얼 사람",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_TRANSTASTIC": "트랜스젠더",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_DRAGTASTIC": "드랙퀸/드랙킹",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_STRAIGHT_UP_ALLY": "퀴어 친화적인 스트레이트",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_PROUDLY_ME_SECRET": "지향성을 공개하지 않습니다",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_THEY_THEM": "복수의 사람",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_HE_HIM": "남성",
+        "POC_RAFFLE_PERSONALIZE_TRAIT_SHE_HER": "여성",
         "POC_LANDING_META_TITLE": "더 샌드박스 게임 – People of Crypto 아바타가 메타버스에 찾아왔습니다",
         "POC_LANDING_META_DESCRIPTION": "People of Crypto 아바타가 더 샌드박스와 함께합니다. 즐겁게 메타버스를 탐험하며 친구들과 함께 메타버스 세상에 활기를 불어넣어 봅시다. 지금 바로 아바타를 획득하여 더 샌드박스에 접속하세요.",
-        "POC_LANDING_META_KEYWORDS": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token, snoop dogg, raffle",
+        "POC_LANDING_META_KEYWORDS": "샌드박스, 복셀 아트, 3D 복셀 게임, 복셀 아티스트, 3D 온라인 PC 게임, 커뮤니티, 블록체인 dapp, PC 복셀 게임, PC 복셀 아트, 탈중앙화 게임, SAND, 토큰, 스눕 독, 추첨",
         "POC_LANDING_META_OG_TITLE": "더 샌드박스 게임 – People of Crypto 아바타가 메타버스에 찾아왔습니다",
-        "POC_LANDING_META_OG_DESCRIPTION": "TPeople of Crypto 아바타가 더 샌드박스와 함께합니다. 즐겁게 메타버스를 탐험하며 친구들과 함께 메타버스 세상에 활기를 불어넣어 봅시다. 지금 바로 아바타를 획득하여 더 샌드박스에 접속하세요.",
+        "POC_LANDING_META_OG_DESCRIPTION": "People of Crypto 아바타가 더 샌드박스와 함께합니다. 즐겁게 메타버스를 탐험하며 친구들과 함께 메타버스 세상에 활기를 불어넣어 봅시다. 지금 바로 아바타를 획득하여 더 샌드박스에 접속하세요.",
         "POC_LANDING_META_OG_URL": "https://www.sandbox.game/en/people-of-crypto/",
-        "POC_LANDING_META_OG_SITE_URL": " 더 샌드박스 게임 – People of Crypto 아바타가 메타버스로 찾아옵니다",
+        "POC_LANDING_META_OG_SITE_URL": "더 샌드박스 게임 – People of Crypto 아바타가 메타버스로 찾아옵니다",
         "POC_LANDING_META_TWITTER_TITLE": "더 샌드박스 게임 – People of Crypto 아바타가 메타버스로 찾아옵니다",
         "POC_LANDING_META_TWITTER_DESCRIPTION": "People of Crypto 아바타가 더 샌드박스와 함께합니다. 즐겁게 메타버스를 탐험하며 친구들과 함께 메타버스 세상에 활기를 불어넣어 봅시다. 지금 바로 아바타를 획득하여 더 샌드박스에 접속하세요.",
         "POC_LANDING_META_TWITTER_CARD": "People of Crypto 아바타가 더 샌드박스로 찾아옵니다",
         "POC_LANDING_META_TWITTER_SITE": "@thesandboxgame",
         "POC_LANDING_META_TWITTER_CREATOR": "@thesandboxgame",
-        "POC_RAFFLE_PLAY_CREATE_GOVERN_BUTTON": "Discover the sandbox",
-        "POC_RAFFLE_FAQ_CAN_I_CUSTOMIZE_TITLE": "Can I customize my avatar?",
-        "POC_RAFFLE_FAQ_CAN_I_CUSTOMIZE_DESCRIPTION": "Besides using your unique POC avatar inside The Sandbox, you can also choose your identity and orientation through our website. This gives you the possibility to truly express yourself inside the metaverse and be unique.",
-        "POC_RAFFLE_FAQ_WHAT_IMPACT_TITLE": "What impact does customization have on the game?",
-        "POC_RAFFLE_FAQ_WHAT_IMPACT_DESCRIPTION": "Depending on your selection, your avatar will receive colored wrist bands, which visually display your orientation and identity to other users in the metaverse and inside The Sandbox.",
-        "POC_RAFFLE_FAQ_HOW_MANY_TIMES_CAN_AN_AVATAR_TITLE": "How does choosing the identity and orientation of an avatar work?",
-        "POC_RAFFLE_FAQ_HOW_MANY_TIMES_CAN_AN_AVATAR_DESCRIPTION": "Each avatar can be customized, the process is free and only gas costs will need to be covered by the user.",
-        "POC_RAFFLE_FAQ_DO_THEY_NEED_TO_PAY_TITLE": "Do they need to pay every time they want to customize an avatar?",
-        "POC_RAFFLE_FAQ_DO_THEY_NEED_TO_PAY_DESCRIPTION": "Yes, the transaction itself is free, but gas needs to be covered by the user.",
+        "POC_RAFFLE_PLAY_CREATE_GOVERN_BUTTON": "더 샌드박스 체험하기",
+        "POC_RAFFLE_FAQ_CAN_I_CUSTOMIZE_TITLE": "내 아바타를 커스텀할 수 있나요?",
+        "POC_RAFFLE_FAQ_CAN_I_CUSTOMIZE_DESCRIPTION": "더 샌드박스에서 나만의 개성 넘치는 POC 아바타를 플레이하는 것 외에도, POC 웹사이트를 통해 나의 지향성과 정체성을 선택할 수 있습니다. 이렇게 메타버스에서 진정한 나 자신을 표현하고 나만의 독창성을 표현할 수 있는 가능성이 열립니다.",
+        "POC_RAFFLE_FAQ_WHAT_IMPACT_TITLE": "아바타를 커스텀하면 게임 속에서 어떤 영향이 있나요?",
+        "POC_RAFFLE_FAQ_WHAT_IMPACT_DESCRIPTION": "선택한 내역에 따라 내 아바타는 다양한 색상의 손목 밴드를 받게 되며, 이 밴드는 메타버스와 더 샌드박스에서 다른 유저들에게 나의 지향성과 정체성을 시각적으로 보여주는 역할을 합니다.",
+        "POC_RAFFLE_FAQ_HOW_MANY_TIMES_CAN_AN_AVATAR_TITLE": "어떻게 아바타의 정체성과 지향성을 선택할 수 있나요?",
+        "POC_RAFFLE_FAQ_HOW_MANY_TIMES_CAN_AN_AVATAR_DESCRIPTION": "모든 아바타는 커스텀할 수 있으며, 커스텀 과정에 별도의 비용은 들지 않으나 가스비가 부과됩니다.",
+        "POC_RAFFLE_FAQ_DO_THEY_NEED_TO_PAY_TITLE": "아바타를 커스텀할 때마다 매번 금액을 지불해야 하나요?",
+        "POC_RAFFLE_FAQ_DO_THEY_NEED_TO_PAY_DESCRIPTION": "네, 트랜잭션 자체는 무료이지만 가스비는 유저가 부담해야 합니다.",
         "POC_RAFFLE_FAQ_CAN_I_CUSTOMIZE_MULTIPLE_TITLE": "동시에 여러 개의 아바타를 커스텀할 수 있나요?",
-        "POC_RAFFLE_FAQ_CAN_I_CUSTOMIZE_MULTIPLE_DESCRIPTION": "No, the interaction needs to be done for each avatar you own individually",
+        "POC_RAFFLE_FAQ_CAN_I_CUSTOMIZE_MULTIPLE_DESCRIPTION": "아니요, 보유하고 있는 아바타별로 하나씩 진행할 수 있습니다.",
         "POC_RAFFLE_META_TITLE": "더 샌드박스 게임 - 추첨 페이지",
         "POC_RAFFLE_META_DESCRIPTION": "추첨에 참여하세요! 당첨의 기회는 누구에게나 열려 있습니다. 행운을 시험해 보세요!",
-        "POC_RAFFLE_META_KEYWORDS": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token, raffle",
+        "POC_RAFFLE_META_KEYWORDS": "샌드박스, 복셀 아트, 3D 복셀 게임, 복셀 아티스트, 3D 온라인 PC 게임, 커뮤니티, 블록체인 dapp, PC 복셀 게임, PC 복셀 아트, 탈중앙화 게임, SAND, 토큰, 추첨",
         "POC_RAFFLE_META_OG_TITLE": "더 샌드박스 게임 - 추첨 페이지",
         "POC_RAFFLE_META_OG_DESCRIPTION": "추첨에 참여하세요! 당첨의 기회는 누구에게나 열려 있습니다. 행운을 시험해 보세요!",
         "POC_RAFFLE_META_OG_URL": "https://www.sandbox.game/en/people-of-crypto/raffle/",
@@ -8716,278 +8714,278 @@
         "POC_RAFFLE_META_TWITTER_CARD": "더 샌드박스 게임 - 추첨 페이지",
         "POC_RAFFLE_META_TWITTER_SITE": "@thesandboxgame",
         "POC_RAFFLE_META_TWITTER_CREATOR": "@thesandboxgame",
-        "STEVE_AOKI_LANDING_HEADER_MENU_HOME_LABEL": "Home",
-        "STEVE_AOKI_LANDING_HEADER_MENU_UNIQUE_AVATARS_LABEL": "Unique avatars",
-        "STEVE_AOKI_LANDING_HEADER_MENU_STEVE_AOKI_LABEL": "Steve aoki",
-        "STEVE_AOKI_LANDING_HEADER_MENU_MINT_YOUR_AVATAR_LABEL": "Mint your avatar",
-        "STEVE_AOKI_LANDING_HEADER_MENU_BUY_NOW_LABEL": "Buy now",
-        "STEVE_AOKI_LANDING_INTRO_TITLE": "3,333 Steve Aoki",
-        "STEVE_AOKI_LANDING_INTRO_SUBTITLE": "Metaverse avatars",
-        "STEVE_AOKI_LANDING_INTRO_DESCRIPTION": "Coming at you harder than a cake-throw, Steve Aoki is entering The Sandbox and gives anyone the opportunity to be Steve Aoki in the metaverse. Unique designs, hand-crafted and curated with one of the world’s coolest musicians.",
-        "STEVE_AOKI_LANDING_INTRO_BUTTON": "Mint yours now",
-        "STEVE_AOKI_LANDING_INTRO_START_DATE": "Launching {launchDateWhitelist}",
-        "STEVE_AOKI_LANDING_OUR_VISION_TITLE": "Be Steve",
-        "STEVE_AOKI_LANDING_OUR_VISION_DESCRIPTION_PRIMARY": "The Steve Aoki Avatars are a collection of 3,333 unique and randomly generated metaverse avatars for The Sandbox. Each avatar will be a playable avatar inside The Sandbox unlocking unique functionalities and giving owners the possibility to earn SAND through playing.",
-        "STEVE_AOKI_LANDING_OUR_VISION_DESCRIPTION_SECONDARY": "Become Steve Aoki and enter The Sandbox today!",
-        "STEVE_AOKI_LANDING_MINT_AVATAR_TITLE": "Mint your Steve Aoki avatar",
-        "STEVE_AOKI_LANDING_MINT_AVATAR_DESCRIPTION": "Get your unique Steve Aoki avatar for The Sandbox today and enter the metaverse.",
-        "STEVE_AOKI_LANDING_MINT_AVATAR_BUTTON": "Mint yours now!",
-        "STEVE_AOKI_LANDING_PLAY_IN_SEASON_TITLE": "Play it in Alpha",
-        "STEVE_AOKI_LANDING_PLAY_IN_SEASON_SUBTITLE": "Season 3",
-        "STEVE_AOKI_LANDING_PLAY_IN_SEASON_DESCRIPTION": "Each Avatar will be playable inside The Sandbox, starting with the upcoming Alpha Season 3. Get your Avatar, jump into the game and share your avatar with the world! In addition we will also host Steve Aoki exclusive events and Play & Earn activities for avatar holders.",
-        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TITLE": "Unlimited possibilities",
-        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_DESCRIPTION": "Each Aoki avatar has been created by randomly generating 3,333 playable metaverse avatars. Over 100 hand-crafted traits, as well as several unique 1/1 designs can be created!",
-        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_TITLE": "Unique",
-        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_SUBTITLE": "Avatars",
-        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_DESCRIPTION": "No two avatars will look alike. Discover a collection of 3,333 entirely unique looking avatars.",
-        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_TITLE": "Special",
-        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_SUBTITLE": "Design",
-        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_DESCRIPTION": "Discover multiple unique designs and exclusive 1/1 Aoki’s, which are super rare.",
-        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_TITLE": "Play and",
-        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_SUBTITLE": "Earn",
-        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_DESCRIPTION": "Use your avatar to unlock new functionality within The Sandbox, including access to experiences and possibilities to earn SAND.",
-        "STEVE_AOKI_LANDING_BRANDS_IN_THE_SANDBOX_TITLE": "Brands & IPs already in The Sandbox Metaverse",
+        "STEVE_AOKI_LANDING_HEADER_MENU_HOME_LABEL": "홈",
+        "STEVE_AOKI_LANDING_HEADER_MENU_UNIQUE_AVATARS_LABEL": "고유 아바타",
+        "STEVE_AOKI_LANDING_HEADER_MENU_STEVE_AOKI_LABEL": "스티브 아오키",
+        "STEVE_AOKI_LANDING_HEADER_MENU_MINT_YOUR_AVATAR_LABEL": "아바타 민팅하기",
+        "STEVE_AOKI_LANDING_HEADER_MENU_BUY_NOW_LABEL": "지금 구매",
+        "STEVE_AOKI_LANDING_INTRO_TITLE": "3,333개의 스티브 아오키",
+        "STEVE_AOKI_LANDING_INTRO_SUBTITLE": "메타버스 아바타",
+        "STEVE_AOKI_LANDING_INTRO_DESCRIPTION": "당신에게 케이크를 던지며, 스티브 아오키가 더 샌드박스로 찾아옵니다! 이제 누구나 메타버스에서 스티브 아오키가 될 수 있습니다. 지구상에서 가장 쿨한 디제이 중 하나인 스티브 아오키를 표현한 독특한 디자인, 수작업 아바타 컬렉션을 만나보세요.",
+        "STEVE_AOKI_LANDING_INTRO_BUTTON": "아바타 민팅하기",
+        "STEVE_AOKI_LANDING_INTRO_START_DATE": "7월 18일 공개",
+        "STEVE_AOKI_LANDING_OUR_VISION_TITLE": "스티브가 되어봐요",
+        "STEVE_AOKI_LANDING_OUR_VISION_DESCRIPTION_PRIMARY": "스티브 아오키 아바타는 랜덤 생성된 3,333개의 고유한 아바타 컬렉션입니다. 각 아바타는 더 샌드박스 세상에서 플레이 가능하며 각 아바타마다 고유한 기능이 있어 게임 플레이를 통해 SAND를 획득할 수 있습니다.",
+        "STEVE_AOKI_LANDING_OUR_VISION_DESCRIPTION_SECONDARY": "스티브 아오키가 되어 지금 바로 더 샌드박스에 접속하세요!",
+        "STEVE_AOKI_LANDING_MINT_AVATAR_TITLE": "스티브 아오키 아바타 민팅",
+        "STEVE_AOKI_LANDING_MINT_AVATAR_DESCRIPTION": "나만의 스티브 아오키 아바타를 획득하고 메타버스에 접속하세요.",
+        "STEVE_AOKI_LANDING_MINT_AVATAR_BUTTON": "아바타 민팅하기",
+        "STEVE_AOKI_LANDING_PLAY_IN_SEASON_TITLE": "알파에서 플레이",
+        "STEVE_AOKI_LANDING_PLAY_IN_SEASON_SUBTITLE": "시즌 3",
+        "STEVE_AOKI_LANDING_PLAY_IN_SEASON_DESCRIPTION": "모든 아바타는 다가오는 알파 시즌 3부터 더 샌드박스에서 플레이할 수 있습니다. 아바타를 획득하여 게임에 접속해 모두에게 내 모습을 뽐내 보세요! 스티브 아오키 아바타 보유자들을 위한 전용 이벤트와 플레이 앤 언(Play&Earn) 활동 또한 놓치지 마세요.",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TITLE": "무한한 가능성",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_DESCRIPTION": "각 아오키 아바타는 랜덤으로 생성된 3,333개의 플레이 가능 메타버스 아바타입니다. 수작업으로 제작한 100개 이상의 특성과 더불어 고유한 1/1 디자인 또한 만나볼 수 있습니다.",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_TITLE": "고유",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_SUBTITLE": "아바타",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_DESCRIPTION": "모든 아바타는 각자의 개성이 있습니다. 3,333개의 아바타 컬렉션을 만나보세요",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_TITLE": "스페셜",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_SUBTITLE": "디자인",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_DESCRIPTION": "최고 희귀도의 1/1 아오키를 포함해 여러 독특한 디자인의 아바타를 만나보세요.",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_TITLE": "플레이 앤",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_SUBTITLE": "언",
+        "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_DESCRIPTION": "내 아바타를 이용해 특별한 경험에 접속하고 SAND를 획득해 보세요.",
+        "STEVE_AOKI_LANDING_BRANDS_IN_THE_SANDBOX_TITLE": "더 샌드박스 메타버스와 함께하는 브랜드&IP",
         "STEVE_AOKI_LANDING_QR_TITLE": "Snap. Dance. Share",
-        "STEVE_AOKI_LANDING_QR_SUBTITLE": "Show us your best moves! Share with the community",
+        "STEVE_AOKI_LANDING_QR_SUBTITLE": "Scan this QR code and show us your best moves.",
         "STEVE_AOKI_LANDING_QR_BUTTON": "Show us your best moves",
-        "STEVE_AOKI_LANDING_SANDBOX_METAVERSE_TITLE": "The sandbox metaverse",
-        "STEVE_AOKI_LANDING_SANDBOX_METAVERSE_DESCRIPTION_PRIMARY": "A decentralized Universe on the blockchain owned by the community",
-        "STEVE_AOKI_LANDING_SANDBOX_METAVERSE_DESCRIPTION_SECONDARY": "A place where your NFTs become alive",
-        "STEVE_AOKI_LANDING_SANDBOX_METAVERSE_BUTTON": "Create account",
-        "STEVE_AOKI_LANDING_META_TITLE": "The Sandbox Game – Steve Aoki Avatars coming to the metaverse",
-        "STEVE_AOKI_LANDING_META_DESCRIPTION": "Be Steve Aoki in the metaverse! Each avatar is a unique, hand-crafted, playable NFT avatar in The Sandbox with unique utilities giving owners the possibility to earn SAND through playing.",
-        "STEVE_AOKI_LANDING_META_KEYWORDS": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token, snoop dogg, raffle",
-        "STEVE_AOKI_LANDING_META_OG_TITLE": "The Sandbox Game – Steve Aoki Avatars coming to the metaverse",
-        "STEVE_AOKI_LANDING_META_OG_DESCRIPTION": "Be Steve Aoki in the metaverse! Each avatar is a unique, hand-crafted, playable NFT avatar in The Sandbox with unique utilities giving owners the possibility to earn SAND through playing.",
+        "STEVE_AOKI_LANDING_SANDBOX_METAVERSE_TITLE": "더 샌드박스 메타버스",
+        "STEVE_AOKI_LANDING_SANDBOX_METAVERSE_DESCRIPTION_PRIMARY": "커뮤니티 기반의 탈중앙화 블록체인 세상",
+        "STEVE_AOKI_LANDING_SANDBOX_METAVERSE_DESCRIPTION_SECONDARY": "내 NFT가 살아 숨 쉬는 곳",
+        "STEVE_AOKI_LANDING_SANDBOX_METAVERSE_BUTTON": "계정 만들기",
+        "STEVE_AOKI_LANDING_META_TITLE": "더 샌드박스 게임 – 스티브 아오키가 메타버스에 등장하다",
+        "STEVE_AOKI_LANDING_META_DESCRIPTION": "메타버스의 스티브 아오키가 되어 보세요! 각 아바타는 손수 만들어진 플레이 가능한 NFT 아바타로, 아바타를 보유하면 게임 플레이를 통해 SAND를 획득할 수 있습니다.",
+        "STEVE_AOKI_LANDING_META_KEYWORDS": "샌드박스, 복셀 아트, 3D 복셀 게임, 복셀 아티스트, 3D 온라인 PC 게임, 커뮤니티, 블록체인 dapp, PC 복셀 게임, PC 복셀 아트, 탈중앙화 게임, SAND, 토큰, 스눕 독, 추첨",
+        "STEVE_AOKI_LANDING_META_OG_TITLE": "더 샌드박스 게임 – 스티브 아오키가 메타버스에 등장하다",
+        "STEVE_AOKI_LANDING_META_OG_DESCRIPTION": "메타버스의 스티브 아오키가 되어 보세요! 각 아바타는 손수 만들어진 플레이 가능한 NFT 아바타로, 아바타를 보유하면 게임 플레이를 통해 SAND를 획득할 수 있습니다.",
         "STEVE_AOKI_LANDING_META_OG_URL": "https://www.sandbox.game/en/steve-aoki/",
-        "STEVE_AOKI_LANDING_META_OG_SITE_URL": "The Sandbox Game – Steve Aoki Avatars coming to the metaverse",
-        "STEVE_AOKI_LANDING_META_TWITTER_TITLE": "The Sandbox Game – Steve Aoki Avatars coming to the metaverse",
-        "STEVE_AOKI_LANDING_META_TWITTER_DESCRIPTION": "Be Steve Aoki in the metaverse! Each avatar is a unique, hand-crafted, playable NFT avatar in The Sandbox with unique utilities giving owners the possibility to earn SAND through playing.",
-        "STEVE_AOKI_LANDING_META_TWITTER_CARD": "Steve Aoki is coming to The Sandbox",
+        "STEVE_AOKI_LANDING_META_OG_SITE_URL": "더 샌드박스 게임 – 스티브 아오키가 메타버스에 등장하다",
+        "STEVE_AOKI_LANDING_META_TWITTER_TITLE": "더 샌드박스 게임 – 스티브 아오키가 메타버스에 등장하다",
+        "STEVE_AOKI_LANDING_META_TWITTER_DESCRIPTION": "메타버스의 스티브 아오키가 되어 보세요! 각 아바타는 손수 만들어진 플레이 가능한 NFT 아바타로, 아바타를 보유하면 게임 플레이를 통해 SAND를 획득할 수 있습니다.",
+        "STEVE_AOKI_LANDING_META_TWITTER_CARD": "스티브 아오키가 더 샌드박스와 함께합니다",
         "STEVE_AOKI_LANDING_META_TWITTER_SITE": "@thesandboxgame",
         "STEVE_AOKI_LANDING_META_TWITTER_CREATOR": "@thesandboxgame",
-        "STEVE_AOKI_RAFFLE_HEADER_MENU_HOME_LABEL": "Home",
-        "STEVE_AOKI_RAFFLE_HEADER_MENU_HOW_TO_MINT_LABEL": "How to mint",
+        "STEVE_AOKI_RAFFLE_HEADER_MENU_HOME_LABEL": "홈",
+        "STEVE_AOKI_RAFFLE_HEADER_MENU_HOW_TO_MINT_LABEL": "민팅하기",
         "STEVE_AOKI_RAFFLE_HEADER_MENU_FAQ_LABEL": "FAQ",
-        "STEVE_AOKI_RAFFLE_HEADER_MENU_LOGOUT_LABEL": "Log Out",
-        "STEVE_AOKI_RAFFLE_HOW_TO_MINT_TITLE": "How to mint a steve aoki avatar",
-        "STEVE_AOKI_RAFFLE_META_TITLE": "The Sandbox Game – Steve Aoki Avatars coming to the metaverse",
-        "STEVE_AOKI_RAFFLE_META_DESCRIPTION": "Be Steve Aoki in the metaverse! Each avatar is a unique, hand-crafted, playable NFT avatar in The Sandbox with unique utilities giving owners the possibility to earn SAND through playing.",
-        "STEVE_AOKI_RAFFLE_META_KEYWORDS": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token, snoop dogg, raffle",
-        "STEVE_AOKI_RAFFLE_META_OG_TITLE": "The Sandbox Game – Steve Aoki Avatars coming to the metaverse",
-        "STEVE_AOKI_RAFFLE_META_OG_DESCRIPTION": "Be Steve Aoki in the metaverse! Each avatar is a unique, hand-crafted, playable NFT avatar in The Sandbox with unique utilities giving owners the possibility to earn SAND through playing.",
+        "STEVE_AOKI_RAFFLE_HEADER_MENU_LOGOUT_LABEL": "로그아웃",
+        "STEVE_AOKI_RAFFLE_HOW_TO_MINT_TITLE": "스티브 아오키 아바타 민팅하기",
+        "STEVE_AOKI_RAFFLE_META_TITLE": "더 샌드박스 게임 – 스티브 아오키가 메타버스에 등장하다",
+        "STEVE_AOKI_RAFFLE_META_DESCRIPTION": "메타버스의 스티브 아오키가 되어 보세요! 각 아바타는 손수 만들어진 플레이 가능한 NFT 아바타로, 아바타를 보유하면 게임 플레이를 통해 SAND를 획득할 수 있습니다.",
+        "STEVE_AOKI_RAFFLE_META_KEYWORDS": "샌드박스, 복셀 아트, 3D 복셀 게임, 복셀 아티스트, 3D 온라인 PC 게임, 커뮤니티, 블록체인 dapp, PC 복셀 게임, PC 복셀 아트, 탈중앙화 게임, SAND, 토큰, 스눕 독, 추첨",
+        "STEVE_AOKI_RAFFLE_META_OG_TITLE": "더 샌드박스 게임 – 스티브 아오키가 메타버스에 등장하다",
+        "STEVE_AOKI_RAFFLE_META_OG_DESCRIPTION": "메타버스의 스티브 아오키가 되어 보세요! 각 아바타는 손수 만들어진 플레이 가능한 NFT 아바타로, 아바타를 보유하면 게임 플레이를 통해 SAND를 획득할 수 있습니다.",
         "STEVE_AOKI_RAFFLE_META_OG_URL": "https://www.sandbox.game/en/steve-aoki/",
-        "STEVE_AOKI_RAFFLE_META_OG_SITE_URL": "The Sandbox Game – Steve Aoki Avatars coming to the metaverse",
-        "STEVE_AOKI_RAFFLE_META_TWITTER_TITLE": "The Sandbox Game – Steve Aoki Avatars coming to the metaverse",
-        "STEVE_AOKI_RAFFLE_META_TWITTER_DESCRIPTION": "Be Steve Aoki in the metaverse! Each avatar is a unique, hand-crafted, playable NFT avatar in The Sandbox with unique utilities giving owners the possibility to earn SAND through playing.",
-        "STEVE_AOKI_RAFFLE_META_TWITTER_CARD": "Steve Aoki is coming to The Sandbox",
+        "STEVE_AOKI_RAFFLE_META_OG_SITE_URL": "더 샌드박스 게임 – 스티브 아오키가 메타버스에 등장하다",
+        "STEVE_AOKI_RAFFLE_META_TWITTER_TITLE": "더 샌드박스 게임 – 스티브 아오키가 메타버스에 등장하다",
+        "STEVE_AOKI_RAFFLE_META_TWITTER_DESCRIPTION": "메타버스의 스티브 아오키가 되어 보세요! 각 아바타는 손수 만들어진 플레이 가능한 NFT 아바타로, 아바타를 보유하면 게임 플레이를 통해 SAND를 획득할 수 있습니다.",
+        "STEVE_AOKI_RAFFLE_META_TWITTER_CARD": "스티브 아오키가 더 샌드박스와 함께합니다",
         "STEVE_AOKI_RAFFLE_META_TWITTER_SITE": "@thesandboxgame",
         "STEVE_AOKI_RAFFLE_META_TWITTER_CREATOR": "@thesandboxgame",
-        "COMMON_BRANDS_IN_THE_SANDBOX_TITLE": "Brands & IPs already in The Sandbox Metaverse",
-        "STEVE_AOKI_FAQ_HOW_MANY_STEVE_AOKI_TITLE": "How many Steve Aoki Avatars are there?",
-        "STEVE_AOKI_FAQ_HOW_MANY_STEVE_AOKI_DESCRIPTION": "There are a total of 3,333 Aoki Avatars that will be minted.",
-        "STEVE_AOKI_FAQ_WHAT_IS_THEIR_RARITY_TITLE": "What is their rarity/tier?",
-        "STEVE_AOKI_FAQ_WHAT_IS_THEIR_RARITY_DESCRIPTION": "The avatars are divided into a variety of rarity categories depending on traits. Each avatar will be unique, and generated through a random weight of traits which affect the visual look & feel. In addition there will be multiple unique 1/1 NFTs.",
-        "STEVE_AOKI_FAQ_WHERE_DO_I_HAVE_TO_GO_TITLE": "Where do I have to go to claim the Avatars?",
-        "STEVE_AOKI_FAQ_WHERE_DO_I_HAVE_TO_GO_DESCRIPTION": "There is only one place where you can mint the Avatars: \n {link}",
-        "STEVE_AOKI_FAQ_AT_WHAT_TIME_TITLE": "At what time does the sale start?",
-        "STEVE_AOKI_FAQ_AT_WHAT_TIME_DESCRIPTION": "The sale will start on {launchDatePublic}. \nWhitelisted users will have access 48 hours before.",
-        "STEVE_AOKI_FAQ_HOW_MUCH_SHOULD_I_TITLE": "How much should I expect to pay for one Steve Aoki Avatar NFT?",
-        "STEVE_AOKI_FAQ_HOW_MUCH_SHOULD_I_DESCRIPTION": "One Avatar NFT will cost {sandAmount} SAND.",
-        "STEVE_AOKI_FAQ_HOW_MANY_CAN_I_MINT_TITLE": "How many Avatars can I mint per wallet address?",
-        "STEVE_AOKI_FAQ_HOW_MANY_CAN_I_MINT_DESCRIPTION": "The Aoki Avatars will be released in 3 waves: \n 1) July 25th 2022, 2PM UTC: People whitelisted by Aoki himself will have a chance to mint up to 2 avatars per wallet, within a 48 hours timeframe. \n 2) July 26th 2022, 2PM UTC: People whitelisted by Aoki AND The Sandbox will have a chance to mint up to 2 avatars per wallet, within a 24 hours timeframe. \n 3) July 27th 2022, 2PM UTC: Public release. Every user will have the chance to mint up to 4 avatars per wallet.",
-        "STEVE_AOKI_FAQ_WHEN_CAN_I_DISCOVER_TITLE": "How can I see my avatar?",
-        "STEVE_AOKI_FAQ_WHEN_CAN_I_DISCOVER_DESCRIPTION": "The Steve Aoki Avatars will be revealed 48 hours after minting on OpenSea.",
-        "STEVE_AOKI_FAQ_CAN_I_MINT_USING_TITLE": "Can I mint using any wallet?",
-        "STEVE_AOKI_FAQ_CAN_I_MINT_USING_DESCRIPTION": "Yes, you can mint with whatever wallet you have.",
-        "STEVE_AOKI_FAQ_WHAT_CAN_I_DO_TITLE": "What can I do with the Avatars?",
-        "STEVE_AOKI_FAQ_WHAT_WHAT_CAN_I_DO_DESCRIPTION": "Each Avatar will be playable inside The Sandbox in all the multiplayer experiences to come starting from the Sandbox Alpha Season 3. We will also introduce unique Play&Earn opportunites for avatar holders, giving any holder the opportunity to earn SAND through gameplay.",
-        "STEVE_AOKI_FAQ_HOW_CAN_I_USE_TITLE": "How can I use my Avatar inside The Sandbox?",
-        "STEVE_AOKI_FAQ_HOW_CAN_I_USE_DESCRIPTION": "You will be able to use it as an Avatar by simply selecting it in the Avatar Manager in The Sandbox dashboard once it has been enabled.",
-        "STEVE_AOKI_FAQ_WHERE_CAN_I_BUY_TITLE": "Where can I buy a Steve Aoki avatar after the initial sale is over?",
-        "STEVE_AOKI_FAQ_WHERE_CAN_I_BUY_DESCRIPTION": "After the initial sale is over, you will be able to purchase as many avatars as you like from users that are willing to sell theirs on the secondary marketplace Opensea",
-        "STEVE_AOKI_FAQ_HOW_DO_I_GET_WHITELISTED_TITLE": "How do I get whitelisted?",
-        "STEVE_AOKI_FAQ_HOW_DO_I_GET_WHITELISTED_DESCRIPTION": "If you hold one of the below NFTs, 48h before minting starts, you can be one of the first to mint 2 NFTs maximum: \n - Steve Aoki NFTs \n If you hold one of the NFT listed below, 24 hours before the minting starts, you will have early access to mint a maximum of 2 Aoki Avatar: \n - The Sandbox LAND \n - The Doggies Avatar \n - People of Crypto Avatar \n - Winning one of our Twitter contests can also give you early access to mint your NFT.",
-        "STEVE_AOKI_FAQ_HOW_DO_I_KNOW_IF_TITLE": "How do I know if I’m whitelisted?",
-        "STEVE_AOKI_FAQ_HOW_DO_I_KNOW_IF_DESCRIPTION": "If you hold an NFT of the above collection, you will be able to mint, as long as you hold the NFT in the wallet with which you are whitelisted, and connected on the minting page.",
-        "STEVE_AOKI_FAQ_MY_AVATARS_TITLE": "My Avatars are not revealed yet on OpenSea. What can I do?",
-        "STEVE_AOKI_FAQ_MY_AVATARS_DESCRIPTION": "If you are checking before they have been revealed, this is normal. If you are checking after that date, press the “Refresh Metadata” button on the top-right corner of OpenSea.",
-        "STEVE_AOKI_FAQ_BUYING_NFT_TITLE": "Buying NFT for the first time, how can I get started?",
-        "STEVE_AOKI_FAQ_BUYING_NFT_DESCRIPTION": "The process is quite simple. You need to ensure that you have:  \n - Created an account on The Sandbox. \n - Ensure you have both the correct amount of SAND to mint the number of avatars you want and some ETH to cover the gas fees. \n - Log into your account and head over to the mint page: {link} \n - Check that your wallet is properly connected and just press the Mint button to retrieve your Avatar."
+        "COMMON_BRANDS_IN_THE_SANDBOX_TITLE": "더 샌드박스 메타버스와 함께하는 브랜드&IP",
+        "STEVE_AOKI_FAQ_HOW_MANY_STEVE_AOKI_TITLE": "몇 개의 스티브 아오키가 존재하나요?",
+        "STEVE_AOKI_FAQ_HOW_MANY_STEVE_AOKI_DESCRIPTION": "총 3,333개의 아오키 아바타가 민팅될 예정입니다.",
+        "STEVE_AOKI_FAQ_WHAT_IS_THEIR_RARITY_TITLE": "희귀도/등급은 어떤가요?",
+        "STEVE_AOKI_FAQ_WHAT_IS_THEIR_RARITY_DESCRIPTION": "아바타는 특성에 따라 다양한 희귀도로 분류됩니다. 각 아바타는 고유하며, 각기 다른 외형과 느낌에 따라 랜덤으로 특성이 부여되어 생성됩니다. 또한, 1/1 NFT 아바타도 여러 개 존재합니다.",
+        "STEVE_AOKI_FAQ_WHERE_DO_I_HAVE_TO_GO_TITLE": "아바타는 어디에서 받을 수 있나요?",
+        "STEVE_AOKI_FAQ_WHERE_DO_I_HAVE_TO_GO_DESCRIPTION": "아바타 민팅은 다음 경로에서만 가능합니다: {link}",
+        "STEVE_AOKI_FAQ_AT_WHAT_TIME_TITLE": "언제부터 판매가 시작되나요?",
+        "STEVE_AOKI_FAQ_AT_WHAT_TIME_DESCRIPTION": "판매는 {launchDatePublic}에 시작됩니다.\n화이스리스트 유저는 48시간 먼저 아바타를 구매할 수 있습니다.",
+        "STEVE_AOKI_FAQ_HOW_MUCH_SHOULD_I_TITLE": "스티브 아오키 아바타 NFT 1개는 대략 얼마인가요?",
+        "STEVE_AOKI_FAQ_HOW_MUCH_SHOULD_I_DESCRIPTION": "아바타 NFT 1개는 {sandAmount} SAND입니다.",
+        "STEVE_AOKI_FAQ_HOW_MANY_CAN_I_MINT_TITLE": "지갑 주소 1개당 몇 개의 아바타를 민팅할 수 있나요?",
+        "STEVE_AOKI_FAQ_HOW_MANY_CAN_I_MINT_DESCRIPTION": "스티브 아오키 아바타는 두 번에 걸쳐 공개됩니다.\n 1) 2022년 7월 25일 오후 11시 KST: 아오키가 직접 화이트리스트에 등록한 유저는 48시간 동안 지갑당 최대 두 개의 아바타를 민팅할 수 있습니다. \n 2) 2022년 7월 26일 오후 11시 KST: 아오키와 더 샌드박스가 함께 화이트리스트에 등록한 유저는 24시간 동안 지갑당 최대 두 개의 아바타를 민팅할 수 있습니다. \n3) 2022년 7월 27일 오후 11시 KST: 전체 공개. 아바타가 전체 공개되면 모든 유저는  지갑당 최대 네 개의 아바타를 민팅할 수 있습니다.",
+        "STEVE_AOKI_FAQ_WHEN_CAN_I_DISCOVER_TITLE": "어떻게 내 아바타를 확인할 수 있나요?",
+        "STEVE_AOKI_FAQ_WHEN_CAN_I_DISCOVER_DESCRIPTION": "스티브 아오키 아바타는 오픈시 민팅 48시간 이후에 공개됩니다.",
+        "STEVE_AOKI_FAQ_CAN_I_MINT_USING_TITLE": "민팅에는 지갑 종류 제한이 없나요?",
+        "STEVE_AOKI_FAQ_CAN_I_MINT_USING_DESCRIPTION": "네, 지갑의 종류는 상관없습니다.",
+        "STEVE_AOKI_FAQ_WHAT_CAN_I_DO_TITLE": "아바타로 무엇을 할 수 있나요?",
+        "STEVE_AOKI_FAQ_WHAT_WHAT_CAN_I_DO_DESCRIPTION": "다가오는 알파 시즌 3부터 아바타를 이용하여 더 샌드박스에 공개되는 모든 멀티플레이어 경험에서 플레이할 수 있습니다. 아바타 보유자 전용 플레이 앤 언(Play&Earn)의 기회도 마련되어 있으므로, 아바타를 구해하고 게임 플레이를 통해 SAND를 획득해 보세요.",
+        "STEVE_AOKI_FAQ_HOW_CAN_I_USE_TITLE": "더 샌드박스에서 어떻게 내 아바타를 사용할 수 있나요?",
+        "STEVE_AOKI_FAQ_HOW_CAN_I_USE_DESCRIPTION": "더 샌드박스 대시보드의 아바타 관리자에서 해당 아바타를 선택하기만 하면 바로 사용할 수 있습니다.",
+        "STEVE_AOKI_FAQ_WHERE_CAN_I_BUY_TITLE": "첫 세일 종료 이후에는 어디서 스티브 아오키 아바타를 구매할 수 있나요?",
+        "STEVE_AOKI_FAQ_WHERE_CAN_I_BUY_DESCRIPTION": "최초 판매가 종료되면, 오픈시(OpenSea) 등의 2차 마켓에서 보유한 아바타를 판매하려는 유저들로부터 아바타를 구매할 수 있습니다.",
+        "STEVE_AOKI_FAQ_HOW_DO_I_GET_WHITELISTED_TITLE": "화이트리스트에 추가되려면 어떻게 해야 하나요?",
+        "STEVE_AOKI_FAQ_HOW_DO_I_GET_WHITELISTED_DESCRIPTION": "아래 목록의 NFT 중 하나를 보유하고 있을 경우, 민팅 시작 48시간 전에 먼저 아오키 아바타를 최대 두 개 민팅할 기회가 주어집니다.\n- 스티브 아오키 NFT\n아래 목록의 NFT 중 하나를 보유하고 있을 경우, 민팅 시작 24시간 전에 먼저 아오키 아바타를 최대 두 개 민팅할 기회가 주어집니다.\n- 더 샌드박스 LAND\n- 도기즈 아바타\n- People of Cryto 아바타\n- 트위터 콘테스트 중 하나 당첨",
+        "STEVE_AOKI_FAQ_HOW_DO_I_KNOW_IF_TITLE": "내가 화이트리스트에 추가되었는지 어떻게 알 수 있나요?",
+        "STEVE_AOKI_FAQ_HOW_DO_I_KNOW_IF_DESCRIPTION": "민팅 페이지와 연결된 지갑에 위 컬렉션의 NFT 중 하나를 보유하고 있을 경우 화이트리스트에 추가되며 민팅을 진행할 수 있습니다.",
+        "STEVE_AOKI_FAQ_MY_AVATARS_TITLE": "내 아바타가 오픈시에 공개되지 않았습니다. 어떻게 해야 하나요?",
+        "STEVE_AOKI_FAQ_MY_AVATARS_DESCRIPTION": "공개 이전에 확인했다면 이는 정상적인 현상입니다. 해당 시점 이후라면 오픈시 페이지 우측 상단의 'Refresh Metadata'(메타데이터 새로고침)를 클릭하세요.",
+        "STEVE_AOKI_FAQ_BUYING_NFT_TITLE": "NFT를 처음 구매합니다. 어떻게 하면 되나요?",
+        "STEVE_AOKI_FAQ_BUYING_NFT_DESCRIPTION": "절차는 간단합니다. 아래 내용을 참고하세요.  \n - 더 샌드박스에서 계정을 생성합니다.\n - 원하는 아바타 개수를 민팅할 수 있는 SAND와 가스비로 사용될 ETH가 충분한지 확인합니다.\n - 계정에 로그인하고 민팅 페이지로 이동합니다: {link}\n - 지갑이 올바르게 연결되었는지 확인 후 민팅하기(Mint) 버튼을 클릭합니다."
     },
     "partners": {
         "meta": {
-            "title": "The Sandbox partnership",
-            "description": "The Sandbox offers a unique way to create, assemble and share 3D voxel models. Make your own 3D voxel objects, animate them, and publish/sell them in our worldwide marketplace, for free!",
-            "keywords": "sandbox, create, create voxel art, 3D voxel game, voxel artists, voxel game art, voxel market, blockchain dapp, PC voxel game, PC voxel art",
+            "title": "더 샌드박스 파트너십",
+            "description": "더 샌드박스는 3D 복셀 모델을 창작하고 조립하여 공유할 수 있는 특별한 방법을 제공합니다. 나만의 3D 복셀 오브젝트를 만들어 애니메이션을 추가하고 전 세계 유저들이 모이는 마켓플레이스에서 판매해 보세요. 물론, 이 모든 과정은 무료입니다!",
+            "keywords": "샌드박스, 창작, 복셀 아트 창작, 3D 복셀 게임, 복셀 아티스트, 복셀 게임 아트, 복셀 마켓, 블록체인 dapp, PC 복셀 게임, PC 복셀 아트",
             "og": {
-                "title": "The Sandbox | Create, Animate, Publish and Sell 3D Voxel objects",
-                "description": "The Sandbox offers a unique way to create, assemble and share 3D voxel models. Make 3D voxel objects, animate them, and publish/sell them in our worldwide marketplace.",
+                "title": "더 샌드박스 | 3D 복셀 오브젝트를 창작하고, 애니메이션화하고, 게시하여 판매하세요",
+                "description": "더 샌드박스는 3D 복셀 모델을 창작하고 조립하여 공유할 수 있는 특별한 방법을 제공합니다. 나만의 3D 복셀 오브젝트를 만들어 애니메이션을 추가하고 전 세계 유저들이 모이는 마켓플레이스에서 판매해 보세요.",
                 "url": "https://sandbox.game/create/",
-                "site_name": "The Sandbox",
+                "site_name": "더 샌드박스",
                 "image": "https://www.sandbox.game/media/The-Sandbox-VoxEdit-Character-Preview.gif"
             },
             "twitter": {
-                "title": "The Sandbox | Create, Animate, Publish and Sell 3D Voxel objects",
-                "description": "The Sandbox offers a unique way to create, assemble and share 3D voxel models. Make your own 3D voxel objects, animate them, and publish/sell them in our worldwide marketplace.",
-                "card": "Create in a Decentralized Gaming Ecosystem.",
+                "title": "더 샌드박스 | 3D 복셀 오브젝트를 창작하고, 애니메이션화하고, 게시하여 판매하세요",
+                "description": "더 샌드박스는 3D 복셀 모델을 창작하고 조립하여 공유할 수 있는 특별한 방법을 제공합니다. 나만의 3D 복셀 오브젝트를 만들어 애니메이션을 추가하고 전 세계 유저들이 모이는 마켓플레이스에서 판매해 보세요.",
+                "card": "탈중앙화 게이밍 생태계에서 창작하기",
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame",
                 "image": "https://www.sandbox.game/media/The-Sandbox-VoxEdit-Character-Preview.gif"
             }
         },
         "journey": {
-            "title": "Let’s build the open Metaverse together",
-            "desc": "Everyone is welcome inside The Sandbox : brands, studios, independent creators, you are all part of our ecosystem. As we are all different, you all have different needs and we are here to help you get into our world.",
-            "desc1": "You want to partner with The Sandbox?",
-            "desc2": "Have a look at our opportunities",
-            "button": "Join now"
+            "title": "함께 만들어 나가는 오픈 메타버스",
+            "desc": "더 샌드박스는 모두를 환영합니다! 브랜드, 스튜디오, 독립 크리에이터 누구든 생태계의 일부가 될 수 있습니다. 더 샌드박스는 메타버스 세계 속 각자의 필요에 따라 모두를 도울 준비가 되어 있습니다.",
+            "desc1": "더 샌드박스와 파트너를 맺고 싶다면?",
+            "desc2": "다양한 기회가 마련되어 있습니다",
+            "button": "함께하기"
         },
         "community": {
-            "title": "Join a community where worlds are merging",
-            "desc": "See for yourself how our partners have entered the metaverse",
+            "title": "전 세계가 하나되는 커뮤니티와 함께하세요",
+            "desc": "더 샌드박스 파트너가 메타버스에 합류한 방법을 알아보세요",
             "cards": {
                 "1": {
-                    "desc": "One of the easier tool to create animations in voxel art, with an attractive and a very simple easy-to-use interface for beginners.",
+                    "desc": "간편한 인터페이스로 구성된 복셀 아트 애니메이션을 창작할 수 있는 초보자를 위한 가장 쉬운 툴",
                     "name": "Snoop Dogg",
-                    "owner": "IP Owner"
+                    "owner": "IP 보유자"
                 },
                 "2": {
-                    "desc": "One of the easier tool to create animations in voxel art, with an attractive and a very simple easy-to-use interface for beginners.",
+                    "desc": "간편한 인터페이스로 구성된 복셀 아트 애니메이션을 창작할 수 있는 초보자를 위한 가장 쉬운 툴",
                     "name": "The Smurfs",
-                    "owner": "IP Owner"
+                    "owner": "IP 보유자"
                 },
                 "3": {
-                    "desc": "One of the easier tool to create animations in voxel art, with an attractive and a very simple easy-to-use interface for beginners.",
+                    "desc": "간편한 인터페이스로 구성된 복셀 아트 애니메이션을 창작할 수 있는 초보자를 위한 가장 쉬운 툴",
                     "name": "Care Bears",
-                    "owner": "IP Owner"
+                    "owner": "IP 보유자"
                 }
             }
         },
         "build": {
-            "title": "Let’s build the open Metaverse together",
-            "desc1": "Everyone is welcome inside The Sandbox : brands, studios, independent creators, you are all part of our ecosystem.",
-            "desc2": "As we are all different, you all have different needs and we are here to help you get into our world",
-            "button": "Join now"
+            "title": "함께 만들어 나가는 오픈 메타버스",
+            "desc1": "더 샌드박스는 모두를 환영합니다! 브랜드, 스튜디오, 독립 크리에이터 누구든 생태계의 일부가 될 수 있습니다.",
+            "desc2": "더 샌드박스는 메타버스 세계 속 각자의 필요에 따라 모두를 도울 준비가 되어 있습니다.",
+            "button": "함께하기"
         },
         "partnership": {
-            "title": "The Sandbox is a place for any kind of partnerships",
-            "button": "Join us now",
+            "title": "다양한 파트너십",
+            "button": "함께하기",
             "cards": {
                 "1": {
-                    "title": "IPs and brands",
-                    "desc": "You have a brand and you are wondering how you can enter The Sandbox? You are at the right place, we will help you develop your brand image into our ecosystem.",
-                    "button": "Enter now"
+                    "title": "IP와 브랜드",
+                    "desc": "더 샌드박스에서 내 브랜드를 어떻게 활용해야 할지 모르겠다면? 생태계 속에서 내 브랜드를 널리 알릴 수 있도록 더 샌드박스가 도와드리겠습니다.",
+                    "button": "메타버스에 합류하기"
                 },
                 "2": {
-                    "title": "Metaverse agencies",
-                    "desc": "You are advising clients to design their web3 strategy and you consider partnering with The Sandbox. We have room for you as well.",
-                    "button": "Join the Metaverse"
+                    "title": "메타버스 에이전시",
+                    "desc": "클라이언트에게 Web3 전략 설계 컨설팅을 제공하는 동시에 더 샌드박스와의 파트너십을 고려하고 있다면? 더 샌드박스가 도와드리겠습니다.",
+                    "button": "메타버스에 합류하기"
                 },
                 "3": {
-                    "title": "Independent studios",
-                    "desc": "You are a gaming studio and you want to develop your own concept inside our voxel world, contact us so we can help you develop your genuine experience.",
-                    "button": "Develop now"
+                    "title": "독립 스튜디오",
+                    "desc": "복셀 세상에서 아이디어를 펼치고 싶은 게이밍 스튜디오라면? 진정한 메타버스 경험을 제작할 수 있도록 더 샌드박스가 도와드리겠습니다.",
+                    "button": "메타버스에 합류하기"
                 }
             }
         },
         "whypartner": {
-            "title": "Why partner with us ?",
+            "title": "더 샌드박스와 파트너를 맺어야 하는 이유",
             "blocks": {
                 "1": {
-                    "title": "+3 million and growing everyday",
-                    "subtitle": "Wallet registered",
-                    "desc1": "We have already gathered a strongly involved community, ready to jump on any interesting experiences.",
-                    "desc2": "Our idea has always been to make sure the final end user is able to live the most out of each projects."
+                    "title": "300만 개 이상, 그리고 매일 성장하는",
+                    "subtitle": "유저 및 지갑",
+                    "desc1": "더 샌드박스는 언제든 흥미로운 경험에 참여할 강력한 커뮤니티가 함께합니다.",
+                    "desc2": "유저들이 완성도 높은 경험 속에서 재밌게 뛰어놀 수 있도록 최선을 다합니다."
                 },
                 "2": {
-                    "title": "Access",
-                    "subtitle": "For all",
-                    "desc1": "Partnering with The Sandbox is not only a way to join one of the biggest metaverse in the world, it is also a true standpoint for accessibility.",
-                    "desc2": "Everyone, from a powerful gaming computer to a mobile device, will be able to access our plateform.",
-                    "desc3": "Our quest toward interoperability also will help our community and the overall market mege worlds all together."
+                    "title": "모두를 위한",
+                    "subtitle": "접근성",
+                    "desc1": "더 샌드박스와 파트너십을 맺고 세계 최대 규모 메타버스에 합류하여 접근성에 대한 진정한 의미를 느껴보세요.",
+                    "desc2": "최고 성능의 게이밍 컴퓨터부터 모바일 기기까지, 누구나 더 샌드박스 플랫폼에 접근할 수 있습니다.",
+                    "desc3": "또한, 더 샌드박스는 커뮤니티와 마켓 전반의 통합을 위한 상호운용성을 추구합니다."
                 },
                 "3": {
-                    "title": "200+ brands",
-                    "subtitle": "Already involved",
+                    "title": "더 샌드박스와 함께하는",
+                    "subtitle": "200개 이상의 브랜드",
                     "desc1": "Our unique identity and our plan to market have already helped more than 200 brands to get into our space and develop their own world. When you join The Sandbox, you also join Gucci, Adidas, Snoop Dogg, Ubisoft and much more…",
                     "desc2": "Jump in and create your own voxelised world! Be part of the amazing ecosystem where brands create out of this world experiences for the pleasure and growth of their community."
                 }
             }
         },
         "howpartner": {
-            "title": "How partners developed their own world…",
-            "seecollection": "See Collection",
-            "createdby": "Created by",
+            "title": "파트너 활동 알아보기",
+            "seecollection": "컬렉션 보기",
+            "createdby": "크리에이터:",
             "block": {
                 "1": {
                     "title": "Care Bears",
-                    "desc": "Care Bears and The Sandbox partnered up to bring a selection of unique and colorful NFTs to the world..."
+                    "desc": "케어 베어스&더 샌드박스의 파트너십으로 탄생한 독특하고 다채로운 NFT 컬렉션"
                 },
                 "2": {
                     "title": "Snoop Dogg",
-                    "desc": "Snoop Dogg and The Sandbox partnered up to bring a selection of unique and colorful NFTs to the world..."
+                    "desc": "스눕 독&더 샌드박스의 파트너십으로 탄생한 독특하고 다채로운 NFT 컬렉션"
                 },
                 "3": {
                     "title": "The Walking Dead",
-                    "desc": "The Walking Dead and The Sandbox partnered up to bring a selection of unique and colorful NFTs to the world..."
+                    "desc": "워킹 데드&더 샌드박스의 파트너십으로 탄생한 독특하고 다채로운 NFT 컬렉션"
                 },
                 "4": {
                     "title": "Deadmau5",
-                    "desc": "Deadmau5 and The Sandbox partnered up to bring a selection of unique and colorful NFTs to the world..."
+                    "desc": "데드마우스&더 샌드박스의 파트너십으로 탄생한 독특하고 다채로운 NFT 컬렉션"
                 },
                 "5": {
                     "title": "The Smurfs",
-                    "desc": "The Smurfs and The Sandbox partnered up to bring a selection of unique and colorful NFTs to the world..."
+                    "desc": "스머프&더 샌드박스의 파트너십으로 탄생한 독특하고 다채로운 NFT 컬렉션"
                 }
             }
         },
         "createdunique": {
-            "title": "And created unique experiences!",
+            "title": "다양한 경험 제작까지!",
             "desc": "Entering The Sandbox means you craft your own universe where communities will navigate and discover your brand and enjoy a truly unique experience in a voxel world. From building houses and cities, to cat walking during fashion shows and defeating dragons and monsters, you are free to offer the experience you dream of.",
-            "button": "Join us now",
-            "createdby": "Created by",
+            "button": "함께하기",
+            "createdby": "크리에이터:",
             "blocks": {
                 "1": {
-                    "title": "Fashion",
-                    "desc": "Virtual cat-walking is now a thing. Come join us to experience a new way to consider fashion, to own virtual assets from worldwide digital brands and access a brand new ecosystem.",
-                    "screen": "Alpha Lobby"
+                    "title": "패션",
+                    "desc": "이제 캣워크도 가상 세계에서! 더 샌드박스와 함께 색다른 패션의 세계를 경험하고, 전 세계 디지털 브랜드의 가상 애셋을 소유하며 새로운 생태계에 한 걸음 더 가까워질 수 있습니다.",
+                    "screen": "알파 로비"
                 },
                 "2": {
-                    "title": "Gaming",
+                    "title": "게이밍",
                     "desc": "The Sandbox metaverse draws its roots from a deep gaming culture, where the fun is a whole part of the show. Enter our universe to build your own and dive into a voxel world where anything is possible.",
                     "screen": "Forest"
                 },
                 "3": {
-                    "title": "Lifestyle",
+                    "title": "라이프스타일",
                     "desc": "Chilling by the pool with some friends sounds cool? The metaverse can help you deliver a social experience as you would in real life, without limiting yourself with physical hurdles. The metaverse is a place where you can do whatever you want, embody an avatar, visit, shop and play.",
                     "screen": "Modern House"
                 },
                 "4": {
-                    "title": "Sports",
-                    "desc": "Playing soccer, supporting your favorite club, watching tennis matches etc… this is all possible in the voxel world. The Sandbox translates the physical experience in a new way to embody our favorite disciplines",
+                    "title": "스포츠",
+                    "desc": "축구 경기에서 뛰기, 내가 좋아하는 클럽 응원하기, 테니스 경기 관람하기 등, 복셀 세상에서는 이 모든 것이 가능합니다. 더 샌드박스는 우리가 열광하는 분야를 새로운 방식으로 구현하여 실제 물리적인 경험을 재창조합니다.",
                     "screen": "Race Maze"
                 },
                 "5": {
-                    "title": "Music",
+                    "title": "음악",
                     "desc": "From LA to The Sandbox, there is only one step, and Snoop Dogg understood this. The Sandbox is about delivering a new viewer experience during concerts and live performance. Enabling broader access to everyone, interacting with the crowd, through their avatars. Fans are now complete part of the deal.",
                     "screen": "Climbing madness"
                 }
             }
         },
         "realworld": {
-            "title": "An extension of Real-World Experiences",
+            "title": "실제 경험의 확장",
             "blocks": {
-                "1": "Real Estate & Home Related",
-                "2": "Music, Concerts & Streaming",
-                "3": "Fashion & Apparel",
-                "4": "Art & Museums",
-                "5": "Professional interactions",
-                "6": "Shopping",
-                "7": "Social & Dating",
-                "8": "Automotive",
-                "9": "Video Games",
-                "10": "Sports"
+                "1": "부동산 & 주택 관련 산업",
+                "2": "음악, 콘서트 및 스트리밍",
+                "3": "패션 & 의류",
+                "4": "아트 & 박물관",
+                "5": "전문가와 소통",
+                "6": "쇼핑",
+                "7": "친목 도모 & 데이트",
+                "8": "자동차",
+                "9": "비디오 게임",
+                "10": "스포츠"
             }
         }
     },
@@ -8996,26 +8994,26 @@
         "sidebar": "화신",
         "explore": "외부 컬렉션 탐색",
         "exploreLands": "토지 및 부동산 탐색",
-        "exploreLatest": "최신 상품 살펴보기",
-        "total": " 컬렉션의 자산",
+        "exploreLatest": "모든 애셋 살펴보기",
+        "total": " 컬렉션의 애셋",
         "header": {
-            "title": "샌드박스 아바타r",
-            "description": "프로필 사진을 한 단계 업그레이드하십시오. 이제 좋아하는 아바타를 선택하여 샌드박스 메타버스를 탐색할 수 있습니다.",
+            "title": "더 샌드박스 아바타",
+            "description": "프로필 사진을 한층 더 새롭게 꾸며보세요. 이제 마음에 드는 아바타를 선택하여 더 샌드박스 메타버스를 탐험할 수 있습니다.",
             "description2": " 지갑을 연결하여 외부 아바타를 소유하고 있는지 확인하십시오.",
             "info": "컬렉션 정보",
-            "owners": "소유자",
-            "assets": "자산",
+            "owners": "보유자",
+            "assets": "애셋",
             "link": "공개 링크",
-            "created": "만든 사람",
-            "assetscard": "자산",
+            "created": "크리에이터:",
+            "assetscard": "애셋",
             "bycard": "~에 의해",
-            "button1": "探索收藏",
-            "button2": "創建免費頭像"
+            "button1": "컬렉션 찾아보기",
+            "button2": "무료 아바타 생성하기"
         },
         "noresult": {
-            "title": "什麼都沒找到",
-            "message": "我們找不到任何應用這些過濾器的東西",
-            "button": "全部清除"
+            "title": "검색 결과를 찾을 수 없습니다",
+            "message": "해당 필터를 적용한 검색 결과를 찾을 수 없습니다",
+            "button": "모두 해제"
         }
     }
 }
