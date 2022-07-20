@@ -221,7 +221,10 @@
         "failedTryAgain": "Something went wrong. Please try again.",
         "search_name": "",
         "options_selected": "",
-        "savedChanges": "Saved!"
+        "savedChanges": "Saved!",
+        "createAccount": "Create an Account",
+        "toPlayAlpha": "To Play Alpha Season 3 please use Mac or Windows PC",
+        "update": "Update"
     },
     "layout": {
         "topbar": {
@@ -398,7 +401,14 @@
                 "welcome": "Welcome to the Metaverse",
                 "play": "Play, create and own the future"
             },
-            "createAccount": "Hesap Oluştur"
+            "createAccount": "Hesap Oluştur",
+            "ribbonSeason3": {
+                "welcome": "Play the Alpha Season 3 and try to win an Alpha Pass by completing Quests.",
+                "play": "Alpha Pass by completing Quests.",
+                "counter": "ALPHA SEASON 3",
+                "preSeason": "SEASON 3 COMING SOON",
+                "duringSeason": "SEASON 3 IS LIVE"
+            }
         },
         "discover": {
             "title": "Sandbox'u keşfet",
@@ -455,6 +465,23 @@
             "button": "Get Aoki Avatar",
             "button2": "Create Free Avatar",
             "disabled": "*Starts on July 25th"
+        },
+        "avatarSeason3": {
+            "title": "Play with your own avatar",
+            "description": {
+                "1": "Profil fotoğrafını bir üst seviyeye taşı. Artık kendi favori Avatar'ını seçip Sandbox Metaverse'ü keşfedebilirsin."
+            }
+        },
+        "nftSeason3": {
+            "title": "GET YOUR NFTs",
+            "buttonText": "Go to Marketplace"
+        },
+        "landSeason3": {
+            "title": "BECOME A LAND OWNER"
+        },
+        "sandSeason3": {
+            "title": "WHY SAND?",
+            "buttonText": "Buy now"
         }
     },
     "season": {
@@ -463,7 +490,12 @@
             "rewards": "Ödüller",
             "info": "Bilgi",
             "raffleTickets": "Biletler",
-            "contests": "İçerikler"
+            "contests": "İçerikler",
+            "leaderboard": "Leaderboard",
+            "shop": "",
+            "progression": {
+                "ticketDetails": "Ticket Details"
+            }
         },
         "play": {
             "selectAvatar": "Avatar'ını seç",
@@ -486,7 +518,11 @@
                 "ready": "Hazır mısın?",
                 "noEvents": "Planlanan bir etkinkik mevcut değil",
                 "moreExperiences": "Daha fazla etkinlikler geliyor",
-                "day": "DAYS"
+                "day": "DAYS",
+                "needLogIn": "You need to be signed in to see your progress",
+                "eventsOfTheDay": "Social events of the day",
+                "boostRewards": "Boost rewards by staking",
+                "to": "TO"
             },
             "welcome": {
                 "back": "Geri",
@@ -523,11 +559,18 @@
                 "notCompleted": "Tamamlanmadı",
                 "alphaCompleted": "Alfa görevi: Tamamlandı",
                 "alphaNotCompleted": "Alfa görevi: Tamamlanmadı",
-                "lockedDate": "Yayın tarihi: {date}"
+                "lockedDate": "Yayın tarihi: {date}",
+                "leaderboardEnabled": "Leaderboard Enabled"
             },
             "details": {
                 "progress": "Sezon ilerlemesi",
-                "creator": "İçerik Üreticisi"
+                "creator": "İçerik Üreticisi",
+                "rate": "Rate the experience",
+                "epEarned": "EP earned",
+                "signInPlay": "Sign in to play",
+                "collections": "More Collection details",
+                "feedback": "Feedback on your experience",
+                "noProgression": "No Alpha Progression"
             },
             "loading": {
                 "title": "Sandbox yükleniyor...",
@@ -549,7 +592,11 @@
                 "step4": "Yükledikten sonra, oyna butonuna bas!"
             },
             "liveSupport": "Canlı Destek",
-            "joinDiscord": "Discord'a katıl"
+            "joinDiscord": "Discord'a katıl",
+            "raffle": {
+                "noWinner": "YOU DIDN'T WIN",
+                "noWinnerDesc": "Better luck the next time! You didn't win an Alpha S3"
+            }
         },
         "pass": {
             "title": "Ödüller",
@@ -711,7 +758,8 @@
                 "raffleResults": "ÇEKİLİŞ ÖDÜLLERİ İÇİN",
                 "raffleStarts": "ÇEKİLİŞ BAŞLIYOR",
                 "timeLeft": "剩余时间",
-                "timeLeftToClaim": "CLAIM AVAILABLE IN"
+                "timeLeftToClaim": "CLAIM AVAILABLE IN",
+                "seasonEnds": "SEASON ENDS IN"
             },
             "experienceToVisit": "Alfa görevi tamamlandı",
             "raffleTickets": {
@@ -745,7 +793,28 @@
                 "snoop3": "Doggie Avatar",
                 "snoop3TooltipDesc": "Bir Doggie Avatar NFT sahibi olarak 100 ekstra Rffle Kartı kazanın. Çekiliş başladığında (Mart 31) NFT'yi cüzdanınızda taşımanız gerekir."
             },
-            "downloadAlpha": "Alfa'yı İndir"
+            "downloadAlpha": "Alfa'yı İndir",
+            "ethosPointsEarned": "Ethos Point earned",
+            "shop": {
+                "s3": "Alpha Season 3",
+                "title": "NFT SHOP",
+                "subtitle": "Earn the NFT Collector Badge by collecting Season 3 NFTs and earn more SAND at the end of the Season.",
+                "totalOwned": "TOTAL NFT OWNED",
+                "enterMetaverse": "Enter the Metaverse",
+                "badgeStatus": "You need to be logged in to see your Badge status",
+                "collectedBadge": "The Collector's badge is yours!",
+                "enjoyRewards": "You can enjoy the guaranteed rewards.",
+                "collect10": "Collect at least 10 NFT to earn the NFTs Collector's badge",
+                "needToGet": "YOU ONLY NEED {count} TO GET IT!",
+                "owned": "Owned",
+                "showLess": "Show Less",
+                "seeMore": "See More",
+                "getNFT": "Get NFT",
+                "getMore": "Get More",
+                "externalNFT": "External NFT",
+                "internalNFT": "Internal TSB NFT",
+                "s3Collection": "Season 3 Collection"
+            }
         },
         "info": {
             "title": "欢迎来到Alpha版本",
@@ -1422,7 +1491,49 @@
                 "upcomingDesc": "Stay tuned for new contests every week!",
                 "play": "Play",
                 "openUntil": "Open until",
-                "upcomingEvents": "Upcoming Events"
+                "upcomingEvents": "Upcoming Events",
+                "endingSoon": "Ending Soon",
+                "upNext": "UP NEXT",
+                "prizePool": "Prize Pool",
+                "contest": "Contest",
+                "challenge": "Challenge",
+                "giveaway": "Giveaway",
+                "new": "New"
+            },
+            "rewards": {
+                "alphaSeason": "Alpha Season 3",
+                "rewards": "Rewards",
+                "claimDesc": "Claim your rewards from September, 18th",
+                "leaderboardDesc": "Leaderboard reward:",
+                "leaderboardDesc2": "Compete against other players in the Leaderboard and win extra rewards.",
+                "leaderboardDesc3": "Go to the Leaderboard",
+                "cannotParticipate": "You cannot participate In the Raffle due to you already hold an Alpha Pass",
+                "didNotWin": "Unfortunately you did not win a Season 3 Alpha Pass. Thanks for joining us!",
+                "wonAlpha": "Congratulations! You won a Season 3 Alpha Pass. Thanks for joining us!",
+                "loggedOut": "You need to be logged in to see your progression",
+                "collectRaffle": "Collect Raffle Tickets to increase the chance to win",
+                "ifYouWin": "IF YOU WIN AN ALPHA PASS",
+                "youHold": "YOU HOLD AN ALPHA PASS",
+                "getAlphaDesc": "Get an Alpha Pass to unlock those rewards",
+                "stake": "Stake",
+                "buy": "Buy",
+                "guaranteed": "GUARANTEED",
+                "guaranteedDesc": "Own a LAND, an Avatar and NFTs from our collections at the end of the season and earn {0} based on your level.",
+                "earnSand": "BONUS SAND REWARDS GUARANTEED",
+                "landOwner": "Land Owner",
+                "forLandOwner": "FOR LAND OWNERS ONLY",
+                "landDesc": "Get a LAND to unlock those guaranteed rewards",
+                "avatarOwner": "Avatar Owner",
+                "forAvatarOwner": "FOR AVATAR OWNERS ONLY",
+                "avatarDesc": "Get an Avatar to unlock those guaranteed rewards",
+                "collectorOwner": "NFT Collector",
+                "forCollectorOwner": "FOR NFT OWNERS ONLY",
+                "collectorDesc": "Get a NFT Badge collector to unlock those rewards",
+                "boosterTitle": "Community Booster Rewards",
+                "stakeDesc": "Stake {0} to increase the total prize pool. {1}",
+                "upTo": "Up to +100%",
+                "stakeDesc2": "You will get also {0} for staking sand. 1 point is earned for each {1} staked for the whole Season.",
+                "extraTickets": "500 extra Raffle Tickets"
             }
         }
     },
@@ -1462,7 +1573,11 @@
             "price": "Fiyat",
             "from": "Başlangıç tarihi",
             "to": "ile",
-            "cancel": "satışı iptal et"
+            "cancel": "satışı iptal et",
+            "network": {
+                "ethereum": "Bu, Ethereum Ağında çalışan SAND'dir",
+                "polygon": "Bu, Polygon Ağında çalışan SAND'dir"
+            }
         },
         "reportModal": {
             "modalTitle": "Report NFT",
@@ -1802,7 +1917,9 @@
             },
             "cartItem": {
                 "available": "Mevcut"
-            }
+            },
+            "totalOnNetwork1": "",
+            "totalOnNetwork2": "Ağındaki Toplam"
         },
         "assets": {
             "noGems": "Bu varlıkta hiç mücevher yok.",
@@ -1835,8 +1952,8 @@
         "mintingApprovalPending": "Pending minting approval",
         "mintingApprovalRejected": "Minting not approved",
         "sell": {
-            "asset": "",
-            "cancel": ""
+            "asset": "satılacak varlık",
+            "cancel": "Satışı İptal Et"
         }
     },
     "create": {
@@ -2553,7 +2670,8 @@
                     "title": "Bir avatar seçin",
                     "subtitle": "Kalabalığın arasından sıyrılmak için kendi stilinizi bulun",
                     "description": "Önceden tasarlanmış bir avatarla kolayca başlayın. En iyi sanatçılarımız tarafından tasarlanan 20'den fazla model arasından seçim yapın ve The Sandbox metaverse'e katılın!",
-                    "buttonText": "Avatarını oluştur"
+                    "buttonText": "Avatarını oluştur",
+                    "changeText": "Change your avatar"
                 },
                 "section3": {
                     "comingSoon": "Çok yakında",
@@ -3438,7 +3556,12 @@
                     }
                 }
             },
-            "title": "Çanta"
+            "title": "Çanta",
+            "layers": {
+                "title": "Networks",
+                "layer1": "Ethereum",
+                "layer2": "Polygon"
+            }
         },
         "avatar": {
             "empty": "Bu liste boş",
@@ -3829,6 +3952,21 @@
                 "changeGasSettings": "Change gas settings",
                 "payWithMatic": "Pay gas with MATIC",
                 "payWithMsand": "Pay gas with mSAND"
+            },
+            "accountVerification": "Verification",
+            "kyc": {
+                "title": "Account Validation",
+                "subtitle": "KYC Process",
+                "description": "To join some activies such as the LAND Sale Raffle or claiming Season rewards, we require you to complete the identity Verification process.",
+                "extra": "The process might take up to 48hs, make sure you verify on time so you don't miss any activity. You can always check your identity Verification status here.",
+                "button": {
+                    "start": "Start Verification",
+                    "continue": "Continue Verification",
+                    "check": "Check Verification"
+                },
+                "resultDate": {
+                    "message": "on {0} UTC"
+                }
             }
         },
         "claims": {
@@ -3996,7 +4134,8 @@
             "ticketDetails": "Bilet detayları",
             "raffleTickets": "Çekiliş biletleri",
             "products": "Ürün Sürümleri",
-            "partners": "Partners"
+            "partners": "Partners",
+            "kyc": "User Verifications (KYC)"
         },
         "users": {
             "profile": "Profil",
@@ -4444,18 +4583,27 @@
                 "from": "İTİBAREN",
                 "acquisition": "KAZANIM",
                 "currency": "BAKİYE",
-                "profit": "KAR"
+                "profit": "KAR",
+                "description": "",
+                "type": ""
             },
             "detailsmobile": {
                 "acquisition": "Kazanım",
                 "currency": "Bakiye",
-                "profit": "Kar"
+                "profit": "Kar",
+                "type": "Type",
+                "description": "Description"
             },
             "etherscan": "Etherscan ile görüntüle",
             "nothing": "Hiçbir komisyon kazanılmadı.",
             "percentage": "10%",
             "referral": "Referral",
-            "fee": "FEE"
+            "fee": "FEE",
+            "option1": "10% Referral fee for new buys of your referred friends.",
+            "option2": "25 Raffle Tickets for each referred friend who reaches level 5 during the Season",
+            "sandEarning": "SAND Earning",
+            "ticketEarning": "Tickets Earning",
+            "reach": "Reach"
         },
         "linkAWallet": "Cüzdan Bağla",
         "linkWallet": "Cüzdan Bağla",
@@ -9017,6 +9165,38 @@
             "title": "什麼都沒找到",
             "message": "我們找不到任何應用這些過濾器的東西",
             "button": "全部清除"
+        }
+    },
+    "kyc": {
+        "statuses": {
+            "unverified": "Unverified",
+            "inProgress": "In Progress",
+            "verified": "Verified",
+            "rejected": "Rejected",
+            "cancelled": "Cancelled"
+        },
+        "admin": {
+            "search": {
+                "placeholder": "Type the User ID and press enter"
+            },
+            "modals": {
+                "update": {
+                    "title": "Update Verification",
+                    "text": "Are you sure that you want to update the user verification?"
+                },
+                "cancel": {
+                    "title": "Cancel Verification",
+                    "text": "Are you sure that you want to cancel the user verification?"
+                }
+            }
+        },
+        "bar": {
+            "explanation": "Remember to validate your identity. You will not be able to claim the rewards if you do not do so before the end of the season.",
+            "actions": {
+                "start": "",
+                "continue": "",
+                "check": ""
+            }
         }
     }
 }
