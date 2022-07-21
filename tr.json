@@ -462,9 +462,9 @@
         "aoki": {
             "title": "Mint your Steve Aoki Avatar",
             "description": "Get your unique Steve Aoki avatar for The Sandbox Today and enter the metaverse.",
-            "button": "Get Aoki Avatar",
+            "button": "Discover more",
             "button2": "Create Free Avatar",
-            "disabled": "*Starts on July 25th"
+            "disabled": "*Minting starts on July 25"
         },
         "avatarSeason3": {
             "title": "Play with your own avatar",
@@ -510,7 +510,7 @@
             },
             "sidebarRight": {
                 "progressTitle": "Son İlerlemeler",
-                "noProgress": "Hak kazanmak için bir ilerleme mevcut değil",
+                "noProgress": "You do not have progress yet",
                 "unlockedTitle": "Son deneyimler açılmadı",
                 "noUnlocked": "Henüz açılmamış deneyimler mevcut",
                 "schedule": "Ortaya çıkma zaman çizelgesi",
@@ -723,7 +723,7 @@
                     "communityBoosterDescription2": "toplam ödül havuzunu artırmak için. %100'e kadar.",
                     "communityBoosterDescription3": "Ayrıca 200 adede kadar ekstra Rffle Kartı da elde edeceksiniz",
                     "raffleHasPass": "TALEP IÇIN GÜN",
-                    "raffleHasPassDesc": "S2 Alpha Pass sahibisiniz",
+                    "raffleHasPassDesc": "You own a S3 Alpha Pass",
                     "communityBoosterDescription": "Toplam ödül havuzunu artırmak için $SAND yatırın. Topluluk güçlendirici, herkesin $SAND ödüllerine uygulanacaktır. Topluluk ne kadar çok bahis oynarsa, Topluluk o kadar çok kazanır. Ayrıca stake için ekstra Çekiliş Biletleri alacaksınız.",
                     "enterThePartyDescription": "24 Mart Perşembe günü saat 19:00'da VIP Partisine Katılın",
                     "seasonOverDescription4": "Yakında $SAND ödülleri kazanabileceksiniz! Bu arada Bilet Sahiplerinin VIP Partisi'ni ziyaret etmeyi unutmayın!",
@@ -1480,14 +1480,14 @@
                 "socialContests": "Events and Contests",
                 "howItWorks": "How does it work?",
                 "howItWorksDesc": "Earn different rewards by participating in activities every weekday.",
-                "ongoing": "ONGOING",
+                "ongoing": "LIVE",
                 "coming": "COMING",
                 "onlyForOwners": "Only For Owners",
-                "seeMore": "Participate",
+                "seeMore": "More Info",
                 "shared": "Shared",
                 "rewards": "Rewards",
                 "comingSoon": "COMING SOON",
-                "upcoming": "UPCOMING CONTESTS",
+                "upcoming": "Upcoming",
                 "upcomingDesc": "Stay tuned for new contests every week!",
                 "play": "Play",
                 "openUntil": "Open until",
@@ -2222,7 +2222,7 @@
                 },
                 "title1": "Become",
                 "title2": "Senin avatarın",
-                "description1": "Profil resminizi bir sonraki seviyeye taşıyın. Artık The Sandbox Metaverse'i keşfetmek için favori Avatarınızı seçebilirsiniz.",
+                "description1": "Discover our Interoperable Avatars collection. Own NFTs and unlock special Avatars to explore the Metaverse. New compatible collections will be added progressively!",
                 "description2": "Harici Avatarınız olup olmadığını öğrenmek için cüzdanınızı bağlayın.",
                 "button": "Cüzdanı Bağla"
             },
@@ -3832,8 +3832,8 @@
         },
         "settings": {
             "title": "Ayarlar",
-            "gral": "Gral. Ayarlar",
-            "securityMobile": "Güvenlik & Şifre",
+            "gral": "General",
+            "securityMobile": "Security",
             "general": {
                 "title": "Genel Ayarlar",
                 "email-sub": "E-posta",
@@ -4569,12 +4569,12 @@
         },
         "referrals": {
             "title": "Bir arkadaşınızı tavsiye edin ve kazanın",
-            "explanation": "Benzersiz referans bağlantınızı kopyalayın ve her yerde paylaşın. Yeni bir kullanıcı The Sandbox'ta bir şey satın aldığında, satışın %10'una kadar kazanacaksınız! Referanslar her gün işlenir.",
+            "explanation": "Copy your unique referral link and share it far and wide.",
             "share": "Referans linkinizi paylaşın",
             "duration": "Link Süresi:",
             "days": "gün",
             "sharein": "Şurada Paylaş:",
-            "amountreferred": "Toplam Referans:",
+            "amountreferred": "Total Referred",
             "amountearnings": "Toplam Kazanç: ",
             "link": "Referans hakkında daha fazla bilgi edinin >",
             "details": {
@@ -5337,7 +5337,7 @@
             "earnings-title": "Kazanımlar",
             "earnings": "Toplanabilir birikmiş kazanımlarınız.",
             "landMultiplierNotActive": "LAND faiz oranları Poligon ağında henüz mevcut değildir.",
-            "myScore": "The score you accumulated so far. It unlocks tickets for the raffle (up to 200)",
+            "myScore": "The score you accumulated so far. It unlocks tickets for the raffle (up to {score})",
             "myScore2": "Currently unlocked : {ticketAmount} tickets",
             "communityScore": "The score accumulated by the whole community. This will boost Alpha rewards up to 100%",
             "communityScore2": "Current boost : {boostPercentage}%",
@@ -5521,7 +5521,7 @@
                 "infoEnd": "staked for the whole season.",
                 "pointsInfo1": "You earn points over time for each ",
                 "pointsInfo2": " staked. Points accumulated cannot be lost. ",
-                "pointsInfo3": "staked for 28 days grants {stakingMultiplier} point.",
+                "pointsInfo3": "staked for 10 weeks grants {stakingMultiplier} point.",
                 "myScore": "puanım",
                 "earnScorePoints": "Earn Score Points",
                 "cardFirstTitle": "Stake {0} and enjoy the benefits of staking."
@@ -8288,7 +8288,7 @@
         "explore": "探索外部收藏",
         "total": " 集合中的資產",
         "exploreLands": "",
-        "exploreLatest": ""
+        "exploreLatest": "Explore All Assets"
     },
     "alpha3": {
         "contest": {
