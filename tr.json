@@ -213,7 +213,7 @@
         "pleaseChangeRinkeby": "Please change to Rinkeby Network",
         "recommended": "recommended",
         "enablePopups": "Make sure you have popups enabled",
-        "msand": "mSAND",
+        "msand": "SAND",
         "requestMinting": "Request Minting",
         "cancelRequest": "Cancel Request",
         "reportNFT": "Report NFT",
@@ -255,7 +255,7 @@
                 "requiredAmount1": "Gerekiyor",
                 "requiredAmount2": "işlemi tamamlamak için",
                 "titleStaking": "SAND AL",
-                "aboutBiconomy": "Sandbox Meta İşlemleri Polygon Ağı'nda yer almaktadır. İşlem yapmak için gerekli izinlerimiz bulunmaktadır ve sizlere gereken tek jeton mSAND'dir.",
+                "aboutBiconomy": "Sandbox Meta İşlemleri Polygon Ağı'nda yer almaktadır. İşlem yapmak için gerekli izinlerimiz bulunmaktadır ve sizlere gereken tek jeton SAND'dir.",
                 "changeSettings": "Zincir Ayarları"
             },
             "lottery": {
@@ -287,7 +287,7 @@
                 "deposit": {
                     "of": "Bakiye",
                     "sand": "SAND",
-                    "msand": "mSAND",
+                    "msand": "SAND",
                     "asset": "ASSET",
                     "land": "LAND",
                     "lands": "LANDs",
@@ -510,7 +510,7 @@
             },
             "sidebarRight": {
                 "progressTitle": "Son İlerlemeler",
-                "noProgress": "You do not have progress yet",
+                "noProgress": "Hak kazanmak için bir ilerleme mevcut değil",
                 "unlockedTitle": "Son deneyimler açılmadı",
                 "noUnlocked": "Henüz açılmamış deneyimler mevcut",
                 "schedule": "Ortaya çıkma zaman çizelgesi",
@@ -784,7 +784,7 @@
                 "notTraded": "Çekiliş Biletleri NFT Değildir",
                 "notTraded2": "ikincil bir pazarda takas edilemez.",
                 "questTooltipDesc": "Her seviye atlamanda biletlerinizi hazırlıyorsunuz. Seviye başına bilet miktarı Ödüller sekmesinde belirtilir.",
-                "stakeTooltipDesc": "Tüm Sezon 2 süresi boyunca (28 gün) her {ticketAmount} mSAND için ekstra 1 adet çekiliş Kartı alın. Maksimum 200 adet Rffle Kartı.",
+                "stakeTooltipDesc": "Tüm Sezon 2 süresi boyunca (28 gün) her {ticketAmount} SAND için ekstra 1 adet çekiliş Kartı alın. Maksimum 200 adet Rffle Kartı.",
                 "snoopTooltipDesc": "Snoop Dogg Özel Parti Kartı NFT'ye sahip olarak 30 ekstra rap bileti kazanın. Çekiliş başladığında (Mart 31) NFT'yi cüzdanınızda taşımanız gerekir.",
                 "snoop2TooltipDesc": "Snoopverse erken Erişim Bileti NFT'ye sahip olarak 30 ekstra bilet kazanın. Çekiliş başladığında (Mart 31) NFT'yi cüzdanınızda taşımanız gerekir.",
                 "alphaTooltipDesc": "Season 1 Alpha Pass'e (NFT adı: Alpha Pass) sahip olarak 130 ekstra rap bileti kazanın. Çekiliş başladığında (Mart 31) NFT'yi cüzdanınızda taşımanız gerekir.",
@@ -1178,22 +1178,22 @@
                     "description3h": "- The S2AP base reward is 500 $SAND. If by the end of Alpha Season 2, the community staking score reached",
                     "description3i": "- If by the end of Alpha Season 2, the community staking score reached",
                     "text4": "Will I still get the same yield for staking $SAND during Alpha Season 2?",
-                    "description4": "Yes, the staking features related to Alpha Season 2 act as a bonus and will not impact the yield in any way. Your mSAND will not be locked for longer. Nothing changes with the staking feature itself. The “caps” related to Alpha Season 2 features have no impact on the yield at all.",
+                    "description4": "Yes, the staking features related to Alpha Season 2 act as a bonus and will not impact the yield in any way. Your SAND will not be locked for longer. Nothing changes with the staking feature itself. The “caps” related to Alpha Season 2 features have no impact on the yield at all.",
                     "text5": "On which chain does the Community Reward Booster work?",
-                    "description5": "On Layer 2, but only on the mSAND staking program (not on the mSAND/MATIC program). The whole point of the feature is to incentivize mSAND staking on layer 2 to continue our transition to layer 2, which will be a great improvement to the game by reducing gas fees and making TSB a lot greener!",
+                    "description5": "On Layer 2, but only on the SAND staking program (not on the SAND/MATIC program). The whole point of the feature is to incentivize SAND staking on layer 2 to continue our transition to layer 2, which will be a great improvement to the game by reducing gas fees and making TSB a lot greener!",
                     "text6": "How is the staking score calculated?",
                     "description6a": "Again, you do not need to understand the math to make optimal use of this feature, but if you are curious, this is how it works:",
                     "description6b": "You get",
                     "description6c": "This number is a float, you will get exactly the amount of staking score points related to your staking contribution.",
                     "description6d": "In details:",
-                    "description6e": "It is important to understand that both time and mSAND staked amount are taken into account to calculate the staking score.",
+                    "description6e": "It is important to understand that both time and SAND staked amount are taken into account to calculate the staking score.",
                     "description6f": "1. Extra Raffle Tickets:",
                     "description6g": "The cap is",
                     "description6h": "2. Community Reward Booster:",
                     "description6i": "The cap is",
                     "description6j": "The total amount of staking score point for the community is just the sum of each user's staking score.",
-                    "description6k": "Please note that the amount of days that mSAND is staked does not have to be consecutive.",
-                    "text7": "Should I wait for Alpha Season 2 to begin to start staking mSAND?",
+                    "description6k": "Please note that the amount of days that SAND is staked does not have to be consecutive.",
+                    "text7": "Should I wait for Alpha Season 2 to begin to start staking SAND?",
                     "description7a": "You can start staking right now, you don’t have to wait. If you want to stake now, you definitely should. Might as well get your yield growing as soon as possible!",
                     "description7b": "You will start to earn staking score points related to Alpha Season 2 features once the Alpha Season 2 starts, but we will simply look at how much you have previously staked at that moment and start calculating your score.",
                     "description7c": "You do not need to wait for Alpha Season 2 to begin to start staking, and you do not need to withdraw and stake back your funds once Alpha Season 2 has started to optimize your staking score.",
@@ -1208,13 +1208,13 @@
                     "description3f1": "points.",
                     "description3h1": "points or more, the Community Reward Booster will reach +100%. Therefore, the S2AP reward will be increased by +100% and reach 1,000 $SAND for all S2AP owners.",
                     "description3i1": "points, the Community Reward Booster will reach +57%. Therefore, the S2AP reward will be increased by +57% and reach 785 $SAND (500 + 57% of 500) for all S2AP owners.",
-                    "description6b1": "staking score points for every 1 mSAND staked during 28 days.",
-                    "description6g1": "staking score points (to get 200 Raffle Tickets). For every 1 mSAND staked for the whole duration of the Alpha (28 days) you get",
+                    "description6b1": "staking score points for every 1 SAND staked during 28 days.",
+                    "description6g1": "staking score points (to get 200 Raffle Tickets). For every 1 SAND staked for the whole duration of the Alpha (28 days) you get",
                     "description6g2": "staking score point.",
                     "description6g3": "For example you will get:",
-                    "description6g4": "staking score point by staking 1 mSAND over 14 days",
-                    "description6g5": "staking score point by staking 2 mSAND over 28 days",
-                    "description6g6": "staking score point by staking 4 mSAND over 7 days",
+                    "description6g4": "staking score point by staking 1 SAND over 14 days",
+                    "description6g5": "staking score point by staking 2 SAND over 28 days",
+                    "description6g6": "staking score point by staking 4 SAND over 7 days",
                     "description6i2": "collective cumulated staking score points (to get the Community Reward Booster to +100%).",
                     "description7d1": "and collective",
                     "description7d2": "have to be met in between the start and the end of the Alpha Season 2."
@@ -1283,7 +1283,7 @@
                     "title": "ŞUNLARI YAPARAK EKSTRA ÇEKİLİŞ BİLETİ KAZANABİLİRSİN",
                     "1": {
                         "1": "ile Stake",
-                        "2": "mSAND"
+                        "2": "SAND"
                     },
                     "2": "LAND'e sahip olmak",
                     "3": "Alfa Sezon 1 Biletine sahip olmak",
@@ -1365,7 +1365,7 @@
                 }
             },
             "communityBooster": {
-                "mSand": "mSAND",
+                "mSand": "SAND",
                 "title": "Stake'i ve Topluluk Destekleyicisi",
                 "subtitle": {
                     "1": "SAND STAKE'İ İLE EKSTRA ÇEKİLİŞ BİLETİ KAZAN:",
@@ -1697,7 +1697,7 @@
             "block": "Blok",
             "bodypart": "Gövde parçası",
             "and": "ve",
-            "onOpenseaTitle": "Lands & Estates",
+            "onOpenseaTitle": "LANDs & ESTATES",
             "externalcollections": "Avatar"
         },
         "rarities": {
@@ -1830,7 +1830,7 @@
             "12x12": "12x12",
             "24x24": "24x24"
         },
-        "enties": "NFT öğeler",
+        "enties": "öğeler",
         "land": "Opensea'de ki NFT land'ler",
         "results": "adet sonuç",
         "noResults": "Sonuç yok",
@@ -2222,7 +2222,7 @@
                 },
                 "title1": "Become",
                 "title2": "Senin avatarın",
-                "description1": "Discover our Interoperable Avatars collection. Own NFTs and unlock special Avatars to explore the Metaverse. New compatible collections will be added progressively!",
+                "description1": "Profil resminizi bir sonraki seviyeye taşıyın. Artık The Sandbox Metaverse'i keşfetmek için favori Avatarınızı seçebilirsiniz.",
                 "description2": "Harici Avatarınız olup olmadığını öğrenmek için cüzdanınızı bağlayın.",
                 "button": "Cüzdanı Bağla"
             },
@@ -2484,13 +2484,13 @@
                         "landsCount2": "LANDS",
                         "landsCount3": "You will receive",
                         "step1Title1": "Claim your",
-                        "step1Subtitle": "Your are eligible for the reward! Each LAND Owner is receiving some $mSAND based on the amount of LAND they owned on May 13, 2022.",
+                        "step1Subtitle": "Your are eligible for the reward! Each LAND Owner is receiving some $SAND based on the amount of LAND they owned on May 13, 2022.",
                         "step5Title": "Here is your claim",
                         "step5Subtitle": "We were happy to share this exciting roadmap with all of you. As a LAND owner you are building the future, and we can’t wait to see what it will bring!",
                         "steps2To4Title1": "LAND Owners",
                         "steps2To4Title2": "Roadmap 2022",
                         "steps2To4Subtitle1": "On May 13, 2022 we introduced our latest roadmap for LAND Owners. Let us go through the perks and features you can expect in 2022!",
-                        "steps2To4Subtitle2": "Your are not eligible for the reward! Each LAND Owner is receiving some $mSAND based on the amount of LAND they owned on May 13, 2022.",
+                        "steps2To4Subtitle2": "Your are not eligible for the reward! Each LAND Owner is receiving some $SAND based on the amount of LAND they owned on May 13, 2022.",
                         "footer": "Make sure to grab LAND to be eligible for the next claim!",
                         "alreadyClaimed": "Already Claimed",
                         "congrats": {
@@ -2518,17 +2518,17 @@
                             },
                             "claim": {
                                 "title": "CLAIM",
-                                "text1": "2.5M $mSAND airdrop to LAND owners",
-                                "text2": "5M $mSAND airdrop to LAND owners",
-                                "text3": "$mSAND claim to celebrate the Metaverse's 1,000th day based on LAND holding time"
+                                "text1": "2.5M $SAND airdrop to LAND owners",
+                                "text2": "5M $SAND airdrop to LAND owners",
+                                "text3": "$SAND claim to celebrate the Metaverse's 1,000th day based on LAND holding time"
                             },
                             "stake": {
                                 "title": "STAKE",
                                 "text1": "Multiplier on SAND-ETH staking (Uniswap)",
-                                "text2": "Multiplier on mSAND-MATIC staking (Quickswap)",
-                                "text3": "Multiplier on mSAND staking (Layer 2)",
+                                "text2": "Multiplier on SAND-MATIC staking (Quickswap)",
+                                "text3": "Multiplier on SAND staking (Layer 2)",
                                 "text4": "LAND owner exclusive $CATALYST and $GEM farming (Layer 2)",
-                                "text5": "LAND owner exclusive 10M $mSAND farming (Layer 2)"
+                                "text5": "LAND owner exclusive 10M $SAND farming (Layer 2)"
                             },
                             "buy": {
                                 "title": "BUY",
@@ -2554,7 +2554,7 @@
                             "migrate": {
                                 "title": "MIGRATE",
                                 "text1": "Get access to all features on Polygon Layer 2",
-                                "text2": "1M $mSAND distributed in cashback on migrated LANDs"
+                                "text2": "1M $SAND distributed in cashback on migrated LANDs"
                             },
                             "meet": {
                                 "title": "MEET",
@@ -3930,9 +3930,9 @@
             "chainSettings": {
                 "title": "Zincir Ayarları",
                 "subtitle": "Polygon Meta İşlemleri",
-                "text": "Sandbox Meta İşlemleri Polygon Ağı'nda yer almaktadır. İşlem yapmakta gerekli izinlerimiz bulunmaktadır ve sizlere gereken tek jeton mSAND'dir.",
+                "text": "Sandbox Meta İşlemleri Polygon Ağı'nda yer almaktadır. İşlem yapmakta gerekli izinlerimiz bulunmaktadır ve sizlere gereken tek jeton SAND'dir.",
                 "useMatic": "Tüm işlem bedelleri Polygon Ağı'nın kendi jetonu olan MATIC ile ödenmektedir.",
-                "useMsand": "Tüm işlem bedelleri Sandbox Yönetim Jetonu olan mSAND ile ödenmektedir.",
+                "useMsand": "Tüm işlem bedelleri Sandbox Yönetim Jetonu olan SAND ile ödenmektedir.",
                 "subtitleGasless": "Gazsız Polygon",
                 "textGasless": "Sandbox, Biconomy kullanımı aracılığıyla Polygon ağında aylık gazsız işlem sayısı sunar, böylece gaza ihtiyaç duymadan birkaç temel işlemi gerçekleştirebilirsiniz.",
                 "useGasless": "Kalan ücretsiz transfer",
@@ -3943,15 +3943,15 @@
                 "wallet": "Hardware Wallet - Maximize EIP-712 compatibility for your hardware wallet",
                 "learnMore": "Biconomy hakkında buradan daha fazla bilgi edinin",
                 "gassless": "Gasless - You get 10 free transaction every 28 days",
-                "forward": "Forward - Gaz ücretinizi MATIC yerine mSAND olarak ödeyin",
+                "forward": "Forward - Gaz ücretinizi MATIC yerine SAND olarak ödeyin",
                 "hardwareWallet": "Donanım cüzdanınız için EIP-712 uyumluluğunu en üst düzeye çıkarın",
-                "notes": "Mevcut ayarlarınızla 28 günde bir {txsLimit} ücretsiz işlem alırsınız, ardından Gaz Ücretleri mSAND olarak ödenir",
+                "notes": "Mevcut ayarlarınızla 28 günde bir {txsLimit} ücretsiz işlem alırsınız, ardından Gaz Ücretleri SAND olarak ödenir",
                 "gasless": "Gasless - You get {txsLimit} free transaction every 28 days ({txsLeft} left)",
                 "transactionsLeft1": "Sahipsin",
                 "transactionsLeft2": "ücretsiz işlemler kaldı.",
                 "changeGasSettings": "Change gas settings",
                 "payWithMatic": "Pay gas with MATIC",
-                "payWithMsand": "Pay gas with mSAND"
+                "payWithMsand": "Pay gas with SAND"
             },
             "accountVerification": "Verification",
             "kyc": {
@@ -3984,11 +3984,11 @@
             "bannerTitle": "LAND Owners Claim",
             "bannerSubtitle1": "We continue to bring value to our LAND owners",
             "bannerSubtitle2": "ROADMAP 2022",
-            "bannerSubtitle3": "5m mSAND claim",
+            "bannerSubtitle3": "5m SAND claim",
             "checkButtonText": "Check your Claim",
             "landOwner": {
                 "lands": "{0} LAND",
-                "msand": "{0} {1} mSAND",
+                "msand": "{0} {1} SAND",
                 "results": "{0} results",
                 "startProcess": "Start Claim Process",
                 "claim": "Claim",
@@ -3997,13 +3997,13 @@
                 "landsCount2": "You will receive {0} {1} {2}",
                 "landsCount3": "You received {0} {1} {2}",
                 "step1Title1": "Claim your",
-                "step1Subtitle": "You are eligible for the reward! Each LAND Owner is receiving some $mSAND based on the amount of LAND they owned on May 13, 2022.",
+                "step1Subtitle": "You are eligible for the reward! Each LAND Owner is receiving some $SAND based on the amount of LAND they owned on May 13, 2022.",
                 "step5Title": "Here is your claim",
                 "step5Subtitle": "We were happy to share this exciting roadmap with all of you. As a LAND owner you are building the future, and we can’t wait to see what it will bring!",
                 "steps2To4Title1": "LAND Owners",
                 "steps2To4Title2": "Roadmap 2022",
                 "steps2To4Subtitle1": "On May 13, 2022 we introduced our latest roadmap for LAND Owners. Let us go through the perks and features you can expect in 2022!",
-                "steps2To4Subtitle2": "You are not eligible for the reward! Each LAND Owner is receiving some $mSAND based on the amount of LAND they owned on May 13, 2022.",
+                "steps2To4Subtitle2": "You are not eligible for the reward! Each LAND Owner is receiving some $SAND based on the amount of LAND they owned on May 13, 2022.",
                 "footer": "Make sure to grab LAND to be eligible for the next claim!",
                 "alreadyClaimed": "Already Claimed",
                 "congrats": {
@@ -4032,17 +4032,17 @@
                     },
                     "claim": {
                         "title": "CLAIM",
-                        "text1": "2.5M $mSAND airdrop to LAND owners",
-                        "text2": "5M $mSAND airdrop to LAND owners",
-                        "text3": "$mSAND claim to celebrate the Metaverse's 1,000th day based on LAND holding time"
+                        "text1": "2.5M $SAND airdrop to LAND owners",
+                        "text2": "5M $SAND airdrop to LAND owners",
+                        "text3": "$SAND claim to celebrate the Metaverse's 1,000th day based on LAND holding time"
                     },
                     "stake": {
                         "title": "STAKE",
                         "text1": "Multiplier on SAND-ETH staking (Uniswap)",
-                        "text2": "Multiplier on mSAND-MATIC staking (Quickswap)",
-                        "text3": "Multiplier on mSAND staking (Layer 2)",
+                        "text2": "Multiplier on SAND-MATIC staking (Quickswap)",
+                        "text3": "Multiplier on SAND staking (Layer 2)",
                         "text4": "LAND owner exclusive $CATALYST and $GEM farming (Layer 2)",
-                        "text5": "LAND owner exclusive 10M $mSAND farming (Layer 2)"
+                        "text5": "LAND owner exclusive 10M $SAND farming (Layer 2)"
                     },
                     "buy": {
                         "title": "BUY",
@@ -4068,7 +4068,7 @@
                     "migrate": {
                         "title": "MIGRATE",
                         "text1": "Get access to all features on Polygon Layer 2",
-                        "text2": "1M $mSAND distributed in cashback on migrated LAND"
+                        "text2": "1M $SAND distributed in cashback on migrated LAND"
                     },
                     "meet": {
                         "title": "MEET",
@@ -4205,7 +4205,7 @@
             "switchToRinkeby": "Rinkeby'e geç",
             "switchToMumbai": "Mumbai'ye geç",
             "sand": "SAND",
-            "msand": "mSAND",
+            "msand": "SAND",
             "eth": "ETH",
             "matic": "MATIC"
         },
@@ -4574,7 +4574,7 @@
             "duration": "Link Süresi:",
             "days": "gün",
             "sharein": "Şurada Paylaş:",
-            "amountreferred": "Total Referred",
+            "amountreferred": "Toplam Referans",
             "amountearnings": "Toplam Kazanç: ",
             "link": "Referans hakkında daha fazla bilgi edinin >",
             "details": {
@@ -4752,15 +4752,15 @@
             "menu": {
                 "land": "Land",
                 "faqs": "S.S.S.",
-                "msand": "mSAND"
+                "msand": "SAND"
             },
             "msand": {
-                "title": "mSAND taşıma",
+                "title": "SAND taşıma",
                 "text1": "SAND'ı resmi olarak Polygon'a dağıtmadan önce, genel bir sürüm oluşturuldu ve bazı kullanıcıların yanlış sözleşmeye para göndermesine yol açtı.",
                 "text2": " Bu kullanıcılardan biriyseniz, sizi koruduk. Kullanımdan kaldırılan SAND'ınızı burada resmi sürümle takas edebilirsiniz.",
                 "gasless2": "Seni koruduk.",
                 "viewMigrationContract": "Polygonscan'da Talep Sözleşmesini Görüntüle",
-                "success": "Tüm mSAND'ınız başarıyla taşındı."
+                "success": "Tüm SAND'ınız başarıyla taşındı."
             }
         },
         "achievements": {
@@ -5343,7 +5343,7 @@
             "communityScore2": "Current boost : {boostPercentage}%",
             "earnScorePoints": "The points you can earn cannot be lost, they will grant you more tickets for the raffle and help the comminity reach its goal.",
             "projectedScoreTitle": "Projected Score",
-            "projectedScore": "This is the projected community score at the end of the Season with the current amount of mSAND staked."
+            "projectedScore": "This is the projected community score at the end of the Season with the current amount of SAND staked."
         },
         "modalWithdraw": {
             "withdraw": "Çekilen",
@@ -5378,8 +5378,8 @@
             "testnetL1Title": "Rinkeby Network",
             "eth": "ETH",
             "poly": "POLYGON",
-            "msand": "mSAND",
-            "sand-poly": "mSAND - POLYGON",
+            "msand": "SAND",
+            "sand-poly": "SAND - POLYGON",
             "sand-poly-text": "Yakında Polygon'da yeni bir DeFi özellikleri seti sunulacak. SAND stake etmeye ve ödüller kazanmaya hazır olun!",
             "sand": "SAND",
             "usd": "USD",
@@ -5447,13 +5447,13 @@
             "polygonNetwork": "Polygon",
             "ethereumNetwork": "Ethereum",
             "action-desc-deposit-single": "daha fazla SAND kazanmak için",
-            "footer-text-deposit-single": "Bu işlemde belirlenen miktarda mSAND yatırılacak ve toplam yatırımınız artacaktır.",
-            "footer-text-claim-single": "Bu işlem, mevcut mSAND ödüllerini cüzdanınıza alacak.",
+            "footer-text-deposit-single": "Bu işlemde belirlenen miktarda SAND yatırılacak ve toplam yatırımınız artacaktır.",
+            "footer-text-claim-single": "Bu işlem, mevcut SAND ödüllerini cüzdanınıza alacak.",
             "footer-text-exit": "Bu işlem, seçilen LP tutarını toplam mevduatınızdan çekecektir. Ayrıca, size bir miktar gaz ücretinden tasarruf etmek için mevcut tüm kazançları talep edecektir.",
-            "footer-text-withdraw-single": "Bu işlem toplam yatırdıklarınızda yer alan mSAND'ler ile yapılacaktır. Alabileceğiniz geliri alarak gaz ücretlerinden de tasarruf etmenize yarayacaktır.",
-            "footer-text-withdraw-exit": "Bu işlem, mSAND'ınızı toplam depozitonuzdan geri çekecektir. Ayrıca, size bir miktar gaz ücretinden tasarruf etmek için mevcut tüm kazançları talep edecektir.",
-            "addMsand": "mSAND elde et",
-            "howtoMsand": "Daha fazla mSAND elde et"
+            "footer-text-withdraw-single": "Bu işlem toplam yatırdıklarınızda yer alan SAND'ler ile yapılacaktır. Alabileceğiniz geliri alarak gaz ücretlerinden de tasarruf etmenize yarayacaktır.",
+            "footer-text-withdraw-exit": "Bu işlem, SAND'ınızı toplam depozitonuzdan geri çekecektir. Ayrıca, size bir miktar gaz ücretinden tasarruf etmek için mevcut tüm kazançları talep edecektir.",
+            "addMsand": "SAND elde et",
+            "howtoMsand": "Daha fazla SAND elde et"
         },
         "allowanceError": "Stake hakkınız hala yatırım yapmak istediğiniz miktarın altında",
         "sub-title": "Ethereum ve Poligon Ağında stake yaparak SAND kazanın",
@@ -5493,7 +5493,7 @@
             "network": "Polygon ana ağı",
             "gasWarning": "Gaz ücreti için elinizde biraz SAND bulundurmayı veya zincir ayarlarınızdan MATIC'e geçmeyi unutmayın",
             "communityBooster": {
-                "title": "Season 2",
+                "title": "Season 3",
                 "subtitle": "Topluluk Stake Skoru",
                 "text": "Stake $SAND to increase the total prize pool. You will also get extra Raffle Tickets for staking.",
                 "titlePolygon": "Now can stake SAND",
@@ -5521,7 +5521,7 @@
                 "infoEnd": "staked for the whole season.",
                 "pointsInfo1": "You earn points over time for each ",
                 "pointsInfo2": " staked. Points accumulated cannot be lost. ",
-                "pointsInfo3": "staked for 10 weeks grants {stakingMultiplier} point.",
+                "pointsInfo3": "staked for 28 days grants {stakingMultiplier} point.",
                 "myScore": "puanım",
                 "earnScorePoints": "Earn Score Points",
                 "cardFirstTitle": "Stake {0} and enjoy the benefits of staking."
@@ -5533,7 +5533,7 @@
         },
         "exitOnDeprecationLP": "Claim all your earnings and get back all your LP.",
         "discontinued": "Durduruldu",
-        "refillWarning": "Due to a maintenance issue, the refill of the mSAND & mSAND-MATIC rewards is delayed. Please be patient, it will be fixed very soon. Thank you for your understanding."
+        "refillWarning": "Due to a maintenance issue, the refill of the SAND & SAND-MATIC rewards is delayed. Please be patient, it will be fixed very soon. Thank you for your understanding."
     },
     "login": {
         "refresh": "Lütfen eklentiyi yükledikten sonra tarayıcınızı yenileyin",
@@ -6582,7 +6582,7 @@
                 "main": "Set amount",
                 "token": [
                     "SAND",
-                    "mSAND",
+                    "SAND",
                     "LAND",
                     "ASSET"
                 ],
@@ -6782,7 +6782,7 @@
             "polygonBridge": "Polygon Bridge Explorer"
         },
         "buySand": "Buy SAND",
-        "buymSand": "Buy mSAND",
+        "buymSand": "Buy SAND",
         "confirmDeposit": "Confirm Deposit",
         "confirmWithdraw": "Confirm Withdraw",
         "noTransactions": "There are no transactions to display",
@@ -8217,8 +8217,8 @@
             "description": "SAND is the currency you need to buy NFTs at The Sandbox"
         },
         "polygon": {
-            "title": "Add mSAND to your wallet",
-            "description": "mSAND is the currency you need to buy NFTs at The Sandbox on Polygon Network"
+            "title": "Add SAND to your wallet",
+            "description": "SAND is the currency you need to buy NFTs at The Sandbox on Polygon Network"
         },
         "options": {
             "moonpay": {
@@ -8227,15 +8227,15 @@
             },
             "binance": {
                 "text-ethereum": "Buy SAND on Binance",
-                "text-polygon": "Buy mSAND on Binance",
+                "text-polygon": "Buy SAND on Binance",
                 "extra": "(Coming soon)"
             },
             "uniswap": {
                 "text-ethereum": "Buy SAND on Uniswap",
-                "text-polygon": "Buy mSAND on Uniswap"
+                "text-polygon": "Buy SAND on Uniswap"
             },
             "quickswap": {
-                "text": "Buy mSAND on Quickswap"
+                "text": "Buy SAND on Quickswap"
             }
         },
         "notes": {
@@ -8256,7 +8256,7 @@
         "help": {
             "question1": "What is a wallet?",
             "question2-ethereum": "How to buy SAND?",
-            "question2-polygon": "How to buy mSAND?",
+            "question2-polygon": "How to buy SAND?",
             "question3": "Why do I need ETH?",
             "question3-polygon": "Why do I need MATIC?",
             "question4": "What is Gas fee?",
@@ -8956,7 +8956,7 @@
         "STEVE_AOKI_FAQ_WHERE_CAN_I_BUY_TITLE": "Where can I buy a Steve Aoki avatar after the initial sale is over?",
         "STEVE_AOKI_FAQ_WHERE_CAN_I_BUY_DESCRIPTION": "After the initial sale is over, you will be able to purchase as many avatars as you like from users that are willing to sell theirs on the secondary marketplace Opensea",
         "STEVE_AOKI_FAQ_HOW_DO_I_GET_WHITELISTED_TITLE": "How do I get whitelisted?",
-        "STEVE_AOKI_FAQ_HOW_DO_I_GET_WHITELISTED_DESCRIPTION": "If you hold one of the below NFTs, at the time of snapshot, you can mint a maximum of 2 Aoki Avatar 48h before official minting start:\n - A0K1VERSE Passport (Snapshot: Monday 18th July at 2pm UTC) \nIf you hold one of the below NFTs, at the time of snapshot, you can mint a maximum of 2 Aoki Avatars 24h before official minting start: \n - The Sandbox LAND (Snapshot: Thursday July 21st at 2pm UTC) \n - The Doggies Avatar (Snapshot: Thursday July 21st at 2pm UTC) \n - People of Crypto Avatar (Snapshot: Thursday July 21st at 2pm UTC) \n - Winning one of our Twitter contests can also give you early access to mint your NFT",
+        "STEVE_AOKI_FAQ_HOW_DO_I_GET_WHITELISTED_DESCRIPTION": "If you hold one of the below NFTs, at the time of snapshot, you can mint a maximum of 2 Aoki Avatar 48h before official minting start: \n - A0K1VERSE Passport (Snapshot: Monday 18th July at 2pm UTC) \nIf you hold one of the below NFTs, at the time of snapshot, you can mint a maximum of 2 Aoki Avatars 24h before official minting start: \n - The Sandbox LAND (Snapshot: Thursday July 21st at 2pm UTC) \n - The Doggies Avatar (Snapshot: Thursday July 21st at 2pm UTC) \n - People of Crypto Avatar (Snapshot: Thursday July 21st at 2pm UTC) \n - Winning one of our Twitter contests can also give you early access to mint your NFT",
         "STEVE_AOKI_FAQ_HOW_DO_I_KNOW_IF_TITLE": "How do I know if I’m whitelisted?",
         "STEVE_AOKI_FAQ_HOW_DO_I_KNOW_IF_DESCRIPTION": "If you hold an NFT of the above collection, you will be able to mint, as long as you hold the NFT in the wallet with which you are whitelisted, and connected on the minting page.",
         "STEVE_AOKI_FAQ_MY_AVATARS_TITLE": "My Avatars are not revealed yet on OpenSea. What can I do?",
@@ -9149,7 +9149,7 @@
         "total": " Koleksiyondaki varlıklar",
         "header": {
             "title": "Sandbox Avatarı",
-            "description": "Profil resminizi bir sonraki seviyeye taşıyın. Artık The Sandbox Metaverse'i keşfetmek için favori Avatarınızı seçebilirsiniz.",
+            "description": "Birlikte Çalışabilir Avatarlar koleksiyonumuzu keşfedin. Metaverse'i keşfetmek için NFT'lere sahip olun ve özel Avatarların kilidini açın. Yeni uyumlu koleksiyonlar aşamalı olarak eklenecektir!",
             "description2": " Harici Avatarınız olup olmadığını öğrenmek için cüzdanınızı bağlayın.",
             "info": "Koleksiyon Bilgileri",
             "owners": "SAHİPLER",
@@ -9158,13 +9158,13 @@
             "created": "Tarafından yaratıldı",
             "assetscard": "Varlıklar",
             "bycard": "ile",
-            "button1": "探索收藏",
-            "button2": "創建免費頭像"
+            "button1": "Koleksiyonları Keşfedin",
+            "button2": "Ücretsiz Avatar Oluşturun"
         },
         "noresult": {
-            "title": "什麼都沒找到",
-            "message": "我們找不到任何應用這些過濾器的東西",
-            "button": "全部清除"
+            "title": "Hiçbirşey Bulunamadı",
+            "message": "Bu filtreyi uygulayan hiçbir şey bulamadık",
+            "button": "Hepsini temizle"
         }
     },
     "kyc": {
