@@ -462,9 +462,9 @@
         "aoki": {
             "title": "Mint your Steve Aoki Avatar",
             "description": "Get your unique Steve Aoki avatar for The Sandbox Today and enter the metaverse.",
-            "button": "Get Aoki Avatar",
+            "button": "Discover more",
             "button2": "Create Free Avatar",
-            "disabled": "*Starts on July 25th"
+            "disabled": "*Minting starts on July 25"
         },
         "avatarSeason3": {
             "title": "Play with your own avatar",
@@ -510,7 +510,7 @@
             },
             "sidebarRight": {
                 "progressTitle": "Latest Progress",
-                "noProgress": "You do not have progress to claim",
+                "noProgress": "You do not have progress yet",
                 "unlockedTitle": "Last experiences unlocked",
                 "noUnlocked": "There are no unlocked experiences yet",
                 "schedule": "Reveal Schedule",
@@ -1483,11 +1483,11 @@
                 "ongoing": "LIVE",
                 "coming": "UP NEXT",
                 "onlyForOwners": "Doggies Owners",
-                "seeMore": "Participate",
+                "seeMore": "More Info",
                 "shared": "Shared",
                 "rewards": "Rewards",
                 "comingSoon": "COMING SOON",
-                "upcoming": "UPCOMING CONTESTS",
+                "upcoming": "Upcoming",
                 "upcomingDesc": "Stay tuned for new contests every week!",
                 "play": "Play",
                 "openUntil": "Open until",
@@ -2222,7 +2222,7 @@
                 },
                 "title1": "Become",
                 "title2": "Your Avatar",
-                "description1": "Take your profile pic to the next level. Now you can choose your favorite Avatar to explore The Sandbox Metaverse.",
+                "description1": "Discover our Interoperable Avatars collection. Own NFTs and unlock special Avatars to explore the Metaverse. New compatible collections will be added progressively!",
                 "description2": "Connect your wallet to find out if you own an External Avatar.",
                 "button": "Connect Wallet"
             },
@@ -3832,8 +3832,8 @@
         },
         "settings": {
             "title": "Settings",
-            "gral": "Gral. Settings",
-            "securityMobile": "Security & Password",
+            "gral": "General",
+            "securityMobile": "Security",
             "general": {
                 "title": "General Settings",
                 "email-sub": "Email",
@@ -4569,12 +4569,12 @@
         },
         "referrals": {
             "title": "Refer a friend and earn",
-            "explanation": "Copy your unique referral link and share it far and wide. When a new user buys something in The Sandbox, you'll earn up to 10% of the sale! Referrals are processed every day.",
+            "explanation": "Copy your unique referral link and share it far and wide.",
             "share": "Share your referral link",
             "duration": "Link Duration:",
             "days": "days",
             "sharein": "Share in:",
-            "amountreferred": "Total Referred:",
+            "amountreferred": "Total Referred",
             "amountearnings": "Total Earnings: ",
             "link": "Learn more about referral >",
             "details": {
@@ -5337,7 +5337,7 @@
             "earnings-title": "Earnings",
             "earnings": "Your claimable accumulated earnings.",
             "landMultiplierNotActive": "LAND multiplier is not available yet on Polygon network",
-            "myScore": "The score you accumulated so far. It unlocks tickets for the raffle (up to 200)",
+            "myScore": "The score you accumulated so far. It unlocks tickets for the raffle (up to {score})",
             "myScore2": "Currently unlocked : {ticketAmount} tickets",
             "communityScore": "The score accumulated by the whole community. This will boost Alpha rewards up to 100%",
             "communityScore2": "Current boost : {boostPercentage}%",
@@ -5521,7 +5521,7 @@
                 "infoEnd": "staked for the whole season.",
                 "pointsInfo1": "You earn points over time for each ",
                 "pointsInfo2": " staked. Points accumulated cannot be lost. ",
-                "pointsInfo3": "staked for 28 days grants {stakingMultiplier} point.",
+                "pointsInfo3": "staked for 10 weeks grants {stakingMultiplier} point.",
                 "myScore": "My Score",
                 "earnScorePoints": "Earn Score Points",
                 "cardFirstTitle": "Stake {0} and enjoy the benefits of staking."
