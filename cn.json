@@ -462,9 +462,9 @@
         "aoki": {
             "title": "Mint your Steve Aoki Avatar",
             "description": "Get your unique Steve Aoki avatar for The Sandbox Today and enter the metaverse.",
-            "button": "Get Aoki Avatar",
+            "button": "Discover more",
             "button2": "Create Free Avatar",
-            "disabled": "*Starts on July 25th"
+            "disabled": "*Minting starts on July 25"
         },
         "avatarSeason3": {
             "title": "Play with your own avatar",
@@ -510,7 +510,7 @@
             },
             "sidebarRight": {
                 "progressTitle": "最新进度",
-                "noProgress": "你没有可领取的进度",
+                "noProgress": "You do not have progress yet",
                 "unlockedTitle": "最新游戏体验已解锁",
                 "noUnlocked": "尚无已解锁的游戏体验",
                 "schedule": "显示日程",
@@ -723,7 +723,7 @@
                     "communityBoosterDescription2": "以增加总奖池。最高可达 + 100%。",
                     "communityBoosterDescription3": "你还将获得最多200张额外抽奖券",
                     "raffleHasPass": "距离领取剩余天数",
-                    "raffleHasPassDesc": "你已拥有赛季2的Alpha通行证",
+                    "raffleHasPassDesc": "You own a S3 Alpha Pass",
                     "communityBoosterDescription": "",
                     "enterThePartyDescription": "添加在3月24日星期四晚7点参加VIP派对",
                     "seasonOverDescription4": "",
@@ -1480,14 +1480,14 @@
                 "socialContests": "Events and Contests",
                 "howItWorks": "How does it work?",
                 "howItWorksDesc": "Earn different rewards by participating in activities every weekday.",
-                "ongoing": "ONGOING",
+                "ongoing": "LIVE",
                 "coming": "COMING",
                 "onlyForOwners": "Only For Owners",
-                "seeMore": "Participate",
+                "seeMore": "More Info",
                 "shared": "Shared",
                 "rewards": "Rewards",
                 "comingSoon": "COMING SOON",
-                "upcoming": "UPCOMING CONTESTS",
+                "upcoming": "Upcoming",
                 "upcomingDesc": "Stay tuned for new contests every week!",
                 "play": "Play",
                 "openUntil": "Open until",
@@ -2222,7 +2222,7 @@
                 },
                 "title1": "成为",
                 "title2": "你的虚拟化身",
-                "description1": "你的个人档案图片将提升一个等级。现在，你可以选择你最喜爱的虚拟化身来探索《The Sandbox》元宇宙。",
+                "description1": "Discover our Interoperable Avatars collection. Own NFTs and unlock special Avatars to explore the Metaverse. New compatible collections will be added progressively!",
                 "description2": "关联你的钱包可查找你是否拥有外部虚拟化身。",
                 "button": "关联钱包"
             },
@@ -3832,8 +3832,8 @@
         },
         "settings": {
             "title": "设置",
-            "gral": "Gral.设置",
-            "securityMobile": "安全与密码",
+            "gral": "General",
+            "securityMobile": "Security",
             "general": {
                 "title": "通用设置",
                 "email-sub": "电子邮箱",
@@ -4569,12 +4569,12 @@
         },
         "referrals": {
             "title": "推荐好友，赚取收益",
-            "explanation": "复制你的专属推广链接，并四处分享。每当一位新用户在《The Sandbox》中进行购买时，你都能获得10%售价的分成！推广会每日进行处理。",
+            "explanation": "Copy your unique referral link and share it far and wide.",
             "share": "分享你的推广链接",
             "duration": "链接有效时间：",
             "days": "天",
             "sharein": "分享到：",
-            "amountreferred": "总推广人数：",
+            "amountreferred": "Total Referred",
             "amountearnings": "总收益： ",
             "link": "了解更多推广信息 >",
             "details": {
@@ -5337,7 +5337,7 @@
             "earnings-title": "收益",
             "earnings": "你可以领取的累计收益。",
             "landMultiplierNotActive": "Polygon网络上还没有LAND加成",
-            "myScore": "The score you accumulated so far. It unlocks tickets for the raffle (up to 200)",
+            "myScore": "The score you accumulated so far. It unlocks tickets for the raffle (up to {score})",
             "myScore2": "Currently unlocked : {ticketAmount} tickets",
             "communityScore": "The score accumulated by the whole community. This will boost Alpha rewards up to 100%",
             "communityScore2": "Current boost : {boostPercentage}%",
@@ -5521,7 +5521,7 @@
                 "infoEnd": "就可获得社区质押点数。",
                 "pointsInfo1": "You earn points over time for each ",
                 "pointsInfo2": " staked. Points accumulated cannot be lost. ",
-                "pointsInfo3": "staked for 28 days grants {stakingMultiplier} point.",
+                "pointsInfo3": "staked for 10 weeks grants {stakingMultiplier} point.",
                 "myScore": "我的分數",
                 "earnScorePoints": "Earn Score Points",
                 "cardFirstTitle": "Stake {0} and enjoy the benefits of staking."
@@ -8288,7 +8288,7 @@
         "explore": "探索外部收藏",
         "total": " 集合中的資產",
         "exploreLands": "",
-        "exploreLatest": ""
+        "exploreLatest": "Explore All Assets"
     },
     "alpha3": {
         "contest": {
