@@ -213,7 +213,7 @@
         "pleaseChangeRinkeby": "Please change to Rinkeby Network",
         "recommended": "recommended",
         "enablePopups": "Make sure you have popups enabled",
-        "msand": "mSAND",
+        "msand": "SAND",
         "requestMinting": "Request Minting",
         "cancelRequest": "Cancel Request",
         "reportNFT": "Report NFT",
@@ -255,7 +255,7 @@
                 "requiredAmount1": "你需要",
                 "requiredAmount2": "来完成此交易",
                 "titleStaking": "Get SAND",
-                "aboutBiconomy": "《The Sandbox》元交易在Polygon网络上推出了新功能。现在，所有交易均可整合，且使用唯一代币mSAND。",
+                "aboutBiconomy": "《The Sandbox》元交易在Polygon网络上推出了新功能。现在，所有交易均可整合，且使用唯一代币SAND。",
                 "changeSettings": "链设置"
             },
             "lottery": {
@@ -287,7 +287,7 @@
                 "deposit": {
                     "of": "Deposit of",
                     "sand": "SAND",
-                    "msand": "mSAND",
+                    "msand": "SAND",
                     "asset": "ASSET",
                     "land": "LAND",
                     "lands": "LANDs",
@@ -510,7 +510,7 @@
             },
             "sidebarRight": {
                 "progressTitle": "最新进度",
-                "noProgress": "You do not have progress yet",
+                "noProgress": "你没有可领取的进度",
                 "unlockedTitle": "最新游戏体验已解锁",
                 "noUnlocked": "尚无已解锁的游戏体验",
                 "schedule": "显示日程",
@@ -673,7 +673,7 @@
                     "youAlreadyOwn": "你已拥有赛季2的Alpha通行证无法参与抽奖。",
                     "wonAlpha": "恭喜！你赢得了赛季2的Alpha通行证。",
                     "totalRewards": "全部奖励",
-                    "boostRewards": "质押mSAND",
+                    "boostRewards": "质押SAND",
                     "communityBooster": "社区加速器",
                     "increaseTotalDescription": "通过质押提升奖励",
                     "youCanWinDescription": "你可以在3月18日的抽奖中赢得Alpha通行证。完成任务即可获得抽奖券！",
@@ -774,7 +774,7 @@
                 "questDesc": "通过升级获得",
                 "stakingDesc": "通过质押获得",
                 "snoop": "Snoop Dogg私人派对通行证",
-                "nftDesc": "Earn by owning this NFTs",
+                "nftDesc": "通过拥有此NFT获得",
                 "snoop2": "SnoopVerse抢先体验通行证",
                 "season1": "赛季1的Alpha通行证",
                 "land": "通过拥有LAND获得",
@@ -783,15 +783,15 @@
                 "stake": "质押",
                 "notTraded": "抽奖券并非同质化代币",
                 "notTraded2": "无法在二级市场中进行交易",
-                "questTooltipDesc": "You get Raffle tickets everytime you level up. The amount of tickets per level is indicated in the Rewards tab.",
-                "stakeTooltipDesc": "Get 1 extra Raffle Tickets for every {ticketAmount} mSAND you stake during the whole Season 2 duration (28 days). 200 Raffle Tickets maximum.",
-                "snoopTooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoop Dogg Private Party Pass NFT. You need to own the NFT in your wallet when the Raffle starts (March 31).",
-                "snoop2TooltipDesc": "Get 30 extra Raffle Tickets by owning the Snoopverse Early Access Pass NFT. You need to own the NFT in your wallet when the Raffle starts (March 31).",
-                "alphaTooltipDesc": "Get 130 extra Raffle Tickets by owning the Season 1 Alpha Pass (NFT name: Alpha Pass). You need to own the NFT in your wallet when the Raffle starts (March 31).",
-                "landTooltipDesc": "Get 40 extra Raffle Tickets per LAND you own. You need to own the NFT(s) in your wallet when the Raffle starts (March 31). 200 Raffle Tickets maximum.",
-                "feedbackTooltipDesc": "If you answered the Season 1 feedback form, you get 10 extra Raffle Tickets. This form is now closed. This is our way of thanking our community for engaging in the Alpha Season 1. Remember to fill in the feedback form at the end of Season 2!",
+                "questTooltipDesc": "每次升级时你都会得到莱佛票。奖励选项卡中显示了每个级别的票证数量",
+                "stakeTooltipDesc": "在整个第2季持续时间（28天）内,为您购买的每张{ticketAmount} SAND获取1张额外的抽奖门票。200 Raffle Tickets maximum.",
+                "snoopTooltipDesc": "拥有Snoop Dogg Private Party Pass NFT获得30张额外的Raffle Tickets。当抽奖活动开始时（3月31日），你需要在你的钱包里拥有NFT",
+                "snoop2TooltipDesc": "拥有Snoopverse Early Access Pass NFT可获得30张额外的抽奖券。当抽奖活动开始时（3月31日），你需要在你的钱包里拥有NFT",
+                "alphaTooltipDesc": "拥有第1季Alpha Pass （NFT名称：Alpha Pass）即可获得130张额外抽奖门票。当抽奖活动开始时（3月31日），你需要在你的钱包里拥有NFT。",
+                "landTooltipDesc": "每一个你拥有的土地得到40张额外的抽奖票。当抽奖活动开始时（3月31日），你需要拥有钱包中的NFT。200 Raffle Tickets maximum.",
+                "feedbackTooltipDesc": "如果你回答了第一季的反馈表,你会得到10张额外的抽奖票.此表格现已关闭。这是我们感谢我们的社区参与阿尔法第一季的方式。记住在第二季结束时填写反馈表!",
                 "snoop3": "Doggie Avatar",
-                "snoop3TooltipDesc": "Get 100 extra Raffle Tickets by owning a Doggie Avatar NFT. You need to own the NFT in your wallet when the Raffle starts (March 31)."
+                "snoop3TooltipDesc": "通过拥有DoggieAvatarNFT获得100张额外的抽奖门票。当抽奖活动开始时（3月31日），你需要在你的钱包里拥有NFT"
             },
             "downloadAlpha": "下载Alpha",
             "ethosPointsEarned": "Ethos Point earned",
@@ -1139,7 +1139,7 @@
                     "text3": "我应该如何反馈可疑行为？",
                     "description8": "如果你在社交媒体、电子邮箱或OpenSea上发现任何可疑行为，你可以通过以下方式向我们反馈：",
                     "hrefText1": "Discord频道",
-                    "description9": "通过",
+                    "description9": "通过#reporting-scams频道反馈。你也可以发送电子邮件至以下地址：contact@sandbox.game",
                     "text4": "我如何知道在OpenSea上购买哪些ASSET是安全的呢？",
                     "description10": "在OpenSea上寻找Alpha通行证、ASSET，或LAND时，请前往以下地址，确保该物品属于我们已验证的Sandbox收藏：",
                     "hrefText2": "https://opensea.io/collection/sandbox",
@@ -1152,7 +1152,7 @@
                     "text1": "还会有其它如Alpha版本一样的赛季吗？什么时候发布？",
                     "description1": "会的，在Alpha版本结束后，我们会推出更多赛季。下一赛季推出日期尚未确定。"
                 },
-                "title": "Frequently asked question",
+                "title": "Frequently asked questions",
                 "staking": {
                     "title": "质押与社区奖励加速器",
                     "text1": "什么是质押？",
@@ -1178,22 +1178,22 @@
                     "description3h": "- 第2季Alpha Pass基础奖励为500 $SAND。如果在Alpha第2季结束时，社区质押点数达到",
                     "description3i": "- 如果在Alpha第2季结束时，社区质押点数达到",
                     "text4": "在Alpha赛季2进行时，通过质押$SAND我还能获得相同收益吗？",
-                    "description4": "可以。Alpha第2季的质押功能为额外奖励性质，其收益不受任何影响。你的mSAND也不会长时间锁定。质押功能本身不会有任何改变。Alpha第2季中的「上限」也完全不会对产出收益有任何影响。",
+                    "description4": "可以。Alpha第2季的质押功能为额外奖励性质，其收益不受任何影响。你的SAND也不会长时间锁定。质押功能本身不会有任何改变。Alpha第2季中的「上限」也完全不会对产出收益有任何影响。",
                     "text5": "社区奖励加速器在哪个区块链上运行？",
-                    "description5": "在第2层，但仅在mSAND质押程序上（不在mSAND/MATIC程序上）运行。此功能的关键在于鼓励大家将mSAND质押在第2层，以便我们迁移至第2层。这样一来，游戏将会得到大幅优化，而矿工费也会相应降低，让《The Sandbox》更加绿色环保！",
+                    "description5": "在第2层，但仅在SAND质押程序上（不在SAND/MATIC程序上）运行。此功能的关键在于鼓励大家将SAND质押在第2层，以便我们迁移至第2层。这样一来，游戏将会得到大幅优化，而矿工费也会相应降低，让《The Sandbox》更加绿色环保！",
                     "text6": "质押点数是如何计算的？",
                     "description6a": "同样的，你无需了解计算方式也可以很好地使用此功能。但如果你好奇它的运作方式，请查看以下内容：",
-                    "description6b": "在28天中，每质押1 mSAND即可获得",
+                    "description6b": "在28天中，每质押1 SAND即可获得",
                     "description6c": "此数量会上下浮动，你会根据质押数量获得相应的质押点数。",
                     "description6d": "详细说来：",
-                    "description6e": "时间和质押的mSAND都是计算质押点数的关键。",
+                    "description6e": "时间和质押的SAND都是计算质押点数的关键。",
                     "description6f": "1. 额外抽奖券：",
                     "description6g": "上限为",
                     "description6h": "2. 社区奖励加速器：",
                     "description6i": "上限为",
                     "description6j": "社区的总质押点数为每位用户的质押点数之和。",
-                    "description6k": "请注意，mSAND的质押天数无需连贯。",
-                    "text7": "我需要等Alpha第2季开始后才质押mSAND吗？",
+                    "description6k": "请注意，SAND的质押天数无需连贯。",
+                    "text7": "我需要等Alpha第2季开始后才质押SAND吗？",
                     "description7a": "无需等待，你现在即可开始质押。",
                     "description7b": "你会在Alpha赛季2开始后获得相应的质押点数。我们会简单地查看你在开始计算点数之前质押了多少数量。",
                     "description7c": "你无需等到Alpha赛季2开始后再进行质押，你也无需在Alpha赛季2开始后提取并再次质押你的资金，从而最大化你的质押点数。",
@@ -1209,12 +1209,12 @@
                     "description3h1": "分以上，社区奖励加速器将提升至+100%。而第2季的Alpha Pass奖励也将提升至+100%，即所有第2季的Alpha Pass拥有者将获得1,000 $SAND。",
                     "description3i1": "分以上，社区奖励加速器将提升至+57%。而第2季Alpha Pass奖励也将提升至+57%，即所有第2季Alpha Pass拥有者将获得785 $SAND (500 + 0.57x500)。",
                     "description6b1": "质押点数。",
-                    "description6g1": "质押点数（可获得200抽奖券）。在整个Alpha赛季中（28天），每质押1 mSAND即可获得",
+                    "description6g1": "质押点数（可获得200抽奖券）。在整个Alpha赛季中（28天），每质押1 SAND即可获得",
                     "description6g2": "质押点数。",
                     "description6g3": "例如，你可获得：",
-                    "description6g4": "质押点数（14天内，质押1 mSAND）",
-                    "description6g5": "质押点数（28天内，质押2 mSAND）",
-                    "description6g6": "质押点数（7天内，质押4 mSAND）",
+                    "description6g4": "质押点数（14天内，质押1 SAND）",
+                    "description6g5": "质押点数（28天内，质押2 SAND）",
+                    "description6g6": "质押点数（7天内，质押4 SAND）",
                     "description6i2": "总计质押点数（社区奖励加速器提升至+100%）。",
                     "description7d1": "与团体目标",
                     "description7d2": "需要在Alpha第2季进行时达成。"
@@ -1283,7 +1283,7 @@
                     "title": "你还可以通过以下方式获取额外抽奖券：",
                     "1": {
                         "1": "质押",
-                        "2": "mSAND"
+                        "2": "SAND"
                     },
                     "2": "拥有LAND",
                     "3": "拥有赛季1的Alpha通行证",
@@ -1365,7 +1365,7 @@
                 }
             },
             "communityBooster": {
-                "mSand": "mSAND",
+                "mSand": "SAND",
                 "title": "质押与社区加速器",
                 "subtitle": {
                     "1": "质押SAND获得额外抽奖券：",
@@ -1373,7 +1373,7 @@
                 },
                 "bulletPoints": {
                     "1": {
-                        "1": "通过质押mSAND",
+                        "1": "通过质押SAND",
                         "2": "你最多可获得200",
                         "3": ""
                     },
@@ -1672,7 +1672,7 @@
         "shopTitle": "商店",
         "onSale": "出售中",
         "title": "欢迎来到NFT市场",
-        "subtitle": "Discover Collections, get Equipment, or find assets to build your own unique Experiences.",
+        "subtitle": "在这里，你可以搜索并使用SAND购买创作者的ASSET，并将其应用到你的LAND中。",
         "welcomeTo": "欢迎来到",
         "nftCollections": "NFT收藏",
         "fluid": "光滑度",
@@ -1808,7 +1808,7 @@
         },
         "filters": {
             "all": "全部",
-            "sale": "New Assets",
+            "sale": "出售",
             "notSale": "未出售"
         },
         "sorts": {
@@ -1830,7 +1830,7 @@
             "12x12": "12x12",
             "24x24": "24x24"
         },
-        "enties": "NFT实体",
+        "enties": "实体",
         "land": "OpenSea上的NFT LAND",
         "results": "结果",
         "noResults": "无结果",
@@ -2222,7 +2222,7 @@
                 },
                 "title1": "成为",
                 "title2": "你的虚拟化身",
-                "description1": "Discover our Interoperable Avatars collection. Own NFTs and unlock special Avatars to explore the Metaverse. New compatible collections will be added progressively!",
+                "description1": "你的个人档案图片将提升一个等级。现在，你可以选择你最喜爱的虚拟化身来探索《The Sandbox》元宇宙。",
                 "description2": "关联你的钱包可查找你是否拥有外部虚拟化身。",
                 "button": "关联钱包"
             },
@@ -2484,13 +2484,13 @@
                         "landsCount2": "LANDS",
                         "landsCount3": "You will receive",
                         "step1Title1": "Claim your",
-                        "step1Subtitle": "Your are eligible for the reward! Each LAND Owner is receiving some $mSAND based on the amount of LAND they owned on May 13, 2022.",
+                        "step1Subtitle": "Your are eligible for the reward! Each LAND Owner is receiving some $SAND based on the amount of LAND they owned on May 13, 2022.",
                         "step5Title": "Here is your claim",
                         "step5Subtitle": "We were happy to share this exciting roadmap with all of you. As a LAND owner you are building the future, and we can’t wait to see what it will bring!",
                         "steps2To4Title1": "LAND Owners",
                         "steps2To4Title2": "Roadmap 2022",
                         "steps2To4Subtitle1": "On May 13, 2022 we introduced our latest roadmap for LAND Owners. Let us go through the perks and features you can expect in 2022!",
-                        "steps2To4Subtitle2": "Your are not eligible for the reward! Each LAND Owner is receiving some $mSAND based on the amount of LAND they owned on May 13, 2022.",
+                        "steps2To4Subtitle2": "Your are not eligible for the reward! Each LAND Owner is receiving some $SAND based on the amount of LAND they owned on May 13, 2022.",
                         "footer": "Make sure to grab LAND to be eligible for the next claim!",
                         "alreadyClaimed": "Already Claimed",
                         "congrats": {
@@ -2518,17 +2518,17 @@
                             },
                             "claim": {
                                 "title": "CLAIM",
-                                "text1": "2.5M $mSAND airdrop to LAND owners",
-                                "text2": "5M $mSAND airdrop to LAND owners",
-                                "text3": "$mSAND claim to celebrate the Metaverse's 1,000th day based on LAND holding time"
+                                "text1": "2.5M $SAND airdrop to LAND owners",
+                                "text2": "5M $SAND airdrop to LAND owners",
+                                "text3": "$SAND claim to celebrate the Metaverse's 1,000th day based on LAND holding time"
                             },
                             "stake": {
                                 "title": "STAKE",
                                 "text1": "Multiplier on SAND-ETH staking (Uniswap)",
-                                "text2": "Multiplier on mSAND-MATIC staking (Quickswap)",
-                                "text3": "Multiplier on mSAND staking (Layer 2)",
+                                "text2": "Multiplier on SAND-MATIC staking (Quickswap)",
+                                "text3": "Multiplier on SAND staking (Layer 2)",
                                 "text4": "LAND owner exclusive $CATALYST and $GEM farming (Layer 2)",
-                                "text5": "LAND owner exclusive 10M $mSAND farming (Layer 2)"
+                                "text5": "LAND owner exclusive 10M $SAND farming (Layer 2)"
                             },
                             "buy": {
                                 "title": "BUY",
@@ -2548,13 +2548,13 @@
                                 "text1": "35+ certified Builders community",
                                 "text2": "Create ESTATEs with your LANDs",
                                 "text3": "Publish experiences on your LAND",
-                                "text4": "Rent LANDs & ESTATEs",
+                                "text4": "Rent Lands & Estates",
                                 "text5": "Premium LAND will unlock new assets and behaviors in the Game Maker"
                             },
                             "migrate": {
                                 "title": "MIGRATE",
                                 "text1": "Get access to all features on Polygon Layer 2",
-                                "text2": "1M $mSAND distributed in cashback on migrated LANDs"
+                                "text2": "1M $SAND distributed in cashback on migrated LANDs"
                             },
                             "meet": {
                                 "title": "MEET",
@@ -3008,7 +3008,7 @@
         "menu": {
             "sandbox": "《The Sandbox》",
             "sand": "SAND",
-            "land": "Land",
+            "land": "LAND",
             "blog": "Blog"
         },
         "sandbox": {
@@ -3327,7 +3327,7 @@
             "edit": "编辑",
             "logout": "登出",
             "settings": "设置",
-            "claim": "Claims",
+            "claim": "索赔",
             "bridge": "Bridge"
         },
         "profile": {
@@ -3385,7 +3385,7 @@
             "public": {
                 "showMore": "Show More",
                 "showLess": "Show Less",
-                "filters": "Filters",
+                "filters": "筛选",
                 "sortBy": "Sort By",
                 "onSaleMessage": "{amount} {entity} on sale",
                 "onInventoryMessage": "{amount} {entity} on inventory",
@@ -3414,7 +3414,7 @@
             "nftTypes": {
                 "title": "非同质化代币类型",
                 "entity": "实体",
-                "land": "Land & Estate",
+                "land": "LAND",
                 "estates": "ESTATE",
                 "experiences": "体验",
                 "all": "全部"
@@ -3930,9 +3930,9 @@
             "chainSettings": {
                 "title": "链设置",
                 "subtitle": "Polygon元交易",
-                "text": "《The Sandbox》元交易在Polygon网络上推出了新功能。现在，所有交易均可整合，且使用唯一代币mSAND。",
+                "text": "《The Sandbox》元交易在Polygon网络上推出了新功能。现在，所有交易均可整合，且使用唯一代币SAND。",
                 "useMatic": "所有交易支出均由Polygon的网络原生代币MATIC支付。",
-                "useMsand": "所有交易支出均由《The Sandbox》的管理代币mSAND支付。",
+                "useMsand": "所有交易支出均由《The Sandbox》的管理代币SAND支付。",
                 "subtitleGasless": "Polygon免矿工费",
                 "textGasless": "《The Sandbox》通过Biconomy在Polygon网络上每月提供一定数量的免矿工费交易。这样一来，你就可以在无需支付矿工费的情况下执行一些必要交易。",
                 "useGasless": "剩余免费交易次数",
@@ -3943,15 +3943,15 @@
                 "wallet": "Hardware Wallet - Maximize EIP-712 compatibility for your hardware wallet",
                 "learnMore": "在此處了解有關 Biconomy 的更多信息",
                 "gassless": "Gasless - You get 10 free transaction every 28 days",
-                "forward": "Forward - 用 mSAND 而不是 MATIC 支付你的汽油費",
+                "forward": "Forward - 用 SAND 而不是 MATIC 支付你的汽油費",
                 "hardwareWallet": "最大化您的硬件錢包的 EIP-712 兼容性",
-                "notes": "使用您當前的設置，您每 28 天獲得 {txsLimit} 次免費交易，然後 Gas Fees 將以 mSAND 支付。",
+                "notes": "使用您當前的設置，您每 28 天獲得 {txsLimit} 次免費交易，然後 Gas Fees 將以 SAND 支付。",
                 "gasless": "Gasless - You get {txsLimit} free transaction every 28 days ({txsLeft} left)",
                 "transactionsLeft1": "你有",
                 "transactionsLeft2": "剩餘自由交易。",
                 "changeGasSettings": "Change gas settings",
                 "payWithMatic": "Pay gas with MATIC",
-                "payWithMsand": "Pay gas with mSAND"
+                "payWithMsand": "Pay gas with SAND"
             },
             "accountVerification": "Verification",
             "kyc": {
@@ -3984,11 +3984,11 @@
             "bannerTitle": "LAND Owners Claim",
             "bannerSubtitle1": "We continue to bring value to our LAND owners",
             "bannerSubtitle2": "ROADMAP 2022",
-            "bannerSubtitle3": "5m mSAND claim",
+            "bannerSubtitle3": "5m SAND claim",
             "checkButtonText": "Check your Claim",
             "landOwner": {
                 "lands": "{0} LAND",
-                "msand": "{0} {1} mSAND",
+                "msand": "{0} {1} SAND",
                 "results": "{0} results",
                 "startProcess": "Start Claim Process",
                 "claim": "Claim",
@@ -3997,13 +3997,13 @@
                 "landsCount2": "You will receive {0} {1} {2}",
                 "landsCount3": "You received {0} {1} {2}",
                 "step1Title1": "Claim your",
-                "step1Subtitle": "You are eligible for the reward! Each LAND Owner is receiving some $mSAND based on the amount of LAND they owned on May 13, 2022.",
+                "step1Subtitle": "You are eligible for the reward! Each LAND Owner is receiving some $SAND based on the amount of LAND they owned on May 13, 2022.",
                 "step5Title": "Here is your claim",
                 "step5Subtitle": "We were happy to share this exciting roadmap with all of you. As a LAND owner you are building the future, and we can’t wait to see what it will bring!",
                 "steps2To4Title1": "LAND Owners",
                 "steps2To4Title2": "Roadmap 2022",
                 "steps2To4Subtitle1": "On May 13, 2022 we introduced our latest roadmap for LAND Owners. Let us go through the perks and features you can expect in 2022!",
-                "steps2To4Subtitle2": "You are not eligible for the reward! Each LAND Owner is receiving some $mSAND based on the amount of LAND they owned on May 13, 2022.",
+                "steps2To4Subtitle2": "You are not eligible for the reward! Each LAND Owner is receiving some $SAND based on the amount of LAND they owned on May 13, 2022.",
                 "footer": "Make sure to grab LAND to be eligible for the next claim!",
                 "alreadyClaimed": "Already Claimed",
                 "congrats": {
@@ -4032,17 +4032,17 @@
                     },
                     "claim": {
                         "title": "CLAIM",
-                        "text1": "2.5M $mSAND airdrop to LAND owners",
-                        "text2": "5M $mSAND airdrop to LAND owners",
-                        "text3": "$mSAND claim to celebrate the Metaverse's 1,000th day based on LAND holding time"
+                        "text1": "2.5M $SAND airdrop to LAND owners",
+                        "text2": "5M $SAND airdrop to LAND owners",
+                        "text3": "$SAND claim to celebrate the Metaverse's 1,000th day based on LAND holding time"
                     },
                     "stake": {
                         "title": "STAKE",
                         "text1": "Multiplier on SAND-ETH staking (Uniswap)",
-                        "text2": "Multiplier on mSAND-MATIC staking (Quickswap)",
-                        "text3": "Multiplier on mSAND staking (Layer 2)",
+                        "text2": "Multiplier on SAND-MATIC staking (Quickswap)",
+                        "text3": "Multiplier on SAND staking (Layer 2)",
                         "text4": "LAND owner exclusive $CATALYST and $GEM farming (Layer 2)",
-                        "text5": "LAND owner exclusive 10M $mSAND farming (Layer 2)"
+                        "text5": "LAND owner exclusive 10M $SAND farming (Layer 2)"
                     },
                     "buy": {
                         "title": "BUY",
@@ -4068,7 +4068,7 @@
                     "migrate": {
                         "title": "MIGRATE",
                         "text1": "Get access to all features on Polygon Layer 2",
-                        "text2": "1M $mSAND distributed in cashback on migrated LAND"
+                        "text2": "1M $SAND distributed in cashback on migrated LAND"
                     },
                     "meet": {
                         "title": "MEET",
@@ -4205,7 +4205,7 @@
             "switchToRinkeby": "切换至Rinkeby",
             "switchToMumbai": "切换至Mumbai",
             "sand": "SAND",
-            "msand": "mSAND",
+            "msand": "SAND",
             "eth": "ETH",
             "matic": "MATIC"
         },
@@ -4553,7 +4553,7 @@
         },
         "avatars": {
             "title": "人物造型",
-            "lands": "Lands & Estates",
+            "lands": "LAND和ESTATE",
             "experiences": "体验",
             "entities": "实体"
         },
@@ -4574,7 +4574,7 @@
             "duration": "链接有效时间：",
             "days": "天",
             "sharein": "分享到：",
-            "amountreferred": "Total Referred",
+            "amountreferred": "总推广人数",
             "amountearnings": "总收益： ",
             "link": "了解更多推广信息 >",
             "details": {
@@ -4752,15 +4752,15 @@
             "menu": {
                 "land": "Land",
                 "faqs": "FAQs",
-                "msand": "mSAND"
+                "msand": "SAND"
             },
             "msand": {
-                "title": "mSAND 遷移",
+                "title": "SAND 遷移",
                 "text1": "在我們正式將 SAND 部署到 Polygon 之前，創建了一個通用版本並導致一些用戶向錯誤的合約發送資金。",
                 "text2": "如果您是這些用戶中的一員，我們將為您提供保障。 您可以在此處將已棄用的 SAND 換成正式版本。",
                 "gasless2": "我們為您提供保障。",
                 "viewMigrationContract": "在 Polygonscan 上查看索賠合同",
-                "success": "您的所有 mSAND 都已成功遷移。"
+                "success": "您的所有 SAND 都已成功遷移。"
             }
         },
         "achievements": {
@@ -5343,7 +5343,7 @@
             "communityScore2": "Current boost : {boostPercentage}%",
             "earnScorePoints": "The points you can earn cannot be lost, they will grant you more tickets for the raffle and help the comminity reach its goal.",
             "projectedScoreTitle": "Projected Score",
-            "projectedScore": "This is the projected community score at the end of the Season with the current amount of mSAND staked."
+            "projectedScore": "This is the projected community score at the end of the Season with the current amount of SAND staked."
         },
         "modalWithdraw": {
             "withdraw": "你的提取",
@@ -5378,8 +5378,8 @@
             "testnetL1Title": "Goerli",
             "eth": "ETH",
             "poly": "Polygon",
-            "msand": "mSAND",
-            "sand-poly": "mSAND - Polygon",
+            "msand": "SAND",
+            "sand-poly": "SAND - Polygon",
             "sand-poly-text": "一组全新DeFi功能即将在Polygon上推出。准备质押你的SAND，赚取收益吧！",
             "sand": "SAND",
             "usd": "美金",
@@ -5447,11 +5447,11 @@
             "polygonNetwork": "Polygon",
             "ethereumNetwork": "Ethereum",
             "action-desc-deposit-single": "赚取更多SAND",
-            "footer-text-deposit-single": "此交易可以让你存入选定数量的mSAND，增加你的存款总额。",
-            "footer-text-claim-single": "This transaction will claim current mSAND rewards to your wallet.",
+            "footer-text-deposit-single": "此交易可以让你存入选定数量的SAND，增加你的存款总额。",
+            "footer-text-claim-single": "This transaction will claim current SAND rewards to your wallet.",
             "footer-text-exit": "This transaction will withdraw the selected LP amount from your total deposit. It will also claim any available earnings to save you some gas fee.",
-            "footer-text-withdraw-single": "此交易将从你的总存款中提取mSAND，还会领取任何可用的收益，以节省你的一些矿工费。",
-            "footer-text-withdraw-exit": "This transaction will withdraw your mSAND from your total deposit. It will also claim any available earnings to save you some gas fee.",
+            "footer-text-withdraw-single": "此交易将从你的总存款中提取SAND，还会领取任何可用的收益，以节省你的一些矿工费。",
+            "footer-text-withdraw-exit": "This transaction will withdraw your SAND from your total deposit. It will also claim any available earnings to save you some gas fee.",
             "addMsand": "获得mSand",
             "howtoMsand": "获得更多mSand"
         },
@@ -5493,7 +5493,7 @@
             "network": "Polygon主网",
             "gasWarning": "别忘了保留部分SAND来支付矿工费，或是在链设置中将代币切换为MATIC",
             "communityBooster": {
-                "title": "赛季2",
+                "title": "赛季3",
                 "subtitle": "在整个季度中",
                 "text": "质押$SAND提升总奖池金额。质押后还可获得额外抽奖券。",
                 "titlePolygon": "Now can stake SAND",
@@ -5514,14 +5514,14 @@
                     "title": "额外抽奖券",
                     "text": "通过质押获得额外抽奖券",
                     "tooltipGet": "获得",
-                    "tooltipStart": "在整个第2季（28天）期间每质押一个mSAND，",
+                    "tooltipStart": "在整个第2季（28天）期间每质押一个SAND，",
                     "tooltipEnd": "就可获得1张额外的抽奖券（最多200张抽奖券）。"
                 },
                 "infoStart": "每质押一个",
                 "infoEnd": "就可获得社区质押点数。",
                 "pointsInfo1": "You earn points over time for each ",
                 "pointsInfo2": " staked. Points accumulated cannot be lost. ",
-                "pointsInfo3": "staked for 10 weeks grants {stakingMultiplier} point.",
+                "pointsInfo3": "staked for 28 days grants {stakingMultiplier} point.",
                 "myScore": "我的分數",
                 "earnScorePoints": "Earn Score Points",
                 "cardFirstTitle": "Stake {0} and enjoy the benefits of staking."
@@ -5533,7 +5533,7 @@
         },
         "exitOnDeprecationLP": "Claim all your earnings and get back all your LP.",
         "discontinued": "Discontinued",
-        "refillWarning": "Due to a maintenance issue, the refill of the mSAND & mSAND-MATIC rewards is delayed. Please be patient, it will be fixed very soon. Thanks for your understanding."
+        "refillWarning": "Due to a maintenance issue, the refill of the SAND & SAND-MATIC rewards is delayed. Please be patient, it will be fixed very soon. Thanks for your understanding."
     },
     "login": {
         "refresh": "安装插件后请刷新浏览器",
@@ -5731,7 +5731,7 @@
                     "description": "The Doggies即将加入《The Sandbox》。和你的朋友们一起享受探索元宇宙的乐趣吧。现在就获得你的虚拟化身并进入《The Sandbox》。",
                     "url": "https://www.sandbox.game/en/snoopdogg/",
                     "site_name": "《The Sandbox》游戏 - The Doggies即将加入《The Sandbox》",
-                    "image": "/img/30_Landing/snoopdogg/metadata-image.jpg"
+                    "image": "/img/30_Landing/raffle-doggies/metadata-image.jpg"
                 },
                 "twitter": {
                     "title": "《The Sandbox》游戏 - The Doggies即将加入《The Sandbox》",
@@ -5739,7 +5739,7 @@
                     "card": "The Doggies即将加入《The Sandbox》",
                     "site": "@thesandboxgame",
                     "creator": "@thesandboxgame",
-                    "image": "/img/30_Landing/snoopdogg/metadata-image.jpg"
+                    "image": "/img/30_Landing/raffle-doggies/metadata-image.jpg"
                 }
             },
             "menu": {
@@ -6091,7 +6091,7 @@
                         "title": "STAKING REWARDS",
                         "body": {
                             "1": "质押",
-                            "2": "mSAND",
+                            "2": "SAND",
                             "3": "使奖励数量",
                             "4": "加倍",
                             "5": "面向所有人开放！",
@@ -6353,7 +6353,7 @@
                 "description": "快来参与抽奖吧！任何人都有机会赢取奖励，试试你的运气！",
                 "url": "https://www.sandbox.game/en/raffle/",
                 "site_name": "The Sandbox游戏——抽奖页面",
-                "image": "/img/30_Landing/snoopdogg/metadata-image.jpg"
+                "image": "/img/30_Landing/raffle-doggies/metadata-image.jpg"
             },
             "twitter": {
                 "title": "The Sandbox游戏——抽奖页面",
@@ -6361,7 +6361,7 @@
                 "card": "The Sandbox游戏——抽奖页面",
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame",
-                "image": "/img/30_Landing/snoopdogg/metadata-image.jpg"
+                "image": "/img/30_Landing/raffle-doggies/metadata-image.jpg"
             }
         },
         "title": "铸造你自己的Snoop Dogg虚拟化身！",
@@ -6383,8 +6383,8 @@
             "etherAndSandWarning": "你的钱包里需要有一些ETH和SAND才能继续。",
             "refreshButton": "刷新",
             "popUpError": "出问题了。请确保你已允许在浏览器中打开沙盒弹窗，然后刷新页面。",
-            "sorry": "Not welcomelisted!",
-            "errorWhitelisted": "Your connected wallet is not on the welcome list. Make sure to be connected with the correct wallet.",
+            "sorry": "未加入白名单！",
+            "errorWhitelisted": "你连接的钱包不在白名单内。请确保与正确的钱包连接。",
             "reconnect": "重新连接",
             "insufficientFunds": "你钱包里的资金不足。",
             "contractsIssue": "出问题了。如果你想更改钱包，请注意：每次更改钱包都需要签合约。",
@@ -6568,7 +6568,7 @@
             "subtitleWithdraw": ": Transfer your assets to Ethereum",
             "howToLink": "How to Bridge",
             "guideLink": "Get Support",
-            "faqLink": "FAQs"
+            "faqLink": "FAQ"
         },
         "polygonCard": {
             "title": "Add POLYGON to your Wallet",
@@ -6582,7 +6582,7 @@
                 "main": "Set amount",
                 "token": [
                     "SAND",
-                    "mSAND",
+                    "SAND",
                     "LAND",
                     "ASSET"
                 ],
@@ -6734,7 +6734,7 @@
                 "fail": {
                     "headerTitle": "Transfer failed",
                     "footerTitle": "The transaction has failed",
-                    "footerText1": "Something has happened that the transaction has not been succesfull. Try again later.",
+                    "footerText1": "Something happened and the transaction was either rejected or reverted. Please retry.",
                     "button": "Retry"
                 },
                 "rejected": {
@@ -6782,7 +6782,7 @@
             "polygonBridge": "Polygon Bridge Explorer"
         },
         "buySand": "Buy SAND",
-        "buymSand": "Buy mSAND",
+        "buymSand": "Buy SAND",
         "confirmDeposit": "Confirm Deposit",
         "confirmWithdraw": "Confirm Withdraw",
         "noTransactions": "There are no transactions to display",
@@ -6796,7 +6796,7 @@
         },
         "deposits": "Deposits",
         "withdraws": "Withdraws",
-        "actionRequired": "Action Required",
+        "actionRequired": "Action Required | Actions Required",
         "actionsRequired": "Actions Required",
         "land": "Land | Lands"
     },
@@ -8217,8 +8217,8 @@
             "description": "SAND is the currency you need to buy NFTs at The Sandbox"
         },
         "polygon": {
-            "title": "Add mSAND to your wallet",
-            "description": "mSAND is the currency you need to buy NFTs at The Sandbox on Polygon Network"
+            "title": "Add SAND to your wallet",
+            "description": "SAND is the currency you need to buy NFTs at The Sandbox on Polygon Network"
         },
         "options": {
             "moonpay": {
@@ -8227,15 +8227,15 @@
             },
             "binance": {
                 "text-ethereum": "Buy SAND on Binance",
-                "text-polygon": "Buy mSAND on Binance",
+                "text-polygon": "Buy SAND on Binance",
                 "extra": "(Coming soon)"
             },
             "uniswap": {
                 "text-ethereum": "Buy SAND on Uniswap",
-                "text-polygon": "Buy mSAND on Uniswap"
+                "text-polygon": "Buy SAND on Uniswap"
             },
             "quickswap": {
-                "text": "Buy mSAND on Quickswap"
+                "text": "Buy SAND on Quickswap"
             }
         },
         "notes": {
@@ -8256,7 +8256,7 @@
         "help": {
             "question1": "What is a wallet?",
             "question2-ethereum": "How to buy SAND?",
-            "question2-polygon": "How to buy mSAND?",
+            "question2-polygon": "How to buy SAND?",
             "question3": "Why do I need ETH?",
             "question3-polygon": "Why do I need MATIC?",
             "question4": "What is Gas fee?",
@@ -8306,7 +8306,7 @@
         "saveButton": "Save",
         "transferButton": "Transfer",
         "editButton": "Edit",
-        "yes": "true",
+        "yes": "Yes",
         "later": "Later",
         "reset": "Reset",
         "linkCopied": "Link copied to clipboard",
@@ -8369,7 +8369,7 @@
             "workflowType": "Workflow Type"
         },
         "members": {
-            "newMember": "+ Add New member",
+            "newMember": "+ Add member",
             "newInvitation": "Create invitation",
             "invitations": "Invitations",
             "members": "Members",
@@ -8727,7 +8727,7 @@
         "POC_LANDING_HEADER_MENU_UNIQUE_AVATARS_LABEL": "Unique avatars",
         "POC_LANDING_HEADER_MENU_PEOPLE_OF_CRYPTO_LABEL": "People of crypto",
         "POC_LANDING_HEADER_MENU_MINT_YOUR_AVATAR_LABEL": "Mint your avatar",
-        "POC_LANDING_INTRO_START_DATE": "Launching June 20",
+        "POC_LANDING_INTRO_START_DATE": "Launching June {launchDateWhitelist}",
         "POC_LANDING_INTRO_BUTTON": "Mint yours now",
         "POC_LANDING_INTRO_TITLE": "8,430 Next-generation",
         "POC_LANDING_INTRO_SUBTITLE": "Metaverse avatars",
@@ -8758,13 +8758,13 @@
         "POC_LANDING_FAQ_WHAT_IS_THEIR_RARITY_TITLE": "What is their rarity/tier?",
         "POC_LANDING_FAQ_WHAT_IS_THEIR_RARITY_DESCRIPTION": "The POC Avatars are divided into a variety of rarity categories depending on traits. There are thousands of unique avatars, as well as several hand-crafted 1/1 avatars.",
         "POC_LANDING_FAQ_WHERE_DO_I_HAVE_TO_GO_TITLE": "Where do I have to go to claim the Avatars?",
-        "POC_LANDING_FAQ_WHERE_DO_I_HAVE_TO_GO_DESCRIPTION": "There is only one place where you can mint the Avatars: \n https://sandbox.game/en/people-of-crypto/raffle/mint/",
+        "POC_LANDING_FAQ_WHERE_DO_I_HAVE_TO_GO_DESCRIPTION": "There is only one place where you can mint the Avatars: \n {link}",
         "POC_LANDING_FAQ_AT_WHAT_TIME_TITLE": "At what time does the sale start?",
-        "POC_LANDING_FAQ_AT_WHAT_TIME_DESCRIPTION": "The sale will start on June 21st, 2022, 9AM EST. \n Welcomelisted users will have access 24 hours before.",
+        "POC_LANDING_FAQ_AT_WHAT_TIME_DESCRIPTION": "The sale will start on June {launchDatePublic}. \n Welcomelisted users will have access 24 hours before.",
         "POC_LANDING_FAQ_HOW_MUCH_SHOULD_I_TITLE": "How much should I expect to pay for one People of Crypto NFT?",
         "POC_LANDING_FAQ_HOW_MUCH_SHOULD_I_DESCRIPTION": "One POC NFT will cost {sandAmount} SAND.",
         "POC_LANDING_FAQ_HOW_MANY_CAN_I_MINT_TITLE": "How many POC Avatars can I mint per wallet address?",
-        "POC_LANDING_FAQ_HOW_MANY_CAN_I_MINT_DESCRIPTION": "The POC Avatars will be released in two waves: \n 1) Welcomelisted users will have a chance to mint a maximum of two avatar with a time limit of 24 hours, between June 20th and June 21th. \n 2) When the public release is live, users will have the chance to mint up to ten.",
+        "POC_LANDING_FAQ_HOW_MANY_CAN_I_MINT_DESCRIPTION": "The POC Avatars will be released in two waves: \n 1) Welcomelisted users will have a chance to mint a maximum of two avatar with a time limit of 24 hours, between June 20th and June 21th. \n 2) When the public release is live, users will have the chance to mint up to three.",
         "POC_LANDING_FAQ_WHEN_CAN_I_DISCOVER_TITLE": "When can I discover what POC Avatar I minted?",
         "POC_LANDING_FAQ_WHEN_CAN_I_DISCOVER_DESCRIPTION": "The POC Avatars will be revealed 24 hours after public sale start on OpenSea.",
         "POC_LANDING_FAQ_CAN_I_MINT_USING_TITLE": "Can I mint using any wallet?",
@@ -8776,17 +8776,17 @@
         "POC_LANDING_FAQ_DOES_OWNING_TITLE": "Does owning the POC Avatar grant me other perks?",
         "POC_LANDING_FAQ_DOES_OWNING_DESCRIPTION": "Owning your own avatar will grant you access and features within the Diversity and Inclusion Center, as well as other Play & Earn perks.",
         "POC_LANDING_FAQ_WHERE_CAN_I_BUY_TITLE": "Where can I buy an avatar after the initial sale is over?",
-        "POC_LANDING_FAQ_WHERE_CAN_I_BUY_DESCRIPTION": "After the initial sale is over, you will be able to purchase an avatar from users that are willing to sell theirs on the secondary marketplace Opensea.",
+        "POC_LANDING_FAQ_WHERE_CAN_I_BUY_DESCRIPTION": "After the initial sale is over, you will be able to purchase an avatar from users that are willing to sell theirs on the secondary marketplace Opensea",
         "POC_LANDING_FAQ_HOW_DO_I_GET_WHITELISTED_TITLE": "How do I get welcomelisted?",
         "POC_LANDING_FAQ_HOW_DO_I_GET_WHITELISTED_DESCRIPTION": "If you hold one of the NFT listed below, 24 hours before the minting starts, you will have early access to mint your POC avatar: \n - Snoop Dogg Doggies avatar holders \n - Rumble Kong League \n Land owners will also be welcome listed. If you are not a holder of any of these, please go to peopleofcrypto.io. \n Winning one of our Twitter contests can also give you early access to mint your NFT. ",
-        "POC_LANDING_FAQ_HOW_DO_I_KNOW_IF_TITLE": "How do I know if I'm welcomelisted?",
-        "POC_LANDING_FAQ_HOW_DO_I_KNOW_IF_DESCRIPTION": "If you hold an NFT of the above collection, you will be able to mint, as long as you hold the NFT in the wallet with which you are welcomelisted, and connected on the minting page.",
+        "POC_LANDING_FAQ_HOW_DO_I_KNOW_IF_TITLE": "How do I know if I'm welcomelisted",
+        "POC_LANDING_FAQ_HOW_DO_I_KNOW_IF_DESCRIPTION": "If you hold an NFT of the above collection, you will be able to mint, as long as you hold the NFT in the wallet with which you are welcome listed, and connected on the minting page.",
         "POC_LANDING_FAQ_HOW_MANY_MINT_AS_WHITELISTED_TITLE": "How many POC Avatars can I mint as a welcomelisted user?",
-        "POC_LANDING_FAQ_HOW_MANY_MINT_AS_WHITELISTED_DESCRIPTION": "You will be able to mint two NFTs as a welcomelisted user.",
+        "POC_LANDING_FAQ_HOW_MANY_MINT_AS_WHITELISTED_DESCRIPTION": "You will be able to mint two NFTs as a welcome listed user.",
         "POC_LANDING_FAQ_MY_AVATARS_TITLE": "My Avatar(s) is not revealed yet on OpenSea. What can I do?",
         "POC_LANDING_FAQ_MY_AVATARS_DESCRIPTION": "If you are checking after the reveal date (24 hours after public sale start), feel free to press the Refresh Metadata button on the top-right corner of OpenSea.",
         "POC_LANDING_FAQ_BUYING_NFT_TITLE": "Buying NFT for the first time, how can I get started?",
-        "POC_LANDING_FAQ_BUYING_NFT_DESCRIPTION": "The process is quite simple. You need to ensure that you have:  \n - Created an account on The Sandbox. \n - Ensure you have both the correct amount of SAND to mint the number of avatars you want and some ETH to cover the gas fees. \n - Log into your account and head over to the mint page: https://sandbox.game/en/people-of-crypto/raffle/mint/ \n - Check that your wallet is properly connected and just press the Mint button to retrieve your avatar.",
+        "POC_LANDING_FAQ_BUYING_NFT_DESCRIPTION": "The process is quite simple. You need to ensure that you have:  \n - Created an account on The Sandbox. \n - Ensure you have both the correct amount of SAND to mint the number of avatars you want and some ETH to cover the gas fees. \n - Log into your account and head over to the mint page: {link} \n -Check that your wallet is properly connected and just press the Mint button to retrieve your avatar.",
         "POC_RAFFLE_HEADER_RAFFLE_TITLE_PRIMARY": "Mint your own",
         "POC_RAFFLE_HEADER_RAFFLE_TITLE_SECONDARY": "avatar now!",
         "POC_RAFFLE_HOW_TO_MINT_TITLE": "How to mint a poc avatar",
@@ -8802,7 +8802,7 @@
         "POC_RAFFLE_CONNECT_WRONG_WALLET_TITLE": "wrong wallet",
         "POC_RAFFLE_CONNECT_WALLET_VERIFYING_TITLE": "Wallet is getting verified",
         "POC_RAFFLE_CONNECT_WALLET_VERIFYING_DESCRIPTION": "Please wait while redirecting",
-        "POC_RAFFLE_CONNECT_CUSTOMIZE_AVATAR_TITLE": "Customize your avatar",
+        "POC_RAFFLE_CONNECT_CUSTOMIZE_AVATAR_TITLE": "Customize avatar",
         "POC_RAFFLE_CONNECT_CUSTOMIZE_AVATAR_SUBTITLE": "People of crypto",
         "POC_RAFFLE_CONNECT_CUSTOMIZE_AVATAR_BUTTON": "Personalize",
         "POC_RAFFLE_CONNECT_CUSTOMIZE_AVATAR_BORN_THIS_WAY": "Born this way",
@@ -8852,7 +8852,7 @@
         "POC_RAFFLE_FAQ_DO_THEY_NEED_TO_PAY_TITLE": "Do they need to pay every time they want to customize an avatar?",
         "POC_RAFFLE_FAQ_DO_THEY_NEED_TO_PAY_DESCRIPTION": "Yes, the transaction itself is free, but gas needs to be covered by the user.",
         "POC_RAFFLE_FAQ_CAN_I_CUSTOMIZE_MULTIPLE_TITLE": "Can I customize multiple avatars at the same time?",
-        "POC_RAFFLE_FAQ_CAN_I_CUSTOMIZE_MULTIPLE_DESCRIPTION": "No, the interaction needs to be done for each avatar you own individually.",
+        "POC_RAFFLE_FAQ_CAN_I_CUSTOMIZE_MULTIPLE_DESCRIPTION": "No, the interaction needs to be done for each avatar you own individually",
         "POC_RAFFLE_META_TITLE": "The Sandbox Game - Raffle Page",
         "POC_RAFFLE_META_DESCRIPTION": "Come and participate in the raffle! Anyone can win, all you have to do is try your luck!",
         "POC_RAFFLE_META_KEYWORDS": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token, raffle",
@@ -8956,7 +8956,7 @@
         "STEVE_AOKI_FAQ_WHERE_CAN_I_BUY_TITLE": "Where can I buy a Steve Aoki avatar after the initial sale is over?",
         "STEVE_AOKI_FAQ_WHERE_CAN_I_BUY_DESCRIPTION": "After the initial sale is over, you will be able to purchase as many avatars as you like from users that are willing to sell theirs on the secondary marketplace Opensea",
         "STEVE_AOKI_FAQ_HOW_DO_I_GET_WHITELISTED_TITLE": "How do I get whitelisted?",
-        "STEVE_AOKI_FAQ_HOW_DO_I_GET_WHITELISTED_DESCRIPTION": "If you hold one of the below NFTs, at the time of snapshot, you can mint a maximum of 2 Aoki Avatar 48h before official minting start:\n - A0K1VERSE Passport (Snapshot: Monday 18th July at 2pm UTC) \nIf you hold one of the below NFTs, at the time of snapshot, you can mint a maximum of 2 Aoki Avatars 24h before official minting start: \n - The Sandbox LAND (Snapshot: Thursday July 21st at 2pm UTC) \n - The Doggies Avatar (Snapshot: Thursday July 21st at 2pm UTC) \n - People of Crypto Avatar (Snapshot: Thursday July 21st at 2pm UTC) \n - Winning one of our Twitter contests can also give you early access to mint your NFT",
+        "STEVE_AOKI_FAQ_HOW_DO_I_GET_WHITELISTED_DESCRIPTION": "If you hold one of the below NFTs, at the time of snapshot, you can mint a maximum of 2 Aoki Avatar 48h before official minting start: \n - A0K1VERSE Passport (Snapshot: Monday 18th July at 2pm UTC) \nIf you hold one of the below NFTs, at the time of snapshot, you can mint a maximum of 2 Aoki Avatars 24h before official minting start: \n - The Sandbox LAND (Snapshot: Thursday July 21st at 2pm UTC) \n - The Doggies Avatar (Snapshot: Thursday July 21st at 2pm UTC) \n - People of Crypto Avatar (Snapshot: Thursday July 21st at 2pm UTC) \n - Winning one of our Twitter contests can also give you early access to mint your NFT",
         "STEVE_AOKI_FAQ_HOW_DO_I_KNOW_IF_TITLE": "How do I know if I’m whitelisted?",
         "STEVE_AOKI_FAQ_HOW_DO_I_KNOW_IF_DESCRIPTION": "If you hold an NFT of the above collection, you will be able to mint, as long as you hold the NFT in the wallet with which you are whitelisted, and connected on the minting page.",
         "STEVE_AOKI_FAQ_MY_AVATARS_TITLE": "My Avatars are not revealed yet on OpenSea. What can I do?",
