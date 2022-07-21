@@ -462,9 +462,9 @@
         "aoki": {
             "title": "Mint your Steve Aoki Avatar",
             "description": "Get your unique Steve Aoki avatar for The Sandbox Today and enter the metaverse.",
-            "button": "Get Aoki Avatar",
+            "button": "Discover more",
             "button2": "Create Free Avatar",
-            "disabled": "*Starts on July 25th"
+            "disabled": "*Minting starts on July 25"
         },
         "avatarSeason3": {
             "title": "Play with your own avatar",
@@ -510,7 +510,7 @@
             },
             "sidebarRight": {
                 "progressTitle": "最新の進行度",
-                "noProgress": "まだ受け取れる状態には達していません",
+                "noProgress": "You do not have progress yet",
                 "unlockedTitle": "最新のアンロック済み体験",
                 "noUnlocked": "アンロックした体験はまだありません",
                 "schedule": "公開スケジュール",
@@ -723,7 +723,7 @@
                     "communityBoosterDescription2": "で合計プライズプールを増やす。最大+100%。",
                     "communityBoosterDescription3": "ステーキングのための最大200枚の抽選チケット",
                     "raffleHasPass": "日で受け取り可能",
-                    "raffleHasPassDesc": "シーズン2アルファパスを持っています",
+                    "raffleHasPassDesc": "You own a S3 Alpha Pass",
                     "communityBoosterDescription": "",
                     "enterThePartyDescription": "そして、3月24日木曜日の午後7時から始まるVIPパーティーに参加しましょう",
                     "seasonOverDescription4": "",
@@ -1480,14 +1480,14 @@
                 "socialContests": "Events and Contests",
                 "howItWorks": "How does it work?",
                 "howItWorksDesc": "Earn different rewards by participating in activities every weekday.",
-                "ongoing": "ONGOING",
+                "ongoing": "LIVE",
                 "coming": "COMING",
                 "onlyForOwners": "Only For Owners",
-                "seeMore": "Participate",
+                "seeMore": "More Info",
                 "shared": "Shared",
                 "rewards": "Rewards",
                 "comingSoon": "COMING SOON",
-                "upcoming": "UPCOMING CONTESTS",
+                "upcoming": "Upcoming",
                 "upcomingDesc": "Stay tuned for new contests every week!",
                 "play": "Play",
                 "openUntil": "Open until",
@@ -2222,7 +2222,7 @@
                 },
                 "title1": "あなたの",
                 "title2": "アバターになろう",
-                "description1": "プロフィール写真をワンランク上に！お気に入りのアバターを選んで、The Sandboxメタバースを探索しましょう。",
+                "description1": "Discover our Interoperable Avatars collection. Own NFTs and unlock special Avatars to explore the Metaverse. New compatible collections will be added progressively!",
                 "description2": "ウォレットを接続すると、自分が外部アバターを所有しているかがわかります。",
                 "button": "ウォレットに接続する"
             },
@@ -3832,8 +3832,8 @@
         },
         "settings": {
             "title": "設定",
-            "gral": "Gral.設定",
-            "securityMobile": "セキュリティ&パスワード",
+            "gral": "General",
+            "securityMobile": "Security",
             "general": {
                 "title": "全般設定",
                 "email-sub": "Eメール",
@@ -4569,12 +4569,12 @@
         },
         "referrals": {
             "title": "友達に紹介して、稼ごう",
-            "explanation": "専用の紹介リンクをコピーして、さまざまな人たちと共有しましょう。新規ユーザーがThe Sandboxで何かを購入すると、売り上げの最大10%を得ることができます。紹介状は日々処理されます。",
+            "explanation": "Copy your unique referral link and share it far and wide.",
             "share": "紹介リンクをシェア",
             "duration": "リンク有効期間：",
             "days": "日",
             "sharein": "次でシェア：",
-            "amountreferred": "合計紹介数：",
+            "amountreferred": "Total Referred",
             "amountearnings": "合計収益： ",
             "link": "紹介制度の詳細 >",
             "details": {
@@ -5337,7 +5337,7 @@
             "earnings-title": "収益",
             "earnings": "受け取り可能な収益の累計額です。",
             "landMultiplierNotActive": "PolygonネットワークではまだLAND所有数に対する利率はご利用いただけません。",
-            "myScore": "The score you accumulated so far. It unlocks tickets for the raffle (up to 200)",
+            "myScore": "The score you accumulated so far. It unlocks tickets for the raffle (up to {score})",
             "myScore2": "Currently unlocked : {ticketAmount} tickets",
             "communityScore": "The score accumulated by the whole community. This will boost Alpha rewards up to 100%",
             "communityScore2": "Current boost : {boostPercentage}%",
@@ -5521,7 +5521,7 @@
                 "infoEnd": "ごとにポイントを獲得します。",
                 "pointsInfo1": "それぞれの時間の経過とともにポイントを獲得します ",
                 "pointsInfo2": " 賭けた。 蓄積されたポイントは失われません。 ",
-                "pointsInfo3": "28日間賭けた場合、{stakingMultiplier}ポイントが付与されます。",
+                "pointsInfo3": "staked for 10 weeks grants {stakingMultiplier} point.",
                 "myScore": "私の成績",
                 "earnScorePoints": "スコアポイントを獲得する",
                 "cardFirstTitle": "Stake {0} and enjoy the benefits of staking."
@@ -8288,7 +8288,7 @@
         "explore": "探索外部收藏",
         "total": " 集合中的資產",
         "exploreLands": "",
-        "exploreLatest": ""
+        "exploreLatest": "Explore All Assets"
     },
     "alpha3": {
         "contest": {
