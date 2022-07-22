@@ -28,7 +28,7 @@
             "power": "위력",
             "defense": "방어력",
             "speed": "속도",
-            "magic": "마력",
+            "magic": "마법",
             "luck": "행운"
         },
         "catalystGemShopTitle": "카탈리스트 및 젬 상점",
@@ -224,7 +224,8 @@
         "savedChanges": "저장되었습니다!",
         "createAccount": "계정 생성하기",
         "toPlayAlpha": "Mac과 Windows에서 알파 시즌 3를 플레이할 수 있습니다.",
-        "update": "업데이트"
+        "update": "업데이트",
+        "goToClaim": ""
     },
     "layout": {
         "topbar": {
@@ -482,6 +483,10 @@
         "sandSeason3": {
             "title": "왜 SAND인가요?",
             "buttonText": "지금 구매"
+        },
+        "experiencesSeason3": {
+            "experiences": "Experiences!",
+            "discover": "Discover all our"
         }
     },
     "season": {
@@ -494,7 +499,17 @@
             "leaderboard": "리더보드",
             "shop": "마켓",
             "progression": {
-                "ticketDetails": "티켓 상세내용"
+                "ticketDetails": "티켓 상세내용",
+                "s1pass": "",
+                "s2pass": "",
+                "s1Memorabilia": "",
+                "s2Memorabilia": "",
+                "staking": "",
+                "feedback": "",
+                "referral": "",
+                "challenge": "",
+                "belongingMemorabilia": "",
+                "quest": ""
             }
         },
         "play": {
@@ -1534,6 +1549,73 @@
                 "upTo": "최대 +100%",
                 "stakeDesc2": "SAND를 스테이킹하면 {0}도 획득할 수 있습니다. 전체 시즌동안 스테이킹하는 {1}마다 1 포인트가 주어집니다.",
                 "extraTickets": "500 추가 래플 티켓"
+            },
+            "summary": {
+                "rewardsSummary": "REWARDS SUMMARY",
+                "memorabilia": "Memorabilia",
+                "youWon": "You won:",
+                "badges": "Badges",
+                "badge": "Badge",
+                "leaderboard": "Leaderboard",
+                "collectorOwner": "NFT Collector Owner",
+                "goClaim": "Go to Claim",
+                "goBadges": "Go to Badges"
+            }
+        },
+        "leaderboard": {
+            "head": {
+                "date": "",
+                "title": "",
+                "description": ""
+            },
+            "table": {
+                "description": {
+                    "top": "",
+                    "players": "",
+                    "time": ""
+                },
+                "head": [
+                    ""
+                ],
+                "warn": ""
+            },
+            "rewards": {
+                "title": "",
+                "reward": "",
+                "rank": "",
+                "footer": {
+                    "claimDisabled": "",
+                    "claimButton": "",
+                    "shouldLogin": "",
+                    "loggInButton": ""
+                }
+            },
+            "sidebar": {
+                "table": {
+                    "quest": ""
+                },
+                "experiences": {
+                    "title": "",
+                    "rank": "",
+                    "tableColumns": {
+                        "column1": "",
+                        "column2": "",
+                        "column3": ""
+                    }
+                },
+                "experienceDetails": {
+                    "details": "",
+                    "tableColumns": {
+                        "column1": "",
+                        "column2": "",
+                        "column3": "",
+                        "column4": ""
+                    }
+                }
+            },
+            "banner": {
+                "text": "",
+                "link": ""
             }
         }
     },
@@ -1713,32 +1795,32 @@
             "power": "위력",
             "defense": "방어력",
             "speed": "속도",
-            "magic": "마력",
+            "magic": "마법",
             "luck": "행운"
         },
         "behaviours": {
             "title": "행동",
-            "allyFighter": "아군 투사",
-            "animatedDecoration": "애니메이션 장식",
-            "assetSpawner": "애셋 생성기",
-            "avatar": "아바타",
-            "basicPlatform": "기본 플랫폼",
-            "bird": "새",
-            "button": "버튼",
-            "citizen": "시민",
-            "door": "문",
-            "enemyFighter": "적군 투사",
-            "farmer": "농부",
-            "groundPredator": "지상 포식자",
-            "groundProtector": "지상 보호자",
-            "groundPrey": "지상 사냥감",
-            "healer": "치유사",
-            "messageBroadcaster": "메시지 송출기",
-            "replaceAsset": "애셋 교체하기",
-            "void": "빈 공간",
-            "multi": "멀티",
-            "plant": "식물",
-            "question": "질문"
+            "allyFighter": "Ally Fighter",
+            "animatedDecoration": "Animated Decoration",
+            "assetSpawner": "Asset Spawner",
+            "avatar": "Avatar",
+            "basicPlatform": "Basic Platform",
+            "bird": "Bird",
+            "button": "Button",
+            "citizen": "Citizen",
+            "door": "Door",
+            "enemyFighter": "Enemy Fighter",
+            "farmer": "Farmer",
+            "groundPredator": "Ground Predator",
+            "groundProtector": "Ground Predator",
+            "groundPrey": "Ground Prey",
+            "healer": "Healer",
+            "messageBroadcaster": "Message Broadcaster",
+            "replaceAsset": "Replace Asset",
+            "void": "Void",
+            "multi": "Multi",
+            "plant": "Plant",
+            "question": "Question"
         },
         "slots": {
             "title": "슬롯",
@@ -1750,56 +1832,56 @@
         "themes": {
             "title": "바이옴",
             "atari": "아타리",
-            "city": "도시",
-            "fantasy": "판타지",
+            "city": "City",
+            "fantasy": "Fantasy",
             "heroes": "영웅",
-            "horror": "호러",
-            "magic": "마법",
-            "medieval": "중세",
-            "nature": "자연",
+            "horror": "Horror",
+            "magic": "Magic",
+            "medieval": "Medieval",
+            "nature": "Nature",
             "none": "해당 없음",
-            "pirates": "해적",
+            "pirates": "Pirates",
             "realistic": "현실",
-            "retro": "레트로",
-            "rural": "시골",
-            "sci-fi": "공상과학",
-            "oracles": "신탁",
+            "retro": "Retro",
+            "rural": "Rural",
+            "sci-fi": "Sci-Fi",
+            "oracles": "사제",
             "scientists": "과학자",
             "theSandbox": "더 샌드박스"
         },
         "categories": {
             "title": "태그",
             "animal": "동물",
-            "building": "건물",
-            "city": "도시",
+            "building": "Building",
+            "city": "City",
             "decoration": "장식",
-            "electric": "전기",
-            "fantasy": "판타지",
-            "furniture": "가구",
+            "electric": "Electric",
+            "fantasy": "Fantasy",
+            "furniture": "Furniture",
             "hazard": "위험물",
-            "horror": "호러",
+            "horror": "Horror",
             "humanoid": "휴머노이드",
-            "machine": "기계",
-            "magic": "마법",
-            "medieval": "중세",
-            "metal": "금속",
+            "machine": "Machine",
+            "magic": "Magic",
+            "medieval": "Medieval",
+            "metal": "Metal",
             "monster": "몬스터",
-            "nature": "자연",
-            "pirates": "해적",
-            "plant": "식물",
-            "retro": "레트로",
-            "rural": "시골",
-            "sci-fi": "공상과학",
-            "sports": "스포츠",
+            "nature": "Nature",
+            "pirates": "Pirates",
+            "plant": "Plant",
+            "retro": "Retro",
+            "rural": "Rural",
+            "sci-fi": "Sci-Fi",
+            "sports": "Sports",
             "stone": "돌",
             "technology": "기술",
             "terrain": "지형",
             "tool": "도구",
             "vehicle": "운송수단",
             "weapon": "무기",
-            "wood": "나무",
-            "sports_0": "스포츠 1",
-            "sports_1": "스포츠 2"
+            "wood": "Wood",
+            "sports_0": "Sports 1",
+            "sports_1": "Sports 2"
         },
         "coordinates": {
             "title": "좌표",
@@ -2269,7 +2351,7 @@
                     "title": "아바타에 장비를 장착하고 특수 스킬 획득하기",
                     "text1": "모든 아바타는",
                     "gameMakerLinkText": " 더 샌드박스 게임 메이커에 ",
-                    "text2": "능력을 결정하는 특수 속성인 능력치를 가지고 있습니다. 바로 위력, 행운, 방어력, 속도, 마력입니다.",
+                    "text2": "능력을 결정하는 특수 속성인 능력치를 가지고 있습니다. 바로 파워, 행운, 방어력, 스피드, 마법입니다.",
                     "text3": "더 강력한 아바타를 원하신다고요? 그렇다면",
                     "marketplaceLinkText": " 마켓플레이스를 ",
                     "text4": "방문하여 커뮤니티의 멤버들이 만든 수천 가지 무기 중에서 원하는 것을 선택해 보세요. 곧 사용할 수 있게 됩니다.",
@@ -2299,7 +2381,8 @@
                     "avatar": "아바타",
                     "edit": "편집",
                     "logout": "로그아웃",
-                    "settings": "설정"
+                    "settings": "설정",
+                    "badges": ""
                 },
                 "profile": {
                     "sandAmount": "내 SAND",
@@ -2691,7 +2774,7 @@
                         "title": "아바타에 장비를 장착하고 특수 스킬 획득하기",
                         "text1": "모든 아바타는",
                         "gameMakerLinkText": " 더 샌드박스 게임 메이커에 ",
-                        "text2": "능력을 결정하는 특수 속성인 능력치를 가지고 있습니다. 바로 위력, 행운, 방어력, 속도, 마력입니다.",
+                        "text2": "능력을 결정하는 특수 속성인 능력치를 가지고 있습니다. 바로 파워, 행운, 방어력, 스피드, 마법입니다.",
                         "text3": "더 강력한 아바타를 원하신다고요? 그렇다면",
                         "marketplaceLinkText": " 마켓플레이스를 ",
                         "text4": "방문하여 커뮤니티의 멤버들이 만든 수천 가지 무기 중에서 원하는 것을 선택해 보세요. 곧 사용할 수 있게 됩니다."
@@ -3328,7 +3411,8 @@
             "logout": "로그아웃",
             "settings": "설정",
             "claim": "수령하기",
-            "bridge": "브릿지"
+            "bridge": "브릿지",
+            "badges": ""
         },
         "profile": {
             "sandAmount": "내",
@@ -4081,7 +4165,22 @@
         "tag-new": "NEW",
         "tagNew": "NEW",
         "signinWithEmail": "이메일로 로그인",
-        "venlyDowntimeAlert": "6월 13일 월요일 오후 12시에서 2시까지 2시간 동안 Venly 서비스가 중단됩니다."
+        "venlyDowntimeAlert": "6월 13일 월요일 오후 12시에서 2시까지 2시간 동안 Venly 서비스가 중단됩니다.",
+        "badges": {
+            "title": "",
+            "note": "",
+            "nftNote": "",
+            "obtained": "",
+            "missed": "",
+            "noBadge": "",
+            "noDates": "",
+            "category": {
+                "1": "",
+                "2": "",
+                "3": "",
+                "4": ""
+            }
+        }
     },
     "moderator": {
         "title": "운영자",
@@ -5906,7 +6005,7 @@
                 "title1": "허브에서",
                 "title2": "친구를 만나보세요",
                 "button": "허브로 이동",
-                "paragraph": "더 샌드박스 허브는 메타버스의 중심이 되는 공간입니다. 이곳에는 NFT가 전시되는 갤러리와 타 경험으로 이동하는 포털, 콘서트 공간이 있습니다. 또한 세 진영, 즉 신탁, 영웅, 과학자들이 사는 세 지역도 있습니다."
+                "paragraph": "더 샌드박스 허브는 메타버스의 중심이 되는 공간입니다. 이곳에는 NFT가 전시되는 갤러리와 타 경험으로 이동하는 포털, 콘서트 공간이 있습니다. 또한 세 진영, 즉 사제, 영웅, 과학자들이 사는 세 지역도 있습니다."
             },
             "glitches": {
                 "title": "메타버스의 글리치",
@@ -9110,7 +9209,7 @@
                     "screen": "Modern House"
                 },
                 "4": {
-                    "title": "스포츠",
+                    "title": "Sports",
                     "desc": "축구 경기에서 뛰기, 내가 좋아하는 클럽 응원하기, 테니스 경기 관람하기 등, 복셀 세상에서는 이 모든 것이 가능합니다. 더 샌드박스는 우리가 열광하는 분야를 새로운 방식으로 구현하여 실제 물리적인 경험을 재창조합니다.",
                     "screen": "Race Maze"
                 },
@@ -9133,7 +9232,7 @@
                 "7": "친목 도모 & 데이트",
                 "8": "자동차",
                 "9": "비디오 게임",
-                "10": "스포츠"
+                "10": "Sports"
             }
         }
     },
