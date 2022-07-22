@@ -224,7 +224,8 @@
         "savedChanges": "Saved!",
         "createAccount": "Create an Account",
         "toPlayAlpha": "To Play Alpha Season 3 please use Mac or Windows PC",
-        "update": "Update"
+        "update": "Update",
+        "goToClaim": "Go to Claim"
     },
     "layout": {
         "topbar": {
@@ -482,6 +483,10 @@
         "sandSeason3": {
             "title": "WHY SAND?",
             "buttonText": "Buy now"
+        },
+        "experiencesSeason3": {
+            "experiences": "Experiences!",
+            "discover": "Discover all our"
         }
     },
     "season": {
@@ -494,7 +499,17 @@
             "leaderboard": "Leaderboard",
             "shop": "",
             "progression": {
-                "ticketDetails": "Ticket Details"
+                "ticketDetails": "Ticket Details",
+                "s1pass": "Season 1 AP",
+                "s2pass": "Season 2 AP",
+                "s1Memorabilia": "Season 1 Memorabilia",
+                "s2Memorabilia": "Season 2 Memorabilia",
+                "staking": "Staking",
+                "feedback": "Feedback",
+                "referral": "Referral",
+                "challenge": "Daily Challenges",
+                "belongingMemorabilia": "Belonging Week Memorabilia",
+                "quest": "Quest"
             }
         },
         "play": {
@@ -1534,6 +1549,77 @@
                 "upTo": "Up to +100%",
                 "stakeDesc2": "You will get also {0} for staking sand. 1 point is earned for each {1} staked for the whole Season.",
                 "extraTickets": "500 extra Raffle Tickets"
+            },
+            "summary": {
+                "rewardsSummary": "REWARDS SUMMARY",
+                "memorabilia": "Memorabilia",
+                "youWon": "You won:",
+                "badges": "Badges",
+                "badge": "Badge",
+                "leaderboard": "Leaderboard",
+                "collectorOwner": "NFT Collector Owner",
+                "goClaim": "Go to Claim",
+                "goBadges": "Go to Badges"
+            }
+        },
+        "leaderboard": {
+            "head": {
+                "date": "Alpha Season 3",
+                "title": "Leaderboard",
+                "description": "Compete by completing the most quests in experiences, in the fastest total time!"
+            },
+            "table": {
+                "description": {
+                    "top": "Top",
+                    "players": "players",
+                    "time": "Time left to next update"
+                },
+                "head": [
+                    "Rank",
+                    "Player",
+                    "Ethos Points",
+                    "Completition Time",
+                    "Prizes"
+                ],
+                "warn": "Remember to validate your identity before the end of the Alpha Season 3. You need it to claim your rewards."
+            },
+            "rewards": {
+                "title": "TOTAL REWARDS LEADERBOARD",
+                "reward": "1,500,000",
+                "rank": "RANK",
+                "footer": {
+                    "claimDisabled": "Claim your rewards from September, 18",
+                    "claimButton": "Claim Rewards",
+                    "shouldLogin": "You need to be logged in to see your Ranking progression",
+                    "loggInButton": "Sign In"
+                }
+            },
+            "sidebar": {
+                "table": {
+                    "quest": "Quest"
+                },
+                "experiences": {
+                    "title": "Your Ranking Detail",
+                    "rank": "RANK {userRank}",
+                    "tableColumns": {
+                        "column1": "Experince",
+                        "column2": "Your Time",
+                        "column3": "World Record"
+                    }
+                },
+                "experienceDetails": {
+                    "details": "Details",
+                    "tableColumns": {
+                        "column1": "Quest",
+                        "column2": "Your Time",
+                        "column3": "World Record",
+                        "column4": "Holder Record"
+                    }
+                }
+            },
+            "banner": {
+                "text": "Remember to validate your identity. You will not be able to claim the rewards if you do not do so before the end of the season.",
+                "link": "Start Here"
             }
         }
     },
@@ -2299,7 +2385,8 @@
                     "avatar": "アバター",
                     "edit": "編集",
                     "logout": "ログアウト",
-                    "settings": ""
+                    "settings": "",
+                    "badges": "Badges"
                 },
                 "profile": {
                     "sandAmount": "あなたのSAND",
@@ -3328,7 +3415,8 @@
             "logout": "ログアウト",
             "settings": "設定",
             "claim": "クレーム",
-            "bridge": "Bridge"
+            "bridge": "Bridge",
+            "badges": "Badges"
         },
         "profile": {
             "sandAmount": "あなたの",
@@ -4081,7 +4169,22 @@
         "tag-new": "NEW",
         "tagNew": "NEW",
         "signinWithEmail": "Sign in with email",
-        "venlyDowntimeAlert": "Venly services will experience downtime between Monday 13, June from 03:00 UTC to 05:00 UTC."
+        "venlyDowntimeAlert": "Venly services will experience downtime between Monday 13, June from 03:00 UTC to 05:00 UTC.",
+        "badges": {
+            "title": "Badges",
+            "note": "Get the badges by achieving different goals during the season. Don’t miss any, they can give you raffle tickets to have more chances to win an Alpha Pass in the next season!",
+            "nftNote": "Badges are not NFTs and cannot be traded",
+            "obtained": "Obtained",
+            "missed": "Missed",
+            "noBadge": "Select a Badge to preview",
+            "noDates": "No Dates",
+            "category": {
+                "1": "Alpha Season 1",
+                "2": "Alpha Season 2",
+                "3": "Alpha Season 3",
+                "4": "Collector"
+            }
+        }
     },
     "moderator": {
         "title": "モデレーター",
