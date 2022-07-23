@@ -610,7 +610,9 @@
             "joinDiscord": "加入Discord",
             "raffle": {
                 "noWinner": "YOU DIDN'T WIN",
-                "noWinnerDesc": "Better luck the next time! You didn't win an Alpha S3"
+                "noWinnerDesc": "Better luck the next time! You didn't win an Alpha S3",
+                "winner": "",
+                "winnerDesc": ""
             }
         },
         "pass": {
@@ -806,7 +808,15 @@
                 "landTooltipDesc": "每一个你拥有的土地得到40张额外的抽奖票。当抽奖活动开始时（3月31日），你需要拥有钱包中的NFT。200 Raffle Tickets maximum.",
                 "feedbackTooltipDesc": "如果你回答了第一季的反馈表,你会得到10张额外的抽奖票.此表格现已关闭。这是我们感谢我们的社区参与阿尔法第一季的方式。记住在第二季结束时填写反馈表!",
                 "snoop3": "Doggie Avatar",
-                "snoop3TooltipDesc": "通过拥有DoggieAvatarNFT获得100张额外的抽奖门票。当抽奖活动开始时（3月31日），你需要在你的钱包里拥有NFT"
+                "snoop3TooltipDesc": "通过拥有DoggieAvatarNFT获得100张额外的抽奖门票。当抽奖活动开始时（3月31日），你需要在你的钱包里拥有NFT",
+                "season2Feedback": "Season 2 Feedback form",
+                "season2FeedbackEarned": "Earned by answering the feedback form at the end of Season 2",
+                "season2": "Season 2 Alpha Pass",
+                "alpha2TooltipDesc": "",
+                "s2-memorabiliaTooltipDesc": "",
+                "belonging-memorabiliaTooltipDesc": "",
+                "challengesTooltipDesc": "",
+                "referralTooltipDesc": ""
             },
             "downloadAlpha": "下载Alpha",
             "ethosPointsEarned": "Ethos Point earned",
@@ -1560,6 +1570,39 @@
                 "collectorOwner": "NFT Collector Owner",
                 "goClaim": "Go to Claim",
                 "goBadges": "Go to Badges"
+            },
+            "tickets": {
+                "enterMetaverse": "Enter the Metaverse",
+                "needToLogin": "You need to be logged in to see your Tickets",
+                "ticketsTitle": "Raffle Tickets Sources",
+                "ticketsDescription": "More Tickets more chance to win a Season 3 Alpha Pass.",
+                "ticketsDescription2": "Raffle Tickets are not NFTs and cannot be traded on the secondary market.",
+                "totalRaffleTickets": "TOTAL RAFFLE TICKETS",
+                "quest": "By leveling up",
+                "staking": "By Staking",
+                "s1Memorabilia": "Season 1 Memorabilia",
+                "s2Memorabilia": "Season 2 Memorabilia",
+                "s1MemorabiliaDesc": "By reached level 5 of Season 1",
+                "s2MemorabiliaDesc": "By reached level 5 of Season 2",
+                "s1Alpha": "Season 1 Alpha Pass",
+                "s2Alpha": "Season 2 Alpha Pass",
+                "owningNFT": "By owning this NFT",
+                "prideMemorabilia": "Week Memorabilia",
+                "prideDescription": "By participating to all the contests during the Belonging Week",
+                "feedbackForm": "Season 2 Feedback Form",
+                "feedbackDescription": "By Answered S2 feedback form",
+                "challenges": "Challenges",
+                "challengesDescription": "1 Daily Challenge = 5 Raffle Tickets",
+                "referral": "Friend Referral",
+                "referralDescription": "1 Friend Referral = 25 Raffle Tickets",
+                "playNow": "Play now",
+                "stakeNow": "Stake now",
+                "missed": "Missed",
+                "owned": "Owned",
+                "seeBadges": "See my Badges",
+                "seeContest": "See all Contest",
+                "seeReferrals": "See my Referrals",
+                "buyAtOpensea": "Buy at Opensea"
             }
         },
         "leaderboard": {
@@ -9276,7 +9319,8 @@
             "inProgress": "In Progress",
             "verified": "Verified",
             "rejected": "Rejected",
-            "cancelled": "Cancelled"
+            "cancelled": "Cancelled",
+            "waitingVerification": "In Progress"
         },
         "admin": {
             "search": {
@@ -9296,9 +9340,9 @@
         "bar": {
             "explanation": "Remember to validate your identity. You will not be able to claim the rewards if you do not do so before the end of the season.",
             "actions": {
-                "start": "",
-                "continue": "",
-                "check": ""
+                "start": "Start Here",
+                "continue": "Continue Here",
+                "check": "Check Here"
             }
         }
     }
