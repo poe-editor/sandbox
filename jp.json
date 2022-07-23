@@ -610,7 +610,9 @@
             "joinDiscord": "Discordに参加する",
             "raffle": {
                 "noWinner": "YOU DIDN'T WIN",
-                "noWinnerDesc": "Better luck the next time! You didn't win an Alpha S3"
+                "noWinnerDesc": "Better luck the next time! You didn't win an Alpha S3",
+                "winner": "",
+                "winnerDesc": ""
             }
         },
         "pass": {
@@ -806,7 +808,15 @@
                 "landTooltipDesc": "LAND1台につき40枚のラッフルチケットを追加でプレゼント。ラッフル開始時（3月31日）に財布の中にあるNFTを所有している必要があります。抽選券は最大200枚です。",
                 "feedbackTooltipDesc": "シーズン1のフィードバックフォームに回答すると、ラッフルチケット10枚が追加でもらえます。このフォームは現在閉鎖されています。アルファ版シーズン1へのご参加ありがとうございました。シーズン2終了後も、フィードバックフォームへの記入をお忘れなく。",
                 "snoop3": "Doggie Avatar",
-                "snoop3TooltipDesc": "Doggie Avatar NFTを所有することで、抽選券を100枚追加で入手することができます。抽選会開始時（3月31日）に財布の中にあるNFTを所有する必要があります。"
+                "snoop3TooltipDesc": "Doggie Avatar NFTを所有することで、抽選券を100枚追加で入手することができます。抽選会開始時（3月31日）に財布の中にあるNFTを所有する必要があります。",
+                "season2Feedback": "Season 2 Feedback form",
+                "season2FeedbackEarned": "Earned by answering the feedback form at the end of Season 2",
+                "season2": "Season 2 Alpha Pass",
+                "alpha2TooltipDesc": "",
+                "s2-memorabiliaTooltipDesc": "",
+                "belonging-memorabiliaTooltipDesc": "",
+                "challengesTooltipDesc": "",
+                "referralTooltipDesc": ""
             },
             "downloadAlpha": "アルファ版をダウンロード",
             "ethosPointsEarned": "Ethos Point earned",
@@ -1560,6 +1570,39 @@
                 "collectorOwner": "NFT Collector Owner",
                 "goClaim": "Go to Claim",
                 "goBadges": "Go to Badges"
+            },
+            "tickets": {
+                "enterMetaverse": "Enter the Metaverse",
+                "needToLogin": "You need to be logged in to see your Tickets",
+                "ticketsTitle": "Raffle Tickets Sources",
+                "ticketsDescription": "More Tickets more chance to win a Season 3 Alpha Pass.",
+                "ticketsDescription2": "Raffle Tickets are not NFTs and cannot be traded on the secondary market.",
+                "totalRaffleTickets": "TOTAL RAFFLE TICKETS",
+                "quest": "By leveling up",
+                "staking": "By Staking",
+                "s1Memorabilia": "Season 1 Memorabilia",
+                "s2Memorabilia": "Season 2 Memorabilia",
+                "s1MemorabiliaDesc": "By reached level 5 of Season 1",
+                "s2MemorabiliaDesc": "By reached level 5 of Season 2",
+                "s1Alpha": "Season 1 Alpha Pass",
+                "s2Alpha": "Season 2 Alpha Pass",
+                "owningNFT": "By owning this NFT",
+                "prideMemorabilia": "Week Memorabilia",
+                "prideDescription": "By participating to all the contests during the Belonging Week",
+                "feedbackForm": "Season 2 Feedback Form",
+                "feedbackDescription": "By Answered S2 feedback form",
+                "challenges": "Challenges",
+                "challengesDescription": "1 Daily Challenge = 5 Raffle Tickets",
+                "referral": "Friend Referral",
+                "referralDescription": "1 Friend Referral = 25 Raffle Tickets",
+                "playNow": "Play now",
+                "stakeNow": "Stake now",
+                "missed": "Missed",
+                "owned": "Owned",
+                "seeBadges": "See my Badges",
+                "seeContest": "See all Contest",
+                "seeReferrals": "See my Referrals",
+                "buyAtOpensea": "Buy at Opensea"
             }
         },
         "leaderboard": {
@@ -9276,7 +9319,8 @@
             "inProgress": "In Progress",
             "verified": "Verified",
             "rejected": "Rejected",
-            "cancelled": "Cancelled"
+            "cancelled": "Cancelled",
+            "waitingVerification": "In Progress"
         },
         "admin": {
             "search": {
@@ -9296,9 +9340,9 @@
         "bar": {
             "explanation": "Remember to validate your identity. You will not be able to claim the rewards if you do not do so before the end of the season.",
             "actions": {
-                "start": "",
-                "continue": "",
-                "check": ""
+                "start": "Start Here",
+                "continue": "Continue Here",
+                "check": "Check Here"
             }
         }
     }
