@@ -463,7 +463,7 @@
         "aoki": {
             "title": "Mint your Steve Aoki Avatar",
             "description": "Get your unique Steve Aoki avatar for The Sandbox Today and enter the metaverse.",
-            "button": "Get Aoki avatar",
+            "button": "Mint now",
             "button2": "Create Free Avatar",
             "disabled": "*Minting starts on July 25"
         },
@@ -1985,7 +1985,8 @@
         "creator": {
             "title": "tarafından oluşturuldu",
             "nft": "İçerik oluşturucudan NFT",
-            "more": "Daha fazla gör"
+            "more": "Daha fazla gör",
+            "creatorSoldout": ""
         },
         "create": {
             "title": "Varlık Oluşturma",
@@ -4003,7 +4004,19 @@
                 "password-changed": "Hesap şifreniz başarı ile değiştirilmiştir.",
                 "bannerText": "Add a banner image",
                 "bannerSize": "Optimal dimensions 2000x330",
-                "bannerLength": "Banner picture name is more than 200 characters long (including file extension)"
+                "bannerLength": "Banner picture name is more than 200 characters long (including file extension)",
+                "profileUpdated": "",
+                "passwordChanged": "",
+                "emailSub": "",
+                "emailInvalid": "",
+                "emailSubNote": "",
+                "emailNote": "",
+                "oldEmailSub": "",
+                "newEmailSub": "",
+                "infoNote": "",
+                "usernameInvalid": "",
+                "socialNote": "",
+                "genericError": ""
             },
             "security": {
                 "title": "Güvenlik ve Şifre",
@@ -4059,7 +4072,42 @@
                     "note": "A security code has been sent to",
                     "check-spam": "You have not received the email? Check your spam folder",
                     "confirm": "Confirm",
-                    "resend": "Resend code"
+                    "resend": "Resend code",
+                    "checkSpam": ""
+                },
+                "checkNote": "",
+                "passForgot": "",
+                "passwordSection": {
+                    "title": "",
+                    "newPassword": "",
+                    "repeatPassword": "",
+                    "noMatch": "",
+                    "match": "",
+                    "validation": "",
+                    "save": "",
+                    "success": "",
+                    "months": {
+                        "0": "",
+                        "1": "",
+                        "2": "",
+                        "3": "",
+                        "4": "",
+                        "5": "",
+                        "6": "",
+                        "7": "",
+                        "8": "",
+                        "9": "",
+                        "10": "",
+                        "11": ""
+                    },
+                    "modificated": "",
+                    "notModified": "",
+                    "oldPassNote": ""
+                },
+                "emailSection": {
+                    "title": "",
+                    "note": "",
+                    "currentEmail": ""
                 }
             },
             "chainSettings": {
