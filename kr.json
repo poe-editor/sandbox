@@ -463,7 +463,7 @@
         "aoki": {
             "title": "스티브 아오키 아바타 민팅하기",
             "description": "나만의 스티브 아오키 아바타를 획득하고 메타버스에 함께하세요!",
-            "button": "Mint now",
+            "button": "지금 민팅하기",
             "button2": "무료 아바타 생성하기",
             "disabled": "* 7월 25일에 민팅이 시작됩니다"
         },
@@ -1986,7 +1986,7 @@
             "title": "크리에이터:",
             "nft": "크리에이터의 NFT",
             "more": "더 보기",
-            "creatorSoldout": ""
+            "creatorSoldout": "크리에이터 세일 매진"
         },
         "create": {
             "title": "애셋 창작",
@@ -2462,11 +2462,11 @@
                         "emailIsIncorrect": "이메일이 잘못되었습니다.",
                         "emailAlreadyInUse": "이미 사용 중인 이메일입니다.",
                         "emailsDoNotMatch": "이메일이 일치하지 않습니다.",
-                        "oldPasswordIsRequired": "이전 비밀번호가 필요합니다.",
-                        "oldPaswordDoesNotMatch": "이전 비밀번호가 일치하지 않습니다.",
-                        "newPasswordIsRequired": "새로운 비밀번호가 필요합니다.",
-                        "newPasswordTooShort": "새로운 비밀번호가 너무 짧습니다.",
-                        "passwordDoNotMatch": "비밀번호가 일치하지 않습니다."
+                        "oldPasswordIsRequired": "이전 패스워드가 필요합니다.",
+                        "oldPaswordDoesNotMatch": "이전 패스워드가 일치하지 않습니다.",
+                        "newPasswordIsRequired": "새로운 패스워드가 필요합니다.",
+                        "newPasswordTooShort": "새로운 패스워드가 너무 짧습니다.",
+                        "passwordDoNotMatch": "패스워드가 일치하지 않습니다."
                     },
                     "edit": {
                         "editTitle": "프로필 편집",
@@ -2474,9 +2474,9 @@
                         "description": "説明",
                         "email": "이메일 주소",
                         "newEmail": "새 이메일 주소 확인",
-                        "oldPassword": "이전 비밀번호 입력",
-                        "newPassword": "새 비밀번호 입력",
-                        "repeatPassword": "새 비밀번호 재입력",
+                        "oldPassword": "以前のパスワードを入力",
+                        "newPassword": "新しいパスワードを入力",
+                        "repeatPassword": "ここに新しいパスワードを再入力",
                         "buttonText": "보내기",
                         "validated": "사용자 정보가 수정되었습니다."
                     }
@@ -2560,38 +2560,38 @@
                 "signinModal": {
                     "title": "로그인",
                     "description": "마켓플레이스에 업로드하려면 로그인한 상태여야 합니다.",
-                    "forgotPassword": "비밀번호를 잊었습니다",
+                    "forgotPassword": "패스워드를 잊었습니다",
                     "buttonText": "로그인",
                     "withWallet": "지갑으로 로그인할 수도 있습니다.",
                     "walletButtonText": "지갑으로 로그인",
                     "placeholders": {
                         "usernameOrEmail": "유저네임 또는 이메일",
-                        "password": "비밀번호"
+                        "password": "패스워드"
                     },
                     "errors": {
                         "usernameEmailMissing": "유저네임/이메일이 없습니다",
-                        "passwordMissing": "비밀번호가 없습니다",
-                        "userPasswordMismatches": "유저네임 또는 비밀번호가 일치하지 않습니다"
+                        "passwordMissing": "패스워드가 없습니다",
+                        "userPasswordMismatches": "유저네임 또는 패스워드가 일치하지 않습니다"
                     }
                 },
                 "forgotModal": {
-                    "title": "비밀번호 찾기",
+                    "title": "패스워드 찾기",
                     "emailOrUsername": "이메일 또는 유저네임",
                     "recover": "찾기",
                     "sent": "이메일 주소로 이메일을 전송했습니다",
-                    "emailTo": "비밀번호 변경 이메일을",
+                    "emailTo": "패스워드 변경 이메일을",
                     "changeAfterEmail": "주소로 전송했습니다.",
                     "errors": {
                         "emailUsernameIsRequired": "이메일 또는 유저네임은 필수 항목입니다"
                     }
                 },
                 "changePasswordModal": {
-                    "title": "비밀번호 변경",
-                    "new": "새로운 비밀번호를 입력하세요",
-                    "confirm": "새로운 비밀번호를 한 번 더 입력하세요",
+                    "title": "패스워드 변경",
+                    "new": "새로운 패스워드를 입력하세요",
+                    "confirm": "새로운 패스워드를 한 번 더 입력하세요",
                     "placeholders": {
-                        "new": "여기에 새로운 비밀번호를 입력하세요",
-                        "confirm": "새로운 비밀번호를 한 번 더 입력하세요"
+                        "new": "여기에 새로운 패스워드를 입력하세요",
+                        "confirm": "새로운 패스워드를 한 번 더 입력하세요"
                     },
                     "strength": {
                         "weak": "강도 낮음",
@@ -2599,9 +2599,9 @@
                         "good": "강도 좋음"
                     },
                     "errors": {
-                        "newPasswordIsRequired": "새로운 비밀번호가 필요합니다",
-                        "newPasswordTooShort": "새로운 비밀번호가 너무 짧습니다",
-                        "passwordDoNotMatch": "새로운 비밀번호가 일치하지 않습니다"
+                        "newPasswordIsRequired": "새로운 패스워드가 필요합니다",
+                        "newPasswordTooShort": "새로운 패스워드가 너무 짧습니다",
+                        "passwordDoNotMatch": "새로운 패스워드가 일치하지 않습니다"
                     }
                 },
                 "claims": {
@@ -2734,13 +2734,13 @@
                 },
                 "signupPasswordModal": {
                     "title": "마지막 단계입니다!",
-                    "description": "게임 메이커에서 사용할 비밀번호를 설정하세요",
-                    "password": "비밀번호",
-                    "repeatPassword": "비밀번호 다시 입력",
+                    "description": "게임 메이커에서 사용할 패스워드를 설정하세요",
+                    "password": "패스워드",
+                    "repeatPassword": "패스워드 다시 입력",
                     "errors": {
-                        "newPasswordIsRequired": "새로운 비밀번호가 필요합니다.",
-                        "newPasswordTooShort": "새로운 비밀번호가 너무 짧습니다.",
-                        "passwordDoNotMatch": "비밀번호가 일치하지 않습니다."
+                        "newPasswordIsRequired": "새로운 패스워드가 필요합니다.",
+                        "newPasswordTooShort": "새로운 패스워드가 너무 짧습니다.",
+                        "passwordDoNotMatch": "패스워드가 일치하지 않습니다."
                     },
                     "completeSteps": "이 단계를 마치고 게임 메이커에 로그인하세요. 이 단계는",
                     "skip": "건너뛴 후",
@@ -3493,11 +3493,11 @@
                 "emailIsIncorrect": "이메일이 잘못되었습니다.",
                 "emailAlreadyInUse": "이미 사용 중인 이메일입니다.",
                 "emailsDoNotMatch": "이메일이 일치하지 않습니다.",
-                "oldPasswordIsRequired": "이전 비밀번호가 필요합니다.",
-                "oldPaswordDoesNotMatch": "이전 비밀번호가 일치하지 않습니다.",
-                "newPasswordIsRequired": "새로운 비밀번호가 필요합니다.",
-                "newPasswordTooShort": "새로운 비밀번호가 너무 짧습니다.",
-                "passwordDoNotMatch": "비밀번호가 일치하지 않습니다.",
+                "oldPasswordIsRequired": "이전 패스워드가 필요합니다.",
+                "oldPaswordDoesNotMatch": "이전 패스워드가 일치하지 않습니다.",
+                "newPasswordIsRequired": "새로운 패스워드가 필요합니다.",
+                "newPasswordTooShort": "새로운 패스워드가 너무 짧습니다.",
+                "passwordDoNotMatch": "패스워드가 일치하지 않습니다.",
                 "errorAvatarImageSize": "파일 크기 초과입니다. 더 작은 크기의 파일을 사용해 주세요.",
                 "errorAvatarImageType": "지원되는 파일 확장자 형식이 아닙니다. jpg, png, 또는 jpeg 형식을 사용해 주세요.",
                 "errorBannerImageSize": "파일 사이즈가 초과되었습니다 (최대 크기: 2 Mb)."
@@ -3507,10 +3507,10 @@
                 "title": "제목",
                 "description": "설명",
                 "email": "이메일",
-                "newEmail": "새로운 이메일",
-                "oldPassword": "이전 비밀번호",
-                "newPassword": "새 비밀번호",
-                "repeatPassword": "비밀번호 다시 입력",
+                "newEmail": "새 이메일",
+                "oldPassword": "이전 패스워드",
+                "newPassword": "새로운 패스워드",
+                "repeatPassword": "패스워드 다시 입력",
                 "buttonText": "적용",
                 "validated": "프로필이 변경되었습니다"
             },
@@ -3872,38 +3872,38 @@
         "signinModal": {
             "title": "로그인",
             "description": "마켓플레이스에 업로드하려면 로그인한 상태여야 합니다.",
-            "forgotPassword": "비밀번호를 잊었습니다",
+            "forgotPassword": "패스워드를 잊었습니다",
             "buttonText": "로그인",
             "withWallet": "지갑으로 로그인할 수도 있습니다.",
             "walletButtonText": "지갑으로 로그인",
             "placeholders": {
                 "usernameOrEmail": "유저네임 또는 이메일",
-                "password": "비밀번호"
+                "password": "패스워드"
             },
             "errors": {
-                "titwordMismatches": "유저네임 또는 비밀번호가 일치하지 않습니다",
-                "userPasswordMismatches": "유저네임 또는 비밀번호가 일치하지 않습니다",
+                "titwordMismatches": "유저네임 또는 패스워드가 일치하지 않습니다",
+                "userPasswordMismatches": "유저네임 또는 패스워드가 일치하지 않습니다",
                 "venlyConnectionError": "문제가 발생했습니다. 브라우저에서 팝업창을 허용했는지 확인 후, 페이지를 새로고침한 뒤 다시 시도해 보세요."
             }
         },
         "forgotModal": {
-            "title": "비밀번호 찾기",
+            "title": "패스워드 찾기",
             "emailOrUsername": "이메일 또는 유저네임",
             "recover": "찾기",
             "sent": "이메일 주소로 이메일을 전송했습니다",
-            "emailTo": "비밀번호 변경 이메일을",
+            "emailTo": "패스워드 변경 이메일을",
             "changeAfterEmail": "주소로 전송했습니다.",
             "errors": {
                 "emailUsernameIsRequired": "이메일 또는 유저네임은 필수 항목입니다"
             }
         },
         "changePasswordModal": {
-            "title": "비밀번호 변경",
-            "new": "새로운 비밀번호를 입력하세요",
-            "confirm": "새로운 비밀번호를 한 번 더 입력하세요",
+            "title": "패스워드 변경",
+            "new": "새로운 패스워드를 입력하세요",
+            "confirm": "새로운 패스워드를 한 번 더 입력하세요",
             "placeholders": {
-                "new": "여기에 새로운 비밀번호를 입력하세요",
-                "confirm": "새로운 비밀번호를 한 번 더 입력하세요"
+                "new": "여기에 새로운 패스워드를 입력하세요",
+                "confirm": "새로운 패스워드를 한 번 더 입력하세요"
             },
             "strength": {
                 "weak": "강도 낮음",
@@ -3911,9 +3911,9 @@
                 "good": "강도 좋음"
             },
             "errors": {
-                "newPasswordIsRequired": "새로운 비밀번호가 필요합니다",
-                "newPasswordTooShort": "새로운 비밀번호가 너무 짧습니다",
-                "passwordDoNotMatch": "새로운 비밀번호가 일치하지 않습니다"
+                "newPasswordIsRequired": "새로운 패스워드가 필요합니다",
+                "newPasswordTooShort": "새로운 패스워드가 너무 짧습니다",
+                "passwordDoNotMatch": "새로운 패스워드가 일치하지 않습니다"
             }
         },
         "metamaskWalletModal": {
@@ -3934,13 +3934,13 @@
         },
         "signupPasswordModal": {
             "title": "마지막 단계입니다!",
-            "description": "게임 메이커에서 사용할 비밀번호를 설정하세요",
-            "password": "비밀번호",
-            "repeatPassword": "비밀번호 다시 입력",
+            "description": "게임 메이커에서 사용할 패스워드를 설정하세요",
+            "password": "패스워드",
+            "repeatPassword": "패스워드 다시 입력",
             "errors": {
-                "newPasswordIsRequired": "새로운 비밀번호가 필요합니다.",
-                "newPasswordTooShort": "새로운 비밀번호가 너무 짧습니다.",
-                "passwordDoNotMatch": "비밀번호가 일치하지 않습니다."
+                "newPasswordIsRequired": "새로운 패스워드가 필요합니다.",
+                "newPasswordTooShort": "새로운 패스워드가 너무 짧습니다.",
+                "passwordDoNotMatch": "패스워드가 일치하지 않습니다."
             },
             "completeSteps": "이 단계를 마치고 게임 메이커에 로그인하세요. 이 단계는",
             "skip": "건너뛴 후",
@@ -3982,8 +3982,8 @@
                 "username": "유저네임",
                 "desc": "설명",
                 "social": "소셜 미디어",
-                "social-note": "소셜 미디어 계정을 연결하여 다른 사람과 만날 수 있습니다. 다른 사람이 프로필과 맵을 통해 나에게 연락할 수 있게 하려면 아래의 정보를 입력하세요.",
-                "email-invalid": "이메일 형식이 잘못됨",
+                "social-note": "소셜 미디어 계정을 연결하여 다른 유저들과 소통하세요",
+                "email-invalid": "유효하지 않은 이메일 형식",
                 "oldEmail-sub": "기존 이메일",
                 "submitEmail": "이메일 변경",
                 "websiteUrl": "개인 웹",
@@ -4005,41 +4005,41 @@
                 "bannerText": "배너 이미지 추가",
                 "bannerSize": "최적 크기 2000x330",
                 "bannerLength": "배너 사진의 이름은 최소 200자 이상입니다 (파일 확장자명 포함).",
-                "profileUpdated": "",
-                "passwordChanged": "",
-                "emailSub": "",
-                "emailInvalid": "",
-                "emailSubNote": "",
-                "emailNote": "",
-                "oldEmailSub": "",
-                "newEmailSub": "",
-                "infoNote": "",
-                "usernameInvalid": "",
-                "socialNote": "",
-                "genericError": ""
+                "profileUpdated": "프로필이 업데이트되었습니다!",
+                "passwordChanged": "계정의 패스워드가 성공적으로 변경되었습니다.",
+                "emailSub": "이메일",
+                "emailInvalid": "유효하지 않은 이메일 형식",
+                "emailSubNote": "참고:",
+                "emailNote": "변경하려면 보안 코드를 인증해야 합니다.",
+                "oldEmailSub": "기존 이메일",
+                "newEmailSub": "새 이메일",
+                "infoNote": "이름을 추가하고 유저네임을 변경하고 멋진 설명을 덧붙여 사람들에게 소개해 보세요.",
+                "usernameInvalid": "사용할 수 없는 유저네임",
+                "socialNote": "소셜 미디어 계정을 연결하여 다른 유저들과 소통하세요",
+                "genericError": "하나 이상의 오류가 발생했습니다."
             },
             "security": {
-                "title": "이메일 및 비밀번호",
-                "password-sub": "비밀번호",
-                "password-note": "보안을 위해 다른 온라인 계정에서는 사용하지 않는 새로운 비밀번호를 사용하는 것이 좋습니다.",
-                "old-password": "기존 비밀번호",
-                "new-password": "새 비밀번호",
-                "repeat-password": "비밀번호 다시 입력",
+                "title": "이메일 및 패스워드",
+                "password-sub": "패스워드",
+                "password-note": "보안을 위해 다른 온라인 계정에서는 사용하지 않는 새로운 패스워드를 사용하는 것이 좋습니다.",
+                "old-password": "기존 패스워드",
+                "new-password": "새로운 패스워드",
+                "repeat-password": "패스워드 다시 입력",
                 "sub": "계정 보안",
-                "note": "보안을 위해 다른 온라인 계정에서는 사용하지 않는 새로운 비밀번호를 사용하는 것이 좋습니다.",
+                "note": "보안을 위해 다른 온라인 계정에서는 사용하지 않는 새로운 패스워드를 사용하는 것이 좋습니다.",
                 "email": "이메일",
-                "password": "비밀번호",
+                "password": "패스워드",
                 "check": "보안 확인",
-                "check-note": "계속하려면 비밀번호를 입력하세요.",
+                "check-note": "계속하려면 패스워드를 입력하세요.",
                 "continue": "계속",
-                "pass-forgot": "비밀번호를 잊어버렸습니다.",
+                "pass-forgot": "패스워드를 잊어버렸습니다.",
                 "password-section": {
-                    "title": "비밀번호 수정",
-                    "new-password": "새 비밀번호",
-                    "repeat-password": "비밀번호 다시 입력",
-                    "no-match": "비밀번호가 일치하지 않습니다.",
-                    "match": "비밀번호가 일치합니다.",
-                    "validation": "비밀번호는 최소 1개의 대문자와 1개의 숫자를 포함한 8글자 이상이어야 합니다.",
+                    "title": "패스워드수정",
+                    "new-password": "새로운 패스워드",
+                    "repeat-password": "패스워드 다시 입력",
+                    "no-match": "패스워드가 일치하지 않습니다.",
+                    "match": "패스워드가 일치합니다.",
+                    "validation": "패스워드는 최소 1개의 대문자와 1개의 숫자를 포함하여 8글자 이상이어야 합니다.",
                     "save": "변경사항 저장",
                     "success": "성공적으로 변경되었습니다!",
                     "months": {
@@ -4059,7 +4059,7 @@
                     "modificated": "마지막 업데이트:",
                     "not-modificated": "아직 수정되지 않음",
                     "notModified": "아직 수정되지 않음",
-                    "oldPassNote": "(Do not complete this field if this account does not have a previously associated password)"
+                    "oldPassNote": "(해당 계정에 이전에 연결된 패스워드가 없을 경우 작성하지 않습니다)"
                 },
                 "email-section": {
                     "title": "이메일 수정",
@@ -4073,41 +4073,41 @@
                     "check-spam": "이메일을 받지 못했다면 스팸 메일함을 확인해 보세요.",
                     "confirm": "확인",
                     "resend": "코드 재전송",
-                    "checkSpam": ""
+                    "checkSpam": "이메일을 받지 못하셨을 경우, 스팸 메일함을 다시 한 번 확인해 주세요."
                 },
-                "checkNote": "",
-                "passForgot": "",
+                "checkNote": "계속하려면 패스워드를 입력하세요.",
+                "passForgot": "패스워드를 잊어버렸습니다.",
                 "passwordSection": {
-                    "title": "",
-                    "newPassword": "",
-                    "repeatPassword": "",
-                    "noMatch": "",
-                    "match": "",
-                    "validation": "",
-                    "save": "",
-                    "success": "",
+                    "title": "패스워드 수정",
+                    "newPassword": "새로운 패스워드",
+                    "repeatPassword": "패스워드 다시 입력",
+                    "noMatch": "패스워드가 일치하지 않음",
+                    "match": "패스워드가 일치함",
+                    "validation": "패스워드는 최소 1개의 대문자와 1개의 숫자를 포함하여 8글자 이상이어야 합니다.",
+                    "save": "변경사항 저장",
+                    "success": "성공적으로 변경되었습니다!",
                     "months": {
-                        "0": "",
-                        "1": "",
-                        "2": "",
-                        "3": "",
-                        "4": "",
-                        "5": "",
-                        "6": "",
-                        "7": "",
-                        "8": "",
-                        "9": "",
-                        "10": "",
-                        "11": ""
+                        "0": "1월",
+                        "1": "2월",
+                        "2": "3월",
+                        "3": "4월",
+                        "4": "5월",
+                        "5": "6월",
+                        "6": "7월",
+                        "7": "8월",
+                        "8": "9월",
+                        "9": "10월",
+                        "10": "11월",
+                        "11": "12월"
                     },
-                    "modificated": "",
-                    "notModified": "",
-                    "oldPassNote": ""
+                    "modificated": "마지막 업데이트:",
+                    "notModified": "아직 수정되지 않음",
+                    "oldPassNote": "(해당 계정에 이전에 연결된 패스워드가 없을 경우 작성하지 않습니다)"
                 },
                 "emailSection": {
-                    "title": "",
-                    "note": "",
-                    "currentEmail": ""
+                    "title": "이메일 수정",
+                    "note": "보안을 위해 새로운 이메일 주소로 전송된 코드를 확인해 주세요.",
+                    "currentEmail": "현재 이메일:"
                 }
             },
             "chainSettings": {
@@ -4590,7 +4590,7 @@
         "errorUsername1": "유저네임이 너무 짧습니다. 3자 이상이어야 합니다.",
         "errorUsername2": "유저네임은 영문 알파벳과 숫자로 구성해야 합니다.",
         "errorUsername3": "유저네임은 필수 항목입니다. 비워둘 수 없습니다.",
-        "confirmPass": "비밀번호 확인",
+        "confirmPass": "패스워드 확인",
         "title3": "좋습니다! 준비가 끝났습니다!",
         "text3": "더 샌드박스 메타버스에 참여하여 게임을 플레이, 창작, 공유하고 수익도 올려보세요!"
     },
@@ -4733,7 +4733,7 @@
         "land": "LAND",
         "website": "웹사이트",
         "noWebsite": "이 사용자는 웹사이트가 없습니다",
-        "updatePwd": "비밀번호를 업데이트하세요",
+        "updatePwd": "패스워드를 업데이트하세요",
         "staking": {
             "title": "내 스테이킹",
             "polyWallet": "폴리곤 네트워크 L2",
@@ -6478,16 +6478,16 @@
         "signIn": {
             "createAccount": "계정 만들기",
             "usernameEmailMissing": "유저네임/이메일이 없습니다",
-            "passwordMissing": "비밀번호가 없습니다",
-            "userPasswordMismatches": "유저네임 또는 비밀번호가 일치하지 않습니다",
+            "passwordMissing": "패스워드가 없습니다",
+            "userPasswordMismatches": "유저네임 또는 패스워드가 일치하지 않습니다",
             "logWithWallet": "지갑으로 로그인",
             "walletIsNotAssociatedAnyUser": "지갑이 연결된 사용자가 없습니다",
             "signIn": "로그인",
             "title": "로그인",
             "subtitle": "마켓플레이스에 업로드하려면 로그인한 상태여야 합니다.",
             "placeholder1": "유저네임/이메일",
-            "placeholder2": "비밀번호",
-            "forgotPass": "비밀번호를 잊었습니다",
+            "placeholder2": "패스워드",
+            "forgotPass": "패스워드를 잊었습니다",
             "walletLoginMsg": "지갑으로 로그인할 수도 있습니다.",
             "walletDownloadMsg": "암호화폐 지갑을 만들려면",
             "walletDownloadMsgLink": "여기를 클릭하세요!",
