@@ -2049,7 +2049,7 @@
             "cartItem": {
                 "available": "Available"
             },
-            "totalOnNetwork1": "",
+            "totalOnNetwork1": "合計",
             "totalOnNetwork2": "ネットワークの合計"
         },
         "assets": {
@@ -9504,8 +9504,13 @@
         "noresult": {
             "title": "何も見つかりません",
             "message": "これらのフィルターを適用しているものは見つかりませんでした",
-            "button": "すべてクリア"
-        }
+            "button": "すべてクリア",
+            "message2": "これらのフィルターを適用しているものは見つかりませんでした"
+        },
+        "clean": "きれいなフィルター",
+        "appliedfilter": "適用されたフィルター",
+        "applyfilter": "フィルタを適用する",
+        "filters": "フィルタ"
     },
     "kyc": {
         "statuses": {
