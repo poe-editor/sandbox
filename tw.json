@@ -586,7 +586,8 @@
                 "signInPlay": "Sign in to play",
                 "collections": "More Collection details",
                 "feedback": "Feedback on your experience",
-                "noProgression": "No Alpha Progression"
+                "noProgression": "No Alpha Progression",
+                "creatorTooltip": "Contact creator"
             },
             "loading": {
                 "title": "《The Sandbox》正在載入中...",
@@ -1559,7 +1560,15 @@
                 "stakeDesc": "Stake {0} to help increase Alpha Pass rewards for everyone. {1}",
                 "upTo": "Up to +100%",
                 "stakeDesc2": "\"You will also get {0} for staking enough {1}. 1 point earned for each {2} staked during the whole season duration (10 weeks).",
-                "extraTickets": "500 extra Raffle Tickets"
+                "extraTickets": "500 extra Raffle Tickets",
+                "onlyVerifiedAccounts": "Only Verified Accounts can win the Raffle",
+                "claimRewards": "Claim Rewards!",
+                "alreadyOwnRaffle": "You already own an Alpha Pass! You will be able to claim your Alpha Pass rewards at the end of the season. No need to participate in the Raffle anymore.",
+                "getMore": "Get more",
+                "raffleResults": "TIME BEFORE RAFFLE",
+                "youAreLand": "You are a LAND Owner",
+                "youAreAvatar": "You are an Avatar Owner",
+                "youAreCollector": "You are an NFT Collector"
             },
             "summary": {
                 "rewardsSummary": "REWARDS SUMMARY",
@@ -1603,7 +1612,118 @@
                 "seeBadges": "See my Badges",
                 "seeContest": "See all Event",
                 "seeReferrals": "See my Referrals",
-                "buyAtOpensea": "Get on Opensea"
+                "buyAtOpensea": "Get on Opensea",
+                "stakingDesc": "By Staking"
+            },
+            "alphaSeason": "Alpha Season 3",
+            "shop": {
+                "nftShop": "NFT Shop",
+                "findAll": "Find all the NFTs you need to unlock the guaranteed rewards: LANDs, Avatars and AS3 NFT Collections",
+                "nft": "NFT",
+                "nftCollector": "{0}Collector Badge",
+                "youOwn": "You own the NFT Collector Badge.",
+                "doNotOwn": "Own at least 1 NFT from the AS3 NFT Collections to unlock.",
+                "keepIt": "Keep it until the end of the season to claim the NFT Collector Rewards.",
+                "needToLogin": "You need to be logged in to see your Badge status",
+                "signIn": "Sign in",
+                "seeRewards": "See Rewards",
+                "enter": "Enter",
+                "enterMetaverse": "{0} the Metaverse",
+                "owned": "Owned",
+                "showLess": "Show Less",
+                "seeMore": "See More",
+                "getNFT": "Get NFT",
+                "getMore": "Get More",
+                "externalNFT": "External NFT",
+                "internalNFT": "Internal TSB NFT",
+                "s3Collection": "Season 3 Collection",
+                "land": {
+                    "title": "Land",
+                    "ctaText": "Buy Land"
+                },
+                "nftAvatar": {
+                    "title": "NFT Avatar",
+                    "description": "Internal TSB NFTs and External NFTs"
+                },
+                "nftAsset": {
+                    "title": "NFT Asset",
+                    "description": "Internal TSB NFTs and External NFTs"
+                }
+            },
+            "info": {
+                "title": "Win the Season 3 Alpha Pass and earn up to 500 SAND Rewards",
+                "dateDesc1": "ALPHA SEASON 3 STARTS",
+                "dateDay1": "AUGUST 4",
+                "dateDesc2": "RAFFLE DAY/ SEASON END",
+                "dateDay2": "OCTOBER 12",
+                "findOut": "Find out what’s new for alpha season 3",
+                "alphaPass": "Season 3 Alpha Pass",
+                "howToGet": "HOW TO GET A SEASON 3 ALPHA PASS?",
+                "raffleDesc": "Participate in the Raffle at the end of Alpha Season 3, on October 13, 2022.",
+                "contestsDesc": "Participate in Alpha Season 3 social contests.",
+                "openseaDesc": "Anyone can buy a Season 3 Alpha Pass on Opensea, if someone is willing to sell it.",
+                "disclaimer": "Do not purchase an Alpha Pass after the end of Alpha Season 3 on October 12, 2022.",
+                "disclaimer2": "Be careful not to purchase a fake Season 3 Alpha Pass.",
+                "sandRewards": "SAND Rewards",
+                "earnUp": "Earn up to {0} rewards with the Season 3 Alpha Pass. {1}",
+                "seeRewards": "See Rewards",
+                "claimInfo": "The Season 3 Alpha Pass will be claimed on Ethereum Mainnet while the {0} reward will be claimed on Polygon Mainnet. {1}",
+                "learnMore": "Learn More",
+                "maxRewards": "Max. base rewards:",
+                "maxBoosted": "Max. boosted rewards:",
+                "landOwners": "LAND Owners:",
+                "avatarOwners": "Avatar Owners:",
+                "collectorOwners": "NFT Collection Owners:",
+                "guaranteedRewards": "These are guaranteed rewards that are separate from the Raffle.",
+                "stakingInfo": "Alpha Pass rewards will be doubled if the Community reaches the staking goal. {0}",
+                "boostRewards": "Boost Rewards",
+                "KYCInfo": "Your account must be validated to earn ANY of the Alpha Season 3 rewards. {0}",
+                "validateAccount": "Validate my account",
+                "raffleDate": "THE RAFFLE OCCURS ON OCTOBER 13, 2022.",
+                "earnRaffle": "Earn Raffle Tickets",
+                "raffleDescription": "{0} by earning EPs by completing Quests inside each experience on the {1}",
+                "alphaMap": "Alpha Map",
+                "moreChances": "= MORE CHANCES TO WIN A SEASON 3 ALPHA PASS",
+                "moreEp": "MORE EPs = MORE",
+                "canGetExtra": "YOU CAN GET EXTRA RAFFLE TICKETS BY:",
+                "participatedEvents": "If you participated in past The Sandbox events. {0}",
+                "viewBadges": "View Badges",
+                "participatedForm": "If you answered the Alpha Season 2 Feedback form.",
+                "participatedContests": "Participating in social challenges. {0}",
+                "viewContests": "View Contests Tab",
+                "questTitle": "EPs and Raffle Tickets",
+                "locateQuests": "LOCATE QUESTS",
+                "completeQuests": "COMPLETE QUESTS TO EARN EPS",
+                "completeDescription": "Complete the objective(s) described in the info panel on the right side of the screen. Earn EPs when the quest is completed.",
+                "levelUp": "LEVEL UP",
+                "earnRaffleTickets": "EARN RAFFLE TICKETS",
+                "canGetTickets": "You can get up to 500 extra Raffle Tickets by staking",
+                "stakingDescription": "The staking score of the whole community will be added together to create a Reward Community Booster that will increase the S3 Alpha Pass rewards for everyone.",
+                "stakingDescription2": "At its highest, the Reward Community Booster can DOUBLE the rewards (+100%).",
+                "participateSocial": "Participate in social events through the {0}",
+                "earnRaffleCompleting": "Earn Raffle Tickets every day by completing daily challenges.",
+                "getAChanceDate": "Get a chance to win a Season 3 Alpha Pass every Thursday.",
+                "getAChanceGiveaways": "Get a chance to win a Season 3 Alpha Pass during IP giveaways.",
+                "contestsTab": "Contests tab",
+                "disclaimerContests": "Please note that if you get a Season 3 Alpha Pass through social events you will no longer be eligible to receive one from the Raffle at the end of Alpha Season 3.",
+                "ugc": "UGC",
+                "ugcDescription": "Created by regular TSB users. They have the ownership and responsibility for their content. You might find a few bugs.",
+                "whatsNew": "What's New?",
+                "KYC": "KYC: Know Your Customer",
+                "KYCDescription": "Validate your account by verifying your identity. Everybody can play but only validated accounts can earn rewards. KYC is a crucial process to help us provide a safe and fair environment.",
+                "leaderboards": "Leaderboards",
+                "leaderboardsDescription": "The more Ethos Points (EPs) you earn the higher you will rank in the Leaderboard. The prize pool is 1.5 million SAND. First place gets 30,000 SAND!",
+                "seeLeaderboard": "See Leaderboard",
+                "polygon": "Polygon",
+                "polygonDescription": "Claiming of Alpha Season 3 rewards will occur on Polygon Mainnet. Gas fees will now be way lower!",
+                "EP": "EP stands for Ethos Points",
+                "EPDescription": "Completing quests inside the metaverse will now grant EPs. The harder the quest, the more EPs you will earn. Obtain EPs to level up and earn rewards.",
+                "play": "Play",
+                "events": "Events",
+                "eventsDescription": "Weekly timed events will happen in some of the experiences of the metaverse. Go back to previously visited experiences during those events to earn some new EPs.",
+                "seeEvents": "See Events",
+                "guaranteed": "Guaranteed Rewards",
+                "guaranteedDescription": "This season has guaranteed rewards for users who are LAND owners, Avatar owners and NFT collectors."
             }
         },
         "leaderboard": {
@@ -1625,7 +1745,8 @@
                     "Completition Time",
                     "Prizes"
                 ],
-                "warn": "Remember to validate your identity before the end of the Alpha Season 3. You need it to claim your rewards."
+                "warn": "Remember to validate your identity before the end of the Alpha Season 3. You need it to claim your rewards.",
+                "currentUser": "YOU"
             },
             "rewards": {
                 "title": "TOTAL REWARDS LEADERBOARD",
@@ -4279,7 +4400,8 @@
                 "2": "Alpha Season 2",
                 "3": "Alpha Season 3",
                 "4": "Collector"
-            }
+            },
+            "memorabilia": ""
         }
     },
     "moderator": {
@@ -4493,7 +4615,8 @@
         "selectAvatar": "選取你的虛擬人像",
         "infoTooltip": "每擁有一塊 LAND，即可額外獲得 1 張抽獎券",
         "helpUs": "幫助我們改善《The Sandbox》體驗！",
-        "readMore": ""
+        "readMore": "",
+        "exclusiveAvatar": "Get an exclusive NFT Avatar"
     },
     "experiencePage": {
         "progressSeason": "季度進度",
@@ -9579,6 +9702,11 @@
         "bar": {
             "explanation": "Remember to validate your identity. You will not be able to claim the rewards if you do not do so before the end of the season.",
             "actions": {
+                "start": "Start Here",
+                "continue": "Continue Here",
+                "check": "Check Here"
+            },
+            "ctas": {
                 "start": "Start Here",
                 "continue": "Continue Here",
                 "check": "Check Here"
