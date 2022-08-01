@@ -2049,7 +2049,7 @@
             "cartItem": {
                 "available": "Mevcut"
             },
-            "totalOnNetwork1": "",
+            "totalOnNetwork1": "Toplam",
             "totalOnNetwork2": "Ağındaki Toplam"
         },
         "assets": {
@@ -9504,8 +9504,13 @@
         "noresult": {
             "title": "Hiçbirşey Bulunamadı",
             "message": "Bu filtreyi uygulayan hiçbir şey bulamadık",
-            "button": "Hepsini temizle"
-        }
+            "button": "Hepsini temizle",
+            "message2": "Bu filtreleri uygulayan hiçbir şey bulamadık"
+        },
+        "clean": "Filtreleri Temizle",
+        "appliedfilter": "Uygulanan Filtreler",
+        "applyfilter": "Filtreleri Uygula",
+        "filters": "Filtreler"
     },
     "kyc": {
         "statuses": {
