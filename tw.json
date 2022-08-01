@@ -2049,7 +2049,7 @@
             "cartItem": {
                 "available": "Available"
             },
-            "totalOnNetwork1": "",
+            "totalOnNetwork1": "總計",
             "totalOnNetwork2": "网络上的总数"
         },
         "assets": {
@@ -9503,8 +9503,13 @@
         "noresult": {
             "title": "什麼都沒找到",
             "message": "我們找不到任何應用這些過濾器的東西",
-            "button": "全部清除"
-        }
+            "button": "全部清除",
+            "message2": "我們找不到任何應用這些過濾器的東西"
+        },
+        "clean": "清潔過濾器",
+        "appliedfilter": "應用過濾器",
+        "applyfilter": "應用過濾器",
+        "filters": "過濾器"
     },
     "kyc": {
         "statuses": {
