@@ -5413,13 +5413,27 @@
     },
     "privacyPolicy": {
         "title": "TSB GAMING PRIVACY POLICY",
-        "text1": "TSB Gaming Limited and its affiliates (“TSB,” “we,” or “us”) want you to be familiar with how we collect, use and disclose information. This Privacy Policy describes our practices in connection with information that we collect through:",
-        "text2": "Websites operated by us from which you are accessing this Privacy Policy (the “Websites”);",
+        "text1": {
+            "mainText": "TSB Gaming Limited and its affiliates (“{0},” “{1},” or “{2}”) want you to be familiar with how we collect, use and disclose information. This Privacy Policy describes our practices in connection with information that we collect through:",
+            "0": "TSB",
+            "1": "we",
+            "2": "us"
+        },
+        "text2": {
+            "mainText": "Websites operated by us from which you are accessing this Privacy Policy (the “{0}”);",
+            "0": "Websites"
+        },
         "text3": "HTML-formatted email messages that we send to you that link to this Privacy Policy or other communications with you; and",
         "text4": "Offline business interactions you have with us.",
-        "text5": "Collectively, we refer to the Websites, emails, and offline business interactions as the “Services.”",
+        "text5": {
+            "mainText": "Collectively, we refer to the Websites, emails, and offline business interactions as the “{0}.”",
+            "0": "Services"
+        },
         "text6": "PERSONAL INFORMATION",
-        "text7": "“Personal Information” is information that identifies you as an individual or relates to an identifiable individual.  The Services collect Personal Information, including:",
+        "text7": {
+            "mainText": "“{0}” is information that identifies you as an individual or relates to an identifiable individual. The Services collect Personal Information, including:",
+            "0": "Personal Information"
+        },
         "text8": "Name",
         "text9": "Email address",
         "text10": "Username and password",
@@ -5493,7 +5507,10 @@
         "text77": "In connection with a sale or business transaction.",
         "text78": "We have a legitimate interest in disclosing or transferring your Personal Information to a third party in the event of any reorganization, merger, sale, joint venture, assignment, transfer, or other disposition of all or any portion of our business, assets, or stock (including in connection with any bankruptcy or similar proceedings).",
         "text79": "OTHER INFORMATION",
-        "text80": "“Other Information” is any information that does not reveal your specific identity or does not directly relate to an identifiable individual. The Services collect Other Information such as:",
+        "text80": {
+            "mainText": "“{0}” is any information that does not reveal your specific identity or does not directly relate to an identifiable individual. The Services collect Other Information such as:",
+            "0": "Other Information"
+        },
         "text81": "Browser and device information",
         "text82": "Information collected through cookies, pixel tags and other technologies",
         "text83": "Demographic information and other information provided by you that does not reveal your specific identity",
@@ -5507,7 +5524,10 @@
         "text90part2": ". If, however, you do not accept cookies, you may experience some inconvenience in your use of the Services.  You also may not receive advertising or other offers from us that are relevant to your interests and needs.",
         "text91": "Pixel tags and other similar technologies.",
         "text92": "Pixel tags (also known as web beacons and clear GIFs) may be used to, among other things, track the actions of users of the Services (including email recipients), measure the success of our marketing campaigns, and compile statistics about usage of the Services and response rates.",
-        "text93": "Analytics. We use third party analytics service providers, including Google Analytics, which use cookies and similar technologies to collect and analyze information about use of the Services and report on activities and trends.  These analytics services may also collect information regarding the use of other websites, apps and online resources.  You can learn about Google’s practices by going to ",
+        "text93": {
+            "mainText": "{0}. We use third party analytics service providers, including Google Analytics, which use cookies and similar technologies to collect and analyze information about use of the Services and report on activities and trends.  These analytics services may also collect information regarding the use of other websites, apps and online resources.  You can learn about Google’s practices by going to ",
+            "0": "Analytics"
+        },
         "text93part2": ", and exercise the opt-out provided by Google by downloading the Google Analytics opt-out browser add-on, available at ",
         "text94": "Uses and Disclosures of Other Information",
         "text95": "We may use and disclose Other Information for any purpose, except where we are required to do otherwise under applicable law.  If we are required to treat Other Information as Personal Information under applicable law, we may use and disclose it for the purposes for which we use and disclose Personal Information as detailed in this Policy.  In some instances, we may combine Other Information with Personal Information.  If we do, we will treat the combined information as Personal Information as long as it is combined.",
@@ -5515,7 +5535,7 @@
         "text97": "We seek to use reasonable organizational, technical and administrative measures to protect Personal Information within our organization.  Unfortunately, no data transmission or storage system can be guaranteed to be 100% secure.  If you have reason to believe that your interaction with us is no longer secure, please immediately notify us in accordance with the “Contacting Us” section below.",
         "text98": "CHOICES AND ACCESS",
         "text99": "Your choices regarding our use and disclosure of your Personal Information",
-        "text100": "Your choices regarding our use and disclosure of your Personal Information",
+        "text100": "We give you choices regarding our use and disclosure of your Personal Information for marketing purposes.  If you no longer want to receive marketing related emails from us on a going-forward basis, you may opt out by clicking the unsubscribe link in such email.",
         "text101": "We will try to comply with your request(s) as soon as reasonably practicable.  Please note that if you opt out of receiving marketing related emails from us, we may still send you important administrative messages, from which you cannot opt out.",
         "text102": "How you can access, change, or delete your Personal Information",
         "text103": "If you would like to request to access, correct, update, suppress, restrict, or delete Personal Information, object to or opt out of the processing of Personal Information, or if you would like to request to receive a copy of your Personal Information for purposes of transmitting it to another company (to the extent these rights are provided to you by applicable law), you may contact us in accordance with the “Contacting Us” section below.  We will respond to your request consistent with applicable law.  In your request, please make clear what Personal Information you would like to have changed or whether you would like to have your Personal Information suppressed from our database.  For your protection, we may only implement requests with respect to the Personal Information associated with the particular email address that you use to send us your request, and we may need to verify your identity before implementing your request.  We will try to comply with your request as soon as reasonably practicable.",
@@ -5546,22 +5566,43 @@
         "text127": "You may lodge a complaint with a data protection authority for your country or region where you have your habitual residence or place of work or where an alleged infringement of applicable data protection law occurs. A list of European Economic Area (EEA) data protection authorities is available here: ",
         "text127part2": ".  Information regarding the UK data protection authority is available here:",
         "text128": "ADDITIONAL INFORMATION REGARDING CALIFORNIA ",
-        "text129": "Pursuant to the California Consumer Privacy Act of 2018 (“CCPA”), we are providing the following additional details regarding the categories of Personal Information that we collect, use, and disclose about California residents. This section does not apply to our job applicants, employees, contractors, owners, directors, or officers where the Personal Information we collect about those individuals relates to their current, former, or potential role with us.",
+        "text129": {
+            "mainText": "Pursuant to the California Consumer Privacy Act of 2018 (“{0}”), we are providing the following additional details regarding the categories of Personal Information that we collect, use, and disclose about California residents. This section does not apply to our job applicants, employees, contractors, owners, directors, or officers where the Personal Information we collect about those individuals relates to their current, former, or potential role with us.",
+            "0": "CCPA"
+        },
         "text130": "Collection and Disclosure of Personal Information",
         "text131": "The following chart details which categories of Personal Information about California residents we plan to collect, as well as which categories of Personal Information we have collected and disclosed for our operational business purposes in the preceding 12 months.",
         "text132": "Categories of Personal Information",
         "text133": "Disclosed to Which Categories of Third Parties for Operational Business Purposes",
-        "text134": "Identifiers, such as username, contact information, IP address and other online identifiers",
+        "text134": {
+            "mainText": "{0}, such as username, contact information, IP address and other online identifiers",
+            "0": "Identifiers"
+        },
         "text135": "Affiliates; service providers; business partners; joint marketing partners; contest sponsors; legal authorities",
-        "text136": "Personal information as defined in the California customer records law, such as name and contact information",
+        "text136": {
+            "mainText": "{0}, such as name and contact information",
+            "0": "Personal information as defined in the California customer records law"
+        },
         "text137": "Affiliates; service providers; business partners; joint marketing partners; contest sponsors; legal authorities",
-        "text138": "Commercial Information, such as transaction information and purchase history",
+        "text138": {
+            "mainText": "{0}, such as transaction information and purchase history",
+            "0": "Commercial Information"
+        },
         "text139": "Affiliates; service providers; business partners; joint marketing partners; contest sponsors; legal authorities",
-        "text140": "Internet or network activity information, such as interactions with our online properties",
+        "text140": {
+            "mainText": "{0}, such as interactions with our online properties",
+            "0": "Internet or network activity information"
+        },
         "text141": "Affiliates; service providers; business partners; joint marketing partners; contest sponsors; legal authorities",
-        "text142": "Geolocation Data, such as approximate location derived from IP address",
+        "text142": {
+            "mainText": "{0}, such as approximate location derived from IP address",
+            "0": "Geolocation Data"
+        },
         "text143": "Affiliates; service providers; business partners; joint marketing partners; contest sponsors; legal authorities",
-        "text144": "Audio/Video Data. Audio, electronic, and similar information",
+        "text144": {
+            "mainText": "{0}. Audio, electronic, and similar information",
+            "0": "Audio/Video Data"
+        },
         "text145": "Affiliates; service providers; business partners; joint marketing partners; contest sponsors; legal authorities",
         "text146": "We do not “sell” and have not “sold” Personal Information for purposes of the CCPA in the last 12 months.  For example, and without limiting the foregoing, we do not sell the Personal Information of minors under 16 years of age.",
         "text147": "Sources of Personal Information ",
