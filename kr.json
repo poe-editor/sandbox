@@ -1730,7 +1730,7 @@
             "head": {
                 "date": "알파 시즌 3",
                 "title": "리더보드",
-                "description": "Earn Ethos Points (EP) in the fastest time to rank higher in the leaderboard and earn up to 30K SAND!\\nEquipment NFTs will help you complete quests faster."
+                "description": "Earn Ethos Points (EP) in the fastest time to rank higher in the leaderboard and earn up to 30K SAND! Equipment NFTs will help you complete quests faster."
             },
             "table": {
                 "description": {
@@ -9675,30 +9675,73 @@
     },
     "kyc": {
         "statuses": {
-            "unverified": "인증되지 않음",
-            "inProgress": "진행 중",
-            "verified": "인증됨",
-            "rejected": "거부됨",
-            "cancelled": "취소됨",
-            "waitingVerification": "진행 중"
+            "unverified": {
+                "label": "Not Verified",
+                "description": "As much as we love robots, we want the Metaverse to be full of humans. Your account needs to be verified to join some activities such as the LAND Sale Raffle or claiming Season rewards. This is one of the many measures we are taking to prevent bots, cheaters and bad actors exploiting our ecosystem.",
+                "extra": "After completing this process, account verification might take up to 48hs. Make sure you verify on time so you don't miss any activity.",
+                "cta": "Start Verification",
+                "date": "on {0} UTC"
+            },
+            "inProgress": {
+                "label": "ID Document Required",
+                "description": "(Action Required) Upload an ID document to continue your account verification and be able to join some activities such as the LAND Sale Raffle or claiming Season rewards. After completing this process, account verification might take up to 48hs. Make sure you verify on time so you don't miss any activity.",
+                "extra": "",
+                "cta": "Continue Verification",
+                "date": "on {0} UTC"
+            },
+            "verified": {
+                "label": "Verified",
+                "description": "You have successfully verified your account! You can now claim rewards and participate in our Seasons and LAND sale raffles. ",
+                "extra": "",
+                "cta": "Start Verification",
+                "date": "on {0} UTC"
+            },
+            "rejected": {
+                "label": "Rejected",
+                "description": "Your account verification has been rejected. If you have any questions please contact us at support@sandbox.game",
+                "extra": "",
+                "cta": "Start Verification",
+                "date": "on {0} UTC"
+            },
+            "cancelled": {
+                "label": "Cancelled",
+                "description": "",
+                "extra": "",
+                "cta": "Start Verification",
+                "date": "on {0} UTC"
+            },
+            "waitingVerification": {
+                "label": "Pending Review",
+                "description": "We've received your account verification request, this process might take up to 48hs.",
+                "extra": "",
+                "cta": "Check Verification Status",
+                "date": "on {0} UTC"
+            },
+            "actionRequired": {
+                "label": "ID Document Rejected",
+                "description": "(Action Required) Your ID document was rejected. Please make sure that the document is readable and fully visible edge to edge. Avoid reflections and dark photos. For better success, we recommend that you use your passport.",
+                "extra": "After completing this process, account verification might take up to 48hs. Make sure you verify on time so you don't miss any activity.",
+                "cta": "Upload ID document",
+                "date": "on {0} UTC"
+            }
         },
         "admin": {
             "search": {
-                "placeholder": "유저 ID를 입력하고 엔터키를 누릅니다"
+                "placeholder": "Type the User ID and press enter"
             },
             "modals": {
                 "update": {
-                    "title": "인증 업데이트하기",
-                    "text": "유저 인증 업데이트를 진행하시겠습니까?"
+                    "title": "Update Verification",
+                    "text": "Are you sure that you want to update the user verification?"
                 },
                 "cancel": {
-                    "title": "인증 취소하기",
-                    "text": "유저 인증을 취소하시겠습니까?"
+                    "title": "Cancel Verification",
+                    "text": "Are you sure that you want to cancel the user verification?"
                 }
             }
         },
         "bar": {
-            "explanation": "신원 확인을 잊지 마세요. 시즌이 종료되기 전에 신원 확인을 완료하지 않으면 리워드를 받을 수 없습니다.",
+            "explanation": "Remember to complete the Account Validation before the end of the season. You will need it to claim your rewards.",
             "actions": {
                 "start": "여기서 시작",
                 "continue": "여기서 계속",
