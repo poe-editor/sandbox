@@ -584,7 +584,7 @@
                 "rate": "경험 평가하기",
                 "epEarned": "EP 획득",
                 "signInPlay": "플레이하려면 로그인하세요",
-                "collections": "컬렉션 세부 사항 더 보기",
+                "collections": "NFT Collection",
                 "feedback": "경험에 피드백 남기기",
                 "noProgression": "알파 진행 상황 없음",
                 "creatorTooltip": "콘텐츠 크리에이터"
@@ -1619,11 +1619,11 @@
             "alphaSeason": "알파 시즌 3",
             "shop": {
                 "nftShop": "NFT 마켓",
-                "findAll": "Find all the NFTs you need to unlock the guaranteed rewards: LANDs, Avatars and AS3 NFT Collections",
+                "findAll": "확정 리워드 잠금을 해제하는데 필요한 모든 NFT (LAND, 아바타, 시즌 3 NFT 컬렉션)를 찾아보세요.",
                 "nft": "NFT",
                 "nftCollector": "{0}컬렉터 배지",
                 "youOwn": "NFT 컬렉터 배지를 보유하고 있습니다.",
-                "doNotOwn": "Own at least 1 NFT from the AS3 NFT Collections to unlock.",
+                "doNotOwn": "잠금을 해제하려면 알파 시즌 3 NFT 컬렉션 중 최소 1개의 NFT를 보유하세요.",
                 "keepIt": "NFT 컬렉터 리워드를 청구하려면 시즌 종료까지 해당 배지를 보유하세요.",
                 "needToLogin": "배지 현황을 확인하려면 로그인이 필요합니다.",
                 "signIn": "로그인",
@@ -1676,9 +1676,9 @@
                 "avatarOwners": "아바타 보유자:",
                 "collectorOwners": "NFT 컬렉션 보유자:",
                 "guaranteedRewards": "이는 추첨과는 무관한 확정 리워드입니다.",
-                "stakingInfo": "Alpha Pass rewards will be doubled if the Community reaches the staking goal. {0}",
+                "stakingInfo": "커뮤니티가 스테이킹 목표에 도달할 경우 알파 패스 리워드는 두 배가 됩니다. {0}",
                 "boostRewards": "리워드 부스트",
-                "KYCInfo": "Your account must be validated to earn ANY of the Alpha Season 3 rewards. {0}",
+                "KYCInfo": "모든 종류의 알파 시즌 3 리워드를 획득하기 위해서는 계정을 인증해야 합니다. {0}",
                 "validateAccount": "내 계정 인증하기",
                 "raffleDate": "추첨은 2022년 10월 13일에 진행됩니다.",
                 "earnRaffle": "추첨 티켓 획득하기",
@@ -1693,7 +1693,7 @@
                 "participatedContests": "소셜 챌린지에 참여함. {0}",
                 "viewContests": "콘테스트 탭 보기",
                 "questTitle": "EP 및 추첨 티켓",
-                "locateQuests": "LOCATE QUESTS",
+                "locateQuests": "퀘스트 찾기",
                 "completeQuests": "퀘스트를 완료하여 EP 획득",
                 "completeDescription": "화면 우측의 정보 패널에 표시된 퀘스트 목표를 달성하세요. 완료하면 에토스 포인트를 획득할 수 있습니다.",
                 "levelUp": "레벨 업",
@@ -1710,7 +1710,7 @@
                 "ugc": "UGC",
                 "ugcDescription": "일반 TSB 유저가 제작했으며, 제작자에게 콘텐츠에 대한 소유권과 책임이 있습니다. 일부 버그가 발생할 수 있습니다.",
                 "whatsNew": "새 소식",
-                "KYC": "KYC: Know Your Customer",
+                "KYC": "KYC: Know Your Customer(고객 확인 절차)",
                 "KYCDescription": "본인 확인을 통해 계정을 인증합니다. 누구나 더 샌드박스 경험을 플레이할 수 있지만 인증된 계정만 리워드를 획득할 수 있습니다. KYC는 모든 유저에게 안전하고 공정성 있는 환경을 제공하기 위한 매우 중요한 절차입니다.",
                 "leaderboards": "리더보드",
                 "leaderboardsDescription": "에토스 포인트(EP)를 많이 획득할수록 리더보드에서 더 높은 순위를 기록할 수 있습니다. 총 상금 풀은 150만 SAND이며 1위를 차지한 플레이어에게는 30,000 SAND의 보상이 주어집니다!",
@@ -1721,7 +1721,7 @@
                 "EPDescription": "메타버스 속 퀘스트를 완료하면 EP가 주어집니다. 퀘스트가 어려울수록 더 많은 EP를 획득할 수 있습니다. EP를 획득하여 레벨업하고 리워드를 받으세요.",
                 "play": "플레이",
                 "events": "이벤트",
-                "eventsDescription": "Weekly timed events will happen in some of the experiences of the metaverse. Go back to previously visited experiences during those events to earn some new EPs.",
+                "eventsDescription": "메타버스 내 일부 경험에서 시간 제한이 있는 주간 이벤트가 진행됩니다. 이벤트 기간 중 이전에 방문했던 경험으로 돌아가 새로운 EP를 획득해 보세요.",
                 "seeEvents": "이벤트 보기",
                 "guaranteed": "확정 리워드",
                 "guaranteedDescription": "이번 시즌에는 LAND 보유자, 아바타 보유자, NFT 컬렉터인 유저들에게 확정 리워드가 주어집니다."
@@ -3387,7 +3387,7 @@
                 }
             },
             "sandbox": {
-                "title": "'더 샌드박스'(SAND)란?",
+                "title": "더 샌드박스란?",
                 "text1": "더 샌드박스는 플레이어가 게임 경험을 만들고 플레이하고 소유하고 이더리움 블록체인에서 더 샌드박스 플랫폼의 유틸리티 토큰인 SAND로 수익화할 수 있는 가상 메타버스입니다. 플레이어는 NFT(대체 불가 토큰)의 형태로 디지털 애셋을 만든 후 마켓플레이스에 업로드하고 게임 메이커로 게임에 디지털 애셋을 사용할 수 있습니다.",
                 "text2": "LAND란 더 샌드박스 메타버스에서 플레이어가 구매하여 경험을 만들 때 사용하는 디지털 부동산입니다. LAND를 소유한 플레이어는 그 위에 게임과 애셋을 채울 수 있습니다. 여러 LAND를 결합하면 이스테이트가 됩니다.",
                 "text3": "이용 가능한 LAND는 총 166,464개이며, 더 샌드박스 메타버스를 이루는 맵 안에 들어 있습니다.",
@@ -9681,49 +9681,49 @@
                 "description": "자동화된 로봇이 우리 삶에서 빼놓을 수 없는 요소가 되긴 했지만, 더 샌드박스는 메타버스가 다양한 실제 사람들로 채워지기를 바랍니다. LAND 세일 추첨 또는 시즌 리워드 청구 등의 활동에 참여하려면 계정 인증이 필요합니다. 이는 더 샌드박스 생태계 시스템을 악용하는 봇이나 부정행위자, 그리고 악의적인 유저들을 방지하기 위한 조치입니다.",
                 "extra": "이 단계를 완료하면 계정 인증에 최대 48시간이 소요될 수 있습니다. 반드시 정해진 기간 안에 계정 인증을 완료하고 여러 활동에 참여할 수 있도록 하십시오.",
                 "cta": "인증 시작하기",
-                "date": "on {0} UTC"
+                "date": "일시: {0} UTC"
             },
             "inProgress": {
                 "label": "ID 문서 필요",
                 "description": "(조치 필요) ID 문서를 업로드하고 계정 인증을 진행하여 LAND 세일 추첨 또는 시즌 리워드 청구 등의 활동에 참여하세요. 이 단계를 완료하면 계정 인증에 최대 48시간이 소요될 수 있습니다. 반드시 정해진 기간 안에 계정 인증을 완료하고 여러 활동에 참여할 수 있도록 하십시오.",
                 "extra": "추가",
                 "cta": "인증 계속하기",
-                "date": "on {0} UTC"
+                "date": "일시: {0} UTC"
             },
             "verified": {
                 "label": "인증됨",
                 "description": "계정 인증에 성공했습니다! 이제 리워드를 청구하고 시즌 및 LAND 세일 추첨에 참여할 수 있습니다.",
-                "extra": "추가",
+                "extra": "Need help? Check the {0} to learn more about the Account Verification process.",
                 "cta": "인증 시작하기",
-                "date": "on {0} UTC"
+                "date": "일시: {0} UTC"
             },
             "rejected": {
                 "label": "거절됨",
                 "description": "계정 인증이 거절되었습니다. 도움이 필요하다면 support@sandbox.game으로 문의해 주세요.",
                 "extra": "추가",
                 "cta": "인증 시작하기",
-                "date": "on {0} UTC"
+                "date": "일시: {0} UTC"
             },
             "cancelled": {
                 "label": "취소됨",
                 "description": "설명",
                 "extra": "추가",
                 "cta": "인증 시작하기",
-                "date": "on {0} UTC"
+                "date": "일시: {0} UTC"
             },
             "waitingVerification": {
                 "label": "리뷰 보류 중",
                 "description": "계정 인증 요청이 접수되었습니다. 최대 48시간이 소요될 수 있습니다.",
                 "extra": "추가",
                 "cta": "인증 현황 확인하기",
-                "date": "on {0} UTC"
+                "date": "일시: {0} UTC"
             },
             "actionRequired": {
                 "label": "ID 문서 거절됨",
                 "description": "(조치 필요) ID 문서가 거절되었습니다. 읽을 수 있는 문서이며 가장자리까지 완전히 보이는지 확인해 주세요. 빛이 반사되거나 너무 어두울 경우 확인되지 않았을 수 있습니다. 더 확실한 신원 확인을 위해 여권 사용을 권장합니다.",
                 "extra": "이 단계를 완료하면 계정 인증에 최대 48시간이 소요될 수 있습니다. 반드시 정해진 기간 안에 계정 인증을 완료하고 여러 활동에 참여할 수 있도록 하십시오.",
                 "cta": "ID 문서 업로드",
-                "date": "on {0} UTC"
+                "date": "일시: {0} UTC"
             }
         },
         "admin": {
