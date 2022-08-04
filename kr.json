@@ -3939,9 +3939,15 @@
                 "editButton": "아바타 편집"
             },
             "noNfts": {
-                "title": "이런!",
-                "description1": "외부 아바타가 없어요",
-                "description2": "직접 만들어 보세요"
+                "title": "Ups!",
+                "description1": "You don't have external avatars",
+                "description2": {
+                    "0": ""
+                },
+                "descriptionFirstLine": "You can create your own free avatar or",
+                "descriptionSecondLine": "buy one and get {rewards}",
+                "rewards": "extra rewards!",
+                "createButton": "Browse External Avatars"
             },
             "notWhitelisted": {
                 "title": "이런!",
