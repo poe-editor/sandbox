@@ -3939,9 +3939,15 @@
                 "editButton": "编辑人物造型"
             },
             "noNfts": {
-                "title": "啊哦！",
-                "description1": "你没有外部人物造型",
-                "description2": "但你可以创建一个属于自己的人物造型"
+                "title": "Ups!",
+                "description1": "You don't have external avatars",
+                "description2": {
+                    "0": ""
+                },
+                "descriptionFirstLine": "You can create your own free avatar or",
+                "descriptionSecondLine": "buy one and get {rewards}",
+                "rewards": "extra rewards!",
+                "createButton": "Browse External Avatars"
             },
             "notWhitelisted": {
                 "title": "啊哦！",
