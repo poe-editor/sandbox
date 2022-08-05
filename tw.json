@@ -9688,28 +9688,32 @@
                 "description": "As much as we love robots, we want the Metaverse to be full of humans. Your account needs to be verified to join some activities such as the LAND Sale Raffle or claiming Season rewards. This is one of the many measures we are taking to prevent bots, cheaters and bad actors exploiting our ecosystem.",
                 "extra": "After completing this process, account verification might take up to 48hs. Make sure you verify on time so you don't miss any activity.",
                 "cta": "Start Verification",
-                "date": "on {0} UTC"
+                "date": "on {0} UTC",
+                "needHelp": ""
             },
             "inProgress": {
                 "label": "ID Document Required",
                 "description": "(Action Required) Upload an ID document to continue your account verification and be able to join some activities such as the LAND Sale Raffle or claiming Season rewards. After completing this process, account verification might take up to 48hs. Make sure you verify on time so you don't miss any activity.",
-                "extra": "",
+                "extra": "After completing this process, account verification might take up to 48hs. Make sure you verify on time so you don't miss any activity.",
                 "cta": "Continue Verification",
-                "date": "on {0} UTC"
+                "date": "on {0} UTC",
+                "needHelp": ""
             },
             "verified": {
                 "label": "Verified",
                 "description": "You have successfully verified your account! You can now claim rewards and participate in our Seasons and LAND sale raffles. ",
                 "extra": "Need help? Check the {0} to learn more about the Account Verification process.",
                 "cta": "Start Verification",
-                "date": "on {0} UTC"
+                "date": "on {0} UTC",
+                "needHelp": ""
             },
             "rejected": {
                 "label": "Rejected",
                 "description": "Your account verification has been rejected. If you have any questions please contact us at support@sandbox.game",
                 "extra": "",
                 "cta": "Start Verification",
-                "date": "on {0} UTC"
+                "date": "on {0} UTC",
+                "needHelp": ""
             },
             "cancelled": {
                 "label": "Cancelled",
@@ -9723,14 +9727,16 @@
                 "description": "We've received your account verification request, this process might take up to 48hs.",
                 "extra": "",
                 "cta": "Check Verification Status",
-                "date": "on {0} UTC"
+                "date": "on {0} UTC",
+                "needHelp": ""
             },
             "actionRequired": {
                 "label": "ID Document Rejected",
                 "description": "(Action Required) Your ID document was rejected. Please make sure that the document is readable and fully visible edge to edge. Avoid reflections and dark photos. For better success, we recommend that you use your passport.",
                 "extra": "After completing this process, account verification might take up to 48hs. Make sure you verify on time so you don't miss any activity.",
                 "cta": "Upload ID document",
-                "date": "on {0} UTC"
+                "date": "on {0} UTC",
+                "needHelp": ""
             }
         },
         "admin": {
