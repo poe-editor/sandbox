@@ -9686,28 +9686,32 @@
                 "description": "자동화된 로봇이 우리 삶에서 빼놓을 수 없는 요소가 되긴 했지만, 더 샌드박스는 메타버스가 다양한 실제 사람들로 채워지기를 바랍니다. LAND 세일 추첨 또는 시즌 리워드 청구 등의 활동에 참여하려면 계정 인증이 필요합니다. 이는 더 샌드박스 생태계 시스템을 악용하는 봇이나 부정행위자, 그리고 악의적인 유저들을 방지하기 위한 조치입니다.",
                 "extra": "이 단계를 완료하면 계정 인증에 최대 48시간이 소요될 수 있습니다. 반드시 정해진 기간 안에 계정 인증을 완료하고 여러 활동에 참여할 수 있도록 하십시오.",
                 "cta": "인증 시작하기",
-                "date": "일시: {0} UTC"
+                "date": "일시: {0} UTC",
+                "needHelp": "Need help? Check the {0} to learn more about the Account Verification process."
             },
             "inProgress": {
                 "label": "ID 문서 필요",
                 "description": "(조치 필요) ID 문서를 업로드하고 계정 인증을 진행하여 LAND 세일 추첨 또는 시즌 리워드 청구 등의 활동에 참여하세요. 이 단계를 완료하면 계정 인증에 최대 48시간이 소요될 수 있습니다. 반드시 정해진 기간 안에 계정 인증을 완료하고 여러 활동에 참여할 수 있도록 하십시오.",
-                "extra": "추가",
+                "extra": "After completing this process, account verification might take up to 48hs. Make sure you verify on time so you don't miss any activity.",
                 "cta": "인증 계속하기",
-                "date": "일시: {0} UTC"
+                "date": "일시: {0} UTC",
+                "needHelp": "Need help? Check the {0} to learn more about the Account Verification process."
             },
             "verified": {
                 "label": "인증됨",
                 "description": "계정 인증에 성공했습니다! 이제 리워드를 청구하고 시즌 및 LAND 세일 추첨에 참여할 수 있습니다.",
                 "extra": "Need help? Check the {0} to learn more about the Account Verification process.",
                 "cta": "인증 시작하기",
-                "date": "일시: {0} UTC"
+                "date": "일시: {0} UTC",
+                "needHelp": "Need help? Check the {0} to learn more about the Account Verification process."
             },
             "rejected": {
                 "label": "거절됨",
                 "description": "계정 인증이 거절되었습니다. 도움이 필요하다면 support@sandbox.game으로 문의해 주세요.",
                 "extra": "추가",
                 "cta": "인증 시작하기",
-                "date": "일시: {0} UTC"
+                "date": "일시: {0} UTC",
+                "needHelp": "Need help? Check the {0} to learn more about the Account Verification process."
             },
             "cancelled": {
                 "label": "취소됨",
@@ -9721,14 +9725,16 @@
                 "description": "계정 인증 요청이 접수되었습니다. 최대 48시간이 소요될 수 있습니다.",
                 "extra": "추가",
                 "cta": "인증 현황 확인하기",
-                "date": "일시: {0} UTC"
+                "date": "일시: {0} UTC",
+                "needHelp": "Need help? Check the {0} to learn more about the Account Verification process."
             },
             "actionRequired": {
                 "label": "ID 문서 거절됨",
                 "description": "(조치 필요) ID 문서가 거절되었습니다. 읽을 수 있는 문서이며 가장자리까지 완전히 보이는지 확인해 주세요. 빛이 반사되거나 너무 어두울 경우 확인되지 않았을 수 있습니다. 더 확실한 신원 확인을 위해 여권 사용을 권장합니다.",
                 "extra": "이 단계를 완료하면 계정 인증에 최대 48시간이 소요될 수 있습니다. 반드시 정해진 기간 안에 계정 인증을 완료하고 여러 활동에 참여할 수 있도록 하십시오.",
                 "cta": "ID 문서 업로드",
-                "date": "일시: {0} UTC"
+                "date": "일시: {0} UTC",
+                "needHelp": "Need help? Check the {0} to learn more about the Account Verification process."
             }
         },
         "admin": {
