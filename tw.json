@@ -9689,7 +9689,8 @@
                 "extra": "After completing this process, account verification might take up to 48hs. Make sure you verify on time so you don't miss any activity.",
                 "cta": "Start Verification",
                 "date": "on {0} UTC",
-                "needHelp": ""
+                "needHelp": "",
+                "actionReference": ""
             },
             "inProgress": {
                 "label": "ID Document Required",
@@ -9697,7 +9698,8 @@
                 "extra": "After completing this process, account verification might take up to 48hs. Make sure you verify on time so you don't miss any activity.",
                 "cta": "Continue Verification",
                 "date": "on {0} UTC",
-                "needHelp": ""
+                "needHelp": "",
+                "actionReference": ""
             },
             "verified": {
                 "label": "Verified",
@@ -9705,7 +9707,8 @@
                 "extra": "Need help? Check the {0} to learn more about the Account Verification process.",
                 "cta": "Start Verification",
                 "date": "on {0} UTC",
-                "needHelp": ""
+                "needHelp": "",
+                "actionReference": ""
             },
             "rejected": {
                 "label": "Rejected",
@@ -9713,14 +9716,17 @@
                 "extra": "",
                 "cta": "Start Verification",
                 "date": "on {0} UTC",
-                "needHelp": ""
+                "needHelp": "",
+                "actionReference": ""
             },
             "cancelled": {
                 "label": "Cancelled",
                 "description": "",
                 "extra": "",
                 "cta": "Start Verification",
-                "date": "on {0} UTC"
+                "date": "on {0} UTC",
+                "actionReference": "",
+                "needHelp": ""
             },
             "waitingVerification": {
                 "label": "Pending Review",
@@ -9728,7 +9734,8 @@
                 "extra": "",
                 "cta": "Check Verification Status",
                 "date": "on {0} UTC",
-                "needHelp": ""
+                "needHelp": "",
+                "actionReference": ""
             },
             "actionRequired": {
                 "label": "ID Document Rejected",
@@ -9736,7 +9743,8 @@
                 "extra": "After completing this process, account verification might take up to 48hs. Make sure you verify on time so you don't miss any activity.",
                 "cta": "Upload ID document",
                 "date": "on {0} UTC",
-                "needHelp": ""
+                "needHelp": "",
+                "actionReference": ""
             }
         },
         "admin": {
