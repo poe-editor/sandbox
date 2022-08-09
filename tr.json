@@ -518,7 +518,7 @@
             "enter": "Alfa Lobiye Gir",
             "learnMore": "Alfa hakkında daha fazla bilgi",
             "legend": "Alfa hakkında soruların mı var?",
-            "sendFeedback": "Geribildirim gönder",
+            "sendFeedback": "Report bug",
             "alpha": {
                 "title": "TSB özel Alfa'sına hoş geldin!",
                 "description": "Metaverse yavaş yavaş kapılarını açıyor ve kullanıcılarımızın katkılarıyla bu dünyayı kriptonun merkezi yapmak bizim elimizde! Geri bildirim formunu doldurarak 1000 SAND kazanma şansı elde edebilirsiniz.Umarım keyifli bir zaman geçiriyorsunuzdur!",
@@ -1130,7 +1130,7 @@
                     "title": "进度",
                     "text1": "我在Alpha版本中应该怎样推进进度？我该如何达到5级？",
                     "description1": "你需要完成Alpha任务才能在Alpha版本中推进进度。进入除Alpha中心之外的任何体验内容，找到元宇宙向导。与向导对话即可领取一个Alpha任务。你可以根据他头顶的蓝色叹号轻松找到他。",
-                    "description2": "要想达到5级，你需要在游戏中完成足够多的Alpha任务。但请不要担心——这些任务非常简单，你只需探索游戏体验中的各个地点即可。",
+                    "description2": "5. seviyeyi tamamlamak için oyundaki yeterli Alpha Görevini tamamlamanız gerekecek. Ancak endişelenmeyin - bunlar çok kolaydır ve yalnızca deneyimdeki yerleri keşfetmenizi gerektirir.",
                     "text2": "我需要每天重复做同样的事情吗？",
                     "description3": "游戏中并无日常活动的要求。但只要你愿意，也可以一次性完成所有目标。"
                 },
@@ -1525,7 +1525,13 @@
                 "contest": "Contest",
                 "challenge": "Challenge",
                 "giveaway": "Giveaway",
-                "new": "New"
+                "new": "New",
+                "dailyChallenge": "Daily Challenge",
+                "dailyChallenges": "Daily Challenges",
+                "goToMap": "Go To Map",
+                "completed": "Completed",
+                "missed": "Missed",
+                "newThisWeek": "New This Week"
             },
             "rewards": {
                 "alphaSeason": "Alpha Season 3",
@@ -4405,7 +4411,8 @@
                 "1": "Alpha Season 1",
                 "2": "Alpha Season 2",
                 "3": "Alpha Season 3",
-                "4": "Collector"
+                "4": "Collector",
+                "5": "Belonging Week"
             },
             "memorabilia": ""
         }
