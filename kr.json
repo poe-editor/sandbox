@@ -518,7 +518,7 @@
             "enter": "알파 로비 입장하기",
             "learnMore": "알파 자세히 알아보기",
             "legend": "알파에 관해 도움이 필요하신가요?",
-            "sendFeedback": "피드백 보내기",
+            "sendFeedback": "Report bug",
             "alpha": {
                 "title": "TSB 내부 알파에 오신 것을 환영합니다!",
                 "description": "메타버스가 천천히 문을 열고 있습니다. 메타버스를 암호화폐가 통용되는 장소로 만드는 데 여러분의 도움이 필요합니다! 여기에서 피드백 양식을 작성해 주시면 1,000 SAND를 받으실 수 있습니다. 좋은 시간 되시길 바랍니다!",
@@ -1525,7 +1525,13 @@
                 "contest": "콘테스트",
                 "challenge": "챌린지",
                 "giveaway": "기브어웨이",
-                "new": "신규"
+                "new": "신규",
+                "dailyChallenge": "Daily Challenge",
+                "dailyChallenges": "Daily Challenges",
+                "goToMap": "Go To Map",
+                "completed": "Completed",
+                "missed": "Missed",
+                "newThisWeek": "New This Week"
             },
             "rewards": {
                 "alphaSeason": "알파 시즌 3",
@@ -1629,14 +1635,14 @@
                 "signIn": "로그인",
                 "seeRewards": "리워드 보기",
                 "enter": "Enter",
-                "enterMetaverse": "{0} the Metaverse",
+                "enterMetaverse": "{0} 메타버스",
                 "owned": "소유함",
                 "showLess": "최소화하기",
                 "seeMore": "더 보기",
                 "getNFT": "NFT 획득하기",
                 "getMore": "자세히 보기",
                 "externalNFT": "외부 NFT",
-                "internalNFT": "TSB NFT",
+                "internalNFT": "내부 TSB NFT",
                 "s3Collection": "시즌 3 컬렉션",
                 "land": {
                     "title": "LAND",
@@ -4405,7 +4411,8 @@
                 "1": "알파 시즌 1",
                 "2": "알파 시즌 2",
                 "3": "알파 시즌 3",
-                "4": "컬렉터"
+                "4": "컬렉터",
+                "5": ""
             },
             "memorabilia": "기념품"
         }
