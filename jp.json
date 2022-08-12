@@ -43,21 +43,21 @@
         "referred": "参照済み",
         "3d": {
             "preview": "プレビュー",
-            "view": "3D で表示",
-            "idle": "惰性",
-            "deathPose": "死亡停止",
+            "view": "3D表示",
+            "idle": "アイドル",
+            "deathPose": "死亡ポーズ",
             "eat": "食べる",
             "fly": "飛行",
             "take": "離陸",
             "glide": "滑空",
             "death": "死亡",
             "fall": "落下",
-            "hit": "ヒット",
+            "hit": "ヒットを受ける",
             "taunt": "挑発",
             "attack": "攻撃",
             "landing": "着陸",
             "skyAttack": "空中攻撃",
-            "idleFly": "惰性飛行",
+            "idleFly": "アイドル飛行",
             "walk": "歩く"
         },
         "gameExperiences": {
@@ -254,7 +254,7 @@
                 "buy": "Buy ETH on",
                 "out": "$SANDが不足",
                 "requiredAmount1": "必要なもの：",
-                "requiredAmount2": "トランザクションの完了向け",
+                "requiredAmount2": "トランザクションの完了に必要です。",
                 "titleStaking": "Get SAND",
                 "aboutBiconomy": "POLYGONネットワークに導入された新機能に関するThe Sandboxメタトランザクションです。これにより、トランザクションをラップすることができ、必要なトークンはmSANDのみとなります。",
                 "changeSettings": "チェーン設定"
@@ -342,8 +342,8 @@
             "subsidiary": "Subsidiary of"
         },
         "createAvatarModal": {
-            "title": "あなただけのLANDNFTを手に入れましょう",
-            "description": "OpenSeaにて、購入可能な様々なLANDやNFTを見てみましょう。",
+            "title": "LANDのNFTをゲットしよう",
+            "description": "OpenSeaにて、購入可能な様々なLANDやNFTを見てみよう。",
             "buttonText": "LANDを買う",
             "notAgain": "次からは表示しない"
         },
@@ -359,7 +359,7 @@
     "home": {
         "meta": {
             "title": "The Sandbox ゲーム - ユーザー制作による仮想通貨 & ブロックチェーンゲーム",
-            "description": "『The Sandbox』で、あなたの創造的自由をさらなる高みへと導きましょう。ブロックチェーンでボクセルアートを収益化しましょう！作成してプレイ！",
+            "description": "『The Sandbox』は制作が自由。ブロックチェーンでボクセルアートを収益化しませんか！",
             "keywords": "サンドボックス, ボクセルアート, 3Dボクセルゲーム, ボクセルアーティスト, 3DオンラインPCゲーム, コミュニティ, ブロックチェーン DAPP, PC用ボクセルゲーム, PCのボクセルアート, 分散型ゲーム",
             "og": {
                 "title": "プレイヤーが作り上げる分散型ゲームのメタバース",
@@ -2067,7 +2067,9 @@
         "filters": {
             "all": "すべて",
             "sale": "販売中",
-            "notSale": "非売品"
+            "notSale": "非売品",
+            "arts": "",
+            "equipment": ""
         },
         "sorts": {
             "title": "並べ替え",
@@ -2178,7 +2180,10 @@
                 "available": "Available"
             },
             "totalOnNetwork1": "合計",
-            "totalOnNetwork2": "ネットワークの合計"
+            "totalOnNetwork2": "ネットワークの合計",
+            "network": "",
+            "polygon": "",
+            "ethereum": ""
         },
         "assets": {
             "noGems": "このアセットにはジェムはありません",
@@ -5783,7 +5788,9 @@
         "banner": "バナー",
         "coverImage": "このコレクションのカバー画像をアップロードしてください。対応形式はPNGとJPGです。",
         "icon": "アイコン",
-        "iconImage": "このコレクションのアイコンをアップロードしてください。アイコンはマーケットプレイスのサイドバーに表示されます。対応形式はPNGです。"
+        "iconImage": "このコレクションのアイコンをアップロードしてください。アイコンはマーケットプレイスのサイドバーに表示されます。対応形式はPNGです。",
+        "logo": "",
+        "logoImage": ""
     },
     "staking": {
         "staking": "ステーキング",
@@ -9782,6 +9789,17 @@
                 "continue": "Continue Here",
                 "check": "Check Here"
             }
+        }
+    },
+    "backoffice": {
+        "collections": {
+            "isExternalCollection": "",
+            "errorURLMessage": "",
+            "errorcreateByURLMessage": "",
+            "errorPublicLinkMessage": "",
+            "createByName": "",
+            "createByUrl": "",
+            "publicLink": ""
         }
     }
 }
