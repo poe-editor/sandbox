@@ -2067,7 +2067,9 @@
         "filters": {
             "all": "Tümü",
             "sale": "Satılık",
-            "notSale": "Satılık değil"
+            "notSale": "Satılık değil",
+            "arts": "Art",
+            "equipment": "Equipments"
         },
         "sorts": {
             "title": "Sort by",
@@ -2178,7 +2180,10 @@
                 "available": "Mevcut"
             },
             "totalOnNetwork1": "Toplam",
-            "totalOnNetwork2": "Ağındaki Toplam"
+            "totalOnNetwork2": "Ağındaki Toplam",
+            "network": "Ağ",
+            "polygon": "Çokgen",
+            "ethereum": "Ethereum"
         },
         "assets": {
             "noGems": "Bu varlıkta hiç mücevher yok.",
@@ -5783,7 +5788,9 @@
         "banner": "Afiş",
         "coverImage": "Bu koleksiyon için bir kapak resmi yüklemelisiniz. Kabul edilen formatlar PNG ve JPG'dir.",
         "icon": "İkon",
-        "iconImage": "Bu koleksiyon için bir simge yüklemelisiniz. Bu, pazar yeri kenar çubuğunda görünecektir. Kabul edilen biçim PNG'dir."
+        "iconImage": "Bu koleksiyon için bir simge yüklemelisiniz. Bu, pazar yeri kenar çubuğunda görünecektir. Kabul edilen biçim PNG'dir.",
+        "logo": "",
+        "logoImage": "Bu koleksiyon için bir logo resmi yüklemelisiniz. Kabul edilen formatlar PNG, JPG ve GIF'dir. Önerilen boyut 168×168"
     },
     "staking": {
         "staking": "Staking",
@@ -9782,6 +9789,17 @@
                 "continue": "Continue Here",
                 "check": "Check Here"
             }
+        }
+    },
+    "backoffice": {
+        "collections": {
+            "isExternalCollection": "IS EXTERNAL COLLECTION",
+            "errorURLMessage": "URL incorrect format",
+            "errorcreateByURLMessage": "URL incorrect format",
+            "errorPublicLinkMessage": "URL incorrect format",
+            "createByName": "Create by name",
+            "createByUrl": "Created by URL",
+            "publicLink": "Public Link"
         }
     }
 }
