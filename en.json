@@ -2067,7 +2067,9 @@
         "filters": {
             "all": "All",
             "sale": "New Assets",
-            "notSale": "Not for sale"
+            "notSale": "Not for sale",
+            "arts": "Art",
+            "equipment": "Equipments"
         },
         "sorts": {
             "title": "Sort by",
@@ -2178,7 +2180,10 @@
                 "available": "Available"
             },
             "totalOnNetwork1": "Total on",
-            "totalOnNetwork2": "Network"
+            "totalOnNetwork2": "Network",
+            "network": "Network",
+            "polygon": "Polygon",
+            "ethereum": "Ethereum"
         },
         "assets": {
             "noGems": "This asset doesn't have any gems.",
@@ -5783,7 +5788,9 @@
         "banner": "Banner",
         "coverImage": "You should upload a cover image for this collection. The accepted formats are PNG and JPG.",
         "icon": "Icon",
-        "iconImage": "You should upload an icon for this collection. This will appear on the marketplace sidebar. The accepted format is PNG."
+        "iconImage": "You should upload an icon for this collection. This will appear on the marketplace sidebar. The accepted format is PNG.",
+        "logo": "Logo",
+        "logoImage": "You should upload a logo image for this collection. The accepted formats are PNG, JPG and GIF. Recommended size 168×168"
     },
     "staking": {
         "staking": "Staking",
@@ -9782,6 +9789,17 @@
                 "continue": "Continue Here",
                 "check": "Check Here"
             }
+        }
+    },
+    "backoffice": {
+        "collections": {
+            "isExternalCollection": "IS EXTERNAL COLLECTION",
+            "errorURLMessage": "URL incorrect format",
+            "errorcreateByURLMessage": "URL incorrect format",
+            "errorPublicLinkMessage": "URL incorrect format",
+            "createByName": "Create by name",
+            "createByUrl": "Created by URL",
+            "publicLink": "Public Link"
         }
     }
 }
