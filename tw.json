@@ -2067,7 +2067,9 @@
         "filters": {
             "all": "全部",
             "sale": "出售",
-            "notSale": "未出售"
+            "notSale": "未出售",
+            "arts": "Art",
+            "equipment": "Equipments"
         },
         "sorts": {
             "title": "排序依據",
@@ -2178,7 +2180,10 @@
                 "available": "Available"
             },
             "totalOnNetwork1": "總計",
-            "totalOnNetwork2": "网络上的总数"
+            "totalOnNetwork2": "网络上的总数",
+            "network": "网络",
+            "polygon": "多边形",
+            "ethereum": "以太坊"
         },
         "assets": {
             "noGems": "此 ASSET 沒有任何寶石。",
@@ -5783,7 +5788,9 @@
         "banner": "橫幅",
         "coverImage": "你應上傳此收藏的封面圖片。允許的格式為 PNG 和 JPG。",
         "icon": "圖示",
-        "iconImage": "你應上傳此收藏的圖示。這會顯示在市場側欄中。允許的格式為 PNG。"
+        "iconImage": "你應上傳此收藏的圖示。這會顯示在市場側欄中。允許的格式為 PNG。",
+        "logo": "",
+        "logoImage": "您應該為此集合上傳徽標圖像。 可接受的格式為 PNG、JPG 和 GIF。 推薦尺寸168×168"
     },
     "staking": {
         "staking": "質押",
@@ -9781,6 +9788,17 @@
                 "continue": "Continue Here",
                 "check": "Check Here"
             }
+        }
+    },
+    "backoffice": {
+        "collections": {
+            "isExternalCollection": "IS EXTERNAL COLLECTION",
+            "errorURLMessage": "URL incorrect format",
+            "errorcreateByURLMessage": "URL incorrect format",
+            "errorPublicLinkMessage": "URL incorrect format",
+            "createByName": "Create by name",
+            "createByUrl": "Created by URL",
+            "publicLink": "Public Link"
         }
     }
 }
