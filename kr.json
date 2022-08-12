@@ -584,7 +584,7 @@
                 "rate": "경험 평가하기",
                 "epEarned": "EP 획득",
                 "signInPlay": "플레이하려면 로그인하세요",
-                "collections": "NFT Collection",
+                "collections": "NFT 컬렉션",
                 "feedback": "경험에 피드백 남기기",
                 "noProgression": "알파 진행 상황 없음",
                 "creatorTooltip": "콘텐츠 크리에이터"
@@ -1520,7 +1520,7 @@
                 "openUntil": "종료:",
                 "upcomingEvents": "진행될 이벤트",
                 "endingSoon": "곧 종료 예정",
-                "upNext": "UP NEXT",
+                "upNext": "시작 예정",
                 "prizePool": "상금 풀",
                 "contest": "콘테스트",
                 "challenge": "챌린지",
@@ -1536,36 +1536,36 @@
             "rewards": {
                 "alphaSeason": "알파 시즌 3",
                 "rewards": "리워드",
-                "claimDesc": "Available from Oct. 14",
+                "claimDesc": "10월 14일 오픈",
                 "leaderboardDesc": "리더보드 리워드:",
-                "leaderboardDesc2": "Compete with other players on the Leaderboard and earn up to 30K SAND reward!",
+                "leaderboardDesc2": "리더보드에서 다른 플레이어들과 경쟁하고 최대 30,000 SAND 리워드를 획득하세요!",
                 "leaderboardDesc3": "리더보드로 이동하기",
-                "cannotParticipate": "You already own an Alpha Pass! No need to participate in the Raffle anymore.",
-                "didNotWin": "Unfortunately you did not win the Raffle this time.",
+                "cannotParticipate": "이미 알파 패스를 보유하고 있습니다! 이제 추첨에 참여하지 않아도 됩니다.",
+                "didNotWin": "아쉽게도 추첨에 당첨되지 못했습니다.",
                 "wonAlpha": "축하합니다! 시즌 3 알파 패스에 당첨되었습니다! 참여해 주셔서 감사합니다!",
                 "loggedOut": "진행 상황을 확인하려면 로그인이 필요합니다.",
-                "collectRaffle": "Raffle Tickets increase your chances of winning the Raffle",
+                "collectRaffle": "추첨 티켓을 통해 당첨의 확률을 높일 수 있습니다.",
                 "ifYouWin": "알파 패스 획득 시",
                 "youHold": "알파 패스를 보유하고 있습니다.",
-                "getAlphaDesc": "Own an Alpha Pass to unlock this reward.",
+                "getAlphaDesc": "이 리워드를 잠금 해제하려면 알파 패스를 보유해야 합니다.",
                 "stake": "스테이킹",
                 "buy": "구입",
                 "guaranteed": "확정",
-                "guaranteedDesc": "Own a LAND, an Avatar or a NFT from Season 3 Collections to earn a {0} at the end of the season.",
-                "earnSand": "GUARANTEED SAND REWARD",
+                "guaranteedDesc": "LAND, 시즌 3 컬렉션의 아바타 및 NFT를 보유하고 시즌 종료 시 {0}를 획득하세요.",
+                "earnSand": "확정 SAND 리워드",
                 "landOwner": "LAND 보유자",
                 "forLandOwner": "LAND 보유자 전용",
-                "landDesc": "Get a LAND to unlock these rewards",
+                "landDesc": "이 리워드를 잠금 해제하려면 LAND를 보유하세요.",
                 "avatarOwner": "아바타 보유자",
                 "forAvatarOwner": "아바타 보유자 전용",
-                "avatarDesc": "Get an Avatar to unlock these rewards",
+                "avatarDesc": "이 리워드를 잠금 해제하려면 아바타를 보유하세요.",
                 "collectorOwner": "NFT 컬렉터",
                 "forCollectorOwner": "NFT 보유자 전용",
-                "collectorDesc": "Get an NFT Badge collector to unlock these rewards",
+                "collectorDesc": "이 리워드를 잠금 해제하려면 NFT 배지 컬렉터를 보유하세요.",
                 "boosterTitle": "커뮤니티 부스터 리워드",
-                "stakeDesc": "Stake {0} to help increase Alpha Pass rewards for everyone. {1}",
+                "stakeDesc": "{0}를 스테이킹하면 모두를 위한 알파 패스 리워드가 더욱 많아집니다. {1}",
                 "upTo": "최대 +100%",
-                "stakeDesc2": "\"You will also get {0} for staking enough {1}. 1 point earned for each {2} staked during the whole season duration (10 weeks).",
+                "stakeDesc2": "{1}를 충분히 스테이킹 하면 {0} 또한 획득할 수 있습니다. 전체 시즌 기간(10주) 동안 스테이킹한 각 {2}마다 1 포인트가 부여됩니다.",
                 "extraTickets": "500 추가 래플 티켓",
                 "onlyVerifiedAccounts": "인증된 계정만 추첨에 당첨될 수 있습니다.",
                 "claimRewards": "리워드 받기",
@@ -1589,7 +1589,7 @@
             },
             "tickets": {
                 "enterMetaverse": "메타버스 입장하기",
-                "needToLogin": "Sign in to see your Raffle Tickets",
+                "needToLogin": "내 추첨 티켓을 확인하려면 로그인하세요.",
                 "ticketsTitle": "추첨 티켓 출처",
                 "ticketsDescription": "티켓을 많이 획득할수록 시즌 3 알파 패스에 당첨될 확률이 높아집니다.",
                 "ticketsDescription2": "추첨 티켓은 NFT가 아니며 2차 마켓에서 거래할 수 없습니다.",
@@ -1598,15 +1598,15 @@
                 "staking": "스테이킹",
                 "s1Memorabilia": "시즌 1 기념품",
                 "s2Memorabilia": "시즌 2 기념품",
-                "s1MemorabiliaDesc": "By reaching level 5 of AS1",
-                "s2MemorabiliaDesc": "By reaching level 5 of AS2",
+                "s1MemorabiliaDesc": "알파 시즌 1에서 레벨 5 달성",
+                "s2MemorabiliaDesc": "알파 시즌 2에서 레벨 5 달성",
                 "s1Alpha": "시즌 1 알파 패스",
                 "s2Alpha": "시즌 2 알파 패스",
                 "owningNFT": "이 NFT를 보유",
-                "prideMemorabilia": "Belonging Week Memorabilia",
+                "prideMemorabilia": "빌롱잉 위크 기념품",
                 "prideDescription": "빌롱잉 위크 동안 모든 콘테스트에 참여",
                 "feedbackForm": "시즌 2 피드백 양식",
-                "feedbackDescription": "By answering AS2 feedback form",
+                "feedbackDescription": "알파 시즌 2 피드백 양식을 제출함",
                 "challenges": "도전 과제",
                 "challengesDescription": "도전 과제 1회 = 추첨 티켓 5개",
                 "referral": "친구 추천",
@@ -1616,9 +1616,9 @@
                 "missed": "Missed",
                 "owned": "보유함",
                 "seeBadges": "나의 배지 확인하기",
-                "seeContest": "See all Event",
+                "seeContest": "모든 이벤트 보기",
                 "seeReferrals": "내 추천 확인하기",
-                "buyAtOpensea": "Get on Opensea",
+                "buyAtOpensea": "OpenSea에서 구입하기",
                 "stakingDesc": "스테이킹",
                 "ticketsDescription3": "추첨 티켓을 획득하여 당첨의 기회를 높이세요."
             },
@@ -1688,7 +1688,7 @@
                 "validateAccount": "내 계정 인증하기",
                 "raffleDate": "추첨은 2022년 10월 13일에 진행됩니다.",
                 "earnRaffle": "추첨 티켓 획득하기",
-                "raffleDescription": "{0} by earning EPs by completing Quests inside each experience on the {1}",
+                "raffleDescription": "{1}의 각 경험 내 퀘스트를 완료하여 EP를 모아 {0} 획득",
                 "alphaMap": "알파 맵",
                 "moreChances": "= 시즌 3 알파 패스 획득 가능성 UP",
                 "moreEp": "더 많은 EP = 더 많은",
@@ -1737,18 +1737,18 @@
             "head": {
                 "date": "알파 시즌 3",
                 "title": "리더보드",
-                "description": "Earn Ethos Points (EP) in the fastest time to rank higher in the leaderboard and earn up to 30K SAND! Equipment NFTs will help you complete quests faster."
+                "description": "리더보드에서 가장 빠른 시간 내에 에토스 포인트(EP)를 획득하고 최대 30,000 SAND를 획득하세요! 장비 NFT를 통해 퀘스트를 보다 빠르게 완료할 수 있습니다."
             },
             "table": {
                 "description": {
                     "top": "상위",
                     "players": "플레이어",
-                    "time": "Next Leaderboard update in"
+                    "time": "다음 리더보드 업데이트까지 남은 시간:"
                 },
                 "head": [
                     "순위",
                     "플레이어",
-                    "이토스 포인트",
+                    "에토스 포인트",
                     "완료 시간",
                     "보상"
                 ],
@@ -1760,9 +1760,9 @@
                 "reward": "1,500,000",
                 "rank": "순위",
                 "footer": {
-                    "claimDisabled": "Claim your rewards from xxx",
+                    "claimDisabled": "xxx에서 리워드를 수령하세요.",
                     "claimButton": "리워드 수령하기",
-                    "shouldLogin": "Sign In to see your position on the Leaderboard",
+                    "shouldLogin": "리더보드에서 순위를 확인하려면 로그인하세요.",
                     "loggInButton": "로그인"
                 }
             },
@@ -1785,7 +1785,7 @@
                         "column1": "퀘스트",
                         "column2": "내 플레이 타임",
                         "column3": "전체 기록",
-                        "column4": "Record Holder"
+                        "column4": "기록 보유자"
                     }
                 }
             },
@@ -2067,7 +2067,9 @@
         "filters": {
             "all": "전체",
             "sale": "신규 애셋",
-            "notSale": "판매 안 함"
+            "notSale": "판매 안 함",
+            "arts": "Art",
+            "equipment": "Equipments"
         },
         "sorts": {
             "title": "정렬 기준",
@@ -2178,7 +2180,10 @@
                 "available": "구입 가능"
             },
             "totalOnNetwork1": "총",
-            "totalOnNetwork2": "네트워크"
+            "totalOnNetwork2": "네트워크",
+            "network": "회로망",
+            "polygon": "다각형",
+            "ethereum": "이더 리움"
         },
         "assets": {
             "noGems": "이 애셋에는 젬이 없습니다.",
@@ -4282,7 +4287,7 @@
                     "check": "인증 확인하기"
                 },
                 "resultDate": {
-                    "message": "on {0} UTC"
+                    "message": "일시: {0} UTC"
                 }
             }
         },
@@ -4401,7 +4406,7 @@
         "venlyDowntimeAlert": "6월 13일 월요일 오후 12시에서 2시까지 2시간 동안 Venly 서비스가 중단됩니다.",
         "badges": {
             "title": "배지",
-            "note": "Get badges by achieving various goals inside The Sandbox ecosystem. Badges will grant you extra Raffle Tickets for upcoming Alpha Seasons Raffles.",
+            "note": "더 샌드박스 생태계 속 다양한 목표를 달성하여 배지를 획득하세요. 배지를 보유하면 다가올 알파 시즌 추첨을 위한 추가 추첨 티켓이 주어집니다.",
             "nftNote": "배지는 NFT가 아니며 거래할 수 없습니다",
             "obtained": "획득",
             "missed": "Missed",
@@ -4936,9 +4941,9 @@
             "fee": "FEE",
             "option1": "추천한 친구가 신규 구매 시 10%의 추천 수수료를 획득할 수 있습니다.",
             "option2": "시즌 동안 레벨 5를 달성한 추천 친구당 25개의 추첨 티켓",
-            "sandEarning": "SAND Earning",
-            "ticketEarning": "Tickets Earning",
-            "reach": "Reach"
+            "sandEarning": "SAND 획득",
+            "ticketEarning": "티켓 획득",
+            "reach": "도달"
         },
         "linkAWallet": "지갑 연결하기",
         "linkWallet": "지갑 연결하기",
@@ -5553,7 +5558,7 @@
             "mainText": "TSB Gaming Limited 및 그 제휴사(이하 \"{0}\", \"{1}\")는 당사가 정보를 수집하고 이용하며 공개하는 방식을 귀하에게 알리고자 합니다. 본 개인정보처리방침은 다음을 통해 당사가 수집하는 정보와 연관된 관행을 설명합니다.",
             "0": "TSB",
             "1": "당사",
-            "2": ""
+            "2": "us"
         },
         "text2": {
             "mainText": "귀하가 본 개인정보처리방침을 열람할 때 이용한 당사 운영 웹사이트(이하 \"{0}\");",
@@ -5699,8 +5704,8 @@
         "text124": "본 개인정보처리방침에 대해 문의 사항이 있는 경우, [privacy@sandbox.game] 또는 TSB Gaming Limited, Ground Floor, Church Street, St. Julians, STJ 3049, Malta로 문의하시기 바랍니다.",
         "text125": "이메일 소통 시 보안에 문제가 있을 수 있으므로, 당사에 전송하는 이메일에 신용카드나 기타 민감한 정보를 기재하지 마십시오.",
         "text126": "EEA 및 영국과 관련된 추가 정보",
-        "text127": "귀하는 상주 또는 근무 중 이거나 데이터 보호 준거법의 침해가 발생했다고 추정되는 지역의 데이터 보호 당국에 불만을 제기할 수 있습니다. 유럽 경제 지역(EEA) 데이터 보호 당국 목록은 다음 링크에서 확인할 수 있습니다.",
-        "text127part2": ". 영국 데이터 보호 당국과 관련된 정보는 다음 링크에서 확인할 수 있습니다.",
+        "text127": "귀하는 상주 또는 근무 중 이거나 데이터 보호 준거법의 침해가 발생했다고 추정되는 지역의 데이터 보호 당국에 불만을 제기할 수 있습니다. 유럽 경제 지역(EEA) 데이터 보호 당국 목록은 ",
+        "text127part2": "에서 확인할 수 있습니다. 영국 데이터 보호 당국과 관련된 정보는 다음 링크에서 확인할 수 있습니다.",
         "text128": "캘리포니아와 관련된 추가 정보",
         "text129": {
             "mainText": "2018년 캘리포니아 소비자 프라이버시법(\"{0}\")에 따라 당사는 다음과 같이 당사가 수집, 이용, 공개하는 캘리포니아 거주자의 개인정보 카테고리에 관련된 추가 세부 사항을 제공하고 있습니다. 본 섹션은 당사가 현재, 과거, 미래의 채용과 관련하여 개인정보를 수집한 구직자, 직원, 하청업자, 소유주, 관리자, 임원에게는 적용되지 않습니다.",
@@ -5783,7 +5788,9 @@
         "banner": "배너",
         "coverImage": "이 컬렉션의 대표 이미지를 업로드해야 합니다. 허용되는 형식은 PNG와 JPG입니다.",
         "icon": "아이콘",
-        "iconImage": "이 컬렉션의 아이콘을 업로드해야 합니다. 마켓플레이스 사이드바에 표시됩니다. 허용되는 형식은 PNG입니다."
+        "iconImage": "이 컬렉션의 아이콘을 업로드해야 합니다. 마켓플레이스 사이드바에 표시됩니다. 허용되는 형식은 PNG입니다.",
+        "logo": "",
+        "logoImage": "이 컬렉션의 로고 이미지를 업로드해야 합니다. 허용되는 형식은 PNG, JPG 및 GIF입니다. 권장 사이즈 168×168"
     },
     "staking": {
         "staking": "스테이킹",
@@ -9754,21 +9761,21 @@
         },
         "admin": {
             "search": {
-                "placeholder": "Type the User ID and press enter"
+                "placeholder": "유저 ID를 입력하세요"
             },
             "modals": {
                 "update": {
-                    "title": "Update Verification",
-                    "text": "Are you sure that you want to update the user verification?"
+                    "title": "인증 업데이트",
+                    "text": "계정 인증을 업데이트하시겠습니까?"
                 },
                 "cancel": {
-                    "title": "Cancel Verification",
-                    "text": "Are you sure that you want to cancel the user verification?"
+                    "title": "인증 취소",
+                    "text": "계정 인증을 취소하시겠습니까?"
                 }
             }
         },
         "bar": {
-            "explanation": "Remember to complete the Account Validation before the end of the season. You will need it to claim your rewards.",
+            "explanation": "시즌 종료 전까지 계정 인증을 완료하세요. 인증된 계정에서만 리워드를 획득할 수 있습니다.",
             "actions": {
                 "start": "여기서 시작",
                 "continue": "여기서 계속",
@@ -9779,6 +9786,17 @@
                 "continue": "여기서 계속",
                 "check": "여기서 확인"
             }
+        }
+    },
+    "backoffice": {
+        "collections": {
+            "isExternalCollection": "IS EXTERNAL COLLECTION",
+            "errorURLMessage": "URL incorrect format",
+            "errorcreateByURLMessage": "URL incorrect format",
+            "errorPublicLinkMessage": "URL incorrect format",
+            "createByName": "Create by name",
+            "createByUrl": "Created by URL",
+            "publicLink": "Public Link"
         }
     }
 }
