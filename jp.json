@@ -409,7 +409,8 @@
                 "play": "Alpha Pass by completing Quests.",
                 "counter": "ALPHA SEASON 3",
                 "preSeason": "SEASON 3 COMING SOON",
-                "duringSeason": "SEASON 3 IS LIVE"
+                "duringSeason": "SEASON 3 IS LIVE",
+                "avatar": "Create Avatar"
             }
         },
         "discover": {
@@ -854,7 +855,7 @@
             },
             "join": {
                 "title": "加入",
-                "description1": "你需要获得Alpha通行证",
+                "description1": "Alpha Passが必要です",
                 "description2": "才可体验Alpha版本的全部内容和奖励",
                 "description3": "但是，Alpha中心和3个游戏体验面向所有玩家开放！",
                 "bulletPoints": {
@@ -2068,8 +2069,8 @@
             "all": "すべて",
             "sale": "販売中",
             "notSale": "非売品",
-            "arts": "",
-            "equipment": ""
+            "arts": "Art",
+            "equipment": "Equipments"
         },
         "sorts": {
             "title": "並べ替え",
@@ -2181,9 +2182,9 @@
             },
             "totalOnNetwork1": "合計",
             "totalOnNetwork2": "ネットワークの合計",
-            "network": "",
-            "polygon": "",
-            "ethereum": ""
+            "network": "通信網",
+            "polygon": "ポリゴン",
+            "ethereum": "イーサリアム"
         },
         "assets": {
             "noGems": "このアセットにはジェムはありません",
@@ -2799,7 +2800,7 @@
                                 "title": "BUY",
                                 "text1": "More than 100,000 LAND acquired by over 20,000 LAND owners",
                                 "text2": "New partners",
-                                "text3": "New sales system with a raffle and KYC for a fair and distributed process",
+                                "text3": "抽選とKYCのシステムを新たに導入 ",
                                 "text4": "Upcoming LAND sale Ubisoft, Paris Hilton, Warner Music Group, Gucci"
                             },
                             "play": {
@@ -4277,8 +4278,8 @@
             },
             "accountVerification": "Verification",
             "kyc": {
-                "title": "Account Validation",
-                "subtitle": "KYC Process",
+                "title": "アカウント認証",
+                "subtitle": "KYCプロセス",
                 "description": "To join some activies such as the LAND Sale Raffle or claiming Season rewards, we require you to complete the identity Verification process.",
                 "extra": "The process might take up to 48hs, make sure you verify on time so you don't miss any activity. You can always check your identity Verification status here.",
                 "button": {
@@ -4370,7 +4371,7 @@
                         "title": "BUY",
                         "text1": "More than 100,000 LAND acquired by over 20,000 LAND owners",
                         "text2": "New partners",
-                        "text3": "New sales system with a raffle and KYC for a fair and distributed process",
+                        "text3": "抽選とKYCのシステムを新たに導入",
                         "text4": "Upcoming LAND sale Ubisoft, Paris Hilton, Warner Music Group, Gucci"
                     },
                     "play": {
@@ -5790,7 +5791,7 @@
         "icon": "アイコン",
         "iconImage": "このコレクションのアイコンをアップロードしてください。アイコンはマーケットプレイスのサイドバーに表示されます。対応形式はPNGです。",
         "logo": "Logo",
-        "logoImage": ""
+        "logoImage": "このコレクションのロゴ画像をアップロードする必要があります。 受け入れられる形式は、PNG、JPG、および GIF です。 推奨サイズ 168×168"
     },
     "staking": {
         "staking": "ステーキング",
@@ -9793,13 +9794,13 @@
     },
     "backoffice": {
         "collections": {
-            "isExternalCollection": "",
-            "errorURLMessage": "",
-            "errorcreateByURLMessage": "",
-            "errorPublicLinkMessage": "",
-            "createByName": "",
-            "createByUrl": "",
-            "publicLink": ""
+            "isExternalCollection": "IS EXTERNAL COLLECTION",
+            "errorURLMessage": "URL incorrect format",
+            "errorcreateByURLMessage": "URL incorrect format",
+            "errorPublicLinkMessage": "URL incorrect format",
+            "createByName": "Create by name",
+            "createByUrl": "Created by URL",
+            "publicLink": "Public Link"
         }
     }
 }
