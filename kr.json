@@ -1,6 +1,6 @@
 {
     "common": {
-        "sandbox": "더 샌드박스",
+        "sandbox": "The Sandbox",
         "$sand": "$SAND",
         "sand": "SAND",
         "land": "LAND",
@@ -226,7 +226,7 @@
         "toPlayAlpha": "Mac과 Windows에서 알파 시즌 3를 플레이할 수 있습니다.",
         "update": "업데이트",
         "goToClaim": "수령하기 페이지로 이동",
-        "catalyst&Gems": "CATALYST & GEMS"
+        "catalyst&Gems": "카탈리스트와 젬"
     },
     "layout": {
         "topbar": {
@@ -317,7 +317,7 @@
                 "description1": "더 샌드박스 커뮤니티에 가입하고",
                 "description2": "최신 소식을 받아보세요.",
                 "buttonText": "참여하기",
-                "descriptionMobile": "Stay tuned for the news!"
+                "descriptionMobile": "새로운 소식을 기대해 주세요!"
             },
             "pages": {
                 "title": "페이지",
@@ -407,7 +407,7 @@
             },
             "createAccount": "계정 만들기",
             "ribbonSeason3": {
-                "welcome": "알파 시즌 3를 플레이하고 퀘스트를 완료하여 알파 패스를 획득해 보세요.",
+                "welcome": "Discover Alpha Season 3 starting August 24. Create your avatar before the Season starts",
                 "play": "퀘스트를 완료하고 알파 패스를 획득하세요.",
                 "counter": "알파 시즌 3",
                 "preSeason": "시즌 3가 곧 시작됩니다",
@@ -1578,7 +1578,7 @@
                 "youAreLand": "LAND 보유자",
                 "youAreAvatar": "아바타 보유자",
                 "youAreCollector": "NFT 컬렉터",
-                "epTooltip": "Earn Ethos Points by completing quests inside experiences. Harder quests will grant you more Ethos Points"
+                "epTooltip": "경험 속 퀘스트를 완료하고 에토스 포인트를 획득하세요. 퀘스트의 난이도가 높을수록 더 많은 에토스 포인트를 획득할 수 있습니다."
             },
             "summary": {
                 "rewardsSummary": "리워드 요약",
@@ -1660,8 +1660,8 @@
                     "title": "NFT 애셋",
                     "description": "내부 TSB NFT와 외부 NFT"
                 },
-                "avatarTooltip": "Owning one of those NFTs will grant you an Avatar with a matching appearance",
-                "equipmentTooltip": "Equipping NFTs can help you climb the leaderboards by providing experience boosts, faster run speed, or increased damage"
+                "avatarTooltip": "아래 NFT 중 한 가지를 보유하고 있다면 어울리는 모습의 아바타를 획득할 수 있습니다.",
+                "equipmentTooltip": "NFT를 장비하면 파워, 스피드, 공격력이 강화되어 리더보드에서 더 높은 순위를 기록할 수 있습니다."
             },
             "info": {
                 "title": "시즌 3 알파 패스에 당첨되어 최대 500 SAND 리워드를 획득하세요.",
@@ -1744,7 +1744,7 @@
                 "date": "알파 시즌 3",
                 "title": "리더보드",
                 "description": "리더보드에서 가장 빠른 시간 내에 에토스 포인트(EP)를 획득하고 최대 30,000 SAND를 획득하세요! 장비 NFT를 통해 퀘스트를 보다 빠르게 완료할 수 있습니다.",
-                "link": ""
+                "link": "마켓플레이스로 이동"
             },
             "table": {
                 "description": {
@@ -1843,7 +1843,7 @@
                 "ethereum": "이더리움 네트워크의 SAND입니다",
                 "polygon": "폴리곤 네트워크의 SAND입니다."
             },
-            "details": "Details",
+            "details": "세부사항",
             "listing": "Listing"
         },
         "reportModal": {
@@ -2127,10 +2127,10 @@
             "nft": "크리에이터의 NFT",
             "more": "더 보기",
             "creatorSoldout": "크리에이터 세일 매진",
-            "nftmore": "More from this creator",
-            "creatorAssetProp": "Creator",
-            "address": "Address",
-            "creatortooltiptext": "The creator sold all the minted copies"
+            "nftmore": "이 크리에이터의 NFT 더 알아보기",
+            "creatorAssetProp": "크리에이터",
+            "address": "주소",
+            "creatortooltiptext": "이 크리에이터의 NFT가 모두 판매되었습니다."
         },
         "create": {
             "title": "애셋 창작",
@@ -2163,7 +2163,7 @@
             "copies": "에디션",
             "price": "가격",
             "buttonText": "계속",
-            "assetInfo": "자산 정보"
+            "assetInfo": "애셋 정보"
         },
         "cart": {
             "title": "장바구니",
@@ -2283,8 +2283,8 @@
                 }
             },
             "header": {
-                "title": "코딩 없이 게임 제작하기",
-                "description": "게임 메이커와 함께 상상을 현실로 만들어 보세요",
+                "title": "코딩 없이 만드는 나만의 게임",
+                "description": "게임 메이커와 함께 상상을 현실로 만들어 보세요!",
                 "buttonText": "다운로드"
             },
             "metaverse": {
@@ -4289,7 +4289,7 @@
                 "changeGasSettings": "가스 설정 변경",
                 "payWithMatic": "MATIC으로 가스비 지불",
                 "payWithMsand": "SAND로 가스비 지불",
-                "chain": "Chain"
+                "chain": "체인"
             },
             "accountVerification": "인증",
             "kyc": {
@@ -6074,7 +6074,7 @@
             "howTo": "스테이킹 방법",
             "learnMore": "스테이킹 자세히 알아보기",
             "support": "문의하기",
-            "lp": "What are LPs"
+            "lp": "LP 알아보기"
         }
     },
     "login": {
@@ -6160,39 +6160,39 @@
                 "text": "로버트 커크먼(Robert Kirkman), 토니 무어(Tony Moore), 찰리 아들라드(Charlie Adlard)의 만화 워킹 데드(The Walking Dead)를 원작으로 한 워킹 데드는 Robert Kirkman, LLC가 소유한 등록 상표 또는 보호 상표입니다. 스카이바운드(Skybound)는 Robert Kirkman, LLC가 소유한 등록 상표 또는 보호 상표입니다. 허가하에 사용되었습니다.",
                 "socialIcons": {
                     "discord": {
-                        "name": "discord",
+                        "name": "Discord",
                         "url": "https://discordapp.com/invite/vAe4zvY "
                     },
                     "telegram": {
-                        "name": "telegram",
+                        "name": "Telegram",
                         "url": "https://t.me/sandboxgame"
                     },
                     "medium": {
-                        "name": "medium",
+                        "name": "Medium",
                         "url": "https://medium.com/sandbox-game"
                     },
                     "twitter": {
-                        "name": "twitter",
+                        "name": "Twitter",
                         "url": "https://twitter.com/TheSandboxGame"
                     },
                     "instagram": {
-                        "name": "instagram",
+                        "name": "Instagram",
                         "url": "https://www.instagram.com/thesandboxgame/"
                     },
                     "facebook": {
-                        "name": "facebook",
+                        "name": "Facebook",
                         "url": "https://www.facebook.com/TheSandboxGame/"
                     },
                     "youtube": {
-                        "name": "youtube",
+                        "name": "YouTube",
                         "url": "https://www.youtube.com/user/TheSandboxGame"
                     },
                     "twitch": {
-                        "name": "twitch",
+                        "name": "Twitch",
                         "url": "https://www.twitch.tv/thesandboxgame"
                     },
                     "reddit": {
-                        "name": "reddit",
+                        "name": "Reddit",
                         "url": "https://www.reddit.com/r/TheSandboxGaming/"
                     }
                 }
@@ -9822,18 +9822,18 @@
         }
     },
     "termsOfUse": {
-        "title": "THE SANDBOX TERMS OF USE",
-        "updatedDate": "LAST UPDATED: Jul 29, 2022",
+        "title": "더 샌드박스 이용약관",
+        "updatedDate": "최종 업데이트: 2022년 7월 29일",
         "text1": "These Sandbox Terms of Use (the “Terms”) set forth the terms and conditions under which BACASABLE Global Limited, a company incorporated in Hong Kong, including its subsidiaries and affiliates (collectively, “TSB”, “us”, “our”, or “we”), and you (“you” or “your”) agree to be governed as it relates to any of your activity in The Sandbox, a decentralized, community-driven platform created and owned by TSB (“The Sandbox”). These Terms govern your access to, use of, and interaction with The Sandbox, including any content, functionality, and services offered on or through The Sandbox and your creation of any Assets and/or Games (defined below) (collectively, the “Services”).",
         "text2": {
             "mainText": "Please read these Terms carefully before you start to use The Sandbox. By using The Sandbox, you accept and agree to be bound and abide by these Terms, the extra Terms of Use which can be found at URL: {0} and our Privacy Policy, which can be found at the following URL: {1}, you must not access or use The Sandbox.",
-            "0": "Privacy Policy"
+            "0": "개인정보처리방침"
         },
         "text3": "The Sandbox is offered and available to users who are 18 years of age or older. By accessing or using The Sandbox, you represent and warrant that you are of legal age to form a binding contract with TSB and meet the foregoing eligibility requirements. If you do not meet all of these requirements, you must not access or use The Sandbox.",
-        "text4": "THE SANDBOX",
+        "text4": "더 샌드박스",
         "text5": "The Sandbox enables users such as you to create, buy, transfer, and trade unique digital game assets in voxel art (each, an “Asset” and together, the “Assets”), which can then be used on The Sandbox for game-making purposes. The Sandbox further enables users such as you to purchase and publish onto LANDs parcels in The Sandbox within which you can create Assets and visual scripting using The Sandbox Game Maker, which creates an interactive experience built for, and published on, The Sandbox (each, a “Game”). A Game may be made available to users of The Sandbox and you will control the pricing and business model (free, free-2-play or premium) of the Game.",
         "text6": "By utilizing our Services, you affirm that you are aware and acknowledge that TSB is a non-custodial provider of software services that has developed and distributed The Sandbox where the Services occur without any involvement or actions taken by TSB or any third-party.",
-        "text7": "ASSET & GAME CREATION",
+        "text7": "애셋 및 게임 제작",
         "text8": "You may create, upload, and exchange Assets and create Games that comply with these Terms, including the following requirements:",
         "text9": "Assets are created in VoxEdit. Games are created with The Sandbox Game Maker.",
         "text10": "Assets and Games must comply with the Metadata Specifications (defined and included below).",
@@ -9844,7 +9844,7 @@
         "text15": "You are solely responsible for ensuring that any Assets you submit to the Services comply with any applicable laws and third party rights, including but not limited to any intellectual property rights, privacy rights and publicity rights.",
         "text16": {
             "mainText": "You agree that any information included in your Assets and/or Games may be used in accordance with our {0}.",
-            "0": "Privacy Policy"
+            "0": "개인정보처리방침"
         },
         "text17": "TSB always has the right, in its sole discretion, to accept or reject any Assets and/or Games.",
         "text18": "LANDS",
@@ -9863,7 +9863,7 @@
         "text31": "During the operation of the Services, you may upload certain Assets and Games that you have created to The Sandbox in accordance with these Terms. Except as otherwise set forth in these Terms, you remain the owner of your Assets and Games at all times, and TSB does not claim any ownership rights in your Assets and Games. Assets and Games are otherwise subject to the following provisions. These Terms apply to all Assets and Games that you contribute to The Sandbox or to any TSB website.",
         "text32": {
             "mainText": "You are solely responsible for ensuring that any Assets and Games you submit to the Services comply with any applicable laws and third party rights, including but not limited to any intellectual property rights, privacy rights and publicity rights. You agree that any information included in your Assets and Games may be used in accordance with our {0}. TSB always has the right, in its sole discretion, to accept or reject any Assets and/or Games.",
-            "0": "Privacy Policy"
+            "0": "개인정보처리방침"
         },
         "text33": "By using the Services, you grant TSB a worldwide, non-exclusive, royalty-free, perpetual, irrevocable, sub-licensable (through multiple tiers), transferable right and license to use, reproduce, publicly display, distribute and adapt the publicly shared Assets and Games for the purposes of developing, distributing, providing, improving, and promoting the Services, our activities, and your publicly shared Assets and Games. You further grant TSB the right to use your name and trademarks, if any, in connection with our use of your publicly shared Assets and Games.",
         "text34": "You may make your Assets and Games available for purchase in The Sandbox. Each Asset is a non-fungible token (a “NFT”) on the blockchain. When you upload an Asset and make it available for sale in The Sandbox marketplace, you retain ownership of all intellectual property rights associated with such Asset but you agree to make a certain number of the Assets available for sale as NFTs. End users who purchase the Asset own that underlying, purchased NFT completely and have the right to sell, trade, donate, give away, transfer, or otherwise dispose of the NFT as they see fit; provided, however, that each Asset will be tokenized so that it will have provable scarcity and proof of ownership.",
