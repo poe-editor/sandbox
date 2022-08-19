@@ -10,7 +10,7 @@
         "estate": "이스테이트",
         "unique": "고유",
         "back": "뒤로",
-        "new": "신규",
+        "new": "NEW",
         "save": "저장",
         "email": "이메일",
         "nickname": "별명",
@@ -407,7 +407,7 @@
             },
             "createAccount": "계정 만들기",
             "ribbonSeason3": {
-                "welcome": "8월 24일, 새로운 알파 시즌 3가 시작됩니다. 시즌이 시작하기 전에 나만의 아바타를 만들어 보세요!",
+                "welcome": "8월 24일, 새로운 알파 시즌 3를 만나보세요. 시즌 시작 전에 나만의 아바타를 만들어 보세요!",
                 "play": "퀘스트를 완료하고 알파 패스를 획득하세요.",
                 "counter": "알파 시즌 3",
                 "preSeason": "시즌 3가 곧 시작됩니다",
@@ -497,9 +497,9 @@
         "menu": {
             "play": "플레이",
             "rewards": "리워드",
-            "info": "Rules",
+            "info": "정보",
             "raffleTickets": "티켓",
-            "contests": "AS3 Events",
+            "contests": "이벤트",
             "leaderboard": "리더보드",
             "shop": "마켓",
             "progression": {
@@ -1528,7 +1528,7 @@
                 "contest": "콘테스트",
                 "challenge": "챌린지",
                 "giveaway": "기브어웨이",
-                "new": "신규",
+                "new": "NEW",
                 "dailyChallenge": "일일 챌린지",
                 "dailyChallenges": "일일 챌린지",
                 "goToMap": "맵으로 이동",
@@ -1539,7 +1539,7 @@
             "rewards": {
                 "alphaSeason": "알파 시즌 3",
                 "rewards": "리워드",
-                "claimDesc": "10월 14일 오픈",
+                "claimDesc": "10월 14일부터 리워드를 수령할 수 있습니다.",
                 "leaderboardDesc": "리더보드 리워드:",
                 "leaderboardDesc2": "리더보드에서 다른 플레이어들과 경쟁하고 최대 30,000 SAND 리워드를 획득하세요!",
                 "leaderboardDesc3": "리더보드로 이동하기",
@@ -1664,7 +1664,7 @@
                 "equipmentTooltip": "NFT를 장비하면 파워, 스피드, 공격력이 강화되어 리더보드에서 더 높은 순위를 기록할 수 있습니다."
             },
             "info": {
-                "title": "시즌 3 알파 패스에 당첨되어 최대 500 SAND 리워드를 획득하세요.",
+                "title": "시즌 3 알파 패스를 보유하고 최대 500 SAND 리워드를 획득하세요",
                 "dateDesc1": "알파 시즌 3 시작",
                 "dateDay1": "8월 4일",
                 "dateDesc2": "추첨일/시즌 종료",
@@ -1693,7 +1693,7 @@
                 "KYCInfo": "모든 종류의 알파 시즌 3 리워드를 획득하기 위해서는 계정을 인증해야 합니다. {0}",
                 "validateAccount": "내 계정 인증하기",
                 "raffleDate": "추첨은 2022년 10월 13일에 진행됩니다.",
-                "earnRaffle": "추첨 티켓 획득하기",
+                "earnRaffle": "추첨 티켓",
                 "raffleDescription": "{1}의 각 경험 내 퀘스트를 완료하여 EP를 모아 {0} 획득",
                 "alphaMap": "알파 맵",
                 "moreChances": "= 시즌 3 알파 패스 획득 가능성 UP",
@@ -1750,7 +1750,7 @@
                 "description": {
                     "top": "상위",
                     "players": "플레이어",
-                    "time": "다음 리더보드 업데이트까지 남은 시간:"
+                    "time": "다음 리더보드 업데이트까지 남은 시간"
                 },
                 "head": [
                     "순위",
@@ -1763,7 +1763,7 @@
                 "currentUser": "YOU"
             },
             "rewards": {
-                "title": "총 리워드 리더보드",
+                "title": "리더보드 전체 리워드",
                 "reward": "1,500,000",
                 "rank": "순위",
                 "footer": {
@@ -4632,7 +4632,7 @@
     },
     "newPlay": {
         "discoverHub": "더 샌드박스 허브를 둘러보세요",
-        "buyLand": "LAND",
+        "buyLand": "LAND 구입하기",
         "TWD": "워킹 데드",
         "seeRewards": "리워드 보기",
         "endingSoon": "알파가 곧 종료됩니다",
@@ -8861,7 +8861,7 @@
             "title": "워크스페이스",
             "workspace": "워크스페이스",
             "add": "+ 추가",
-            "new": "+ 신규",
+            "new": "+ NEW",
             "settings": "설정",
             "roles": "역할",
             "members": "멤버",
@@ -9026,7 +9026,7 @@
                     "title2": " role",
                     "placeholder": "이메일로 검색",
                     "noMembersShow": "표시할 멤버가 없습니다",
-                    "newMembersToAdd": "NEW MEMBERS SELECTED TO ADD",
+                    "newMembersToAdd": "선택한 새로운 멤버 추가",
                     "members": "멤버",
                     "roleWithoutMember": "이 역할에는 아직 멤버가 없습니다.",
                     "success": "{name}가 성공적으로 업데이트 되었습니다."
