@@ -499,7 +499,7 @@
             "rewards": "Ödüller",
             "info": "Rules",
             "raffleTickets": "Biletler",
-            "contests": "AS3 Events",
+            "contests": "Events",
             "leaderboard": "Leaderboard",
             "shop": "",
             "progression": {
@@ -569,7 +569,7 @@
             },
             "tooltips": {
                 "pendingExplore": "Ziyaret edilmedi",
-                "explored": "Ziyaret edildi",
+                "explored": "Experience visited",
                 "locked": "Kitli",
                 "multiplayer": "Multiplayer",
                 "singleplayer": "Singleplayer",
@@ -709,8 +709,8 @@
                     "staking": "Belirleme",
                     "lands": "LANDS",
                     "feedbackForm": "Geri bildirim formunu",
-                    "raffleDaysLeft": "YAĞMUR YAĞANA KADAR KALAN GÜN",
-                    "raffleDay": "ÇEKİLİŞ SONUÇLARI GÜNÜ",
+                    "raffleDaysLeft": "DAYS UNTIL RAFFLE RESULTS",
+                    "raffleDay": "RAFFLE RESULTS TODAY",
                     "raffleGoodLuck": "İyi Şanslar !!",
                     "raffleDayDesc": "Alpha Pass kazanın!",
                     "claimPass": "Talep Geçidi",
@@ -1650,18 +1650,20 @@
                 "s3Collection": "Season 3 Collection",
                 "land": {
                     "title": "Land",
-                    "ctaText": "Buy Land"
+                    "ctaText": "Buy Land",
+                    "description": "Own a LAND to unlock the LAND Owner Guaranteed rewards"
                 },
                 "nftAvatar": {
                     "title": "NFT Avatar",
-                    "description": "Internal TSB NFTs and External NFTs"
+                    "description": "Own a NFT Avatar to unlock the Avatar Owner Guaranteed rewards"
                 },
                 "nftAsset": {
-                    "title": "NFT Asset",
-                    "description": "Internal TSB NFTs and External NFTs"
+                    "title": "AS3 NFT Collections",
+                    "description": "Own at least 1 NFT from the AS3 Collections to unlock the NFT Collector rewards"
                 },
                 "avatarTooltip": "Owning one of those NFTs will grant you an Avatar with a matching appearance",
-                "equipmentTooltip": "Equipping NFTs can help you climb the leaderboards by providing experience boosts, faster run speed, or increased damage"
+                "equipmentTooltip": "Equipping NFTs can help you climb the leaderboards by providing experience boosts, faster run speed, or increased damage",
+                "nftTab": "AS3 NFTs"
             },
             "info": {
                 "title": "Win the Season 3 Alpha Pass and earn up to 500 SAND Rewards",
