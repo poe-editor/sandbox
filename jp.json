@@ -499,7 +499,7 @@
             "rewards": "報酬",
             "info": "Rules",
             "raffleTickets": "チケット",
-            "contests": "AS3 Events",
+            "contests": "Events",
             "leaderboard": "Leaderboard",
             "shop": "ショップ",
             "progression": {
@@ -569,7 +569,7 @@
             },
             "tooltips": {
                 "pendingExplore": "未訪問",
-                "explored": "訪問済み",
+                "explored": "Experience visited",
                 "locked": "ロック中",
                 "multiplayer": "マルチプレイ",
                 "singleplayer": "シングルプレイ",
@@ -709,8 +709,8 @@
                     "staking": "ステーキング",
                     "lands": "LAND",
                     "feedbackForm": "フィードバックフォーム",
-                    "raffleDaysLeft": "日で抽選開始",
-                    "raffleDay": "抽選の結果発表日",
+                    "raffleDaysLeft": "DAYS UNTIL RAFFLE RESULTS",
+                    "raffleDay": "RAFFLE RESULTS TODAY",
                     "raffleGoodLuck": "幸運を祈ります！",
                     "raffleDayDesc": "アルファパスを獲得しよう！",
                     "claimPass": "パスを受け取る",
@@ -847,13 +847,13 @@
             }
         },
         "info": {
-            "title": "欢迎来到Alpha版本",
+            "title": "アルファシーズンへようこそ",
             "description": {
                 "1": "シーズン2のアルファパスを手に入れ",
                 "2": "1,000$SANDの報酬を獲得しましょう。",
                 "3": "游戏获利版！",
                 "4": "Get the Alpha Pass to play and earn",
-                "5": "1,000 SAND和酷炫的非同质化代币奖励！"
+                "5": "1,000 SANDとクールなNFT報酬！"
             },
             "join": {
                 "title": "参加",
@@ -879,12 +879,12 @@
                 "subtitle1": "拥有Alpha通行证",
                 "firstDescription1": "游戏获利：",
                 "firstDescription2": "获得",
-                "firstDescription3": "1000 SAND以及3份酷炫的非同质化代币奖励。",
+                "firstDescription3": "1000 SANDと3つのクールなNFT報酬。",
                 "secondDescription1": "内容：",
                 "secondDescription2": "你可以前往Alpha中心，参与19个游戏体验。",
                 "subtitle2": "未拥有Alpha通行证",
                 "fourthDescription1": "游戏获利：",
-                "fourthDescription2": "你需要Alpha通行证才能获得Alpha奖励",
+                "fourthDescription2": "アルファ報酬を獲得するためにアルファパスが必要です",
                 "fifthDescription1": "内容：",
                 "fifthDescription2": "你可以前往Alpha中心，参与3个游戏体验。",
                 "description": {
@@ -910,13 +910,13 @@
                 "title1": "できること",
                 "title2": "获得什么？",
                 "text1": "1,000 SAND",
-                "text2": "3份专属Alpha非同质化代币"
+                "text2": "3つの専用アルファNFT"
             },
             "howDoIEarn": {
                 "title1": "どのように",
-                "title2": "获得？",
+                "title2": "稼ぎますか？",
                 "description1": "完成Alpha任务 ",
-                "description2": "升级",
+                "description2": "レベルアップするために",
                 "description3": "你的Alpha通行证，并获得你的奖励。",
                 "description4": "你可以在12月20日Alpha版本结束时领取你全部的Alpha奖励。",
                 "alphaQuests": "Alpha任务",
@@ -940,7 +940,7 @@
                     "text4": "可解锁Alpha通行证的全部奖励。"
                 },
                 "fourthText": {
-                    "title": "领取奖励！",
+                    "title": "報酬を受け取る！",
                     "text1": "你可以在Alpha版本的最后一天（12月20日）时领取你已解锁的奖励。",
                     "text2": "领取当天，请确保你的钱包里有Alpha通行证才可正常领取奖励。",
                     "text3": "在Alpha版本关闭（12月20日）后，请勿在OpenSea上购买Alpha通行证。详情请查看下方的常见问题。"
@@ -1139,7 +1139,7 @@
                 },
                 "presscoverage": {
                     "title": "メディア報道",
-                    "text1": "マスコミがアルファシーズン2にアクセスする方法",
+                    "text1": "プレスがアルファシーズン2にアクセスする方法",
                     "description1": "アルファシーズン1とは違い、ゲームの内容を知るためにアクセス許可を求める必要はありません。シーズン2では誰もがプレイでき、すべてのコンテンツを利用できます。",
                     "text2": "プレスはアルファへアクセスはできますか？",
                     "description2": "インフルエンサー用パスのお申し込みは、contact@sandbox.game までご連絡ください。アルファへのアクセスには、チャンネル、対象ユーザー、目的などの概要を必ずご記入ください。"
@@ -1571,7 +1571,7 @@
                 "stakeDesc2": "\"You will also get {0} for staking enough {1}. 1 point earned for each {2} staked during the whole season duration (10 weeks).",
                 "extraTickets": "500 extra Raffle Tickets",
                 "onlyVerifiedAccounts": "Only Verified Accounts can win the Raffle",
-                "claimRewards": "Claim Rewards!",
+                "claimRewards": "報酬を受け取る!",
                 "alreadyOwnRaffle": "You already own an Alpha Pass! You will be able to claim your Alpha Pass rewards at the end of the season. No need to participate in the Raffle anymore.",
                 "getMore": "Get more",
                 "raffleResults": "TIME BEFORE RAFFLE",
@@ -1650,18 +1650,20 @@
                 "s3Collection": "Season 3 Collection",
                 "land": {
                     "title": "Land",
-                    "ctaText": "Buy Land"
+                    "ctaText": "Buy Land",
+                    "description": "Own a LAND to unlock the LAND Owner Guaranteed rewards"
                 },
                 "nftAvatar": {
                     "title": "NFT Avatar",
-                    "description": "Internal TSB NFTs and External NFTs"
+                    "description": "Own a NFT Avatar to unlock the Avatar Owner Guaranteed rewards"
                 },
                 "nftAsset": {
-                    "title": "NFT Asset",
-                    "description": "Internal TSB NFTs and External NFTs"
+                    "title": "AS3 NFT Collections",
+                    "description": "Own at least 1 NFT from the AS3 Collections to unlock the NFT Collector rewards"
                 },
                 "avatarTooltip": "Owning one of those NFTs will grant you an Avatar with a matching appearance",
-                "equipmentTooltip": "Equipping NFTs can help you climb the leaderboards by providing experience boosts, faster run speed, or increased damage"
+                "equipmentTooltip": "Equipping NFTs can help you climb the leaderboards by providing experience boosts, faster run speed, or increased damage",
+                "nftTab": "AS3 NFTs"
             },
             "info": {
                 "title": "Win the Season 3 Alpha Pass and earn up to 500 SAND Rewards",
@@ -1768,7 +1770,7 @@
                 "rank": "RANK",
                 "footer": {
                     "claimDisabled": "Claim your rewards from xxx",
-                    "claimButton": "Claim Rewards",
+                    "claimButton": "報酬を受け取る",
                     "shouldLogin": "Sign In to see your position on the Leaderboard",
                     "loggInButton": "Sign In"
                 }
@@ -6618,7 +6620,7 @@
                         "body": {
                             "1": "Increase your chances to win a Season 2 Alpha Pass by",
                             "2": "completing Quests",
-                            "3": "to earn Raffle Tickets.",
+                            "3": "抽選チケット入手のため。",
                             "4": "「抽選チケットはNFTではありません"
                         }
                     },
@@ -9012,7 +9014,7 @@
                 "Workspace_invite_creator": "Invite Creator",
                 "Workspace_invite_show": "Invite Display",
                 "Workspace_invite_destroyer": "Invite Destroyer",
-                "Workspace_owned_asset_add": "Add owned asset",
+                "Workspace_owned_asset_add": "所有アセットの追加",
                 "Workspace_transfer_asset_ownership": "Transfer Asset Ownership",
                 "Workspace_asset_move_verify": "Move Asset to Verify",
                 "Asset_send_iterate": "Send Asset Iterate",
