@@ -499,7 +499,7 @@
             "rewards": "리워드",
             "info": "정보",
             "raffleTickets": "티켓",
-            "contests": "이벤트",
+            "contests": "Events",
             "leaderboard": "리더보드",
             "shop": "마켓",
             "progression": {
@@ -569,7 +569,7 @@
             },
             "tooltips": {
                 "pendingExplore": "방문하지 않음",
-                "explored": "방문함",
+                "explored": "Experience visited",
                 "locked": "잠김",
                 "multiplayer": "멀티플레이어",
                 "singleplayer": "싱글플레이어",
@@ -709,8 +709,8 @@
                     "staking": "스테이킹",
                     "lands": "LAND",
                     "feedbackForm": "피드백 양식",
-                    "raffleDaysLeft": "추첨까지 남은 일수",
-                    "raffleDay": "추첨 결과 발표일",
+                    "raffleDaysLeft": "DAYS UNTIL RAFFLE RESULTS",
+                    "raffleDay": "RAFFLE RESULTS TODAY",
                     "raffleGoodLuck": "행운을 빕니다!!",
                     "raffleDayDesc": "알파 패스를 획득해 보세요!",
                     "claimPass": "패스 수령하기",
@@ -1650,18 +1650,20 @@
                 "s3Collection": "시즌 3 컬렉션",
                 "land": {
                     "title": "LAND",
-                    "ctaText": "LAND 구매"
+                    "ctaText": "LAND 구매",
+                    "description": "Own a LAND to unlock the LAND Owner Guaranteed rewards"
                 },
                 "nftAvatar": {
                     "title": "NFT 아바타",
-                    "description": "내부 TSB NFT와 외부 NFT"
+                    "description": "Own a NFT Avatar to unlock the Avatar Owner Guaranteed rewards"
                 },
                 "nftAsset": {
-                    "title": "NFT 애셋",
-                    "description": "내부 TSB NFT와 외부 NFT"
+                    "title": "AS3 NFT Collections",
+                    "description": "Own at least 1 NFT from the AS3 Collections to unlock the NFT Collector rewards"
                 },
                 "avatarTooltip": "아래 NFT 중 한 가지를 보유하고 있다면 어울리는 모습의 아바타를 획득할 수 있습니다.",
-                "equipmentTooltip": "NFT를 장비하면 파워, 스피드, 공격력이 강화되어 리더보드에서 더 높은 순위를 기록할 수 있습니다."
+                "equipmentTooltip": "NFT를 장비하면 파워, 스피드, 공격력이 강화되어 리더보드에서 더 높은 순위를 기록할 수 있습니다.",
+                "nftTab": "AS3 NFTs"
             },
             "info": {
                 "title": "시즌 3 알파 패스를 보유하고 최대 500 SAND 리워드를 획득하세요",
