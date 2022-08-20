@@ -219,8 +219,8 @@
         "reportNFT": "Report NFT",
         "report": "Report",
         "failedTryAgain": "Something went wrong. Please try again.",
-        "search_name": "",
-        "options_selected": "",
+        "search_name": "İsme göre ara",
+        "options_selected": "{miktar} opsiyonlar\n",
         "savedChanges": "Saved!",
         "createAccount": "Create an Account",
         "toPlayAlpha": "To Play Alpha Season 3 please use Mac or Windows PC",
@@ -410,9 +410,9 @@
                 "welcome": "Discover Alpha Season 3 starting August 24. Create your avatar before the Season starts",
                 "play": "Alpha Pass by completing Quests.",
                 "counter": "ALPHA SEASON 3",
-                "preSeason": "SEASON 3 COMING SOON",
+                "preSeason": "SEZON 3 ÇOK YAKINDA",
                 "duringSeason": "SEASON 3 IS LIVE",
-                "avatar": "Create Avatar"
+                "avatar": "Avatar Oluştur"
             }
         },
         "discover": {
@@ -501,7 +501,7 @@
             "raffleTickets": "Biletler",
             "contests": "Events",
             "leaderboard": "Leaderboard",
-            "shop": "",
+            "shop": "Dükkan",
             "progression": {
                 "ticketDetails": "Ticket Details",
                 "s1pass": "Season 1 AP",
@@ -616,8 +616,8 @@
             "raffle": {
                 "noWinner": "YOU DIDN'T WIN",
                 "noWinnerDesc": "Better luck the next time! You didn't win an Alpha S3",
-                "winner": "",
-                "winnerDesc": ""
+                "winner": "KAZANDIN!",
+                "winnerDesc": "S3 Alpha Pass kazandın"
             }
         },
         "pass": {
@@ -2817,7 +2817,7 @@
                                 "text1": "More than 100,000 LAND acquired by over 20,000 LAND owners",
                                 "text2": "New partners",
                                 "text3": "New sales system with a raffle and KYC for a fair and distributed process",
-                                "text4": "Upcoming LAND sale Ubisoft, Paris Hilton, Warner Music Group, Gucci"
+                                "text4": "Özel LAND Satışı Ubisoft, Paris Hilton, Warner Music Group, Gucci"
                             },
                             "play": {
                                 "title": "PLAY",
@@ -2921,7 +2921,7 @@
             "section6": {
                 "title": "What are you waiting for?",
                 "description": "Join the Community of thousands of users that have already registered in The Sandbox with their unique avatars.",
-                "buttonText": "Create Avatar",
+                "buttonText": "Avatar Oluştur",
                 "part1": {
                     "title1": "Ne için bekliyorsun?",
                     "description1": "Eşsiz avatarlarıyla Sandbox'a önceden kaydolmuş binlerce kullanıcının Topluluğuna katılın.",
@@ -4161,18 +4161,18 @@
                 "bannerText": "Add a banner image",
                 "bannerSize": "Optimal dimensions 2000x330",
                 "bannerLength": "Banner picture name is more than 200 characters long (including file extension)",
-                "profileUpdated": "",
-                "passwordChanged": "",
-                "emailSub": "",
-                "emailInvalid": "",
-                "emailSubNote": "",
-                "emailNote": "",
-                "oldEmailSub": "",
-                "newEmailSub": "",
-                "infoNote": "",
-                "usernameInvalid": "",
-                "socialNote": "",
-                "genericError": ""
+                "profileUpdated": "Profil güncel!",
+                "passwordChanged": "Hesap şifresi başarılı şekilde değiştirildi.",
+                "emailSub": "Email",
+                "emailInvalid": "Emai format geçersiz",
+                "emailSubNote": "Not:",
+                "emailNote": "Bu değişikliği yapmak için bir günvenlik kodu onayı gerekiyor",
+                "oldEmailSub": "Güncel Email",
+                "newEmailSub": "Yeni Email",
+                "infoNote": "ismini ekle, kullanıcı adını değiştir ve kendini anlatan bir tanıtım yazıp diğer kullanıcılarla tanış.",
+                "usernameInvalid": "Geçersiz kullanıcı adı",
+                "socialNote": "Sosyal medya hesaplarını bağlayıp diğer kullanıcılarla iletişimde ol",
+                "genericError": "Bir ya da daha dazla hata mevcut"
             },
             "security": {
                 "title": "Güvenlik ve Şifre",
@@ -4231,32 +4231,32 @@
                     "resend": "Resend code",
                     "checkSpam": ""
                 },
-                "checkNote": "",
-                "passForgot": "",
+                "checkNote": "Devam etmek için şifreni gir",
+                "passForgot": "Şifreni mi unuttun?",
                 "passwordSection": {
-                    "title": "",
-                    "newPassword": "",
-                    "repeatPassword": "",
-                    "noMatch": "",
-                    "match": "",
-                    "validation": "",
-                    "save": "",
-                    "success": "",
+                    "title": "Şifre editle",
+                    "newPassword": "Yeni Şifre",
+                    "repeatPassword": "Şifre tekrar",
+                    "noMatch": "Şifre uyuşmuyor",
+                    "match": "Şifre uyuşuyor",
+                    "validation": "Şifre en 8 karakter olmalı ve 1 büyük harf ve 1 numara içermelidir",
+                    "save": "Kaydet",
+                    "success": "Değiştirildi",
                     "months": {
-                        "0": "",
-                        "1": "",
-                        "2": "",
-                        "3": "",
-                        "4": "",
-                        "5": "",
-                        "6": "",
-                        "7": "",
-                        "8": "",
-                        "9": "",
-                        "10": "",
-                        "11": ""
+                        "0": "Ocak",
+                        "1": "Şubat",
+                        "2": "Mart",
+                        "3": "Nisan",
+                        "4": "Mayıs",
+                        "5": "Haziran",
+                        "6": "Temmuz",
+                        "7": "Ağustos",
+                        "8": "Eylül",
+                        "9": "Ekim",
+                        "10": "Kasım",
+                        "11": "Aralık"
                     },
-                    "modificated": "",
+                    "modificated": "Son güncelleme",
                     "notModified": "",
                     "oldPassNote": ""
                 },
@@ -4389,7 +4389,7 @@
                         "text1": "More than 100,000 LAND acquired by over 20,000 LAND owners",
                         "text2": "New partners",
                         "text3": "New sales system with a raffle and KYC for a fair and distributed process",
-                        "text4": "Upcoming LAND sale Ubisoft, Paris Hilton, Warner Music Group, Gucci"
+                        "text4": "Özel LAND Satışı Ubisoft, Paris Hilton, Warner Music Group, Gucci"
                     },
                     "play": {
                         "title": "PLAY",
@@ -4942,8 +4942,8 @@
                 "acquisition": "KAZANIM",
                 "currency": "BAKİYE",
                 "profit": "KAR",
-                "description": "",
-                "type": ""
+                "description": "AÇIKLAMA",
+                "type": "TİP"
             },
             "detailsmobile": {
                 "acquisition": "Kazanım",
@@ -6934,9 +6934,9 @@
             "contractsIssue": "Bir şeyler yanlış gitti. Eğer cüzdanınızı değiştirmeye çalıştıysanız, aklınızda bulunsun, her cüzdan değiştirdiğinizde sözleşmeyi tekrar imzalamak zorundasınız.",
             "toManyAvatars1": "En fazla yayınlayabileceğiniz miktar : ",
             "toManyAvatars2": "avatar. Daha fazla satın almak için OpenSea'ye gidin.",
-            "walletLocked": "",
-            "pleaseReconnect": "",
-            "doesNotMatch": ""
+            "walletLocked": "Birşeyler yanlış gitti. Lütfen bir cüzdan bağlayıp mint edin.",
+            "pleaseReconnect": "Lütfen tekrar bağlanın:",
+            "doesNotMatch": "Bağlı cüzdanınız hesabınızdakiyle uyuşmuyor."
         },
         "textFormMint": {
             "isPublic": "isPublic",
@@ -8825,13 +8825,13 @@
             "assets": "資產",
             "link": "公共鏈接",
             "created": "創建者",
-            "description2": ""
+            "description2": "Cüzdanını bağla farklı bir avatarın olup olmadığını kontrol et"
         },
         "link": "在 OpenSea 上購買",
         "sidebar": "頭像",
         "explore": "探索外部收藏",
         "total": " 集合中的資產",
-        "exploreLands": "",
+        "exploreLands": "Land & Estate'leri keşfet",
         "exploreLatest": "Explore All Assets"
     },
     "alpha3": {
@@ -9168,7 +9168,7 @@
                     "title3": "3. What kind of NFT do you want to create?",
                     "title4": "4. How do you want to boost the NFT?",
                     "title5": "Pick a theme",
-                    "subtitle1_1": "",
+                    "subtitle1_1": "altyazı1_1",
                     "subtitle2_1": "These tags will help people searching for this type of NFT on Game Maker or out Marketplace. Choose up to 3 tags",
                     "subtitle3_1": "The catalyst define the Tier of your asset, they can be socketed with Gems.",
                     "subtitle3_2": "The higher the Tier, the more sockets.",
@@ -9254,9 +9254,9 @@
             },
             "redirectToUpload": "Redirecting to upload page",
             "users": {
-                "fail": "",
-                "home": "",
-                "account": ""
+                "fail": "VoxEdit'le giriş yaptığın başka bir hesapla varlık yüklemeye çalışıyorsun",
+                "home": "Ana sayfaya dön",
+                "account": "Farklı bir hesapla bağlan"
             }
         },
         "experiences": {
@@ -9756,7 +9756,7 @@
                 "cta": "Start Verification",
                 "date": "on {0} UTC",
                 "needHelp": "Need help? Check the {0} to learn more about the Account Verification process.",
-                "actionReference": ""
+                "actionReference": "referans"
             },
             "cancelled": {
                 "label": "Cancelled",
@@ -9764,8 +9764,8 @@
                 "extra": "",
                 "cta": "Start Verification",
                 "date": "on {0} UTC",
-                "actionReference": "",
-                "needHelp": ""
+                "actionReference": "referans",
+                "needHelp": "yardım"
             },
             "waitingVerification": {
                 "label": "Pending Review",
