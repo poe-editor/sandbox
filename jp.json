@@ -223,7 +223,7 @@
         "options_selected": "選択中：{count}オプション",
         "savedChanges": "Saved!",
         "createAccount": "Create an Account",
-        "toPlayAlpha": "To Play Alpha Season 3 please use Mac or Windows PC",
+        "toPlayAlpha": "アルファ・シーズン3のプレイには、MacまたはWindows PCをご使用ください",
         "update": "Update",
         "goToClaim": "Go to Claim",
         "catalyst&Gems": "CATALYST & GEMS"
@@ -407,12 +407,12 @@
             },
             "createAccount": "アカウントの作成",
             "ribbonSeason3": {
-                "welcome": "Discover Alpha Season 3 starting August 24. Create your avatar before the Season starts",
-                "play": "Alpha Pass by completing Quests.",
-                "counter": "ALPHA SEASON 3",
-                "preSeason": "SEASON 3近日公開",
-                "duringSeason": "SEASON 3 IS LIVE",
-                "avatar": "Create Avatar"
+                "welcome": "アルファ・シーズン3、8月24日スタート！シーズン開始前にアバターを作成しよう",
+                "play": "クエストをコンプリートしてアルファパスをゲット",
+                "counter": "アルファ・シーズン3",
+                "preSeason": "シーズン3 近日公開",
+                "duringSeason": "シーズン3 開催中",
+                "avatar": "アバターを制作する"
             }
         },
         "discover": {
@@ -443,7 +443,7 @@
             "button": "詳細はこちら"
         },
         "community": {
-            "badge": "新消息！",
+            "badge": "What's new！",
             "title": "コミュニティ",
             "description": "WHAT'S NEW"
         },
@@ -472,25 +472,25 @@
             "disabled": "*Minting starts on July 25"
         },
         "avatarSeason3": {
-            "title": "Play with your own avatar",
+            "title": "気に入ったアバターでプレイしよう",
             "description": {
                 "1": "プロフィール写真をワンランク上に！お気に入りのアバターを選んで、The Sandboxメタバースを探索しましょう。"
             }
         },
         "nftSeason3": {
-            "title": "GET YOUR NFTs",
-            "buttonText": "Go to Marketplace"
+            "title": "NFTをゲットしよう",
+            "buttonText": "ショップへ急ごう"
         },
         "landSeason3": {
-            "title": "BECOME A LAND OWNER"
+            "title": "LANDオーナーになろう"
         },
         "sandSeason3": {
-            "title": "WHY SAND?",
-            "buttonText": "Buy now"
+            "title": "どうしてSANDなの?",
+            "buttonText": "購入する"
         },
         "experiencesSeason3": {
-            "experiences": "Experiences!",
-            "discover": "Discover all our"
+            "experiences": "体験！",
+            "discover": "探索しよう全"
         }
     },
     "season": {
@@ -528,7 +528,7 @@
                 "buttonText": "こちら"
             },
             "sidebarRight": {
-                "progressTitle": "最新の進行度",
+                "progressTitle": "進行度",
                 "noProgress": "まだ受け取れる状態には達していません",
                 "unlockedTitle": "最新のアンロック済み体験",
                 "noUnlocked": "アンロックした体験はまだありません",
@@ -615,7 +615,7 @@
             "joinDiscord": "Discordに参加する",
             "raffle": {
                 "noWinner": "YOU DIDN'T WIN",
-                "noWinnerDesc": "Better luck the next time! You didn't win an Alpha S3",
+                "noWinnerDesc": "S3 アルファパスをゲットできませんでした。次回に期待！",
                 "winner": "当選しました！",
                 "winnerDesc": "S3 アルファパスが当たりました"
             }
@@ -636,13 +636,13 @@
             },
             "rewards": {
                 "description": "アルファ版終了時に報酬を受け取るには、インベントリにアルファパスを所持している必要があります",
-                "claim": "受け取る",
+                "claim": "受取り",
                 "alpha": "アルファ",
                 "alphaEnded": "アルファ版は終了しました",
                 "inProgress": "稼働中",
                 "endingSoon": "まもなく終了",
                 "seasonOver": "The Sandboxアルファ版が終了しました！",
-                "seasonOverDescription": "アルファ版にご参加いただき、ありがとうございます。報酬をご用意しています！有効になり次第、以下の[受け取り]ボタンをクリックしてください。",
+                "seasonOverDescription": "アルファ版にご参加いただき、ありがとうございます。報酬をご用意しています！有効になり次第、以下の[受取り]ボタンをクリックしてください。",
                 "description2": "報酬を受け取りました！受け取り完了後まもなく、インベントリとウォレットに報酬が表示されます",
                 "claimed": "受け取り済み",
                 "howToLevel": "レベルアップと報酬獲得方法",
@@ -674,7 +674,7 @@
                     "raffleDrawTitle2": "実施中",
                     "raffleDescription": "クエストを完了して抽選チケットを入手しましょう。",
                     "raffleDescription2": "チケット枚数が多ければ、アルファパス獲得のチャンスが上がります。",
-                    "raffleDrawDescription": "At the end of the Raffle, you will find out if you win a Season 3 Alpha Pass. Good luck!",
+                    "raffleDrawDescription": "抽選会の最後に、シーズン3アルファパスが当たったかどうかがわかります。幸運を祈ります！",
                     "howToGet": "シーズン2アルファパスの獲得方法",
                     "raffleButton": "抽選",
                     "contestButton": "Contest",
@@ -745,7 +745,7 @@
                     "communityBoosterDescription2": "で合計プライズプールを増やす。最大+100%。",
                     "communityBoosterDescription3": "ステーキングのための最大200枚の抽選チケット",
                     "raffleHasPass": "日で受け取り可能",
-                    "raffleHasPassDesc": "You own a S3 Alpha Pass",
+                    "raffleHasPassDesc": "S3 アルファパスを所有しています",
                     "communityBoosterDescription": "賞金総額を増やすためにSANDのステーキングをする。Community boosterは、みんなのSANDの報酬に反映されます。コミュニティがステークすればするほど、コミュニティはより多くの報酬を得ることができます。また、ステークすることで抽選チケットも追加でもらえます。",
                     "enterThePartyDescription": "そして、3月24日木曜日の午後7時から始まるVIPパーティーに参加しましょう",
                     "seasonOverDescription4": "SANDの報酬を受け取れるようになるまで、パスホルダー用のVIPパーティーでお待ちください。",
@@ -770,8 +770,8 @@
                     "gotIt": "Congrats! You got it",
                     "goSeeIt": "Go to see it",
                     "completeSurvey": "COMPLETE THE SURVEY",
-                    "earnRT": "EARN 10 RAFFLE TICKETS FOR SEASON 3",
-                    "helpImprove": "Help us improving The Sandbox by sending your feedback. Complete the survey now and get extra Raffle Tickets for Alpha Season 3!",
+                    "earnRT": "シーズン3の抽選券を10枚獲得しよう",
+                    "helpImprove": "The Sandboxの改善にご協力をお願いします。今すぐアンケートに答えて、アルファ・シーズン3の抽選券をゲットしよう！",
                     "take": "Take the survey",
                     "enterAlphaLobby": "アルファロビーに入る",
                     "didNotWinMemorabilia": "You didn't win the memorabilia"
@@ -805,15 +805,15 @@
                 "stake": "ステーキング",
                 "notTraded": "抽選チケットはNFTではなく、",
                 "notTraded2": "セカンダリーマーケットで取引することはできません",
-                "questTooltipDesc": "レベルアップするたびに抽選券がもらえます。レベルごとのチケットの枚数は、「報酬」タブに表示されています。",
+                "questTooltipDesc": "レベルアップするたびに抽選チケットがもらえます。レベルごとのチケットの枚数は、「報酬」タブに表示されています。",
                 "stakeTooltipDesc": "シーズン2期間中（28日間）、{ticketAmount} mSANDを賭けるごとにラッフルチケットを1枚追加で獲得します。最大200ラッフルチケット。",
-                "snoopTooltipDesc": "Snoop Dogg Private Party Pass NFTをお持ちの方は、抽選券を30枚追加で差し上げます。抽選会開始時（3月31日）にお財布の中にNFTがあることが条件です。",
-                "snoop2TooltipDesc": "Snoopverse Early Access Pass NFTを所有すると、抽選券を30枚追加で入手できます。抽選会開始時（3月31日）に財布にNFTを所持している必要があります。",
+                "snoopTooltipDesc": "Snoop Dogg Private Party Pass NFTをお持ちの方は、抽選チケットを30枚追加で差し上げます。抽選会開始時（3月31日）にお財布の中にNFTがあることが条件です。",
+                "snoop2TooltipDesc": "Snoopverse Early Access Pass NFTを所有すると、抽選チケットを30枚追加で入手できます。抽選会開始時（3月31日）に財布にNFTを所持している必要があります。",
                 "alphaTooltipDesc": "シーズン1アルファパス（NFT名：アルファパス）を所有することで、130枚の追加ラッフルチケットを手に入れることができます。抽選会開始時（3月31日）に財布にNFTを所持している必要があります。",
-                "landTooltipDesc": "LAND1台につき40枚のラッフルチケットを追加でプレゼント。ラッフル開始時（3月31日）に財布の中にあるNFTを所有している必要があります。抽選券は最大200枚です。",
+                "landTooltipDesc": "LAND1台につき40枚のラッフルチケットを追加でプレゼント。ラッフル開始時（3月31日）に財布の中にあるNFTを所有している必要があります。抽選チケットは最大200枚です。",
                 "feedbackTooltipDesc": "シーズン1のフィードバックフォームに回答すると、ラッフルチケット10枚が追加でもらえます。このフォームは現在閉鎖されています。アルファ版シーズン1へのご参加ありがとうございました。シーズン2終了後も、フィードバックフォームへの記入をお忘れなく。",
                 "snoop3": "Doggie Avatar",
-                "snoop3TooltipDesc": "Doggie Avatar NFTを所有することで、抽選券を100枚追加で入手することができます。抽選会開始時（3月31日）に財布の中にあるNFTを所有する必要があります。",
+                "snoop3TooltipDesc": "Doggie Avatar NFTを所有することで、抽選チケットを100枚追加で入手することができます。抽選会開始時（3月31日）に財布の中にあるNFTを所有する必要があります。",
                 "season2Feedback": "Season 2 Feedback form",
                 "season2FeedbackEarned": "Earned by answering the feedback form at the end of Season 2",
                 "season2": "Season 2 Alpha Pass",
@@ -826,9 +826,9 @@
             "downloadAlpha": "アルファ版をダウンロード",
             "ethosPointsEarned": "Ethos Point earned",
             "shop": {
-                "s3": "Alpha Season 3",
+                "s3": "アルファ・シーズン3",
                 "title": "NFT SHOP",
-                "subtitle": "Earn the NFT Collector Badge by collecting Season 3 NFTs and earn more SAND at the end of the Season.",
+                "subtitle": "シーズン3のNFTを集めるとNFTコレクターバッジを獲得でき、シーズン終了時にさらにSANDを獲得することができます。",
                 "totalOwned": "TOTAL NFT OWNED",
                 "enterMetaverse": "Enter the Metaverse",
                 "badgeStatus": "You need to be logged in to see your Badge status",
@@ -843,7 +843,7 @@
                 "getMore": "Get More",
                 "externalNFT": "External NFT",
                 "internalNFT": "Internal TSB NFT",
-                "s3Collection": "Season 3 Collection"
+                "s3Collection": "Season3 コレクション"
             }
         },
         "info": {
@@ -942,7 +942,7 @@
                 "fourthText": {
                     "title": "報酬を受け取る！",
                     "text1": "你可以在Alpha版本的最后一天（12月20日）时领取你已解锁的奖励。",
-                    "text2": "领取当天，请确保你的钱包里有Alpha通行证才可正常领取奖励。",
+                    "text2": "受け取るには、その日にアルファパスがウォレットに入っている必要があります。",
                     "text3": "在Alpha版本关闭（12月20日）后，请勿在OpenSea上购买Alpha通行证。详情请查看下方的常见问题。"
                 }
             },
@@ -1506,28 +1506,28 @@
         },
         "alpha3": {
             "contest": {
-                "ranking": "RANKING SEASON 3",
-                "socialContests": "Events and Contests",
-                "howItWorks": "How does it work?",
-                "howItWorksDesc": "Earn different rewards by participating in activities every weekday.",
-                "ongoing": "LIVE",
-                "coming": "COMING",
-                "onlyForOwners": "Only For Owners",
-                "seeMore": "More Info",
+                "ranking": "シーズン3 ランキング",
+                "socialContests": "イベント・コンテスト",
+                "howItWorks": "遊び方",
+                "howItWorksDesc": "平日に毎日アクティビティに参加すると、特別な報酬を得られます。",
+                "ongoing": "ライブ",
+                "coming": "次",
+                "onlyForOwners": "オーナーだけの",
+                "seeMore": "詳細情報",
                 "shared": "Shared",
-                "rewards": "Rewards",
+                "rewards": "報酬",
                 "comingSoon": "近日公開",
-                "upcoming": "Upcoming",
-                "upcomingDesc": "Stay tuned for new contests every week!",
+                "upcoming": "もうすぐやってくる",
+                "upcomingDesc": "新しいコンテストは毎週開催予定です。お楽しみに！",
                 "play": "Play",
-                "openUntil": "Open until",
-                "upcomingEvents": "Upcoming Events",
+                "openUntil": "開催終了：",
+                "upcomingEvents": "近日公開イベント",
                 "endingSoon": "Ending Soon",
-                "upNext": "UP NEXT",
+                "upNext": "次",
                 "prizePool": "Prize Pool",
-                "contest": "Contest",
-                "challenge": "Challenge",
-                "giveaway": "Giveaway",
+                "contest": "コンテスト",
+                "challenge": "チャレンジ",
+                "giveaway": "プレゼント",
                 "new": "New",
                 "dailyChallenge": "Daily Challenge",
                 "dailyChallenges": "Daily Challenges",
@@ -1537,39 +1537,39 @@
                 "newThisWeek": "New This Week"
             },
             "rewards": {
-                "alphaSeason": "Alpha Season 3",
-                "rewards": "Rewards",
-                "claimDesc": "Available from Oct. 14",
-                "leaderboardDesc": "Leaderboard Reward:",
-                "leaderboardDesc2": "Compete with other players on the Leaderboard and earn up to 30K SAND reward!",
-                "leaderboardDesc3": "Go to the Leaderboard",
+                "alphaSeason": "アルファ・シーズン3",
+                "rewards": "報酬",
+                "claimDesc": "10月14日より開始",
+                "leaderboardDesc": "Leaderboard報酬：",
+                "leaderboardDesc2": "Leaderboardで他のプレイヤーと競い合い、最大で30KのSAND報酬を獲得しよう！注）日本在住の方を除く",
+                "leaderboardDesc3": "Leaderboardへ行く",
                 "cannotParticipate": "You already own an Alpha Pass! No need to participate in the Raffle anymore.",
-                "didNotWin": "Unfortunately you did not win the Raffle this time.",
-                "wonAlpha": "Congratulations! You won a Season 3 Alpha Pass. Thanks for joining us!",
+                "didNotWin": "残念ながら、今回は抽選に当たりませんでした。",
+                "wonAlpha": "おめでとうございます！シーズン3アルファパスが当たりました。",
                 "loggedOut": "You need to be logged in to see your progression",
                 "collectRaffle": "Raffle Tickets increase your chances of winning the Raffle",
-                "ifYouWin": "IF YOU WIN AN ALPHA PASS",
-                "youHold": "YOU HOLD AN ALPHA PASS",
-                "getAlphaDesc": "Own an Alpha Pass to unlock this reward.",
-                "stake": "Stake",
-                "buy": "Buy",
-                "guaranteed": "GUARANTEED",
-                "guaranteedDesc": "Own a LAND, an Avatar or a NFT from Season 3 Collections to earn a {0} at the end of the season.",
-                "earnSand": "GUARANTEED SAND REWARD",
-                "landOwner": "Land Owner",
-                "forLandOwner": "FOR LAND OWNERS ONLY",
-                "landDesc": "Get a LAND to unlock these rewards",
-                "avatarOwner": "Avatar Owner",
-                "forAvatarOwner": "FOR AVATAR OWNERS ONLY",
-                "avatarDesc": "Get an Avatar to unlock these rewards",
-                "collectorOwner": "NFT Collector",
-                "forCollectorOwner": "FOR NFT OWNERS ONLY",
-                "collectorDesc": "Get an NFT Badge collector to unlock these rewards",
-                "boosterTitle": "Community Booster Rewards",
+                "ifYouWin": "アルファパスが当たった場合",
+                "youHold": "アルファパスを保有中です",
+                "getAlphaDesc": "アルファパスを所有してこの報酬をゲットしよう。",
+                "stake": "ステーキング",
+                "buy": "購入",
+                "guaranteed": "保証します",
+                "guaranteedDesc": "シーズン3コレクションのLAND、アバター、NFTを所有すると、シーズン終了時に{0}を獲得することができます。注）日本在住の方を除く",
+                "earnSand": "SAND報酬を保証します",
+                "landOwner": "Landオーナー",
+                "forLandOwner": "LANDオーナー対象",
+                "landDesc": "この報酬をアンロックするにはLANDを入手してください",
+                "avatarOwner": "アバターオーナー",
+                "forAvatarOwner": "アバターホルダー対象",
+                "avatarDesc": "アバターを入手すると、この特典がアンロックされます",
+                "collectorOwner": "NFTコレクター",
+                "forCollectorOwner": "NFTオーナー対象",
+                "collectorDesc": "NFTバッジコレクターになり、報酬をアンロックしよう",
+                "boosterTitle": "コミュニティ・ブースター報酬",
                 "stakeDesc": "Stake {0} to help increase Alpha Pass rewards for everyone. {1}",
                 "upTo": "Up to +100%",
                 "stakeDesc2": "\"You will also get {0} for staking enough {1}. 1 point earned for each {2} staked during the whole season duration (10 weeks).",
-                "extraTickets": "500 extra Raffle Tickets",
+                "extraTickets": "500抽選チケット追加",
                 "onlyVerifiedAccounts": "Only Verified Accounts can win the Raffle",
                 "claimRewards": "報酬を受け取る!",
                 "alreadyOwnRaffle": "You already own an Alpha Pass! You will be able to claim your Alpha Pass rewards at the end of the season. No need to participate in the Raffle anymore.",
@@ -1581,31 +1581,31 @@
                 "epTooltip": "Earn Ethos Points by completing quests inside experiences. Harder quests will grant you more Ethos Points"
             },
             "summary": {
-                "rewardsSummary": "REWARDS SUMMARY",
-                "memorabilia": "Memorabilia",
+                "rewardsSummary": "報酬サマリー",
+                "memorabilia": "記念品",
                 "youWon": "You won:",
-                "badges": "Badges",
-                "badge": "Badge",
+                "badges": "バッジ",
+                "badge": "バッジ",
                 "leaderboard": "Leaderboard",
-                "collectorOwner": "NFT Collector Owner",
-                "goClaim": "Go to Claim",
-                "goBadges": "Go to Badges"
+                "collectorOwner": "NFT コレクター、オーナー",
+                "goClaim": "受取りにいく",
+                "goBadges": "バッジに行く"
             },
             "tickets": {
-                "enterMetaverse": "Enter the Metaverse",
-                "needToLogin": "Sign in to see your Raffle Tickets",
+                "enterMetaverse": "メタバースへ行く",
+                "needToLogin": "抽選チケットを確認しにサインインしよう",
                 "ticketsTitle": "Raffle Tickets Sources",
-                "ticketsDescription": "More Tickets more chance to win a Season 3 Alpha Pass.",
-                "ticketsDescription2": "Raffle Tickets are not NFTs and cannot be traded on the secondary market.",
-                "totalRaffleTickets": "TOTAL RAFFLE TICKETS",
-                "quest": "By leveling up",
-                "staking": "By Staking",
-                "s1Memorabilia": "Season 1 Memorabilia",
-                "s2Memorabilia": "Season 2 Memorabilia",
-                "s1MemorabiliaDesc": "By reaching level 5 of AS1",
-                "s2MemorabiliaDesc": "By reaching level 5 of AS2",
-                "s1Alpha": "Season 1 Alpha Pass",
-                "s2Alpha": "Season 2 Alpha Pass",
+                "ticketsDescription": "所有チケットが多ければ多いほどシーズン3のアルファパスが当たるチャンスが増えます。",
+                "ticketsDescription2": "抽選チケットはNFTではないので、二次流通での取引はできません。",
+                "totalRaffleTickets": "抽選チケットの総数",
+                "quest": "レベルアップによる",
+                "staking": "ステーキングによる",
+                "s1Memorabilia": "Season1 記念品",
+                "s2Memorabilia": "Season2 記念品",
+                "s1MemorabiliaDesc": "Alpha Season1のレベル5到達で",
+                "s2MemorabiliaDesc": "Alpha Season2のレベル5到達で",
+                "s1Alpha": "Season 1 アルファパス",
+                "s2Alpha": "Season 2 アルファパス",
                 "owningNFT": "By owning this NFT",
                 "prideMemorabilia": "Belonging Week Memorabilia",
                 "prideDescription": "By participating to all the contests during the Belonging Week",
@@ -1626,14 +1626,14 @@
                 "stakingDesc": "By Staking",
                 "ticketsDescription3": "Earn Raffle Tickets to increase your chances of winning the Raffle."
             },
-            "alphaSeason": "Alpha Season 3",
+            "alphaSeason": "アルファ・シーズン3",
             "shop": {
                 "nftShop": "NFT Shop",
-                "findAll": "Find all the NFTs you need to unlock the guaranteed rewards: LANDs, Avatars and AS3 NFT Collections",
+                "findAll": "保証された報酬をアンロックするために必要なNFT：LAND、アバター、AS3 NFTコレクション",
                 "nft": "NFT",
                 "nftCollector": "{0}Collector Badge",
                 "youOwn": "You own the NFT Collector Badge.",
-                "doNotOwn": "Own at least 1 NFT from the AS3 NFT Collections to unlock.",
+                "doNotOwn": "AS3コレクションからNFTを1つ以上所有すると、NFTコレクター報酬をアンロックできます。",
                 "keepIt": "Keep it until the end of the season to claim the NFT Collector Rewards.",
                 "needToLogin": "You need to be logged in to see your Badge status",
                 "signIn": "Sign in",
@@ -1647,7 +1647,7 @@
                 "getMore": "Get More",
                 "externalNFT": "External NFT",
                 "internalNFT": "Internal TSB NFT",
-                "s3Collection": "Season 3 Collection",
+                "s3Collection": "シーズン3 コレクション",
                 "land": {
                     "title": "Land",
                     "ctaText": "Buy Land",
@@ -1658,31 +1658,31 @@
                     "description": "Own a NFT Avatar to unlock the Avatar Owner Guaranteed rewards"
                 },
                 "nftAsset": {
-                    "title": "AS3 NFT Collections",
-                    "description": "Own at least 1 NFT from the AS3 Collections to unlock the NFT Collector rewards"
+                    "title": "AS3 NFT コレクション",
+                    "description": "AS3コレクションからNFTを1つ以上所有すると、NFTコレクター報酬をアンロックできます。"
                 },
                 "avatarTooltip": "Owning one of those NFTs will grant you an Avatar with a matching appearance",
                 "equipmentTooltip": "Equipping NFTs can help you climb the leaderboards by providing experience boosts, faster run speed, or increased damage",
-                "nftTab": "AS3 NFTs"
+                "nftTab": "AS3 NFT"
             },
             "info": {
-                "title": "Win the Season 3 Alpha Pass and earn up to 500 SAND Rewards",
-                "dateDesc1": "ALPHA SEASON 3 STARTS",
+                "title": "シーズン3アルファパスをゲットして、最大500SANDの報酬を獲得しよう",
+                "dateDesc1": "アルファ・シーズン3、スタート",
                 "dateDay1": "AUGUST 4",
                 "dateDesc2": "RAFFLE DAY/ SEASON END",
                 "dateDay2": "OCTOBER 12",
-                "findOut": "Find out what’s new for alpha season 3",
-                "alphaPass": "Season 3 Alpha Pass",
-                "howToGet": "HOW TO GET A SEASON 3 ALPHA PASS?",
-                "raffleDesc": "Participate in the Raffle at the end of Alpha Season 3, on October 13, 2022.",
-                "contestsDesc": "Participate in Alpha Season 3 social contests.",
-                "openseaDesc": "Anyone can buy a Season 3 Alpha Pass on Opensea, if someone is willing to sell it.",
-                "disclaimer": "Do not purchase an Alpha Pass after the end of Alpha Season 3 on October 12, 2022.",
-                "disclaimer2": "Be careful not to purchase a fake Season 3 Alpha Pass.",
+                "findOut": "アルファ・シーズン3の情報を見る",
+                "alphaPass": "Season3 アルファパス",
+                "howToGet": "シーズン3アルファパスの入手方法は？",
+                "raffleDesc": "アルファ・シーズン3終了時、2022年10月13日に開催される抽選会に参加する",
+                "contestsDesc": "アルファ・シーズン3ソーシャルコンテストに参加する。",
+                "openseaDesc": "シーズン3のアルファパスは、売り手がいれば、Openseaで買うことができます。注）日本在住の方を除く。",
+                "disclaimer": "2022年10月12日以降、アルファパスを購入しないでください。",
+                "disclaimer2": "シーズン3アルファパスの偽物を購入しないようご注意ください。",
                 "sandRewards": "SAND Rewards",
-                "earnUp": "Earn up to {0} rewards with the Season 3 Alpha Pass. {1}",
+                "earnUp": "シーズン3アルファパスで最大{0}の報酬を獲得できます。{1}",
                 "seeRewards": "See Rewards",
-                "claimInfo": "The Season 3 Alpha Pass will be claimed on Ethereum Mainnet while the {0} reward will be claimed on Polygon Mainnet. {1}",
+                "claimInfo": "シーズン3アルファパスはEthereumメインネットで請求ができ、{0}の報酬はPolygonメインネットで請求できます。{1}",
                 "learnMore": "Learn More",
                 "maxRewards": "Max. base rewards:",
                 "maxBoosted": "Max. boosted rewards:",
@@ -1692,13 +1692,13 @@
                 "guaranteedRewards": "These are guaranteed rewards that are separate from the Raffle.",
                 "stakingInfo": "Alpha Pass rewards will be doubled if the Community reaches the staking goal. {0}",
                 "boostRewards": "Boost Rewards",
-                "KYCInfo": "Your account must be validated to earn ANY of the Alpha Season 3 rewards. {0}",
+                "KYCInfo": "アルファシーズン3の特典を獲得するには、アカウントの認証が必要です。{0}",
                 "validateAccount": "Validate my account",
                 "raffleDate": "THE RAFFLE OCCURS ON OCTOBER 13, 2022.",
                 "earnRaffle": "Earn Raffle Tickets",
                 "raffleDescription": "{0} by earning EPs by completing Quests inside each experience on the {1}",
                 "alphaMap": "Alpha Map",
-                "moreChances": "= MORE CHANCES TO WIN A SEASON 3 ALPHA PASS",
+                "moreChances": "= シーズン3アルファパスが当たるチャンスが増えます",
                 "moreEp": "MORE EPs = MORE",
                 "canGetExtra": "YOU CAN GET EXTRA RAFFLE TICKETS BY:",
                 "participatedEvents": "If you participated in past The Sandbox events. {0}",
@@ -1713,24 +1713,24 @@
                 "levelUp": "LEVEL UP",
                 "earnRaffleTickets": "EARN RAFFLE TICKETS",
                 "canGetTickets": "You can get up to 500 extra Raffle Tickets by staking",
-                "stakingDescription": "The staking score of the whole community will be added together to create a Reward Community Booster that will increase the S3 Alpha Pass rewards for everyone.",
+                "stakingDescription": "コミュニティ全体のステーキングのスコアを集計して、みんなのS3アルファパスの報酬を増やす「コミュニティブースター報酬」の額が決まります。",
                 "stakingDescription2": "At its highest, the Reward Community Booster can DOUBLE the rewards (+100%).",
                 "participateSocial": "Participate in social events through the {0}",
                 "earnRaffleCompleting": "Earn Raffle Tickets every day by completing daily challenges.",
-                "getAChanceDate": "Get a chance to win a Season 3 Alpha Pass every Thursday.",
-                "getAChanceGiveaways": "Get a chance to win a Season 3 Alpha Pass during IP giveaways.",
+                "getAChanceDate": "毎週木曜日にシーズン3アルファパスが当たるチャンスがあります。",
+                "getAChanceGiveaways": "IPプレゼント企画でもシーズン3アルファパスが当たるチャンスがあります。",
                 "contestsTab": "Contests tab",
-                "disclaimerContests": "Please note that if you get a Season 3 Alpha Pass through social events you will no longer be eligible to receive one from the Raffle at the end of Alpha Season 3.",
+                "disclaimerContests": "ソーシャルイベントでシーズン3アルファパスを入手された方は、アルファシーズン3の抽選会より2枚目を受け取ることができません。ご了承ください。",
                 "ugc": "UGC",
                 "ugcDescription": "Created by regular TSB users. They have the ownership and responsibility for their content. You might find a few bugs.",
                 "whatsNew": "What's New?",
                 "KYC": "KYC: Know Your Customer",
-                "KYCDescription": "Validate your account by verifying your identity. Everybody can play but only validated accounts can earn rewards. KYC is a crucial process to help us provide a safe and fair environment.",
+                "KYCDescription": "KYCは、安全で公正な環境を提供するために重要なプロセスです。本人確認プは必ず行ってください。プレイは誰でもできますが、リワードを獲得できるのはユーザー認証済みのアカウントのみです。",
                 "leaderboards": "Leaderboards",
                 "leaderboardsDescription": "The more Ethos Points (EPs) you earn the higher you will rank in the Leaderboard. The prize pool is 1.5 million SAND. First place gets 30,000 SAND!",
                 "seeLeaderboard": "See Leaderboard",
                 "polygon": "Polygon",
-                "polygonDescription": "Claiming of Alpha Season 3 rewards will occur on Polygon Mainnet. Gas fees will now be way lower!",
+                "polygonDescription": "アルファ・シーズン3の報酬の請求は、Polygon Mainnetで行われます。これまでより、ガス代が安くなります！",
                 "EP": "EP stands for Ethos Points",
                 "EPDescription": "Completing quests inside the metaverse will now grant EPs. The harder the quest, the more EPs you will earn. Obtain EPs to level up and earn rewards.",
                 "play": "Play",
@@ -1743,7 +1743,7 @@
         },
         "leaderboard": {
             "head": {
-                "date": "Alpha Season 3",
+                "date": "アルファ・シーズン3",
                 "title": "Leaderboard",
                 "description": "Earn Ethos Points (EP) in the fastest time to rank higher in the leaderboard and earn up to 30K SAND! Equipment NFTs will help you complete quests faster.",
                 "link": "Go to NFT Shop"
@@ -1761,7 +1761,7 @@
                     "Completition Time",
                     "Prizes"
                 ],
-                "warn": "Remember to validate your identity before the end of the Alpha Season 3. You need it to claim your rewards.",
+                "warn": "アルファシーズン3が終了する前に、本人確認を行うことを忘れないでください。報酬を受け取るために必要な手続きです。",
                 "currentUser": "YOU"
             },
             "rewards": {
@@ -2198,7 +2198,7 @@
             "totalOnNetwork1": "合計",
             "totalOnNetwork2": "ネットワークの合計",
             "network": "通信網",
-            "polygon": "ポリゴン",
+            "polygon": "Polygon",
             "ethereum": "イーサリアム"
         },
         "assets": {
@@ -2217,7 +2217,7 @@
         "claim": {
             "claim": "受け取る",
             "alreadyClaim": "受け取り済み",
-            "putOnSale": "売りに出す",
+            "putOnSale": "販売する",
             "saleQuestion": "こちらのNFTをマーケットプレイスで販売しますか？",
             "putOnSaleSuccess": "ASSETは現在販売中"
         },
@@ -2581,7 +2581,7 @@
                     "edit": "編集",
                     "logout": "ログアウト",
                     "settings": "設定",
-                    "badges": "Badges"
+                    "badges": "バッジ"
                 },
                 "profile": {
                     "sandAmount": "あなたのSAND",
@@ -2657,7 +2657,7 @@
                         "purchaseGems": "ジェムを購入",
                         "mint": "発行",
                         "commonmint": "通常発行",
-                        "commonMintDisclaimer": "これらアセットにアートタイプを設定するのをお忘れなく",
+                        "commonMintDisclaimer": "これらアセットにARTタイプを設定するのをお忘れなく",
                         "catalystmint": "ジェムで発行",
                         "purchaseGemsDisclaimer": "続けるにはカタリストとジェムを購入してください",
                         "removing": "属性はすべて削除されます。",
@@ -2760,7 +2760,7 @@
                     "bannerSubtitle1": "We continue to bring value to our land owners",
                     "bannerSubtitle2": "ROADMAP 2022 for LAND Owner",
                     "bannerSubtitle3": "SAND Airdrop for LAND owner",
-                    "checkButtonText": "Check your Claim",
+                    "checkButtonText": "受け取りの確認",
                     "landOwner": {
                         "landsCount1": "You own",
                         "landsCount2": "LANDS",
@@ -2816,14 +2816,14 @@
                                 "title": "BUY",
                                 "text1": "More than 100,000 LAND acquired by over 20,000 LAND owners",
                                 "text2": "New partners",
-                                "text3": "抽選とKYCのシステムを新たに導入 ",
+                                "text3": "抽選とKYCのシステムを新たに導入",
                                 "text4": "Upcoming LAND sale Ubisoft, Paris Hilton, Warner Music Group, Gucci"
                             },
                             "play": {
                                 "title": "PLAY",
                                 "text1": "Season 1 : Exclusive Rewards",
                                 "text2": "Season 2 : Earn more $SAND and Raffle Tickets",
-                                "text3": "Season 3 : Extra Raffle Tickets, increased rewards, special raffle for LAND Owners only, raffle bonus"
+                                "text3": "シーズン3 : 追加の抽選チケット、報酬アップ、LANDオーナー限定抽選会、ボーナス抽選会"
                             },
                             "build": {
                                 "title": "BUILD",
@@ -2835,7 +2835,7 @@
                             },
                             "migrate": {
                                 "title": "MIGRATE",
-                                "text1": "Get access to all features on Polygon Layer 2",
+                                "text1": "Polygonレイヤー2の全機能を利用可能にする",
                                 "text2": "1M $SAND distributed in cashback on migrated LANDs"
                             },
                             "meet": {
@@ -3162,7 +3162,7 @@
             "assetsOwned": "所有アセット",
             "assetsIncluded": "含まれるアセット",
             "blocksIncluded": "含まれるブロック",
-            "addToCheckout": "追加して清算",
+            "addToCheckout": "カートに追加する",
             "viewLands": "LANDを表示",
             "viewMap": "マップを表示",
             "buyNow": "今すぐ購入",
@@ -3464,7 +3464,7 @@
             },
             "buy": {
                 "title": "まだLANDを購入したことがない方へ",
-                "description": "想像以上に簡単です！膨大なオンラインリソースを確認して、詳細を知りましょう。当社のDiscordサーバーに参加すれば、The Sandboxのコミュニティメンバーと直接質疑応答ができます。",
+                "description": "想像以上に簡単です！当社のDiscordサーバーに参加すれば、The Sandboxのコミュニティメンバーと直接質疑応答ができます。",
                 "buttonText": "詳細"
             },
             "cards": {
@@ -3611,7 +3611,7 @@
             "settings": "設定",
             "claim": "クレーム",
             "bridge": "Bridge",
-            "badges": "Badges"
+            "badges": "バッジ"
         },
         "profile": {
             "sandAmount": "あなたの",
@@ -4296,16 +4296,16 @@
             "accountVerification": "Verification",
             "kyc": {
                 "title": "アカウント認証",
-                "subtitle": "KYCプロセス",
-                "description": "To join some activies such as the LAND Sale Raffle or claiming Season rewards, we require you to complete the identity Verification process.",
-                "extra": "The process might take up to 48hs, make sure you verify on time so you don't miss any activity. You can always check your identity Verification status here.",
+                "subtitle": "KYCの手順",
+                "description": "LANDセール、抽選やシーズン特典の申請などの活動に参加するためには、アカウント認証プロセスを完了する必要があります。",
+                "extra": "手続きには最大で48時間かかる場合があります。確認の進捗状況は、こちらでいつでも確認することができます。",
                 "button": {
                     "start": "認証を開始する",
                     "continue": "認証を継続する",
                     "check": "認証を確認する"
                 },
                 "resultDate": {
-                    "message": "on {0} UTC"
+                    "message": "時間： {0} UTC"
                 }
             }
         },
@@ -4325,7 +4325,7 @@
             "bannerSubtitle1": "We continue to bring value to our LAND owners",
             "bannerSubtitle2": "ROADMAP 2022",
             "bannerSubtitle3": "5m SAND claim",
-            "checkButtonText": "Check your Claim",
+            "checkButtonText": "受け取りの確認",
             "landOwner": {
                 "lands": "{0} LAND",
                 "msand": "{0} {1} SAND",
@@ -4395,7 +4395,7 @@
                         "title": "PLAY",
                         "text1": "Season 1 : Exclusive Rewards",
                         "text2": "Season 2 : Earn more $SAND and Raffle Tickets",
-                        "text3": "Season 3 : Extra Raffle Tickets, increased rewards, special raffle for LAND Owners only, raffle bonus"
+                        "text3": "シーズン3 : 追加の抽選チケット、報酬アップ、LANDオーナー限定抽選会、ボーナス抽選会"
                     },
                     "build": {
                         "title": "BUILD",
@@ -4407,7 +4407,7 @@
                     },
                     "migrate": {
                         "title": "MIGRATE",
-                        "text1": "Get access to all features on Polygon Layer 2",
+                        "text1": "Polygonレイヤー2の全機能を利用可能",
                         "text2": "1M $SAND distributed in cashback on migrated LAND"
                     },
                     "meet": {
@@ -4423,17 +4423,17 @@
         "signinWithEmail": "Sign in with email",
         "venlyDowntimeAlert": "Venly services will experience downtime between Monday 13, June from 03:00 UTC to 05:00 UTC.",
         "badges": {
-            "title": "Badges",
+            "title": "バッジ",
             "note": "Get badges by achieving various goals inside The Sandbox ecosystem. Badges will grant you extra Raffle Tickets for upcoming Alpha Seasons Raffles.",
             "nftNote": "Badges are not NFTs and cannot be traded",
-            "obtained": "Obtained",
-            "missed": "Missed",
-            "noBadge": "Select a Badge to preview",
+            "obtained": "入手済",
+            "missed": "ミス",
+            "noBadge": "バッズを選択してプレビューを見る",
             "noDates": "No Dates",
             "category": {
-                "1": "Alpha Season 1",
-                "2": "Alpha Season 2",
-                "3": "Alpha Season 3",
+                "1": "アルファシーズン 1",
+                "2": "アルファシーズン 2",
+                "3": "アルファ・シーズン3",
                 "4": "Collector",
                 "5": "Belonging Week"
             },
@@ -4722,7 +4722,7 @@
     "collectionPage": {
         "goBack": "戻る",
         "addedAssets": "追加しました",
-        "selectAssets": "コレクション内の欲しいアセットをすべて見てみましょう",
+        "selectAssets": "コレクション内のアセットを見てみましょう",
         "createCollection": "コレクションを作成する",
         "editCollection": "コレクションを編集する"
     },
@@ -4896,14 +4896,14 @@
         "updatePwd": "パスワードを更新してください！",
         "staking": {
             "title": "ステーキング",
-            "polyWallet": "POLYGON ネットワーク L2",
+            "polyWallet": "POLYGONネットワーク L2",
             "whyPolygon": "なぜPOLYGONなのか？",
             "whyPolygonText": "The SandboxはPolygonに移行して、ブロックチェーントランザクションの管理において高速かつ効率のいい方法をお届けします。EthereumとPolygon間の移動を可能にするブリッジをご用意しております。",
             "whatsBlockchain": "ブロックチェーンブリッジとは？",
             "bridgeSand": "SANDをブリッジ",
             "bridge": "ブリッジ",
             "mainnetL1": "ETHEREUM NETWORK",
-            "mainnetL2": "POLYGON NETWORK",
+            "mainnetL2": "POLYGONネットワーク",
             "discoverPolygon": "POLYGONの特典について",
             "noActivePool": "ステーキングすればさらに多くのSANDを獲得できます。",
             "bridgeNotAvailable": "現在お使いのウォレットはPolygonブリッジには対応していません。Metamaskをご利用ください。Metamaskウォレットをお持ちでない場合、次でSANDを獲得することはできます：",
@@ -5114,10 +5114,10 @@
             },
             "msand": {
                 "title": "mSANDの移行",
-                "text1": "SANDをPolygonに正式にデプロイする前に、汎用バージョンが作成され、一部のユーザーが間違った契約に資金を送っていました。",
+                "text1": "PolygonにSANDを正式に導入する前に、汎用的なバージョンを作成したところ、一部のユーザーが間違ったコントラクトに送金するという事態が発生しました。",
                 "text2": " あなたがそれらのユーザーの一人であるなら、私たちはあなたをカバーしてもらいました。 廃止されたSANDを公式バージョンと交換できます。",
                 "gasless2": "私たちはあなたをカバーしてもらいました。",
-                "viewMigrationContract": "Polygonscanでクレーム契約を表示",
+                "viewMigrationContract": "Polygonscanでコントラクトを表示",
                 "success": "すべてのmSANDが正常に移行されました。."
             }
         },
@@ -5256,7 +5256,7 @@
                 "content": {
                     "item1": {
                         "title": "まだLandを購入したことがない方へ",
-                        "content": "想像以上に簡単です！膨大なオンラインリソースを確認して、詳細を知りましょう。当社のDiscordサーバーに参加すれば、The Sandboxのコミュニティメンバーと直接質疑応答ができます。",
+                        "content": "想像以上に簡単です！当社のDiscordサーバーに参加すれば、The Sandboxのコミュニティメンバーと直接質疑応答ができます。",
                         "btn": "詳細"
                     },
                     "item2": {
@@ -5315,9 +5315,9 @@
             "title": "パートナー",
             "title2": "近日公開",
             "description": "PARTNERS",
-            "description2": "SEASON 3",
-            "stayTuned": "Stay tuned for the Season 3 date announcement.",
-            "register": "Register for Season 3"
+            "description2": "シーズン3",
+            "stayTuned": "シーズン3の日程発表までお待ちください。",
+            "register": "シーズン3に登録する"
         },
         "modules": {
             "zero": {
@@ -5461,7 +5461,7 @@
             "paragraphLooser2": "明日、アルファパス所有者は報酬を受け取れるようになります。",
             "seasonIsOver": "アルファシーズン2は終了しました。",
             "purchaseWarning": "今後、セカンダリーマーケットでシーズン2のアルファパスを購入しないようにしてください。そのパスで報酬を受け取ることはできません。",
-            "seeYouSoon": "再び運をかけ、シーズン3でお会いしましょう！",
+            "seeYouSoon": "それでは、シーズン3でお会いしましょう！",
             "gotIt": "わかりました",
             "claimButton": "Claim S2 Alpha Pass"
         },
@@ -5974,7 +5974,7 @@
             "footer-text-claim": "このトランザクションでは収益をすべて受け取り、お使いのウォレットへと入金します。",
             "footer-text-withdraw": "こちらのトランザクションでは合計預入額から指定した額のLPを引きだします。また受け取り可能な収益を受け取ることで、ネットワーク手数料を節約できます。",
             "onEtherscan": "Etherscanで表示",
-            "onPolyscan": "Polygonscanで表示",
+            "onPolyscan": "Polygonscanで表示する",
             "pairAnalytics": "Pairアナリティクス",
             "gasless": "Gasless",
             "free": "Free",
@@ -6028,14 +6028,14 @@
         },
         "exitTitle": "払い戻しと受け取り",
         "singleToken": {
-            "network": "POLYGONのメインネット",
+            "network": "Polygonメインネット",
             "gasWarning": "ネットワーク手数料としていくらかのSANDを残しておくか、チェーン設定にてMATICに切り替えましょう",
             "communityBooster": {
                 "title": "シーズン3",
                 "subtitle": "コミュニティステーキングスコア",
                 "text": "$SANDをステーキングして合計プライズプールを増やしましょう。ステーキングで追加の抽選チケットも手に入ります。",
-                "titlePolygon": "今SANDを賭けることができます",
-                "subtitlePolygon": "ステーキングのメリットを享受できます",
+                "titlePolygon": "SANDステーキングで",
+                "subtitlePolygon": "沢山のメリットをエンジョイしよう。",
                 "earnMorePolygon": "もっと稼ぐ ",
                 "textPolygon": "今後の発表にご期待ください",
                 "stakePhrase01": "ステーキングで利益を享受できるのは",
@@ -6051,8 +6051,8 @@
                 "extraRaffle": {
                     "title": "追加の抽選チケット",
                     "text": "ステーキングで追加の抽選チケットを入手",
-                    "tooltipGet": "シーズン2",
-                    "tooltipStart": "全期間 (28日間) に",
+                    "tooltipGet": "獲得",
+                    "tooltipStart": "抽選チケット条件：",
                     "tooltipEnd": "ステーキングしたmSANDごとに追加抽選チケットを入手します。抽選チケットは最大200枚です。"
                 },
                 "infoStart": "シーズン期間中にステーキングした分",
@@ -6574,7 +6574,7 @@
                 }
             },
             "modal": {
-                "title": "アルファシーズン3はまもなく開始です。",
+                "title": "アルファ・シーズン3はまもなく開始です。",
                 "description": {
                     "1": "まもなく、Eメールでアルファシーズン3に関する詳細情報が送られます。",
                     "2": "いち早く最新情報を受け取れるよう、お見逃しなく！"
@@ -6706,7 +6706,7 @@
         "buyInfo": "ETHおよびDAIの購入方法",
         "location": "ロケーション",
         "transactionHelp1": "必要なもの：",
-        "transactionHelp2": "トランザクションの完了向け",
+        "transactionHelp2": "トランザクションの完了の為",
         "howToBuySand": "SANDの購入方法 >",
         "gasHelper": "必要なネットワーク手数料の支払いにはETHを使用しますが、トランザクション速度により価格が変動します。",
         "buyEth": "次でETHを購入：",
@@ -6777,7 +6777,7 @@
         "welcomeUponUs": {
             "howTo": "参加方法",
             "text1": "- LAND所有者は抽選会に登録でき、シーズンパスNFT (限定1,000枚) を獲得するチャンスが与えられます。",
-            "text2": "- 抽選の当選者がシーズンパスをOpenSeaで販売することができます。注）日本在住の方はご利用できない場合が、ございます",
+            "text2": "- 抽選の当選者がシーズンパスをOpenSeaで販売することができます。注）日本在住の方を除く。",
             "text3": "- シーズンパス所有者なら誰でも参加可能です！",
             "whatDo": "そこでできること",
             "text4": "- 素晴らしいマルチプレイ体験の数々が用意されており、毎日新しい体験が登場します！",
@@ -6867,7 +6867,7 @@
         "raffleInProgress": {
             "raffleDraw": "抽選",
             "inProgress": "実施中",
-            "raffleDescription": "抽選会が終了すると、シーズン2のアルファパスが手に入ったかどうかがわかります。幸運を！",
+            "raffleDescription": "At the end of the Raffle, you will find out if you win a Season 3 Alpha Pass. Good luck!",
             "raffleTickets": "次の抽選に参加しています：",
             "season": "シーズン",
             "staking": "ステーキング",
@@ -6918,7 +6918,7 @@
             "finish": "トランザクションが完了しました！OpenSeaへ直行して自分のアバターを確認するか、新たに発行しましょう。",
             "refresh": "もう一度発行しましょう！",
             "errorButton": "もう一度トライしましょう！",
-            "error": "Something went wrong! Maybe our request timed-out — please check your wallet to confirm your transaction went through.",
+            "error": "問題が発生したようです。ウォレットをチェックして、取引状況を確認してください。",
             "wrongWallet": "異なるウォレットに接続されています！MetamaskまたはWalletConnectでもう一度ログインしてください。",
             "raffleEndTitle": "販売は終了しました。",
             "raffleEnd": "ご参加いただき、ありがとうございました。",
@@ -7104,21 +7104,21 @@
         "greeting": "Hi",
         "walletBalance": "My balance",
         "nftOnEth": "NFT's on Ethereum Mainnet",
-        "nftOnPolygon": "NFT's on Polygon Mainnet",
+        "nftOnPolygon": "Polygon Mainnet上のNFT",
         "banner": {
             "title": "The Sandbox Bridge",
-            "subtitleDeposit1": "Bridge your SAND and LAND between Ethereum (L1) and Polygon (L2)",
-            "subtitleDeposit2": "LAND bridged grant a SAND cashback on their first transfer to Polygon",
+            "subtitleDeposit1": "Ethereum（L1）とPolygon（L2）の間でSANDとLANDをブリッジしよう",
+            "subtitleDeposit2": "LANDのブリッジはPolygon利用初回時にSANDキャッシュバックを実施します",
             "subtitleWithdraw": ": Transfer your assets to Ethereum",
             "howToLink": "How to Bridge",
             "guideLink": "Get Support",
             "faqLink": "FAQ"
         },
         "polygonCard": {
-            "title": "Add POLYGON to your Wallet",
-            "subtitle": "Polygon is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks.",
-            "ctaText": "Use POLYGON",
-            "tutorialLink": "Tutorial",
+            "title": "POLYGONをウォレットに追加する",
+            "subtitle": "Polygonは、Ethereum互換のブロックチェーンネットワークを構築・接続するためのプロトコルおよびフレームワークです。",
+            "ctaText": " POLYGONを使う",
+            "tutorialLink": "チュートリアル",
             "usePolygonLink": "Why use POLYGON?"
         },
         "sidebar": {
@@ -7143,43 +7143,43 @@
             },
             "toPolygon": {
                 "step1": {
-                    "title": "Convert to Polygon SAND",
-                    "subTitle": "Deposit SAND from Ethereum into Polygon",
-                    "footerText1": "Remember, any transaction that moves assets within, to, or from the Ethereum blockchain will incur gas fees.",
-                    "footerText2": "Only transactions conducted exclusively on Polygon are gas cheaper.",
-                    "button": "Start Deposit"
+                    "title": "Polygon SANDへの変換",
+                    "subTitle": "EthereumからPolygonにSANDを入金しよう",
+                    "footerText1": "Ethereumブロックチェーンで資産を移動させる取引には、ガス代が発生します。ご了承ください。",
+                    "footerText2": "Polygonのみで行われた取引のみ、ガス代が安くなります。",
+                    "button": "入金開始"
                 },
                 "step2": {
-                    "title": "Confirm Transfer",
-                    "subTitle": "Please review your transaction",
-                    "footerTitle": "Estimated transaction fee",
-                    "gasGuessEth": "Deposit Complete",
-                    "button": "Continue"
+                    "title": "内容確認",
+                    "subTitle": "内容を確認する",
+                    "footerTitle": "取引手数料（推定）",
+                    "gasGuessEth": "入金完了",
+                    "button": "続ける"
                 },
                 "step3": {
                     "step103": "STEP 1/3",
-                    "title": "Transfer in progress",
-                    "footerTitle": "Transaction in progress",
-                    "footerText1": "Etherum transaction can take longer time to complete based upon network congestion. Please wait or increase the gas price of the transaction."
+                    "title": "手続き進行中",
+                    "footerTitle": "送金進行中",
+                    "footerText1": "Etherumの取引は、ネットワークの混雑状況により、完了までに時間がかかる場合があります。その際は、お待ちいただくか、取引にかかるガス代を増やしてください。"
                 },
                 "step4": {
                     "step203": "STEP 2/3",
-                    "title": "Transfer en route",
-                    "footerTitle": "Your transaction is almost there",
-                    "footerText1": "Your transfer is en-route. It will take 7 - 8 minutes for the deposit to get completed. On completion, your balance will be uploaded"
+                    "title": "送金中です",
+                    "footerTitle": "手続きは進行中です",
+                    "footerText1": "送金中です。入金が完了するまで7〜8分かかります。完了後、残高がアップロードされます"
                 },
                 "step5": {
                     "step303": "STEP 3/3",
-                    "title": "Transfer completed",
-                    "footerTitle": "Transfer completed successfully",
-                    "footerText1": "Your transfer is completed successfully",
-                    "button": "Back to Wallet"
+                    "title": "手続きは完了しました",
+                    "footerTitle": "手続きは完了しました",
+                    "footerText1": "手続きは完了しました",
+                    "button": "ウォレットに戻る"
                 }
             },
             "toEthereum": {
                 "step1": {
                     "title": "Convert to Ethereum SAND",
-                    "subTitle": "Withdraw SAND from Polygon into Ethereum",
+                    "subTitle": "PolygonからEthereumへSANDを出金する",
                     "button": "Start Withdrawal"
                 },
                 "step2": {
@@ -7207,7 +7207,7 @@
             },
             "noTransactions": "There are no transactions to display",
             "viewEth": "View on Etherscan",
-            "viewPol": "View on Polygonscan",
+            "viewPol": "Polygonscanで表示する",
             "back": "Back to the Bridge",
             "confirm": "Confirm",
             "deposit": "DEPOSIT",
@@ -7216,11 +7216,11 @@
                 "selection": {
                     "deposit": {
                         "headerTitle": "Select amount to deposit",
-                        "headerSubTitle": "Please select a SAND amount to transfer to Polygon.",
+                        "headerSubTitle": "Polygonに転送するSANDの金額を選択してください。",
                         "footerTitle": "Reminder",
                         "footerText": [
-                            "Polygon is a PoS network, your tokens will be sent to the Polygon network in two steps.",
-                            "After signing the first transaction you will have to wait - 10 minutes for the networks to synchronize."
+                            "PolygonはPoSネットワークであり、あなたのトークンは2つのステップでPolygonネットワークに送信されます。",
+                            "最初のトランザクションに署名した後、ネットワークが同期するために～10分待つ必要があります。"
                         ],
                         "button": "Start Deposit"
                     },
@@ -7252,7 +7252,7 @@
                     "deposit": {
                         "headerTitle": "Deposit en route",
                         "footerTitle": "Deposit is in progress",
-                        "footerText": "It will take about - 10 minutes to synchronize. Once the transfer is completed the funds will be available on Polygon."
+                        "footerText": "同期には～10分かかります。送金が完了すると、Polygonで資金を利用できるようになります。"
                     },
                     "withdraw": {
                         "headerTitle": "Withdrawal en route",
@@ -7268,7 +7268,7 @@
                     "headerSubTitle": "The transfer is now completed.",
                     "deposit": {
                         "headerTitle": "Deposit completed",
-                        "footerText": "Your tokens have been successfully deposited to Polygon."
+                        "footerText": "あなたのトークンはPolygonに正常に入金されました。"
                     },
                     "withdraw": {
                         "headerTitle": "Withdrawal completed",
@@ -8405,7 +8405,7 @@
                         }
                     },
                     "2": {
-                        "title": "Version Check",
+                        "title": "バージョン確認",
                         "subtitle": "Now, everytime a new version of the Game Maker is available, our servers will check against your current installed version and request you to update to the newest version."
                     }
                 }
@@ -8461,7 +8461,7 @@
                                 "subtitle": "From now on, we’ll be pre-loading assets into the Game Maker upon installation. This will help substantially with experience loading speeds, both on the Editor and the Gallery."
                             },
                             "2": {
-                                "title": "Version Check :",
+                                "title": "バージョン確認:",
                                 "subtitle": "Now, everytime a new version of the Game Maker is available, our servers will check against your current installed version and request you to update to the newest version."
                             }
                         }
@@ -8761,8 +8761,8 @@
             "description": "SAND is the currency you need to buy NFTs at The Sandbox"
         },
         "polygon": {
-            "title": "Add SAND to your wallet",
-            "description": "SAND is the currency you need to buy NFTs at The Sandbox on Polygon Network"
+            "title": "ウォレットにSANDを追加する",
+            "description": "SANDは、Polygon NetworkのThe SandboxでNFTを購入するために必要なトークンです。"
         },
         "options": {
             "moonpay": {
@@ -8784,10 +8784,10 @@
         },
         "notes": {
             "note1-ethereum": "Make sure you also have ETH in your wallet. ETH is required to pay Gas fees.",
-            "note1-polygon": "Make sure you also have MATIC in your wallet. MATIC is required to pay Gas fees.",
+            "note1-polygon": "ウォレットにMATICも入っていることを確認してください。MATICはガス代に必要です。",
             "note2": {
                 "text-ethereum": "Buy ETH on:",
-                "text-polygon": "Buy MATIC on:",
+                "text-polygon": "MATICの購入はこちら：",
                 "options": {
                     "option1": "With Credit/Debit Card",
                     "option2": "Binance",
@@ -8800,9 +8800,9 @@
         "help": {
             "question1": "What is a wallet?",
             "question2-ethereum": "How to buy SAND?",
-            "question2-polygon": "How to buy SAND?",
+            "question2-polygon": "SANDの購入方法は？",
             "question3": "Why do I need ETH?",
-            "question3-polygon": "Why do I need MATIC?",
+            "question3-polygon": "MATICはなぜ必要ですか?",
             "question4": "What is Gas fee?",
             "more": "See more FAQs"
         },
@@ -9282,8 +9282,8 @@
         "POC_LANDING_OUR_VISION_DESCRIPTION_PRIMARY": "To ensure the advancement of black and brown women, LGBTQIA+, differently-abled, and POC individuals across Web 3.0. ",
         "POC_LANDING_OUR_VISION_DESCRIPTION_SECONDARY": "We envision a community where we are represented and amplified at every level from developers, creators, brands, thought leaders, founders, and collectors.",
         "POC_LANDING_PLAY_IN_SEASON_TITLE": "Play it in Alpha",
-        "POC_LANDING_PLAY_IN_SEASON_SUBTITLE": "Season 3 ",
-        "POC_LANDING_PLAY_IN_SEASON_DESCRIPTION": "Each Avatar will be playable inside The Sandbox, starting with the upcoming Alpha Season 3. Get your Avatar, jump into the game and share your avatar with the world!In addition we will also host POC exclusive events and Play & Earn activities for avatar holders.",
+        "POC_LANDING_PLAY_IN_SEASON_SUBTITLE": "シーズン3 ",
+        "POC_LANDING_PLAY_IN_SEASON_DESCRIPTION": "各アバターは、マルチプレイヤー体験でも、利用可能になりました。アバターをゲットして、ゲームの世界に飛び込みましょう！また、POC限定イベントやアバターホルダー向けのイベントも開催予定です。",
         "POC_LANDING_CHANCE_UNIQUE_AVATAR_TITLE": "A chance to get",
         "POC_LANDING_CHANCE_UNIQUE_AVATAR_SUBTITLE": "Unique avatars",
         "POC_LANDING_CHANCE_UNIQUE_AVATAR_DESCRIPTION": "First ever customizable sandbox avatars celebrating representation, diversity and inclusion. POC has been on a mission to have a positive impact around the world  ",
@@ -9314,7 +9314,7 @@
         "POC_LANDING_FAQ_CAN_I_MINT_USING_TITLE": "Can I mint using any wallet?",
         "POC_LANDING_FAQ_CAN_I_MINT_USING_DESCRIPTION": "Yes, you can mint with whatever wallet you have.",
         "POC_LANDING_FAQ_WHAT_CAN_I_DO_TITLE": "What can I do with the POC Avatars?",
-        "POC_LANDING_FAQ_WHAT_WHAT_CAN_I_DO_DESCRIPTION": "Each Avatar will be playable inside The Sandbox in all the multiplayer experiences to come starting from the Sandbox Alpha Season 3.",
+        "POC_LANDING_FAQ_WHAT_WHAT_CAN_I_DO_DESCRIPTION": "各アバターは、マルチプレイヤー体験でも、利用可能になりました。",
         "POC_LANDING_FAQ_HOW_CAN_I_USE_TITLE": "How can I use my People of Crypto Avatar during the Alpha?",
         "POC_LANDING_FAQ_HOW_CAN_I_USE_DESCRIPTION": "You will be able to use it as an Avatar by simply selecting it in the Avatar Manager in The Sandbox dashboard.",
         "POC_LANDING_FAQ_DOES_OWNING_TITLE": "Does owning the POC Avatar grant me other perks?",
@@ -9426,8 +9426,8 @@
         "STEVE_AOKI_LANDING_MINT_AVATAR_DESCRIPTION": "Get your unique Steve Aoki avatar for The Sandbox today and enter the metaverse.",
         "STEVE_AOKI_LANDING_MINT_AVATAR_BUTTON": "Mint yours now!",
         "STEVE_AOKI_LANDING_PLAY_IN_SEASON_TITLE": "Play it in Alpha",
-        "STEVE_AOKI_LANDING_PLAY_IN_SEASON_SUBTITLE": "Season 3",
-        "STEVE_AOKI_LANDING_PLAY_IN_SEASON_DESCRIPTION": "Each Avatar will be playable inside The Sandbox, starting with the upcoming Alpha Season 3. Get your Avatar, jump into the game and share your avatar with the world! In addition we will also host Steve Aoki exclusive events and Play & Earn activities for avatar holders.",
+        "STEVE_AOKI_LANDING_PLAY_IN_SEASON_SUBTITLE": "シーズン3",
+        "STEVE_AOKI_LANDING_PLAY_IN_SEASON_DESCRIPTION": "各アバターは、マルチプレイヤー体験でも、利用可能になりました。また、アバターをお持ちの方には、Steve Aokiの限定を通じてSANDを獲得できるチャンスがあります。",
         "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TITLE": "Unlimited possibilities",
         "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_DESCRIPTION": "Each Aoki avatar has been created by randomly generating 3,333 playable metaverse avatars. Over 100 hand-crafted traits, as well as several unique 1/1 designs can be created!",
         "STEVE_AOKI_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_TITLE": "Unique",
@@ -9494,7 +9494,7 @@
         "STEVE_AOKI_FAQ_CAN_I_MINT_USING_TITLE": "Can I mint using any wallet?",
         "STEVE_AOKI_FAQ_CAN_I_MINT_USING_DESCRIPTION": "Yes, you can mint with whatever wallet you have.",
         "STEVE_AOKI_FAQ_WHAT_CAN_I_DO_TITLE": "What can I do with the Avatars?",
-        "STEVE_AOKI_FAQ_WHAT_WHAT_CAN_I_DO_DESCRIPTION": "Each Avatar will be playable inside The Sandbox in all the multiplayer experiences to come starting from the Sandbox Alpha Season 3. We will also introduce unique Play&Earn opportunites for avatar holders, giving any holder the opportunity to earn SAND through gameplay.",
+        "STEVE_AOKI_FAQ_WHAT_WHAT_CAN_I_DO_DESCRIPTION": "各アバターは、マルチプレイヤー体験でも、利用可能になりました。また、アバターをお持ちの方には、ゲームプレイを通じてSANDを獲得できるチャンスがあります。",
         "STEVE_AOKI_FAQ_HOW_CAN_I_USE_TITLE": "How can I use my Avatar inside The Sandbox?",
         "STEVE_AOKI_FAQ_HOW_CAN_I_USE_DESCRIPTION": "You will be able to use it as an Avatar by simply selecting it in the Avatar Manager in The Sandbox dashboard once it has been enabled.",
         "STEVE_AOKI_FAQ_WHERE_CAN_I_BUY_TITLE": "Where can I buy a Steve Aoki avatar after the initial sale is over?",
@@ -9723,39 +9723,39 @@
     "kyc": {
         "statuses": {
             "unverified": {
-                "label": "Not Verified",
-                "description": "As much as we love robots, we want the Metaverse to be full of humans. Your account needs to be verified to join some activities such as the LAND Sale Raffle or claiming Season rewards. This is one of the many measures we are taking to prevent bots, cheaters and bad actors exploiting our ecosystem.",
-                "extra": "After completing this process, account verification might take up to 48hs. Make sure you verify on time so you don't miss any activity.",
-                "cta": "Start Verification",
-                "date": "on {0} UTC",
-                "needHelp": "Need help? Check the {0} to learn more about the Account Verification process.",
+                "label": "認証されていません",
+                "description": "LANDセール、抽選会、シーズン報酬の請求など、に参加するためにはアカウントの認証が必要です。これは、ボットや詐欺、悪質な業者からエコシステムを防ぐための対策です。ご了承ください。",
+                "extra": "アカウント認証には最大48時間かかる場合があります。このため、早めに本人認証プロセスの手続きを開始してください。",
+                "cta": "本人確認を開始する",
+                "date": "時間： {0} UTC",
+                "needHelp": "ヘルプが必要ですか? {0} にチェックを入れて、アカウント認証プロセスの詳細をご覧ください。",
                 "actionReference": ""
             },
             "inProgress": {
-                "label": "ID Document Required",
-                "description": "(Action Required) Upload an ID document to continue your account verification and be able to join some activities such as the LAND Sale Raffle or claiming Season rewards. After completing this process, account verification might take up to 48hs. Make sure you verify on time so you don't miss any activity.",
-                "extra": "After completing this process, account verification might take up to 48hs. Make sure you verify on time so you don't miss any activity.",
-                "cta": "Continue Verification",
-                "date": "on {0} UTC",
-                "needHelp": "Need help? Check the {0} to learn more about the Account Verification process.",
-                "actionReference": "Action Required"
+                "label": "本人確認ができるもの（運転免許証、パスポート等）が必要です",
+                "description": "(要対応) ID書類をアップロードし、アカウント認証プロセスを継続してください。本人確認が完了後、LANDセール抽選会やシーズン特典の請求など、一部のアクティビティに参加できるようになります。アカウント認証には最大48時間かかる場合があります。ご了承ください。",
+                "extra": "アカウント認証には最大48時間かかる場合があります。このため、早めに本人認証プロセスの手続きを開始してください。",
+                "cta": "認証プロセスを継続する",
+                "date": "時間： {0} UTC",
+                "needHelp": "ヘルプが必要ですか? {0} にチェックを入れて、アカウント認証プロセスの詳細をご覧ください。",
+                "actionReference": "要対応"
             },
             "verified": {
-                "label": "Verified",
-                "description": "You have successfully verified your account! You can now claim rewards and participate in our Seasons and LAND sale raffles. ",
-                "extra": "",
-                "cta": "Start Verification",
-                "date": "on {0} UTC",
-                "needHelp": "Need help? Check the {0} to learn more about the Account Verification process.",
+                "label": "承認完了",
+                "description": "アカウントの認証が完了しました。これにより、報酬の請求、LANDのセール、抽選会などに参加することができます。",
+                "extra": "他",
+                "cta": "認証を開始する",
+                "date": "時間： {0} UTC",
+                "needHelp": "ヘルプが必要ですか? {0} にチェックを入れて、アカウント認証プロセスの詳細をご覧ください。",
                 "actionReference": ""
             },
             "rejected": {
-                "label": "Rejected",
-                "description": "Your account verification has been rejected. If you have any questions please contact us at support@sandbox.game",
-                "extra": "",
-                "cta": "Start Verification",
-                "date": "on {0} UTC",
-                "needHelp": "Need help? Check the {0} to learn more about the Account Verification process.",
+                "label": "拒否されました",
+                "description": "お客様のアカウント認証が拒否されました。ご不明な点がございましたら、support@sandbox.game までご連絡ください。",
+                "extra": "他",
+                "cta": "認証を開始する",
+                "date": "時間： {0} UTC",
+                "needHelp": "ヘルプが必要ですか? {0} にチェックを入れて、アカウント認証プロセスの詳細をご覧ください。",
                 "actionReference": ""
             },
             "cancelled": {
@@ -9763,55 +9763,55 @@
                 "description": "概要",
                 "extra": "他",
                 "cta": "Start Verification",
-                "date": "on {0} UTC",
+                "date": "時間： {0} UTC",
                 "actionReference": "",
                 "needHelp": ""
             },
             "waitingVerification": {
-                "label": "Pending Review",
+                "label": "認証は保留中です",
                 "description": "We've received your account verification request, this process might take up to 48hs.",
-                "extra": "",
-                "cta": "Check Verification Status",
-                "date": "on {0} UTC",
-                "needHelp": "Need help? Check the {0} to learn more about the Account Verification process.",
+                "extra": "他",
+                "cta": "認証状況を確認する",
+                "date": "時間： {0} UTC",
+                "needHelp": "ヘルプが必要ですか? {0} にチェックを入れて、アカウント認証プロセスの詳細をご覧ください。",
                 "actionReference": ""
             },
             "actionRequired": {
-                "label": "ID Document Rejected",
-                "description": "(Action Required) Your ID document was rejected. Please make sure that the document is readable and fully visible edge to edge. Avoid reflections and dark photos. For better success, we recommend that you use your passport.",
-                "extra": "After completing this process, account verification might take up to 48hs. Make sure you verify on time so you don't miss any activity.",
-                "cta": "Upload ID document",
-                "date": "on {0} UTC",
-                "needHelp": "Need help? Check the {0} to learn more about the Account Verification process.",
-                "actionReference": "Action Required"
+                "label": "本人確認書類が拒否されました",
+                "description": "(要対応) あなたの ID書類は拒否されました。再度書類を確認してください。反射の光が入っていたり、暗い写真は避けてください。できればパスポートを使用することをお勧めします。",
+                "extra": "アカウント認証には最大48時間かかる場合があります。このため、早めに本人認証プロセスの手続きを開始してください。",
+                "cta": "本人確認書類をアップロードする",
+                "date": "時間： {0} UTC",
+                "needHelp": "ヘルプが必要ですか? {0} にチェックを入れて、アカウント認証プロセスの詳細をご覧ください。",
+                "actionReference": "要対応"
             }
         },
         "admin": {
             "search": {
-                "placeholder": "Type the User ID and press enter"
+                "placeholder": "ユーザーIDを入力し、Enterキーを押してください。"
             },
             "modals": {
                 "update": {
-                    "title": "再認証",
-                    "text": "Are you sure that you want to update the user verification?"
+                    "title": "再認証する",
+                    "text": "本当にユーザー情報の更新をしますか？"
                 },
                 "cancel": {
-                    "title": "Cancel Verification",
-                    "text": "Are you sure that you want to cancel the user verification?"
+                    "title": "本人確認をキャンセルする",
+                    "text": "ユーザー認証をキャンセルしますか？"
                 }
             }
         },
         "bar": {
-            "explanation": "Remember to complete the Account Validation before the end of the season. You will need it to claim your rewards.",
+            "explanation": "シーズン終了までに、アカウントの認証を忘れずに行ってください。報酬を請求する際に必要です。",
             "actions": {
-                "start": "Start Here",
-                "continue": "Continue Here",
-                "check": "Check Here"
+                "start": "開始する",
+                "continue": "継続する",
+                "check": "確認する"
             },
             "ctas": {
-                "start": "Start Here",
-                "continue": "Continue Here",
-                "check": "Check Here"
+                "start": "開始する",
+                "continue": "続ける",
+                "check": "確認する"
             }
         }
     },
