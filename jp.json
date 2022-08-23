@@ -422,18 +422,18 @@
         },
         "nft": {
             "title": "NFT",
-            "description": "非代替性トークン (NFT) とは、ブロックチェーン上で発行される、デジタルセキュリティ、安全性、信頼性の高い仮想トークンです。ゲーム内アセットのデジタル所有を実現する唯一の不可分かつ代替不可能なトークンです。",
+            "description": "NFTとは、ブロックチェーン上で発行される安全性と信頼性が高いトークンです。The Sandboxメタバースで使うNFTを自分で作ったり、ショップで売買してみませんか？",
             "buttonText": "アセットを買う"
         },
         "land": {
             "title": "自分のLANDで作成",
-            "description": "非代替性トークン (NFT) とは、ブロックチェーン上で発行される、デジタルセキュリティ、安全性、信頼性の高い仮想トークンです。ゲーム内アセットのデジタル所有を実現する唯一の不可分かつ代替不可能なトークンです。",
+            "description": "NFTとは、ブロックチェーン上で発行される安全性と信頼性が高いトークンです。The Sandboxメタバースで使うNFTを自分で作ったり、ショップで売買してみませんか？",
             "buttonText": "LANDを買う",
-            "discoverMap": "マップの紹介"
+            "discoverMap": "マップへ行く"
         },
         "sand": {
             "title": "SANDを使う理由",
-            "description": "有効なトークン$SANDを使って、『The Sandbox』メタバース内でLANDやアセットの売買できます。",
+            "description": "The Sandboxの独自トークンSANDを使って、LANDやアセットの売買をしよう。",
             "buttonText": "買う "
         },
         "snoopDogg": {
@@ -450,11 +450,11 @@
         "avatar": {
             "title": "The Sandboxアバター",
             "description": {
-                "1": "プロフィール写真をワンランク上に！お気に入りのアバターを選んで、The Sandboxメタバースを探索しましょう。",
+                "1": "アバターは制作する？選ぶ？好きなアバターでThe Sandboxメタバースを探索しましょう。",
                 "2": "お気に入りのウォレットを接続すると、自分が外部アバターを所有しているかがわかります。"
             },
             "button": {
-                "wallet": "ウォレットの接続",
+                "wallet": "ウォレットに接続する",
                 "avatar": "アバターを作成"
             }
         },
@@ -472,20 +472,20 @@
             "disabled": "*Minting starts on July 25"
         },
         "avatarSeason3": {
-            "title": "気に入ったアバターでプレイしよう",
+            "title": "好きなアバターでプレイしよう",
             "description": {
-                "1": "プロフィール写真をワンランク上に！お気に入りのアバターを選んで、The Sandboxメタバースを探索しましょう。"
+                "1": "アバターは制作する？選ぶ？好きなアバターでThe Sandboxメタバースを探索しましょう。"
             }
         },
         "nftSeason3": {
             "title": "NFTをゲットしよう",
-            "buttonText": "ショップへ急ごう"
+            "buttonText": "ショップへ行く"
         },
         "landSeason3": {
             "title": "LANDオーナーになろう"
         },
         "sandSeason3": {
-            "title": "どうしてSANDなの?",
+            "title": "SANDとは?",
             "buttonText": "購入する"
         },
         "experiencesSeason3": {
@@ -833,7 +833,7 @@
                 "enterMetaverse": "Enter the Metaverse",
                 "badgeStatus": "You need to be logged in to see your Badge status",
                 "collectedBadge": "The Collector's badge is yours!",
-                "enjoyRewards": "You can enjoy the guaranteed rewards.",
+                "enjoyRewards": "保証された報酬を楽しむことがができます。",
                 "collect10": "Collect 1 NFT to earn the NFTs Collector's badge",
                 "needToGet": "YOU ONLY NEED {count} TO GET IT!",
                 "owned": "Owned",
@@ -933,15 +933,15 @@
                     "text2": "メタバースを探索して体験を楽しもう。"
                 },
                 "thirdText": {
-                    "title": "解锁奖励",
+                    "title": "報酬のアンロック",
                     "text1": "完成的任务越多",
-                    "text2": "你解锁的奖励也就越多",
+                    "text2": "をクリアすると、より多くの報酬がアンロックされます。",
                     "text3": "完成一些任务",
-                    "text4": "可解锁Alpha通行证的全部奖励。"
+                    "text4": "アルファパスのすべての特典をアンロックするには、合計で。"
                 },
                 "fourthText": {
                     "title": "報酬を受け取る！",
-                    "text1": "你可以在Alpha版本的最后一天（12月20日）时领取你已解锁的奖励。",
+                    "text1": "アルファの最終日 (12 月 20 日) にアンロックした報酬を受け取ることができます。",
                     "text2": "受け取るには、その日にアルファパスがウォレットに入っている必要があります。",
                     "text3": "在Alpha版本关闭（12月20日）后，请勿在OpenSea上购买Alpha通行证。详情请查看下方的常见问题。"
                 }
@@ -1054,7 +1054,7 @@
                         "pc2": "GPU： NVIDIA GeForce GTX 760以上",
                         "pc3": "CPU： i5-8400以降のCPU (AVX対応必須)",
                         "pc4": "RAM： 8192MB以上",
-                        "mac": "最低構成： MacBookPro14,2以降のモデル (または、2017年度のMac Mini/デスクトップ相当モデル)",
+                        "mac": "最低スペック： MacBookPro14,2以降のモデル (または、2017年度のMac Mini/デスクトップ相当モデル)",
                         "mac1": "OS :  MAC OS 12 (Monterey)以降",
                         "mac2": "GPU : HD4000相当以降",
                         "mac3": "CPU : 3.1GHz デュアルコア Intel Core i5以降",
@@ -1651,11 +1651,11 @@
                 "land": {
                     "title": "Land",
                     "ctaText": "Buy Land",
-                    "description": "Own a LAND to unlock the LAND Owner Guaranteed rewards"
+                    "description": "LANDを所有してLAND所有者保証の報酬をアンロック"
                 },
                 "nftAvatar": {
                     "title": "NFT Avatar",
-                    "description": "Own a NFT Avatar to unlock the Avatar Owner Guaranteed rewards"
+                    "description": "NFTアバターを所有して、アバター所有者保証報酬のロックを解除します"
                 },
                 "nftAsset": {
                     "title": "AS3 NFT コレクション",
@@ -1738,7 +1738,7 @@
                 "eventsDescription": "Weekly timed events will happen in some of the experiences of the metaverse. Go back to previously visited experiences during those events to earn some new EPs.",
                 "seeEvents": "See Events",
                 "guaranteed": "Guaranteed Rewards",
-                "guaranteedDescription": "This season has guaranteed rewards for users who are LAND owners, Avatar owners and NFT collectors."
+                "guaranteedDescription": "今シーズンは、LANDオーナー、アバター所有者、NFTコレクターのユーザーには報酬が保証されています。"
             }
         },
         "leaderboard": {
@@ -1940,8 +1940,8 @@
         },
         "shopTitle": "ショップ",
         "onSale": "販売中",
-        "title": "NFTマーケットプレイスへようこそ",
-        "subtitle": "クリエイターのアセットを検索してSANDで購入し、自分のLANDへ取り込むことができます",
+        "title": "NFTショップへようこそ",
+        "subtitle": "ゲームで利用できるアセットをSANDで購入し、自分のLANDへ取り込みませんか？",
         "welcomeTo": "ようこそ。",
         "nftCollections": "NFTコレクション",
         "fluid": "流動型",
@@ -1966,7 +1966,7 @@
             "block": "Block",
             "bodypart": "Bodypart",
             "and": "and",
-            "onOpenseaTitle": "LANDs & ESTATES",
+            "onOpenseaTitle": "LAND＆ESTATE",
             "externalcollections": "Avatar"
         },
         "rarities": {
@@ -2290,8 +2290,8 @@
                 "buttonText": "ダウンロード"
             },
             "metaverse": {
-                "title": "メタバースにゲームを構築しましょう",
-                "description": "誰でも無料で3Dゲームが構築できます。プログラミングは必要ありません。素晴らしい創造物と体験を生み出すことで、広大なメタバースに貢献しましょう。",
+                "title": "メタバースにゲームを構築しよう",
+                "description": "誰でも無料で3Dゲームが構築できます。広大なメタバースのコンテンツ制作に貢献しませんか。",
                 "buttonText": "ダウンロード"
             },
             "create": {
@@ -2325,7 +2325,7 @@
             "requirementsTitle": "システム要件",
             "requirements": {
                 "minimum": {
-                    "title": "最低構成",
+                    "title": "最低スペック：",
                     "text": {
                         "bits": "64ビットプロセッサーとオペレーティングシステム",
                         "os": "OS：Windows 7",
@@ -2503,7 +2503,7 @@
                 },
                 "title1": "あなたの",
                 "title2": "アバターになろう",
-                "description1": "プロフィール写真をワンランク上に！お気に入りのアバターを選んで、The Sandboxメタバースを探索しましょう。",
+                "description1": "アバターは制作する？選ぶ？好きなアバターでThe Sandboxメタバースを探索しましょう。",
                 "description2": "ウォレットを接続すると、自分が外部アバターを所有しているかがわかります。",
                 "button": "ウォレットに接続する"
             },
@@ -2676,8 +2676,8 @@
                     "viewInMap": "マップで表示"
                 },
                 "loginModal": {
-                    "title": "ログインまたはアカウントの作成",
-                    "description": "ログインするにはお使いの仮想通貨ウォレットをリンクしてください",
+                    "title": "サインインまたはアカウントの作成",
+                    "description": "サインインをするにはお使いのウォレットと接続してください",
                     "wallet": "仮想通貨ウォレットとは",
                     "whatsAWallet": "A crypto-wallet is the place where you can safely store all your cryptocurrencies and digital game ASSETS. No funds are required in the wallet to create an account. FREE to sign-up.",
                     "continue": "次で続行：",
@@ -2686,12 +2686,12 @@
                     "allowWallet": "次のウォレットを許可してください：",
                     "bitski": {
                         "title": "Bitski",
-                        "value": "ウォレットの接続",
+                        "value": "ウォレットに接続する",
                         "signin": "Bitskiでサインインしてください"
                     },
                     "email": {
                         "title": "Eメール",
-                        "value": "ウォレットの接続"
+                        "value": "ウォレットに接続する"
                     },
                     "web": {
                         "title": "Web 3",
@@ -2703,18 +2703,18 @@
                         "signin": "Venlyでサインインしてください"
                     },
                     "login": "既にアカウントを持っている",
-                    "waiting": "ログインまたはVenlyに登録してください",
+                    "waiting": "サインインまたはVenlyに登録してください",
                     "notAvailableWallet": "{walletName} is not available in {browserName}",
                     "walletInUse": "このウォレットは他のアカウントに使用されています。",
                     "walletLegacy": "古いウォレットを使用しているようです。手動でロックを解除して、再度お試しください。"
                 },
                 "signinModal": {
-                    "title": "ログイン",
-                    "description": "マーケットプレイスにアップロードするには、ログインしている必要があります。",
+                    "title": "サインイン",
+                    "description": "ショップにアップロードするには、サインインしている必要があります。",
                     "forgotPassword": "パスワードを忘れた場合",
-                    "buttonText": "ログイン",
-                    "withWallet": "ウォレットでもログインできます。",
-                    "walletButtonText": "ウォレットでログイン",
+                    "buttonText": "サインイン",
+                    "withWallet": "ウォレットでもサインインできます。",
+                    "walletButtonText": "ウォレットでサインイン",
                     "placeholders": {
                         "usernameOrEmail": "ユーザー名またはEメール",
                         "password": "パスワード"
@@ -2830,7 +2830,7 @@
                                 "text1": "35+ certified Builders community",
                                 "text2": "Create ESTATEs with your LANDs",
                                 "text3": "Publish experiences on your LAND",
-                                "text4": "Rent Lands & Estates",
+                                "text4": "LAND＆ESTATEを借りる",
                                 "text5": "Premium LAND will unlock new assets and behaviors in the Game Maker"
                             },
                             "migrate": {
@@ -2893,7 +2893,7 @@
                         "newPasswordTooShort": "新パスワードが短すぎます",
                         "passwordDoNotMatch": "パスワードが一致しません"
                     },
-                    "completeSteps": "このステップを完了してGame Makerにログインします。こちらを",
+                    "completeSteps": "このステップを完了してGame Makerにサインインします。こちらを",
                     "skip": "スキップ",
                     "completeLater": "して、あとから完了しても構いません。"
                 },
@@ -3402,7 +3402,7 @@
                 },
                 "gameMaker": {
                     "title": "Game Maker",
-                    "description": "誰でも無料で3Dゲームが構築できる視覚的スクリプトツールボックスです。"
+                    "description": "無料で3Dメタバースの構築できるツール。"
                 }
             },
             "metrics": {
@@ -3993,7 +3993,7 @@
             "noResultEntity": "You don't have any entity"
         },
         "loginModal": {
-            "title": "ログインまたはアカウントの作成",
+            "title": "サインインまたはアカウントの作成",
             "description": "サインインするには、仮想通貨のウォレットをリンクしてください。資金がなくても構いません。一切資産が引きだされることはありません。",
             "wallet": "仮想通貨ウォレットとは",
             "whatsAWallet": "仮想通貨ウォレットとは、仮想通貨ならびにデジタルゲームASSETを安全に保管しておくことができる場所です。ウォレットに資金が入っていなくてもアカウントは作成できます。登録は無料です。",
@@ -4003,12 +4003,12 @@
             "allowWallet": "次のウォレットを許可してください：",
             "bitski": {
                 "title": "Bitski",
-                "value": "ウォレットの接続",
+                "value": "ウォレットに接続する",
                 "signin": "Bitskiでサインインしてください"
             },
             "email": {
                 "title": "Eメール",
-                "value": "ウォレットの接続"
+                "value": "ウォレットに接続する"
             },
             "web": {
                 "title": "Web 3",
@@ -4020,18 +4020,18 @@
                 "signin": "Venlyでサインインしてください"
             },
             "login": "既にアカウントを持っている",
-            "waiting": "ログインまたはVenlyに登録してください",
+            "waiting": "サインインまたはVenlyに登録してください",
             "notAvailableWallet": "{walletName} is not available in {browserName}",
             "walletInUse": "ウォレットは他のアカウントに使用されているようです。",
             "walletLegacy": "古いウォレットを使用しているようです。手動でロックを解除して、再度お試しください。 "
         },
         "signinModal": {
-            "title": "ログイン",
-            "description": "マーケットプレイスにアップロードするには、ログインしている必要があります。",
+            "title": "サインイン",
+            "description": "ショップにアップロードするには、サインインしている必要があります。",
             "forgotPassword": "パスワードを忘れた場合",
-            "buttonText": "ログイン",
-            "withWallet": "ウォレットでもログインできます。",
-            "walletButtonText": "ウォレットでログイン",
+            "buttonText": "サインイン",
+            "withWallet": "ウォレットでもサインインできます。",
+            "walletButtonText": "ウォレットでサインイン",
             "placeholders": {
                 "usernameOrEmail": "ユーザー名またはEメール",
                 "password": "パスワード"
@@ -4098,7 +4098,7 @@
                 "newPasswordTooShort": "新パスワードが短すぎます",
                 "passwordDoNotMatch": "パスワードが一致しません"
             },
-            "completeSteps": "このステップを完了してGame Makerにログインします。こちらを",
+            "completeSteps": "このステップを完了してGame Makerにサインインします。こちらを",
             "skip": "スキップ",
             "completeLater": "して、あとから完了しても構いません。"
         },
@@ -4911,7 +4911,7 @@
         },
         "avatars": {
             "title": "アバター",
-            "lands": "LANDとESTATE",
+            "lands": "LAND＆ESTATE",
             "experiences": "体験",
             "entities": "エンティティ"
         },
@@ -5331,18 +5331,18 @@
             },
             "second": {
                 "title": "LAND所有者になろう",
-                "paragraph1": "LANDとはThe Sandbox メタバースの一部を構成し、限定コンテンツの利用や、自身が所有するメタバースの一部を収益化できる可能性をもたらします。体験を構築してイベントを開催、友達を招待しましょう。",
+                "paragraph1": "LANDとはThe Sandbox メタバース上の土地を指します。LAND上にコンテンツや体験を構築して友達を招待しよう。",
                 "button": "LANDを購入",
                 "button2": "マップの確認"
             },
             "third": {
                 "title": "SANDを使う理由",
-                "paragraph1": "有効なトークン$SANDを使って、『The Sandbox』メタバース内でLandやアセットの売買できます。",
+                "paragraph1": "The Sandboxの独自トークンSANDを使って、LANDやアセットの売買をしよう。",
                 "button": "今すぐ購入"
             },
             "fourth": {
                 "title": "NFT",
-                "paragraph1": "非代替性トークン (NFT) とは、ブロックチェーン上で発行される、デジタルセキュリティ、安全性、信頼性の高い仮想トークンです。ゲーム内アセットのデジタル所有を実現する唯一の不可分かつ代替不可能なトークンです。",
+                "paragraph1": "NFTとは、ブロックチェーン上で発行される安全性と信頼性が高いトークンです。The Sandboxメタバースで使うNFTを自分で作ったり、ショップで売買してみませんか？",
                 "button": "アセットを買う"
             }
         }
@@ -6721,13 +6721,13 @@
         "estate": "Estate",
         "modalVerifyEmail": {
             "verifyEmail": "メールアドレスの確認",
-            "login": "ログイン",
+            "login": "サインイン",
             "emailVerification": "メール認証",
             "emailRetry1": "メールを送信しました。次の時間が経過したら、もう一度お試しください： ",
             "emailRetry2": " 秒",
             "sentEmailVerif": "確認メールを送信しました",
             "setEmail": "メールアドレスを設定してください！",
-            "pleaseLogIn": "確認メールをリクエストするにはログインしてください。"
+            "pleaseLogIn": "確認メールをリクエストするにはサインインしてください。"
         },
         "lockedModal": {
             "title": "シーズンパスはロックされています",
@@ -6826,7 +6826,7 @@
             "usernameEmailMissing": "ユーザー名/Eメールがありません",
             "passwordMissing": "パスワードがありません",
             "userPasswordMismatches": "ユーザー名またはパスワードが一致しません",
-            "logWithWallet": "ウォレットでログイン",
+            "logWithWallet": "ウォレットでサインイン",
             "walletIsNotAssociatedAnyUser": "ウォレットがユーザーに関連付けされていません",
             "signIn": "サインイン",
             "title": "ログイン",
@@ -8819,7 +8819,7 @@
         "name": "外部收藏",
         "header": {
             "title": "探索外部收藏",
-            "description": "メタバースで使える外部コレクションを探す",
+            "description": "コレクションから探そう",
             "info": "收藏信息",
             "owners": "所有者",
             "assets": "資產",
@@ -8831,7 +8831,7 @@
         "sidebar": "頭像",
         "explore": "探索外部收藏",
         "total": "アセットを保有中",
-        "exploreLands": "LANDとエステートを探検する",
+        "exploreLands": "LAND＆ESTATEを探索する",
         "exploreLatest": "Explore All Assets"
     },
     "alpha3": {
@@ -9691,13 +9691,13 @@
     "externalCollections": {
         "name": "アバター",
         "sidebar": "アバター",
-        "explore": "外部コレクションを探索する",
+        "explore": "コレクションへ行く",
         "exploreLands": "Lands＆Estatesを探索する",
         "exploreLatest": "最新のドロップを探索する",
         "total": " コレクション内のアセット",
         "header": {
-            "title": "サンドボックスアバター",
-            "description": "相互運用可能なアバターコレクションをご覧ください。 NFTを所有し、特別なアバターのロックを解除してメタバースを探索します。 新しい互換性のあるコレクションが徐々に追加されます！",
+            "title": "アバター",
+            "description": "NFTを所有して、メタバースの生活を充実させよう。 新しいコレクションは順次追加されていきます！",
             "description2": " ウォレットを接続して、外部アバターを所有しているかどうかを確認します。",
             "info": "コレクション情報",
             "owners": "所有者",
