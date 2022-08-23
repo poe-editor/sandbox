@@ -226,7 +226,9 @@
         "toPlayAlpha": "アルファ・シーズン3のプレイには、MacまたはWindows PCをご使用ください",
         "update": "Update",
         "goToClaim": "Go to Claim",
-        "catalyst&Gems": "CATALYST & GEMS"
+        "catalyst&Gems": "CATALYST & GEMS",
+        "confirm": "Confirm",
+        "sync": "Sync"
     },
     "layout": {
         "topbar": {
@@ -9788,7 +9790,10 @@
         },
         "admin": {
             "search": {
-                "placeholder": "ユーザーIDを入力し、Enterキーを押してください。"
+                "placeholder": {
+                    "user": "Put the nickname or email and press Enter",
+                    "provider": "Put the Synaps session ID and press Enter"
+                }
             },
             "modals": {
                 "update": {
@@ -9798,6 +9803,13 @@
                 "cancel": {
                     "title": "本人確認をキャンセルする",
                     "text": "ユーザー認証をキャンセルしますか？"
+                }
+            },
+            "form": {
+                "fields": {
+                    "sessionId": "Session ID",
+                    "currentStatus": "Current Status",
+                    "newStatus": "New Status"
                 }
             }
         },
