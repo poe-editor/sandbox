@@ -226,7 +226,9 @@
         "toPlayAlpha": "Mac과 Windows에서 알파 시즌 3를 플레이할 수 있습니다.",
         "update": "업데이트",
         "goToClaim": "수령하기 페이지로 이동",
-        "catalyst&Gems": "카탈리스트와 젬"
+        "catalyst&Gems": "카탈리스트와 젬",
+        "confirm": "Confirm",
+        "sync": "Sync"
     },
     "layout": {
         "topbar": {
@@ -511,7 +513,7 @@
                 "staking": "스테이킹",
                 "feedback": "피드백",
                 "referral": "추천",
-                "challenge": "일일 도전 과제",
+                "challenge": "일일 챌린지",
                 "belongingMemorabilia": "빌롱잉 위크 기념품",
                 "quest": "퀘스트"
             }
@@ -687,7 +689,7 @@
                     "alphaPass": "알파 패스",
                     "locked": "잠김",
                     "summary": "요약",
-                    "totalRaffleTickets": "총 추첨 티켓 수",
+                    "totalRaffleTickets": "획득한 총 추첨 티켓 수",
                     "getMoreTickets": "티켓 더 획득하기",
                     "winAlphaDescription": "추첨 티켓을 모아 알파 패스 당첨 기회를 높여보세요.",
                     "raffleTicket": "추첨 티켓",
@@ -710,7 +712,7 @@
                     "lands": "LAND",
                     "feedbackForm": "피드백 양식",
                     "raffleDaysLeft": "일 후 추첨 결과 발표",
-                    "raffleDay": "RAFFLE RESULTS TODAY",
+                    "raffleDay": "오늘 추첨 결과 발표",
                     "raffleGoodLuck": "행운을 빕니다!!",
                     "raffleDayDesc": "알파 패스를 획득해 보세요!",
                     "claimPass": "패스 수령하기",
@@ -800,7 +802,7 @@
                 "snoop2": "스눕버스 얼리 액세스 패스",
                 "season1": "시즌 1 알파 패스",
                 "land": "LAND를 소유하여 획득",
-                "total": "총 추첨 티켓",
+                "total": "획득한 총 추첨 티켓 수",
                 "getNFT": "NFT 획득하기",
                 "stake": "스테이킹",
                 "notTraded": "추첨 티켓은 NFT가 아니며,",
@@ -1566,18 +1568,18 @@
                 "forCollectorOwner": "NFT 보유자 전용",
                 "collectorDesc": "이 리워드를 잠금 해제하려면 NFT 배지 컬렉터를 보유하세요.",
                 "boosterTitle": "커뮤니티 부스터 리워드",
-                "stakeDesc": "{0}를 스테이킹하면 모두를 위한 알파 패스 리워드가 더욱 많아집니다. {1}",
-                "upTo": "최대 +100%",
-                "stakeDesc2": "{1}를 충분히 스테이킹하면 {0} 또한 획득할 수 있습니다. 전체 시즌 기간(10주) 동안 스테이킹한 각 {2}마다 1 포인트가 부여됩니다.",
+                "stakeDesc": "{0}를 스테이킹하면 모두를 위한 알파 패스 리워드를",
+                "upTo": "최대 +100%까지 상승시킬 수 있습니다.",
+                "stakeDesc2": "충분한 수량의 {1}를 스테이킹하면 {0} 또한 획득할 수 있습니다. 전체 시즌 기간(10주) 동안 스테이킹한 각 {2}마다 1 포인트가 부여됩니다.",
                 "extraTickets": "500개의 추가 추첨 티켓",
                 "onlyVerifiedAccounts": "인증된 계정만 추첨에 당첨될 수 있습니다.",
                 "claimRewards": "리워드 받기",
                 "alreadyOwnRaffle": "이미 알파 패스를 보유하고 있습니다! 시즌이 종료된 후 알파 패스 리워드를 받을 수 있습니다. 추첨에 더 이상 참여하지 않아도 됩니다.",
                 "getMore": "자세히 보기",
                 "raffleResults": "추첨까지 남은 시간",
-                "youAreLand": "LAND 보유자",
-                "youAreAvatar": "아바타 보유자",
-                "youAreCollector": "NFT 컬렉터",
+                "youAreLand": "LAND 보유자입니다.",
+                "youAreAvatar": "아바타 보유자입니다.",
+                "youAreCollector": "NFT 컬렉터입니다.",
                 "epTooltip": "경험 속 퀘스트를 완료하고 에토스 포인트를 획득하세요. 퀘스트의 난이도가 높을수록 더 많은 에토스 포인트를 획득할 수 있습니다."
             },
             "summary": {
@@ -1597,7 +1599,7 @@
                 "ticketsTitle": "추첨 티켓 출처",
                 "ticketsDescription": "티켓을 많이 획득할수록 시즌 3 알파 패스에 당첨될 확률이 높아집니다.",
                 "ticketsDescription2": "추첨 티켓은 NFT가 아니며 2차 마켓에서 거래할 수 없습니다.",
-                "totalRaffleTickets": "전체 추첨 티켓",
+                "totalRaffleTickets": "획득한 총 추첨 티켓 수",
                 "quest": "레벨업",
                 "staking": "스테이킹",
                 "s1Memorabilia": "시즌 1 기념품",
@@ -4652,7 +4654,7 @@
         "infoTooltip": "소유한 LAND 1개마다 추첨 티켓이 1개씩 더 지급됩니다",
         "helpUs": "더 샌드박스의 경험 개선을 위해 여러분의 목소리를 들려주세요!",
         "readMore": "더 읽기",
-        "exclusiveAvatar": "독점 NFT 아바타 획득하기"
+        "exclusiveAvatar": "한정판 NFT 아바타 획득하기"
     },
     "experiencePage": {
         "progressSeason": "시즌 진행 현황",
@@ -4927,12 +4929,12 @@
         },
         "referrals": {
             "title": "친구를 추천하고 수익금을 받으세요",
-            "explanation": "Copy your unique referral link and share it far and wide.",
+            "explanation": "내 추천 링크를 복사하여 많은 사람들에게 공유하세요.",
             "share": "추천 링크 공유하기",
             "duration": "링크 유효 기간:",
             "days": "일",
             "sharein": "공유하기",
-            "amountreferred": "Total Referred",
+            "amountreferred": "추천한 사람 수",
             "amountearnings": "총 수익금: ",
             "link": "추천 자세히 알아보기 >",
             "details": {
@@ -6216,7 +6218,7 @@
                         "1": "얼리 액세스:",
                         "1link": "스눕버스",
                         "2": "스눕버스 개발 과정에 참여하세요",
-                        "2link": "독점 NFT",
+                        "2link": "한정판 NFT",
                         "3": "드롭",
                         "4": "화이트리스트 추가:",
                         "3link": "더 도기즈",
@@ -8826,9 +8828,9 @@
         },
         "link": "OpenSea에서 구매하세요",
         "sidebar": "아바타",
-        "explore": "외부 컬렉션 탐색",
+        "explore": "외부 컬렉션 살펴보기",
         "total": " 컬렉션의 자산",
-        "exploreLands": "LAND와 이스테이트 탐험하기",
+        "exploreLands": "LAND와 이스테이트 살펴보기",
         "exploreLatest": "모든 애셋 살펴보기"
     },
     "alpha3": {
@@ -9688,8 +9690,8 @@
     "externalCollections": {
         "name": "아바타",
         "sidebar": "화신",
-        "explore": "외부 컬렉션 탐색",
-        "exploreLands": "LAND 및 이스테이트 탐색",
+        "explore": "외부 컬렉션 살펴보기",
+        "exploreLands": "LAND 및 이스테이트 살펴보기",
         "exploreLatest": "모든 애셋 살펴보기",
         "total": " 컬렉션의 애셋",
         "header": {
@@ -9785,7 +9787,10 @@
         },
         "admin": {
             "search": {
-                "placeholder": "유저 ID를 입력하세요"
+                "placeholder": {
+                    "user": "Put the nickname or email and press Enter",
+                    "provider": "Put the Synaps session ID and press Enter"
+                }
             },
             "modals": {
                 "update": {
@@ -9795,6 +9800,13 @@
                 "cancel": {
                     "title": "인증 취소",
                     "text": "계정 인증을 취소하시겠습니까?"
+                }
+            },
+            "form": {
+                "fields": {
+                    "sessionId": "Session ID",
+                    "currentStatus": "Current Status",
+                    "newStatus": "New Status"
                 }
             }
         },
