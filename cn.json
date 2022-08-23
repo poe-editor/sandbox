@@ -226,7 +226,9 @@
         "toPlayAlpha": "To Play Alpha Season 3 please use Mac or Windows PC",
         "update": "Update",
         "goToClaim": "Go to Claim",
-        "catalyst&Gems": "CATALYST & GEMS"
+        "catalyst&Gems": "CATALYST & GEMS",
+        "confirm": "",
+        "sync": "Sync"
     },
     "layout": {
         "topbar": {
@@ -9788,7 +9790,10 @@
         },
         "admin": {
             "search": {
-                "placeholder": "Type the User ID and press enter"
+                "placeholder": {
+                    "user": "Put the nickname or email and press Enter",
+                    "provider": "Put the Synaps session ID and press Enter"
+                }
             },
             "modals": {
                 "update": {
@@ -9798,6 +9803,13 @@
                 "cancel": {
                     "title": "Cancel Verification",
                     "text": "Are you sure that you want to cancel the user verification?"
+                }
+            },
+            "form": {
+                "fields": {
+                    "sessionId": "",
+                    "currentStatus": "",
+                    "newStatus": ""
                 }
             }
         },
