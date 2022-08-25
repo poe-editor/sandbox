@@ -10110,6 +10110,10 @@
                 "placeholder": {
                     "user": "Put the nickname or email and press Enter",
                     "provider": "Put the Synaps session ID and press Enter"
+                },
+                "criteria": {
+                    "userData": "Search by user data",
+                    "sessionId": "Search by Synaps ID"
                 }
             },
             "modals": {
