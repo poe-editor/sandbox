@@ -573,11 +573,11 @@
             },
             "tooltips": {
                 "pendingExplore": "방문하지 않음",
-                "explored": "Experience visited",
+                "explored": "방문함",
                 "locked": "잠김",
                 "multiplayer": "멀티플레이어",
                 "singleplayer": "싱글플레이어",
-                "quest": "Quests",
+                "quest": "개 퀘스트",
                 "completed": "완료함",
                 "notCompleted": "완료하지 않음",
                 "alphaCompleted": "알파 퀘스트: 완료함",
@@ -10107,6 +10107,10 @@
                 "placeholder": {
                     "user": "닉네임 또는 이메일을 입력하세요.",
                     "provider": "Synaps 세션 ID를 입력하세요."
+                },
+                "criteria": {
+                    "userData": "Search by user data",
+                    "sessionId": "Search by Synaps ID"
                 }
             },
             "modals": {
