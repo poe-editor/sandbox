@@ -543,7 +543,7 @@
                 "moreExperiences": "更多游戏体验即将推出",
                 "day": "DAYS",
                 "needLogIn": "You need to be signed in to see your progress",
-                "eventsOfTheDay": "Social events of the day",
+                "eventsOfTheDay": "Social events",
                 "boostRewards": "Boost rewards by staking",
                 "to": "TO"
             },
@@ -10110,6 +10110,10 @@
                 "placeholder": {
                     "user": "Put the nickname or email and press Enter",
                     "provider": "Put the Synaps session ID and press Enter"
+                },
+                "criteria": {
+                    "userData": "Search by user data",
+                    "sessionId": "Search by Synaps ID"
                 }
             },
             "modals": {
