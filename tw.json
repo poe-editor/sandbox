@@ -4811,7 +4811,8 @@
             "raffleTickets": "抽獎券",
             "products": "",
             "partners": "Partners",
-            "kyc": "User Verifications (KYC)"
+            "kyc": "User Verifications (KYC)",
+            "shadowBan": "Shadow Ban"
         },
         "users": {
             "profile": "個人檔案",
@@ -4890,6 +4891,16 @@
             "view": "",
             "edit": "",
             "delete": ""
+        },
+        "shadowBan": {
+            "shadowBannedUsersList": "Shadow Banned Users List",
+            "shadowBanByUserID": "Shadow Ban by User ID",
+            "shadowBannedUsers": "Shadow Banned Users",
+            "shadowBanUser": "Shadow Ban User",
+            "reason:": "Reason: ",
+            "banDate:": "Ban Date: ",
+            "unBanUser": "Unban user",
+            "updateLeaderboard": "Update leaderbord"
         }
     },
     "whitelist": {
@@ -10160,8 +10171,8 @@
     },
     "termsOfUse": {
         "title": "THE SANDBOX TERMS OF USE",
-        "updatedDate": "LAST UPDATED: Jul 29, 2022",
-        "text1": "These Sandbox Terms of Use (the “Terms”) set forth the terms and conditions under which BACASABLE Global Limited, a company incorporated in Hong Kong, including its subsidiaries and affiliates (collectively, “TSB”, “us”, “our”, or “we”), and you (“you” or “your”) agree to be governed as it relates to any of your activity in The Sandbox, a decentralized, community-driven platform created and owned by TSB (“The Sandbox”). These Terms govern your access to, use of, and interaction with The Sandbox, including any content, functionality, and services offered on or through The Sandbox and your creation of any Assets and/or Games (defined below) (collectively, the “Services”).",
+        "updatedDate": "LAST UPDATED: Aug 24, 2022",
+        "text1": "These Sandbox Terms of Use (the “Terms”) set forth the terms and conditions under which TSB Gaming Ltd, a company incorporated in Malta, and its subsidiaries and affiliates (collectively, “TSB”, “us”, “our”, or “we”), and you (“you” or “your”) agree to be governed as it relates to any of your activity in The Sandbox, a decentralized, community-driven platform created and owned by TSB (“The Sandbox”). These Terms govern your access to, use of, and interaction with The Sandbox, including any content, functionality, and services offered on or through The Sandbox and your creation of any Assets and/or Games (defined below) (collectively, the “Services”).",
         "text2": {
             "mainText": "Please read these Terms carefully before you start to use The Sandbox. By using The Sandbox, you accept and agree to be bound and abide by these Terms, the extra Terms of Use which can be found at URL: {0} and our Privacy Policy, which can be found at the following URL: {1}, you must not access or use The Sandbox.",
             "0": "Privacy Policy"
