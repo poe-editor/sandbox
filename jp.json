@@ -1931,7 +1931,7 @@
                         "titleKey5": "How can I win on the Leaderboard?",
                         "descriptionKey5": "The Leaderboard is scored on EPs (Ethos Points) first, with a completion time tiebreaker. EPs are earned by completing Quests. Repeat Quests to improve your completion time, which will improve your ranking on the Leaderboard against players with the same number of EPs as you.",
                         "titleKey6": "I went up in the Leaderboard while not doing anything, why?",
-                        "descriptionKey6": "You might see yourself go up in the leaderboard if some users who are ranking above you fall into the following categories and are removed from the Leaderboard:\n - A cheater who got caught and banned\n - A user who did not complete KYC (Know Your Customer) before the end of the season (more information about KYC below)"
+                        "descriptionKey6": "ユーザーが以下の項目に該当し、リーダーボードから削除される場合があります：\n - 不正行為を行っていたことが発覚し、BANされたユーザー\n - シーズン終了前にKYC（Know Your Customer）を完了しなかったユーザー（KYCについては後述します）"
                     },
                     "playing": {
                         "title": "Playing the Alpha Season 3",
@@ -1987,8 +1987,8 @@
                         "descriptionKey10": "アルファパスの入手方法によって異なります。\n 1. アルファ・シーズン3が開催されている間にソーシャルコンテストでアルファパスを獲得した場合、アルファ・シーズン3が終了する前にアルファパスを請求しないと、アルファパスは失われてしまいます。\n 2. 2. アルファ・シーズン3の終わりに抽選でアルファパスを獲得した場合、請求に期限はありません。\n",
                         "titleKey11": "SAND 報酬を受け取るまでにどのくらいの時間がかかりますか?",
                         "descriptionKey11": "There is no time limit to claim your SAND rewards.",
-                        "titleKey12": "Do I need to go through Know Your Customer (KYC) to claim rewards?",
-                        "descriptionKey12": "Yes! Know Your Customer is a standard requirement in the financial industry, and is used to verify customers and mitigate money laundering risks. We also use it to make sure users only play on one account. We are aware that it’s not always reassuring to share personal information but this is the only way to make sure the game is fair for everyone when it comes to rewards that translate to real money. Be absolutely sure that your data will NEVER be used for any other purpose than validating your account. The data is not even available to The Sandbox and its partners; it’s encrypted on our KYC provider database where even they cannot access or exploit the information.",
+                        "titleKey12": "報酬を受け取るために、KYC（Know Your Customer）を行う必要がありますか？",
+                        "descriptionKey12": "はい。Know Your Customer(KYC)は、金融業界の標準的な要件であり、顧客の確認とマネーロンダリングのリスクの軽減のために使用されています。また、ユーザーが1つのアカウントでのみプレイすることを確認するためにも使用されます。個人情報を共有することは必ずしも安心できることではありませんが、報酬に関して、すべてのユーザーにとってゲームが公平であることを確認するためには、これが唯一の方法なのです。あなたのデータは、あなたのアカウントを確認する以外の目的で使用されることはありません。データはThe Sandboxとそのパートナーにも公開されず、KYCプロバイダーのデータベースで暗号化され、彼らも情報にアクセスしたり、悪用したりすることはできません。",
                         "titleKey13": "I forgot to claim my SAND rewards from Alpha Season 1 or Alpha Season 2, can I still do that?",
                         "descriptionKey13": "You can claim all unclaimed rewards related to previous Seasons (NFT rewards, SAND, Alpha Passes…) on this {0}",
                         "descriptionKey13-1": "page"
@@ -10089,17 +10089,17 @@
                 "actionReference": ""
             },
             "cancelled": {
-                "label": "Cancelled",
+                "label": "キャンセル済み",
                 "description": "概要",
                 "extra": "他",
-                "cta": "Start Verification",
+                "cta": "認証を開始する",
                 "date": "時間： {0} UTC",
                 "actionReference": "",
                 "needHelp": ""
             },
             "waitingVerification": {
                 "label": "審査待ち",
-                "description": "We've received your account verification request, this process might take up to 48hs.",
+                "description": "アカウント認証のリクエストを受け取りました。このプロセスには最大48時間かかる場合があります。",
                 "extra": "他",
                 "cta": "認証状況を確認する",
                 "date": "時間： {0} UTC",
@@ -10119,12 +10119,12 @@
         "admin": {
             "search": {
                 "placeholder": {
-                    "user": "Put the nickname or email and press Enter",
-                    "provider": "Put the Synaps session ID and press Enter"
+                    "user": "ニックネームまたはEメールを入れて、Enterキーを押してください",
+                    "provider": "SynapsのセッションIDを入力し、Enterキーを押してください"
                 },
                 "criteria": {
-                    "userData": "Search by user data",
-                    "sessionId": "Search by Synaps ID"
+                    "userData": "ユーザーデータで検索",
+                    "sessionId": "シナプスIDで検索"
                 }
             },
             "modals": {
@@ -10139,9 +10139,9 @@
             },
             "form": {
                 "fields": {
-                    "sessionId": "Session ID",
-                    "currentStatus": "Current Status",
-                    "newStatus": "New Status"
+                    "sessionId": "セッション ID",
+                    "currentStatus": "現在の状態",
+                    "newStatus": "新しい状態"
                 }
             }
         },
