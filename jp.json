@@ -713,7 +713,7 @@
                     "staking": "ステーキング",
                     "lands": "LAND",
                     "feedbackForm": "フィードバックフォーム",
-                    "raffleDaysLeft": "DAYS UNTIL RAFFLE RESULTS",
+                    "raffleDaysLeft": "抽選結果までの日数",
                     "raffleDay": "RAFFLE RESULTS TODAY",
                     "raffleGoodLuck": "幸運を祈ります！",
                     "raffleDayDesc": "アルファパスを獲得しよう！",
@@ -814,7 +814,7 @@
                 "snoopTooltipDesc": "Snoop Dogg Private Party Pass NFTをお持ちの方は、抽選チケットを30枚追加で差し上げます。抽選会開始時（3月31日）にお財布の中にNFTがあることが条件です。",
                 "snoop2TooltipDesc": "Snoopverse Early Access Pass NFTを所有すると、抽選チケットを30枚追加で入手できます。抽選会開始時（3月31日）に財布にNFTを所持している必要があります。",
                 "alphaTooltipDesc": "シーズン1アルファパス（NFT名：アルファパス）を所有することで、130枚の追加ラッフルチケットを手に入れることができます。抽選会開始時（3月31日）に財布にNFTを所持している必要があります。",
-                "landTooltipDesc": "LAND1台につき40枚のラッフルチケットを追加でプレゼント。ラッフル開始時（3月31日）に財布の中にあるNFTを所有している必要があります。抽選チケットは最大200枚です。",
+                "landTooltipDesc": "LAND1台につき40枚の抽選チケットを追加でプレゼント。抽選開始時（3月31日）に財布の中にあるNFTを所有している必要があります。抽選チケットは最大200枚です。",
                 "feedbackTooltipDesc": "シーズン1のフィードバックフォームに回答すると、ラッフルチケット10枚が追加でもらえます。このフォームは現在閉鎖されています。アルファ版シーズン1へのご参加ありがとうございました。シーズン2終了後も、フィードバックフォームへの記入をお忘れなく。",
                 "snoop3": "Doggie Avatar",
                 "snoop3TooltipDesc": "Doggie Avatar NFTを所有することで、抽選チケットを100枚追加で入手することができます。抽選会開始時（3月31日）に財布の中にあるNFTを所有する必要があります。",
@@ -867,7 +867,7 @@
                 "bulletPoints": {
                     "title": "如何获得Alpha通行证？",
                     "firstTitle": "抽選：",
-                    "firstDescription": "LAND所有者可注册抽奖，获得赢取Alpha通行证的机会。",
+                    "firstDescription": "LAND所有者は、抽選に登録することで、アルファパスが当たるチャンスがあります。",
                     "secondTitle": "每日比赛：",
                     "secondDescription1": "Alpha Hubのデイリーコンテストに参加すると、全員にAlpha Passを獲得するチャンスがあります。目が離せないのは、",
                     "secondDescription2": "《The Sandbox》新闻",
@@ -1261,7 +1261,7 @@
                     "description1c": "Some quests are part of Quests Chains and will automatically be triggered when you complete other quests.",
                     "description1d": "Look for yellow exclamation marks and talk to NPCs (even if they don’t have Quests to give you they might steer you in the direction of an NPC who does!).",
                     "text2": "Do I need to perform a daily action repeatedly?",
-                    "description2": "No. New experiences (hence new quests) are released every weekday, so eager players will play every day but if you want you can come late and do a lot of quests at once! Be careful though, there are a lot of quests and a lot of content! Some people will accumulate a lot of Raffle Tickets by completing a lot of quests. If you want to have good chances to win the Season 2 Alpha Pass by the end of the Alpha Season 2, you better not start working on quests too late or you won’t have time to complete much."
+                    "description2": "新しいクエストは平日毎日リリースされるので、毎日プレイできますが、一度にたくさんのクエストをこなすことも可能です。クエストをたくさんこなして、抽選チケットをたくさん貯める人もいます。アルファ・シーズン2終了までにアルファパスを獲得するチャンスを得るには、早くにクエストを始めることをお勧めします。"
                 }
             },
             "carousel": {
@@ -1617,9 +1617,9 @@
                 "feedbackForm": "Season 2 Feedback Form",
                 "feedbackDescription": "By answering AS2 feedback form",
                 "challenges": "Challenges",
-                "challengesDescription": "1 Daily Challenge = 5 Raffle Tickets",
+                "challengesDescription": "デイリーチャレンジ1回につき抽選チケット5枚",
                 "referral": "Friend Referral",
-                "referralDescription": "1 Friend Referral = 25 Raffle Tickets",
+                "referralDescription": "友達1人紹介につき抽選チケット25枚",
                 "playNow": "Play now",
                 "stakeNow": "Stake now",
                 "missed": "Missed",
@@ -1711,7 +1711,7 @@
                 "participatedForm": "If you answered the Alpha Season 2 Feedback form.",
                 "participatedContests": "Participating in social challenges. {0}",
                 "viewContests": "View Contests Tab",
-                "questTitle": "EPs and Raffle Tickets",
+                "questTitle": "EPと抽選チケット",
                 "locateQuests": "LOCATE QUESTS",
                 "completeQuests": "COMPLETE QUESTS TO EARN EPS",
                 "completeDescription": "Complete the objective(s) described in the info panel on the right side of the screen. Earn EPs when the quest is completed.",
@@ -1788,7 +1788,7 @@
                     "getRaffleDesc": "Increase your chances of winning the Raffle.",
                     "getAlpha": "Get an Alpha Pass",
                     "getAlphaDesc": "Your winning ticket for the Raffle.",
-                    "getAlphaDesc2": "Gives your 100% chances of winning the Raffle rewards.",
+                    "getAlphaDesc2": "抽選で100％の確率で報酬がもらえます。\n",
                     "disclaimer": "* The Raffle will take place at the end of the season, on November 3rd."
                 },
                 "4": {
@@ -1964,7 +1964,7 @@
                     "rewards": {
                         "title": "Alpha Season 3 Rewards",
                         "titleKey": "Are Raffle Tickets NFTs?",
-                        "descriptionKey": "No. You can view Raffle Tickets as an indicator of a player’s investment in the Alpha Season 3, but they are not NFTs and cannot be traded on the secondary market.",
+                        "descriptionKey": "いいえ。抽選チケットは、プレイヤーがアルファ・シーズン3に参加中は有効ですが、NFTではないので、二次流通で取引することはできません。",
                         "titleKey1": "抽選に当選したかどうかは、どうすればわかりますか？",
                         "descriptionKey1": "当選した場合はメールが届き、抽選当日に抽選に当選したかどうかを知らせるポップアップがウェブサイトに表示されます。",
                         "titleKey2": "シーズン3のアルファパスを持っていない場合、抽選でSANDの報酬を獲得する方法はありますか？",
@@ -1974,8 +1974,8 @@
                         "titleKey4": "Do I get the 500 SAND reward just for playing the Alpha Season 3?",
                         "descriptionKey4": "First, the rewards might go up to 500 SAND but it’s not guaranteed; please see the section below about the Reward Community Booster. Rewards will be AT LEAST 250 SAND for completing the 5 levels of Season 3.\n Second, playing the Alpha gives you a chance to win a Season 3 Alpha Pass through the Raffle.\n If you win, the rewards are yours!",
                         "titleKey5": "If I gift/sell/lose my Season 3 Alpha Pass, can I still get the SAND rewards for the levels I completed?",
-                        "descriptionKey5": "No. You need the Season 3 Alpha Pass to trigger the Raffle rewards claim, so hold on to it if you want your SAND rewards!",
-                        "titleKey6": "How long between the Raffle and the Reward Claim?",
+                        "descriptionKey5": "いいえ。シーズン3アルファパスは報酬請求に必要なので、保有していてください。",
+                        "titleKey6": "抽選から報酬請求までの期間は？",
                         "descriptionKey6": "24時間。",
                         "titleKey7": "When can I claim the SAND rewards? Can I claim them as I progress through each level?",
                         "descriptionKey7": "You can claim the SAND rewards only at the end of the Alpha Season 3 if you own a Season 3 Alpha Pass.",
@@ -1984,7 +1984,7 @@
                         "titleKey9": "On which chain will the Season 3 Alpha Pass and SAND rewards be claimed?",
                         "descriptionKey9": "シーズン3アルファパスNFTの請求はイーサリアムメインネットで、SANDはポリゴンメインネットで請求されます。ポリゴン（レイヤー2）を使用したことがない方もご安心ください; このレイヤーを使用するために必要なすべての手順は、報酬を請求する際に説明されます。",
                         "titleKey10": "How much time do I have to claim my Season 3 Alpha Pass?",
-                        "descriptionKey10": "It depends on how you got your Alpha Pass.\n 1. If you won your S3AP through a Social Contest, while Alpha Season 3 was ongoing, you must claim it BEFORE THE END of Alpha Season 3 or it will be lost!\n 2. If you won your S3AP through the Raffle at the end of Alpha Season 3, there is no deadline to claim it.",
+                        "descriptionKey10": "アルファパスの入手方法によって異なります。\n 1. アルファ・シーズン3が開催されている間にソーシャルコンテストでアルファパスを獲得した場合、アルファ・シーズン3が終了する前にアルファパスを請求しないと、アルファパスは失われてしまいます。\n 2. 2. アルファ・シーズン3の終わりに抽選でアルファパスを獲得した場合、請求に期限はありません。\n",
                         "titleKey11": "SAND 報酬を受け取るまでにどのくらいの時間がかかりますか?",
                         "descriptionKey11": "There is no time limit to claim your SAND rewards.",
                         "titleKey12": "Do I need to go through Know Your Customer (KYC) to claim rewards?",
@@ -2026,7 +2026,7 @@
                         "titleKey": "How do I progress in the Alpha Season 3? How can I reach level 5?",
                         "descriptionKey": "You need to enter Experiences in The Sandbox and complete quests to earn EPs and progress in the Alpha Season 3.\n Most quests are indicated by a yellow exclamation mark above the head of the NPC that will trigger the quest.\n Some quests are part of Quest Chains and will automatically be triggered when you complete other quests.\n Look for yellow exclamation marks and talk to NPCs (even if they don’t have Quests to give you they might steer you in the direction of an NPC who does!).",
                         "titleKey1": "Do I need to perform a daily action repeatedly?",
-                        "descriptionKey1": "No. New experiences (hence new quests) are released everyday, so eager players will play every day but if you want you can come late and do a lot of quests at once! Be careful though, there are a lot of quests and a lot of content! Some people will accumulate a lot of Raffle Tickets by completing a lot of quests. If you want to have good chances to win the Season 3 Alpha Pass by the end of the Alpha Season 3, it’s better to not start working on quests too late or you won’t have time to complete much."
+                        "descriptionKey1": "新しいクエストは平日毎日リリースされるので、毎日プレイできますが、一度にたくさんのクエストをこなすことも可能です。クエストをたくさんこなして、抽選チケットをたくさん貯める人もいます。アルファ・シーズン3終了までにアルファパスを獲得するチャンスを得るには、早くにクエストを始めることをお勧めします。"
                     },
                     "security": {
                         "title": "Security",
@@ -4616,7 +4616,7 @@
             "kyc": {
                 "title": "アカウント認証",
                 "subtitle": "KYCの手順",
-                "description": "LANDセール、抽選やシーズン特典の申請などの活動に参加するためには、アカウント認証プロセスを完了する必要があります。",
+                "description": "LANDセール、抽選やシーズン報酬の申請などの活動に参加するためには、アカウント認証プロセスを完了する必要があります。",
                 "extra": "手続きには最大で48時間かかる場合があります。確認の進捗状況は、こちらでいつでも確認することができます。",
                 "button": {
                     "start": "認証を開始する",
