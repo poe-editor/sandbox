@@ -12,7 +12,7 @@
         "back": "戻る",
         "new": "新規",
         "save": "保存",
-        "email": "Eメール",
+        "email": "メール",
         "nickname": "ニックネーム",
         "price": "価格",
         "catalyst": {
@@ -1173,7 +1173,7 @@
                     "text3": "疑わしいアクティビティの通報方法",
                     "description8": "ソーシャルメディアやメール、またはOpenSeaで不審な活動を発見した場合、",
                     "hrefText1": "当社Discordチャンネルに",
-                    "description9": "#reporting-scamsチャンネルから通報してください。Eメールにてcontact@sandbox.game に連絡することもできます。",
+                    "description9": "#reporting-scamsチャンネルから通報してください。メールにてcontact@sandbox.game に連絡することもできます。",
                     "text4": "OpenSeaで販売されているASSETが安全かどうかを知る方法",
                     "description10": "OpenSeaでアルファパスやASSET、LANDをお探しの場合、The Sandbox正式NFTかを確認してください。",
                     "hrefText2": "https://opensea.io/collection/sandbox",
@@ -2037,7 +2037,7 @@
                         "titleKey1": "The Sandbox が私の秘密のシードフレーズ（別名パスフレーズ）を要求することはありますか?",
                         "descriptionKey1": "いいえ。The Sandboxがあなたの秘密のシードフレーズを要求することはありません。秘密のシードフレーズは誰とも共有してはいけません。あなたの秘密のシードフレーズを共有すると、あなたのウォレットが危険にさらされ、すべてのトークンとNFTを失う可能性があります。\n\n 詐欺師はThe Sandboxの関係者になりすまして、お客様に情報を提供させようとします。ご注意ください。",
                         "titleKey2": "不審なアクティビティを報告するにはどうすればよいですか?",
-                        "descriptionKey2": "If you detect any suspicious activity on social media, email, or OpenSea, you can report it on our Discord channel ({0}) via the #reporting-scams channel. You can also reach us out by email at contact@sandbox.game.",
+                        "descriptionKey2": "ソーシャルメディア、メール、OpenSeaで不審な活動を発見した場合は、The Sandbox (contact@sandbox.game）までご連絡ください。",
                         "titleKey3": "OpenSea で安全に購入できるアセットを確認するにはどうすればよいですか?",
                         "descriptionKey3": "When looking for Alpha Passes, Assets, or LANDs on OpenSea, make sure it belongs to our verified Sandbox collection at {0}.",
                         "titleKey4": "詐欺に遭わないようにするための情報はどこで確認できますか？",
@@ -2919,10 +2919,10 @@
                         "errorUsername3": "ユーザー名は必須フィールドです。必ず入力してください。",
                         "titleTooLong": "タイトルが長すぎます",
                         "descriptionTooLong": "タイトルが長すぎます",
-                        "emailIsRequired": "Eメールは必須です",
-                        "emailIsIncorrect": "Eメールが正しくありません",
-                        "emailAlreadyInUse": "既に使われているEメールです",
-                        "emailsDoNotMatch": "Eメールが一致しません",
+                        "emailIsRequired": "メールは必須です",
+                        "emailIsIncorrect": "メールは正しくありません",
+                        "emailAlreadyInUse": "既に使われているメールアドレスです",
+                        "emailsDoNotMatch": "メールが一致しません",
                         "oldPasswordIsRequired": "旧パスワードは必須です",
                         "oldPaswordDoesNotMatch": "旧パスワードが一致しません",
                         "newPasswordIsRequired": "新パスワードは必須です",
@@ -3000,7 +3000,7 @@
                         "signin": "Bitskiでサインインしてください"
                     },
                     "email": {
-                        "title": "Eメール",
+                        "title": "メール",
                         "value": "ウォレットに接続する"
                     },
                     "web": {
@@ -3028,24 +3028,24 @@
                     "withWallet": "ウォレットでもサインインできます。",
                     "walletButtonText": "ウォレットでサインイン",
                     "placeholders": {
-                        "usernameOrEmail": "ユーザー名またはEメール",
+                        "usernameOrEmail": "ユーザー名またはメール",
                         "password": "パスワード"
                     },
                     "errors": {
-                        "usernameEmailMissing": "ユーザー名/Eメールがありません",
+                        "usernameEmailMissing": "ユーザー名/メールがありません",
                         "passwordMissing": "パスワードがありません",
                         "userPasswordMismatches": "ユーザー名またはパスワードが一致しません"
                     }
                 },
                 "forgotModal": {
                     "title": "パスワードの回復",
-                    "emailOrUsername": "Eメールまたはユーザー名",
+                    "emailOrUsername": "メールアドレスまたはユーザー名",
                     "recover": "回復",
-                    "sent": "Eメールを送信しました",
+                    "sent": "メールを送信しました",
                     "emailTo": "次のアドレス宛にメールを送信しました：",
                     "changeAfterEmail": "これによりパスワードを変更できます。",
                     "errors": {
-                        "emailUsernameIsRequired": "Eメールまたはユーザー名は必須です"
+                        "emailUsernameIsRequired": "メールアドレスまたはユーザー名は必須です"
                     }
                 },
                 "changePasswordModal": {
@@ -3181,13 +3181,13 @@
                 },
                 "metamaskWalletModal": {
                     "title": "あと少しです！",
-                    "description": "これらの項目にEメールとニックネームを入力してください",
+                    "description": "これらの項目にメールとニックネームを入力してください",
                     "required": "この項目は必須です",
                     "confirm": "私は次を承認することに同意します：",
                     "terms": "利用規約",
                     "errors": {
-                        "emailIsRequired": "Eメールは必須です",
-                        "emailIsIncorrect": "Eメール情報が有効なメールアドレスではありません",
+                        "emailIsRequired": "メールは必須です",
+                        "emailIsIncorrect": "有効なメールアドレスではありません",
                         "emailAlreadyInUse": "既に使用されているメールアドレスです",
                         "usernameIncorrect": "ユーザー名が正しくありません",
                         "usernameTooShort": "ユーザー名が短すぎます",
@@ -3952,10 +3952,10 @@
                 "errorUsername3": "ユーザー名は必須項目で、空欄にすることはできません",
                 "titleTooLong": "タイトルが長すぎます",
                 "descriptionTooLong": "タイトルが長すぎます",
-                "emailIsRequired": "Eメールは必須です",
-                "emailIsIncorrect": "Eメールが正しくありません",
-                "emailAlreadyInUse": "既に使われているEメールです",
-                "emailsDoNotMatch": "Eメールが一致しません",
+                "emailIsRequired": "メールは必須です",
+                "emailIsIncorrect": "メール情報は正しくありません",
+                "emailAlreadyInUse": "既に使われているメールアドレスです",
+                "emailsDoNotMatch": "メールが一致しません",
                 "oldPasswordIsRequired": "旧パスワードは必須です",
                 "oldPaswordDoesNotMatch": "旧パスワードが一致しません",
                 "newPasswordIsRequired": "新パスワードは必須です",
@@ -3969,8 +3969,8 @@
                 "editTitle": "プロフィールを編集する",
                 "title": "タイトル",
                 "description": "説明",
-                "email": "Eメール",
-                "newEmail": "新しいEメール",
+                "email": "メール",
+                "newEmail": "新しいメール",
                 "oldPassword": "旧パスワード",
                 "newPassword": "新パスワード",
                 "repeatPassword": "パスワードの再入力",
@@ -4319,7 +4319,7 @@
                 "signin": "Bitskiでサインインしてください"
             },
             "email": {
-                "title": "Eメール",
+                "title": "メール",
                 "value": "ウォレットに接続する"
             },
             "web": {
@@ -4351,7 +4351,7 @@
             "withWallet": "ウォレットでもサインインできます。",
             "walletButtonText": "ウォレットでサインイン",
             "placeholders": {
-                "usernameOrEmail": "ユーザー名またはEメール",
+                "usernameOrEmail": "ユーザー名またはメールアドレス",
                 "password": "パスワード"
             },
             "errors": {
@@ -4362,13 +4362,13 @@
         },
         "forgotModal": {
             "title": "パスワードの回復",
-            "emailOrUsername": "Eメールまたはユーザー名",
+            "emailOrUsername": "メールアドレスまたはユーザー名",
             "recover": "回復",
-            "sent": "Eメールを送信しました",
+            "sent": "メールを送信しました",
             "emailTo": "次のアドレス宛にメールを送信しました：",
             "changeAfterEmail": "これによりパスワードを変更できます。",
             "errors": {
-                "emailUsernameIsRequired": "Eメールまたはユーザー名は必須です"
+                "emailUsernameIsRequired": "メールまたはユーザー名は必須です"
             }
         },
         "changePasswordModal": {
@@ -4392,13 +4392,13 @@
         },
         "metamaskWalletModal": {
             "title": "あと少しです！",
-            "description": "これらの項目にEメールとニックネームを入力してください",
+            "description": "これらの項目にメールとユーザー名を入力してください",
             "required": "この項目は必須です",
             "confirm": "私は次を承認することに同意します：",
             "terms": "利用規約",
             "errors": {
-                "emailIsRequired": "Eメールは必須です",
-                "emailIsIncorrect": "Eメール情報が有効なメールアドレスではありません",
+                "emailIsRequired": "メールは必須です",
+                "emailIsIncorrect": "メール情報が有効なメールアドレスではありません",
                 "emailAlreadyInUse": "既に使用されているメールアドレスです",
                 "usernameIncorrect": "ユーザー名が正しくありません",
                 "usernameTooShort": "ユーザー名が短すぎます",
@@ -4447,10 +4447,10 @@
             "securityMobile": "セキュリティ",
             "general": {
                 "title": "設定",
-                "email-sub": "Eメール",
+                "email-sub": "メール",
                 "email-subnote": "注：",
                 "email-note": "この変更を行うには、セキュリティコード認証が必要です。",
-                "newEmail-sub": "新しいEメール",
+                "newEmail-sub": "新しいメール",
                 "submit": "設定を保存",
                 "info": "個人情報",
                 "info-note": "名前とユーザー名を追加し、説明分を入力してください。",
@@ -4458,8 +4458,8 @@
                 "desc": "説明",
                 "social": "ソーシャル",
                 "social-note": "自分のソーシャルメディアアカウントをリンクしておけば、他のユーザーに知ってもらうことができます。",
-                "email-invalid": "Eメールの形式が正しくありません",
-                "oldEmail-sub": "現在のEメール",
+                "email-invalid": "メールの形式が正しくありません",
+                "oldEmail-sub": "現在のメール",
                 "submitEmail": "メールアドレスを変更",
                 "websiteUrl": "個人ウェブサイト",
                 "generic-error": "1つ以上のエラーが発生しました。",
@@ -7153,7 +7153,7 @@
         },
         "signIn": {
             "createAccount": "アカウントの作成",
-            "usernameEmailMissing": "ユーザー名/Eメールがありません",
+            "usernameEmailMissing": "ユーザー名/メールがありません",
             "passwordMissing": "パスワードがありません",
             "userPasswordMismatches": "ユーザー名またはパスワードが一致しません",
             "logWithWallet": "ウォレットでサインイン",
@@ -7161,7 +7161,7 @@
             "signIn": "サインイン",
             "title": "ログイン",
             "subtitle": "マーケットプレイスにアップロードするには、ログインしている必要があります。",
-            "placeholder1": "ユーザー名/Eメール",
+            "placeholder1": "ユーザー名/メール",
             "placeholder2": "パスワード",
             "forgotPass": "パスワードを忘れた",
             "walletLoginMsg": "ウォレットでもログインできます。",
@@ -10119,7 +10119,7 @@
         "admin": {
             "search": {
                 "placeholder": {
-                    "user": "ニックネームまたはEメールを入れて、Enterキーを押してください",
+                    "user": "ユーザー名またはメールを入れて、Enterキーを押してください",
                     "provider": "SynapsのセッションIDを入力し、Enterキーを押してください"
                 },
                 "criteria": {
