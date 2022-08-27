@@ -1175,7 +1175,7 @@
                     "hrefText1": "当社Discordチャンネルに",
                     "description9": "#reporting-scamsチャンネルから通報してください。Eメールにてcontact@sandbox.game に連絡することもできます。",
                     "text4": "OpenSeaで販売されているASSETが安全かどうかを知る方法",
-                    "description10": "OpenSeaでアルファパスやASSET、LANDをお探しの場合、それらが当社認定済みのSandboxコレクションに属しているかを次からお確かめください。",
+                    "description10": "OpenSeaでアルファパスやASSET、LANDをお探しの場合、The Sandbox正式NFTかを確認してください。",
                     "hrefText2": "https://opensea.io/collection/sandbox",
                     "text5": "詐欺に引っ掛からないよう、公式リンクの確認方法",
                     "description7a": "NO NO NO, The Sandbox will never request your secret seedphrase and you should not share your secret seedphrase with anyone, ever! Sharing your secret seedphrase will compromise your wallet and you might lose all your tokens and NFTs.",
@@ -1575,7 +1575,7 @@
                 "upTo": "Up to +100%",
                 "stakeDesc2": "\"You will also get {0} for staking enough {1}. 1 point earned for each {2} staked during the whole season duration (10 weeks).",
                 "extraTickets": "500抽選チケット追加",
-                "onlyVerifiedAccounts": "Only Verified Accounts can win the Raffle",
+                "onlyVerifiedAccounts": "抽選に参加できるのは、認証済みアカウントのみです。",
                 "claimRewards": "報酬を受け取る!",
                 "alreadyOwnRaffle": "You already own an Alpha Pass! You will be able to claim your Alpha Pass rewards at the end of the season. No need to participate in the Raffle anymore.",
                 "getMore": "Get more",
@@ -1883,7 +1883,7 @@
                     "title3": "02. ID Document",
                     "description3": "書類の種類を選び、表と裏を追加する必要があります。",
                     "title4": "03. All set",
-                    "description4": "If all data is correct your status will change from \"Pending Review\" to \"Verified\"."
+                    "description4": "データ照合完了後、ステータスは「審査待ち」から「認証完了」に変わります。"
                 },
                 "12": {
                     "title": "FAQ"
@@ -9674,7 +9674,7 @@
         "POC_RAFFLE_JOIN_OUR_COMMUNITY_BUTTON": "Join us",
         "POC_RAFFLE_CONNECT_END_WARNING_TITLE": "end warning",
         "POC_RAFFLE_CONNECT_WRONG_WALLET_TITLE": "wrong wallet",
-        "POC_RAFFLE_CONNECT_WALLET_VERIFYING_TITLE": "Wallet is getting verified",
+        "POC_RAFFLE_CONNECT_WALLET_VERIFYING_TITLE": "ウォレットは認証中です",
         "POC_RAFFLE_CONNECT_WALLET_VERIFYING_DESCRIPTION": "Please wait while redirecting",
         "POC_RAFFLE_CONNECT_CUSTOMIZE_AVATAR_TITLE": "Customize avatar",
         "POC_RAFFLE_CONNECT_CUSTOMIZE_AVATAR_SUBTITLE": "People of crypto",
@@ -10071,7 +10071,7 @@
                 "actionReference": "要対応"
             },
             "verified": {
-                "label": "承認完了",
+                "label": "認証完了",
                 "description": "アカウントの認証が完了しました。これにより、報酬の請求、LANDのセール、抽選会などに参加することができます。",
                 "extra": "他",
                 "cta": "認証を開始する",
@@ -10098,7 +10098,7 @@
                 "needHelp": ""
             },
             "waitingVerification": {
-                "label": "認証は保留中です",
+                "label": "審査待ち",
                 "description": "We've received your account verification request, this process might take up to 48hs.",
                 "extra": "他",
                 "cta": "認証状況を確認する",
@@ -10146,7 +10146,7 @@
             }
         },
         "bar": {
-            "explanation": "Your account is not verified. Verify your account before the end of the season. It is mandatory to claim your rewards",
+            "explanation": "あなたのアカウントはまだ認証されていません。シーズン終了までに本人確認んを完了してください。報酬を請求時に必須になります。",
             "actions": {
                 "start": "開始する",
                 "continue": "継続する",
