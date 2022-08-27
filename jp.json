@@ -1583,7 +1583,7 @@
                 "youAreLand": "あなたはLAND保有者です",
                 "youAreAvatar": "あなたはアバター保有者です。",
                 "youAreCollector": "あなたはNFTコレクターです",
-                "epTooltip": "Earn Ethos Points by completing quests inside experiences. Harder quests will grant you more Ethos Points"
+                "epTooltip": "体験内のクエストをクリアすることで、エトスポイントを獲得できます。難易度の高いクエストをクリアすると、より多くのエトスポイントを獲得できます。"
             },
             "summary": {
                 "rewardsSummary": "報酬サマリー",
@@ -1732,11 +1732,11 @@
                 "KYC": "KYC: Know Your Customer",
                 "KYCDescription": "KYCは、安全で公正な環境を提供するために重要なプロセスです。本人確認プは必ず行ってください。プレイは誰でもできますが、リワードを獲得できるのはユーザー認証済みのアカウントのみです。",
                 "leaderboards": "Leaderboards",
-                "leaderboardsDescription": "The more Ethos Points (EPs) you earn the higher you will rank in the Leaderboard. The prize pool is 1.5 million SAND. First place gets 30,000 SAND!",
+                "leaderboardsDescription": "エトスポイント（EP）を多く獲得するほど、Leaderboardの上位にランクされます。賞金プールは150万SANDです。1位には30,000SANDが贈られます",
                 "seeLeaderboard": "See Leaderboard",
                 "polygon": "Polygon",
                 "polygonDescription": "アルファ・シーズン3の報酬の請求は、Polygon Mainnetで行われます。これまでより、ガス代が安くなります！",
-                "EP": "EP stands for Ethos Points",
+                "EP": "EPはEthos Pointsの略です",
                 "EPDescription": "Completing quests inside the metaverse will now grant EPs. The harder the quest, the more EPs you will earn. Obtain EPs to level up and earn rewards.",
                 "play": "Play",
                 "events": "イベント",
@@ -1929,7 +1929,7 @@
                         "titleKey4": "What is the Leaderboard?",
                         "descriptionKey4": "The Leaderboard is a new feature in the Alpha Season 3 where you can compete with other players to win rewards based on your rank.",
                         "titleKey5": "How can I win on the Leaderboard?",
-                        "descriptionKey5": "The Leaderboard is scored on EPs (Ethos Points) first, with a completion time tiebreaker. EPs are earned by completing Quests. Repeat Quests to improve your completion time, which will improve your ranking on the Leaderboard against players with the same number of EPs as you.",
+                        "descriptionKey5": "Leaderboardは、EP（エトスポイント）を優先してスコア化され、ユーザーが同じスコアである場合の問題を解決します。EPは、クエストをクリアすることで獲得できます。クエストを繰り返しクリアすることで、クリアタイムが向上し、EP数が同じプレイヤーとのLeaderboardでの順位が上がります。",
                         "titleKey6": "I went up in the Leaderboard while not doing anything, why?",
                         "descriptionKey6": "ユーザーが以下の項目に該当し、リーダーボードから削除される場合があります：\n - 不正行為を行っていたことが発覚し、BANされたユーザー\n - シーズン終了前にKYC（Know Your Customer）を完了しなかったユーザー（KYCについては後述します）"
                     },
@@ -2069,7 +2069,7 @@
                 "warn": "アルファシーズン3が終了する前に、アカウント認証を行うことを忘れないでください。報酬を受け取るために必要な手続きです。",
                 "currentUser": "YOU",
                 "tooltips": {
-                    "ep": "Finish Season 3 Quests to collect Ethos Points!",
+                    "ep": "シーズン3のクエストをクリアして、エトスポイントを集めよう！",
                     "quests": "クエストを繰り返し、最速のクリアタイムを目指そう!",
                     "rewards": "Collect your Reward from the Rewards Page at the end of the season!"
                 }
