@@ -1151,10 +1151,10 @@
                 "security": {
                     "title": "セキュリティ",
                     "text1": "ウォレットの安全性を守る方法",
-                    "description1": "トークンやNFTを狙う不届き者は多く存在します。十分に注意する必要があります。そこで、次の事を常に心掛けるようしてください。",
+                    "description1": "トークンやNFTを狙う悪い人は多く存在します。十分に注意する必要があります。そこで、次の事を常に心がけるようしてください。",
                     "bulletPoints": {
-                        "0": "誰とも自分のシードフレーズを共有しない",
-                        "1": "シードフレーズを無防備な状態にしない",
+                        "0": "誰とも自分のシードフレーズを共有しないでください",
+                        "1": "シードフレーズは必ず安全な場所に保管してください",
                         "2": "ウォレットならびに関連するアカウントに対して強力なパスワードを作る",
                         "3": "パスワードマネージャーを使い、さらに強力なマスターパスワードを作成する",
                         "4": "どのような状況においても、ブラウザーにウォレットがロック解除された状態で離席しない",
@@ -4444,7 +4444,7 @@
         "settings": {
             "title": "設定",
             "gral": "General",
-            "securityMobile": "Security",
+            "securityMobile": "セキュリティ",
             "general": {
                 "title": "全般設定",
                 "email-sub": "Eメール",
@@ -4494,12 +4494,12 @@
                 "genericError": "1つ以上のエラーが発生しました。"
             },
             "security": {
-                "title": "セキュリティとパスワード",
-                "password-sub": "密码",
+                "title": "メールとパスワード",
+                "password-sub": "パスワード",
                 "password-note": "セキュリティ向上のため、他のオンラインアカウントでは使用していないパスワードを選択することを強くお勧めします。",
-                "old-password": "当前密码",
-                "new-password": "新的密码",
-                "repeat-password": "重新输入密码",
+                "old-password": "現在のパスワード",
+                "new-password": "新しいパスワード",
+                "repeat-password": "パスワードを再入力",
                 "sub": "Account security",
                 "note": "For your security, we highly recommend that you choose a unique password that you don’t use for any other online account.",
                 "email": "Email",
