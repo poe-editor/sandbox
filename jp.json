@@ -1926,12 +1926,12 @@
                         "descriptionKey2": "Only NFTs released as part of Season 3 Collections will unlock the Avatar Owner and NFT Collector Badge reward. You can see which NFTs are included in the “NFT Shop” tab in the Alpha section of the website.",
                         "titleKey3": "NFTコレクターバッジを獲得するにはどうしたらよいですか？",
                         "descriptionKey3": "You need to collect 1 NFT from the Season 3 Collections to unlock the badge and earn the guaranteed owner reward.\nAny NFT from the Season 3 Collections will work but other NFTs are not eligible for the badge. You can see which NFTs are included in the “NFT Shop” tab in the Alpha section of the website.",
-                        "titleKey4": "What is the Leaderboard?",
-                        "descriptionKey4": "The Leaderboard is a new feature in the Alpha Season 3 where you can compete with other players to win rewards based on your rank.",
-                        "titleKey5": "How can I win on the Leaderboard?",
+                        "titleKey4": "Leaderboardとは何ですか？",
+                        "descriptionKey4": "Leaderboardでは、アルファ・シーズン3の新機能で、他のプレイヤーと順位を競い、順位に応じた報酬を獲得することができます。注）日本在住の方を除く",
+                        "titleKey5": "Leaderboardで勝つにはどうしたらいいですか？",
                         "descriptionKey5": "Leaderboardは、EP（エトスポイント）を優先してスコア化され、ユーザーが同じスコアである場合の問題を解決します。EPは、クエストをクリアすることで獲得できます。クエストを繰り返しクリアすることで、クリアタイムが向上し、EP数が同じプレイヤーとのLeaderboardでの順位が上がります。",
                         "titleKey6": "I went up in the Leaderboard while not doing anything, why?",
-                        "descriptionKey6": "ユーザーが以下の項目に該当し、リーダーボードから削除される場合があります：\n - 不正行為を行っていたことが発覚し、BANされたユーザー\n - シーズン終了前にKYC（Know Your Customer）を完了しなかったユーザー（KYCについては後述します）"
+                        "descriptionKey6": "ユーザーが以下の項目に該当し、リーダーボードから削除される場合があります：\n - 不正行為を行っていたことが発覚し、BANされたユーザー\n - シーズン終了前にKYC（Know Your Customer）を完了しなかったユーザー"
                     },
                     "playing": {
                         "title": "アルファ・シーズン3をプレイ",
@@ -2051,12 +2051,12 @@
                 "date": "アルファ・シーズン3",
                 "title": "Leaderboard",
                 "description": "エトスポイント（EP）を最速で獲得して、リーダーボードで上位にランクインし、最大30KのSANDを手に入れましょう！（注　日本在住の方を除く",
-                "link": "Go to NFT Shop"
+                "link": "NFTショップへ行く"
             },
             "table": {
                 "description": {
                     "top": "Top",
-                    "players": "players",
+                    "players": "プレイヤー",
                     "time": "Next Leaderboard update in"
                 },
                 "head": [
@@ -2082,26 +2082,26 @@
                     "claimDisabled": "Claim your rewards from xxx",
                     "claimButton": "報酬を受け取る",
                     "shouldLogin": "Sign In to see your position on the Leaderboard",
-                    "loggInButton": "Sign In"
+                    "loggInButton": "サインイン"
                 }
             },
             "sidebar": {
                 "table": {
-                    "quest": "Quest"
+                    "quest": "クエスト"
                 },
                 "experiences": {
                     "title": "Your Ranking Detail",
                     "rank": "RANK {userRank}",
                     "tableColumns": {
-                        "column1": "Experience",
+                        "column1": "体験",
                         "column2": "Your Time",
-                        "column3": "World Record"
+                        "column3": "ワールドレコード"
                     }
                 },
                 "experienceDetails": {
-                    "details": "Details",
+                    "details": "詳細",
                     "tableColumns": {
-                        "column1": "Quest",
+                        "column1": "クエスト",
                         "column2": "Your Time",
                         "column3": "World Record",
                         "column4": "Record Holder"
@@ -4900,7 +4900,7 @@
             "reason:": "Reason: ",
             "banDate:": "Ban Date: ",
             "unBanUser": "Unban user",
-            "updateLeaderboard": "Update leaderbord"
+            "updateLeaderboard": "Leaderboardを更新"
         }
     },
     "whitelist": {
