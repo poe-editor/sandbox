@@ -837,7 +837,7 @@
                 "enterMetaverse": "Enter the Metaverse",
                 "badgeStatus": "You need to be logged in to see your Badge status",
                 "collectedBadge": "The Collector's badge is yours!",
-                "enjoyRewards": "保証された報酬を楽しむことがができます。",
+                "enjoyRewards": "NFT保有者向け報酬を楽しむことができます。",
                 "collect10": "Collect 1 NFT to earn the NFTs Collector's badge",
                 "needToGet": "YOU ONLY NEED {count} TO GET IT!",
                 "owned": "Owned",
@@ -1634,7 +1634,7 @@
             "alphaSeason": "アルファ・シーズン3",
             "shop": {
                 "nftShop": "NFT Shop",
-                "findAll": "報酬をアンロックできるNFTは、LAND、アバター、AS3 コレクションNFTです。注）日本在住の方を除く",
+                "findAll": "NFT保有者向け報酬をアンロックできるNFTは、LAND、アバター、AS3 コレクションNFTです。注）日本在住の方を除く",
                 "nft": "NFT",
                 "nftCollector": "{0}Collector Badge",
                 "youOwn": "あなたはNFTコレクターバッチを保有中です。",
@@ -1656,11 +1656,11 @@
                 "land": {
                     "title": "Land",
                     "ctaText": "Buy Land",
-                    "description": "LANDを所有して報酬をアンロック"
+                    "description": "NFT保有者向け報酬をアンロック"
                 },
                 "nftAvatar": {
                     "title": "NFT Avatar",
-                    "description": "アバターを保有して、報酬を獲得しよう"
+                    "description": "アバターを保有して、NFT保有者向け報酬を獲得しよう"
                 },
                 "nftAsset": {
                     "title": "AS3 NFT コレクション",
@@ -1694,7 +1694,7 @@
                 "landOwners": "LAND保有者:",
                 "avatarOwners": "アバター保有者:",
                 "collectorOwners": "NFT Collection Owners:",
-                "guaranteedRewards": "These are guaranteed rewards that are separate from the Raffle.",
+                "guaranteedRewards": "これらは、抽選とは別のNFT保有者向け報酬です。",
                 "stakingInfo": "Alpha Pass rewards will be doubled if the Community reaches the staking goal. {0}",
                 "boostRewards": "Boost Rewards",
                 "KYCInfo": "アルファシーズン3の特典を獲得するには、アカウントの認証が必要です。{0}",
@@ -1742,8 +1742,8 @@
                 "events": "イベント",
                 "eventsDescription": "Weekly timed events will happen in some of the experiences of the metaverse. Go back to previously visited experiences during those events to earn some new EPs.",
                 "seeEvents": "イベントを見る",
-                "guaranteed": "報酬（グローバル）",
-                "guaranteedDescription": "今シーズンは、LANDオーナー、アバター保有者、NFTコレクターのユーザーには報酬が保証されています。注）日本在住者を除く",
+                "guaranteed": "NFT保有者向け報酬（グローバル）",
+                "guaranteedDescription": "今シーズンは、LANDオーナー、アバター保有者、NFTコレクターのユーザーにはNFT保有者向け報酬を提供しています。注）日本在住者を除く",
                 "1": {
                     "title": "アルファ・シーズン3へようこそ！",
                     "description": "The Sandboxのメタバースには、{0} と新しいコンテンツが沢山準備されています。",
@@ -1919,9 +1919,9 @@
                     "earning": {
                         "title": "アルファ・シーズン 3 での獲得",
                         "titleKey": "アルファパス以外にアルファ・シーズン3の報酬を獲得する方法はありますか?",
-                        "descriptionKey": "Yes, for this season, we added two new sources of earning: the Owner Guaranteed Rewards and the Leaderboard. More information below.",
-                        "titleKey1": "How can I be eligible for the Guaranteed Rewards?",
-                        "descriptionKey1": "NFT保有者に対して、報酬を配布しています。\n - LAND保有者\n - NFTアバター保有者\n - NFTコレクターバッジ保有者\n シーズン終了時に1つ以上所有している場合、アルファ期間中に到達したレベルに応じた報酬を受け取ることができます。\n\n注）日本在住者を除く",
+                        "descriptionKey": "今シーズンは、NFT保有者向け報酬とLeaderboardが追加されました。",
+                        "titleKey1": "NFT保有者向け報酬の対象となるにはどうしたらよいですか？",
+                        "descriptionKey1": "NFT保有者に対して、NFT保有者向け報酬を配布しています。\n - LAND保有者\n - NFTアバター保有者\n - NFTコレクターバッジ保有者\n シーズン終了時に1つ以上所有している場合、アルファ期間中に到達したレベルに応じた報酬を受け取ることができます。\n\n注）日本在住者を除く",
                         "titleKey2": "アバターや NFT はカウントされますか?",
                         "descriptionKey2": "Only NFTs released as part of Season 3 Collections will unlock the Avatar Owner and NFT Collector Badge reward. You can see which NFTs are included in the “NFT Shop” tab in the Alpha section of the website.",
                         "titleKey3": "NFTコレクターバッジを獲得するにはどうしたらよいですか？",
