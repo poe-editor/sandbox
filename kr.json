@@ -678,7 +678,7 @@
                     "raffleDrawTitle2": "진행 중",
                     "raffleDescription": "퀘스트를 완료하고 추첨 티켓을 획득하세요.",
                     "raffleDescription2": "티켓이 많을수록 알파 패스 당첨 가능성이 커집니다.",
-                    "raffleDrawDescription": "At the end of the Raffle, you will find out if you win a Season 3 Alpha Pass. Good luck!",
+                    "raffleDrawDescription": "추첨이 종료되면 시즌 3 알파 패스 당첨 여부를 확인할 수 있습니다. 행운을 빕니다!",
                     "howToGet": "어떻게 시즌 2 알파 패스를 획득할 수 있나요?",
                     "raffleButton": "추첨",
                     "contestButton": "콘테스트",
@@ -4897,10 +4897,10 @@
             "shadowBanByUserID": "",
             "shadowBannedUsers": "",
             "shadowBanUser": "",
-            "reason:": "",
-            "banDate:": "",
+            "reason:": "이유: ",
+            "banDate:": "차단 일자: ",
             "unBanUser": "",
-            "updateLeaderboard": ""
+            "updateLeaderboard": "리더보드 새로고침"
         }
     },
     "whitelist": {
@@ -6361,7 +6361,7 @@
             "network": "폴리곤 메인넷",
             "gasWarning": "가스 수수료를 지불할 수 있도록 SAND를 일부 남겨두거나 체인 설정에서 MATIC으로 변경하세요.",
             "communityBooster": {
-                "title": "시즌 2",
+                "title": "시즌 3",
                 "subtitle": "커뮤니티 부스터 리워드",
                 "text": "$SAND를 스테이킹하여 총 상금 풀을 늘리세요. 스테이킹을 하면 추가로 추첨 티켓이 주어집니다.",
                 "titlePolygon": "이제 SAND를 스테이킹하고",
@@ -7197,7 +7197,7 @@
         "raffleInProgress": {
             "raffleDraw": "추첨",
             "inProgress": "진행 중",
-            "raffleDescription": "At the end of the Raffle, you will find out if you win a Season 3 Alpha Pass. Good luck!",
+            "raffleDescription": "추첨이 종료되면 시즌 3 알파 패스 당첨 여부를 확인할 수 있습니다. 행운을 빕니다!",
             "raffleTickets": "추첨에 사용한 티켓 수:",
             "season": "시즌",
             "staking": "스테이킹",
@@ -10120,8 +10120,8 @@
                     "provider": "Synaps 세션 ID를 입력하세요."
                 },
                 "criteria": {
-                    "userData": "Search by user data",
-                    "sessionId": "Search by Synaps ID"
+                    "userData": "유저 데이터로 검색",
+                    "sessionId": "Synaps ID로 검색"
                 }
             },
             "modals": {
