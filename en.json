@@ -280,7 +280,10 @@
                 "testNetRinkeby": "TESTNET RINKEBY NETWORK",
                 "testNetGoerli": "TESTNET GOERLI NETWORK",
                 "testNetMumbai": "TESTNET MUMBAI NETWORK",
-                "mainNet": "MAINNET NETWORK"
+                "mainNet": "MAINNET NETWORK",
+                "title": "Total Balance",
+                "ethNetwork": "Ethereum Network",
+                "plyNetwork": "Polygon Network"
             },
             "notifications": {
                 "status": {
@@ -2390,7 +2393,9 @@
             "sale": "New Assets",
             "notSale": "Not for sale",
             "arts": "Art",
-            "equipment": "Equipments"
+            "equipment": "Equipments",
+            "searchresult": "Search result",
+            "allAssets": "All Assets"
         },
         "sorts": {
             "title": "Sort by",
@@ -3341,7 +3346,12 @@
             "experienceSize": "Your experience size is",
             "linkLands": "You should link",
             "publish": "Publish",
-            "unpublish": "Unpublish"
+            "unpublish": "Unpublish",
+            "tags": "Tags",
+            "collection": "Collection",
+            "collectionToGate": "Collection to gate",
+            "defaultAvatar": "Default avatar",
+            "displayedAsPreview": "This will be displayed as a preview when the user does not own an avatar from the specified collection."
         },
         "publish": {
             "title": "Publish experience"
