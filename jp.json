@@ -1605,7 +1605,7 @@
                 "ticketsTitle": "Raffle Tickets Sources",
                 "ticketsDescription": "所有チケットが多ければ多いほどシーズン3のアルファパスが当たるチャンスが増えます。",
                 "ticketsDescription2": "抽選チケットはNFTではないので、二次流通での取引はできません。",
-                "totalRaffleTickets": "抽選チケットの総数",
+                "totalRaffleTickets": "抽選チケット合計枚数",
                 "quest": "レベルアップで達成",
                 "staking": "ステーキング",
                 "s1Memorabilia": "Season1 記念品",
@@ -1659,19 +1659,22 @@
                 "land": {
                     "title": "Land",
                     "ctaText": "Buy Land",
-                    "description": "NFT保有者向け報酬をアンロック"
+                    "description": "NFT保有者向け報酬をアンロック",
+                    "cardTitle": "Buy a LAND into the Metaverse",
+                    "cardDescription": "There will only ever be 166,464 LANDS available, which can be used to host games, build multiplayer experiences, create housing, or offer social experiences to the community"
                 },
                 "nftAvatar": {
                     "title": "NFT Avatar",
                     "description": "アバターを保有して、NFT保有者向け報酬を獲得しよう"
                 },
                 "nftAsset": {
-                    "title": "AS3 NFT コレクション",
+                    "title": "NFT Collections",
                     "description": "AS3コレクションのNFTを1つ以上保有して、報酬をアンロックしよう"
                 },
                 "avatarTooltip": "Owning one of those NFTs will grant you an Avatar with a matching appearance",
                 "equipmentTooltip": "Equipping NFTs can help you climb the leaderboards by providing experience boosts, faster run speed, or increased damage",
-                "nftTab": "AS3 NFT"
+                "nftTab": "Collections",
+                "totalOwned": "Total Owned: "
             },
             "info": {
                 "title": "シーズン3 アルファパスをゲットして、最大500SANDの報酬を獲得しよう",
