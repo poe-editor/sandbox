@@ -280,7 +280,10 @@
                 "testNetRinkeby": "TESTNET RINKEBYネットワーク",
                 "testNetGoerli": "TESTNET GOERLIネットワーク",
                 "testNetMumbai": "TESTNET MUMBAIネットワーク",
-                "mainNet": "MAINNETネットワーク"
+                "mainNet": "MAINNETネットワーク",
+                "title": "Total Balance",
+                "ethNetwork": "Ethereum Network",
+                "plyNetwork": "Polygon Network"
             },
             "notifications": {
                 "status": {
@@ -835,7 +838,7 @@
                 "subtitle": "シーズン3のNFTを集めるとNFTコレクターバッジを獲得でき、シーズン終了時にさらにSANDを獲得することができます。",
                 "totalOwned": "TOTAL NFT OWNED",
                 "enterMetaverse": "Enter the Metaverse",
-                "badgeStatus": "You need to be logged in to see your Badge status",
+                "badgeStatus": "バッジのステータスを確認するには、ログインする必要があります",
                 "collectedBadge": "The Collector's badge is yours!",
                 "enjoyRewards": "NFT保有者向け報酬を楽しむことができます。",
                 "collect10": "Collect 1 NFT to earn the NFTs Collector's badge",
@@ -1727,7 +1730,7 @@
                 "contestsTab": "Contests tab",
                 "disclaimerContests": "ソーシャルイベントでシーズン3 アルファパスを入手された方は、アルファ・シーズン3の抽選会より2枚目を受け取ることができません。ご了承ください。",
                 "ugc": "UGC",
-                "ugcDescription": "Created by regular TSB users. They have the ownership and responsibility for their content. You might find a few bugs.",
+                "ugcDescription": "通常の TSB ユーザーによって作成されました。 彼らは、そのコンテンツに対する所有権と責任を持っています。 いくつかのバグが見つかる場合があります。",
                 "whatsNew": "What's New?",
                 "KYC": "KYC: Know Your Customer",
                 "KYCDescription": "KYCは、安全で公正な環境を提供するために重要なプロセスです。本人確認プは必ず行ってください。プレイは誰でもできますが、リワードを獲得できるのはユーザー認証済みのアカウントのみです。",
@@ -1787,7 +1790,7 @@
                     "getRaffle": "抽選チケットを獲得",
                     "getRaffleDesc": "抽選チケットをゲットして、当選確率をアップしよう！",
                     "getAlpha": "アルファパスを入手する",
-                    "getAlphaDesc": "Your winning ticket for the Raffle.",
+                    "getAlphaDesc": "抽選で当たるチケットです。",
                     "getAlphaDesc2": "抽選で100％の確率で報酬がもらえます。\n",
                     "disclaimer": "*抽選会はシーズン終了後の11月3日に行われます。"
                 },
@@ -1858,7 +1861,7 @@
                     "help": "Help & inform",
                     "helpDesc": "Guide players through the experiences and answer their questions.",
                     "moderate": "Moderate",
-                    "moderateDesc": "Ensure safety for everyone by moderating the chat."
+                    "moderateDesc": "チャットをモデレートすることで、みんなの安全を確保します。"
                 },
                 "10": {
                     "title": "Types of Experiences",
@@ -1999,7 +2002,7 @@
                         "descriptionKey": "ステーキングとは（アルファ・シーズン3では）暗号資産の一部をThe Sandboxに預けて「ロック」することであり、その預けた資産は時間の経過とともに利回りが発生します。ステークを中止し、資金を回収することはいつでも可能です。ステークを長く続けるほど、より大きな利回りを得ることができます。\n\n 詳細はこちらでご覧いただけます。\n {0}\n\nアルファ・シーズン3でのステーキングは利回りを獲得するためにSANDを失うことはないことを理解することが非常に重要です。すなわちSANDをステーキングすることでボーナスを取得します。",
                         "descriptionKey0-1": "spend",
                         "titleKey1": "まとめると、ステーキング機能はシーズン3にどう関係するのでしょうか?",
-                        "descriptionKey1": "1. {0} staking SAND will grant you extra Raffle Tickets.\n 2. {1} a booster will be applied to all S3AP SAND rewards based on the total amount of SAND staked by the whole community.",
+                        "descriptionKey1": "1. {0} SAND をステーキングすると、追加の抽選チケットが付与されます。\n  2. {1} ブースターは、コミュニティ全体がステークした SAND の合計額に基づいて、すべての S3AP SAND 報酬に適用されます。",
                         "descriptionKey1-1": "抽選チケットの追加：",
                         "descriptionKey1-2": "Community Reward Booster:",
                         "titleKey2": "In detail, how does the Staking feature relates to Season 3?",
@@ -2010,7 +2013,7 @@
                         "descriptionKey4": "The Community Reward Booster is on Layer 2 (Polygon), but only on the SAND staking program (not on the SAND/MATIC program). The whole point of the feature is to incentivize SAND staking on layer 2 to continue our transition to layer 2, which will be a great improvement to the game by reducing gas fees and making The Sandbox a lot greener!",
                         "titleKey5": "ステーキングスコアはどのように計算されるのですか？",
                         "descriptionKey5": "Again, you do not need to understand the math to make optimal use of this feature, but if you are curious, this is how it works:\n {0}\n This number is a float; you will get exactly the amount of staking score points related to your staking contribution.\n\n {1}\n\n It is important to understand that both time and SAND staked amount are taken into account to calculate the staking score.\n\n 1. {2} The cap is 500 staking score points (to get 500 Raffle Tickets). For every 1 SAND staked for the whole duration of the Alpha (70 days) you get 1 staking score point.\n It means that if you stake 500 SAND for 70 days you will earn the max amount of Raffle Tickets. You can also stake 1,000 SAND for 35 days, or 7,000 SAND for 10 days, for example.\n\n 2. {3} The cap is 40,000,000 collective cumulated staking score points (to get the Community Reward Booster to +100%).\n The total amount of staking score points for the community is just the sum of each user's staking score.\n\n Please note that the amount of days that SAND is staked does not have to be consecutive.",
-                        "descriptionKey5-1": "You get 1 staking score points for every 1 SAND staked during 70 days.",
+                        "descriptionKey5-1": "70 日間にステーキングされた 1 SAND ごとに 1 ステーキング スコア ポイントを獲得します。",
                         "descriptionKey5-2": "詳しくはこちら:",
                         "titleKey6": "SANDのステーキングを始めるには、アルファ・シーズン3の開始を待つべきでしょうか？",
                         "descriptionKey6": "今すぐステーキングを始めることができます、\n\n アルファ・シーズン3が始まると、シーズン3の機能に関連したステーキングスコアポイントを獲得し始めますが、ステーキング額によって、スコアを計算しています。スコアポイントは、アルファシーズン3の開始から終了までの間に達成されなければなりません。",
@@ -2032,14 +2035,14 @@
                         "title": "Security",
                         "titleKey": "ウォレットを安全に管理するにはどうしたらいいですか?",
                         "descriptionKey": "There are a lot of bad actors waiting for an opportunity to get your tokens and NFTs. You need to be really careful! We suggest that you always keep in mind the following recommendations:\n\n - Never share your seed phrase with anyone\n - Don’t keep your seed phrase unprotected\n - Create strong passwords for your wallet and any accounts associated with it\n - Use a password manager with a very strong master password\n - Do not, under any circumstances, leave your wallet unlocked in the browser\n - Encrypt your PC drive and use strong passwords for it and your user account\n - Avoid using public Wi-Fi, and if it cannot be helped, use VPN to protect yourself\n - Do not click links from any unknown email, Discord, chat, or any other source\n - Stay alert!\n\n Read more about these suggestions here: {0}\n\n Additional security resources:\n\n - {1}\n - {2}",
-                        "descriptionKey0-1": "Basic Safety and Security Tips for Metamask",
+                        "descriptionKey0-1": "メタマスクの安全・安心のための基礎知識",
                         "descriptionKey0-2": "To Be Your Own Bank with MetaMask, You Need to Master These Password Best Practices",
                         "titleKey1": "The Sandbox が私の秘密のシードフレーズ（別名パスフレーズ）を要求することはありますか?",
                         "descriptionKey1": "いいえ。The Sandboxがあなたの秘密のシードフレーズを要求することはありません。秘密のシードフレーズは誰とも共有してはいけません。あなたの秘密のシードフレーズを共有すると、あなたのウォレットが危険にさらされ、すべてのトークンとNFTを失う可能性があります。\n\n 詐欺師はThe Sandboxの関係者になりすまして、お客様に情報を提供させようとします。ご注意ください。",
                         "titleKey2": "不審なアクティビティを報告するにはどうすればよいですか?",
                         "descriptionKey2": "ソーシャルメディア、メール、OpenSeaで不審な活動を発見した場合は、The Sandbox (contact@sandbox.game）までご連絡ください。",
                         "titleKey3": "OpenSea で安全に購入できるアセットを確認するにはどうすればよいですか?",
-                        "descriptionKey3": "When looking for Alpha Passes, Assets, or LANDs on OpenSea, make sure it belongs to our verified Sandbox collection at {0}.",
+                        "descriptionKey3": "OpenSeaでアルファパス、アセット、LANDを探すときは、{0}で検証済みのサンドボックスコレクションに属していることを確認してください。",
                         "titleKey4": "詐欺に遭わないようにするための情報はどこで確認できますか？",
                         "descriptionKey4": "Website: {0}\n Twitter: {1}\n Discord: {2}\n Telegram: {3}\n Instagram: {4}\n Facebook: {5}\n YouTube: {6}\n Twitch: {7}\n OpenSea: {8}"
                     }
@@ -2071,7 +2074,7 @@
                 "tooltips": {
                     "ep": "シーズン3のクエストをクリアして、エトスポイントを集めよう！",
                     "quests": "クエストを繰り返し、最速のクリアタイムを目指そう!",
-                    "rewards": "Collect your Reward from the Rewards Page at the end of the season!"
+                    "rewards": "シーズンの終わりに報酬ページから報酬を受け取りましょう!"
                 }
             },
             "rewards": {
@@ -2390,7 +2393,9 @@
             "sale": "販売中",
             "notSale": "非売品",
             "arts": "Art",
-            "equipment": "Equipments"
+            "equipment": "Equipments",
+            "searchresult": "検索結果",
+            "allAssets": "すべてのアセット"
         },
         "sorts": {
             "title": "並べ替え",
@@ -3017,8 +3022,8 @@
                     "notAvailableWallet": "{walletName} is not available in {browserName}",
                     "walletInUse": "このウォレットは他のアカウントに使用されています。",
                     "walletLegacy": "古いウォレットを使用しているようです。手動でロックを解除して、再度お試しください。",
-                    "completeWConnect": "Please complete the Sign Up {0} process in you wallet app.",
-                    "completeWConnect2": "in you wallet app."
+                    "completeWConnect": "ウォレットアプリでサインアップ{0}の手続きを完了してください。",
+                    "completeWConnect2": "あなたのウォレットアプリで。"
                 },
                 "signinModal": {
                     "title": "サインイン",
@@ -3341,7 +3346,12 @@
             "experienceSize": "体験のサイズ：",
             "linkLands": "リンクしてください",
             "publish": "公開",
-            "unpublish": "非公開"
+            "unpublish": "非公開",
+            "tags": "",
+            "collection": "",
+            "collectionToGate": "",
+            "defaultAvatar": "",
+            "displayedAsPreview": ""
         },
         "publish": {
             "title": "体験を公開"
@@ -4282,10 +4292,10 @@
                 "title": "Ups!",
                 "description1": "You don't have external avatars",
                 "description2": "You can create your own free avatar or",
-                "descriptionFirstLine": "You can create your own free avatar or",
+                "descriptionFirstLine": "無料のアバターを作成することができます、もしくは",
                 "descriptionSecondLine": "buy one and get {rewards}",
-                "rewards": "extra rewards!",
-                "createButton": "Browse External Avatars",
+                "rewards": "追加の報酬!",
+                "createButton": "外部アバターを閲覧する",
                 "description3": "buy one and get {rewards}"
             },
             "notWhitelisted": {
@@ -4338,8 +4348,8 @@
             "notAvailableWallet": "{walletName} is not available in {browserName}",
             "walletInUse": "ウォレットは他のアカウントに使用されているようです。",
             "walletLegacy": "古いウォレットを使用しているようです。手動でロックを解除して、再度お試しください。 ",
-            "completeWConnect": "Please complete the Sign Up {0} process in you wallet app.",
-            "completeCoinbase": "Please complete the Sign Up process {0}in the browser from your coinbase app.",
+            "completeWConnect": "ウォレットアプリでサインアップ{0}の手続きを完了してください。",
+            "completeCoinbase": "Coinbase アプリからブラウザで{0}サインアップ プロセスを完了してください。",
             "showMoreOptions": "",
             "showLessOptions": ""
         },
@@ -4744,7 +4754,7 @@
         "badges": {
             "title": "バッジ",
             "note": "Get badges by achieving various goals inside The Sandbox ecosystem. Badges will grant you extra Raffle Tickets for upcoming Alpha Seasons Raffles.",
-            "nftNote": "Badges are not NFTs and cannot be traded",
+            "nftNote": "バッジはNFTではないので、取引はできません",
             "obtained": "入手済",
             "missed": "なし",
             "noBadge": "バッズを選択してプレビューを見る",
@@ -4982,7 +4992,7 @@
         "infoTooltip": "所有するLANDごとにもう1枚抽選チケットを獲得",
         "helpUs": "The Sandboxの体験向上にご協力ください！",
         "readMore": "",
-        "exclusiveAvatar": "Get an exclusive NFT Avatar"
+        "exclusiveAvatar": "限定のNFTアバターを手に入れよう"
     },
     "experiencePage": {
         "progressSeason": "シーズン進行度",
@@ -5909,7 +5919,7 @@
             "2": "us"
         },
         "text2": {
-            "mainText": "Websites operated by us from which you are accessing this Privacy Policy (the “{0}”);",
+            "mainText": "お客様が本プライバシーポリシーにアクセスされている弊社が運営するウェブサイト(the “{0}”);",
             "0": "Websites"
         },
         "text3": "HTML-formatted email messages that we send to you that link to this Privacy Policy or other communications with you; and",
@@ -6064,12 +6074,12 @@
         "text132": "Categories of Personal Information",
         "text133": "Disclosed to Which Categories of Third Parties for Operational Business Purposes",
         "text134": {
-            "mainText": "{0}, such as username, contact information, IP address and other online identifiers",
+            "mainText": "ユーザー名、連絡先、IP アドレス、その他のオンライン識別子などの {0}",
             "0": "Identifiers"
         },
         "text135": "Affiliates; service providers; business partners; joint marketing partners; contest sponsors; legal authorities",
         "text136": {
-            "mainText": "{0}, such as name and contact information",
+            "mainText": "{0}, 名前や連絡先情報など",
             "0": "Personal information as defined in the California customer records law"
         },
         "text137": "Affiliates; service providers; business partners; joint marketing partners; contest sponsors; legal authorities",
@@ -6093,17 +6103,17 @@
             "0": "Audio/Video Data"
         },
         "text145": "Affiliates; service providers; business partners; joint marketing partners; contest sponsors; legal authorities",
-        "text146": "We do not “sell” and have not “sold” Personal Information for purposes of the CCPA in the last 12 months.  For example, and without limiting the foregoing, we do not sell the Personal Information of minors under 16 years of age.",
+        "text146": "当社は、過去12ヶ月間、CCPAの目的のために個人情報を\"販売\"していませんし、\"販売\"したこともありません。 例えば、上記を制限することなく、当社は16歳未満の未成年者の個人情報を販売することはありません。",
         "text147": "Sources of Personal Information ",
         "text148": "As described above, we collect these categories of Personal Information from you and from crypto wallet providers, when they share the information with us.",
         "text149": "Use of Personal Information",
         "text150": "As described above, we use these categories of Personal Information to operate, manage, and maintain our business, to provide our products and services, and to accomplish our business purposes and objectives, including using Personal Information to:",
-        "text151": "Fulfill your requests and respond to your inquiries;",
-        "text152": "Develop, improve, repair, provide and maintain our products and services;",
+        "text151": "お客様のご要望にお応えし、お問い合わせに対応します;",
+        "text152": "当社の製品およびサービスの開発、改善、修理、提供および保守;",
         "text153": "Personalize, advertise, and market our products and services;",
         "text154": "Conduct research, analytics, data analysis, data aggregation, and data anonymization; ",
-        "text155": "Maintain our property and our records, and undertake quality and safety assurance measures;",
-        "text156": "Conduct risk and security control and monitoring, and detect and prevent fraud;",
+        "text155": "当社の財産および記録を維持し、品質および安全性の保証を行う;",
+        "text156": "リスクとセキュリティの管理・監視を行い、不正を検知・防止する;",
         "text157": "Perform identity verification, accounting, audit, and other internal functions, such as internal investigations and record-keeping; ",
         "text158": "Carry out corporate transactions, such as mergers, joint ventures or acquisitions; and",
         "text159": "Comply with law, legal process, and internal policies, and exercise and defend legal claims.",
@@ -6387,7 +6397,7 @@
                 },
                 "infoStart": "シーズン期間中にステーキングした分",
                 "infoEnd": "ごとにポイントを獲得します。",
-                "pointsInfo1": "",
+                "pointsInfo1": "それぞれの時間の経過とともにポイントを獲得します ",
                 "pointsInfo2": " をステーキングして、 蓄積されたポイントは失われません。 ",
                 "pointsInfo3": "を28日間預けた場合、{stakingMultiplier}ポイントが付与されます。",
                 "myScore": "マイスコア",
@@ -9837,7 +9847,7 @@
         "STEVE_AOKI_FAQ_MY_AVATARS_DESCRIPTION": "If you are checking before they have been revealed, this is normal. If you are checking after that date, press the “Refresh Metadata” button on the top-right corner of OpenSea.",
         "STEVE_AOKI_FAQ_BUYING_NFT_TITLE": "Buying NFT for the first time, how can I get started?",
         "STEVE_AOKI_FAQ_BUYING_NFT_DESCRIPTION": "The process is quite simple. You need to ensure that you have:  \n - Created an account on The Sandbox. \n - Ensure you have both the correct amount of SAND to mint the number of avatars you want and some ETH to cover the gas fees. \n - Log into your account and head over to the mint page: {link} \n - Check that your wallet is properly connected and just press the Mint button to retrieve your Avatar.",
-        "STEVE_AOKI_LANDING_MINT_AVATAR_DESCRIPTION_SOLD_OUT": "The Aokis are SOLD OUT! Head over to OpenSea and explore all available avatars for sale.",
+        "STEVE_AOKI_LANDING_MINT_AVATAR_DESCRIPTION_SOLD_OUT": "The Aokis がSOLD OUT! OpenSeaで販売中のアバターをご覧ください。",
         "STEVE_AOKI_LANDING_MINT_AVATAR_BUTTON_GO_TO_OPENSEA": "Go to Opensea",
         "STEVE_AOKI_RAFFLE_HOW_TO_MINT_MINT_NOW_TITLE": "Minting now",
         "STEVE_AOKI_RAFFLE_HOW_TO_MINT_MINT_NOW_SUBTITLE": "The Sandbox whitelist - Land owners, Doggies and People of Crypto avatars holders"
@@ -10351,6 +10361,6 @@
         "text143": "“sketchfab_url” MUST be a link referring to a 3d representation of the voxel asset on sketchfab.",
         "text144": "The 3d representation must be a true representation of the voxel Asset and should not mislead the viewer.",
         "text145": "JAPAN RESIDENTS NOTIFICATION",
-        "text146": "If you are resident of Japan, you may participate in contests and different activities to obtain rewards; due to restrictions in Japan, these rewards will not include SAND."
+        "text146": "日本在住の方は、コンテストや様々な活動に参加して報酬を得ることができますが、日本での制限により、これらの報酬にはSANDは含まれません。"
     }
 }
