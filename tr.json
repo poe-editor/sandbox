@@ -280,7 +280,10 @@
                 "testNetRinkeby": "TESNET RINKEBY AĞI",
                 "testNetGoerli": "TESTNET GOERLI AĞI",
                 "testNetMumbai": "TESTNET MUMBAI AĞI",
-                "mainNet": "MAINNET AĞI"
+                "mainNet": "MAINNET AĞI",
+                "title": "Total Balance",
+                "ethNetwork": "Ethereum Network",
+                "plyNetwork": "Polygon Network"
             },
             "notifications": {
                 "status": {
@@ -2390,7 +2393,9 @@
             "sale": "Satılık",
             "notSale": "Satılık değil",
             "arts": "Art",
-            "equipment": "Equipments"
+            "equipment": "Equipments",
+            "searchresult": "Arama sonuçları",
+            "allAssets": "Tüm Varlıklar"
         },
         "sorts": {
             "title": "Sort by",
@@ -3341,7 +3346,12 @@
             "experienceSize": "Deneyim boyutunuz",
             "linkLands": "bağlantı kurmalısın",
             "publish": "Yayınla",
-            "unpublish": "Yayından kaldır"
+            "unpublish": "Yayından kaldır",
+            "tags": "",
+            "collection": "",
+            "collectionToGate": "",
+            "defaultAvatar": "",
+            "displayedAsPreview": ""
         },
         "publish": {
             "title": "Deneyimi yayınla"
@@ -4812,7 +4822,7 @@
             "products": "Ürün Sürümleri",
             "partners": "Partners",
             "kyc": "User Verifications (KYC)",
-            "shadowBan": ""
+            "shadowBan": "Shadow Ban"
         },
         "users": {
             "profile": "Profil",
@@ -4893,14 +4903,14 @@
             "delete": "Sil"
         },
         "shadowBan": {
-            "shadowBannedUsersList": "",
-            "shadowBanByUserID": "",
-            "shadowBannedUsers": "",
-            "shadowBanUser": "",
-            "reason:": "",
-            "banDate:": "",
-            "unBanUser": "",
-            "updateLeaderboard": ""
+            "shadowBannedUsersList": "Shadow Banned Users List",
+            "shadowBanByUserID": "Shadow Ban by User ID",
+            "shadowBannedUsers": "Shadow Banned Users",
+            "shadowBanUser": "Shadow Ban User",
+            "reason:": "Reason: ",
+            "banDate:": "Ban Date: ",
+            "unBanUser": "Unban user",
+            "updateLeaderboard": "Update leaderbord"
         }
     },
     "whitelist": {
