@@ -280,7 +280,10 @@
                 "testNetRinkeby": "TESTNET RINKEBY NETWORK",
                 "testNetGoerli": "TESTNET GOERLI NETWORK",
                 "testNetMumbai": "TESTNET MUMBAI NETWORK",
-                "mainNet": "MAINNET NETWORK"
+                "mainNet": "MAINNET NETWORK",
+                "title": "Total Balance",
+                "ethNetwork": "Ethereum Network",
+                "plyNetwork": "Polygon Network"
             },
             "notifications": {
                 "status": {
@@ -2390,7 +2393,9 @@
             "sale": "出售",
             "notSale": "未出售",
             "arts": "Art",
-            "equipment": "Equipments"
+            "equipment": "Equipments",
+            "searchresult": "搜索结果",
+            "allAssets": "Tüm Varlıklar"
         },
         "sorts": {
             "title": "排序依據",
@@ -3341,7 +3346,12 @@
             "experienceSize": "你的體驗大小為",
             "linkLands": "你應該連結",
             "publish": "發佈",
-            "unpublish": "取消發佈"
+            "unpublish": "取消發佈",
+            "tags": "",
+            "collection": "",
+            "collectionToGate": "",
+            "defaultAvatar": "",
+            "displayedAsPreview": ""
         },
         "publish": {
             "title": "發佈體驗"
