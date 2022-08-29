@@ -280,7 +280,10 @@
                 "testNetRinkeby": "测试网RINKEBY NETWORK",
                 "testNetGoerli": "测试网GOERLI NETWORK",
                 "testNetMumbai": "测试网MUMBAI NETWORK",
-                "mainNet": "MAINNET NETWORK"
+                "mainNet": "MAINNET NETWORK",
+                "title": "Total Balance",
+                "ethNetwork": "Ethereum Network",
+                "plyNetwork": "Polygon Network"
             },
             "notifications": {
                 "status": {
@@ -2390,7 +2393,9 @@
             "sale": "出售",
             "notSale": "未出售",
             "arts": "Art",
-            "equipment": "Equipments"
+            "equipment": "Equipments",
+            "searchresult": "搜索结果",
+            "allAssets": "所有資產"
         },
         "sorts": {
             "title": "排序",
@@ -3341,7 +3346,12 @@
             "experienceSize": "你的体验内容大小为",
             "linkLands": "你需要关联",
             "publish": "发布",
-            "unpublish": "取消发布"
+            "unpublish": "取消发布",
+            "tags": "",
+            "collection": "",
+            "collectionToGate": "",
+            "defaultAvatar": "",
+            "displayedAsPreview": ""
         },
         "publish": {
             "title": "发布体验内容"
@@ -4812,7 +4822,7 @@
             "products": "",
             "partners": "Partners",
             "kyc": "User Verifications (KYC)",
-            "shadowBan": ""
+            "shadowBan": "Shadow Ban"
         },
         "users": {
             "profile": "个人档案",
@@ -4893,14 +4903,14 @@
             "delete": ""
         },
         "shadowBan": {
-            "shadowBannedUsersList": "",
-            "shadowBanByUserID": "",
-            "shadowBannedUsers": "",
-            "shadowBanUser": "",
-            "reason:": "",
-            "banDate:": "",
-            "unBanUser": "",
-            "updateLeaderboard": ""
+            "shadowBannedUsersList": "Shadow Banned Users List",
+            "shadowBanByUserID": "Shadow Ban by User ID",
+            "shadowBannedUsers": "Shadow Banned Users",
+            "shadowBanUser": "Shadow Ban User",
+            "reason:": "Reason: ",
+            "banDate:": "Ban Date: ",
+            "unBanUser": "Unban user",
+            "updateLeaderboard": "Update leaderbord"
         }
     },
     "whitelist": {
