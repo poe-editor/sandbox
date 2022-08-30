@@ -498,6 +498,11 @@
         "experiencesSeason3": {
             "experiences": "만나보세요!",
             "discover": "다양한 경험을"
+        },
+        "apeavatarSeason3": {
+            "title": "PLAY WITH YOUR NFTS",
+            "description": "Over 140K cool avatars are available to play in the Sandbox. Check out the collections and turn your NFT into life",
+            "explore": "Explore Avatar Collections"
         }
     },
     "season": {
@@ -2670,12 +2675,14 @@
             "changelog": "변경 내역",
             "gameExperiences": "더 샌드박스로 만든 게임",
             "download": {
-                "title": "게임 메이커 다운로드"
+                "title": "게임 메이커 다운로드",
+                "cta": "Download"
             },
             "end": {
                 "text": "게임을 시작하고 애셋을 배치하여 경험을 만들어 보세요.",
                 "buttonText": "지금 사전 등록하세요!"
-            }
+            },
+            "release": "0.7.1"
         },
         "voxedit": {
             "meta": {
@@ -4655,8 +4662,8 @@
             "bannerSubtitle": "지금 바로 수익을 획득해 보세요! 더 샌드박스 소셜 미디어 채널을 팔로우하고 최신 소식을 놓치지 마세요.",
             "bannerTitle": "LAND 보유자를 위한 보상 수령하기",
             "bannerSubtitle1": "더 샌드박스는 지속적으로 LAND 보유자를 위한 가치를 제공합니다.",
-            "bannerSubtitle2": "2022 로드맵",
-            "bannerSubtitle3": "5m SAND 보상 수령",
+            "bannerSubtitle2": "LAND 보유자를 위한 2022 로드맵",
+            "bannerSubtitle3": "LAND 보유자를 위한 SAND 에어드롭",
             "checkButtonText": "내 보상 내역 확인하기",
             "landOwner": {
                 "lands": "{0} LAND",
@@ -9091,6 +9098,120 @@
                     }
                 }
             }
+        },
+        "2022": {
+            "0": {
+                "date": "June 24, 2022 - Game Maker 0.7.0 changelog",
+                "title": "Bug Fixing and Enhancements",
+                "list": {
+                    "0": {
+                        "title": "MacOS Compatibility",
+                        "list": {
+                            "0": {
+                                "title": "MacOS build was released with feature parity with Windows version. Both builds are in the same state and should not present any differences."
+                            }
+                        }
+                    },
+                    "1": {
+                        "title": "Bug Fixing",
+                        "list": {
+                            "0": {
+                                "title": "Multiple bug fixes have been made to stabilize the product and get some improvements in performance."
+                            }
+                        }
+                    },
+                    "2": {
+                        "title": "Game Maker Menu & UI",
+                        "list": {
+                            "0": {
+                                "title": "Loading Screen: ",
+                                "subtitle": "Loading screen is showing more and better information. The loading screen background image has been changed to a default one, and the thumbnail corresponding to the experience is bigger."
+                            },
+                            "1": {
+                                "title": "Improvement on the Level Widge: ",
+                                "subtitle": "It has a flash feedback so the user can notice when there is a change in the widget information."
+                            },
+                            "2": {
+                                "title": "Quest Log Widget: ",
+                                "subtitle": "Improvements have been made to the quest log widget to show information about the quest in a more clear way."
+                            }
+                        }
+                    },
+                    "3": {
+                        "title": "New FTUE",
+                        "list": {
+                            "0": {
+                                "title": "A new FTUE was implemented for the season."
+                            }
+                        }
+                    },
+                    "4": {
+                        "title": "Loading Time Improvements",
+                        "list": {
+                            "0": {
+                                "title": "Loading time and asset bundle download has been improved for better user experience."
+                            }
+                        }
+                    },
+                    "5": {
+                        "title": "Avatar Gating",
+                        "list": {
+                            "0": {
+                                "title": "Avatar gating MVP feature was implemented into the GC. The user will receive a message with the appropriate collection/avatar in case it doesn’t owe one."
+                            }
+                        }
+                    },
+                    "6": {
+                        "title": "Gameplay Additions",
+                        "list": {
+                            "0": {
+                                "title": "Avatar Navigation: ",
+                                "subtitle": "New avatar navigation possibilities have been added to the gameplay."
+                            },
+                            "1": {
+                                "title": "Walk: ",
+                                "subtitle": "The user is now able to walk, by using the walk key. This will let the user appreciate the NFT better if needed."
+                            },
+                            "2": {
+                                "title": "Sit on the Ground: ",
+                                "subtitle": "A sit animation was added so users can sit and interact among each other."
+                            },
+                            "3": {
+                                "title": "Auto Climb Update Improvements: ",
+                                "subtitle": "Auto-Jump feature was updated, and now lets the user auto-jump assets of 1 block, ½ block and ¼ block height."
+                            },
+                            "4": {
+                                "title": "Emotes: ",
+                                "subtitle": "New Dance Animations were added to the random sections of the emotes wheel."
+                            }
+                        }
+                    }
+                }
+            },
+            "1": {
+                "date": "August 29, 2022 - Game Maker 0.7.1 changelog",
+                "title": "Bug Fixing and Enhancements",
+                "list": {
+                    "0": {
+                        "title": "Bug Fixing",
+                        "subtitle": "Multiple bug fixes have been made to stabilize the product and get some improvements in performance. This fixes affects:",
+                        "list": {
+                            "0": {
+                                "title": "Play Mode UI: ",
+                                "subtitle": "Exclamation marks were shown always in yellow."
+                            },
+                            "1": {
+                                "title": "Game Maker usability: ",
+                                "subtitle": "Ability to place assets was lost after saving and reopening."
+                            },
+                            "2": {
+                                "title": "General: ",
+                                "subtitle": "Crashes and Soft blocks."
+                            }
+                        }
+                    }
+                }
+            }
         }
     },
     "buySandModal": {
@@ -9875,10 +9996,11 @@
         },
         "journey": {
             "title": "함께 만들어 나가는 오픈 메타버스",
-            "desc": "더 샌드박스는 모두를 환영합니다! 브랜드, 스튜디오, 독립 크리에이터 누구든 생태계의 일부가 될 수 있습니다. 더 샌드박스는 메타버스 세계 속 각자의 필요에 따라 모두를 도울 준비가 되어 있습니다.",
+            "desc": "Brands, studios, independent creators, you are all part of our ecosystem. As we are all different, you all have different needs and we are here to help you get into the Metaverse.",
             "desc1": "더 샌드박스와 파트너를 맺고 싶다면?",
             "desc2": "다양한 기회가 마련되어 있습니다",
-            "button": "함께하기"
+            "button": "함께하기",
+            "subTitle": "Everyone is welcome inside The Sandbox"
         },
         "community": {
             "title": "전 세계가 하나되는 커뮤니티와 함께하세요",
@@ -9909,12 +10031,14 @@
         },
         "partnership": {
             "title": "다양한 파트너십",
-            "button": "함께하기",
+            "button": "Join us",
             "cards": {
                 "1": {
                     "title": "IP와 브랜드",
                     "desc": "더 샌드박스에서 내 브랜드를 어떻게 활용해야 할지 모르겠다면? 생태계 속에서 내 브랜드를 널리 알릴 수 있도록 더 샌드박스가 도와드리겠습니다.",
-                    "button": "메타버스에 합류하기"
+                    "button": "메타버스에 합류하기",
+                    "question": "You have a brand and you are wondering how you can enter The Sandbox?",
+                    "answer": "We will help you develop your brand image into our ecosystem."
                 },
                 "2": {
                     "title": "메타버스 에이전시",
@@ -9932,28 +10056,29 @@
             "title": "더 샌드박스와 파트너를 맺어야 하는 이유",
             "blocks": {
                 "1": {
-                    "title": "300만 개 이상, 그리고 매일 성장하는",
-                    "subtitle": "유저 및 지갑",
-                    "desc1": "더 샌드박스는 언제든 흥미로운 경험에 참여할 강력한 커뮤니티가 함께합니다.",
-                    "desc2": "유저들이 완성도 높은 경험 속에서 재밌게 뛰어놀 수 있도록 최선을 다합니다."
+                    "title": "100%",
+                    "subtitle": "Access to our platform",
+                    "desc1": "Partnering with The Sandbox is not only a way to join one of the biggest metaverse in the world, it is also a true standpoint for accessibility.",
+                    "desc2": "Everyone, from a powerful gaming computer to a mobile device, will be able to access our platform.",
+                    "desc3": "Our quest toward interoperability also will help our community and the overall market merge worlds all together."
                 },
                 "2": {
-                    "title": "모두를 위한",
-                    "subtitle": "접근성",
-                    "desc1": "더 샌드박스와 파트너십을 맺고 세계 최대 규모 메타버스에 합류하여 접근성에 대한 진정한 의미를 느껴보세요.",
-                    "desc2": "최고 성능의 게이밍 컴퓨터부터 모바일 기기까지, 누구나 더 샌드박스 플랫폼에 접근할 수 있습니다.",
+                    "title": "+200",
+                    "subtitle": "brands already involved",
+                    "desc1": "Our unique identity and our plan to market have already helped more than 200 brands to get into our space and develop their own world. When you join The Sandbox, you also join Gucci, Adidas, Snoop Dogg, Ubisoft and much more...",
+                    "desc2": "Be part of the amazing ecosystem where brands create out of this world experiences for the pleasure and growth of their community.",
                     "desc3": "또한, 더 샌드박스는 커뮤니티와 마켓 전반의 통합을 위한 상호운용성을 추구합니다."
                 },
                 "3": {
-                    "title": "더 샌드박스와 함께하는",
-                    "subtitle": "200개 이상의 브랜드",
-                    "desc1": "Our unique identity and our plan to market have already helped more than 200 brands to get into our space and develop their own world. When you join The Sandbox, you also join Gucci, Adidas, Snoop Dogg, Ubisoft and much more…",
-                    "desc2": "Jump in and create your own voxelised world! Be part of the amazing ecosystem where brands create out of this world experiences for the pleasure and growth of their community."
+                    "title": "+2.5 MILLION",
+                    "subtitle": "and growing wallets registered",
+                    "desc1": "We have already gathered a strongly involved community, ready to jump on any interesting experiences.",
+                    "desc2": "Our idea has always been to make sure the final end user is able to live the most out of each projects."
                 }
             }
         },
         "howpartner": {
-            "title": "파트너 활동 알아보기",
+            "title": "PARTNERS WHO BUILT THEIR OWN WORLD",
             "seecollection": "컬렉션 보기",
             "createdby": "크리에이터:",
             "block": {
@@ -9981,7 +10106,7 @@
         },
         "createdunique": {
             "title": "다양한 경험 제작까지!",
-            "desc": "Entering The Sandbox means you craft your own universe where communities will navigate and discover your brand and enjoy a truly unique experience in a voxel world. From building houses and cities, to cat walking during fashion shows and defeating dragons and monsters, you are free to offer the experience you dream of.",
+            "desc": "Entering The Sandbox means you craft your own universe where communities will navigate and discover your brand and enjoy a truly unique experience in a voxel world.",
             "button": "함께하기",
             "createdby": "크리에이터:",
             "blocks": {
@@ -10010,7 +10135,8 @@
                     "desc": "From LA to The Sandbox, there is only one step, and Snoop Dogg understood this. The Sandbox is about delivering a new viewer experience during concerts and live performance. Enabling broader access to everyone, interacting with the crowd, through their avatars. Fans are now complete part of the deal.",
                     "screen": "Climbing madness"
                 }
-            }
+            },
+            "desc2": "From building houses and cities, to cat walking during fashion shows and defeating dragons and monsters, you are free to offer the experience you dream of."
         },
         "realworld": {
             "title": "실제 경험의 확장",
@@ -10362,5 +10488,125 @@
         "text144": "The 3d representation must be a true representation of the voxel Asset and should not mislead the viewer.",
         "text145": "일본 거주자",
         "text146": "일본에 거주하거나 일본 IP를 사용하면서 콘테스트 및 다양한 활동에 참여할 경우, 일본 내 법률 규제에 따라 SAND 보상을 받을 수 없습니다."
+    },
+    "changelogVoxedit": {
+        "2022": {
+            "0": {
+                "date": "August 29, 2022 - Public Beta Release",
+                "list": {
+                    "0": {
+                        "title": "New Features",
+                        "list": [
+                            "Login (for Content Collab feature)",
+                            "Animation Channels!",
+                            "Ability to toggle between per axis and SLERP (spherical linear interpolation, i.e: what we had before) for multi axis rotations",
+                            "Automated SLERP toggle to keep old behaviour for most animators",
+                            "Reference frames for translation (World, Parent, Object)",
+                            "Camera POV widget",
+                            "Color, node name and channel filters for timeline",
+                            "Delete Material button in Material panel",
+                            "Append Palette in Palette header menu",
+                            "Circle and Sphere tools for Modeler and Block Editor",
+                            "Value dragging and arrows for Inspector transform text fields",
+                            "Double clicking a node in the viewport now edits it's attached model",
+                            "Floor grid toggle for Animator",
+                            "\"Solo Layer\" mode for Modeler",
+                            "Upload Popup"
+                        ]
+                    },
+                    "1": {
+                        "title": "Improvements",
+                        "list": [
+                            "New and improved themes!",
+                            "Tab system for Library and Inspector",
+                            "Vertical layout for Inspector, with new/delete keyframe per channel buttons",
+                            "Save and Save As in File menu",
+                            "Button to remove recent file from list",
+                            "Picker tool now works on any visible voxel, not just the active layer's ones",
+                            "Opening a rig now sets the camera to fit",
+                            "Camera now works better, makes it almost impossible to lock itself inside of geometry",
+                            "Added shortcuts to Sync To/From MagicaVoxel (ctrl/cmd+m, shift+ctrl/cmd+m)",
+                            "Added shortcut to Return to Rig from editing a model (esc)",
+                            "Added shortcut to copy from/paste to currently focused textfield (ctrl/cmd + c/v)",
+                            "Shorter rows in Timeline",
+                            "Better Animator floor grid",
+                            "Updated links to Marketplace, Tutorials, Guidelines, etc",
+                            "New Language Selector UI",
+                            "Added Move In Plane widget for selected voxel movement",
+                            "Selected voxel edges are now shown in new \"see through\" mode",
+                            "Orthographic camera is better",
+                            "In shortest editor window, Modeler toolbar changes it's layout to be in two columns",
+                            "Voxel and node count for Animator"
+                        ]
+                    },
+                    "2": {
+                        "title": "Changes",
+                        "list": [
+                            "Animation max length is now 30 seconds",
+                            "Removed Long Way Rotation (backwards compatibility kept by autoadding a middle keyframe)",
+                            "Removed Local Transforms (backwards compatibility by adding a child node that is transformed using the original local transform and attaching the node's model to it instead)",
+                            "GLTF is now exporting all animations for animated assets, not only the ones that have more keyframes",
+                            "Removed Keep Position through Rotation unintuitive feature",
+                            "Node names are now limited to 24 characters",
+                            "New Animations now take first frame pose from the current pose",
+                            "VoxEdit now only runs as a single instance",
+                            "New Keyframe is disabled while playing an animation",
+                            "Inspector IK values are no longer editable while playing an animation",
+                            "Timeline rows are now a bit shorter",
+                            "Removed \"Scroll Layer\" buttons from Modeler viewport (easier to work with the Translation widget)",
+                            "Moving Keyframe at frame 0 now copies it"
+                        ]
+                    },
+                    "3": {
+                        "title": "Fixes",
+                        "list": [
+                            "Syncing from MagicaVoxel now selects the correct active material",
+                            "Fixed issues with operative system locale and Inspector transform text fields",
+                            "Fixed scroll areas not resetting when resized",
+                            "Attaching/detaching panels now close all modals",
+                            "Deleting a layer now ensures that there is an active layer afterwards",
+                            "Loop and Zoom bars are now much better behaved",
+                            "Detached panels now enforce a min size",
+                            "Undo and redo no longer break selected voxels in Modeler",
+                            "Zoom to fit now shows at least 2 seconds",
+                            "Recovered most functionality while animation is playing",
+                            "Editor no longer crashes when stress clicking attach/detach panel buttons",
+                            "Skeleton now trims down too long node names.",
+                            "Save Confirmation popup trims down too long filenames",
+                            "Text in Welcome Screen has better readability now",
+                            "Opening a non existant recent file no longer crashes VE",
+                            "Default theme no longer has the same color for the grid and the background in the Animator",
+                            "Using Bucket tool in Paint or Erase mode outside of the volume in 2D views no longer crashes the editor",
+                            "Frame tool didn't create an Undo step",
+                            "New Keyframe will no longer add them to read only template nodes",
+                            "Camera reset was changing the near and far planes",
+                            "Block Editor kept old undo steps inbetween sessions",
+                            "Screen Rect tool in Block Editor now renders rectangle on top",
+                            "2D views now update properly when the user cancels an action",
+                            "Select mode with Face tool on empty space in 2D view no longer crashes the editor",
+                            "Screen Rect tool in 2D views was mirrored on X in TOP and BOTTOM views",
+                            "Next Keyframe button and shortcut now work properly",
+                            "Copying/Pasting Keyframes no longer crash the editor",
+                            "Tweaking an IK constrain was making it invisible",
+                            "Moving Keyframes in a dettached Timeline while the animation is running no longer crashes VE",
+                            "Moving/copying keyframes now create an undo step",
+                            "Palette header menus are now correctly rendered for a dettached Palette panel",
+                            "Adding/deleting layers now move the scroll properly",
+                            "Deleting a model kept it's thumbnail in the cache",
+                            "Opening a VXM now sets the first visible layer to be active",
+                            "Bucket tool with SELECT/PAINT/ERASE mode wasn't working well on the RIGHT/BOTTOM/BACK bounds of the volume",
+                            "Keyframe rect selection now works even if the left bound is behind the zero frame",
+                            "Loading a non palette PNG as a palette no longer overwrites the first slot with a white material",
+                            "Deleting VXMs from Library and importing/creating new ones with the same name will no longer show old thumbnail",
+                            "Having a different decimal separator than \".\" set in the OS's regional settings no longer crashes VE",
+                            "Creating decorative nodes for assets made based on decorable templates no longer crashes VE",
+                            "Load Palette from a dettached Palette panel no longer crashes VE",
+                            "Screen Rect tool now works properly in 2D views",
+                            "Dragging/copying a KF on top of another now overwrites it properly"
+                        ]
+                    }
+                }
+            }
+        }
     }
 }
