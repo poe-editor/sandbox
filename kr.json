@@ -281,9 +281,9 @@
                 "testNetGoerli": "TESTNET GOERLI NETWORK",
                 "testNetMumbai": "TESTNET MUMBAI NETWORK",
                 "mainNet": "메인넷 네트워크",
-                "title": "Total Balance",
-                "ethNetwork": "Ethereum Network",
-                "plyNetwork": "Polygon Network"
+                "title": "총 잔액",
+                "ethNetwork": "이더리움 네트워크",
+                "plyNetwork": "폴리곤 네트워크"
             },
             "notifications": {
                 "status": {
@@ -1660,21 +1660,21 @@
                     "title": "LAND",
                     "ctaText": "LAND 구매",
                     "description": "LAND를 보유하여 LAND 보유자 확정 리워드를 잠금 해제하세요",
-                    "cardTitle": "Buy a LAND into the Metaverse",
-                    "cardDescription": "There will only ever be 166,464 LANDS available, which can be used to host games, build multiplayer experiences, create housing, or offer social experiences to the community"
+                    "cardTitle": "메타버스 LAND 구입하기",
+                    "cardDescription": "총 LAND의 수는 166,464개이며, LAND 위에 게임, 멀티플레이어 경험, 전시, 또는 커뮤니티 소셜 경험 등을 자유롭게 만들 수 있습니다."
                 },
                 "nftAvatar": {
                     "title": "NFT 아바타",
                     "description": "NFT 아바타를 보유하여 아바타 보유자 확정 리워드를 잠금 해제하세요"
                 },
                 "nftAsset": {
-                    "title": "NFT Collections",
+                    "title": "NFT 컬렉션",
                     "description": "알파 시즌 3 컬렉션에서 최소 1개의 NFT를 보유하여 NFT 컬렉터 리워드를 잠금 해제하세요"
                 },
                 "avatarTooltip": "해당 NFT 중 한 가지를 보유하고 있다면 어울리는 모습의 아바타를 획득할 수 있습니다.",
                 "equipmentTooltip": "NFT를 장비하면 파워, 스피드, 공격력이 강화되어 리더보드에서 더 높은 순위를 기록할 수 있습니다.",
-                "nftTab": "Collections",
-                "totalOwned": "Total Owned: "
+                "nftTab": "컬렉션",
+                "totalOwned": "보유한 컬렉션: "
             },
             "info": {
                 "title": "시즌 3 알파 패스를 보유하고 최대 500 SAND 리워드를 획득하세요",
@@ -3350,11 +3350,11 @@
             "linkLands": "연결 필요:",
             "publish": "게시",
             "unpublish": "게시 취소",
-            "tags": "",
-            "collection": "",
-            "collectionToGate": "",
-            "defaultAvatar": "",
-            "displayedAsPreview": ""
+            "tags": "태그",
+            "collection": "컬렉션",
+            "collectionToGate": "Collection to gate",
+            "defaultAvatar": "기본 아바타",
+            "displayedAsPreview": "특정 컬렉션의 아바타를 보유하고 있지 않을 경우 미리보기로 표시됩니다."
         },
         "publish": {
             "title": "경험 게시"
