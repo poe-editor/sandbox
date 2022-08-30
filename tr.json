@@ -3179,12 +3179,12 @@
                 "title": "Kurallara göre oyna!",
                 "text1": "Varsayılan boyut 32x32x32'dir ve bu, Sandbox Evreninde 1 metre (3,2 ft) anlamına gelir.",
                 "text2": "32x32x32 metreküp içinde yapılabilecek maksimum detaydır. Bir avatarın yüksekliği yaklaşık 2 blok olacaktır (64 Voksel).",
-                "text3": "VoxEdit, kreasyonlarınıza başlamanıza yardımcı olacak birçok şablonla birlikte gelir, ancak varlıklarınızın Game maker'da en iyi şekilde çalışacağından emin olmak için lütfen teknik yönergelerimize bir göz atın.",
-                "buttonText": "Teknik özellikler"
+                "text3": "VoxEdit, kreasyonlarınıza başlamanıza yardımcı olacak birçok şablonla birlikte gelir, ancak varlıklarınızın Game Maker'da en iyi şekilde çalışacağından emin olmak için lütfen teknik yönergelerimize bir göz atın.",
+                "buttonText": "Teknik Özellikler"
             },
             "funding": {
                 "title": "2 milyon dolarlık İçerik Oluşturucu fonu ile tanışın",
-                "subtitle": "MUHTEŞEM VOXEL YAPIMLARINIZI PLATFORMUMUZDA YARATMANIZA, PAYLAŞMANIZ VE SATMANIZA YARDIMCI OLMAK İSTİYORUZ",
+                "subtitle": "MUHTEŞEM VOKSEL YAPIMLARINIZI PLATFORMUMUZDA YARATMANIZA, PAYLAŞMANIZ VE SATMANIZA YARDIMCI OLMAK İSTİYORUZ",
                 "how": {
                     "title": "İşte nasıl çalıştığı:",
                     "cards": [
@@ -3198,7 +3198,7 @@
                     "title": "Neredeyse oradasın!",
                     "description": "Bu alanları e-postanız ve takma adınız ile doldurun",
                     "required": "Bu alan gereklidir",
-                    "confirm": "işbu belge ile onayladığımı onaylıyorum",
+                    "confirm": "İşbu belge ile onayladığımı onaylıyorum",
                     "terms": "Kullanım Şartları",
                     "errors": {
                         "emailIsRequired": "E-postanız gerekli",
@@ -3212,7 +3212,7 @@
                 },
                 "signupPasswordModal": {
                     "title": "Son adım!",
-                    "description": "Oyun oluşturucu kullanmak için şifrenizi belirleyin",
+                    "description": "Game Maker kullanmak için şifrenizi belirleyin",
                     "password": "Şifre",
                     "repeatPassword": "Şifrenizi tekrarlayın",
                     "errors": {
@@ -3220,9 +3220,9 @@
                         "newPasswordTooShort": "Yeni Şifre çok kısa",
                         "passwordDoNotMatch": "Parolalar uyuşmuyor"
                     },
-                    "completeSteps": "Oyun oluşturucuda oturum açmak için bu adımı tamamlayın.",
+                    "completeSteps": "Game Maker'da oturum açmak için bu adımı tamamlayın.",
                     "skip": "Geç",
-                    "completeLater": "bunu ve daha sonra tamamlayın."
+                    "completeLater": "daha sonra tamamlayın."
                 },
                 "assets": {
                     "sidebar": {
@@ -3246,8 +3246,8 @@
                 }
             },
             "section6": {
-                "title": "What are you waiting for?",
-                "description": "Join the Community of thousands of users that have already registered in The Sandbox with their unique avatars.",
+                "title": "Ne bekliyorsun?",
+                "description": "Benzersiz avatarlarıyla Sandbox'a önceden kaydolmuş binlerce kullanıcının Topluluğuna katılın.",
                 "buttonText": "Avatar Oluştur",
                 "part1": {
                     "title1": "Ne için bekliyorsun?",
@@ -3334,9 +3334,9 @@
         "logoDisclaimer": "Haritada gösterilecek bir resim yükleyebilirsiniz (WEBP veya JPG). dosya boyutu 90 kb'den az olmalıdır.",
         "howTo": "ESTATE'inizi nasıl düzenlersiniz?",
         "errors": {
-            "assetNameRequired": "Öğe adı gerekli",
-            "assetNameTooShort": "Öğe adı çok kısa",
-            "assetDescriptionTooLong": "Öğe açıklaması çok uzun",
+            "assetNameRequired": "Varlık adı gerekli",
+            "assetNameTooShort": "Varlık adı çok kısa",
+            "assetDescriptionTooLong": "Varlık açıklaması çok uzun",
             "logo": "Logo dosyasının formatı veya boyutu yanlış, WEBP veya JPG olmalı ve dosya boyutu 90 kb'den küçük olmalıdır.",
             "preview": "Önizleme dosyasının biçimi veya boyutu yanlış, bir resim olmalı ve dosya boyutu 90 kb'den küçük olmalıdır",
             "pleaseSignInFirst": "Lütfen önce oturum açın"
@@ -3344,9 +3344,9 @@
     },
     "experience": {
         "form": {
-            "portrait": "Portrait",
+            "portrait": "Portre",
             "portraitWarning": "Kabul edilen görüntü biçimleri WEBP ve JPEG'dir. Dosya boyutu 90 kb'den az olmalıdır.",
-            "banner": "Banner",
+            "banner": "Reklam",
             "bannerWarning": "Bu deneyim için bir kapak resmi yüklemelisiniz. Kabul edilen formatlar WEBP ve JPG'dir.",
             "name": "İsim",
             "description": "Açıklama",
@@ -3372,37 +3372,37 @@
     },
     "map": {
         "meta": {
-            "title": "The Sandbox Metaverse Map",
-            "description": "Sandbox Metaverse, deneyimler oluşturmak ve bunlardan para kazanmak için oyuncuların sahip olduğu, dünyanın parçaları olan LANDS'tan oluşur. Buradan satın alın.",
-            "keywords": "sandbox, map, metaverse, land, world, experiences, create, monetize, sand, own land, create games",
+            "title": "The Sandbox Metaverse Haritası",
+            "description": "Sandbox Metaverse, deneyimler oluşturmak ve para kazanmak için oyuncuların sahip olduğu, dünyanın parçaları olan LANDS'tan oluşur. Buradan satın alın.",
+            "keywords": "sandbox, harita, Metaverse, arazi, Dünya, Deneyimler, yaratmak, para kazanmak, kum, kendi arazisi, Oyunlar yarat",
             "og": {
                 "title": "The Sandbox Metaverse Map",
-                "description": "Sandbox Metaverse, deneyimler oluşturmak ve bunlardan para kazanmak için oyuncuların sahip olduğu, dünyanın parçaları olan LANDS'tan oluşur. Buradan satın alın.",
+                "description": "Sandbox Metaverse, deneyimler oluşturmak ve para kazanmak için oyuncuların sahip olduğu, dünyanın parçaları olan LANDS'tan oluşur. Buradan satın alın.",
                 "url": "https://sandbox.game/map/",
                 "site_name": "The Sandbox",
                 "image": "https://www.sandbox.game/images/logo.png"
             },
             "twitter": {
-                "title": "The Sandbox Metaverse Map",
-                "description": "Sandbox Metaverse, deneyimler oluşturmak ve bunlardan para kazanmak için oyuncuların sahip olduğu, dünyanın parçaları olan LANDS'tan oluşur. Buradan satın alın.",
-                "card": "The Sandbox Metaverse Map",
+                "title": "The Sandbox Metaverse Harita",
+                "description": "Sandbox Metaverse, deneyimler oluşturmak ve para kazanmak için oyuncuların sahip olduğu, dünyanın parçaları olan LANDS'tan oluşur. Buradan satın alın.",
+                "card": "The Sandbox Metaverse Harita",
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame",
                 "image": "https://www.sandbox.game/images/logo.png"
             }
         },
-        "title": "Map",
+        "title": "Harita",
         "loader": {
-            "text1": "Metaverse LANDS oluşturuluyor...",
+            "text1": "Metaverse LAND oluşturuluyor...",
             "text2": "Parsel sınırları belirleniyor...",
-            "text3": "LANDS'ı Arazi ile birleştirmek...",
-            "text4": "Voxel yerleştirmek...",
+            "text3": "LAND'i Arazi ile birleştiriliyor...",
+            "text4": "Voksel yerleştiriliyor...",
             "text5": "Sandbox Arazi konumlanıyor...",
-            "text6": "Arazi Sahiplerinin parsellerinin bulunması...",
-            "text7": "Metaverse'nin etrafındaki hazineleri gizlemek..",
+            "text6": "Arazi Sahiplerinin parsellerinin bulunuyor...",
+            "text7": "Metaverse etrafına hazineler gizleniyor...",
             "text8": "Biliyor musun? LAND'ler, daha büyük oyun deneyimleri yaratmak için Arazi oluşturmak üzere birleştirilebilir.",
             "text9": "Biliyor musun? The Sandbox'ta oyun deneyimlerinizi kiralayıp satabileceksiniz.",
-            "text10": "GEMS, VARLIKLARINIZIN niteliklerini tanımlayan jetonlardır, aynı Güç ve Savunma'nın yaptığı gibi",
+            "text10": "MÜCEVHERLER, VARLIKLARINIZIN niteliklerini tanımlayan jetonlardır, aynı Güç ve Savunma'nın yaptığı gibi",
             "text11": "Biliyor musun? The Sandbox'ta VARLIKLARI oluşturmaktan İçerik Oluşturucu Fonu'nun sanatçıları sorumludur.",
             "text12": "Ücretsiz voksel düzenleyicimiz VoxEdit'i kullanarak kendi VARLIKLARINIZI oluşturabilir ve satabilirsiniz."
         },
@@ -3413,9 +3413,9 @@
             "buttonText": "ARAZİ satın al"
         },
         "countdown": {
-            "titleNextPresale": "Bir sonraki dalga şurada başlar:",
-            "titleStartsIn": "Satış başlar:",
-            "titleFinishesIn": "Mevcut İndirim şu şekilde sona erer:",
+            "titleNextPresale": "Bir sonraki dalganın başlamasına:",
+            "titleStartsIn": "Satış başlamasına:",
+            "titleFinishesIn": "Mevcut İndirimin sona ermesine:",
             "buttonText": "Satın Al LAND",
             "returnFullMap": "Tam haritaya dön",
             "days": "GÜN",
@@ -3470,10 +3470,10 @@
             "shibuya": "SHIBUYA",
             "time": "TIME"
         },
-        "booked": "Tarafından rezervasyon",
+        "booked": "Tarafından rezervasyon yapıldı",
         "visit": "Siteyi ziyaret et",
         "errors": {
-            "coordinates": "Lütfen koordinat sağlayıns",
+            "coordinates": "Lütfen koordinat sağlayın",
             "limit": "Koordinatlar -204 ile 204 arasında olmalıdır",
             "swap": "İkinci koordinat noktası birinciden daha yüksek olmalıdır",
             "wallet": "Lütfen doğru bir cüzdan sağlayın"
@@ -3485,10 +3485,10 @@
             "onSaleOpensea": "Opensea'da satılık",
             "about": "Hakkında",
             "back": "Geri",
-            "landsIncluded": "Siteye dahil olan araziler",
+            "landsIncluded": "Land'e dahil olan araziler",
             "available": "Uygun",
             "unavailable": "Uygun değil",
-            "owner": "OWNER",
+            "owner": "SAHİP",
             "cost": "Maliyet",
             "location": "Konum",
             "assetsOwned": "Sahip olunan varlıklar",
@@ -3501,10 +3501,10 @@
             "currentPrice": "Mevcut fiyat",
             "nearLands": "Komşular",
             "reachOut": "Komşularınıza Nasıl Ulaşabilirsiniz?",
-            "askSellMarket": "Bu Araziyi Pazarımızda satmak ister misiniz?",
-            "putOnSale": "Satmak",
+            "askSellMarket": "Bu Land'i Pazarımızda satmak ister misiniz?",
+            "putOnSale": "Sat",
             "buyLand": "LAND Satın Al",
-            "buyEstate": "Arazi Satın Al",
+            "buyEstate": "ARAZİ Satın Al",
             "bid": "Teklif",
             "placeBid": "Teklif Ver",
             "cancel": "İptal Et",
@@ -3522,10 +3522,10 @@
         },
         "onboarding": {
             "title": "Sandbox Harita",
-            "description": "KOLEKSİYONU",
+            "description": "Hoşgeldiniz",
             "buttonText": "Devam et",
             "lastButtonText": "Şimdi LAND Satın Al!",
-            "slide1": "Yaklaşan oynanabilir metaverse'imizin LANDS ve ARAZİ'lerini bulmak için Sandbox haritasında gezinin. The Sandbox'tan kendinize bir parça almak için cüzdanınızı SAND ile ayarladığınızdan emin olun.",
+            "slide1": "Yaklaşan oynanabilir metaverse'imizin LANDS ve ESTATES'lerini bulmak için Sandbox haritasında gezinin. Kendinize bir Sandbox parçası almak için cüzdanınızı SAND ile ayarladığınızdan emin olun.",
             "slide2": "4 Haziran'dan 2 Temmuz'a kadar bir dizi özel ay temalı LAND ön satışları düzenliyoruz. Bu MoonSale'in 7.254 LANDS'ından birini %20 indirimle alın ve metaverse'e katılmaya hazır olun."
         },
         "landEdit": {
@@ -3537,9 +3537,9 @@
             "videoUrl": "Video URL",
             "errors": {
                 "signin": "Lütfen önce oturum açın",
-                "assetNameRequired": "Öğe adı gerekli",
-                "assetNameTooShort": "Öğe adı çok kısa",
-                "assetDescriptionTooLong": "Öğe açıklaması çok uzun",
+                "assetNameRequired": "Varlık adı gerekli",
+                "assetNameTooShort": "Varlık adı çok kısa",
+                "assetDescriptionTooLong": "Varlık açıklaması çok uzun",
                 "preview": "Önizleme dosyasının biçimi veya boyutu yanlış, bir resim olmalı ve dosya boyutu 90 kb'den küçük olmalıdır",
                 "type": "Please enter a jpg, jpeg or webp file",
                 "size": "Please enter a file with a valid size no larger than 90k"
@@ -3599,25 +3599,25 @@
     "about": {
         "meta": {
             "title": "Sandbox Ekibi Hakkında",
-            "description": "Voxel tabanlı bir blockchain oyun ekosistemi olan The Sandbox'ın arkasındaki ekip hakkında bilgi edinin.",
-            "keywords": "sandbox, sandbox team, voxel art, voxel market, blockchain dapp, voxel team, PC voxel game, PC voxel art, blockchain gaming, blockchain game",
+            "description": "Voksel tabanlı bir blockchain oyun ekosistemi olan The Sandbox'ın arkasındaki ekip hakkında bilgi edinin.",
+            "keywords": "sandbox, sandbox ekibi, voksel sanatı, voksel pazarı, blockchain dapp, voksel takımı, PC voksel oyunu, PC voksel sanatı, blockchain oyunları, blockchain oyunu",
             "og": {
                 "title": "The Sandbox | Hakkımızda",
-                "description": "Voxel tabanlı bir blockchain oyun platformu olan The Sandbox'ın arkasındaki ekip hakkında bilgi edinin.",
+                "description": "Voksel tabanlı bir blockchain oyun platformu olan The Sandbox'ın arkasındaki ekip hakkında bilgi edinin.",
                 "url": "https://sandbox.game",
                 "site_name": "The Sandbox",
                 "image": "https://www.sandbox.game/images/logo.png"
             },
             "twitter": {
                 "title": "The Sandbox | Hakkımızda",
-                "description": "Voxel tabanlı bir blockchain oyun ekosistemi olan The Sandbox'ın arkasındaki ekip hakkında bilgi edinin.",
+                "description": "Voksel tabanlı bir blockchain oyun ekosistemi olan The Sandbox'ın arkasındaki ekip hakkında bilgi edinin.",
                 "card": "Oyuncular Tarafından Yapılan Merkezi Olmayan Bir Oyun Platformu.",
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame",
                 "image": "https://www.sandbox.game/images/logo.png"
             }
         },
-        "title": "Hoş geldin",
+        "title": "Hoşgeldin",
         "description": "yaratıcıların blok zincirindeki voksel VARLIKLARI ve oyun deneyimlerinden para kazanabilecekleri topluluk odaklı bir platformdur.",
         "menu": {
             "sandbox": "The Sandbox",
@@ -3630,27 +3630,27 @@
                 "title": "Ürünlerimiz Hakkında Bilgi Edinin",
                 "voxedit": {
                     "title": "VoxEdit",
-                    "description": "Voxel sanatı yaratın ve canlandırın. Her yere dışa aktarın."
+                    "description": "Voksel sanatı yaratın ve canlandırın. Her yere aktarın."
                 },
                 "marketplace": {
                     "title": "Pazaryeri",
                     "description": "En iyi VARLIKLARI satmak ve toplamak için tek bir yer."
                 },
                 "gameMaker": {
-                    "title": "Oyun Oluşturucu",
+                    "title": "Game Maker",
                     "description": "Hayal edebileceğiniz herhangi bir oyunu yapın ve oynayın."
                 },
                 "land": {
                     "title": "Land",
-                    "description": "Sonsuz olasılıklar. Bugün seninkini rezerve et!"
+                    "description": "Sonsuz olasılıklar. Kendininkini şimdiden ayırt!"
                 },
                 "gameMakerProduct": {
-                    "title": "Oyun Oluşturucu",
+                    "title": "Game Maker",
                     "description": "Hayal edebileceğiniz herhangi bir oyunu yapın ve oynayın."
                 },
                 "fund": {
                     "title": "Oyun Yapıcı Fonu",
-                    "description": "Sizin harika voxel kreasyonlarınızı oluşturmak ve paylaşmak için para kazanın."
+                    "description": "Harika voksel kreasyonlarınızı oluşturarak ve paylaşarak para kazanın."
                 }
             },
             "partners": "Ortaklar",
@@ -3685,19 +3685,19 @@
         },
         "sand": {
             "meta": {
-                "title": "The Sandbox | SAND token",
-                "description": "SAND, The Sandbox ekosisteminde işlemler ve etkileşimler için temel olarak kullanılan yardımcı program simgesidir. Ethereum blok zinciri üzerine inşa edilmiş bir ERC-20 yardımcı program belirtecidir. 3.000.000.000 KUM'un sınırlı bir kaynağı vardır.",
-                "keywords": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token",
+                "title": "The Sandbox | SAND Jeton",
+                "description": "SAND, Sandbox ekosisteminde işlemler ve etkileşimler için temel olarak kullanılan yardımcı program simgesidir. Ethereum blok zinciri üzerine inşa edilmiş bir ERC-20 yardımcı program belirtecidir. 3.000.000.000 SAND ile sınırlı bir kaynağı vardır. ",
+                "keywords": "sandbox, voksel sanatı, 3D voksel oyunu, voksel sanatçıları, 3D çevrimiçi PC oyunu, topluluk, blockchain dapp, PC voksel oyunu, PC voksel sanatı, merkezi olmayan oyun, SAND, jeton",
                 "og": {
                     "title": "The Sandbox | SAND Hakkında",
-                    "description": "sandbox, voxel tasarımı, 3D voxel oyunu, voxel tasarımcıları, 3D online PC oyunu, topluluk, blockchain dapp, PC voxel oyunu, PC voxel tasarımı, decentralized oyun, SAND, token",
+                    "description": "sandbox, voksel sanatı, 3D voksel oyunu, voksel sanatçıları, 3D çevrimiçi PC oyunu, topluluk, blockchain dapp, PC voksel oyunu, PC voksel sanatı, merkezi olmayan oyun, SAND, jeton",
                     "url": "https://www.sandbox.game/en/about/sand/",
-                    "site_name": "The Sandbox SAND Token",
+                    "site_name": "The Sandbox SAND Jeton",
                     "image": "https://www.sandbox.game/images/logo.png"
                 },
                 "twitter": {
                     "title": "The Sandbox | SAND Hakkında",
-                    "description": "SAND, The Sandbox ekosisteminde işlemler ve etkileşimler için temel olarak kullanılan yardımcı program simgesidir. Ethereum blok zinciri üzerine inşa edilmiş bir ERC-20 yardımcı program belirtecidir. 3.000.000.000 KUM'un sınırlı bir kaynağı vardır.",
+                    "description": "SAND, Sandbox ekosisteminde işlemler ve etkileşimler için temel olarak kullanılan yardımcı program simgesidir. Ethereum blok zinciri üzerine inşa edilmiş bir ERC-20 yardımcı program belirtecidir. 3.000.000.000 SAND ile sınırlı bir kaynağı vardır. ",
                     "card": "Oyuncular Tarafından Yapılan Merkezi Olmayan Bir Oyun Platformu.",
                     "site": "@thesandboxgame",
                     "creator": "@thesandboxgame",
@@ -3705,7 +3705,7 @@
                 }
             },
             "header": {
-                "description": "SAND, The Sandbox ekosisteminde işlemler ve etkileşimler için temel olarak kullanılan yardımcı program simgesidir. Ethereum blok zinciri üzerine inşa edilmiş bir ERC-20 yardımcı program belirtecidir. 3.000.000.000 KUM'un sınırlı bir kaynağı vardır.",
+                "description": "SAND, Sandbox ekosisteminde işlemler ve etkileşimler için temel olarak kullanılan yardımcı program simgesidir. Ethereum blok zinciri üzerine inşa edilmiş bir ERC-20 yardımcı program belirtecidir. 3.000.000.000 SAND ile sınırlı bir kaynağı vardır. ",
                 "mainButtonText": "Satın Al",
                 "secondaryButtonText": "Stake",
                 "link": "Binance Araştırmasını okuyun"
@@ -3718,7 +3718,7 @@
                 },
                 "sand": {
                     "name": "$SAND",
-                    "description": "SAND belirteci, değer aktarımlarının yanı sıra stake ve yönetişim için kullanılan bir ERC-20 hizmet belirtecidir."
+                    "description": "SAND jetonu, değer aktarımlarının yanı sıra stake ve yönetim için kullanılan bir ERC-20 yardımcı program belirtecidir."
                 }
             },
             "products": {
@@ -3726,14 +3726,14 @@
                 "title2": "platformu şunları içerir:",
                 "voxedit": {
                     "title": "VoxEdit",
-                    "description": "Daha sonra Fungible Tokens (NFT'ler) haline gelebilen ve Marketplace'e aktarılabilen voksel VARLIKLARI oluşturmak için yazılım."
+                    "description": "Daha sonra Fungible Token (NFT'ler) haline gelebilen ve Marketplace'e aktarılabilen voksel VARLIKLARI oluşturmak için yazılım."
                 },
                 "marketplace": {
                     "title": "Pazaryeri",
                     "description": "En iyi VARLIKLARI satmak ve toplamak için tek bir yer."
                 },
                 "gameMaker": {
-                    "title": "Oyun Oluşturucu",
+                    "title": "Game Maker",
                     "description": "Herkesin ücretsiz olarak 3D oyunlar oluşturmasını sağlayan görsel bir komut dosyası oluşturma araç kutusu."
                 }
             },
@@ -3748,10 +3748,10 @@
             },
             "sandbox": {
                 "title": " The Sandbox\" (SAND) Nedir? ",
-                "text1": "Sandbox, oyuncuların platformun yardımcı program belirteci SAND kullanarak Ethereum blok zincirinde oyun deneyimlerini oluşturabilecekleri, sahiplenebilecekleri ve para kazanabilecekleri sanal bir meta veri deposudur. Oyuncular, Fungible Tokens (NFT'ler) biçiminde dijital varlıklar oluşturabilir, bunları pazara yükleyebilir ve Oyun Oluşturucu ile oyunlara entegre edebilir.",
-                "text2": "LAND, The Sandbox metaverse'de oyuncuların deneyimler oluşturmak için satın alabilecekleri dijital bir gayrimenkul parçasıdır. Bir oyuncu bir LAND parçasına sahip olduğunda, onu oyunlar ve VARLIKLAR ile doldurabilecektir. Bir EMLAK oluşturmak için birden fazla LANDS birleştirilebilir.",
-                "text3": "The Sandbox metaverse'i oluşturacak bir haritada yer alan toplam 166.464 LANDS mevcut olacak.",
-                "text4": "GEMS ve KATALİZÖRLER VARLIKLARIN katmanını, kıtlığını ve niteliklerini tanımlar. KATALİZÖRLER, GEMS ile doldurulabilen NFT'lere boş yuvalar ekler. CATALİST'in kalitesi ne kadar yüksek olursa, varlığınızda'inizde o kadar fazla soket olacaktır.",
+                "text1": "Sandbox, oyuncuların platformun yardımcı program belirteci SAND'ı kullanarak Ethereum blok zincirinde oyun deneyimlerini oluşturabilecekleri, sahiplenebilecekleri ve bunlardan para kazanabilecekleri sanal bir meta veri deposudur. Oyuncular, Fungible Tokens (NFT'ler) biçiminde dijital varlıklar oluşturabilir, bunları pazara yükleyebilir ve Game Maker ile oyunlara entegre edebilir.",
+                "text2": "LAND, The Sandbox metaverse'de oyuncuların deneyim oluşturmak için satın alabilecekleri dijital bir gayrimenkul parçasıdır. Bir oyuncu bir LAND parçasına sahip olduğunda, onu oyunlar ve VARLIKLAR ile doldurabilecektir. Bir ARAZİ oluşturmak için birden fazla LAND birleştirilebilir.",
+                "text3": "The Sandbox metaverse'i oluşturacak bir haritada yer alan toplam 166.464 LAND mevcut olacak.",
+                "text4": "MÜCEVHERLER ve KATALİZÖRLER, VARLIKLARIN katmanını, kıtlığını ve niteliklerini tanımlar. KATALİZÖRLER, MÜCEVHER ile doldurulabilen NFT'lere boş yuvalar ekler. KATALİZÖR kalitesi ne kadar yüksek olursa, Varlığınız o kadar fazla sokete sahip olacaktır.",
                 "text5": "Kullanıcılar, SAND gelirinin %95'ini şu şekilde elinde tutarak platformdaki zamanlarından para kazanabilir:",
                 "monetize": {
                     "1": {
@@ -3763,19 +3763,19 @@
                         "description": "LAND satışlarından birinde LAND satın almak. Oyuncular daha sonra onları kiralayabilir veya LAND'ın değerini artırmak için içerikle doldurabilir."
                     },
                     "3": {
-                        "title": "Oyun Oluşturucu'da Oyun Oluşturma",
-                        "description": "Oyunculara ait LANDS'ta Oyun Oluşturucuyu kullanarak oyunlar oluşturun ve bunlardan para kazanın."
+                        "title": "Game Maker'da Oyun Oluşturma",
+                        "description": "Oyunculara ait LAND'lerde Game Maker'ı kullanarak oyunlar oluşturun ve bunlardan para kazanın."
                     }
                 },
-                "text6": "The Sandbox, ERC-1776'nın kullanımıyla, platform kullanıcılarının Ethereum blok zincirinde işlem başlatmasına olanak tanırken, işlem gaz ücretleri platform tarafından ödenerek genel kullanıcı deneyimini optimize eder.",
-                "text7": "LAND satışlarından, Premium NFT satışlarından, işlem ücretlerinden ve abonelik hizmetlerinden toplanan tüm SAND işlemlerinin %50'si Vakıfa gitmektedir.",
-                "text8": "The Sandbox ekosistemini desteklemekte ve NFT'ler, Metaverse ve $SAND hakkında farkındalığın artmasına katkıda bulunmaktadır.",
-                "text9": "Fon şu anda ilgili",
+                "text6": "The Sandbox, ERC-1776'nın kullanılmasıyla, platform kullanıcılarının Ethereum blok zincirinde işlem başlatmasına olanak tanırken, işlem gaz ücretleri platform tarafından ödenerek genel kullanıcı deneyimini optimize eder.",
+                "text7": "ARSA satışlarından, Premium NFT satışlarından, işlem ücretlerinden ve abonelik hizmetlerinden toplanan tüm SAND işlemlerinin %50'si fonlara gitmektedir.",
+                "text8": "Fon, The Sandbox ekosistemini destekler ve NFT'ler, Metaverse ve $SAND hakkında farkındalığın artmasına katkıda bulunur.",
+                "text9": "Fon şu anda şunlar ile ilgilidir",
                 "foundation": {
-                    "1": "The Sandbox'ta yüksek kaliteli içerik ve oyun üretimini teşvik etmek için hibeler sunan Oyun Geliştirici Fonunu yönetmek.",
-                    "2": "17 farklı oyun projesi fon üzerinden destek buldu ve bunlardan bazıları çok yakında yayınlanacak.",
-                    "3": "NFT'ler yaratmak için 100 tasarımcıya hibeler ve maddi kaynak desteği",
-                    "4": "Lokal topluluk yöneticilerine destek ve Sandbox'un global bilinirliğini arttırmak için nft oyunu ve kripto oyun sektörünü de tanıtan bir İçerik Üreticisi Programı",
+                    "1": "The Sandbox'ta yüksek kaliteli içerik ve oyun üretimini teşvik etmek için hibeler sunan Game Makers Fund ve Creators Fonunu yönetmek.",
+                    "2": "Bazıları halka açık olan 17'den fazla oyun projesine fon sağlandı.",
+                    "3": "Çoğu şu adreste görülebilecek NFT'ler üretmek için 100 sanatçıya hibe dağıtıldı",
+                    "4": "Topluluk Ödülleri ve Elçiler programımız aracılığıyla The Sandbox, NFT'ler ve blok zincir oyunları hakkında dünya çapında farkındalığı artırmak için yerel topluluk yöneticilerini destekler",
                     "5": "Sanbox ekibi tarafından dünyadaki Sandbox bilinirliğini arttırmak amaçlı düzelenen büyük etkinlik ödülleri için sponsorluk (VoxEdit Yarışması ve Game Jam).",
                     "6": "SAND kullanımı teşvik etmek için play-to-earn turnuvalarını farkı cross-gaming etkinliklerle desteklemek.",
                     "2a": "https://www.sandbox.game/game/top",
@@ -4382,7 +4382,7 @@
         },
         "forgotModal": {
             "title": "Şifre Kurtarma",
-            "emailOrUsername": "E-posta ya da Kullanıcı Adınız",
+            "emailOrUsername": "Enter your Email to reset your password",
             "recover": "Kurtar",
             "sent": "E-posta adresinize bir e-posta gönderildi",
             "emailTo": "Mail adresinize bir posta gönderdik",
