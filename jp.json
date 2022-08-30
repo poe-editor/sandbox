@@ -281,9 +281,9 @@
                 "testNetGoerli": "TESTNET GOERLIネットワーク",
                 "testNetMumbai": "TESTNET MUMBAIネットワーク",
                 "mainNet": "MAINNETネットワーク",
-                "title": "Total Balance",
-                "ethNetwork": "Ethereum Network",
-                "plyNetwork": "Polygon Network"
+                "title": "合計額",
+                "ethNetwork": "イーサリアムネットワーク",
+                "plyNetwork": "ポリゴンネットワーク"
             },
             "notifications": {
                 "status": {
@@ -498,6 +498,11 @@
         "experiencesSeason3": {
             "experiences": "体験！",
             "discover": "探索しよう"
+        },
+        "apeavatarSeason3": {
+            "title": "PLAY WITH YOUR NFTS",
+            "description": "Over 140K cool avatars are available to play in the Sandbox. Check out the collections and turn your NFT into life",
+            "explore": "Explore Avatar Collections"
         }
     },
     "season": {
@@ -1733,7 +1738,7 @@
                 "contestsTab": "Contests tab",
                 "disclaimerContests": "ソーシャルイベントでシーズン3 アルファパスを入手された方は、アルファ・シーズン3の抽選会より2枚目を受け取ることができません。ご了承ください。",
                 "ugc": "UGC",
-                "ugcDescription": "通常の TSB ユーザーによって作成されました。 彼らは、そのコンテンツに対する所有権と責任を持っています。 いくつかのバグが見つかる場合があります。",
+                "ugcDescription": "The Sandboxユーザーによって制作されました。 彼らは、制作したコンテンツに対する所有権と責任を持っています。バグが見つかる場合があります。",
                 "whatsNew": "What's New?",
                 "KYC": "KYC: Know Your Customer",
                 "KYCDescription": "KYCは、安全で公正な環境を提供するために重要なプロセスです。本人確認プは必ず行ってください。プレイは誰でもできますが、リワードを獲得できるのはユーザー認証済みのアカウントのみです。",
@@ -2005,7 +2010,7 @@
                         "descriptionKey": "ステーキングとは（アルファ・シーズン3では）暗号資産の一部をThe Sandboxに預けて「ロック」することであり、その預けた資産は時間の経過とともに利回りが発生します。ステークを中止し、資金を回収することはいつでも可能です。ステークを長く続けるほど、より大きな利回りを得ることができます。\n\n 詳細はこちらでご覧いただけます。\n {0}\n\nアルファ・シーズン3でのステーキングは利回りを獲得するためにSANDを失うことはないことを理解することが非常に重要です。すなわちSANDをステーキングすることでボーナスを取得します。",
                         "descriptionKey0-1": "spend",
                         "titleKey1": "まとめると、ステーキング機能はシーズン3にどう関係するのでしょうか?",
-                        "descriptionKey1": "1. {0} SAND をステーキングすると、追加の抽選チケットが付与されます。\n  2. {1} ブースターは、コミュニティ全体がステークした SAND の合計額に基づいて、すべての S3AP SAND 報酬に適用されます。",
+                        "descriptionKey1": "1. {0} SAND をステーキングすると、追加の抽選チケットが付与されます。\n 2. {1} ブースターは、コミュニティ全体がステークしたSAND の合計額に基づいて、すべての シーズン3アルファパスSAND報酬に適用されます。",
                         "descriptionKey1-1": "抽選チケットの追加：",
                         "descriptionKey1-2": "Community Reward Booster:",
                         "titleKey2": "In detail, how does the Staking feature relates to Season 3?",
@@ -2158,7 +2163,7 @@
             "to": "に",
             "cancel": "販売をキャンセルする",
             "network": {
-                "ethereum": "これは、Ethereumネットワークで実行されているSANDです。",
+                "ethereum": "これは、イーサリアムネットワークで動いているSANDです。",
                 "polygon": "これは、Polygonネットワークで実行されているSANDです。"
             },
             "details": "Details",
@@ -2670,12 +2675,14 @@
             "changelog": "変更履歴",
             "gameExperiences": "The Sandboxで構築されたゲーム",
             "download": {
-                "title": "Game Maker ダウンロード"
+                "title": "Game Maker ダウンロード",
+                "cta": "Download"
             },
             "end": {
                 "text": "ゲームを起動して、アセットを自由に配置して体験を作り出そう！",
                 "buttonText": "今すぐ事前登録！"
-            }
+            },
+            "release": "0.7.1"
         },
         "voxedit": {
             "meta": {
@@ -3511,7 +3518,7 @@
             "parcel": "区画",
             "polygonChain": "Polygon Network",
             "network": "Network",
-            "ethereumChain": "Ethereum Network"
+            "ethereumChain": "イーサリアムネットワーク"
         },
         "onboarding": {
             "title": "The Sandboxマップ",
@@ -4655,8 +4662,8 @@
             "bannerSubtitle": "リアルプレイで経験を積みましょう。SNSでフォローして、最新情報を入手。The Sandboxで手に入る全特典をお楽しみに！",
             "bannerTitle": "LAND保有者対象",
             "bannerSubtitle1": "We continue to bring value to our LAND owners",
-            "bannerSubtitle2": "ROADMAP 2022",
-            "bannerSubtitle3": "5m SAND claim",
+            "bannerSubtitle2": "ROADMAP 2022 for LAND Owner",
+            "bannerSubtitle3": "SAND Airdrop for LAND owner",
             "checkButtonText": "受け取りの確認",
             "landOwner": {
                 "lands": "{0} LAND",
@@ -5245,7 +5252,7 @@
             "whatsBlockchain": "ブロックチェーンブリッジとは？",
             "bridgeSand": "SANDをブリッジ",
             "bridge": "ブリッジ",
-            "mainnetL1": "ETHEREUM NETWORK",
+            "mainnetL1": "イーサリアムネットワーク",
             "mainnetL2": "POLYGONネットワーク",
             "discoverPolygon": "POLYGONの特典について",
             "noActivePool": "ステーキングすればさらに多くのSANDを獲得できます。",
@@ -9094,10 +9101,124 @@
                     }
                 }
             }
+        },
+        "2022": {
+            "0": {
+                "date": "June 24, 2022 - Game Maker 0.7.0 changelog",
+                "title": "Bug Fixing and Enhancements",
+                "list": {
+                    "0": {
+                        "title": "MacOS Compatibility",
+                        "list": {
+                            "0": {
+                                "title": "MacOS build was released with feature parity with Windows version. Both builds are in the same state and should not present any differences."
+                            }
+                        }
+                    },
+                    "1": {
+                        "title": "Bug Fixing",
+                        "list": {
+                            "0": {
+                                "title": "Multiple bug fixes have been made to stabilize the product and get some improvements in performance."
+                            }
+                        }
+                    },
+                    "2": {
+                        "title": "Game Maker Menu & UI",
+                        "list": {
+                            "0": {
+                                "title": "Loading Screen: ",
+                                "subtitle": "Loading screen is showing more and better information. The loading screen background image has been changed to a default one, and the thumbnail corresponding to the experience is bigger."
+                            },
+                            "1": {
+                                "title": "Improvement on the Level Widge: ",
+                                "subtitle": "It has a flash feedback so the user can notice when there is a change in the widget information."
+                            },
+                            "2": {
+                                "title": "Quest Log Widget: ",
+                                "subtitle": "Improvements have been made to the quest log widget to show information about the quest in a more clear way."
+                            }
+                        }
+                    },
+                    "3": {
+                        "title": "New FTUE",
+                        "list": {
+                            "0": {
+                                "title": "A new FTUE was implemented for the season."
+                            }
+                        }
+                    },
+                    "4": {
+                        "title": "Loading Time Improvements",
+                        "list": {
+                            "0": {
+                                "title": "Loading time and asset bundle download has been improved for better user experience."
+                            }
+                        }
+                    },
+                    "5": {
+                        "title": "Avatar Gating",
+                        "list": {
+                            "0": {
+                                "title": "Avatar gating MVP feature was implemented into the GC. The user will receive a message with the appropriate collection/avatar in case it doesn’t owe one."
+                            }
+                        }
+                    },
+                    "6": {
+                        "title": "Gameplay Additions",
+                        "list": {
+                            "0": {
+                                "title": "Avatar Navigation: ",
+                                "subtitle": "New avatar navigation possibilities have been added to the gameplay."
+                            },
+                            "1": {
+                                "title": "Walk: ",
+                                "subtitle": "The user is now able to walk, by using the walk key. This will let the user appreciate the NFT better if needed."
+                            },
+                            "2": {
+                                "title": "Sit on the Ground: ",
+                                "subtitle": "A sit animation was added so users can sit and interact among each other."
+                            },
+                            "3": {
+                                "title": "Auto Climb Update Improvements: ",
+                                "subtitle": "Auto-Jump feature was updated, and now lets the user auto-jump assets of 1 block, ½ block and ¼ block height."
+                            },
+                            "4": {
+                                "title": "Emotes: ",
+                                "subtitle": "New Dance Animations were added to the random sections of the emotes wheel."
+                            }
+                        }
+                    }
+                }
+            },
+            "1": {
+                "date": "August 29, 2022 - Game Maker 0.7.1 changelog",
+                "title": "Bug Fixing and Enhancements",
+                "list": {
+                    "0": {
+                        "title": "Bug Fixing",
+                        "subtitle": "Multiple bug fixes have been made to stabilize the product and get some improvements in performance. This fixes affects:",
+                        "list": {
+                            "0": {
+                                "title": "Play Mode UI: ",
+                                "subtitle": "Exclamation marks were shown always in yellow."
+                            },
+                            "1": {
+                                "title": "Game Maker usability: ",
+                                "subtitle": "Ability to place assets was lost after saving and reopening."
+                            },
+                            "2": {
+                                "title": "General: ",
+                                "subtitle": "Crashes and Soft blocks."
+                            }
+                        }
+                    }
+                }
+            }
         }
     },
     "buySandModal": {
-        "ethereumNetwork": "Ethereum Network",
+        "ethereumNetwork": "イーサリアムネットワーク",
         "polygonNetwork": "Polygon Network",
         "ethereum": {
             "title": "Add SAND to your wallet",
@@ -9850,7 +9971,7 @@
         "STEVE_AOKI_FAQ_MY_AVATARS_DESCRIPTION": "If you are checking before they have been revealed, this is normal. If you are checking after that date, press the “Refresh Metadata” button on the top-right corner of OpenSea.",
         "STEVE_AOKI_FAQ_BUYING_NFT_TITLE": "Buying NFT for the first time, how can I get started?",
         "STEVE_AOKI_FAQ_BUYING_NFT_DESCRIPTION": "The process is quite simple. You need to ensure that you have:  \n - Created an account on The Sandbox. \n - Ensure you have both the correct amount of SAND to mint the number of avatars you want and some ETH to cover the gas fees. \n - Log into your account and head over to the mint page: {link} \n - Check that your wallet is properly connected and just press the Mint button to retrieve your Avatar.",
-        "STEVE_AOKI_LANDING_MINT_AVATAR_DESCRIPTION_SOLD_OUT": "The Aokis がSOLD OUT! OpenSeaで販売中のアバターをご覧ください。",
+        "STEVE_AOKI_LANDING_MINT_AVATAR_DESCRIPTION_SOLD_OUT": "アオキがSOLD OUT! OpenSeaで販売中のアバターをご覧ください。",
         "STEVE_AOKI_LANDING_MINT_AVATAR_BUTTON_GO_TO_OPENSEA": "Go to Opensea",
         "STEVE_AOKI_RAFFLE_HOW_TO_MINT_MINT_NOW_TITLE": "Minting now",
         "STEVE_AOKI_RAFFLE_HOW_TO_MINT_MINT_NOW_SUBTITLE": "The Sandbox whitelist - Land owners, Doggies and People of Crypto avatars holders"
@@ -9877,11 +9998,12 @@
             }
         },
         "journey": {
-            "title": "Let’s build the open Metaverse together",
-            "desc": "Everyone is welcome inside The Sandbox : brands, studios, independent creators, you are all part of our ecosystem. As we are all different, you all have different needs and we are here to help you get into our world.",
+            "title": "LET’S BUILD THE OPEN METAVERSE TOGETHER",
+            "desc": "Brands, studios, independent creators, you are all part of our ecosystem. As we are all different, you all have different needs and we are here to help you get into the Metaverse.",
             "desc1": "You want to partner with The Sandbox?",
             "desc2": "Have a look at our opportunities",
-            "button": "Join now"
+            "button": "Join now",
+            "subTitle": "Everyone is welcome inside The Sandbox"
         },
         "community": {
             "title": "Join a community where worlds are merging",
@@ -9912,51 +10034,54 @@
         },
         "partnership": {
             "title": "The Sandbox is a place for any kind of partnerships",
-            "button": "Join us now",
+            "button": "Join us",
             "cards": {
                 "1": {
-                    "title": "IPs and brands",
+                    "title": "IPs and Brands",
                     "desc": "You have a brand and you are wondering how you can enter The Sandbox? You are at the right place, we will help you develop your brand image into our ecosystem.",
-                    "button": "Enter now"
+                    "button": "Enter now",
+                    "question": "You have a brand and you are wondering how you can enter The Sandbox?",
+                    "answer": "We will help you develop your brand image into our ecosystem."
                 },
                 "2": {
-                    "title": "Metaverse agencies",
+                    "title": "Metaverse Agencies",
                     "desc": "You are advising clients to design their web3 strategy and you consider partnering with The Sandbox. We have room for you as well.",
                     "button": "Join the Metaverse"
                 },
                 "3": {
-                    "title": "Independent studios",
+                    "title": "Independent Studios",
                     "desc": "You are a gaming studio and you want to develop your own concept inside our voxel world, contact us so we can help you develop your genuine experience.",
                     "button": "Develop now"
                 }
             }
         },
         "whypartner": {
-            "title": "Why partner with us ?",
+            "title": "WHY PARTNER WITH US?",
             "blocks": {
                 "1": {
-                    "title": "+3 million and growing everyday",
-                    "subtitle": "Wallet registered",
-                    "desc1": "We have already gathered a strongly involved community, ready to jump on any interesting experiences.",
-                    "desc2": "Our idea has always been to make sure the final end user is able to live the most out of each projects."
+                    "title": "100%",
+                    "subtitle": "Access to our platform",
+                    "desc1": "Partnering with The Sandbox is not only a way to join one of the biggest metaverse in the world, it is also a true standpoint for accessibility.",
+                    "desc2": "Everyone, from a powerful gaming computer to a mobile device, will be able to access our platform.",
+                    "desc3": "Our quest toward interoperability also will help our community and the overall market merge worlds all together."
                 },
                 "2": {
-                    "title": "Access",
-                    "subtitle": "For all",
-                    "desc1": "Partnering with The Sandbox is not only a way to join one of the biggest metaverse in the world, it is also a true standpoint for accessibility.",
-                    "desc2": "Everyone, from a powerful gaming computer to a mobile device, will be able to access our plateform.",
+                    "title": "+200",
+                    "subtitle": "brands already involved",
+                    "desc1": "Our unique identity and our plan to market have already helped more than 200 brands to get into our space and develop their own world. When you join The Sandbox, you also join Gucci, Adidas, Snoop Dogg, Ubisoft and much more...",
+                    "desc2": "Be part of the amazing ecosystem where brands create out of this world experiences for the pleasure and growth of their community.",
                     "desc3": "Our quest toward interoperability also will help our community and the overall market mege worlds all together."
                 },
                 "3": {
-                    "title": "200+ brands",
-                    "subtitle": "Already involved",
-                    "desc1": "Our unique identity and our plan to market have already helped more than 200 brands to get into our space and develop their own world. When you join The Sandbox, you also join Gucci, Adidas, Snoop Dogg, Ubisoft and much more…",
-                    "desc2": "Jump in and create your own voxelised world! Be part of the amazing ecosystem where brands create out of this world experiences for the pleasure and growth of their community."
+                    "title": "+2.5 MILLION",
+                    "subtitle": "and growing wallets registered",
+                    "desc1": "We have already gathered a strongly involved community, ready to jump on any interesting experiences.",
+                    "desc2": "Our idea has always been to make sure the final end user is able to live the most out of each projects."
                 }
             }
         },
         "howpartner": {
-            "title": "How partners developed their own world…",
+            "title": "PARTNERS WHO BUILT THEIR OWN WORLD",
             "seecollection": "See Collection",
             "createdby": "Created by",
             "block": {
@@ -9984,7 +10109,7 @@
         },
         "createdunique": {
             "title": "And created unique experiences!",
-            "desc": "Entering The Sandbox means you craft your own universe where communities will navigate and discover your brand and enjoy a truly unique experience in a voxel world. From building houses and cities, to cat walking during fashion shows and defeating dragons and monsters, you are free to offer the experience you dream of.",
+            "desc": "Entering The Sandbox means you craft your own universe where communities will navigate and discover your brand and enjoy a truly unique experience in a voxel world.",
             "button": "Join us now",
             "createdby": "Created by",
             "blocks": {
@@ -10013,10 +10138,11 @@
                     "desc": "From LA to The Sandbox, there is only one step, and Snoop Dogg understood this. The Sandbox is about delivering a new viewer experience during concerts and live performance. Enabling broader access to everyone, interacting with the crowd, through their avatars. Fans are now complete part of the deal.",
                     "screen": "Climbing madness"
                 }
-            }
+            },
+            "desc2": "From building houses and cities, to cat walking during fashion shows and defeating dragons and monsters, you are free to offer the experience you dream of."
         },
         "realworld": {
-            "title": "An extension of Real-World Experiences",
+            "title": "AN EXTENSION OF REAL-WORLD EXPERIENCES",
             "blocks": {
                 "1": "Real Estate & Home Related",
                 "2": "Music, Concerts & Streaming",
@@ -10365,5 +10491,125 @@
         "text144": "The 3d representation must be a true representation of the voxel Asset and should not mislead the viewer.",
         "text145": "JAPAN RESIDENTS NOTIFICATION",
         "text146": "日本在住の方は、コンテストや様々な活動に参加して報酬を得ることができますが、日本での制限により、これらの報酬にはSANDは含まれません。"
+    },
+    "changelogVoxedit": {
+        "2022": {
+            "0": {
+                "date": "August 29, 2022 - Public Beta Release",
+                "list": {
+                    "0": {
+                        "title": "New Features",
+                        "list": [
+                            "Login (for Content Collab feature)",
+                            "Animation Channels!",
+                            "Ability to toggle between per axis and SLERP (spherical linear interpolation, i.e: what we had before) for multi axis rotations",
+                            "Automated SLERP toggle to keep old behaviour for most animators",
+                            "Reference frames for translation (World, Parent, Object)",
+                            "Camera POV widget",
+                            "Color, node name and channel filters for timeline",
+                            "Delete Material button in Material panel",
+                            "Append Palette in Palette header menu",
+                            "Circle and Sphere tools for Modeler and Block Editor",
+                            "Value dragging and arrows for Inspector transform text fields",
+                            "Double clicking a node in the viewport now edits it's attached model",
+                            "Floor grid toggle for Animator",
+                            "\"Solo Layer\" mode for Modeler",
+                            "Upload Popup"
+                        ]
+                    },
+                    "1": {
+                        "title": "Improvements",
+                        "list": [
+                            "New and improved themes!",
+                            "Tab system for Library and Inspector",
+                            "Vertical layout for Inspector, with new/delete keyframe per channel buttons",
+                            "Save and Save As in File menu",
+                            "Button to remove recent file from list",
+                            "Picker tool now works on any visible voxel, not just the active layer's ones",
+                            "Opening a rig now sets the camera to fit",
+                            "Camera now works better, makes it almost impossible to lock itself inside of geometry",
+                            "Added shortcuts to Sync To/From MagicaVoxel (ctrl/cmd+m, shift+ctrl/cmd+m)",
+                            "Added shortcut to Return to Rig from editing a model (esc)",
+                            "Added shortcut to copy from/paste to currently focused textfield (ctrl/cmd + c/v)",
+                            "Shorter rows in Timeline",
+                            "Better Animator floor grid",
+                            "Updated links to Marketplace, Tutorials, Guidelines, etc",
+                            "New Language Selector UI",
+                            "Added Move In Plane widget for selected voxel movement",
+                            "Selected voxel edges are now shown in new \"see through\" mode",
+                            "Orthographic camera is better",
+                            "In shortest editor window, Modeler toolbar changes it's layout to be in two columns",
+                            "Voxel and node count for Animator"
+                        ]
+                    },
+                    "2": {
+                        "title": "Changes",
+                        "list": [
+                            "Animation max length is now 30 seconds",
+                            "Removed Long Way Rotation (backwards compatibility kept by autoadding a middle keyframe)",
+                            "Removed Local Transforms (backwards compatibility by adding a child node that is transformed using the original local transform and attaching the node's model to it instead)",
+                            "GLTF is now exporting all animations for animated assets, not only the ones that have more keyframes",
+                            "Removed Keep Position through Rotation unintuitive feature",
+                            "Node names are now limited to 24 characters",
+                            "New Animations now take first frame pose from the current pose",
+                            "VoxEdit now only runs as a single instance",
+                            "New Keyframe is disabled while playing an animation",
+                            "Inspector IK values are no longer editable while playing an animation",
+                            "Timeline rows are now a bit shorter",
+                            "Removed \"Scroll Layer\" buttons from Modeler viewport (easier to work with the Translation widget)",
+                            "Moving Keyframe at frame 0 now copies it"
+                        ]
+                    },
+                    "3": {
+                        "title": "Fixes",
+                        "list": [
+                            "Syncing from MagicaVoxel now selects the correct active material",
+                            "Fixed issues with operative system locale and Inspector transform text fields",
+                            "Fixed scroll areas not resetting when resized",
+                            "Attaching/detaching panels now close all modals",
+                            "Deleting a layer now ensures that there is an active layer afterwards",
+                            "Loop and Zoom bars are now much better behaved",
+                            "Detached panels now enforce a min size",
+                            "Undo and redo no longer break selected voxels in Modeler",
+                            "Zoom to fit now shows at least 2 seconds",
+                            "Recovered most functionality while animation is playing",
+                            "Editor no longer crashes when stress clicking attach/detach panel buttons",
+                            "Skeleton now trims down too long node names.",
+                            "Save Confirmation popup trims down too long filenames",
+                            "Text in Welcome Screen has better readability now",
+                            "Opening a non existant recent file no longer crashes VE",
+                            "Default theme no longer has the same color for the grid and the background in the Animator",
+                            "Using Bucket tool in Paint or Erase mode outside of the volume in 2D views no longer crashes the editor",
+                            "Frame tool didn't create an Undo step",
+                            "New Keyframe will no longer add them to read only template nodes",
+                            "Camera reset was changing the near and far planes",
+                            "Block Editor kept old undo steps inbetween sessions",
+                            "Screen Rect tool in Block Editor now renders rectangle on top",
+                            "2D views now update properly when the user cancels an action",
+                            "Select mode with Face tool on empty space in 2D view no longer crashes the editor",
+                            "Screen Rect tool in 2D views was mirrored on X in TOP and BOTTOM views",
+                            "Next Keyframe button and shortcut now work properly",
+                            "Copying/Pasting Keyframes no longer crash the editor",
+                            "Tweaking an IK constrain was making it invisible",
+                            "Moving Keyframes in a dettached Timeline while the animation is running no longer crashes VE",
+                            "Moving/copying keyframes now create an undo step",
+                            "Palette header menus are now correctly rendered for a dettached Palette panel",
+                            "Adding/deleting layers now move the scroll properly",
+                            "Deleting a model kept it's thumbnail in the cache",
+                            "Opening a VXM now sets the first visible layer to be active",
+                            "Bucket tool with SELECT/PAINT/ERASE mode wasn't working well on the RIGHT/BOTTOM/BACK bounds of the volume",
+                            "Keyframe rect selection now works even if the left bound is behind the zero frame",
+                            "Loading a non palette PNG as a palette no longer overwrites the first slot with a white material",
+                            "Deleting VXMs from Library and importing/creating new ones with the same name will no longer show old thumbnail",
+                            "Having a different decimal separator than \".\" set in the OS's regional settings no longer crashes VE",
+                            "Creating decorative nodes for assets made based on decorable templates no longer crashes VE",
+                            "Load Palette from a dettached Palette panel no longer crashes VE",
+                            "Screen Rect tool now works properly in 2D views",
+                            "Dragging/copying a KF on top of another now overwrites it properly"
+                        ]
+                    }
+                }
+            }
+        }
     }
 }
