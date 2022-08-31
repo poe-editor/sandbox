@@ -2106,7 +2106,8 @@
                     "tableColumns": {
                         "column1": "Experince",
                         "column2": "Your Time",
-                        "column3": "World Record"
+                        "column3": "World Record",
+                        "column4": "Average Time"
                     }
                 },
                 "experienceDetails": {
@@ -2115,13 +2116,18 @@
                         "column1": "Quest",
                         "column2": "Your Time",
                         "column3": "World Record",
-                        "column4": "Record Holder"
+                        "column4": "Record Holder",
+                        "column5": "Average Time"
                     }
                 }
             },
             "banner": {
                 "text": "Remember to validate your identity. You will not be able to claim the rewards if you do not do so before the end of the season.",
                 "link": "Start Here"
+            },
+            "cheaters": {
+                "title": "Cheaters will be banned",
+                "description": "Our anti-cheat squad is monitoring the Leaderboard. To report a cheater contact us at"
             }
         }
     },
