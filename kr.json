@@ -606,7 +606,7 @@
             },
             "loading": {
                 "title": "더 샌드박스를 불러오는 중입니다...",
-                "description": "메타버스에 들어갈 준비를 해보세요!"
+                "description": "이제 메타버스로 입장합니다!"
             },
             "download": {
                 "title": "더 샌드박스를 플레이할 시간입니다!",
@@ -1664,17 +1664,17 @@
                 "land": {
                     "title": "LAND",
                     "ctaText": "LAND 구매",
-                    "description": "LAND를 보유하여 LAND 보유자 확정 리워드를 잠금 해제하세요",
+                    "description": "LAND를 보유하여 LAND 보유자 확정 리워드를 잠금 해제하세요.",
                     "cardTitle": "메타버스 LAND 구입하기",
                     "cardDescription": "총 LAND의 수는 166,464개이며, LAND 위에 게임, 멀티플레이어 경험, 전시, 또는 커뮤니티 소셜 경험 등을 자유롭게 만들 수 있습니다."
                 },
                 "nftAvatar": {
                     "title": "NFT 아바타",
-                    "description": "NFT 아바타를 보유하여 아바타 보유자 확정 리워드를 잠금 해제하세요"
+                    "description": "NFT 아바타를 보유하여 아바타 보유자 확정 리워드를 잠금 해제하세요."
                 },
                 "nftAsset": {
                     "title": "NFT 컬렉션",
-                    "description": "알파 시즌 3 컬렉션에서 최소 1개의 NFT를 보유하여 NFT 컬렉터 리워드를 잠금 해제하세요"
+                    "description": "알파 시즌 3 컬렉션에서 최소 1개의 NFT를 보유하여 NFT 컬렉터 리워드를 잠금 해제하세요."
                 },
                 "avatarTooltip": "해당 NFT 중 한 가지를 보유하고 있다면 어울리는 모습의 아바타를 획득할 수 있습니다.",
                 "equipmentTooltip": "NFT를 장비하면 파워, 스피드, 공격력이 강화되어 리더보드에서 더 높은 순위를 기록할 수 있습니다.",
@@ -2403,7 +2403,7 @@
             "arts": "아트",
             "equipment": "장비",
             "searchresult": "검색 결과",
-            "allAssets": "모든 자산"
+            "allAssets": "모든 애셋"
         },
         "sorts": {
             "title": "정렬 기준",
@@ -4765,7 +4765,7 @@
             "title": "배지",
             "note": "더 샌드박스 생태계 속 다양한 목표를 달성하여 배지를 획득하세요. 배지를 보유하면 다가올 알파 시즌 추첨을 위한 추가 추첨 티켓이 주어집니다.",
             "nftNote": "배지는 NFT가 아니며 거래할 수 없습니다",
-            "obtained": "획득",
+            "obtained": "Unlocked at {date}",
             "missed": "미보유",
             "noBadge": "배지를 선택하여 미리보기",
             "noDates": "날짜 없음",
@@ -6243,7 +6243,7 @@
         "modalStake": {
             "add": "유동성 추가",
             "balance": "잔액: ",
-            "stake": "",
+            "stake": "스테이킹",
             "more": "유동 자산을 얻는 방법",
             "amount": "수량",
             "inactive": "비활성"
@@ -9108,7 +9108,7 @@
                         "title": "MacOS 호환",
                         "list": {
                             "0": {
-                                "title": "MacOS build was released with feature parity with Windows version. Both builds are in the same state and should not present any differences."
+                                "title": "Windows 버전과 동일한 기능의 MacOS 빌드가 출시되었습니다. 두 빌드는 차이점이 없는 동일한 버전입니다."
                             }
                         }
                     },
@@ -9125,39 +9125,39 @@
                         "list": {
                             "0": {
                                 "title": "로딩 화면: ",
-                                "subtitle": "Loading screen is showing more and better information. The loading screen background image has been changed to a default one, and the thumbnail corresponding to the experience is bigger."
+                                "subtitle": "로딩 화면에 더 많은 정보가 표시됩니다. 로딩 화면의 배경 이미지가 기본으로 변경되었고 경험과 관련된 썸네일이 더 커졌습니다."
                             },
                             "1": {
-                                "title": "Improvement on the Level Widge: ",
+                                "title": "레벨 위젯 개선: ",
                                 "subtitle": "It has a flash feedback so the user can notice when there is a change in the widget information."
                             },
                             "2": {
                                 "title": "퀘스트 로그 위젯: ",
-                                "subtitle": "Improvements have been made to the quest log widget to show information about the quest in a more clear way."
+                                "subtitle": "퀘스트 내용을 더 명확히 알려주는 정보를 표시하기 위해 퀘스트 로그 위젯이 개선되었습니다."
                             }
                         }
                     },
                     "3": {
-                        "title": "New FTUE",
+                        "title": "신규 FTUE",
                         "list": {
                             "0": {
-                                "title": "A new FTUE was implemented for the season."
+                                "title": "신규 시즌을 위해 새로운 FTUE가 도입되었습니다."
                             }
                         }
                     },
                     "4": {
-                        "title": "Loading Time Improvements",
+                        "title": "로딩 시간 개선",
                         "list": {
                             "0": {
-                                "title": "Loading time and asset bundle download has been improved for better user experience."
+                                "title": "더 나은 유저 경험을 위해 로딩 시간 및 애셋 번들 다운로드가 개선되었습니다."
                             }
                         }
                     },
                     "5": {
-                        "title": "Avatar Gating",
+                        "title": "아바타 게이팅",
                         "list": {
                             "0": {
-                                "title": "Avatar gating MVP feature was implemented into the GC. The user will receive a message with the appropriate collection/avatar in case it doesn’t owe one."
+                                "title": "게임 메이커에 아바타 게이팅 MVP 기능이 도입되었습니다. 유저가 해당 컬렉션 및 아바타를 보유하고 있지 않을 경우 메시지를 받게 됩니다."
                             }
                         }
                     },
@@ -9198,11 +9198,11 @@
                         "list": {
                             "0": {
                                 "title": "플레이 모드 UI: ",
-                                "subtitle": "느낌표가 항상 노란색으로 표시됩니다."
+                                "subtitle": "느낌표가 항상 노란색으로 표시됨"
                             },
                             "1": {
                                 "title": "게임 메이커 활용성: ",
-                                "subtitle": "저장 후 다시 열었을 때 애셋 배치 기능이 사라졌습니다."
+                                "subtitle": "저장 후 다시 열었을 때 애셋 배치 기능 사라짐"
                             },
                             "2": {
                                 "title": "일반: ",
@@ -9283,7 +9283,7 @@
             "description": "메타버스에서 사용할 수 있는 외부 컬렉션을 찾아보세요",
             "info": "컬렉션 정보",
             "owners": "소유자",
-            "assets": "자산",
+            "assets": "애셋",
             "link": "공개 링크",
             "created": "크리에이터:",
             "description2": "지갑을 연결하여 외부 아바타를 보유하고 있는지 확인하세요."
@@ -9291,7 +9291,7 @@
         "link": "OpenSea에서 구매하세요",
         "sidebar": "아바타",
         "explore": "외부 컬렉션 살펴보기",
-        "total": " 컬렉션의 자산",
+        "total": " 컬렉션의 애셋",
         "exploreLands": "LAND와 이스테이트 살펴보기",
         "exploreLatest": "모든 애셋 살펴보기"
     },
@@ -10037,8 +10037,8 @@
                     "title": "IP와 브랜드",
                     "desc": "더 샌드박스에서 내 브랜드를 어떻게 활용해야 할지 모르겠다면? 생태계 속에서 내 브랜드를 널리 알릴 수 있도록 더 샌드박스가 도와드리겠습니다.",
                     "button": "메타버스에 합류하기",
-                    "question": "내 브랜드를 더 샌드박스에서 어떻게 활용할 수 있을지 궁금하시다고요?",
-                    "answer": "We will help you develop your brand image into our ecosystem."
+                    "question": "더 샌드박스에서 내 브랜드를 어떻게 활용해야 할지 모르겠다면?",
+                    "answer": "생태계 속에서 내 브랜드를 널리 알릴 수 있도록 더 샌드박스가 도와드리겠습니다."
                 },
                 "2": {
                     "title": "메타버스 에이전시",
@@ -10060,7 +10060,7 @@
                     "subtitle": "Access to our platform",
                     "desc1": "Partnering with The Sandbox is not only a way to join one of the biggest metaverse in the world, it is also a true standpoint for accessibility.",
                     "desc2": "Everyone, from a powerful gaming computer to a mobile device, will be able to access our platform.",
-                    "desc3": "Our quest toward interoperability also will help our community and the overall market merge worlds all together."
+                    "desc3": "또한, 더 샌드박스는 커뮤니티와 마켓 전반의 통합을 위한 상호운용성을 추구합니다."
                 },
                 "2": {
                     "title": "+200",
@@ -10136,7 +10136,7 @@
                     "screen": "Climbing madness"
                 }
             },
-            "desc2": "From building houses and cities, to cat walking during fashion shows and defeating dragons and monsters, you are free to offer the experience you dream of."
+            "desc2": "집과 도시 건설부터 패션쇼 워킹, 드래곤과 몬스터 무찌르기까지, 꿈꿔왔던 모든 경험을 공유할 수 있습니다."
         },
         "realworld": {
             "title": "실제 경험의 확장",
