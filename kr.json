@@ -2106,7 +2106,8 @@
                     "tableColumns": {
                         "column1": "경험",
                         "column2": "내 플레이 타임",
-                        "column3": "전체 기록"
+                        "column3": "전체 기록",
+                        "column4": "Average Time"
                     }
                 },
                 "experienceDetails": {
@@ -2115,13 +2116,18 @@
                         "column1": "퀘스트",
                         "column2": "내 플레이 타임",
                         "column3": "전체 기록",
-                        "column4": "기록 보유자"
+                        "column4": "기록 보유자",
+                        "column5": "Average Time"
                     }
                 }
             },
             "banner": {
                 "text": "계정을 인증해 주세요. 시즌 종료 시점까지 계정 인증이 완료되지 않을 경우 리워드를 받을 수 없습니다.",
                 "link": "지금 시작하기"
+            },
+            "cheaters": {
+                "title": "Cheaters will be banned",
+                "description": "Our anti-cheat squad is monitoring the Leaderboard. To report a cheater contact us at"
             }
         }
     },
