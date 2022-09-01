@@ -214,11 +214,11 @@
         "recommended": "önerilen",
         "enablePopups": "Pop-up'ları etkinleştirdiğinizden emin olun",
         "msand": "SAND",
-        "requestMinting": "Request Minting",
-        "cancelRequest": "Cancel Request",
-        "reportNFT": "Report NFT",
-        "report": "Report",
-        "failedTryAgain": "Something went wrong. Please try again.",
+        "requestMinting": "Mint Talebi",
+        "cancelRequest": "İsteği iptal et",
+        "reportNFT": "NFT'yi Bildir",
+        "report": "Bildir",
+        "failedTryAgain": "Bir şeyler yanlış gitti. Lütfen tekrar deneyin.",
         "search_name": "İsme göre ara",
         "options_selected": "{miktar} opsiyonlar\n",
         "savedChanges": "Saved!",
@@ -355,12 +355,12 @@
             "notAgain": "Tekrar gösterme"
         },
         "termsAndConditions": {
-            "title": "Special Terms and Conditions apply for Japan residents: ",
-            "description": "If you are resident of Japan, you may participate in contests and different activities to obtain rewards; due to restrictions in Japan, these rewards will not include SAND.",
-            "accept": "Accept",
-            "reject": "Reject",
-            "error": "Unfortunately you can’t use The Sandbox products and services unless you read and accept our Terms and Conditions.",
-            "goBack": "Go back"
+            "title": "Japonya'da ikamet edenler için Özel Şartlar ve Koşullar geçerlidir:",
+            "description": "Japonya'da ikamet ediyorsanız, ödül kazanmak için yarışmalara ve farklı etkinliklere katılabilirsiniz; Japonya'daki kısıtlamalar nedeniyle bu ödüller SAND'ı içermeyecek.",
+            "accept": "Kabul",
+            "reject": "İptal",
+            "error": "Maalesef, Şartlar ve Koşullarımızı okuyup kabul etmediğiniz sürece Sandbox ürünlerini ve hizmetlerini kullanamazsınız.",
+            "goBack": "Geri dön"
         }
     },
     "home": {
@@ -2167,7 +2167,7 @@
             "price": "Fiyat",
             "from": "Başlangıç tarihi",
             "to": "ile",
-            "cancel": "satışı iptal et",
+            "cancel": "Satışı iptal et",
             "network": {
                 "ethereum": "Bu, Ethereum Ağında çalışan SAND'dir",
                 "polygon": "Bu, Polygon Ağında çalışan SAND'dir"
@@ -2176,22 +2176,22 @@
             "listing": "Listing"
         },
         "reportModal": {
-            "modalTitle": "Report NFT",
-            "dropdownPlaceholder": "Select one option",
-            "dropdown2Placeholder": "What do you want to report?",
-            "textareaPlaceholder": "Provide additional information",
-            "text1": "Accounts are penalized for Community Guidelines violations, and serious or repeated violations can lead to account termination.",
-            "text2a": "Join the discussion about",
-            "text2b": "Community Guidelines",
-            "text2c": "violation on Discord.",
-            "text2d": "Community Guidelines.",
-            "summaryThankyou": "Thank you for reporting this asset",
-            "summaryIssue": "Issue:",
-            "summaryReported": "What you reported:",
-            "summaryAdditionalInformation": "Additional information:",
-            "summaryCommunityTexta": "We will look into this report and remove this asset from our Marketplace if it does not comply with our",
-            "summaryCommunityTextb": "Once assets are minted we can remove them from the Marketplace but the asset will be available on the blockchain so you might still find it on other marketplaces.",
-            "summaryClose": "Close",
+            "modalTitle": "NFT'yi Bildir",
+            "dropdownPlaceholder": "Bir seçenek belirleyin",
+            "dropdown2Placeholder": "Neyi bildirmek istiyorsun?",
+            "textareaPlaceholder": "Ek bilgi sağlayın",
+            "text1": "Hesaplar, Topluluk Kuralları ihlalleri nedeniyle cezalandırılır ve ciddi veya tekrarlanan ihlaller hesabın feshedilmesine neden olabilir.",
+            "text2a": "Discord içerisinde",
+            "text2b": "Topluluk Rehberleri",
+            "text2c": "olaylarına dahil ol.",
+            "text2d": "Topluluk Rehberleri.",
+            "summaryThankyou": "Bu varlığı bildirdiğiniz için teşekkür ederiz",
+            "summaryIssue": "Sorun:",
+            "summaryReported": "Bildirdikleriniz:",
+            "summaryAdditionalInformation": "Ek Bilgiler:",
+            "summaryCommunityTexta": "Bu raporu inceleyeceğiz ve bizim şartlarımıza uymuyorsa bu varlığı Pazar Yerimizden kaldıracağız.",
+            "summaryCommunityTextb": "Varlıklar basıldıktan sonra onları Pazaryeri'nden kaldırabiliriz, ancak varlık blok zincirinde mevcut olacak, böylece onu diğer pazarlarda hala bulabilirsiniz.",
+            "summaryClose": "Kapat",
             "items": {
                 "asset": "Asset",
                 "title": "Title",
@@ -2559,7 +2559,7 @@
             "6": "Sanat"
         },
         "mintingApprovalPending": "Pending minting approval",
-        "mintingApprovalRejected": "Minting not approved",
+        "mintingApprovalRejected": "Mint onayı bekleniyor",
         "sell": {
             "asset": "satılacak varlık",
             "cancel": "Satışı İptal Et"
@@ -3523,8 +3523,8 @@
             "readMorePremium": "Premium hakkında daha fazla bilgi edinin",
             "parcel": "Parsel",
             "polygonChain": "Polygon Ağı",
-            "network": "Network",
-            "ethereumChain": "Ethereum Network"
+            "network": "Ağ",
+            "ethereumChain": "Ethereum Ağı"
         },
         "onboarding": {
             "title": "Sandbox Harita",
@@ -3561,7 +3561,7 @@
                     "btn": "Pazaryerine git"
                 }
             },
-            "partner": "Partner",
+            "partner": "Ortak",
             "unselected": "Unselected"
         },
         "notifications": {
@@ -3593,13 +3593,13 @@
             "transferAssets": "Varlıkları da transfer edin"
         },
         "notificationBar": {
-            "oldMap": "There's a new version of the Metaverse Map available. Now supporting images on 1x1 LANDs!",
-            "oldMapMobile": "There's a new version available for the Metaverse Map!",
-            "oldMapButton": "Try the New Map",
-            "newMap": "This map is currently in experimental mode",
-            "newMapMobile": "This map is currently in experimental mode",
-            "newMapButton": "Go to Previous Version",
-            "whatsnew": "What's New"
+            "oldMap": "Metaverse Haritasının yeni bir sürümü mevcut. Şimdi 1x1 LAND'lerde görüntüleri destekliyor!",
+            "oldMapMobile": "Metaverse Haritası için yeni bir sürüm var!",
+            "oldMapButton": "Yeni Haritayı Deneyin",
+            "newMap": "Bu harita şu anda deneysel modda",
+            "newMapMobile": "Bu harita şu anda deneysel modda",
+            "newMapButton": "Önceki Sürüme Git",
+            "whatsnew": "Yenilikler"
         }
     },
     "about": {
@@ -3989,7 +3989,7 @@
                 "passwordDoNotMatch": "Şifreler eşleşmiyor",
                 "errorAvatarImageSize": "Dosya boyutu çok büyük, lütfen daha küçük bir dosya deneyin",
                 "errorAvatarImageType": "Dosya uzantısı desteklenmiyor, lütfen .jpg, .png or .jpeg uzantılı bir dosya kullanın",
-                "errorBannerImageSize": "File size too big please use a lighter file (Maximum: 2 Mb)"
+                "errorBannerImageSize": "Dosya boyutu çok büyük lütfen daha hafif bir dosya kullanın (Maksimum: 2 Mb)"
             },
             "edit": {
                 "editTitle": "Profilini Düzenle",
@@ -4004,22 +4004,22 @@
                 "validated": "Profiliniz değiştirilmiştir"
             },
             "public": {
-                "showMore": "Show More",
-                "showLess": "Show Less",
+                "showMore": "Daha fazla göster",
+                "showLess": "Daha az göster",
                 "filters": "Filtreler",
-                "sortBy": "Sort By",
-                "onSaleMessage": "{amount} {entity} on sale",
-                "onInventoryMessage": "{amount} {entity} on inventory",
-                "all": "All",
-                "entities": "Entities",
-                "collections": "Collections (Soon)",
+                "sortBy": "Sırala",
+                "onSaleMessage": "{amount} {entity} satışta",
+                "onInventoryMessage": "{amount} {entity} envanterde",
+                "all": "Tümü",
+                "entities": "Kimlikler",
+                "collections": "Koleksiyonlar (Yakında)",
                 "lands": "LAND",
-                "estates": "Estates",
-                "experiences": "Experiences",
-                "onSale": "On Sale ({amount})",
-                "onInventory": "Inventory ({amount})",
-                "addresCopied": "Address copied to clipboard",
-                "userCopied": "User copied to clipboard",
+                "estates": "Araziler",
+                "experiences": "Deneyimler",
+                "onSale": "Satışta ({amount})",
+                "onInventory": "Envanter ({amount})",
+                "addresCopied": "Adres panoya kopyalandı",
+                "userCopied": "Kullanıcı panoya kopyalandı",
                 "card": {
                     "lastCard": "Last One!",
                     "unique": "Unique"
@@ -4362,7 +4362,7 @@
             },
             "login": "Zaten bir hesabım var",
             "waiting": "Lütfen Venly ile giriş yapın / üye olun",
-            "notAvailableWallet": "{walletName} is not available in {browserName}",
+            "notAvailableWallet": "{walletName}, {browserName}'da mevcut değil",
             "walletInUse": "walletInUse",
             "walletLegacy": "walletLegacy",
             "completeWConnect": "Please complete the Sign Up {0} process in you wallet app.",
@@ -4504,9 +4504,9 @@
                 "profilePictureErrorHigh": "Profil fotoğrafı adınız 200 karakterden fazla içermektedir (dosya uzantısı dahil)",
                 "profile-updated": "Profil Güncellendi!",
                 "password-changed": "Hesap şifreniz başarı ile değiştirilmiştir.",
-                "bannerText": "Add a banner image",
-                "bannerSize": "Optimal dimensions 2000x330",
-                "bannerLength": "Banner picture name is more than 200 characters long (including file extension)",
+                "bannerText": "Başlık resmi ekleyin",
+                "bannerSize": "En uygun boyutlar 2000x330",
+                "bannerLength": "Başlık resmi adı 200 karakterden uzun (dosya uzantısı dahil)",
                 "profileUpdated": "Profil güncel!",
                 "passwordChanged": "Hesap şifresi başarılı şekilde değiştirildi.",
                 "emailSub": "Email",
@@ -4527,54 +4527,54 @@
                 "old-password": "Mevcut Şifre",
                 "new-password": "Yeni Şifre",
                 "repeat-password": "Şifreyi tekrar girin",
-                "sub": "Account security",
-                "note": "For your security, we highly recommend that you choose a unique password that you don’t use for any other online account.",
-                "email": "Email",
-                "password": "Password",
-                "check": "Security check",
-                "check-note": "Please enter your password to continue",
-                "continue": "Continue",
-                "pass-forgot": "Forgot your password?",
+                "sub": "Hesap Güvenliği",
+                "note": "Güvenliğiniz için, başka hiçbir çevrimiçi hesap için kullanmadığınız benzersiz bir şifre seçmenizi önemle tavsiye ederiz.",
+                "email": "E-posta",
+                "password": "Şifre",
+                "check": "Güvenlik kontrolü",
+                "check-note": "Devam etmek için lütfen şifrenizi girin",
+                "continue": "Devam et",
+                "pass-forgot": "Parolanızı mı unuttunuz?",
                 "password-section": {
-                    "title": "Edit Password",
-                    "new-password": "New Password",
-                    "repeat-password": "Repeat Password",
-                    "no-match": "Your password don't match",
-                    "match": "Password matches",
-                    "validation": "Password must be at least 8 characters with 1 upper case letter and 1 number",
-                    "save": "Save change",
-                    "success": "Successfully changed!",
+                    "title": "Şifreyi Düzenle",
+                    "new-password": "Yeni Şifre",
+                    "repeat-password": "Şifreyi tekrar girin",
+                    "no-match": "Şifreniz eşleşmiyor",
+                    "match": "Şifreler eşleşiyor",
+                    "validation": "Şifre 1 büyük harf ve 1 rakam olmak üzere en az 8 karakter olmalıdır",
+                    "save": "Değişikliği kaydet",
+                    "success": "Başarıyla değiştirildi!",
                     "months": {
-                        "0": "January",
-                        "1": "February",
-                        "2": "March",
-                        "3": "April",
-                        "4": "May",
-                        "5": "June",
-                        "6": "July",
-                        "7": "August",
-                        "8": "September",
-                        "9": "October",
-                        "10": "November",
-                        "11": "December"
+                        "0": "Ocak",
+                        "1": "Şubat",
+                        "2": "Mart",
+                        "3": "Nisan",
+                        "4": "Mayıs",
+                        "5": "Haziran",
+                        "6": "Temmuz",
+                        "7": "Ağustos",
+                        "8": "Eylül",
+                        "9": "Ekim",
+                        "10": "Kasım",
+                        "11": "Aralık"
                     },
-                    "modificated": "Last update on",
-                    "not-modificated": "not modified yet",
+                    "modificated": "Son güncelleme",
+                    "not-modificated": "henüz değiştirilmedi",
                     "notModified": "not modified yet",
                     "oldPassNote": "(Do not complete this field if this account does not have a previously associated password)"
                 },
                 "email-section": {
-                    "title": "Edit Email",
-                    "note": "For your security, you will have to validate your new email with a code that will be send to your new email.",
-                    "current-email": "Current email:"
+                    "title": "E-postayı Düzenle",
+                    "note": "Güvenliğiniz için yeni e-postanıza gönderilecek bir kod ile yeni e-postanızı doğrulamanız gerekecektir.",
+                    "current-email": "Geçerli e-posta:"
                 },
                 "code": {
-                    "send": "Send code",
-                    "title": "Enter security code",
-                    "note": "A security code has been sent to",
-                    "check-spam": "You have not received the email? Check your spam folder",
-                    "confirm": "Confirm",
-                    "resend": "Resend code",
+                    "send": "Kodu gönder",
+                    "title": "Güvenlik kodunu gir",
+                    "note": "Bir güvenlik kodu gönderildi",
+                    "check-spam": "E-postayı almadınız mı? Spam dosyanı kontrol et",
+                    "confirm": "Onayla",
+                    "resend": "Kodu tekrar gönder",
                     "checkSpam": ""
                 },
                 "checkNote": "Devam etmek için şifreni gir",
@@ -4631,12 +4631,12 @@
                 "forward": "İleri - Gaz ücretinizi MATIC yerine SAND olarak ödeyin",
                 "hardwareWallet": "Donanım cüzdanınız için EIP-712 uyumluluğunu en üst düzeye çıkarın",
                 "notes": "Mevcut ayarlarınızla 28 günde bir {txsLimit} ücretsiz işlem alırsınız, ardından Gaz Ücretleri SAND olarak ödenir",
-                "gasless": "Gasless - You get {txsLimit} free transaction every 28 days ({txsLeft} left)",
-                "transactionsLeft1": "Sahipsin",
-                "transactionsLeft2": "ücretsiz işlemler kaldı.",
-                "changeGasSettings": "Change gas settings",
-                "payWithMatic": "Pay gas with MATIC",
-                "payWithMsand": "Pay gas with SAND",
+                "gasless": "Gazsız - Her 28 günde bir {txsLimit} ücretsiz işlem alırsınız ({txsLeft} kaldı)",
+                "transactionsLeft1": "Kalan ücretsiz işlem sayısı",
+                "transactionsLeft2": "adettir.",
+                "changeGasSettings": "Gaz ayarlarını değiştir",
+                "payWithMatic": "MATIC ile gaz ödeyin",
+                "payWithMsand": "SAND ile gaz ödeyin",
                 "chain": "Chain"
             },
             "accountVerification": "Verification",
@@ -4667,99 +4667,99 @@
             "goToDiscord": "Discord",
             "noClaims": "Talep yok",
             "bannerSubtitle": "Bugün kazanmaya başlayın! Neler olduğunu öğrenmek için bizi sosyal medya kanallarımızdan takip edin.",
-            "bannerTitle": "LAND Owners Claim",
-            "bannerSubtitle1": "We continue to bring value to our LAND owners",
-            "bannerSubtitle2": "ROADMAP 2022 for LAND Owner",
-            "bannerSubtitle3": "SAND Airdrop for LAND owner",
-            "checkButtonText": "Check your Claim",
+            "bannerTitle": "LAND Sahipleri Talebi",
+            "bannerSubtitle1": "LAND sahiplerimize değer katmaya devam ediyoruz",
+            "bannerSubtitle2": "LAND Sahibi için YOL HARİTASI 2022",
+            "bannerSubtitle3": "LAND sahibi için SAND Airdrop",
+            "checkButtonText": "Talebinizi kontrol edin",
             "landOwner": {
                 "lands": "{0} LAND",
                 "msand": "{0} {1} SAND",
-                "results": "{0} results",
-                "startProcess": "Start Claim Process",
-                "claim": "Claim",
-                "next": "Next",
-                "landsCount1": "You owned {0} LAND on {1}",
+                "results": "{0} sonuç",
+                "startProcess": "Talep Sürecini Başlat",
+                "claim": "Talep",
+                "next": "İleri",
+                "landsCount1": "{1} 'da {0} LAND'in sahibiydiniz",
                 "landsCount2": "You will receive {0} {1} {2}",
-                "landsCount3": "You received {0} {1} {2}",
-                "step1Title1": "Claim your",
-                "step1Subtitle": "You are eligible for the reward! Each LAND Owner is receiving some $SAND based on the amount of LAND they owned on May 13, 2022.",
-                "step5Title": "Here is your claim",
-                "step5Subtitle": "We were happy to share this exciting roadmap with all of you. As a LAND owner you are building the future, and we can’t wait to see what it will bring!",
-                "steps2To4Title1": "LAND Owners",
-                "steps2To4Title2": "Roadmap 2022",
-                "steps2To4Subtitle1": "On May 13, 2022 we introduced our latest roadmap for LAND Owners. Let us go through the perks and features you can expect in 2022!",
-                "steps2To4Subtitle2": "You are not eligible for the reward! Each LAND Owner is receiving some $SAND based on the amount of LAND they owned on May 13, 2022.",
-                "footer": "Make sure to grab LAND to be eligible for the next claim!",
-                "alreadyClaimed": "Already Claimed",
+                "landsCount3": "{0} {1} {2} alacaksınız",
+                "step1Title1": "Hakkınızı talep edin",
+                "step1Subtitle": "Ödül için uygunsunuz! Her LAND Sahibi, 13 Mayıs 2022'de sahip oldukları LAND miktarına bağlı olarak bir miktar SAND alıyor.",
+                "step5Title": "İşte ödülün",
+                "step5Subtitle": "Bu heyecan verici yol haritasını hepinizle paylaşmaktan mutluluk duyduk. Bir LAND sahibi olarak geleceği inşa ediyorsunuz ve bunun ne getireceğini görmek için sabırsızlanıyoruz!",
+                "steps2To4Title1": "LAND Sahipleri",
+                "steps2To4Title2": "2022 Yol Haritası",
+                "steps2To4Subtitle1": "13 Mayıs 2022'de LAND Sahipleri için en son yol haritamızı tanıttık. 2022'de bekleyebileceğiniz avantajları ve özellikleri gözden geçirelim!",
+                "steps2To4Subtitle2": "Ödül için uygun değilsiniz! Her LAND Sahibi, 13 Mayıs 2022'de sahip oldukları LAND miktarına bağlı olarak bir miktar SAND alıyor.",
+                "footer": "Bir sonraki hak talebine hak kazanmak için LAND'ı aldığınızdan emin olun!",
+                "alreadyClaimed": "Zaten Talep Edildi",
                 "congrats": {
-                    "title1": "Congrats!",
-                    "title2": "Earn SAND",
-                    "subtitle1": "You have successfully claimed",
-                    "subtitle2": "Here are some ways you can put it to good use",
-                    "subtitle3": "Get rewards by",
-                    "subtitle4": "staking",
-                    "subtitle5": "your"
+                    "title1": "Tebrikler!",
+                    "title2": "SAND kazanın",
+                    "subtitle1": "Başarıyla topladınız",
+                    "subtitle2": "İşte onu iyi bir şekilde kullanmanın bazı yolları",
+                    "subtitle3": "Staking",
+                    "subtitle4": "yaparak",
+                    "subtitle5": "ödül al"
                 },
                 "milestones": {
                     "dates": {
-                        "1": "November 2021",
-                        "2": "January 2022",
-                        "3": "February 2022",
-                        "4": "May 2022",
-                        "5": "June 2022",
-                        "6": "July 2022",
-                        "7": "September 2022",
-                        "8": "May / June 2022",
+                        "1": "Kasım 2021",
+                        "2": "Ocak 2022",
+                        "3": "Şubat 2022",
+                        "4": "Mayıs 2022",
+                        "5": "Haziran 2022",
+                        "6": "Temmuz 2022",
+                        "7": "Eylül 2022",
+                        "8": "Mayıs / Haziran 2022",
                         "9": "Q2/Q3 2022",
                         "10": "Q3 2022",
                         "11": "Q4 2022",
                         "12": "May 2020"
                     },
                     "claim": {
-                        "title": "CLAIM",
-                        "text1": "2.5M $SAND airdrop to LAND owners",
-                        "text2": "5M $SAND airdrop to LAND owners",
-                        "text3": "$SAND claim to celebrate the Metaverse's 1,000th day based on LAND holding time"
+                        "title": "TOPLA",
+                        "text1": "LAND sahiplerine 2.5 milyon $SAND airdrop",
+                        "text2": "LAND sahiplerine 5 milyon $SAND airdrop",
+                        "text3": "LAND bekleme süresine göre Metaverse'in 1.000. gününü kutlamak için $SAND topla"
                     },
                     "stake": {
                         "title": "STAKE",
-                        "text1": "Multiplier on SAND-ETH staking (Uniswap)",
-                        "text2": "Multiplier on SAND-MATIC staking (Quickswap)",
-                        "text3": "Multiplier on SAND staking (Layer 2)",
-                        "text4": "LAND owner exclusive $CATALYST and $GEM farming (Layer 2)",
-                        "text5": "LAND owner exclusive 10M $SAND farming (Layer 2)"
+                        "text1": "SAND-ETH stake etme çarpanı (Uniswap)",
+                        "text2": "SAND-MATIC stake etme çarpanı (Quickswap)",
+                        "text3": "SAND stake etme çarpanı (Katman 2)",
+                        "text4": "LAND sahibine özel $KATALİZÖR ve $MÜCEVHER çiftçiliği (Katman 2)",
+                        "text5": "LAND sahibine özel 10 milyon $SAND tarımı (Katman 2)"
                     },
                     "buy": {
-                        "title": "BUY",
-                        "text1": "More than 100,000 LAND acquired by over 20,000 LAND owners",
-                        "text2": "New partners",
-                        "text3": "New sales system with a raffle and KYC for a fair and distributed process",
+                        "title": "SATIN AL",
+                        "text1": "20.000'den fazla LAND sahibi tarafından 100.000'den fazla LAND satın alındı",
+                        "text2": "Yeni ortaklar",
+                        "text3": "Adil ve dağıtılmış bir süreç için çekiliş ve KYC içeren yeni satış sistemi",
                         "text4": "Özel LAND Satışı Ubisoft, Paris Hilton, Warner Music Group, Gucci"
                     },
                     "play": {
-                        "title": "PLAY",
-                        "text1": "Season 1 : Exclusive Rewards",
-                        "text2": "Season 2 : Earn more $SAND and Raffle Tickets",
-                        "text3": "Season 3 : Extra Raffle Tickets, increased rewards, special raffle for LAND Owners only, raffle bonus"
+                        "title": "OYNA",
+                        "text1": "1. Sezon : Özel Ödüller",
+                        "text2": "2. Sezon : Daha fazla $SAND ve Çekiliş Bileti kazanın",
+                        "text3": "3. Sezon: Ekstra Çekiliş Biletleri, artırılmış ödüller, yalnızca LAND Sahiplerine özel çekiliş, çekiliş bonusu"
                     },
                     "build": {
-                        "title": "BUILD",
-                        "text1": "35+ certified Builders community",
-                        "text2": "Create ESTATEs with your LAND",
-                        "text3": "Publish experiences on your LAND",
-                        "text4": "Rent LAND & ESTATEs",
-                        "text5": "Premium LAND will unlock new assets and behaviors in the Game Maker"
+                        "title": "İNŞA ET",
+                        "text1": "35+ sertifikalı İnşaatçılar topluluğu",
+                        "text2": "LAND'inizle ARAZİ'ler oluşturun",
+                        "text3": "LAND'inizde deneyimleri yayınlayın",
+                        "text4": "LAND VE ARAZİ KİRALAMA",
+                        "text5": "Premium LAND, Game Maker'da yeni varlıkların ve davranışların kilidini açacak"
                     },
                     "migrate": {
-                        "title": "MIGRATE",
-                        "text1": "Get access to all features on Polygon Layer 2",
-                        "text2": "1M $SAND distributed in cashback on migrated LAND"
+                        "title": "GÖÇ",
+                        "text1": "Polygon Katman 2'deki tüm özelliklere erişin",
+                        "text2": "1 milyon $SAND, taşınan LAND'de nakit para olarak dağıtıldı"
                     },
                     "meet": {
-                        "title": "MEET",
-                        "text1": "LAND sahiplerimizle markalar, yetenekler ve daha fazlasını içeren özel IRL etkinlikleri düzenleyin… Yakında www.nft.nyc'de ✈️",
-                        "text2": "Organize and finance local Meetups"
+                        "title": "TANIŞ",
+                        "text1": "LAND sahiplerimizle markalar, yetenekler ve daha kapsamlı özel IRL etkinlikler düzenlemeler… Yakında www.nfc.nyc'de ✈️",
+                        "text2": "Yerel Buluşmalar düzenleyin ve finanse edin"
                     }
                 }
             }
@@ -4837,7 +4837,7 @@
             "ticketDetails": "Bilet detayları",
             "raffleTickets": "Çekiliş biletleri",
             "products": "Ürün Sürümleri",
-            "partners": "Partners",
+            "partners": "Ortaklar",
             "kyc": "User Verifications (KYC)",
             "shadowBan": "Shadow Ban"
         },
@@ -5756,7 +5756,7 @@
         "liteMapTooltip": "Lite Haritası, yakınlaştırma düzeyine bağlı olarak Arazi görüntülerini gösterecektir.",
         "applyButton": "Uygula",
         "disclaimer": "Deneysel mod. Harita bazı mobil cihazlarda düzgün çalışmayabilir. İyileştirmeler yapmaya devam ediyoruz.",
-        "chain": "chain",
+        "chain": "Zincir",
         "eth": "Ethereum",
         "polygon": "Polygon",
         "partnersList": {
@@ -7234,14 +7234,14 @@
             "crossFingers": "Şans dileyin!"
         },
         "presaleStarting": {
-            "title": "LAND Sale starting soon",
-            "description": "The current map doesn't support buying LAND. To join the LAND Sale please enter the Sale Map or click the button below.",
-            "countdownText": "Next LAND SALE",
-            "buttonText": "Join the LAND Sale"
+            "title": "LAND Satışı yakında başlıyor",
+            "description": "Mevcut harita LAND satın almayı desteklemiyor. LAND Satışına katılmak için lütfen Satış Haritasına girin veya aşağıdaki butona tıklayın.",
+            "countdownText": "Sonraki LAND SATIŞI",
+            "buttonText": "LAND Satışına Katılın"
         },
         "presaleStarted": {
-            "title": "There's a LAND Sale in progress.",
-            "description": "The current map doesn't support buying LAND. To join the LAND Sale please access the Sale Map or click the button below."
+            "title": "Devam eden bir LAND Satışı var.",
+            "description": "Mevcut harita LAND satın almayı desteklemiyor. LAND Satışına katılmak için lütfen Satış Haritasına erişin veya aşağıdaki düğmeyi tıklayın."
         }
     },
     "raffle": {
@@ -7676,7 +7676,7 @@
                     "7/7"
                 ]
             },
-            "totalCashback": "Total Cashback:",
+            "totalCashback": "Toplam Geri Ödeme:",
             "cashback": "Cashback:",
             "pendingSecond": "Pending second transaction",
             "olderTransactions": "For older pending transactions, please check the {0} {1}",
@@ -7688,12 +7688,12 @@
         "confirmWithdraw": "Para Çekmeyi Onayla",
         "noTransactions": "Görüntülenecek işlem yok",
         "pending": "Bekliyor",
-        "checkTransactions": "Check previous transactions or confirm pending ones",
-        "pendingWithdrawals": "Pending Withdrawal | Pending Withdrawals",
-        "pendingDeposits": "Pending Deposit | Pending Deposits",
+        "checkTransactions": "Önceki işlemleri kontrol edin veya bekleyen işlemleri onaylayın",
+        "pendingWithdrawals": "Bekleyen Çekim | Bekleyen Para Çekme İşlemleri",
+        "pendingDeposits": "Bekleyen Para Yatırma | Bekleyen Para Yatırma",
         "cashback": {
-            "total": "🔥 Total Cashback accumulated 🔥",
-            "claim": "Claim Cashback"
+            "total": "🔥 Birikmiş Toplam Para İadesi 🔥",
+            "claim": "Nakit Geri Ödeme talebinde bulunun"
         },
         "deposits": "Deposits",
         "withdraws": "Withdraws",
