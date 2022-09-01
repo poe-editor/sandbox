@@ -211,8 +211,8 @@
         "wrongNet": "Yanlış Ağ!",
         "pleaseChangeMain": "Lütfen Mainnet Ana Ağı'na geçin",
         "pleaseChangeRinkeby": "Lütfen Rinkeby Ana Ağı'na geçin",
-        "recommended": "recommended",
-        "enablePopups": "Make sure you have popups enabled",
+        "recommended": "önerilen",
+        "enablePopups": "Pop-up'ları etkinleştirdiğinizden emin olun",
         "msand": "SAND",
         "requestMinting": "Request Minting",
         "cancelRequest": "Cancel Request",
@@ -346,7 +346,7 @@
             "copyright": "Telif ©",
             "rights": "Tüm haklar saklıdır",
             "followUs": "BİZİ TAKİP ET",
-            "subsidiary": "Subsidiary of"
+            "subsidiary": "Bağlı kuruluşu"
         },
         "createAvatarModal": {
             "title": "Kendi LAND NFT arsanı satın al",
@@ -3035,7 +3035,7 @@
                     },
                     "login": "Zaten bir hesabım var",
                     "waiting": "Lütfen giriş yapın / Venly ile kaydolun",
-                    "notAvailableWallet": "{walletName} is not available in {browserName}",
+                    "notAvailableWallet": "{walletName}, {browserName}'da mevcut değil",
                     "walletInUse": "walletInUse",
                     "walletLegacy": "walletLegacy",
                     "completeWConnect": "Please complete the Sign Up {0} process in you wallet app.",
@@ -3522,7 +3522,7 @@
             "viewInMap": "Haritada Görüntüle",
             "readMorePremium": "Premium hakkında daha fazla bilgi edinin",
             "parcel": "Parsel",
-            "polygonChain": "Polygon Network",
+            "polygonChain": "Polygon Ağı",
             "network": "Network",
             "ethereumChain": "Ethereum Network"
         },
@@ -3948,7 +3948,7 @@
             "logout": "Çıkış Yap",
             "settings": "Ayarlar",
             "claim": "Talepler",
-            "bridge": "Bridge",
+            "bridge": "Köprü",
             "badges": "Badges"
         },
         "profile": {
@@ -4627,8 +4627,8 @@
                 "useGaslessSecond": "aktarım.",
                 "wallet": "Donanım Cüzdanı - Donanım cüzdanınız için EIP-712 uyumluluğunu en üst düzeye çıkarın",
                 "learnMore": "Biconomy hakkında buradan daha fazla bilgi edinin",
-                "gassless": "Gasless - You get 10 free transaction every 28 days",
-                "forward": "Forward - Gaz ücretinizi MATIC yerine SAND olarak ödeyin",
+                "gassless": "Gazsız - Her 28 günde bir 10 ücretsiz işlem alırsınız",
+                "forward": "İleri - Gaz ücretinizi MATIC yerine SAND olarak ödeyin",
                 "hardwareWallet": "Donanım cüzdanınız için EIP-712 uyumluluğunu en üst düzeye çıkarın",
                 "notes": "Mevcut ayarlarınızla 28 günde bir {txsLimit} ücretsiz işlem alırsınız, ardından Gaz Ücretleri SAND olarak ödenir",
                 "gasless": "Gasless - You get {txsLimit} free transaction every 28 days ({txsLeft} left)",
@@ -4766,7 +4766,7 @@
         },
         "tag-new": "YENİ",
         "tagNew": "YENİ",
-        "signinWithEmail": "Sign in with email",
+        "signinWithEmail": "E-posta ile oturum açın",
         "venlyDowntimeAlert": "Venly services will experience downtime between Monday 13, June from 03:00 UTC to 05:00 UTC.",
         "badges": {
             "title": "Badges",
@@ -5142,7 +5142,7 @@
             "themes": "Tema",
             "send": "Onay için gönder",
             "sendExclusive": "Özel olarak kaydet",
-            "saveDraft": "Save as Draft"
+            "saveDraft": "Taslak olarak kaydet"
         }
     },
     "onboarding": {
@@ -6442,7 +6442,7 @@
         "choose": "Cüzdanını seç",
         "sub-choose": "Yüklü bir cüzdanınız yok, devam etmek için birini seçin",
         "warning": "Telefonunuzdaysanız, tarayıcısını kullanmak için lütfen cüzdan uygulamanızdan giriş yapın.",
-        "changeBrowser": "Please visit the page in your new browser"
+        "changeBrowser": "Lütfen sayfayı yeni tarayıcınızda ziyaret edin"
     },
     "licenses": {
         "license": "LİSANSLAR",
@@ -7480,14 +7480,14 @@
         },
         "sidebar": {
             "amount": {
-                "main": "Set amount",
+                "main": "Tutarı ayarla",
                 "token": [
                     "SAND",
                     "SAND",
                     "LAND",
-                    "ASSET"
+                    "VARLIK"
                 ],
-                "banner": "Transfer Amount"
+                "banner": "Transfer miktarı"
             },
             "amountSet": "Miktarı ayarla",
             "amountEnter": "Miktarı girin",
@@ -7563,88 +7563,88 @@
                 }
             },
             "noTransactions": "Görüntülenecek işlem yok",
-            "viewEth": "View on Etherscan",
-            "viewPol": "View on Polygonscan",
-            "back": "Back to the Bridge",
-            "confirm": "Confirm",
-            "deposit": "DEPOSIT",
-            "withdraw": "WITHDRAW",
+            "viewEth": "Etherscan'da görüntüle",
+            "viewPol": "Polygonscan'de görüntüle",
+            "back": "Köprüye geri dön",
+            "confirm": "Onayla",
+            "deposit": "YATIR",
+            "withdraw": "ÇEK",
             "stages": {
                 "selection": {
                     "deposit": {
-                        "headerTitle": "Select amount to deposit",
-                        "headerSubTitle": "Please select a SAND amount to transfer to Polygon.",
-                        "footerTitle": "Reminder",
+                        "headerTitle": "Yatırılacak tutarı seçin",
+                        "headerSubTitle": "Lütfen Polygon'a aktarmak için bir SAND miktarı seçin.",
+                        "footerTitle": "Hatırlatma",
                         "footerText": [
-                            "Polygon is a PoS network, your tokens will be sent to the Polygon network in two steps.",
-                            "After signing the first transaction you will have to wait - 10 minutes for the networks to synchronize."
+                            "Polygon bir PoS ağıdır, jetonlarınız iki adımda Polygon ağına gönderilecektir.",
+                            "İlk işlemi imzaladıktan sonra, ağların senkronize olması için 10 dakika beklemeniz gerekecek."
                         ],
-                        "button": "Start Deposit"
+                        "button": "Para Yatırma Başlat"
                     },
                     "withdraw": {
-                        "headerTitle": "Select amount to withdraw",
-                        "headerSubTitle": "Please select a SAND amount to transfer to Ethereum.",
+                        "headerTitle": "Çekilecek tutarı seçin",
+                        "headerSubTitle": "Lütfen Ethereum'a aktarmak için bir SAND tutarı seçin.",
                         "footerText": [
-                            "Your tokens will be sent back to the Ethereum network in two steps.",
-                            "After signing the first transaction you will have to wait - 3-4 hours for the networks to synchronize.",
-                            "Then you will be asked to sign a second transaction."
+                            "Jetonlarınız iki adımda Ethereum ağına geri gönderilecek.",
+                            "İlk işlemi imzaladıktan sonra, ağların senkronize olması için 3-4 saat beklemeniz gerekecek.",
+                            "Ardından ikinci bir işlem imzalamanız istenecektir."
                         ],
-                        "button": "Start Withdrawal"
+                        "button": "Para Çekmeyi Başlat"
                     }
                 },
                 "confirm": {
-                    "headerTitle": "Review transaction",
-                    "headerSubTitle": "Please review the transaction details.",
-                    "footerTitle": "Estimated Gas Fee",
-                    "feePol": "Polygon Fee",
-                    "feeEth": "Ethereum Fee"
+                    "headerTitle": "İşlemi gözden geçir",
+                    "headerSubTitle": "Lütfen işlem ayrıntılarını inceleyin.",
+                    "footerTitle": "Tahmini Gaz Ücreti",
+                    "feePol": "Polygon Ücreti",
+                    "feeEth": "Ethereum Ücreti"
                 },
                 "wait": {
-                    "headerTitle": "Transaction in progress",
-                    "headerSubTitle": "Please wait until the transfer is confirmed.",
-                    "footerText": "Depending on your settings, it takes between a few seconds to a few minutes to confirm."
+                    "headerTitle": "İşlem devam ediyor",
+                    "headerSubTitle": "Lütfen transfer onaylanana kadar bekleyin.",
+                    "footerText": "Ayarlarınıza bağlı olarak, onaylanması birkaç saniye ile birkaç dakika arasında sürer."
                 },
                 "route": {
-                    "headerSubTitle": "Please wait until the transfer is completed.",
+                    "headerSubTitle": "Lütfen aktarım tamamlanana kadar bekleyin.",
                     "deposit": {
                         "headerTitle": "Deposit en route",
-                        "footerTitle": "Deposit is in progress",
-                        "footerText": "It will take about - 10 minutes to synchronize. Once the transfer is completed the funds will be available on Polygon."
+                        "footerTitle": "Yatırma işlemi şuan yolda",
+                        "footerText": "Senkronize etmek yaklaşık - 10 dakika sürecektir. Transfer tamamlandıktan sonra fonlar Polygon'da mevcut olacak."
                     },
                     "withdraw": {
-                        "headerTitle": "Withdrawal en route",
-                        "footerTitle": "Withdrawal is in progress",
-                        "footerText": "It will take about - 3-4 hours to synchronize. Once the checkpoint is reached, you will be prompted to sign a second transaction to complete the withdrawal."
+                        "headerTitle": "Çekme işlemi şuan yolda",
+                        "footerTitle": "Para çekme işlemi devam ediyor",
+                        "footerText": "Senkronize etmek yaklaşık - 3-4 saat sürecektir. Kontrol noktasına ulaşıldığında, para çekme işlemini tamamlamak için ikinci bir işlem imzalamanız istenecektir."
                     }
                 },
                 "checkpoint": {
-                    "headerTitle": "Withdrawal in Checkpoint",
-                    "headerSubTitle": "Please sign the second transaction to complete the withdrawal"
+                    "headerTitle": "Para Çekme Kontrol Noktasında",
+                    "headerSubTitle": "Lütfen para çekme işlemini tamamlamak için ikinci işlemi imzalayın"
                 },
                 "success": {
-                    "headerSubTitle": "The transfer is now completed.",
+                    "headerSubTitle": "Artık aktarım tamamlandı.",
                     "deposit": {
-                        "headerTitle": "Deposit completed",
-                        "footerText": "Your tokens have been successfully deposited to Polygon."
+                        "headerTitle": "Para yatırma işlemi tamamlandı",
+                        "footerText": "Jetonlarınız başarıyla Polygon'a yatırıldı."
                     },
                     "withdraw": {
-                        "headerTitle": "Withdrawal completed",
-                        "footerText": "Your tokens have been successfully withdrawn to Ethereum."
+                        "headerTitle": "Para çekme işlemi tamamlandı",
+                        "footerText": "Jetonlarınız başarıyla Ethereum'a çekildi."
                     }
                 },
                 "fail": {
-                    "headerTitle": "Transfer failed",
-                    "footerTitle": "The transaction has failed",
-                    "footerText1": "Something happened and the transaction was either rejected or reverted. Please retry.",
-                    "button": "Retry"
+                    "headerTitle": "Aktarım başarısız",
+                    "footerTitle": "işlem başarısız oldu",
+                    "footerText1": "Bir şey oldu ve işlem reddedildi veya geri alındı. Lütfen tekrar deneyiniz.",
+                    "button": "Tekrar Dene"
                 },
                 "rejected": {
-                    "headerTitle": "Transfer rejected",
-                    "footerTitle": "The transaction has been rejected"
+                    "headerTitle": "Aktarım reddedildi",
+                    "footerTitle": "İşlem reddedildi"
                 }
             },
             "steps": {
-                "name": "Step",
+                "name": "Adım",
                 "base4": [
                     "1/4",
                     "2/4",
@@ -7686,8 +7686,8 @@
         "buymSand": "SAND Satın Al",
         "confirmDeposit": "Depozitoyu Onayla",
         "confirmWithdraw": "Para Çekmeyi Onayla",
-        "noTransactions": "There are no transactions to display",
-        "pending": "Pending",
+        "noTransactions": "Görüntülenecek işlem yok",
+        "pending": "Bekliyor",
         "checkTransactions": "Check previous transactions or confirm pending ones",
         "pendingWithdrawals": "Pending Withdrawal | Pending Withdrawals",
         "pendingDeposits": "Pending Deposit | Pending Deposits",
@@ -8363,277 +8363,277 @@
                         "title": "Malzeme Hex alanı doğru şekilde doğrulanmama sorunu çözüldü"
                     },
                     "9": {
-                        "title": "Fixed Rigger"
+                        "title": "Sabit Donanım"
                     },
                     "10": {
-                        "title": "Contextual Menus now keep whitin the window"
+                        "title": "Bağlamsal Menüler artık pencerenin içinde kalıyor"
                     }
                 }
             },
             "5": {
-                "date": "November 25th, 2020 - Public Beta Release",
+                "date": "25 Kasım 2020 - Herkese Açık Beta Sürümü",
                 "list": {
                     "0": {
-                        "title": "Features",
+                        "title": "Özellikler",
                         "list": {
                             "0": {
-                                "title": "Large-Medium-Small Palette layouts."
+                                "title": "Büyük-Orta-Küçük Palet düzenleri."
                             },
                             "1": {
-                                "title": "Rebindable Shortcuts: Users can rebinding editor keys to define new keyboard shortcuts."
+                                "title": "Yeniden Bağlanabilir Kısayollar: Kullanıcılar, yeni klavye kısayolları tanımlamak için düzenleyici tuşlarını yeniden bağlayabilir."
                             },
                             "2": {
-                                "title": "New Template list UI."
+                                "title": "Yeni Şablon listesi kullanıcı arayüzü."
                             },
                             "3": {
-                                "title": "VXMB format with palette metadata."
+                                "title": "Palet meta verileriyle VXMB formatı."
                             },
                             "4": {
-                                "title": "New camera panning shortcut with Space Bar."
+                                "title": "Space Bar ile yeni kamera kaydırma kısayolu."
                             },
                             "5": {
-                                "title": "New “All” sections on Templates."
+                                "title": "Şablonlarda yeni \"Tümü\" bölümü."
                             },
                             "6": {
-                                "title": "Build Version name on Welcome screens."
+                                "title": "Karşılama ekranlarında Sürüm adı oluşturun."
                             },
                             "7": {
-                                "title": "Template Mode with interactive nodes for Avatar body parts."
+                                "title": "Avatar vücut parçaları için etkileşimli düğümler içeren Şablon Modu."
                             },
                             "8": {
-                                "title": "Static mesh optimization/VXR8 (not used until game side implementation)."
+                                "title": "Statik ağ optimizasyonu/VXR8 (oyun tarafı uygulamasına kadar kullanılmaz)."
                             },
                             "9": {
-                                "title": "Error message feedback added in several places."
+                                "title": "Birkaç yere hata mesajı geri bildirimi eklendi."
                             }
                         }
                     },
                     "1": {
-                        "title": "Bug fixes",
+                        "title": "Hata düzeltmeleri",
                         "list": {
                             "0": {
-                                "title": "Keyboard now works in detached panels."
+                                "title": "Klavye artık ayrılmış panellerde çalışıyor."
                             },
                             "1": {
-                                "title": "Added Long Way Rotation icon in Timeline."
+                                "title": "Zaman Çizelgesi'nde Uzun Yol Döndürme simgesi eklendi."
                             },
                             "2": {
-                                "title": "Curve selection now affects all selected keyframes."
+                                "title": "Eğri seçimi artık tüm seçili ana kareleri etkiler."
                             },
                             "3": {
-                                "title": "Camera Reset now fixes perspective."
+                                "title": "Kamera Sıfırlama artık perspektifi düzeltiyor."
                             },
                             "4": {
-                                "title": "Textfields now support the Backspace key."
+                                "title": "Metin alanları artık Backspace tuşunu destekliyor."
                             },
                             "5": {
-                                "title": "Erase mode preview does not glow anymore."
+                                "title": "Silme modu önizlemesi artık parlamıyor."
                             },
                             "6": {
-                                "title": "Zoom/Loop window sliders cannot be forced to have zero length."
+                                "title": "Yakınlaştırma/Döngü pencere kaydırıcıları sıfır uzunluğa sahip olmaya zorlanamaz."
                             },
                             "7": {
-                                "title": "Block face export as PNG now saves emissive material colors."
+                                "title": "PNG olarak yüz dışa aktarmayı engelle artık yayıcı malzeme renklerinden tasarruf sağlıyor."
                             },
                             "8": {
-                                "title": "Inserting a keyframe now preserves interpolation at the insertion point."
+                                "title": "Bir ana kare eklemek artık ekleme noktasında enterpolasyonu korur."
                             },
                             "9": {
-                                "title": "Fixed text display with leading spaces."
+                                "title": "Baştaki boşluklarla sabit metin ekranı."
                             },
                             "10": {
-                                "title": "Fixed crash when undoing a block face import action."
+                                "title": "Bir blok yüzü içe aktarma eylemi geri alınırken oluşan kilitlenme düzeltildi."
                             },
                             "11": {
-                                "title": "Fixed limitless text input in File Popup filename text field."
+                                "title": "Açılır Dosya adı metin alanına sınırsız metin girişi düzeltildi."
                             },
                             "12": {
-                                "title": "Fixed crash when copying keyframes out of timeline bounds."
+                                "title": "Ana kareleri zaman çizelgesi sınırlarının dışına kopyalarken oluşan kilitlenme düzeltildi."
                             },
                             "13": {
-                                "title": "Fixed crash when renaming or duplicating already attached models in the library."
+                                "title": "Kitaplığa eklenmiş modelleri yeniden adlandırırken veya çoğaltırken oluşan kilitlenme düzeltildi."
                             },
                             "14": {
-                                "title": "Fixed panel layout when detaching Material panel in Block editor."
+                                "title": "Blok düzenleyicide Malzeme panelini ayırırken sabit panel düzeni."
                             },
                             "15": {
-                                "title": "Fixed DAE export sometimes entering infinite loop."
+                                "title": "DAE dışa aktarmanın bazen sonsuz döngüye girmesi düzeltildi."
                             },
                             "16": {
-                                "title": "Fixed position of Welcome screen's \"Open File\" button."
+                                "title": "Karşılama ekranının \"Dosya Aç\" düğmesinin konumu düzeltildi."
                             },
                             "17": {
-                                "title": "Fixed layout of Block Editor panel so it fits in lower screen resolutions."
+                                "title": "Blok Düzenleyici panelinin düzeni, daha düşük ekran çözünürlüklerine sığması için düzeltildi."
                             },
                             "18": {
-                                "title": "Added error when importing VXM/VOX file with same name as already existing VXM."
+                                "title": "Zaten var olan VXM ile aynı ada sahip VXM/VOX dosyasını içe aktarırken hata eklendi."
                             }
                         }
                     }
                 }
             },
             "6": {
-                "date": "December 23th, 2020 - Game Maker 0.4",
+                "date": "23 Aralık 2020 - Game Maker 0.4",
                 "list": {
                     "0": {
                         "title": "Avatar",
-                        "subtitle": "The avatar now spawns from the Avatar’s portal, highlighted by the blue cursor.",
+                        "subtitle": "Avatar şimdi mavi imleçle vurgulanan Avatar'ın portalından doğar.",
                         "list": {
                             "0": {
-                                "title": "You can now customize the avatar’s behavior, components, camera and model by going into the new GLOBAL PARAMETERS button. You also get access to this menu by clicking on the AVATAR SETTINGS button in the inspector while selecting the Avatar’s portal."
+                                "title": "Artık yeni KÜRESEL PARAMETRELER düğmesine giderek avatarın davranışını, bileşenlerini, kamerasını ve modelini özelleştirebilirsiniz. Avatar portalını seçerken denetçideki AVATAR AYARLARI düğmesine tıklayarak da bu menüye erişebilirsiniz."
                             },
                             "1": {
-                                "title": "Avatar: In this menu, you can select which avatar’s type is spawned and add tags to it."
+                                "title": "Avatar: Bu menüde hangi avatar türünün ortaya çıkacağını seçebilir ve ona etiketler ekleyebilirsiniz."
                             },
                             "2": {
-                                "title": "Camera: In this menu, you can easily change the camera views and customize each value to make the camera you want."
+                                "title": "Kamera: Bu menüde, kamera görünümlerini kolayca değiştirebilir ve istediğiniz kamerayı yapmak için her değeri özelleştirebilirsiniz."
                             },
                             "3": {
-                                "title": "Controller: In this menu, you can change the avatar’s behavior values and add / remove components."
+                                "title": "Kontrol: Bu menüde avatarın davranış değerlerini değiştirebilir ve bileşen ekleyebilir/kaldırabilirsiniz."
                             },
                             "4": {
-                                "title": "Lighting: In this menu, you can easily change between different lighting atmospheres."
+                                "title": "Aydınlatma: Bu menüde farklı aydınlatma ortamları arasında kolayca geçiş yapabilirsiniz."
                             }
                         }
                     },
                     "1": {
-                        "title": "Global Game Maker Improvements",
-                        "subtitle": "The Game Maker tools have been reworked and improved to provide a better user experience with a lot more functionalities.",
+                        "title": "Global Game Maker İyileştirmeleri",
+                        "subtitle": "Game Maker araçları, çok daha fazla işlevsellik ile daha iyi bir kullanıcı deneyimi sağlamak için elden geçirildi ve geliştirildi.",
                         "list": {
                             "0": {
-                                "title": "The terraform tool is now easier to use. More options have also been added to it."
+                                "title": "Terraform aracının kullanımı artık daha kolay. Buna daha fazla seçenek de eklendi."
                             },
                             "1": {
-                                "title": "The way you place the assets in the experience has also been improved to allow you to easily add and manage your assets position and rotation."
+                                "title": "Varlıkları deneyime yerleştirme şekliniz de varlık konumunuzu ve rotasyonunuzu kolayca eklemenize ve yönetmenize olanak sağlamak için iyileştirildi."
                             }
                         }
                     },
                     "2": {
-                        "title": "Library",
-                        "subtitle": "The whole Library has been revamped to provide a better user experience. You can now quickly search and use filters to find what you need. Presets are now accessible within it and usable inside the Hotbar."
+                        "title": "Kütüphane",
+                        "subtitle": "Tüm Kütüphane, daha iyi bir kullanıcı deneyimi sağlamak için yenilendi. Artık ihtiyacınız olanı bulmak için filtreleri hızlı bir şekilde arayabilir ve kullanabilirsiniz. Ön ayarlara artık onun içinden erişilebilir ve Hotbar'ın içinde kullanılabilir."
                     },
                     "3": {
-                        "title": "Selection Window",
-                        "subtitle": "The Selection Window has been revamped to provide a better user experience. You can now quickly search and use filters to find what you need. Behaviors and Components have now an Icon and a ToolTip for each of them, to make them easier to understand."
+                        "title": "Seçim Penceresi",
+                        "subtitle": "Seçim Penceresi, daha iyi bir kullanıcı deneyimi sağlamak için yenilendi. Artık ihtiyacınız olanı bulmak için filtreleri hızlı bir şekilde arayabilir ve kullanabilirsiniz. Davranışlar ve Bileşenler, anlaşılmasını kolaylaştırmak için artık her biri için bir Simge ve Araç İpucuna sahiptir."
                     },
                     "4": {
-                        "title": "New Message System",
-                        "subtitle": "Instead of having to write or copy & paste text, the New Message System allows you to easily create a Message and re-use it anywhere you want."
+                        "title": "Yeni Mesaj Sistemi",
+                        "subtitle": "Yeni Mesaj Sistemi, metin yazmak veya kopyalayıp yapıştırmak yerine, kolayca bir Mesaj oluşturmanıza ve istediğiniz yerde yeniden kullanmanıza olanak tanır."
                     },
                     "5": {
                         "title": "Kural Penceresi",
-                        "subtitle": "The Rules Window has been revamped to provide a better user experience. You can now collapse and uncollapse Quests, and manage them easily. You can also quickly define the information that you want to display within the Victory and Defeat screens."
+                        "subtitle": "Kurallar Penceresi, daha iyi bir kullanıcı deneyimi sağlamak için yenilendi. Artık Görevleri daraltabilir ve kapatabilirsiniz ve bunları kolayca yönetebilirsiniz. Ayrıca Zafer ve Yenilgi ekranlarında görüntülemek istediğiniz bilgileri hızlı bir şekilde tanımlayabilirsiniz."
                     },
                     "6": {
-                        "title": "Quest System V2",
+                        "title": "Görev Sistemi V2",
                         "list": {
                             "0": {
-                                "title": "The new Quest System allows you to fully customize the Quests"
+                                "title": "Yeni Görev Sistemi, Görevleri tamamen özelleştirmenize olanak tanır"
                             },
                             "1": {
-                                "title": "New options have been added to allow more customization and quests that have been done before should be easier to do now."
+                                "title": "Daha fazla kişiselleştirmeye izin vermek için yeni seçenekler eklendi ve daha önce yapılmış görevlerin şimdi yapılması daha kolay olmalı."
                             },
                             "2": {
-                                "title": "Timer Objective has been improved"
+                                "title": "Zamanlayıcı Hedefi iyileştirildi"
                             }
                         }
                     },
                     "7": {
-                        "title": "Indicator Component",
-                        "subtitle": "The Indicator Component has received a major update, related to the new Quest System and some other improvements",
+                        "title": "Gösterge Bileşeni",
+                        "subtitle": "Gösterge Bileşeni, yeni Görev Sistemi ve diğer bazı iyileştirmelerle ilgili büyük bir güncelleme aldı.",
                         "list": {
                             "0": {
-                                "title": "LifeBar color parameter has been removed to provide a more consistent User Experience within all Metaverse Experiences."
+                                "title": "Tüm Metaverse Deneyimlerinde daha tutarlı bir Kullanıcı Deneyimi sağlamak için LifeBar renk parametresi kaldırıldı."
                             },
                             "1": {
-                                "title": "Objective Cursor parameter has been removed to provide a more consistent User Experience within all Metaverse Experiences."
+                                "title": "Tüm Metaverse Deneyimlerinde daha tutarlı bir Kullanıcı Deneyimi sağlamak için Amaç İmleç parametresi kaldırıldı."
                             },
                             "2": {
-                                "title": "The Quest Cursors are now split in 3 parameters: Giver, Objective, Receiver"
+                                "title": "Görev İmleçleri artık 3 parametreye bölünmüştür: Verici, Hedef, Alıcı"
                             }
                         }
                     },
                     "8": {
-                        "title": "Presets",
-                        "subtitle": "Creating a Preset has never been so easy. Select the Object you want to transform as a Preset, and click on the related button in the Toolbar to do so.  You can also easily replace an existing Preset by clicking on it when creating a new one. Plus, it is now possible to use Presets inside the Asset Spawner, which gives you more possibilities."
+                        "title": "Ön ayarlar",
+                        "subtitle": "Ön Ayar oluşturmak hiç bu kadar kolay olmamıştı. Ön Ayar olarak dönüştürmek istediğiniz Nesneyi seçin ve bunu yapmak için Araç Çubuğundaki ilgili düğmeye tıklayın. Ayrıca, yeni bir tane oluştururken üzerine tıklayarak mevcut bir Ön Ayarı kolayca değiştirebilirsiniz. Ayrıca, size daha fazla olanak sağlayan Varlık Oluşturma Yeri içinde Ön Ayarları kullanmak artık mümkün."
                     },
                     "9": {
-                        "title": "Tags",
-                        "subtitle": "The Tags related to Behaviors and Components have been changed. It might not change your current Experience functionalities as they will remain the same for already-created Experiences, but we suggest taking a look at them."
+                        "title": "Etiketler",
+                        "subtitle": "Davranışlar ve Bileşenler ile ilgili Etiketler değiştirildi. Halihazırda oluşturulmuş Deneyimler için aynı kalacakları için mevcut Deneyim işlevlerinizi değiştirmeyebilir, ancak bunlara bir göz atmanızı öneririz."
                     },
                     "10": {
-                        "title": "Publish",
-                        "subtitle": "You can now easily publish your Experience to the Gallery and allow other users to play to the content you created."
+                        "title": "Yayınla",
+                        "subtitle": "Artık Deneyiminizi Galeri'de kolayca yayınlayabilir ve diğer kullanıcıların oluşturduğunuz içeriği oynamasına izin verebilirsiniz."
                     },
                     "11": {
-                        "title": "Behaviors and Components",
-                        "subtitle": "Behaviors and Components had their tooltips and parameters updated. They should now be easier to understand."
+                        "title": "Davranışlar ve Bileşenler",
+                        "subtitle": "Davranışlar ve Bileşenler'in araç ipuçları ve parametreleri güncellendi. Bunları anlamak artık daha kolay olmalı."
                     },
                     "12": {
-                        "title": "New Balancing & Grades",
+                        "title": "Yeni Dengeleme ve Dereceler",
                         "list": {
                             "0": {
-                                "title": "The balancing has been reworked to provide a better difficulty. Each object has now its difficulty mainly driven by its Catalyst and also its Gems."
+                                "title": "Dengeleme, daha iyi bir zorluk sağlamak için elden geçirildi. Her nesnenin artık esas olarak Katalizörü ve ayrıca Mücevherleri tarafından yönlendirilen zorluğu var."
                             },
                             "1": {
-                                "title": "Each Object has a Grade displayed next to its Lifebar. This Grade represents the Catalyst of the Object and the amount of Gems inside it. Thanks to this, Players can now identify the power of an Object easily."
+                                "title": "Her Nesnenin Yaşam Çubuğunun yanında görüntülenen bir Derecesi vardır. Bu Derece, Nesnenin Katalizörünü ve içindeki Mücevher miktarını temsil eder. Bu sayede Oyuncular artık bir Nesnenin gücünü kolayca tanımlayabilir."
                             }
                         }
                     },
                     "13": {
-                        "title": "New Melee Enemy",
+                        "title": "Yeni Yakın Dövüş Düşmanı",
                         "list": {
                             "0": {
-                                "title": "The Enemy fighter behavior has been automatically replaced by the Melee Enemy behavior."
+                                "title": "Düşman savaşçı davranışı otomatik olarak Yakın Dövüşçü davranışı ile değiştirildi."
                             },
                             "1": {
-                                "title": "This behavior follows the same intentions as the previous one but has been improved to make the fights much more enjoyable."
+                                "title": "Bu davranış, öncekiyle aynı niyetleri takip ediyor ancak dövüşleri çok daha eğlenceli hale getirmek için geliştirildi."
                             },
                             "2": {
-                                "title": "A targeting system has been added to make your attacks move your avatar towards the enemies, emoving a previous frustrating experience with this."
+                                "title": "Saldırılarınızın avatarınızı düşmanlara doğru hareket ettirmesini sağlamak için bir hedefleme sistemi eklendi ve bununla ilgili önceki sinir bozucu deneyimi ortadan kaldırdı."
                             }
                         }
                     },
                     "14": {
-                        "title": "Quest Icons",
-                        "subtitle": "As said before, a Quest is split into 4 steps. For 3 of them, a specific Quest Icon is displayed during the Play Mode.",
+                        "title": "Görev Simgeleri",
+                        "subtitle": "Daha önce de belirtildiği gibi, bir Görev 4 adıma bölünür. 3 tanesi için, Oyun Modu sırasında belirli bir Görev Simgesi görüntülenir.",
                         "list": {
-                            "0": "Quest can be started: Gold '!' ",
-                            "1": "Quest’s Objective: Gold Target Icon",
-                            "2": "Quest can be finished: Gold '?'"
+                            "0": "Görev başlatılabilir: Altın '!' ",
+                            "1": "Görevin Amacı: Altın Hedef Simgesi",
+                            "2": "Görev tamamlanabilir: Altın '?'"
                         }
                     },
                     "15": {
-                        "title": "Inventory & Equipment",
-                        "subtitle": "Players will be able to pick up equipment and quest items from experiences and save them in their local inventories. Equip different sets of items to change your character's attributes and become stronger."
+                        "title": "Envanter ve Ekipman",
+                        "subtitle": "Oyuncular, deneyimlerden ekipman ve görev öğeleri alabilecek ve bunları yerel envanterlerine kaydedebilecekler. Karakterinizin özelliklerini değiştirmek ve daha güçlü olmak için farklı eşya setlerini donatın."
                     },
                     "16": {
-                        "title": "Known Issues",
-                        "subtitle": "These are the following known issues for this version of the Game Maker",
+                        "title": "Bilinen Sorunlar",
+                        "subtitle": "Bunlar, Game Maker'ın bu sürümü için bilinen aşağıdaki sorunlardır.",
                         "litle": {
                             "0": {
-                                "title": "Some equipment types may cause experiences to seldomly crash while resetting them."
+                                "title": "Bazı ekipman türleri, sıfırlanırken deneyimlerin nadiren çökmesine neden olabilir."
                             },
                             "1": {
-                                "title": "On some machines, 4x4 experiences may make the character not move properly."
+                                "title": "Bazı makinelerde 4x4 deneyimleri karakterin düzgün hareket etmemesine neden olabilir."
                             },
                             "2": {
-                                "title": "If an experience uses unpublished assets, a “selection error” may occur inside the Gallery."
+                                "title": "Bir deneyim yayınlanmamış varlıkları kullanıyorsa Galeri içinde bir \"seçim hatası\" meydana gelebilir."
                             },
                             "3": {
-                                "title": "Experiences that use Loot or Asset Spawner components may cause a crash during gameplay."
+                                "title": "Ganimet veya Varlık Oluşturucusu bileşenlerini kullanan deneyimler, oyun sırasında çökmeye neden olabilir."
                             },
                             "4": {
-                                "title": "Lighting presets may cause brightness issues on light blocks and assets."
+                                "title": "Aydınlatma ön ayarları, ışık blokları ve varlıklarda parlaklık sorunlarına neden olabilir."
                             },
                             "5": {
-                                "title": "Library load times may be longer than expected depending on the amount of assets the user has."
+                                "title": "Kullanıcının sahip olduğu varlıkların miktarına bağlı olarak kitaplık yükleme süreleri beklenenden daha uzun olabilir."
                             },
                             "6": {
-                                "title": "Some avatar body parts may look brighter in some environments."
+                                "title": "Bazı avatar gövde parçaları bazı ortamlarda daha parlak görünebilir."
                             },
                             "7": {
-                                "title": "Some inputs may be lost while hopping through experiences without opening the inventory beforehand."
+                                "title": "Önceden envanteri açmadan deneyimler arasında geçiş yaparken bazı girdiler kaybolabilir."
                             }
                         }
                     }
@@ -8641,468 +8641,468 @@
             }
         },
         "improvements": {
-            "title": "Play Mode Improvements",
+            "title": "Oyun Modu İyileştirmeleri",
             "list": {
                 "0": {
-                    "title": "Chat Bubbles (Multiplayer)",
-                    "subtitle": "We’ve added Chat Bubbles on top of the Avatar head. Whenever you or someone else types out something in the chat you’ll see a chat bubble on top of their heads if you are close enough to them. This is our first iteration of the feature, we’re planning on revamping the UI for the next release"
+                    "title": "Sohbet Balonları (Çok Oyunculu)",
+                    "subtitle": "Avatar kafasının üstüne Sohbet Balonları ekledik. Siz veya bir başkası sohbette bir şey yazdığında, onlara yeterince yakınsanız, kafalarının üstünde bir sohbet balonu görürsünüz. Bu, özelliğin ilk yinelemesidir, bir sonraki sürüm için kullanıcı arayüzünü yenilemeyi planlıyoruz."
                 },
                 "1": {
-                    "title": "NFT Inspect",
-                    "subtitle": "From the Inventory, you will be able to access a new Tab called NFT, here you can see a full list of NFT’s and ASSETS used inside an experience and identify what are the trending assets all creators are using. "
+                    "title": "NFT İnceleme",
+                    "subtitle": "Envanterden, NFT adlı yeni bir Sekmeye erişebileceksiniz, burada bir deneyimde kullanılan NFT'lerin ve VARLIKLARIN tam listesini görebilir ve tüm içerik oluşturucuların kullandığı trend varlıkları belirleyebilirsiniz."
                 },
                 "2": {
-                    "title": "Fighting System UI & VFX",
-                    "subtitle": "We’re constantly improving on our Avatar, Enemy and Combat Systems. This time we’ve added Visual queues to attacks that show damage numbers when hitting an enemy as well as blocking. We’ve also added and improved upon existing VFX to make combat queues much more clear."
+                    "title": "Dövüş Sistemi Kullanıcı Arayüzü ve VFX",
+                    "subtitle": "Avatar, Düşman ve Savaş Sistemlerimizi sürekli geliştiriyoruz. Bu sefer, bir rakibe çarparken ve blok yaparken hasar numaralarını gösteren saldırılara Görsel sıralar ekledik. Ayrıca, savaş sıralarını çok daha net hale getirmek için mevcut VFX'i ekledik ve geliştirdik."
                 },
                 "3": {
-                    "title": "UI Improvements",
-                    "subtitle": "We’ve made some UI/UX improvements across the board. We’ve added pop-ups, improved windows current flows and fixed issues with some screens that were not working optimally."
+                    "title": "Kullanıcı Arayüzü İyileştirmeleri",
+                    "subtitle": "Genel olarak bazı UI/UX iyileştirmeleri yaptık. Pop-up'lar ekledik, Windows'un mevcut akışlarını iyileştirdik ve en iyi şekilde çalışmayan bazı ekranlarla ilgili sorunları düzelttik."
                 }
             }
         },
         "2021": {
             "00": {
-                "date": "February 10th, 2021 - Game Maker 0.5.0",
-                "title": "Game Maker Improvements",
+                "date": "10 Şubat 2021 - Game Maker 0.5.0",
+                "title": "Game Maker İyileştirmeleri",
                 "list": {
                     "0": {
-                        "title": "Global Game Maker Improvements",
-                        "subtitle": "Our main focus with this version was all about performance. We’ve still got ways to go before we can provide the absolute best experience possible but we’ve made quite a few changes in our architecture and you will be able to notice:",
+                        "title": "Global Game Maker İyileştirmeleri",
+                        "subtitle": "Bu sürümdeki ana odak noktamız tamamen performanstı. Mümkün olan en iyi deneyimi sunmadan önce daha gidecek çok yolumuz var ama mimarimizde epeyce değişiklik yaptık ve şunu fark edeceksiniz:",
                         "list": {
-                            "0": "Faster loading and response times of the Game Maker Tools",
-                            "1": "Improved performance on different types of PC’s",
-                            "2": "Improved performance on bigger experiences with a large amount of assets"
+                            "0": "Game Maker araçlarının daha hızlı yüklenmesi ve yanıt süreleri",
+                            "1": "Farklı bilgisayar türlerinde iyileştirilmiş performans",
+                            "2": "Büyük miktarda varlıkla daha büyük deneyimlerde iyileştirilmiş performans"
                         }
                     },
                     "1": {
-                        "title": "Library Improvements",
-                        "subtitle": "We’ve reworked the Library internal structure from scratch, in order to make it faster and smoother when loading and utilizing it. You will notice a big improvement from the previous version."
+                        "title": "Kütüphane İyileştirmeleri",
+                        "subtitle": "Yüklerken ve kullanırken daha hızlı ve sorunsuz hale getirmek için Kitaplığın iç yapısını sıfırdan yeniden çalıştık. Önceki sürümden büyük bir gelişme göreceksiniz."
                     },
                     "2": {
-                        "title": "Lighting Presets",
-                        "subtitle": "We’ve added a new Neutral Lighting preset, in case you don’t want to use any of our current lighting options. We’ve also improved on the already existing presets, eliminating refraction errors on light surfaces as well as correcting color emanation."
+                        "title": "Aydınlatma Ön Ayarları",
+                        "subtitle": "Mevcut aydınlatma seçeneklerimizden herhangi birini kullanmak istemiyorsanız, yeni bir Nötr Aydınlatma ön ayarı ekledik. Ayrıca, halihazırda mevcut olan ön ayarları iyileştirdik, ışık yüzeylerindeki kırılma hatalarını ortadan kaldırmanın yanı sıra renk yayılımını düzelttik."
                     },
                     "3": {
-                        "title": "Behaviors",
-                        "subtitle": "We’ve fixed some of the behaviors to make better use of our technical stack. Most of our known issues regarding the behavior system have been successfully addressed."
+                        "title": "Davranışlar",
+                        "subtitle": "Teknik yığınımızı daha iyi kullanmak için bazı davranışları düzelttik. Davranış sistemiyle ilgili bilinen sorunlarımızın çoğu başarıyla giderildi."
                     },
                     "4": {
-                        "title": "New Templates",
-                        "subtitle": "We’ve added three new experience templates for you to use and learn more about the Game Maker:",
+                        "title": "Yeni Şablonlar",
+                        "subtitle": "Game Maker hakkında daha fazla bilgi edinmen ve kullanman için üç yeni deneyim şablonu ekledik:",
                         "list": {
-                            "0": "Logic - Behaviours: An experience that lets you test out the different behaviors we have and different ways to use them",
-                            "1": "Logic - Victory and Defeat: understand the basics of Victory and Defeat conditions in your game",
-                            "2": "Logic - Counter Quest: learn how to make a Death Counter and Collection Counter quest"
+                            "0": "Mantık - Davranışlar: Sahip olduğumuz farklı davranışları ve bunları kullanmanın farklı yollarını test etmenizi sağlayan bir deneyim",
+                            "1": "Mantık - Zafer ve Yenilgi: Oyununuzdaki Zafer ve Yenilgi koşullarının temellerini anlayın",
+                            "2": "Mantık - Sayaç Görevi: Ölüm Sayacı ve Koleksiyon Sayacı görevini nasıl yapacağınızı öğrenin"
                         }
                     },
                     "5": {
-                        "subtitle": "We’ve also added another 8 new experience templates without any logic for you to use as starting points:",
+                        "subtitle": "Başlangıç noktası olarak kullanmanız için herhangi bir mantığı olmayan 8 yeni deneyim şablonu daha ekledik:",
                         "list": {
-                            "0": "Landscape - Desert 1x1 / Forgotten Wasteland",
-                            "1": "Landscape - Desert 2x2 / Barren Night",
-                            "2": "Landscape - Forest 1x1 / Woodlands",
-                            "3": "Landscape - Forest 2x2 / Dusk Forest",
-                            "4": "Landscape - Tropical Volcano 1x1 / Adventure Island",
-                            "5": "Landscape - Ice Cave 1x1 / Ice Grotto",
-                            "6": "Landscape - Lake Shores 1x1 / Lake Shores",
-                            "7": "Landscape - The Block 1x1 / The Block"
+                            "0": "Manzara - Çöl 1x1 / Unutulmuş Çorak Toprak",
+                            "1": "Manzara - Çöl 2x2 / Kısır Gece",
+                            "2": "Manzara - Orman 1x1 / Woodlands",
+                            "3": "Manzara - Orman 2x2 / Alacakaranlık Orman",
+                            "4": "Manzara - Tropikal Volkan 1x1 / Macera Adası",
+                            "5": "Manzara - Buz Mağarası 1x1 / Buz Mağarası",
+                            "6": "Manzara - Göl Kıyıları 1x1 / Göl Kıyıları",
+                            "7": "Manzara - Blok 1x1 / Blok"
                         }
                     }
                 }
             },
             "001": {
-                "title": "Play Mode Improvements",
+                "title": "Oyun Modu İyileştirmeleri",
                 "list": {
                     "0": {
-                        "title": "Mini Map (Compass)",
-                        "subtitle": "We’ve added a new HUD element into our Play Mode in the form of a Mini Map, now you’ll be able to orientate yourself and be provided with specific experience data. This is a simplified version of our Mini Map, stay tuned to see the finalized version soon."
+                        "title": "Mini Harita (Pusula)",
+                        "subtitle": "Oynatma Modumuza Mini Harita şeklinde yeni bir HUD öğesi ekledik, artık kendinizi yönlendirebilecek ve belirli deneyim verileri sağlanabilecek. Bu, Mini Haritamızın basitleştirilmiş bir versiyonudur, son halini yakında görmek için bizi izlemeye devam edin."
                     },
                     "1": {
-                        "title": "Gameplay Improvements",
-                        "subtitle": "As part of our constant improvements to the Gameplay and Combat system we’ve added the following features:",
+                        "title": "Oynanış İyileştirmeleri",
+                        "subtitle": "Oynanış ve Savaş sistemindeki sürekli iyileştirmelerimizin bir parçası olarak aşağıdaki özellikleri ekledik:",
                         "list": {
                             "0": {
-                                "title": "Heavy Attack Damage Zone:",
-                                "subtitle": "The heavy attack will now have a reticle that shows the area of effect of your attack, as you charge it more, it will deal more damage and the area will be bigger."
+                                "title": "Ağır Saldırı Hasarı Bölgesi:",
+                                "subtitle": "Ağır saldırı artık saldırınızın etki alanını gösteren bir nişangaha sahip olacak, siz onu daha fazla yükledikçe daha fazla hasar verecek ve alan daha büyük olacaktır."
                             },
                             "1": {
-                                "title": "Stun System:",
-                                "subtitle": "Heavy Attacks charged up to its limit will now stun all enemies in range when released."
+                                "title": "Sersemletme Sistemi:",
+                                "subtitle": "Sınırına kadar yüklenen Ağır Saldırılar artık serbest bırakıldıklarında menzildeki tüm düşmanları sersemletecek."
                             },
                             "2": {
-                                "title": "Parry System:",
-                                "subtitle": "You will be able to parry enemy attacks to reduce the damage you’ve taken. If your timing is right you’ll be able to Perfect Parry them, stunning the enemy in consequence."
+                                "title": "Savuşturma Sistemi:",
+                                "subtitle": "Aldığınız hasarı azaltmak için düşman saldırılarını savuşturabileceksiniz. Zamanlamanız doğruysa, onları Kusursuz Savuşturma ile sonuç olarak düşmanı sersemletebilirsiniz."
                             }
                         }
                     }
                 }
             },
             "0": {
-                "date": "April 6th, 2021 - Game Maker 0.6.0",
-                "title": "Game Maker Improvements",
+                "date": "6 Nisan 2021 - Game Maker 0.6.0",
+                "title": "Game Maker İyileştirmeleri",
                 "list": {
                     "0": {
-                        "title": "NFT Images",
-                        "subtitle": "We’ve added the NFT Image component to the Game Maker. Now you’ll be able to add NFT images from Opensea:",
+                        "title": "NFT Görüntüleri",
+                        "subtitle": "NFT Görüntüsü bileşenini Game Maker'a ekledik. Artık OpenSea'den NFT görüntüleri ekleyebileceksiniz:",
                         "list": {
-                            "0": "Put them on Billboards and Picture frames to create an NFT environment or art Gallery",
-                            "1": "Showcase your owned NFT inside the Sandbox to the players and creators",
-                            "2": "Use the NFT Inventory feature to be able to see the NFT in Opensea"
+                            "0": "Bir NFT ortamı veya sanat Galerisi oluşturmak için bunları Reklam Panolarına ve Resim çerçevelerine koyun",
+                            "1": "Oyunculara ve içerik oluşturuculara Sandbox içinde sahip olduğunuz NFT'yi sergileyin",
+                            "2": "OpenSea'de NFT'yi görebilmek için NFT Envanteri özelliğini kullanın"
                         }
                     },
                     "1": {
-                        "title": "Play Mode Settings",
-                        "subtitle": "We’ve added settings to this version of the Game Maker in order to provide a better quality of life for users. In this iteration of the feature you’ll be able to:",
+                        "title": "Oynatma Modu Ayarları",
+                        "subtitle": "Kullanıcılara daha iyi bir yaşam kalitesi sağlamak için Game Maker'ın bu sürümüne ayarlar ekledik. Özelliğin bu yinelemesinde şunları yapabileceksiniz:",
                         "list": {
-                            "0": "Change Resolution and Screen Mode",
-                            "1": "Turn Sound on/off",
-                            "2": "Control the Play Camera sensitivity",
-                            "3": "View the play mode Control Scheme (We now support AZERTY too)"
+                            "0": "Çözünürlüğü ve Ekran Modunu Değiştirin",
+                            "1": "Sesi aç/kapat",
+                            "2": "Kamera hassasiyetini kontrol edin",
+                            "3": "Oynatma modu Kontrol Şemasını görüntüleyin (Artık AZERTY'yi de destekliyoruz)"
                         }
                     },
                     "2": {
-                        "title": "Version Check",
-                        "subtitle": "Now, everytime a new version of the Game Maker is available, our servers will check against your current installed version and request you to update to the newest version."
+                        "title": "Sürüm Kontrolü",
+                        "subtitle": "Artık Game Maker'ın her yeni sürümü mevcut olduğunda, sunucularımız mevcut yüklü sürümünüzü kontrol edecek ve en yeni sürüme güncellemenizi isteyecektir."
                     }
                 }
             },
             "1": {
-                "title": "Game Maker Improvements",
+                "title": "Game Maker İyileştirmeleri",
                 "list": {
-                    "title": "GM v0.6.2 Hotfixes",
+                    "title": "GM v0.6.2 Düzeltmeleri",
                     "list": {
                         "0": {
-                            "title": "Fixed assets not fully loading even though they are seen in the experience, if the user switches to play before, they will be lost and several unwanted behaviours occurs. There is now a very small waiting timer before being able to switch to play."
+                            "title": "Varlıklar deneyimde görülse de tam olarak yüklenmeme, kullanıcı daha önce oyuna geçerse kaybolma ve çeşitli istenmeyen davranışlar ortaya çıkma sorunu çözüldü. Artık oyuna geçmeden önce çok küçük bir bekleme zamanlayıcısı var."
                         },
                         "1": {
-                            "title": "Fixed several issues related to the Asset Rarity Counts"
+                            "title": "Varlık Nadirlik Sayıları ile ilgili birkaç sorun düzeltildi"
                         },
                         "2": {
-                            "title": "Validated not allowing to enter playmode, save, publish, share and go to home if experience not fully loaded."
+                            "title": "Deneyim tam olarak yüklenmemişse oynatma moduna girmeye, kaydetmeye, yayınlamaya, paylaşmaya ve eve gitmeye izin verilmediği doğrulandı."
                         },
                         "3": {
-                            "title": "Fixed nullref when trying to share or publish an experience with unpublished assets in it."
+                            "title": "İçinde yayınlanmamış varlıklar bulunan bir deneyimi paylaşmaya veya yayınlamaya çalışırken boş referans düzeltildi."
                         },
                         "4": {
-                            "title": "Fixed nullrefs when entering NTFs inventory with asset spawner set to \"none\" (default)"
+                            "title": "Varlık oluşturucu \"yok\" (varsayılan) olarak ayarlıyken NTF envanterine girerken boş referanslar düzeltildi"
                         },
                         "5": {
-                            "title": "Fixed error not allowing to share/publish experience with drop component set to \"none\" (default)"
+                            "title": "Bırakma bileşeni \"yok\" olarak ayarlandığında deneyimin paylaşılmasına/yayınlanmasına izin verilmeme hatası (varsayılan) düzeltildi"
                         }
                     }
                 }
             },
             "2": {
-                "date": " May 17, 2021 - Game Maker 0.6.5",
-                "title": "Game Maker Improvements",
+                "date": " 17 Mayıs 2021 - Game Maker 0.6.5",
+                "title": "Game Maker İyileştirmeleri",
                 "list": {
                     "0": {
-                        "title": "Known Issues",
-                        "subtitle": "The following are the known issues for this version:",
+                        "title": "Bilinen Sorunlar",
+                        "subtitle": "Bu sürüm için bilinen sorunlar şunlardır:",
                         "list": {
                             "0": {
-                                "title": "We’ve temporarily disabled the PRESET SYSTEM from the Game Maker due to various issues and crashes happening around its use. All experiences that currently use this feature will still be functional, but the presets won’t be modifiable any further. We’ll be working to get it back up as soon as possible."
+                                "title": "Kullanımla ilgili çeşitli sorunlar ve çökmeler nedeniyle ÖN AYAR SİSTEMİ'ni Game Maker'dan geçici olarak devre dışı bıraktık. Şu anda bu özelliği kullanan tüm deneyimler işlevsel olmaya devam edecek, ancak ön ayarlar artık değiştirilemez. En kısa sürede eski haline getirmek için çalışacağız."
                             }
                         }
                     },
                     "1": {
-                        "title": "Game Maker Improvements",
+                        "title": "Game Maker İyileştirmeleri",
                         "list": {
                             "0": {
-                                "title": "Initial Equipment :",
-                                "subtitle": "A set of options was added on the Global Parameters Menu that lets users select the starting weapon and equipment the Avatar will commence an experience with."
+                                "title": "İlk Ekipman :",
+                                "subtitle": "Kullanıcıların Avatar'ın deneyime başlayacağı başlangıç silahını ve ekipmanını seçmesine olanak tanıyan Global Parametreler Menüsüne bir dizi seçenek eklendi."
                             },
                             "1": {
-                                "title": "Pre-Packaged Assets :",
-                                "subtitle": "From now on, we’ll be pre-loading assets into the Game Maker upon installation. This will help substantially with experience loading speeds, both on the Editor and the Gallery."
+                                "title": "Önceden Paketlenmiş Varlıklar :",
+                                "subtitle": "Şu andan itibaren, kurulumdan sonra varlıkları Game Maker'a önceden yükleyeceğiz. Bu, hem Editör'de hem de Galeri'de deneyim yükleme hızlarına önemli ölçüde yardımcı olacaktır."
                             },
                             "2": {
-                                "title": "Version Check :",
-                                "subtitle": "Now, everytime a new version of the Game Maker is available, our servers will check against your current installed version and request you to update to the newest version."
+                                "title": "Sürüm Kontrolü:",
+                                "subtitle": "Artık Game Maker'ın her yeni sürümü mevcut olduğunda, sunucularımız mevcut yüklü sürümünüzü kontrol edecek ve en yeni sürüme güncellemenizi isteyecektir."
                             }
                         }
                     },
                     "2": {
-                        "title": "Game Maker Improvements",
+                        "title": "Game Maker İyileştirmeleri",
                         "list": {
                             "0": {
-                                "title": "Transportation Changes :",
-                                "subtitle": "We’re preparing various of our systems for some upcoming new releases. In order to enable new and exciting features regarding how players can move from an experience to another, we’ve made some architecture level changes into our current transportation and waygate system."
+                                "title": "Ulaşım Değişiklikleri:",
+                                "subtitle": "Yaklaşan bazı yeni sürümler için çeşitli sistemlerimizi hazırlıyoruz. Oyuncuların bir deneyimden diğerine nasıl geçebileceklerine ilişkin yeni ve heyecan verici özellikleri etkinleştirmek için mevcut ulaşım ve geçiş sistemimizde bazı mimari düzeyde değişiklikler yaptık."
                             },
                             "1": {
-                                "title": "Server Templates :",
-                                "subtitle": "Previously, our Game Maker Templates were handled locally, now they’ll be held inside our servers so that we can update them in real time with new and exciting content as well as adding new templates without having to release a new Game Maker version."
+                                "title": "Sunucu Şablonları:",
+                                "subtitle": "Önceden Game Maker Şablonlarımız yerel olarak işleniyordu, şimdi ise onları yeni ve heyecan verici içerikle gerçek zamanlı olarak güncelleyebilmemiz ve yeni bir Game Maker sürümü yayınlamak zorunda kalmadan yeni şablonlar ekleyebilmemiz için sunucularımızda tutulacaklar."
                             }
                         }
                     },
                     "3": {
-                        "title": "Play Mode Improvements",
+                        "title": "Oyun Modu İyileştirmeleri",
                         "list": {
                             "0": {
-                                "title": "Gameplay Improvements :",
-                                "subtitle": "As part of our constant improvements to the Gameplay and Combat system we’ve added the following features:"
+                                "title": "Oynanış İyileştirmeleri:",
+                                "subtitle": "Oynanış ve Savaş sistemindeki sürekli iyileştirmelerimizin bir parçası olarak aşağıdaki özellikleri ekledik:"
                             }
                         }
                     },
                     "4": {
-                        "title": "Bug Fixes",
+                        "title": "Hata düzeltmeleri",
                         "list": {
                             "0": {
-                                "title": "Fixed various issues that caused random application crashes."
+                                "title": "Rastgele uygulama çökmelerine neden olan çeşitli sorunlar düzeltildi."
                             },
                             "1": {
-                                "title": "Fixed various issues that caused the application to become unresponsive"
+                                "title": "Uygulamanın yanıt vermemesine neden olan çeşitli sorunlar düzeltildi"
                             },
                             "2": {
-                                "title": "Fixed various issues regarding gameplay"
+                                "title": "Oynanışla ilgili çeşitli sorunlar düzeltildi"
                             },
                             "3": {
-                                "title": "Fixed various issues regarding Editor Usability"
+                                "title": "Düzenleyici Kullanılabilirliği ile ilgili çeşitli sorunlar düzeltildi"
                             }
                         }
                     }
                 }
             },
             "3": {
-                "date": "September 1, 2021 - Game Maker 0.6.9",
-                "title": "Game Maker Improvements",
+                "date": "1 Eylül 2021 - Game Maker 0.6.9",
+                "title": "Game Maker İyileştirmeleri",
                 "list": {
                     "0": {
-                        "title": "Game Maker Improvements",
+                        "title": "Game Maker İyileştirmeleri",
                         "list": {
                             "0": {
-                                "title": "NFT Image Self Illumination :",
-                                "subtitle": "An option was added on the NFT Image Component that lets users select if the environment Illumination affects the NFT image or if it is Self Illuminated."
+                                "title": "NFT Görüntü Kendinden Aydınlatma :",
+                                "subtitle": "NFT Görüntü Bileşenine, kullanıcıların ortam Aydınlatmasının NFT görüntüsünü etkileyip etkilemediğini veya Kendinden Aydınlatılmış olup olmadığını seçmesine olanak tanıyan bir seçenek eklendi."
                             },
                             "1": {
-                                "title": "NFT Interact Component :",
-                                "subtitle": "Gives the creator the opportunity to let the players inspect the NFTs that have this behaviour added."
+                                "title": "NFT Etkileşim Bileşeni:",
+                                "subtitle": "İçerik oluşturucuya, oyuncuların bu davranışın eklendiği NFT'leri incelemesine izin verme fırsatı verir."
                             },
                             "2": {
-                                "title": "Gameplay Improvements :",
-                                "subtitle": "As part of our constant improvements to the Gameplay and Combat system we’ve added the following features:"
+                                "title": "Oynanış İyileştirmeleri:",
+                                "subtitle": "Oynanış ve Savaş sistemindeki sürekli iyileştirmelerimizin bir parçası olarak aşağıdaki özellikleri ekledik:"
                             }
                         }
                     },
                     "1": {
-                        "title": "Bug Fixes",
+                        "title": "Hata düzeltmeleri",
                         "list": {
                             "0": {
-                                "title": "Fixed various issues that caused random application crashes."
+                                "title": "Rastgele uygulama çökmelerine neden olan çeşitli sorunlar düzeltildi."
                             },
                             "1": {
-                                "title": "Fixed various issues that caused the application to become unresponsive"
+                                "title": "Uygulamanın yanıt vermemesine neden olan çeşitli sorunlar düzeltildi"
                             },
                             "2": {
-                                "title": "Fixed various issues regarding gameplay"
+                                "title": "Oynanışla ilgili çeşitli sorunlar düzeltildi"
                             },
                             "3": {
-                                "title": "Fixed various issues regarding Editor Usability"
+                                "title": "Düzenleyici Kullanılabilirliği ile ilgili çeşitli sorunlar düzeltildi"
                             }
                         }
                     },
                     "2": {
-                        "title": "Known Issues",
-                        "subtitle": "The following are the known issues for this version:",
+                        "title": "Bilinen Sorunlar",
+                        "subtitle": "Bu sürüm için bilinen sorunlar şunlardır:",
                         "list": {
                             "0": {
-                                "title": "Farmer Behaviour is presenting issues when collecting the selected target asset. In addition to this, the farmer's behaviour does not flee when attacked by a selected hostile tag."
+                                "title": "Çiftçi Davranışı, seçilen hedef varlığı toplarken sorunlar gösteriyor. Buna ek olarak, seçilen bir düşman etiketi tarafından saldırıya uğradığında çiftçinin davranışı kaçmaz."
                             }
                         }
                     }
                 }
             },
             "4": {
-                "date": "September 17, 2021 - Game Maker 0.6.10",
-                "title": "Game Maker Improvements",
+                "date": "17 Eylül 2021 - Game Maker 0.6.10",
+                "title": "Game Maker İyileştirmeleri",
                 "list": {
                     "0": {
-                        "title": "Bug Fixes",
+                        "title": "Hata düzeltmeleri",
                         "list": {
                             "0": {
-                                "title": "Fixed various issues that caused random application crashes."
+                                "title": "Rastgele uygulama çökmelerine neden olan çeşitli sorunlar düzeltildi."
                             },
                             "1": {
-                                "title": "Fixed various issues that caused the application to become unresponsive"
+                                "title": "Uygulamanın yanıt vermemesine neden olan çeşitli sorunlar düzeltildi"
                             },
                             "2": {
-                                "title": "Fixed various issues regarding gameplay"
+                                "title": "Oynanışla ilgili çeşitli sorunlar düzeltildi"
                             },
                             "3": {
-                                "title": "Fixed various issues regarding Editor Usability"
+                                "title": "Düzenleyici Kullanılabilirliği ile ilgili çeşitli sorunlar düzeltildi"
                             }
                         }
                     }
                 }
             },
             "5": {
-                "date": "September 24, 2021 - Game Maker 0.6.11",
-                "title": "Bug Fixing and Enhancements",
+                "date": "24 Eylül 2021 - Game Maker 0.6.11",
+                "title": "Hata Düzeltme ve Geliştirmeler",
                 "list": {
                     "0": {
-                        "title": "Bug Fixes",
+                        "title": "Hata düzeltmeleri",
                         "list": {
                             "0": {
-                                "title": "Fixed library issues that caused application crashes."
+                                "title": "Uygulama çökmelerine neden olan sabit kitaplık sorunları."
                             },
                             "1": {
-                                "title": "Fixed serialization issues that caused application crashes."
+                                "title": "Uygulama çökmelerine neden olan seri hale getirme sorunları düzeltildi."
                             }
                         }
                     },
                     "1": {
-                        "title": "Enhancements",
+                        "title": "Geliştirmeler",
                         "list": {
                             "0": {
-                                "title": "Licenses button was added into GM settings."
+                                "title": "GM ayarlarına Lisanslar butonu eklendi."
                             }
                         }
                     }
                 }
             },
             "6": {
-                "date": "October 18, 2021 - Game Maker 0.6.12",
-                "title": "Bug Fixing and Enhancements",
+                "date": "18 Ekim 2021 - Game Maker 0.6.12",
+                "title": "Hata Düzeltme ve Geliştirmeler",
                 "list": {
                     "0": {
-                        "title": "Game Maker Improvements",
+                        "title": "Game Maker İyileştirmeleri",
                         "list": {
                             "0": {
-                                "title": "Game Maker Improvements: ",
-                                "subtitle": "UI Rework, Library Improvements."
+                                "title": "Game Maker İyileştirmeleri ",
+                                "subtitle": "UI Yeniden Çalışması, Kitaplık İyileştirmeleri."
                             },
                             "1": {
-                                "title": "Upgraded Components: ",
-                                "subtitle": "Sound Component."
+                                "title": "Yükseltilmiş Bileşenler: ",
+                                "subtitle": "Ses Bileşeni."
                             }
                         }
                     },
                     "1": {
-                        "title": "Bug Fixes",
+                        "title": "Hata düzeltmeleri",
                         "list": {
                             "0": {
-                                "title": "Fixed various issues that caused random application crashes."
+                                "title": "Rastgele uygulama çökmelerine neden olan çeşitli sorunlar düzeltildi."
                             },
                             "1": {
-                                "title": "Fixed various issues that caused the application to become unresponsive."
+                                "title": "Uygulamanın yanıt vermemesine neden olan çeşitli sorunlar düzeltildi."
                             },
                             "2": {
-                                "title": "Fixed various issues regarding gameplay."
+                                "title": "Oynanışla ilgili çeşitli sorunlar düzeltildi."
                             },
                             "3": {
-                                "title": "Fixed various issues regarding Editor Usability."
+                                "title": "Düzenleyici Kullanılabilirliği ile ilgili çeşitli sorunlar düzeltildi."
                             }
                         }
                     },
                     "2": {
-                        "title": "Known Issues",
-                        "subtitle": "The following are the known issues for this version:",
+                        "title": "Bilinen Sorunlar",
+                        "subtitle": "Bu sürüm için bilinen sorunlar şunlardır:",
                         "list": {
                             "0": {
-                                "title": "Farmer Behaviour is presenting issues when attacking the selected target asset."
+                                "title": "Çiftçi Davranışı, seçilen hedef varlığa saldırırken sorunlar gösteriyor."
                             },
                             "1": {
-                                "title": "Toggle Component is presenting several issues."
+                                "title": "Değiştirme Bileşeni birkaç sorun sunuyor."
                             }
                         }
                     }
                 }
             },
             "7": {
-                "date": "October 28, 2021 - Game Maker 0.6.13",
-                "title": "Bug Fixing and Enhancements",
+                "date": "28 Ekim 2021 - Game Maker 0.6.13",
+                "title": "Hata Düzeltme ve Geliştirmeler",
                 "list": {
                     "0": {
-                        "title": "Game Maker Improvements",
+                        "title": "Game Maker İyileştirmeleri",
                         "list": {
                             "0": {
-                                "title": "Game Maker Improvements:",
-                                "subtitle": "Save: now unique IDs are generated for each quest within the experience."
+                                "title": "Game Maker İyileştirmeleri:",
+                                "subtitle": "Kaydet: Artık deneyim içindeki her görev için benzersiz kimlikler oluşturuluyor."
                             },
                             "1": {
-                                "title": "Upgraded Components:",
-                                "subtitle": "Sound Component: Added Pause and Stop message, and fixed the autoplay feature."
+                                "title": "Yükseltilmiş Bileşenler:",
+                                "subtitle": "Ses Bileşeni: Duraklat ve Durdur mesajı eklendi ve otomatik oynatma özelliği düzeltildi."
                             }
                         }
                     },
                     "1": {
-                        "title": "Bug Fixes",
+                        "title": "Hata düzeltmeleri",
                         "list": {
                             "0": {
-                                "title": "Fixed various issues that caused random application crashes."
+                                "title": "Rastgele uygulama çökmelerine neden olan çeşitli sorunlar düzeltildi."
                             },
                             "1": {
-                                "title": "Fixed various issues that caused the application to become unresponsive."
+                                "title": "Uygulamanın yanıt vermemesine neden olan çeşitli sorunlar düzeltildi."
                             },
                             "2": {
-                                "title": "Fixed various issues regarding gameplay."
+                                "title": "Oynanışla ilgili çeşitli sorunlar düzeltildi."
                             },
                             "3": {
-                                "title": "Fixed various issues regarding Editor Usability."
+                                "title": "Düzenleyici Kullanılabilirliği ile ilgili çeşitli sorunlar düzeltildi."
                             }
                         }
                     },
                     "2": {
-                        "title": "Known Issues",
-                        "subtitle": "The following are the known issues for this version:",
+                        "title": "Bilinen Sorunlar",
+                        "subtitle": "Bu sürüm için bilinen sorunlar şunlardır:",
                         "list": {
                             "0": {
-                                "title": "Toggle Behaviour is presenting several issues."
+                                "title": "Değiştirme Davranışı birkaç sorun sunuyor."
                             }
                         }
                     }
                 }
             },
             "8": {
-                "date": "November 4, 2021 - Game Maker 0.6.14 changelog",
-                "title": "Bug Fixing and Enhancements",
+                "date": "4 Kasım 2021 - Game Maker 0.6.14 değişiklik günlüğü",
+                "title": "Hata Düzeltme ve Geliştirmeler",
                 "list": {
                     "0": {
-                        "title": "Game Maker Improvements",
+                        "title": "Game Maker İyileştirmeleri",
                         "list": {
                             "0": {
-                                "title": "Upgraded Components:",
-                                "subtitle": "Sound Component: Added more music tracks to the sound component."
+                                "title": "Yükseltilmiş Bileşenler:",
+                                "subtitle": "Ses Bileşeni: Ses bileşenine daha fazla müzik parçası eklendi."
                             }
                         }
                     },
                     "1": {
-                        "title": "Bug Fixes",
+                        "title": "Hata düzeltmeleri",
                         "list": {
                             "0": {
-                                "title": "Fixed an issue which caused some assets didn’t have the ID on the saved file."
+                                "title": "Bazı varlıkların kayıtlı dosyada kimliğine sahip olmamasına neden olan bir sorun düzeltildi."
                             }
                         }
                     }
                 }
             },
             "9": {
-                "date": "April 5, 2022 - Game Maker 0.6.24 changelog",
-                "title": "Bug Fixing and Enhancements",
+                "date": "5 Nisan 2022 - Game Maker 0.6.24 değişiklik günlüğü",
+                "title": "Hata Düzeltme ve Geliştirmeler",
                 "list": {
                     "0": {
-                        "title": "MacOS Compatibility",
+                        "title": "MacOS Uyumluluğu",
                         "list": {
                             "0": {
-                                "title": "MacOS build was released with feature parity with Windows version. Both builds are in the same state and should not present any differences."
+                                "title": "MacOS derlemesi, Windows sürümüyle özellik eşliği ile piyasaya sürüldü. Her iki yapı da aynı durumdadır ve herhangi bir farklılık göstermemelidir."
                             }
                         }
                     },
                     "1": {
-                        "title": "Game Maker Improvements",
+                        "title": "Game Maker İyileştirmeleri",
                         "list": {
                             "0": {
-                                "title": "Performance Improvements: ",
-                                "subtitle": "Several fixes were made that improved the general performance of the Game Maker."
+                                "title": "Performans Geliştirmeleri: ",
+                                "subtitle": "Game Maker'ın genel performansını iyileştiren çeşitli düzeltmeler yapıldı."
                             },
                             "1": {
-                                "title": "UI Improvements: ",
-                                "subtitle": "Visual issues were spotted and fixed on the UI: Scroll bars on the main menu were fixed and Toggles fixed."
+                                "title": "Kullanıcı Arayüzü İyileştirmeleri: ",
+                                "subtitle": "Kullanıcı arayüzünde görsel sorunlar tespit edildi ve düzeltildi: Ana menüdeki kaydırma çubukları düzeltildi ve Geçişler düzeltildi."
                             },
                             "2": {
-                                "title": "Lighting Enhancements: ",
-                                "subtitle": "General lighting enhancements were achieved in playmode, as well as more saturated colours reducing the fog."
+                                "title": "Aydınlatma Geliştirmeleri: ",
+                                "subtitle": "Oyun modunda genel aydınlatma iyileştirmelerinin yanı sıra sisi azaltan daha doygun renkler elde edildi."
                             }
                         }
                     }
@@ -9225,42 +9225,42 @@
         }
     },
     "buySandModal": {
-        "ethereumNetwork": "Ethereum Network",
-        "polygonNetwork": "Polygon Network",
+        "ethereumNetwork": "Ethereum Ağı",
+        "polygonNetwork": "Polygon Ağı",
         "ethereum": {
-            "title": "Add SAND to your wallet",
-            "description": "SAND is the currency you need to buy NFTs at The Sandbox"
+            "title": "Cüzdanınıza SAND ekleyin",
+            "description": "SAND, The Sandbox'ta NFT satın almak için ihtiyacınız olan para birimidir."
         },
         "polygon": {
-            "title": "Add SAND to your wallet",
-            "description": "SAND is the currency you need to buy NFTs at The Sandbox on Polygon Network"
+            "title": "Cüzdanınıza SAND ekleyin",
+            "description": "SAND, Polygon Network'teki The Sandbox'ta NFT satın almak için ihtiyacınız olan para birimidir."
         },
         "options": {
             "moonpay": {
-                "text": "Buy with Credit Card (MoonPay)",
-                "extra": "Switch Provider"
+                "text": "Kredi Kartı ile Satın Al (MoonPay)",
+                "extra": "Sağlayıcıyı Değiştir"
             },
             "binance": {
-                "text-ethereum": "Buy SAND on Binance",
-                "text-polygon": "Buy SAND on Binance",
-                "extra": "(Coming soon)"
+                "text-ethereum": "Binance'te SAND satın alın",
+                "text-polygon": "Binance'te SAND satın alın",
+                "extra": "(Çok yakında)"
             },
             "uniswap": {
-                "text-ethereum": "Buy SAND on Uniswap",
-                "text-polygon": "Buy SAND on Uniswap"
+                "text-ethereum": "Uniswap'ta SAND satın alın",
+                "text-polygon": "Uniswap'ta SAND satın alın"
             },
             "quickswap": {
-                "text": "Buy SAND on Quickswap"
+                "text": "Quickswap'ta SAND satın alın"
             }
         },
         "notes": {
-            "note1-ethereum": "Make sure you also have ETH in your wallet. ETH is required to pay Gas fees.",
-            "note1-polygon": "Make sure you also have MATIC in your wallet. MATIC is required to pay Gas fees.",
+            "note1-ethereum": "Cüzdanınızda da ETH olduğundan emin olun. ETH, Gaz ücretlerini ödemek için gereklidir.",
+            "note1-polygon": "Cüzdanınızda ayrıca MATIC olduğundan emin olun. MATIC'in Gaz ücreti ödemesi gerekmektedir.",
             "note2": {
-                "text-ethereum": "Buy ETH on:",
-                "text-polygon": "Buy MATIC on:",
+                "text-ethereum": "ETH satın alın:",
+                "text-polygon": "MATIC satın alın:",
                 "options": {
-                    "option1": "With Credit/Debit Card",
+                    "option1": "Kredi/Banka Kartı ile",
                     "option2": "Binance",
                     "option3": "Uniswap",
                     "option4": "Wyre",
@@ -9269,21 +9269,21 @@
             }
         },
         "help": {
-            "question1": "What is a wallet?",
-            "question2-ethereum": "How to buy SAND?",
-            "question2-polygon": "How to buy SAND?",
-            "question3": "Why do I need ETH?",
-            "question3-polygon": "Why do I need MATIC?",
-            "question4": "What is Gas fee?",
-            "more": "See more FAQs"
+            "question1": "Cüzdan nedir?",
+            "question2-ethereum": "SAND nasıl satın alınır?",
+            "question2-polygon": "SAND nasıl satın alınır?",
+            "question3": "Neden ETH'ye ihtiyacım var?",
+            "question3-polygon": "Neden MATIC'e ihtiyacım var?",
+            "question4": "Gaz ücreti nedir?",
+            "more": "Daha fazla SSS'ye bakın"
         },
         "fiatOptions": {
             "moonpay": "Moonpay",
             "simplex": "Simplex",
             "uphold": "Uphold",
             "ramp": "Ramp",
-            "comingSoon": "(Coming Soon)",
-            "recommended": "Recommended"
+            "comingSoon": "(Çok yakında)",
+            "recommended": "Önerilen"
         }
     },
     "exteralCollections": {
@@ -10189,12 +10189,16 @@
             "title": "Hiçbirşey Bulunamadı",
             "message": "Bu filtreyi uygulayan hiçbir şey bulamadık",
             "button": "Hepsini temizle",
-            "message2": "Bu filtreleri uygulayan hiçbir şey bulamadık"
+            "message2": "Bu filtreleri uygulayan hiçbir şey bulamadık",
+            "message1": "Hiçbir şey bulamadık."
         },
         "clean": "Filtreleri Temizle",
         "appliedfilter": "Uygulanan Filtreler",
         "applyfilter": "Filtreleri Uygula",
-        "filters": "Filtreler"
+        "filters": "Filtreler",
+        "collections": "Collections",
+        "sidebarcollections": "NFT COLLECTIONS",
+        "exploreCollections": "Explore Collections"
     },
     "kyc": {
         "statuses": {
@@ -10620,5 +10624,9 @@
             }
         }
     },
-    "title": "Cheaters will be banned"
+    "title": "Cheaters will be banned",
+    "collections": {
+        "title": "Explore Collections",
+        "subtitle": "Discover Collections and start creating unique Experiences in the Metaverse."
+    }
 }
