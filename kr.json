@@ -2107,7 +2107,7 @@
                         "column1": "경험",
                         "column2": "내 플레이 타임",
                         "column3": "전체 기록",
-                        "column4": "Average Time"
+                        "column4": "평균 시간"
                     }
                 },
                 "experienceDetails": {
@@ -2117,7 +2117,7 @@
                         "column2": "내 플레이 타임",
                         "column3": "전체 기록",
                         "column4": "기록 보유자",
-                        "column5": "Average Time"
+                        "column5": "평균 시간"
                     }
                 }
             },
@@ -2126,8 +2126,8 @@
                 "link": "지금 시작하기"
             },
             "cheaters": {
-                "title": "Cheaters will be banned",
-                "description": "Our anti-cheat squad is monitoring the Leaderboard. To report a cheater contact us at"
+                "description": "더 샌드박스 부정행위 방지팀이 리더보드를 지켜보고 있습니다. 부정행위자를 발견했을 경우, 다음의 이메일 주소로 제보해 주세요:",
+                "title": "부정행위 금지"
             }
         }
     },
@@ -9135,7 +9135,7 @@
                             },
                             "1": {
                                 "title": "레벨 위젯 개선: ",
-                                "subtitle": "It has a flash feedback so the user can notice when there is a change in the widget information."
+                                "subtitle": "위젯 정보에 변동사항이 있을 경우 유저가 알아차릴 수 있는 플래시 피드백이 생성되었습니다."
                             },
                             "2": {
                                 "title": "퀘스트 로그 위젯: ",
@@ -10503,33 +10503,33 @@
                     "0": {
                         "title": "새로운 기능",
                         "list": [
-                            "Login (for Content Collab feature)",
+                            "로그인 (콘텐츠 합동 제작 기능)",
                             "Animation Channels!",
                             "Ability to toggle between per axis and SLERP (spherical linear interpolation, i.e: what we had before) for multi axis rotations",
                             "Automated SLERP toggle to keep old behaviour for most animators",
                             "Reference frames for translation (World, Parent, Object)",
-                            "Camera POV widget",
+                            "카메라 POV 위젯",
                             "Color, node name and channel filters for timeline",
-                            "Delete Material button in Material panel",
+                            "물질 패널에서 물질 버튼 삭제",
                             "Append Palette in Palette header menu",
                             "Circle and Sphere tools for Modeler and Block Editor",
                             "Value dragging and arrows for Inspector transform text fields",
-                            "Double clicking a node in the viewport now edits it's attached model",
-                            "Floor grid toggle for Animator",
-                            "\"Solo Layer\" mode for Modeler",
-                            "Upload Popup"
+                            "뷰포트에서 노드를 더블클릭하여 연결된 모델 편집",
+                            "애니메이터에서 바닥 그리드 토글",
+                            "모델러에 \"단일 계층\" 모드 추가",
+                            "팝업 업로드"
                         ]
                     },
                     "1": {
                         "title": "개선 사항",
                         "list": [
-                            "New and improved themes!",
+                            "신규 및 개선된 테마!",
                             "Tab system for Library and Inspector",
                             "Vertical layout for Inspector, with new/delete keyframe per channel buttons",
-                            "Save and Save As in File menu",
-                            "Button to remove recent file from list",
+                            "파일 메뉴에서 저장 및 다른 이름으로 저장",
+                            "목록에서 최신 파일을 삭제할 수 있는 버튼 추가",
                             "Picker tool now works on any visible voxel, not just the active layer's ones",
-                            "Opening a rig now sets the camera to fit",
+                            "리그를 오픈하면 자동으로 카메라 조정",
                             "Camera now works better, makes it almost impossible to lock itself inside of geometry",
                             "Added shortcuts to Sync To/From MagicaVoxel (ctrl/cmd+m, shift+ctrl/cmd+m)",
                             "Added shortcut to Return to Rig from editing a model (esc)",
@@ -10537,12 +10537,12 @@
                             "Shorter rows in Timeline",
                             "Better Animator floor grid",
                             "Updated links to Marketplace, Tutorials, Guidelines, etc",
-                            "New Language Selector UI",
+                            "언어 선택 UI 업데이트",
                             "Added Move In Plane widget for selected voxel movement",
                             "Selected voxel edges are now shown in new \"see through\" mode",
-                            "Orthographic camera is better",
+                            "개선된 오르소그래픽 카메라",
                             "In shortest editor window, Modeler toolbar changes it's layout to be in two columns",
-                            "Voxel and node count for Animator"
+                            "애니메이터에서 복셀 및 노드 카운트"
                         ]
                     },
                     "2": {
@@ -10614,5 +10614,6 @@
                 }
             }
         }
-    }
+    },
+    "title": "부정행위 금지"
 }
