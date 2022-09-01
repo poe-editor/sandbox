@@ -613,7 +613,7 @@
                 "alpha": "게임 메이커 알파 다운받기",
                 "downloadInstall": "다운로드 및 설치",
                 "downloadGameMaker": "게임 메이커 다운로드",
-                "optionText": "아직 클라이언트를 다운로드하지 않았으면 여기에서 다운로드하세요",
+                "optionText": "아직 클라이언트를 다운로드하지 않았다면 여기에서 다운로드하세요",
                 "macOsDownload": "Mac OS 출시 예정"
             },
             "thanks": {
@@ -1610,7 +1610,7 @@
                 "ticketsTitle": "추첨 티켓 출처",
                 "ticketsDescription": "티켓을 많이 획득할수록 시즌 3 알파 패스에 당첨될 확률이 높아집니다.",
                 "ticketsDescription2": "추첨 티켓은 NFT가 아니며 2차 마켓에서 거래할 수 없습니다.",
-                "totalRaffleTickets": "획득한 총 추첨 티켓 수",
+                "totalRaffleTickets": "획득한 티켓",
                 "quest": "레벨업",
                 "staking": "스테이킹",
                 "s1Memorabilia": "시즌 1 기념품",
@@ -2126,7 +2126,7 @@
                 "link": "지금 시작하기"
             },
             "cheaters": {
-                "description": "더 샌드박스 부정행위 방지팀이 리더보드를 지켜보고 있습니다. 부정행위자를 발견했을 경우, 다음의 이메일 주소로 제보해 주세요:",
+                "description": "더 샌드박스 부정행위 방지팀이 리더보드를 지켜보고 있습니다. 부정행위자를 발견했을 경우, 아래의 이메일 주소로 제보해 주세요.",
                 "title": "부정행위 금지"
             }
         }
@@ -4059,7 +4059,8 @@
                 "unpublished": "게시되지 않음",
                 "exclusive": "특별",
                 "basic": "기본",
-                "sale": "판매 중"
+                "sale": "판매 중",
+                "wishlist": "Wishlist"
             },
             "actions": {
                 "title": "액션",
@@ -10309,7 +10310,8 @@
             "errorPublicLinkMessage": "올바르지 않은 형식의 URL",
             "createByName": "이름으로 생성",
             "createByUrl": "URL로 생성",
-            "publicLink": "공용 링크"
+            "publicLink": "공용 링크",
+            "isFeatured": "IS FEATURED"
         }
     },
     "termsOfUse": {
@@ -10548,7 +10550,7 @@
                     "2": {
                         "title": "변경 사항",
                         "list": [
-                            "Animation max length is now 30 seconds",
+                            "최대 애니메이션 재생 시간 30초",
                             "Removed Long Way Rotation (backwards compatibility kept by autoadding a middle keyframe)",
                             "Removed Local Transforms (backwards compatibility by adding a child node that is transformed using the original local transform and attaching the node's model to it instead)",
                             "GLTF is now exporting all animations for animated assets, not only the ones that have more keyframes",
@@ -10556,7 +10558,7 @@
                             "Node names are now limited to 24 characters",
                             "New Animations now take first frame pose from the current pose",
                             "VoxEdit now only runs as a single instance",
-                            "New Keyframe is disabled while playing an animation",
+                            "애니메이션을 플레이하는 동안 신규 키프레임 비활성화",
                             "Inspector IK values are no longer editable while playing an animation",
                             "Timeline rows are now a bit shorter",
                             "Removed \"Scroll Layer\" buttons from Modeler viewport (easier to work with the Translation widget)",
@@ -10579,8 +10581,8 @@
                             "Editor no longer crashes when stress clicking attach/detach panel buttons",
                             "Skeleton now trims down too long node names.",
                             "Save Confirmation popup trims down too long filenames",
-                            "Text in Welcome Screen has better readability now",
-                            "Opening a non existant recent file no longer crashes VE",
+                            "시작 화면의 텍스트 가독성 향상",
+                            "존재하지 않는 최신 파일을 열었을 때 복스에딧이 튕기는 현상 해결",
                             "Default theme no longer has the same color for the grid and the background in the Animator",
                             "Using Bucket tool in Paint or Erase mode outside of the volume in 2D views no longer crashes the editor",
                             "Frame tool didn't create an Undo step",
@@ -10591,14 +10593,14 @@
                             "2D views now update properly when the user cancels an action",
                             "Select mode with Face tool on empty space in 2D view no longer crashes the editor",
                             "Screen Rect tool in 2D views was mirrored on X in TOP and BOTTOM views",
-                            "Next Keyframe button and shortcut now work properly",
-                            "Copying/Pasting Keyframes no longer crash the editor",
+                            "다음 키프레임 버튼과 바로가기가 제대로 동작",
+                            "키프레임 복사/붙여넣기로 인해 에디터가 튕기는 현상 해결",
                             "Tweaking an IK constrain was making it invisible",
                             "Moving Keyframes in a dettached Timeline while the animation is running no longer crashes VE",
                             "Moving/copying keyframes now create an undo step",
                             "Palette header menus are now correctly rendered for a dettached Palette panel",
                             "Adding/deleting layers now move the scroll properly",
-                            "Deleting a model kept it's thumbnail in the cache",
+                            "모델을 삭제해도 캐시에 썸네일 유지",
                             "Opening a VXM now sets the first visible layer to be active",
                             "Bucket tool with SELECT/PAINT/ERASE mode wasn't working well on the RIGHT/BOTTOM/BACK bounds of the volume",
                             "Keyframe rect selection now works even if the left bound is behind the zero frame",
@@ -10607,13 +10609,13 @@
                             "Having a different decimal separator than \".\" set in the OS's regional settings no longer crashes VE",
                             "Creating decorative nodes for assets made based on decorable templates no longer crashes VE",
                             "Load Palette from a dettached Palette panel no longer crashes VE",
-                            "Screen Rect tool now works properly in 2D views",
-                            "Dragging/copying a KF on top of another now overwrites it properly"
+                            "2D 모드에서도 마우스 드래그로 선택하기 도구가 정상적으로 작동",
+                            "다른 프레임으로 키프레임을 드래그/복사했을 때 올바르게 덮어쓰기 실행"
                         ]
                     }
                 }
             }
         }
     },
-    "title": "부정행위 금지"
+    "title": "부정행위 금지!"
 }
