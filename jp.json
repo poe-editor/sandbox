@@ -10189,12 +10189,16 @@
             "title": "何も見つかりません",
             "message": "これらのフィルターを適用しているものは見つかりませんでした",
             "button": "すべてクリア",
-            "message2": "これらのフィルターを適用しているものは見つかりませんでした"
+            "message2": "これらのフィルターを適用しているものは見つかりませんでした",
+            "message1": "何も見つかりませんでした。"
         },
         "clean": "きれいなフィルター",
         "appliedfilter": "適用されたフィルター",
         "applyfilter": "フィルタを適用する",
-        "filters": "フィルタ"
+        "filters": "フィルタ",
+        "collections": "Collections",
+        "sidebarcollections": "NFT COLLECTIONS",
+        "exploreCollections": "Explore Collections"
     },
     "kyc": {
         "statuses": {
@@ -10620,5 +10624,9 @@
             }
         }
     },
-    "title": "Cheaters will be banned"
+    "title": "Cheaters will be banned",
+    "collections": {
+        "title": "Explore Collections",
+        "subtitle": "Discover Collections and start creating unique Experiences in the Metaverse."
+    }
 }
