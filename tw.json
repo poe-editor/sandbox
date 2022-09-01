@@ -10188,12 +10188,16 @@
             "title": "什麼都沒找到",
             "message": "我們找不到任何應用這些過濾器的東西",
             "button": "全部清除",
-            "message2": "我們找不到任何應用這些過濾器的東西"
+            "message2": "我們找不到任何應用這些過濾器的東西",
+            "message1": "我們什麼也找不到。"
         },
         "clean": "清潔過濾器",
         "appliedfilter": "應用過濾器",
         "applyfilter": "應用過濾器",
-        "filters": "過濾器"
+        "filters": "過濾器",
+        "collections": "Collections",
+        "sidebarcollections": "NFT COLLECTIONS",
+        "exploreCollections": "Explore Collections"
     },
     "kyc": {
         "statuses": {
@@ -10619,5 +10623,9 @@
             }
         }
     },
-    "title": "Cheaters will be banned"
+    "title": "Cheaters will be banned",
+    "collections": {
+        "title": "Explore Collections",
+        "subtitle": "Discover Collections and start creating unique Experiences in the Metaverse."
+    }
 }
