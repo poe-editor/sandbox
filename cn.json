@@ -1583,7 +1583,7 @@
                 "upTo": "Up to +100%",
                 "stakeDesc2": "\"You will also get {0} for staking enough {1}. 1 point earned for each {2} staked during the whole season duration (10 weeks).",
                 "extraTickets": "500 extra Raffle Tickets",
-                "onlyVerifiedAccounts": "Only Verified Accounts can win the Raffle",
+                "onlyVerifiedAccounts": "Only verified accounts can win this reward",
                 "claimRewards": "Claim Rewards!",
                 "alreadyOwnRaffle": "You already own an Alpha Pass! You will be able to claim your Alpha Pass rewards at the end of the season. No need to participate in the Raffle anymore.",
                 "getMore": "Get more",
@@ -2126,8 +2126,8 @@
                 "link": "Start Here"
             },
             "cheaters": {
-                "title": "Cheaters will be banned",
-                "description": "Our anti-cheat squad is monitoring the Leaderboard. To report a cheater contact us at"
+                "description": "Our anti-cheat squad is monitoring the Leaderboard. To report a cheater contact us at",
+                "title": "Cheaters will be banned"
             }
         }
     },
@@ -4059,7 +4059,8 @@
                 "unpublished": "未发布",
                 "exclusive": "专属",
                 "basic": "基础",
-                "sale": "出售中"
+                "sale": "出售中",
+                "wishlist": "Wishlist"
             },
             "actions": {
                 "title": "动作",
@@ -10312,7 +10313,8 @@
             "errorPublicLinkMessage": "URL incorrect format",
             "createByName": "Create by name",
             "createByUrl": "Created by URL",
-            "publicLink": "Public Link"
+            "publicLink": "Public Link",
+            "isFeatured": "IS FEATURED"
         }
     },
     "termsOfUse": {
@@ -10617,5 +10619,6 @@
                 }
             }
         }
-    }
+    },
+    "title": "Cheaters will be banned"
 }
