@@ -1547,7 +1547,7 @@
                 "completed": "Completed",
                 "missed": "なし",
                 "newThisWeek": "New This Week",
-                "avatargiveaway": ""
+                "avatargiveaway": "Avatar Giveaway"
             },
             "rewards": {
                 "alphaSeason": "アルファ・シーズン3",
@@ -2082,7 +2082,8 @@
                 "tooltips": {
                     "ep": "シーズン3のクエストをクリアして、エトスポイントを集めよう！",
                     "quests": "クエストを繰り返し、最速のクリアタイムを目指そう!",
-                    "rewards": "シーズンの終わりに報酬ページから報酬を受け取りましょう!"
+                    "rewards": "シーズンの終わりに報酬ページから報酬を受け取りましょう!",
+                    "missing": "You need at least 1 EP (earned by completing a quest) and to have verified your account to appear on the leaderboard."
                 }
             },
             "rewards": {
@@ -2118,7 +2119,8 @@
                         "column3": "World Record",
                         "column4": "Record Holder",
                         "column5": "Average Time"
-                    }
+                    },
+                    "buggedQuest": "This quest has been removed from time tracking due to a bug"
                 }
             },
             "banner": {
@@ -3363,11 +3365,11 @@
             "linkLands": "リンクしてください",
             "publish": "公開",
             "unpublish": "非公開",
-            "tags": "",
-            "collection": "",
-            "collectionToGate": "",
-            "defaultAvatar": "",
-            "displayedAsPreview": ""
+            "tags": "Tags",
+            "collection": "Collection",
+            "collectionToGate": "Collection to gate",
+            "defaultAvatar": "Default avatar",
+            "displayedAsPreview": "This will be displayed as a preview when the user does not own an avatar from the specified collection."
         },
         "publish": {
             "title": "体験を公開"
@@ -4343,7 +4345,8 @@
             "bitski": {
                 "title": "Bitski",
                 "value": "ウォレットに接続する",
-                "signin": "Bitskiでサインインしてください"
+                "signin": "Bitskiでサインインしてください",
+                "subtitle": "(Free Season 3 Airdrop)"
             },
             "email": {
                 "title": "メール",
@@ -4357,8 +4360,8 @@
                 "title": "Social",
                 "value": "次で続行：",
                 "signin": "Venlyでサインインしてください",
-                "subtitle": "",
-                "tooltip": ""
+                "subtitle": "(Venly)",
+                "tooltip": "Connecting through Social will create crypto-wallet in Venly."
             },
             "login": "既にアカウントを持っている",
             "waiting": "サインインまたはVenlyに登録してください",
@@ -4367,8 +4370,16 @@
             "walletLegacy": "古いウォレットを使用しているようです。手動でロックを解除して、再度お試しください。 ",
             "completeWConnect": "ウォレットアプリでサインアップ{0}の手続きを完了してください。",
             "completeCoinbase": "Coinbase アプリからブラウザで{0}サインアップ プロセスを完了してください。",
-            "showMoreOptions": "",
-            "showLessOptions": ""
+            "showMoreOptions": "Show more options",
+            "showLessOptions": "Show less options",
+            "completeLoginInWallet": {
+                "continueInApp": "Please continue the login process within your wallet app.",
+                "continueInAppHelp1": "Your wallet app isn't opening automatically?",
+                "continueInAppHelp2": "Try going through the login process again.",
+                "installWalletExtension": "Please refresh your browser after installing the extension.",
+                "installWalletExtensionContinue": "After reloading the page, resume your login process with the wallet extension you installed.",
+                "reloadPage": "RELOAD PAGE"
+            }
         },
         "signinModal": {
             "title": "サインイン",
