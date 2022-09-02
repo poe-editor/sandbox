@@ -1692,7 +1692,7 @@
                 "howToGet": "HOW TO GET A SEASON 3 ALPHA PASS?",
                 "raffleDesc": "Participate in the Raffle at the end of Alpha Season 3, on October 13, 2022.",
                 "contestsDesc": "Participate in Alpha Season 3 social contests.",
-                "openseaDesc": "Anyone can buy a Season 3 Alpha Pass on Opensea, if someone is willing to sell it.",
+                "openseaDesc": "Anyone can buy a Season 3 Alpha Pass on OpenSea, if someone is willing to sell it.",
                 "disclaimer": "Do not purchase an Alpha Pass after the end of Alpha Season 3 on October 12, 2022.",
                 "disclaimer2": "Be careful not to purchase a fake Season 3 Alpha Pass.",
                 "sandRewards": "SAND Rewards",
@@ -2082,7 +2082,8 @@
                 "tooltips": {
                     "ep": "Finish Season 3 Quests to collect Ethos Points!",
                     "quests": "Repeat Quests to try and get the fastest completion time!",
-                    "rewards": "Collect your Reward from the Rewards Page at the end of the season!"
+                    "rewards": "Collect your Reward from the Rewards Page at the end of the season!",
+                    "missing": "You need at least 1 EP (earned by completing a quest) and to have verified your account to appear on the leaderboard."
                 }
             },
             "rewards": {
@@ -2118,7 +2119,8 @@
                         "column3": "World Record",
                         "column4": "Record Holder",
                         "column5": "Average Time"
-                    }
+                    },
+                    "buggedQuest": "This quest has been removed from time tracking due to a bug"
                 }
             },
             "banner": {
@@ -4343,7 +4345,8 @@
             "bitski": {
                 "title": "Bitski",
                 "value": "Connect your wallet",
-                "signin": "Please sign in with Bitski"
+                "signin": "Please sign in with Bitski",
+                "subtitle": "(Free Season 3 Airdrop)"
             },
             "email": {
                 "title": "Email",
@@ -4368,7 +4371,15 @@
             "completeWConnect": "Please complete the Sign Up {0} process in you wallet app.",
             "completeCoinbase": "Please complete the Sign Up process {0}in the browser from your coinbase app.",
             "showMoreOptions": "Show more options",
-            "showLessOptions": "Show less options"
+            "showLessOptions": "Show less options",
+            "completeLoginInWallet": {
+                "continueInApp": "Please continue the login process within your wallet app.",
+                "continueInAppHelp1": "Your wallet app isn't opening automatically?",
+                "continueInAppHelp2": "Try going through the login process again.",
+                "installWalletExtension": "Please refresh your browser after installing the extension.",
+                "installWalletExtensionContinue": "After reloading the page, resume your login process with the wallet extension you installed.",
+                "reloadPage": "RELOAD PAGE"
+            }
         },
         "signinModal": {
             "title": "Log in",
