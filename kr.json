@@ -814,7 +814,7 @@
                 "land": "LAND를 소유하여 획득",
                 "total": "획득한 총 추첨 티켓 수",
                 "getNFT": "NFT 획득하기",
-                "stake": "",
+                "stake": "Stake",
                 "notTraded": "추첨 티켓은 NFT가 아니며,",
                 "notTraded2": "2차 마켓에서 거래할 수 없음",
                 "questTooltipDesc": "레벨업할 때마다 추첨 티켓을 획득합니다. 레벨당 주어지는 티켓의 수량은 리워드 탭을 참고하세요.",
@@ -2082,7 +2082,8 @@
                 "tooltips": {
                     "ep": "시즌 3 퀘스트를 완료하고 에토스 포인트를 모으세요!",
                     "quests": "퀘스트에 여러 번 도전하여 가장 빠른 완료 시간을 기록하세요!",
-                    "rewards": "시즌 종료 시 리워드 페이지에서 모든 리워드를 획득하세요!"
+                    "rewards": "시즌 종료 시 리워드 페이지에서 모든 리워드를 획득하세요!",
+                    "missing": "You need at least 1 EP (earned by completing a quest) and to have verified your account to appear on the leaderboard."
                 }
             },
             "rewards": {
@@ -2118,7 +2119,8 @@
                         "column3": "전체 기록",
                         "column4": "기록 보유자",
                         "column5": "평균 시간"
-                    }
+                    },
+                    "buggedQuest": "This quest has been removed from time tracking due to a bug"
                 }
             },
             "banner": {
@@ -4343,7 +4345,8 @@
             "bitski": {
                 "title": "Bitski",
                 "value": "지갑을 연결하세요",
-                "signin": "Bitski로 로그인하세요"
+                "signin": "Bitski로 로그인하세요",
+                "subtitle": "(Free Season 3 Airdrop)"
             },
             "email": {
                 "title": "이메일",
@@ -4368,7 +4371,15 @@
             "completeWConnect": "지갑에서 회원 가입 {0} 절차를 완료해 주세요.",
             "completeCoinbase": "코인베이스 앱의 브라우저에서 회원 가입 {0} 절차를 완료해 주세요.",
             "showMoreOptions": "더 보기",
-            "showLessOptions": "숨기기"
+            "showLessOptions": "숨기기",
+            "completeLoginInWallet": {
+                "continueInApp": "Please continue the login process within your wallet app.",
+                "continueInAppHelp1": "Your wallet app isn't opening automatically?",
+                "continueInAppHelp2": "Try going through the login process again.",
+                "installWalletExtension": "Please refresh your browser after installing the extension.",
+                "installWalletExtensionContinue": "After reloading the page, resume your login process with the wallet extension you installed.",
+                "reloadPage": "RELOAD PAGE"
+            }
         },
         "signinModal": {
             "title": "로그인",
