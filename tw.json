@@ -219,8 +219,8 @@
         "reportNFT": "Report NFT",
         "report": "Report",
         "failedTryAgain": "Something went wrong. Please try again.",
-        "search_name": "",
-        "options_selected": "",
+        "search_name": "Search by name",
+        "options_selected": "{count} options selected",
         "savedChanges": "Saved!",
         "createAccount": "Create an Account",
         "toPlayAlpha": "To Play Alpha Season 3 please use Mac or Windows PC",
@@ -242,7 +242,7 @@
                     "binanceCS": "Buy SAND on Binance (coming soon)",
                     "quickswap": "Swap SAND on Quickswap",
                     "comingSoon": "More options coming soon...",
-                    "moonpay": ""
+                    "moonpay": "Buy SAND on MoonPay"
                 },
                 "values": {
                     "binance": "Binance",
@@ -250,7 +250,7 @@
                     "simplex": "Simplex",
                     "binanceCS": "BinanceCS",
                     "quickswap": "Quickswap",
-                    "moonpay": ""
+                    "moonpay": "MoonPay"
                 },
                 "how": "如何購買 SAND",
                 "about": "ETH 可用來購買必要的礦工費，且會隨交易速率影響價格。",
@@ -513,7 +513,7 @@
             "raffleTickets": "抽獎券",
             "contests": "Events",
             "leaderboard": "Leaderboard",
-            "shop": "",
+            "shop": "Shop",
             "progression": {
                 "ticketDetails": "Ticket Details",
                 "s1pass": "Season 1 AP",
@@ -628,8 +628,8 @@
             "raffle": {
                 "noWinner": "YOU DIDN'T WIN",
                 "noWinnerDesc": "Better luck the next time! You didn't win an Alpha S3",
-                "winner": "",
-                "winnerDesc": ""
+                "winner": "YOU WON!",
+                "winnerDesc": "You won a S3 Alpha Pass"
             }
         },
         "pass": {
@@ -760,12 +760,12 @@
                     "raffleHasPassDesc": "You own a S3 Alpha Pass",
                     "communityBoosterDescription": "",
                     "enterThePartyDescription": "在 3 月 24 日週四下午 7 點參加 VIP 派對",
-                    "seasonOverDescription4": "",
+                    "seasonOverDescription4": "You will be able to claim the $SAND rewards soon! In the meantime visit the Pass holders VIP Party!",
                     "communityBoosterDescription4": "透過質押",
                     "communityBoosterDescription5": "每質押一次可取得 {stakingMultiplierVariable} 點",
                     "communityBoosterDescription6": "就會獲得 1 分。",
                     "enterThePartyDescription2": "加入僅限通行證持有者參加的 VIP 派對！",
-                    "raffleTitle4": "",
+                    "raffleTitle4": "APRIL",
                     "lockedDesc": "你得要有第 2 季 Alpha Pass，才能在第 2 季 Alpha 結束時領取 $SAND 獎勵。",
                     "memorabilia": "紀念品",
                     "memorabiliaTooltip": "所有達到等級 5 的玩家都能取得當季的 Memorabilia，還可以在日後所有活動季中取得更多獎勵。請注意，Memorabilia 並非 NFT。",
@@ -1547,7 +1547,7 @@
                 "completed": "Completed",
                 "missed": "Missed",
                 "newThisWeek": "New This Week",
-                "avatargiveaway": ""
+                "avatargiveaway": "Avatar Giveaway"
             },
             "rewards": {
                 "alphaSeason": "Alpha Season 3",
@@ -2082,7 +2082,8 @@
                 "tooltips": {
                     "ep": "Finish Season 3 Quests to collect Ethos Points!",
                     "quests": "Repeat Quests to try and get the fastest completion time!",
-                    "rewards": "Collect your Reward from the Rewards Page at the end of the season!"
+                    "rewards": "Collect your Reward from the Rewards Page at the end of the season!",
+                    "missing": "You need at least 1 EP (earned by completing a quest) and to have verified your account to appear on the leaderboard."
                 }
             },
             "rewards": {
@@ -2118,7 +2119,8 @@
                         "column3": "World Record",
                         "column4": "Record Holder",
                         "column5": "Average Time"
-                    }
+                    },
+                    "buggedQuest": "This quest has been removed from time tracking due to a bug"
                 }
             },
             "banner": {
@@ -3036,8 +3038,8 @@
                     "login": "我已經有帳戶了",
                     "waiting": "請登入/註冊 Venly",
                     "notAvailableWallet": "{walletName} is not available in {browserName}",
-                    "walletInUse": "",
-                    "walletLegacy": "",
+                    "walletInUse": "Wallet is being used by another account.",
+                    "walletLegacy": "You seem to be using a legacy wallet. Please, unlock it manually and try again.",
                     "completeWConnect": "Please complete the Sign Up {0} process in you wallet app.",
                     "completeWConnect2": "in you wallet app."
                 },
@@ -3363,11 +3365,11 @@
             "linkLands": "你應該連結",
             "publish": "發佈",
             "unpublish": "取消發佈",
-            "tags": "",
-            "collection": "",
-            "collectionToGate": "",
-            "defaultAvatar": "",
-            "displayedAsPreview": ""
+            "tags": "Tags",
+            "collection": "Collection",
+            "collectionToGate": "Collection to gate",
+            "defaultAvatar": "Default avatar",
+            "displayedAsPreview": "This will be displayed as a preview when the user does not own an avatar from the specified collection."
         },
         "publish": {
             "title": "發佈體驗"
@@ -4343,7 +4345,8 @@
             "bitski": {
                 "title": "Bitski",
                 "value": "連結你的錢包",
-                "signin": "請登入 Bitski"
+                "signin": "請登入 Bitski",
+                "subtitle": "(Free Season 3 Airdrop)"
             },
             "email": {
                 "title": "電子郵件",
@@ -4358,17 +4361,25 @@
                 "value": "繼續",
                 "signin": "請登入 Venly",
                 "subtitle": "(Venly)",
-                "tooltip": ""
+                "tooltip": "Connecting through Social will create crypto-wallet in Venly."
             },
             "login": "我已經有帳戶了",
             "waiting": "請登入/註冊 Venly",
             "notAvailableWallet": "{walletName} is not available in {browserName}",
-            "walletInUse": "",
-            "walletLegacy": "",
+            "walletInUse": "Wallet is being used by another account.",
+            "walletLegacy": "You seem to be using a legacy wallet. Please, unlock it manually and try again.",
             "completeWConnect": "Please complete the Sign Up {0} process in you wallet app.",
-            "completeCoinbase": "",
+            "completeCoinbase": "Please complete the Sign Up process {0}in the browser from your coinbase app.",
             "showMoreOptions": "Show more options",
-            "showLessOptions": "Show less options"
+            "showLessOptions": "Show less options",
+            "completeLoginInWallet": {
+                "continueInApp": "Please continue the login process within your wallet app.",
+                "continueInAppHelp1": "Your wallet app isn't opening automatically?",
+                "continueInAppHelp2": "Try going through the login process again.",
+                "installWalletExtension": "Please refresh your browser after installing the extension.",
+                "installWalletExtensionContinue": "After reloading the page, resume your login process with the wallet extension you installed.",
+                "reloadPage": "RELOAD PAGE"
+            }
         },
         "signinModal": {
             "title": "登入",
@@ -4783,7 +4794,7 @@
                 "4": "Collector",
                 "5": "Belonging Week"
             },
-            "memorabilia": ""
+            "memorabilia": "Memorabilia"
         }
     },
     "moderator": {
@@ -4836,7 +4847,7 @@
             "faucet": "Sand & Ether Faucets",
             "ticketDetails": "門票詳情",
             "raffleTickets": "抽獎券",
-            "products": "",
+            "products": "Product Releases",
             "partners": "Partners",
             "kyc": "User Verifications (KYC)",
             "shadowBan": "Shadow Ban"
@@ -4914,10 +4925,10 @@
             "matic": "MATIC"
         },
         "products": {
-            "product": "",
-            "view": "",
-            "edit": "",
-            "delete": ""
+            "product": "Product Release",
+            "view": "View",
+            "edit": "Edit",
+            "delete": "Delete"
         },
         "shadowBan": {
             "shadowBannedUsersList": "Shadow Banned Users List",
@@ -5299,8 +5310,8 @@
                 "acquisition": "收購品",
                 "currency": "貨幣",
                 "profit": "獲利",
-                "description": "",
-                "type": ""
+                "description": "DESCRIPTION",
+                "type": "TYPE"
             },
             "detailsmobile": {
                 "acquisition": "收購品",
@@ -6295,7 +6306,7 @@
             "mainnetL2Title": "Polygon",
             "testnetL2Title": "Mumbai",
             "lands": "",
-            "estate": "",
+            "estate": "ESTATE",
             "estates": ""
         },
         "tutorial": {
@@ -7291,9 +7302,9 @@
             "contractsIssue": "發生問題了。如果你嘗試更換錢包，請注意：每次更換錢包都必須簽署合約。",
             "toManyAvatars1": "你已達虛擬化身鑄造數量",
             "toManyAvatars2": "上限。前往 OpenSea 購買更多數量。",
-            "walletLocked": "",
-            "pleaseReconnect": "",
-            "doesNotMatch": ""
+            "walletLocked": "Something went wrong. Please connect a wallet in order to mint.",
+            "pleaseReconnect": "Please try to reconnect with:",
+            "doesNotMatch": "Your connected wallet does not match the one on your account."
         },
         "textFormMint": {
             "isPublic": "",
@@ -9724,9 +9735,9 @@
             },
             "redirectToUpload": "Redirecting to upload page",
             "users": {
-                "fail": "",
-                "home": "",
-                "account": ""
+                "fail": "You are trying to upload an asset with another account that you loggin in VoxEdit",
+                "home": "Back to home",
+                "account": "Login with another account"
             }
         },
         "experiences": {
@@ -10207,7 +10218,7 @@
                 "extra": "After completing this process, account verification might take up to 48hs. Make sure you verify on time so you don't miss any activity.",
                 "cta": "Start Verification",
                 "date": "on {0} UTC",
-                "needHelp": "",
+                "needHelp": "Need help? Check the {0} to learn more about the Account Verification process.",
                 "actionReference": ""
             },
             "inProgress": {
@@ -10216,8 +10227,8 @@
                 "extra": "After completing this process, account verification might take up to 48hs. Make sure you verify on time so you don't miss any activity.",
                 "cta": "Continue Verification",
                 "date": "on {0} UTC",
-                "needHelp": "",
-                "actionReference": ""
+                "needHelp": "Need help? Check the {0} to learn more about the Account Verification process.",
+                "actionReference": "Action Required"
             },
             "verified": {
                 "label": "Verified",
@@ -10225,7 +10236,7 @@
                 "extra": "Need help? Check the {0} to learn more about the Account Verification process.",
                 "cta": "Start Verification",
                 "date": "on {0} UTC",
-                "needHelp": "",
+                "needHelp": "Need help? Check the {0} to learn more about the Account Verification process.",
                 "actionReference": ""
             },
             "rejected": {
@@ -10234,7 +10245,7 @@
                 "extra": "",
                 "cta": "Start Verification",
                 "date": "on {0} UTC",
-                "needHelp": "",
+                "needHelp": "Need help? Check the {0} to learn more about the Account Verification process.",
                 "actionReference": ""
             },
             "cancelled": {
@@ -10252,7 +10263,7 @@
                 "extra": "",
                 "cta": "Check Verification Status",
                 "date": "on {0} UTC",
-                "needHelp": "",
+                "needHelp": "Need help? Check the {0} to learn more about the Account Verification process.",
                 "actionReference": ""
             },
             "actionRequired": {
@@ -10261,8 +10272,8 @@
                 "extra": "After completing this process, account verification might take up to 48hs. Make sure you verify on time so you don't miss any activity.",
                 "cta": "Upload ID document",
                 "date": "on {0} UTC",
-                "needHelp": "",
-                "actionReference": ""
+                "needHelp": "Need help? Check the {0} to learn more about the Account Verification process.",
+                "actionReference": "Action Required"
             }
         },
         "admin": {
