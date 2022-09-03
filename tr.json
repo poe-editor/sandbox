@@ -314,7 +314,7 @@
             "mod": "Mod",
             "admin": "Admin",
             "user": "Ben",
-            "communities": "Spaces"
+            "communities": "Boşluklar"
         },
         "footer": {
             "community": {
@@ -1518,22 +1518,22 @@
         },
         "alpha3": {
             "contest": {
-                "ranking": "RANKING SEASON 3",
+                "ranking": "3. SEZON SIRALAMASI",
                 "socialContests": "Etkinlikler ve Yarışmalar",
-                "howItWorks": "How does it work?",
-                "howItWorksDesc": "Earn different rewards by participating in activities every weekday.",
-                "ongoing": "LIVE",
-                "coming": "COMING",
-                "onlyForOwners": "Only For Owners",
-                "seeMore": "More Info",
-                "shared": "Shared",
-                "rewards": "Rewards",
-                "comingSoon": "COMING SOON",
-                "upcoming": "Upcoming",
-                "upcomingDesc": "Stay tuned for new contests every week!",
-                "play": "Play",
-                "openUntil": "Open until",
-                "upcomingEvents": "Gelecek Etkinlikler",
+                "howItWorks": "Nasıl çalışır?",
+                "howItWorksDesc": "Hafta içi her gün etkinliklere katılarak farklı ödüller kazanın.",
+                "ongoing": "CANLI",
+                "coming": "BİR SONRAKİ",
+                "onlyForOwners": "Sadece Sahipler İçin",
+                "seeMore": "Daha fazla bilgi",
+                "shared": "Paylaşılan",
+                "rewards": "Ödüller",
+                "comingSoon": "ÇOK YAKINDA",
+                "upcoming": "Gelecek",
+                "upcomingDesc": "Her hafta yeni yarışmalar için takipte kalın!",
+                "play": "Oyna",
+                "openUntil": "Kadar açık",
+                "upcomingEvents": "Yaklaşan Etkinlikler",
                 "endingSoon": "Ending Soon",
                 "upNext": "UP NEXT",
                 "prizePool": "Prize Pool",
@@ -2075,7 +2075,7 @@
                     "Kullanıcı",
                     "Ethos Puanı",
                     "Yarışma süresi",
-                    "Fiyatlar"
+                    "Ödüller"
                 ],
                 "warn": "Alfa Sezonu 3 sona ermeden önce kimliğinizi doğrulamayı unutmayın. Ödüllerinizi almak için buna ihtiyacınız var.\n",
                 "currentUser": "YOU",
@@ -2223,7 +2223,7 @@
                     "othersrightsTooltip": "Sandbox'ta herhangi bir amaç olmaksızın ürün ve hizmetlerin Sandbox dışında tanıtımı"
                 }
             },
-            "toastSucceed": "Thanks for reporting this asset. We will look into it as soon as possible."
+            "toastSucceed": "Bu varlığı bildirdiğiniz için teşekkür ederiz. En kısa sürede inceleyeceğiz."
         }
     },
     "shop": {
@@ -3038,8 +3038,8 @@
                     "login": "Zaten bir hesabım var",
                     "waiting": "Lütfen giriş yapın / Venly ile kaydolun",
                     "notAvailableWallet": "{walletName}, {browserName}'da mevcut değil",
-                    "walletInUse": "walletInUse",
-                    "walletLegacy": "walletLegacy",
+                    "walletInUse": "Cüzdan başka bir hesap tarafından kullanılıyor.",
+                    "walletLegacy": "Görünüşe göre eski bir cüzdan kullanıyorsunuz. Lütfen manuel olarak kilidini açın ve tekrar deneyin.",
                     "completeWConnect": "Please complete the Sign Up {0} process in you wallet app.",
                     "completeWConnect2": "in you wallet app."
                 },
@@ -3145,38 +3145,38 @@
                                 "text2": "SAND-MATIC stake etme çarpanı (Quickswap)",
                                 "text3": "SAND stake etme çarpanı (Katman 2)",
                                 "text4": "LAND sahibine özel $KATALİZÖR ve $MÜCEVHER çiftçiliği (Katman 2)",
-                                "text5": "LAND sahibine özel 10 milyon $SAND tarımı (Katman 2)"
+                                "text5": "LAND sahibine özel 10 milyon $SAND çiftçiliği (Katman 2)"
                             },
                             "buy": {
-                                "title": "BUY",
-                                "text1": "More than 100,000 LAND acquired by over 20,000 LAND owners",
-                                "text2": "New partners",
-                                "text3": "New sales system with a raffle and KYC for a fair and distributed process",
+                                "title": "SATIN ALMAK",
+                                "text1": "20.000'den fazla LAND sahibi tarafından 100.000'den fazla LAND satın alındı",
+                                "text2": "Yeni ortaklar",
+                                "text3": "Adil ve dağıtılmış bir süreç için çekiliş ve KYC içeren yeni satış sistemi",
                                 "text4": "Özel LAND Satışı Ubisoft, Paris Hilton, Warner Music Group, Gucci"
                             },
                             "play": {
-                                "title": "PLAY",
-                                "text1": "Season 1 : Exclusive Rewards",
-                                "text2": "Season 2 : Earn more $SAND and Raffle Tickets",
-                                "text3": "Season 3 : Extra Raffle Tickets, increased rewards, special raffle for LAND Owners only, raffle bonus"
+                                "title": "OYNA",
+                                "text1": "1. Sezon : Özel Ödüller",
+                                "text2": "2. Sezon : Daha fazla $SAND ve Çekiliş Bileti kazanın",
+                                "text3": "3. Sezon: Ekstra Çekiliş Biletleri, artırılmış ödüller, yalnızca LAND Sahiplerine özel çekiliş, çekiliş bonusu"
                             },
                             "build": {
-                                "title": "BUILD",
-                                "text1": "35+ certified Builders community",
-                                "text2": "Create ESTATEs with your LANDs",
-                                "text3": "Publish experiences on your LAND",
-                                "text4": "Rent Lands & Estates",
-                                "text5": "Premium LAND will unlock new assets and behaviors in the Game Maker"
+                                "title": "İNŞA",
+                                "text1": "35+ sertifikalı İnşaatçılar topluluğu",
+                                "text2": "LAND'lerinizle ARAZİ oluşturun",
+                                "text3": "LAND'inizde deneyimleri yayınlayın",
+                                "text4": "Kiralık Arazi ve Land'ler",
+                                "text5": "Premium LAND, Game Maker'da yeni varlıkların ve davranışların kilidini açacak"
                             },
                             "migrate": {
-                                "title": "MIGRATE",
-                                "text1": "Get access to all features on Polygon Layer 2",
-                                "text2": "1M $SAND distributed in cashback on migrated LANDs"
+                                "title": "GÖÇ",
+                                "text1": "Polygon Katman 2'deki tüm özelliklere erişin",
+                                "text2": "1 milyon $SAND, taşınan LAND'lerde nakit para olarak dağıtıldı"
                             },
                             "meet": {
-                                "title": "MEET",
-                                "text1": "Organize exclusive IRL events with our LAND owners including brands, talents and more… Soon at www.nft.nyc ✈️",
-                                "text2": "Organize and finance local Meetups"
+                                "title": "TANIŞIN",
+                                "text1": "LAND sahiplerimizle markalar, yetenekler ve daha fazlasını içeren özel IRL etkinlikleri düzenleyin… Yakında www.nft.nyc'de ✈️",
+                                "text2": "Yerel Buluşmalar düzenleyin ve finanse edin"
                             }
                         }
                     }
@@ -3549,8 +3549,8 @@
                 "assetNameTooShort": "Varlık adı çok kısa",
                 "assetDescriptionTooLong": "Varlık açıklaması çok uzun",
                 "preview": "Önizleme dosyasının biçimi veya boyutu yanlış, bir resim olmalı ve dosya boyutu 90 kb'den küçük olmalıdır",
-                "type": "Please enter a jpg, jpeg or webp file",
-                "size": "Please enter a file with a valid size no larger than 90k"
+                "type": "Lütfen bir jpg, jpeg veya webp dosyası girin",
+                "size": "Lütfen 90k'dan büyük olmayan geçerli bir boyuta sahip bir dosya girin"
             },
             "viewInMap": "Haritada Görüntüle",
             "notifications": {
@@ -3564,7 +3564,7 @@
                 }
             },
             "partner": "Ortak",
-            "unselected": "Unselected"
+            "unselected": "Seçilmemiş"
         },
         "notifications": {
             "not1": {
@@ -4023,10 +4023,10 @@
                 "addresCopied": "Adres panoya kopyalandı",
                 "userCopied": "Kullanıcı panoya kopyalandı",
                 "card": {
-                    "lastCard": "Last One!",
-                    "unique": "Unique"
+                    "lastCard": "Sonuncusu!",
+                    "unique": "Eşsiz"
                 },
-                "onPublished": "Published ({amount})"
+                "onPublished": "Yayınlandı ({amount})"
             },
             "getSandLine": {
                 "line": "{0}{1}{2} {3}",
@@ -4148,13 +4148,13 @@
                     "img": "/img/30_Profile/noresult-entities.png",
                     "text": "Varlıkların ekosistemde önemli bir rolü vardır, bir deneyim oluşturmak veya oyununuzu geliştirmek için onlara ihtiyacınız vardır. Ödüller kazanmak için onları stake edin veya Pazaryerinde satmak için kendi varlıklarınızı oluşturun.",
                     "links": {
-                        "1": "How to create an asset",
-                        "2": "About VoxEdit",
-                        "3": "How to buy on the Marketplace"
+                        "1": "Bir varlık nasıl oluşturulur",
+                        "2": "VoxEdit Hakkında",
+                        "3": "Pazaryeri'nden nasıl satın alınır"
                     },
                     "actions": {
-                        "1": "Download VoxEdit",
-                        "2": "Get assets on the Marketplace"
+                        "1": "VoxEdit İndir",
+                        "2": "Pazaryeri'nden varlıkları alın"
                     }
                 },
                 "experiences": {
@@ -4162,11 +4162,11 @@
                     "img": "/img/30_Profile/noresult-experiences.png",
                     "text": "LAND veya ARAZİ'nizde oyun yapmak için ücretsiz Game Maker yazılımını indirmeniz gerekir. Ayrıca Pazaryeri'nde bir oyun satın alabileceksiniz. Oyununuzu Game Maker'ı kullanarak tasarlayın ve test edin, yayınlama deneyimleri yakında kullanıma sunulacak.",
                     "links": {
-                        "1": "What are Experiences?",
-                        "2": "About Game Maker"
+                        "1": "Deneyimler nedir?",
+                        "2": "Game Maker Hakkında"
                     },
                     "actions": {
-                        "1": "Download Game Maker"
+                        "1": "Game Maker'ı İndirin"
                     }
                 },
                 "lands": {
@@ -4174,13 +4174,13 @@
                     "img": "/img/30_Profile/noresult-land.png",
                     "text": "Sandbox Metaverse, deneyimler oluşturmak ve bunlardan para kazanmak için oyuncuların sahip olduğu LAND'den oluşur. Oyunlara ev sahipliği yapmak, çok oyunculu deneyimler oluşturmak, konut oluşturmak veya topluluğa sosyal deneyimler sunmak için kullanılabilecek yalnızca 166.464 LAND olacak. LAND'leri halka açık satışlarımız sırasında veya OpenSea'den satın alabilirsiniz.",
                     "links": {
-                        "1": "What is a LAND",
-                        "2": "How to buy a LAND",
-                        "3": "About the Map"
+                        "1": "LAND nedir?",
+                        "2": "LAND nasıl satın alınır",
+                        "3": "Harita Hakkında"
                     },
                     "actions": {
-                        "1": "Go to the Map",
-                        "2": "Find LANDs at OpenSea"
+                        "1": "Haritaya Git",
+                        "2": "OpenSea'de LAND'leri bulun"
                     }
                 }
             },
@@ -4366,8 +4366,8 @@
             "login": "Zaten bir hesabım var",
             "waiting": "Lütfen Venly ile giriş yapın / üye olun",
             "notAvailableWallet": "{walletName}, {browserName}'da mevcut değil",
-            "walletInUse": "walletInUse",
-            "walletLegacy": "walletLegacy",
+            "walletInUse": "Cüzdan başka bir hesap tarafından kullanılıyor.",
+            "walletLegacy": "Görünüşe göre eski bir cüzdan kullanıyorsunuz. Lütfen manuel olarak kilidini açın ve tekrar deneyin.",
             "completeWConnect": "Please complete the Sign Up {0} process in you wallet app.",
             "completeCoinbase": "Please complete the Sign Up process {0}in the browser from your coinbase app.",
             "showMoreOptions": "Show more options",
@@ -4778,7 +4778,7 @@
         "tag-new": "YENİ",
         "tagNew": "YENİ",
         "signinWithEmail": "E-posta ile oturum açın",
-        "venlyDowntimeAlert": "Venly services will experience downtime between Monday 13, June from 03:00 UTC to 05:00 UTC.",
+        "venlyDowntimeAlert": "Venly hizmetlerinde 13 Haziran Pazartesi 03:00 UTC ile 05:00 UTC arasında kesinti yaşanacaktır.",
         "badges": {
             "title": "Badges",
             "note": "Get badges by achieving various goals inside The Sandbox ecosystem. Badges will grant you extra Raffle Tickets for upcoming Alpha Seasons Raffles.",
@@ -7688,8 +7688,8 @@
                 ]
             },
             "totalCashback": "Toplam Geri Ödeme:",
-            "cashback": "Cashback:",
-            "pendingSecond": "Pending second transaction",
+            "cashback": "Nakit İadesi:",
+            "pendingSecond": "Bekleyen ikinci işlem",
             "olderTransactions": "For older pending transactions, please check the {0} {1}",
             "polygonBridge": "Polygon Bridge Explorer"
         },
@@ -7706,10 +7706,10 @@
             "total": "🔥 Birikmiş Toplam Para İadesi 🔥",
             "claim": "Nakit Geri Ödeme talebinde bulunun"
         },
-        "deposits": "Deposits",
-        "withdraws": "Withdraws",
-        "actionRequired": "Action Required | Actions Required",
-        "actionsRequired": "Actions Required",
+        "deposits": "Para Yatırmalar",
+        "withdraws": "Para Çekmeler",
+        "actionRequired": "Eylem Gerekli | Gerekli İşlemler",
+        "actionsRequired": "Müdahale Gereklidir",
         "land": "Land | Lands"
     },
     "season.info.communityBooster.bulletPoints.1.3": {
@@ -9298,242 +9298,242 @@
         }
     },
     "exteralCollections": {
-        "name": "外部收藏",
+        "name": "Harici koleksiyonlar",
         "header": {
-            "title": "探索外部收藏",
-            "description": "發現可以在元節上使用的外部集合",
-            "info": "收藏信息",
-            "owners": "所有者",
-            "assets": "資產",
-            "link": "公共鏈接",
-            "created": "創建者",
+            "title": "HARİCİ KOLEKSİYONLARI KEŞFET",
+            "description": "Meta veri deposunda kullanabileceğiniz dış koleksiyonları keşfedin",
+            "info": "Koleksiyon Bilgileri",
+            "owners": "SAHİPLER",
+            "assets": "VARLIKLAR",
+            "link": "TOPLULUK BAĞLANTISI",
+            "created": "Oluşturan",
             "description2": "Cüzdanını bağla farklı bir avatarın olup olmadığını kontrol et"
         },
-        "link": "在 OpenSea 上購買",
-        "sidebar": "頭像",
-        "explore": "探索外部收藏",
-        "total": " 集合中的資產",
+        "link": "OpenSea'de satın alın",
+        "sidebar": "Avatar",
+        "explore": "Harici Koleksiyonları Keşfedin",
+        "total": " Koleksiyondaki varlıklar",
         "exploreLands": "Land & Estate'leri keşfet",
         "exploreLatest": "Explore All Assets"
     },
     "alpha3": {
         "contest": {
-            "play": "Play"
+            "play": "Oyna"
         }
     },
     "community": {
-        "wrongUrl": "Value must only contain letters and numbers",
-        "deleteButton": "Delete",
-        "cancelButton": "Cancel",
-        "back": "Back",
-        "community": "Community",
-        "collaboration": "Collaboration",
-        "createButton": "Create",
-        "saveButton": "Save",
+        "wrongUrl": "Değer yalnızca harf ve rakamlardan oluşmalıdır",
+        "deleteButton": "Sil",
+        "cancelButton": "İptal",
+        "back": "Geri",
+        "community": "Topluluk",
+        "collaboration": "Birlik",
+        "createButton": "Oluştur",
+        "saveButton": "Kaydet",
         "transferButton": "Transfer",
-        "editButton": "Edit",
-        "yes": "Yes",
-        "later": "Later",
-        "reset": "Reset",
-        "linkCopied": "Link copied to clipboard",
+        "editButton": "Düzenle",
+        "yes": "Evet",
+        "later": "Sonra",
+        "reset": "Sıfırla",
+        "linkCopied": "Bağlantı panoya kopyalandı",
         "sidebar": {
-            "settings": "Settings",
-            "members": "Members",
-            "workspaces": "Workspaces",
-            "reporting": "Reporting"
+            "settings": "Ayarlar",
+            "members": "Üyeler",
+            "workspaces": "Çalışma Alanları",
+            "reporting": "Hata Bildiri"
         },
-        "onlyAdminOrCreator": "This section is only available for community admins or workspace creators",
-        "onlyIfHasRolePermission": "This section is only available if you have permissions",
+        "onlyAdminOrCreator": "Bu bölüm yalnızca topluluk yöneticileri veya çalışma alanı yaratıcıları tarafından kullanılabilir",
+        "onlyIfHasRolePermission": "Bu bölüm yalnızca izinleriniz varsa kullanılabilir",
         "workspaces": {
-            "title": "Workspaces",
-            "workspace": "Workspace",
-            "add": "+ Add",
-            "new": "+ New",
-            "settings": "Settings",
-            "roles": "Roles",
-            "members": "Members",
-            "assets": "Assets",
-            "experiences": "Experiences",
-            "titleFilter": "Workspace created {value}/{total}",
-            "noResultTitle": "This Community doesn't have any Workspaces yet.",
-            "searchName": "Search by name",
-            "noResultText": "Click on 'Add Workspace' to start!",
-            "icon": "Icon",
-            "workspaceName": "Workspace name",
-            "workspaceMembersCount": "Members",
-            "workspaceAssetsCount": "Assets",
-            "workspaceExperiencesCount": "Experiences",
-            "link": "Link",
-            "workflow": "Workflow",
-            "copy": "Copy link",
-            "viewMembers": "View Members",
+            "title": "Çalışma Alanları",
+            "workspace": "Çalışma Alanları",
+            "add": "+ Ekle",
+            "new": "+ Yeni",
+            "settings": "Ayarlar",
+            "roles": "Roller",
+            "members": "Üyeler",
+            "assets": "Varlıklar",
+            "experiences": "Deneyimler",
+            "titleFilter": "{value}/{total} çalışma alanı oluşturuldu",
+            "noResultTitle": "Bu Topluluğun henüz bir Çalışma Alanı yok.",
+            "searchName": "Ada göre ara",
+            "noResultText": "Başlamak için 'Çalışma Alanı Ekle'yi tıklayın!",
+            "icon": "Simge",
+            "workspaceName": "Çalışma alanı adı",
+            "workspaceMembersCount": "Üyeler",
+            "workspaceAssetsCount": "Üyeler",
+            "workspaceExperiencesCount": "Deneyimler",
+            "link": "Bağlantı",
+            "workflow": "İş Akışı",
+            "copy": "Bağlantıyı Kopyala",
+            "viewMembers": "Üyeleri Görüntüle",
             "modal": {
                 "add": {
-                    "addWorkspace": "Add New Workspace",
-                    "workspaceName": "Workspace Name *",
-                    "workspaceNamePlaceholder": "Eg: Smurfs Playground",
-                    "workflowType": "Workflow Type",
-                    "enterURL": "Enter a URL",
+                    "addWorkspace": "Yeni Çalışma Alanı Ekle",
+                    "workspaceName": "Çalışma Alanı Adı *",
+                    "workspaceNamePlaceholder": "Örn: Smurfs Playground",
+                    "workflowType": "İş Akışı Türü",
+                    "enterURL": "URL Girin",
                     "workflows": {
-                        "simplified": "Simplified - No review",
-                        "reviewTransfer": "Review - With ownership transfer",
-                        "reviewWithoutTransfer": "Review - Without ownership transfer"
+                        "simplified": "Basitleştirilmiş - İnceleme yok",
+                        "reviewTransfer": "İnceleme - Sahiplik devri ile",
+                        "reviewWithoutTransfer": "İnceleme - Sahiplik devri olmadan"
                     }
                 },
                 "delete": {
-                    "deleteWorkspace": "Delete Workspace",
-                    "deleteWorkspaceQuestion": "Are you sure that you want to delete permanently the follow workspace?",
-                    "deleteButton": "Delete",
-                    "cancelButton": "Cancel",
-                    "name": "NAME",
-                    "workflow": "WORKFLOW"
+                    "deleteWorkspace": "Çalışma Alanını Sil",
+                    "deleteWorkspaceQuestion": "Takip çalışma alanını kalıcı olarak silmek istediğinizden emin misiniz?",
+                    "deleteButton": "Sil",
+                    "cancelButton": "İptal",
+                    "name": "İSİM",
+                    "workflow": "İŞ AKIŞI"
                 },
                 "edit": {
-                    "editWorkspace": "Edit members"
+                    "editWorkspace": "Üyeleri düzenle"
                 }
             },
             "workflowType": "Workflow Type"
         },
         "members": {
-            "newMember": "+ Add member",
-            "newInvitation": "Create invitation",
-            "invitations": "Invitations",
-            "members": "Members",
+            "newMember": "+ Üye ekle",
+            "newInvitation": "Davetiye oluştur",
+            "invitations": "Davetiyeler",
+            "members": "Üyeler",
             "tab": {
-                "numberOfMembers": "Members",
-                "numberOfInvitations": "Invitation created",
+                "numberOfMembers": "Üyeler",
+                "numberOfInvitations": "Davetiye oluşturuldu",
                 "table": {
-                    "user": "User",
-                    "groups": "Groups",
+                    "user": "Kullanıcı",
+                    "groups": "Gruplar",
                     "ban": "Ban",
-                    "actions": "Actions"
+                    "actions": "Aksiyonlar"
                 }
             },
             "modal": {
-                "assignRol": "Assign Roles",
-                "assignedRol": "Assigned Roles",
+                "assignRol": "Rolleri Ata",
+                "assignedRol": "Atanan Roller",
                 "toast": {
-                    "already": "{member} already exists.",
-                    "okAdded": "{member} was successfully added.",
-                    "okAddedPlu": "{member} were successfully added.",
-                    "otherMemberAlready": "{member} and other member already exists.",
-                    "otherMemberOk": "{member} and other member was successfully added.",
-                    "othersMembersAlready": "{member} and {count} others members already exists.",
-                    "othersMembersOk": "{member} and {count} others members were successfully added.",
-                    "notFound": "{member} not found"
+                    "already": "{member} zaten mevcut.",
+                    "okAdded": "{member} başarıyla eklendi.",
+                    "okAddedPlu": "{member} başarıyla eklendi",
+                    "otherMemberAlready": "{member} ve diğer üye zaten mevcut.",
+                    "otherMemberOk": "{member} ve başka bir üye başarıyla eklendi.",
+                    "othersMembersAlready": "{member} ve {count} diğer üye zaten var.",
+                    "othersMembersOk": "{member} ve {count} diğer üye başarıyla eklendi.",
+                    "notFound": "{member} bulunamadı"
                 },
                 "add": {
-                    "addMembers": "Add members",
-                    "addNewMembers": "Add New Members",
-                    "addInviteLink": "Create new Link Invitation",
-                    "removeAll": "Remove all",
-                    "membersToAdd": "Type or copy mails separated by commas",
-                    "errorEmails": "There is an error with one or more emails"
+                    "addMembers": "Üye ekle",
+                    "addNewMembers": "Yeni Üye Ekle",
+                    "addInviteLink": "Yeni Bağlantı Davetiyesi Oluştur",
+                    "removeAll": "Hepsini kaldır",
+                    "membersToAdd": "Postaları virgülle ayırarak yazın veya kopyalayın",
+                    "errorEmails": "Bir veya daha fazla e-postada hata var"
                 },
                 "delete": {
-                    "deleteMember": "Delete Member",
-                    "deleteInvite": "Delete Link Invitation",
-                    "questionMember": "Are you sure that you want to delete permanently the follow Member?",
-                    "questionInvite": "Are you sure that you want to delete permanently the follow Link Invitation?",
-                    "roles": "ROLES",
-                    "claims": "CLAIMS",
-                    "username": "Username"
+                    "deleteMember": "Üyeyi Sil",
+                    "deleteInvite": "Bağlantı Davetini Sil",
+                    "questionMember": "Takip ettiğiniz Üyeyi kalıcı olarak silmek istediğinizden emin misiniz?",
+                    "questionInvite": "Takip Bağlantı Davetiyesini kalıcı olarak silmek istediğinizden emin misiniz?",
+                    "roles": "ROLLER",
+                    "claims": "TALEPLER",
+                    "username": "Kullanıcı Adı"
                 },
                 "edit": {
-                    "editMember": "Edit Member"
+                    "editMember": "Üyeyi Düzenle"
                 }
             }
         },
         "invites": {
-            "numberOfUses": "Number of uses",
-            "lastEdition": "LAST EDITION",
-            "linkUses": "LINK USES",
-            "link": "LINK",
-            "actions": "ACTIONS",
-            "roles": "ROLES",
-            "claims": "CLAIMS",
-            "noInvitation": "This workspace doesn't have any invitations yet",
-            "noPrivateWorkspaceInvite": "Can not create invite for private workspace",
-            "clickToAddInvitation": "Click on 'Create invitation' to start"
+            "numberOfUses": "Kullanılma Sayısı",
+            "lastEdition": "SON BASKI",
+            "linkUses": "BAĞLANTI KULLANIMLARI",
+            "link": "BAĞLANTI",
+            "actions": "HAREKETLER",
+            "roles": "ROLLER",
+            "claims": "TALEPLER",
+            "noInvitation": "Bu çalışma alanında henüz davetiye yok",
+            "noPrivateWorkspaceInvite": "Özel çalışma alanı için davet oluşturulamıyor",
+            "clickToAddInvitation": "Başlamak için 'Davetiye oluştur'u tıklayın"
         },
         "settings": {
-            "generalSettings": "General Settings",
-            "manageCommunity": "Manage the community details, info and more.",
-            "workspaceName": "Workspace Name",
-            "workflowType": "Workflow Type",
+            "generalSettings": "Genel Ayarlar",
+            "manageCommunity": "Topluluk ayrıntılarını, bilgileri ve daha fazlasını yönetin.",
+            "workspaceName": "Çalışma Alanı Adı",
+            "workflowType": "İş Akışı Türü",
             "url": "URL",
-            "saveChanges": "Save Changes",
-            "quotas": "Quotas",
-            "membersLimit": "Members Limit",
-            "membersPerGroup": "Members per group",
-            "assetLimit": "Asset Limit",
-            "experiencesLimit": "Experiences Limit",
-            "actions": "Actions",
-            "exportWorkspace": "Export workspace",
-            "importWorkspace": "Import workspace",
-            "wantToRemove": "Do you want to remove this workplace from Administrator?",
-            "wantToRemoveDescription": "Removing your team will remove all users and administrators from your team. The action of deleting a workspace is PERMANENT and the data associated with it cannot be recovered.",
-            "wantToRemoveLink": "I want to delete this workplace permanently"
+            "saveChanges": "Değişiklikleri Kaydet",
+            "quotas": "Kota",
+            "membersLimit": "Üye Sınırı",
+            "membersPerGroup": "Grup Başına Üye",
+            "assetLimit": "Varlık Sınırı",
+            "experiencesLimit": "Deneyim Sınırı",
+            "actions": "Hareketler",
+            "exportWorkspace": "Çalışma alanını dışa aktar",
+            "importWorkspace": "Çalışma alanını içe aktar",
+            "wantToRemove": "Bu işyerini Yöneticiden kaldırmak istiyor musunuz?",
+            "wantToRemoveDescription": "Ekibinizi kaldırmak, tüm kullanıcıları ve yöneticileri ekibinizden kaldırır. Bir çalışma alanını silme eylemi KALICIDIR ve bununla ilişkili veriler kurtarılamaz.",
+            "wantToRemoveLink": "Bu işyerini kalıcı olarak silmek istiyorum"
         },
         "roles": {
             "modal": {
-                "Asset_creator": "Asset Creator",
-                "Asset_editor": "Asset Editor",
-                "Asset_reviewer": "Asset Reviewer",
-                "Asset_reviewer_edit": "Asset Reviewer Edition",
-                "Asset_request_approval": "Asset Request Approval",
-                "Asset_show": "Asset Show",
-                "Role_creator": "Role Creator",
-                "Roles_editor": "Role Editor",
-                "Roles_destroyer": "Role Destroyer",
-                "Roles_updater": "Role Updater",
-                "Roles_show": "Role Assigner",
-                "Members_creator": "Member Creator",
-                "Members_editor": "Member Editor",
-                "Members_updater": "Member Updater",
-                "Members_destroyer": "Member Destroyer",
-                "Workspace_updater": "Workspace Updater",
-                "Workspace_invite_creator": "Invite Creator",
-                "Workspace_invite_show": "Invite Display",
-                "Workspace_invite_destroyer": "Invite Destroyer",
-                "Workspace_owned_asset_add": "Add owned asset",
-                "Workspace_transfer_asset_ownership": "Transfer Asset Ownership",
-                "Workspace_asset_move_verify": "Move Asset to Verify",
-                "Asset_send_iterate": "Send Asset Iterate",
-                "Asset_view_history": "Asset View History",
-                "Asset_restore": "Asset Restore",
-                "Workspaces_assets_transfer_to_workspace": "Transfer Asset to Workspace",
+                "Asset_creator": "Varlık Oluşturucu",
+                "Asset_editor": "Varlık Düzenleyicisi",
+                "Asset_reviewer": "Varlık İncelemecisi",
+                "Asset_reviewer_edit": "Varlık İnceleyici Sürümü",
+                "Asset_request_approval": "Varlık Talebi Onayı",
+                "Asset_show": "Varlık Gösterisi",
+                "Role_creator": "Rol Oluşturucu",
+                "Roles_editor": "Rol Düzenleyici",
+                "Roles_destroyer": "Rol Yok Edici",
+                "Roles_updater": "Rol Güncelleyici",
+                "Roles_show": "Rol Ataması",
+                "Members_creator": "Üye Oluşturucu",
+                "Members_editor": "Üye Düzenleyici",
+                "Members_updater": "Üye Güncelleyici",
+                "Members_destroyer": "Üye Yok Edici",
+                "Workspace_updater": "Çalışma Alanı Güncelleyici",
+                "Workspace_invite_creator": "Yaratıcıyı Davet Et",
+                "Workspace_invite_show": "Davet Ekranı",
+                "Workspace_invite_destroyer": "Yok Ediciyi Davet Et",
+                "Workspace_owned_asset_add": "Sahip olunan öğeyi ekle",
+                "Workspace_transfer_asset_ownership": "Varlık Sahipliğini Aktar",
+                "Workspace_asset_move_verify": "Varlığı Doğrulamak için Taşı",
+                "Asset_send_iterate": "Varlık Yineleme Gönder",
+                "Asset_view_history": "Varlık Görünümü Geçmişi",
+                "Asset_restore": "Varlık Geri Yükleme",
+                "Workspaces_assets_transfer_to_workspace": "Varlığı Çalışma Alanına Aktarın",
                 "menuAction": {
-                    "manageMembers": "Manage members",
-                    "editRole": "Edit role",
-                    "deleteRole": "Delete role"
+                    "manageMembers": "Üyeleri yönet",
+                    "editRole": "Rolü düzenle",
+                    "deleteRole": "Rolü sil"
                 },
                 "manageMembers": {
-                    "title1": "Manage Members to ",
-                    "title2": " role",
-                    "placeholder": "Search by email",
-                    "noMembersShow": "There's not members to show",
-                    "newMembersToAdd": "NEW MEMBERS SELECTED TO ADD",
-                    "members": "Members",
-                    "roleWithoutMember": "This role doesn't have any member yet.",
-                    "success": "{name} was successfully updated"
+                    "title1": "Üyeleri Yönet ",
+                    "title2": " rol",
+                    "placeholder": "E-posta ile ara",
+                    "noMembersShow": "Gösterilecek üye yok",
+                    "newMembersToAdd": "EKLENECEK YENİ ÜYELER SEÇİLDİ",
+                    "members": "Üyeler",
+                    "roleWithoutMember": "Bu rolün henüz bir üyesi yok.",
+                    "success": "{name} başarıyla güncellendi"
                 },
                 "addEdit": {
-                    "title": "Create New Role",
-                    "nameRole": "Name Role",
-                    "placeholderName": "Eg. Smurfs playground",
-                    "permissions": "Permissions",
-                    "description": "Description",
-                    "placeholderDescription": "Give to the members a short description of the group"
+                    "title": "Yeni Rol Oluştur",
+                    "nameRole": "İsim Rol",
+                    "placeholderName": "Örn. Smurfs playground",
+                    "permissions": "İzinler",
+                    "description": "Açıklama",
+                    "placeholderDescription": "Üyelere grubun kısa bir tanımını verin"
                 },
                 "delete": {
-                    "title": "Delete Role",
-                    "question": "Are you sure that you want to delete permanently the follow Role?",
-                    "role": "ROLE",
-                    "members": "MEMBERS",
-                    "permissions": "PERMISSIONS",
-                    "workflow": "WORKFLOW",
-                    "success": "{member} was successfully deleted"
+                    "title": "Rolü Sil",
+                    "question": "Takip Rolünü kalıcı olarak silmek istediğinizden emin misiniz?",
+                    "role": "ROL",
+                    "members": "ÜYELER",
+                    "permissions": "İZİNLER",
+                    "workflow": "İŞ AKIŞI",
+                    "success": "{member} başarıyla silindi"
                 },
                 "divider": {
                     "asset": "Asset",
@@ -9544,195 +9544,195 @@
                 },
                 "options_selected": "{count} permissions selected"
             },
-            "addNewRoles": "+ Add New Role",
-            "quantityRoles": "Roles created",
-            "gridRole": "ROLE",
-            "gridPermissions": "PERMISSIONS",
-            "gridMembers": "MEMBERS",
-            "gridActions": "ACTIONS",
-            "youDontHaveRoles": "This Workspace doesn’t have any role yet.",
-            "notRolesYet": "This Workspace doesn't have any roles yet.",
-            "clickToCreate": "Click on “Add New Role” to start!",
-            "workspacePrivate": "You cannot create roles for the private Workspace."
+            "addNewRoles": "+ Yeni Rol Ekle",
+            "quantityRoles": "Roller oluşturuldu",
+            "gridRole": "ROL",
+            "gridPermissions": "İZİNLER",
+            "gridMembers": "ÜYELER",
+            "gridActions": "AKSİYONLAR",
+            "youDontHaveRoles": "Bu Çalışma Alanının henüz bir rolü yok.",
+            "notRolesYet": "Bu Çalışma Alanının henüz bir rolü yok.",
+            "clickToCreate": "Başlamak için “Yeni Rol Ekle”ye tıklayın!",
+            "workspacePrivate": "Özel Çalışma Alanı için roller oluşturamazsınız."
         },
         "assets": {
-            "loading": "Loading assets...",
-            "uploadingAsset": "Loading asset...",
-            "notAssets": "There are no assets in your workspace. ",
+            "loading": "Varlıklar yükleniyor...",
+            "uploadingAsset": "Varlıklar yükleniyor...",
+            "notAssets": "Çalışma alanınızda varlık yok.",
             "notAssetsOwnedToAdd": "Ekleyecek daha fazla varlığınız mevcut değil. Pazaryerine gidip varlık satın al.",
-            "notAssetsUpload_1": " Use ",
-            "notAssetsUpload_2": " Vox Edit to upload one.",
+            "notAssetsUpload_1": " Bir tane yüklemek için",
+            "notAssetsUpload_2": " VoxEdit kullan",
             "noAssetsCatalog": "Varlık almak için Pazaryerine git ya da Vox Edit kullan ve oluştur",
             "notAssets_2": "Varlık almak için Pazaryerine git ya da Vox Edit kullan ve oluştur",
-            "onlyMyAssets": "Show only my Assets",
-            "searchName": "Search by name",
-            "notPermissions": "You don't have permission to see assets",
-            "assetsTotal": "Assets total {count}",
-            "readyToMint": "Ready to Mint",
-            "positionOf": "{current} of {total}",
-            "assetsApproval": "{count} assets were successfully requested approval",
-            "singleAssetApproval": "was successfully requested approval",
-            "deletedOk": "Asset successfully deleted",
-            "bannedOk": "Asset successfully banned",
-            "transferedOk": "Asset transfered correctly",
-            "tokenCopied": "Token ID copied to clipboard",
-            "alreadyBelogsCommunity": "This Asset already belongs to this Collection",
+            "onlyMyAssets": "Yalnızca Varlıklarımı göster",
+            "searchName": "Ada göre ara",
+            "notPermissions": "Varlıkları görme izniniz yok",
+            "assetsTotal": "Varlık toplamı {count}",
+            "readyToMint": "Mintlemeye Hazır",
+            "positionOf": "{current} / {total}",
+            "assetsApproval": "{count} öğenin onayı başarıyla istendi",
+            "singleAssetApproval": "başarıyla onay istendi",
+            "deletedOk": "Varlık başarıyla silindi",
+            "bannedOk": "Varlık başarıyla engellendi",
+            "transferedOk": "Varlık doğru şekilde aktarıldı",
+            "tokenCopied": "Token kimliği panoya kopyalandı",
+            "alreadyBelogsCommunity": "Bu Varlık zaten bu Koleksiyona ait",
             "stats": {
-                "copies": "COPIES",
-                "behavior": "BEHAVIOR",
-                "none": "NONE"
+                "copies": "KOPYALAR",
+                "behavior": "DAVRANIŞ",
+                "none": "YOK"
             },
             "minting": {
-                "title": "ASSETS {amount}"
+                "title": "VARLIKLAR {amount}"
             },
             "owned": {
-                "addOwned": "Add Owned",
-                "allocate": "Allocate",
-                "unallocate": "Unallocate",
-                "search": "Search",
-                "all": "All",
-                "successOnlyMove": "An asset was successfully {action} in the workspace",
-                "successOnlyAllocate": "An asset was successfully allocated in the workspace",
-                "successOnlyUnallocate": "An asset was successfully unallocated in the workspace",
-                "successGroupMove": "{amount} assets were successfully moved in the workspace",
-                "successGroupAllocate": "{amount} assets were successfully allocated in the workspace",
-                "successGroupUnallocate": "{amount} assets were successfully unallocated in the workspace"
+                "addOwned": "Sahip Olunan Ekle",
+                "allocate": "Ayır",
+                "unallocate": "Ayırmayı kaldır",
+                "search": "Ara",
+                "all": "Tümü",
+                "successOnlyMove": "Bir öğe, çalışma alanında başarıyla {action} yapıldı",
+                "successOnlyAllocate": "Çalışma alanında bir varlık başarıyla tahsis edildi",
+                "successOnlyUnallocate": "Çalışma alanında bir varlık başarıyla ayrıldı",
+                "successGroupMove": "{amount} öğe, çalışma alanına başarıyla taşındı",
+                "successGroupAllocate": "{amount} varlık, çalışma alanında başarıyla tahsis edildi",
+                "successGroupUnallocate": "{amount} varlık, çalışma alanında başarıyla ayrıldı"
             },
             "history": {
-                "searchUser": "Search user",
-                "snapshots": "Snapshots",
-                "title": "History"
+                "searchUser": "Kullanıcı ara",
+                "snapshots": "Anlık Görüntüler",
+                "title": "Tarih"
             },
             "upload": {
-                "noPermissions": "You don't have permission to upload or update an asset",
+                "noPermissions": "Bir öğeyi yükleme veya güncelleme izniniz yok",
                 "workspaceStep": {
-                    "title": "Do you want to pick another workspace to upload this asset ?",
-                    "workspace": "Workspace",
-                    "community": "Community"
+                    "title": "Bu varlığı yüklemek için başka bir çalışma alanı seçmek istiyor musunuz?",
+                    "workspace": "Çalışma Alanı",
+                    "community": "Toplum"
                 },
                 "transferToWorkspace": {
-                    "title": "Transfer to Workspace",
-                    "community": "Select Community",
-                    "workspace": "Select Workspace",
-                    "transfer": "Transfer"
+                    "title": "Çalışma Alanına Aktarma",
+                    "community": "Topluluk Seç",
+                    "workspace": "Çalışma Alanı Seç",
+                    "transfer": "Aktar"
                 },
                 "preStep": {
-                    "setAttributes": "Do you want to set the attributes now?",
-                    "description1": "- You can configure your biome on your Voxel and tag it with its main characteristics so that it is recognized by our users.",
-                    "description2": "- Also establish attributes that will be given to your asset great powers to use in Game Maker and your experiences"
+                    "setAttributes": "Nitelikleri şimdi ayarlamak istiyor musunuz?",
+                    "description1": "- Biyomunuzu Voxel'inizde yapılandırabilir ve kullanıcılarımız tarafından tanınması için ana özellikleriyle etiketleyebilirsiniz.",
+                    "description2": "- Ayrıca, Game Maker'da kullanmak için varlığınıza büyük güçler verilecek özellikleri ve deneyimlerinizi belirleyin."
                 },
                 "name": {
-                    "name": "NFT Full Name",
-                    "description": "Description",
-                    "placeDescription": "Enter the NFT description",
-                    "placeName": "Enter the NFT name"
+                    "name": "NFT Tam Adı",
+                    "description": "Tanım",
+                    "placeDescription": "NFT açıklamasını girin",
+                    "placeName": "NFT adını girin"
                 },
                 "rarity": {
-                    "behaviour": "Behaviour",
-                    "pickBehaviour": "Choose the behavior of your NFT",
-                    "description": "The behavior defines how ehe asset is going to behave in Game Maker.",
-                    "artOrProp": "If you choose Art or Prop Tier, you can't add some gems to your asset",
+                    "behaviour": "Davranışlar",
+                    "pickBehaviour": "NFT'nizin davranışını seçin",
+                    "description": "Davranış, varlığın Game Maker'da nasıl davranacağını tanımlar.",
+                    "artOrProp": "Sanat veya Nesne Katmanı'nı seçerseniz varlığınıza bazı mücevherler ekleyemezsiniz.",
                     "stepCommonInfo": "Bu NFT'lerin ilk seviyesidir. Gamemaker'da limitli olarak bulunur ve az Ethos Puanı verir.",
                     "stepRareInfo": "Nadir NFT'ler Game Maker kullanımı arttırır ve daha fazla Ethos Puanı kazandırır.",
-                    "stepEpicInfo": "Epic NFT have access to almost all Game Maker functionalities and can reward Catalyst and Gems.",
+                    "stepEpicInfo": "Destansı NFT'nin neredeyse tüm Game Maker işlevlerine erişimi vardır ve Katalizör ile Mücevherleri ödüllendirebilir.",
                     "stepLegendaryInfo": "Bu NFT'lerin ilk seviyesidir. Gamemaker'da limitli olarak bulunur ve az Ethos Puanı verir.",
-                    "stepPropInfo": "Art NFT have no special capcities in the Game Maker but allow you to maje unique pieces to showcase your talent.",
-                    "stepArtInfo": "Art NFT have no special capcities in the Game Maker but allow you to maje unique pieces to showcase your talent.",
-                    "uploadAsset": "Upload Asset",
-                    "previousStep": "Previous Step",
-                    "continue": "Continue",
-                    "skipAll": "Skip All",
-                    "save": "Save"
+                    "stepPropInfo": "Art NFT, Game Maker'da özel bir kapasiteye sahip değildir, ancak yeteneğinizi sergilemek için benzersiz parçalar yapmanıza olanak tanır.",
+                    "stepArtInfo": "Art NFT, Game Maker'da özel bir kapasiteye sahip değildir, ancak yeteneğinizi sergilemek için benzersiz parçalar yapmanıza olanak tanır.",
+                    "uploadAsset": "Varlık Yükle",
+                    "previousStep": "Önceki Adım",
+                    "continue": "Devam et",
+                    "skipAll": "Hepsini geç",
+                    "save": "Kaydet"
                 },
                 "tabs": {
-                    "title1": "1. What is your NFT's name",
-                    "title2": "2. Choose its main characteristics",
-                    "title3": "3. What kind of NFT do you want to create?",
-                    "title4": "4. How do you want to boost the NFT?",
-                    "title5": "Pick a theme",
+                    "title1": "1. NFT'nizin adı nedir",
+                    "title2": "2. Ana özelliklerini seçin",
+                    "title3": "3. Ne tür bir NFT oluşturmak istiyorsunuz?",
+                    "title4": "4. NFT'yi nasıl artırmak istiyorsunuz?",
+                    "title5": "Bir tema seçin",
                     "subtitle1_1": "altyazı1_1",
-                    "subtitle2_1": "These tags will help people searching for this type of NFT on Game Maker or out Marketplace. Choose up to 3 tags",
-                    "subtitle3_1": "The catalyst define the Tier of your asset, they can be socketed with Gems.",
-                    "subtitle3_2": "The higher the Tier, the more sockets.",
-                    "subtitle4_1": "Each Gem gives a different attribute to your asset. The more Gems of the same type, the more attributes you get.",
-                    "subtitle4_2": "Drag or click in your gems to add or remove then inside the Catalyst."
+                    "subtitle2_1": "Bu etiketler, Game Maker'da veya Marketplace'te bu tür NFT arayan kişilere yardımcı olacaktır. En fazla 3 etiket seçin",
+                    "subtitle3_1": "Katalizör, varlığınızın Aşamasını tanımlar, Mücevherlerle soketlenebilirler.",
+                    "subtitle3_2": "Katman ne kadar yüksek olursa, yuva o kadar fazla olur.",
+                    "subtitle4_1": "Her Mücevher, varlığınıza farklı bir nitelik kazandırır. Aynı türden ne kadar çok Mücevher alırsanız, o kadar çok nitelik kazanırsınız.",
+                    "subtitle4_2": "Katalizörün içine eklemek veya çıkarmak için mücevherlerinizi sürükleyin veya tıklayın."
                 },
                 "theme": {
-                    "pickTheme": "Pick a theme",
-                    "theme": "Theme"
+                    "pickTheme": "Bir tema seçin",
+                    "theme": "Tema"
                 },
                 "card": {
-                    "art": "Art",
-                    "prop": "Prop"
+                    "art": "Sanat",
+                    "prop": "Hazırlık"
                 }
             },
             "previewInModal": {
-                "copies": "Copies: {copies}"
+                "copies": "Kopyalar: {copies}"
             },
             "transferOwnership": {
-                "title": "Transfer Ownership",
-                "owner": "Select new owner",
-                "search": "Search by email or name",
+                "title": "Sahipliği Aktarma",
+                "owner": "Yeni sahip seçin",
+                "search": "E-posta veya ada göre ara",
                 "transfer": "Transfer"
             },
             "delete": {
-                "title": "Delete permanently",
-                "subtitle": "Are you sure that you want to delete the follow assets?",
-                "action": "Delete"
+                "title": "Kalıcı olarak sil",
+                "subtitle": "Takip edilen varlıkları silmek istediğinizden emin misiniz?",
+                "action": "Sil"
             },
             "unpublish": {
-                "title": "Unpublish",
-                "subtitle": "Are you sure that you want to unpublished the follow assets?",
-                "action": "Unpublish"
+                "title": "Yayından Kaldır",
+                "subtitle": "Takip edilen varlıkları yayından kaldırmak istediğinizden emin misiniz?",
+                "action": "Yayından Kaldır"
             },
             "usedInExperience": {
-                "empty": "Empty preview",
-                "review": "Review",
-                "title": "Used in the following experiences: "
+                "empty": "Boş önizleme",
+                "review": "İncele",
+                "title": "Aşağıdaki deneyimlerde kullanılır:"
             },
             "comments": {
-                "message": "Leave a comment to the artist",
-                "explain": "Please explain the reasons you have, to reject the asset to the artist",
-                "placeholderArea": "Write an iterating/reject reason",
-                "reject": "Reject",
-                "iterate": "Send to Iterate",
-                "comments": "COMMENTS"
+                "message": "Sanatçıya bir yorum bırakın",
+                "explain": "Lütfen varlığı reddetme nedenlerinizi sanatçıya açıklayın",
+                "placeholderArea": "Yinelenen/reddetme nedeni yazın",
+                "reject": "Reddetmek",
+                "iterate": "Yinelemeye Gönder",
+                "comments": "YORUMLAR"
             },
             "display": {
-                "voxEdit": "Edit on VoxEdit",
-                "reviewVE": "Review in VoxEdit"
+                "voxEdit": "VoxEdit'te Düzenle",
+                "reviewVE": "VoxEdit'te İnceleme"
             },
             "info": {
-                "putOnSale": "Put on Sale",
-                "transferOwnership": "Transfer Ownership",
-                "transferToWorkspace": "Transfer to Workspace",
-                "unpublish": "Unpublish",
-                "requestApproval": "Request Approval",
-                "approve": "Approve",
-                "moveToVerify": "Move To Verify",
-                "deletePerma": "Delete Permanently",
-                "delete": "Delete",
+                "putOnSale": "Satışa Koy",
+                "transferOwnership": "Sahipliği Aktarma",
+                "transferToWorkspace": "Çalışma Alanına Aktarma",
+                "unpublish": "Yayından Kaldır",
+                "requestApproval": "Onay İste",
+                "approve": "Onay",
+                "moveToVerify": "Doğrulamak için Taşı",
+                "deletePerma": "Kalıcı Olarak Sil",
+                "delete": "Sil",
                 "mint": "Mint",
-                "catalyst": "Catalyst",
-                "gems": "Gems",
-                "owner": "OWNER",
-                "viewHistory": "View History",
-                "updatedOk": "Asset updated correctly",
-                "ban": "Ban Asset",
-                "restore": "Restore"
+                "catalyst": "Katalizör",
+                "gems": "Mücevherler",
+                "owner": "SAHİP",
+                "viewHistory": "Geçmişi Görüntüle",
+                "updatedOk": "Öğe doğru şekilde güncellendi",
+                "ban": "Varlıkları Yasakla",
+                "restore": "Onar"
             },
             "pagination": {
-                "page": "Page",
-                "pageOf": "of {amount}",
-                "maxPage": "The maximum of pages are {amount}"
+                "page": "Sayfa",
+                "pageOf": " {amount}",
+                "maxPage": "Maksimum sayfa sayısı {amount}"
             },
             "filter": {
-                "all": "All",
-                "minted": "Minted",
-                "inProgress": "In progress",
-                "toVerify": "To Verify",
-                "rejected": "Rejected",
-                "approved": "Approved"
+                "all": "Tümü",
+                "minted": "Mintlendi",
+                "inProgress": "Devam etmekte",
+                "toVerify": "Doğrulamak için",
+                "rejected": "Reddedildi",
+                "approved": "Onaylandı"
             },
             "redirectToUpload": "Redirecting to upload page",
             "users": {
@@ -9742,48 +9742,48 @@
             }
         },
         "experiences": {
-            "construction": "This section is under development"
+            "construction": "Bu bölüm geliştirilme aşamasındadır"
         }
     },
     "strapi": {
-        "POC_LANDING_MINT_AVATAR_TITLE": "Express yourself in the metaverse",
-        "POC_LANDING_MINT_AVATAR_DESCRIPTION": "In addition to be fully playable avatars in The Sandbox, POC Avatars will give holders the ability to display their sexual orientation and pronouns. You decide who you want to be!",
-        "POC_LANDING_MINT_AVATAR_BUTTON": "Mint yours now!",
-        "POC_LANDING_HEADER_MENU_HOME_LABEL": "Home",
-        "POC_LANDING_HEADER_MENU_UNIQUE_AVATARS_LABEL": "Unique avatars",
-        "POC_LANDING_HEADER_MENU_PEOPLE_OF_CRYPTO_LABEL": "People of crypto",
-        "POC_LANDING_HEADER_MENU_MINT_YOUR_AVATAR_LABEL": "Mint your avatar",
-        "POC_LANDING_INTRO_START_DATE": "Launching June {launchDateWhitelist}",
-        "POC_LANDING_INTRO_BUTTON": "Mint yours now",
-        "POC_LANDING_INTRO_TITLE": "8,430 Next-generation",
-        "POC_LANDING_INTRO_SUBTITLE": "Metaverse avatars",
-        "POC_LANDING_INTRO_DESCRIPTION": "We are building the metaversal blueprint for diversity across Web3. Our first step is a unique selection of The Sandbox metaverse avatars, all around inclusion and diversity.",
-        "POC_LANDING_INTRO_MOVIE_DESCRIPTION": "United in advancing and celebrating representation, diversity and culture",
-        "POC_LANDING_INTRO_PERSONALIZE_BUTTON": "Personalize it",
-        "POC_LANDING_OUR_VISION_TITLE": "The future is diverse",
-        "POC_LANDING_OUR_VISION_DESCRIPTION_PRIMARY": "To ensure the advancement of black and brown women, LGBTQIA+, differently-abled, and POC individuals across Web 3.0. ",
-        "POC_LANDING_OUR_VISION_DESCRIPTION_SECONDARY": "We envision a community where we are represented and amplified at every level from developers, creators, brands, thought leaders, founders, and collectors.",
-        "POC_LANDING_PLAY_IN_SEASON_TITLE": "Play it in Alpha",
-        "POC_LANDING_PLAY_IN_SEASON_SUBTITLE": "Season 3 ",
-        "POC_LANDING_PLAY_IN_SEASON_DESCRIPTION": "Each Avatar will be playable inside The Sandbox, starting with the upcoming Alpha Season 3. Get your Avatar, jump into the game and share your avatar with the world!In addition we will also host POC exclusive events and Play & Earn activities for avatar holders.",
-        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TITLE": "A chance to get",
-        "POC_LANDING_CHANCE_UNIQUE_AVATAR_SUBTITLE": "Unique avatars",
-        "POC_LANDING_CHANCE_UNIQUE_AVATAR_DESCRIPTION": "First ever customizable sandbox avatars celebrating representation, diversity and inclusion. POC has been on a mission to have a positive impact around the world  ",
-        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_TITLE": "Be",
-        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_SUBTITLE": "Creative",
-        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_DESCRIPTION": "This is no marketing gimmick. Each avatar trait has been designed by a diverse team with inclusion in mind, resulting in 100+ unique avatar traits.",
-        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_TITLE": "Be",
-        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_SUBTITLE": "Yourself",
-        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_DESCRIPTION": "Choose your identity in the metaverse and display your orientation and affinity through your digital avatar. A first of its kind, possible in The Sandbox!",
-        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_TITLE": "Be",
-        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_SUBTITLE": "Unique",
-        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_DESCRIPTION": "Included in the collection is a limited amount of hand-crafted 1:1 avatars. Who will be the lucky person?",
-        "POC_LANDING_BRANDS_IN_THE_SANDBOX_TITLE": "Brands & IPs already in The Sandbox Metaverse",
-        "POC_LANDING_FAQ_HOW_MANY_POC_TITLE": "How many People of Crypto(POC) Avatars are there?",
-        "POC_LANDING_FAQ_HOW_MANY_POC_DESCRIPTION": "There are a total of 8,430 programmatically generated People of Crypto Avatars that will be minted.",
-        "POC_LANDING_FAQ_WHAT_IS_THEIR_RARITY_TITLE": "What is their rarity/tier?",
-        "POC_LANDING_FAQ_WHAT_IS_THEIR_RARITY_DESCRIPTION": "The POC Avatars are divided into a variety of rarity categories depending on traits. There are thousands of unique avatars, as well as several hand-crafted 1/1 avatars.",
-        "POC_LANDING_FAQ_WHERE_DO_I_HAVE_TO_GO_TITLE": "Where do I have to go to claim the Avatars?",
+        "POC_LANDING_MINT_AVATAR_TITLE": "Metaverse'de kendinizi ifade edin",
+        "POC_LANDING_MINT_AVATAR_DESCRIPTION": "The Sandbox'ta tamamen oynanabilir avatarlar olmanın yanı sıra, POC Avatarları, sahiplerine cinsel yönelimlerini ve zamirlerini gösterme yeteneği verecek. Kim olmak istediğine sen karar ver!",
+        "POC_LANDING_MINT_AVATAR_BUTTON": "Şimdi seninkini mintle!",
+        "POC_LANDING_HEADER_MENU_HOME_LABEL": "Anasayfa",
+        "POC_LANDING_HEADER_MENU_UNIQUE_AVATARS_LABEL": "Eşsiz avatarlar",
+        "POC_LANDING_HEADER_MENU_PEOPLE_OF_CRYPTO_LABEL": "Kripto insanları",
+        "POC_LANDING_HEADER_MENU_MINT_YOUR_AVATAR_LABEL": "Avatarını mintle",
+        "POC_LANDING_INTRO_START_DATE": "Haziran'da kullanıma sunuluyor {launchDateWhitelist}",
+        "POC_LANDING_INTRO_BUTTON": "Şimdi seninkini mintle",
+        "POC_LANDING_INTRO_TITLE": "8,430 Yeni nesil",
+        "POC_LANDING_INTRO_SUBTITLE": "Metaverse avatarları",
+        "POC_LANDING_INTRO_DESCRIPTION": "Web3 genelinde çeşitlilik için metaversal planı oluşturuyoruz. İlk adımımız, her yönüyle kapsayıcılık ve çeşitlilik etrafında benzersiz bir The Sandbox metaverse avatarları seçimidir.",
+        "POC_LANDING_INTRO_MOVIE_DESCRIPTION": "Temsil, çeşitlilik ve kültürü ilerletmek ve kutlamak için birleşti",
+        "POC_LANDING_INTRO_PERSONALIZE_BUTTON": "Kişiselleştirin",
+        "POC_LANDING_OUR_VISION_TITLE": "Gelecek çok çeşitli",
+        "POC_LANDING_OUR_VISION_DESCRIPTION_PRIMARY": "Siyah ve esmer kadınların, LGBTQIA+, farklı engellilerin ve POC bireylerinin Web 3.0'da ilerlemesini sağlamak.",
+        "POC_LANDING_OUR_VISION_DESCRIPTION_SECONDARY": "Geliştiricilerden, yaratıcılardan, markalardan, düşünce liderlerinden, kuruculardan ve koleksiyonerlerden her düzeyde temsil edildiğimiz ve güçlendirildiğimiz bir topluluk hayal ediyoruz.",
+        "POC_LANDING_PLAY_IN_SEASON_TITLE": "Alfa'da oynat",
+        "POC_LANDING_PLAY_IN_SEASON_SUBTITLE": "Sezon 3 ",
+        "POC_LANDING_PLAY_IN_SEASON_DESCRIPTION": "Her Avatar, yaklaşmakta olan Alfa Sezon 3'ten başlayarak The Sandbox'ta oynanabilecek. Avatarınızı alın, oyuna atlayın ve avatarınızı dünyayla paylaşın! Ayrıca, avatar sahipleri için POC'ye özel etkinlikler ve Oyna ve Kazan etkinlikleri düzenleyeceğiz. .",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TITLE": "Eşsiz avatarlar",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_SUBTITLE": "Kazanma şansı",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_DESCRIPTION": "Temsil, çeşitlilik ve katılımı kutlayan ilk özelleştirilebilir sanal alan avatarları. POC, dünya çapında olumlu bir etki yaratma misyonunu üstlendi ",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_TITLE": "Yaratıcı",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_SUBTITLE": "Ol",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_UNIQUE_DESCRIPTION": "Bu bir pazarlama hilesi değil. Her avatar özelliği, 100'den fazla benzersiz avatar özelliği ile sonuçlanan, dahil edilmek üzere farklı bir ekip tarafından tasarlanmıştır.",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_TITLE": "Kendin",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_SUBTITLE": "Ol",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_CLASSICS_DESCRIPTION": "Metaverse kimliğinizi seçin ve dijital avatarınız aracılığıyla yönünüzü ve yakınlığınızı görüntüleyin. The Sandbox'ta türünün ilk örneği!",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_TITLE": "Eşsiz",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_SUBTITLE": "Ol",
+        "POC_LANDING_CHANCE_UNIQUE_AVATAR_TYPES_SIGNATURE_DESCRIPTION": "Metaverse kimliğinizi seçin ve dijital avatarınız aracılığıyla yönünüzü ve yakınlığınızı görüntüleyin. The Sandbox'ta türünün ilk örneği!",
+        "POC_LANDING_BRANDS_IN_THE_SANDBOX_TITLE": "Sandbox Metaverse'de bulunan markalar ve IP'ler",
+        "POC_LANDING_FAQ_HOW_MANY_POC_TITLE": "Kaç Kripto İnsanları(POC) Avatarı var?",
+        "POC_LANDING_FAQ_HOW_MANY_POC_DESCRIPTION": "Basılacak toplam 8,430 programlı olarak oluşturulmuş Kripto İnsanları Avatarı var.",
+        "POC_LANDING_FAQ_WHAT_IS_THEIR_RARITY_TITLE": "Nadirlikleri/seviyeleri nedir?",
+        "POC_LANDING_FAQ_WHAT_IS_THEIR_RARITY_DESCRIPTION": "POC Avatarları, özelliklere bağlı olarak çeşitli nadirlik kategorilerine ayrılır. Binlerce benzersiz avatarın yanı sıra birkaç el yapımı 1/1 avatar var.",
+        "POC_LANDING_FAQ_WHERE_DO_I_HAVE_TO_GO_TITLE": "Avatarları talep etmek için nereye gitmem gerekiyor?",
         "POC_LANDING_FAQ_WHERE_DO_I_HAVE_TO_GO_DESCRIPTION": "There is only one place where you can mint the Avatars: \n {link}",
         "POC_LANDING_FAQ_AT_WHAT_TIME_TITLE": "At what time does the sale start?",
         "POC_LANDING_FAQ_AT_WHAT_TIME_DESCRIPTION": "The sale will start on June {launchDatePublic}. \n Welcomelisted users will have access 24 hours before.",
