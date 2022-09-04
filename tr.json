@@ -1665,8 +1665,8 @@
                     "title": "Land",
                     "ctaText": "Land Al",
                     "description": "LAND Sahibi Garantili ödüllerinin kilidini açmak için bir LAND sahibi olun",
-                    "cardTitle": "Buy a LAND into the Metaverse",
-                    "cardDescription": "There will only ever be 166,464 LANDS available, which can be used to host games, build multiplayer experiences, create housing, or offer social experiences to the community"
+                    "cardTitle": "Metaverse'e bir LAND satın alın",
+                    "cardDescription": "Oyunlara ev sahipliği yapmak, çok oyunculu deneyimler oluşturmak, konut oluşturmak veya topluluğa sosyal deneyimler sunmak için kullanılabilecek yalnızca 166.464 LAND mevcut olacak."
                 },
                 "nftAvatar": {
                     "title": "NFT Avatar",
@@ -1679,7 +1679,7 @@
                 "avatarTooltip": "Bu NFT'lerden birine sahip olmak size eşleşen bir görünüme sahip bir Avatar kazandıracak",
                 "equipmentTooltip": "NFT'leri donatmak, deneyim artışları, daha hızlı koşma hızı veya daha fazla hasar sağlayarak skor tablolarında tırmanmanıza yardımcı olabilir.",
                 "nftTab": "Koleksiyonlar",
-                "totalOwned": "Total Owned: "
+                "totalOwned": "Toplam Sahip Olunanlar: "
             },
             "info": {
                 "title": "3. Sezon Alfa Bileti kazanın ve 500'e kadar SAND Ödülü kazanın",
@@ -2083,7 +2083,7 @@
                     "ep": "Ethos Puanları toplamak için Sezon 3 Görevlerini tamamlayın!",
                     "quests": "En hızlı tamamlama süresini denemek ve elde etmek için Görevleri tekrarlayın!",
                     "rewards": "Sezon sonunda Ödüller Sayfasından Ödülünüzü toplayın!",
-                    "missing": "You need at least 1 EP (earned by completing a quest) and to have verified your account to appear on the leaderboard."
+                    "missing": "En az 1 EP'ye (bir görevi tamamlayarak kazanılan) ve skor tablosunda görünmesi için hesabınızı doğrulamış olmanıza ihtiyacınız var."
                 }
             },
             "rewards": {
@@ -2108,7 +2108,7 @@
                         "column1": "Deneyim",
                         "column2": "Zamanın",
                         "column3": "Dünya Rekoru",
-                        "column4": "Average Time"
+                        "column4": "Ortalama süre"
                     }
                 },
                 "experienceDetails": {
@@ -2118,9 +2118,9 @@
                         "column2": "Zamanın",
                         "column3": "Dünya Rekoru",
                         "column4": "Rekor Sahibi",
-                        "column5": "Average Time"
+                        "column5": "Ortalama süre"
                     },
-                    "buggedQuest": "This quest has been removed from time tracking due to a bug"
+                    "buggedQuest": "Bu görev, bir hata nedeniyle zaman takibinden kaldırıldı"
                 }
             },
             "banner": {
@@ -2128,8 +2128,8 @@
                 "link": "Buradan Başlayın"
             },
             "cheaters": {
-                "description": "Our anti-cheat squad is monitoring the Leaderboard. To report a cheater contact us at",
-                "title": "Cheaters will be banned"
+                "description": "Hile karşıtı ekibimiz Lider Tablosunu izliyor. Bir dolandırıcıyı bildirmek için şu adresten bize ulaşın:",
+                "title": "Hile yapanlar engellenecek"
             }
         }
     },
@@ -2684,7 +2684,7 @@
             "gameExperiences": "The Sandbox ile oluşturulmuş oyunlar",
             "download": {
                 "title": "Game Maker İndir!",
-                "cta": "Download"
+                "cta": "İndir"
             },
             "end": {
                 "text": "Oyunu başlatın ve varlıklarınızdan herhangi birini yerleştirerek deneyimler kazanmaya başlayın!",
@@ -3366,10 +3366,10 @@
             "publish": "Yayınla",
             "unpublish": "Yayından kaldır",
             "tags": "Etiketler",
-            "collection": "Collection",
-            "collectionToGate": "Collection to gate",
-            "defaultAvatar": "Default avatar",
-            "displayedAsPreview": "This will be displayed as a preview when the user does not own an avatar from the specified collection."
+            "collection": "Koleksiyon",
+            "collectionToGate": "Kapıya koleksiyon",
+            "defaultAvatar": "Varsayılan avatar",
+            "displayedAsPreview": "Kullanıcı belirtilen koleksiyondan bir avatara sahip olmadığında bu bir önizleme olarak gösterilecektir."
         },
         "publish": {
             "title": "Deneyimi yayınla"
@@ -4062,7 +4062,7 @@
                 "exclusive": "Özel",
                 "basic": "Temel",
                 "sale": "Satışta",
-                "wishlist": "Wishlist"
+                "wishlist": "İstek Listesi"
             },
             "actions": {
                 "title": "Aksiyonlar",
@@ -4346,7 +4346,7 @@
                 "title": "Bitski",
                 "value": "Cüzdanını bağla",
                 "signin": "Lütfen Bitski ile kayıt olun",
-                "subtitle": "(Free Season 3 Airdrop)"
+                "subtitle": "(Ücretsiz Sezon 3 Airdrop)"
             },
             "email": {
                 "title": "E-posta",
@@ -4373,12 +4373,12 @@
             "showMoreOptions": "Daha fazla seçenek göster",
             "showLessOptions": "Daha az seçenek göster",
             "completeLoginInWallet": {
-                "continueInApp": "Please continue the login process within your wallet app.",
-                "continueInAppHelp1": "Your wallet app isn't opening automatically?",
-                "continueInAppHelp2": "Try going through the login process again.",
-                "installWalletExtension": "Please refresh your browser after installing the extension.",
-                "installWalletExtensionContinue": "After reloading the page, resume your login process with the wallet extension you installed.",
-                "reloadPage": "RELOAD PAGE"
+                "continueInApp": "Lütfen cüzdan uygulamanızda oturum açma işlemine devam edin.",
+                "continueInAppHelp1": "Cüzdan uygulamanız otomatik olarak açılmıyor mu?",
+                "continueInAppHelp2": "Oturum açma işleminden tekrar geçmeyi deneyin.",
+                "installWalletExtension": "Lütfen uzantıyı yükledikten sonra tarayıcınızı yenileyin.",
+                "installWalletExtensionContinue": "Sayfayı yeniden yükledikten sonra, yüklediğiniz cüzdan uzantısı ile oturum açma işleminize devam edin.",
+                "reloadPage": "SAYFAYI YENİDEN YÜKLE"
             }
         },
         "signinModal": {
@@ -9122,112 +9122,112 @@
         },
         "2022": {
             "0": {
-                "date": "June 24, 2022 - Game Maker 0.7.0 changelog",
-                "title": "Bug Fixing and Enhancements",
+                "date": "24 Haziran 2022 - Game Maker 0.7.0 değişiklik günlüğü",
+                "title": "Hata Düzeltme ve Geliştirmeler",
                 "list": {
                     "0": {
-                        "title": "MacOS Compatibility",
+                        "title": "MacOS Uyumluluğu",
                         "list": {
                             "0": {
-                                "title": "MacOS build was released with feature parity with Windows version. Both builds are in the same state and should not present any differences."
+                                "title": "MacOS derlemesi, Windows sürümüyle özellik eşliği ile piyasaya sürüldü. Her iki yapı da aynı durumdadır ve herhangi bir farklılık göstermemelidir."
                             }
                         }
                     },
                     "1": {
-                        "title": "Bug Fixing",
+                        "title": "Hata düzeltme",
                         "list": {
                             "0": {
-                                "title": "Multiple bug fixes have been made to stabilize the product and get some improvements in performance."
+                                "title": "Ürünü stabilize etmek ve performansta bazı iyileştirmeler elde etmek için birden fazla hata düzeltmesi yapıldı."
                             }
                         }
                     },
                     "2": {
-                        "title": "Game Maker Menu & UI",
+                        "title": "Game Maker Menüsü ve Kullanıcı Arayüzü",
                         "list": {
                             "0": {
-                                "title": "Loading Screen: ",
-                                "subtitle": "Loading screen is showing more and better information. The loading screen background image has been changed to a default one, and the thumbnail corresponding to the experience is bigger."
+                                "title": "Yükleme Ekranı: ",
+                                "subtitle": "Yükleme ekranı daha fazla ve daha iyi bilgi gösteriyor. Yükleme ekranı arka plan görüntüsü varsayılana değiştirildi ve deneyime karşılık gelen küçük resim daha büyük."
                             },
                             "1": {
-                                "title": "Improvement on the Level Widge: ",
-                                "subtitle": "It has a flash feedback so the user can notice when there is a change in the widget information."
+                                "title": "Seviye Widget'inda İyileştirme:",
+                                "subtitle": "Kullanıcının widget bilgilerinde bir değişiklik olduğunu fark edebilmesi için bir flaş geri bildirimi vardır."
                             },
                             "2": {
-                                "title": "Quest Log Widget: ",
-                                "subtitle": "Improvements have been made to the quest log widget to show information about the quest in a more clear way."
+                                "title": "Görev Günlüğü Widget'ı:",
+                                "subtitle": "Görevle ilgili bilgileri daha net bir şekilde göstermek için görev günlüğü widget'ında iyileştirmeler yapıldı."
                             }
                         }
                     },
                     "3": {
-                        "title": "New FTUE",
+                        "title": "Yeni FTUE",
                         "list": {
                             "0": {
-                                "title": "A new FTUE was implemented for the season."
+                                "title": "Sezon için yeni bir FTUE uygulandı."
                             }
                         }
                     },
                     "4": {
-                        "title": "Loading Time Improvements",
+                        "title": "Yükleme Süresi İyileştirmeleri",
                         "list": {
                             "0": {
-                                "title": "Loading time and asset bundle download has been improved for better user experience."
+                                "title": "Daha iyi kullanıcı deneyimi için yükleme süresi ve varlık paketi indirmesi iyileştirildi."
                             }
                         }
                     },
                     "5": {
-                        "title": "Avatar Gating",
+                        "title": "Avatar Geçidi",
                         "list": {
                             "0": {
-                                "title": "Avatar gating MVP feature was implemented into the GC. The user will receive a message with the appropriate collection/avatar in case it doesn’t owe one."
+                                "title": "Avatar Geçidi MVP özelliği GC'ye uygulandı. Kullanıcı, borçlu olmaması durumunda uygun koleksiyon/avatar içeren bir mesaj alacaktır."
                             }
                         }
                     },
                     "6": {
-                        "title": "Gameplay Additions",
+                        "title": "Oynanış Eklemeleri",
                         "list": {
                             "0": {
-                                "title": "Avatar Navigation: ",
-                                "subtitle": "New avatar navigation possibilities have been added to the gameplay."
+                                "title": "Avatar Gezinmesi: ",
+                                "subtitle": "Oyuna yeni avatar gezinme olanakları eklendi."
                             },
                             "1": {
-                                "title": "Walk: ",
-                                "subtitle": "The user is now able to walk, by using the walk key. This will let the user appreciate the NFT better if needed."
+                                "title": "Yürüme: ",
+                                "subtitle": "Kullanıcı artık yürüyüş tuşunu kullanarak yürüyebilir. Bu, kullanıcının gerekirse NFT'yi daha iyi takdir etmesini sağlayacaktır."
                             },
                             "2": {
-                                "title": "Sit on the Ground: ",
-                                "subtitle": "A sit animation was added so users can sit and interact among each other."
+                                "title": "Yere Oturun: ",
+                                "subtitle": "Kullanıcıların oturup birbirleriyle etkileşime girebilmeleri için bir oturma animasyonu eklendi."
                             },
                             "3": {
-                                "title": "Auto Climb Update Improvements: ",
-                                "subtitle": "Auto-Jump feature was updated, and now lets the user auto-jump assets of 1 block, ½ block and ¼ block height."
+                                "title": "Otomatik Tırmanış Güncellemesi İyileştirmeleri: ",
+                                "subtitle": "Otomatik Atlama özelliği güncellendi ve artık kullanıcının 1 blok, ½ blok ve ¼ blok yüksekliğindeki varlıkları otomatik olarak atlamasını sağlıyor."
                             },
                             "4": {
-                                "title": "Emotes: ",
-                                "subtitle": "New Dance Animations were added to the random sections of the emotes wheel."
+                                "title": "İfadeler:",
+                                "subtitle": "İfade çarkının rastgele bölümlerine yeni Dans Animasyonları eklendi."
                             }
                         }
                     }
                 }
             },
             "1": {
-                "date": "August 29, 2022 - Game Maker 0.7.1 changelog",
-                "title": "Bug Fixing and Enhancements",
+                "date": "29 Ağustos 2022 - Game Maker 0.7.1 değişiklik günlüğü",
+                "title": "Hata Düzeltme ve Geliştirmeler",
                 "list": {
                     "0": {
-                        "title": "Bug Fixing",
-                        "subtitle": "Multiple bug fixes have been made to stabilize the product and get some improvements in performance. This fixes affects:",
+                        "title": "Hata Düzeltmeleri",
+                        "subtitle": "Ürünü stabilize etmek ve performansta bazı iyileştirmeler elde etmek için birden fazla hata düzeltmesi yapıldı. Bu düzeltmeler şunları etkiler:",
                         "list": {
                             "0": {
-                                "title": "Play Mode UI: ",
-                                "subtitle": "Exclamation marks were shown always in yellow."
+                                "title": "Oynatma Modu Kullanıcı Arayüzü: ",
+                                "subtitle": "Ünlem işaretleri her zaman sarı renkle gösterilmiştir."
                             },
                             "1": {
-                                "title": "Game Maker usability: ",
-                                "subtitle": "Ability to place assets was lost after saving and reopening."
+                                "title": "Game Maker kullanılabilirliği: ",
+                                "subtitle": "Kaydedip yeniden açtıktan sonra varlıkları yerleştirme yeteneği kayboldu."
                             },
                             "2": {
-                                "title": "General: ",
-                                "subtitle": "Crashes and Soft blocks."
+                                "title": "Genel: ",
+                                "subtitle": "Çökmeler ve Yumuşak bloklar."
                             }
                         }
                     }
@@ -10021,7 +10021,7 @@
             "desc1": "The Sandbox ile ortak olmak ister misiniz?",
             "desc2": "Fırsatlarımıza bir göz atın",
             "button": "Şimdi Katıl",
-            "subTitle": "Everyone is welcome inside The Sandbox"
+            "subTitle": "Sandbox'a herkes davetlidir"
         },
         "community": {
             "title": "Dünyaların birleştiği bir topluluğa katılın",
@@ -10058,8 +10058,8 @@
                     "title": "IP'ler ve Markalar",
                     "desc": "Bir markanız var ve The Sandbox'a nasıl girebileceğinizi mi merak ediyorsunuz? Doğru yerdesiniz, marka imajınızı ekosistemimizde geliştirmenize yardımcı olacağız.",
                     "button": "Şimdi girin",
-                    "question": "You have a brand and you are wondering how you can enter The Sandbox?",
-                    "answer": "We will help you develop your brand image into our ecosystem."
+                    "question": "Bir markanız var ve The Sandbox'a nasıl girebileceğinizi mi merak ediyorsunuz?",
+                    "answer": "Marka imajınızı ekosistemimizde geliştirmenize yardımcı olacağız."
                 },
                 "2": {
                     "title": "Metaverse Ajansları",
@@ -10081,7 +10081,7 @@
                     "subtitle": "Platformumuza erişim",
                     "desc1": "The Sandbox ile ortaklık yapmak, yalnızca dünyanın en büyük meta verilerinden birine katılmanın bir yolu değil, aynı zamanda erişilebilirlik için gerçek bir bakış açısıdır.",
                     "desc2": "Güçlü bir oyun bilgisayarından mobil cihaza kadar herkes platformumuza erişebilecek.",
-                    "desc3": "Our quest toward interoperability also will help our community and the overall market merge worlds all together."
+                    "desc3": "Birlikte çalışabilirlik arayışımız, topluluğumuza ve genel pazarın dünyaları bir araya getirmesine de yardımcı olacaktır."
                 },
                 "2": {
                     "title": "+200",
@@ -10157,7 +10157,7 @@
                     "screen": "Tırmanma çılgınlığı"
                 }
             },
-            "desc2": "From building houses and cities, to cat walking during fashion shows and defeating dragons and monsters, you are free to offer the experience you dream of."
+            "desc2": "Evler ve şehirler inşa etmekten, defileler sırasında kedi yürüyüşüne ve ejderhaları ve canavarları alt etmeye kadar, hayal ettiğiniz deneyimi sunmakta özgürsünüz."
         },
         "realworld": {
             "title": "GERÇEK DÜNYA DENEYİMLERİNİN UZATILMASI",
@@ -10207,9 +10207,9 @@
         "appliedfilter": "Uygulanan Filtreler",
         "applyfilter": "Filtreleri Uygula",
         "filters": "Filtreler",
-        "collections": "Kolleksiyonlar",
-        "sidebarcollections": "NFT KOLLEKSİYONLARI",
-        "exploreCollections": "Kolleksiyon Keşfet"
+        "collections": "Koleksiyonlar",
+        "sidebarcollections": "NFT KOLEKSİYONLARI",
+        "exploreCollections": "Koleksiyonları Keşfet"
     },
     "kyc": {
         "statuses": {
@@ -10329,7 +10329,7 @@
             "createByName": "İsme göre oluştur",
             "createByUrl": "URL'ye göre oluştur",
             "publicLink": "Herkese Açık Bağlantı",
-            "isFeatured": "IS FEATURED"
+            "isFeatured": "GÖSTERİMDE"
         }
     },
     "termsOfUse": {
@@ -10518,126 +10518,126 @@
     "changelogVoxedit": {
         "2022": {
             "0": {
-                "date": "August 29, 2022 - Public Beta Release",
+                "date": "29 Ağustos 2022 - Herkese Açık Beta Sürümü",
                 "list": {
                     "0": {
-                        "title": "New Features",
+                        "title": "Yeni özellikler",
                         "list": [
-                            "Login (for Content Collab feature)",
-                            "Animation Channels!",
-                            "Ability to toggle between per axis and SLERP (spherical linear interpolation, i.e: what we had before) for multi axis rotations",
-                            "Automated SLERP toggle to keep old behaviour for most animators",
-                            "Reference frames for translation (World, Parent, Object)",
-                            "Camera POV widget",
-                            "Color, node name and channel filters for timeline",
-                            "Delete Material button in Material panel",
-                            "Append Palette in Palette header menu",
-                            "Circle and Sphere tools for Modeler and Block Editor",
-                            "Value dragging and arrows for Inspector transform text fields",
-                            "Double clicking a node in the viewport now edits it's attached model",
-                            "Floor grid toggle for Animator",
-                            "\"Solo Layer\" mode for Modeler",
-                            "Upload Popup"
+                            "Giriş (İçerik İşbirliği özelliği için)",
+                            "Animasyon Kanalları!",
+                            "Çok eksenli dönüşler için eksen başına ve SLERP (küresel doğrusal enterpolasyon, yani daha önce sahip olduğumuz) arasında geçiş yapabilme",
+                            "Çoğu animatör için eski davranışı korumak için otomatik SLERP geçişi",
+                            "Çeviri için referans çerçeveleri (World, Parent, Object)",
+                            "Kamera POV widget'ı",
+                            "Zaman çizelgesi için renk, düğüm adı ve kanal filtreleri",
+                            "Malzeme panelindeki Malzemeyi Sil düğmesi",
+                            "Palet başlık menüsünde Palet Ekle",
+                            "Modelleyici ve Blok Düzenleyici için Daire ve Küre araçları",
+                            "Müfettiş dönüştürme metin alanları için değer sürükleme ve oklar",
+                            "Görünüm alanında bir düğüme çift tıklamak artık bağlı olduğu modeli düzenler",
+                            "Animatör için zemin ızgarası geçişi",
+                            "Modelleyici için \"Solo Layer\" modu",
+                            "Açılır Pencereyi Yükle"
                         ]
                     },
                     "1": {
-                        "title": "Improvements",
+                        "title": "İyileştirmeler",
                         "list": [
-                            "New and improved themes!",
-                            "Tab system for Library and Inspector",
-                            "Vertical layout for Inspector, with new/delete keyframe per channel buttons",
-                            "Save and Save As in File menu",
-                            "Button to remove recent file from list",
-                            "Picker tool now works on any visible voxel, not just the active layer's ones",
-                            "Opening a rig now sets the camera to fit",
-                            "Camera now works better, makes it almost impossible to lock itself inside of geometry",
-                            "Added shortcuts to Sync To/From MagicaVoxel (ctrl/cmd+m, shift+ctrl/cmd+m)",
-                            "Added shortcut to Return to Rig from editing a model (esc)",
-                            "Added shortcut to copy from/paste to currently focused textfield (ctrl/cmd + c/v)",
-                            "Shorter rows in Timeline",
-                            "Better Animator floor grid",
-                            "Updated links to Marketplace, Tutorials, Guidelines, etc",
-                            "New Language Selector UI",
-                            "Added Move In Plane widget for selected voxel movement",
-                            "Selected voxel edges are now shown in new \"see through\" mode",
-                            "Orthographic camera is better",
-                            "In shortest editor window, Modeler toolbar changes it's layout to be in two columns",
-                            "Voxel and node count for Animator"
+                            "Yeni ve geliştirilmiş temalar!",
+                            "Kütüphane ve Müfettiş için sekme sistemi",
+                            "Müfettiş için kanal başına yeni/sil ana kare düğmeleriyle dikey düzen",
+                            "Dosya menüsünde Kaydet ve Farklı Kaydet",
+                            "Son dosyayı listeden kaldırma düğmesi",
+                            "Seçici aracı artık yalnızca aktif katmanın voksellerinde değil, görünür herhangi bir vokselde çalışıyor",
+                            "Bir teçhizat açmak artık kamerayı sığacak şekilde ayarlıyor",
+                            "Kamera artık daha iyi çalışıyor, kendisini geometrinin içine kilitlemeyi neredeyse imkansız hale getiriyor",
+                            "MagicaVoxel'e/MagicaVoxel'den Senkronize etmek için kısayollar eklendi (ctrl/cmd+m, shift+ctrl/cmd+m)",
+                            "Bir modeli düzenlemekten teçhizata dönmek için kısayol eklendi (esc)",
+                            "Şu anda odaklanmış metin alanına kopyalamak/yapıştırmak için kısayol eklendi (ctrl/cmd + c/v)",
+                            "Zaman Çizelgesi'nde daha kısa satırlar",
+                            "Daha İyi Animatör zemin ızgarası",
+                            "Pazar Yeri, Öğreticiler, Yönergeler vb. için güncellenmiş bağlantılar",
+                            "Yeni Dil Seçici Kullanıcı Arayüzü",
+                            "Seçilen voksel hareketi için Düzlemde Taşı widget'ı eklendi",
+                            "Seçilen voksel kenarları artık yeni \"içten görme\" modunda gösteriliyor",
+                            "Ortografik kamera daha iyi",
+                            "En kısa editör penceresinde, Modeler araç çubuğu düzenini iki sütun olacak şekilde değiştirir.",
+                            "Animatör için voksel ve düğüm sayısı"
                         ]
                     },
                     "2": {
-                        "title": "Changes",
+                        "title": "Değişiklikler",
                         "list": [
-                            "Animation max length is now 30 seconds",
-                            "Removed Long Way Rotation (backwards compatibility kept by autoadding a middle keyframe)",
-                            "Removed Local Transforms (backwards compatibility by adding a child node that is transformed using the original local transform and attaching the node's model to it instead)",
-                            "GLTF is now exporting all animations for animated assets, not only the ones that have more keyframes",
-                            "Removed Keep Position through Rotation unintuitive feature",
-                            "Node names are now limited to 24 characters",
-                            "New Animations now take first frame pose from the current pose",
-                            "VoxEdit now only runs as a single instance",
-                            "New Keyframe is disabled while playing an animation",
-                            "Inspector IK values are no longer editable while playing an animation",
-                            "Timeline rows are now a bit shorter",
-                            "Removed \"Scroll Layer\" buttons from Modeler viewport (easier to work with the Translation widget)",
-                            "Moving Keyframe at frame 0 now copies it"
+                            "Animasyon maksimum uzunluğu artık 30 saniye",
+                            "Uzun Yol Döndürme Kaldırıldı (orta ana kare otomatik olarak eklenerek geriye dönük uyumluluk sağlandı)",
+                            "Kaldırılan Yerel Dönüşümler (orijinal yerel dönüşüm kullanılarak dönüştürülen bir alt düğüm ekleyerek ve bunun yerine düğümün modelini buna ekleyerek geriye dönük uyumluluk)",
+                            "GLTF artık yalnızca daha fazla ana kareye sahip olanları değil, animasyonlu varlıklar için tüm animasyonları dışa aktarıyor",
+                            "Sezgisel olmayan Döndürme yoluyla Pozisyonu Tut özelliği kaldırıldı",
+                            "Düğüm adları artık 24 karakterle sınırlıdır",
+                            "Yeni Animasyonlar artık mevcut pozdan ilk kare pozunu alıyor",
+                            "VoxEdit artık yalnızca tek bir örnek olarak çalışıyor",
+                            "Bir animasyon oynatılırken Yeni Animasyon Karesi devre dışı bırakıldı",
+                            "Inspector IK değerleri artık animasyon oynatılırken düzenlenemez",
+                            "Zaman çizelgesi satırları artık biraz daha kısa",
+                            "Modeler görünümünden \"Katmanı Kaydır\" düğmeleri kaldırıldı (Çeviri aracıyla çalışmak daha kolay)",
+                            "Ana Kareyi kare 0'da taşımak şimdi onu kopyalıyor"
                         ]
                     },
                     "3": {
-                        "title": "Fixes",
+                        "title": "Düzeltmeler",
                         "list": [
-                            "Syncing from MagicaVoxel now selects the correct active material",
-                            "Fixed issues with operative system locale and Inspector transform text fields",
-                            "Fixed scroll areas not resetting when resized",
-                            "Attaching/detaching panels now close all modals",
-                            "Deleting a layer now ensures that there is an active layer afterwards",
-                            "Loop and Zoom bars are now much better behaved",
-                            "Detached panels now enforce a min size",
-                            "Undo and redo no longer break selected voxels in Modeler",
-                            "Zoom to fit now shows at least 2 seconds",
-                            "Recovered most functionality while animation is playing",
-                            "Editor no longer crashes when stress clicking attach/detach panel buttons",
-                            "Skeleton now trims down too long node names.",
-                            "Save Confirmation popup trims down too long filenames",
-                            "Text in Welcome Screen has better readability now",
-                            "Opening a non existant recent file no longer crashes VE",
-                            "Default theme no longer has the same color for the grid and the background in the Animator",
-                            "Using Bucket tool in Paint or Erase mode outside of the volume in 2D views no longer crashes the editor",
-                            "Frame tool didn't create an Undo step",
-                            "New Keyframe will no longer add them to read only template nodes",
-                            "Camera reset was changing the near and far planes",
-                            "Block Editor kept old undo steps inbetween sessions",
-                            "Screen Rect tool in Block Editor now renders rectangle on top",
-                            "2D views now update properly when the user cancels an action",
-                            "Select mode with Face tool on empty space in 2D view no longer crashes the editor",
-                            "Screen Rect tool in 2D views was mirrored on X in TOP and BOTTOM views",
-                            "Next Keyframe button and shortcut now work properly",
-                            "Copying/Pasting Keyframes no longer crash the editor",
-                            "Tweaking an IK constrain was making it invisible",
-                            "Moving Keyframes in a dettached Timeline while the animation is running no longer crashes VE",
-                            "Moving/copying keyframes now create an undo step",
-                            "Palette header menus are now correctly rendered for a dettached Palette panel",
-                            "Adding/deleting layers now move the scroll properly",
-                            "Deleting a model kept it's thumbnail in the cache",
-                            "Opening a VXM now sets the first visible layer to be active",
-                            "Bucket tool with SELECT/PAINT/ERASE mode wasn't working well on the RIGHT/BOTTOM/BACK bounds of the volume",
-                            "Keyframe rect selection now works even if the left bound is behind the zero frame",
-                            "Loading a non palette PNG as a palette no longer overwrites the first slot with a white material",
-                            "Deleting VXMs from Library and importing/creating new ones with the same name will no longer show old thumbnail",
-                            "Having a different decimal separator than \".\" set in the OS's regional settings no longer crashes VE",
-                            "Creating decorative nodes for assets made based on decorable templates no longer crashes VE",
-                            "Load Palette from a dettached Palette panel no longer crashes VE",
-                            "Screen Rect tool now works properly in 2D views",
-                            "Dragging/copying a KF on top of another now overwrites it properly"
+                            "MagicaVoxel'den senkronizasyon artık doğru aktif malzemeyi seçiyor",
+                            "İşletim sistemi yerel ayarı ve Müfettiş dönüştürme metin alanları ile ilgili sorunlar düzeltildi",
+                            "Yeniden boyutlandırıldığında kaydırma alanlarının sıfırlanmaması düzeltildi",
+                            "Panelleri takma/ayırma artık tüm modları kapatıyor",
+                            "Artık bir katmanı silmek, daha sonra aktif bir katmanın olmasını sağlar",
+                            "Döngü ve Yakınlaştırma çubukları artık çok daha iyi davranıyor",
+                            "Ayrılmış paneller artık minimum boyutu zorunlu kılıyor",
+                            "Geri alma ve yineleme artık Modeler'da seçili vokselleri bozmuyor",
+                            "Sığdırmak için yakınlaştır şimdi en az 2 saniye gösteriyor",
+                            "Animasyon oynatılırken çoğu işlevsellik kurtarıldı",
+                            "Panel ekle/ayır düğmelerine vurgu yapıldığında düzenleyici artık çökmüyor",
+                            "Skeleton artık çok uzun düğüm adlarını kısaltıyor.",
+                            "Onaylamayı Kaydet açılır penceresi çok uzun dosya adlarını kısaltır",
+                            "Karşılama Ekranındaki metin artık daha iyi okunabilirliğe sahip",
+                            "Var olmayan yeni bir dosyayı açmak artık VE'yi çökertmiyor",
+                            "Varsayılan tema artık Animatör'de ızgara ve arka plan için aynı renge sahip değil",
+                            "Kova aracının Boya veya Sil modunda 2D görünümlerde birimin dışında kullanılması düzenleyiciyi artık çökertmiyor",
+                            "Çerçeve aracı bir Geri Al adımı oluşturmadı",
+                            "Yeni Anahtar Kare artık onları salt şablon düğümlerini okumak için eklemeyecek",
+                            "Kamera sıfırlaması yakın ve uzak uçakları değiştiriyordu",
+                            "Blok Düzenleyici, oturumlar arasında eski geri alma adımlarını tuttu",
+                            "Blok Düzenleyici'deki Ekran Düzeltme aracı artık dikdörtgeni üstte oluşturuyor",
+                            "Kullanıcı bir işlemi iptal ettiğinde 2D görünümler artık düzgün bir şekilde güncelleniyor",
+                            "2D görünümde boş alanda Yüz aracıyla mod seçme artık düzenleyiciyi çökertmiyor",
+                            "2D görünümlerde Ekran Düzeltme aracı, ÜST ve ALT görünümlerde X'e yansıtıldı",
+                            "Sonraki Ana Kare düğmesi ve kısayolu artık düzgün çalışıyor",
+                            "Ana Kareleri Kopyalamak/Yapıştırmak artık düzenleyiciyi çökertmiyor",
+                            "Bir IK kısıtlamasını değiştirmek, onu görünmez hale getiriyordu",
+                            "Animasyon çalışırken Ana Kareleri ayrı bir Zaman Çizelgesi'nde taşımak artık VE'yi çökertmiyor",
+                            "Ana kareleri taşıma/kopyalama artık bir geri alma adımı oluşturuyor",
+                            "Palet başlık menüleri artık ayrılmış bir Palet paneli için doğru şekilde işleniyor",
+                            "Katman ekleme/silme artık kaydırmayı doğru şekilde hareket ettiriyor",
+                            "Bir modeli silmek, küçük resmini önbellekte tuttu",
+                            "Bir VXM açmak artık ilk görünür katmanı aktif hale getiriyor",
+                            "SEÇ/BOYA/SİL modlu kova aracı, birimin SAĞ/ALT/GERİ sınırlarında iyi çalışmıyordu",
+                            "Ana kare doğru seçimi artık sol sınır sıfır karenin arkasında olsa bile çalışıyor",
+                            "Palet olmayan bir PNG'yi palet olarak yüklemek, artık ilk yuvanın üzerine beyaz malzeme yazmaz",
+                            "VXM'leri Kitaplıktan silmek ve aynı ada sahip yenilerini içe aktarmak/oluşturmak artık eski küçük resmi göstermeyecek",
+                            "\".\" öğesinden farklı bir ondalık ayırıcıya sahip olmak. işletim sisteminin bölgesel ayarlarında ayarlanan artık VE'yi çökertmiyor",
+                            "Dekore edilebilir şablonlara dayalı olarak yapılan varlıklar için dekoratif düğümler oluşturmak artık VE'yi çökertmiyor",
+                            "Paleti, ayrılmış bir Palet panelinden yükleyin, artık VE'yi çökertmiyor",
+                            "Ekran Düzeltme aracı artık 2D görünümlerde düzgün çalışıyor",
+                            "Bir KF'yi diğerinin üzerine sürüklemek/kopyalamak artık doğru şekilde üzerine yazıyor"
                         ]
                     }
                 }
             }
         }
     },
-    "title": "Cheaters will be banned",
+    "title": "Hile yapanlar engellenecek",
     "collections": {
-        "title": "Kolleksiyon Keşfet",
-        "subtitle": "Kolleksiyonları keşfet ve Metaverse'de eşsiz deneyimler oluşturmaya başla"
+        "title": "Koleksiyonları Keşfet",
+        "subtitle": "Koleksiyonları keşfedin ve Metaverse'de benzersiz Deneyimler yaratmaya başlayın."
     }
 }
