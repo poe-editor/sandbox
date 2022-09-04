@@ -602,7 +602,7 @@
                 "collections": "NFT Koleksiyonu",
                 "feedback": "Deneyiminiz hakkında geri bildirim",
                 "noProgression": "Kazanılacak EP yok",
-                "creatorTooltip": "Contact creator"
+                "creatorTooltip": "İletişim oluşturucu"
             },
             "loading": {
                 "title": "Sandbox yükleniyor...",
@@ -1583,14 +1583,14 @@
                 "upTo": "+100%'e Kadar",
                 "stakeDesc2": "\"Ayrıca yeterli {1} stake için {0} alacaksınız. Tüm sezon boyunca (10 hafta) stake edilen her {2} için 1 puan kazanacaksınız.",
                 "extraTickets": "500 ekstra Çekiliş Bileti",
-                "onlyVerifiedAccounts": "Only verified accounts can win this reward",
-                "claimRewards": "Claim Rewards!",
-                "alreadyOwnRaffle": "Zaten bir Alpha Biletiniz mevcut. Sezon sonunda Alpha Bileti ödüllerini elde edebilirsiniz. Ayrıca çekilişe katılmanıza gerek yoktur.",
+                "onlyVerifiedAccounts": "Bu ödülü yalnızca doğrulanmış hesaplar kazanabilir",
+                "claimRewards": "Ödül Talebi!",
+                "alreadyOwnRaffle": "Zaten bir Alfa Biletiniz mevcut! Sezon sonunda Alfa Bileti ödüllerini elde edebilirsiniz. Ayrıca çekilişe katılmanıza gerek yoktur.",
                 "getMore": "Daha Fazla",
-                "raffleResults": "TIME BEFORE RAFFLE",
-                "youAreLand": "You are a LAND Owner",
-                "youAreAvatar": "Avatar Sahibisin",
-                "youAreCollector": "NFT Kolleksiyoncususun",
+                "raffleResults": "ÇEKİLİŞ ÖNCESİ ZAMAN",
+                "youAreLand": "Bir LAND Sahibisiniz",
+                "youAreAvatar": "Bir Avatar Sahibisiniz",
+                "youAreCollector": "Bir NFT Kolleksiyoncususunuz",
                 "epTooltip": "Deneyimlerdeki görevleri tamamlayarak Ethos Puanı kazan.Daha zorlu görevler daha fazla Ethos Puanı kazandırır."
             },
             "summary": {
@@ -1636,17 +1636,17 @@
                 "seeContest": "Tüm Etkinlikleri Gör",
                 "seeReferrals": "Referanslarımı Gör",
                 "buyAtOpensea": "Opensea'ya Gidin",
-                "stakingDesc": "By Staking",
+                "stakingDesc": "Stake Ederek",
                 "ticketsDescription3": "Earn Raffle Tickets to increase your chances of winning the Raffle."
             },
-            "alphaSeason": "Alpha Season 3",
+            "alphaSeason": "Alfa Sezon 3",
             "shop": {
                 "nftShop": "NFT Mağazası",
-                "findAll": "Find all the NFTs you need to unlock the guaranteed rewards: LANDs, Avatars and AS3 NFT Collections",
+                "findAll": "Garantili ödüllerin kilidini açmak için ihtiyacınız olan tüm NFT'leri bulun: LAND'ler, Avatarlar ve AS3 NFT Koleksiyonları",
                 "nft": "NFT",
-                "nftCollector": "{0}Collector Badge",
-                "youOwn": "You own the NFT Collector Badge.",
-                "doNotOwn": "Own at least 1 NFT from the AS3 NFT Collections to unlock.",
+                "nftCollector": "{0}Koleksiyoner Rozeti",
+                "youOwn": "NFT Toplayıcı Rozeti sahibisiniz.",
+                "doNotOwn": "Kilidi açmak için AS3 NFT Koleksiyonlarından en az 1 NFT'ye sahip olun.",
                 "keepIt": "Keep it until the end of the season to claim the NFT Collector Rewards.",
                 "needToLogin": "You need to be logged in to see your Badge status",
                 "signIn": "Sign in",
@@ -1673,12 +1673,12 @@
                     "description": "Own a NFT Avatar to unlock the Avatar Owner Guaranteed rewards"
                 },
                 "nftAsset": {
-                    "title": "NFT Collections",
+                    "title": "NFT Kolleksiyonu",
                     "description": "Own at least 1 NFT from the AS3 Collections to unlock the NFT Collector rewards"
                 },
                 "avatarTooltip": "Owning one of those NFTs will grant you an Avatar with a matching appearance",
                 "equipmentTooltip": "Equipping NFTs can help you climb the leaderboards by providing experience boosts, faster run speed, or increased damage",
-                "nftTab": "Collections",
+                "nftTab": "Kolleksiyonlar",
                 "totalOwned": "Total Owned: "
             },
             "info": {
@@ -5941,25 +5941,25 @@
     "privacyPolicy": {
         "title": "TSB OYUN GİZLİLİK POLİTİKASI",
         "text1": {
-            "mainText": "TSB Gaming Limited and its affiliates (“{0},” “{1},” or “{2}”) want you to be familiar with how we collect, use and disclose information. This Privacy Policy describes our practices in connection with information that we collect through:",
+            "mainText": "TSB Gaming Limited ve bağlı şirketleri (\"{0}\", \"{1}\" veya \"{2}\"), bilgileri nasıl topladığımız, kullandığımız ve ifşa ettiğimiz konusunda bilgi sahibi olmanızı ister. Bu Gizlilik Politikası, aşağıdakiler aracılığıyla topladığımız bilgilerle bağlantılı uygulamalarımızı açıklamaktadır:",
             "0": "TSB",
-            "1": "we",
-            "2": "us"
+            "1": "biz",
+            "2": "biz"
         },
         "text2": {
-            "mainText": "Websites operated by us from which you are accessing this Privacy Policy (the “{0}”);",
-            "0": "Websites"
+            "mainText": "Bu Gizlilik Politikasına eriştiğiniz, tarafımızca işletilen web siteleri (\"{0}\");",
+            "0": "Websiteleri"
         },
         "text3": "Size gönderdiğimiz ve bu Gizlilik Politikasına veya sizinle olan diğer iletişimlere bağlantı veren HTML biçimli e-posta mesajları; ve",
         "text4": "Bizimle olan çevrimdışı iş etkileşimleriniz.",
         "text5": {
-            "mainText": "Collectively, we refer to the Websites, emails, and offline business interactions as the “{0}.”",
-            "0": "Services"
+            "mainText": "Toplu olarak Web Sitelerini, e-postaları ve çevrimdışı iş etkileşimlerini \"{0}\" olarak adlandırırız.",
+            "0": "Servisler"
         },
         "text6": "KİŞİSEL BİLGİLER",
         "text7": {
-            "mainText": "“{0}” is information that identifies you as an individual or relates to an identifiable individual. The Services collect Personal Information, including:",
-            "0": "Personal Information"
+            "mainText": "\"{0}\", sizi bir birey olarak tanımlayan veya tanımlanabilir bir bireyle ilgili bilgilerdir. Hizmetler, aşağıdakiler dahil Kişisel Bilgileri toplar:",
+            "0": "Kişisel bilgi"
         },
         "text8": "İsim",
         "text9": "E-posta adresi",
@@ -6035,8 +6035,8 @@
         "text78": "İşimizin, varlıklarımızın veya hisselerimizin tamamının veya herhangi bir kısmının yeniden düzenlenmesi, birleşmesi, satışı, ortak girişimi, tahsisi, devri veya başka şekilde elden çıkarılması durumunda Kişisel Bilgilerinizi üçüncü bir tarafa ifşa etmek veya devretmek konusunda meşru menfaatimiz vardır. (herhangi bir iflas veya benzeri işlemlerle bağlantılı olanlar dahil).",
         "text79": "DİĞER BİLGİLER",
         "text80": {
-            "mainText": "“{0}” is any information that does not reveal your specific identity or does not directly relate to an identifiable individual. The Services collect Other Information such as:",
-            "0": "Other Information"
+            "mainText": "\"{0}\", belirli kimliğinizi ifşa etmeyen veya kimliği belirlenebilir bir kişiyle doğrudan ilgili olmayan herhangi bir bilgidir. Hizmetler, aşağıdakiler gibi Diğer Bilgileri toplar:",
+            "0": "Diğer Bilgiler"
         },
         "text81": "Tarayıcı ve cihaz bilgileri",
         "text82": "Çerezler, piksel etiketleri ve diğer teknolojiler aracılığıyla toplanan bilgiler",
@@ -6052,8 +6052,8 @@
         "text91": "Piksel etiketleri ve diğer benzer teknolojiler.",
         "text92": "Piksel etiketleri (web işaretçileri ve net GIF'ler olarak da bilinir), diğer şeylerin yanı sıra, Hizmet kullanıcılarının (e-posta alıcıları dahil) eylemlerini izlemek, pazarlama kampanyalarımızın başarısını ölçmek ve kullanımı hakkında istatistikler derlemek için kullanılabilir. Hizmetler ve yanıt oranları.",
         "text93": {
-            "mainText": "{0}. We use third party analytics service providers, including Google Analytics, which use cookies and similar technologies to collect and analyze information about use of the Services and report on activities and trends.  These analytics services may also collect information regarding the use of other websites, apps and online resources.  You can learn about Google’s practices by going to ",
-            "0": "Analytics"
+            "mainText": "{0}. Hizmetlerin kullanımıyla ilgili bilgileri toplamak ve analiz etmek ve faaliyetler ve eğilimler hakkında rapor oluşturmak için çerezleri ve benzer teknolojileri kullanan, Google Analytics dahil olmak üzere üçüncü taraf analitik hizmet sağlayıcıları kullanıyoruz. Bu analiz hizmetleri ayrıca diğer web sitelerinin, uygulamaların ve çevrimiçi kaynakların kullanımına ilişkin bilgiler de toplayabilir. Google'ın uygulamaları hakkında şuraya giderek bilgi edinebilirsiniz:",
+            "0": "Analitik"
         },
         "text93part2": "ve adresinde bulunan Google Analytics devre dışı bırakma tarayıcı eklentisini indirerek Google tarafından sağlanan devre dışı bırakma işlemini uygulayın. ",
         "text94": "Diğer Bilgilerin Kullanımları ve Açıklamaları",
@@ -6094,7 +6094,7 @@
         "text127part2": ". Birleşik Krallık veri koruma makamına ilişkin bilgiler burada mevcuttur:",
         "text128": "KALİFORNİYA İLE İLGİLİ EK BİLGİLER",
         "text129": {
-            "mainText": "Pursuant to the California Consumer Privacy Act of 2018 (“{0}”), we are providing the following additional details regarding the categories of Personal Information that we collect, use, and disclose about California residents. This section does not apply to our job applicants, employees, contractors, owners, directors, or officers where the Personal Information we collect about those individuals relates to their current, former, or potential role with us.",
+            "mainText": "2018 Kaliforniya Tüketici Gizliliği Yasası (“{0}”) uyarınca, Kaliforniya sakinleri hakkında topladığımız, kullandığımız ve ifşa ettiğimiz Kişisel Bilgi kategorileriyle ilgili aşağıdaki ek ayrıntıları sağlıyoruz. Bu bölüm, bu kişiler hakkında topladığımız Kişisel Bilgilerin bizdeki mevcut, eski veya potansiyel rolleriyle ilgili olduğu durumlarda iş başvurusunda bulunanlarımız, çalışanlarımız, yüklenicilerimiz, sahiplerimiz, yöneticilerimiz veya memurlarımız için geçerli değildir.",
             "0": "CCPA"
         },
         "text130": "Kişisel Bilgilerin Toplanması ve İfşası",
@@ -6102,33 +6102,33 @@
         "text132": "Kişisel Bilgi Kategorileri",
         "text133": "Operasyonel İş Amaçlı Üçüncü Kişi Kategorilerinden Açıklananlar",
         "text134": {
-            "mainText": "{0}, such as username, contact information, IP address and other online identifiers",
-            "0": "Identifiers"
+            "mainText": "{0}, örneğin kullanıcı adı, iletişim bilgileri, IP adresi ve diğer çevrimiçi tanımlayıcılar",
+            "0": "Tanımlayıcılar"
         },
         "text135": "İştirakler; Servis sağlayıcıları; iş ortakları; ortak pazarlama ortakları; yarışma sponsorları; yasal makamlar",
         "text136": {
-            "mainText": "{0}, such as name and contact information",
-            "0": "Personal information as defined in the California customer records law"
+            "mainText": "{0}, ad ve iletişim bilgileri gibi",
+            "0": "California müşteri kayıtları yasasında tanımlandığı şekliyle kişisel bilgiler"
         },
         "text137": "İştirakler; Servis sağlayıcıları; iş ortakları; ortak pazarlama ortakları; yarışma sponsorları; yasal makamlar",
         "text138": {
-            "mainText": "{0}, such as transaction information and purchase history",
-            "0": "Commercial Information"
+            "mainText": "{0}, işlem bilgileri ve satın alma geçmişi gibi",
+            "0": "Ticari Bilgiler"
         },
         "text139": "İştirakler; Servis sağlayıcıları; iş ortakları; ortak pazarlama ortakları; yarışma sponsorları; yasal makamlar",
         "text140": {
-            "mainText": "{0}, such as interactions with our online properties",
-            "0": "Internet or network activity information"
+            "mainText": "{0}, çevrimiçi mülklerimizle etkileşimler gibi",
+            "0": "İnternet veya ağ etkinliği bilgileri"
         },
         "text141": "İştirakler; Servis sağlayıcıları; iş ortakları; ortak pazarlama ortakları; yarışma sponsorları; yasal makamlar",
         "text142": {
-            "mainText": "{0}, such as approximate location derived from IP address",
-            "0": "Geolocation Data"
+            "mainText": "{0}, IP adresinden elde edilen yaklaşık konum gibi",
+            "0": "Coğrafi Konum Verileri"
         },
         "text143": "İştirakler; Servis sağlayıcıları; iş ortakları; ortak pazarlama ortakları; yarışma sponsorları; yasal makamlar",
         "text144": {
-            "mainText": "{0}. Audio, electronic, and similar information",
-            "0": "Audio/Video Data"
+            "mainText": "{0}. Ses, elektronik ve benzeri bilgiler",
+            "0": "Ses/Video Verileri"
         },
         "text145": "İştirakler; Servis sağlayıcıları; iş ortakları; ortak pazarlama ortakları; yarışma sponsorları; yasal makamlar",
         "text146": "Son 12 ay içinde CCPA amaçları doğrultusunda Kişisel Bilgileri \"satmıyoruz\" ve \"satmadık\". Örneğin, yukarıdakileri sınırlamadan, 16 yaşından küçüklerin Kişisel Bilgilerini satmayız.",
@@ -10207,9 +10207,9 @@
         "appliedfilter": "Uygulanan Filtreler",
         "applyfilter": "Filtreleri Uygula",
         "filters": "Filtreler",
-        "collections": "Collections",
-        "sidebarcollections": "NFT COLLECTIONS",
-        "exploreCollections": "Explore Collections"
+        "collections": "Kolleksiyonlar",
+        "sidebarcollections": "NFT KOLLEKSİYONLARI",
+        "exploreCollections": "Kolleksiyon Keşfet"
     },
     "kyc": {
         "statuses": {
@@ -10322,12 +10322,12 @@
     },
     "backoffice": {
         "collections": {
-            "isExternalCollection": "IS EXTERNAL COLLECTION",
-            "errorURLMessage": "URL incorrect format",
-            "errorcreateByURLMessage": "URL incorrect format",
-            "errorPublicLinkMessage": "URL incorrect format",
-            "createByName": "Create by name",
-            "createByUrl": "Created by URL",
+            "isExternalCollection": "3. PARTİ KOLLEKSİYONU",
+            "errorURLMessage": "URL yanlış format",
+            "errorcreateByURLMessage": "URL yanlış format",
+            "errorPublicLinkMessage": "URL yanlış format",
+            "createByName": "İsme göre oluştur",
+            "createByUrl": "URL'ye göre oluştur",
             "publicLink": "Public Link",
             "isFeatured": "IS FEATURED"
         }
@@ -10637,7 +10637,7 @@
     },
     "title": "Cheaters will be banned",
     "collections": {
-        "title": "Explore Collections",
-        "subtitle": "Discover Collections and start creating unique Experiences in the Metaverse."
+        "title": "Kolleksiyon Keşfet",
+        "subtitle": "Kolleksiyonları keşfet ve Metaverse'de eşsiz deneyimler oluşturmaya başla"
     }
 }
