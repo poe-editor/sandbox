@@ -3366,9 +3366,9 @@
             "publish": "Publish",
             "unpublish": "Unpublish",
             "tags": "Tags",
-            "collection": "Avatar Collection gating",
+            "collection": "Avatar collection gating",
             "collectionToGate": "Collection to gate",
-            "defaultAvatar": "Default avatar",
+            "defaultAvatar": "Example avatar",
             "displayedAsPreview": "This will be displayed as a preview when the user does not own an avatar from the specified collection."
         },
         "publish": {
@@ -5083,7 +5083,10 @@
             "faction": "This game is locked by the faction.",
             "ambassador": "This game is locked by an ambassador.",
             "moderator": "This game is locked by a moderator.",
-            "seasonPass": "This experience is locked because you don’t have the Season Pass"
+            "seasonPass": "This experience is locked because you don’t have the Season Pass",
+            "warning": "Missing access to this land, you need the following:",
+            "collection": "Collection",
+            "token": "NFT"
         },
         "creatorWebsite": "Website"
     },
