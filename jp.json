@@ -3366,9 +3366,9 @@
             "publish": "公開",
             "unpublish": "非公開",
             "tags": "タグ",
-            "collection": "Avatar Collection gating",
+            "collection": "Avatar collection gating",
             "collectionToGate": "Collection to gate",
-            "defaultAvatar": "デフォルトのアバター",
+            "defaultAvatar": "Example avatar",
             "displayedAsPreview": "指定したコレクションのアバターをユーザーが所有していない場合にプレビューとして表示されます。"
         },
         "publish": {
@@ -5083,7 +5083,10 @@
             "faction": "このゲームは勢力グループがロックしています。",
             "ambassador": "このゲームはアンバサダーがロックしています。",
             "moderator": "このゲームはモデレーターがロックしています。",
-            "seasonPass": "シーズンパスをお持ちでないため、この体験はロックされています"
+            "seasonPass": "シーズンパスをお持ちでないため、この体験はロックされています",
+            "warning": "Missing access to this land, you need the following:",
+            "collection": "Collection",
+            "token": "NFT"
         },
         "creatorWebsite": "ウェブサイト"
     },
@@ -9195,15 +9198,15 @@
                             },
                             "2": {
                                 "title": "Sit on the Ground: ",
-                                "subtitle": "A sit animation was added so users can sit and interact among each other."
+                                "subtitle": "座るアニメーションが新登場、ユーザー同士が座りながら交流できるようになりました。"
                             },
                             "3": {
-                                "title": "Auto Climb Update Improvements: ",
+                                "title": "オートクライムアップデートの改善：",
                                 "subtitle": "Auto-Jump feature was updated, and now lets the user auto-jump assets of 1 block, ½ block and ¼ block height."
                             },
                             "4": {
-                                "title": "Emotes: ",
-                                "subtitle": "New Dance Animations were added to the random sections of the emotes wheel."
+                                "title": "エモート：",
+                                "subtitle": "エモートホイールのランダムセクションに新しいダンスアニメーションが追加されました。"
                             }
                         }
                     }
@@ -9211,23 +9214,23 @@
             },
             "1": {
                 "date": "August 29, 2022 - Game Maker 0.7.1 changelog",
-                "title": "Bug Fixing and Enhancements",
+                "title": "不具合修正と機能拡張",
                 "list": {
                     "0": {
-                        "title": "Bug Fixing",
-                        "subtitle": "Multiple bug fixes have been made to stabilize the product and get some improvements in performance. This fixes affects:",
+                        "title": "不具合修正",
+                        "subtitle": "製品の安定化とパフォーマンスの向上のため、複数のバグフィックスを行いました。この修正は以下の項目に影響します。",
                         "list": {
                             "0": {
-                                "title": "Play Mode UI: ",
-                                "subtitle": "Exclamation marks were shown always in yellow."
+                                "title": "プレイモード UI: ",
+                                "subtitle": "ビックリマークは常に黄色で表示されるようにした。"
                             },
                             "1": {
                                 "title": "Game Maker usability: ",
-                                "subtitle": "Ability to place assets was lost after saving and reopening."
+                                "subtitle": "保存して開いた為、アセットを配置することはできませんでした。"
                             },
                             "2": {
-                                "title": "General: ",
-                                "subtitle": "Crashes and Soft blocks."
+                                "title": "一般事項：",
+                                "subtitle": "クラッシュとソフトブロック。"
                             }
                         }
                     }
@@ -10021,7 +10024,7 @@
             "desc1": "You want to partner with The Sandbox?",
             "desc2": "Have a look at our opportunities",
             "button": "Join now",
-            "subTitle": "Everyone is welcome inside The Sandbox"
+            "subTitle": "The Sandboxは、どなたでもご利用いただけます。"
         },
         "community": {
             "title": "Join a community where worlds are merging",
@@ -10074,20 +10077,20 @@
             }
         },
         "whypartner": {
-            "title": "WHY PARTNER WITH US?",
+            "title": "パートナーになる理由",
             "blocks": {
                 "1": {
                     "title": "100%",
-                    "subtitle": "Access to our platform",
-                    "desc1": "Partnering with The Sandbox is not only a way to join one of the biggest metaverse in the world, it is also a true standpoint for accessibility.",
-                    "desc2": "Everyone, from a powerful gaming computer to a mobile device, will be able to access our platform.",
+                    "subtitle": "弊社プラットフォームへのアクセス方法",
+                    "desc1": "The Sandboxとのパートナーシップは、メタバースの入り口を開きます。",
+                    "desc2": "The Sandboxプラットフォームにもうすぐモバイル端末でアクセスできるようになります。",
                     "desc3": "Our quest toward interoperability also will help our community and the overall market merge worlds all together."
                 },
                 "2": {
                     "title": "+200",
-                    "subtitle": "brands already involved",
+                    "subtitle": "パートナーブランド",
                     "desc1": "Our unique identity and our plan to market have already helped more than 200 brands to get into our space and develop their own world. When you join The Sandbox, you also join Gucci, Adidas, Snoop Dogg, Ubisoft and much more...",
-                    "desc2": "Be part of the amazing ecosystem where brands create out of this world experiences for the pleasure and growth of their community.",
+                    "desc2": "メタバースにジョインしてブランドが、制作した探検の一部になりませんか？",
                     "desc3": "Our quest toward interoperability also will help our community and the overall market mege worlds all together."
                 },
                 "3": {
@@ -10521,66 +10524,66 @@
                 "date": "August 29, 2022 - Public Beta Release",
                 "list": {
                     "0": {
-                        "title": "New Features",
+                        "title": "新機能",
                         "list": [
-                            "Login (for Content Collab feature)",
-                            "Animation Channels!",
-                            "Ability to toggle between per axis and SLERP (spherical linear interpolation, i.e: what we had before) for multi axis rotations",
-                            "Automated SLERP toggle to keep old behaviour for most animators",
-                            "Reference frames for translation (World, Parent, Object)",
-                            "Camera POV widget",
-                            "Color, node name and channel filters for timeline",
-                            "Delete Material button in Material panel",
-                            "Append Palette in Palette header menu",
-                            "Circle and Sphere tools for Modeler and Block Editor",
-                            "Value dragging and arrows for Inspector transform text fields",
-                            "Double clicking a node in the viewport now edits it's attached model",
-                            "Floor grid toggle for Animator",
-                            "\"Solo Layer\" mode for Modeler",
-                            "Upload Popup"
+                            "ログイン (コンテンツ・コラボ機能用)",
+                            "アニメーションチャンネル",
+                            "多軸回転を軸ごととSLERP (球面線形補間、つまり以前からあるもの)の間でトグルできるようになりました。",
+                            "SLERPの切り替えを自動化し、ほとんどのアニメーターが従来の動作を維持できるようになりました。",
+                            "移動のためのリファレンスフレーム (ワールド、親、オブジェクト)",
+                            "カメラPOVウィジェット",
+                            "タイムラインのカラー、ノード名、チャンネルフィルター",
+                            "マテリアルパネルでマテリアルを削除ボタン",
+                            "パレットヘッダーメニューにパレットを追加",
+                            "モデラーとブロックエディターの円と球のツール",
+                            "インスペクタのトランスフォームテキストフィールドに値のドラッグと矢印を追加",
+                            "ビューポートでノードをダブルクリックすると、そのノードに接続されたモデルが編集されるようになりました。",
+                            "アニメーターにフロアグリッドのトグルを追加",
+                            "モデラーの「ソロレイヤー」モード",
+                            "アップロードポップアップ"
                         ]
                     },
                     "1": {
-                        "title": "Improvements",
+                        "title": "改善点",
                         "list": [
-                            "New and improved themes!",
-                            "Tab system for Library and Inspector",
-                            "Vertical layout for Inspector, with new/delete keyframe per channel buttons",
-                            "Save and Save As in File menu",
-                            "Button to remove recent file from list",
-                            "Picker tool now works on any visible voxel, not just the active layer's ones",
-                            "Opening a rig now sets the camera to fit",
-                            "Camera now works better, makes it almost impossible to lock itself inside of geometry",
-                            "Added shortcuts to Sync To/From MagicaVoxel (ctrl/cmd+m, shift+ctrl/cmd+m)",
-                            "Added shortcut to Return to Rig from editing a model (esc)",
-                            "Added shortcut to copy from/paste to currently focused textfield (ctrl/cmd + c/v)",
-                            "Shorter rows in Timeline",
-                            "Better Animator floor grid",
-                            "Updated links to Marketplace, Tutorials, Guidelines, etc",
-                            "New Language Selector UI",
-                            "Added Move In Plane widget for selected voxel movement",
-                            "Selected voxel edges are now shown in new \"see through\" mode",
-                            "Orthographic camera is better",
-                            "In shortest editor window, Modeler toolbar changes it's layout to be in two columns",
-                            "Voxel and node count for Animator"
+                            "新しいテーマと改良されたテーマ",
+                            "ライブラリとインスペクタのタブシステム",
+                            "インスペクタを縦に配置し、チャンネルごとに新規／削除キーフレームをボタン化",
+                            "ファイルメニューの保存と名前を付けて保存",
+                            "最近のファイルをリストから削除するボタン",
+                            "ピッカツールがアクティブレイヤーのボクセルだけでなく、表示されているすべてのボクセルに対して機能するようになりました。",
+                            "リグを開くと、カメラがフィットするように設定されるようになりました",
+                            "カメラの動作が改善され、ジオメトリの内側に固定されることがほとんどなくなりました。",
+                            "MagicaVoxelとの同期を行うショートカットを追加 (ctrl/cmd+m, shift+ctrl/cmd+m)",
+                            "モデル編集からリグに戻るショートカットを追加(esc)",
+                            "現在フォーカスされているテキストフィールドからコピー/ペーストするショートカットを追加 (ctrl/cmd + c/v)",
+                            "タイムラインの行を短縮",
+                            "アニメーターのフロアグリッドの改善",
+                            "マーケットプレイス、チュートリアル、ガイドライン等へのリンクの更新",
+                            "言語セレクタのUIを変更",
+                            "選択されたボクセルの移動にMove In Planeウィジェットを追加",
+                            "選択したボクセルのエッジを「シースルー」モードで表示するように変更",
+                            "正投影カメラの改善",
+                            "最短のエディタウィンドウで、モデラーツールバーのレイアウトを2列表示に変更",
+                            "アニメーターのボクセルとノードの数"
                         ]
                     },
                     "2": {
                         "title": "Changes",
                         "list": [
-                            "Animation max length is now 30 seconds",
-                            "Removed Long Way Rotation (backwards compatibility kept by autoadding a middle keyframe)",
-                            "Removed Local Transforms (backwards compatibility by adding a child node that is transformed using the original local transform and attaching the node's model to it instead)",
-                            "GLTF is now exporting all animations for animated assets, not only the ones that have more keyframes",
-                            "Removed Keep Position through Rotation unintuitive feature",
-                            "Node names are now limited to 24 characters",
-                            "New Animations now take first frame pose from the current pose",
-                            "VoxEdit now only runs as a single instance",
-                            "New Keyframe is disabled while playing an animation",
-                            "Inspector IK values are no longer editable while playing an animation",
-                            "Timeline rows are now a bit shorter",
-                            "Removed \"Scroll Layer\" buttons from Modeler viewport (easier to work with the Translation widget)",
-                            "Moving Keyframe at frame 0 now copies it"
+                            "アニメーションは最長30秒に変更になりました",
+                            "ロングウェイローテーションを削除しました（中間キーフレームを自動挿入することで後方互換性を維持）",
+                            "ローカルトランスフォームを削除しました（オリジナルのローカルトランスフォームを使用してトランスフォームされる子ノードを追加し、代わりにノードのモデルをそれにアタッチすることによって後方互換性を維持します）",
+                            "GLTF は、より多くのキーフレームを持つものだけでなく、アニメーション化されたアセットのすべてのアニメーションをエクスポートできるようになりました",
+                            "直感的でない回転による位置保持機能を削除しました",
+                            "ノード名は24文字までに制限されるようになりました",
+                            "新しいアニメーションは、現在のポーズから最初のフレームのポーズを取るようになりました",
+                            "VoxEdit をシングルインスタンスとしてのみ実行するように変更しました",
+                            "アニメーションの再生中、新規キーフレームは無効化されます",
+                            "アニメーションの再生中、インスペクタのIK値は編集不可になりました",
+                            "タイムラインの列が少し短くなりました",
+                            "モデラービューポートから「レイヤーをスクロール」ボタンを削除 (トランスレーションウィジェットとの連携が容易になりました)",
+                            "フレーム0でのキーフレームの移動はコピーされます"
                         ]
                     },
                     "3": {
