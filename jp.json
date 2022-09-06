@@ -500,9 +500,9 @@
             "discover": "探索しよう"
         },
         "apeavatarSeason3": {
-            "title": "PLAY WITH YOUR NFTS",
+            "title": "NFTで遊ぶ",
             "description": "Over 140K cool avatars are available to play in the Sandbox. Check out the collections and turn your NFT into life",
-            "explore": "Explore Avatar Collections"
+            "explore": "アバターコレクションを見る"
         }
     },
     "season": {
@@ -1547,7 +1547,7 @@
                 "completed": "Completed",
                 "missed": "なし",
                 "newThisWeek": "New This Week",
-                "avatargiveaway": "Avatar Giveaway"
+                "avatargiveaway": "アバタープレゼント"
             },
             "rewards": {
                 "alphaSeason": "アルファ・シーズン3",
@@ -2083,7 +2083,7 @@
                     "ep": "シーズン3のクエストをクリアして、エトスポイントを集めよう！",
                     "quests": "クエストを繰り返し、最速のクリアタイムを目指そう!",
                     "rewards": "シーズンの終わりに報酬ページから報酬を受け取りましょう!",
-                    "missing": "You need at least 1 EP (earned by completing a quest) and to have verified your account to appear on the leaderboard."
+                    "missing": "Leaderboardに表示されるには、EP（クエストをクリアすることで得られる）が1以上必要で、アカウントの認証が完了している必要があります。"
                 }
             },
             "rewards": {
@@ -2108,7 +2108,7 @@
                         "column1": "体験",
                         "column2": "Your Time",
                         "column3": "ワールドレコード",
-                        "column4": "Average Time"
+                        "column4": "平均時間"
                     }
                 },
                 "experienceDetails": {
@@ -2118,9 +2118,9 @@
                         "column2": "Your Time",
                         "column3": "World Record",
                         "column4": "Record Holder",
-                        "column5": "Average Time"
+                        "column5": "平均時間"
                     },
-                    "buggedQuest": "This quest has been removed from time tracking due to a bug"
+                    "buggedQuest": "このクエストはバグによりタイムトラッキングから削除されました。"
                 }
             },
             "banner": {
@@ -2128,8 +2128,8 @@
                 "link": "Start Here"
             },
             "cheaters": {
-                "description": "Our anti-cheat squad is monitoring the Leaderboard. To report a cheater contact us at",
-                "title": "Cheaters will be banned"
+                "description": "チート対策チームがLeaderboardを監視しています。チーターを報告するには、以下の連絡先にご連絡ください。",
+                "title": "チーターのアカウント停止されます"
             }
         }
     },
@@ -2684,7 +2684,7 @@
             "gameExperiences": "The Sandboxで構築されたゲーム",
             "download": {
                 "title": "Game Maker ダウンロード",
-                "cta": "Download"
+                "cta": "ダウンロード"
             },
             "end": {
                 "text": "ゲームを起動して、アセットを自由に配置して体験を作り出そう！",
@@ -3365,11 +3365,11 @@
             "linkLands": "リンクしてください",
             "publish": "公開",
             "unpublish": "非公開",
-            "tags": "Tags",
-            "collection": "Collection",
+            "tags": "タグ",
+            "collection": "コレクション",
             "collectionToGate": "Collection to gate",
-            "defaultAvatar": "Default avatar",
-            "displayedAsPreview": "This will be displayed as a preview when the user does not own an avatar from the specified collection."
+            "defaultAvatar": "デフォルトのアバター",
+            "displayedAsPreview": "指定したコレクションのアバターをユーザーが所有していない場合にプレビューとして表示されます。"
         },
         "publish": {
             "title": "体験を公開"
@@ -4062,7 +4062,7 @@
                 "exclusive": "限定",
                 "basic": "基本",
                 "sale": "販売中",
-                "wishlist": "Wishlist"
+                "wishlist": "ウィッシュリスト"
             },
             "actions": {
                 "title": "アクション",
@@ -4361,7 +4361,7 @@
                 "value": "次で続行：",
                 "signin": "Venlyでサインインしてください",
                 "subtitle": "(Venly)",
-                "tooltip": "Connecting through Social will create crypto-wallet in Venly."
+                "tooltip": "SNSにコネクトすると、Venlyのウォレットが開設されます。"
             },
             "login": "既にアカウントを持っている",
             "waiting": "サインインまたはVenlyに登録してください",
@@ -4370,15 +4370,15 @@
             "walletLegacy": "古いウォレットを使用しているようです。手動でロックを解除して、再度お試しください。 ",
             "completeWConnect": "ウォレットアプリでサインアップ{0}の手続きを完了してください。",
             "completeCoinbase": "Coinbase アプリからブラウザで{0}サインアップ プロセスを完了してください。",
-            "showMoreOptions": "Show more options",
-            "showLessOptions": "Show less options",
+            "showMoreOptions": "選択肢を表示する",
+            "showLessOptions": "選択肢を表示しない",
             "completeLoginInWallet": {
-                "continueInApp": "Please continue the login process within your wallet app.",
-                "continueInAppHelp1": "Your wallet app isn't opening automatically?",
-                "continueInAppHelp2": "Try going through the login process again.",
-                "installWalletExtension": "Please refresh your browser after installing the extension.",
-                "installWalletExtensionContinue": "After reloading the page, resume your login process with the wallet extension you installed.",
-                "reloadPage": "RELOAD PAGE"
+                "continueInApp": "ウォレットでサインインを続けてください。",
+                "continueInAppHelp1": "ウォレットに自動接続できませんか？",
+                "continueInAppHelp2": "もう一度、サインインの手続きを行ってみてください。",
+                "installWalletExtension": "拡張機能をインストールした後は、ブラウザを更新してください。",
+                "installWalletExtensionContinue": "ページを再読み込みした後、インストールしたウォレット拡張機能でサインイン処理を再開してください。",
+                "reloadPage": "ページを再読み込みする"
             }
         },
         "signinModal": {
@@ -4400,7 +4400,7 @@
         },
         "forgotModal": {
             "title": "パスワードの回復",
-            "emailOrUsername": "Enter your Email to reset your password",
+            "emailOrUsername": "パスワードをリセットするには、メールアドレスを入力してください。",
             "recover": "回復",
             "sent": "メールを送信しました",
             "emailTo": "次のアドレス宛にメールを送信しました：",
@@ -4783,7 +4783,7 @@
             "title": "バッジ",
             "note": "Get badges by achieving various goals inside The Sandbox ecosystem. Badges will grant you extra Raffle Tickets for upcoming Alpha Seasons Raffles.",
             "nftNote": "バッジはNFTではないので、取引はできません",
-            "obtained": "Unlocked at {date}",
+            "obtained": "{date}にアンロック",
             "missed": "なし",
             "noBadge": "バッズを選択してプレビューを見る",
             "noDates": "No Dates",
@@ -6354,7 +6354,7 @@
             "ethereumNetwork": "Ethereum",
             "action-desc-deposit-single": "より多くのSANDを獲得するには",
             "footer-text-deposit-single": "このトランザクションでは選択した数量のmSANDを預けることで、預入合計額が増加します。",
-            "footer-text-claim-single": "This transaction will claim current SAND rewards to your wallet.",
+            "footer-text-claim-single": "この取引により、現在のSANDの報酬がご登録のウォレットに移動します。",
             "footer-text-exit": "This transaction will withdraw the selected LP amount from your total deposit. It will also claim any available earnings to save you some gas fee.",
             "footer-text-withdraw-single": "こちらのトランザクションでは預入合計額からお客様のmSANDを引きだします。また利用可能な収益を受け取ることで、ネットワーク手数料を節約できます。",
             "footer-text-withdraw-exit": "This transaction will withdraw your SAND from your total deposit. It will also claim any available earnings to save you some gas fee.",
@@ -9123,67 +9123,67 @@
         "2022": {
             "0": {
                 "date": "June 24, 2022 - Game Maker 0.7.0 changelog",
-                "title": "Bug Fixing and Enhancements",
+                "title": "不具合修正と機能強化",
                 "list": {
                     "0": {
-                        "title": "MacOS Compatibility",
+                        "title": "MacOS互換性",
                         "list": {
                             "0": {
-                                "title": "MacOS build was released with feature parity with Windows version. Both builds are in the same state and should not present any differences."
+                                "title": "MacOSとWindowsは、同じ機能を持つビルドでリリースされました。"
                             }
                         }
                     },
                     "1": {
-                        "title": "Bug Fixing",
+                        "title": "不具合修正",
                         "list": {
                             "0": {
-                                "title": "Multiple bug fixes have been made to stabilize the product and get some improvements in performance."
+                                "title": "複数のバグフィックスを行い、製品の安定化と性能の向上を図りました。"
                             }
                         }
                     },
                     "2": {
-                        "title": "Game Maker Menu & UI",
+                        "title": "Game Maker メニューとUI",
                         "list": {
                             "0": {
-                                "title": "Loading Screen: ",
-                                "subtitle": "Loading screen is showing more and better information. The loading screen background image has been changed to a default one, and the thumbnail corresponding to the experience is bigger."
+                                "title": "ローディング画面：",
+                                "subtitle": "ローディング画面は良質な情報の表示量が増えています。ローディング画面の背景画像をデフォルトのものに変更し、体験に対応したサムネイルを大きくしました。"
                             },
                             "1": {
-                                "title": "Improvement on the Level Widge: ",
-                                "subtitle": "It has a flash feedback so the user can notice when there is a change in the widget information."
+                                "title": "レベルウィッジの改善：",
+                                "subtitle": "ウィジェットの情報が変化したときに、ユーザーが気づくことができるよう、短いフィードバックを準備しています。"
                             },
                             "2": {
-                                "title": "Quest Log Widget: ",
-                                "subtitle": "Improvements have been made to the quest log widget to show information about the quest in a more clear way."
+                                "title": "クエストログ・ウィジェット：",
+                                "subtitle": "クエストログのウィジェットが、クエストに関する情報をより分かりやすく表示するよう改善しました。"
                             }
                         }
                     },
                     "3": {
-                        "title": "New FTUE",
+                        "title": "新しい FTUE",
                         "list": {
                             "0": {
-                                "title": "A new FTUE was implemented for the season."
+                                "title": "今シーズンは新しいFTUEを実装しました。"
                             }
                         }
                     },
                     "4": {
-                        "title": "Loading Time Improvements",
+                        "title": "ロード時間の改善",
                         "list": {
                             "0": {
-                                "title": "Loading time and asset bundle download has been improved for better user experience."
+                                "title": "ロード時間やバンドルされたアセットのダウンロードを改善し、より快適にご利用いただけるようになりました。"
                             }
                         }
                     },
                     "5": {
-                        "title": "Avatar Gating",
+                        "title": "アバターゲーティング",
                         "list": {
                             "0": {
-                                "title": "Avatar gating MVP feature was implemented into the GC. The user will receive a message with the appropriate collection/avatar in case it doesn’t owe one."
+                                "title": "GCにアバターゲートMVP機能が実装されました。ユーザーは、適切なコレクション/アバターがない場合に備えて、メッセージを受け取ることができます。"
                             }
                         }
                     },
                     "6": {
-                        "title": "Gameplay Additions",
+                        "title": "ゲームプレイの追加機能",
                         "list": {
                             "0": {
                                 "title": "Avatar Navigation: ",
@@ -10207,9 +10207,9 @@
         "appliedfilter": "適用されたフィルター",
         "applyfilter": "フィルタを適用する",
         "filters": "フィルタ",
-        "collections": "Collections",
-        "sidebarcollections": "NFT COLLECTIONS",
-        "exploreCollections": "Explore Collections"
+        "collections": "コレクション",
+        "sidebarcollections": "NFTコレクション",
+        "exploreCollections": "コレクション探検"
     },
     "kyc": {
         "statuses": {
@@ -10635,9 +10635,9 @@
             }
         }
     },
-    "title": "Cheaters will be banned",
+    "title": "チーターのアカウント停止されます",
     "collections": {
-        "title": "Explore Collections",
-        "subtitle": "Discover Collections and start creating unique Experiences in the Metaverse."
+        "title": "コレクション探検",
+        "subtitle": "メタバースでコレクションを発見し、不思議な体験を始めませんか。"
     }
 }
