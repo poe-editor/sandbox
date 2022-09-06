@@ -814,7 +814,7 @@
                 "land": "LAND를 소유하여 획득",
                 "total": "획득한 총 추첨 티켓 수",
                 "getNFT": "NFT 획득하기",
-                "stake": "Stake",
+                "stake": " ",
                 "notTraded": "추첨 티켓은 NFT가 아니며,",
                 "notTraded2": "2차 마켓에서 거래할 수 없음",
                 "questTooltipDesc": "레벨업할 때마다 추첨 티켓을 획득합니다. 레벨당 주어지는 티켓의 수량은 리워드 탭을 참고하세요.",
@@ -2083,7 +2083,7 @@
                     "ep": "시즌 3 퀘스트를 완료하고 에토스 포인트를 모으세요!",
                     "quests": "퀘스트에 여러 번 도전하여 가장 빠른 완료 시간을 기록하세요!",
                     "rewards": "시즌 종료 시 리워드 페이지에서 모든 리워드를 획득하세요!",
-                    "missing": "You need at least 1 EP (earned by completing a quest) and to have verified your account to appear on the leaderboard."
+                    "missing": "리더보드에 내 계정이 표시되려면 최소 1 EP(퀘스트를 완료하여 획득)를 보유하고 계정 인증을 완료해야 합니다."
                 }
             },
             "rewards": {
@@ -2120,7 +2120,7 @@
                         "column4": "기록 보유자",
                         "column5": "평균 시간"
                     },
-                    "buggedQuest": "This quest has been removed from time tracking due to a bug"
+                    "buggedQuest": "해당 퀘스트는 버그로 인해 시간 기록에서 제외되었습니다."
                 }
             },
             "banner": {
@@ -3366,8 +3366,8 @@
             "publish": "게시",
             "unpublish": "게시 취소",
             "tags": "태그",
-            "collection": "컬렉션",
-            "collectionToGate": "Collection to gate",
+            "collection": "Avatar Collection gating",
+            "collectionToGate": "게이팅할 컬렉션",
             "defaultAvatar": "기본 아바타",
             "displayedAsPreview": "특정 컬렉션의 아바타를 보유하고 있지 않을 경우 미리보기로 표시됩니다."
         },
@@ -4346,7 +4346,7 @@
                 "title": "Bitski",
                 "value": "지갑을 연결하세요",
                 "signin": "Bitski로 로그인하세요",
-                "subtitle": "(Free Season 3 Airdrop)"
+                "subtitle": "(시즌 3 무료 에어드롭)"
             },
             "email": {
                 "title": "이메일",
@@ -4373,12 +4373,12 @@
             "showMoreOptions": "더 보기",
             "showLessOptions": "숨기기",
             "completeLoginInWallet": {
-                "continueInApp": "Please continue the login process within your wallet app.",
-                "continueInAppHelp1": "Your wallet app isn't opening automatically?",
-                "continueInAppHelp2": "Try going through the login process again.",
-                "installWalletExtension": "Please refresh your browser after installing the extension.",
-                "installWalletExtensionContinue": "After reloading the page, resume your login process with the wallet extension you installed.",
-                "reloadPage": "RELOAD PAGE"
+                "continueInApp": "지갑을 이용해 로그인해 주세요.",
+                "continueInAppHelp1": "자동으로 지갑이 표시되지 않나요?",
+                "continueInAppHelp2": "다시 한번 로그인을 진행해 보세요.",
+                "installWalletExtension": "확장 프로그램을 설치한 후 브라우저를 새로고침하세요.",
+                "installWalletExtensionContinue": "페이지를 다시 불러온 뒤, 설치한 지갑 확장 프로그램으로 로그인을 다시 진행하세요.",
+                "reloadPage": "페이지 다시 불러오기"
             }
         },
         "signinModal": {
@@ -5063,7 +5063,7 @@
         "landsLinkedToTheExperience": "경험에 연결된 LAND",
         "assetsOnSaleFromCreator": "크리에이터가 판매 중인 애셋",
         "publishDate": "게시 날짜",
-        "tokenId": "토큰 ID",
+        "tokenId": "Token Id gating",
         "explore": "탐험하기",
         "complete": "완료",
         "moreDetail": "세부 정보",
@@ -6261,7 +6261,7 @@
         "modalStake": {
             "add": "유동성 추가",
             "balance": "잔액: ",
-            "stake": "스테이킹",
+            "stake": " ",
             "more": "유동 자산을 얻는 방법",
             "amount": "수량",
             "inactive": "비활성"
