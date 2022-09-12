@@ -228,7 +228,8 @@
         "goToClaim": "Toplamaya Git",
         "catalyst&Gems": "KATALİZÖR & MÜCEVHERLER",
         "confirm": "Onayla",
-        "sync": "Senkronizasyon"
+        "sync": "Senkronizasyon",
+        "addCatalystGems": "Add Catalyst and Gems"
     },
     "layout": {
         "topbar": {
@@ -2315,7 +2316,7 @@
             "luck": "şans"
         },
         "behaviours": {
-            "title": "Davranışlar",
+            "title": "Behaviors",
             "allyFighter": "Müttefik savaşçı",
             "animatedDecoration": "Animasyonlu Dekorasyon",
             "assetSpawner": "Varlık Oluşturucu",
@@ -2336,7 +2337,8 @@
             "void": "Geçersiz",
             "multi": "Çoklu",
             "plant": "Dikmek",
-            "question": "Soru"
+            "question": "Soru",
+            "none": "NONE"
         },
         "slots": {
             "title": "Yuvalar",
@@ -3366,9 +3368,9 @@
             "publish": "Yayınla",
             "unpublish": "Yayından kaldır",
             "tags": "Etiketler",
-            "collection": "Avatar Collection gating",
+            "collection": "Avatar collection gating",
             "collectionToGate": "Kapıya koleksiyon",
-            "defaultAvatar": "Varsayılan avatar",
+            "defaultAvatar": "Example avatar",
             "displayedAsPreview": "Kullanıcı belirtilen koleksiyondan bir avatara sahip olmadığında bu bir önizleme olarak gösterilecektir."
         },
         "publish": {
@@ -5083,7 +5085,10 @@
             "faction": "Bu oyun grup tarafından kilitlendi.",
             "ambassador": "Bu oyun bir elçi tarafından kilitlendi.",
             "moderator": "Bu oyun moderatör tarafından kilitlendi..",
-            "seasonPass": "Sezon Bileti'ne sahip olmadığın için bu deneyim kilitlendi"
+            "seasonPass": "Sezon Bileti'ne sahip olmadığın için bu deneyim kilitlendi",
+            "warning": "Missing access to this land, you need the following:",
+            "collection": "Collection",
+            "token": "NFT"
         },
         "creatorWebsite": "Website"
     },
