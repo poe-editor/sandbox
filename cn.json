@@ -228,7 +228,8 @@
         "goToClaim": "Go to Claim",
         "catalyst&Gems": "CATALYST & GEMS",
         "confirm": "Confirm",
-        "sync": "Sync"
+        "sync": "Sync",
+        "addCatalystGems": "Add Catalyst and Gems"
     },
     "layout": {
         "topbar": {
@@ -2315,7 +2316,7 @@
             "luck": "幸运"
         },
         "behaviours": {
-            "title": "行为",
+            "title": "Behaviors",
             "allyFighter": "友军战士",
             "animatedDecoration": "动态装饰",
             "assetSpawner": "ASSET生成器",
@@ -2336,7 +2337,8 @@
             "void": "杂项",
             "multi": "多重",
             "plant": "植物",
-            "question": "问题"
+            "question": "问题",
+            "none": "NONE"
         },
         "slots": {
             "title": "插槽",
@@ -3366,9 +3368,9 @@
             "publish": "发布",
             "unpublish": "取消发布",
             "tags": "Tags",
-            "collection": "Avatar Collection gating",
+            "collection": "Avatar collection gating",
             "collectionToGate": "Collection to gate",
-            "defaultAvatar": "Default avatar",
+            "defaultAvatar": "Example avatar",
             "displayedAsPreview": "This will be displayed as a preview when the user does not own an avatar from the specified collection."
         },
         "publish": {
@@ -5083,7 +5085,10 @@
             "faction": "此游戏已被团体锁定。",
             "ambassador": "此游戏已被大使锁定。",
             "moderator": "此游戏已被版主锁定。",
-            "seasonPass": "你尚未拥有赛季通行证，此体验未解锁"
+            "seasonPass": "你尚未拥有赛季通行证，此体验未解锁",
+            "warning": "Missing access to this land, you need the following:",
+            "collection": "Collection",
+            "token": "NFT"
         },
         "creatorWebsite": "网站"
     },
