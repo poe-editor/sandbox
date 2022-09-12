@@ -228,7 +228,8 @@
         "goToClaim": "Go to Claim",
         "catalyst&Gems": "CATALYST & GEMS",
         "confirm": "Confirm",
-        "sync": "Sync"
+        "sync": "Sync",
+        "addCatalystGems": "Add Catalyst and Gems"
     },
     "layout": {
         "topbar": {
@@ -1581,7 +1582,7 @@
                 "boosterTitle": "報酬用コミュニティ・ブースター",
                 "stakeDesc": " {0}をステーキングして、みんなのアルファパスの報酬を増やすのに貢献する。{1}",
                 "upTo": "Up to +100%",
-                "stakeDesc2": "\"You will also get {0} for staking enough {1}. 1 point earned for each {2} staked during the whole season duration (10 weeks).",
+                "stakeDesc2": "\"また、十分な{1}をステーキングすることで{0}を獲得できます。シーズン全体（10週間）で、{2}をステーキングするごとに1ポイントを獲得できます。",
                 "extraTickets": "500抽選チケット追加",
                 "onlyVerifiedAccounts": "抽選に参加できるのは、認証済みアカウントのみです。",
                 "claimRewards": "報酬を受け取る!",
@@ -1725,7 +1726,7 @@
                 "questTitle": "EPと抽選チケット",
                 "locateQuests": "LOCATE QUESTS",
                 "completeQuests": "COMPLETE QUESTS TO EARN EPS",
-                "completeDescription": "Complete the objective(s) described in the info panel on the right side of the screen. Earn EPs when the quest is completed.",
+                "completeDescription": "画面右側のインフォメーションパネルに記載されている目標を達成してください。クエストをクリアするとEPを獲得できます。",
                 "levelUp": "LEVEL UP",
                 "earnRaffleTickets": "抽選チケットを獲得",
                 "canGetTickets": "ステーキングで500の追加抽選チケットを獲得できます",
@@ -1748,7 +1749,7 @@
                 "polygon": "Polygon",
                 "polygonDescription": "アルファ・シーズン3の報酬の請求は、Polygon Mainnetで行われます。これまでより、ガス代が安くなります！",
                 "EP": "EPはEthos Pointsの略です",
-                "EPDescription": "Completing quests inside the metaverse will now grant EPs. The harder the quest, the more EPs you will earn. Obtain EPs to level up and earn rewards.",
+                "EPDescription": "メタバース内のクエストを完了すると、EPが付与されるようになりました。クエストの難易度が高いほど、より多くのEPを獲得することができます。EPを獲得することで、レベルアップや報酬を得ることができます。",
                 "play": "Play",
                 "events": "イベント",
                 "eventsDescription": "Weekly timed events will happen in some of the experiences of the metaverse. Go back to previously visited experiences during those events to earn some new EPs.",
@@ -1869,7 +1870,7 @@
                     "help": "Help & inform",
                     "helpDesc": "Guide players through the experiences and answer their questions.",
                     "moderate": "Moderate",
-                    "moderateDesc": "チャットをモデレートすることで、みんなの安全を確保します。"
+                    "moderateDesc": "チャットの司会をして、みんなの安全を確保します。"
                 },
                 "10": {
                     "title": "Types of Experiences",
@@ -1947,7 +1948,7 @@
                     "playing": {
                         "title": "アルファ・シーズン3をプレイ",
                         "titleKey": "アルファ・シーズン 3 をプレイするには何が必要ですか?",
-                        "descriptionKey": "- You need to play on Windows or Mac OS\n\n - Minimum configuration PC:\n OS: Windows 10 64bit\n GPU: NVIDIA GeForce GTX 760 or newer\n CPU: i5-8400 or newer (AVX support is required)\n RAM: 8192MB or more\n\n - Minimum configuration Mac:\n OS: MAC OS 10.13 or newer\n GPU: HD4000 equivalent or newer\n CPU: 3.1GHz dual-core Intel Core i5 or newer\n RAM: 8192MB or more\n\n - You also need a stable internet connection. \n - You will also need a bit of ETH to pay for the gas fees if you want to claim an Alpha Pass.",
+                        "descriptionKey": "- YWindowsまたはMac OSでプレイする必要があります\n\n - 最小構成PC:\n OS: Windows 10 64bit\n GPU: NVIDIA GeForce GTX 760 or newer\n CPU: i5-8400 or newer (AVX support is required)\n RAM: 8192MB or more\n\n - 最小構成Mac:\n OS: MAC OS 10.13 or newer\n GPU: HD4000 equivalent or newer\n CPU: 3.1GHz dual-core Intel Core i5 or newer\n RAM: 8192MB or more\n\n - また、安定したインターネット接続環境も必要です。\n - また、Alpha Passを請求する場合は、ガス代としてETHが少し必要です。",
                         "titleKey1": "アルファ・シーズン3をプレイするには？",
                         "descriptionKey1": "アルファ・シーズン 3 と同時にリリースされるゲーム クライアントの最新バージョンをダウンロードする必要があります。{0} をクリックしてゲーム クライアントをダウンロードします。 正しい設定で誰でもプレイでき、無料です。",
                         "descriptionKey1-1": "here",
@@ -2013,12 +2014,12 @@
                         "descriptionKey1": "1. {0} SAND をステーキングすると、追加の抽選チケットが付与されます。\n 2. {1} ブースターは、コミュニティ全体がステークしたSAND の合計額に基づいて、すべての シーズン3アルファパスSAND報酬に適用されます。",
                         "descriptionKey1-1": "抽選チケットの追加：",
                         "descriptionKey1-2": "Community Reward Booster:",
-                        "titleKey2": "In detail, how does the Staking feature relates to Season 3?",
+                        "titleKey2": "具体的に、ステーキング機能はシーズン3とどのように関係しているのでしょうか？",
                         "descriptionKey2": "This feature is a bit complex, but you don’t have to understand how it works under the hood to make optimal use of it, However you can find the details below:\n\n 1. {0} The more and the longer you stake SAND, the more your “staking score” increases. The bigger your staking score, the more Raffle Tickets you will get.\n To get the maximum number of Raffle Tickets from the staking feature (500) you need to have accumulated at least 500 staking score points by the end of the Alpha Season 3.\n\n 2. {1} The bigger everyone’s staking score is, the more the Community Reward Booster increases. The more the Community Reward Booster increases, the more the Season 3 Alpha Pass SAND reward is increased for all.\n The Community Reward Booster is capped at a maximum of +100%. To reach this cap, the community staking score has to reach the target of 40,000,000 points.\n\n Examples: \n - The S3AP base reward is 250 SAND. If by the end of Alpha Season 3, the community staking score reached 40,000,000 points or more, the Community Reward Booster will reach +100%. Therefore, the S3AP reward will be increased by +100% and reach 500 SAND for all S3AP owners.\n - If by the end of Alpha Season 3, the community staking score reached 24,800,000 points, the Community Reward Booster will reach +62%. Therefore, the S3AP reward will be increased by +62% and reach 405 SAND (250 + 62% of 250) for all S3AP owners.",
                         "titleKey3": "アルファ・シーズン3にSANDのステーキングの利率は変わりませんか？",
                         "descriptionKey3": "はい。アルファ・シーズン3のステーキングはボーナスとして機能し、既存の利回りに影響はありません。あなたのSANDはシーズン後、ロックされることはありません。アルファ・シーズン中、アルファによって既存のステーキングの条件に変更はありません。アルファ・シーズン3の上限は、既存ステーキングの利回りに全く影響を与えません。",
                         "titleKey4": "コミュニティブースターは、どのチェーンで利用できますか？",
-                        "descriptionKey4": "The Community Reward Booster is on Layer 2 (Polygon), but only on the SAND staking program (not on the SAND/MATIC program). The whole point of the feature is to incentivize SAND staking on layer 2 to continue our transition to layer 2, which will be a great improvement to the game by reducing gas fees and making The Sandbox a lot greener!",
+                        "descriptionKey4": "Community Reward BoosterはLayer 2（Polygon）にありますが、SANDステーキングプログラムにのみあります（SAND/MATICプログラムにはありません）。この機能のポイントは、レイヤー2への移行を継続するために、レイヤー2でのSANDステーキングにインセンティブを与えることです。これにより、ガス代が削減され、The Sandboxがより環境に優しいものにすることで、ゲームが大きく改善されます！",
                         "titleKey5": "ステーキングスコアはどのように計算されるのですか？",
                         "descriptionKey5": "Again, you do not need to understand the math to make optimal use of this feature, but if you are curious, this is how it works:\n {0}\n This number is a float; you will get exactly the amount of staking score points related to your staking contribution.\n\n {1}\n\n It is important to understand that both time and SAND staked amount are taken into account to calculate the staking score.\n\n 1. {2} The cap is 500 staking score points (to get 500 Raffle Tickets). For every 1 SAND staked for the whole duration of the Alpha (70 days) you get 1 staking score point.\n It means that if you stake 500 SAND for 70 days you will earn the max amount of Raffle Tickets. You can also stake 1,000 SAND for 35 days, or 7,000 SAND for 10 days, for example.\n\n 2. {3} The cap is 40,000,000 collective cumulated staking score points (to get the Community Reward Booster to +100%).\n The total amount of staking score points for the community is just the sum of each user's staking score.\n\n Please note that the amount of days that SAND is staked does not have to be consecutive.",
                         "descriptionKey5-1": "70 日間にステーキングされた 1 SAND ごとに 1 ステーキング スコア ポイントを獲得します。",
@@ -2042,7 +2043,7 @@
                     "security": {
                         "title": "Security",
                         "titleKey": "ウォレットを安全に管理するにはどうしたらいいですか?",
-                        "descriptionKey": "There are a lot of bad actors waiting for an opportunity to get your tokens and NFTs. You need to be really careful! We suggest that you always keep in mind the following recommendations:\n\n - Never share your seed phrase with anyone\n - Don’t keep your seed phrase unprotected\n - Create strong passwords for your wallet and any accounts associated with it\n - Use a password manager with a very strong master password\n - Do not, under any circumstances, leave your wallet unlocked in the browser\n - Encrypt your PC drive and use strong passwords for it and your user account\n - Avoid using public Wi-Fi, and if it cannot be helped, use VPN to protect yourself\n - Do not click links from any unknown email, Discord, chat, or any other source\n - Stay alert!\n\n Read more about these suggestions here: {0}\n\n Additional security resources:\n\n - {1}\n - {2}",
+                        "descriptionKey": "トークンやNFTを手に入れようとしている悪質な業者がたくさんいます。本当に注意が必要です。以下の推奨事項を常に念頭に置いておくことをお勧めします。:\n\n - seed phraseを誰とも共有しない\n - seed phraseを保護されていない状態で保管しない。\n - ウォレットおよびウォレットに関連するすべてのアカウントに強力なパスワードを設定する。\n - 非常に強力なマスターパスワードとパスワードマネージャを使用する。\n - どんな場合でも、ブラウザでウォレットのロックを解除したままにしないでください。\n - PCのドライブを暗号化し、そのドライブとユーザーアカウントに強力なパスワードを使用する。\n - 公共のWi-Fiの使用は避け、やむを得ない場合はVPNを使用して保護する。\n - 知らない電子メール、Discord、チャット、その他のソースからのリンクをクリックしないでください。\n - 警戒を怠らない!\n\n より詳しくはこちらをご覧ください。:{0}\n\n 追加のセキュリティリソース:\n\n - {1}\n - {2}",
                         "descriptionKey0-1": "メタマスクの安全・安心のための基礎知識",
                         "descriptionKey0-2": "To Be Your Own Bank with MetaMask, You Need to Master These Password Best Practices",
                         "titleKey1": "The Sandbox が私の秘密のシードフレーズ（別名パスフレーズ）を要求することはありますか?",
@@ -2315,7 +2316,7 @@
             "luck": "運"
         },
         "behaviours": {
-            "title": "行動",
+            "title": "Behaviors",
             "allyFighter": "味方の戦士",
             "animatedDecoration": "動くデコレーション",
             "assetSpawner": "アセット発生",
@@ -2336,7 +2337,8 @@
             "void": "虚空",
             "multi": "マルチ",
             "plant": "工場",
-            "question": "質問"
+            "question": "質問",
+            "none": "NONE"
         },
         "slots": {
             "title": "スロット",
@@ -4313,7 +4315,7 @@
                 "description2": "You can create your own free avatar or",
                 "descriptionFirstLine": "無料のアバターを作成することができます、もしくは",
                 "descriptionSecondLine": "buy one and get {rewards}",
-                "rewards": "追加の報酬!",
+                "rewards": "追加の報酬！",
                 "createButton": "外部アバターを閲覧する",
                 "description3": "buy one and get {rewards}"
             },
@@ -4457,7 +4459,7 @@
             "completeSteps": "このステップを完了してGame Makerにサインインします。こちらを",
             "skip": "スキップ",
             "completeLater": "して、あとから完了しても構いません。",
-            "tooltip": "The Sandbox Game{0} Maker is a no-code tool{1} that allows anyone to{2} build 3D games for free"
+            "tooltip": "The Sandbox Game{0} Maker はコード不要のツール{1}で、誰でも{2}無料で 3D ゲームを作成できます"
         },
         "assets": {
             "sidebar": {
@@ -9197,12 +9199,12 @@
                                 "subtitle": "Walkキーで歩くことができるようになりました。これにより楽しみ方が増えました。"
                             },
                             "2": {
-                                "title": "Sit on the Ground: ",
+                                "title": "座る: ",
                                 "subtitle": "座るアニメーションが新登場、ユーザー同士が座りながら交流できるようになりました。"
                             },
                             "3": {
                                 "title": "オートクライムアップデートの改善：",
-                                "subtitle": "Auto-Jump feature was updated, and now lets the user auto-jump assets of 1 block, ½ block and ¼ block height."
+                                "subtitle": "自動ジャンプ機能が更新され、1ブロック、1/2ブロック、1/4ブロックの高さのアセットを自動でジャンプできるようになりました。"
                             },
                             "4": {
                                 "title": "エモート：",
@@ -9825,7 +9827,7 @@
         "POC_RAFFLE_PLAY_CREATE_GOVERN_DESCRIPTION_PRIMARY": "Play experiences both singleplayer and multiplayer. Create and animate assets with Voxedit 3D. Build unique game experiences in The Sandbox Metaverse with the Game Maker tool. Buy and Sell assets in the Marketplace to enhance your experience.",
         "POC_RAFFLE_PLAY_CREATE_GOVERN_DESCRIPTION_SECONDARY": "In The Sandbox, the only limit is your imagination.",
         "POC_RAFFLE_JOIN_OUR_COMMUNITY_TITLE": "Join our community",
-        "POC_RAFFLE_JOIN_OUR_COMMUNITY_SUBTITLE": "Be part of our amazing community and stay tuned for any news.",
+        "POC_RAFFLE_JOIN_OUR_COMMUNITY_SUBTITLE": "私たちの素晴らしいコミュニティの一員となり、あらゆるニュースを見逃さないようにしてください。",
         "POC_RAFFLE_JOIN_OUR_COMMUNITY_BUTTON": "Join us",
         "POC_RAFFLE_CONNECT_END_WARNING_TITLE": "end warning",
         "POC_RAFFLE_CONNECT_WRONG_WALLET_TITLE": "wrong wallet",
@@ -9981,7 +9983,7 @@
         "STEVE_AOKI_FAQ_WHAT_CAN_I_DO_TITLE": "What can I do with the Avatars?",
         "STEVE_AOKI_FAQ_WHAT_WHAT_CAN_I_DO_DESCRIPTION": "各アバターは、マルチプレイヤー体験でも、利用可能になりました。また、アバターをお持ちの方には、ゲームプレイを通じてSANDを獲得できるチャンスがあります。",
         "STEVE_AOKI_FAQ_HOW_CAN_I_USE_TITLE": "The Sandbox内で自分のアバターを使うにはどうしたらいいですか？",
-        "STEVE_AOKI_FAQ_HOW_CAN_I_USE_DESCRIPTION": "You will be able to use it as an Avatar by simply selecting it in the Avatar Manager in The Sandbox dashboard once it has been enabled.",
+        "STEVE_AOKI_FAQ_HOW_CAN_I_USE_DESCRIPTION": "The Sandboxのダッシュボードにあるアバターマネージャーで選択するだけで、アバターとして使用できるようになります。",
         "STEVE_AOKI_FAQ_WHERE_CAN_I_BUY_TITLE": "Where can I buy a Steve Aoki avatar after the initial sale is over?",
         "STEVE_AOKI_FAQ_WHERE_CAN_I_BUY_DESCRIPTION": "After the initial sale is over, you will be able to purchase as many avatars as you like from users that are willing to sell theirs on the secondary marketplace Opensea",
         "STEVE_AOKI_FAQ_HOW_DO_I_GET_WHITELISTED_TITLE": "How do I get whitelisted?",
@@ -10061,8 +10063,8 @@
                     "title": "IPとブランド",
                     "desc": "You have a brand and you are wondering how you can enter The Sandbox? You are at the right place, we will help you develop your brand image into our ecosystem.",
                     "button": "Enter now",
-                    "question": "You have a brand and you are wondering how you can enter The Sandbox?",
-                    "answer": "We will help you develop your brand image into our ecosystem."
+                    "question": "ブランドがあって、The Sandboxに入るにはどうしたらいいかと悩んでいませんか？",
+                    "answer": "私たちは、お客様のブランドイメージを私たちのエコシステムに展開するお手伝いをします。"
                 },
                 "2": {
                     "title": "メタバースの代理店",
@@ -10084,7 +10086,7 @@
                     "subtitle": "弊社プラットフォームへのアクセス方法",
                     "desc1": "The Sandboxとのパートナーシップは、メタバースの入り口を開きます。",
                     "desc2": "The Sandboxプラットフォームにもうすぐモバイル端末でアクセスできるようになります。",
-                    "desc3": "Our quest toward interoperability also will help our community and the overall market merge worlds all together."
+                    "desc3": "相互運用性を追求することは、私たちのコミュニティと市場全体の世界を一つに融合させることにもつながります。"
                 },
                 "2": {
                     "title": "+200",
@@ -10160,7 +10162,7 @@
                     "screen": "Climbing madness"
                 }
             },
-            "desc2": "From building houses and cities, to cat walking during fashion shows and defeating dragons and monsters, you are free to offer the experience you dream of."
+            "desc2": "家や街を作ったり、ファッションショーでキャットウォークしたり、ドラゴンやモンスターを倒したりと、あなたの夢見る体験を自由に提供します。"
         },
         "realworld": {
             "title": "AN EXTENSION OF REAL-WORLD EXPERIENCES",
