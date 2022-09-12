@@ -228,7 +228,8 @@
         "goToClaim": "수령하기 페이지로 이동",
         "catalyst&Gems": "카탈리스트와 젬",
         "confirm": "확인",
-        "sync": "동기화"
+        "sync": "동기화",
+        "addCatalystGems": "Add Catalyst and Gems"
     },
     "layout": {
         "topbar": {
@@ -2315,7 +2316,7 @@
             "luck": "행운"
         },
         "behaviours": {
-            "title": "행동",
+            "title": "Behaviors",
             "allyFighter": "Ally Fighter",
             "animatedDecoration": "Animated Decoration",
             "assetSpawner": "Asset Spawner",
@@ -2336,7 +2337,8 @@
             "void": "Void",
             "multi": "Multi",
             "plant": "Plant",
-            "question": "Question"
+            "question": "Question",
+            "none": "NONE"
         },
         "slots": {
             "title": "슬롯",
@@ -3366,9 +3368,9 @@
             "publish": "게시",
             "unpublish": "게시 취소",
             "tags": "태그",
-            "collection": "Avatar Collection gating",
+            "collection": "아바타 컬렉션 게이팅",
             "collectionToGate": "게이팅할 컬렉션",
-            "defaultAvatar": "기본 아바타",
+            "defaultAvatar": "예시 아바타",
             "displayedAsPreview": "특정 컬렉션의 아바타를 보유하고 있지 않을 경우 미리보기로 표시됩니다."
         },
         "publish": {
@@ -4850,7 +4852,7 @@
             "products": "상품 출시",
             "partners": "파트너",
             "kyc": "유저 인증 (KYC)",
-            "shadowBan": "Shadow Ban"
+            "shadowBan": "쉐도우 밴"
         },
         "users": {
             "profile": "프로필",
@@ -4931,10 +4933,10 @@
             "delete": "삭제"
         },
         "shadowBan": {
-            "shadowBannedUsersList": "Shadow Banned Users List",
-            "shadowBanByUserID": "Shadow Ban by User ID",
-            "shadowBannedUsers": "Shadow Banned Users",
-            "shadowBanUser": "Shadow Ban User",
+            "shadowBannedUsersList": "쉐도우 밴 유저리스트",
+            "shadowBanByUserID": "유저 ID로 쉐도우 밴",
+            "shadowBannedUsers": "쉐도우 밴 유저",
+            "shadowBanUser": "쉐도우 밴 유저",
             "reason:": "이유: ",
             "banDate:": "차단 일자: ",
             "unBanUser": "유저 차단 해제",
@@ -5083,7 +5085,10 @@
             "faction": "진영에서 잠근 게임입니다.",
             "ambassador": "앰배서더가 잠근 게임입니다.",
             "moderator": "운영자가 잠근 게임입니다.",
-            "seasonPass": "시즌 패스가 없어 이 경험에 입장할 수 없습니다."
+            "seasonPass": "시즌 패스가 없어 이 경험에 입장할 수 없습니다.",
+            "warning": "이 LAND에 입장할 수 없습니다. 입장하려면 다음의 항목이 필요합니다:",
+            "collection": "컬렉션",
+            "token": "NFT"
         },
         "creatorWebsite": "웹사이트"
     },
@@ -9309,7 +9314,7 @@
         "link": "OpenSea에서 구매하세요",
         "sidebar": "아바타",
         "explore": "외부 컬렉션 살펴보기",
-        "total": " 컬렉션의 애셋",
+        "total": " 개 애셋",
         "exploreLands": "LAND와 이스테이트 살펴보기",
         "exploreLatest": "모든 애셋 살펴보기"
     },
@@ -10178,7 +10183,7 @@
         "explore": "외부 컬렉션 살펴보기",
         "exploreLands": "LAND 및 이스테이트 살펴보기",
         "exploreLatest": "모든 애셋 살펴보기",
-        "total": " 컬렉션의 애셋",
+        "total": "개 애셋",
         "header": {
             "title": "더 샌드박스 아바타",
             "description": "더 샌드박스가 자랑하는 상호운용 아바타 컬렉션을 만나보세요. NFT를 구매하고 특별한 아바타를 획득하여 메타버스를 탐험하세요. 더 많은 컬렉션이 더 샌드박스를 찾아올 예정이니 기대해 주세요!",
@@ -10541,7 +10546,7 @@
                         "title": "개선 사항",
                         "list": [
                             "신규 및 개선된 테마!",
-                            "Tab system for Library and Inspector",
+                            "라이브러리와 인스펙터에 탭 시스템 추가",
                             "Vertical layout for Inspector, with new/delete keyframe per channel buttons",
                             "파일 메뉴에서 저장 및 다른 이름으로 저장",
                             "목록에서 최신 파일을 삭제할 수 있는 버튼 추가",
@@ -10553,7 +10558,7 @@
                             "Added shortcut to copy from/paste to currently focused textfield (ctrl/cmd + c/v)",
                             "Shorter rows in Timeline",
                             "Better Animator floor grid",
-                            "Updated links to Marketplace, Tutorials, Guidelines, etc",
+                            "마켓플레이스, 튜토리얼, 가이드라인 등 링크 업데이트",
                             "언어 선택 UI 업데이트",
                             "Added Move In Plane widget for selected voxel movement",
                             "Selected voxel edges are now shown in new \"see through\" mode",
