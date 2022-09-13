@@ -10248,7 +10248,7 @@
                 "label": "Rejected",
                 "description": "Your account verification has been rejected. If you have any questions please contact us at support@sandbox.game",
                 "extra": "",
-                "cta": "Start Verification",
+                "cta": "See Rejection Reason",
                 "date": "on {0} UTC",
                 "needHelp": "Need help? Check the {0} to learn more about the Account Verification process.",
                 "actionReference": ""
@@ -10308,7 +10308,8 @@
                     "currentStatus": "Current Status",
                     "newStatus": "New Status"
                 }
-            }
+            },
+            "manualUpdateLegend": "Updated by an administrator"
         },
         "bar": {
             "explanation": "Your account is not verified. Verify your account before the end of the season. It is mandatory to claim your rewards",
