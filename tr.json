@@ -10249,7 +10249,7 @@
                 "label": "Reddedildi",
                 "description": "Hesap doğrulamanız reddedildi. Herhangi bir sorunuz varsa lütfen bizimle support@sandbox.game adresinden iletişime geçin.",
                 "extra": "Ekstra",
-                "cta": "Doğrulamayı Başlat",
+                "cta": "See Rejection Reason",
                 "date": "{0} UTC'de",
                 "needHelp": "Yardıma mı ihtiyacınız var? Hesap Doğrulama süreci hakkında daha fazla bilgi edinmek için {0} öğesini kontrol edin.",
                 "actionReference": "referans"
@@ -10309,7 +10309,8 @@
                     "currentStatus": "Mevcut Durum",
                     "newStatus": "Yeni Durum"
                 }
-            }
+            },
+            "manualUpdateLegend": "Updated by an administrator"
         },
         "bar": {
             "explanation": "Hesabınız onaylanmadı. Sezon bitmeden hesabınızı doğrulayın. Ödüllerinizi talep etmek zorunludur",
