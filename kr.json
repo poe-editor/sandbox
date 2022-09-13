@@ -10246,7 +10246,7 @@
                 "label": "거절됨",
                 "description": "계정 인증이 거절되었습니다. 도움이 필요하다면 support@sandbox.game으로 문의해 주세요.",
                 "extra": "추가",
-                "cta": "인증 시작하기",
+                "cta": "See Rejection Reason",
                 "date": "일시: {0} UTC",
                 "needHelp": "도움이 필요한가요? {0} 페이지를 확인하여 계정 인증 절차에 대해 더 자세히 알아보세요.",
                 "actionReference": "actionReference"
@@ -10306,7 +10306,8 @@
                     "currentStatus": "현황",
                     "newStatus": "상태 업데이트"
                 }
-            }
+            },
+            "manualUpdateLegend": "Updated by an administrator"
         },
         "bar": {
             "explanation": "계정이 인증되지 않았습니다. 리워드를 청구하려면 반드시 시즌 종료 전까지 계정 인증을 완료해야 합니다.",
