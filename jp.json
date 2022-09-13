@@ -10249,7 +10249,7 @@
                 "label": "拒否されました",
                 "description": "お客様のアカウント認証が拒否されました。ご不明な点がございましたら、support@sandbox.game までご連絡ください。",
                 "extra": "他",
-                "cta": "認証を開始する",
+                "cta": "See Rejection Reason",
                 "date": "時間： {0} UTC",
                 "needHelp": "ご不明な点は{0} にて、確認できます。",
                 "actionReference": ""
@@ -10309,7 +10309,8 @@
                     "currentStatus": "現在の状態",
                     "newStatus": "新しい状態"
                 }
-            }
+            },
+            "manualUpdateLegend": "Updated by an administrator"
         },
         "bar": {
             "explanation": "あなたのアカウントはまだ認証されていません。シーズン終了までに本人確認んを完了してください。報酬を請求時に必要です。",
