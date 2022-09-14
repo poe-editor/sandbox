@@ -527,7 +527,8 @@
                 "challenge": "Daily Challenges",
                 "belongingMemorabilia": "Belonging Week Memorabilia",
                 "quest": "Quest"
-            }
+            },
+            "fixes": "Changelog"
         },
         "play": {
             "selectAvatar": "選取你的虛擬化身",
@@ -552,9 +553,13 @@
                 "moreExperiences": "即將推出更多體驗",
                 "day": "DAYS",
                 "needLogIn": "You need to be signed in to see your progress",
-                "eventsOfTheDay": "Social events",
+                "eventsOfTheDay": "Extra EPs Events",
                 "boostRewards": "Boost rewards by staking",
-                "to": "TO"
+                "to": "TO",
+                "land": "land",
+                "lands": "lands",
+                "eventStartsAt": "Starts on",
+                "eventTimeZone": "UTC"
             },
             "welcome": {
                 "back": "返回",
@@ -581,7 +586,7 @@
                 "seeRewards": "查看獎勵"
             },
             "tooltips": {
-                "pendingExplore": "尚未造訪",
+                "pendingExplore": "Experience not visited",
                 "explored": "Experience visited",
                 "locked": "已鎖定",
                 "multiplayer": "多人遊戲",
@@ -631,7 +636,8 @@
                 "noWinnerDesc": "Better luck the next time! You didn't win an Alpha S3",
                 "winner": "YOU WON!",
                 "winnerDesc": "You won a S3 Alpha Pass"
-            }
+            },
+            "communityBooster": "Community Booster"
         },
         "pass": {
             "title": "獎勵",
@@ -837,7 +843,7 @@
                 "referralTooltipDesc": ""
             },
             "downloadAlpha": "下載 Alpha",
-            "ethosPointsEarned": "Ethos Point earned",
+            "ethosPointsEarned": "Ethos Point(s) earned",
             "shop": {
                 "s3": "Alpha Season 3",
                 "title": "NFT SHOP",
@@ -857,7 +863,11 @@
                 "externalNFT": "External NFT",
                 "internalNFT": "Internal TSB NFT",
                 "s3Collection": "Season 3 Collection"
-            }
+            },
+            "ethosPoints": "Ethos Point",
+            "eventEthosPoints": "Event Ethos Point",
+            "eventEthosPointsDesc": "Available until",
+            "event": "Event"
         },
         "info": {
             "title": "欢迎来到Alpha版本",
@@ -1554,33 +1564,33 @@
                 "alphaSeason": "Alpha Season 3",
                 "rewards": "Rewards",
                 "claimDesc": "Available from Nov. 5",
-                "leaderboardDesc": "Leaderboard Reward:",
-                "leaderboardDesc2": "Compete with other players on the Leaderboard and earn up to 30K SAND reward!",
+                "leaderboardDesc": "Leaderboard Reward,",
+                "leaderboardDesc2": "Compete against other players in the Leaderboard and win extra rewards.",
                 "leaderboardDesc3": "Go to the Leaderboard",
-                "cannotParticipate": "You already own an Alpha Pass! No need to participate in the Raffle anymore.",
+                "cannotParticipate": "You cannot participate in the Raffle since you already have an Alpha Pass",
                 "didNotWin": "Unfortunately you did not win the Raffle this time.",
                 "wonAlpha": "Congratulations! You won a Season 3 Alpha Pass. Thanks for joining us!",
                 "loggedOut": "You need to be logged in to see your progression",
-                "collectRaffle": "Raffle Tickets increase your chances of winning the Raffle",
+                "collectRaffle": "Collect Raffle Tickets to increase your chances of winning",
                 "ifYouWin": "IF YOU WIN AN ALPHA PASS",
-                "youHold": "YOU HOLD AN ALPHA PASS",
-                "getAlphaDesc": "Own an Alpha Pass to unlock this reward.",
+                "youHold": "YOU HAVE AN ALPHA PASS",
+                "getAlphaDesc": "Get an Alpha Pass to unlock those rewards",
                 "stake": "Stake",
                 "buy": "Buy",
                 "guaranteed": "GUARANTEED",
-                "guaranteedDesc": "Own a LAND, an Avatar or a NFT from Season 3 Collections to earn a {0} at the end of the season.",
-                "earnSand": "GUARANTEED SAND REWARD",
+                "guaranteedDesc": "Own a piece of LAND, an Avatar and NFTs from our collections at the end of the season and earn {0} based on your level.",
+                "earnSand": "BONUS SAND REWARDS GUARANTEED",
                 "landOwner": "Land Owner",
                 "forLandOwner": "FOR LAND OWNERS ONLY",
-                "landDesc": "Get a LAND to unlock these rewards",
+                "landDesc": "Get a piece of LAND to unlock those guaranteed rewards",
                 "avatarOwner": "Avatar Owner",
                 "forAvatarOwner": "FOR AVATAR OWNERS ONLY",
-                "avatarDesc": "Get an Avatar to unlock these rewards",
+                "avatarDesc": "Get an Avatar to unlock those guaranteed rewards",
                 "collectorOwner": "NFT Collector",
                 "forCollectorOwner": "FOR NFT OWNERS ONLY",
-                "collectorDesc": "Get an NFT Badge collector to unlock these rewards",
+                "collectorDesc": "Get an NFT Badge collector to unlock those rewards",
                 "boosterTitle": "Community Booster Rewards",
-                "stakeDesc": "Stake {0} to help increase Alpha Pass rewards for everyone. {1}",
+                "stakeDesc": "Stake {0} to increase the total prize pool. {1}",
                 "upTo": "Up to +100%",
                 "stakeDesc2": "\"You will also get {0} for staking enough {1}. 1 point earned for each {2} staked during the whole season duration (10 weeks).",
                 "extraTickets": "500 extra Raffle Tickets",
@@ -1592,7 +1602,9 @@
                 "youAreLand": "You are a LAND Owner",
                 "youAreAvatar": "You are an Avatar Owner",
                 "youAreCollector": "You are an NFT Collector",
-                "epTooltip": "Earn Ethos Points by completing quests inside experiences. Harder quests will grant you more Ethos Points"
+                "epTooltip": "Earn Ethos Points by completing quests inside experiences. Harder quests will grant you more Ethos Points",
+                "raffleRewards": "Raffle Rewards",
+                "raffleTooltip": "You will win the Raffle if you own a Season 3 Alpha Pass"
             },
             "summary": {
                 "rewardsSummary": "REWARDS SUMMARY",
@@ -1808,7 +1820,7 @@
                     "description": "your winning ticket for the Raffle!",
                     "howGetOne": "How can you get one?",
                     "giveaway": "Giveaway Events",
-                    "giveawayDesc": "Participate in weekly Giveaway Events and get a change to win a Season 3 Alpha Pass.",
+                    "giveawayDesc": "Participate in weekly Giveaway Events and get a chance to win a Season 3 Alpha Pass.",
                     "seeEvents": "See Events",
                     "opensea": "OpenSea",
                     "openseaDesc": "Purchase it on the secondary market.",
@@ -2056,6 +2068,11 @@
                         "descriptionKey4": "Website: {0}\n Twitter: {1}\n Discord: {2}\n Telegram: {3}\n Instagram: {4}\n Facebook: {5}\n YouTube: {6}\n Twitch: {7}\n OpenSea: {8}"
                     }
                 }
+            },
+            "startsOn": "Starts on {varStartDate}",
+            "changelog": {
+                "title": "Changelog",
+                "subtitle": "We are continuously working on enhancements and fixes.\nPlease let us know if you found any bug. Feel free to write us at:"
             }
         },
         "leaderboard": {
