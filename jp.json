@@ -527,7 +527,8 @@
                 "challenge": "デイリー・チャレンジ",
                 "belongingMemorabilia": "Belonging Week Memorabilia",
                 "quest": "Quest"
-            }
+            },
+            "fixes": "Changelog"
         },
         "play": {
             "selectAvatar": "アバターを選択する",
@@ -552,9 +553,13 @@
                 "moreExperiences": "まだまだ新しい体験が登場",
                 "day": "DAYS",
                 "needLogIn": "進捗を確認する",
-                "eventsOfTheDay": "ソーシャルイベント",
+                "eventsOfTheDay": "Extra EPs Events",
                 "boostRewards": "Boost rewards by staking",
-                "to": "TO"
+                "to": "TO",
+                "land": "land",
+                "lands": "lands",
+                "eventStartsAt": "Starts on",
+                "eventTimeZone": "UTC"
             },
             "welcome": {
                 "back": "戻る",
@@ -581,7 +586,7 @@
                 "seeRewards": "報酬を見る"
             },
             "tooltips": {
-                "pendingExplore": "未訪問",
+                "pendingExplore": "Experience not visited",
                 "explored": "訪問した部署",
                 "locked": "ロック中",
                 "multiplayer": "マルチプレイ",
@@ -631,7 +636,8 @@
                 "noWinnerDesc": "S3 アルファパスをゲットできませんでした。次回に期待！",
                 "winner": "当選しました！",
                 "winnerDesc": "S3 アルファパスが当たりました"
-            }
+            },
+            "communityBooster": "Community Booster"
         },
         "pass": {
             "title": "報酬",
@@ -837,7 +843,7 @@
                 "referralTooltipDesc": ""
             },
             "downloadAlpha": "ダウンロード",
-            "ethosPointsEarned": "Ethos Point earned",
+            "ethosPointsEarned": "Ethos Point(s) earned",
             "shop": {
                 "s3": "アルファ・シーズン3",
                 "title": "NFT SHOP",
@@ -857,7 +863,11 @@
                 "externalNFT": "External NFT",
                 "internalNFT": "Internal TSB NFT",
                 "s3Collection": "Season3 コレクション"
-            }
+            },
+            "ethosPoints": "Ethos Point",
+            "eventEthosPoints": "Event Ethos Point",
+            "eventEthosPointsDesc": "Available until",
+            "event": "Event"
         },
         "info": {
             "title": "アルファへようこそ",
@@ -1554,28 +1564,28 @@
                 "alphaSeason": "アルファ・シーズン3",
                 "rewards": "報酬",
                 "claimDesc": "11月5日より公開",
-                "leaderboardDesc": "Leaderboard報酬：",
-                "leaderboardDesc2": "Leaderboardで他のプレイヤーと競い合い、最大で30KのSAND報酬を獲得しよう！注）日本在住の方を除く",
+                "leaderboardDesc": "Leaderboard Reward,",
+                "leaderboardDesc2": "Compete against other players in the Leaderboard and win extra rewards.",
                 "leaderboardDesc3": "Leaderboardへ行く",
-                "cannotParticipate": "すでに該当シーズンのアルファパスをお持ちの方は、抽選会に参加する必要はありません。",
+                "cannotParticipate": "You cannot participate in the Raffle since you already have an Alpha Pass",
                 "didNotWin": "残念ながら、今回は抽選に当たりませんでした。",
                 "wonAlpha": "おめでとうございます！シーズン3アルファパスが当たりました。",
                 "loggedOut": "進捗状況を確認",
-                "collectRaffle": "抽選チケットで当選確率アップ",
+                "collectRaffle": "Collect Raffle Tickets to increase your chances of winning",
                 "ifYouWin": "アルファパス当選した場合",
-                "youHold": "アルファパスを保有中です",
-                "getAlphaDesc": "アルファパスを所有してこの報酬をゲットしよう。",
+                "youHold": "YOU HAVE AN ALPHA PASS",
+                "getAlphaDesc": "Get an Alpha Pass to unlock those rewards",
                 "stake": "ステーキング",
                 "buy": "購入",
                 "guaranteed": "SAND報酬",
-                "guaranteedDesc": "シーズン3コレクションのLAND、アバター、NFTを所有すると、シーズン終了時に{0}を獲得することができます。注）日本在住の方を除く",
-                "earnSand": "SAND報酬",
+                "guaranteedDesc": "Own a piece of LAND, an Avatar and NFTs from our collections at the end of the season and earn {0} based on your level.",
+                "earnSand": "BONUS SAND REWARDS GUARANTEED",
                 "landOwner": "Land保有者",
                 "forLandOwner": "LAND保有者対象",
-                "landDesc": "この報酬をアンロックするにはLANDを入手してください",
+                "landDesc": "Get a piece of LAND to unlock those guaranteed rewards",
                 "avatarOwner": "アバター保有者",
                 "forAvatarOwner": "アバター保有者対象",
-                "avatarDesc": "この報酬をアンロックするにはアバターを入手してください",
+                "avatarDesc": "Get an Avatar to unlock those guaranteed rewards",
                 "collectorOwner": "NFTコレクター",
                 "forCollectorOwner": "NFT保有者対象",
                 "collectorDesc": "この報酬をアンロックするにはNFTバッジを入手してください",
@@ -1592,7 +1602,9 @@
                 "youAreLand": "あなたはLAND保有者です",
                 "youAreAvatar": "あなたはアバター保有者です。",
                 "youAreCollector": "あなたはNFTコレクターです",
-                "epTooltip": "体験内のクエストをクリアすることで、エトスポイントを獲得できます。難易度の高いクエストをクリアすると、より多くのエトスポイントを獲得できます。"
+                "epTooltip": "体験内のクエストをクリアすることで、エトスポイントを獲得できます。難易度の高いクエストをクリアすると、より多くのエトスポイントを獲得できます。",
+                "raffleRewards": "Raffle Rewards",
+                "raffleTooltip": "You will win the Raffle if you own a Season 3 Alpha Pass"
             },
             "summary": {
                 "rewardsSummary": "報酬サマリー",
@@ -2056,6 +2068,11 @@
                         "descriptionKey4": "Website: {0}\n Twitter: {1}\n Discord: {2}\n Telegram: {3}\n Instagram: {4}\n Facebook: {5}\n YouTube: {6}\n Twitch: {7}\n OpenSea: {8}"
                     }
                 }
+            },
+            "startsOn": "Starts on {varStartDate}",
+            "changelog": {
+                "title": "Changelog",
+                "subtitle": "We are continuously working on enhancements and fixes.\nPlease let us know if you found any bug. Feel free to write us at:"
             }
         },
         "leaderboard": {
