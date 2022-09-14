@@ -527,7 +527,8 @@
                 "challenge": "Günlük Meydan Okumalar",
                 "belongingMemorabilia": "Haftanın Hatıraları",
                 "quest": "Görev"
-            }
+            },
+            "fixes": "Changelog"
         },
         "play": {
             "selectAvatar": "Avatar'ını seç",
@@ -552,9 +553,13 @@
                 "moreExperiences": "Daha fazla etkinlikler geliyor",
                 "day": "GÜN",
                 "needLogIn": "İlerlemenizi görmek için oturum açmanız gerekiyor",
-                "eventsOfTheDay": "Sosyal etkinlikler",
+                "eventsOfTheDay": "Extra EPs Events",
                 "boostRewards": "Stake ederek ödülleri artırın",
-                "to": " "
+                "to": " ",
+                "land": "land",
+                "lands": "lands",
+                "eventStartsAt": "Starts on",
+                "eventTimeZone": "UTC"
             },
             "welcome": {
                 "back": "Geri",
@@ -581,7 +586,7 @@
                 "seeRewards": "Ödülleri Görün"
             },
             "tooltips": {
-                "pendingExplore": "Ziyaret Edilmedi",
+                "pendingExplore": "Experience not visited",
                 "explored": "Deneyim Tamamlandı",
                 "locked": "Kilitli",
                 "multiplayer": "Çokluoyuncu",
@@ -631,7 +636,8 @@
                 "noWinnerDesc": "Bir dahaki sefere daha iyi şanslar! Alfa S3 kazanamadınız",
                 "winner": "KAZANDIN!",
                 "winnerDesc": "S3 Alfa Bileti kazandın"
-            }
+            },
+            "communityBooster": "Community Booster"
         },
         "pass": {
             "title": "Ödüller",
@@ -837,7 +843,7 @@
                 "referralTooltipDesc": " "
             },
             "downloadAlpha": "Alfa'yı İndir",
-            "ethosPointsEarned": "Ethos Puanı kazanıldı!",
+            "ethosPointsEarned": "Ethos Point(s) earned",
             "shop": {
                 "s3": "Alfa Season 3",
                 "title": "NFT Mağazası",
@@ -857,7 +863,11 @@
                 "externalNFT": "Harici NFT",
                 "internalNFT": "Dahili TSB NFT",
                 "s3Collection": "3. Sezon Koleksiyonu"
-            }
+            },
+            "ethosPoints": "Ethos Point",
+            "eventEthosPoints": "Event Ethos Point",
+            "eventEthosPointsDesc": "Available until",
+            "event": "Event"
         },
         "info": {
             "title": "Alfa'ya hoş geldiniz",
@@ -1554,28 +1564,28 @@
                 "alphaSeason": "Alfa Sezon 3",
                 "rewards": "Ödüller",
                 "claimDesc": "5 Kasım'dan itibaren mevcut",
-                "leaderboardDesc": "Sıralama Ödülleri",
-                "leaderboardDesc2": "Sıralamada diğer oyunculara karşı yarışın ve 30K'ya kadar SAND ödülü kazanın!",
+                "leaderboardDesc": "Leaderboard Reward,",
+                "leaderboardDesc2": "Compete against other players in the Leaderboard and win extra rewards.",
                 "leaderboardDesc3": "Sıralamaya Git",
-                "cannotParticipate": "Zaten bir Alfa Biletiniz mevcut! Ayrıca çekilişe katılmanıza gerek yoktur.",
+                "cannotParticipate": "You cannot participate in the Raffle since you already have an Alpha Pass",
                 "didNotWin": "Maalesef bu sefer Çekilişi kazanamadınız.",
                 "wonAlpha": "Tebrikler! 3. Sezon Alfa Bileti kazandınız. Bize katıldığınız için teşekkürler!",
                 "loggedOut": "İlerlemenizi görmek için giriş yapmalısınız",
-                "collectRaffle": "Çekiliş biletleri çekilişi kazanma şansınızı arttır",
+                "collectRaffle": "Collect Raffle Tickets to increase your chances of winning",
                 "ifYouWin": "ALPHA BİLETİ KAZANIRSANIZ",
-                "youHold": "ALFA BİLETİNİ ELİNİZDE TUTARSANIZ",
-                "getAlphaDesc": "Alfa Bileti sahibiyseniz bu ödülü hak kazanırsınız.",
+                "youHold": "YOU HAVE AN ALPHA PASS",
+                "getAlphaDesc": "Get an Alpha Pass to unlock those rewards",
                 "stake": "Stake et",
                 "buy": "Satın al",
                 "guaranteed": "GARANTİLİ",
-                "guaranteedDesc": "LAND Sahibi, Avatar ya da Sezon 3'e ait NFT sahibi olarak, sezon sonunda garanti SAND ödülünü elde edebilirsiniz",
-                "earnSand": "GARANTİLİ SAND ÖDÜLÜ",
+                "guaranteedDesc": "Own a piece of LAND, an Avatar and NFTs from our collections at the end of the season and earn {0} based on your level.",
+                "earnSand": "BONUS SAND REWARDS GUARANTEED",
                 "landOwner": "Land Sahibi",
                 "forLandOwner": "LAND SAHİPLERİNE ÖZEL",
-                "landDesc": "LAND sahibi olarak bu ödülleri elde et",
+                "landDesc": "Get a piece of LAND to unlock those guaranteed rewards",
                 "avatarOwner": "Avatar Sahibi",
                 "forAvatarOwner": "AVATAR SAHİPLERİNE ÖZEL",
-                "avatarDesc": "Bu ödüllerin kilidini açmak için bir Avatar edinin",
+                "avatarDesc": "Get an Avatar to unlock those guaranteed rewards",
                 "collectorOwner": "NFT Toplayıcı",
                 "forCollectorOwner": "NFT SAHİPLERİNE ÖZEL",
                 "collectorDesc": "Bu ödüllerin kilidini açmak için bir NFT Rozeti toplayıcı edinin",
@@ -1592,7 +1602,9 @@
                 "youAreLand": "Bir LAND Sahibisiniz",
                 "youAreAvatar": "Bir Avatar Sahibisiniz",
                 "youAreCollector": "Bir NFT Kolleksiyoncusunuz",
-                "epTooltip": "Deneyimlerdeki görevleri tamamlayarak Ethos Puanı kazan.Daha zorlu görevler daha fazla Ethos Puanı kazandırır."
+                "epTooltip": "Deneyimlerdeki görevleri tamamlayarak Ethos Puanı kazan.Daha zorlu görevler daha fazla Ethos Puanı kazandırır.",
+                "raffleRewards": "Raffle Rewards",
+                "raffleTooltip": "You will win the Raffle if you own a Season 3 Alpha Pass"
             },
             "summary": {
                 "rewardsSummary": "ÖDÜLLER ÖZETİ",
@@ -2056,6 +2068,11 @@
                         "descriptionKey4": "Website: {0}\n Twitter: {1}\n Discord: {2}\n Telegram: {3}\n Instagram: {4}\n Facebook: {5}\n YouTube: {6}\n Twitch: {7}\n OpenSea: {8}"
                     }
                 }
+            },
+            "startsOn": "Starts on {varStartDate}",
+            "changelog": {
+                "title": "Changelog",
+                "subtitle": "We are continuously working on enhancements and fixes.\nPlease let us know if you found any bug. Feel free to write us at:"
             }
         },
         "leaderboard": {
