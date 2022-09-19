@@ -6286,7 +6286,8 @@
             "stake": "Stake",
             "more": "Likidite nasıl elde edilir?",
             "amount": "Miktar",
-            "inactive": "İnaktif"
+            "inactive": "İnaktif",
+            "max": "Staking Limit"
         },
         "transaction": {
             "contract": "Sözleşme",
@@ -6377,14 +6378,14 @@
             "action-desc-deposit-single": "daha fazla SAND kazanmak için",
             "footer-text-deposit-single": "Bu işlemde belirlenen miktarda SAND yatırılacak ve toplam yatırımınız artacaktır.",
             "footer-text-claim-single": "Bu işlem, mevcut SAND ödüllerini cüzdanınıza alacak.",
-            "footer-text-exit": "Bu işlem, seçilen LP tutarını toplam mevduatınızdan çekecektir. Ayrıca, size bir miktar gaz ücretinden tasarruf etmek için mevcut tüm kazançları talep edecektir.",
+            "footer-text-exit": "This transaction will withdraw the staked amount from your total deposit. It will also claim any available earnings to save you some gas fee.",
             "footer-text-withdraw-single": "Bu işlem toplam yatırdıklarınızda yer alan SAND'ler ile yapılacaktır. Alabileceğiniz geliri alarak gaz ücretlerinden de tasarruf etmenize yarayacaktır.",
             "footer-text-withdraw-exit": "Bu işlem, SAND'ınızı toplam depozitonuzdan geri çekecektir. Ayrıca, size bir miktar gaz ücretinden tasarruf etmek için mevcut tüm kazançları talep edecektir.",
             "addMsand": "SAND elde et",
             "howtoMsand": "Daha fazla SAND elde et"
         },
         "allowanceError": "Stake hakkınız hala yatırım yapmak istediğiniz miktarın altında",
-        "sub-title": "Ethereum ve Poligon Ağında stake yaparak SAND kazanın",
+        "sub-title": "Earn SAND by staking on the Polygon network",
         "haveLandText": "Her LAND sayılır, ne kadar fazla varsa, o kadar yüksek çarpan!",
         "landOwnerRewards": "Cüzdanındaki her LAND için ek ödül kazan",
         "needToBridge": "Polygon Ağı'nda SAND'e mi ihtiyacınız var?",
@@ -6453,6 +6454,17 @@
                 "myScore": "Puanım",
                 "earnScorePoints": "Skor Puanı Kazan",
                 "cardFirstTitle": "{0} stake edin ve stake etmenin avantajlarından yararlanın."
+            },
+            "sandPerLand": {
+                "title": "Staking Limit",
+                "dedication": "This pool is dedicated to the LAND owners.",
+                "each": "Each LAND in your wallet allows you to stake up to {0} per LAND.",
+                "landMore": "You want to stake more? {0}",
+                "landNot": "You're not a LAND owner? {0}",
+                "buyLink": "Buy a LAND!",
+                "updateContributionTooltip": "Your LAND balance has changed. Your contribution will be updated automatically shortly, or you can update it {0}",
+                "manually": "manually",
+                "recommendWithdraw": "You stake more SAND than your LAND balance allows you. Only the maximum amount of SAND you are allowed to stake will be taken into account to generate your rewards."
             }
         },
         "network": {
@@ -6467,7 +6479,9 @@
             "learnMore": "Staking hakkında daha fazla bilgi edinin",
             "support": "Destek Alın",
             "lp": "LP'ler nelerdir"
-        }
+        },
+        "conditions": "Conditions to stake",
+        "nextClaim": "Next claim in:"
     },
     "login": {
         "refresh": "Lütfen eklentiyi yükledikten sonra tarayıcınızı yenileyin",
