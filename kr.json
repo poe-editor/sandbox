@@ -868,10 +868,10 @@
             "eventEthosPoints": "이벤트 에토스 포인트",
             "eventEthosPointsDesc": "획득 가능 기한:",
             "event": "이벤트",
-            "playAlpha": "",
-            "modalTitleSeasonIsOpen": "",
-            "modalDescription1SeasonIsOpen": "",
-            "modalDescription2SeasonIsOpen": ""
+            "playAlpha": "알파 플레이하기",
+            "modalTitleSeasonIsOpen": "알파 시즌 3가 시작되었습니다!",
+            "modalDescription1SeasonIsOpen": "파트너와 크리에이터들이 제작한 90개 이상의 경험을 즐겨보세요. 게임을 플레이하고 챌린지에 참여하여 리워드를 획득하세요.",
+            "modalDescription2SeasonIsOpen": "알파에 접속하여 플레이하세요!"
         },
         "info": {
             "title": "알파에 오신 것을 환영합니다",
@@ -1855,7 +1855,7 @@
                     "reward3": "1,500",
                     "rank4": "201위~1,000위:",
                     "reward4": "750",
-                    "rank5": "1,001위~5,000위:",
+                    "rank5": "1,001위~10,000위:",
                     "reward5": "60"
                 },
                 "7": {
@@ -4806,7 +4806,7 @@
             "title": "배지",
             "note": "더 샌드박스 생태계 속 다양한 목표를 달성하여 배지를 획득하세요. 배지를 보유하면 다가올 알파 시즌 추첨을 위한 추가 추첨 티켓이 주어집니다.",
             "nftNote": "배지는 NFT가 아니며 거래할 수 없습니다",
-            "obtained": "Unlocked at {date}",
+            "obtained": "잠금 해제: {date}",
             "missed": "미보유",
             "noBadge": "배지를 선택하여 미리보기",
             "noDates": "날짜 없음",
@@ -4932,7 +4932,7 @@
             "layer2": "레이어 2 TESTNETS",
             "claim": "받기",
             "ext": "포싯으로 이동",
-            "nextClaim": "다음 수령 시간까지 남은 시간:",
+            "nextClaim": "다음 수령까지 남은 시간:",
             "claimInfo": "Sand는 하루에 한 번 수령할 수 있습니다. 필요한 경우에만 사용하시기 바랍니다.",
             "external": "외부 포싯을 통해 ETH를 수령할 수 있습니다.",
             "goToFaucet": "포싯으로 이동",
@@ -6291,7 +6291,7 @@
             "more": "유동 자산을 얻는 방법",
             "amount": "수량",
             "inactive": "비활성",
-            "max": "Staking Limit"
+            "max": "스테이킹 제한"
         },
         "transaction": {
             "contract": "계약",
@@ -6389,7 +6389,7 @@
             "howtoMsand": "SAND 더 받기"
         },
         "allowanceError": "보유량이 스테이킹하려는 수량보다 적습니다.",
-        "sub-title": "Earn SAND by staking on the Polygon network",
+        "sub-title": "폴리곤 네트워크에서 스테이킹하고 SAND를 획득하세요.",
         "haveLandText": "보유한 LAND의 수가 많을수록 계수가 높아집니다.",
         "landOwnerRewards": "보유한 LAND의 수에 따라 추가 리워드를 획득할 수 있습니다",
         "needToBridge": "폴리곤 네트워크에서 SAND가 필요하신가요?",
@@ -6460,14 +6460,14 @@
                 "cardFirstTitle": "{0}를 스테이킹하고 이득을 누리세요."
             },
             "sandPerLand": {
-                "title": "Staking Limit",
-                "dedication": "This pool is dedicated to the LAND owners.",
+                "title": "스테이킹 제한",
+                "dedication": "해당 풀은 LAND 보유자 전용입니다.",
                 "each": "Each LAND in your wallet allows you to stake up to {0} per LAND.",
                 "landMore": "You want to stake more? {0}",
                 "landNot": "You're not a LAND owner? {0}",
-                "buyLink": "Buy a LAND!",
-                "updateContributionTooltip": "Your LAND balance has changed. Your contribution will be updated automatically shortly, or you can update it {0}",
-                "manually": "manually",
+                "buyLink": "LAND를 구매하세요!",
+                "updateContributionTooltip": "LAND 잔고가 변경되었습니다. 내역은 곧 업데이트 될 예정이며, {0} 업데이트할 수 있습니다.",
+                "manually": "수동으로",
                 "recommendWithdraw": "You stake more SAND than your LAND balance allows you. Only the maximum amount of SAND you are allowed to stake will be taken into account to generate your rewards."
             }
         },
@@ -6484,8 +6484,8 @@
             "support": "문의하기",
             "lp": "LP 알아보기"
         },
-        "conditions": "Conditions to stake",
-        "nextClaim": "Next claim in:"
+        "conditions": "스테이킹 조건",
+        "nextClaim": "다음 수령까지 남은 시간:"
     },
     "login": {
         "refresh": "플러그인 설치 후에 브라우저를 새로 고치세요",
