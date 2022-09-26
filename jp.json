@@ -229,7 +229,15 @@
         "catalyst&Gems": "CATALYST & GEMS",
         "confirm": "Confirm",
         "sync": "Sync",
-        "addCatalystGems": "Add Catalyst and Gems"
+        "addCatalystGems": "Add Catalyst and Gems",
+        "sandboxGame": "The Sandbox Game",
+        "sandboxShort": "Sandbox",
+        "lands": "LANDS",
+        "close": "Close",
+        "regular": "",
+        "selectOption": "Select an option | Select one or more options | ",
+        "failed": "Something went wrong",
+        "opensea": "OpenSea"
     },
     "layout": {
         "topbar": {
@@ -303,7 +311,8 @@
                     "toEth": "to Ethereum"
                 },
                 "route": "Transaction in Route - "
-            }
+            },
+            "login": "Log In"
         },
         "sidebar": {
             "home": "ホーム",
@@ -315,7 +324,14 @@
             "mod": "MOD",
             "admin": "管理者",
             "user": "自分",
-            "communities": "Spaces"
+            "communities": "Spaces",
+            "newSideBarShop": "Shop",
+            "newSideBarAbout": "Info",
+            "newSideBarMod": "Moderation",
+            "newSideBarCommunities": "Community",
+            "newSideBarEarn": "Earn",
+            "newSideBarWorkbench": "Workbench",
+            "newSideBarLanguage": "Language"
         },
         "footer": {
             "community": {
@@ -539,7 +555,13 @@
             "alpha": {
                 "title": "The Sandbox関係者用アルファへようこそ！",
                 "description": "メタバースへの扉が少しずつ開かれようとしています。皆様からのご意見を元に「仮想通貨に相応しい場所」を作り上げたいと考えています！こちらからフィードバックに記入すると、1,000SANDを獲得できます！お楽しみください！",
-                "buttonText": "こちら"
+                "buttonText": "こちら",
+                "dailyChallenge": "",
+                "dailyChallenges": "",
+                "goToMap": "",
+                "completed": "",
+                "missed": "",
+                "newThisWeek": ""
             },
             "sidebarRight": {
                 "progressTitle": "進捗状況",
@@ -637,7 +659,12 @@
                 "winner": "当選しました！",
                 "winnerDesc": "S3 アルファパスが当たりました"
             },
-            "communityBooster": "Community Booster"
+            "communityBooster": "Community Booster",
+            "day": "",
+            "needLogIn": "",
+            "eventsOfTheDay": "",
+            "boostRewards": "",
+            "to": ""
         },
         "pass": {
             "title": "報酬",
@@ -2084,7 +2111,8 @@
                 "date": "アルファ・シーズン3",
                 "title": "Leaderboard",
                 "description": "エトスポイント（EP）を最速で獲得して、リーダーボードで上位にランクインし、最大30KのSANDを手に入れましょう！（注　日本在住の方を除く",
-                "link": "NFTショップへ行く"
+                "link": "NFTショップへ行く",
+                "description2": "Equipment NFTs will help you complete quests faster."
             },
             "table": {
                 "description": {
@@ -2142,7 +2170,8 @@
                         "column4": "Record Holder",
                         "column5": "平均時間"
                     },
-                    "buggedQuest": "このクエストはバグによりタイムトラッキングから削除されました。"
+                    "buggedQuest": "このクエストはバグによりタイムトラッキングから削除されました。",
+                    "top": "Top {0}"
                 }
             },
             "banner": {
@@ -2359,7 +2388,8 @@
             "multi": "マルチ",
             "plant": "工場",
             "question": "質問",
-            "none": "NONE"
+            "none": "NONE",
+            "asker": "Asker"
         },
         "slots": {
             "title": "スロット",
@@ -2553,7 +2583,8 @@
             "totalOnNetwork2": "ネットワークの合計",
             "network": "通信網",
             "polygon": "Polygon",
-            "ethereum": "イーサリアム"
+            "ethereum": "イーサリアム",
+            "disabledReason": "Transactions are temporarily disabled due to Ethereum Merge"
         },
         "assets": {
             "noGems": "このアセットにはジェムはありません",
@@ -2589,7 +2620,13 @@
             "asset": "販売するアセット",
             "cancel": "販売のキャンセル"
         },
-        "listed": "Listed"
+        "listed": "Listed",
+        "wishlist": {
+            "added": "has been successfully added to your wishlist.",
+            "removed": "has been successfully removed from your whishlist.",
+            "gotoInventory": "Go to Inventory",
+            "error": "Error updating your wishlist."
+        }
     },
     "create": {
         "meta": {
@@ -3453,7 +3490,10 @@
             "hours": "時間",
             "minutes": "分",
             "seconds": "秒",
-            "btn": "LANDを購入"
+            "btn": "LANDを購入",
+            "publicSaleStartsIn": "Public sale starts in:",
+            "saleStartsIn": "販売開始まで：",
+            "saleEndsIn": "現在の販売終了まで："
         },
         "caption": {
             "my": "現在のLAND",
@@ -3549,7 +3589,26 @@
             "parcel": "区画",
             "polygonChain": "Polygon Network",
             "network": "Network",
-            "ethereumChain": "イーサリアムネットワーク"
+            "ethereumChain": "イーサリアムネットワーク",
+            "tokenId": "Token ID",
+            "type": "Type",
+            "chain": "Chain",
+            "ethereum": "Ethereum",
+            "polygon": "Polygon",
+            "goerli": "Goerli",
+            "rinkeby": "Rinkeby",
+            "mumbai": "Mumbai",
+            "buildExperience": "Build Game",
+            "myLand": "MY LAND",
+            "onSale": "ON SALE",
+            "whatCanIDo": {
+                "title": "WHAT CAN I DO WITH MY LAND?",
+                "option1": "Download Game Maker and start building!",
+                "option2": "Publish a GAME",
+                "option3": "Hire Metaverse builders",
+                "option4": "Sell yout LAND",
+                "option5": "Lear more about LANDs"
+            }
         },
         "onboarding": {
             "title": "The Sandboxマップ",
@@ -3624,7 +3683,297 @@
             "newMap": "This map is currently in experimental mode",
             "newMapMobile": "This map is currently in experimental mode",
             "newMapButton": "Go to Previous Version",
-            "whatsnew": "What's New"
+            "whatsnew": "What's New",
+            "oldMapButtonMobile": "New Map"
+        },
+        "landsale": {
+            "buttons": {
+                "getMoreTickets": "Get More Tickets",
+                "enterRaffle": "Enter Raffle",
+                "getReady": "Get Ready",
+                "buyLand": "Buy LAND",
+                "checkResults": "Check Results",
+                "getNFT": "Get NFT",
+                "alreadyRegistered": "Already Registered"
+            },
+            "header": {
+                "titles": {
+                    "loading": "LAND Sale Raffle",
+                    "default": "{partner} LAND Sale Raffle",
+                    "readyToBuyALAND": "Ready to buy a LAND?",
+                    "registrationClosed": "Registration for the {partner} LAND Sale Raffle is closed",
+                    "inRaffle": "You are registered for the Raffle",
+                    "notInRaffle": "You are not in the Raffle",
+                    "raffleResultsAreReady": "The Raffle results are ready!",
+                    "youWon": "You won a whitelist spot!",
+                    "youDidntWin": "You didn't win a whitelist spot!",
+                    "youDidntParticipated": "You didn't participated in the Raffle",
+                    "weAreProcessing": "We are processing the raffle"
+                },
+                "subtitles": {
+                    "default": "Raffle winners will be able to buy 1 LAND in the {partner} LAND Sale. {landsCount} LANDs, {landsCount} winners!",
+                    "joinTheRaffle": "Join the {partner} LAND Sale Raffle and get a chance of winning a whitelist spot to buy a LAND",
+                    "signInToCheck": "Sign in to check your status",
+                    "notInRaffle": "But you can get a chance of buying a {partner} LAND in the Public Sale",
+                    "raffleResultsAreSignInToCheck": "{partner} Land Sale raffle results are in! Sign in to find out if you won a whitelist spot.",
+                    "raffleResultsAreReady": "{partner} Land Sale raffle results are in!  Check results to find out if you won a whitelist spot.",
+                    "youWon": "You are whitelisted for {partner} Land Sale. Make sure you are ready for the LAND sale, see the checklist below.",
+                    "youDidntWin": "Didn't win the raffle? Don't worry! Public Sale opnes 24 hours after the whitelist sale.",
+                    "youDidntParticipated": "But you can get a chance of buying a {partner} LAND in the Public Sale",
+                    "weAreProcessing": "This process can take a few minutes."
+                },
+                "texts": {
+                    "youHaveTickets": "You have",
+                    "entersTheMetaverse": "{partner} enters the Metaverse",
+                    "beTheirNeighbour": "And you can be their neighbour",
+                    "howDoesItWork": "How does it work?",
+                    "howDoesItWorkAwnser": "We are changing our LAND Sale system to give all users more chances of buying a LAND",
+                    "description": "The most famous shopping district from Tokyo is entering The Sandbox. With the Shibuya 109 Estate at its heart! This new playground will offer next-generation customer experiences that exceed expectations.",
+                    "entryClosesOn": "Entry closes on {closeDate}"
+                },
+                "countdown": {
+                    "registrationStarts": "REGISTRATION STARTS IN",
+                    "registrationEnds": "REGISTRATION ENDS IN",
+                    "raffleStarts": "RAFFLE STARTS IN",
+                    "publicSaleStarts": "PUBLIC SALE STARTS IN",
+                    "landSaleStartsIn": "LAND SALE SALE STARTS IN",
+                    "landSaleEndsIn": "LAND SALE ENDS IN"
+                }
+            },
+            "timeline": {
+                "raffle": "Raffle",
+                "registration": "Registration",
+                "registerUntil": "Until {date}",
+                "wlSale": "WL Sale",
+                "publicSale": "Public Sale",
+                "publicSaleOpens": "Public sale opens 24 hours after the allowlist sale",
+                "didntWinTheRaffle": "Didn't win the Raffle?",
+                "wantToKnowHowManyTickets": "Want to know how many tickets do you already have",
+                "youAreRegistered": "You are Registered for the Raffle",
+                "youAreNotRegistered": "You are NOT Registered for the Raffle",
+                "youWon": "You won a whitelist spot!",
+                "youDidntWin": "You didn't win a whitelist spot!"
+            },
+            "whatsTheLANDSale": {
+                "title": "What is the LAND Sale Raffle?",
+                "explain1": {
+                    "message": "We want to provide a fair experience so everyone can get the chance of buying LAND. This is why we are redesigning our LAND Sale system introducing the {0}. ",
+                    "boldMessage": "LAND Sale Raffle"
+                },
+                "explain2": {
+                    "message": "In order to buy LAND at The Sandbox, users will need to join the LAND Sale Raffle. {0} depending on the type of raffle they joined, {1} or {2}.",
+                    "boldMessage": "Every winner will be able to buy a random LAND",
+                    "premium": "Premium",
+                    "regular": "Regular"
+                },
+                "joinRequirements": "To join the LAND Sale Raffle make sure you meet the following requirements:",
+                "requirement1": "Having an account at The Sandbox",
+                "requirement2": "Having enough SAND in your wallet",
+                "requirement3": "Having your Account Verified before the Raffle starts",
+                "farewell": "The more tickets you have, the more chances of winning."
+            },
+            "modals": {
+                "KYCStatus": {
+                    "firstView": {
+                        "verifyAccount": "Verify your account",
+                        "explain": {
+                            "message": "As much as we love robots, we want the Metaverse to be full of {0}. We are improving our LAND Sale system so everyone has a fair chance of getting LAND.",
+                            "humans": "humans"
+                        },
+                        "importantMessage": "IMPORTANT: The Verification process might take up to 48 hours.",
+                        "disclaimer": {
+                            "message": "Only Verified accounts will be elegible to winning the LAND Sale Raffle. If you choose to Verify your account later, you can start the verification process at {0}",
+                            "path": "{verificationPath}"
+                        }
+                    },
+                    "secondView": {
+                        "continueWithoutVerification": "Continue without verification",
+                        "disclaimer": "Only Verified accounts can be elegible to win the LAND Sale Raffle.",
+                        "disclaimerExplanation": "If you decide to Verify your account later please remember the verification process might take up to 48 hours. If you account is not Verified before the LAND Sale Raffle starts, your entry won’t be valid."
+                    }
+                },
+                "registration": {
+                    "title": "Select the raffle you want to join",
+                    "message": "Joining one raffle, or both to increase your chance of winning. You can only win one of them.",
+                    "importantMessage": "IMPORTANT: By joining the LAND Sale Raffle YOU ARE NOT BUYING A LAND. You are joining a raffle to win a chance to buy 1 LAND in the LOREMIPSUM LAND Sale Raffle. Entering the raffle does not have a cost nor will trigger a transaction.",
+                    "raffleDate": "Raffle Date",
+                    "regularLand": {
+                        "publishMonetize": "Publish and monetize your Experience",
+                        "rentYourLAND": "Rent your LAND",
+                        "earnRewards": "Earn exclusive rewards",
+                        "stake": "Stake"
+                    },
+                    "premiumLand": {
+                        "regularFeaturesPlus": "All Regular LAND features +",
+                        "premiumLocation": "Premium location next to top Partners",
+                        "exclusiveAssets": "Exclusive assets bundle"
+                    }
+                },
+                "confirmation": {
+                    "verificationNotStarted": {
+                        "title": "Verify you account to continue",
+                        "message": "You need to verify your account before the raffle starts. Account verification might take up to 48 hours.",
+                        "button": "START ACCOUNT VERIFICATION"
+                    },
+                    "verificationStarted": {
+                        "title": "Verify you account to continue",
+                        "message": "You need to verify your account before the raffle starts. Account verification might take up to 48 hours.",
+                        "button": "CONTINUE ACCOUNT VERIFICATION "
+                    },
+                    "waitingVerification": {
+                        "title": "We are processing your Raffle entry",
+                        "message": "Your entry will be approved if your account gets verified. This process can take up to 48 hours.",
+                        "button": "CHECK VERIFICATION STATUS"
+                    },
+                    "verified": {
+                        "title": "You are in the raffle",
+                        "message": "Thanks for joining the LOREMIPSUM Land Sale Raffle. Good luck!"
+                    }
+                },
+                "youWon": {
+                    "title": "Congratulations!",
+                    "subtitle": "You are now whitelisted to buy 1 {landType} LAND at {partner} LAND Sale",
+                    "message": {
+                        "body": "To buy {0} enter the {1} page ({2}) between {3} and {4}. After that period, you won’t be able to purchase. Your entry is only valid for {partner} LAND Sale.",
+                        "landSale": "LAND Sale",
+                        "landType": "1 {landType} LAND",
+                        "link": "https://sandbox.game/en/landsale",
+                        "startsAt": "{startsAt}",
+                        "endsAt": "{endsAt}"
+                    },
+                    "yourWallet": "Your wallet: ",
+                    "makeSure": "Make sure you are all set for the LAND Sale."
+                },
+                "youDidntWin": {
+                    "title": "Better luck next time",
+                    "subtitle": "You can still get a LAND",
+                    "message": {
+                        "body": "ESTATE Auctions will start on {0}. If any user who won the raffle decides not to buy their LAND, all remaining LAND will be set in auction on {1}.",
+                        "startsAt": "{startsAt}",
+                        "endsAt": "{endsAt}"
+                    },
+                    "learnMore": "Learn more about {partner} Land Sale",
+                    "redirectedToOpenSea": "You will be redirected to OpenSea"
+                },
+                "buyLand": {
+                    "title": "You are going to buy",
+                    "title2": "1 {type} LAND",
+                    "description": "Click the button below to BUY and reveal the location of your new LAND!",
+                    "button": "BUY 1 {type} LAND ({price} SAND)"
+                },
+                "landBought": {
+                    "title": "You just bought",
+                    "title2": "{type} LAND ({coordinates})",
+                    "description": "Your transaction is being processed.",
+                    "check": "Check your transaction:",
+                    "button": "What can I do with my LAND?",
+                    "closeAdvice": "You can close this popup, your transaction will still be processed"
+                }
+            },
+            "KYC": {
+                "accountStatus": "Account Status",
+                "poweredBy": {
+                    "by": "Powered by SYNAPS. {0}",
+                    "linkMessage": "Learn more about SYNAPS"
+                },
+                "buttons": {
+                    "startVerification": "Start Verification",
+                    "checkVerification": "CHECK VERIFICATION STATUS",
+                    "doLater": "I'll do the verification later",
+                    "IUnderstand": "I understand, continue"
+                },
+                "verificationProcess": {
+                    "disclaimer": "{0}: If you want to receive a confirmation via e-mail please make sure there’s an email linked to your account. You can link an email at {1}  You can always check your account Verification status at {2}",
+                    "title": "VERIFICATION PROCESS",
+                    "emailPath": "Account > Settings > Email & Password",
+                    "verificationPath": "{verificationPath}"
+                },
+                "verificationStatus": {
+                    "title": "RAFFLE ENTRY STATUS",
+                    "unverified": "YOU ARE NOT VERIFIED",
+                    "inProgress": "VERIFICATION PENDING",
+                    "waitingVerification": "VERIFICATION PENDING",
+                    "verified": "YOU ARE IN THE RAFFLE",
+                    "rejected": "VERIFICATION REJECTED",
+                    "cancelled": "VERIFICATION CANCELLED"
+                }
+            },
+            "tickets": {
+                "title": "How to get LAND Sale Raffle tickets",
+                "subtitle": "Increase your chances of winning by earning more tickets*. By winning the LAND Sale Raffle you earn the chance of buying a LAND.",
+                "disclaimer": "*How you earn tickets might change on each LAND Sale depending on Seasonal events, partners and different activities.",
+                "yourTotalRaffleTickets": "YOUR TOTAL RAFFLE TICKETS",
+                "registered": {
+                    "title": "Enter the Raffle",
+                    "tooltip": "Get {tickets} for registering in the Landsale Raffle."
+                },
+                "season2pass": {
+                    "title": "Season 2 Alpha Pass",
+                    "tooltip": "Get {tickets} extra Raffle Tickets by owning the Season 2 Alpha Pass. You need to own the NFT in your wallet when the Raffle starts."
+                },
+                "s1Memorabilia": {
+                    "title": "Season 1: Level 5 Completed",
+                    "tooltip": "Get {tickets} extra Raffle tickets for reaching Level 5 in the Alpha Season 1."
+                },
+                "s2Memorabilia": {
+                    "title": "Season 2: Level 5 Completed",
+                    "tooltip": "Get {tickets} extra Raffle tickets for reaching Level 5 in the Alpha Season 2."
+                }
+            }
+        },
+        "filters": {
+            "buyLand": "Buy LAND",
+            "play": "Play {0}",
+            "mapMode": "MAP MODE",
+            "comingSoon": "(Coming Soon)",
+            "results": "Showing {result} of {total} results.",
+            "expandSearch": "Expand search.",
+            "sortBy": {
+                "title": "Sort by",
+                "lowerPrice": "Lower Price",
+                "higherPrice": "Higher Price"
+            },
+            "currency": {
+                "title": "Currency",
+                "eth": "ETH",
+                "sand": "SAND",
+                "weth": "WETH",
+                "usdc": "USDC",
+                "dai": "DAI"
+            },
+            "landType": {
+                "title": "LAND Type",
+                "premium": "Premium",
+                "regular": "Regular"
+            },
+            "chain": {
+                "title": "Chain",
+                "ethereum": "Ethereum",
+                "polygon": "Polygon"
+            },
+            "tags": {
+                "sand": "Currency: SAND",
+                "eth": "Currency: ETH",
+                "weth": "Currency: WETH",
+                "usdc": "Currency: USDC",
+                "dai": "Currency: DAI",
+                "regular": "Regular",
+                "premium": "Premium",
+                "ethereum": "Chain: Ethereum",
+                "polygon": "Chain: Polygon"
+            },
+            "partners": {
+                "title": "Partners",
+                "search": "Search by name",
+                "category": "Category",
+                "name": "Name",
+                "showMore": "Show More",
+                "notFound": "No Results Found"
+            },
+            "layers": {
+                "title": "LAYERS",
+                "myLands": "My LAND"
+            }
         }
     },
     "about": {
@@ -3654,7 +4003,9 @@
             "sandbox": "The Sandbox",
             "sand": "SAND",
             "land": "LAND",
-            "blog": "ブログ"
+            "blog": "ブログ",
+            "getting": "Getting Started",
+            "docsAndRes": "Docs & Resources"
         },
         "sandbox": {
             "products": {
@@ -3974,7 +4325,10 @@
             "settings": "設定",
             "claim": "受け取り",
             "bridge": "Bridge",
-            "badges": "バッジ"
+            "badges": "バッジ",
+            "account": "",
+            "wallet": "",
+            "migrations": ""
         },
         "profile": {
             "sandAmount": "自分の",
@@ -4054,7 +4408,8 @@
             "getSandLine": {
                 "line": "{0}{1}{2} {3}",
                 "get": "Get "
-            }
+            },
+            "meta": ""
         },
         "inventory": {
             "noAssets": "インベントリにはASSETがありません。",
@@ -4239,7 +4594,8 @@
             "tabs": {
                 "1": "マイアバター",
                 "2": "ショップ",
-                "3": "アバタークリエイター"
+                "3": "アバタークリエイター",
+                "4": "Shop"
             },
             "saveButtonText": "変更を保存",
             "mobileSaveButtonText": "保存",
@@ -4338,7 +4694,9 @@
                 "descriptionSecondLine": "buy one and get {rewards}",
                 "rewards": "追加の報酬！",
                 "createButton": "外部アバターを閲覧する",
-                "description3": "buy one and get {rewards}"
+                "description3": "buy one and get {rewards}",
+                "avatarCollections": "Avatar Collections",
+                "unique": "unique"
             },
             "notWhitelisted": {
                 "title": "おっと！",
@@ -4354,7 +4712,8 @@
             "noResultAvatar": "Create your custom avatar!",
             "noResultLand": "You don't have any land",
             "noResultExperience": "You don't have any experience",
-            "noResultEntity": "You don't have any entity"
+            "noResultEntity": "You don't have any entity",
+            "buyAvatarButtonText": "Buy on Opensea"
         },
         "loginModal": {
             "title": "サインインまたはアカウントの作成",
@@ -4686,7 +5045,8 @@
                 },
                 "resultDate": {
                     "message": "時間： {0} UTC"
-                }
+                },
+                "verificationPath": "Account > Settings > Account Verification."
             }
         },
         "claims": {
@@ -4925,7 +5285,8 @@
                     "categories": "カテゴリー",
                     "summary": "概要"
                 }
-            }
+            },
+            "viewLand": ""
         },
         "faucet": {
             "layer1": "レイヤー 1 TESTNETS",
@@ -6886,7 +7247,9 @@
             "notSupported": {
                 "alpha": "アルファ",
                 "deviceNotSupported": "現在、お使いのデバイスには対応していません。プレイするには、MACまたはWindows PCをご利用ください。",
-                "backToHome": "ホームへ戻る"
+                "backToHome": "ホームへ戻る",
+                "browserNotSupported": "BROWSER NOT SUPPORTED :(",
+                "pleaseUseAnotherOne": "Please use another one to Play."
             },
             "onboarding": {
                 "title1": "素晴らしい体験の数々を楽しみましょう。新体験が日々登場します！",
@@ -9417,7 +9780,16 @@
                     "workflows": {
                         "simplified": "Simplified - No review",
                         "reviewTransfer": "Review - With ownership transfer",
-                        "reviewWithoutTransfer": "Review - Without ownership transfer"
+                        "reviewWithoutTransfer": "Review - Without ownership transfer",
+                        "simplifiedShort": {
+                            "title": "Simplified",
+                            "description": "No review process. Just upload, publish and mint."
+                        },
+                        "reviewShort": {
+                            "title": "With review",
+                            "description": "Content will go through a review process led by allowed team members before being able to publish and mint."
+                        },
+                        "transfershipAllow": "Ownership transfer allow"
                     }
                 },
                 "delete": {
@@ -9432,7 +9804,13 @@
                     "editWorkspace": "Edit members"
                 }
             },
-            "workflowType": "Workflow Type"
+            "workflowType": "Workflow Type",
+            "newWorkspace": "New workspace",
+            "invitations": "Invitations",
+            "noResultSearchTitle": "There is not results for {word} search",
+            "noResultSearchText": "Click on '{buttonName}' to add a new one!",
+            "loading": "Loading workspaces  ...",
+            "workspacesCount": "{count} Workspace | {count} Workspaces"
         },
         "members": {
             "newMember": "+ Add member",
@@ -9446,8 +9824,11 @@
                     "user": "User",
                     "groups": "Groups",
                     "ban": "Ban",
-                    "actions": "Actions"
-                }
+                    "actions": "Actions",
+                    "members": "Members",
+                    "roles": "Roles"
+                },
+                "search": "Search by name, email or group"
             },
             "modal": {
                 "assignRol": "Assign Roles",
@@ -9480,8 +9861,27 @@
                     "username": "Username"
                 },
                 "edit": {
-                    "editMember": "Edit Member"
+                    "editMember": "Edit Member",
+                    "email": "Email",
+                    "dontFoundUser": "Workspace member doesn't found to edit",
+                    "loadingMember": "Loading member for edit..."
+                },
+                "menuAction": {
+                    "editRole": "Edit role",
+                    "deleteMember": "Delete"
                 }
+            },
+            "loading": "Loading members...",
+            "creatorCannontBeDeleted": "Workspace creator can't be deleted",
+            "numberOfMembers": "{count} Member | {count} Members",
+            "searchField": "Search by name or email",
+            "ownerWorkspace": "Owner",
+            "filter": {
+                "all": "All",
+                "admin": "Admin",
+                "artist": "Artist",
+                "moderator": "Moderator",
+                "viewer": "Viewer"
             }
         },
         "invites": {
@@ -9494,7 +9894,21 @@
             "claims": "CLAIMS",
             "noInvitation": "This workspace doesn't have any invitations yet",
             "noPrivateWorkspaceInvite": "Can not create invite for private workspace",
-            "clickToAddInvitation": "Click on 'Create invitation' to start"
+            "clickToAddInvitation": "Click on 'Create invitation' to start",
+            "title": "New Invitation",
+            "onlyNumbers": "You can only use numbers",
+            "errorAmount": "Max invites allows: {count}",
+            "setAmount": "Set the amount",
+            "disclaimerAmount": "You can share this link many times to invite members to the workspace",
+            "buttonCreate": "Create link",
+            "numberOfInvitations": "{count} Invitation created | {count} Invitations created",
+            "date": "DATE",
+            "searchInput": "Search by role",
+            "menuAction": {
+                "deleteInvite": ""
+            },
+            "metaEdit": "Edit",
+            "metaCreate": "Create"
         },
         "settings": {
             "generalSettings": "General Settings",
@@ -9513,7 +9927,8 @@
             "importWorkspace": "Import workspace",
             "wantToRemove": "Do you want to remove this workplace from Administrator?",
             "wantToRemoveDescription": "Removing your team will remove all users and administrators from your team. The action of deleting a workspace is PERMANENT and the data associated with it cannot be recovered.",
-            "wantToRemoveLink": "I want to delete this workplace permanently"
+            "wantToRemoveLink": "I want to delete this workplace permanently",
+            "create": "Create"
         },
         "roles": {
             "modal": {
@@ -9582,7 +9997,8 @@
                     "role": "Role",
                     "workspace": "Workspace"
                 },
-                "options_selected": "{count} permissions selected"
+                "options_selected": "{count} permissions selected",
+                "Asset_approver": "Asset Approver"
             },
             "addNewRoles": "+ Add New Role",
             "quantityRoles": "Roles created",
@@ -9636,7 +10052,9 @@
                 "successOnlyUnallocate": "An asset was successfully unallocated in the workspace",
                 "successGroupMove": "{amount} assets were successfully moved in the workspace",
                 "successGroupAllocate": "{amount} assets were successfully allocated in the workspace",
-                "successGroupUnallocate": "{amount} assets were successfully unallocated in the workspace"
+                "successGroupUnallocate": "{amount} assets were successfully unallocated in the workspace",
+                "addAsset": "Add Asset",
+                "successfullyMove": " '' | An Asset has changed it's location in this workspace | {count} Assets have changed their location in this workspace."
             },
             "history": {
                 "searchUser": "Search user",
@@ -9704,7 +10122,9 @@
                 "card": {
                     "art": "Art",
                     "prop": "Prop"
-                }
+                },
+                "automaticTransfership": "This Workspace will automatically transfer asset ownership to the Workspace creator",
+                "meta": "Uploading"
             },
             "previewInModal": {
                 "copies": "Copies: {copies}"
@@ -9736,7 +10156,10 @@
                 "placeholderArea": "Write an iterating/reject reason",
                 "reject": "Reject",
                 "iterate": "Send to Iterate",
-                "comments": "COMMENTS"
+                "comments": "COMMENTS",
+                "general": "Asset approval",
+                "send": "Send",
+                "specifyMessage": "You must specify a message or comment"
             },
             "display": {
                 "voxEdit": "Edit on VoxEdit",
@@ -9759,7 +10182,9 @@
                 "viewHistory": "View History",
                 "updatedOk": "Asset updated correctly",
                 "ban": "Ban Asset",
-                "restore": "Restore"
+                "restore": "Restore",
+                "backToList": "Back to list view",
+                "publish": "Publish"
             },
             "pagination": {
                 "page": "Page",
@@ -9772,18 +10197,37 @@
                 "inProgress": "In progress",
                 "toVerify": "To Verify",
                 "rejected": "Rejected",
-                "approved": "Approved"
+                "approved": "Approved",
+                "publish": "Published",
+                "iterating": "In progress",
+                "pending": "Pending Approval",
+                "filterAssets": "{name} Assets"
             },
             "redirectToUpload": "Redirecting to upload page",
             "users": {
                 "fail": "VoxEditにログインしている別のアカウントでアセットをアップロードしようとしています",
                 "home": "ホームへ戻る",
-                "account": "別のアカウントでログインする"
-            }
+                "account": "別のアカウントでログインする",
+                "loading": "Loading users...",
+                "failUser": "You are trying to upload an asset with another account that you login in VoxEdit",
+                "shop": "Go to shop",
+                "logAccount": "Please, sign in with an account",
+                "login": "  Sign in  "
+            },
+            "deletedData": "After some time, asset data is deleted from dashboard, try export it again",
+            "goMyWorkspace": "Go to my Workspace",
+            "resumeUpload": "Resume upload",
+            "leaveingUpload": "You are leaving the asset upload...",
+            "edit": "Edit",
+            "publishSuccess": "Asset published successfully",
+            "moveSuccess": "Asset moved successfully"
         },
         "experiences": {
             "construction": "This section is under development"
-        }
+        },
+        "onlyAlphanumeric": "Only alpha-numeric characters are allowed",
+        "addButton": "Add",
+        "noResults": "No results for {search} search"
     },
     "strapi": {
         "POC_LANDING_MINT_AVATAR_TITLE": "Express yourself in the metaverse",
@@ -10249,7 +10693,9 @@
         "filters": "フィルタ",
         "collections": "コレクション",
         "sidebarcollections": "NFTコレクション",
-        "exploreCollections": "コレクション探検"
+        "exploreCollections": "コレクション探検",
+        "exploreArts": "",
+        "exploreEquipments": ""
     },
     "kyc": {
         "statuses": {
@@ -10683,5 +11129,34 @@
     },
     "buyErrorTooltip": {
         "tooltip": "イーサリアムのマージにより、トランザクションが一時的に無効になっています"
+    },
+    "earn": {
+        "menu": {
+            "how": "How can I earn"
+        }
+    },
+    "communities": {
+        "menu": {
+            "events": "Metaverse Events",
+            "blogs": "News & Articles",
+            "gameMakerAcademy": "Game Maker Academy"
+        }
+    },
+    "workbench": {
+        "menu": {
+            "spaces": "Spaces",
+            "mint": "Mint",
+            "sell": "Sell"
+        }
+    },
+    "languagesBar": {
+        "list": {
+            "en": "English",
+            "kr": "Korean",
+            "sc": "Simplified Chinese",
+            "jp": "Japanese",
+            "tc": "Traditional Chinese",
+            "tr": "Turkish"
+        }
     }
 }
