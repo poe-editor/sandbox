@@ -4239,7 +4239,8 @@
             "tabs": {
                 "1": "My Avatars",
                 "2": "Market",
-                "3": "Avatar Creator"
+                "3": "Create",
+                "4": "Shop"
             },
             "saveButtonText": "Save changes",
             "mobileSaveButtonText": "Save",
@@ -4319,9 +4320,9 @@
                 "presetName": "Preset Name"
             },
             "titleCreator": "Avatar Creator",
-            "title": "Create your Avatar",
+            "title": "Select your Avatar",
             "custom": "Custom bodyparts only",
-            "iosWarning": "Your device is not compatible with this feature. Please try on desktop version.",
+            "iosWarning": "Landscape mode is not compatible with this feature. Please, change to portrait.",
             "iosWarningTitle": "Sorry",
             "externalAvatarsPopUp": {
                 "title1": "Hey!",
@@ -4332,13 +4333,15 @@
             },
             "noNfts": {
                 "title": "Ups!",
-                "description1": "You don't have external avatars",
-                "description2": "You can create your own free avatar or",
+                "description1": "You don't own any Avatar",
+                "description2": "Browse the {avatarCollections} to find one you like",
                 "descriptionFirstLine": "You can create your own free avatar or",
                 "descriptionSecondLine": "buy one and get {rewards}",
-                "rewards": "extra rewards!",
+                "rewards": "rewards",
                 "createButton": "Browse External Avatars",
-                "description3": "buy one and get {rewards}"
+                "description3": "and be {unique}. You will get extra {rewards} too!",
+                "avatarCollections": "Avatar Collections",
+                "unique": "unique"
             },
             "notWhitelisted": {
                 "title": "Ups!",
@@ -4354,7 +4357,8 @@
             "noResultAvatar": "Create your custom avatar!",
             "noResultLand": "You don't have any land",
             "noResultExperience": "You don't have any experience",
-            "noResultEntity": "You don't have any entity"
+            "noResultEntity": "You don't have any entity",
+            "buyAvatarButtonText": "Buy on Opensea"
         },
         "loginModal": {
             "title": "Log in or Create an account",
