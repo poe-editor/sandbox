@@ -2388,7 +2388,7 @@
             "multi": "多重",
             "plant": "植物",
             "question": "問題",
-            "none": "NONE",
+            "none": "None",
             "asker": "Asker"
         },
         "slots": {
@@ -4594,7 +4594,7 @@
             "tabs": {
                 "1": "我的虛擬化身",
                 "2": "市場",
-                "3": "虛擬化身創作工具",
+                "3": "Create",
                 "4": "Shop"
             },
             "saveButtonText": "儲存變更",
@@ -4675,9 +4675,9 @@
                 "presetName": "預設名稱"
             },
             "titleCreator": "虛擬化身創作工具",
-            "title": "創造你的虛擬化身",
+            "title": "Select your Avatar",
             "custom": "僅限自訂身體部位",
-            "iosWarning": "你的設備與該功能不兼容。請嘗試使用桌面版本。",
+            "iosWarning": "Landscape mode is not compatible with this feature. Please, change to portrait.",
             "iosWarningTitle": "抱歉",
             "externalAvatarsPopUp": {
                 "title1": "嘿！",
@@ -4688,13 +4688,13 @@
             },
             "noNfts": {
                 "title": "Ups!",
-                "description1": "You don't have external avatars",
-                "description2": "You can create your own free avatar or",
+                "description1": "You don't own any Avatar",
+                "description2": "Browse the {avatarCollections} to find one you like",
                 "descriptionFirstLine": "You can create your own free avatar or",
                 "descriptionSecondLine": "buy one and get {rewards}",
-                "rewards": "extra rewards!",
+                "rewards": "rewards",
                 "createButton": "Browse External Avatars",
-                "description3": "buy one and get {rewards}",
+                "description3": "and be {unique}. You will get extra {rewards} too!",
                 "avatarCollections": "Avatar Collections",
                 "unique": "unique"
             },
