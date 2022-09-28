@@ -2388,7 +2388,7 @@
             "multi": "マルチ",
             "plant": "工場",
             "question": "質問",
-            "none": "NONE",
+            "none": "None",
             "asker": "Asker"
         },
         "slots": {
@@ -4594,7 +4594,7 @@
             "tabs": {
                 "1": "マイアバター",
                 "2": "ショップ",
-                "3": "アバタークリエイター",
+                "3": "Create",
                 "4": "Shop"
             },
             "saveButtonText": "変更を保存",
@@ -4675,9 +4675,9 @@
                 "presetName": "プリセット名"
             },
             "titleCreator": "アバタークリエイター",
-            "title": "アバターを作成",
+            "title": "Select your Avatar",
             "custom": "カスタムボディパーツのみ",
-            "iosWarning": "お使いのデバイスはこの機能に対応していません。デスクトップ版でお試しください。",
+            "iosWarning": "Landscape mode is not compatible with this feature. Please, change to portrait.",
             "iosWarningTitle": "申し訳ございません",
             "externalAvatarsPopUp": {
                 "title1": "こんにちは！",
@@ -4688,13 +4688,13 @@
             },
             "noNfts": {
                 "title": "Ups!",
-                "description1": "You don't have external avatars",
-                "description2": "You can create your own free avatar or",
+                "description1": "You don't own any Avatar",
+                "description2": "Browse the {avatarCollections} to find one you like",
                 "descriptionFirstLine": "無料のアバターを作成することができます、もしくは",
                 "descriptionSecondLine": "buy one and get {rewards}",
-                "rewards": "追加の報酬！",
+                "rewards": "rewards",
                 "createButton": "外部アバターを閲覧する",
-                "description3": "buy one and get {rewards}",
+                "description3": "and be {unique}. You will get extra {rewards} too!",
                 "avatarCollections": "Avatar Collections",
                 "unique": "unique"
             },
