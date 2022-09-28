@@ -230,13 +230,13 @@
         "confirm": "확인",
         "sync": "동기화",
         "addCatalystGems": "카탈리스트와 젬 추가",
-        "sandboxGame": "The Sandbox Game",
-        "sandboxShort": "Sandbox",
-        "lands": "LANDS",
-        "close": "Close",
-        "regular": "",
-        "selectOption": "Select an option | Select one or more options | ",
-        "failed": "Something went wrong",
+        "sandboxGame": "더 샌드박스 게임",
+        "sandboxShort": "샌드박스",
+        "lands": "LAND",
+        "close": "닫기",
+        "regular": "일반",
+        "selectOption": "옵션 선택 | 다수의 옵션 선택 | ",
+        "failed": "에러가 발생했습니다.",
         "opensea": "OpenSea"
     },
     "layout": {
@@ -312,7 +312,7 @@
                 },
                 "route": "트랜잭션 진행 중 - "
             },
-            "login": "Log In"
+            "login": "로그인"
         },
         "sidebar": {
             "home": "홈",
@@ -324,14 +324,14 @@
             "mod": "MOD",
             "admin": "관리자",
             "user": "내 계정",
-            "communities": "공간",
-            "newSideBarShop": "Shop",
-            "newSideBarAbout": "Info",
-            "newSideBarMod": "Moderation",
-            "newSideBarCommunities": "Community",
-            "newSideBarEarn": "Earn",
-            "newSideBarWorkbench": "Workbench",
-            "newSideBarLanguage": "Language"
+            "communities": "스페이스",
+            "newSideBarShop": "마켓",
+            "newSideBarAbout": "소개",
+            "newSideBarMod": "운영",
+            "newSideBarCommunities": "커뮤니티",
+            "newSideBarEarn": "획득하기",
+            "newSideBarWorkbench": "워크벤치",
+            "newSideBarLanguage": "언어"
         },
         "footer": {
             "community": {
@@ -556,12 +556,12 @@
                 "title": "TSB 내부 알파에 오신 것을 환영합니다!",
                 "description": "메타버스가 천천히 문을 열고 있습니다. 메타버스를 암호화폐가 통용되는 장소로 만드는 데 여러분의 도움이 필요합니다! 여기에서 피드백 양식을 작성해 주시면 1,000 SAND를 받으실 수 있습니다. 좋은 시간 되시길 바랍니다!",
                 "buttonText": "여기",
-                "dailyChallenge": "",
-                "dailyChallenges": "",
-                "goToMap": "",
-                "completed": "",
-                "missed": "",
-                "newThisWeek": ""
+                "dailyChallenge": "일일 챌린지",
+                "dailyChallenges": "일일 챌린지",
+                "goToMap": "맵으로 이동",
+                "completed": "완료",
+                "missed": "미참여",
+                "newThisWeek": "이번 주의 신규 이벤트"
             },
             "sidebarRight": {
                 "progressTitle": "최신 진행 데이터",
@@ -660,11 +660,11 @@
                 "winnerDesc": "시즌 3 알파 패스에 당첨되었습니다"
             },
             "communityBooster": "커뮤니티 부스터",
-            "day": "",
-            "needLogIn": "",
-            "eventsOfTheDay": "",
-            "boostRewards": "",
-            "to": ""
+            "day": "일",
+            "needLogIn": "진행 현황을 확인하려면 로그인이 필요합니다",
+            "eventsOfTheDay": "오늘의 소셜 이벤트",
+            "boostRewards": "스테이킹하여 리워드 부스트",
+            "to": "-"
         },
         "pass": {
             "title": "리워드",
@@ -891,8 +891,8 @@
                 "internalNFT": "TSB NFT",
                 "s3Collection": "시즌 3 컬렉션"
             },
-            "ethosPoints": "에토스 포인트",
-            "eventEthosPoints": "이벤트 에토스 포인트",
+            "ethosPoints": "EP",
+            "eventEthosPoints": "이벤트 EP",
             "eventEthosPointsDesc": "획득 가능 기한:",
             "event": "이벤트",
             "playAlpha": "알파 플레이하기",
@@ -1571,11 +1571,11 @@
                 "shared": "전체",
                 "rewards": "리워드",
                 "comingSoon": "곧 찾아옵니다",
-                "upcoming": "곧 시작됩니다",
+                "upcoming": "시작 예정",
                 "upcomingDesc": "매주 찾아올 새로운 콘테스트를 기대해 주세요!",
                 "play": "플레이",
                 "openUntil": "종료:",
-                "upcomingEvents": "진행될 이벤트",
+                "upcomingEvents": "진행 예정 이벤트",
                 "endingSoon": "곧 종료됩니다",
                 "upNext": "시작 예정",
                 "prizePool": "상금 풀",
@@ -2112,7 +2112,7 @@
                 "title": "리더보드",
                 "description": "리더보드에서 가장 빠른 시간 내에 에토스 포인트(EP)를 획득하고 최대 30,000 SAND를 획득하세요! 장비 NFT를 통해 퀘스트를 보다 빠르게 완료할 수 있습니다.",
                 "link": "마켓플레이스로 이동해 다양한 NFT를 확인해 보세요",
-                "description2": "Equipment NFTs will help you complete quests faster."
+                "description2": "장비 NFT를 이용하여 더 빠르게 퀘스트를 완료할 수 있습니다."
             },
             "table": {
                 "description": {
@@ -2584,7 +2584,7 @@
             "network": "네트워크",
             "polygon": "다각형",
             "ethereum": "이더리움",
-            "disabledReason": "Transactions are temporarily disabled due to Ethereum Merge"
+            "disabledReason": "이더리움 머지로 인해 트랜잭션이 일시적으로 불가합니다."
         },
         "assets": {
             "noGems": "이 애셋에는 젬이 없습니다.",
@@ -2622,10 +2622,10 @@
         },
         "listed": "Listed",
         "wishlist": {
-            "added": "has been successfully added to your wishlist.",
-            "removed": "has been successfully removed from your whishlist.",
-            "gotoInventory": "Go to Inventory",
-            "error": "Error updating your wishlist."
+            "added": "가 성공적으로 위시리스트에 등록되었습니다.",
+            "removed": "가 성공적으로 위시리스트에서 삭제되었습니다.",
+            "gotoInventory": "인벤토리 확인",
+            "error": "위시리스트 업데이트 중 에러가 발생했습니다."
         }
     },
     "create": {
@@ -3491,7 +3491,7 @@
             "minutes": "분",
             "seconds": "초",
             "btn": "LAND 구매",
-            "publicSaleStartsIn": "Public sale starts in:",
+            "publicSaleStartsIn": "세일 시작까지 남은 시간:",
             "saleStartsIn": "세일 시작까지 남은 시간:",
             "saleEndsIn": "현재 세일 종료까지 남은 시간:"
         },
@@ -3590,24 +3590,24 @@
             "polygonChain": "폴리곤 네트워크",
             "network": "네트워크",
             "ethereumChain": "이더리움 네트워크",
-            "tokenId": "Token ID",
-            "type": "Type",
-            "chain": "Chain",
+            "tokenId": "토큰 ID",
+            "type": "유형",
+            "chain": "체인",
             "ethereum": "Ethereum",
             "polygon": "Polygon",
             "goerli": "Goerli",
             "rinkeby": "Rinkeby",
             "mumbai": "Mumbai",
-            "buildExperience": "Build Game",
-            "myLand": "MY LAND",
-            "onSale": "ON SALE",
+            "buildExperience": "게임 만들기",
+            "myLand": "나의 LAND",
+            "onSale": "판매 중",
             "whatCanIDo": {
-                "title": "WHAT CAN I DO WITH MY LAND?",
-                "option1": "Download Game Maker and start building!",
-                "option2": "Publish a GAME",
-                "option3": "Hire Metaverse builders",
-                "option4": "Sell yout LAND",
-                "option5": "Lear more about LANDs"
+                "title": "내 LAND로 무엇을 할 수 있나요?",
+                "option1": "게임 메이커를 다운로드하고 게임을 제작해 보세요!",
+                "option2": "게임 게시하기",
+                "option3": "메타버스 빌더 고용하기",
+                "option4": "LAND 판매하기",
+                "option5": "LAND 더 알아보기"
             }
         },
         "onboarding": {
@@ -3684,257 +3684,257 @@
             "newMapMobile": "이 맵은 현재 실험 모드입니다.",
             "newMapButton": "이전 맵으로 돌아가기",
             "whatsnew": "자세히 알아보기",
-            "oldMapButtonMobile": "New Map"
+            "oldMapButtonMobile": "새로운 맵"
         },
         "landsale": {
             "buttons": {
-                "getMoreTickets": "Get More Tickets",
-                "enterRaffle": "Enter Raffle",
-                "getReady": "Get Ready",
-                "buyLand": "Buy LAND",
-                "checkResults": "Check Results",
-                "getNFT": "Get NFT",
-                "alreadyRegistered": "Already Registered"
+                "getMoreTickets": "더 많은 티켓 획득하기",
+                "enterRaffle": "추첨 참여",
+                "getReady": "준비하기",
+                "buyLand": "LAND 구매",
+                "checkResults": "결과 확인",
+                "getNFT": "NFT 획득",
+                "alreadyRegistered": "이미 등록됨"
             },
             "header": {
                 "titles": {
-                    "loading": "LAND Sale Raffle",
-                    "default": "{partner} LAND Sale Raffle",
-                    "readyToBuyALAND": "Ready to buy a LAND?",
-                    "registrationClosed": "Registration for the {partner} LAND Sale Raffle is closed",
-                    "inRaffle": "You are registered for the Raffle",
-                    "notInRaffle": "You are not in the Raffle",
-                    "raffleResultsAreReady": "The Raffle results are ready!",
-                    "youWon": "You won a whitelist spot!",
-                    "youDidntWin": "You didn't win a whitelist spot!",
-                    "youDidntParticipated": "You didn't participated in the Raffle",
-                    "weAreProcessing": "We are processing the raffle"
+                    "loading": "LAND 세일 추첨",
+                    "default": "{partner} LAND 세일 추첨",
+                    "readyToBuyALAND": "LAND를 구입할 준비가 되었나요?",
+                    "registrationClosed": "{partner} LAND 세일 추첨 등록이 종료되었습니다.",
+                    "inRaffle": "추첨에 참여하고 있습니다.",
+                    "notInRaffle": "추첨에 참여하고 있지 않습니다.",
+                    "raffleResultsAreReady": "추첨 결과가 발표됩니다!",
+                    "youWon": "화이트리스트에 등록되었습니다!",
+                    "youDidntWin": "화이트리스트에 등록되지 않았습니다!",
+                    "youDidntParticipated": "추첨에 참여하지 않았습니다.",
+                    "weAreProcessing": "추첨이 진행 중입니다"
                 },
                 "subtitles": {
                     "default": "Raffle winners will be able to buy 1 LAND in the {partner} LAND Sale. {landsCount} LANDs, {landsCount} winners!",
-                    "joinTheRaffle": "Join the {partner} LAND Sale Raffle and get a chance of winning a whitelist spot to buy a LAND",
-                    "signInToCheck": "Sign in to check your status",
+                    "joinTheRaffle": "{partner} LAND 세일 추첨에 참여하고 LAND를 구매할 수 있는 화이트리스트 당첨의 기회를 노려보세요.",
+                    "signInToCheck": "내 현황을 확인하려면 로그인하세요.",
                     "notInRaffle": "But you can get a chance of buying a {partner} LAND in the Public Sale",
-                    "raffleResultsAreSignInToCheck": "{partner} Land Sale raffle results are in! Sign in to find out if you won a whitelist spot.",
-                    "raffleResultsAreReady": "{partner} Land Sale raffle results are in!  Check results to find out if you won a whitelist spot.",
-                    "youWon": "You are whitelisted for {partner} Land Sale. Make sure you are ready for the LAND sale, see the checklist below.",
-                    "youDidntWin": "Didn't win the raffle? Don't worry! Public Sale opnes 24 hours after the whitelist sale.",
-                    "youDidntParticipated": "But you can get a chance of buying a {partner} LAND in the Public Sale",
-                    "weAreProcessing": "This process can take a few minutes."
+                    "raffleResultsAreSignInToCheck": "{partner} LAND 세일 추첨 결과가 발표되었습니다! 로그인하고 화이트리스트에 등록되었는지 확인해 보세요.",
+                    "raffleResultsAreReady": "{partner} LAND 세일 추첨 결과가 발표되었습니다! 결과를 확인하여 화이트리스트에 등록되었는지 확인해 보세요.",
+                    "youWon": "{partner} LAND 세일 화이트리스트에 등록되었습니다. 아래 체크리스트를 통해 LAND를 구입할 모든 준비를 마쳤는지 확인해 보세요.",
+                    "youDidntWin": "추첨에 당첨되지 않았더라도 걱정하지 마세요! 화이트리스트 세일 종료 24시간 후에 퍼블릭 세일이 오픈됩니다.",
+                    "youDidntParticipated": "퍼블릭 세일에서 {partner} LAND를 구입할 수 있는 기회를 잡을 수 있습니다.",
+                    "weAreProcessing": "이 과정은 몇 분 정도 소요될 수 있습니다."
                 },
                 "texts": {
-                    "youHaveTickets": "You have",
-                    "entersTheMetaverse": "{partner} enters the Metaverse",
-                    "beTheirNeighbour": "And you can be their neighbour",
-                    "howDoesItWork": "How does it work?",
-                    "howDoesItWorkAwnser": "We are changing our LAND Sale system to give all users more chances of buying a LAND",
+                    "youHaveTickets": "",
+                    "entersTheMetaverse": "{partner}가 메타버스에 합류했습니다!",
+                    "beTheirNeighbour": "이웃이 되어 보세요",
+                    "howDoesItWork": "어떻게 진행되나요?",
+                    "howDoesItWorkAwnser": "모든 유저들에게 LAND를 구매할 수 있는 기회를 제공하기 위해 LAND 세일 시스템을 변경했습니다.",
                     "description": "The most famous shopping district from Tokyo is entering The Sandbox. With the Shibuya 109 Estate at its heart! This new playground will offer next-generation customer experiences that exceed expectations.",
                     "entryClosesOn": "Entry closes on {closeDate}"
                 },
                 "countdown": {
-                    "registrationStarts": "REGISTRATION STARTS IN",
-                    "registrationEnds": "REGISTRATION ENDS IN",
-                    "raffleStarts": "RAFFLE STARTS IN",
-                    "publicSaleStarts": "PUBLIC SALE STARTS IN",
-                    "landSaleStartsIn": "LAND SALE SALE STARTS IN",
-                    "landSaleEndsIn": "LAND SALE ENDS IN"
+                    "registrationStarts": "등록 시작까지 남은 시간:",
+                    "registrationEnds": "등록 종료까지 남은 시간:",
+                    "raffleStarts": "추첨 시작까지 남은 시간:",
+                    "publicSaleStarts": "퍼블릭 세일 시작까지 남은 시간:",
+                    "landSaleStartsIn": "LAND 세일 시작까지 남은 시간:",
+                    "landSaleEndsIn": "LAND SALE 종료까지 남은 시간:"
                 }
             },
             "timeline": {
-                "raffle": "Raffle",
-                "registration": "Registration",
-                "registerUntil": "Until {date}",
-                "wlSale": "WL Sale",
-                "publicSale": "Public Sale",
-                "publicSaleOpens": "Public sale opens 24 hours after the allowlist sale",
-                "didntWinTheRaffle": "Didn't win the Raffle?",
-                "wantToKnowHowManyTickets": "Want to know how many tickets do you already have",
-                "youAreRegistered": "You are Registered for the Raffle",
-                "youAreNotRegistered": "You are NOT Registered for the Raffle",
-                "youWon": "You won a whitelist spot!",
-                "youDidntWin": "You didn't win a whitelist spot!"
+                "raffle": "추첨",
+                "registration": "등록",
+                "registerUntil": "기한: {date}",
+                "wlSale": "화이트리스트 세일",
+                "publicSale": "퍼블릭 세일",
+                "publicSaleOpens": "화이트리스트 세일 24시간 후 퍼블릭 세일이 오픈됩니다.",
+                "didntWinTheRaffle": "추첨에 당첨되지 않았나요?",
+                "wantToKnowHowManyTickets": "보유한 티켓이 몇 개인지 알고 싶다면?",
+                "youAreRegistered": "추첨에 등록되었습니다.",
+                "youAreNotRegistered": "추첨에 등록되지 않았습니다.",
+                "youWon": "화이트리스트에 등록되었습니다!",
+                "youDidntWin": "화이트리스트에 등록되지 못했습니다!"
             },
             "whatsTheLANDSale": {
-                "title": "What is the LAND Sale Raffle?",
+                "title": "LAND 세일 추첨이란 무엇인가요?",
                 "explain1": {
                     "message": "We want to provide a fair experience so everyone can get the chance of buying LAND. This is why we are redesigning our LAND Sale system introducing the {0}. ",
-                    "boldMessage": "LAND Sale Raffle"
+                    "boldMessage": "LAND 세일 추첨"
                 },
                 "explain2": {
                     "message": "In order to buy LAND at The Sandbox, users will need to join the LAND Sale Raffle. {0} depending on the type of raffle they joined, {1} or {2}.",
-                    "boldMessage": "Every winner will be able to buy a random LAND",
-                    "premium": "Premium",
-                    "regular": "Regular"
+                    "boldMessage": "모든 당첨자는 랜덤의 LAND를 구입할 수 있게 됩니다.",
+                    "premium": "프리미엄",
+                    "regular": "일반"
                 },
-                "joinRequirements": "To join the LAND Sale Raffle make sure you meet the following requirements:",
-                "requirement1": "Having an account at The Sandbox",
-                "requirement2": "Having enough SAND in your wallet",
-                "requirement3": "Having your Account Verified before the Raffle starts",
-                "farewell": "The more tickets you have, the more chances of winning."
+                "joinRequirements": "LAND 세일 추첨에 참여하려면 다음의 요구 사항을 충족해야 합니다.",
+                "requirement1": "더 샌드박스 계정 보유",
+                "requirement2": "지갑에 충분한 금액의 SAND 보유",
+                "requirement3": "추첨 시작 전 계정 인증 완료",
+                "farewell": "보유한 티켓 수가 많을수록, 당첨 확률이 높아집니다."
             },
             "modals": {
                 "KYCStatus": {
                     "firstView": {
-                        "verifyAccount": "Verify your account",
+                        "verifyAccount": "계정 인증하기",
                         "explain": {
-                            "message": "As much as we love robots, we want the Metaverse to be full of {0}. We are improving our LAND Sale system so everyone has a fair chance of getting LAND.",
-                            "humans": "humans"
+                            "message": "자동화된 로봇이 우리 삶에서 빼놓을 수 없는 요소가 되긴 했지만, 더 샌드박스는 메타버스가 다양한 {0}로 채워지기를 바랍니다. 이에 LAND 세일 시스템을 개선하여 모두에게 공정한 LAND 구매 기회를 제공하고자 합니다.",
+                            "humans": "실제 사람들"
                         },
-                        "importantMessage": "IMPORTANT: The Verification process might take up to 48 hours.",
+                        "importantMessage": "중요! 계정 인증 프로세스는 최대 48시간이 소요될 수 있습니다.",
                         "disclaimer": {
-                            "message": "Only Verified accounts will be elegible to winning the LAND Sale Raffle. If you choose to Verify your account later, you can start the verification process at {0}",
+                            "message": "계정 인증을 완료해야만 LAND 세일 추첨에 당첨될 수 있습니다. 나중에 계정 인증하기를 선택했을 경우, {0}에서 인증 프로세스를 시작할 수 있습니다.",
                             "path": "{verificationPath}"
                         }
                     },
                     "secondView": {
-                        "continueWithoutVerification": "Continue without verification",
-                        "disclaimer": "Only Verified accounts can be elegible to win the LAND Sale Raffle.",
-                        "disclaimerExplanation": "If you decide to Verify your account later please remember the verification process might take up to 48 hours. If you account is not Verified before the LAND Sale Raffle starts, your entry won’t be valid."
+                        "continueWithoutVerification": "인증 없이 계속 진행하기",
+                        "disclaimer": "인증된 계정만 LAND 세일 추첨에 참여할 수 있습니다.",
+                        "disclaimerExplanation": "게정 인증에는 최대 48시간이 소요될 수 있다는 점을 기억하세요. LAND 세일 추첨이 시작하기 전까지 계정 인증이 완료되지 않았을 경우, 추첨에 등록되지 않습니다."
                     }
                 },
                 "registration": {
-                    "title": "Select the raffle you want to join",
+                    "title": "참여하고 싶은 추첨을 선택하세요.",
                     "message": "Joining one raffle, or both to increase your chance of winning. You can only win one of them.",
-                    "importantMessage": "IMPORTANT: By joining the LAND Sale Raffle YOU ARE NOT BUYING A LAND. You are joining a raffle to win a chance to buy 1 LAND in the LOREMIPSUM LAND Sale Raffle. Entering the raffle does not have a cost nor will trigger a transaction.",
-                    "raffleDate": "Raffle Date",
+                    "importantMessage": "중요! LAND 세일 추첨에 참여하는 것이 LAND 구매를 의미하는 것은 아닙니다. 추첨에 참여하면 LOREMIPSUM LAND 세일에서 판매되는 LAND 중 1개의 LAND를 구매할 기회를 획득하게 됩니다. 추첨 참여는 비용이 들거나 트랜잭션이 발생하지 않습니다.",
+                    "raffleDate": "추첨일",
                     "regularLand": {
-                        "publishMonetize": "Publish and monetize your Experience",
-                        "rentYourLAND": "Rent your LAND",
-                        "earnRewards": "Earn exclusive rewards",
-                        "stake": "Stake"
+                        "publishMonetize": "나만의 경험을 게시하고 수익화하세요",
+                        "rentYourLAND": "LAND를 다른 사람에게 빌려주세요",
+                        "earnRewards": "리워드를 획득하세요",
+                        "stake": "스테이킹"
                     },
                     "premiumLand": {
-                        "regularFeaturesPlus": "All Regular LAND features +",
-                        "premiumLocation": "Premium location next to top Partners",
-                        "exclusiveAssets": "Exclusive assets bundle"
+                        "regularFeaturesPlus": "일반 LAND의 모든 기능 +",
+                        "premiumLocation": "유명 파트너사와 인접한 프리미엄 지역",
+                        "exclusiveAssets": "한정판 애셋 번들"
                     }
                 },
                 "confirmation": {
                     "verificationNotStarted": {
-                        "title": "Verify you account to continue",
-                        "message": "You need to verify your account before the raffle starts. Account verification might take up to 48 hours.",
-                        "button": "START ACCOUNT VERIFICATION"
+                        "title": "계속하려면 계정을 인증하세요",
+                        "message": "추첨이 시작하기 전까지 계정 인증을 완료해야 합니다. 계정 인증은 최대 48시간이 소요될 수 있습니다.",
+                        "button": "계정 인증 시작하기"
                     },
                     "verificationStarted": {
-                        "title": "Verify you account to continue",
-                        "message": "You need to verify your account before the raffle starts. Account verification might take up to 48 hours.",
-                        "button": "CONTINUE ACCOUNT VERIFICATION "
+                        "title": "계속하려면 계정을 인증하세요",
+                        "message": "추첨이 시작하기 전까지 계정 인증을 완료해야 합니다. 계정 인증은 최대 48시간이 소요될 수 있습니다.",
+                        "button": "계정 인증 계속하기 "
                     },
                     "waitingVerification": {
                         "title": "We are processing your Raffle entry",
                         "message": "Your entry will be approved if your account gets verified. This process can take up to 48 hours.",
-                        "button": "CHECK VERIFICATION STATUS"
+                        "button": "인증 현황 확인하기"
                     },
                     "verified": {
-                        "title": "You are in the raffle",
-                        "message": "Thanks for joining the LOREMIPSUM Land Sale Raffle. Good luck!"
+                        "title": "추첨에 참여 중입니다",
+                        "message": "LOREMIPSUM LAND 세일 추첨에 참여해 주셔서 감사합니다. 행운을 빕니다!"
                     }
                 },
                 "youWon": {
-                    "title": "Congratulations!",
-                    "subtitle": "You are now whitelisted to buy 1 {landType} LAND at {partner} LAND Sale",
+                    "title": "축하합니다!",
+                    "subtitle": "화이트리스트에 등록되어 {partner} LAND 세일에서 {landType} LAND 1개를 구입할 수 있습니다.",
                     "message": {
                         "body": "To buy {0} enter the {1} page ({2}) between {3} and {4}. After that period, you won’t be able to purchase. Your entry is only valid for {partner} LAND Sale.",
-                        "landSale": "LAND Sale",
-                        "landType": "1 {landType} LAND",
-                        "link": "https://sandbox.game/en/landsale",
+                        "landSale": "LAND 세일",
+                        "landType": "{landType} LAND 1개",
+                        "link": "https://sandbox.game/kr/landsale",
                         "startsAt": "{startsAt}",
                         "endsAt": "{endsAt}"
                     },
-                    "yourWallet": "Your wallet: ",
-                    "makeSure": "Make sure you are all set for the LAND Sale."
+                    "yourWallet": "내 지갑: ",
+                    "makeSure": "LAND 세일을 위해 모든 준비를 마쳤는지 확인하세요."
                 },
                 "youDidntWin": {
-                    "title": "Better luck next time",
-                    "subtitle": "You can still get a LAND",
+                    "title": "다음 번에는 행운이 함께하기를!",
+                    "subtitle": "아직 LAND를 구입할 수 있는 기회가 있습니다!",
                     "message": {
-                        "body": "ESTATE Auctions will start on {0}. If any user who won the raffle decides not to buy their LAND, all remaining LAND will be set in auction on {1}.",
+                        "body": "ESTATE 경매가 {0}에 시작됩니다. 추첨에 당첨된 유저가 LAND를 사지 않기로 결정했다면, 남은 LAND는 {1}에 경매로 판매됩니다.",
                         "startsAt": "{startsAt}",
                         "endsAt": "{endsAt}"
                     },
-                    "learnMore": "Learn more about {partner} Land Sale",
-                    "redirectedToOpenSea": "You will be redirected to OpenSea"
+                    "learnMore": "{partner} LAND 세일 자세히 알아보기",
+                    "redirectedToOpenSea": "OpenSea로 이동합니다"
                 },
                 "buyLand": {
                     "title": "You are going to buy",
-                    "title2": "1 {type} LAND",
-                    "description": "Click the button below to BUY and reveal the location of your new LAND!",
-                    "button": "BUY 1 {type} LAND ({price} SAND)"
+                    "title2": "{type} LAND 1개",
+                    "description": "구입하기 밑의 버튼을 클릭하여 내 LAND의 위치를 확인하세요!",
+                    "button": "{type} LAND 1개 구입하기 ({price} SAND)"
                 },
                 "landBought": {
-                    "title": "You just bought",
-                    "title2": "{type} LAND ({coordinates})",
-                    "description": "Your transaction is being processed.",
-                    "check": "Check your transaction:",
-                    "button": "What can I do with my LAND?",
-                    "closeAdvice": "You can close this popup, your transaction will still be processed"
+                    "title": "",
+                    "title2": "{type} LAND ({coordinates})를 구입했습니다!",
+                    "description": "트랜잭션이 진행 중입니다.",
+                    "check": "트랜잭션 확인:",
+                    "button": "내 LAND로 무엇을 할 수 있나요?",
+                    "closeAdvice": "이 팝업창을 닫아도 트랜잭션은 계속 진행됩니다."
                 }
             },
             "KYC": {
-                "accountStatus": "Account Status",
+                "accountStatus": "계정 현황",
                 "poweredBy": {
                     "by": "Powered by SYNAPS. {0}",
-                    "linkMessage": "Learn more about SYNAPS"
+                    "linkMessage": "SYNAPS 자세히 알아보기"
                 },
                 "buttons": {
-                    "startVerification": "Start Verification",
-                    "checkVerification": "CHECK VERIFICATION STATUS",
-                    "doLater": "I'll do the verification later",
-                    "IUnderstand": "I understand, continue"
+                    "startVerification": "인증 시작하기",
+                    "checkVerification": "인증 현황 확인하기",
+                    "doLater": "나중에 계정 인증을 진행하겠습니다.",
+                    "IUnderstand": "이해했습니다. 계속 진행합니다."
                 },
                 "verificationProcess": {
                     "disclaimer": "{0}: If you want to receive a confirmation via e-mail please make sure there’s an email linked to your account. You can link an email at {1}  You can always check your account Verification status at {2}",
-                    "title": "VERIFICATION PROCESS",
-                    "emailPath": "Account > Settings > Email & Password",
+                    "title": "인증 프로세스",
+                    "emailPath": "계정 > 설정 > 이메일 및 패스워드",
                     "verificationPath": "{verificationPath}"
                 },
                 "verificationStatus": {
-                    "title": "RAFFLE ENTRY STATUS",
-                    "unverified": "YOU ARE NOT VERIFIED",
-                    "inProgress": "VERIFICATION PENDING",
-                    "waitingVerification": "VERIFICATION PENDING",
-                    "verified": "YOU ARE IN THE RAFFLE",
-                    "rejected": "VERIFICATION REJECTED",
-                    "cancelled": "VERIFICATION CANCELLED"
+                    "title": "추첨 참여 현황",
+                    "unverified": "계정이 인증되지 않았습니다.",
+                    "inProgress": "인증 보류 중",
+                    "waitingVerification": "인증 보류 중",
+                    "verified": "추첨에 참여 중입니다.",
+                    "rejected": "인증 거절됨",
+                    "cancelled": "인증 취소됨"
                 }
             },
             "tickets": {
-                "title": "How to get LAND Sale Raffle tickets",
+                "title": "LAND 세일 추첨 티켓 획득 방법",
                 "subtitle": "Increase your chances of winning by earning more tickets*. By winning the LAND Sale Raffle you earn the chance of buying a LAND.",
                 "disclaimer": "*How you earn tickets might change on each LAND Sale depending on Seasonal events, partners and different activities.",
-                "yourTotalRaffleTickets": "YOUR TOTAL RAFFLE TICKETS",
+                "yourTotalRaffleTickets": "보유한 추첨 티켓 수",
                 "registered": {
-                    "title": "Enter the Raffle",
+                    "title": "추첨 참여하기",
                     "tooltip": "Get {tickets} for registering in the Landsale Raffle."
                 },
                 "season2pass": {
-                    "title": "Season 2 Alpha Pass",
+                    "title": "시즌 2 알파 패스",
                     "tooltip": "Get {tickets} extra Raffle Tickets by owning the Season 2 Alpha Pass. You need to own the NFT in your wallet when the Raffle starts."
                 },
                 "s1Memorabilia": {
-                    "title": "Season 1: Level 5 Completed",
+                    "title": "시즌 1: 레벨 5 달성",
                     "tooltip": "Get {tickets} extra Raffle tickets for reaching Level 5 in the Alpha Season 1."
                 },
                 "s2Memorabilia": {
-                    "title": "Season 2: Level 5 Completed",
+                    "title": "시즌 2: 레벨 5 달성",
                     "tooltip": "Get {tickets} extra Raffle tickets for reaching Level 5 in the Alpha Season 2."
                 }
             }
         },
         "filters": {
-            "buyLand": "Buy LAND",
-            "play": "Play {0}",
-            "mapMode": "MAP MODE",
-            "comingSoon": "(Coming Soon)",
+            "buyLand": "LAND 구입",
+            "play": "{0} 플레이",
+            "mapMode": "맵 모드",
+            "comingSoon": "(곧 찾아옵니다)",
             "results": "Showing {result} of {total} results.",
             "expandSearch": "Expand search.",
             "sortBy": {
-                "title": "Sort by",
-                "lowerPrice": "Lower Price",
-                "higherPrice": "Higher Price"
+                "title": "정렬 기준",
+                "lowerPrice": "가격 낮은 순",
+                "higherPrice": "가격 높은 순"
             },
             "currency": {
-                "title": "Currency",
+                "title": "통화",
                 "eth": "ETH",
                 "sand": "SAND",
                 "weth": "WETH",
@@ -3942,37 +3942,37 @@
                 "dai": "DAI"
             },
             "landType": {
-                "title": "LAND Type",
-                "premium": "Premium",
-                "regular": "Regular"
+                "title": "LAND 유형",
+                "premium": "프리미엄",
+                "regular": "일반"
             },
             "chain": {
-                "title": "Chain",
+                "title": "체인",
                 "ethereum": "Ethereum",
                 "polygon": "Polygon"
             },
             "tags": {
-                "sand": "Currency: SAND",
-                "eth": "Currency: ETH",
-                "weth": "Currency: WETH",
-                "usdc": "Currency: USDC",
-                "dai": "Currency: DAI",
-                "regular": "Regular",
-                "premium": "Premium",
-                "ethereum": "Chain: Ethereum",
-                "polygon": "Chain: Polygon"
+                "sand": "통화: SAND",
+                "eth": "통화: ETH",
+                "weth": "통화: WETH",
+                "usdc": "통화: USDC",
+                "dai": "통화: DAI",
+                "regular": "일반",
+                "premium": "프리미엄",
+                "ethereum": "체인: Ethereum",
+                "polygon": "체인: Polygon"
             },
             "partners": {
-                "title": "Partners",
-                "search": "Search by name",
-                "category": "Category",
-                "name": "Name",
-                "showMore": "Show More",
-                "notFound": "No Results Found"
+                "title": "파트너",
+                "search": "이름으로 검색",
+                "category": "카테고리",
+                "name": "이름",
+                "showMore": "더 보기",
+                "notFound": "검색 결과가 없습니다."
             },
             "layers": {
-                "title": "LAYERS",
-                "myLands": "My LAND"
+                "title": "레이어",
+                "myLands": "내 LAND"
             }
         }
     },
@@ -4004,8 +4004,8 @@
             "sand": "SAND",
             "land": "LAND",
             "blog": "블로그",
-            "getting": "Getting Started",
-            "docsAndRes": "Docs & Resources"
+            "getting": "시작하기",
+            "docsAndRes": "문서와 자료"
         },
         "sandbox": {
             "products": {
@@ -4326,9 +4326,9 @@
             "claim": "수령하기",
             "bridge": "브릿지",
             "badges": "배지",
-            "account": "",
-            "wallet": "",
-            "migrations": ""
+            "account": "계정",
+            "wallet": "지갑",
+            "migrations": "마이그레이션"
         },
         "profile": {
             "sandAmount": "내",
@@ -4409,7 +4409,7 @@
                 "line": "{0}{1}{2} {3}",
                 "get": "Get "
             },
-            "meta": ""
+            "meta": "내 계정"
         },
         "inventory": {
             "noAssets": "인벤토리에 애셋이 없습니다.",
@@ -4594,8 +4594,8 @@
             "tabs": {
                 "1": "내 아바타",
                 "2": "상점",
-                "3": "아바타 크리에이터",
-                "4": "Shop"
+                "3": "Create",
+                "4": "마켓"
             },
             "saveButtonText": "변경 사항 저장",
             "mobileSaveButtonText": "저장",
@@ -4675,9 +4675,9 @@
                 "presetName": "사전 설정 이름"
             },
             "titleCreator": "아바타 크리에이터",
-            "title": "아바타 만들기",
+            "title": "Select your Avatar",
             "custom": "신체 부위만 직접 지정",
-            "iosWarning": "이 기능과 호환되지 않는 기기입니다. 데스크톱을 이용하세요.",
+            "iosWarning": "Landscape mode is not compatible with this feature. Please, change to portrait.",
             "iosWarningTitle": "이런!",
             "externalAvatarsPopUp": {
                 "title1": "잠시만요!",
@@ -4688,15 +4688,15 @@
             },
             "noNfts": {
                 "title": "Ups!",
-                "description1": "You don't have external avatars",
-                "description2": "You can create your own free avatar or",
+                "description1": "You don't own any Avatar",
+                "description2": "Browse the {avatarCollections} to find one you like",
                 "descriptionFirstLine": "무료로 나만의 아바타를 만들거나",
                 "descriptionSecondLine": "아바타를 구입하고 {rewards}의",
-                "rewards": "추가 보상을 획득하세요!",
+                "rewards": "rewards",
                 "createButton": "외부 아바타 찾아보기",
-                "description3": "구매하고 {rewards} 획득하기",
-                "avatarCollections": "Avatar Collections",
-                "unique": "unique"
+                "description3": "and be {unique}. You will get extra {rewards} too!",
+                "avatarCollections": "아바타 컬렉션",
+                "unique": "고유"
             },
             "notWhitelisted": {
                 "title": "이런!",
@@ -4713,7 +4713,7 @@
             "noResultLand": "보유한 LAND가 없습니다",
             "noResultExperience": "보유한 경험이 없습니다",
             "noResultEntity": "보유한 엔티티가 없습니다",
-            "buyAvatarButtonText": "Buy on Opensea"
+            "buyAvatarButtonText": " OpenSea에서 구매하기"
         },
         "loginModal": {
             "title": "로그인하거나 계정을 만드세요",
@@ -5046,7 +5046,7 @@
                 "resultDate": {
                     "message": "일시: {0} UTC"
                 },
-                "verificationPath": "Account > Settings > Account Verification."
+                "verificationPath": "계정 > 설정 > 계정 인증"
             }
         },
         "claims": {
@@ -5286,7 +5286,7 @@
                     "summary": "요약"
                 }
             },
-            "viewLand": ""
+            "viewLand": "LAND 보기"
         },
         "faucet": {
             "layer1": "레이어 1 TESTNETS",
@@ -7248,8 +7248,8 @@
                 "alpha": "알파",
                 "deviceNotSupported": "이 기기는 현재 지원되지 않습니다. 플레이하려면 Mac 또는 Windows PC를 이용하세요.",
                 "backToHome": "홈으로 돌아가기",
-                "browserNotSupported": "BROWSER NOT SUPPORTED :(",
-                "pleaseUseAnotherOne": "Please use another one to Play."
+                "browserNotSupported": "해당 브라우저는 지원되지 않습니다 :(",
+                "pleaseUseAnotherOne": "더 샌드박스를 플레이하려면 다른 브라우저를 이용해 주세요."
             },
             "onboarding": {
                 "title1": "멋진 경험을 발견해 보세요. 새로운 경험이 매일 공개됩니다!",
@@ -9239,7 +9239,7 @@
                         "list": {
                             "0": {
                                 "title": "이동 변경 사항:",
-                                "subtitle": "We’re preparing various of our systems for some upcoming new releases. In order to enable new and exciting features regarding how players can move from an experience to another, we’ve made some architecture level changes into our current transportation and waygate system."
+                                "subtitle": "곧 출시될 여러 새로운 릴리스를 위해 다양한 시스템을 준비하고 있습니다. 플레이어가 경험에서 다른 경험으로 이동할 수 있는 방법과 관련하여 새롭고 흥미로운 기능을 활성화하기 위해 현재 이동 및 웨이게이트 시스템의 아키텍처 레벨을 일부 변경했습니다."
                             },
                             "1": {
                                 "title": "서버 템플릿:",
@@ -9283,8 +9283,8 @@
                         "title": "게임 메이커 개선",
                         "list": {
                             "0": {
-                                "title": "NFT Image Self Illumination :",
-                                "subtitle": "An option was added on the NFT Image Component that lets users select if the environment Illumination affects the NFT image or if it is Self Illuminated."
+                                "title": "NFT Image 자체 조명:",
+                                "subtitle": "NFT Image 컴포넌트에 옵션이 추가되어 환경 조명이 NFT 이미지에 적용되거나 자체 조명을 켤 수 있도록 개선했습니다."
                             },
                             "1": {
                                 "title": "NFT Interact 컴포넌트:",
@@ -9779,14 +9779,14 @@
                         "reviewTransfer": "리뷰 - 소유권 이전 포함",
                         "reviewWithoutTransfer": "리뷰 - 소유권 이전 불포함",
                         "simplifiedShort": {
-                            "title": "Simplified",
-                            "description": "No review process. Just upload, publish and mint."
+                            "title": "자동 승인",
+                            "description": "모든 애셋이 업로드 후 리뷰 과정 없이 자동 승인됩니다. 직접 애셋을 게시 및 민팅할 수 있습니다."
                         },
                         "reviewShort": {
-                            "title": "With review",
-                            "description": "Content will go through a review process led by allowed team members before being able to publish and mint."
+                            "title": "직접 승인",
+                            "description": "애셋이 게시 및 민팅되기 전 허용된 팀 멤버들이 리뷰를 진행합니다."
                         },
-                        "transfershipAllow": "Ownership transfer allow"
+                        "transfershipAllow": "소유권 이전 허용"
                     }
                 },
                 "delete": {
@@ -9802,12 +9802,12 @@
                 }
             },
             "workflowType": "워크플로우 유형",
-            "newWorkspace": "New workspace",
-            "invitations": "Invitations",
-            "noResultSearchTitle": "There is not results for {word} search",
-            "noResultSearchText": "Click on '{buttonName}' to add a new one!",
-            "loading": "Loading workspaces  ...",
-            "workspacesCount": "{count} Workspace | {count} Workspaces"
+            "newWorkspace": "새 워크스페이스",
+            "invitations": "초대",
+            "noResultSearchTitle": "{word}에 대한 검색 결과가 없습니다.",
+            "noResultSearchText": "새로운 워크스페이스를 추가하려면 '{buttonName}'을 클릭하세요!",
+            "loading": "워크스페이스 로딩 중...",
+            "workspacesCount": "{count}개 워크스페이스 | {count}개 워크스페이스"
         },
         "members": {
             "newMember": "+ 신규 멤버 추가",
@@ -9822,10 +9822,10 @@
                     "groups": "그룹",
                     "ban": "차단",
                     "actions": "액션",
-                    "members": "Members",
-                    "roles": "Roles"
+                    "members": "멤버",
+                    "roles": "역할"
                 },
-                "search": "Search by name, email or group"
+                "search": "이름, 이메일 또는 그룹으로 검색"
             },
             "modal": {
                 "assignRol": "역할 지정",
@@ -9859,26 +9859,26 @@
                 },
                 "edit": {
                     "editMember": "멤버 수정",
-                    "email": "Email",
+                    "email": "이메일",
                     "dontFoundUser": "Workspace member doesn't found to edit",
                     "loadingMember": "Loading member for edit..."
                 },
                 "menuAction": {
-                    "editRole": "Edit role",
-                    "deleteMember": "Delete"
+                    "editRole": "역할 수정하기",
+                    "deleteMember": "삭제"
                 }
             },
-            "loading": "Loading members...",
-            "creatorCannontBeDeleted": "Workspace creator can't be deleted",
-            "numberOfMembers": "{count} Member | {count} Members",
-            "searchField": "Search by name or email",
-            "ownerWorkspace": "Owner",
+            "loading": "멤버 로딩 중...",
+            "creatorCannontBeDeleted": "워크스페이스 생성자는 삭제할 수 없습니다.",
+            "numberOfMembers": "{count}명의 멤버 | {count}명의 멤버",
+            "searchField": "이름 또는 이메일로 검색",
+            "ownerWorkspace": "소유자",
             "filter": {
-                "all": "All",
-                "admin": "Admin",
-                "artist": "Artist",
-                "moderator": "Moderator",
-                "viewer": "Viewer"
+                "all": "전체",
+                "admin": "관리자",
+                "artist": "아티스트",
+                "moderator": "모더레이터",
+                "viewer": "뷰어"
             }
         },
         "invites": {
@@ -9894,18 +9894,18 @@
             "clickToAddInvitation": "Click on 'Create invitation' to start",
             "title": "New Invitation",
             "onlyNumbers": "You can only use numbers",
-            "errorAmount": "Max invites allows: {count}",
-            "setAmount": "Set the amount",
+            "errorAmount": "최대 초대 가능한 인원: {count}",
+            "setAmount": "수량 설정하기",
             "disclaimerAmount": "You can share this link many times to invite members to the workspace",
-            "buttonCreate": "Create link",
-            "numberOfInvitations": "{count} Invitation created | {count} Invitations created",
-            "date": "DATE",
-            "searchInput": "Search by role",
+            "buttonCreate": "링크 생성",
+            "numberOfInvitations": "{count}개의 초대 생성 | {count}개의 초대 생성",
+            "date": "일자",
+            "searchInput": "역할로 검색",
             "menuAction": {
-                "deleteInvite": ""
+                "deleteInvite": "초대 삭제"
             },
-            "metaEdit": "Edit",
-            "metaCreate": "Create"
+            "metaEdit": "수정",
+            "metaCreate": "생성하기"
         },
         "settings": {
             "generalSettings": "일반 설정",
@@ -9925,7 +9925,7 @@
             "wantToRemove": "이 워크플레이스를 관리자에서 삭제하시겠습니까?",
             "wantToRemoveDescription": "팀을 제거하면 팀에서 모든 유저와 관리자가 삭제됩니다. 워크스페이스 삭제는 영구적이며 해당 워크스페이스의 데이터는 복구되지 않습니다.",
             "wantToRemoveLink": "이 워크스페이스를 영구적으로 삭제합니다.",
-            "create": "Create"
+            "create": "생성하기"
         },
         "roles": {
             "modal": {
@@ -9995,7 +9995,7 @@
                     "workspace": "워크스페이스"
                 },
                 "options_selected": "{count}개의 권한 선택됨",
-                "Asset_approver": "애셋 리뷰어"
+                "Asset_approver": "Asset Approver"
             },
             "addNewRoles": "+ 신규 역할 추가",
             "quantityRoles": "역할 생성됨",
@@ -10050,7 +10050,7 @@
                 "successGroupMove": "{amount}개의 애셋이 성공적으로 워크스페이스에 이동되었습니다.",
                 "successGroupAllocate": "{amount}개의 애셋이 성공적으로 워크스페이스에 추가되었습니다.",
                 "successGroupUnallocate": "{amount}개의 애셋이 성공적으로 워크스페이스에서 제거되었습니다.",
-                "addAsset": "Add Asset",
+                "addAsset": "애셋 추가",
                 "successfullyMove": " '' | An Asset has changed it's location in this workspace | {count} Assets have changed their location in this workspace."
             },
             "history": {
@@ -10121,7 +10121,7 @@
                     "prop": "소품"
                 },
                 "automaticTransfership": "This Workspace will automatically transfer asset ownership to the Workspace creator",
-                "meta": "Uploading"
+                "meta": "업로드 중"
             },
             "previewInModal": {
                 "copies": "수량: {copies}"
@@ -10154,8 +10154,8 @@
                 "reject": "Reject",
                 "iterate": "Send to Iterate",
                 "comments": "코멘트",
-                "general": "Asset approval",
-                "send": "Send",
+                "general": "애셋 승인",
+                "send": "보내기",
                 "specifyMessage": "You must specify a message or comment"
             },
             "display": {
@@ -10180,8 +10180,8 @@
                 "updatedOk": "애셋이 올바르게 업데이트 되었습니다",
                 "ban": "애셋 차단",
                 "restore": "복구하기",
-                "backToList": "Back to list view",
-                "publish": "Publish"
+                "backToList": "목록으로 돌아가기",
+                "publish": "게시하기"
             },
             "pagination": {
                 "page": "페이지",
@@ -10195,10 +10195,10 @@
                 "toVerify": "확인하기",
                 "rejected": "거절됨",
                 "approved": "승인됨",
-                "publish": "Published",
-                "iterating": "",
-                "pending": "Pending Approval",
-                "filterAssets": "{name} Assets"
+                "publish": "게시됨",
+                "iterating": "진행 중",
+                "pending": "승인 보류 중",
+                "filterAssets": "{name} 애셋"
             },
             "redirectToUpload": "업로드 페이지로 리다이렉팅",
             "users": {
@@ -10206,25 +10206,25 @@
                 "home": "홈으로 돌아가기",
                 "account": "다른 계정으로 로그인",
                 "loading": "Loading users...",
-                "failUser": "You are trying to upload an asset with another account that you login in VoxEdit",
-                "shop": "Go to shop",
-                "logAccount": "Please, sign in with an account",
-                "login": "  Sign in  "
+                "failUser": "복스에딧에 로그인한 계정과 동일한 계정으로 애셋을 업로드해야 합니다.",
+                "shop": "마켓플레이스로 이동하기",
+                "logAccount": "더 샌드박스 계정으로 로그인해 주세요.",
+                "login": "  로그인  "
             },
             "deletedData": "After some time, asset data is deleted from dashboard, try export it again",
-            "goMyWorkspace": "Go to my Workspace",
+            "goMyWorkspace": "내 워크스페이스로 이동하기",
             "resumeUpload": "Resume upload",
             "leaveingUpload": "You are leaving the asset upload...",
-            "edit": "Edit",
-            "publishSuccess": "Asset published successfully",
-            "moveSuccess": "Asset moved successfully"
+            "edit": "편집",
+            "publishSuccess": "애셋이 성공적으로 게시되었습니다.",
+            "moveSuccess": "애셋을 성공적으로 이동했습니다."
         },
         "experiences": {
             "construction": "이 섹션은 현재 개발 중입니다."
         },
-        "onlyAlphanumeric": "",
-        "addButton": "Add",
-        "noResults": "No results for {search} search"
+        "onlyAlphanumeric": "영문 알파벳 및 숫자만 사용 가능합니다.",
+        "addButton": "추가",
+        "noResults": "{search}에 대한 검색 결과가 없습니다."
     },
     "strapi": {
         "POC_LANDING_MINT_AVATAR_TITLE": "메타버스에서 내 모습 표현하기",
@@ -10691,8 +10691,8 @@
         "collections": "컬렉션",
         "sidebarcollections": "NFT 컬렉션",
         "exploreCollections": "컬렉션 알아보기",
-        "exploreArts": "",
-        "exploreEquipments": ""
+        "exploreArts": "모든 아트 살펴보기",
+        "exploreEquipments": "모든 장비 살펴보기"
     },
     "kyc": {
         "statuses": {
@@ -11129,31 +11129,31 @@
     },
     "earn": {
         "menu": {
-            "how": "How can I earn"
+            "how": "획득 방법"
         }
     },
     "communities": {
         "menu": {
-            "events": "Metaverse Events",
-            "blogs": "News & Articles",
-            "gameMakerAcademy": "Game Maker Academy"
+            "events": "메타버스 이벤트",
+            "blogs": "뉴스와 아티클",
+            "gameMakerAcademy": "게임 메이커 아카데미"
         }
     },
     "workbench": {
         "menu": {
-            "spaces": "Spaces",
-            "mint": "Mint",
-            "sell": "Sell"
+            "spaces": "스페이스",
+            "mint": "민팅",
+            "sell": "판매"
         }
     },
     "languagesBar": {
         "list": {
             "en": "English",
-            "kr": "Korean",
-            "sc": "Simplified Chinese",
-            "jp": "Japanese",
-            "tc": "Traditional Chinese",
-            "tr": "Turkish"
+            "kr": "한국어",
+            "sc": "简中",
+            "jp": "日本語",
+            "tc": "繁中",
+            "tr": "Türk"
         }
     }
 }
