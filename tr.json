@@ -1626,7 +1626,7 @@
                 "stakeDesc2": "\"Ayrıca yeterli {1} stake için {0} alacaksınız. Tüm sezon boyunca (10 hafta) stake edilen her {2} için 1 puan kazanacaksınız.",
                 "extraTickets": "500 ekstra Çekiliş Bileti",
                 "onlyVerifiedAccounts": "Bu ödülü yalnızca doğrulanmış hesaplar kazanabilir",
-                "claimRewards": "Ödül Talebi!",
+                "claimRewards": "Ödül Talebi",
                 "alreadyOwnRaffle": "Zaten bir Alfa Biletiniz mevcut! Sezon sonunda Alfa Bileti ödüllerini elde edebilirsiniz. Ayrıca çekilişe katılmanıza gerek yoktur.",
                 "getMore": "Daha Fazla",
                 "raffleResults": "ÇEKİLİŞ ÖNCESİ ZAMAN",
@@ -1635,7 +1635,8 @@
                 "youAreCollector": "Bir NFT Kolleksiyonu sahibisiniz",
                 "epTooltip": "Deneyimlerdeki görevleri tamamlayarak Ethos Puanı kazan.Daha zorlu görevler daha fazla Ethos Puanı kazandırır.",
                 "raffleRewards": "Raffle Rewards",
-                "raffleTooltip": "You will win the Raffle if you own a Season 3 Alpha Pass"
+                "raffleTooltip": "You will win the Raffle if you own a Season 3 Alpha Pass",
+                "leaderboardDisclaimer": "Leaderboard rewards will be available 1 week after the end of the season. We will use that week to clean up cheaters and remove exploitable quests"
             },
             "summary": {
                 "rewardsSummary": "ÖDÜLLER ÖZETİ",
@@ -10811,6 +10812,11 @@
                 "continue": "Buradan Devam Et",
                 "check": "Buraya Tıkla"
             }
+        },
+        "notification": {
+            "title": "Identity verification",
+            "tag": "Verified",
+            "description": "You can now claim rewards and participate in our Seasons and LAND sale raffles."
         }
     },
     "backoffice": {
