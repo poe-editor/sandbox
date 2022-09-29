@@ -1635,7 +1635,8 @@
                 "youAreCollector": "NFT 컬렉터입니다.",
                 "epTooltip": "경험 속 퀘스트를 완료하고 에토스 포인트를 획득하세요. 퀘스트의 난이도가 높을수록 더 많은 에토스 포인트를 획득할 수 있습니다.",
                 "raffleRewards": "추첨 리워드",
-                "raffleTooltip": "시즌 3 알파 패스 보유 시 추첨에 당첨됩니다"
+                "raffleTooltip": "시즌 3 알파 패스 보유 시 추첨에 당첨됩니다",
+                "leaderboardDisclaimer": "Leaderboard rewards will be available 1 week after the end of the season. We will use that week to clean up cheaters and remove exploitable quests"
             },
             "summary": {
                 "rewardsSummary": "리워드 요약",
@@ -10808,6 +10809,11 @@
                 "continue": "여기서 계속",
                 "check": "여기서 확인"
             }
+        },
+        "notification": {
+            "title": "Identity verification",
+            "tag": "Verified",
+            "description": "You can now claim rewards and participate in our Seasons and LAND sale raffles."
         }
     },
     "backoffice": {
