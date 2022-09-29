@@ -3711,10 +3711,10 @@
                     "weAreProcessing": "추첨이 진행 중입니다"
                 },
                 "subtitles": {
-                    "default": "Raffle winners will be able to buy 1 LAND in the {partner} LAND Sale. {landsCount} LANDs, {landsCount} winners!",
+                    "default": "추첨 당첨자들은 {partner} LAND 세일에서 1개의 LAND를 구입할 수 있습니다. {landsCount}개의 LAND가 {landsCount}명의 당첨자들에게 돌아갑니다!",
                     "joinTheRaffle": "{partner} LAND 세일 추첨에 참여하고 LAND를 구매할 수 있는 화이트리스트 당첨의 기회를 노려보세요.",
                     "signInToCheck": "내 현황을 확인하려면 로그인하세요.",
-                    "notInRaffle": "But you can get a chance of buying a {partner} LAND in the Public Sale",
+                    "notInRaffle": "퍼블릭 세일을 통해 {partner} LAND를 구입할 수 있는 기회가 남아있습니다.",
                     "raffleResultsAreSignInToCheck": "{partner} LAND 세일 추첨 결과가 발표되었습니다! 로그인하고 화이트리스트에 등록되었는지 확인해 보세요.",
                     "raffleResultsAreReady": "{partner} LAND 세일 추첨 결과가 발표되었습니다! 결과를 확인하여 화이트리스트에 등록되었는지 확인해 보세요.",
                     "youWon": "{partner} LAND 세일 화이트리스트에 등록되었습니다. 아래 체크리스트를 통해 LAND를 구입할 모든 준비를 마쳤는지 확인해 보세요.",
@@ -3723,13 +3723,13 @@
                     "weAreProcessing": "이 과정은 몇 분 정도 소요될 수 있습니다."
                 },
                 "texts": {
-                    "youHaveTickets": "",
+                    "youHaveTickets": "You have",
                     "entersTheMetaverse": "{partner}가 메타버스에 합류했습니다!",
                     "beTheirNeighbour": "이웃이 되어 보세요",
                     "howDoesItWork": "어떻게 진행되나요?",
                     "howDoesItWorkAwnser": "모든 유저들에게 LAND를 구매할 수 있는 기회를 제공하기 위해 LAND 세일 시스템을 변경했습니다.",
-                    "description": "The most famous shopping district from Tokyo is entering The Sandbox. With the Shibuya 109 Estate at its heart! This new playground will offer next-generation customer experiences that exceed expectations.",
-                    "entryClosesOn": "Entry closes on {closeDate}"
+                    "description": "시부야 109 이스테이트를 중심으로, 도쿄의 가장 유명한 쇼핑 지역이 더 샌드박스에서 재현됩니다! 이 새로운 놀이터가 제공하는 기대 이상의 차세대 고객 경험을 만나보세요.",
+                    "entryClosesOn": "추첨 참여 종료일: {closeDate}"
                 },
                 "countdown": {
                     "registrationStarts": "등록 시작까지 남은 시간:",
@@ -3757,12 +3757,12 @@
             "whatsTheLANDSale": {
                 "title": "LAND 세일 추첨이란 무엇인가요?",
                 "explain1": {
-                    "message": "We want to provide a fair experience so everyone can get the chance of buying LAND. This is why we are redesigning our LAND Sale system introducing the {0}. ",
+                    "message": "더 샌드박스는 모두가 LAND를 구입할 수 있도록 공정한 기회를 제공하고자 합니다. 이에, {0}을 도입하여 LAND 세일 시스템을 재단장했습니다. ",
                     "boldMessage": "LAND 세일 추첨"
                 },
                 "explain2": {
-                    "message": "In order to buy LAND at The Sandbox, users will need to join the LAND Sale Raffle. {0} depending on the type of raffle they joined, {1} or {2}.",
-                    "boldMessage": "모든 당첨자는 랜덤의 LAND를 구입할 수 있게 됩니다.",
+                    "message": "더 샌드박스의 LAND를 구입하려면 LAND 세일 추첨에 참여해야 합니다. {0}({1} 또는 {2})에 따라 랜덤의 LAND를 구입할 수 있습니다.",
+                    "boldMessage": "모든 당첨자는 참여한 추첨 유형",
                     "premium": "프리미엄",
                     "regular": "일반"
                 },
@@ -3794,7 +3794,7 @@
                 },
                 "registration": {
                     "title": "참여하고 싶은 추첨을 선택하세요.",
-                    "message": "Joining one raffle, or both to increase your chance of winning. You can only win one of them.",
+                    "message": "추첨 참여를 통해 당첨 확률을 높이세요. 하나 또는 두 개의 추첨에 모두 참여할 수 있지만, 하나의 추첨에만 당첨될 수 있습니다.",
                     "importantMessage": "중요! LAND 세일 추첨에 참여하는 것이 LAND 구매를 의미하는 것은 아닙니다. 추첨에 참여하면 LOREMIPSUM LAND 세일에서 판매되는 LAND 중 1개의 LAND를 구매할 기회를 획득하게 됩니다. 추첨 참여는 비용이 들거나 트랜잭션이 발생하지 않습니다.",
                     "raffleDate": "추첨일",
                     "regularLand": {
@@ -3821,8 +3821,8 @@
                         "button": "계정 인증 계속하기 "
                     },
                     "waitingVerification": {
-                        "title": "We are processing your Raffle entry",
-                        "message": "Your entry will be approved if your account gets verified. This process can take up to 48 hours.",
+                        "title": "추첨 참여를 확인하고 있습니다.",
+                        "message": "계정이 인증되었을 경우 참여 처리됩니다. 이 과정은 최대 48시간 소요됩니다.",
                         "button": "인증 현황 확인하기"
                     },
                     "verified": {
@@ -3834,7 +3834,7 @@
                     "title": "축하합니다!",
                     "subtitle": "화이트리스트에 등록되어 {partner} LAND 세일에서 {landType} LAND 1개를 구입할 수 있습니다.",
                     "message": {
-                        "body": "To buy {0} enter the {1} page ({2}) between {3} and {4}. After that period, you won’t be able to purchase. Your entry is only valid for {partner} LAND Sale.",
+                        "body": "{3} - {4} 기간 안에 {1} 페이지에서 {0}를 구입하세요 ({2}). 기간 종료 이후에는 LAND를 구입할 수 없습니다. 추첨 참여는 {partner} LAND 세일에만 해당됩니다.",
                         "landSale": "LAND 세일",
                         "landType": "{landType} LAND 1개",
                         "link": "https://sandbox.game/kr/landsale",
@@ -3848,7 +3848,7 @@
                     "title": "다음 번에는 행운이 함께하기를!",
                     "subtitle": "아직 LAND를 구입할 수 있는 기회가 있습니다!",
                     "message": {
-                        "body": "ESTATE 경매가 {0}에 시작됩니다. 추첨에 당첨된 유저가 LAND를 사지 않기로 결정했다면, 남은 LAND는 {1}에 경매로 판매됩니다.",
+                        "body": "이스테이트 경매가 {0}에 시작됩니다. 추첨에 당첨된 유저가 LAND를 사지 않기로 결정했다면, 남은 LAND는 {1}에 경매로 판매됩니다.",
                         "startsAt": "{startsAt}",
                         "endsAt": "{endsAt}"
                     },
@@ -3862,7 +3862,7 @@
                     "button": "{type} LAND 1개 구입하기 ({price} SAND)"
                 },
                 "landBought": {
-                    "title": "",
+                    "title": "You just bought",
                     "title2": "{type} LAND ({coordinates})를 구입했습니다!",
                     "description": "트랜잭션이 진행 중입니다.",
                     "check": "트랜잭션 확인:",
@@ -3900,16 +3900,16 @@
             },
             "tickets": {
                 "title": "LAND 세일 추첨 티켓 획득 방법",
-                "subtitle": "Increase your chances of winning by earning more tickets*. By winning the LAND Sale Raffle you earn the chance of buying a LAND.",
+                "subtitle": "더 많은 티켓을 획득하고 당첨 확률을 높이세요*. LAND 세일 추첨에 당첨되면 LAND를 구입할 수 있는 기회를 얻을 수 있습니다.",
                 "disclaimer": "*How you earn tickets might change on each LAND Sale depending on Seasonal events, partners and different activities.",
                 "yourTotalRaffleTickets": "보유한 추첨 티켓 수",
                 "registered": {
                     "title": "추첨 참여하기",
-                    "tooltip": "Get {tickets} for registering in the Landsale Raffle."
+                    "tooltip": "{tickets}를 획득하고 LAND 세일 추첨에 등록하세요."
                 },
                 "season2pass": {
                     "title": "시즌 2 알파 패스",
-                    "tooltip": "Get {tickets} extra Raffle Tickets by owning the Season 2 Alpha Pass. You need to own the NFT in your wallet when the Raffle starts."
+                    "tooltip": "시즌 2 알파 패스를 보유하고 {tickets}개의 추가 추첨 티켓을 획득하세요. 추첨 시작일에 해당 NFT를 지갑에 보유해야 합니다."
                 },
                 "s1Memorabilia": {
                     "title": "시즌 1: 레벨 5 달성",
@@ -9892,11 +9892,11 @@
             "noInvitation": "This workspace doesn't have any invitations yet",
             "noPrivateWorkspaceInvite": "Can not create invite for private workspace",
             "clickToAddInvitation": "Click on 'Create invitation' to start",
-            "title": "New Invitation",
+            "title": "새 초대",
             "onlyNumbers": "You can only use numbers",
             "errorAmount": "최대 초대 가능한 인원: {count}",
             "setAmount": "수량 설정하기",
-            "disclaimerAmount": "You can share this link many times to invite members to the workspace",
+            "disclaimerAmount": "워크스페이스로 멤버를 초대하기 위해 이 링크를 공유할 수 있습니다.",
             "buttonCreate": "링크 생성",
             "numberOfInvitations": "{count}개의 초대 생성 | {count}개의 초대 생성",
             "date": "일자",
@@ -9995,7 +9995,7 @@
                     "workspace": "워크스페이스"
                 },
                 "options_selected": "{count}개의 권한 선택됨",
-                "Asset_approver": "Asset Approver"
+                "Asset_approver": "애셋 승인자"
             },
             "addNewRoles": "+ 신규 역할 추가",
             "quantityRoles": "역할 생성됨",
@@ -10051,7 +10051,7 @@
                 "successGroupAllocate": "{amount}개의 애셋이 성공적으로 워크스페이스에 추가되었습니다.",
                 "successGroupUnallocate": "{amount}개의 애셋이 성공적으로 워크스페이스에서 제거되었습니다.",
                 "addAsset": "애셋 추가",
-                "successfullyMove": " '' | An Asset has changed it's location in this workspace | {count} Assets have changed their location in this workspace."
+                "successfullyMove": " '' | 이 워크스페이스에서 애셋 위치가 변경되었습니다. | 이 워크스페이스에서 {count}개의 애셋 위치가 변경되었습니다."
             },
             "history": {
                 "searchUser": "유저 검색",
@@ -10120,7 +10120,7 @@
                     "art": "아트",
                     "prop": "소품"
                 },
-                "automaticTransfership": "This Workspace will automatically transfer asset ownership to the Workspace creator",
+                "automaticTransfership": "이 워크스페이스의 크리에이터에게 자동으로 애셋 소유권이 이전됩니다.",
                 "meta": "업로드 중"
             },
             "previewInModal": {
@@ -10156,7 +10156,7 @@
                 "comments": "코멘트",
                 "general": "애셋 승인",
                 "send": "보내기",
-                "specifyMessage": "You must specify a message or comment"
+                "specifyMessage": "메시지나 코멘트를 기입해 주세요."
             },
             "display": {
                 "voxEdit": "복스에딧에서 수정",
@@ -10205,7 +10205,7 @@
                 "fail": "업로드하려는 계정과 복스에딧에 로그인된 계정이 다릅니다",
                 "home": "홈으로 돌아가기",
                 "account": "다른 계정으로 로그인",
-                "loading": "Loading users...",
+                "loading": "유저 로딩 중...",
                 "failUser": "복스에딧에 로그인한 계정과 동일한 계정으로 애셋을 업로드해야 합니다.",
                 "shop": "마켓플레이스로 이동하기",
                 "logAccount": "더 샌드박스 계정으로 로그인해 주세요.",
@@ -10769,6 +10769,12 @@
                 "criteria": {
                     "userData": "유저 데이터로 검색",
                     "sessionId": "Synaps ID로 검색"
+                },
+                "results": {
+                    "labels": {
+                        "manualUpdateLegend": "Updated by an administrator",
+                        "age": "Age"
+                    }
                 }
             },
             "modals": {
