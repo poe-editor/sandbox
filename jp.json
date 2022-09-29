@@ -1626,7 +1626,7 @@
                 "stakeDesc2": "\"また、十分な{1}をステーキングすることで{0}を獲得できます。シーズン全体（10週間）で、{2}をステーキングするごとに1ポイントを獲得できます。",
                 "extraTickets": "500抽選チケット追加",
                 "onlyVerifiedAccounts": "抽選に参加できるのは、認証済みアカウントのみです。",
-                "claimRewards": "報酬を受け取る!",
+                "claimRewards": "報酬を受け取る",
                 "alreadyOwnRaffle": "You already own an Alpha Pass! You will be able to claim your Alpha Pass rewards at the end of the season. No need to participate in the Raffle anymore.",
                 "getMore": "Get more",
                 "raffleResults": "抽選前",
@@ -1635,7 +1635,8 @@
                 "youAreCollector": "あなたはNFTコレクターです",
                 "epTooltip": "体験内のクエストをクリアすることで、エトスポイントを獲得できます。難易度の高いクエストをクリアすると、より多くのエトスポイントを獲得できます。",
                 "raffleRewards": "Raffle Rewards",
-                "raffleTooltip": "You will win the Raffle if you own a Season 3 Alpha Pass"
+                "raffleTooltip": "You will win the Raffle if you own a Season 3 Alpha Pass",
+                "leaderboardDisclaimer": "Leaderboard rewards will be available 1 week after the end of the season. We will use that week to clean up cheaters and remove exploitable quests"
             },
             "summary": {
                 "rewardsSummary": "報酬サマリー",
@@ -10811,6 +10812,11 @@
                 "continue": "続ける",
                 "check": "確認する"
             }
+        },
+        "notification": {
+            "title": "Identity verification",
+            "tag": "Verified",
+            "description": "You can now claim rewards and participate in our Seasons and LAND sale raffles."
         }
     },
     "backoffice": {
