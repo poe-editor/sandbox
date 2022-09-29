@@ -1626,7 +1626,7 @@
                 "stakeDesc2": "\"You will also get {0} for staking enough {1}. 1 point earned for each {2} staked during the whole season duration (10 weeks).",
                 "extraTickets": "500 extra Raffle Tickets",
                 "onlyVerifiedAccounts": "Only verified accounts can win this reward",
-                "claimRewards": "Claim Rewards!",
+                "claimRewards": "Claim Rewards",
                 "alreadyOwnRaffle": "You already own an Alpha Pass! You will be able to claim your Alpha Pass rewards at the end of the season. No need to participate in the Raffle anymore.",
                 "getMore": "Get more",
                 "raffleResults": "TIME BEFORE RAFFLE",
@@ -1635,7 +1635,8 @@
                 "youAreCollector": "You are an NFT Collector",
                 "epTooltip": "Earn Ethos Points by completing quests inside experiences. Harder quests will grant you more Ethos Points",
                 "raffleRewards": "Raffle Rewards",
-                "raffleTooltip": "You will win the Raffle if you own a Season 3 Alpha Pass"
+                "raffleTooltip": "You will win the Raffle if you own a Season 3 Alpha Pass",
+                "leaderboardDisclaimer": "Leaderboard rewards will be available 1 week after the end of the season. We will use that week to clean up cheaters and remove exploitable quests"
             },
             "summary": {
                 "rewardsSummary": "REWARDS SUMMARY",
@@ -10810,6 +10811,11 @@
                 "continue": "Continue Here",
                 "check": "Check Here"
             }
+        },
+        "notification": {
+            "title": "Identity verification",
+            "tag": "Verified",
+            "description": "You can now claim rewards and participate in our Seasons and LAND sale raffles."
         }
     },
     "backoffice": {
