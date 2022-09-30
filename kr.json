@@ -327,7 +327,7 @@
             "communities": "스페이스",
             "newSideBarShop": "마켓",
             "newSideBarAbout": "소개",
-            "newSideBarMod": "운영",
+            "newSideBarMod": "관리",
             "newSideBarCommunities": "커뮤니티",
             "newSideBarEarn": "획득하기",
             "newSideBarWorkbench": "워크벤치",
@@ -1636,7 +1636,7 @@
                 "epTooltip": "경험 속 퀘스트를 완료하고 에토스 포인트를 획득하세요. 퀘스트의 난이도가 높을수록 더 많은 에토스 포인트를 획득할 수 있습니다.",
                 "raffleRewards": "추첨 리워드",
                 "raffleTooltip": "시즌 3 알파 패스 보유 시 추첨에 당첨됩니다",
-                "leaderboardDisclaimer": "Leaderboard rewards will be available 1 week after the end of the season. We will use that week to clean up cheaters and remove exploitable quests"
+                "leaderboardDisclaimer": "시즌 종료 1주 후에 리더보드 리워드를 수령할 수 있으며, 이 기간 동안 부정행위자 필터링 및 버그 퀘스트 삭제가 진행됩니다."
             },
             "summary": {
                 "rewardsSummary": "리워드 요약",
@@ -2105,6 +2105,9 @@
             "changelog": {
                 "title": "변경 내역",
                 "subtitle": "지속적인 개선과 수정이 진행 중입니다.\n버그를 발견했을 경우 다음의 주소로 알려주세요:"
+            },
+            "leaderboard": {
+                "claimDesc": "Available from Nov. 9"
             }
         },
         "leaderboard": {
@@ -9861,8 +9864,8 @@
                 "edit": {
                     "editMember": "멤버 수정",
                     "email": "이메일",
-                    "dontFoundUser": "Workspace member doesn't found to edit",
-                    "loadingMember": "Loading member for edit..."
+                    "dontFoundUser": "편집할 워크스페이스 멤버를 찾을 수 없습니다.",
+                    "loadingMember": "편집할 멤버 로드 중..."
                 },
                 "menuAction": {
                     "editRole": "역할 수정하기",
@@ -10212,7 +10215,7 @@
                 "logAccount": "더 샌드박스 계정으로 로그인해 주세요.",
                 "login": "  로그인  "
             },
-            "deletedData": "After some time, asset data is deleted from dashboard, try export it again",
+            "deletedData": "일정 시간이 지나면 애셋 데이터가 대시보드에서 삭제됩니다. 다시 내보내기 해 주세요.",
             "goMyWorkspace": "내 워크스페이스로 이동하기",
             "resumeUpload": "Resume upload",
             "leaveingUpload": "You are leaving the asset upload...",
@@ -10773,8 +10776,8 @@
                 },
                 "results": {
                     "labels": {
-                        "manualUpdateLegend": "Updated by an administrator",
-                        "age": "Age"
+                        "manualUpdateLegend": "관리자에 의해 업데이트됨",
+                        "age": "연령"
                     }
                 }
             },
@@ -10811,9 +10814,9 @@
             }
         },
         "notification": {
-            "title": "Identity verification",
-            "tag": "Verified",
-            "description": "You can now claim rewards and participate in our Seasons and LAND sale raffles."
+            "title": "계정 인증",
+            "tag": "인증됨",
+            "description": "이제 리워드 수령 및 시즌과 LAND 세일 추첨에 참여할 수 있습니다."
         }
     },
     "backoffice": {
