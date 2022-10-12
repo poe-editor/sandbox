@@ -237,7 +237,10 @@
         "regular": "Regular",
         "selectOption": "Select an option | Select one or more options | ",
         "failed": "Something went wrong",
-        "opensea": "OpenSea"
+        "opensea": "OpenSea",
+        "password": "password",
+        "username": "username",
+        "goBack": "Go Back"
     },
     "layout": {
         "topbar": {
@@ -4795,7 +4798,8 @@
                 "installWalletExtensionContinue": "After reloading the page, resume your login process with the wallet extension you installed.",
                 "reloadPage": "RELOAD PAGE"
             },
-            "completeWConnect2": ""
+            "completeWConnect2": "",
+            "addWallet": "Add a wallet"
         },
         "signinModal": {
             "title": "Log in",
@@ -5215,6 +5219,52 @@
                 "5": "Belonging Week"
             },
             "memorabilia": "Memorabilia"
+        },
+        "login": {
+            "v2": {
+                "common": {
+                    "usernameOrEmail": "Username or Email",
+                    "password": "Password",
+                    "provider-mismatch": "Seems that you registered with our previous social provider Venly. Please try the process again choosing Sign in with a Wallet, then select Venly to continue.",
+                    "user-wallet-browser": "IMPORTANT"
+                },
+                "signin": {
+                    "action": "Sign in",
+                    "title": "Sign in",
+                    "create-account-question": "Don't have an account?",
+                    "create-account": "Create one",
+                    "signin-with-wallet": "Connect with a wallet",
+                    "signin-with-email": "Sign in with an email",
+                    "divider": "Or",
+                    "forgot-password": "Forgot password?"
+                },
+                "wallet-choice": {
+                    "highlight": "Popular"
+                },
+                "choose-login": {
+                    "haveAnAccount": "Already have an account?",
+                    "title": "Enter the Metaverse"
+                },
+                "setup-account": {
+                    "tos1": "By creating an account, you agree to our",
+                    "tos2": "Terms of use",
+                    "password-hint": "Use 8 or more characters with a mix of letters, numbers & symbols",
+                    "title": "You are almost done!",
+                    "divider": "Or continue with"
+                },
+                "onboard-modal": {
+                    "welcome-title-part-1": "Welcome to",
+                    "welcome-title-part-2": "The Sandbox Metaverse!",
+                    "welcome-message": "Create your free avatar. Customize your look, boost it with equipment and get ready to play with your friend!"
+                },
+                "title": "Select a wallet to continue",
+                "errors": {
+                    "social-email-already-in-use": "Seems that you registered with our previous social provider Venly. Please try the process again choosing Sign in with a Wallet, then select Venly to continue.",
+                    "sign-in-mismatch-username-password": "Username/email or password mismatch",
+                    "setup-account-password": "Password format invalid",
+                    "service-unavailable": "Service currently unavailable"
+                }
+            }
         }
     },
     "moderator": {
@@ -11429,7 +11479,8 @@
                             "title": "Manual Approval",
                             "description": "Content will go through a review process led by allowed team members before being able to publish and mint."
                         },
-                        "transfershipAllow": "Ownership transfer allow"
+                        "transfershipAllow": "Transfer ownership automatically",
+                        "transfershipAllowSubt": "If you select this option, all the assets uploaded to this workspace will be automatically transferred to you"
                     }
                 },
                 "delete": {
@@ -11449,7 +11500,7 @@
             "invitations": "Invitations",
             "noResultSearchTitle": "There is not results for {word} search",
             "noResultSearchText": "Click on '{buttonName}' to add a new one!",
-            "loading": "Loading workspaces  ...",
+            "loading": "Loading workspaces...",
             "workspacesCount": "{count} Workspace | {count} Workspaces",
             "searching": ""
         },
@@ -11472,7 +11523,7 @@
                 "search": "Search by name, email or group"
             },
             "modal": {
-                "assignRol": "Assign Roles",
+                "assignRol": "Select the roles for those new members ",
                 "assignedRol": "Assigned Roles",
                 "toast": {
                     "already": "{member} already exists.",
@@ -11485,12 +11536,12 @@
                     "notFound": "{member} not found"
                 },
                 "add": {
-                    "addMembers": "Add members",
-                    "addNewMembers": "Add New Members",
+                    "addMembers": "Enter the email addresses of existing Sandbox users you want to add in your workspace",
+                    "addNewMembers": "Add Members",
                     "addInviteLink": "Create new Link Invitation",
                     "removeAll": "Remove all",
                     "membersToAdd": "Type or copy mails separated by commas",
-                    "errorEmails": "There is an error with one or more emails"
+                    "errorEmails": "Please check the format of the emails"
                 },
                 "delete": {
                     "deleteMember": "Delete Member",
@@ -11510,7 +11561,8 @@
                 "menuAction": {
                     "editRole": "Edit role",
                     "deleteMember": "Delete"
-                }
+                },
+                "assignRol2": " (you can change them later)"
             },
             "loading": "Loading members...",
             "creatorCannontBeDeleted": "Workspace creator can't be deleted",
@@ -11523,7 +11575,9 @@
                 "artist": "Artist",
                 "moderator": "Moderator",
                 "viewer": "Viewer"
-            }
+            },
+            "notMembers": "There are no members with this filter or search.",
+            "clickAddMember": "Click on '{button}' to add one"
         },
         "invites": {
             "numberOfUses": "Number of uses",
@@ -11556,7 +11610,7 @@
             "generalSettings": "General Settings",
             "manageCommunity": "Manage the community details, info and more.",
             "workspaceName": "Workspace Name",
-            "workflowType": "Workflow Type",
+            "workflowType": "Asset Approval Flow",
             "url": "URL",
             "saveChanges": "Save Changes",
             "quotas": "Quotas",
@@ -11695,8 +11749,9 @@
                 "successGroupMove": "{amount} assets were successfully moved in the workspace",
                 "successGroupAllocate": "{amount} assets were successfully allocated in the workspace",
                 "successGroupUnallocate": "{amount} assets were successfully unallocated in the workspace",
-                "addAsset": "Add Asset",
-                "successfullyMove": " '' | An Asset has changed it's location in this workspace | {count} Assets have changed their location in this workspace."
+                "addAsset": "Add Assets",
+                "successfullyMove": " '' | An Asset has changed it's location in this workspace | {count} Assets have changed their location in this workspace.",
+                "subtitle": "Select the assets from your private workspace to add"
             },
             "history": {
                 "searchUser": "Search user",
@@ -11708,7 +11763,8 @@
                 "workspaceStep": {
                     "title": "Do you want to pick another workspace to upload this asset ?",
                     "workspace": "Workspace",
-                    "community": "Community"
+                    "community": "Community",
+                    "cantUpload": "You need an Admin/Artist role to add assets here"
                 },
                 "transferToWorkspace": {
                     "title": "Transfer to Workspace",
@@ -11765,7 +11821,7 @@
                     "art": "Art",
                     "prop": "Prop"
                 },
-                "automaticTransfership": "This Workspace will automatically transfer asset ownership to the Workspace creator",
+                "automaticTransfership": "This Workspace will automatically transfer the asset ownership to the Workspace creator after the asset is approved.",
                 "meta": "Uploading"
             },
             "previewInModal": {
@@ -11775,7 +11831,8 @@
                 "title": "Transfer Ownership",
                 "owner": "Select new owner",
                 "search": "Search by email or name",
-                "transfer": "Transfer"
+                "transfer": "Transfer",
+                "input": "Insert username or email of the new owner"
             },
             "delete": {
                 "title": "Delete permanently",
@@ -11797,14 +11854,14 @@
                 "explain": "Please explain the reasons you have, to reject the asset to the artist",
                 "placeholderArea": "Write an iterating/reject reason",
                 "reject": "Reject",
-                "iterate": "Send to Iterate",
+                "iterate": "Request changes",
                 "comments": "COMMENTS",
                 "general": "Asset approval",
                 "send": "Send",
                 "specifyMessage": "You must specify a message or comment"
             },
             "display": {
-                "voxEdit": "Edit on VoxEdit",
+                "voxEdit": "Open in VoxEdit",
                 "reviewVE": "Review in VoxEdit"
             },
             "info": {
@@ -11863,15 +11920,129 @@
             "edit": "Edit",
             "publishSuccess": "Asset published successfully",
             "moveSuccess": "Asset moved successfully",
-            "Edit": ""
+            "Edit": "",
+            "unpublishSuccess": "Asset unpublished successfully",
+            "empty": {
+                "create": {
+                    "title": "Create your own voxels in VoxEdit",
+                    "body": "Assets have an important role in the ecosystem, you need them to build an experience or to improve your game. Stake them to earn rewards or build your own assets to sell them on the Marketplace.",
+                    "links": {
+                        "1": "How to create an asset",
+                        "2": "About VoxEdit"
+                    },
+                    "buttons": {
+                        "1": "Download VoxEdit"
+                    }
+                },
+                "set": {
+                    "title": "Set attributes: Catalyst & Gems",
+                    "body": "Gems & Catalysts are The Sandbox’s utility token burnt on usage that defines your ASSET’s attributes. Attributes define your ASSET’s main stats that will be displayed on the Sandbox’s game experiences throughout our metaverse, meaning that the more attributes your ASSETS have the more useful you’ll find them within the Sandbox, and thus incrementing its value.",
+                    "links": {
+                        "1": "More about Cat & Gems",
+                        "2": "How can I get them?"
+                    }
+                },
+                "myAssets": {
+                    "title": "What can I do with my assets",
+                    "body": "To make a game on your LAND or ESTATE, you will need to download the free Game Maker software. You will also be able to buy a game on the Marketplace. Design and test your game using the Game Maker, publishing experiences will be available soon.",
+                    "links": {
+                        "1": "What are Experiences?",
+                        "2": "About Game Maker"
+                    },
+                    "buttons": {
+                        "1": "Download Game Maker"
+                    }
+                }
+            }
         },
         "experiences": {
-            "construction": "This section is under development"
+            "construction": "This tab is under development",
+            "addToWorkspaceStep": {
+                "title": "Choose the workpsace to add the experience",
+                "workspace": "Workspace",
+                "community": "Community"
+            },
+            "experiencesTotal": "No Experiences | {count} Experience | {count} Experiences",
+            "onlyMyExperiences": "Only show my experiences",
+            "searchName": "Search by name or owner",
+            "noExperiences": "There are no experiences in this workspace.",
+            "noExperiencesUpload_1": " Use GameMaker",
+            "noExperiencesUpload_2": " to upload one.",
+            "noAssetsInExp": "There's no assets used in this experience",
+            "filter": {
+                "all": "All",
+                "inProgress": "In progress",
+                "toVerify": "To Verify",
+                "rejected": "Rejected",
+                "approved": "Approved"
+            },
+            "filterActions": {
+                "approve": "Approve",
+                "reviewGameMaker": "Review in Game Maker",
+                "editGameMaker": "Edit in Game Maker",
+                "transferOwnership": "Transfer Ownership",
+                "banExperience": "Ban Experience",
+                "moveToVerify": "Move to Verify",
+                "deletePerma": "Delete permanently",
+                "mint": "Mint",
+                "delete": "Delete",
+                "requestApproval": "Request Approval"
+            },
+            "card": {
+                "size": "Size"
+            },
+            "preview": {
+                "edit": "Edit",
+                "type": {
+                    "multi": "Multiplayer",
+                    "solo": "Individual"
+                },
+                "reviewGM": "Review in Game Maker",
+                "summary": {
+                    "title": "Summary",
+                    "creator": "Creator",
+                    "lastUpdate": "Last update",
+                    "gameVersion": "Game version",
+                    "experienceSize": "Experience size",
+                    "viewHistory": "View History"
+                },
+                "assets": {
+                    "title": "Unique assets included",
+                    "tabs": {
+                        "ready": "Ready",
+                        "unavailable": "Unavailable",
+                        "toMint": "To Mint",
+                        "toBuy": "To Buy",
+                        "assetsToMint": "Assets to Mint"
+                    },
+                    "buttons": {
+                        "mintAll": "Mint All",
+                        "buyAll": "Buy All",
+                        "buy": "Buy"
+                    },
+                    "cards": {
+                        "notCopiesBuy": "Not copies to buy",
+                        "copiesUsed": "Copies used:"
+                    }
+                },
+                "history": {
+                    "reviewGM": "Review in Game Maker",
+                    "restore": "Restore"
+                },
+                "comments": {
+                    "message": "Leave a comment to the artist about",
+                    "explain": "Please explain the reasons you have, to reject the experience to the artist",
+                    "placeholderArea": "Write an iterating/reject reason",
+                    "reject": "Reject",
+                    "iterate": "Request changes",
+                    "comments": "COMMENTS"
+                }
+            }
         },
         "onlyAlphanumeric": "Only alpha-numeric characters are allowed",
         "addButton": "Add",
         "noResults": "No results for {search} search",
-        "removeButton": ""
+        "removeButton": "Remove"
     },
     "strapi": {
         "POC_LANDING_MINT_AVATAR_TITLE": "Express yourself in the metaverse",
