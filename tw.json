@@ -237,7 +237,10 @@
         "regular": "",
         "selectOption": "Select an option | Select one or more options | ",
         "failed": "Something went wrong",
-        "opensea": "OpenSea"
+        "opensea": "OpenSea",
+        "password": "password",
+        "username": "username",
+        "goBack": "Go Back"
     },
     "layout": {
         "topbar": {
@@ -4795,7 +4798,8 @@
                 "installWalletExtensionContinue": "After reloading the page, resume your login process with the wallet extension you installed.",
                 "reloadPage": "RELOAD PAGE"
             },
-            "completeWConnect2": "in you wallet app."
+            "completeWConnect2": "in you wallet app.",
+            "addWallet": "Add a wallet"
         },
         "signinModal": {
             "title": "登入",
@@ -5215,6 +5219,52 @@
                 "5": "Belonging Week"
             },
             "memorabilia": "Memorabilia"
+        },
+        "login": {
+            "v2": {
+                "common": {
+                    "usernameOrEmail": "Username or Email",
+                    "password": "Password",
+                    "provider-mismatch": "Seems that you registered with our previous social provider Venly. Please try the process again choosing Sign in with a Wallet, then select Venly to continue.",
+                    "user-wallet-browser": "IMPORTANT"
+                },
+                "signin": {
+                    "action": "Sign in",
+                    "title": "Sign in",
+                    "create-account-question": "Don't have an account?",
+                    "create-account": "Create one",
+                    "signin-with-wallet": "Connect with a wallet",
+                    "signin-with-email": "Sign in with an email",
+                    "divider": "Or",
+                    "forgot-password": "Forgot password?"
+                },
+                "wallet-choice": {
+                    "highlight": "Popular"
+                },
+                "choose-login": {
+                    "haveAnAccount": "Already have an account?",
+                    "title": "Enter the Metaverse"
+                },
+                "setup-account": {
+                    "tos1": "By creating an account, you agree to our",
+                    "tos2": "Terms of use",
+                    "password-hint": "Use 8 or more characters with a mix of letters, numbers & symbols",
+                    "title": "You are almost done!",
+                    "divider": "Or continue with"
+                },
+                "onboard-modal": {
+                    "welcome-title-part-1": "Welcome to",
+                    "welcome-title-part-2": "The Sandbox Metaverse!",
+                    "welcome-message": "Create your free avatar. Customize your look, boost it with equipment and get ready to play with your friend!"
+                },
+                "title": "Select a wallet to continue",
+                "errors": {
+                    "social-email-already-in-use": "Seems that you registered with our previous social provider Venly. Please try the process again choosing Sign in with a Wallet, then select Venly to continue.",
+                    "sign-in-mismatch-username-password": "Username/email or password mismatch",
+                    "setup-account-password": "Password format invalid",
+                    "service-unavailable": "Service currently unavailable"
+                }
+            }
         }
     },
     "moderator": {
@@ -11428,7 +11478,8 @@
                             "title": "With review",
                             "description": "Content will go through a review process led by allowed team members before being able to publish and mint."
                         },
-                        "transfershipAllow": "Ownership transfer allow"
+                        "transfershipAllow": "Ownership transfer allow",
+                        "transfershipAllowSubt": ""
                     }
                 },
                 "delete": {
@@ -11509,7 +11560,8 @@
                 "menuAction": {
                     "editRole": "Edit role",
                     "deleteMember": "Delete"
-                }
+                },
+                "assignRol2": ""
             },
             "loading": "Loading members...",
             "creatorCannontBeDeleted": "Workspace creator can't be deleted",
@@ -11522,7 +11574,9 @@
                 "artist": "Artist",
                 "moderator": "Moderator",
                 "viewer": "Viewer"
-            }
+            },
+            "notMembers": "",
+            "clickAddMember": ""
         },
         "invites": {
             "numberOfUses": "Number of uses",
@@ -11695,7 +11749,8 @@
                 "successGroupAllocate": "{amount} assets were successfully allocated in the workspace",
                 "successGroupUnallocate": "{amount} assets were successfully unallocated in the workspace",
                 "addAsset": "Add Asset",
-                "successfullyMove": " '' | An Asset has changed it's location in this workspace | {count} Assets have changed their location in this workspace."
+                "successfullyMove": " '' | An Asset has changed it's location in this workspace | {count} Assets have changed their location in this workspace.",
+                "subtitle": ""
             },
             "history": {
                 "searchUser": "Search user",
@@ -11707,7 +11762,8 @@
                 "workspaceStep": {
                     "title": "Do you want to pick another workspace to upload this asset ?",
                     "workspace": "Workspace",
-                    "community": "Community"
+                    "community": "Community",
+                    "cantUpload": ""
                 },
                 "transferToWorkspace": {
                     "title": "Transfer to Workspace",
@@ -11774,7 +11830,8 @@
                 "title": "Transfer Ownership",
                 "owner": "Select new owner",
                 "search": "Search by email or name",
-                "transfer": "Transfer"
+                "transfer": "Transfer",
+                "input": ""
             },
             "delete": {
                 "title": "Delete permanently",
@@ -11862,10 +11919,124 @@
             "edit": "Edit",
             "publishSuccess": "Asset published successfully",
             "moveSuccess": "Asset moved successfully",
-            "Edit": ""
+            "Edit": "",
+            "unpublishSuccess": "",
+            "empty": {
+                "create": {
+                    "title": "",
+                    "body": "",
+                    "links": {
+                        "1": "",
+                        "2": ""
+                    },
+                    "buttons": {
+                        "1": ""
+                    }
+                },
+                "set": {
+                    "title": "",
+                    "body": "",
+                    "links": {
+                        "1": "",
+                        "2": ""
+                    }
+                },
+                "myAssets": {
+                    "title": "",
+                    "body": "",
+                    "links": {
+                        "1": "",
+                        "2": ""
+                    },
+                    "buttons": {
+                        "1": ""
+                    }
+                }
+            }
         },
         "experiences": {
-            "construction": "This section is under development"
+            "construction": "This section is under development",
+            "addToWorkspaceStep": {
+                "title": "",
+                "workspace": "",
+                "community": ""
+            },
+            "experiencesTotal": "",
+            "onlyMyExperiences": "",
+            "searchName": "",
+            "noExperiences": "",
+            "noExperiencesUpload_1": "",
+            "noExperiencesUpload_2": "",
+            "noAssetsInExp": "",
+            "filter": {
+                "all": "",
+                "inProgress": "",
+                "toVerify": "",
+                "rejected": "",
+                "approved": ""
+            },
+            "filterActions": {
+                "approve": "",
+                "reviewGameMaker": "",
+                "editGameMaker": "",
+                "transferOwnership": "",
+                "banExperience": "",
+                "moveToVerify": "",
+                "deletePerma": "",
+                "mint": "",
+                "delete": "",
+                "requestApproval": ""
+            },
+            "card": {
+                "size": ""
+            },
+            "preview": {
+                "edit": "",
+                "type": {
+                    "multi": "",
+                    "solo": ""
+                },
+                "reviewGM": "",
+                "summary": {
+                    "title": "",
+                    "creator": "",
+                    "lastUpdate": "",
+                    "gameVersion": "",
+                    "experienceSize": "",
+                    "viewHistory": ""
+                },
+                "assets": {
+                    "title": "",
+                    "tabs": {
+                        "ready": "",
+                        "unavailable": "",
+                        "toMint": "",
+                        "toBuy": "",
+                        "assetsToMint": ""
+                    },
+                    "buttons": {
+                        "mintAll": "",
+                        "buyAll": "",
+                        "buy": ""
+                    },
+                    "cards": {
+                        "notCopiesBuy": "",
+                        "copiesUsed": ""
+                    }
+                },
+                "history": {
+                    "reviewGM": "",
+                    "restore": ""
+                },
+                "comments": {
+                    "message": "",
+                    "explain": "",
+                    "placeholderArea": "",
+                    "reject": "",
+                    "iterate": "",
+                    "comments": ""
+                }
+            }
         },
         "onlyAlphanumeric": "Only alpha-numeric characters are allowed",
         "addButton": "Add",
