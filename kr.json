@@ -10402,16 +10402,16 @@
                         "title": "툴팁에 바로가기 추가"
                     },
                     "5": {
-                        "title": "타임라인 > 애니메이팅 옵션 (Rename}, Duplicate}, Delete)"
+                        "title": "타임라인 > 애니메이팅 옵션 (이름 재설정, 복사, 삭제)"
                     },
                     "6": {
                         "title": "LOC 업데이트"
                     },
                     "7": {
-                        "title": "Fixed Material picking not upgrading Material text fields"
+                        "title": "물질 선택이 물질 텍스트 필드를 업그레이드하지 않는 문제 수정"
                     },
                     "8": {
-                        "title": "Fixed Material Hex field not validating properly"
+                        "title": "물질 Hex 필드가 제대로 검증되지 않는 문제 수정"
                     },
                     "9": {
                         "title": "리거 수정"
@@ -10452,7 +10452,7 @@
                                 "title": "아바타 신체 부위를 위한 인터랙티브 노드를 포함한 템플릿 모드"
                             },
                             "8": {
-                                "title": "Static mesh optimization/VXR8 (not used until game side implementation)."
+                                "title": "정적 메쉬 최적화/VXR8 (게임 구현까지 사용되지 않음)"
                             },
                             "9": {
                                 "title": "몇 군데에 에러 메시지 피드백 추가"
@@ -10469,7 +10469,7 @@
                                 "title": "타임라인에 Long Way Rotation 아이콘 추가"
                             },
                             "2": {
-                                "title": "Curve selection now affects all selected keyframes."
+                                "title": "곡선 선택이 선택된 모든 키프레임에 적용"
                             },
                             "3": {
                                 "title": "Camera Reset으로 시점 조정"
@@ -10481,34 +10481,34 @@
                                 "title": "삭제 모드 미리보기에서 반짝임 삭제"
                             },
                             "6": {
-                                "title": "Zoom/Loop window sliders cannot be forced to have zero length."
+                                "title": "Zoom/Loop 창 슬라이더의 길이를 0으로 설정할 수 없도록 수정"
                             },
                             "7": {
-                                "title": "Block face export as PNG now saves emissive material colors."
+                                "title": "PNG로 내보내기 한 블록 면에서 광원 물질 컬러 저장"
                             },
                             "8": {
-                                "title": "Inserting a keyframe now preserves interpolation at the insertion point."
+                                "title": "키프레임 삽입 시 삽입 지점의 보간 유지"
                             },
                             "9": {
                                 "title": "선행 공백이 있는 텍스트 표시 수정"
                             },
                             "10": {
-                                "title": "Fixed crash when undoing a block face import action."
+                                "title": "블록 면 불러오기 시 충돌 현상 해결"
                             },
                             "11": {
-                                "title": "Fixed limitless text input in File Popup filename text field."
+                                "title": "팝업창의 파일명 텍스트 필드에 길이 제한 없는 텍스트 삽입 수정"
                             },
                             "12": {
-                                "title": "Fixed crash when copying keyframes out of timeline bounds."
+                                "title": "타임라인 경계를 벗어나 키프레임 복사 시 발생하던 충돌 문제 해결"
                             },
                             "13": {
-                                "title": "Fixed crash when renaming or duplicating already attached models in the library."
+                                "title": "라이브러리에서 이미 연결된 모델의 이름을 재설정하거나 복사할 때 발생하던 충돌 문제 해결"
                             },
                             "14": {
                                 "title": "블록 에디터 내 물질 패널을 분리했을 때의 패널 레이아웃 수정"
                             },
                             "15": {
-                                "title": "Fixed DAE export sometimes entering infinite loop."
+                                "title": "DAE 내보내기가 간혹 무한 루프되던 문제 수정"
                             },
                             "16": {
                                 "title": "시작 화면의 '파일 열기' 버튼 위치 수정"
