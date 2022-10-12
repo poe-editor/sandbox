@@ -11441,7 +11441,7 @@
             "title": "Workspaces",
             "workspace": "Workspace",
             "add": "+ Add",
-            "new": "+ New",
+            "new": "New",
             "settings": "Settings",
             "roles": "Roles",
             "members": "Members",
@@ -11505,12 +11505,12 @@
             "searching": ""
         },
         "members": {
-            "newMember": "+ Add member",
-            "newInvitation": "Create invitation",
+            "newMember": "Add member",
+            "newInvitation": "New invitation",
             "invitations": "Invitations",
             "members": "Members",
             "tab": {
-                "numberOfMembers": "Members",
+                "numberOfMembers": "{count} Members",
                 "numberOfInvitations": "Invitation created",
                 "table": {
                     "user": "User",
@@ -11540,7 +11540,7 @@
                     "addNewMembers": "Add Members",
                     "addInviteLink": "Create new Link Invitation",
                     "removeAll": "Remove all",
-                    "membersToAdd": "Type or copy mails separated by commas",
+                    "membersToAdd": "Type or paste email addresses separated by commas",
                     "errorEmails": "Please check the format of the emails"
                 },
                 "delete": {
@@ -11589,7 +11589,7 @@
             "claims": "CLAIMS",
             "noInvitation": "This workspace doesn't have any invitations yet",
             "noPrivateWorkspaceInvite": "Can not create invite for private workspace",
-            "clickToAddInvitation": "Click on 'Create invitation' to start",
+            "clickToAddInvitation": "Click on '{button}' to start",
             "title": "New Invitation",
             "onlyNumbers": "You can only use numbers",
             "errorAmount": "Max invites allows: {count}",
@@ -11660,7 +11660,7 @@
                     "deleteRole": "Delete role"
                 },
                 "manageMembers": {
-                    "title1": "Manage Members to ",
+                    "title1": "Manage Members to {role} role",
                     "title2": " role",
                     "placeholder": "Search by email",
                     "noMembersShow": "There's not members to show",
@@ -11710,21 +11710,21 @@
         "assets": {
             "loading": "Loading assets...",
             "uploadingAsset": "Loading asset...",
-            "notAssets": "There are no assets in your workspace. ",
-            "notAssetsOwnedToAdd": "You don't have more assets to add. Go to Marketplace to buy assets.",
-            "notAssetsUpload_1": " Use ",
-            "notAssetsUpload_2": " Vox Edit to upload one.",
+            "notAssets": "There are no assets in this workspace. ",
+            "notAssetsOwnedToAdd": "You have no assets to add or remove.",
+            "notAssetsUpload_1": " Use VoxEdit",
+            "notAssetsUpload_2": " to upload one or transfer assets from another workspace. \nYou can also Add an Asset from your inventory. ",
             "noAssetsCatalog": "Go to Marketplace to buy assets or use Vox Edit to create one",
             "notAssets_2": "Go to Marketplace to buy assets or use Vox Edit to create one",
-            "onlyMyAssets": "Show only my Assets",
-            "searchName": "Search by name",
+            "onlyMyAssets": "Only show my Assets",
+            "searchName": "Search by name or owner",
             "notPermissions": "You don't have permission to see assets",
-            "assetsTotal": "Assets total {count}",
+            "assetsTotal": "No assets | {count} Asset | {count} Assets",
             "readyToMint": "Ready to Mint",
             "positionOf": "{current} of {total}",
             "assetsApproval": "{count} assets were successfully requested approval",
             "singleAssetApproval": "was successfully requested approval",
-            "deletedOk": "Asset successfully deleted",
+            "deletedOk": "Your asset has been deleted",
             "bannedOk": "Asset successfully banned",
             "transferedOk": "Asset transfered correctly",
             "tokenCopied": "Token ID copied to clipboard",
@@ -11732,7 +11732,7 @@
             "stats": {
                 "copies": "COPIES",
                 "behavior": "BEHAVIOR",
-                "none": "NONE"
+                "none": "None"
             },
             "minting": {
                 "title": "ASSETS {amount}"
@@ -11741,7 +11741,7 @@
                 "addOwned": "Add Owned",
                 "allocate": "Allocate",
                 "unallocate": "Unallocate",
-                "search": "Search",
+                "search": "Search by name",
                 "all": "All",
                 "successOnlyMove": "An asset was successfully {action} in the workspace",
                 "successOnlyAllocate": "An asset was successfully allocated in the workspace",
@@ -11761,7 +11761,7 @@
             "upload": {
                 "noPermissions": "You don't have permission to upload or update an asset",
                 "workspaceStep": {
-                    "title": "Do you want to pick another workspace to upload this asset ?",
+                    "title": "Select the Workspace to upload your Asset",
                     "workspace": "Workspace",
                     "community": "Community",
                     "cantUpload": "You need an Admin/Artist role to add assets here"
@@ -11775,7 +11775,7 @@
                 "preStep": {
                     "setAttributes": "Do you want to set the attributes now?",
                     "description1": "- You can configure your biome on your Voxel and tag it with its main characteristics so that it is recognized by our users.",
-                    "description2": "- Also establish attributes that will be given to your asset great powers to use in Game Maker and your experiences"
+                    "description2": "- Also establish attributes that will be given to your asset great powers to use in Game Maker and your experiences."
                 },
                 "name": {
                     "name": "NFT Full Name",
@@ -11786,14 +11786,14 @@
                 "rarity": {
                     "behaviour": "Behaviour",
                     "pickBehaviour": "Choose the behavior of your NFT",
-                    "description": "The behavior defines how ehe asset is going to behave in Game Maker.",
-                    "artOrProp": "If you choose Art or Prop Tier, you can't add some gems to your asset",
+                    "description": "The behavior defines how the asset is going to behave in Game Maker.",
+                    "artOrProp": "If you choose Art or Prop Tier, you can't add some gems to your asset.",
                     "stepCommonInfo": "This is the first tier for NFT. They have limited use in the Game Maker and generate little Ethos Points.",
-                    "stepRareInfo": "Rare NFT have increased Game Maker usage and rewards more Ethos Point.",
-                    "stepEpicInfo": "Epic NFT have access to almost all Game Maker functionalities and can reward Catalyst and Gems.",
-                    "stepLegendaryInfo": "This is the first tier for NFT. They have limited use in the Game Maker and generate little Ethos Point.",
-                    "stepPropInfo": "Art NFT have no special capcities in the Game Maker but allow you to maje unique pieces to showcase your talent.",
-                    "stepArtInfo": "Art NFT have no special capcities in the Game Maker but allow you to maje unique pieces to showcase your talent.",
+                    "stepRareInfo": "Rare NFT have increased Game Maker usage and rewards more Ethos Points.",
+                    "stepEpicInfo": "Epic NFT have access to almost all Game Maker functionalities and can reward CATALYSTS and GEMS.",
+                    "stepLegendaryInfo": "Legendary NFT can be anything you want them to be, they can also reward NFT.",
+                    "stepPropInfo": "Prop NTF will only have their look to carry around and won't be able to make use of advanced behaviours nor give any reward.",
+                    "stepArtInfo": "Art NFT have no special capacities in the Game Maker but allow you to make unique pieces to showcase your talent.",
                     "uploadAsset": "Upload Asset",
                     "previousStep": "Previous Step",
                     "continue": "Continue",
@@ -11801,7 +11801,7 @@
                     "save": "Save"
                 },
                 "tabs": {
-                    "title1": "1. What is your NFT's name",
+                    "title1": "1. Set Asset's information",
                     "title2": "2. Choose its main characteristics",
                     "title3": "3. What kind of NFT do you want to create?",
                     "title4": "4. How do you want to boost the NFT?",
@@ -11811,7 +11811,7 @@
                     "subtitle3_1": "The catalyst define the Tier of your asset, they can be socketed with Gems.",
                     "subtitle3_2": "The higher the Tier, the more sockets.",
                     "subtitle4_1": "Each Gem gives a different attribute to your asset. The more Gems of the same type, the more attributes you get.",
-                    "subtitle4_2": "Drag or click in your gems to add or remove then inside the Catalyst."
+                    "subtitle4_2": "Drag or click in your gems to add or remove them inside the Catalyst."
                 },
                 "theme": {
                     "pickTheme": "Pick a theme",
@@ -11867,7 +11867,7 @@
             "info": {
                 "putOnSale": "Put on Sale",
                 "transferOwnership": "Transfer Ownership",
-                "transferToWorkspace": "Transfer to Workspace",
+                "transferToWorkspace": "Transfer to another Workspace",
                 "unpublish": "Unpublish",
                 "requestApproval": "Request Approval",
                 "approve": "Approve",
