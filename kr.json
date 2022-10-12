@@ -237,7 +237,10 @@
         "regular": "일반",
         "selectOption": "옵션 선택 | 다수의 옵션 선택 | ",
         "failed": "에러가 발생했습니다.",
-        "opensea": "OpenSea"
+        "opensea": "OpenSea",
+        "password": "password",
+        "username": "username",
+        "goBack": "Go Back"
     },
     "layout": {
         "topbar": {
@@ -4795,7 +4798,8 @@
                 "installWalletExtensionContinue": "페이지를 다시 불러온 뒤, 설치한 지갑 확장 프로그램으로 로그인을 다시 진행하세요.",
                 "reloadPage": "페이지 다시 불러오기"
             },
-            "completeWConnect2": "completeWConnect2"
+            "completeWConnect2": "completeWConnect2",
+            "addWallet": "Add a wallet"
         },
         "signinModal": {
             "title": "로그인",
@@ -5215,6 +5219,52 @@
                 "5": "빌롱잉 위크"
             },
             "memorabilia": "기념품"
+        },
+        "login": {
+            "v2": {
+                "common": {
+                    "usernameOrEmail": "Username or Email",
+                    "password": "Password",
+                    "provider-mismatch": "Seems that you registered with our previous social provider Venly. Please try the process again choosing Sign in with a Wallet, then select Venly to continue.",
+                    "user-wallet-browser": "IMPORTANT"
+                },
+                "signin": {
+                    "action": "Sign in",
+                    "title": "Sign in",
+                    "create-account-question": "Don't have an account?",
+                    "create-account": "Create one",
+                    "signin-with-wallet": "Connect with a wallet",
+                    "signin-with-email": "Sign in with an email",
+                    "divider": "Or",
+                    "forgot-password": "Forgot password?"
+                },
+                "wallet-choice": {
+                    "highlight": "Popular"
+                },
+                "choose-login": {
+                    "haveAnAccount": "Already have an account?",
+                    "title": "Enter the Metaverse"
+                },
+                "setup-account": {
+                    "tos1": "By creating an account, you agree to our",
+                    "tos2": "Terms of use",
+                    "password-hint": "Use 8 or more characters with a mix of letters, numbers & symbols",
+                    "title": "You are almost done!",
+                    "divider": "Or continue with"
+                },
+                "onboard-modal": {
+                    "welcome-title-part-1": "Welcome to",
+                    "welcome-title-part-2": "The Sandbox Metaverse!",
+                    "welcome-message": "Create your free avatar. Customize your look, boost it with equipment and get ready to play with your friend!"
+                },
+                "title": "Select a wallet to continue",
+                "errors": {
+                    "social-email-already-in-use": "Seems that you registered with our previous social provider Venly. Please try the process again choosing Sign in with a Wallet, then select Venly to continue.",
+                    "sign-in-mismatch-username-password": "Username/email or password mismatch",
+                    "setup-account-password": "Password format invalid",
+                    "service-unavailable": "Service currently unavailable"
+                }
+            }
         }
     },
     "moderator": {
@@ -11426,7 +11476,8 @@
                             "title": "직접 승인",
                             "description": "애셋이 게시 및 민팅되기 전 허용된 팀 멤버들이 리뷰를 진행합니다."
                         },
-                        "transfershipAllow": "소유권 이전 허용"
+                        "transfershipAllow": "소유권 이전 허용",
+                        "transfershipAllowSubt": ""
                     }
                 },
                 "delete": {
@@ -11507,7 +11558,8 @@
                 "menuAction": {
                     "editRole": "역할 수정하기",
                     "deleteMember": "삭제"
-                }
+                },
+                "assignRol2": ""
             },
             "loading": "멤버 로딩 중...",
             "creatorCannontBeDeleted": "워크스페이스 생성자는 삭제할 수 없습니다.",
@@ -11520,7 +11572,9 @@
                 "artist": "아티스트",
                 "moderator": "모더레이터",
                 "viewer": "뷰어"
-            }
+            },
+            "notMembers": "",
+            "clickAddMember": ""
         },
         "invites": {
             "numberOfUses": "Number of uses",
@@ -11693,7 +11747,8 @@
                 "successGroupAllocate": "{amount}개의 애셋이 성공적으로 워크스페이스에 추가되었습니다.",
                 "successGroupUnallocate": "{amount}개의 애셋이 성공적으로 워크스페이스에서 제거되었습니다.",
                 "addAsset": "애셋 추가",
-                "successfullyMove": " '' | 이 워크스페이스에서 애셋 위치가 변경되었습니다. | 이 워크스페이스에서 {count}개의 애셋 위치가 변경되었습니다."
+                "successfullyMove": " '' | 이 워크스페이스에서 애셋 위치가 변경되었습니다. | 이 워크스페이스에서 {count}개의 애셋 위치가 변경되었습니다.",
+                "subtitle": ""
             },
             "history": {
                 "searchUser": "유저 검색",
@@ -11705,7 +11760,8 @@
                 "workspaceStep": {
                     "title": "다른 워크스페이스를 선택하여 이 애셋을 업로드하시겠습니까?",
                     "workspace": "워크스페이스",
-                    "community": "커뮤니티"
+                    "community": "커뮤니티",
+                    "cantUpload": ""
                 },
                 "transferToWorkspace": {
                     "title": "워크스페이스로 이동",
@@ -11772,7 +11828,8 @@
                 "title": "소유권 이전",
                 "owner": "새로운 소유자 선택",
                 "search": "이메일 또는 이름으로 검색",
-                "transfer": "트랜스퍼"
+                "transfer": "트랜스퍼",
+                "input": ""
             },
             "delete": {
                 "title": "영구 삭제",
@@ -11860,10 +11917,124 @@
             "edit": "편집",
             "publishSuccess": "애셋이 성공적으로 게시되었습니다.",
             "moveSuccess": "애셋을 성공적으로 이동했습니다.",
-            "Edit": ""
+            "Edit": "",
+            "unpublishSuccess": "",
+            "empty": {
+                "create": {
+                    "title": "",
+                    "body": "",
+                    "links": {
+                        "1": "",
+                        "2": ""
+                    },
+                    "buttons": {
+                        "1": ""
+                    }
+                },
+                "set": {
+                    "title": "",
+                    "body": "",
+                    "links": {
+                        "1": "",
+                        "2": ""
+                    }
+                },
+                "myAssets": {
+                    "title": "",
+                    "body": "",
+                    "links": {
+                        "1": "",
+                        "2": ""
+                    },
+                    "buttons": {
+                        "1": ""
+                    }
+                }
+            }
         },
         "experiences": {
-            "construction": "이 섹션은 현재 개발 중입니다."
+            "construction": "이 섹션은 현재 개발 중입니다.",
+            "addToWorkspaceStep": {
+                "title": "",
+                "workspace": "",
+                "community": ""
+            },
+            "experiencesTotal": "",
+            "onlyMyExperiences": "",
+            "searchName": "",
+            "noExperiences": "",
+            "noExperiencesUpload_1": "",
+            "noExperiencesUpload_2": "",
+            "noAssetsInExp": "",
+            "filter": {
+                "all": "",
+                "inProgress": "",
+                "toVerify": "",
+                "rejected": "",
+                "approved": ""
+            },
+            "filterActions": {
+                "approve": "",
+                "reviewGameMaker": "",
+                "editGameMaker": "",
+                "transferOwnership": "",
+                "banExperience": "",
+                "moveToVerify": "",
+                "deletePerma": "",
+                "mint": "",
+                "delete": "",
+                "requestApproval": ""
+            },
+            "card": {
+                "size": ""
+            },
+            "preview": {
+                "edit": "",
+                "type": {
+                    "multi": "",
+                    "solo": ""
+                },
+                "reviewGM": "",
+                "summary": {
+                    "title": "",
+                    "creator": "",
+                    "lastUpdate": "",
+                    "gameVersion": "",
+                    "experienceSize": "",
+                    "viewHistory": ""
+                },
+                "assets": {
+                    "title": "",
+                    "tabs": {
+                        "ready": "",
+                        "unavailable": "",
+                        "toMint": "",
+                        "toBuy": "",
+                        "assetsToMint": ""
+                    },
+                    "buttons": {
+                        "mintAll": "",
+                        "buyAll": "",
+                        "buy": ""
+                    },
+                    "cards": {
+                        "notCopiesBuy": "",
+                        "copiesUsed": ""
+                    }
+                },
+                "history": {
+                    "reviewGM": "",
+                    "restore": ""
+                },
+                "comments": {
+                    "message": "",
+                    "explain": "",
+                    "placeholderArea": "",
+                    "reject": "",
+                    "iterate": "",
+                    "comments": ""
+                }
+            }
         },
         "onlyAlphanumeric": "영문 알파벳 및 숫자만 사용 가능합니다.",
         "addButton": "추가",
