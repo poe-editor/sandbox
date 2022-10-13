@@ -1639,7 +1639,8 @@
                 "epTooltip": "경험 속 퀘스트를 완료하고 에토스 포인트를 획득하세요. 퀘스트의 난이도가 높을수록 더 많은 에토스 포인트를 획득할 수 있습니다.",
                 "raffleRewards": "추첨 리워드",
                 "raffleTooltip": "시즌 3 알파 패스 보유 시 추첨에 당첨됩니다",
-                "leaderboardDisclaimer": "시즌 종료 1주 후에 리더보드 리워드를 수령할 수 있으며, 이 기간 동안 부정행위자 필터링 및 버그 퀘스트 삭제가 진행됩니다."
+                "leaderboardDisclaimer": "시즌 종료 1주 후에 리더보드 리워드를 수령할 수 있으며, 이 기간 동안 부정행위자 필터링 및 버그 퀘스트 삭제가 진행됩니다.",
+                "linkGiveawaysRules": ""
             },
             "summary": {
                 "rewardsSummary": "리워드 요약",
@@ -2354,7 +2355,8 @@
             "bodypart": "신체 부위",
             "and": "&",
             "onOpenseaTitle": "LAND 및 이스테이트",
-            "externalcollections": "아바타"
+            "externalcollections": "아바타",
+            "collections": "Collections"
         },
         "rarities": {
             "title": "카탈리스트",
@@ -2403,7 +2405,11 @@
             "head": "머리",
             "torso": "몸통",
             "legs": "다리",
-            "feet": "발"
+            "feet": "발",
+            "chest": "가슴",
+            "arms": "무기",
+            "mainHand": "주 손",
+            "offHand": "아무렇게나"
         },
         "themes": {
             "title": "바이옴",
@@ -2691,7 +2697,7 @@
             },
             "metaverse": {
                 "title": "메타버스 게임 만들기",
-                "description": "누구나 무료로 3D 게임을 만들 수 있습니다. 코딩 지식 없이도 말이죠. 번뜩이는 아이디어의 창작물과 경험으로 가득한 방대한 메타버스를 함께 만들어 나가요.",
+                "description": "누구나 무료로 3D 게임을 만들 수 있습니다. 코딩 지식 없이도 말이죠. 번뜩이는 아이디어의 창작물과 경험으로 가득한 메타버스 세상, 함께 만들어 나가요!",
                 "buttonText": "다운로드"
             },
             "create": {
@@ -2713,7 +2719,7 @@
             },
             "play": {
                 "title": "Play-to-Earn",
-                "description": "프리 투 플레이(Free-to-play, 부분 유료화 게임)는 이미 흘러간 이야기가 되었습니다. 더 샌드박스에서는 게임을 제작하고 이를 수익화할 수 있습니다! 플레이어와 크리에이터에게 리워드를 제공하는 리워드 모델로 이제 플레이 투 언(Play-to-Earn, 수익형 게임)의 시대가 열렸습니다. 이제 게임을 플레이하는 유저와 제작하는 제작자 모두 현실 세계에서도 가치를 지니는 보상을 획득할 수 있게 됩니다.",
+                "description": "프리 투 플레이(Free-to-play, 부분 유료화 게임)는 이미 지난 이야기가 되었습니다. 더 샌드박스에서는 게임을 제작하고 이를 수익화할 수 있습니다! 플레이어와 크리에이터에게 리워드를 제공하는 리워드 모델로 이제 플레이 투 언(Play-to-Earn, 수익형 게임)의 시대가 열렸습니다. 이제 게임을 플레이하는 유저와 제작하는 제작자 모두 현실 세계에서도 가치를 지니는 보상을 획득할 수 있게 됩니다.",
                 "listTitle": "더 샌드박스에서 수익을 창출하는 방법",
                 "earn": {
                     "1": "게임 플레이를 통해 리워드 획득",
@@ -2844,24 +2850,24 @@
             "changelog": "변경 내역",
             "play": {
                 "title": "규격 속 자유로운 창작!",
-                "text1": "기본 크기는 32*32*32입니다. 더 샌드박스 유니버스에서는 이 기본 크기를 1미터로 간주합니다.",
-                "text2": "즉 32x32x32는 1세제곱미터 안에 채울 수 있는 최대의 디테일입니다. 아바타는 키가 대략 2블록(64복셀)입니다.",
-                "text3": "복스에딧에서는 창작을 시작할 때 도움이 되는 템플릿이 많이 제공되므로 기술 가이드라인을 참고하여 게임 메이커에서 애셋이 잘 작동하도록 만들어 보세요.",
+                "text1": "복셀 하나의 기본 규격은 32X32X32이며, 더 샌드박스 세계에서는 이를 1미터(3.2피트)로 호환합니다.",
+                "text2": "32X32X32는 1세제곱미터 내에서 최대의 디테일을 표현할 수 있는 크기입니다. 아바타 하나의 키는 대략 2개 블록(64 복셀)입니다.",
+                "text3": "복스에딧은 창작에 도움을 받을 수 있는 다양한 템플릿을 제공하나, 게임 메이커에서 애셋이 잘 작동할 수 있도록 아래 기술 가이드라인을 참고해 보세요.",
                 "buttonText": "기술 사양"
             },
             "funding": {
                 "title": "200만 달러 규모의 크리에이터 펀드",
-                "subtitle": "더 샌드박스는 아티스트 여러분이 더 샌드박스 플랫폼에서 멋진 복셀 창작물을 만들어 공유하고 판매하도록 지원하려고 합니다.",
+                "subtitle": "더 샌드박스는 아티스트가 멋진 작품을 만들고, 공유하고, 판매할 수 있도록 지원합니다.",
                 "how": {
                     "title": "참여 방법",
                     "cards": {
-                        "1": "먼저 등록하면 저희가 창작물을 평가합니다. 최고의 복셀 애셋을 창작하도록 독려하기 위함입니다.",
-                        "2": "만드는 각 애셋마다 보조금을 받으며 판매 수익금은 전액을 받습니다.",
-                        "3": "이 펀드의 목표는 게임에 1만 개의 복셀 애셋을 만드는 것입니다.",
-                        "4": "보조금 외에도 더 샌드박스가 출시되면 창작물을 플레이어에게 판매하여 수익을 낼 수 있습니다."
+                        "1": "크리에이터 펀드에 등록하면 더 샌드박스에서 최고의 복셀 애셋을 가리기 위해 심사를 진행합니다.",
+                        "2": "제작하는 각 애셋마다 지원받는 자금과 더불어 애셋 판매 수익금 전액 또한 아티스트에게 돌아갑니다.",
+                        "3": "펀드의 목표는 게임에 포함될 10,000개의 복셀 애셋이 제작되는 것입니다.",
+                        "4": "보조금과 더불어 더 샌드박스 정식 출시 이후, 일반 플레이어에게 내가 제작한 애셋을 판매할 수도 있습니다."
                     }
                 },
-                "text": "이 프로그램에는 1,000명의 아티스트만 참여가 수락되므로 지금 바로 등록하여 혜택을 누릴 기회를 잡아보세요.",
+                "text": "해당 프로그램에는 1,000명의 인원 제한이 있으므로, 지금 바로 도전하고 혜택을 누려보세요!",
                 "buttonText": "더 알아보기"
             },
             "download": {
@@ -2992,7 +2998,7 @@
                     "account": "계정",
                     "wallet": "지갑",
                     "migrations": "마이그레이션",
-                    "claim": ""
+                    "claim": "수령하기"
                 },
                 "profile": {
                     "sandAmount": "내 SAND",
@@ -3122,8 +3128,8 @@
                     "walletLegacy": "기존의 지갑을 사용하고 있는 것 같습니다. 수동으로 지갑의 잠금을 해제하고 다시 시도해 주세요.",
                     "completeWConnect": "지갑에서 회원 가입 {0} 절차를 완료해 주세요.",
                     "completeWConnect2": "in you wallet app.",
-                    "showMoreOptions": "",
-                    "showLessOptions": "",
+                    "showMoreOptions": "showMoreOptions",
+                    "showLessOptions": "showLessOptions",
                     "completeCoinbase": "completeCoinbase",
                     "completeLoginInWallet": {
                         "continueInApp": "continueInApp",
@@ -3276,21 +3282,21 @@
             "changelog": "변경 내역",
             "play": {
                 "title": "규격 속 자유로운 창작!",
-                "text1": "기본 크기는 32*32*32입니다. 더 샌드박스 유니버스에서는 이 기본 크기를 1미터로 간주합니다.",
-                "text2": "즉 32x32x32는 1세제곱미터 안에 채울 수 있는 최대의 디테일입니다. 아바타는 키가 대략 2블록(64복셀)입니다.",
-                "text3": "복스에딧에서는 창작을 시작할 때 도움이 되는 템플릿이 많이 제공되므로 기술 가이드라인을 참고하여 게임 메이커에서 애셋이 잘 작동하도록 만들어 보세요.",
+                "text1": "복셀 하나의 기본 규격은 32X32X32이며, 더 샌드박스 세계에서는 이를 1미터(3.2피트)로 호환합니다.",
+                "text2": "32X32X32는 1세제곱미터 내에서 최대의 디테일을 표현할 수 있는 크기입니다. 아바타 하나의 키는 대략 2개 블록(64 복셀)입니다.",
+                "text3": "복스에딧은 창작에 도움을 받을 수 있는 다양한 템플릿을 제공하나, 게임 메이커에서 애셋이 잘 작동할 수 있도록 아래 기술 가이드라인을 참고해 보세요.",
                 "buttonText": "기술 사양"
             },
             "funding": {
                 "title": "200만 달러 규모의 크리에이터 펀드",
-                "subtitle": "더 샌드박스는 아티스트 여러분이 더 샌드박스 플랫폼에서 멋진 복셀 창작물을 만들어 공유하고 판매하도록 지원하려고 합니다.",
+                "subtitle": "더 샌드박스는 아티스트가 멋진 작품을 만들고, 공유하고, 판매할 수 있도록 지원합니다.",
                 "how": {
                     "title": "참여 방법",
                     "cards": [
-                        "먼저 등록하면 저희가 창작물을 평가합니다. 최고의 복셀 애셋을 창작하도록 독려하기 위함입니다.",
-                        "만드는 각 애셋마다 보조금을 받으며 판매 수익금은 전액을 받습니다.",
-                        "이 펀드의 목표는 게임에 1만 개의 복셀 애셋을 만드는 것입니다.",
-                        "보조금 외에도 더 샌드박스가 출시되면 창작물을 플레이어에게 판매하여 수익을 낼 수 있습니다."
+                        "크리에이터 펀드에 등록하면 더 샌드박스에서 최고의 복셀 애셋을 가리기 위해 심사를 진행합니다.",
+                        "제작하는 각 애셋마다 지원받는 자금과 더불어 애셋 판매 수익금 전액 또한 아티스트에게 돌아갑니다.",
+                        "펀드의 목표는 게임에 포함될 10,000개의 복셀 애셋이 제작되는 것입니다.",
+                        "보조금과 더불어 더 샌드박스 정식 출시 이후, 일반 플레이어에게 내가 제작한 애셋을 판매할 수도 있습니다."
                     ]
                 },
                 "metamaskWalletModal": {
@@ -3887,13 +3893,13 @@
                     "redirectedToOpenSea": "OpenSea로 이동합니다"
                 },
                 "buyLand": {
-                    "title": "You are going to buy",
+                    "title": "다음을 구입합니다:",
                     "title2": "{type} LAND 1개",
-                    "description": "구입하기 밑의 버튼을 클릭하여 내 LAND의 위치를 확인하세요!",
+                    "description": "구입하기 아래의 버튼을 클릭하여 내 LAND의 위치를 확인하세요!",
                     "button": "{type} LAND 1개 구입하기 ({price} SAND)"
                 },
                 "landBought": {
-                    "title": "You just bought",
+                    "title": " ",
                     "title2": "{type} LAND ({coordinates})를 구입했습니다!",
                     "description": "트랜잭션이 진행 중입니다.",
                     "check": "트랜잭션 확인:",
@@ -3932,7 +3938,7 @@
             "tickets": {
                 "title": "LAND 세일 추첨 티켓 획득 방법",
                 "subtitle": "더 많은 티켓을 획득하고 당첨 확률을 높이세요*. LAND 세일 추첨에 당첨되면 LAND를 구입할 수 있는 기회를 얻을 수 있습니다.",
-                "disclaimer": "*How you earn tickets might change on each LAND Sale depending on Seasonal events, partners and different activities.",
+                "disclaimer": "* 각 LAND 세일별로 시즌 이벤트, 파트너 및 다양한 활동에 따라 티켓 획득 방법이 달라질 수 있습니다.",
                 "yourTotalRaffleTickets": "보유한 추첨 티켓 수",
                 "registered": {
                     "title": "추첨 참여하기",
@@ -3944,11 +3950,11 @@
                 },
                 "s1Memorabilia": {
                     "title": "시즌 1: 레벨 5 달성",
-                    "tooltip": "Get {tickets} extra Raffle tickets for reaching Level 5 in the Alpha Season 1."
+                    "tooltip": "알파 시즌 1에서 레벨 5를 달성하고 {tickets}개의 추첨 티켓 획득."
                 },
                 "s2Memorabilia": {
                     "title": "시즌 2: 레벨 5 달성",
-                    "tooltip": "Get {tickets} extra Raffle tickets for reaching Level 5 in the Alpha Season 2."
+                    "tooltip": "알파 시즌 2에서 레벨 5를 달성하고 {tickets}개의 추첨 티켓 획득."
                 }
             }
         },
@@ -3957,8 +3963,8 @@
             "play": "{0} 플레이",
             "mapMode": "맵 모드",
             "comingSoon": "(곧 찾아옵니다)",
-            "results": "Showing {result} of {total} results.",
-            "expandSearch": "Expand search.",
+            "results": "{result}/{total} 결과",
+            "expandSearch": "검색창 확대",
             "sortBy": {
                 "title": "정렬 기준",
                 "lowerPrice": "가격 낮은 순",
@@ -4233,7 +4239,7 @@
             },
             "play": {
                 "title": "Play-to-Earn",
-                "description": "프리 투 플레이(Free-to-play, 부분 유료화 게임)는 이미 흘러간 이야기가 되었습니다. 더 샌드박스에서는 게임을 제작하고 이를 수익화할 수 있습니다! 플레이어와 크리에이터에게 리워드를 제공하는 리워드 모델로 이제 플레이 투 언(Play-to-Earn, 수익형 게임)의 시대가 열렸습니다. 이제 게임을 플레이하는 유저와 제작하는 제작자 모두 현실 세계에서도 가치를 지니는 보상을 획득할 수 있게 됩니다.",
+                "description": "프리 투 플레이(Free-to-play, 부분 유료화 게임)는 이미 지난 이야기가 되었습니다. 더 샌드박스에서는 게임을 제작하고 이를 수익화할 수 있습니다! 플레이어와 크리에이터에게 리워드를 제공하는 리워드 모델로 이제 플레이 투 언(Play-to-Earn, 수익형 게임)의 시대가 열렸습니다. 이제 게임을 플레이하는 유저와 제작하는 제작자 모두 현실 세계에서도 가치를 지니는 보상을 획득할 수 있게 됩니다.",
                 "listTitle": "더 샌드박스에서 수익을 창출하는 방법",
                 "earn": {
                     "play": "게임 플레이를 통해 리워드 획득",
@@ -4339,7 +4345,8 @@
                     "description": "더 샌드박스 GM 리소스와 다양한 도구를 사용하여 만들 수 있는 경험의 예시를 살펴보세요.",
                     "link": "https://sandboxgame.gitbook.io/the-game-maker-academy/welcome-to-the-sandbox/what-can-i-make"
                 }
-            }
+            },
+            "showMore": "Show more"
         }
     },
     "user": {
@@ -5036,7 +5043,7 @@
                     "modificated": "마지막 업데이트:",
                     "notModified": "아직 수정되지 않음",
                     "oldPassNote": "(해당 계정에 이전에 연결된 패스워드가 없을 경우 작성하지 않습니다)",
-                    "not-modificated": "아직 수정되지 않음"
+                    "not-modificated": "수정되지 않음"
                 },
                 "emailSection": {
                     "title": "이메일 수정",
@@ -5261,7 +5268,7 @@
                 "errors": {
                     "social-email-already-in-use": "이미 Venly를 이용하여 가입하셨습니다. 지갑으로 로그인 > Venly를 선택하여 다시 진행해 주세요.",
                     "sign-in-mismatch-username-password": "유저네임/이메일 또는 패스워드가 일치하지 않습니다.",
-                    "setup-account-password": "패스워드 형식이 잘못되었습니다.",
+                    "setup-account-password": "패스워드 형식이 올바르지 않습니다.",
                     "service-unavailable": "현새 서비스를 사용할 수 없습니다."
                 }
             }
@@ -6109,7 +6116,7 @@
                 },
                 "playToEarn": {
                     "title": "Play-to-Earn",
-                    "content": "프리 투 플레이(Free-to-play, 부분 유료화 게임)는 이미 흘러간 이야기가 되었습니다. 더 샌드박스에서는 게임을 제작하고 이를 수익화할 수 있습니다! 플레이어와 크리에이터에게 리워드를 제공하는 리워드 모델로 이제 플레이 투 언(Play-to-Earn, 수익형 게임)의 시대가 열렸습니다. 이제 게임을 플레이하는 유저와 제작하는 제작자 모두 현실 세계에서도 가치를 지니는 보상을 획득할 수 있게 됩니다.",
+                    "content": "프리 투 플레이(Free-to-play, 부분 유료화 게임)는 이미 지난 이야기가 되었습니다. 더 샌드박스에서는 게임을 제작하고 이를 수익화할 수 있습니다! 플레이어와 크리에이터에게 리워드를 제공하는 리워드 모델로 이제 플레이 투 언(Play-to-Earn, 수익형 게임)의 시대가 열렸습니다. 이제 게임을 플레이하는 유저와 제작하는 제작자 모두 현실 세계에서도 가치를 지니는 보상을 획득할 수 있게 됩니다.",
                     "subtitle": "더 샌드박스에서 수익을 창출하는 방법",
                     "list": {
                         "item1": "게임 플레이를 통해 리워드 획득",
@@ -8192,7 +8199,7 @@
         "cashback": {
             "total": "🔥 누적된 총 캐시백 🔥",
             "claim": "캐시백 수령하기",
-            "cashback": ""
+            "cashback": "캐시백"
         },
         "deposits": "예치",
         "withdraws": "인출",
@@ -9631,7 +9638,7 @@
         }
     },
     "season.info.communityBooster.bulletPoints.1.3": {
-        "3": "을 획득할 수 있습니다."
+        "3": "3"
     },
     "roadmap": {
         "2011": {
@@ -11477,7 +11484,7 @@
                             "description": "애셋이 게시 및 민팅되기 전 허용된 팀 멤버들이 리뷰를 진행합니다."
                         },
                         "transfershipAllow": "소유권 이전 허용",
-                        "transfershipAllowSubt": ""
+                        "transfershipAllowSubt": "이 옵션을 선택하면, 해당 워크스페이스에 업로드된 모든 애셋이 자동으로 내 계정에 이동됩니다."
                     }
                 },
                 "delete": {
@@ -11499,7 +11506,7 @@
             "noResultSearchText": "새로운 워크스페이스를 추가하려면 '{buttonName}'을 클릭하세요!",
             "loading": "워크스페이스 로딩 중...",
             "workspacesCount": "{count}개 워크스페이스 | {count}개 워크스페이스",
-            "searching": ""
+            "searching": "검색"
         },
         "members": {
             "newMember": "+ 신규 멤버 추가",
@@ -11559,7 +11566,7 @@
                     "editRole": "역할 수정하기",
                     "deleteMember": "삭제"
                 },
-                "assignRol2": ""
+                "assignRol2": " (추후 변경 가능)"
             },
             "loading": "멤버 로딩 중...",
             "creatorCannontBeDeleted": "워크스페이스 생성자는 삭제할 수 없습니다.",
@@ -11574,7 +11581,7 @@
                 "viewer": "뷰어"
             },
             "notMembers": "해당 필터 또는 검색어로 검색되는 멤버가 없습니다.",
-            "clickAddMember": ""
+            "clickAddMember": "추가하려면 '{button}'을 클릭하세요."
         },
         "invites": {
             "numberOfUses": "Number of uses",
@@ -11748,7 +11755,7 @@
                 "successGroupUnallocate": "{amount}개의 애셋이 성공적으로 워크스페이스에서 제거되었습니다.",
                 "addAsset": "애셋 추가",
                 "successfullyMove": " '' | 이 워크스페이스에서 애셋 위치가 변경되었습니다. | 이 워크스페이스에서 {count}개의 애셋 위치가 변경되었습니다.",
-                "subtitle": ""
+                "subtitle": "개인 워크스페이스에서 애셋을 선택하여 추가"
             },
             "history": {
                 "searchUser": "유저 검색",
@@ -11761,7 +11768,7 @@
                     "title": "다른 워크스페이스를 선택하여 이 애셋을 업로드하시겠습니까?",
                     "workspace": "워크스페이스",
                     "community": "커뮤니티",
-                    "cantUpload": ""
+                    "cantUpload": "여기에 애셋을 추가하려면 관리자/아티스트 권한이 필요합니다."
                 },
                 "transferToWorkspace": {
                     "title": "워크스페이스로 이동",
@@ -11829,7 +11836,7 @@
                 "owner": "새로운 소유자 선택",
                 "search": "이메일 또는 이름으로 검색",
                 "transfer": "트랜스퍼",
-                "input": ""
+                "input": "새로운 소유자의 유저네임 또는 이메일을 기입해 주세요."
             },
             "delete": {
                 "title": "영구 삭제",
@@ -11912,17 +11919,17 @@
             },
             "deletedData": "일정 시간이 지나면 애셋 데이터가 대시보드에서 삭제됩니다. 다시 내보내기 해 주세요.",
             "goMyWorkspace": "내 워크스페이스로 이동하기",
-            "resumeUpload": "Resume upload",
-            "leaveingUpload": "You are leaving the asset upload...",
+            "resumeUpload": "업로드 재개",
+            "leaveingUpload": "애셋 업로드를 중지합니다...",
             "edit": "편집",
             "publishSuccess": "애셋이 성공적으로 게시되었습니다.",
             "moveSuccess": "애셋을 성공적으로 이동했습니다.",
-            "Edit": "",
+            "Edit": "편집",
             "unpublishSuccess": "애셋 게시가 취소되었습니다.",
             "empty": {
                 "create": {
                     "title": "복스에딧으로 나만의 복셀 창작물 만들기",
-                    "body": "",
+                    "body": "애셋은 더 샌드박스 생태계에서 아주 중요한 역할을 담당합니다. 애셋을 이용해 경험을 만들고 게임의 퀄리티를 높일 수 있죠. 리워드를 위해 스테이킹하거나 나만의 애셋을 제작하여 마켓플레이스에서 판매할 수도 있습니다.",
                     "links": {
                         "1": "애셋 만들기",
                         "2": "복스에딧 알아보기"
@@ -11933,7 +11940,7 @@
                 },
                 "set": {
                     "title": "능력치 설정: 카탈리스트와 젬",
-                    "body": "",
+                    "body": "젬과 카탈리스트는 사용 시 소각되는 더 샌드박스의 유틸리티 토큰이며 애셋의 능력치를 정의합니다. 능력치는 메타버스 전반에 걸친 더 샌드박스의 게임 경험 속에서 애셋의 주요 스탯을 결정하므로, 애셋의 능력치가 다양할수록 더 유용하게 사용될 수 있으며 가치 또한 상승함을 의미합니다.",
                     "links": {
                         "1": "카탈리스트와 젬 자세히 알아보기",
                         "2": "어떻게 획득할 수 있나요?"
@@ -11941,7 +11948,7 @@
                 },
                 "myAssets": {
                     "title": "내 애셋으로 무엇을 할 수 있나요?",
-                    "body": "",
+                    "body": "보유한 LAND 또는 이스테이트에 게임을 만들려면 더 샌드박스에서 무료로 제공되는 게임 메이커 소프트웨어를 다운로드해야 합니다. 마켓플레이스에서 게임을 구매할 수도 있습니다. 게임 메이커를 이용해 게임을 디자인 및 테스트해 보세요. 보유한 LAND 위에 경험을 게시하는 기능은 현재는 이용 불가능하나, 빠른 시일 내에 추가될 예정입니다.",
                     "links": {
                         "1": "경험이란 무엇인가요?",
                         "2": "게임 메이커 알아보기"
@@ -11959,28 +11966,28 @@
                 "workspace": "워크스페이스",
                 "community": "커뮤니티"
             },
-            "experiencesTotal": "",
+            "experiencesTotal": "경험 없음 | {count}개 경험 | {count}개 경험",
             "onlyMyExperiences": "내 경험만 보기",
             "searchName": "이름 또는 소유자로 검색",
             "noExperiences": "이 워크스페이스에는 경험이 없습니다.",
-            "noExperiencesUpload_1": "",
-            "noExperiencesUpload_2": "",
-            "noAssetsInExp": "",
+            "noExperiencesUpload_1": " 게임 메이커를 이용하여",
+            "noExperiencesUpload_2": " 업로드하세요.",
+            "noAssetsInExp": "이 경험에는 애셋이 포함되어 있지 않습니다.",
             "filter": {
-                "all": "",
-                "inProgress": "",
-                "toVerify": "",
-                "rejected": "거절됨",
+                "all": "모두",
+                "inProgress": "진행 중",
+                "toVerify": "확인 필요",
+                "rejected": "반려됨",
                 "approved": "승인됨"
             },
             "filterActions": {
                 "approve": "승인",
                 "reviewGameMaker": "게임 메이커에서 리뷰",
                 "editGameMaker": "게임 메이커에서 편집",
-                "transferOwnership": "",
-                "banExperience": "",
-                "moveToVerify": "",
-                "deletePerma": "",
+                "transferOwnership": "소유권 이전",
+                "banExperience": "Ban Experience",
+                "moveToVerify": "Move to Verify",
+                "deletePerma": "영구 삭제",
                 "mint": "민팅",
                 "delete": "삭제",
                 "requestApproval": "승인 요청"
@@ -12007,7 +12014,7 @@
                     "title": "고유 애셋 포함",
                     "tabs": {
                         "ready": "준비됨",
-                        "unavailable": "",
+                        "unavailable": "사용 불가",
                         "toMint": "민팅하기",
                         "toBuy": "구매하기",
                         "assetsToMint": "민팅할 애셋"
@@ -12018,8 +12025,8 @@
                         "buy": "구매하기"
                     },
                     "cards": {
-                        "notCopiesBuy": "",
-                        "copiesUsed": ""
+                        "notCopiesBuy": "구입할 사본 없음",
+                        "copiesUsed": "사용된 사본:"
                     }
                 },
                 "history": {
@@ -12028,8 +12035,8 @@
                 },
                 "comments": {
                     "message": "아티스트에게 코멘트를 남겨주세요.",
-                    "explain": "",
-                    "placeholderArea": "",
+                    "explain": "경험을 반려한 이유에 대해 작성해 주세요.",
+                    "placeholderArea": "반려 사유 기입",
                     "reject": "반려",
                     "iterate": "변경 요청",
                     "comments": "코멘트"
@@ -12039,7 +12046,7 @@
         "onlyAlphanumeric": "영문 알파벳 및 숫자만 사용 가능합니다.",
         "addButton": "추가",
         "noResults": "{search}에 대한 검색 결과가 없습니다.",
-        "removeButton": "Remove"
+        "removeButton": "삭제"
     },
     "strapi": {
         "POC_LANDING_MINT_AVATAR_TITLE": "메타버스에서 내 모습 표현하기",
@@ -12823,7 +12830,9 @@
         "text143": "\"sketchfab_url\"은 sketchfab에 있는 복셀 애셋의 3D 표현을 참조하는 링크여야 함",
         "text144": "3D 표현은 복셀 애셋을 올바로 표현해야 하며 보는 사람을 오도하면 안 됨",
         "text145": "일본 거주자",
-        "text146": "일본에 거주하거나 일본 IP를 사용하면서 콘테스트 및 다양한 활동에 참여할 경우, 일본 내 법률 규제에 따라 SAND 보상을 받을 수 없습니다."
+        "text146": "일본에 거주하거나 일본 IP를 사용하면서 콘테스트 및 다양한 활동에 참여할 경우, 일본 내 법률 규제에 따라 SAND 보상을 받을 수 없습니다.",
+        "linkGiveawaysSummary": "",
+        "linkGiveawaysOfficial": ""
     },
     "changelogVoxedit": {
         "2022": {
@@ -12981,5 +12990,278 @@
             "tc": "繁中",
             "tr": "Türk"
         }
+    },
+    "giveawaysRulesSummary": {
+        "title": "",
+        "text1": "",
+        "text2": {
+            "mainText": "",
+            "0": ""
+        },
+        "text3": {
+            "mainText": "",
+            "0": ""
+        },
+        "text4": "",
+        "text5": "",
+        "text6": "",
+        "text7": "",
+        "text8": "",
+        "text9": {
+            "mainText": "",
+            "0": ""
+        },
+        "text10": {
+            "mainText": "",
+            "0": ""
+        },
+        "text11": "",
+        "text12": "",
+        "text13": "",
+        "text14": "",
+        "text15": "",
+        "text16": "",
+        "text17": "",
+        "text18": "",
+        "text19": "",
+        "text20": "",
+        "text21": "",
+        "text22": "",
+        "text23": "",
+        "text24": "",
+        "text25": "",
+        "text26": "",
+        "text27": "",
+        "text28": "",
+        "text29": "",
+        "text30": "",
+        "text31": "",
+        "text32": "",
+        "text33": "",
+        "text34": "",
+        "text35": "",
+        "text36": "",
+        "text37": "",
+        "text38": "",
+        "text39": "",
+        "text40": "",
+        "text41": "",
+        "text42": "",
+        "text43": "",
+        "text44": "",
+        "text45": "",
+        "text46": "",
+        "text47": "",
+        "text48": "",
+        "text49": "",
+        "text50": "",
+        "text51": "",
+        "text52": "",
+        "text53": "",
+        "text54": "",
+        "text55": "",
+        "text56": "",
+        "text57": "",
+        "text58": "",
+        "text59": "",
+        "text60": "",
+        "text61": "",
+        "text62": "",
+        "text63": "",
+        "text64": "",
+        "text65": "",
+        "text66": "",
+        "text67": "",
+        "text68": "",
+        "text69": "",
+        "text70": "",
+        "text71": "",
+        "text72": "",
+        "text73": "",
+        "text74": "",
+        "text75": "",
+        "text76": {
+            "mainText": "",
+            "0": ""
+        },
+        "text77": "",
+        "text78": {
+            "mainText": "",
+            "0": ""
+        }
+    },
+    "giveawaysRules": {
+        "title": "",
+        "text1": "",
+        "text2": {
+            "mainText": "",
+            "0": "",
+            "1": "",
+            "2": ""
+        },
+        "text3": "",
+        "text4": "",
+        "text5": "",
+        "text6": {
+            "mainText": "",
+            "0": "",
+            "1": "",
+            "2": ""
+        },
+        "text7": {
+            "mainText": "",
+            "0": "",
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        },
+        "text8": "",
+        "text9": {
+            "mainText": "",
+            "0": ""
+        },
+        "text10": "",
+        "text11": "",
+        "text12": {
+            "mainText": "",
+            "0": ""
+        },
+        "text13": {
+            "mainText": "",
+            "0": ""
+        },
+        "text14": "",
+        "text15": "",
+        "text16": "",
+        "text17": "",
+        "text18": "",
+        "text19": "",
+        "text20": "",
+        "text21": "",
+        "text22": "",
+        "text23": {
+            "mainText": "",
+            "0": "",
+            "1": "",
+            "2": ""
+        },
+        "text24": "",
+        "text25": "",
+        "text26": {
+            "mainText": "",
+            "0": "",
+            "1": ""
+        },
+        "text27": {
+            "mainText": "",
+            "0": "",
+            "1": ""
+        },
+        "text28": {
+            "mainText": "",
+            "0": "",
+            "1": ""
+        },
+        "text29": "",
+        "text30": "",
+        "text31": "",
+        "text32": "",
+        "text33": "",
+        "text34": "",
+        "text35": "",
+        "text36": "",
+        "text37": "",
+        "text38": "",
+        "text39": {
+            "mainText": "",
+            "0": ""
+        },
+        "text40": {
+            "mainText": "",
+            "0": ""
+        },
+        "text41": {
+            "mainText": "",
+            "0": ""
+        },
+        "text42": {
+            "mainText": "",
+            "0": "",
+            "1": "",
+            "2": ""
+        },
+        "text43": {
+            "mainText": "",
+            "0": ""
+        },
+        "text44": {
+            "mainText": "",
+            "0": "",
+            "1": ""
+        },
+        "text45": {
+            "mainText": "",
+            "0": ""
+        },
+        "text46": {
+            "mainText": "",
+            "0": ""
+        },
+        "text47": "",
+        "appendixTitle": "",
+        "text48": {
+            "mainText": "",
+            "0": ""
+        },
+        "text49": {
+            "mainText": "",
+            "0": ""
+        },
+        "text50": {
+            "mainText": "",
+            "0": ""
+        },
+        "text51": {
+            "mainText": "",
+            "0": ""
+        },
+        "text52": "",
+        "text53": "",
+        "text54": {
+            "mainText": "",
+            "0": ""
+        },
+        "text55": "",
+        "text56": "",
+        "text57": "",
+        "text58": {
+            "mainText": "",
+            "0": ""
+        },
+        "text59": {
+            "mainText": "",
+            "0": ""
+        },
+        "text60": {
+            "mainText": "",
+            "0": ""
+        },
+        "text61": {
+            "mainText": "",
+            "0": "",
+            "1": ""
+        },
+        "text62": {
+            "mainText": "",
+            "0": ""
+        },
+        "text63": "",
+        "text64": ""
+    },
+    "noresult": {
+        "title": "이 검색에 대한 결과가 없습니다",
+        "text1": "원하는 것을 찾지 못했다면 언제든지 자신만의 자산을 만들 수 있습니다!",
+        "text2": "무료로 Metaverse 구축을 시작하십시오."
     }
 }
