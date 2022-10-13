@@ -238,9 +238,9 @@
         "selectOption": "옵션 선택 | 다수의 옵션 선택 | ",
         "failed": "에러가 발생했습니다.",
         "opensea": "OpenSea",
-        "password": "password",
-        "username": "username",
-        "goBack": "Go Back"
+        "password": "패스워드",
+        "username": "유저네임",
+        "goBack": "뒤로"
     },
     "layout": {
         "topbar": {
@@ -380,7 +380,7 @@
             "accept": "동의",
             "reject": "거부",
             "error": "이용약관을 읽고 동의하지 않을 경우 더 샌드박스의 제품 및 서비스를 이용할 수 없습니다.",
-            "goBack": "돌아가기"
+            "goBack": "뒤로"
         }
     },
     "home": {
@@ -3094,7 +3094,7 @@
                     "continue": "다음으로 계속",
                     "agree": "계정을 만들고 암호화폐 지갑을 계정에 연결하면 더 샌드박스의",
                     "terms": "이용약관에 동의하는 것으로 간주합니다.",
-                    "allowWallet": "지갑을 허용하세요",
+                    "allowWallet": "지갑 액세스를 허용해 주세요.",
                     "bitski": {
                         "title": "Bitski",
                         "value": "지갑을 연결하세요",
@@ -4642,7 +4642,7 @@
             "editButtonText": "아바타 편집",
             "mobileEditButtonText": "편집",
             "buyButtonText": "구매",
-            "goBackButtonText": "돌아가기",
+            "goBackButtonText": "뒤로",
             "sort": {
                 "title": "정렬 기준",
                 "default": "기본값",
@@ -4759,7 +4759,7 @@
             "continue": "다음으로 계속",
             "agree": "계정을 만들고 암호화폐 지갑을 계정에 연결하면 더 샌드박스의",
             "terms": "이용약관에 동의하는 것으로 간주합니다.",
-            "allowWallet": "지갑을 허용하세요",
+            "allowWallet": "지갑 액세스를 허용해 주세요.",
             "bitski": {
                 "title": "Bitski",
                 "value": "지갑을 연결하세요",
@@ -4799,7 +4799,7 @@
                 "reloadPage": "페이지 다시 불러오기"
             },
             "completeWConnect2": "completeWConnect2",
-            "addWallet": "Add a wallet"
+            "addWallet": "지갑 추가하기"
         },
         "signinModal": {
             "title": "로그인",
@@ -5223,46 +5223,46 @@
         "login": {
             "v2": {
                 "common": {
-                    "usernameOrEmail": "Username or Email",
-                    "password": "Password",
-                    "provider-mismatch": "Seems that you registered with our previous social provider Venly. Please try the process again choosing Sign in with a Wallet, then select Venly to continue.",
-                    "user-wallet-browser": "IMPORTANT"
+                    "usernameOrEmail": "유저네임 또는 이메일",
+                    "password": "패스워드",
+                    "provider-mismatch": "이미 Venly를 이용하여 가입하셨습니다. 지갑으로 로그인 > Venly를 선택하여 다시 진행해 주세요.",
+                    "user-wallet-browser": "중요"
                 },
                 "signin": {
-                    "action": "Sign in",
-                    "title": "Sign in",
-                    "create-account-question": "Don't have an account?",
-                    "create-account": "Create one",
-                    "signin-with-wallet": "Connect with a wallet",
-                    "signin-with-email": "Sign in with an email",
-                    "divider": "Or",
-                    "forgot-password": "Forgot password?"
+                    "action": "로그인",
+                    "title": "로그인",
+                    "create-account-question": "아직 계정이 없다면?",
+                    "create-account": "계정 생성하기",
+                    "signin-with-wallet": "지갑 연결하기",
+                    "signin-with-email": "이메일로 로그인하기",
+                    "divider": "또는",
+                    "forgot-password": "패스워드를 잊어버렸습니다."
                 },
                 "wallet-choice": {
-                    "highlight": "Popular"
+                    "highlight": "추천"
                 },
                 "choose-login": {
-                    "haveAnAccount": "Already have an account?",
-                    "title": "Enter the Metaverse"
+                    "haveAnAccount": "이미 계정을 보유하고 있나요?",
+                    "title": "메타버스 입장하기"
                 },
                 "setup-account": {
-                    "tos1": "By creating an account, you agree to our",
-                    "tos2": "Terms of use",
-                    "password-hint": "Use 8 or more characters with a mix of letters, numbers & symbols",
-                    "title": "You are almost done!",
-                    "divider": "Or continue with"
+                    "tos1": "계정 생성 시, 더 샌드박스의",
+                    "tos2": "이용 약관에 동의한 것으로 간주합니다.",
+                    "password-hint": "대소문자와 숫자, 특수문자를 포함하여 8자 이상이어야 합니다.",
+                    "title": "거의 완료었습니다!",
+                    "divider": "또는 아래 계정으로 로그인"
                 },
                 "onboard-modal": {
-                    "welcome-title-part-1": "Welcome to",
-                    "welcome-title-part-2": "The Sandbox Metaverse!",
-                    "welcome-message": "Create your free avatar. Customize your look, boost it with equipment and get ready to play with your friend!"
+                    "welcome-title-part-1": "더 샌드박스 메타버스에",
+                    "welcome-title-part-2": "오신 것을 환영합니다!",
+                    "welcome-message": "무료로 아바타를 만들어 보세요. 멋진 옷을 입고 장비를 착용하여 친구들과 어울려 봅시다!"
                 },
-                "title": "Select a wallet to continue",
+                "title": "계속하려면 지갑을 선택하세요.",
                 "errors": {
-                    "social-email-already-in-use": "Seems that you registered with our previous social provider Venly. Please try the process again choosing Sign in with a Wallet, then select Venly to continue.",
-                    "sign-in-mismatch-username-password": "Username/email or password mismatch",
-                    "setup-account-password": "Password format invalid",
-                    "service-unavailable": "Service currently unavailable"
+                    "social-email-already-in-use": "이미 Venly를 이용하여 가입하셨습니다. 지갑으로 로그인 > Venly를 선택하여 다시 진행해 주세요.",
+                    "sign-in-mismatch-username-password": "유저네임/이메일 또는 패스워드가 일치하지 않습니다.",
+                    "setup-account-password": "패스워드 형식이 잘못되었습니다.",
+                    "service-unavailable": "현새 서비스를 사용할 수 없습니다."
                 }
             }
         }
@@ -5366,7 +5366,7 @@
                 "error": "오류가 발생했습니다.",
                 "error1": "애셋을 삭제할 수 없습니다. 이 애셋은 다음 경험에서 사용 중입니다.",
                 "warningMessage": "애셋을 편집하면 이전 승인이 취소됩니다. 계속하시겠어요?",
-                "goBack": "돌아가기",
+                "goBack": "뒤로",
                 "steps": {
                     "name": "이름",
                     "categories": "카테고리",
@@ -7336,7 +7336,7 @@
                 "deviceNotSupported": "이 기기는 현재 지원되지 않습니다. 플레이하려면 Mac 또는 Windows PC를 이용하세요.",
                 "backToHome": "홈으로 돌아가기",
                 "browserNotSupported": "해당 브라우저는 지원되지 않습니다 :(",
-                "pleaseUseAnotherOne": "더 샌드박스를 플레이하려면 다른 브라우저를 이용해 주세요."
+                "pleaseUseAnotherOne": "더 샌드박스를 플레이하려면 다른 기기 또는 브라우저를 이용해 주세요."
             },
             "onboarding": {
                 "title1": "멋진 경험을 발견해 보세요. 새로운 경험이 매일 공개됩니다!",
@@ -11573,7 +11573,7 @@
                 "moderator": "모더레이터",
                 "viewer": "뷰어"
             },
-            "notMembers": "",
+            "notMembers": "해당 필터 또는 검색어로 검색되는 멤버가 없습니다.",
             "clickAddMember": ""
         },
         "invites": {
@@ -11918,36 +11918,36 @@
             "publishSuccess": "애셋이 성공적으로 게시되었습니다.",
             "moveSuccess": "애셋을 성공적으로 이동했습니다.",
             "Edit": "",
-            "unpublishSuccess": "",
+            "unpublishSuccess": "애셋 게시가 취소되었습니다.",
             "empty": {
                 "create": {
-                    "title": "",
+                    "title": "복스에딧으로 나만의 복셀 창작물 만들기",
                     "body": "",
                     "links": {
-                        "1": "",
-                        "2": ""
+                        "1": "애셋 만들기",
+                        "2": "복스에딧 알아보기"
                     },
                     "buttons": {
-                        "1": ""
+                        "1": "복스에딧 다운로드"
                     }
                 },
                 "set": {
-                    "title": "",
+                    "title": "능력치 설정: 카탈리스트와 젬",
                     "body": "",
                     "links": {
-                        "1": "",
-                        "2": ""
+                        "1": "카탈리스트와 젬 자세히 알아보기",
+                        "2": "어떻게 획득할 수 있나요?"
                     }
                 },
                 "myAssets": {
-                    "title": "",
+                    "title": "내 애셋으로 무엇을 할 수 있나요?",
                     "body": "",
                     "links": {
-                        "1": "",
-                        "2": ""
+                        "1": "경험이란 무엇인가요?",
+                        "2": "게임 메이커 알아보기"
                     },
                     "buttons": {
-                        "1": ""
+                        "1": "게임 메이커 다운로드"
                     }
                 }
             }
@@ -11955,14 +11955,14 @@
         "experiences": {
             "construction": "이 섹션은 현재 개발 중입니다.",
             "addToWorkspaceStep": {
-                "title": "",
-                "workspace": "",
-                "community": ""
+                "title": "워크스페이스를 선택하여 경험을 추가하세요.",
+                "workspace": "워크스페이스",
+                "community": "커뮤니티"
             },
             "experiencesTotal": "",
-            "onlyMyExperiences": "",
-            "searchName": "",
-            "noExperiences": "",
+            "onlyMyExperiences": "내 경험만 보기",
+            "searchName": "이름 또는 소유자로 검색",
+            "noExperiences": "이 워크스페이스에는 경험이 없습니다.",
             "noExperiencesUpload_1": "",
             "noExperiencesUpload_2": "",
             "noAssetsInExp": "",
@@ -11970,52 +11970,52 @@
                 "all": "",
                 "inProgress": "",
                 "toVerify": "",
-                "rejected": "",
-                "approved": ""
+                "rejected": "거절됨",
+                "approved": "승인됨"
             },
             "filterActions": {
-                "approve": "",
-                "reviewGameMaker": "",
-                "editGameMaker": "",
+                "approve": "승인",
+                "reviewGameMaker": "게임 메이커에서 리뷰",
+                "editGameMaker": "게임 메이커에서 편집",
                 "transferOwnership": "",
                 "banExperience": "",
                 "moveToVerify": "",
                 "deletePerma": "",
-                "mint": "",
-                "delete": "",
-                "requestApproval": ""
+                "mint": "민팅",
+                "delete": "삭제",
+                "requestApproval": "승인 요청"
             },
             "card": {
-                "size": ""
+                "size": "사이즈"
             },
             "preview": {
-                "edit": "",
+                "edit": "편집",
                 "type": {
-                    "multi": "",
-                    "solo": ""
+                    "multi": "멀티플레이어",
+                    "solo": "개인"
                 },
-                "reviewGM": "",
+                "reviewGM": "게임 메이커에서 리뷰",
                 "summary": {
-                    "title": "",
-                    "creator": "",
-                    "lastUpdate": "",
-                    "gameVersion": "",
-                    "experienceSize": "",
-                    "viewHistory": ""
+                    "title": "요약",
+                    "creator": "크리에이터",
+                    "lastUpdate": "마지막 업데이트",
+                    "gameVersion": "게임 버전",
+                    "experienceSize": "경험 사이즈",
+                    "viewHistory": "히스토리 보기"
                 },
                 "assets": {
-                    "title": "",
+                    "title": "고유 애셋 포함",
                     "tabs": {
-                        "ready": "",
+                        "ready": "준비됨",
                         "unavailable": "",
-                        "toMint": "",
-                        "toBuy": "",
-                        "assetsToMint": ""
+                        "toMint": "민팅하기",
+                        "toBuy": "구매하기",
+                        "assetsToMint": "민팅할 애셋"
                     },
                     "buttons": {
-                        "mintAll": "",
-                        "buyAll": "",
-                        "buy": ""
+                        "mintAll": "모두 민팅하기",
+                        "buyAll": "모두 구매하기",
+                        "buy": "구매하기"
                     },
                     "cards": {
                         "notCopiesBuy": "",
@@ -12023,16 +12023,16 @@
                     }
                 },
                 "history": {
-                    "reviewGM": "",
-                    "restore": ""
+                    "reviewGM": "게임 메이커에서 리뷰",
+                    "restore": "복구"
                 },
                 "comments": {
-                    "message": "",
+                    "message": "아티스트에게 코멘트를 남겨주세요.",
                     "explain": "",
                     "placeholderArea": "",
-                    "reject": "",
-                    "iterate": "",
-                    "comments": ""
+                    "reject": "반려",
+                    "iterate": "변경 요청",
+                    "comments": "코멘트"
                 }
             }
         },
