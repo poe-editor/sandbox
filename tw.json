@@ -1639,7 +1639,8 @@
                 "epTooltip": "Earn Ethos Points by completing quests inside experiences. Harder quests will grant you more Ethos Points",
                 "raffleRewards": "Raffle Rewards",
                 "raffleTooltip": "You will win the Raffle if you own a Season 3 Alpha Pass",
-                "leaderboardDisclaimer": "Leaderboard rewards will be available 1 week after the end of the season. We will use that week to clean up cheaters and remove exploitable quests"
+                "leaderboardDisclaimer": "Leaderboard rewards will be available 1 week after the end of the season. We will use that week to clean up cheaters and remove exploitable quests",
+                "linkGiveawaysRules": ""
             },
             "summary": {
                 "rewardsSummary": "REWARDS SUMMARY",
@@ -2354,7 +2355,8 @@
             "bodypart": "Bodypart",
             "and": "and",
             "onOpenseaTitle": "LANDs & ESTATES",
-            "externalcollections": "Avatar"
+            "externalcollections": "Avatar",
+            "collections": "Collections"
         },
         "rarities": {
             "title": "催化劑",
@@ -2403,7 +2405,11 @@
             "head": "頭",
             "torso": "軀幹",
             "legs": "腿",
-            "feet": "腳"
+            "feet": "腳",
+            "chest": "胸部",
+            "arms": "武器",
+            "mainHand": "主手",
+            "offHand": "副手"
         },
         "themes": {
             "title": "生態域",
@@ -4339,7 +4345,8 @@
                     "description": "以下是一些你可以用 The Sandbox Game Maker 的資源和工具創造的遊戲體驗範例",
                     "link": "https://sandboxgame.gitbook.io/the-game-maker-academy/welcome-to-the-sandbox/what-can-i-make"
                 }
-            }
+            },
+            "showMore": "Show more"
         }
     },
     "user": {
@@ -11479,7 +11486,7 @@
                             "description": "Content will go through a review process led by allowed team members before being able to publish and mint."
                         },
                         "transfershipAllow": "Ownership transfer allow",
-                        "transfershipAllowSubt": ""
+                        "transfershipAllowSubt": "If you select this option, all the assets uploaded to this workspace will be automatically transferred to you"
                     }
                 },
                 "delete": {
@@ -11561,7 +11568,7 @@
                     "editRole": "Edit role",
                     "deleteMember": "Delete"
                 },
-                "assignRol2": ""
+                "assignRol2": "(you can change them later)"
             },
             "loading": "Loading members...",
             "creatorCannontBeDeleted": "Workspace creator can't be deleted",
@@ -11575,8 +11582,8 @@
                 "moderator": "Moderator",
                 "viewer": "Viewer"
             },
-            "notMembers": "",
-            "clickAddMember": ""
+            "notMembers": "There are no members with this filter or search",
+            "clickAddMember": "Click on '{button}' to add one"
         },
         "invites": {
             "numberOfUses": "Number of uses",
@@ -11750,7 +11757,7 @@
                 "successGroupUnallocate": "{amount} assets were successfully unallocated in the workspace",
                 "addAsset": "Add Asset",
                 "successfullyMove": " '' | An Asset has changed it's location in this workspace | {count} Assets have changed their location in this workspace.",
-                "subtitle": ""
+                "subtitle": "Select the assets from your private workspace to add"
             },
             "history": {
                 "searchUser": "Search user",
@@ -11763,7 +11770,7 @@
                     "title": "Do you want to pick another workspace to upload this asset ?",
                     "workspace": "Workspace",
                     "community": "Community",
-                    "cantUpload": ""
+                    "cantUpload": "You need an Admin/Artist role to add assets here"
                 },
                 "transferToWorkspace": {
                     "title": "Transfer to Workspace",
@@ -11831,7 +11838,7 @@
                 "owner": "Select new owner",
                 "search": "Search by email or name",
                 "transfer": "Transfer",
-                "input": ""
+                "input": "Insert username or email of the new owner"
             },
             "delete": {
                 "title": "Delete permanently",
@@ -11920,36 +11927,36 @@
             "publishSuccess": "Asset published successfully",
             "moveSuccess": "Asset moved successfully",
             "Edit": "",
-            "unpublishSuccess": "",
+            "unpublishSuccess": "Asset unpublished successfully",
             "empty": {
                 "create": {
-                    "title": "",
-                    "body": "",
+                    "title": "Create your own voxels in VoxEdit",
+                    "body": "Assets have an important role in the ecosystem, you need them to build an experience or to improve your game. Stake them to earn rewards or build your own assets to sell them on the Marketplace.",
                     "links": {
-                        "1": "",
-                        "2": ""
+                        "1": "How to create an asset",
+                        "2": "About VoxEdit"
                     },
                     "buttons": {
-                        "1": ""
+                        "1": "Download VoxEdit"
                     }
                 },
                 "set": {
-                    "title": "",
-                    "body": "",
+                    "title": "Set attributes: Catalyst & Gems",
+                    "body": "Gems & Catalysts are The Sandbox’s utility token burnt on usage that defines your ASSET’s attributes. Attributes define your ASSET’s main stats that will be displayed on the Sandbox’s game experiences throughout our metaverse, meaning that the more attributes your ASSETS have the more useful you’ll find them within the Sandbox, and thus incrementing its value.",
                     "links": {
-                        "1": "",
-                        "2": ""
+                        "1": "More about Cat & Gems",
+                        "2": "How can I get them?"
                     }
                 },
                 "myAssets": {
-                    "title": "",
-                    "body": "",
+                    "title": "What can I do with my assets",
+                    "body": "To make a game on your LAND or ESTATE, you will need to download the free Game Maker software. You will also be able to buy a game on the Marketplace. Design and test your game using the Game Maker, publishing experiences will be available soon.",
                     "links": {
-                        "1": "",
-                        "2": ""
+                        "1": "What are Experiences?",
+                        "2": "About Game Maker"
                     },
                     "buttons": {
-                        "1": ""
+                        "1": "Download Game Maker"
                     }
                 }
             }
@@ -11957,91 +11964,91 @@
         "experiences": {
             "construction": "This section is under development",
             "addToWorkspaceStep": {
-                "title": "",
-                "workspace": "",
-                "community": ""
+                "title": "Choose the workpsace to add the experience",
+                "workspace": "Workspace",
+                "community": "Community"
             },
-            "experiencesTotal": "",
-            "onlyMyExperiences": "",
-            "searchName": "",
-            "noExperiences": "",
-            "noExperiencesUpload_1": "",
-            "noExperiencesUpload_2": "",
-            "noAssetsInExp": "",
+            "experiencesTotal": "No Experiences | {count} Experience | {count} Experiences",
+            "onlyMyExperiences": "Only show my experiences",
+            "searchName": "Search by name or owner",
+            "noExperiences": "There are no experiences in this workspace.",
+            "noExperiencesUpload_1": " Use GameMaker",
+            "noExperiencesUpload_2": " to upload one.",
+            "noAssetsInExp": "There's no assets used in this experience",
             "filter": {
-                "all": "",
-                "inProgress": "",
-                "toVerify": "",
-                "rejected": "",
-                "approved": ""
+                "all": "All",
+                "inProgress": "In progress",
+                "toVerify": "To Verify",
+                "rejected": "Rejected",
+                "approved": "Approved"
             },
             "filterActions": {
-                "approve": "",
-                "reviewGameMaker": "",
-                "editGameMaker": "",
-                "transferOwnership": "",
-                "banExperience": "",
-                "moveToVerify": "",
-                "deletePerma": "",
-                "mint": "",
-                "delete": "",
-                "requestApproval": ""
+                "approve": "Approve",
+                "reviewGameMaker": "Review in Game Maker",
+                "editGameMaker": "Edit in Game Maker",
+                "transferOwnership": "Transfer Ownership",
+                "banExperience": "Ban Experience",
+                "moveToVerify": "Move to Verify",
+                "deletePerma": "Delete permanently",
+                "mint": "Mint",
+                "delete": "Delete",
+                "requestApproval": "Request Approval"
             },
             "card": {
-                "size": ""
+                "size": "Size"
             },
             "preview": {
-                "edit": "",
+                "edit": "Edit",
                 "type": {
-                    "multi": "",
-                    "solo": ""
+                    "multi": "Multiplayer",
+                    "solo": "Individual"
                 },
-                "reviewGM": "",
+                "reviewGM": "Review in Game Maker",
                 "summary": {
-                    "title": "",
-                    "creator": "",
-                    "lastUpdate": "",
-                    "gameVersion": "",
-                    "experienceSize": "",
-                    "viewHistory": ""
+                    "title": "Summary",
+                    "creator": "Creator",
+                    "lastUpdate": "Last update",
+                    "gameVersion": "Game version",
+                    "experienceSize": "Experience size",
+                    "viewHistory": "View History"
                 },
                 "assets": {
-                    "title": "",
+                    "title": "Unique assets included",
                     "tabs": {
-                        "ready": "",
-                        "unavailable": "",
-                        "toMint": "",
-                        "toBuy": "",
-                        "assetsToMint": ""
+                        "ready": "Ready",
+                        "unavailable": "Unavailable",
+                        "toMint": "To Mint",
+                        "toBuy": "To Buy",
+                        "assetsToMint": "Assets to Mint"
                     },
                     "buttons": {
-                        "mintAll": "",
-                        "buyAll": "",
-                        "buy": ""
+                        "mintAll": "Mint All",
+                        "buyAll": "Buy All",
+                        "buy": "Buy"
                     },
                     "cards": {
-                        "notCopiesBuy": "",
-                        "copiesUsed": ""
+                        "notCopiesBuy": "Not copies to buy",
+                        "copiesUsed": "Copies used:"
                     }
                 },
                 "history": {
-                    "reviewGM": "",
-                    "restore": ""
+                    "reviewGM": "Review in Game Maker",
+                    "restore": "Restore"
                 },
                 "comments": {
-                    "message": "",
-                    "explain": "",
-                    "placeholderArea": "",
-                    "reject": "",
-                    "iterate": "",
-                    "comments": ""
+                    "message": "Leave a comment to the artist about",
+                    "explain": "Please explain the reasons you have, to reject the experience to the artist",
+                    "placeholderArea": "Write an iterating/reject reason",
+                    "reject": "Reject",
+                    "iterate": "Request changes",
+                    "comments": "COMMENTS"
                 }
             }
         },
         "onlyAlphanumeric": "Only alpha-numeric characters are allowed",
         "addButton": "Add",
         "noResults": "No results for {search} search",
-        "removeButton": ""
+        "removeButton": "Remove"
     },
     "strapi": {
         "POC_LANDING_MINT_AVATAR_TITLE": "Express yourself in the metaverse",
@@ -12825,7 +12832,9 @@
         "text143": "“sketchfab_url” MUST be a link referring to a 3d representation of the voxel asset on sketchfab.",
         "text144": "The 3d representation must be a true representation of the voxel Asset and should not mislead the viewer.",
         "text145": "JAPAN RESIDENTS NOTIFICATION",
-        "text146": "If you are resident of Japan, you may participate in contests and different activities to obtain rewards; due to restrictions in Japan, these rewards will not include SAND."
+        "text146": "If you are resident of Japan, you may participate in contests and different activities to obtain rewards; due to restrictions in Japan, these rewards will not include SAND.",
+        "linkGiveawaysSummary": "",
+        "linkGiveawaysOfficial": ""
     },
     "changelogVoxedit": {
         "2022": {
@@ -12983,5 +12992,278 @@
             "tc": "Traditional Chinese",
             "tr": "Turkish"
         }
+    },
+    "giveawaysRulesSummary": {
+        "title": "",
+        "text1": "",
+        "text2": {
+            "mainText": "",
+            "0": ""
+        },
+        "text3": {
+            "mainText": "",
+            "0": ""
+        },
+        "text4": "",
+        "text5": "",
+        "text6": "",
+        "text7": "",
+        "text8": "",
+        "text9": {
+            "mainText": "",
+            "0": ""
+        },
+        "text10": {
+            "mainText": "",
+            "0": ""
+        },
+        "text11": "",
+        "text12": "",
+        "text13": "",
+        "text14": "",
+        "text15": "",
+        "text16": "",
+        "text17": "",
+        "text18": "",
+        "text19": "",
+        "text20": "",
+        "text21": "",
+        "text22": "",
+        "text23": "",
+        "text24": "",
+        "text25": "",
+        "text26": "",
+        "text27": "",
+        "text28": "",
+        "text29": "",
+        "text30": "",
+        "text31": "",
+        "text32": "",
+        "text33": "",
+        "text34": "",
+        "text35": "",
+        "text36": "",
+        "text37": "",
+        "text38": "",
+        "text39": "",
+        "text40": "",
+        "text41": "",
+        "text42": "",
+        "text43": "",
+        "text44": "",
+        "text45": "",
+        "text46": "",
+        "text47": "",
+        "text48": "",
+        "text49": "",
+        "text50": "",
+        "text51": "",
+        "text52": "",
+        "text53": "",
+        "text54": "",
+        "text55": "",
+        "text56": "",
+        "text57": "",
+        "text58": "",
+        "text59": "",
+        "text60": "",
+        "text61": "",
+        "text62": "",
+        "text63": "",
+        "text64": "",
+        "text65": "",
+        "text66": "",
+        "text67": "",
+        "text68": "",
+        "text69": "",
+        "text70": "",
+        "text71": "",
+        "text72": "",
+        "text73": "",
+        "text74": "",
+        "text75": "",
+        "text76": {
+            "mainText": "",
+            "0": ""
+        },
+        "text77": "",
+        "text78": {
+            "mainText": "",
+            "0": ""
+        }
+    },
+    "giveawaysRules": {
+        "title": "",
+        "text1": "",
+        "text2": {
+            "mainText": "",
+            "0": "",
+            "1": "",
+            "2": ""
+        },
+        "text3": "",
+        "text4": "",
+        "text5": "",
+        "text6": {
+            "mainText": "",
+            "0": "",
+            "1": "",
+            "2": ""
+        },
+        "text7": {
+            "mainText": "",
+            "0": "",
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        },
+        "text8": "",
+        "text9": {
+            "mainText": "",
+            "0": ""
+        },
+        "text10": "",
+        "text11": "",
+        "text12": {
+            "mainText": "",
+            "0": ""
+        },
+        "text13": {
+            "mainText": "",
+            "0": ""
+        },
+        "text14": "",
+        "text15": "",
+        "text16": "",
+        "text17": "",
+        "text18": "",
+        "text19": "",
+        "text20": "",
+        "text21": "",
+        "text22": "",
+        "text23": {
+            "mainText": "",
+            "0": "",
+            "1": "",
+            "2": ""
+        },
+        "text24": "",
+        "text25": "",
+        "text26": {
+            "mainText": "",
+            "0": "",
+            "1": ""
+        },
+        "text27": {
+            "mainText": "",
+            "0": "",
+            "1": ""
+        },
+        "text28": {
+            "mainText": "",
+            "0": "",
+            "1": ""
+        },
+        "text29": "",
+        "text30": "",
+        "text31": "",
+        "text32": "",
+        "text33": "",
+        "text34": "",
+        "text35": "",
+        "text36": "",
+        "text37": "",
+        "text38": "",
+        "text39": {
+            "mainText": "",
+            "0": ""
+        },
+        "text40": {
+            "mainText": "",
+            "0": ""
+        },
+        "text41": {
+            "mainText": "",
+            "0": ""
+        },
+        "text42": {
+            "mainText": "",
+            "0": "",
+            "1": "",
+            "2": ""
+        },
+        "text43": {
+            "mainText": "",
+            "0": ""
+        },
+        "text44": {
+            "mainText": "",
+            "0": "",
+            "1": ""
+        },
+        "text45": {
+            "mainText": "",
+            "0": ""
+        },
+        "text46": {
+            "mainText": "",
+            "0": ""
+        },
+        "text47": "",
+        "appendixTitle": "",
+        "text48": {
+            "mainText": "",
+            "0": ""
+        },
+        "text49": {
+            "mainText": "",
+            "0": ""
+        },
+        "text50": {
+            "mainText": "",
+            "0": ""
+        },
+        "text51": {
+            "mainText": "",
+            "0": ""
+        },
+        "text52": "",
+        "text53": "",
+        "text54": {
+            "mainText": "",
+            "0": ""
+        },
+        "text55": "",
+        "text56": "",
+        "text57": "",
+        "text58": {
+            "mainText": "",
+            "0": ""
+        },
+        "text59": {
+            "mainText": "",
+            "0": ""
+        },
+        "text60": {
+            "mainText": "",
+            "0": ""
+        },
+        "text61": {
+            "mainText": "",
+            "0": "",
+            "1": ""
+        },
+        "text62": {
+            "mainText": "",
+            "0": ""
+        },
+        "text63": "",
+        "text64": ""
+    },
+    "noresult": {
+        "title": "此搜索沒有結果",
+        "text1": "如果你沒有找到你要找的東西，你可以隨時創建自己的資產！",
+        "text2": "免費並開始構建元界。"
     }
 }
