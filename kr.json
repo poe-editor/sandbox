@@ -1640,7 +1640,7 @@
                 "raffleRewards": "추첨 리워드",
                 "raffleTooltip": "시즌 3 알파 패스 보유 시 추첨에 당첨됩니다",
                 "leaderboardDisclaimer": "시즌 종료 1주 후에 리더보드 리워드를 수령할 수 있으며, 이 기간 동안 부정행위자 필터링 및 버그 퀘스트 삭제가 진행됩니다.",
-                "linkGiveawaysRules": ""
+                "linkGiveawaysRules": "Please see additional information and Official Rules here"
             },
             "summary": {
                 "rewardsSummary": "리워드 요약",
@@ -2103,6 +2103,17 @@
                         "titleKey4": "스캠 사이트가 아닌 공식 사이트 링크로는 어떤 것들이 있나요?",
                         "descriptionKey4": "웹사이트: {0}\n트위터: {1}\n디스코드: {2}\n텔레그램: {3}\n인스타그램: {4}\n페이스북: {5}\n유튜브: {6}\n트위치: {7}\nOpenSea: {8}"
                     }
+                },
+                "14": {
+                    "title": "Leaderboard anti-cheating measures",
+                    "description": "A security is in place to prevent cheating on the leaderboard:",
+                    "bulletPoints": [
+                        "The Sandbox measured the fastest completion time for each quest.",
+                        "We reduced that measurement because our players are more skilled than us! It gives us what is considered a “do-able” time.",
+                        "If a player completes a quest faster than the “do-able” time we will consider the time invalid as it should mean that they are using cheats or completing quests in a non intended way.",
+                        "On the leaderboard only EPs from quests completed in valid times are accounted for.",
+                        "On the Reward tab all EPs count no matter if the time is valid or not."
+                    ]
                 }
             },
             "startsOn": "시작: {varStartDate}",
@@ -2131,7 +2142,7 @@
                 "head": [
                     "순위",
                     "플레이어",
-                    "에토스 포인트",
+                    "Validated Ethos Points",
                     "완료 시간",
                     "보상"
                 ],
@@ -2141,7 +2152,8 @@
                     "ep": "시즌 3 퀘스트를 완료하고 에토스 포인트를 모으세요!",
                     "quests": "퀘스트에 여러 번 도전하여 가장 빠른 완료 시간을 기록하세요!",
                     "rewards": "시즌 종료 시 리워드 페이지에서 모든 리워드를 획득하세요!",
-                    "missing": "리더보드에 내 계정이 표시되려면 최소 1 EP(퀘스트를 완료하여 획득)를 보유하고 계정 인증을 완료해야 합니다."
+                    "missing": "리더보드에 내 계정이 표시되려면 최소 1 EP(퀘스트를 완료하여 획득)를 보유하고 계정 인증을 완료해야 합니다.",
+                    "invalidTimes": "Some of your times are not valid"
                 }
             },
             "rewards": {
@@ -2179,7 +2191,8 @@
                         "column5": "평균 시간"
                     },
                     "buggedQuest": "해당 퀘스트는 버그로 인해 시간 기록에서 제외되었습니다.",
-                    "top": "Top {0}"
+                    "top": "Top {0}",
+                    "invalidTime": "Your time on that quest is not valid"
                 }
             },
             "banner": {
@@ -2356,7 +2369,7 @@
             "and": "&",
             "onOpenseaTitle": "LAND 및 이스테이트",
             "externalcollections": "아바타",
-            "collections": "Collections"
+            "collections": "컬렉션"
         },
         "rarities": {
             "title": "카탈리스트",
@@ -2406,10 +2419,10 @@
             "torso": "몸통",
             "legs": "다리",
             "feet": "발",
-            "chest": "가슴",
-            "arms": "무기",
-            "mainHand": "주 손",
-            "offHand": "아무렇게나"
+            "chest": "몸통",
+            "arms": "팔",
+            "mainHand": "Main hand",
+            "offHand": "Off-hand"
         },
         "themes": {
             "title": "바이옴",
@@ -4346,7 +4359,7 @@
                     "link": "https://sandboxgame.gitbook.io/the-game-maker-academy/welcome-to-the-sandbox/what-can-i-make"
                 }
             },
-            "showMore": "Show more"
+            "showMore": "더 보기"
         }
     },
     "user": {
@@ -12831,8 +12844,8 @@
         "text144": "3D 표현은 복셀 애셋을 올바로 표현해야 하며 보는 사람을 오도하면 안 됨",
         "text145": "일본 거주자",
         "text146": "일본에 거주하거나 일본 IP를 사용하면서 콘테스트 및 다양한 활동에 참여할 경우, 일본 내 법률 규제에 따라 SAND 보상을 받을 수 없습니다.",
-        "linkGiveawaysSummary": "",
-        "linkGiveawaysOfficial": ""
+        "linkGiveawaysSummary": "Giveaways rules summary",
+        "linkGiveawaysOfficial": "Giveaways official rules"
     },
     "changelogVoxedit": {
         "2022": {
@@ -12992,276 +13005,276 @@
         }
     },
     "giveawaysRulesSummary": {
-        "title": "",
-        "text1": "",
+        "title": "THE SANDBOX SEASON 3 GIVEAWAYS SUMMARY",
+        "text1": "The Sandbox Season 3 Giveaways are a series of giveaways available to eligible users of The Sandbox (see eligibility requirements below). The giveaways start on August 24, 2022, at 2:00 p.m. Greenwich Mean Time (GMT), and end on November 1, 2022, at 2 p.m. GMT.",
         "text2": {
-            "mainText": "",
-            "0": ""
+            "mainText": "The Season 3 Giveaways are not available to all persons or at all locations, and are void where prohibited by law, including but not limited to the jurisdictions listed in Section 7 of the {0}.",
+            "0": "Official Rules"
         },
         "text3": {
-            "mainText": "",
-            "0": ""
+            "mainText": "Check out the {0} for more details.",
+            "0": "Official Rules"
         },
-        "text4": "",
-        "text5": "",
-        "text6": "",
-        "text7": "",
-        "text8": "",
+        "text4": "Prizes",
+        "text5": "Up to 10,000 winners will each receive a Season 3 Alpha Pass.",
+        "text6": "10,000 Alpha Pass winners will each receive up to 500 in SAND.",
+        "text7": "Entering a Giveaway",
+        "text8": "To enter a Giveaway, you may do any of the following:",
         "text9": {
-            "mainText": "",
-            "0": ""
+            "mainText": "Completing Quests within The Sandbox and earning Ethos Points: up to 500 entries (after earning 300 Ethos Points) ({0})",
+            "0": "more details here"
         },
         "text10": {
-            "mainText": "",
-            "0": ""
+            "mainText": "Staking SAND ({0}): up to 500 entries",
+            "0": "more details here"
         },
-        "text11": "",
-        "text12": "",
-        "text13": "",
-        "text14": "",
-        "text15": "",
-        "text16": "",
-        "text17": "",
-        "text18": "",
-        "text19": "",
-        "text20": "",
-        "text21": "",
-        "text22": "",
-        "text23": "",
-        "text24": "",
-        "text25": "",
-        "text26": "",
-        "text27": "",
-        "text28": "",
-        "text29": "",
-        "text30": "",
-        "text31": "",
-        "text32": "",
-        "text33": "",
-        "text34": "",
-        "text35": "",
-        "text36": "",
-        "text37": "",
-        "text38": "",
-        "text39": "",
-        "text40": "",
-        "text41": "",
-        "text42": "",
-        "text43": "",
-        "text44": "",
-        "text45": "",
-        "text46": "",
-        "text47": "",
-        "text48": "",
-        "text49": "",
-        "text50": "",
-        "text51": "",
-        "text52": "",
-        "text53": "",
-        "text54": "",
-        "text55": "",
-        "text56": "",
-        "text57": "",
-        "text58": "",
-        "text59": "",
-        "text60": "",
-        "text61": "",
-        "text62": "",
-        "text63": "",
-        "text64": "",
-        "text65": "",
-        "text66": "",
-        "text67": "",
-        "text68": "",
-        "text69": "",
-        "text70": "",
-        "text71": "",
-        "text72": "",
-        "text73": "",
-        "text74": "",
-        "text75": "",
+        "text11": "Verifying ownership of a Season 1 Alpha Pass: 210 entries",
+        "text12": "Verifying ownership of a Season 2 Alpha Pass: 210 entries",
+        "text13": "Verifying ownership of Season 1 Memorabilia: 150 entries",
+        "text14": "Verifying ownership of Season 2 Memorabilia: 150 entries",
+        "text15": "Verifying ownership of Belonging Week Memorabilia: 150 entries",
+        "text16": "Verifying completion of a Season 2 feedback form: 30 entries",
+        "text17": "Participating in daily events on The Sandbox: up to 350 entries",
+        "text18": "Refer a friend to The Sandbox: up to 250 entries",
+        "text19": "Mail-in Entry",
+        "text20": "There is a maximum of 2,500 entries per user.",
+        "text21": "Play Entries",
+        "text22": "To enter a Giveaway by completing quests, staking SAND, verifying ownership of an item, participating in daily events, or referring a friend you must:",
+        "text23": "Complete the corresponding requirement. ",
+        "text24": "Be a citizen of a jurisdiction in which the offer of a Sandbox Season 3 Giveaway is not prohibited.",
+        "text25": "Be an existing or new holder of an account in The Sandbox. ",
+        "text26": "Accept the Official Rules",
+        "text27": "Free entry",
+        "text28": "To enter without making a purchase, use the mail-in entry method outlined below.",
+        "text29": "Enter by mail",
+        "text30": "If you’re having issues completing the entry steps above, or to enter without making a purchase, you can enter a giveaway by mail. Mail-in entries must include all requested information to be considered an entry and to earn one entry. A maximum of 2,500 entries can be requested per individual.",
+        "text31": "The Sponsor is not responsible for late, lost, damaged, stolen, incomplete, illegible, postage due, or misdirected entries. Proof of mailing doesn't constitute proof of delivery.",
+        "text32": "A mail-in entry must:",
+        "text33": "Have a handwritten return and mailing address.",
+        "text34": "Include all requested information (as stated below) to be considered an entry.",
+        "text35": "Be postmarked by November 1, 2022, and received no later than November 3, 2022.",
+        "text36": "A mail-in entry won’t:",
+        "text37": "Receive confirmation of receipt.",
+        "text38": "Be accepted if submitted as a photocopy, facsimile, or reproduction.",
+        "text39": "To enter by mail:",
+        "text40": "Handwrite the following information on the front of a card or paper:",
+        "text41": "Name",
+        "text42": "Address (including city, state, country and zip or postal code)",
+        "text43": "Email address",
+        "text44": "Telephone number",
+        "text45": "Mail the single card or paper in an envelope to:",
+        "text46": "The Sandbox Season 3 Giveaways",
+        "text47": "℅ Bacasable UK Limited",
+        "text48": "7 Bell Yard",
+        "text49": "London, England",
+        "text50": "WC2A 2JR",
+        "text51": "Play Entry confirmation",
+        "text52": "Once you’ve successfully completed the entry requirements, you’ll receive a notification within 10 business days confirming your giveaway entry from one of the following email addresses:",
+        "text53": "info@sandbox.game",
+        "text54": "no-reply@sandbox.game",
+        "text55": "marketing@sandbox.game",
+        "text56": "Check your junk/spam folder if you don’t see the email in your inbox.",
+        "text57": "Confirmation email not received ",
+        "text58": "If you haven’t received a confirmation email, make sure that:",
+        "text59": "You’ve successfully completed all entry requirements listed above by November 1, 2022, at 11:59 p.m. GMT.",
+        "text60": "It’s been more than 30 days since you completed the entry steps.",
+        "text61": "The email confirmation from The Sandbox isn’t in your junk/spam folder.",
+        "text62": "Confirming the legitimacy of a giveaway email or social media post",
+        "text63": "Here are some tips to confirm that The Sandbox Season 3 Giveaways content is actually from The Sandbox:",
+        "text64": "The Sandbox will never ask you to send funds.",
+        "text65": "The Sandbox emails will always come from a sandbox.game domain, such as help@sandbox.game, info@sandbox.game, no-reply@sandbox.game, support@sandbox.game, or transaction@sandbox.game.",
+        "text66": "The URL will direct you to sandbox.game.",
+        "text67": "If you encounter anything suspicious, please report it to security@sandbox.game.",
+        "text68": "Notifying winners",
+        "text69": "If you win, The Sandbox will contact you directly from info@sandbox.game or no-reply@sandbox.game or marketing@sandbox.game.",
+        "text70": "Mail-in entrants selected as potential winners that do not have a Sandbox account may be contacted by a representative of the Sponsor to set up an account with The Sandbox and be asked to provide the email address associated with the potential winner’s account with The Sandbox, as well as other required KYC information, in order to receive the prize.",
+        "text71": "Potential winners are required to:",
+        "text72": "Respond to the notification email within 2 days.",
+        "text73": "Complete an affidavit.",
+        "text74": "Complete an appropriate tax reporting form, as necessary.",
+        "text75": "Agree to have their first name, last initial, city, state and country published on the complete winners list.",
         "text76": {
-            "mainText": "",
-            "0": ""
+            "mainText": "Potential winners become confirmed winners only after they complete all requirements. For more information, please see the {0}.",
+            "0": "Official Rules"
         },
-        "text77": "",
+        "text77": "Additional Terms",
         "text78": {
-            "mainText": "",
-            "0": ""
+            "mainText": "Visit The Sandbox Season 3 Giveaways {0} for a complete view of eligibility requirements.",
+            "0": "Official Rules"
         }
     },
     "giveawaysRules": {
-        "title": "",
-        "text1": "",
+        "title": "THE SANDBOX SEASON 3 GIVEAWAYS OFFICIAL RULES",
+        "text1": "NO PURCHASE NECESSARY. A PURCHASE, TRANSACTION OR PAYMENT OF ANY KIND WILL NOT INCREASE YOUR CHANCES OF WINNING. A PURCHASE, TRANSACTION OR PAYMENT OF ANY KIND IS NOT NECESSARY TO ENTER A GIVEAWAY.",
         "text2": {
-            "mainText": "",
-            "0": "",
-            "1": "",
-            "2": ""
+            "mainText": "PARTICIPATING IN A SANDBOX SEASON 3 GIVEAWAY (EACH A “{0}” AND COLLECTIVELY, THE “{1}”) CONSTITUTES YOUR ACCEPTANCE OF THESE OFFICIAL RULES. BY PARTICIPATING IN A GIVEAWAY, YOU REPRESENT AND WARRANT YOU MEET THE ELIGIBILITY REQUIREMENTS STATED IN THESE OFFICIAL RULES AND ACKNOWLEDGE THAT FAILURE TO MEET ALL ELIGIBILITY REQUIREMENTS WILL RESULT IN YOUR DISQUALIFICATION. A COPY OF THESE OFFICIAL RULES WILL BE AVAILABLE FOR THE DURATION OF THE GIVEAWAYS AT: {2}.",
+            "0": "GIVEAWAY",
+            "1": "GIVEAWAYS",
+            "2": "https://www.sandbox.game/en/giveaways_rules"
         },
-        "text3": "",
-        "text4": "",
-        "text5": "",
+        "text3": "PLEASE BE AWARE THAT THESE OFFICIAL RULES CONTAIN AN ARBITRATION AGREEMENT GOVERNING HOW TO RESOLVE DISPUTES BETWEEN YOU AND THE SANDBOX. AMONG OTHER THINGS, THE ARBITRATION AGREEMENT INCLUDES AN AGREEMENT TO ARBITRATE WHICH REQUIRES, WITH LIMITED EXCEPTIONS, THAT ALL DISPUTES BETWEEN YOU AND THE SANDBOX SHALL BE RESOLVED BY BINDING AND FINAL ARBITRATION. THESE OFFICIAL RULES ALSO INCLUDE A CLASS ACTION AND JURY TRIAL WAIVER. THESE PROVISIONS CAN BE FOUND IN SECTION 11 AND APPENDIX 1 BELOW. PLEASE READ THESE PROVISIONS CAREFULLY.",
+        "text4": "THE GIVEAWAYS ARE VOID WHERE PROHIBITED, INCLUDING BUT NOT LIMITED TO THE JURISDICTIONS LISTED IN SECTION 7 BELOW.",
+        "text5": "THE GIVEAWAYS SHALL BE CONSTRUED ACCORDING TO AND GOVERNED EXCLUSIVELY BY ENGLISH LAW.",
         "text6": {
-            "mainText": "",
-            "0": "",
-            "1": "",
-            "2": ""
+            "mainText": "{0}: The Giveaways begin on August 24, 2022 at 2:00 p.m. Greenwich Mean Time (“{1}”), and end on November 1, 2022 at 2 p.m. GMT (the “{2}”). The Sponsor’s computer systems or that of their designee is the official time-keeping device for the Giveaways.",
+            "0": "1. Promotion Period",
+            "1": "GMT",
+            "2": "Promotion Period"
         },
         "text7": {
-            "mainText": "",
-            "0": "",
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": ""
+            "mainText": "{0}: The Sandbox Season 3 Giveaways (each a “{1}”) are open only to legal residents of jurisdictions in which the offer of, participation in, and/or receipt of a Giveaway is not prohibited, and who are at least the legal age of majority in their jurisdiction of residence (an eligible “{2}”). Bacasable UK Limited, a company organized under the laws of the United Kingdom (the “{3}”), and its parent, affiliates, subsidiaries, promotion agencies and each of their respective directors, officers, employees, and assigns (collectively “{4}”) and their immediate family members and/or those living in the same household of each (whether related or not) are not eligible. For purposes of each Giveaway, the term “family member” is defined as spouse, partner, parent, legal guardian, in-law, grandparent, child, or grandchild.",
+            "0": "2. Eligibility",
+            "1": "Giveaway",
+            "2": "Entrant",
+            "3": "Sponsor",
+            "4": "Released Parties"
         },
-        "text8": "",
+        "text8": "There is no purchase, transaction, or payment necessary to enter. You do not need to have an existing account with The Sandbox in order to participate in a Giveaway. However, if you enter via Entry Method 2 below, Potential Winners will be required to have a new or existing account in order to receive their prize. Your chances of winning are the same regardless of method of entry.",
         "text9": {
-            "mainText": "",
-            "0": ""
+            "mainText": "{0}: There are several methods of entry:",
+            "0": "3. How to Enter"
         },
-        "text10": "",
-        "text11": "",
+        "text10": "Method 1 (Play Method of Entry):",
+        "text11": "To enter a Giveaway, you may do any of the following:",
         "text12": {
-            "mainText": "",
-            "0": ""
+            "mainText": "Completing Quests and earning Ethos Points: up to 500 entries (after earning 300 Ethos Points) ({0})",
+            "0": "more details here"
         },
         "text13": {
-            "mainText": "",
-            "0": ""
+            "mainText": "Staking SAND ({0}): up to 500 entries",
+            "0": "more details here"
         },
-        "text14": "",
-        "text15": "",
-        "text16": "",
-        "text17": "",
-        "text18": "",
-        "text19": "",
-        "text20": "",
-        "text21": "",
-        "text22": "",
+        "text14": "Verify ownership of a Season 1 Alpha Pass: 210 entries",
+        "text15": "Verify ownership of a Season 2 Alpha Pass: 210 entries",
+        "text16": "Verify ownership of Season 1 Memorabilia: 150 entries",
+        "text17": "Verify ownership of Season 2 Memorabilia: 150 entries",
+        "text18": "Verify ownership of Belonging Week Memorabilia: 150 entries",
+        "text19": "Verify completion of a Season 2 feedback form: 30 entries",
+        "text20": "Participate in daily events on The Sandbox: up to 350 entries",
+        "text21": "Refer a friend to The Sandbox: up to 250 entries",
+        "text22": "Up to 2,500 total entries can be earned.",
         "text23": {
-            "mainText": "",
-            "0": "",
-            "1": "",
-            "2": ""
+            "mainText": "You must have a user account on The Sandbox to enter. You may sign up for an account on The Sandbox website: {0}. There is no fee or charge to create an account and become a registered user of The Sandbox. Normal internet access and usage charges imposed by each Entrant’s mobile service provider may apply. By submitting your information and creating an account, you agree to The Sandbox Terms of Use and Privacy Policy. If you do not agree to the {1} and {2}, you cannot create an account on The Sandbox, and will be ineligible to enter a Giveaway.",
+            "0": "https://www.sandbox.game",
+            "1": "Terms of Use",
+            "2": "Privacy Policy"
         },
-        "text24": "",
-        "text25": "",
+        "text24": "Method 2 (No Purchase Method of Entry):",
+        "text25": "To enter via mail without completing any of the above methods, hand print and complete the following on the front of a piece of paper: your name, address, city, state, zip, country, email address, and telephone number. Insert paper in an envelope and mail in, with sufficient postage, to: The Sandbox Season 3 Giveaways, c/o Bacasable UK Limited, 7 Bell Yard, London, England, WC2A 2JR. Mail-in entries must include all requested information herein to be considered an entry. Each mail-in entry may request up to 25 entries, with each individual limited to 100 mail-in entries. Mail-in entries must be postmarked no later than November 1, 2022, and received by the Sponsor no later than November 3, 2022. Mailed entries received without a verifiable and legible return address will be deemed incomplete and invalid. Requests for confirmation of receipt of mail-in entries will not be acknowledged. No photocopies, facsimiles or reproductions of mail-in entry will be accepted. The Sponsor is not responsible for late, lost, damaged, stolen, incomplete, illegible, postage due, or misdirected entries. Proof of mailing does not constitute proof of delivery. Potential Winners (as further defined below) that entered via mail will be required to both: (i) create both a new The Sandbox account and agree to the respective user agreement and privacy notice; and (ii) and complete the required KYC process which may include uploading a valid and current photo ID and completing a set of identification verification questions, depending on Potential Winner’s location, to receive their prize. If a Potential Winner does not create a new The Sandbox account and does not agree to The Sandbox Terms of Use and Privacy Policy within the timeframe indicated by the Sponsor in their notification email, or does not complete the required KYC process, said Potential Winner will be ineligible to receive a prize.",
         "text26": {
-            "mainText": "",
-            "0": "",
-            "1": ""
+            "mainText": "{0}: Regardless of how you enter, there is a limit of 2,500 entries per user account throughout the Promotion Period. Entries received from any person who attempts to create an additional account, during the Promotion Period will be disqualified. Any attempt by any Entrant to obtain more than the stated number of entries by using multiple/different email addresses or any other method will void that Entrant's entries and that entrant may be disqualified. Use of any automated system to participate is prohibited and will result in disqualification. In the event of a dispute over the identity of a Potential Winner, the entry will be declared made by the authorized account holder of the email address associated with the Entrant’s account on The Sandbox (or submitted with the online entry, as applicable) (“{1}”), and a Potential Winner may be required to provide identification sufficient to show that he/she is the authorized account holder of the email account. The “authorized account holder” is the natural person assigned to the applicable email account.",
+            "0": "4. For All Entry Methods",
+            "1": "Entrant’s Email Address"
         },
         "text27": {
-            "mainText": "",
-            "0": "",
-            "1": ""
+            "mainText": "{0}: 10,000 Potential Winners (“{1}”) will be randomly drawn from all eligible entries received on or about November 4, 2022. The random drawing will be final and binding. The odds of winning a prize depend upon the number of eligible entries received.",
+            "0": "5. Random Drawing",
+            "1": "Potential Winners"
         },
         "text28": {
-            "mainText": "",
-            "0": "",
-            "1": ""
+            "mainText": "{0}: Potential Winners will be contacted via email at Entrant’s Email Address by a representative of The Sandbox with instructions on how to claim their prize and will be required to respond to such email within 48 hours of the date and time email was sent by Sponsor. Potential Winners will be required to complete and return an Affidavit of Eligibility, Release of Liability or any other document needed to validate eligibility (the “{1}”) within five days (including Saturdays, Sundays, and Holidays) of first attempted delivery of the same. In the event a Potential Winner cannot be contacted, fails to respond to the email within the allotted time, refuses the prize, fails or refuses to timely return completed Documents, or if a prize/prize notification is returned as undeliverable, Potential Winner may be disqualified without further notice and an alternate winner may be selected.",
+            "0": "6. Potential Winner Notification",
+            "1": "Documents"
         },
-        "text29": "",
-        "text30": "",
-        "text31": "",
-        "text32": "",
-        "text33": "",
-        "text34": "",
-        "text35": "",
-        "text36": "",
-        "text37": "",
-        "text38": "",
+        "text29": "NOTE: To claim a prize in this Giveaway, all Potential Winners must have an active account on The Sandbox , which has been verified by Sponsor, at the time of awarding the prize or such earlier time as specified under Section 3 of these Official Rules. Creating an account may require the collection of personal information for identity verification purposes. Potential Winners that do not have an account on The Sandbox and/or if their account is not verified by Sponsor within the above time frame will be disqualified. ALL POTENTIAL WINNERS ARE SUBJECT TO VERIFICATION BY SPONSOR, WHOSE DECISIONS ARE FINAL AND BINDING. AN ENTRANT IS NOT A WINNER OF ANY PRIZE UNLESS AND UNTIL THAT ENTRANT’S ELIGIBILITY AND COMPLIANCE WITH ALL REQUIREMENTS TO CLAIM A PRIZE HAVE BEEN VERIFIED AND FULFILLED, AND THE ENTRANT HAS BEEN NOTIFIED THAT VERIFICATION IS COMPLETE.",
+        "text30": "7. Prizes and Prize Restrictions:",
+        "text31": "Up to 10,000 winners will each receive a Season 3 Alpha Passes.",
+        "text32": "Up to 10,000 winners will each receive up to 500 in SAND.",
+        "text33": "There are a total of 5,000,000 SAND prizes offered in the Giveaways, with an estimated total retail value on August 24, 2022, of approximately $5,300,000.",
+        "text34": "All prize values stated herein are in USD. All prizes will be fulfilled via an upload of an Alpha Pass and/or SAND (as applicable) to winner’s cryptocurrency wallet associated with the winner’s account on The Sandbox. Restrictions may apply. Gas fees may apply when you claim your Alpha Pass.",
+        "text35": "DISCLOSURE: THE VALUE OF A DIGITAL TOKEN OR OTHER PRIZE IS SUBJECT TO CHANGE RAPIDLY, AND THERE IS A SUBSTANTIAL RISK THAT ANY SUCH TOKEN OR PRIZE COULD LOSE SOME OR ALL OF ITS  VALUE AS A RESULT OF BUYING, SELLING, OR HOLDING THE PRIZE.",
+        "text36": "Prizes will be fulfilled within approximately six-to-eight weeks of winner verification. The Sponsor assumes no responsibility for undeliverable emails resulting from any errors or for insufficient space in the user's account to receive an email. The Sponsor reserves the right to modify the notification procedures and applicable deadlines for responding in connection with the selection of any alternate winner. If a prize is legitimately claimed, it will be awarded. Upon prize forfeiture or inability to use a portion of the prize thereof, no compensation will be given, and the Sponsor will have no further obligation to that Entrant.",
+        "text37": "Prizes are non-transferable and no substitution will be made except as provided herein at the Sponsor’s sole discretion. The Sponsor reserves the right, where lawful, to substitute a prize for one of equal or greater value if the designated prize should become unavailable for any reason. Prizes consist of only the items specifically listed as part of the prize. In no event will more than the stated number of prizes be awarded. Prize details not specifically stated in these Official Rules will be determined in the Sponsor’s sole discretion. The Sponsor is not responsible for, and will not replace, any lost, damaged, or stolen prize or prize component or any prize that is undeliverable. Entrants waive the right to assert as a cost of winning a prize, any costs associated with claiming or seeking to claim a prize, or using a prize.",
+        "text38": "The Season 3 Giveaways are not available to all persons or at all locations. Citizens and residents of Afghanistan, Australia, Belgium, Belize, Bolivia, Brazil, the province of Quebec (Canada), Cambodia, Chad, China, Colombia, Cuba, Germany, India, Iran, Iraq, Italy, Lebanon, Libya, Myanmar, North Korea, Pakistan, Russia, Singapore, Somalia, Spain, Sweden, Sudan, Syria, Tanzania, Thailand, Turkey, the regions of Crimea, Donetsk and Luhansk in Ukraine, and the states of New York, Florida and Rhode Island in the United States are ineligible to participate in any Giveaway. The preceding list is not exclusive and the Company reserves the right to deny or limit the distribution of any prize and/or the provision of any services to any person or in any location when required by local law or advised by legal counsel, as determined in its sole discretion. Any offer of a prize or service in this Agreement shall be deemed void where prohibited.",
         "text39": {
-            "mainText": "",
-            "0": ""
+            "mainText": "{0}: Winners are solely responsible for any/all applicable taxes related to the prize(s). Each winner will be subject to an onboarding verification process and is required to provide any requested tax reporting information before any prize is awarded. The value of any prize awarded to a winner will be reported for tax purposes as required by law.",
+            "0": "8. Taxes"
         },
         "text40": {
-            "mainText": "",
-            "0": ""
+            "mainText": "{0}: To the extent permitted by law, Entrants/winners agree to release, discharge and hold harmless Released Parties from and against any claim or cause of action or liability (including but not limited to, personal injury, death or damage to or loss of property as well as claims based on publicity rights, defamation and/or invasion of privacy) arising out of or in connection with participation in a Giveaway or acceptance/receipt/use or misuse of any prize, and agree to be bound by the Official Rules and the decisions of the Sponsor and/or Sponsor’s representatives. Acceptance of a prize constitutes permission for the Sponsor and its agencies to use winner’s name, likeness, photograph and/or hometown and state for advertising and trade without further compensation, in any media, worldwide, unless prohibited by law.",
+            "0": "9. Release"
         },
         "text41": {
-            "mainText": "",
-            "0": ""
+            "mainText": "{0}: ANY ATTEMPT BY AN INDIVIDUAL TO DELIBERATELY UNDERMINE THE LEGITIMATE OPERATION OF A GIVEAWAY IS A VIOLATION OF CRIMINAL AND CIVIL LAWS, AND SHOULD SUCH AN ATTEMPT BE MADE, SPONSOR RESERVES THE RIGHT TO SEEK DAMAGES FROM ANY SUCH INDIVIDUAL TO THE FULLEST EXTENT PERMITTED BY LAW. Sponsor will not be responsible for lost, late, damaged, misdirected or mutilated mail, misdirected email, or for any technical problems, faulty, lost, garbled, incomplete, incorrect or mistranscribed data transmissions, incorrect announcements of any kind, malfunctions, technical hardware or software failures of any kind including any injury or damage to any person’s computer/mobile device related to or resulting from participating in or experiencing any materials in connection with this Giveaway. Sponsor is not responsible for malfunctions or breakdown of any network systems, unavailable service connections, lost, incomplete, faulty network connectivity of any kind, failures of any service providers, or any combination thereof, which may limit a person’s ability to participate in a Giveaway. Sponsor reserves the right to suspend, cancel or modify any Giveaway if it cannot be executed as planned for any reason including, but not limited to, if fraud, human error, technical failures, or any other factor impairs the integrity or proper functioning of a Giveaway; or if a virus, bug or other technical problem corrupts the administration, security, or proper play of a Giveawayas determined by Sponsor in its sole discretion. If a Giveaway is so canceled or modified, Sponsor may award prizes from among all eligible Entrants prior to such action and Sponsor shall have no further obligation to any Entrant in connection with the Giveaway. Sponsor reserves the right to prohibit the participation of an individual if fraud or tampering is suspected. In the event there is a discrepancy or inconsistency between disclosures or other statements contained in promotional materials and the terms and conditions of the Official Rules, the Official Rules shall prevail, govern, and control. Sponsor will not be responsible for any typographical or other error in the printing of the offer, administration of a Giveaway or in the announcement of the prizes.",
+            "0": "10. General"
         },
         "text42": {
-            "mainText": "",
-            "0": "",
-            "1": "",
-            "2": ""
+            "mainText": "{0}: Subject to the terms of this Arbitration Agreement (this Section 11 and Appendix 1, below), Entrant and The Sandbox agree that any dispute, claim, or disagreement arising out of or relating in any way to a Giveaway, including any dispute, claim, or cause of action relating to any prizes awarded in a Giveaway, and including any dispute, claim, or cause of action arising out of or related to the interpretation or application of this arbitration provision, including the enforceability, revocability, scope, or validity of this arbitration provision (each, a “{1}”) will be resolved by binding arbitration, rather than in court, except that: Entrant or The Sandbox may seek equitable relief in court for infringement or other misuse of intellectual property rights (such as trademarks, trade dress, domain names, trade secrets, copyrights, and patents). For purposes of this Arbitration Agreement, “Dispute” includes disputes that arose or involve facts that occurred before or after a Giveaway. The full terms of this Arbitration Agreement are set forth in Appendix 1. {2}",
+            "0": "11. Disputes, Class Action Waiver and Agreement to Arbitrate",
+            "1": "Dispute",
+            "2": "Those terms include, among other things, a class action and jury trial waiver. Please read those terms carefully."
         },
         "text43": {
-            "mainText": "",
-            "0": ""
+            "mainText": "{0}: TO THE EXTENT PERMITTED BY LAW, IN NO EVENT SHALL THE RELEASED PARTIES BE LIABLE FOR ANY AMOUNT GREATER THAN (I) THE HIGHEST VALUE OF ANY PRIZE OFFERED IN A GIVEAWAY; OR (II) ANY LOST PROFITS, OR ANY SPECIAL, INCIDENTAL, INDIRECT, INTANGIBLE, OR CONSEQUENTIAL DAMAGES, WHETHER BASED IN CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY, OR OTHERWISE, ARISING OUT OF OR IN CONNECTION WITH A GIVEAWAY, EVEN IF AN AUTHORIZED REPRESENTATIVE OF SPONSOR KNEW OR SHOULD HAVE KNOWN OF THE POSSIBILITY OF SUCH DAMAGES, AND NOTWITHSTANDING THE FAILURE OF ANY AGREED OR OTHER REMEDY OF ITS ESSENTIAL PURPOSE, EXCEPT TO THE EXTENT A FINAL JUDICIAL DETERMINATION IS MADE THAT SUCH DAMAGES WERE THE RESULT OF SPONSOR’S FRAUD OR INTENTIONAL VIOLATION OF LAW.",
+            "0": "12. Limitation of Liability"
         },
         "text44": {
-            "mainText": "",
-            "0": "",
-            "1": ""
+            "mainText": "{0}: Information collected from entrants is subject to The Sandbox’s {1}. Sponsor assures that your information will be kept confidential in accordance with applicable data protection laws and regulations. Data may be shared with a third-party fulfillment company only to administer this Giveaway, verify winners, and fulfill prizes unless you have given your prior express consent to receive additional information from Sponsor or a third party.",
+            "0": "13. Entrant's Personal Information",
+            "1": "Privacy Policy"
         },
         "text45": {
-            "mainText": "",
-            "0": ""
+            "mainText": "{0}: For a list of winners, send a stamped, self-addressed envelope to: The Sandbox Season 3 Giveaway, Winners’ List, ℅ Bacasable UK Limited, 7 Bell Yard, London, England, WC2A 2JR. Requests must be received by December 31, 2022. The winners list will be available after all winners have been verified, please allow eight to ten weeks to complete the verification process.",
+            "0": "14. Winner List"
         },
         "text46": {
-            "mainText": "",
-            "0": ""
+            "mainText": "{0}: Entrant acknowledges that there is a possibility that, subsequent to their involvement with this Giveaway and adherence to these Official Rules they may discover facts or incur or suffer claims which were unknown or unsuspected at the time agreeing to these Official Rules, and which if known by them at that time may have materially affected their decision to enter this Giveaway. Entrants acknowledge and agree that by reason of these Official Rules, and the release contained in the preceding subsections, they are assuming any risk of such unknown facts and such unknown and unsuspected claims.  Entrants acknowledge that they have read these Official Rules and, as such, hereby have been advised of the existence of Section 1542 of the California Civil Code, which provides: “A general release does not extend to claims that the creditor or releasing party does not know or suspect to exist in his or her favor at the time of executing the release and that, if known by him or her, would have materially affected his or her settlement with the debtor or released party.” Entrants expressly waive any and all rights under California Civil Code Section 1542 and under any other federal or state statute or law of similar effect.",
+            "0": "15. Release of Claims (California)"
         },
-        "text47": "",
-        "appendixTitle": "",
+        "text47": "SPONSOR: Bacasable UK Limited, a company organized under the laws of the United Kingdom, with its principal office at 7 Bell Yard, London, England, WC2A 2JR.",
+        "appendixTitle": "Appendix 1 - Dispute and Arbitration Terms",
         "text48": {
-            "mainText": "",
-            "0": ""
+            "mainText": "{0} This Appendix 1 contains the full terms of the Arbitration Agreement. This Arbitration Agreement applies to Disputes defined in Section 11, above.",
+            "0": "1.1."
         },
         "text49": {
-            "mainText": "",
-            "0": ""
+            "mainText": "{0} YOU AND THE SPONSOR HEREBY WAIVE ANY CONSTITUTIONAL AND STATUTORY RIGHTS TO SUE IN COURT AND HAVE A TRIAL IN FRONT OF A JUDGE OR A JURY. You and the Sponsor are instead electing that all Disputes shall be resolved by arbitration under this Arbitration Agreement, except as specified in Section 11, above. There is no judge or jury in arbitration, and court review of an arbitration award is subject to very limited review.",
+            "0": "1.2. Waiver of Judge or Jury Trial."
         },
         "text50": {
-            "mainText": "",
-            "0": ""
+            "mainText": "{0} YOU AND THE SPONSOR AGREE THAT, EXCEPT AS SPECIFIED IN SUBSECTION 1.8 BELOW, EACH OF US MAY BRING CLAIMS AGAINST THE OTHER ONLY ON AN INDIVIDUAL BASIS AND NOT ON A CLASS, REPRESENTATIVE, OR COLLECTIVE BASIS, AND THE PARTIES HEREBY WAIVE ALL RIGHTS TO HAVE ANY DISPUTE BE BROUGHT, HEARD, ADMINISTERED, RESOLVED, OR ARBITRATED ON A CLASS, COLLECTIVE, REPRESENTATIVE, OR MASS ACTION BASIS. ONLY INDIVIDUAL RELIEF IS AVAILABLE, AND DISPUTES OF MORE THAN ONE CUSTOMER OR USER CANNOT BE ARBITRATED OR CONSOLIDATED WITH THOSE OF ANY OTHER CUSTOMER OR USER. Subject to this Arbitration Agreement, the arbitrator may award declaratory or injunctive relief only in favor of the individual party seeking relief and only to the extent necessary to provide relief warranted by the party's individual claim. Nothing in this paragraph is intended to, nor shall it, affect the terms and conditions under the subsection 1.8 entitled “Batch Arbitration.” This subsection does not prevent you or the Sponsor from participating in a class-wide settlement of claims.",
+            "0": "1.3. Waiver of Class and Other Non-Individualized Relief."
         },
         "text51": {
-            "mainText": "",
-            "0": ""
+            "mainText": "{0} If you have a complaint with the Sponsor, you agree to first contact the Sponsor through our support team to attempt to resolve any such dispute amicably. If we cannot resolve the dispute through the Sponsor Support, you agree to use the Formal Complaint Process set forth below before filing any arbitration claim. You must complete the Formal Complaint Process before filing any arbitration. If you do not complete it, then you agree that your claim or action must be dismissed from arbitration.",
+            "0": "1.4. Rules and Forum."
         },
-        "text52": "",
-        "text53": "",
+        "text52": "In the event that the dispute is not resolved through your contact with the Sponsor’s Support, you agree to use our Formal Complaint Process complaint form to describe your dispute, how you would like us to resolve the complaint, and any other relevant information. The complaint form can be requested from the Sponsor’s Customer Support. If you prefer to send a written complaint via mail, please include as much information as possible in describing your complaint and how you would like us to resolve the complaint, including your support case number and any other relevant information to Bacasable UK Limited, 7  Bell Yard London, England WC2A 2JR. We will acknowledge receipt of your complaint form after you submit it. A customer relations agent will review and evaluate your complaint based on the information you have provided and information in the possession of the Sponsor. The Formal Complaint Process is completed when the Sponsor responds to your complaint or 45 business days after the date we receive your complaint, whichever occurs first.",
+        "text53": "If the Formal Complaint Process described above does not resolve satisfactorily within 45 business days after receipt of your complaint form, you and the Sponsor agree that either party shall have the right to finally resolve the Dispute through binding arbitration. The arbitration shall be referred to and finally determined by arbitration under the UNCITRAL Arbitration Rules in force at the date of this agreement, except as modified by this section of this Arbitration Agreement.",
         "text54": {
-            "mainText": "",
-            "0": ""
+            "mainText": "A party who wishes to initiate arbitration must provide the other party with a request for arbitration (the “{0}”). If you initiate the arbitration, you must provide the Sponsor a copy of your Request by email at legal@sandbox.game. The Request must include: (i) the name, telephone number, mailing address, email address of the party seeking arbitration, and the email addresses associated with the applicable account(s) on The Sandbox; (ii) a statement of the legal claims being asserted and the factual bases of those claims; (iii) a description of the remedy sought, including an accurate, good faith calculation of the amount in controversy in United States Dollars; (iv) a statement certifying completion of the Formal Complaint Process described above (if you are the party making the Request); and (v) evidence that the requesting party has paid any necessary filing fees in connection with such arbitration.",
+            "0": "Request"
         },
-        "text55": "",
-        "text56": "",
-        "text57": "",
+        "text55": "If the party requesting arbitration is represented by counsel, the Request shall also include counsel’s name, telephone number, mailing address, and email address. Such counsel must also sign the Request. By signing the Request, counsel certifies to the best of counsel’s knowledge, information, and belief, formed after an inquiry reasonable under the circumstances, that: (i) the Request is not being presented for any improper purpose, such as to harass, cause unnecessary delay, or needlessly increase the cost of dispute resolution; (ii) the claims, defenses and other legal contentions are warranted by existing law or by a nonfrivolous argument for extending, modifying, or reversing existing law or for establishing new law; and (iii) the factual and damages contentions have evidentiary support or, if specifically so identified, will likely have evidentiary support after a reasonable opportunity for further investigation or discovery.",
+        "text56": "Unless you and the Sponsor otherwise agree, the arbitration will be conducted in London, England.",
+        "text57": "You and the Sponsor agree that all materials and documents exchanged during the arbitration proceedings shall be kept confidential and shall not be shared with anyone except the parties’ attorneys, accountants, or business advisors, and then subject to the condition that they agree to keep all materials and documents exchanged during the arbitration proceedings confidential.",
         "text58": {
-            "mainText": "",
-            "0": ""
+            "mainText": "{0} The tribunal shall consist of one arbitrator. If the parties are unable to agree upon an arbitrator within 35 business days of delivery of the Request, then the appointing authority shall be the London Court of International Arbitration (LCIA).",
+            "0": "1.5. Arbitrator."
         },
         "text59": {
-            "mainText": "",
-            "0": ""
+            "mainText": "{0} The arbitrator shall have exclusive authority to resolve any Dispute, including, without limitation, disputes arising out of or related to the interpretation or application of the Arbitration Agreement, including the enforceability, revocability, scope, or validity of the Arbitration Agreement or any portion of the Arbitration Agreement. The arbitration proceeding will not be consolidated with any other matters or joined with any other cases or parties, except as expressly provided in the subsection entitled “Batch Arbitration.” The arbitrator shall issue a written award and statement of decision describing the essential findings and conclusions on which the award is based, including the calculation of any damages awarded. The award of the arbitrator is final and binding upon you and us. Judgment on the arbitration award may be entered in any court having jurisdiction. In any award of damages, the arbitrator shall abide by the “Limitation of Liability” section of these Official Rules (Section 12, above).",
+            "0": "1.6. Authority of Arbitrator."
         },
         "text60": {
-            "mainText": "",
-            "0": ""
+            "mainText": "{0} The parties shall bear their own attorneys’ fees and costs in arbitration unless the arbitrator finds that either the substance of the Dispute or the relief sought in the Request was frivolous or was brought for an improper purpose. If you or the Sponsor need to invoke the authority of a court of competent jurisdiction to compel arbitration, then the party that obtains an order compelling arbitration in such action shall have the right to collect from the other party its reasonable costs, necessary disbursements, and reasonable attorneys' fees incurred in securing an order compelling arbitration. The prevailing party in any court action relating to whether either party has satisfied any condition precedent to arbitration, including the Formal Complaint Process, is entitled to recover their reasonable costs, necessary disbursements, and reasonable attorneys’ fees and costs.",
+            "0": "1.7. Attorneys’ Fees and Costs."
         },
         "text61": {
-            "mainText": "",
-            "0": "",
-            "1": ""
+            "mainText": "{0} To increase the efficiency of administration and resolution of arbitrations, you and the Sponsor agree that in the event that there are 100 or more individual Requests of a substantially similar nature filed against the Sponsor by or with the assistance of the same law firm, group of law firms, or organizations, within a 30 day period (or as soon as possible thereafter), the arbitrator shall: (i) administer the arbitration demands in batches of one 100 Requests per batch (plus, to the extent there are less than 100 Requests left over after the batching described above, a final batch consisting of the remaining Requests); (ii) appoint one arbitrator for each batch; and (iii) provide for the resolution of each batch as a single consolidated arbitration with one set of filing and administrative fees due per side per batch, one procedural calendar, one hearing (if any) in a place to be determined by the arbitrator, and one final award (“{1}”).",
+            "0": "1.8. Batch Arbitration.",
+            "1": "Batch Arbitration"
         },
         "text62": {
-            "mainText": "",
-            "0": ""
+            "mainText": "All parties agree that Requests are of a “substantially similar nature” if they arise out of or relate to the same event or factual scenario and raise the same or similar legal issues and seek the same or similar relief. To the extent the parties disagree on the application of the Batch Arbitration process, the disagreeing party shall advise the arbitrator, and the arbitrator shall appoint a separate arbitrator to determine the applicability of the Batch Arbitration process (“{0}”). In an effort to expedite resolution of any such dispute by the Administrative Arbitrator, the parties agree the Administrative Arbitrator may set forth such procedures as are necessary to resolve any disputes promptly. The Administrative Arbitrator’s fees shall be paid by the Sponsor.",
+            "0": "Administrative Arbitrator"
         },
-        "text63": "",
-        "text64": ""
+        "text63": "You and the Sponsor agree to cooperate in good faith with the arbitrator to implement the Batch Arbitration process, as well as any steps to minimize the time and costs of arbitration.",
+        "text64": "This Batch Arbitration provision shall in no way be interpreted as authorizing a class, collective and/or mass arbitration or action of any kind, or arbitration involving joint or consolidated claims under any circumstances, except as expressly set forth in this provision."
     },
     "noresult": {
-        "title": "이 검색에 대한 결과가 없습니다",
-        "text1": "원하는 것을 찾지 못했다면 언제든지 자신만의 자산을 만들 수 있습니다!",
-        "text2": "무료로 Metaverse 구축을 시작하십시오."
+        "title": "검색 결과가 없습니다.",
+        "text1": "원하는 애셋을 찾지 못했다면 직접 만들어 보세요!",
+        "text2": "무료로 메타버스 만들기"
     }
 }
