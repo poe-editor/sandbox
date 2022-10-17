@@ -2103,6 +2103,17 @@
                         "titleKey4": "What are the official links so I make sure I don’t get scammed?",
                         "descriptionKey4": "Website: {0}\n Twitter: {1}\n Discord: {2}\n Telegram: {3}\n Instagram: {4}\n Facebook: {5}\n YouTube: {6}\n Twitch: {7}\n OpenSea: {8}"
                     }
+                },
+                "14": {
+                    "title": "Leaderboard anti-cheating measures",
+                    "description": "A security is in place to prevent cheating on the leaderboard:",
+                    "bulletPoints": [
+                        "The Sandbox measured the fastest completion time for each quest.",
+                        "We reduced that measurement because our players are more skilled than us! It gives us what is considered a “do-able” time.",
+                        "If a player completes a quest faster than the “do-able” time we will consider the time invalid as it should mean that they are using cheats or completing quests in a non intended way.",
+                        "On the leaderboard only EPs from quests completed in valid times are accounted for.",
+                        "On the Reward tab all EPs count no matter if the time is valid or not."
+                    ]
                 }
             },
             "startsOn": "Starts on {varStartDate}",
@@ -2131,7 +2142,7 @@
                 "head": [
                     "Rank",
                     "Player",
-                    "Ethos Points",
+                    "Validated Ethos Points",
                     "Completition Time",
                     "Prizes"
                 ],
@@ -2141,7 +2152,8 @@
                     "ep": "Finish Season 3 Quests to collect Ethos Points!",
                     "quests": "Repeat Quests to try and get the fastest completion time!",
                     "rewards": "Collect your Reward from the Rewards Page at the end of the season!",
-                    "missing": "You need at least 1 EP (earned by completing a quest) and to have verified your account to appear on the leaderboard."
+                    "missing": "You need at least 1 EP (earned by completing a quest) and to have verified your account to appear on the leaderboard.",
+                    "invalidTimes": "Some of your times are not valid"
                 }
             },
             "rewards": {
@@ -2179,7 +2191,8 @@
                         "column5": "Average Time"
                     },
                     "buggedQuest": "This quest has been removed from time tracking due to a bug",
-                    "top": "Top {0}"
+                    "top": "Top {0}",
+                    "invalidTime": "Your time on that quest is not valid"
                 }
             },
             "banner": {
