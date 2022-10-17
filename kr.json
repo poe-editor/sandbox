@@ -2192,7 +2192,8 @@
                     },
                     "buggedQuest": "해당 퀘스트는 버그로 인해 시간 기록에서 제외되었습니다.",
                     "top": "Top {0}",
-                    "invalidTime": "Your time on that quest is not valid"
+                    "invalidTime": "Your time on that quest is not valid",
+                    "noTimeTracking": "This quest has been removed from time tracking"
                 }
             },
             "banner": {
@@ -3658,7 +3659,8 @@
                 "option3": "메타버스 빌더 고용하기",
                 "option4": "LAND 판매하기",
                 "option5": "LAND 더 알아보기"
-            }
+            },
+            "manageSale": ""
         },
         "onboarding": {
             "title": "더 샌드박스 맵",
