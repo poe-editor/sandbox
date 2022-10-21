@@ -1592,7 +1592,18 @@
                 "completed": "Completed",
                 "missed": "Missed",
                 "newThisWeek": "New This Week",
-                "avatargiveaway": "Avatar Giveaway"
+                "avatargiveaway": "Avatar Giveaway",
+                "live": "LIVE",
+                "now": "NOW",
+                "addCalendar": "Add to Calendar",
+                "specialEvents": "Special Events",
+                "joinNow": "Join Now!",
+                "party": "Party",
+                "news": "News",
+                "promotional": "Promotional",
+                "specialEvent": "Special Event",
+                "event": "Event",
+                "avatarGiveaway": "Avatar Giveaway"
             },
             "rewards": {
                 "alphaSeason": "Alpha Season 3",
@@ -11346,6 +11357,169 @@
                         }
                     }
                 }
+            },
+            "2": {
+                "date": "September 6, 2022 - Game Maker 0.7.2 changelog",
+                "title": "Bug Fixing and Enhancements",
+                "list": {
+                    "0": {
+                        "title": "Bug Fixing",
+                        "subtitle": "Multiple bug fixes have been made to stabilize the product and get some improvements in performance. This fixes affects:",
+                        "list": {
+                            "0": {
+                                "title": "Anticheat Measures: ",
+                                "subtitle": "Timer is no longer affected by local device time and avoid fly glitch triggered by macros."
+                            },
+                            "1": {
+                                "title": "General: ",
+                                "subtitle": "Crashes and Soft blocks."
+                            }
+                        }
+                    }
+                }
+            },
+            "3": {
+                "date": "September 14, 2022 - Game Maker 0.7.3 changelog",
+                "title": "Bug Fixing and Enhancements",
+                "subtitle": "Multiple bug fixes have been made to stabilize the product and get some improvements in performance. This fixes affects:",
+                "list": {
+                    "0": {
+                        "title": "Anticheat Measures: ",
+                        "list": {
+                            "0": "It is no longer possible to move or respawn in between chat dialogs.",
+                            "1": "If an item is dropped, it will subtract the amount from the quest tracker.",
+                            "2": "No event is tracked when a user is in multiple sessions."
+                        }
+                    },
+                    "1": {
+                        "title": "Chat disconnection handling. In case the service fails to connect, it will be shown in the UI to the user."
+                    },
+                    "2": {
+                        "title": "Experiences loading:",
+                        "list": {
+                            "0": "Connection issues fixed",
+                            "1": "Experiences stuck at 90%"
+                        }
+                    },
+                    "3": {
+                        "title": "Visuals & Graphics: ",
+                        "subtitle": "Transparent meshes no longer cast shadows"
+                    },
+                    "4": {
+                        "title": "Updated the force update flow."
+                    },
+                    "5": {
+                        "title": "General: ",
+                        "subtitle": "Crashes and Soft blocks."
+                    }
+                }
+            },
+            "4": {
+                "date": "September 15, 2022 - Game Maker 0.7.4 changelog",
+                "title": "Bug Fixing and Enhancements",
+                "list": {
+                    "0": {
+                        "title": "Bug Fixing",
+                        "subtitle": "",
+                        "list": {
+                            "0": {
+                                "title": "Micro Freezes Fix."
+                            },
+                            "1": {
+                                "title": "Fixed chat bug which caused micro fixed when chat was concurred with many users."
+                            }
+                        }
+                    }
+                }
+            },
+            "5": {
+                "date": "September 22, 2022 - Game Maker 0.7.5 changelog",
+                "title": "Bug Fixing and Enhancements",
+                "list": {
+                    "0": {
+                        "title": "Bug Fixing",
+                        "subtitle": "Multiple bug fixes have been made to stabilize the product and get some improvements in performance. These fixes affect:",
+                        "list": {
+                            "0": {
+                                "title": "MAC loading freeze/crash fix."
+                            },
+                            "1": {
+                                "title": "New icons in launcher."
+                            },
+                            "2": {
+                                "title": "Added HUD section to the controls list: ",
+                                "subtitle": "Show/Hide UI and Quests."
+                            },
+                            "3": {
+                                "title": "Fix for jump height of avatar."
+                            },
+                            "4": {
+                                "title": "Saving experiences on Game Maker fix."
+                            },
+                            "5": {
+                                "title": "Missing Game Events."
+                            }
+                        }
+                    }
+                }
+            },
+            "6": {
+                "date": "September 26, 2022 - Game Maker 0.7.6 changelog",
+                "title": "Bug Fixing and Enhancements",
+                "list": {
+                    "0": {
+                        "title": "Bug Fixing",
+                        "subtitle": "",
+                        "list": {
+                            "0": {
+                                "title": "Micro Freezes Fix."
+                            },
+                            "1": {
+                                "title": "Fixed chat bug which caused micro fixed when chat was concurred with many users."
+                            }
+                        }
+                    }
+                }
+            },
+            "7": {
+                "date": "October 6, 2022 - Game Maker 0.7.7 changelog",
+                "title": "Bug Fixing and Enhancements",
+                "list": {
+                    "0": {
+                        "title": "Bug Fixing",
+                        "subtitle": "",
+                        "list": {
+                            "0": {
+                                "title": "Jumping height was fix to accommodate certain experiences that were failing."
+                            },
+                            "1": {
+                                "title": "Overall crash fixes in experiences."
+                            },
+                            "2": {
+                                "title": "Chat connection/freeze fixes."
+                            },
+                            "3": {
+                                "title": "Infinite loading in experiences fix."
+                            }
+                        }
+                    }
+                }
+            },
+            "8": {
+                "date": "October 14, 2022 - Game Maker 0.7.8 changelog",
+                "title": "Bug Fixing and Enhancements",
+                "list": {
+                    "0": {
+                        "title": "Bug Fixing",
+                        "subtitle": "",
+                        "list": {
+                            "0": {
+                                "title": "Micro Freezes Patch: ",
+                                "subtitle": "Fixed disconnection bug which caused micro freezes."
+                            }
+                        }
+                    }
+                }
             }
         }
     },
@@ -13412,6 +13586,8 @@
         "compPercentage": "Comp.%",
         "revenue": "Revenue",
         "views": "Views",
-        "transactionsSales": "Transactions / Sales"
+        "transactionsSales": "Transactions / Sales",
+        "items": "Items",
+        "asset": "ASSET"
     }
 }
