@@ -1592,7 +1592,18 @@
                 "completed": "완료",
                 "missed": "참여하지 않음",
                 "newThisWeek": "이번 주의 신규 이벤트",
-                "avatargiveaway": "아바타 기브어웨이"
+                "avatargiveaway": "아바타 기브어웨이",
+                "live": "LIVE",
+                "now": "NOW",
+                "addCalendar": "Add to Calendar",
+                "specialEvents": "",
+                "joinNow": "Join Now!",
+                "party": "Party",
+                "news": "News",
+                "promotional": "Promotional",
+                "specialEvent": "Special Event",
+                "event": "Event",
+                "avatarGiveaway": "Avatar Giveaway"
             },
             "rewards": {
                 "alphaSeason": "알파 시즌 3",
@@ -2193,7 +2204,7 @@
                     "buggedQuest": "해당 퀘스트는 버그로 인해 시간 기록에서 제외되었습니다.",
                     "top": "Top {0}",
                     "invalidTime": "Your time on that quest is not valid",
-                    "noTimeTracking": "This quest has been removed from time tracking"
+                    "noTimeTracking": "이 퀘스트의 완료 시간은 기록에 포함되지 않습니다."
                 }
             },
             "banner": {
@@ -3644,7 +3655,7 @@
             "tokenId": "토큰 ID",
             "type": "유형",
             "chain": "체인",
-            "ethereum": "Ethereum",
+            "ethereum": "이더리움",
             "polygon": "Polygon",
             "goerli": "Goerli",
             "rinkeby": "Rinkeby",
@@ -4000,8 +4011,8 @@
             },
             "chain": {
                 "title": "체인",
-                "ethereum": "Ethereum",
-                "polygon": "Polygon"
+                "ethereum": "이더리움",
+                "polygon": "폴리곤"
             },
             "tags": {
                 "sand": "통화: SAND",
@@ -4011,8 +4022,8 @@
                 "dai": "통화: DAI",
                 "regular": "일반",
                 "premium": "프리미엄",
-                "ethereum": "체인: Ethereum",
-                "polygon": "체인: Polygon"
+                "ethereum": "체인: 이더리움",
+                "polygon": "체인: 폴리곤"
             },
             "partners": {
                 "title": "파트너",
@@ -6848,7 +6859,7 @@
             "payGasWith": "Pay gas with:",
             "estimatedGas": "예상 가스비",
             "polygonNetwork": "폴리곤",
-            "ethereumNetwork": "Ethereum",
+            "ethereumNetwork": "이더리움",
             "action-desc-deposit-single": "SAND 획득하기",
             "footer-text-deposit-single": "이 트랜잭션은 선택한 수량의 SAND를 예치합니다. 총 예치금이 올라갑니다.",
             "footer-text-claim-single": "이 트랜잭션은 지갑으로 현재 SAND 리워드를 청구합니다.",
@@ -6943,7 +6954,7 @@
         },
         "network": {
             "polygon": "Polygon",
-            "ethereum": "Ethereum"
+            "ethereum": "이더리움"
         },
         "exitOnDeprecationLP": "이자를 모두 수령하고 모든 LP를 회수하세요.",
         "discontinued": "정지됨",
@@ -11344,6 +11355,169 @@
                         }
                     }
                 }
+            },
+            "2": {
+                "date": "2022년 9월 6일 - 게임 메이커 0.7.2 변경 내역",
+                "title": "버그 수정 및 개선",
+                "list": {
+                    "0": {
+                        "title": "버그 수정",
+                        "subtitle": "안정화 및 성능 향상을 위한 여러 버그 수정 작업이 진행되었습니다. 이 수정을 통해 다음과 같은 이슈가 해결되었습니다.",
+                        "list": {
+                            "0": {
+                                "title": "부정행위 방지 조치: ",
+                                "subtitle": "Timer is no longer affected by local device time and avoid fly glitch triggered by macros."
+                            },
+                            "1": {
+                                "title": "일반: ",
+                                "subtitle": "Crashes and Soft blocks."
+                            }
+                        }
+                    }
+                }
+            },
+            "3": {
+                "date": "2022년 9월 14일 - 게임 메이커 0.7.3 변경 내역",
+                "title": "버그 수정 및 개선",
+                "subtitle": "안정화 및 성능 향상을 위한 여러 버그 수정 작업이 진행되었습니다. 이 수정을 통해 다음과 같은 이슈가 해결되었습니다.",
+                "list": {
+                    "0": {
+                        "title": "부정행위 방지 조치: ",
+                        "list": {
+                            "0": "It is no longer possible to move or respawn in between chat dialogs.",
+                            "1": "If an item is dropped, it will subtract the amount from the quest tracker.",
+                            "2": "No event is tracked when a user is in multiple sessions."
+                        }
+                    },
+                    "1": {
+                        "title": "Chat disconnection handling. In case the service fails to connect, it will be shown in the UI to the user."
+                    },
+                    "2": {
+                        "title": "경험 로딩:",
+                        "list": {
+                            "0": "연결 이슈 해결",
+                            "1": "Experiences stuck at 90%"
+                        }
+                    },
+                    "3": {
+                        "title": "비주얼 및 그래픽: ",
+                        "subtitle": "Transparent meshes no longer cast shadows"
+                    },
+                    "4": {
+                        "title": "Updated the force update flow."
+                    },
+                    "5": {
+                        "title": "일반: ",
+                        "subtitle": "Crashes and Soft blocks."
+                    }
+                }
+            },
+            "4": {
+                "date": "2022년 9월 15일 - 게임 메이커 0.7.4 변경 내역",
+                "title": "버그 수정 및 개선",
+                "list": {
+                    "0": {
+                        "title": "버그 수정",
+                        "subtitle": "",
+                        "list": {
+                            "0": {
+                                "title": "Micro Freezes Fix."
+                            },
+                            "1": {
+                                "title": "Fixed chat bug which caused micro fixed when chat was concurred with many users."
+                            }
+                        }
+                    }
+                }
+            },
+            "5": {
+                "date": "2022년 9월 22일 - 게임 메이커 0.7.5 변경 내역",
+                "title": "버그 수정 및 개선",
+                "list": {
+                    "0": {
+                        "title": "버그 수정",
+                        "subtitle": "안정화 및 성능 향상을 위한 여러 버그 수정 작업이 진행되었습니다. 이 수정을 통해 다음과 같은 이슈가 해결되었습니다.",
+                        "list": {
+                            "0": {
+                                "title": "MAC에서 플레이 시 로딩 멈춤/충돌 현상 수정 해결"
+                            },
+                            "1": {
+                                "title": "런처에 신규 아이콘 추가"
+                            },
+                            "2": {
+                                "title": "Added HUD section to the controls list: ",
+                                "subtitle": "UI와 퀘스트 보이기/숨기기"
+                            },
+                            "3": {
+                                "title": "아바타 점프 높이 수정"
+                            },
+                            "4": {
+                                "title": "Saving experiences on Game Maker fix."
+                            },
+                            "5": {
+                                "title": "Missing Game Events."
+                            }
+                        }
+                    }
+                }
+            },
+            "6": {
+                "date": "2022년 9월 26일 - 게임 메이커 0.7.6 변경 내역",
+                "title": "버그 수정 및 개선",
+                "list": {
+                    "0": {
+                        "title": "버그 수정",
+                        "subtitle": "",
+                        "list": {
+                            "0": {
+                                "title": "Micro Freezes Fix."
+                            },
+                            "1": {
+                                "title": "Fixed chat bug which caused micro fixed when chat was concurred with many users."
+                            }
+                        }
+                    }
+                }
+            },
+            "7": {
+                "date": "2022년 10월 6일 - 게임 메이커 0.7.7 변경 내역",
+                "title": "버그 수정 및 개선",
+                "list": {
+                    "0": {
+                        "title": "버그 수정",
+                        "subtitle": "",
+                        "list": {
+                            "0": {
+                                "title": "특정 경험 내 문제가 있었던 점프 높이 문제 수정"
+                            },
+                            "1": {
+                                "title": "경험 내 전체적인 충돌 현상 해결"
+                            },
+                            "2": {
+                                "title": "채팅 연결 오류/프리즈 현상 해결"
+                            },
+                            "3": {
+                                "title": "경험 무한 로딩 현상 해결"
+                            }
+                        }
+                    }
+                }
+            },
+            "8": {
+                "date": "2022년 10월 14일 - 게임 메이커 0.7.8 변경 내역",
+                "title": "버그 수정 및 개선",
+                "list": {
+                    "0": {
+                        "title": "버그 수정",
+                        "subtitle": "",
+                        "list": {
+                            "0": {
+                                "title": "Micro Freezes Patch: ",
+                                "subtitle": "Fixed disconnection bug which caused micro freezes."
+                            }
+                        }
+                    }
+                }
             }
         }
     },
@@ -13281,16 +13455,16 @@
     },
     "IPAnalytics": {
         "theSandboxGameAnalytics": "더 샌드박스 - 분석",
-        "analytics": "Analytics",
+        "analytics": "분석",
         "pages": {
-            "market": "Market Analysis",
+            "market": "마켓 분석",
             "revenue": "수익",
             "experience": "경험"
         },
         "markets": {
             "tsbMarketplace": "TSB 마켓플레이스",
-            "secondary": "Secondary",
-            "all": "All",
+            "secondary": "2차",
+            "all": "전체",
             "openSea": "OpenSea"
         },
         "activations": {
@@ -13349,16 +13523,16 @@
             }
         },
         "cancel": "취소",
-        "setDate": "Set Date",
+        "setDate": "설정 일자",
         "errors": {
-            "partnerInfo": "No partner info, please reload the page",
-            "totalSales": "Error while updating Total Sales",
-            "dailySales": "Error while updating Daily Sales",
-            "topSellersBuyers": "Error while updating Top Sellers and Buyers",
-            "recentSales": "Error while updating Recent Sales",
+            "partnerInfo": "파트너 정보가 없습니다. 페이지를 새로고침 해 주세요.",
+            "totalSales": "총 판매 수 업데이트 중 에러가 발생했습니다.",
+            "dailySales": "일일 판매 수 업데이트 중 에러가 발생했습니다.",
+            "topSellersBuyers": "상위 판매자 및 구매자 정보 업데이트 중 에러가 발생했습니다.",
+            "recentSales": "최근 판매 내역 업데이트 중 에러가 발생했습니다.",
             "highestSales": "Error while updating Highest Sales"
         },
-        "transactionDate": "Transaction date",
+        "transactionDate": "트랜잭션 일자",
         "tokenId": "토큰 ID",
         "date": "일자",
         "numberOfSales": "판매 수",
@@ -13366,25 +13540,25 @@
         "highestSale": "최고 판매가",
         "owners": "소유자",
         "volumeTraded": "거래된 수량",
-        "averageTransactionsPerDay": "AVG Transactions/Day",
-        "transactionsPerDay": "Transactions / Day",
-        "highLvlPrice&Volume": "Price & Volume",
-        "highLvlPrice&VolumeSubtitle": "",
-        "salesPrice": "Sales Price",
-        "salesVolume": "Sales Volume",
-        "volume": "Volume",
-        "transactionsOverview": "Transactions Overview",
+        "averageTransactionsPerDay": "평균 트랜잭션/일",
+        "transactionsPerDay": "트랜잭션 / 일",
+        "highLvlPrice&Volume": "가격 & 수량",
+        "highLvlPrice&VolumeSubtitle": "highLvlPrice&VolumeSubtitle",
+        "salesPrice": "판매 가격",
+        "salesVolume": "판매 수량",
+        "volume": "수량",
+        "transactionsOverview": "트랜잭션 개요",
         "transactionsOverviewSubtitle": "transactionsOverviewSubtitle",
-        "transactions": "Transactions",
+        "transactions": "트랜잭션",
         "holdersOverTime": "Holders Over Time",
         "uniqueHolders": "Unique Holders",
-        "topHolders": "Top Holders",
+        "topHolders": "상위 보유자",
         "distribution": "Distribution",
-        "units": "Units",
+        "units": "유닛",
         "highestTransaction": "Highest Tx",
         "percentageOfSupple": "% of Supply",
-        "latest": "Latest",
-        "highest": "Highest",
+        "latest": "최신",
+        "highest": "최고",
         "nfts": "애셋",
         "tokenID": "토큰 ID",
         "market": "마켓",
@@ -13398,18 +13572,20 @@
         "price": "가격",
         "rarityRank": "희귀도 순위",
         "assetsTypes": "애셋 유형",
-        "type": "Type",
-        "numberOfUnits": "# of Units",
-        "averagePrice": "AVG Price",
+        "type": "유형",
+        "numberOfUnits": "유닛 수",
+        "averagePrice": "평균 가격",
         "totalRevenue": "총 수익",
-        "primary": "Primary",
-        "secondary": "Secondary",
-        "primaryMarketSales": "Primary Market Sales",
-        "secondaryMarketSales": "Secondary Market Sales",
-        "unitsSold": "Units Sold",
+        "primary": "1차",
+        "secondary": "2차",
+        "primaryMarketSales": "1차 마켓 판매",
+        "secondaryMarketSales": "2차 마켓 판매",
+        "unitsSold": "판매된 유닛",
         "compPercentage": "Comp.%",
-        "revenue": "Revenue",
-        "views": "Views",
-        "transactionsSales": "Transactions / Sales"
+        "revenue": "수익",
+        "views": "조회 수",
+        "transactionsSales": "트랜잭션 / 판매",
+        "items": "아이템",
+        "asset": "애셋"
     }
 }
