@@ -3215,9 +3215,9 @@
                     }
                 },
                 "claims": {
-                    "bannerTitle": "LAND Sahipleri Talebi",
-                    "bannerSubtitle1": "LAND sahiplerimize değer katmaya devam ediyoruz",
-                    "bannerSubtitle2": "LAND Sahibi için YOL HARİTASI 2022",
+                    "bannerTitle": "Claims",
+                    "bannerSubtitle1": "Whether you have won a contest or you are just eligible to a giveaway,",
+                    "bannerSubtitle2": "you can claim your ASSET or your SAND on this page.",
                     "bannerSubtitle3": "LAND sahibi için SAND Airdrop",
                     "checkButtonText": "Talebinizi kontrol edin",
                     "landOwner": {
@@ -3303,7 +3303,11 @@
                                 "text2": "Yerel Buluşmalar düzenleyin ve finanse edin"
                             }
                         }
-                    }
+                    },
+                    "landOwnerBannerTitle": "",
+                    "landOwnerBannerSubtitle1": "",
+                    "landOwnerBannerSubtitle2": "",
+                    "landOwnerBannerSubtitle3": ""
                 }
             },
             "changelog": "Değişiklik Günlüğü",
@@ -4469,7 +4473,10 @@
                     "lastCard": "Sonuncusu!",
                     "unique": "Eşsiz"
                 },
-                "onPublished": "Yayınlandı ({amount})"
+                "onPublished": "Yayınlandı ({amount})",
+                "connectWalletText": "There are no assets associated with this profile.",
+                "connectWalletSubText": "Connect your wallet to add Assets",
+                "connectWalletButton": "Connect my Wallet"
             },
             "getSandLine": {
                 "line": "{0}{1}{2} {3}",
@@ -5137,9 +5144,9 @@
             "goToDiscord": "Discord",
             "noClaims": "Talep yok",
             "bannerSubtitle": "Bugün kazanmaya başlayın! Neler olduğunu öğrenmek için bizi sosyal medya kanallarımızdan takip edin.",
-            "bannerTitle": "LAND Sahipleri Talebi",
-            "bannerSubtitle1": "LAND sahiplerimize değer katmaya devam ediyoruz",
-            "bannerSubtitle2": "LAND Sahibi için YOL HARİTASI 2022",
+            "bannerTitle": "Claims",
+            "bannerSubtitle1": "Whether you have won a contest or you are just eligible to a giveaway,",
+            "bannerSubtitle2": "you can claim your ASSET or your SAND on this page.",
             "bannerSubtitle3": "LAND sahibi için SAND Airdrop",
             "checkButtonText": "Talebinizi kontrol edin",
             "landOwner": {
@@ -5232,7 +5239,11 @@
                         "text2": "Yerel Buluşmalar düzenleyin ve finanse edin"
                     }
                 }
-            }
+            },
+            "landOwnerBannerTitle": "",
+            "landOwnerBannerSubtitle1": "",
+            "landOwnerBannerSubtitle2": "",
+            "landOwnerBannerSubtitle3": ""
         },
         "tag-new": "YENİ",
         "tagNew": "YENİ",
