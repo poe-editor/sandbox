@@ -3215,9 +3215,9 @@
                     }
                 },
                 "claims": {
-                    "bannerTitle": "LAND Owners Claim",
-                    "bannerSubtitle1": "We continue to bring value to our land owners",
-                    "bannerSubtitle2": "ROADMAP 2022 for LAND Owner",
+                    "bannerTitle": "Claims",
+                    "bannerSubtitle1": "Whether you have won a contest or you are just eligible to a giveaway,",
+                    "bannerSubtitle2": "you can claim your ASSET or your SAND on this page.",
                     "bannerSubtitle3": "SAND Airdrop for LAND owner",
                     "checkButtonText": "Check your Claim",
                     "landOwner": {
@@ -3303,7 +3303,11 @@
                                 "text2": "Organize and finance local Meetups"
                             }
                         }
-                    }
+                    },
+                    "landOwnerBannerTitle": "",
+                    "landOwnerBannerSubtitle1": "",
+                    "landOwnerBannerSubtitle2": "",
+                    "landOwnerBannerSubtitle3": ""
                 }
             },
             "changelog": "更新日志",
@@ -4469,7 +4473,10 @@
                     "lastCard": "Last One!",
                     "unique": "Unique"
                 },
-                "onPublished": "Published ({amount})"
+                "onPublished": "Published ({amount})",
+                "connectWalletText": "There are no assets associated with this profile.",
+                "connectWalletSubText": "Connect your wallet to add Assets",
+                "connectWalletButton": "Connect my Wallet"
             },
             "getSandLine": {
                 "line": "{0}{1}{2} {3}",
@@ -5137,9 +5144,9 @@
             "goToDiscord": "Discord",
             "noClaims": "无可获取物品",
             "bannerSubtitle": "获得真实的边玩边赚体验。在你的社交媒体上关注我们，了解我们的最新动态。敬请关注，别错过你在《The Sandbox》中可以获得的所有福利",
-            "bannerTitle": "LAND Owners Claim",
-            "bannerSubtitle1": "We continue to bring value to our LAND owners",
-            "bannerSubtitle2": "ROADMAP 2022 for LAND Owner",
+            "bannerTitle": "Claims",
+            "bannerSubtitle1": "Whether you have won a contest or you are just eligible to a giveaway,",
+            "bannerSubtitle2": "you can claim your ASSET or your SAND on this page.",
             "bannerSubtitle3": "SAND Airdrop for LAND owner",
             "checkButtonText": "Check your Claim",
             "landOwner": {
@@ -5232,7 +5239,11 @@
                         "text2": "Organize and finance local Meetups"
                     }
                 }
-            }
+            },
+            "landOwnerBannerTitle": "",
+            "landOwnerBannerSubtitle1": "",
+            "landOwnerBannerSubtitle2": "",
+            "landOwnerBannerSubtitle3": ""
         },
         "tag-new": "NEW",
         "tagNew": "NEW",
