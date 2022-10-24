@@ -632,7 +632,7 @@
                 "signInPlay": "플레이하려면 로그인하세요",
                 "collections": "NFT 컬렉션",
                 "feedback": "경험에 피드백 남기기",
-                "noProgression": "No EP to earn",
+                "noProgression": "획득 가능 EP 없음",
                 "creatorTooltip": "크리에이터에게 문의하기"
             },
             "loading": {
@@ -1595,16 +1595,16 @@
                 "avatargiveaway": "아바타 기브어웨이",
                 "live": "LIVE",
                 "now": "NOW",
-                "addCalendar": "Add to Calendar",
-                "specialEvents": "",
-                "joinNow": "Join Now!",
-                "party": "Party",
-                "news": "News",
-                "promotional": "Promotional",
-                "specialEvent": "Special Event",
-                "event": "Event",
-                "avatarGiveaway": "Avatar Giveaway",
-                "ended": "Ended"
+                "addCalendar": "캘린더에 추가",
+                "specialEvents": "스페셜 이벤트",
+                "joinNow": "지금 참여하세요!",
+                "party": "파티",
+                "news": "뉴스",
+                "promotional": "프로모션",
+                "specialEvent": "스페셜 이벤트",
+                "event": "이벤트",
+                "avatarGiveaway": "아바타 기브어웨이",
+                "ended": "종료"
             },
             "rewards": {
                 "alphaSeason": "알파 시즌 3",
@@ -1652,7 +1652,7 @@
                 "raffleRewards": "추첨 리워드",
                 "raffleTooltip": "시즌 3 알파 패스 보유 시 추첨에 당첨됩니다",
                 "leaderboardDisclaimer": "시즌 종료 1주 후에 리더보드 리워드를 수령할 수 있으며, 이 기간 동안 부정행위자 필터링 및 버그 퀘스트 삭제가 진행됩니다.",
-                "linkGiveawaysRules": "Please see additional information and Official Rules here"
+                "linkGiveawaysRules": "여기를 클릭하여 추가 정보와 공식 규칙 확인하기"
             },
             "summary": {
                 "rewardsSummary": "리워드 요약",
@@ -2668,7 +2668,7 @@
             "add": "위시리스트에 추가",
             "remove": "위시리스트에서 삭제"
         },
-        "notMinted": "Not minted"
+        "notMinted": "민팅되지 않음"
     },
     "create": {
         "meta": {
@@ -3215,9 +3215,9 @@
                     }
                 },
                 "claims": {
-                    "bannerTitle": "LAND 보유자를 위한 보상 수령하기",
-                    "bannerSubtitle1": "더 샌드박스는 지속적으로 LAND 보유자를 위한 가치를 제공합니다.",
-                    "bannerSubtitle2": "LAND 보유자를 위한 2022 로드맵",
+                    "bannerTitle": "Claims",
+                    "bannerSubtitle1": "Whether you have won a contest or you are just eligible to a giveaway,",
+                    "bannerSubtitle2": "you can claim your ASSET or your SAND on this page.",
                     "bannerSubtitle3": "LAND 보유자를 위한 SAND 에어드롭",
                     "checkButtonText": "내 보상 내역 확인하기",
                     "landOwner": {
@@ -3303,7 +3303,11 @@
                                 "text2": "로컬 밋업 구성 및 자금 조달"
                             }
                         }
-                    }
+                    },
+                    "landOwnerBannerTitle": "",
+                    "landOwnerBannerSubtitle1": "",
+                    "landOwnerBannerSubtitle2": "",
+                    "landOwnerBannerSubtitle3": ""
                 }
             },
             "changelog": "변경 내역",
@@ -4469,7 +4473,10 @@
                     "lastCard": "마지막 수량!",
                     "unique": "Unique"
                 },
-                "onPublished": "게시됨 ({amount})"
+                "onPublished": "게시됨 ({amount})",
+                "connectWalletText": "There are no assets associated with this profile.",
+                "connectWalletSubText": "Connect your wallet to add Assets",
+                "connectWalletButton": "Connect my Wallet"
             },
             "getSandLine": {
                 "line": "{0}{1}{2} {3}",
@@ -5137,9 +5144,9 @@
             "goToDiscord": "디스코드",
             "noClaims": "수령할 대상이 없습니다",
             "bannerSubtitle": "지금 바로 수익을 획득해 보세요! 더 샌드박스 소셜 미디어 채널을 팔로우하고 최신 소식을 놓치지 마세요.",
-            "bannerTitle": "LAND 보유자를 위한 보상 수령하기",
-            "bannerSubtitle1": "더 샌드박스는 지속적으로 LAND 보유자를 위한 가치를 제공합니다.",
-            "bannerSubtitle2": "LAND 보유자를 위한 2022 로드맵",
+            "bannerTitle": "Claims",
+            "bannerSubtitle1": "Whether you have won a contest or you are just eligible to a giveaway,",
+            "bannerSubtitle2": "you can claim your ASSET or your SAND on this page.",
             "bannerSubtitle3": "LAND 보유자를 위한 SAND 에어드롭",
             "checkButtonText": "내 보상 내역 확인하기",
             "landOwner": {
@@ -5232,7 +5239,11 @@
                         "text2": "로컬 밋업 구성 및 자금 조달"
                     }
                 }
-            }
+            },
+            "landOwnerBannerTitle": "",
+            "landOwnerBannerSubtitle1": "",
+            "landOwnerBannerSubtitle2": "",
+            "landOwnerBannerSubtitle3": ""
         },
         "tag-new": "NEW",
         "tagNew": "NEW",
@@ -11368,7 +11379,7 @@
                         "list": {
                             "0": {
                                 "title": "부정행위 방지 조치: ",
-                                "subtitle": "Timer is no longer affected by local device time and avoid fly glitch triggered by macros."
+                                "subtitle": "디바이스의 로컬 타임에 타이머가 영향을 받지 않으며 매크로로 인해 발생한 비행 글리치 수정"
                             },
                             "1": {
                                 "title": "일반: ",
@@ -11423,10 +11434,10 @@
                         "subtitle": "",
                         "list": {
                             "0": {
-                                "title": "Micro Freezes Fix."
+                                "title": "프리징 현상 해결"
                             },
                             "1": {
-                                "title": "Fixed chat bug which caused micro fixed when chat was concurred with many users."
+                                "title": "다수의 유저가 참여하는 경험에서 발생하는 채팅 버그 현상 해결"
                             }
                         }
                     }
@@ -11454,7 +11465,7 @@
                                 "title": "아바타 점프 높이 수정"
                             },
                             "4": {
-                                "title": "Saving experiences on Game Maker fix."
+                                "title": "게임 메이커에서 제작한 경험을 제작할 때 발생했던 문제 수정"
                             },
                             "5": {
                                 "title": "Missing Game Events."
@@ -11472,10 +11483,10 @@
                         "subtitle": "",
                         "list": {
                             "0": {
-                                "title": "Micro Freezes Fix."
+                                "title": "프리징 현상 해결"
                             },
                             "1": {
-                                "title": "Fixed chat bug which caused micro fixed when chat was concurred with many users."
+                                "title": "다수의 유저가 참여하는 경험에서 발생하는 채팅 버그 현상 해결"
                             }
                         }
                     }
@@ -11514,8 +11525,8 @@
                         "subtitle": "",
                         "list": {
                             "0": {
-                                "title": "Micro Freezes Patch: ",
-                                "subtitle": "Fixed disconnection bug which caused micro freezes."
+                                "title": "프리징 현상 패치: ",
+                                "subtitle": "마이크로 프리즈를 유발하는 연결 끊김 버그 수정"
                             }
                         }
                     }
@@ -11986,7 +11997,7 @@
                     "stepCommonInfo": "This is the first tier for NFT. They have limited use in the Game Maker and generate little Ethos Points.",
                     "stepRareInfo": "Rare NFT have increased Game Maker usage and rewards more Ethos Point.",
                     "stepEpicInfo": "Epic NFT have access to almost all Game Maker functionalities and can reward Catalyst and Gems.",
-                    "stepLegendaryInfo": "This is the first tier for NFT. They have limited use in the Game Maker and generate little Ethos Point.",
+                    "stepLegendaryInfo": "원하는 어떤 것이는 레전더리 NFT로 만들 수 있으며, 리워드로 활용할 수도 있습니다.",
                     "stepPropInfo": "Art NFT have no special capcities in the Game Maker but allow you to maje unique pieces to showcase your talent.",
                     "stepArtInfo": "Art NFT have no special capcities in the Game Maker but allow you to maje unique pieces to showcase your talent.",
                     "uploadAsset": "애셋 업로드",
@@ -13532,7 +13543,7 @@
             "dailySales": "일일 판매 수 업데이트 중 에러가 발생했습니다.",
             "topSellersBuyers": "상위 판매자 및 구매자 정보 업데이트 중 에러가 발생했습니다.",
             "recentSales": "최근 판매 내역 업데이트 중 에러가 발생했습니다.",
-            "highestSales": "Error while updating Highest Sales"
+            "highestSales": "최고 판매가 내역 업데이트 중 에러가 발생했습니다."
         },
         "transactionDate": "트랜잭션 일자",
         "tokenId": "토큰 ID",
