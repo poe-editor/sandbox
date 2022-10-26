@@ -793,7 +793,7 @@
                     "communityBoosterDescription1": "스테이킹하여 총 상금 풀을 최대 100%까지 늘려 보세요.",
                     "communityBoosterDescription2": "총 상금 풀을 최대 100%까지 늘려 보세요.",
                     "communityBoosterDescription3": "스테이킹하면 최대 200개의 추첨 티켓",
-                    "raffleHasPass": "수령까지 남은 일수",
+                    "raffleHasPass": "일 후 리워드 획득 가능",
                     "raffleHasPassDesc": "You own a S3 Alpha Pass",
                     "communityBoosterDescription": "$SAND를 스테이킹하여 총 상금 풀을 늘리세요. 모두의 $SAND 리워드에 커뮤니티 부스터가 적용됩니다. 더 많이 스테이킹할수록, 획득할 수 있는 리워드가 늘어납니다. 또한 추가 추첨 티켓도 획득할 수 있습니다.",
                     "enterThePartyDescription": "3월 24일 목요일 오후 7시 VIP 파티에 참여하세요",
@@ -2154,7 +2154,7 @@
                 "head": [
                     "순위",
                     "플레이어",
-                    "Validated Ethos Points",
+                    "유효한 에토스 포인트",
                     "완료 시간",
                     "보상"
                 ],
@@ -2621,7 +2621,7 @@
             "totalOnNetwork1": "총",
             "totalOnNetwork2": "네트워크",
             "network": "네트워크",
-            "polygon": "다각형",
+            "polygon": "폴리곤",
             "ethereum": "이더리움",
             "disabledReason": "이더리움 머지로 인해 트랜잭션이 일시적으로 불가합니다."
         },
@@ -3304,10 +3304,10 @@
                             }
                         }
                     },
-                    "landOwnerBannerTitle": "",
-                    "landOwnerBannerSubtitle1": "",
-                    "landOwnerBannerSubtitle2": "",
-                    "landOwnerBannerSubtitle3": ""
+                    "landOwnerBannerTitle": "LAND 보유자 수령하기",
+                    "landOwnerBannerSubtitle1": "더 샌드박스는 LAND 보유자 여러분들께 지속적인 가치를 전달드릴 것입니다.",
+                    "landOwnerBannerSubtitle2": "LAND 보유자를 위한 2022 로드맵",
+                    "landOwnerBannerSubtitle3": "LAND 보유자를 위한 SAND 에어드롭"
                 }
             },
             "changelog": "변경 내역",
@@ -3662,7 +3662,7 @@
             "type": "유형",
             "chain": "체인",
             "ethereum": "이더리움",
-            "polygon": "Polygon",
+            "polygon": "폴리곤",
             "goerli": "Goerli",
             "rinkeby": "Rinkeby",
             "mumbai": "Mumbai",
@@ -4474,9 +4474,9 @@
                     "unique": "Unique"
                 },
                 "onPublished": "게시됨 ({amount})",
-                "connectWalletText": "There are no assets associated with this profile.",
-                "connectWalletSubText": "Connect your wallet to add Assets",
-                "connectWalletButton": "Connect my Wallet"
+                "connectWalletText": "이 프로필에 연결된 애셋이 없습니다.",
+                "connectWalletSubText": "애셋을 추가하려면 지갑을 연결하세요.",
+                "connectWalletButton": "내 지갑 연결하기"
             },
             "getSandLine": {
                 "line": "{0}{1}{2} {3}",
@@ -5240,10 +5240,10 @@
                     }
                 }
             },
-            "landOwnerBannerTitle": "",
-            "landOwnerBannerSubtitle1": "",
-            "landOwnerBannerSubtitle2": "",
-            "landOwnerBannerSubtitle3": ""
+            "landOwnerBannerTitle": "LAND 보유자 수령하기",
+            "landOwnerBannerSubtitle1": "더 샌드박스는 LAND 보유자 여러분들께 지속적인 가치를 전달드릴 것입니다.",
+            "landOwnerBannerSubtitle2": "LAND 보유자를 위한 2022 로드맵",
+            "landOwnerBannerSubtitle3": "LAND 보유자를 위한 SAND 에어드롭"
         },
         "tag-new": "NEW",
         "tagNew": "NEW",
@@ -6956,7 +6956,7 @@
             "sandPerLand": {
                 "title": "스테이킹 제한",
                 "dedication": "해당 풀은 LAND 보유자 전용입니다.",
-                "each": "Each LAND in your wallet on Polygon allows you to stake up to {0} per LAND.",
+                "each": "폴리곤 체인으로 설정한 지갑 안에 있는 LAND당 최대 {0}까지 스테이킹할 수 있습니다.",
                 "landMore": "더 많이 스테이킹하시겠습니까? {0}",
                 "landNot": "아직 LAND를 보유하고 있지 않은가요? {0}",
                 "buyLink": "LAND를 구매하세요!",
@@ -6966,7 +6966,7 @@
             }
         },
         "network": {
-            "polygon": "Polygon",
+            "polygon": "폴리곤",
             "ethereum": "이더리움"
         },
         "exitOnDeprecationLP": "이자를 모두 수령하고 모든 LP를 회수하세요.",
