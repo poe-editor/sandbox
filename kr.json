@@ -31,7 +31,7 @@
             "magic": "마법",
             "luck": "행운"
         },
-        "catalystGemShopTitle": "카탈리스트 및 젬 상점",
+        "catalystGemShopTitle": "카탈리스트 및 젬 마켓",
         "catalystGemShopDesc": "catalystGemShopDesc",
         "tax": "요금",
         "duration": "기간",
@@ -550,7 +550,7 @@
             "fixes": "변경 내역"
         },
         "play": {
-            "selectAvatar": "아바타 선택",
+            "selectAvatar": "아바타를 선택하세요",
             "enter": "알파 로비 입장하기",
             "learnMore": "알파 자세히 알아보기",
             "legend": "알파에 관해 도움이 필요하신가요?",
@@ -2434,8 +2434,8 @@
             "feet": "발",
             "chest": "몸통",
             "arms": "팔",
-            "mainHand": "Main hand",
-            "offHand": "Off-hand"
+            "mainHand": "주무기",
+            "offHand": "보조무기"
         },
         "themes": {
             "title": "바이옴",
@@ -2508,7 +2508,7 @@
         "sorts": {
             "title": "정렬 기준",
             "newest": "최신순",
-            "oldest": "오래된 순",
+            "oldest": "오래된순",
             "lowerPrice": "가격 낮음",
             "highPrice": "가격 높음",
             "leastAmount": "최소 수량",
@@ -4672,7 +4672,7 @@
             "tabs": {
                 "1": "내 아바타",
                 "2": "상점",
-                "3": "Create",
+                "3": "만들기",
                 "4": "마켓"
             },
             "saveButtonText": "변경 사항 저장",
@@ -4691,11 +4691,11 @@
                 "name": "이름",
                 "owned": "보유함",
                 "search": "검색",
-                "az": "이름 (오름차순)",
-                "za": "이름 (내림차순)",
+                "az": "이름 (알파벳순)",
+                "za": "이름 (알파벳역순)",
                 "recent": "최근",
-                "newest": "현재",
-                "oldest": "과거",
+                "newest": "최신순",
+                "oldest": "오래된순",
                 "priceHigh": "가격 높음",
                 "priceLow": "가격 낮음"
             },
@@ -4753,26 +4753,26 @@
                 "presetName": "사전 설정 이름"
             },
             "titleCreator": "아바타 크리에이터",
-            "title": "Select your Avatar",
+            "title": "아바타를 선택하세요",
             "custom": "신체 부위만 직접 지정",
             "iosWarning": "Landscape mode is not compatible with this feature. Please, change to portrait.",
             "iosWarningTitle": "이런!",
             "externalAvatarsPopUp": {
                 "title1": "잠시만요!",
-                "title2": "외부 아바타가 있어요",
-                "description": "확인해 보시겠어요?",
+                "title2": "외부 아바타가 있습니다.",
+                "description": "확인해 보시겠습니까?",
                 "skipButton": "건너뛰기",
                 "editButton": "아바타 편집"
             },
             "noNfts": {
-                "title": "Ups!",
-                "description1": "You don't own any Avatar",
-                "description2": "Browse the {avatarCollections} to find one you like",
+                "title": "이런!",
+                "description1": "보유한 아바타가 없습니다.",
+                "description2": "{avatarCollections}를 검색하여 좋아하는 아바타를 찾아보세요.",
                 "descriptionFirstLine": "무료로 나만의 아바타를 만들거나",
                 "descriptionSecondLine": "아바타를 구입하고 {rewards}의",
-                "rewards": "rewards",
-                "createButton": "외부 아바타 찾아보기",
-                "description3": "and be {unique}. You will get extra {rewards} too!",
+                "rewards": "리워드",
+                "createButton": "외부 아바타를 찾아",
+                "description3": "{unique}가 되어보세요. 추가 {rewards} 또한 획득할 수 있습니다!",
                 "avatarCollections": "아바타 컬렉션",
                 "unique": "고유"
             },
@@ -5533,7 +5533,7 @@
         "achievements": "업적",
         "artifacts": "유물",
         "coming": "출시 예정",
-        "selectAvatar": "아바타 선택",
+        "selectAvatar": "아바타를 선택하세요",
         "infoTooltip": "소유한 LAND 1개마다 추첨 티켓이 1개씩 더 지급됩니다",
         "helpUs": "더 샌드박스의 경험 개선을 위해 여러분의 목소리를 들려주세요!",
         "readMore": "더 읽기",
@@ -13034,7 +13034,8 @@
         "text145": "일본 거주자",
         "text146": "일본에 거주하거나 일본 IP를 사용하면서 콘테스트 및 다양한 활동에 참여할 경우, 일본 내 법률 규제에 따라 SAND 보상을 받을 수 없습니다.",
         "linkGiveawaysSummary": "Giveaways rules summary",
-        "linkGiveawaysOfficial": "Giveaways official rules"
+        "linkGiveawaysOfficial": "Giveaways official rules",
+        "linkCryptoweenRules": "Paris Hilton Cryptoween official rules"
     },
     "changelogVoxedit": {
         "2022": {
@@ -13299,21 +13300,21 @@
             "mainText": "PARTICIPATING IN A SANDBOX SEASON 3 GIVEAWAY (EACH A “{0}” AND COLLECTIVELY, THE “{1}”) CONSTITUTES YOUR ACCEPTANCE OF THESE OFFICIAL RULES. BY PARTICIPATING IN A GIVEAWAY, YOU REPRESENT AND WARRANT YOU MEET THE ELIGIBILITY REQUIREMENTS STATED IN THESE OFFICIAL RULES AND ACKNOWLEDGE THAT FAILURE TO MEET ALL ELIGIBILITY REQUIREMENTS WILL RESULT IN YOUR DISQUALIFICATION. A COPY OF THESE OFFICIAL RULES WILL BE AVAILABLE FOR THE DURATION OF THE GIVEAWAYS AT: {2}.",
             "0": "GIVEAWAY",
             "1": "GIVEAWAYS",
-            "2": "https://www.sandbox.game/en/giveaways_rules"
+            "2": "https://www.sandbox.game/kr/giveaways_rules"
         },
         "text3": "PLEASE BE AWARE THAT THESE OFFICIAL RULES CONTAIN AN ARBITRATION AGREEMENT GOVERNING HOW TO RESOLVE DISPUTES BETWEEN YOU AND THE SANDBOX. AMONG OTHER THINGS, THE ARBITRATION AGREEMENT INCLUDES AN AGREEMENT TO ARBITRATE WHICH REQUIRES, WITH LIMITED EXCEPTIONS, THAT ALL DISPUTES BETWEEN YOU AND THE SANDBOX SHALL BE RESOLVED BY BINDING AND FINAL ARBITRATION. THESE OFFICIAL RULES ALSO INCLUDE A CLASS ACTION AND JURY TRIAL WAIVER. THESE PROVISIONS CAN BE FOUND IN SECTION 11 AND APPENDIX 1 BELOW. PLEASE READ THESE PROVISIONS CAREFULLY.",
         "text4": "THE GIVEAWAYS ARE VOID WHERE PROHIBITED, INCLUDING BUT NOT LIMITED TO THE JURISDICTIONS LISTED IN SECTION 7 BELOW.",
         "text5": "THE GIVEAWAYS SHALL BE CONSTRUED ACCORDING TO AND GOVERNED EXCLUSIVELY BY ENGLISH LAW.",
         "text6": {
             "mainText": "{0}: The Giveaways begin on August 24, 2022 at 2:00 p.m. Greenwich Mean Time (“{1}”), and end on November 1, 2022 at 2 p.m. GMT (the “{2}”). The Sponsor’s computer systems or that of their designee is the official time-keeping device for the Giveaways.",
-            "0": "1. Promotion Period",
+            "0": "1. 홍보 기간",
             "1": "GMT",
-            "2": "Promotion Period"
+            "2": "홍보 기간"
         },
         "text7": {
             "mainText": "{0}: The Sandbox Season 3 Giveaways (each a “{1}”) are open only to legal residents of jurisdictions in which the offer of, participation in, and/or receipt of a Giveaway is not prohibited, and who are at least the legal age of majority in their jurisdiction of residence (an eligible “{2}”). Bacasable UK Limited, a company organized under the laws of the United Kingdom (the “{3}”), and its parent, affiliates, subsidiaries, promotion agencies and each of their respective directors, officers, employees, and assigns (collectively “{4}”) and their immediate family members and/or those living in the same household of each (whether related or not) are not eligible. For purposes of each Giveaway, the term “family member” is defined as spouse, partner, parent, legal guardian, in-law, grandparent, child, or grandchild.",
             "0": "2. Eligibility",
-            "1": "Giveaway",
+            "1": "기브어웨이",
             "2": "Entrant",
             "3": "Sponsor",
             "4": "Released Parties"
@@ -13321,7 +13322,7 @@
         "text8": "There is no purchase, transaction, or payment necessary to enter. You do not need to have an existing account with The Sandbox in order to participate in a Giveaway. However, if you enter via Entry Method 2 below, Potential Winners will be required to have a new or existing account in order to receive their prize. Your chances of winning are the same regardless of method of entry.",
         "text9": {
             "mainText": "{0}: There are several methods of entry:",
-            "0": "3. How to Enter"
+            "0": "3. 참여 방법"
         },
         "text10": "Method 1 (Play Method of Entry):",
         "text11": "To enter a Giveaway, you may do any of the following:",
@@ -13333,7 +13334,7 @@
             "mainText": "Staking SAND ({0}): up to 500 entries",
             "0": "more details here"
         },
-        "text14": "Verify ownership of a Season 1 Alpha Pass: 210 entries",
+        "text14": "시즌 1 알파 패스 보유 인증: 210 entries",
         "text15": "Verify ownership of a Season 2 Alpha Pass: 210 entries",
         "text16": "Verify ownership of Season 1 Memorabilia: 150 entries",
         "text17": "Verify ownership of Season 2 Memorabilia: 150 entries",
