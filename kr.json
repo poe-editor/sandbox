@@ -2668,7 +2668,87 @@
             "add": "위시리스트에 추가",
             "remove": "위시리스트에서 삭제"
         },
-        "notMinted": "민팅되지 않음"
+        "notMinted": "민팅되지 않음",
+        "allCollectionsMeta": {
+            "title": "The Sandbox Shop - Collections",
+            "description": "The Sandbox Marketplace is an NFT marketplace where you can search and buy creator's ASSETS with SAND to incorporate them into your LAND.",
+            "keywords": "sandbox, nft, avatars, marketplace, assets, creators, collections, atari, smurfs, binance, the walking dead, land, entity",
+            "og": {
+                "title": "The Sandbox | The Sandbox Shop - Collections",
+                "description": "The Sandbox Marketplace is an NFT marketplace where you can search and buy creator's ASSETS with SAND to incorporate them into your LAND.",
+                "url": "https://sandbox.game/collections/",
+                "site_name": "The Sandbox",
+                "image": "https://www.sandbox.game/images/logo.png"
+            },
+            "twitter": {
+                "title": "The Sandbox Shop - Blockchain NFT Marketplace",
+                "description": "The Sandbox Marketplace is an NFT marketplace where you can search and buy creator's ASSETS with SAND to incorporate them into your LAND.",
+                "card": "The Sandbox Shop - Blockchain NFT Marketplace",
+                "site": "@thesandboxgame",
+                "creator": "@thesandboxgame",
+                "image": "https://www.sandbox.game/images/logo.png"
+            }
+        },
+        "specificCollectionsMeta": {
+            "title": "The Sandbox Shop - {name}",
+            "description": "Buy {name} assets on The Sandbox blockchain NFT marketplace.",
+            "keywords": "sandbox, nft, avatars, marketplace, assets, creators, collections, atari, smurfs, binance, the walking dead, land, entity, {name}",
+            "og": {
+                "title": "The Sandbox Shop - {name}",
+                "description": "Buy {name} assets on The Sandbox blockchain NFT marketplace.",
+                "url": "https://sandbox.game/collections/{name}/{id}",
+                "site_name": "The Sandbox",
+                "image": "https://www.sandbox.game/images/logo.png"
+            },
+            "twitter": {
+                "title": "The Sandbox Shop - {name}",
+                "description": "Buy {name} assets on The Sandbox blockchain NFT marketplace.",
+                "card": "The Sandbox Shop",
+                "site": "@thesandboxgame",
+                "creator": "@thesandboxgame",
+                "image": "https://www.sandbox.game/images/logo.png"
+            }
+        },
+        "avatarsMeta": {
+            "title": "The Sandbox Shop - Avatar Collections",
+            "description": "The Sandbox Marketplace is an NFT marketplace where you can search and buy creator's ASSETS with SAND to incorporate them into your LAND.",
+            "keywords": "sandbox, nft, avatars, marketplace, assets, creators, collections, atari, smurfs, binance, the walking dead, land, entity",
+            "og": {
+                "title": "The Sandbox | The Sandbox Shop - Avatar Collections",
+                "description": "The Sandbox Marketplace is an NFT marketplace where you can search and buy creator's ASSETS with SAND to incorporate them into your LAND.",
+                "url": "https://sandbox.game/avatars/",
+                "site_name": "The Sandbox",
+                "image": "https://www.sandbox.game/images/logo.png"
+            },
+            "twitter": {
+                "title": "The Sandbox Shop - Blockchain NFT Marketplace",
+                "description": "The Sandbox Marketplace is an NFT marketplace where you can search and buy creator's ASSETS with SAND to incorporate them into your LAND.",
+                "card": "The Sandbox Shop - Blockchain NFT Marketplace",
+                "site": "@thesandboxgame",
+                "creator": "@thesandboxgame",
+                "image": "https://www.sandbox.game/images/logo.png"
+            }
+        },
+        "avatarColMeta": {
+            "title": "The Sandbox Shop - {name} avatar collection",
+            "description": "Buy {name} avatars on The Sandbox blockchain NFT marketplace.",
+            "keywords": "sandbox, nft, avatars, marketplace, assets, creators, collections, atari, smurfs, binance, the walking dead, land, entity, {collectionName}",
+            "og": {
+                "title": "The Sandbox Shop - {name}",
+                "description": "Buy {name} avatars on The Sandbox blockchain NFT marketplace.",
+                "url": "https://sandbox.game/avatars/{name}/{id}",
+                "site_name": "The Sandbox",
+                "image": "https://www.sandbox.game/images/logo.png"
+            },
+            "twitter": {
+                "title": "The Sandbox Shop - ",
+                "description": "Buy {name} avatars on The Sandbox blockchain NFT marketplace.",
+                "card": "The Sandbox Shop",
+                "site": "@thesandboxgame",
+                "creator": "@thesandboxgame",
+                "image": "https://www.sandbox.game/images/logo.png"
+            }
+        }
     },
     "create": {
         "meta": {
@@ -5419,7 +5499,13 @@
                     "summary": "요약"
                 }
             },
-            "viewLand": "LAND 보기"
+            "viewLand": "LAND 보기",
+            "checkboxs": {
+                "setAssetArt": "Set Asset type to Art",
+                "setAssetBasic": "Set Asset as Basic",
+                "setAssetExlusive": "Set Asset as Exclusive",
+                "setAssetPrivate": "Show in Public Profile"
+            }
         },
         "faucet": {
             "layer1": "레이어 1 TESTNETS",
@@ -6801,8 +6887,8 @@
             "oldTransactions": "지난 트랜잭션 내역 확인하기"
         },
         "walletTab": {
-            "mainnetL1Title": "이더리움 네트워크",
-            "testnetL1Title": "Goerli Network",
+            "mainnetL1Title": "이더리움",
+            "testnetL1Title": "Goerli",
             "eth": "ETH",
             "poly": "폴리곤",
             "msand": "SAND",
@@ -6811,21 +6897,21 @@
             "sand": "SAND",
             "usd": "USD",
             "buy": "구매",
-            "nftMainnet": "Mainnet의 NFT",
+            "nftMainnet": "NFT:",
             "land": "LAND",
             "asset": "애셋",
             "matic": {
                 "title": "내 지갑의 활성 MATIC",
                 "step1": "지갑을 엽니다",
-                "step2": "Matic Network를 가져옵니다",
+                "step2": "Matic 네트워크를 가져옵니다",
                 "step3": "Matic Layer 2의 이점을 활용합니다",
                 "activate": "지금 MATIC 활성화",
                 "tutorial": "튜토리얼 플레이",
                 "why": "MATIC을 사용해야 하는 이유"
             },
             "maticCoin": "MATIC",
-            "mainnetL2Title": "폴리곤 네트워크",
-            "testnetL2Title": "뭄바이 네트워크",
+            "mainnetL2Title": "폴리곤",
+            "testnetL2Title": "뭄바이",
             "lands": "LAND",
             "estate": "이스테이트",
             "estates": "이스테이트"
@@ -13035,7 +13121,7 @@
         "text146": "일본에 거주하거나 일본 IP를 사용하면서 콘테스트 및 다양한 활동에 참여할 경우, 일본 내 법률 규제에 따라 SAND 보상을 받을 수 없습니다.",
         "linkGiveawaysSummary": "Giveaways rules summary",
         "linkGiveawaysOfficial": "Giveaways official rules",
-        "linkCryptoweenRules": "Paris Hilton Cryptoween official rules"
+        "linkCryptoweenRules": "패리스 힐튼 크립토윈 공식 규칙"
     },
     "changelogVoxedit": {
         "2022": {
