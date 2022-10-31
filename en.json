@@ -2668,7 +2668,87 @@
             "add": "Add to wishlist",
             "remove": "Remove from wishlist"
         },
-        "notMinted": "Not minted"
+        "notMinted": "Not minted",
+        "allCollectionsMeta": {
+            "title": "The Sandbox Shop - Collections",
+            "description": "The Sandbox Marketplace is an NFT marketplace where you can search and buy creator's ASSETS with SAND to incorporate them into your LAND.",
+            "keywords": "sandbox, nft, avatars, marketplace, assets, creators, collections, atari, smurfs, binance, the walking dead, land, entity",
+            "og": {
+                "title": "The Sandbox | The Sandbox Shop - Collections",
+                "description": "The Sandbox Marketplace is an NFT marketplace where you can search and buy creator's ASSETS with SAND to incorporate them into your LAND.",
+                "url": "https://sandbox.game/collections/",
+                "site_name": "The Sandbox",
+                "image": "https://www.sandbox.game/images/logo.png"
+            },
+            "twitter": {
+                "title": "The Sandbox Shop - Blockchain NFT Marketplace",
+                "description": "The Sandbox Marketplace is an NFT marketplace where you can search and buy creator's ASSETS with SAND to incorporate them into your LAND.",
+                "card": "The Sandbox Shop - Blockchain NFT Marketplace",
+                "site": "@thesandboxgame",
+                "creator": "@thesandboxgame",
+                "image": "https://www.sandbox.game/images/logo.png"
+            }
+        },
+        "specificCollectionsMeta": {
+            "title": "The Sandbox Shop - {name}",
+            "description": "Buy {name} assets on The Sandbox blockchain NFT marketplace.",
+            "keywords": "sandbox, nft, avatars, marketplace, assets, creators, collections, atari, smurfs, binance, the walking dead, land, entity, {name}",
+            "og": {
+                "title": "The Sandbox Shop - {name}",
+                "description": "Buy {name} assets on The Sandbox blockchain NFT marketplace.",
+                "url": "https://sandbox.game/collections/{name}/{id}",
+                "site_name": "The Sandbox",
+                "image": "https://www.sandbox.game/images/logo.png"
+            },
+            "twitter": {
+                "title": "The Sandbox Shop - {name}",
+                "description": "Buy {name} assets on The Sandbox blockchain NFT marketplace.",
+                "card": "The Sandbox Shop",
+                "site": "@thesandboxgame",
+                "creator": "@thesandboxgame",
+                "image": "https://www.sandbox.game/images/logo.png"
+            }
+        },
+        "avatarsMeta": {
+            "title": "The Sandbox Shop - Avatar Collections",
+            "description": "The Sandbox Marketplace is an NFT marketplace where you can search and buy creator's ASSETS with SAND to incorporate them into your LAND.",
+            "keywords": "sandbox, nft, avatars, marketplace, assets, creators, collections, atari, smurfs, binance, the walking dead, land, entity",
+            "og": {
+                "title": "The Sandbox | The Sandbox Shop - Avatar Collections",
+                "description": "The Sandbox Marketplace is an NFT marketplace where you can search and buy creator's ASSETS with SAND to incorporate them into your LAND.",
+                "url": "https://sandbox.game/avatars/",
+                "site_name": "The Sandbox",
+                "image": "https://www.sandbox.game/images/logo.png"
+            },
+            "twitter": {
+                "title": "The Sandbox Shop - Blockchain NFT Marketplace",
+                "description": "The Sandbox Marketplace is an NFT marketplace where you can search and buy creator's ASSETS with SAND to incorporate them into your LAND.",
+                "card": "The Sandbox Shop - Blockchain NFT Marketplace",
+                "site": "@thesandboxgame",
+                "creator": "@thesandboxgame",
+                "image": "https://www.sandbox.game/images/logo.png"
+            }
+        },
+        "avatarColMeta": {
+            "title": "The Sandbox Shop - {name} avatar collection",
+            "description": "Buy {name} avatars on The Sandbox blockchain NFT marketplace.",
+            "keywords": "sandbox, nft, avatars, marketplace, assets, creators, collections, atari, smurfs, binance, the walking dead, land, entity, {collectionName}",
+            "og": {
+                "title": "The Sandbox Shop - {name}",
+                "description": "Buy {name} avatars on The Sandbox blockchain NFT marketplace.",
+                "url": "https://sandbox.game/avatars/{name}/{id}",
+                "site_name": "The Sandbox",
+                "image": "https://www.sandbox.game/images/logo.png"
+            },
+            "twitter": {
+                "title": "The Sandbox Shop - ",
+                "description": "Buy {name} avatars on The Sandbox blockchain NFT marketplace.",
+                "card": "The Sandbox Shop",
+                "site": "@thesandboxgame",
+                "creator": "@thesandboxgame",
+                "image": "https://www.sandbox.game/images/logo.png"
+            }
+        }
     },
     "create": {
         "meta": {
@@ -5419,7 +5499,13 @@
                     "summary": "Summary"
                 }
             },
-            "viewLand": "view LAND"
+            "viewLand": "view LAND",
+            "checkboxs": {
+                "setAssetArt": "Set Asset type to Art",
+                "setAssetBasic": "Set Asset as Basic",
+                "setAssetExlusive": "Set Asset as Exclusive",
+                "setAssetPrivate": "Show in Public Profile"
+            }
         },
         "faucet": {
             "layer1": "LAYER 1 TESTNETS",
