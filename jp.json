@@ -547,7 +547,10 @@
                 "belongingMemorabilia": "Belonging Week Memorabilia",
                 "quest": "Quest"
             },
-            "fixes": "Changelog"
+            "fixes": "Changelog",
+            "playmap": "Playmap",
+            "s3Leaderboard": "Season 3 Leaderboard",
+            "s3Rewards": "Season 3 Rewards"
         },
         "play": {
             "selectAvatar": "アバターを選択する",
@@ -1663,7 +1666,11 @@
                 "leaderboard": "Leaderboard",
                 "collectorOwner": "NFT コレクター保有者",
                 "goClaim": "受取りにいく",
-                "goBadges": "バッジに行く"
+                "goBadges": "バッジに行く",
+                "nextSeason": "NEXT SEASON WILL BE YOURS!",
+                "keepHaving": "Keep having fun and try to win some rewards next time.",
+                "coming": "Coming on November 9!",
+                "missedRewards": "Rewards you missed:"
             },
             "tickets": {
                 "enterMetaverse": "メタバースへ行く",
@@ -2214,7 +2221,9 @@
             },
             "cheaters": {
                 "description": "チート対策チームがLeaderboardを監視しています。チーターを報告するには、以下の連絡先にご連絡ください。",
-                "title": "チーターのアカウント停止されます"
+                "title": "チーターのアカウント停止されます",
+                "title2": "Leaderboard rewards on November 9",
+                "description2": "Cleaning the leaderboard of cheaters will take a week. The Leaderboards rewards will be sent on November 9."
             }
         }
     },
@@ -4871,7 +4880,24 @@
             "noResultLand": "You don't have any land",
             "noResultExperience": "You don't have any experience",
             "noResultEntity": "You don't have any entity",
-            "buyAvatarButtonText": "Buy on Opensea"
+            "buyAvatarButtonText": "Buy on Opensea",
+            "collectionGroup": {
+                "feature": "",
+                "internal": "",
+                "external": ""
+            },
+            "getMoreAvatarsButtonText": "",
+            "noNftsFooter": {
+                "titleNormal": "",
+                "titleBlue": "",
+                "description": ""
+            },
+            "connectWalletFooter": {
+                "titleNormal": "",
+                "titleBlue": "",
+                "description": "",
+                "button": ""
+            }
         },
         "loginModal": {
             "title": "サインインまたはアカウントの作成",
@@ -11775,7 +11801,7 @@
                             "description": "Content will go through a review process led by allowed team members before being able to publish and mint."
                         },
                         "transfershipAllow": "Ownership transfer allow",
-                        "transfershipAllowSubt": "If you select this option, all the assets uploaded to this workspace will be automatically transferred to you"
+                        "transfershipAllowSubt": "このオプションを選択された場合、このワークスペースにアップロードされているすべてのアセットは自動的にお客様に転送されます。"
                     }
                 },
                 "delete": {
@@ -11857,7 +11883,7 @@
                     "editRole": "Edit role",
                     "deleteMember": "Delete"
                 },
-                "assignRol2": "(you can change them later)"
+                "assignRol2": "(後で変更可)"
             },
             "loading": "Loading members...",
             "creatorCannontBeDeleted": "Workspace creator can't be deleted",
@@ -11871,8 +11897,8 @@
                 "moderator": "Moderator",
                 "viewer": "Viewer"
             },
-            "notMembers": "There are no members with this filter or search.",
-            "clickAddMember": "Click on '{button}' to add one"
+            "notMembers": "このフィルターと検索にはメンバーはいません。",
+            "clickAddMember": "メンバーを追加するには '{button}' をクリック"
         },
         "invites": {
             "numberOfUses": "Number of uses",
@@ -13511,45 +13537,45 @@
             "0": "1.2. 裁判官と陪審員裁判の権利放棄"
         },
         "text50": {
-            "mainText": "{0} 第1項8号以下に明記されているものを除き、両者は相手個人に対してのみ権利請求を行う可能性があること、またその請求はクラス、代表者、集団に行われるものではありません。当該関係者は、クラス、集団、代表者、集団行動に関してすべての係争がもたらされ、審議、管理、解決、仲裁される権利をここに放棄します。個人に対してのみの救済はありますが、一人を超えたお客様、またはユーザーに関わる係争に関しては仲裁されることはなく、その他ののお客様やユーザーの事象とまとめることはいたしません。当該仲裁合意にに則り、仲裁人は救済を求める個人の請求に基き、また関係者個人の請求に補償されている程度の救済を限度に宣言的救済、または差し止め命令による救済を行う可能性があります。本パラグラフに明記されている内容は第1項8号”仲裁”に記載されている利用規約に影響を与える意図は一切ありません。本条項はお客様及びスポンサーからクラス全体に及ぶ請求の解決に参加することを妨げるものではありません。",
-            "0": "1.3. Waiver of Class and Other Non-Individualized Relief."
+            "mainText": "{0} 第1項8号以下に明記されているものを除き、両者は相手個人に対してのみ権利請求を行う可能性があること、またその請求はクラス、代表者、集団に行われるものではありません。両者はクラス、集団、代表者、集団行動に関してすべての係争がもたらされ、審議、管理、解決、仲裁される権利をここに放棄します。個人に対してのみの救済はありますが、一人を超えたお客様、またはユーザーに関わる係争に関しては仲裁されることはなく、その他のお客様やユーザーの案件と統合することはいたしません。本仲裁合意にに則り、仲裁人は救済を求める個人の請求に基づき、また関係者個人の請求に補償されている程度の救済を限度に宣言的救済、または差し止め命令による救済を行う可能性があります。本パラグラフに明記されている内容は第1項8号”仲裁”に記載されている利用規約に影響を与える意図、もしくは実際に影響を与えるはことは一切ありません。本条項はお客様及びスポンサーからクラス全体に及ぶ請求の解決に参加することを妨げるものではありません。",
+            "0": "1.3. クラス及びその他非個人救済の権利放棄"
         },
         "text51": {
-            "mainText": "{0} If you have a complaint with the Sponsor, you agree to first contact the Sponsor through our support team to attempt to resolve any such dispute amicably. If we cannot resolve the dispute through the Sponsor Support, you agree to use the Formal Complaint Process set forth below before filing any arbitration claim. You must complete the Formal Complaint Process before filing any arbitration. If you do not complete it, then you agree that your claim or action must be dismissed from arbitration.",
-            "0": "1.4. Rules and Forum."
+            "mainText": "{0} スポンサーに対しての苦情がある場合、第一に弊社サポートチームにご連絡をいただき平和的な解決を試みることに同意します。スポンサーサポートを通じて係争が解決しなかった場合、仲裁請求を申し立てる前に以下に明記されている異議申し立て手続きを使用することに同意します。いかなる仲裁請求を申し立てる前に異議申し立て手続きを完了させる必要があります。完了しない場合、お客様の請求や申し立ては仲裁から退けられます。",
+            "0": "1.4. ルールとフォーラム"
         },
-        "text52": "In the event that the dispute is not resolved through your contact with the Sponsor’s Support, you agree to use our Formal Complaint Process complaint form to describe your dispute, how you would like us to resolve the complaint, and any other relevant information. The complaint form can be requested from the Sponsor’s Customer Support. If you prefer to send a written complaint via mail, please include as much information as possible in describing your complaint and how you would like us to resolve the complaint, including your support case number and any other relevant information to Bacasable UK Limited, 7  Bell Yard London, England WC2A 2JR. We will acknowledge receipt of your complaint form after you submit it. A customer relations agent will review and evaluate your complaint based on the information you have provided and information in the possession of the Sponsor. The Formal Complaint Process is completed when the Sponsor responds to your complaint or 45 business days after the date we receive your complaint, whichever occurs first.",
-        "text53": "If the Formal Complaint Process described above does not resolve satisfactorily within 45 business days after receipt of your complaint form, you and the Sponsor agree that either party shall have the right to finally resolve the Dispute through binding arbitration. The arbitration shall be referred to and finally determined by arbitration under the UNCITRAL Arbitration Rules in force at the date of this agreement, except as modified by this section of this Arbitration Agreement.",
+        "text52": "スポンサーのサポートにご連絡いただいたにも関わらず係争が解決に至らなかった場合は異議申し立て手続きを使用し、係争内容、希望の解決方法、その他必要な情報を入力してください。申し立て手続きに関してはスポンサーのカスタマーサポートよりお申込みいただけます。郵送にて申し立てをご希望の際は申し立て内容やご希望の解決方法をできる限り詳細にご記入いただき、併せてサポートケースナンバーやその他必要な情報をご記入いただき下記住所まで送付してください。\nBacasable UK Limited, 7  Bell Yard London, England WC2A 2JR\n\nお客様に送信いただきました後、申し立ての受理となりますのであらかじめご了承ください。カスタマーサポートチームが確認後、お客様からいただきました情報とスポンサーからの情報を基に評価を行います。異議申し立て手続きはスポンサーがお客様の申し立てに応じる、もしくは弊社がお客様の申し立てを受理してから45営業日が経過するかのどちらか早い方を以て完了したものと見なします。",
+        "text53": "お客様からの申し立て手続き受理後45営業日以内に上記に記載されている異議申し立て手続きが遺憾なく解決されなかった場合、お客様とスポンサーはどちらか一方が仲裁を通じて係争を解決する権利を持つことに同意します。当仲裁合意の条項で修正がなさた場合を除き、仲裁は UNCITRAL（国連国際商取引法委員会） 仲裁規則のもと行われることとします。",
         "text54": {
-            "mainText": "A party who wishes to initiate arbitration must provide the other party with a request for arbitration (the “{0}”). If you initiate the arbitration, you must provide the Sponsor a copy of your Request by email at legal@sandbox.game. The Request must include: (i) the name, telephone number, mailing address, email address of the party seeking arbitration, and the email addresses associated with the applicable account(s) on The Sandbox; (ii) a statement of the legal claims being asserted and the factual bases of those claims; (iii) a description of the remedy sought, including an accurate, good faith calculation of the amount in controversy in United States Dollars; (iv) a statement certifying completion of the Formal Complaint Process described above (if you are the party making the Request); and (v) evidence that the requesting party has paid any necessary filing fees in connection with such arbitration.",
-            "0": "Request"
+            "mainText": "仲裁を開始したい当事者は相手に調停要請書（以下、{0}）を提出する必要があります。仲裁を行った場合、スポンサーに調停要請書の写しをEmail にて以下に送信する必要があります。\nEmail: legal@sandbox.game\n要請書には以下の項目を含めることとします。\n(i) 氏名、電話番号、郵送先住所、調停を希望している当事者のEmail、該当するThe Sandbox （複数の場合は複数明記）のアカウントに紐づけられているEmail \n(ii) 主張する法的要求の陳述文、それらの要請に関する事実関係\n(iii) 考えられる救済策の詳細（正確、かつ善意での計算により算出されたUSドル建てでの係争金額）\n(vi) （要請を行っている当事者がお客様であった場合）上記に記載されている異議申し立て手続きの完了を証明する陳述書\n(v) 要請を行っている当事者が調停に際し支払いを行った申請料に関する証明書",
+            "0": "要請"
         },
-        "text55": "If the party requesting arbitration is represented by counsel, the Request shall also include counsel’s name, telephone number, mailing address, and email address. Such counsel must also sign the Request. By signing the Request, counsel certifies to the best of counsel’s knowledge, information, and belief, formed after an inquiry reasonable under the circumstances, that: (i) the Request is not being presented for any improper purpose, such as to harass, cause unnecessary delay, or needlessly increase the cost of dispute resolution; (ii) the claims, defenses and other legal contentions are warranted by existing law or by a nonfrivolous argument for extending, modifying, or reversing existing law or for establishing new law; and (iii) the factual and damages contentions have evidentiary support or, if specifically so identified, will likely have evidentiary support after a reasonable opportunity for further investigation or discovery.",
-        "text56": "Unless you and the Sponsor otherwise agree, the arbitration will be conducted in London, England.",
-        "text57": "You and the Sponsor agree that all materials and documents exchanged during the arbitration proceedings shall be kept confidential and shall not be shared with anyone except the parties’ attorneys, accountants, or business advisors, and then subject to the condition that they agree to keep all materials and documents exchanged during the arbitration proceedings confidential.",
+        "text55": "弁護士が調停を要請している当事者を代表している場合、本要請に弁護士名、電話番号、郵送先住所、Emailを記載してください。弁護士は要請に署名しなければなりません。要請に署名することによって弁護士は、現状において正当な調査が行われた後に持ち得る知識情報限りにおいて以下のことを証明します。(i) 要請はいやがらせ、不必要な遅延、係争処理にかかる費用を上昇させるといった不適切な目的で提出されることはない。(ii) 権利請求、弁護、その他の法律論争は現行の法律による、もしくは現行の法律を拡大解釈、修正、覆す際に正当な議論を行う、もしくは新法を制定することによって保証されることとします。(iii) 事実と損害に関する論争は証拠によって裏付けられます。また特定できる場合は、より踏み込んだ調査や証拠開示のための正当な機会が与えられた後、証拠を裏付けるものとなりえます。",
+        "text56": "お客様とスポンサーが同意しない限り、調停は英国のロンドンにて行われます。",
+        "text57": "仲裁手続き期間中に交わされたすべての資料、ドキュメントは機密に扱われ、当事者の弁護士、会計士、ビジネスアドバイザー以外と共有されることは一切ありません。また仲裁手続き期間中に交わされたすべての資料とドキュメントは機密に扱われるということが前提条件となります。",
         "text58": {
-            "mainText": "{0} The tribunal shall consist of one arbitrator. If the parties are unable to agree upon an arbitrator within 35 business days of delivery of the Request, then the appointing authority shall be the London Court of International Arbitration (LCIA).",
-            "0": "1.5. Arbitrator."
+            "mainText": "{0} 裁定委員会には一人の仲裁人が含まれることとします。両者が要請の到着から35営業日以内に仲裁人に関して合意に至らなかった場合はロンドン国際仲裁裁判所（LCIA）が仲裁人選定機関となります。",
+            "0": "1.5. 仲裁人"
         },
         "text59": {
-            "mainText": "{0} The arbitrator shall have exclusive authority to resolve any Dispute, including, without limitation, disputes arising out of or related to the interpretation or application of the Arbitration Agreement, including the enforceability, revocability, scope, or validity of the Arbitration Agreement or any portion of the Arbitration Agreement. The arbitration proceeding will not be consolidated with any other matters or joined with any other cases or parties, except as expressly provided in the subsection entitled “Batch Arbitration.” The arbitrator shall issue a written award and statement of decision describing the essential findings and conclusions on which the award is based, including the calculation of any damages awarded. The award of the arbitrator is final and binding upon you and us. Judgment on the arbitration award may be entered in any court having jurisdiction. In any award of damages, the arbitrator shall abide by the “Limitation of Liability” section of these Official Rules (Section 12, above).",
-            "0": "1.6. Authority of Arbitrator."
+            "mainText": "{0} 仲裁人は仲裁合意の解釈や適用から生じる、もしくは関連する係争を含むがそれに限らないすべての係争を解決する独占的な権限を保持しています。それには仲裁合意、または仲裁合意の一部の強制力、破棄、範囲、合法性を含みます。”一括仲裁”と記載されている条項に明記されている場合を除いて仲裁手続きはその他の案件と合わせて取り扱われることはなく、またその他の案件やその他の集団と合わせて取り扱われることはありません。仲裁人は裁定されたすべての計算を含む、損害を重要な所見や判断のもとになった結論を述べた書面での判断や決定陳述を発行するものとします。仲裁人の判断は最終でお客様と弊社へ拘束力を持ちます。仲裁判断に関する審議は管轄のある裁判所で行われる可能性があります。損害に関する判断に関して、仲裁人は公式ルールの”責任制限”部（第12条）に従うこととします。",
+            "0": "1.6. 仲裁人の権限"
         },
         "text60": {
-            "mainText": "{0} The parties shall bear their own attorneys’ fees and costs in arbitration unless the arbitrator finds that either the substance of the Dispute or the relief sought in the Request was frivolous or was brought for an improper purpose. If you or the Sponsor need to invoke the authority of a court of competent jurisdiction to compel arbitration, then the party that obtains an order compelling arbitration in such action shall have the right to collect from the other party its reasonable costs, necessary disbursements, and reasonable attorneys' fees incurred in securing an order compelling arbitration. The prevailing party in any court action relating to whether either party has satisfied any condition precedent to arbitration, including the Formal Complaint Process, is entitled to recover their reasonable costs, necessary disbursements, and reasonable attorneys’ fees and costs.",
-            "0": "1.7. Attorneys’ Fees and Costs."
+            "mainText": "{0} 要請に求められている救済案、もしくは係争理由が不適切であると仲裁者が判断しない限りが両者は仲裁に関する自身の弁護士費用を自己負担することとします。仲裁に強制力を持たせるために管轄区域の裁判所の権限を行使する必要があった場合、当該行為における仲裁を強制する命令を取得する当事者は、仲裁に強制力を持たせる命令を保証するために必要である正当な弁護士費用やその他正当な価格の必要経費を相手方から回収する権利を持ちます。異議申し立て手続きを含む仲裁の事例の条件にどちらかの当事者が不服である場合、裁判で優勢な当事者は正当な価格の必要経費、または正当な弁護士費用を回収する権利があります。",
+            "0": "1.7. 弁護士費用"
         },
         "text61": {
             "mainText": "{0} To increase the efficiency of administration and resolution of arbitrations, you and the Sponsor agree that in the event that there are 100 or more individual Requests of a substantially similar nature filed against the Sponsor by or with the assistance of the same law firm, group of law firms, or organizations, within a 30 day period (or as soon as possible thereafter), the arbitrator shall: (i) administer the arbitration demands in batches of one 100 Requests per batch (plus, to the extent there are less than 100 Requests left over after the batching described above, a final batch consisting of the remaining Requests); (ii) appoint one arbitrator for each batch; and (iii) provide for the resolution of each batch as a single consolidated arbitration with one set of filing and administrative fees due per side per batch, one procedural calendar, one hearing (if any) in a place to be determined by the arbitrator, and one final award (“{1}”).",
-            "0": "1.8. Batch Arbitration.",
-            "1": "Batch Arbitration"
+            "0": "1.8. 一括仲裁",
+            "1": "一括仲裁\n"
         },
         "text62": {
-            "mainText": "All parties agree that Requests are of a “substantially similar nature” if they arise out of or relate to the same event or factual scenario and raise the same or similar legal issues and seek the same or similar relief. To the extent the parties disagree on the application of the Batch Arbitration process, the disagreeing party shall advise the arbitrator, and the arbitrator shall appoint a separate arbitrator to determine the applicability of the Batch Arbitration process (“{0}”). In an effort to expedite resolution of any such dispute by the Administrative Arbitrator, the parties agree the Administrative Arbitrator may set forth such procedures as are necessary to resolve any disputes promptly. The Administrative Arbitrator’s fees shall be paid by the Sponsor.",
-            "0": "Administrative Arbitrator"
+            "mainText": "すべての当事者は要請とは”本質的に類似している”要請であることに同意します。同様の出来事や事実のシナリオから生じたもしくは関連している案件、また同様、あるいは類似した問題から生じ、同様、類似した救済を求めている案件となります。当事者が一括仲裁手続きの適用に関して同意しない場合、同意しない当事者は仲裁人に通達し、仲裁人は別の仲裁人を任命し、本一括仲裁の手続きの適用性を決定することとします。（“{0}”）管理仲裁人によるこのような仲裁の決定を処理するために、当事者は管理仲裁人がいかなる係争も迅速に解決するために必要な手続きを踏むこととします。管理仲裁人の費用はスポンサーが支払うこととします。\n",
+            "0": "管理仲裁人"
         },
-        "text63": "You and the Sponsor agree to cooperate in good faith with the arbitrator to implement the Batch Arbitration process, as well as any steps to minimize the time and costs of arbitration.",
-        "text64": "This Batch Arbitration provision shall in no way be interpreted as authorizing a class, collective and/or mass arbitration or action of any kind, or arbitration involving joint or consolidated claims under any circumstances, except as expressly set forth in this provision."
+        "text63": "お客様とスポンサーは仲裁に関わる時間と費用を最小限に抑えるためのすべての段階と同様に、一括仲裁手続きを行う際に仲裁人とは誠意を以て協力することに同意します。",
+        "text64": "本一括仲裁条項は本条項以前に明記されている場合を除き、いかなる状況下においてもすべてのクラス、集団及びまた大規模仲裁、訴訟、一つにまとめられた一括の権利請求を含む仲裁として解釈されることはないものとします。"
     },
     "noresult": {
         "title": "この検索の結果はありません",
