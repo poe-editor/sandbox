@@ -547,7 +547,10 @@
                 "belongingMemorabilia": "빌롱잉 위크 기념품",
                 "quest": "퀘스트"
             },
-            "fixes": "변경 내역"
+            "fixes": "변경 내역",
+            "playmap": "",
+            "s3Leaderboard": "",
+            "s3Rewards": ""
         },
         "play": {
             "selectAvatar": "아바타를 선택하세요",
@@ -1663,7 +1666,11 @@
                 "leaderboard": "리더보드",
                 "collectorOwner": "NFT 컬렉터 보유자",
                 "goClaim": "수령하기 페이지로 이동",
-                "goBadges": "배지로 이동"
+                "goBadges": "배지로 이동",
+                "nextSeason": "NEXT SEASON WILL BE YOURS!",
+                "keepHaving": "Keep having fun and try to win some rewards next time.",
+                "coming": "Coming on November 9!",
+                "missedRewards": "Rewards you missed:"
             },
             "tickets": {
                 "enterMetaverse": "메타버스로 입장합니다!",
@@ -2214,7 +2221,9 @@
             },
             "cheaters": {
                 "description": "더 샌드박스 부정행위 방지팀이 리더보드를 지켜보고 있습니다. 부정행위자를 발견했을 경우, 아래의 이메일 주소로 제보해 주세요.",
-                "title": "부정행위 금지"
+                "title": "부정행위 금지",
+                "title2": "Leaderboard rewards on November 9",
+                "description2": "Cleaning the leaderboard of cheaters will take a week. The Leaderboards rewards will be sent on November 9."
             }
         }
     },
@@ -2670,80 +2679,80 @@
         },
         "notMinted": "민팅되지 않음",
         "allCollectionsMeta": {
-            "title": "The Sandbox Shop - Collections",
+            "title": "더 샌드박스 마켓 - 컬렉션",
             "description": "The Sandbox Marketplace is an NFT marketplace where you can search and buy creator's ASSETS with SAND to incorporate them into your LAND.",
             "keywords": "sandbox, nft, avatars, marketplace, assets, creators, collections, atari, smurfs, binance, the walking dead, land, entity",
             "og": {
                 "title": "The Sandbox | The Sandbox Shop - Collections",
                 "description": "The Sandbox Marketplace is an NFT marketplace where you can search and buy creator's ASSETS with SAND to incorporate them into your LAND.",
                 "url": "https://sandbox.game/collections/",
-                "site_name": "The Sandbox",
+                "site_name": "더 샌드박스",
                 "image": "https://www.sandbox.game/images/logo.png"
             },
             "twitter": {
-                "title": "The Sandbox Shop - Blockchain NFT Marketplace",
+                "title": "더 샌드박스 마켓 - 블록체인 NFT 마켓플레이스",
                 "description": "The Sandbox Marketplace is an NFT marketplace where you can search and buy creator's ASSETS with SAND to incorporate them into your LAND.",
-                "card": "The Sandbox Shop - Blockchain NFT Marketplace",
+                "card": "더 샌드박스 마켓 - 블록체인 NFT 마켓플레이스",
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame",
                 "image": "https://www.sandbox.game/images/logo.png"
             }
         },
         "specificCollectionsMeta": {
-            "title": "The Sandbox Shop - {name}",
-            "description": "Buy {name} assets on The Sandbox blockchain NFT marketplace.",
+            "title": "더 샌드박스 마켓 - {name}",
+            "description": "더 샌드박스 블록체인 NFT 마켓플레이스에서 {name} 애셋을 구매하세요.",
             "keywords": "sandbox, nft, avatars, marketplace, assets, creators, collections, atari, smurfs, binance, the walking dead, land, entity, {name}",
             "og": {
-                "title": "The Sandbox Shop - {name}",
-                "description": "Buy {name} assets on The Sandbox blockchain NFT marketplace.",
+                "title": "더 샌드박스 마켓 - {name}",
+                "description": "더 샌드박스 블록체인 NFT 마켓플레이스에서 {name} 애셋을 구매하세요.",
                 "url": "https://sandbox.game/collections/{name}/{id}",
-                "site_name": "The Sandbox",
+                "site_name": "더 샌드박스",
                 "image": "https://www.sandbox.game/images/logo.png"
             },
             "twitter": {
-                "title": "The Sandbox Shop - {name}",
-                "description": "Buy {name} assets on The Sandbox blockchain NFT marketplace.",
-                "card": "The Sandbox Shop",
+                "title": "더 샌드박스 마켓 - {name}",
+                "description": "더 샌드박스 블록체인 NFT 마켓플레이스에서 {name} 애셋을 구매하세요.",
+                "card": "더 샌드박스 마켓",
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame",
                 "image": "https://www.sandbox.game/images/logo.png"
             }
         },
         "avatarsMeta": {
-            "title": "The Sandbox Shop - Avatar Collections",
+            "title": "더 샌드박스 마켓 - 아바타 컬렉션",
             "description": "The Sandbox Marketplace is an NFT marketplace where you can search and buy creator's ASSETS with SAND to incorporate them into your LAND.",
             "keywords": "sandbox, nft, avatars, marketplace, assets, creators, collections, atari, smurfs, binance, the walking dead, land, entity",
             "og": {
-                "title": "The Sandbox | The Sandbox Shop - Avatar Collections",
+                "title": "더 샌드박스 | 더 샌드박스 마켓 - 아바타 컬렉션",
                 "description": "The Sandbox Marketplace is an NFT marketplace where you can search and buy creator's ASSETS with SAND to incorporate them into your LAND.",
                 "url": "https://sandbox.game/avatars/",
-                "site_name": "The Sandbox",
+                "site_name": "더 샌드박스",
                 "image": "https://www.sandbox.game/images/logo.png"
             },
             "twitter": {
-                "title": "The Sandbox Shop - Blockchain NFT Marketplace",
+                "title": "더 샌드박스 마켓 - 블록체인 NFT 마켓플레이스",
                 "description": "The Sandbox Marketplace is an NFT marketplace where you can search and buy creator's ASSETS with SAND to incorporate them into your LAND.",
-                "card": "The Sandbox Shop - Blockchain NFT Marketplace",
+                "card": "더 샌드박스 마켓 - 블록체인 NFT 마켓플레이스",
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame",
                 "image": "https://www.sandbox.game/images/logo.png"
             }
         },
         "avatarColMeta": {
-            "title": "The Sandbox Shop - {name} avatar collection",
-            "description": "Buy {name} avatars on The Sandbox blockchain NFT marketplace.",
+            "title": "더 샌드박스 마켓 - {name} 아바타 컬렉션",
+            "description": "더 샌드박스 블록체인 NFT 마켓플레이스에서 {name} 애셋을 구매하세요.",
             "keywords": "sandbox, nft, avatars, marketplace, assets, creators, collections, atari, smurfs, binance, the walking dead, land, entity, {collectionName}",
             "og": {
-                "title": "The Sandbox Shop - {name}",
-                "description": "Buy {name} avatars on The Sandbox blockchain NFT marketplace.",
+                "title": "더 샌드박스 마켓 - {name}",
+                "description": "더 샌드박스 블록체인 NFT 마켓플레이스에서 {name} 애셋을 구매하세요.",
                 "url": "https://sandbox.game/avatars/{name}/{id}",
-                "site_name": "The Sandbox",
+                "site_name": "더 샌드박스",
                 "image": "https://www.sandbox.game/images/logo.png"
             },
             "twitter": {
-                "title": "The Sandbox Shop - ",
-                "description": "Buy {name} avatars on The Sandbox blockchain NFT marketplace.",
-                "card": "The Sandbox Shop",
+                "title": "더 샌드박스 마켓 - ",
+                "description": "더 샌드박스 블록체인 NFT 마켓플레이스에서 {name} 애셋을 구매하세요.",
+                "card": "더 샌드박스 마켓",
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame",
                 "image": "https://www.sandbox.game/images/logo.png"
@@ -4871,7 +4880,24 @@
             "noResultLand": "보유한 LAND가 없습니다",
             "noResultExperience": "보유한 경험이 없습니다",
             "noResultEntity": "보유한 엔티티가 없습니다",
-            "buyAvatarButtonText": "OpenSea에서 구매하기"
+            "buyAvatarButtonText": "OpenSea에서 구매하기",
+            "collectionGroup": {
+                "feature": "",
+                "internal": "",
+                "external": ""
+            },
+            "getMoreAvatarsButtonText": "",
+            "noNftsFooter": {
+                "titleNormal": "",
+                "titleBlue": "",
+                "description": ""
+            },
+            "connectWalletFooter": {
+                "titleNormal": "",
+                "titleBlue": "",
+                "description": "",
+                "button": ""
+            }
         },
         "loginModal": {
             "title": "로그인하거나 계정을 만드세요",
@@ -5501,10 +5527,10 @@
             },
             "viewLand": "LAND 보기",
             "checkboxs": {
-                "setAssetArt": "Set Asset type to Art",
-                "setAssetBasic": "Set Asset as Basic",
-                "setAssetExlusive": "Set Asset as Exclusive",
-                "setAssetPrivate": "Show in Public Profile"
+                "setAssetArt": "애셋 유형을 아트로 설정",
+                "setAssetBasic": "애셋 유형을 기본으로 설정",
+                "setAssetExlusive": "애셋 유형을 한정판으로 설정",
+                "setAssetPrivate": "공용 프로필에 표시"
             }
         },
         "faucet": {
