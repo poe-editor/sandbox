@@ -547,7 +547,10 @@
                 "belongingMemorabilia": "Belonging Week Memorabilia",
                 "quest": "Quest"
             },
-            "fixes": "Changelog"
+            "fixes": "Changelog",
+            "playmap": "Playmap",
+            "s3Leaderboard": "Season 3 Leaderboard",
+            "s3Rewards": "Season 3 Rewards"
         },
         "play": {
             "selectAvatar": "Select your avatar",
@@ -1663,7 +1666,11 @@
                 "leaderboard": "Leaderboard",
                 "collectorOwner": "NFT Collector Owner",
                 "goClaim": "Go to Claim",
-                "goBadges": "Go to Badges"
+                "goBadges": "Go to Badges",
+                "nextSeason": "NEXT SEASON WILL BE YOURS!",
+                "keepHaving": "Keep having fun and try to win some rewards next time.",
+                "coming": "Coming on November 9!",
+                "missedRewards": "Rewards you missed:"
             },
             "tickets": {
                 "enterMetaverse": "Enter the Metaverse",
@@ -2214,7 +2221,9 @@
             },
             "cheaters": {
                 "description": "Our anti-cheat squad is monitoring the Leaderboard. To report a cheater contact us at",
-                "title": "Cheaters will be banned"
+                "title": "Cheaters will be banned",
+                "title2": "Leaderboard rewards on November 9",
+                "description2": "Cleaning the leaderboard of cheaters will take a week. The Leaderboards rewards will be sent on November 9."
             }
         }
     },
@@ -4871,7 +4880,24 @@
             "noResultLand": "You don't have any land",
             "noResultExperience": "You don't have any experience",
             "noResultEntity": "You don't have any entity",
-            "buyAvatarButtonText": "Buy on Opensea"
+            "buyAvatarButtonText": "Buy on Opensea",
+            "collectionGroup": {
+                "feature": "Feature",
+                "internal": "Internal",
+                "external": "External"
+            },
+            "getMoreAvatarsButtonText": "Get More Avatars",
+            "noNftsFooter": {
+                "titleNormal": "Own your",
+                "titleBlue": "unique identity",
+                "description": "Choose a unique identity from our exclusive Avatar Collections and enjoy special benefits!"
+            },
+            "connectWalletFooter": {
+                "titleNormal": "Check",
+                "titleBlue": "your wallet",
+                "description": "Connect your wallet and check if you own an exclusive Avatar or choose one from our unique Avatar Collections.",
+                "button": "Connect your Wallet"
+            }
         },
         "loginModal": {
             "title": "Log in or Create an account",
