@@ -548,9 +548,9 @@
                 "quest": "퀘스트"
             },
             "fixes": "변경 내역",
-            "playmap": "Playmap",
-            "s3Leaderboard": "Season 3 Leaderboard",
-            "s3Rewards": "Season 3 Rewards"
+            "playmap": "플레이맵",
+            "s3Leaderboard": "시즌 3 리더보드",
+            "s3Rewards": "시즌 3 리워드"
         },
         "play": {
             "selectAvatar": "아바타를 선택하세요",
@@ -905,7 +905,7 @@
             "modalTitleSeasonIsOpen": "Alpha Season 3 is closed!",
             "modalDescription1SeasonIsOpen": "Thanks to everyone who played Alpha Season 3.",
             "modalDescription2SeasonIsOpen": "The Metaverse stays open! Stay tuned for all our Events!",
-            "modalButton": "Check Season 3 Rewards"
+            "modalButton": "시즌 3 리워드 확인"
         },
         "info": {
             "title": "알파에 오신 것을 환영합니다",
@@ -1668,10 +1668,10 @@
                 "collectorOwner": "NFT 컬렉터 보유자",
                 "goClaim": "수령하기 페이지로 이동",
                 "goBadges": "배지로 이동",
-                "nextSeason": "NEXT SEASON WILL BE YOURS!",
-                "keepHaving": "Keep having fun and try to win some rewards next time.",
-                "coming": "Coming on November 9!",
-                "missedRewards": "Rewards you missed:"
+                "nextSeason": "다음 시즌을 기대해 주세요!",
+                "keepHaving": "다음 시즌에도 재미와 풍성한 리워드가 기다리고 있습니다.",
+                "coming": "11월 9일에 찾아옵니다!",
+                "missedRewards": "획득하지 못한 리워드:"
             },
             "tickets": {
                 "enterMetaverse": "메타버스로 입장합니다!",
@@ -2223,8 +2223,8 @@
             "cheaters": {
                 "description": "더 샌드박스 부정행위 방지팀이 리더보드를 지켜보고 있습니다. 부정행위자를 발견했을 경우, 아래의 이메일 주소로 제보해 주세요.",
                 "title": "부정행위 금지",
-                "title2": "Leaderboard rewards on November 9",
-                "description2": "Cleaning the leaderboard of cheaters will take a week. The Leaderboards rewards will be sent on November 9."
+                "title2": "리더보드 리워드는 11월 9일에 수령할 수 있습니다.",
+                "description2": "리더보드에서 부정 행위자를 걸러내는 일에 1주일 정도 시간이 소요될 예정입니다. 리더보드 리워드는 11월 9일에 수령할 수 있습니다."
             }
         }
     },
@@ -4883,21 +4883,21 @@
             "noResultEntity": "보유한 엔티티가 없습니다",
             "buyAvatarButtonText": "OpenSea에서 구매하기",
             "collectionGroup": {
-                "feature": "",
-                "internal": "",
-                "external": ""
+                "feature": "기능",
+                "internal": "내부",
+                "external": "외부"
             },
-            "getMoreAvatarsButtonText": "Get More Avatars",
+            "getMoreAvatarsButtonText": "다른 아바타 찾아보기",
             "noNftsFooter": {
-                "titleNormal": "",
-                "titleBlue": "",
-                "description": ""
+                "titleNormal": "개성",
+                "titleBlue": "표현하기",
+                "description": "더 샌드박스만의 아바타 컬렉션으로 내 개성을 표현하고 특별 혜택을 누리세요!"
             },
             "connectWalletFooter": {
-                "titleNormal": "Check",
-                "titleBlue": "your wallet",
-                "description": "Connect your wallet and check if you own an exclusive Avatar or choose one from our unique Avatar Collections.",
-                "button": "Connect your Wallet"
+                "titleNormal": "지갑",
+                "titleBlue": "확인하기",
+                "description": "지갑을 연결하고 한정판 아바타 또는 더 샌드박스만의 아바타 컬렉션을 보유하고 있는지 확인하세요.",
+                "button": "지갑 연결하기"
             }
         },
         "loginModal": {
