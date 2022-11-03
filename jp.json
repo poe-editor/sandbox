@@ -548,9 +548,9 @@
                 "quest": "Quest"
             },
             "fixes": "Changelog",
-            "playmap": "Playmap",
-            "s3Leaderboard": "Season 3 Leaderboard",
-            "s3Rewards": "Season 3 Rewards"
+            "playmap": "プレイマップ",
+            "s3Leaderboard": "シーズン3 リーダーボード",
+            "s3Rewards": "シーズン3 リワード"
         },
         "play": {
             "selectAvatar": "アバターを選択する",
@@ -902,10 +902,10 @@
             "eventEthosPointsDesc": "Available until",
             "event": "Event",
             "playAlpha": "Play Alpha",
-            "modalTitleSeasonIsOpen": "Alpha Season 3 is closed!",
-            "modalDescription1SeasonIsOpen": "Thanks to everyone who played Alpha Season 3.",
-            "modalDescription2SeasonIsOpen": "The Metaverse stays open! Stay tuned for all our Events!",
-            "modalButton": "Check Season 3 Rewards"
+            "modalTitleSeasonIsOpen": "アルファ シーズン3は終了しました！",
+            "modalDescription1SeasonIsOpen": "アルファ シーズン3 をプレイしてくれてありがとう！",
+            "modalDescription2SeasonIsOpen": "メタバースはまだまだオープン！ イベントをお楽しみに！",
+            "modalButton": "シーズン3 のリワードをチェック"
         },
         "info": {
             "title": "アルファへようこそ",
@@ -1597,18 +1597,18 @@
                 "missed": "なし",
                 "newThisWeek": "New This Week",
                 "avatargiveaway": "アバタープレゼント",
-                "live": "LIVE",
+                "live": "ライブ",
                 "now": "NOW",
-                "addCalendar": "Add to Calendar",
-                "specialEvents": "Special Events",
-                "joinNow": "Join Now!",
-                "party": "Party",
-                "news": "News",
-                "promotional": "Promotional",
-                "specialEvent": "Special Event",
-                "event": "Event",
-                "avatarGiveaway": "Avatar Giveaway",
-                "ended": "Ended"
+                "addCalendar": "カレンダーに追加",
+                "specialEvents": "スペシャルイベント",
+                "joinNow": "今すぐ参加！",
+                "party": "パーティー",
+                "news": "お知らせ",
+                "promotional": "キャンペーン",
+                "specialEvent": "スペシャルイベント",
+                "event": "イベント",
+                "avatarGiveaway": "アバターGiveaway",
+                "ended": "終了しました"
             },
             "rewards": {
                 "alphaSeason": "アルファ・シーズン3",
@@ -1668,7 +1668,7 @@
                 "collectorOwner": "NFT コレクター保有者",
                 "goClaim": "受取りにいく",
                 "goBadges": "バッジに行く",
-                "nextSeason": "NEXT SEASON WILL BE YOURS!",
+                "nextSeason": "次のシーズンは君のもの！",
                 "keepHaving": "Keep having fun and try to win some rewards next time.",
                 "coming": "Coming on November 9!",
                 "missedRewards": "Rewards you missed:"
@@ -2678,7 +2678,7 @@
             "add": "Add to wishlist",
             "remove": "Remove from wishlist"
         },
-        "notMinted": "Not minted",
+        "notMinted": "未発行",
         "allCollectionsMeta": {
             "title": "The Sandbox Shop - Collections",
             "description": "The Sandbox Marketplace is an NFT marketplace where you can search and buy creator's ASSETS with SAND to incorporate them into your LAND.",
@@ -3305,9 +3305,9 @@
                     }
                 },
                 "claims": {
-                    "bannerTitle": "Claims",
-                    "bannerSubtitle1": "Whether you have won a contest or you are just eligible to a giveaway,",
-                    "bannerSubtitle2": "you can claim your ASSET or your SAND on this page.",
+                    "bannerTitle": "申請",
+                    "bannerSubtitle1": "コンテストに既に優勝している、もしくはGiveaway の対象であれば、",
+                    "bannerSubtitle2": "このページではSANDをアセットとして申請できます。",
                     "bannerSubtitle3": "SAND Airdrop for LAND owner",
                     "checkButtonText": "受け取りの確認",
                     "landOwner": {
@@ -3394,10 +3394,10 @@
                             }
                         }
                     },
-                    "landOwnerBannerTitle": "LAND Owners Claim",
-                    "landOwnerBannerSubtitle1": "We continue to bring value to our land owners",
-                    "landOwnerBannerSubtitle2": "ROADMAP 2022 for LAND Owner",
-                    "landOwnerBannerSubtitle3": "SAND Airdrop for LAND owner"
+                    "landOwnerBannerTitle": "LANDオーナー申請",
+                    "landOwnerBannerSubtitle1": "オーナーの皆様にこれからもプライスレスな体験を",
+                    "landOwnerBannerSubtitle2": "LANDオーナー向け2022年度版ロードマップ",
+                    "landOwnerBannerSubtitle3": "LANDオーナー向けSANDエアードロップ"
                 }
             },
             "changelog": "変更履歴",
@@ -4564,9 +4564,9 @@
                     "unique": "Unique"
                 },
                 "onPublished": "Published ({amount})",
-                "connectWalletText": "There are no assets associated with this profile.",
-                "connectWalletSubText": "Connect your wallet to add Assets",
-                "connectWalletButton": "Connect my Wallet"
+                "connectWalletText": "このプロフィールにはアセットはありません。",
+                "connectWalletSubText": "アセットを追加するためにウォレットに接続",
+                "connectWalletButton": "ウォレットに接続"
             },
             "getSandLine": {
                 "line": "{0}{1}{2} {3}",
@@ -4887,17 +4887,17 @@
                 "internal": "",
                 "external": ""
             },
-            "getMoreAvatarsButtonText": "Get More Avatars",
+            "getMoreAvatarsButtonText": "アバターをゲット",
             "noNftsFooter": {
                 "titleNormal": "",
                 "titleBlue": "",
                 "description": ""
             },
             "connectWalletFooter": {
-                "titleNormal": "Check",
-                "titleBlue": "your wallet",
+                "titleNormal": "チェック",
+                "titleBlue": "ウォレット",
                 "description": "Connect your wallet and check if you own an exclusive Avatar or choose one from our unique Avatar Collections.",
-                "button": "Connect your Wallet"
+                "button": "ウォレットを接続する"
             }
         },
         "loginModal": {
@@ -5251,9 +5251,9 @@
             "goToDiscord": "Discord",
             "noClaims": "受け取れるものはありません",
             "bannerSubtitle": "リアルプレイで経験を積みましょう。SNSでフォローして、最新情報を入手。The Sandboxで手に入る全特典をお楽しみに！",
-            "bannerTitle": "Claims",
-            "bannerSubtitle1": "Whether you have won a contest or you are just eligible to a giveaway,",
-            "bannerSubtitle2": "you can claim your ASSET or your SAND on this page.",
+            "bannerTitle": "申請",
+            "bannerSubtitle1": "コンテストに既に優勝している、もしくはGiveaway の対象であれば、",
+            "bannerSubtitle2": "このページではSANDをアセットとして申請できます。",
             "bannerSubtitle3": "LAND保有者向けSANDエアドロップ",
             "checkButtonText": "受け取りの確認",
             "landOwner": {
@@ -5347,10 +5347,10 @@
                     }
                 }
             },
-            "landOwnerBannerTitle": "LAND Owners Claim",
-            "landOwnerBannerSubtitle1": "We continue to bring value to our land owners",
-            "landOwnerBannerSubtitle2": "ROADMAP 2022 for LAND Owner",
-            "landOwnerBannerSubtitle3": "SAND Airdrop for LAND owner"
+            "landOwnerBannerTitle": "LANDオーナー申請",
+            "landOwnerBannerSubtitle1": "オーナーの皆様にこれからもプライスレスな体験を",
+            "landOwnerBannerSubtitle2": "LANDオーナー向け2022年度版ロードマップ",
+            "landOwnerBannerSubtitle3": "LANDオーナー向けSANDエアードロップ"
         },
         "tag-new": "NEW",
         "tagNew": "NEW",
@@ -7069,7 +7069,7 @@
             "sandPerLand": {
                 "title": "Staking Limit",
                 "dedication": "This pool is dedicated to the LAND owners.",
-                "each": "ポリゴン上のウォレット内にあるLANDを使用し、１LANDにつき{0} まで投資することができます。",
+                "each": "ポリゴン上のウォレット内にあるLANDを使用し、１LANDにつき{0} までステーキングすることができます。",
                 "landMore": "You want to stake more? {0}",
                 "landNot": "You're not a LAND owner? {0}",
                 "buyLink": "Buy a LAND!",
@@ -11486,163 +11486,163 @@
                 }
             },
             "2": {
-                "date": "September 6, 2022 - Game Maker 0.7.2 changelog",
-                "title": "Bug Fixing and Enhancements",
+                "date": "2022年9月6日 ‐ Game Maker 0.7.2 更新履歴",
+                "title": "バグ修正と機能強化",
                 "list": {
                     "0": {
-                        "title": "Bug Fixing",
-                        "subtitle": "Multiple bug fixes have been made to stabilize the product and get some improvements in performance. This fixes affects:",
+                        "title": "バグ修正",
+                        "subtitle": "製品の安定化とパフォーマンス向上を図るために複数のバグ修正が行われました。これにより以下が改善されました。\n",
                         "list": {
                             "0": {
-                                "title": "Anticheat Measures: ",
-                                "subtitle": "Timer is no longer affected by local device time and avoid fly glitch triggered by macros."
+                                "title": "不正防止対策：",
+                                "subtitle": "ローカルデバイスによるタイマーへの影響がなくなり、マクロにより引き起こされていたフライグリッチが回避可能になりました。"
                             },
                             "1": {
-                                "title": "General: ",
-                                "subtitle": "Crashes and Soft blocks."
+                                "title": "一般事項：",
+                                "subtitle": "クラッシュとソフトブロック"
                             }
                         }
                     }
                 }
             },
             "3": {
-                "date": "September 14, 2022 - Game Maker 0.7.3 changelog",
-                "title": "Bug Fixing and Enhancements",
-                "subtitle": "Multiple bug fixes have been made to stabilize the product and get some improvements in performance. This fixes affects:",
+                "date": "2022年9月14日 ‐ Game Maker 0.7.3 更新履歴",
+                "title": "バグ修正と機能強化",
+                "subtitle": "製品の安定化とパフォーマンス向上を図るために複数のバグ修正が行われました。これにより以下が改善されました。",
                 "list": {
                     "0": {
-                        "title": "Anticheat Measures: ",
+                        "title": "不正防止対策：",
                         "list": {
-                            "0": "It is no longer possible to move or respawn in between chat dialogs.",
-                            "1": "If an item is dropped, it will subtract the amount from the quest tracker.",
-                            "2": "No event is tracked when a user is in multiple sessions."
+                            "0": "チャット内を移動したりリスポーンすることができなくなります。",
+                            "1": "アイテムを落とした場合、クエストトラッカーから金額が差し引かれます。",
+                            "2": "ユーザーが複数のセッションに入っている場合、イベントは一切トラッキングされません。"
                         }
                     },
                     "1": {
-                        "title": "Chat disconnection handling. In case the service fails to connect, it will be shown in the UI to the user."
+                        "title": "チャットが中断された場合の対応。サービスが中断した場合、ユーザーにはUIで表示されます。"
                     },
                     "2": {
-                        "title": "Experiences loading:",
+                        "title": "エクスペリエンスの読み込み中：",
                         "list": {
-                            "0": "Connection issues fixed",
-                            "1": "Experiences stuck at 90%"
+                            "0": "接続に関する問題が修正されました。",
+                            "1": "エクスペリエンスが90％で止まってしまう。\n"
                         }
                     },
                     "3": {
-                        "title": "Visuals & Graphics: ",
-                        "subtitle": "Transparent meshes no longer cast shadows"
+                        "title": "ビジュアルとグラフィック：",
+                        "subtitle": "透明のメッシュに影がかかっている状態が解消されました。"
                     },
                     "4": {
-                        "title": "Updated the force update flow."
+                        "title": "フォースのアップデートフローが新しくなりました。"
                     },
                     "5": {
-                        "title": "General: ",
-                        "subtitle": "Crashes and Soft blocks."
+                        "title": "一般事項：",
+                        "subtitle": "クラッシュとソフトブロック"
                     }
                 }
             },
             "4": {
-                "date": "September 15, 2022 - Game Maker 0.7.4 changelog",
-                "title": "Bug Fixing and Enhancements",
+                "date": "2022年9月15日‐ Game Maker 0.7.4 更新履歴",
+                "title": "バグ修正と機能強化",
                 "list": {
                     "0": {
-                        "title": "Bug Fixing",
+                        "title": "バグ修正",
                         "subtitle": "",
                         "list": {
                             "0": {
-                                "title": "Micro Freezes Fix."
+                                "title": "ミクロ フリーズの修正"
                             },
                             "1": {
-                                "title": "Fixed chat bug which caused micro fixed when chat was concurred with many users."
+                                "title": "複数のユーザーによってチャットが進行している場合、ミクロ修正によって引き起こされていたチャットバグが修正されました。"
                             }
                         }
                     }
                 }
             },
             "5": {
-                "date": "September 22, 2022 - Game Maker 0.7.5 changelog",
-                "title": "Bug Fixing and Enhancements",
+                "date": "2022年9月22日‐ Game Maker 0.7.5 更新履歴",
+                "title": "バグ修正と機能強化",
                 "list": {
                     "0": {
-                        "title": "Bug Fixing",
-                        "subtitle": "Multiple bug fixes have been made to stabilize the product and get some improvements in performance. These fixes affect:",
+                        "title": "バグ修正",
+                        "subtitle": "製品の安定化とパフォーマンス向上を図るために複数のバグ修正が行われました。これにより以下が改善されました：",
                         "list": {
                             "0": {
-                                "title": "MAC loading freeze/crash fix."
+                                "title": "MAC 読み込み中のフリーズとクラッシュが修正されました。"
                             },
                             "1": {
-                                "title": "New icons in launcher."
+                                "title": "ランチャーに新しいアイコンが追加されました。"
                             },
                             "2": {
-                                "title": "Added HUD section to the controls list: ",
-                                "subtitle": "Show/Hide UI and Quests."
+                                "title": "コントロールリストにHUDセクションが追加されました：",
+                                "subtitle": "UIとクエストの表示/ 非表示が追加されました。"
                             },
                             "3": {
-                                "title": "Fix for jump height of avatar."
+                                "title": "アバターのジャンプの高さが修正されました。"
                             },
                             "4": {
-                                "title": "Saving experiences on Game Maker fix."
+                                "title": "Game Maker の修正でのエクスペリエンスの保存が修正されました。"
                             },
                             "5": {
-                                "title": "Missing Game Events."
+                                "title": "消えたゲームイベント部分が修正されました。"
                             }
                         }
                     }
                 }
             },
             "6": {
-                "date": "September 26, 2022 - Game Maker 0.7.6 changelog",
-                "title": "Bug Fixing and Enhancements",
+                "date": "2022年9月26日‐ Game Maker 0.7.6 変更履歴",
+                "title": "バグ修正と機能強化",
                 "list": {
                     "0": {
-                        "title": "Bug Fixing",
+                        "title": "バグ修正",
                         "subtitle": "",
                         "list": {
                             "0": {
-                                "title": "Micro Freezes Fix."
+                                "title": "ミクロ フリーズの修正"
                             },
                             "1": {
-                                "title": "Fixed chat bug which caused micro fixed when chat was concurred with many users."
+                                "title": "複数のユーザーによってチャットが進行している場合、ミクロ修正によって引き起こされていたチャットバグが修正されました。"
                             }
                         }
                     }
                 }
             },
             "7": {
-                "date": "October 6, 2022 - Game Maker 0.7.7 changelog",
-                "title": "Bug Fixing and Enhancements",
+                "date": "2022年10月6日‐ Game Maker 0.7.7 更新履歴",
+                "title": "バグ修正と機能強化",
                 "list": {
                     "0": {
-                        "title": "Bug Fixing",
+                        "title": "バグ修正",
                         "subtitle": "",
                         "list": {
                             "0": {
-                                "title": "Jumping height was fix to accommodate certain experiences that were failing."
+                                "title": "ジャンプの高さがエクスペリエンスに合わせて修正されました。"
                             },
                             "1": {
-                                "title": "Overall crash fixes in experiences."
+                                "title": "エクスペリエンスでの全体的なクラッシュが修正されました。"
                             },
                             "2": {
-                                "title": "Chat connection/freeze fixes."
+                                "title": "チャットの接続とフリーズが修正されました。"
                             },
                             "3": {
-                                "title": "Infinite loading in experiences fix."
+                                "title": "エクスペリエンスにおける読み込みが終了しないバグが修正されました。"
                             }
                         }
                     }
                 }
             },
             "8": {
-                "date": "October 14, 2022 - Game Maker 0.7.8 changelog",
-                "title": "Bug Fixing and Enhancements",
+                "date": "2022年10月14日 ‐ Game Maker 0.7.8 更新履歴",
+                "title": "バグ修正と機能強化",
                 "list": {
                     "0": {
-                        "title": "Bug Fixing",
+                        "title": "バグ修正",
                         "subtitle": "",
                         "list": {
                             "0": {
-                                "title": "Micro Freezes Patch: ",
-                                "subtitle": "Fixed disconnection bug which caused micro freezes."
+                                "title": "ミクロ フリーズ パッチ：",
+                                "subtitle": "ミクロフリーズを引き起こしていた接続切断が修正されました。"
                             }
                         }
                     }
@@ -12243,32 +12243,32 @@
             "publishSuccess": "Asset published successfully",
             "moveSuccess": "Asset moved successfully",
             "Edit": "",
-            "unpublishSuccess": "Asset unpublished successfully",
+            "unpublishSuccess": "アセットは非公開になりました",
             "empty": {
                 "create": {
-                    "title": "Create your own voxels in VoxEdit",
-                    "body": "Assets have an important role in the ecosystem, you need them to build an experience or to improve your game. Stake them to earn rewards or build your own assets to sell them on the Marketplace.",
+                    "title": "VoxEdit でボクセルを作成",
+                    "body": "アセットはエコシステムの中でも重要な役割を担っており、エクスペリエンスを構築したり、ゲームのレベルを上げるのに必要となります。報酬を稼いでステーキングに使用したり、マーケットプレイスで売るためにアセットを構築しましょう。",
                     "links": {
-                        "1": "How to create an asset",
-                        "2": "About VoxEdit"
+                        "1": "アセットの作成方法",
+                        "2": "VoxEdit 詳細"
                     },
                     "buttons": {
-                        "1": "Download VoxEdit"
+                        "1": "VoxEdit のダウンロード"
                     }
                 },
                 "set": {
-                    "title": "Set attributes: Catalyst & Gems",
-                    "body": "Gems & Catalysts are The Sandbox’s utility token burnt on usage that defines your ASSET’s attributes. Attributes define your ASSET’s main stats that will be displayed on the Sandbox’s game experiences throughout our metaverse, meaning that the more attributes your ASSETS have the more useful you’ll find them within the Sandbox, and thus incrementing its value.",
+                    "title": "属性設定: カタリストとジェム",
+                    "body": "ジェムとカタリストはアセットの属性を決定する、使用量に応じて変化するThe Sandbox のユーティリティトークンです。属性によってアセットの主要なステータス\n\nAttributes define your ASSET’s main stats that will be displayed on the Sandbox’s game experiences throughout our metaverse, meaning that the more attributes your ASSETS have the more useful you’ll find them within the Sandbox, and thus incrementing its value.",
                     "links": {
                         "1": "More about Cat & Gems",
-                        "2": "How can I get them?"
+                        "2": "どうやったらもらえますか？"
                     }
                 },
                 "myAssets": {
-                    "title": "What can I do with my assets",
+                    "title": "アセットを使って何ができますか？",
                     "body": "To make a game on your LAND or ESTATE, you will need to download the free Game Maker software. You will also be able to buy a game on the Marketplace. Design and test your game using the Game Maker, publishing experiences will be available soon.",
                     "links": {
-                        "1": "What are Experiences?",
+                        "1": "エクスペリエンスとは何ですか？",
                         "2": "About Game Maker"
                     },
                     "buttons": {
@@ -13151,7 +13151,7 @@
         "text146": "日本在住の方は、コンテストや様々な活動に参加して報酬を得ることができますが、日本での制限により、これらの報酬にはSANDは含まれません。",
         "linkGiveawaysSummary": "Giveaway ルール概要",
         "linkGiveawaysOfficial": "Giveaway 公式ルール\n",
-        "linkCryptoweenRules": "Paris Hilton Cryptoween official rules"
+        "linkCryptoweenRules": "パリス・ヒルトン Cryptoween 公式ルール"
     },
     "changelogVoxedit": {
         "2022": {
@@ -13331,7 +13331,7 @@
             "0": "詳細はこちらをご覧ください。"
         },
         "text10": {
-            "mainText": "SAND を賭ける({0})：最大500エントリー",
+            "mainText": "SAND をステーキング({0})：最大500エントリー",
             "0": "詳細はこちらをご覧ください。"
         },
         "text11": "シーズン1 アルファパスの所有権を証明する：210エントリー",
@@ -13345,7 +13345,7 @@
         "text19": "郵送エントリー",
         "text20": "ユーザー一人につき最大2,500エントリーとなります。",
         "text21": "プレイエントリー",
-        "text22": "クエストを終了、SANDを賭ける、アイテムの所有権を証明する、デイリーイベントへ参加する、または友達を紹介するかのいずれかによってGiveaway にエントリーした場合は以下を必ず行ってください。",
+        "text22": "クエストを終了、SANDをステーキングする、アイテムの所有権を証明する、デイリーイベントへ参加する、または友達を紹介するかのいずれかによってGiveaway にエントリーした場合は以下を必ず行ってください。",
         "text23": "対象の要件を満たしてください。",
         "text24": "The Sandbox シーズン3のGiveaway のプロモーションが禁止されていない管轄区域の市民であること。",
         "text25": "The Sandbox の既存アカウント、もしくは新規アカウントをお持ちのである方",
@@ -13447,7 +13447,7 @@
             "0": "詳しくはこちらをご覧ください。"
         },
         "text13": {
-            "mainText": "SAND を賭ける({0})：最大500エントリー",
+            "mainText": "SAND をステーキング({0})：最大500エントリー",
             "0": "詳しくはこちらをご覧ください。"
         },
         "text14": "シーズン1 アルファパスの所有権を証明する：210エントリー",
@@ -13567,7 +13567,7 @@
             "0": "1.7. 弁護士費用"
         },
         "text61": {
-            "mainText": "{0} To increase the efficiency of administration and resolution of arbitrations, you and the Sponsor agree that in the event that there are 100 or more individual Requests of a substantially similar nature filed against the Sponsor by or with the assistance of the same law firm, group of law firms, or organizations, within a 30 day period (or as soon as possible thereafter), the arbitrator shall: (i) administer the arbitration demands in batches of one 100 Requests per batch (plus, to the extent there are less than 100 Requests left over after the batching described above, a final batch consisting of the remaining Requests); (ii) appoint one arbitrator for each batch; and (iii) provide for the resolution of each batch as a single consolidated arbitration with one set of filing and administrative fees due per side per batch, one procedural calendar, one hearing (if any) in a place to be determined by the arbitrator, and one final award (“{1}”).",
+            "mainText": "{0} 仲裁の管理や解決の効率化を図るために、30日以内（もしくは要請があってからその後速やかに）同じ法律事務所、または同グループの法律事務所、組織によってスポンサーに対して提訴された同質の要請が100件以上あった場合には仲裁人は以下を行うこととします。\n(i) 100件の要請を一件として仲裁要請を管理する（上記に述べた方法で計算され、残数が100件以下の場合はそれを一件として数えることとします）(ii) 一件につき一人の仲裁人を選出します(iii) 一件を一つの仲裁として見なし、提訴や管理に関わる一件毎及び当事者毎の手数料、手続きに関わる法廷日程、仲裁人によって場所が決定される聴聞会（該当する場合）、そして最終決定を以て各々に対して解決策を提示します。(“{1}”)",
             "0": "1.8. 一括仲裁",
             "1": "一括仲裁\n"
         },
@@ -13715,7 +13715,7 @@
         "revenue": "収益",
         "views": "閲覧数",
         "transactionsSales": "取引 / 売上",
-        "items": "Items",
-        "asset": "ASSET"
+        "items": "アイテム",
+        "asset": "アセット"
     }
 }
