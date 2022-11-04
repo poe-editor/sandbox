@@ -1670,7 +1670,7 @@
                 "goBadges": "バッジに行く",
                 "nextSeason": "次のシーズンは君のもの！",
                 "keepHaving": "Keep having fun and try to win some rewards next time.",
-                "coming": "Coming on November 9!",
+                "coming": "Coming on November 9",
                 "missedRewards": "Rewards you missed:"
             },
             "tickets": {
@@ -12073,7 +12073,7 @@
                 "successGroupUnallocate": "{amount} assets were successfully unallocated in the workspace",
                 "addAsset": "Add Asset",
                 "successfullyMove": " '' | An Asset has changed it's location in this workspace | {count} Assets have changed their location in this workspace.",
-                "subtitle": "Select the assets from your private workspace to add"
+                "subtitle": "プライベートなワークスペースから追加するアセットを選択"
             },
             "history": {
                 "searchUser": "Search user",
@@ -12086,7 +12086,7 @@
                     "title": "Do you want to pick another workspace to upload this asset ?",
                     "workspace": "Workspace",
                     "community": "Community",
-                    "cantUpload": "You need an Admin/Artist role to add assets here"
+                    "cantUpload": "ここにアセットを追加できるのは管理者/もしくはアーティストのみになります。"
                 },
                 "transferToWorkspace": {
                     "title": "Transfer to Workspace",
@@ -12154,7 +12154,7 @@
                 "owner": "Select new owner",
                 "search": "Search by email or name",
                 "transfer": "Transfer",
-                "input": "Insert username or email of the new owner"
+                "input": "新しいオーナーのユーザーネームもしくはEmailを追加"
             },
             "delete": {
                 "title": "Delete permanently",
@@ -12266,13 +12266,13 @@
                 },
                 "myAssets": {
                     "title": "アセットを使って何ができますか？",
-                    "body": "To make a game on your LAND or ESTATE, you will need to download the free Game Maker software. You will also be able to buy a game on the Marketplace. Design and test your game using the Game Maker, publishing experiences will be available soon.",
+                    "body": "LAND もしくはESTATEでゲームを作成する場合には無料ソフトウェアのGame Maker をダウンロードしていただく必要があります。マーケットプレイスでゲームの購入も可能となっております。Game Maker を使ってゲームをデザインしたり、実際にテストしてみることも可能です。ゲームを公開できる機能も近日中に発表予定となっております。",
                     "links": {
                         "1": "エクスペリエンスとは何ですか？",
-                        "2": "About Game Maker"
+                        "2": "Game Maker 詳細"
                     },
                     "buttons": {
-                        "1": "Download Game Maker"
+                        "1": "Game Maker をダウンロード"
                     }
                 }
             }
@@ -12280,71 +12280,71 @@
         "experiences": {
             "construction": "This section is under development",
             "addToWorkspaceStep": {
-                "title": "Choose the workpsace to add the experience",
-                "workspace": "Workspace",
-                "community": "Community"
+                "title": "エクスペリエンスを追加するワークスペースを選択",
+                "workspace": "ワークスペース",
+                "community": "コミュニティ"
             },
-            "experiencesTotal": "No Experiences | {count} Experience | {count} Experiences",
-            "onlyMyExperiences": "Only show my experiences",
-            "searchName": "Search by name or owner",
-            "noExperiences": "There are no experiences in this workspace.",
-            "noExperiencesUpload_1": " Use GameMaker",
-            "noExperiencesUpload_2": " to upload one.",
-            "noAssetsInExp": "There's no assets used in this experience",
+            "experiencesTotal": "ゼロ | {count} エクスペリエンス | {count} エクスペリエンス",
+            "onlyMyExperiences": "エクスペリエンスのみを表示",
+            "searchName": "名前またはオーナーで検索",
+            "noExperiences": "このワークスペースにはエクスペリエンスはありません。",
+            "noExperiencesUpload_1": " GameMakerを使う",
+            "noExperiencesUpload_2": " Game Maker をアップロード",
+            "noAssetsInExp": "このエクスペリエンスではアセットは使用されていません。",
             "filter": {
-                "all": "All",
-                "inProgress": "In progress",
-                "toVerify": "To Verify",
-                "rejected": "Rejected",
-                "approved": "Approved"
+                "all": "すべて",
+                "inProgress": "進行中",
+                "toVerify": "確認",
+                "rejected": "承認されませんでした",
+                "approved": "承認されました"
             },
             "filterActions": {
-                "approve": "Approve",
-                "reviewGameMaker": "Review in Game Maker",
-                "editGameMaker": "Edit in Game Maker",
-                "transferOwnership": "Transfer Ownership",
+                "approve": "承認",
+                "reviewGameMaker": "Game Maker でレビュー",
+                "editGameMaker": "Game Maker で編集",
+                "transferOwnership": "所有権の移行",
                 "banExperience": "Ban Experience",
-                "moveToVerify": "Move to Verify",
-                "deletePerma": "Delete permanently",
-                "mint": "Mint",
-                "delete": "Delete",
-                "requestApproval": "Request Approval"
+                "moveToVerify": "確認のために移動",
+                "deletePerma": "完全に削除",
+                "mint": "発行",
+                "delete": "削除",
+                "requestApproval": "リクエスト承認"
             },
             "card": {
-                "size": "Size"
+                "size": "サイズ"
             },
             "preview": {
-                "edit": "Edit",
+                "edit": "編集",
                 "type": {
-                    "multi": "Multiplayer",
-                    "solo": "Individual"
+                    "multi": "マルチプレイヤー",
+                    "solo": "シングルプレーヤー"
                 },
-                "reviewGM": "Review in Game Maker",
+                "reviewGM": "Game Maker でレビュー",
                 "summary": {
-                    "title": "Summary",
-                    "creator": "Creator",
-                    "lastUpdate": "Last update",
-                    "gameVersion": "Game version",
-                    "experienceSize": "Experience size",
-                    "viewHistory": "View History"
+                    "title": "概要",
+                    "creator": "クリエイター",
+                    "lastUpdate": "最終更新日",
+                    "gameVersion": "Game バージョン",
+                    "experienceSize": "エクスペリエンスサイズ",
+                    "viewHistory": "履歴を見る"
                 },
                 "assets": {
-                    "title": "Unique assets included",
+                    "title": "ユニークなアセット",
                     "tabs": {
-                        "ready": "Ready",
-                        "unavailable": "Unavailable",
-                        "toMint": "To Mint",
-                        "toBuy": "To Buy",
-                        "assetsToMint": "Assets to Mint"
+                        "ready": "使用できます",
+                        "unavailable": "使用できません",
+                        "toMint": "発行する",
+                        "toBuy": "購入する",
+                        "assetsToMint": "発行するアセット"
                     },
                     "buttons": {
-                        "mintAll": "Mint All",
-                        "buyAll": "Buy All",
-                        "buy": "Buy"
+                        "mintAll": "すべて発行",
+                        "buyAll": "すべて購入",
+                        "buy": "購入"
                     },
                     "cards": {
-                        "notCopiesBuy": "Not copies to buy",
-                        "copiesUsed": "Copies used:"
+                        "notCopiesBuy": "購入できるコピーではありません",
+                        "copiesUsed": "使用したコピー："
                     }
                 },
                 "history": {
