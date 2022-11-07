@@ -233,14 +233,14 @@
         "sandboxGame": "The Sandbox Game",
         "sandboxShort": "Sandbox",
         "lands": "LANDS",
-        "close": "Close",
+        "close": "閉じる",
         "regular": "",
-        "selectOption": "Select an option | Select one or more options | ",
-        "failed": "Something went wrong",
+        "selectOption": "選択してください | 一つ以上選択してください | ",
+        "failed": "エラーが発生しました",
         "opensea": "OpenSea",
-        "password": "password",
-        "username": "username",
-        "goBack": "Go Back"
+        "password": "パスワード",
+        "username": "ユーザーネーム",
+        "goBack": "戻る"
     },
     "layout": {
         "topbar": {
@@ -315,7 +315,7 @@
                 },
                 "route": "Transaction in Route - "
             },
-            "login": "Log In"
+            "login": "ログイン"
         },
         "sidebar": {
             "home": "ホーム",
@@ -328,13 +328,13 @@
             "admin": "管理者",
             "user": "自分",
             "communities": "Spaces",
-            "newSideBarShop": "Shop",
-            "newSideBarAbout": "Info",
-            "newSideBarMod": "Moderation",
-            "newSideBarCommunities": "Community",
-            "newSideBarEarn": "Earn",
-            "newSideBarWorkbench": "Workbench",
-            "newSideBarLanguage": "Language"
+            "newSideBarShop": "ショップ",
+            "newSideBarAbout": "情報",
+            "newSideBarMod": "モデレーション",
+            "newSideBarCommunities": "コミュニティ",
+            "newSideBarEarn": "獲得",
+            "newSideBarWorkbench": "ワークベンチ",
+            "newSideBarLanguage": "言語"
         },
         "footer": {
             "community": {
@@ -523,6 +523,12 @@
             "title": "NFTで遊ぶ",
             "description": "The Sandboxでは14万点以上のオリジナルアバターで遊べます。コレクションをチェックして、妥協なしに欲しいアバターNFTを選んでください。",
             "explore": "アバターコレクションを見る"
+        },
+        "carebearsAvatarBanner": {
+            "title": "MINT YOUR CARE BEARS",
+            "description": "Get your unique Care Bears avatar for The Sandbox on November 14 and enter the metaverse.",
+            "btn1": "Learn more",
+            "btn2": "Create free avatar"
         }
     },
     "season": {
@@ -1655,7 +1661,7 @@
                 "epTooltip": "体験内のクエストをクリアすることで、エトスポイントを獲得できます。難易度の高いクエストをクリアすると、より多くのエトスポイントを獲得できます。",
                 "raffleRewards": "Raffle Rewards",
                 "raffleTooltip": "You will win the Raffle if you own a Season 3 Alpha Pass",
-                "leaderboardDisclaimer": "Leaderboard rewards will be available 1 week after the end of the season. We will use that week to clean up cheaters and remove exploitable quests",
+                "leaderboardDisclaimer": "リーダーボードのリワードはシーズンが終了し、キャラクターやまだ使用可能なクエストを削除した後、一週間でにご利用いただけます。",
                 "linkGiveawaysRules": "詳しい情報と公式ルールはこちらをご覧ください。"
             },
             "summary": {
@@ -2142,7 +2148,7 @@
                 "subtitle": "We are continuously working on enhancements and fixes.\nPlease let us know if you found any bug. Feel free to write us at:"
             },
             "leaderboard": {
-                "claimDesc": "Available from Nov. 9"
+                "claimDesc": "11月9日より開始"
             }
         },
         "leaderboard": {
@@ -2151,7 +2157,7 @@
                 "title": "Leaderboard",
                 "description": "エトスポイント（EP）を最速で獲得して、リーダーボードで上位にランクインし、最大30KのSANDを手に入れましょう!",
                 "link": "NFTショップへ行く",
-                "description2": "Equipment NFTs will help you complete quests faster."
+                "description2": "装備品のNFT を使用するとクエストを早く終了することができます。"
             },
             "table": {
                 "description": {
@@ -2197,7 +2203,7 @@
                     "tableColumns": {
                         "column1": "体験",
                         "column2": "Your Time",
-                        "column3": "Your Performance",
+                        "column3": "パフォーマンス",
                         "column4": "平均時間"
                     }
                 },
@@ -2206,12 +2212,12 @@
                     "tableColumns": {
                         "column1": "クエスト",
                         "column2": "Your Time",
-                        "column3": "Your Performance",
+                        "column3": "パフォーマンス",
                         "column4": "Record Holder",
                         "column5": "平均時間"
                     },
                     "buggedQuest": "このクエストはバグによりタイムトラッキングから削除されました。",
-                    "top": "Top {0}",
+                    "top": "トップ {0}",
                     "invalidTime": "当該クエストの時間が有効ではありません。",
                     "noTimeTracking": "このクエストはタイム トラッキングから削除されました。"
                 }
@@ -2392,7 +2398,7 @@
             "and": "and",
             "onOpenseaTitle": "LAND＆ESTATE",
             "externalcollections": "Avatar",
-            "collections": "Collections"
+            "collections": "コレクション"
         },
         "rarities": {
             "title": "カタリスト",
@@ -2433,7 +2439,7 @@
             "multi": "マルチ",
             "plant": "工場",
             "question": "質問",
-            "none": "None",
+            "none": "該当なし",
             "asker": "Asker"
         },
         "slots": {
@@ -2633,7 +2639,7 @@
             "network": "通信網",
             "polygon": "Polygon",
             "ethereum": "イーサリアム",
-            "disabledReason": "Transactions are temporarily disabled due to Ethereum Merge"
+            "disabledReason": "イーサリウムの統合にため取引が一時的にできなくなっています。"
         },
         "assets": {
             "noGems": "このアセットにはジェムはありません",
@@ -2671,12 +2677,12 @@
         },
         "listed": "Listed",
         "wishlist": {
-            "added": "has been successfully added to your wishlist.",
-            "removed": "has been successfully removed from your whishlist.",
-            "gotoInventory": "Go to Inventory",
-            "error": "Error updating your wishlist.",
-            "add": "Add to wishlist",
-            "remove": "Remove from wishlist"
+            "added": "欲しいものリストに追加されました。",
+            "removed": "欲しいものリストから削除されました。",
+            "gotoInventory": "インベントリを見る",
+            "error": "欲しいものリストをアップデート中にエラーが発生しました。",
+            "add": "欲しいものリストに追加",
+            "remove": "欲しいものリストから削除"
         },
         "notMinted": "未発行",
         "allCollectionsMeta": {
@@ -3112,9 +3118,9 @@
                     "logout": "ログアウト",
                     "settings": "設定",
                     "badges": "バッジ",
-                    "account": "Account",
-                    "wallet": "Wallet",
-                    "migrations": "Migrations",
+                    "account": "アカウント",
+                    "wallet": "ウォレット",
+                    "migrations": "移行",
                     "claim": ""
                 },
                 "profile": {
@@ -3245,8 +3251,8 @@
                     "walletLegacy": "古いウォレットを使用しているようです。手動でロックを解除して、再度お試しください。",
                     "completeWConnect": "ウォレットアプリでサインアップ{0}の手続きを完了してください。",
                     "completeWConnect2": "あなたのウォレットアプリで。",
-                    "showMoreOptions": "Show more options",
-                    "showLessOptions": "Show less options",
+                    "showMoreOptions": "オプションの表示を増やす",
+                    "showLessOptions": "オプションの表示を減らす",
                     "completeCoinbase": "",
                     "completeLoginInWallet": {
                         "continueInApp": "",
@@ -3649,9 +3655,9 @@
             "minutes": "分",
             "seconds": "秒",
             "btn": "LANDを購入",
-            "publicSaleStartsIn": "Public sale starts in:",
+            "publicSaleStartsIn": "パブリックセール開始まで：",
             "saleStartsIn": "販売開始まで：",
-            "saleEndsIn": "現在の販売終了まで："
+            "saleEndsIn": "現在のセール終了まで："
         },
         "caption": {
             "my": "現在のLAND",
@@ -3748,24 +3754,24 @@
             "polygonChain": "Polygon Network",
             "network": "Network",
             "ethereumChain": "イーサリアムネットワーク",
-            "tokenId": "Token ID",
-            "type": "Type",
-            "chain": "Chain",
-            "ethereum": "Ethereum",
-            "polygon": "Polygon",
-            "goerli": "Goerli",
-            "rinkeby": "Rinkeby",
-            "mumbai": "Mumbai",
-            "buildExperience": "Build Game",
-            "myLand": "MY LAND",
-            "onSale": "ON SALE",
+            "tokenId": "トークン ID",
+            "type": "タイプ",
+            "chain": "チェーン",
+            "ethereum": "イーサリウム",
+            "polygon": "ポリゴン",
+            "goerli": "ゴレリ",
+            "rinkeby": "リンクビー",
+            "mumbai": "ムンバイ",
+            "buildExperience": "ビルドゲーム",
+            "myLand": "マイランド",
+            "onSale": "販売中",
             "whatCanIDo": {
-                "title": "WHAT CAN I DO WITH MY LAND?",
-                "option1": "Download Game Maker and start building!",
-                "option2": "Publish a GAME",
-                "option3": "Hire Metaverse builders",
-                "option4": "Sell yout LAND",
-                "option5": "Lear more about LANDs"
+                "title": "LANDで何をすることができますか？",
+                "option1": "Game Makerをダウンロードして",
+                "option2": "ゲームを公開する",
+                "option3": "メタバース構築者を雇う",
+                "option4": "LANDを売る",
+                "option5": "LAND とは"
             },
             "manageSale": "売上を管理"
         },
@@ -3843,69 +3849,69 @@
             "newMapMobile": "This map is currently in experimental mode",
             "newMapButton": "Go to Previous Version",
             "whatsnew": "What's New",
-            "oldMapButtonMobile": "New Map"
+            "oldMapButtonMobile": "新しいマップ"
         },
         "landsale": {
             "buttons": {
-                "getMoreTickets": "Get More Tickets",
-                "enterRaffle": "Enter Raffle",
-                "getReady": "Get Ready",
-                "buyLand": "Buy LAND",
-                "checkResults": "Check Results",
-                "getNFT": "Get NFT",
-                "alreadyRegistered": "Already Registered"
+                "getMoreTickets": "チケットを手に入れる",
+                "enterRaffle": "抽選にエントリー",
+                "getReady": "準備をする",
+                "buyLand": "LANDを購入",
+                "checkResults": "結果をチェック",
+                "getNFT": "NFTを獲得",
+                "alreadyRegistered": "登録済み"
             },
             "header": {
                 "titles": {
-                    "loading": "LAND Sale Raffle",
-                    "default": "{partner} LAND Sale Raffle",
-                    "readyToBuyALAND": "Ready to buy a LAND?",
-                    "registrationClosed": "Registration for the {partner} LAND Sale Raffle is closed",
-                    "inRaffle": "You are registered for the Raffle",
-                    "notInRaffle": "You are not in the Raffle",
-                    "raffleResultsAreReady": "The Raffle results are ready!",
-                    "youWon": "You won a whitelist spot!",
-                    "youDidntWin": "You didn't win a whitelist spot!",
-                    "youDidntParticipated": "You didn't participated in the Raffle",
-                    "weAreProcessing": "We are processing the raffle"
+                    "loading": "LAND セール抽選",
+                    "default": "{partner} LAND セール抽選",
+                    "readyToBuyALAND": "LANDを購入しますか？",
+                    "registrationClosed": "{partner} LAND セール抽選へのエントリーは終了しました。",
+                    "inRaffle": "抽選にエントリーしています。",
+                    "notInRaffle": "抽選にエントリーしていません",
+                    "raffleResultsAreReady": "抽選結果が発表されました！",
+                    "youWon": "ホワイトリストスポットを獲得しました！",
+                    "youDidntWin": "ホワイトリストスポットを獲得できませんでした。",
+                    "youDidntParticipated": "抽選に参加されませんでした。",
+                    "weAreProcessing": "抽選を行っております。"
                 },
                 "subtitles": {
-                    "default": "Raffle winners will be able to buy 1 LAND in the {partner} LAND Sale. {landsCount} LANDs, {landsCount} winners!",
-                    "joinTheRaffle": "Join the {partner} LAND Sale Raffle and get a chance of winning a whitelist spot to buy a LAND",
-                    "signInToCheck": "Sign in to check your status",
-                    "notInRaffle": "But you can get a chance of buying a {partner} LAND in the Public Sale",
-                    "raffleResultsAreSignInToCheck": "{partner} Land Sale raffle results are in! Sign in to find out if you won a whitelist spot.",
-                    "raffleResultsAreReady": "{partner} Land Sale raffle results are in!  Check results to find out if you won a whitelist spot.",
-                    "youWon": "You are whitelisted for {partner} Land Sale. Make sure you are ready for the LAND sale, see the checklist below.",
-                    "youDidntWin": "Didn't win the raffle? Don't worry! Public Sale opnes 24 hours after the whitelist sale.",
-                    "youDidntParticipated": "But you can get a chance of buying a {partner} LAND in the Public Sale",
-                    "weAreProcessing": "This process can take a few minutes."
+                    "default": "当選者は{partner} LAND セールにて1 LAND を購入することができます。 {landsCount} 個のLANDがある場合 {landsCount} の当選者がいることになります。",
+                    "joinTheRaffle": "{partner} LAND の抽選セールに参加してLANDを優先的に購入できるホワイトリストスポットを獲得！",
+                    "signInToCheck": "サインインしてステータスをチェック",
+                    "notInRaffle": "公開セールでも{partner} LANDを購入することができます。",
+                    "raffleResultsAreSignInToCheck": "{partner} LAND 抽選セールの結果が発表されました！ サインインしてホワイトリストスポットに当選されたかご確認いただけます。",
+                    "raffleResultsAreReady": "{partner} LAND 抽選セールの結果が発表されました！ サインインしてホワイトリストスポットに当選されたかご確認いただけます。",
+                    "youWon": "{partner} LANDセールのホワイトリストに当選しました。LANDセールにあたり以下のチェックリストをご確認ください。",
+                    "youDidntWin": "当選されなかった場合でも、公開セールはホワイトリストセールの後に24時間開催されていますのでご安心ください。",
+                    "youDidntParticipated": "公開セールにて{partner} LAND を購入できるチャンスがあります。",
+                    "weAreProcessing": "処理に数分かかることがあります。"
                 },
                 "texts": {
-                    "youHaveTickets": "You have",
-                    "entersTheMetaverse": "{partner} enters the Metaverse",
-                    "beTheirNeighbour": "And you can be their neighbour",
-                    "howDoesItWork": "How does it work?",
-                    "howDoesItWorkAwnser": "We are changing our LAND Sale system to give all users more chances of buying a LAND",
-                    "description": "The most famous shopping district from Tokyo is entering The Sandbox. With the Shibuya 109 Estate at its heart! This new playground will offer next-generation customer experiences that exceed expectations.",
-                    "entryClosesOn": "Entry closes on {closeDate}"
+                    "youHaveTickets": "チケット数",
+                    "entersTheMetaverse": "{partner} がメタバースに入りました",
+                    "beTheirNeighbour": "隣人になることができます",
+                    "howDoesItWork": "どのような仕組みになっていますか？",
+                    "howDoesItWorkAwnser": "より多くのユーザーにLAND を購入していただけるように現在、LAND Sale のシステムを更新しています。",
+                    "description": "東京の最も有名なショッピングエリアがThe Sandbox に参入します。Shibuya 109 をその中心に広がるプレイグラウンドで創造を超える次世代エクスペリエンスを体験してください！",
+                    "entryClosesOn": "エントリーは {closeDate} に終了します。"
                 },
                 "countdown": {
-                    "registrationStarts": "REGISTRATION STARTS IN",
-                    "registrationEnds": "REGISTRATION ENDS IN",
-                    "raffleStarts": "RAFFLE STARTS IN",
-                    "publicSaleStarts": "PUBLIC SALE STARTS IN",
-                    "landSaleStartsIn": "LAND SALE SALE STARTS IN",
-                    "landSaleEndsIn": "LAND SALE ENDS IN"
+                    "registrationStarts": "エントリースタートまで",
+                    "registrationEnds": "エントリー終了まで",
+                    "raffleStarts": "抽選開始まで",
+                    "publicSaleStarts": "公開セールスタートまで",
+                    "landSaleStartsIn": "LAND セールスタートまで",
+                    "landSaleEndsIn": "LAND セール終了まで"
                 }
             },
             "timeline": {
-                "raffle": "Raffle",
-                "registration": "Registration",
-                "registerUntil": "Until {date}",
-                "wlSale": "WL Sale",
-                "publicSale": "Public Sale",
-                "publicSaleOpens": "Public sale opens 24 hours after the allowlist sale",
+                "raffle": "抽選",
+                "registration": "エントリー",
+                "registerUntil": "{date} まで",
+                "wlSale": "WL セール",
+                "publicSale": "公開セール",
+                "publicSaleOpens": "公開セールは許可リストセールの後 opens 24 hours after the allowlist sale",
                 "didntWinTheRaffle": "Didn't win the Raffle?",
                 "wantToKnowHowManyTickets": "Want to know how many tickets do you already have",
                 "youAreRegistered": "You are Registered for the Raffle",
@@ -4468,7 +4474,7 @@
                     "link": "https://sandboxgame.gitbook.io/the-game-maker-academy/welcome-to-the-sandbox/what-can-i-make"
                 }
             },
-            "showMore": "Show more"
+            "showMore": "もっと見る"
         }
     },
     "user": {
@@ -4762,7 +4768,7 @@
             "tabs": {
                 "1": "マイアバター",
                 "2": "ショップ",
-                "3": "Create",
+                "3": "作成",
                 "4": "Shop"
             },
             "saveButtonText": "変更を保存",
@@ -4843,9 +4849,9 @@
                 "presetName": "プリセット名"
             },
             "titleCreator": "アバタークリエイター",
-            "title": "Select your Avatar",
+            "title": "アバターを選択",
             "custom": "カスタムボディパーツのみ",
-            "iosWarning": "Landscape mode is not compatible with this feature. Please, change to portrait.",
+            "iosWarning": "ランドスケープモードはこの機能と互換性がありません。ポートレートへと変更してください。",
             "iosWarningTitle": "申し訳ございません",
             "externalAvatarsPopUp": {
                 "title1": "こんにちは！",
@@ -4856,13 +4862,13 @@
             },
             "noNfts": {
                 "title": "Ups!",
-                "description1": "You don't own any Avatar",
-                "description2": "Browse the {avatarCollections} to find one you like",
+                "description1": "アバターを所有していません",
+                "description2": "{avatarCollections} を見て好きなアバターを見つけてください",
                 "descriptionFirstLine": "無料のアバターを作成することができます、もしくは",
                 "descriptionSecondLine": "buy one and get {rewards}",
-                "rewards": "rewards",
+                "rewards": "リワード",
                 "createButton": "外部アバターを閲覧する",
-                "description3": "and be {unique}. You will get extra {rewards} too!",
+                "description3": "{unique}なキャラクターを作成してより多くの{rewards} を獲得できます！",
                 "avatarCollections": "Avatar Collections",
                 "unique": "unique"
             },
@@ -4948,7 +4954,7 @@
                 "reloadPage": "ページを再読み込みする"
             },
             "completeWConnect2": "",
-            "addWallet": "Add a wallet"
+            "addWallet": "ウォレットを追加"
         },
         "signinModal": {
             "title": "サインイン",
@@ -5369,53 +5375,54 @@
                 "2": "アルファシーズン 2",
                 "3": "アルファ・シーズン3",
                 "4": "Collector",
-                "5": "Belonging Week"
+                "5": "Belonging Week",
+                "6": "Halloween 2022"
             },
             "memorabilia": "記念品"
         },
         "login": {
             "v2": {
                 "common": {
-                    "usernameOrEmail": "Username or Email",
-                    "password": "Password",
-                    "provider-mismatch": "Seems that you registered with our previous social provider Venly. Please try the process again choosing Sign in with a Wallet, then select Venly to continue.",
-                    "user-wallet-browser": "IMPORTANT"
+                    "usernameOrEmail": "ユーザーネームまたはEmail",
+                    "password": "パスワード",
+                    "provider-mismatch": "以前のソーシャルプロバイダ Venly でご登録いただいた履歴がございます。Wallet をお使いいただきもう一度お試しいただいてからVenly を選択してください。",
+                    "user-wallet-browser": "重要"
                 },
                 "signin": {
-                    "action": "Sign in",
-                    "title": "Sign in",
-                    "create-account-question": "Don't have an account?",
-                    "create-account": "Create one",
-                    "signin-with-wallet": "Connect with a wallet",
-                    "signin-with-email": "Sign in with an email",
-                    "divider": "Or",
-                    "forgot-password": "Forgot password?"
+                    "action": "サインイン",
+                    "title": "サインイン",
+                    "create-account-question": "アカウントをお持ちでない方",
+                    "create-account": "アカウントを作成",
+                    "signin-with-wallet": "ウォレットと接続",
+                    "signin-with-email": "Email でサインイン",
+                    "divider": "もしくは",
+                    "forgot-password": "パスワードをお忘れの場合"
                 },
                 "wallet-choice": {
-                    "highlight": "Popular"
+                    "highlight": "人気"
                 },
                 "choose-login": {
-                    "haveAnAccount": "Already have an account?",
-                    "title": "Enter the Metaverse"
+                    "haveAnAccount": "すでにアカウントをお持ちの方",
+                    "title": "メタバースに参加"
                 },
                 "setup-account": {
-                    "tos1": "By creating an account, you agree to our",
-                    "tos2": "Terms of use",
-                    "password-hint": "Use 8 or more characters with a mix of letters, numbers & symbols",
-                    "title": "You are almost done!",
-                    "divider": "Or continue with"
+                    "tos1": "アカウントを作成することで以下に同意することとします。",
+                    "tos2": "利用規約",
+                    "password-hint": "アルファベット、数字、記号を使って8文字以上のパスワードを設定してください。",
+                    "title": "あと少しで設定完了です。",
+                    "divider": "またはこちらを使って続ける"
                 },
                 "onboard-modal": {
-                    "welcome-title-part-1": "Welcome to",
-                    "welcome-title-part-2": "The Sandbox Metaverse!",
-                    "welcome-message": "Create your free avatar. Customize your look, boost it with equipment and get ready to play with your friend!"
+                    "welcome-title-part-1": "ようこそ",
+                    "welcome-title-part-2": "The Sandbox メタバースへ！",
+                    "welcome-message": "無料アバターを作成し、装備品でカスタマイズして友達と遊ぼう！ "
                 },
-                "title": "Select a wallet to continue",
+                "title": "続けるにはウォレットを選択してください",
                 "errors": {
-                    "social-email-already-in-use": "Seems that you registered with our previous social provider Venly. Please try the process again choosing Sign in with a Wallet, then select Venly to continue.",
-                    "sign-in-mismatch-username-password": "Username/email or password mismatch",
-                    "setup-account-password": "Password format invalid",
-                    "service-unavailable": "Service currently unavailable"
+                    "social-email-already-in-use": "以前のソーシャルプロバイダ Venly でご登録いただいた履歴がございます。Wallet をお使いいただきもう一度お試しいただいてからVenly を選択してください。",
+                    "sign-in-mismatch-username-password": "ユーザーネーム / Emailもしくはパスワードがあっていません",
+                    "setup-account-password": "パスワードのフォーマットを確認してください",
+                    "service-unavailable": "サービスが現在ご利用いただけません"
                 }
             }
         }
@@ -8354,7 +8361,7 @@
         "cashback": {
             "total": "🔥 Total Cashback accumulated 🔥",
             "claim": "Claim Cashback",
-            "cashback": "Cashback"
+            "cashback": "キャッシュバック"
         },
         "deposits": "Deposits",
         "withdraws": "Withdraws",
@@ -11581,10 +11588,10 @@
                                 "title": "アバターのジャンプの高さが修正されました。"
                             },
                             "4": {
-                                "title": "Game Maker の修正でのエクスペリエンスの保存が修正されました。"
+                                "title": "Game Maker でのエクスペリエンスの保存が修正されました。"
                             },
                             "5": {
-                                "title": "消えたゲームイベント部分が修正されました。"
+                                "title": "消えたゲームイベントが修正されました。"
                             }
                         }
                     }
@@ -11923,7 +11930,7 @@
             "searchInput": "Search by role",
             "menuAction": {
                 "deleteInvite": "",
-                "deleteInvitation": "Delete Invitation"
+                "deleteInvitation": "招待を削除"
             },
             "metaEdit": "Edit",
             "metaCreate": "Create"
@@ -12353,18 +12360,18 @@
                 },
                 "comments": {
                     "message": "アーティストにコメント",
-                    "explain": "アーティストを理由をご記入ください。",
-                    "placeholderArea": "Write an iterating/reject reason",
-                    "reject": "Reject",
-                    "iterate": "Request changes",
-                    "comments": "COMMENTS"
+                    "explain": "アーティストを却下した理由をご記入ください。",
+                    "placeholderArea": "反復もしくは却下理由をご記入ください。",
+                    "reject": "却下",
+                    "iterate": "リクエスト変更",
+                    "comments": "コメント"
                 }
             }
         },
         "onlyAlphanumeric": "Only alpha-numeric characters are allowed",
         "addButton": "Add",
         "noResults": "No results for {search} search",
-        "removeButton": "Remove"
+        "removeButton": "削除"
     },
     "strapi": {
         "POC_LANDING_MINT_AVATAR_TITLE": "Express yourself in the metaverse",
@@ -12912,8 +12919,8 @@
                 },
                 "results": {
                     "labels": {
-                        "manualUpdateLegend": "Updated by an administrator",
-                        "age": "Age"
+                        "manualUpdateLegend": "管理者によってアップデートされました",
+                        "age": "年齢"
                     }
                 }
             },
@@ -12950,9 +12957,9 @@
             }
         },
         "notification": {
-            "title": "Identity verification",
-            "tag": "Verified",
-            "description": "You can now claim rewards and participate in our Seasons and LAND sale raffles."
+            "title": "ID確認",
+            "tag": "確認できました",
+            "description": "リワードを請求し、シーズンとLAND セールの抽選に参加することができます。"
         }
     },
     "backoffice": {
