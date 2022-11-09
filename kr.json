@@ -12916,7 +12916,7 @@
                 },
                 "results": {
                     "labels": {
-                        "manualUpdateLegend": "관리자에 의해 업데이트됨",
+                        "manualUpdateLegend": "An administrator did set the status manually",
                         "age": "연령"
                     }
                 }
@@ -12929,6 +12929,18 @@
                 "cancel": {
                     "title": "인증 취소",
                     "text": "계정 인증을 취소하시겠습니까?"
+                },
+                "verify": {
+                    "title": "Verify Account",
+                    "text": "Please explain why you have to verify the user account for {0}."
+                },
+                "reject": {
+                    "title": "Reject Account",
+                    "text": "Please explain why you have to reject the user account for {0}."
+                },
+                "sync": {
+                    "title": "Sync Account",
+                    "text": "Please explain why you have to sync the user account for {0}."
                 }
             },
             "form": {
