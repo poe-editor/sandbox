@@ -12919,7 +12919,7 @@
                 },
                 "results": {
                     "labels": {
-                        "manualUpdateLegend": "Updated by an administrator",
+                        "manualUpdateLegend": "An administrator did set the status manually",
                         "age": "Age"
                     }
                 }
@@ -12932,6 +12932,18 @@
                 "cancel": {
                     "title": "Cancel Verification",
                     "text": "Are you sure that you want to cancel the user verification?"
+                },
+                "verify": {
+                    "title": "Verify Account",
+                    "text": "Please explain why you have to verify the user account for {0}."
+                },
+                "reject": {
+                    "title": "Reject Account",
+                    "text": "Please explain why you have to reject the user account for {0}."
+                },
+                "sync": {
+                    "title": "Sync Account",
+                    "text": "Please explain why you have to sync the user account for {0}."
                 }
             },
             "form": {
