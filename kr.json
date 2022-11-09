@@ -4982,7 +4982,8 @@
             "changeAfterEmail": "주소로 전송했습니다.",
             "errors": {
                 "emailUsernameIsRequired": "이메일 또는 유저네임은 필수 항목입니다"
-            }
+            },
+            "back": "뒤로"
         },
         "changePasswordModal": {
             "title": "패스워드 변경",
@@ -5403,7 +5404,12 @@
                 },
                 "choose-login": {
                     "haveAnAccount": "이미 계정을 보유하고 있나요?",
-                    "title": "메타버스로 입장합니다!"
+                    "title": "Create an account",
+                    "wallet-cta": "Connect my Wallet",
+                    "divider": "Or",
+                    "gg-social": "Sign Up with Google",
+                    "fb-social": "Sign Up with Facebook",
+                    "tw-social": "Sign Up with Twitter"
                 },
                 "setup-account": {
                     "tos1": "계정 생성 시, 더 샌드박스의",
