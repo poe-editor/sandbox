@@ -4982,7 +4982,8 @@
             "changeAfterEmail": "so you can change your password.",
             "errors": {
                 "emailUsernameIsRequired": "Email or username is required"
-            }
+            },
+            "back": "Back"
         },
         "changePasswordModal": {
             "title": "Change my password",
@@ -5403,7 +5404,12 @@
                 },
                 "choose-login": {
                     "haveAnAccount": "Already have an account?",
-                    "title": "Enter the Metaverse"
+                    "title": "Create an account",
+                    "wallet-cta": "Connect my Wallet",
+                    "divider": "Or",
+                    "gg-social": "Sign Up with Google",
+                    "fb-social": "Sign Up with Facebook",
+                    "tw-social": "Sign Up with Twitter"
                 },
                 "setup-account": {
                     "tos1": "By creating an account, you agree to our",
