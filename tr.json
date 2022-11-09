@@ -4982,7 +4982,8 @@
             "changeAfterEmail": "böylelikle şifrenizi değiştirebilirsiniz.",
             "errors": {
                 "emailUsernameIsRequired": "E-posta ya da kullanıcı adı gereklidir"
-            }
+            },
+            "back": "Geri"
         },
         "changePasswordModal": {
             "title": "Şifremi değiştir",
@@ -5403,7 +5404,12 @@
                 },
                 "choose-login": {
                     "haveAnAccount": "Already have an account?",
-                    "title": "Enter the Metaverse"
+                    "title": "Create an account",
+                    "wallet-cta": "Connect my Wallet",
+                    "divider": "Or",
+                    "gg-social": "Sign Up with Google",
+                    "fb-social": "Sign Up with Facebook",
+                    "tw-social": "Sign Up with Twitter"
                 },
                 "setup-account": {
                     "tos1": "By creating an account, you agree to our",
