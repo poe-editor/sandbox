@@ -1661,7 +1661,7 @@
                 "epTooltip": "体験内のクエストをクリアすることで、エトスポイントを獲得できます。難易度の高いクエストをクリアすると、より多くのエトスポイントを獲得できます。",
                 "raffleRewards": "Raffle Rewards",
                 "raffleTooltip": "You will win the Raffle if you own a Season 3 Alpha Pass",
-                "leaderboardDisclaimer": "リーダーボードのリワードはシーズンが終了し、キャラクターやまだ使用可能なクエストを削除した後、一週間でにご利用いただけます。",
+                "leaderboardDisclaimer": "Leaderboard rewards will be available on Nov. 22. We will use that time to cleanup the leaderboard from cheaters and remove exploitable quests.",
                 "linkGiveawaysRules": "詳しい情報と公式ルールはこちらをご覧ください。"
             },
             "summary": {
@@ -2230,7 +2230,7 @@
                 "description": "チート対策チームがLeaderboardを監視しています。チーターを報告するには、以下の連絡先にご連絡ください。",
                 "title": "チーターのアカウント停止されます",
                 "title2": "Leaderboard rewards on November 22",
-                "description2": "Cleaning the leaderboard of cheaters will take a week. The Leaderboards rewards will be sent on November 22."
+                "description2": "Cleaning the Leaderboard of cheaters will take us a bit more time. The Leaderboard rewards will be sent on November 22.\n"
             }
         }
     },
@@ -4077,25 +4077,25 @@
                     "tooltip": "Get {tickets} extra Raffle Tickets by owning the Season 2 Alpha Pass. You need to own the NFT in your wallet when the Raffle starts."
                 },
                 "s1Memorabilia": {
-                    "title": "Season 1: Level 5 Completed",
+                    "title": "シーズン 1: Level 5 Completed",
                     "tooltip": "Get {tickets} extra Raffle tickets for reaching Level 5 in the Alpha Season 1."
                 },
                 "s2Memorabilia": {
-                    "title": "Season 2: Level 5 Completed",
+                    "title": "シーズン 2: レベル 5 クリア",
                     "tooltip": "Get {tickets} extra Raffle tickets for reaching Level 5 in the Alpha Season 2."
                 }
             }
         },
         "filters": {
-            "buyLand": "Buy LAND",
-            "play": "Play {0}",
-            "mapMode": "MAP MODE",
-            "comingSoon": "(Coming Soon)",
-            "results": "Showing {result} of {total} results.",
+            "buyLand": "LANDを購入",
+            "play": "{0} をプレイ",
+            "mapMode": "マップモード",
+            "comingSoon": "(近日公開)",
+            "results": "{total} 件中{result} 件の結果を表示",
             "expandSearch": "サーチを広げる",
             "sortBy": {
-                "title": "Sort by",
-                "lowerPrice": "Lower Price",
+                "title": "並べ替え",
+                "lowerPrice": "安い順",
                 "higherPrice": "Higher Price"
             },
             "currency": {
@@ -8194,9 +8194,9 @@
                 },
                 "step5": {
                     "step303": "STEP 3/3",
-                    "title": "手続きは完了しました",
-                    "footerTitle": "手続きは完了しました",
-                    "footerText1": "手続きは完了しました",
+                    "title": "手続きが完了しました",
+                    "footerTitle": "手続きが完了しました",
+                    "footerText1": "手続きが完了しました",
                     "button": "ウォレットに戻る"
                 }
             },
