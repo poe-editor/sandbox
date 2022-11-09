@@ -4114,30 +4114,30 @@
             "chain": {
                 "title": "チェーン",
                 "ethereum": "イーサイアム",
-                "polygon": "Polygon"
+                "polygon": "ポリゴン"
             },
             "tags": {
-                "sand": "Currency: SAND",
-                "eth": "Currency: ETH",
-                "weth": "Currency: WETH",
-                "usdc": "Currency: USDC",
-                "dai": "Currency: DAI",
-                "regular": "Regular",
-                "premium": "Premium",
-                "ethereum": "Chain: Ethereum",
-                "polygon": "Chain: Polygon"
+                "sand": "通貨: SAND",
+                "eth": "通貨: ETH",
+                "weth": "通貨: WETH",
+                "usdc": "通貨: USDC",
+                "dai": "通貨: DAI",
+                "regular": "レギュラー",
+                "premium": "プレミアム",
+                "ethereum": "チェーン: イーサリアム",
+                "polygon": "チェーン: ポリゴン"
             },
             "partners": {
-                "title": "Partners",
-                "search": "Search by name",
-                "category": "Category",
-                "name": "Name",
-                "showMore": "Show More",
-                "notFound": "No Results Found"
+                "title": "パートナー",
+                "search": "名前検索",
+                "category": "カテゴリー",
+                "name": "名前",
+                "showMore": "もっと表示",
+                "notFound": "検索結果なし"
             },
             "layers": {
                 "title": "マーカー",
-                "myLands": "My LAND"
+                "myLands": "LAND"
             }
         }
     },
@@ -4169,8 +4169,8 @@
             "sand": "SAND",
             "land": "LAND",
             "blog": "ブログ",
-            "getting": "Getting Started",
-            "docsAndRes": "Docs & Resources"
+            "getting": "はじめに",
+            "docsAndRes": "ドキュメントとリソース"
         },
         "sandbox": {
             "products": {
@@ -4982,7 +4982,8 @@
             "changeAfterEmail": "これによりパスワードを変更できます。",
             "errors": {
                 "emailUsernameIsRequired": "メールまたはユーザー名は必須です"
-            }
+            },
+            "back": "戻る"
         },
         "changePasswordModal": {
             "title": "パスワードを変更",
@@ -5242,7 +5243,7 @@
                 "resultDate": {
                     "message": "時間： {0} UTC"
                 },
-                "verificationPath": "Account > Settings > Account Verification."
+                "verificationPath": "アカウント > 設定 > アカウント認証"
             }
         },
         "claims": {
@@ -5368,7 +5369,7 @@
             "nftNote": "バッジはNFTではないので、取引はできません",
             "obtained": "{date}にアンロック",
             "missed": "なし",
-            "noBadge": "バッズを選択してプレビューを見る",
+            "noBadge": "バッジを選択してプレビューを見る",
             "noDates": "No Dates",
             "category": {
                 "1": "アルファシーズン 1",
@@ -5403,7 +5404,12 @@
                 },
                 "choose-login": {
                     "haveAnAccount": "すでにアカウントをお持ちの方",
-                    "title": "メタバースに参加"
+                    "title": "Create an account",
+                    "wallet-cta": "Connect my Wallet",
+                    "divider": "Or",
+                    "gg-social": "Sign Up with Google",
+                    "fb-social": "Sign Up with Facebook",
+                    "tw-social": "Sign Up with Twitter"
                 },
                 "setup-account": {
                     "tos1": "アカウントを作成することで以下に同意することとします。",
@@ -7501,8 +7507,8 @@
                 "alpha": "アルファ",
                 "deviceNotSupported": "現在、お使いのデバイスには対応していません。プレイするには、MACまたはWindows PCをご利用ください。",
                 "backToHome": "ホームへ戻る",
-                "browserNotSupported": "BROWSER NOT SUPPORTED :(",
-                "pleaseUseAnotherOne": "Please use another one to Play."
+                "browserNotSupported": "サポートされているブラウザを使用してください :(",
+                "pleaseUseAnotherOne": "プレイするためには他のブラウザをお使いください。"
             },
             "onboarding": {
                 "title1": "素晴らしい体験の数々を楽しみましょう。新体験が日々登場します！",
@@ -11801,14 +11807,14 @@
                         "reviewTransfer": "Review - With ownership transfer",
                         "reviewWithoutTransfer": "Review - Without ownership transfer",
                         "simplifiedShort": {
-                            "title": "Simplified",
-                            "description": "No review process. Just upload, publish and mint."
+                            "title": "自動承認",
+                            "description": "読み込み時にすべてのアセットが自動で承認されるため審査プロセスは必要ありません。アップロード後、公開して発行することができます。"
                         },
                         "reviewShort": {
-                            "title": "With review",
-                            "description": "Content will go through a review process led by allowed team members before being able to publish and mint."
+                            "title": "審査承認",
+                            "description": "コンテンツは公開・発行前に審査プロセスを通過する必要があります。"
                         },
-                        "transfershipAllow": "Ownership transfer allow",
+                        "transfershipAllow": "所有権を自動で移行する",
                         "transfershipAllowSubt": "このオプションを選択された場合、このワークスペースにアップロードされているすべてのアセットは自動的にお客様に転送されます。"
                     }
                 },
@@ -11825,12 +11831,12 @@
                 }
             },
             "workflowType": "Workflow Type",
-            "newWorkspace": "New workspace",
-            "invitations": "Invitations",
-            "noResultSearchTitle": "There is not results for {word} search",
-            "noResultSearchText": "Click on '{buttonName}' to add a new one!",
-            "loading": "Loading workspaces  ...",
-            "workspacesCount": "{count} Workspace | {count} Workspaces",
+            "newWorkspace": "新しいワークスペース",
+            "invitations": "招待状",
+            "noResultSearchTitle": "{word} の検索結果はありませんでした",
+            "noResultSearchText": "'{buttonName}' をクリックして追加",
+            "loading": "ワークスペースを読み込み中です...",
+            "workspacesCount": "{count} ワークスペース | {count} ワークスペース",
             "searching": ""
         },
         "members": {
@@ -11846,10 +11852,10 @@
                     "groups": "Groups",
                     "ban": "Ban",
                     "actions": "Actions",
-                    "members": "Members",
-                    "roles": "Roles"
+                    "members": "メンバー",
+                    "roles": "役割"
                 },
-                "search": "Search by name, email or group"
+                "search": "名前、emailまたはグループで検索"
             },
             "modal": {
                 "assignRol": "Assign Roles",
@@ -11884,26 +11890,26 @@
                 "edit": {
                     "editMember": "Edit Member",
                     "email": "Email",
-                    "dontFoundUser": "Workspace member doesn't found to edit",
-                    "loadingMember": "Loading member for edit..."
+                    "dontFoundUser": "ワークスペースの編集メンバーが見つかりません",
+                    "loadingMember": "編集用メンバーを読み込み中です..."
                 },
                 "menuAction": {
-                    "editRole": "Edit role",
-                    "deleteMember": "Delete"
+                    "editRole": "役割を編集",
+                    "deleteMember": "削除"
                 },
                 "assignRol2": "(後で変更可)"
             },
-            "loading": "Loading members...",
-            "creatorCannontBeDeleted": "Workspace creator can't be deleted",
-            "numberOfMembers": "{count} Member | {count} Members",
-            "searchField": "Search by name or email",
-            "ownerWorkspace": "Owner",
+            "loading": "メンバーを読み込み中...",
+            "creatorCannontBeDeleted": "ワークスペースのクリエイターは削除できません",
+            "numberOfMembers": "{count} メンバー | {count} メンバー",
+            "searchField": "名前またはemailで検索",
+            "ownerWorkspace": "オーナー",
             "filter": {
-                "all": "All",
-                "admin": "Admin",
-                "artist": "Artist",
-                "moderator": "Moderator",
-                "viewer": "Viewer"
+                "all": "すべて",
+                "admin": "管理者",
+                "artist": "アーティスト",
+                "moderator": "モデレーター",
+                "viewer": "ビューアー"
             },
             "notMembers": "このフィルターと検索にはメンバーはいません。",
             "clickAddMember": "メンバーを追加するには '{button}' をクリック"
@@ -11919,9 +11925,9 @@
             "noInvitation": "This workspace doesn't have any invitations yet",
             "noPrivateWorkspaceInvite": "Can not create invite for private workspace",
             "clickToAddInvitation": "Click on 'Create invitation' to start",
-            "title": "New Invitation",
-            "onlyNumbers": "You can only use numbers",
-            "errorAmount": "Max invites allows: {count}",
+            "title": "新しい招待状",
+            "onlyNumbers": "数字のみ使用可能です",
+            "errorAmount": "最大招待可能人数: {count}",
             "setAmount": "Set the amount",
             "disclaimerAmount": "You can share this link many times to invite members to the workspace",
             "buttonCreate": "Create link",
@@ -11930,7 +11936,7 @@
             "searchInput": "Search by role",
             "menuAction": {
                 "deleteInvite": "",
-                "deleteInvitation": "招待を削除"
+                "deleteInvitation": "招待状を削除"
             },
             "metaEdit": "Edit",
             "metaCreate": "Create"
@@ -12368,9 +12374,9 @@
                 }
             }
         },
-        "onlyAlphanumeric": "Only alpha-numeric characters are allowed",
-        "addButton": "Add",
-        "noResults": "No results for {search} search",
+        "onlyAlphanumeric": "アルファベットと数字を組み合わせたものを使用してください",
+        "addButton": "追加",
+        "noResults": "{search} の検索結果はありませんでした",
         "removeButton": "削除"
     },
     "strapi": {
