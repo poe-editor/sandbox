@@ -1651,7 +1651,7 @@
                 "stakeDesc2": "\"また、十分な{1}をステーキングすることで{0}を獲得できます。シーズン全体（10週間）で、{2}をステーキングするごとに1ポイントを獲得できます。",
                 "extraTickets": "500抽選チケット追加",
                 "onlyVerifiedAccounts": "抽選に参加できるのは、認証済みアカウントのみです。",
-                "claimRewards": "報酬を受け取る",
+                "claimRewards": "リワードを獲得",
                 "alreadyOwnRaffle": "You already own an Alpha Pass! You will be able to claim your Alpha Pass rewards at the end of the season. No need to participate in the Raffle anymore.",
                 "getMore": "Get more",
                 "raffleResults": "抽選前",
@@ -1676,7 +1676,7 @@
                 "goBadges": "バッジに行く",
                 "nextSeason": "次のシーズンは君のもの！",
                 "keepHaving": "Keep having fun and try to win some rewards next time.",
-                "coming": "Coming on November 9",
+                "coming": "Coming on November 22",
                 "missedRewards": "Rewards you missed:"
             },
             "tickets": {
@@ -2148,7 +2148,7 @@
                 "subtitle": "We are continuously working on enhancements and fixes.\nPlease let us know if you found any bug. Feel free to write us at:"
             },
             "leaderboard": {
-                "claimDesc": "11月9日より開始"
+                "claimDesc": "11月22日より開始"
             }
         },
         "leaderboard": {
@@ -2229,8 +2229,8 @@
             "cheaters": {
                 "description": "チート対策チームがLeaderboardを監視しています。チーターを報告するには、以下の連絡先にご連絡ください。",
                 "title": "チーターのアカウント停止されます",
-                "title2": "Leaderboard rewards on November 9",
-                "description2": "Cleaning the leaderboard of cheaters will take a week. The Leaderboards rewards will be sent on November 9."
+                "title2": "Leaderboard rewards on November 22",
+                "description2": "Cleaning the leaderboard of cheaters will take a week. The Leaderboards rewards will be sent on November 22."
             }
         }
     },
@@ -3228,7 +3228,7 @@
                         "title": "Bitski",
                         "value": "ウォレットに接続する",
                         "signin": "Bitskiでサインインしてください",
-                        "subtitle": "(Free Season 3 Airdrop)"
+                        "subtitle": "サブタイトル"
                     },
                     "email": {
                         "title": "メール",
@@ -3242,7 +3242,7 @@
                         "title": "Social",
                         "value": "次で続行：",
                         "signin": "Venlyでサインインしてください",
-                        "subtitle": "(Venly)"
+                        "subtitle": "サブタイトル"
                     },
                     "login": "既にアカウントを持っている",
                     "waiting": "サインインまたはVenlyに登録してください",
@@ -3870,8 +3870,8 @@
                     "inRaffle": "抽選にエントリーしています。",
                     "notInRaffle": "抽選にエントリーしていません",
                     "raffleResultsAreReady": "抽選結果が発表されました！",
-                    "youWon": "ホワイトリストスポットを獲得しました！",
-                    "youDidntWin": "ホワイトリストスポットを獲得できませんでした。",
+                    "youWon": "ホワイトリストスポットに当選しました！",
+                    "youDidntWin": "ホワイトリストスポットに当選しませんでした。",
                     "youDidntParticipated": "抽選に参加されませんでした。",
                     "weAreProcessing": "抽選を行っております。"
                 },
@@ -3883,7 +3883,7 @@
                     "raffleResultsAreSignInToCheck": "{partner} LAND 抽選セールの結果が発表されました！ サインインしてホワイトリストスポットに当選されたかご確認いただけます。",
                     "raffleResultsAreReady": "{partner} LAND 抽選セールの結果が発表されました！ サインインしてホワイトリストスポットに当選されたかご確認いただけます。",
                     "youWon": "{partner} LANDセールのホワイトリストに当選しました。LANDセールにあたり以下のチェックリストをご確認ください。",
-                    "youDidntWin": "当選されなかった場合でも、公開セールはホワイトリストセールの後に24時間開催されていますのでご安心ください。",
+                    "youDidntWin": "当選されなかった場合でも、公開セールはホワイトリストセールの24時間後に開催されますのでご安心ください。",
                     "youDidntParticipated": "公開セールにて{partner} LAND を購入できるチャンスがあります。",
                     "weAreProcessing": "処理に数分かかることがあります。"
                 },
@@ -3911,169 +3911,169 @@
                 "registerUntil": "{date} まで",
                 "wlSale": "WL セール",
                 "publicSale": "公開セール",
-                "publicSaleOpens": "公開セールは許可リストセールの後 opens 24 hours after the allowlist sale",
-                "didntWinTheRaffle": "Didn't win the Raffle?",
-                "wantToKnowHowManyTickets": "Want to know how many tickets do you already have",
-                "youAreRegistered": "You are Registered for the Raffle",
-                "youAreNotRegistered": "You are NOT Registered for the Raffle",
-                "youWon": "You won a whitelist spot!",
-                "youDidntWin": "You didn't win a whitelist spot!"
+                "publicSaleOpens": "公開セールは許可リストセールの24時間後に開催します。",
+                "didntWinTheRaffle": "抽選に外れてしまった方",
+                "wantToKnowHowManyTickets": "チケットを何枚持っているか確認したい場合",
+                "youAreRegistered": "抽選にエントリーしています",
+                "youAreNotRegistered": "抽選にエントリーされていません",
+                "youWon": "ホワイトリストスポットに当選しました！",
+                "youDidntWin": "ホワイトリストスポットに当選しませんでした。"
             },
             "whatsTheLANDSale": {
-                "title": "What is the LAND Sale Raffle?",
+                "title": "LAND 抽選セールとは何ですか？",
                 "explain1": {
-                    "message": "We want to provide a fair experience so everyone can get the chance of buying LAND. This is why we are redesigning our LAND Sale system introducing the {0}. ",
-                    "boldMessage": "LAND Sale Raffle"
+                    "message": "すべてのユーザーが公平にLAND を購入できるよう努めています。{0}を導入しLANDセールのシステムを再構築中しています。",
+                    "boldMessage": "LAND 抽選セール"
                 },
                 "explain2": {
-                    "message": "In order to buy LAND at The Sandbox, users will need to join the LAND Sale Raffle. {0} depending on the type of raffle they joined, {1} or {2}.",
-                    "boldMessage": "Every winner will be able to buy a random LAND",
-                    "premium": "Premium",
-                    "regular": "Regular"
+                    "message": "The SandboxでLANDを購入するためにはユーザーはLAND 抽選セールに参加する必要があります。{0} 抽選タイプには{1} と {2}があります。",
+                    "boldMessage": "当選者はランダムにLANDを購入することができます",
+                    "premium": "プレミアム",
+                    "regular": "レギュラー\n"
                 },
-                "joinRequirements": "To join the LAND Sale Raffle make sure you meet the following requirements:",
-                "requirement1": "Having an account at The Sandbox",
-                "requirement2": "Having enough SAND in your wallet",
-                "requirement3": "Having your Account Verified before the Raffle starts",
-                "farewell": "The more tickets you have, the more chances of winning."
+                "joinRequirements": "LAND 抽選セールに参加するためには以下の要件を満たす必要があります。",
+                "requirement1": "The Sandboxのアカウントを持っている",
+                "requirement2": "ウォレットに十分なSANDが入っている",
+                "requirement3": "抽選が始まる前にアカウントが認証されている",
+                "farewell": "チケットの数が多いほど当選の確率は高くなります。"
             },
             "modals": {
                 "KYCStatus": {
                     "firstView": {
-                        "verifyAccount": "Verify your account",
+                        "verifyAccount": "アカウントを認証",
                         "explain": {
-                            "message": "As much as we love robots, we want the Metaverse to be full of {0}. We are improving our LAND Sale system so everyone has a fair chance of getting LAND.",
-                            "humans": "humans"
+                            "message": "我々はロボットも好きですが、メタバースの中は{0} でいっぱいにしてもらいたいと考えています。\nまたすべてのユーザーが公平にLAND を購入できるようLAND セールシステムを改善しています。",
+                            "humans": "人間"
                         },
-                        "importantMessage": "IMPORTANT: The Verification process might take up to 48 hours.",
+                        "importantMessage": "重要: 認証プロセスには最大48時間かかることがあります。",
                         "disclaimer": {
-                            "message": "Only Verified accounts will be elegible to winning the LAND Sale Raffle. If you choose to Verify your account later, you can start the verification process at {0}",
-                            "path": "{verificationPath}"
+                            "message": "認証済みアカウントのみがLAND 抽選セールで当選することができます。アカウントの認証を後で行いたいユーザーは{0}から認証プロセスを開始することができます。",
+                            "path": "{認証パス}"
                         }
                     },
                     "secondView": {
-                        "continueWithoutVerification": "Continue without verification",
-                        "disclaimer": "Only Verified accounts can be elegible to win the LAND Sale Raffle.",
-                        "disclaimerExplanation": "If you decide to Verify your account later please remember the verification process might take up to 48 hours. If you account is not Verified before the LAND Sale Raffle starts, your entry won’t be valid."
+                        "continueWithoutVerification": "認証せずに続ける",
+                        "disclaimer": "認証済みアカウントのみがLAND 抽選セールで当選することができます。",
+                        "disclaimerExplanation": "アカウントの認証を後で行う場合は、認証プロセスが最大48時間かかることをご承知おきください。LAND 抽選セール前にアカウントが認証されていない場合、エントリーが無効となりますのであらかじめご了承ください。"
                     }
                 },
                 "registration": {
-                    "title": "Select the raffle you want to join",
-                    "message": "Joining one raffle, or both to increase your chance of winning. You can only win one of them.",
-                    "importantMessage": "IMPORTANT: By joining the LAND Sale Raffle YOU ARE NOT BUYING A LAND. You are joining a raffle to win a chance to buy 1 LAND in the LOREMIPSUM LAND Sale Raffle. Entering the raffle does not have a cost nor will trigger a transaction.",
-                    "raffleDate": "Raffle Date",
+                    "title": "参加をご希望の抽選を選択してください",
+                    "message": "一つ、または両方の抽選に参加することで当選確率を上げることができますが当選はどちらか一つとなりますのでご了承ください。",
+                    "importantMessage": "重要: LAND 抽選セールに参加することはLANDを購入するという意味ではありません。抽選はLOREMIPSUM LAND 抽選セールで1LAND分を購入する権利を獲得するために行われます。抽選に参加する際には費用は一切かかりません。また取引を行う必要もありません。",
+                    "raffleDate": "抽選日時",
                     "regularLand": {
-                        "publishMonetize": "Publish and monetize your Experience",
-                        "rentYourLAND": "Rent your LAND",
-                        "earnRewards": "Earn exclusive rewards",
-                        "stake": "Stake"
+                        "publishMonetize": "エクスペリエンスを公開して収益化",
+                        "rentYourLAND": "LANDを貸す",
+                        "earnRewards": "限定リワードを獲得する",
+                        "stake": "ステーキング"
                     },
                     "premiumLand": {
-                        "regularFeaturesPlus": "All Regular LAND features +",
-                        "premiumLocation": "Premium location next to top Partners",
-                        "exclusiveAssets": "Exclusive assets bundle"
+                        "regularFeaturesPlus": "通常のLAND の特徴",
+                        "premiumLocation": "トップパートナーの隣のプレミアムロケーション",
+                        "exclusiveAssets": "限定アセットバンドル"
                     }
                 },
                 "confirmation": {
                     "verificationNotStarted": {
-                        "title": "Verify you account to continue",
-                        "message": "You need to verify your account before the raffle starts. Account verification might take up to 48 hours.",
-                        "button": "START ACCOUNT VERIFICATION"
+                        "title": "続けるにはアカウントを認証してください",
+                        "message": "抽選が始まるまでにアカウントを認証する必要があります。アカウント認証には最大48時間かかることがあります。",
+                        "button": "アカウント認証をスタート"
                     },
                     "verificationStarted": {
-                        "title": "Verify you account to continue",
-                        "message": "You need to verify your account before the raffle starts. Account verification might take up to 48 hours.",
-                        "button": "CONTINUE ACCOUNT VERIFICATION "
+                        "title": "続けるにはアカウントを認証してください",
+                        "message": "抽選が始まるまでにアカウントを認証する必要があります。アカウント認証には最大48時間かかることがあります。",
+                        "button": "アカウント認証を続ける"
                     },
                     "waitingVerification": {
-                        "title": "We are processing your Raffle entry",
-                        "message": "Your entry will be approved if your account gets verified. This process can take up to 48 hours.",
-                        "button": "CHECK VERIFICATION STATUS"
+                        "title": "抽選エントリーを処理しています",
+                        "message": "アカウントが認証され次第エントリーが承認されます。この処理には最大48時間かかることがあります。",
+                        "button": "認証ステータスを確認"
                     },
                     "verified": {
-                        "title": "You are in the raffle",
-                        "message": "Thanks for joining the LOREMIPSUM Land Sale Raffle. Good luck!"
+                        "title": "抽選にエントリーしています",
+                        "message": "LOREMIPSUM Land 抽選セールにご参加いただきありがとうございます。"
                     }
                 },
                 "youWon": {
-                    "title": "Congratulations!",
-                    "subtitle": "You are now whitelisted to buy 1 {landType} LAND at {partner} LAND Sale",
+                    "title": "おめでとうございます！",
+                    "subtitle": "{partner} LAND セールで1 {landType} LAND を購入できるホワイリストに当選しました。",
                     "message": {
-                        "body": "To buy {0} enter the {1} page ({2}) between {3} and {4}. After that period, you won’t be able to purchase. Your entry is only valid for {partner} LAND Sale.",
-                        "landSale": "LAND Sale",
+                        "body": "{0}を購入するには {3}から{4}の間に{1}ページよりエントリーしてください。({2}) 期間終了後には購入することができませんのであらかじめご了承ください。またエントリーは {partner} LAND セールにのみ有効となります。",
+                        "landSale": "LAND セール",
                         "landType": "1 {landType} LAND",
                         "link": "https://sandbox.game/en/landsale",
                         "startsAt": "{startsAt}",
                         "endsAt": "{endsAt}"
                     },
-                    "yourWallet": "Your wallet: ",
-                    "makeSure": "Make sure you are all set for the LAND Sale."
+                    "yourWallet": "ウォレット： ",
+                    "makeSure": "LAND セールまでに必要な準備が整っていることを確認してください。"
                 },
                 "youDidntWin": {
-                    "title": "Better luck next time",
-                    "subtitle": "You can still get a LAND",
+                    "title": "今回は残念な結果でしたが、次回また抽選に参加してください。",
+                    "subtitle": "まだLANDを獲得することができます。",
                     "message": {
-                        "body": "ESTATE Auctions will start on {0}. If any user who won the raffle decides not to buy their LAND, all remaining LAND will be set in auction on {1}.",
+                        "body": "ESTATE オークションは{0}にスタートします。当選者の中にLANDを購入しないユーザーがいた場合、残りのすべてのLAND は{1}にオークションにかけられることになります。",
                         "startsAt": "{startsAt}",
                         "endsAt": "{endsAt}"
                     },
-                    "learnMore": "Learn more about {partner} Land Sale",
-                    "redirectedToOpenSea": "You will be redirected to OpenSea"
+                    "learnMore": "{partner} Land セール詳細",
+                    "redirectedToOpenSea": "OpenSea にリダイレクトされます"
                 },
                 "buyLand": {
-                    "title": "You are going to buy",
+                    "title": "以下のLANDを購入します。",
                     "title2": "1 {type} LAND",
-                    "description": "Click the button below to BUY and reveal the location of your new LAND!",
-                    "button": "BUY 1 {type} LAND ({price} SAND)"
+                    "description": "購入ボタンをクリックして新しいLANDの場所をチェック！",
+                    "button": "1 {type} LANDを購入 ({price} SAND)"
                 },
                 "landBought": {
-                    "title": "You just bought",
+                    "title": "以下のLANDの購入が完了しました。",
                     "title2": "{type} LAND ({coordinates})",
-                    "description": "Your transaction is being processed.",
-                    "check": "Check your transaction:",
-                    "button": "What can I do with my LAND?",
-                    "closeAdvice": "You can close this popup, your transaction will still be processed"
+                    "description": "取引を処理しています。",
+                    "check": "取引を確認：",
+                    "button": "LANDで何ができますか？",
+                    "closeAdvice": "このポップアップを閉じてもお客様の取引は処理されますのでご安心ください。"
                 }
             },
             "KYC": {
-                "accountStatus": "Account Status",
+                "accountStatus": "アカウントステータス",
                 "poweredBy": {
                     "by": "Powered by SYNAPS. {0}",
-                    "linkMessage": "Learn more about SYNAPS"
+                    "linkMessage": "SYNAPS詳細"
                 },
                 "buttons": {
-                    "startVerification": "Start Verification",
-                    "checkVerification": "CHECK VERIFICATION STATUS",
-                    "doLater": "I'll do the verification later",
-                    "IUnderstand": "I understand, continue"
+                    "startVerification": "認証スタート",
+                    "checkVerification": "認証ステータスを確認",
+                    "doLater": "後で認証する",
+                    "IUnderstand": "続ける"
                 },
                 "verificationProcess": {
-                    "disclaimer": "{0}: If you want to receive a confirmation via e-mail please make sure there’s an email linked to your account. You can link an email at {1}  You can always check your account Verification status at {2}",
-                    "title": "VERIFICATION PROCESS",
-                    "emailPath": "Account > Settings > Email & Password",
+                    "disclaimer": "{0}: 確認メールの受信を希望される方はアカウントにemailが登録されているかをご確認ください。\n{1} からemailを登録することができます。また{2}からアカウントの認証ステータスを確認することができます。",
+                    "title": "認証プロセス",
+                    "emailPath": "アカウント > 設定 > Emailとパスワード",
                     "verificationPath": "{verificationPath}"
                 },
                 "verificationStatus": {
-                    "title": "RAFFLE ENTRY STATUS",
-                    "unverified": "YOU ARE NOT VERIFIED",
-                    "inProgress": "VERIFICATION PENDING",
-                    "waitingVerification": "VERIFICATION PENDING",
-                    "verified": "YOU ARE IN THE RAFFLE",
-                    "rejected": "VERIFICATION REJECTED",
-                    "cancelled": "VERIFICATION CANCELLED"
+                    "title": "抽選エントリーのステータス",
+                    "unverified": "認証が完了していません",
+                    "inProgress": "認証が保留になっています",
+                    "waitingVerification": "認証が保留になっています",
+                    "verified": "抽選にエントリーしています",
+                    "rejected": "認証が拒否されました",
+                    "cancelled": "認証がキャンセルされました"
                 }
             },
             "tickets": {
-                "title": "How to get LAND Sale Raffle tickets",
-                "subtitle": "Increase your chances of winning by earning more tickets*. By winning the LAND Sale Raffle you earn the chance of buying a LAND.",
-                "disclaimer": "*How you earn tickets might change on each LAND Sale depending on Seasonal events, partners and different activities.",
-                "yourTotalRaffleTickets": "YOUR TOTAL RAFFLE TICKETS",
+                "title": "LAND 抽選セールチケットの入手方法",
+                "subtitle": "より多くのチケット*を獲得することで当選確率を上げることができます。LAND 抽選セールに当選するとLANDを購入することができます。",
+                "disclaimer": "*LANDセールのチケット獲得方法はシーズンイベント、パートナー、アクティビティによって変わることがあります。",
+                "yourTotalRaffleTickets": "抽選チケット合計",
                 "registered": {
-                    "title": "Enter the Raffle",
-                    "tooltip": "Get {tickets} for registering in the Landsale Raffle."
+                    "title": "抽選にエントリー",
+                    "tooltip": "LAND 抽選セールにエントリーする{tickets} をGET"
                 },
                 "season2pass": {
-                    "title": "Season 2 Alpha Pass",
+                    "title": "シーズン 2 Alpha Pass",
                     "tooltip": "Get {tickets} extra Raffle Tickets by owning the Season 2 Alpha Pass. You need to own the NFT in your wallet when the Raffle starts."
                 },
                 "s1Memorabilia": {
@@ -5235,7 +5235,7 @@
                 "description": "LANDセール、抽選やシーズン報酬の申請などの活動に参加するためには、アカウント認証プロセスを完了する必要があります。",
                 "extra": "手続きには最大で48時間かかる場合があります。確認の進捗状況は、こちらでいつでも確認することができます。",
                 "button": {
-                    "start": "認証を開始する",
+                    "start": "認証スタート",
                     "continue": "認証を継続する",
                     "check": "認証を確認する"
                 },
@@ -12847,7 +12847,7 @@
                 "label": "認証されていません",
                 "description": "LANDセールや抽選会に参加や、シーズン報酬の請求には、アカウントの認証が必要です。アカウントの認証は、ボットや詐欺、悪質な業者からエコシステムを防ぐための対策です。ご了承ください。",
                 "extra": "アカウント認証には最大48時間かかる場合があります。早めに本人認証プロセスの手続きを開始してください。",
-                "cta": "本人確認を開始する",
+                "cta": "認証スタート",
                 "date": "時間： {0} UTC",
                 "needHelp": "ご不明な点は{0} にて、確認できます。",
                 "actionReference": ""
@@ -12865,7 +12865,7 @@
                 "label": "認証完了",
                 "description": "アカウントの認証が完了しました。これにより、報酬の請求、LANDのセール、抽選会などに参加することができます。",
                 "extra": "他",
-                "cta": "認証を開始する",
+                "cta": "認証スタート",
                 "date": "時間： {0} UTC",
                 "needHelp": "ご不明な点は{0} にて、確認できます。",
                 "actionReference": ""
@@ -12883,7 +12883,7 @@
                 "label": "キャンセル済み",
                 "description": "概要",
                 "extra": "他",
-                "cta": "認証を開始する",
+                "cta": "認証スタート",
                 "date": "時間： {0} UTC",
                 "actionReference": "",
                 "needHelp": ""
