@@ -240,7 +240,32 @@
         "opensea": "OpenSea",
         "password": "パスワード",
         "username": "ユーザーネーム",
-        "goBack": "戻る"
+        "goBack": "戻る",
+        "hrs": "hrs",
+        "mins": "MINS",
+        "secs": "SECS",
+        "months": {
+            "0": "January",
+            "1": "February",
+            "2": "March",
+            "3": "April",
+            "4": "May",
+            "5": "June",
+            "6": "July",
+            "7": "August",
+            "8": "September",
+            "9": "October",
+            "10": "November",
+            "11": "December"
+        },
+        "markAsRequired": "Required",
+        "verify": "Verify",
+        "reject": "Reject",
+        "noResults": "No results were found in your search",
+        "totalResults": "Records found: {0}",
+        "browserSupport": {
+            "videoTag": "Your browser does not support the video tag."
+        }
     },
     "layout": {
         "topbar": {
@@ -334,7 +359,8 @@
             "newSideBarCommunities": "コミュニティ",
             "newSideBarEarn": "獲得",
             "newSideBarWorkbench": "ワークベンチ",
-            "newSideBarLanguage": "言語"
+            "newSideBarLanguage": "言語",
+            "newSideBarLandsale": "LAND Sale"
         },
         "footer": {
             "community": {
@@ -907,7 +933,7 @@
             "eventEthosPoints": "Event Ethos Point",
             "eventEthosPointsDesc": "Available until",
             "event": "Event",
-            "playAlpha": "Play Alpha",
+            "playAlpha": "アルファをプレイ",
             "modalTitleSeasonIsOpen": "アルファ シーズン3は終了しました！",
             "modalDescription1SeasonIsOpen": "アルファ シーズン3 にご協力いただきありがとうございました。",
             "modalDescription2SeasonIsOpen": "メタバースはまだまだオープン！ イベントをお楽しみに！",
@@ -1636,13 +1662,13 @@
                 "buy": "購入",
                 "guaranteed": "SAND報酬",
                 "guaranteedDesc": "Own a piece of LAND, an Avatar and NFTs from our collections at the end of the season and earn {0} based on your level.",
-                "earnSand": "BONUS SAND REWARDS GUARANTEED",
+                "earnSand": "ボーナスSANDリワード",
                 "landOwner": "Land保有者",
                 "forLandOwner": "LAND保有者対象",
-                "landDesc": "Get a piece of LAND to unlock those guaranteed rewards",
+                "landDesc": "LANDをGETしてNFT保有者向けリワードを解除 ",
                 "avatarOwner": "アバター保有者",
                 "forAvatarOwner": "アバター保有者対象",
-                "avatarDesc": "Get an Avatar to unlock those guaranteed rewards",
+                "avatarDesc": "アバターをGETしてNFT保有者向けリワードを解除",
                 "collectorOwner": "NFTコレクター",
                 "forCollectorOwner": "NFT保有者対象",
                 "collectorDesc": "この報酬をアンロックするにはNFTバッジを入手してください",
@@ -1914,7 +1940,7 @@
                     "reward3": "1,500",
                     "rank4": "Ranks #201 to #1000:",
                     "reward4": "750",
-                    "rank5": "Ranks #1001 to #10000",
+                    "rank5": "#1001から#10000までにランク付け",
                     "reward5": "60"
                 },
                 "7": {
@@ -2073,7 +2099,7 @@
                         "titleKey10": "シーズン3のアルファパスはいつまで受け取れますか？",
                         "descriptionKey10": "アルファパスの入手方法によって異なります。\n 1. アルファ・シーズン3が開催されている間にソーシャルコンテストでアルファパスを獲得した場合、アルファ・シーズン3が終了する前にアルファパスを請求しないと、アルファパスは失われてしまいます。\n 2. アルファ・シーズン3の終わりに抽選でアルファパスを獲得した場合、請求に期限はありません。\n",
                         "titleKey11": "SAND 報酬を受け取るまでにどのくらいの時間がかかりますか?",
-                        "descriptionKey11": "SANDの報酬を受け取りには期限は設定されていません。",
+                        "descriptionKey11": "SANDの報酬の受け取りには期限は設定されていません。",
                         "titleKey12": "報酬を受け取るために、KYC（Know Your Customer）を行う必要がありますか？",
                         "descriptionKey12": "はい。Know Your Customer(KYC)は、金融業界の標準的な要件であり、顧客の確認とマネーロンダリングのリスクの軽減のために使用されています。また、ユーザーが1つのアカウントでのみプレイすることを確認するためにも使用されます。個人情報を共有することは必ずしも安心できることではありませんが、報酬に関して、すべてのユーザーにとってゲームが公平であることを確認するためには、これが唯一の方法なのです。あなたのデータは、あなたのアカウントを確認する以外の目的で使用されることはありません。データはThe Sandboxとそのパートナーにも公開されず、KYCプロバイダーのデータベースで暗号化され、彼らも情報にアクセスしたり、悪用したりすることはできません。",
                         "titleKey13": "アルファ・シーズン1やアルファ・シーズン2のSAND報酬を請求し忘れてしまったのですが、まだ請求できますか？",
@@ -3704,7 +3730,8 @@
             "ubisoft": "UBISOFT",
             "avex": "METAVEX",
             "shibuya": "SHIBUYA",
-            "time": "TIME"
+            "time": "TIME",
+            "warmup": "Warmup"
         },
         "booked": "予約者：",
         "visit": "サイトにアクセス",
@@ -3790,7 +3817,13 @@
                     "option4": "Catalyst & Gems airdrop"
                 }
             },
-            "manageSale": "売上を管理"
+            "manageSale": "売上を管理",
+            "onLandsaleRaffle": "LAND SALE RAFFLE",
+            "landsaleRaffle": {
+                "description": "This LAND is part of the {landsaleName} LAND Sale. You can get this LAND joining the LAND Sale Raffle.",
+                "learnMoreAbout": "Learn more about the LAND Sale Raffle",
+                "join": "Join LAND Sale Raffle"
+            }
         },
         "onboarding": {
             "title": "The Sandboxマップ",
@@ -3876,7 +3909,10 @@
                 "buyLand": "LANDを購入",
                 "checkResults": "結果をチェック",
                 "getNFT": "NFTを獲得",
-                "alreadyRegistered": "登録済み"
+                "alreadyRegistered": "登録済み",
+                "join": "Join",
+                "backToLandSale": "Back to LAND Sale",
+                "goToMap": "Go to Map"
             },
             "header": {
                 "titles": {
@@ -3911,7 +3947,9 @@
                     "howDoesItWork": "どのような仕組みになっていますか？",
                     "howDoesItWorkAwnser": "より多くのユーザーにLAND を購入していただけるように現在、LAND Sale のシステムを更新しています。",
                     "description": "東京の最も有名なショッピングエリアがThe Sandbox に参入します。Shibuya 109 をその中心に広がるプレイグラウンドで創造を超える次世代エクスペリエンスを体験してください！",
-                    "entryClosesOn": "エントリーは {closeDate} に終了します。"
+                    "entryClosesOn": "エントリーは {closeDate} に終了します。",
+                    "ownedTickets": "LAND Raffle Tickets",
+                    "registered": "You are participating in the LAND Sale Raffle!"
                 },
                 "countdown": {
                     "registrationStarts": "エントリースタートまで",
@@ -3919,8 +3957,14 @@
                     "raffleStarts": "抽選開始まで",
                     "publicSaleStarts": "公開セールスタートまで",
                     "landSaleStartsIn": "LAND セールスタートまで",
-                    "landSaleEndsIn": "LAND セール終了まで"
-                }
+                    "landSaleEndsIn": "LAND セール終了まで",
+                    "live": "LIVE",
+                    "raffleResultsIn": "RAFFLE RESULTS IN:",
+                    "landSaleStartsOnDate": "LAND sale starts on {date}"
+                },
+                "wave": "Wave 1 - {time}",
+                "subtitle": "Raffle winners will be able to buy 1 LAND in the {partner} LAND Sale. {landsCount} LANDs, {landsCount} winners!",
+                "subtitle2": "These are California Dreamin’ and you never need to wake up!"
             },
             "timeline": {
                 "raffle": "抽選",
@@ -3934,7 +3978,9 @@
                 "youAreRegistered": "抽選にエントリーしています",
                 "youAreNotRegistered": "抽選にエントリーされていません",
                 "youWon": "ホワイトリストスポットに当選しました！",
-                "youDidntWin": "ホワイトリストスポットに当選しませんでした。"
+                "youDidntWin": "ホワイトリストスポットに当選しませんでした。",
+                "sale": "Sale",
+                "until": "Until {date}"
             },
             "whatsTheLANDSale": {
                 "title": "LAND 抽選セールとは何ですか？",
@@ -4024,7 +4070,8 @@
                         "endsAt": "{endsAt}"
                     },
                     "yourWallet": "ウォレット： ",
-                    "makeSure": "LAND セールまでに必要な準備が整っていることを確認してください。"
+                    "makeSure": "LAND セールまでに必要な準備が整っていることを確認してください。",
+                    "body": "LAND Sale starts at {startsAt} UTC. Get Ready!"
                 },
                 "youDidntWin": {
                     "title": "今回は残念な結果でしたが、次回また抽選に参加してください。",
@@ -4049,7 +4096,38 @@
                     "description": "取引を処理しています。",
                     "check": "取引を確認：",
                     "button": "LANDで何ができますか？",
-                    "closeAdvice": "このポップアップを閉じてもお客様の取引は処理されますのでご安心ください。"
+                    "closeAdvice": "このポップアップを閉じてもお客様の取引は処理されますのでご安心ください。",
+                    "transactionApproved": "Congratulations! Your transaction has been approved",
+                    "disclaimer": "It may take up to 3 minutes to see the LAND in your account. {link}",
+                    "disclaimerLink": "Check in Polygonscan"
+                },
+                "registerRequirements": {
+                    "title": "LAND Sale Raffle requirements",
+                    "description": "As much as we love robots, we want the Metaverse to be full of humans.",
+                    "readMoreInFAQ": "Read more about the LAND Sale Raffle requirements in the FAQs",
+                    "KYCRequirement": {
+                        "title": "Account Verification",
+                        "description": "Please verify your account to enter the Raffle. It’s the best way to assure equal chances for everyone."
+                    },
+                    "insufficientSand": {
+                        "title": "SAND Verification",
+                        "description": "You need a {minimumOfSand} in your wallet (the price for a regular LAND) to enter the raffle. You won’t be charged until you confirm your purchase.",
+                        "minimumOfSand": "minimum of {sandAmount} on Polygon",
+                        "cta": {
+                            "bridgeSand": "Bridge SAND",
+                            "buySand": "Buy SAND on Polygon"
+                        }
+                    }
+                },
+                "youLose": {
+                    "title": "Better luck next time",
+                    "subtitle": "You didn't win the LAND Sale Raffle, but you can still get a LAND.",
+                    "body": {
+                        "estateAuctions": "ESTATE Auctions will start on {estateAuctionStartDate} UTC.",
+                        "remainingLands": "If any user who won the raffle decides not to buy their LAND, all remaining LAND will be set in auction on {publicAuctionStartDate} UTC."
+                    },
+                    "buy": "Buy LAND",
+                    "search": "Search for LAND"
                 }
             },
             "KYC": {
@@ -4062,7 +4140,10 @@
                     "startVerification": "認証スタート",
                     "checkVerification": "認証ステータスを確認",
                     "doLater": "後で認証する",
-                    "IUnderstand": "続ける"
+                    "IUnderstand": "続ける",
+                    "checkTheStatus": "Check the status",
+                    "continue": "Continue Verification",
+                    "startHere": "Start here"
                 },
                 "verificationProcess": {
                     "disclaimer": "{0}: 確認メールの受信を希望される方はアカウントにemailが登録されているかをご確認ください。\n{1} からemailを登録することができます。また{2}からアカウントの認証ステータスを確認することができます。",
@@ -4078,7 +4159,11 @@
                     "verified": "抽選にエントリーしています",
                     "rejected": "認証が拒否されました",
                     "cancelled": "認証がキャンセルされました"
-                }
+                },
+                "inProgressMessage": "Your account has not verified yet. The Verification process might take up to 48 hours.",
+                "rejectedMessage": "Your account was rejected. Only Verified accounts will be elegible to winning the LAND Sale Raffle.",
+                "unverifiedMessage": "Your account needs to be verified to join the LAND Sale Raffle. The Verification process might take up to 48 hours.",
+                "actionRequired": "Action Required: To continue your account verification please submit the required documentation. (Upload Document)"
             },
             "tickets": {
                 "title": "LAND 抽選セールチケットの入手方法",
@@ -4100,6 +4185,113 @@
                 "s2Memorabilia": {
                     "title": "シーズン 2: レベル 5 クリア",
                     "tooltip": "アルファ シーズン2 のレベル5 に到達するにはあと{tickets} 枚の抽選チケットが必要になります。"
+                }
+            },
+            "register": {
+                "raffleSelected": "YOUR ARE IN THE RAFFLE:",
+                "join": {
+                    "title": "Select the raffle you want to join",
+                    "description": "By joining the LAND Sale Raffle {youAreNotBuyingALand}. You are joining a raffle to win a chance to buy 1 LAND in the LAND Sale. Entering the raffle does not have a cost nor will trigger a transaction.",
+                    "youAreNotBuyingALand": "YOU ARE NOT BUYING A LAND",
+                    "card": {
+                        "title": "{raffleType} LAND RAFFLE",
+                        "subtitle": "Get a chance of buying a {raffleType}",
+                        "price": "Price:",
+                        "landAvailable": "Lands Available:",
+                        "regularPremium": {
+                            "title": "REGULAR + PREMIUM RAFFLE",
+                            "subtitle": "You can get a chance of buying a {premium} or a {regular} LAND",
+                            "message": "Increase your chances of winning by participating in both LAND Raffles!"
+                        }
+                    }
+                },
+                "success": {
+                    "submittedEntry": "Your entry to LAND Sale Raffle has been submitted!",
+                    "message": "Thanks for joining the {partner} LAND Sale Raffle. Check the raffle results on {monthDateHour} UTC",
+                    "LandRaffleTickets": "LAND Raffle Tickets ",
+                    "kycBanner": "Your account has not verified yet. The Verification process might take up to 48 hours."
+                }
+            },
+            "howDoesItWorkPage": {
+                "title": "What is the LAND Sale Raffle",
+                "question": "What is the LAND Sale Raffle?",
+                "howDoesItWork": "How does it work?",
+                "farewell": "The more tickets you have, the more chances of winning.",
+                "changingLANDSaleSystem": "We are changing our LAND Sale system to give all users more chances of buying a LAND",
+                "needHelp": "Need Help?",
+                "explanations": {
+                    "1": {
+                        "message": "We want to provide a fair experience so everyone can get the chance of buying LAND. This is why we are redesigning our LAND Sale system introducing the {landSaleRaffle}. ",
+                        "landSaleRaffle": "LAND Sale Raffle"
+                    },
+                    "2": {
+                        "message": "In order to buy LAND at The Sandbox, users will need to join the LAND Sale Raffle. {winnerWillBeAble} depending on the type of raffle they joined, {premium} or {regular}.",
+                        "winnerWillBeAble": "Every winner will be able to buy a random LAND"
+                    }
+                },
+                "requirements": {
+                    "join": "To join the LAND Sale Raffle make sure you meet the following requirements:",
+                    "1": "Having an account at The Sandbox",
+                    "2": "Having enough SAND in your wallet",
+                    "3": "Having your Account Verified before the Raffle starts"
+                },
+                "KYCDescription": "To join the LAND Sale you need to verify your account. Verification may take up to 48 hours, make sure you are verified on time.",
+                "FAQs": {
+                    "title": "Frequently Asked Questions",
+                    "questions": {
+                        "1": "Who can join the LAND Sale Raffle?",
+                        "2": "How can I get more tickets?",
+                        "3": "Do I need to pay to join the LAND Sale Raffle?",
+                        "4": "Why do I need to Verify my account?",
+                        "5": "I joined the LAND Sale Raffle but I still don’t have my account Verified, can I still win?",
+                        "6": "If I win the LAND Sale Raffle, do I need to choose which LAND I want to buy?",
+                        "7": "If I win the LAND Sale Raffle, can LANDs sell out before I get to buy one?",
+                        "8": "Where do I mint my LAND?",
+                        "9": "What happens if I win the raffle but I don’t buy the LAND in time?",
+                        "10": "Is there any other way to get LAND at The Sandbox?",
+                        "11": "Can I join the LAND Sale raffle if I don’t Verify my account?",
+                        "12": "What should I do if I win the LAND Sale Raffle?"
+                    }
+                }
+            },
+            "buy": {
+                "title": "You are going to buy",
+                "subtitle": "Join the Open Metaverse and get access to exclusive LAND Owner features! With the purchase of this LAND you will be able to:",
+                "assetsIncluded": "Possible Assets Included",
+                "points": {
+                    "regular": {
+                        "1": "Publish and monetize your Experience",
+                        "2": "Rent your LAND (2023)",
+                        "3": "Earn special rewards",
+                        "4": "Exclusive LAND Owner staking pools"
+                    },
+                    "premium": {
+                        "1": "All Regular LAND features +",
+                        "2": "Catalysts & Gems airdrop",
+                        "3": "Get more SAND when you stake",
+                        "4": "Premium exposure: Attract more users into your experience",
+                        "5": "Early access to selected features",
+                        "6": "Exclusive NFT Bundle airdrop"
+                    },
+                    "premiumTooltips": {
+                        "1": "Publish and monetize your Experience, Rent your LAND (2023), Earn special rewards, Exclusive LAND Owner staking options",
+                        "5": "Some play to earn features will be first available on Premium LAND",
+                        "6": "All users who purchase a Premium LAND will receive a Premium NFT airdrop after the LAND Sale ends"
+                    },
+                    "premiumClub": "Premium LAND Owner Club"
+                },
+                "notes": {
+                    "notice": "* You will buy 1 random {landType} LAND at the {partner} LAND Sale. Location will be revealed after the transaction is confirmed.",
+                    "assets": "Premium Assets will be assigned randomly depending on the LAND you get."
+                },
+                "button": "Buy {sandImg} {price}",
+                "status": {
+                    "title": "We are processing your transaction…",
+                    "description": "Please wait while we process your transaction. Once the transaction is approved, your LAND will be instantly revealed! {checkInPolygonscan}",
+                    "checkInPolygonscan": "Check in Polygonscan",
+                    "success": "Success",
+                    "fail": "Failed",
+                    "pending": "Pending"
                 }
             }
         },
@@ -4793,7 +4985,7 @@
                 "1": "マイアバター",
                 "2": "ショップ",
                 "3": "作成",
-                "4": "Shop"
+                "4": "ショップ"
             },
             "saveButtonText": "変更を保存",
             "mobileSaveButtonText": "保存",
@@ -4893,8 +5085,8 @@
                 "rewards": "リワード",
                 "createButton": "外部アバターを閲覧する",
                 "description3": "{unique}なキャラクターを作成してより多くの{rewards} を獲得できます！",
-                "avatarCollections": "Avatar Collections",
-                "unique": "unique"
+                "avatarCollections": "アバターコレクション",
+                "unique": "ユニーク"
             },
             "notWhitelisted": {
                 "title": "おっと！",
@@ -4911,7 +5103,7 @@
             "noResultLand": "You don't have any land",
             "noResultExperience": "You don't have any experience",
             "noResultEntity": "You don't have any entity",
-            "buyAvatarButtonText": "Buy on Opensea",
+            "buyAvatarButtonText": "Openseaで購入",
             "collectionGroup": {
                 "feature": "",
                 "internal": "",
@@ -6935,7 +7127,7 @@
             "more": "流動性の取得方法",
             "amount": "数量",
             "inactive": "非アクティブ",
-            "max": "Staking Limit"
+            "max": "ステーキングリミット"
         },
         "transaction": {
             "contract": "契約",
@@ -7026,14 +7218,14 @@
             "action-desc-deposit-single": "より多くのSANDを獲得するには",
             "footer-text-deposit-single": "このトランザクションでは選択した数量のmSANDを預けることで、預入合計額が増加します。",
             "footer-text-claim-single": "この取引により、現在のSANDの報酬がご登録のウォレットに移動します。",
-            "footer-text-exit": "This transaction will withdraw the staked amount from your total deposit. It will also claim any available earnings to save you some gas fee.",
+            "footer-text-exit": "この取引をするとデポジットからステーキングの金額が差し引かれます。また使用可能な獲得金額を受け取ることができ、ガス代を節約できます。",
             "footer-text-withdraw-single": "こちらのトランザクションでは預入合計額からお客様のmSANDを引きだします。また利用可能な収益を受け取ることで、ネットワーク手数料を節約できます。",
             "footer-text-withdraw-exit": "This transaction will withdraw your SAND from your total deposit. It will also claim any available earnings to save you some gas fee.",
             "addMsand": "mSANDを獲得",
             "howtoMsand": "より多くのmSANDを獲得"
         },
         "allowanceError": "SANDが希望ステーキング量を下回っています",
-        "sub-title": "Earn SAND by staking on the Polygon network",
+        "sub-title": "Polygon ネットワーク上でステーキングをしてSANDを獲得",
         "haveLandText": "LAND所有数が多ければ多いほど、利率が上がります！",
         "landOwnerRewards": "ウォレット内にある各LANDに対して、追加報酬を獲得する",
         "needToBridge": "POLYGONネットワークでSANDが必要ですか？",
@@ -7104,15 +7296,15 @@
                 "cardFirstTitle": "Stake {0} and enjoy the benefits of staking."
             },
             "sandPerLand": {
-                "title": "Staking Limit",
-                "dedication": "This pool is dedicated to the LAND owners.",
+                "title": "ステーキングリミット",
+                "dedication": "このプールはLANDオーナー専用です。",
                 "each": "ポリゴン上のウォレット内にあるLANDを使用し、１LANDにつき{0} までステーキングすることができます。",
-                "landMore": "You want to stake more? {0}",
-                "landNot": "You're not a LAND owner? {0}",
-                "buyLink": "Buy a LAND!",
-                "updateContributionTooltip": "Your LAND balance has changed. Your contribution will be updated automatically shortly, or you can update it {0}",
-                "manually": "manually",
-                "recommendWithdraw": "You stake more SAND than your LAND balance allows you. Only the maximum amount of SAND you are allowed to stake will be taken into account to generate your rewards."
+                "landMore": "もっとステーキングしますか？ {0}",
+                "landNot": "LANDオーナーではありませんか？{0}",
+                "buyLink": "LANDを購入",
+                "updateContributionTooltip": "LAND の残高が変わりました。金額は自動でアップデートされますが、{0}からアップデートすることも可能です。",
+                "manually": "手入力で",
+                "recommendWithdraw": "LANDの残高よりも多くのSANDをステーキングすることができます。"
             }
         },
         "network": {
@@ -7128,8 +7320,8 @@
             "support": "サポートを受ける",
             "lp": "What are LPs"
         },
-        "conditions": "Conditions to stake",
-        "nextClaim": "Next claim in:"
+        "conditions": "ステーキング条件",
+        "nextClaim": "次の受け取りまで："
     },
     "login": {
         "refresh": "プラグインのインストール後、ブラウザを更新してください",
@@ -13001,7 +13193,7 @@
         "notification": {
             "title": "ID確認",
             "tag": "確認できました",
-            "description": "リワードを請求し、シーズンとLAND セールの抽選に参加することができます。"
+            "description": "リワードを獲得し、シーズンとLAND セールの抽選に参加することができます。"
         }
     },
     "backoffice": {
@@ -13328,7 +13520,7 @@
         "subtitle": "メタバースでコレクションを発見し、不思議な体験を始めませんか。"
     },
     "buyErrorTooltip": {
-        "tooltip": "イーサリアムのマージにより、トランザクションが一時的に無効になっています"
+        "tooltip": "Ethereumの統合により、取引が一時的に無効になっています"
     },
     "earn": {
         "menu": {
@@ -13339,24 +13531,24 @@
         "menu": {
             "events": "メタバースイベント",
             "blogs": "ニュース＆記事",
-            "gameMakerAcademy": "Game Maker Academy"
+            "gameMakerAcademy": "Game Maker アカデミー"
         }
     },
     "workbench": {
         "menu": {
-            "spaces": "Spaces",
-            "mint": "Mint",
-            "sell": "Sell"
+            "spaces": "スペース",
+            "mint": "発行",
+            "sell": "売る"
         }
     },
     "languagesBar": {
         "list": {
-            "en": "English",
-            "kr": "Korean",
-            "sc": "Simplified Chinese",
-            "jp": "Japanese",
-            "tc": "Traditional Chinese",
-            "tr": "Turkish"
+            "en": "英語",
+            "kr": "韓国語",
+            "sc": "簡体字",
+            "jp": "日本語",
+            "tc": "繁体字",
+            "tr": "トルコ語"
         }
     },
     "giveawaysRulesSummary": {
