@@ -11928,19 +11928,19 @@
             "clickToAddInvitation": "Click on 'Create invitation' to start",
             "title": "新しい招待状",
             "onlyNumbers": "数字のみ使用可能です",
-            "errorAmount": "最大招待可能人数: {count}",
+            "errorAmount": "最大招待可能人数: {count}人",
             "setAmount": "数を設定",
             "disclaimerAmount": "このリンクはワークスペースにメンバーを招待する際に何度でも使用することができます。",
             "buttonCreate": "リンクを作成",
-            "numberOfInvitations": "{count}  | {count} Invitations created",
-            "date": "DATE",
-            "searchInput": "Search by role",
+            "numberOfInvitations": "招待状 {count}件  | 招待状 {count}件",
+            "date": "日時",
+            "searchInput": "役割で検索",
             "menuAction": {
                 "deleteInvite": "",
                 "deleteInvitation": "招待状を削除"
             },
-            "metaEdit": "Edit",
-            "metaCreate": "Create"
+            "metaEdit": "編集",
+            "metaCreate": "作成"
         },
         "settings": {
             "generalSettings": "General Settings",
@@ -11960,7 +11960,7 @@
             "wantToRemove": "Do you want to remove this workplace from Administrator?",
             "wantToRemoveDescription": "Removing your team will remove all users and administrators from your team. The action of deleting a workspace is PERMANENT and the data associated with it cannot be recovered.",
             "wantToRemoveLink": "I want to delete this workplace permanently",
-            "create": "Create"
+            "create": "作成"
         },
         "roles": {
             "modal": {
@@ -12030,7 +12030,7 @@
                     "workspace": "Workspace"
                 },
                 "options_selected": "{count} permissions selected",
-                "Asset_approver": "Asset Approver"
+                "Asset_approver": "アセット承認者"
             },
             "addNewRoles": "+ Add New Role",
             "quantityRoles": "Roles created",
