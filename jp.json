@@ -3563,7 +3563,7 @@
         "name": "名前",
         "description": "説明",
         "url": "URL",
-        "logo": "ロゴ",
+        "logo": "LAND Map logo",
         "logoDisclaimer": "マップ上に表示される画像をアップロードすることができます (WEBPまたはJPG)。ファイルサイズは90KB以下にしてください。",
         "howTo": "エステートの編集方法",
         "errors": {
@@ -3738,7 +3738,7 @@
             "nearLands": "ご近所",
             "reachOut": "ご近所さんと仲良くなる方法",
             "askSellMarket": "当社マーケットでこのLANDを販売しますか？",
-            "putOnSale": "Put on Sale",
+            "putOnSale": "Sell LAND",
             "buyLand": "LANDを購入",
             "buyEstate": "Estateを購入",
             "bid": "入札",
@@ -3772,7 +3772,23 @@
                 "option2": "ゲームを公開する",
                 "option3": "メタバース構築者を雇う",
                 "option4": "LANDを売る",
-                "option5": "LAND とは"
+                "option5": "LAND とは",
+                "regular": {
+                    "title": "WHAT CAN I DO WITH LAND?",
+                    "option1": "Download Game Maker and start building",
+                    "option2": "Earn special rewards",
+                    "option3": "Exclusive LAND Owner staking",
+                    "option4": "Sell yout LAND",
+                    "option5": "Publish and monetize your Experience (2023)",
+                    "option6": "Rent your LAND (2023)"
+                },
+                "premium": {
+                    "title": "WHAT CAN I DO WITH {0} LAND?",
+                    "option1": "Get more SAND when you stake",
+                    "option2": "Early access to selected features",
+                    "option3": "Attract more users into your experience",
+                    "option4": "Catalyst & Gems airdrop"
+                }
             },
             "manageSale": "売上を管理"
         },
@@ -4140,6 +4156,13 @@
                 "title": "マーカー",
                 "myLands": "LAND"
             }
+        },
+        "gameMakerModal": {
+            "title": "Build your Experience with Game Maker",
+            "description": "Anyone can build 3D games for free. No coding required. Contribute to a vast metaverse, filled with amazing creations and experiences.",
+            "macOS": "Download for macOS",
+            "windows": "Download for Windows",
+            "notSupported": "Not supported on this device."
         }
     },
     "about": {
@@ -12085,8 +12108,8 @@
                 "successGroupMove": "{amount} assets were successfully moved in the workspace",
                 "successGroupAllocate": "{amount} assets were successfully allocated in the workspace",
                 "successGroupUnallocate": "{amount} assets were successfully unallocated in the workspace",
-                "addAsset": "Add Asset",
-                "successfullyMove": " '' | An Asset has changed it's location in this workspace | {count} Assets have changed their location in this workspace.",
+                "addAsset": "アセットを追加",
+                "successfullyMove": "'' | このワークスペースでのアセットの場所が変更になりました。| このワークスペースで {count} 個のアセットの場所が変更になりました。",
                 "subtitle": "プライベートなワークスペースから追加するアセットを選択"
             },
             "history": {
@@ -12157,8 +12180,8 @@
                     "art": "Art",
                     "prop": "Prop"
                 },
-                "automaticTransfership": "This Workspace will automatically transfer asset ownership to the Workspace creator",
-                "meta": "Uploading"
+                "automaticTransfership": "このワークスペースはアセットの所有権をワークスペースのクリエーターへと自動で移行します。",
+                "meta": "読み込み中"
             },
             "previewInModal": {
                 "copies": "Copies: {copies}"
@@ -12192,9 +12215,9 @@
                 "reject": "Reject",
                 "iterate": "Send to Iterate",
                 "comments": "COMMENTS",
-                "general": "Asset approval",
-                "send": "Send",
-                "specifyMessage": "You must specify a message or comment"
+                "general": "アセットの承認",
+                "send": "送信",
+                "specifyMessage": "メッセージやコメントを特定してください。"
             },
             "display": {
                 "voxEdit": "Edit on VoxEdit",
@@ -12218,8 +12241,8 @@
                 "updatedOk": "Asset updated correctly",
                 "ban": "Ban Asset",
                 "restore": "Restore",
-                "backToList": "Back to list view",
-                "publish": "Publish"
+                "backToList": "リスト画面に戻る",
+                "publish": "公開"
             },
             "pagination": {
                 "page": "Page",
@@ -12233,29 +12256,29 @@
                 "toVerify": "To Verify",
                 "rejected": "Rejected",
                 "approved": "Approved",
-                "publish": "Published",
-                "iterating": "In progress",
-                "pending": "Pending Approval",
-                "filterAssets": "{name} Assets"
+                "publish": "公開済み",
+                "iterating": "進行中",
+                "pending": "承認保留中",
+                "filterAssets": "{name} アセット"
             },
             "redirectToUpload": "Redirecting to upload page",
             "users": {
                 "fail": "VoxEditにログインしている別のアカウントでアセットをアップロードしようとしています",
                 "home": "ホームへ戻る",
                 "account": "別のアカウントでログインする",
-                "loading": "Loading users...",
-                "failUser": "You are trying to upload an asset with another account that you login in VoxEdit",
-                "shop": "Go to shop",
-                "logAccount": "Please, sign in with an account",
-                "login": "  Sign in  "
+                "loading": "ユーザーを読み込み中...",
+                "failUser": "VoxEdit にログイン用アカウントを使用してアセットをアップロードしようとしています。",
+                "shop": "ショップへ移動",
+                "logAccount": "アカウントを使用してサインインしてください。",
+                "login": "  サインイン  "
             },
-            "deletedData": "After some time, asset data is deleted from dashboard, try export it again",
-            "goMyWorkspace": "Go to my Workspace",
-            "resumeUpload": "Resume upload",
-            "leaveingUpload": "You are leaving the asset upload...",
-            "edit": "Edit",
-            "publishSuccess": "Asset published successfully",
-            "moveSuccess": "Asset moved successfully",
+            "deletedData": "一定期間経過するとアセットのデータはダッシュボードから削除されます。その際は再度エクスポートしてください。",
+            "goMyWorkspace": "ワークスペースに移動",
+            "resumeUpload": "アップロードを再開",
+            "leaveingUpload": "アセットのアップロードページから移動します。",
+            "edit": "編集",
+            "publishSuccess": "アセットが公開されました。",
+            "moveSuccess": "アセットが移動しました。",
             "Edit": "",
             "unpublishSuccess": "アセットは非公開になりました",
             "empty": {
@@ -13309,13 +13332,13 @@
     },
     "earn": {
         "menu": {
-            "how": "How can I earn"
+            "how": "どうやって獲得しますか？"
         }
     },
     "communities": {
         "menu": {
-            "events": "Metaverse Events",
-            "blogs": "News & Articles",
+            "events": "メタバースイベント",
+            "blogs": "ニュース＆記事",
             "gameMakerAcademy": "Game Maker Academy"
         }
     },
