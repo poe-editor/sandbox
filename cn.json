@@ -3563,7 +3563,7 @@
         "name": "名称",
         "description": "描述",
         "url": "链接",
-        "logo": "标志",
+        "logo": "LAND Map logo",
         "logoDisclaimer": "你可以上传显示在地图上的图像（WEBP或JPG格式）。文件大小需小于90KB。",
         "howTo": "如何编辑你的ESTATE",
         "errors": {
@@ -3738,7 +3738,7 @@
             "nearLands": "邻居",
             "reachOut": "如何与邻居联系",
             "askSellMarket": "你想在我们的市场中出售此LAND吗？",
-            "putOnSale": "Put on Sale",
+            "putOnSale": "Sell LAND",
             "buyLand": "购买LAND",
             "buyEstate": "购买ESTATE",
             "bid": "出价",
@@ -3772,7 +3772,23 @@
                 "option2": "Publish a GAME",
                 "option3": "Hire Metaverse builders",
                 "option4": "Sell yout LAND",
-                "option5": "Lear more about LANDs"
+                "option5": "Lear more about LANDs",
+                "regular": {
+                    "title": "WHAT CAN I DO WITH LAND?",
+                    "option1": "Download Game Maker and start building",
+                    "option2": "Earn special rewards",
+                    "option3": "Exclusive LAND Owner staking",
+                    "option4": "Sell yout LAND",
+                    "option5": "Publish and monetize your Experience (2023)",
+                    "option6": "Rent your LAND (2023)"
+                },
+                "premium": {
+                    "title": "WHAT CAN I DO WITH {0} LAND?",
+                    "option1": "Get more SAND when you stake",
+                    "option2": "Early access to selected features",
+                    "option3": "Attract more users into your experience",
+                    "option4": "Catalyst & Gems airdrop"
+                }
             },
             "manageSale": "Manage Sale"
         },
@@ -4140,6 +4156,13 @@
                 "title": "MARKERS",
                 "myLands": "My LAND"
             }
+        },
+        "gameMakerModal": {
+            "title": "Build your Experience with Game Maker",
+            "description": "Anyone can build 3D games for free. No coding required. Contribute to a vast metaverse, filled with amazing creations and experiences.",
+            "macOS": "Download for macOS",
+            "windows": "Download for Windows",
+            "notSupported": "Not supported on this device."
         }
     },
     "about": {
