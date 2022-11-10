@@ -1620,7 +1620,7 @@
             "rewards": {
                 "alphaSeason": "알파 시즌 3",
                 "rewards": "리워드",
-                "claimDesc": "Available from Nov. 4",
+                "claimDesc": "11월 4일부터 수령할 수 있습니다",
                 "leaderboardDesc": "리더보드 리워드",
                 "leaderboardDesc2": "리더보드에서 다른 플레이어들과 경쟁하여 추가 리워드를 획득하세요!",
                 "leaderboardDesc3": "리더보드로 이동하기",
@@ -2231,7 +2231,7 @@
                 "description": "더 샌드박스 부정행위 방지팀이 리더보드를 지켜보고 있습니다. 부정행위자를 발견했을 경우, 아래의 이메일 주소로 제보해 주세요.",
                 "title": "부정행위 금지",
                 "title2": "리더보드 리워드는 11월 22일에 수령할 수 있습니다.",
-                "description2": "Cleaning the Leaderboard of cheaters will take us a bit more time. The Leaderboard rewards will be sent on November 22.\n"
+                "description2": "리더보드에서 부정 행위자를 걸러내는 작업에 시간이 조금 더 소요될 예정입니다. 리더보드 리워드는 11월 22일에 지급됩니다."
             }
         }
     },
@@ -3563,7 +3563,7 @@
         "name": "이름",
         "description": "설명",
         "url": "URL",
-        "logo": "로고",
+        "logo": "LAND Map logo",
         "logoDisclaimer": "맵에 표시될 이미지를 WEBP 또는 JPG 형식으로 업로드할 수 있습니다. 파일 용량은 90KB 미만이어야 합니다.",
         "howTo": "이스테이트 편집 방법",
         "errors": {
@@ -3738,7 +3738,7 @@
             "nearLands": "이웃",
             "reachOut": "이웃에게 다가가는 방법",
             "askSellMarket": "더 샌드박스 상점에서 이 LAND를 판매하고 싶으신가요?",
-            "putOnSale": "Put on Sale",
+            "putOnSale": "Sell LAND",
             "buyLand": "LAND 구매",
             "buyEstate": "이스테이트 구매",
             "bid": "입찰",
@@ -3772,7 +3772,23 @@
                 "option2": "게임 게시하기",
                 "option3": "메타버스 빌더 고용하기",
                 "option4": "LAND 판매하기",
-                "option5": "LAND 더 알아보기"
+                "option5": "LAND 더 알아보기",
+                "regular": {
+                    "title": "WHAT CAN I DO WITH LAND?",
+                    "option1": "Download Game Maker and start building",
+                    "option2": "Earn special rewards",
+                    "option3": "Exclusive LAND Owner staking",
+                    "option4": "Sell yout LAND",
+                    "option5": "Publish and monetize your Experience (2023)",
+                    "option6": "Rent your LAND (2023)"
+                },
+                "premium": {
+                    "title": "WHAT CAN I DO WITH {0} LAND?",
+                    "option1": "Get more SAND when you stake",
+                    "option2": "Early access to selected features",
+                    "option3": "Attract more users into your experience",
+                    "option4": "Catalyst & Gems airdrop"
+                }
             },
             "manageSale": "판매 관리"
         },
@@ -4140,6 +4156,13 @@
                 "title": "마커",
                 "myLands": "내 LAND"
             }
+        },
+        "gameMakerModal": {
+            "title": "Build your Experience with Game Maker",
+            "description": "Anyone can build 3D games for free. No coding required. Contribute to a vast metaverse, filled with amazing creations and experiences.",
+            "macOS": "Download for macOS",
+            "windows": "Download for Windows",
+            "notSupported": "Not supported on this device."
         }
     },
     "about": {
@@ -12939,15 +12962,15 @@
                 },
                 "verify": {
                     "title": "계정 인증하기",
-                    "text": "Please explain why you have to verify the user account for {0}."
+                    "text": "{0}에 대한 유저 계정을 인증해야 하는 이유를 기재해 주세요."
                 },
                 "reject": {
-                    "title": "Reject Account",
-                    "text": "Please explain why you have to reject the user account for {0}."
+                    "title": "계정 반려하기",
+                    "text": "{0}에 대한 유저 계정을 반려해야 하는 이유를 기재해 주세요."
                 },
                 "sync": {
                     "title": "계정 연동하기",
-                    "text": "Please explain why you have to sync the user account for {0}."
+                    "text": "{0}에 대한 유저 계정을 연동해야 하는 이유를 기재해 주세요."
                 }
             },
             "form": {
@@ -12960,7 +12983,7 @@
             "manualUpdateLegend": "관리자에 의해 업데이트됨"
         },
         "bar": {
-            "explanation": "Remember to validate your identity to be eligible for all events rewards.",
+            "explanation": "모든 이벤트 리워드를 수령하기 위해서는 계정을 인증해야 합니다.",
             "actions": {
                 "start": "여기서 시작",
                 "continue": "여기서 계속",
