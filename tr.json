@@ -240,7 +240,32 @@
         "opensea": "OpenSea",
         "password": "password",
         "username": "username",
-        "goBack": "Go Back"
+        "goBack": "Go Back",
+        "hrs": "hrs",
+        "mins": "MINS",
+        "secs": "SECS",
+        "months": {
+            "0": "January",
+            "1": "February",
+            "2": "March",
+            "3": "April",
+            "4": "May",
+            "5": "June",
+            "6": "July",
+            "7": "August",
+            "8": "September",
+            "9": "October",
+            "10": "November",
+            "11": "December"
+        },
+        "markAsRequired": "Required",
+        "verify": "Verify",
+        "reject": "Reject",
+        "noResults": "No results were found in your search",
+        "totalResults": "Records found: {0}",
+        "browserSupport": {
+            "videoTag": "Your browser does not support the video tag."
+        }
     },
     "layout": {
         "topbar": {
@@ -334,7 +359,8 @@
             "newSideBarCommunities": "Community",
             "newSideBarEarn": "Earn",
             "newSideBarWorkbench": "Workbench",
-            "newSideBarLanguage": "Language"
+            "newSideBarLanguage": "Language",
+            "newSideBarLandsale": "LAND Sale"
         },
         "footer": {
             "community": {
@@ -3704,7 +3730,8 @@
             "ubisoft": "UBISOFT",
             "avex": "METAVEX",
             "shibuya": "SHIBUYA",
-            "time": "ZAMAN"
+            "time": "ZAMAN",
+            "warmup": "Warmup"
         },
         "booked": "Tarafından rezervasyon yapıldı",
         "visit": "Siteyi ziyaret et",
@@ -3790,7 +3817,13 @@
                     "option4": "Catalyst & Gems airdrop"
                 }
             },
-            "manageSale": "Manage Sale"
+            "manageSale": "Manage Sale",
+            "onLandsaleRaffle": "LAND SALE RAFFLE",
+            "landsaleRaffle": {
+                "description": "This LAND is part of the {landsaleName} LAND Sale. You can get this LAND joining the LAND Sale Raffle.",
+                "learnMoreAbout": "Learn more about the LAND Sale Raffle",
+                "join": "Join LAND Sale Raffle"
+            }
         },
         "onboarding": {
             "title": "Sandbox Harita",
@@ -3876,7 +3909,10 @@
                 "buyLand": "Buy LAND",
                 "checkResults": "Check Results",
                 "getNFT": "Get NFT",
-                "alreadyRegistered": "Already Registered"
+                "alreadyRegistered": "Already Registered",
+                "join": "Join",
+                "backToLandSale": "Back to LAND Sale",
+                "goToMap": "Go to Map"
             },
             "header": {
                 "titles": {
@@ -3911,7 +3947,9 @@
                     "howDoesItWork": "How does it work?",
                     "howDoesItWorkAwnser": "We are changing our LAND Sale system to give all users more chances of buying a LAND",
                     "description": "The most famous shopping district from Tokyo is entering The Sandbox. With the Shibuya 109 Estate at its heart! This new playground will offer next-generation customer experiences that exceed expectations.",
-                    "entryClosesOn": "Entry closes on {closeDate}"
+                    "entryClosesOn": "Entry closes on {closeDate}",
+                    "ownedTickets": "LAND Raffle Tickets",
+                    "registered": "You are participating in the LAND Sale Raffle!"
                 },
                 "countdown": {
                     "registrationStarts": "REGISTRATION STARTS IN",
@@ -3919,8 +3957,14 @@
                     "raffleStarts": "RAFFLE STARTS IN",
                     "publicSaleStarts": "PUBLIC SALE STARTS IN",
                     "landSaleStartsIn": "LAND SALE SALE STARTS IN",
-                    "landSaleEndsIn": "LAND SALE ENDS IN"
-                }
+                    "landSaleEndsIn": "LAND SALE ENDS IN",
+                    "live": "LIVE",
+                    "raffleResultsIn": "RAFFLE RESULTS IN:",
+                    "landSaleStartsOnDate": "LAND sale starts on {date}"
+                },
+                "wave": "Wave 1 - {time}",
+                "subtitle": "Raffle winners will be able to buy 1 LAND in the {partner} LAND Sale. {landsCount} LANDs, {landsCount} winners!",
+                "subtitle2": "These are California Dreamin’ and you never need to wake up!"
             },
             "timeline": {
                 "raffle": "Raffle",
@@ -3934,7 +3978,9 @@
                 "youAreRegistered": "You are Registered for the Raffle",
                 "youAreNotRegistered": "You are NOT Registered for the Raffle",
                 "youWon": "You won a whitelist spot!",
-                "youDidntWin": "You didn't win a whitelist spot!"
+                "youDidntWin": "You didn't win a whitelist spot!",
+                "sale": "Sale",
+                "until": "Until {date}"
             },
             "whatsTheLANDSale": {
                 "title": "What is the LAND Sale Raffle?",
@@ -4024,7 +4070,8 @@
                         "endsAt": "{endsAt}"
                     },
                     "yourWallet": "Your wallet: ",
-                    "makeSure": "Make sure you are all set for the LAND Sale."
+                    "makeSure": "Make sure you are all set for the LAND Sale.",
+                    "body": "LAND Sale starts at {startsAt} UTC. Get Ready!"
                 },
                 "youDidntWin": {
                     "title": "Better luck next time",
@@ -4049,7 +4096,38 @@
                     "description": "Your transaction is being processed.",
                     "check": "Check your transaction:",
                     "button": "What can I do with my LAND?",
-                    "closeAdvice": "You can close this popup, your transaction will still be processed"
+                    "closeAdvice": "You can close this popup, your transaction will still be processed",
+                    "transactionApproved": "Congratulations! Your transaction has been approved",
+                    "disclaimer": "It may take up to 3 minutes to see the LAND in your account. {link}",
+                    "disclaimerLink": "Check in Polygonscan"
+                },
+                "registerRequirements": {
+                    "title": "LAND Sale Raffle requirements",
+                    "description": "As much as we love robots, we want the Metaverse to be full of humans.",
+                    "readMoreInFAQ": "Read more about the LAND Sale Raffle requirements in the FAQs",
+                    "KYCRequirement": {
+                        "title": "Account Verification",
+                        "description": "Please verify your account to enter the Raffle. It’s the best way to assure equal chances for everyone."
+                    },
+                    "insufficientSand": {
+                        "title": "SAND Verification",
+                        "description": "You need a {minimumOfSand} in your wallet (the price for a regular LAND) to enter the raffle. You won’t be charged until you confirm your purchase.",
+                        "minimumOfSand": "minimum of {sandAmount} on Polygon",
+                        "cta": {
+                            "bridgeSand": "Bridge SAND",
+                            "buySand": "Buy SAND on Polygon"
+                        }
+                    }
+                },
+                "youLose": {
+                    "title": "Better luck next time",
+                    "subtitle": "You didn't win the LAND Sale Raffle, but you can still get a LAND.",
+                    "body": {
+                        "estateAuctions": "ESTATE Auctions will start on {estateAuctionStartDate} UTC.",
+                        "remainingLands": "If any user who won the raffle decides not to buy their LAND, all remaining LAND will be set in auction on {publicAuctionStartDate} UTC."
+                    },
+                    "buy": "Buy LAND",
+                    "search": "Search for LAND"
                 }
             },
             "KYC": {
@@ -4062,7 +4140,10 @@
                     "startVerification": "Start Verification",
                     "checkVerification": "CHECK VERIFICATION STATUS",
                     "doLater": "I'll do the verification later",
-                    "IUnderstand": "I understand, continue"
+                    "IUnderstand": "I understand, continue",
+                    "checkTheStatus": "Check the status",
+                    "continue": "Continue Verification",
+                    "startHere": "Start here"
                 },
                 "verificationProcess": {
                     "disclaimer": "{0}: If you want to receive a confirmation via e-mail please make sure there’s an email linked to your account. You can link an email at {1}  You can always check your account Verification status at {2}",
@@ -4078,7 +4159,11 @@
                     "verified": "YOU ARE IN THE RAFFLE",
                     "rejected": "VERIFICATION REJECTED",
                     "cancelled": "VERIFICATION CANCELLED"
-                }
+                },
+                "inProgressMessage": "Your account has not verified yet. The Verification process might take up to 48 hours.",
+                "rejectedMessage": "Your account was rejected. Only Verified accounts will be elegible to winning the LAND Sale Raffle.",
+                "unverifiedMessage": "Your account needs to be verified to join the LAND Sale Raffle. The Verification process might take up to 48 hours.",
+                "actionRequired": "Action Required: To continue your account verification please submit the required documentation. (Upload Document)"
             },
             "tickets": {
                 "title": "How to get LAND Sale Raffle tickets",
@@ -4100,6 +4185,113 @@
                 "s2Memorabilia": {
                     "title": "Season 2: Level 5 Completed",
                     "tooltip": "Get {tickets} extra Raffle tickets for reaching Level 5 in the Alpha Season 2."
+                }
+            },
+            "register": {
+                "raffleSelected": "YOUR ARE IN THE RAFFLE:",
+                "join": {
+                    "title": "Select the raffle you want to join",
+                    "description": "By joining the LAND Sale Raffle {youAreNotBuyingALand}. You are joining a raffle to win a chance to buy 1 LAND in the LAND Sale. Entering the raffle does not have a cost nor will trigger a transaction.",
+                    "youAreNotBuyingALand": "YOU ARE NOT BUYING A LAND",
+                    "card": {
+                        "title": "{raffleType} LAND RAFFLE",
+                        "subtitle": "Get a chance of buying a {raffleType}",
+                        "price": "Price:",
+                        "landAvailable": "Lands Available:",
+                        "regularPremium": {
+                            "title": "REGULAR + PREMIUM RAFFLE",
+                            "subtitle": "You can get a chance of buying a {premium} or a {regular} LAND",
+                            "message": "Increase your chances of winning by participating in both LAND Raffles!"
+                        }
+                    }
+                },
+                "success": {
+                    "submittedEntry": "Your entry to LAND Sale Raffle has been submitted!",
+                    "message": "Thanks for joining the {partner} LAND Sale Raffle. Check the raffle results on {monthDateHour} UTC",
+                    "LandRaffleTickets": "LAND Raffle Tickets ",
+                    "kycBanner": "Your account has not verified yet. The Verification process might take up to 48 hours."
+                }
+            },
+            "howDoesItWorkPage": {
+                "title": "What is the LAND Sale Raffle",
+                "question": "What is the LAND Sale Raffle?",
+                "howDoesItWork": "How does it work?",
+                "farewell": "The more tickets you have, the more chances of winning.",
+                "changingLANDSaleSystem": "We are changing our LAND Sale system to give all users more chances of buying a LAND",
+                "needHelp": "Need Help?",
+                "explanations": {
+                    "1": {
+                        "message": "We want to provide a fair experience so everyone can get the chance of buying LAND. This is why we are redesigning our LAND Sale system introducing the {landSaleRaffle}. ",
+                        "landSaleRaffle": "LAND Sale Raffle"
+                    },
+                    "2": {
+                        "message": "In order to buy LAND at The Sandbox, users will need to join the LAND Sale Raffle. {winnerWillBeAble} depending on the type of raffle they joined, {premium} or {regular}.",
+                        "winnerWillBeAble": "Every winner will be able to buy a random LAND"
+                    }
+                },
+                "requirements": {
+                    "join": "To join the LAND Sale Raffle make sure you meet the following requirements:",
+                    "1": "Having an account at The Sandbox",
+                    "2": "Having enough SAND in your wallet",
+                    "3": "Having your Account Verified before the Raffle starts"
+                },
+                "KYCDescription": "To join the LAND Sale you need to verify your account. Verification may take up to 48 hours, make sure you are verified on time.",
+                "FAQs": {
+                    "title": "Frequently Asked Questions",
+                    "questions": {
+                        "1": "Who can join the LAND Sale Raffle?",
+                        "2": "How can I get more tickets?",
+                        "3": "Do I need to pay to join the LAND Sale Raffle?",
+                        "4": "Why do I need to Verify my account?",
+                        "5": "I joined the LAND Sale Raffle but I still don’t have my account Verified, can I still win?",
+                        "6": "If I win the LAND Sale Raffle, do I need to choose which LAND I want to buy?",
+                        "7": "If I win the LAND Sale Raffle, can LANDs sell out before I get to buy one?",
+                        "8": "Where do I mint my LAND?",
+                        "9": "What happens if I win the raffle but I don’t buy the LAND in time?",
+                        "10": "Is there any other way to get LAND at The Sandbox?",
+                        "11": "Can I join the LAND Sale raffle if I don’t Verify my account?",
+                        "12": "What should I do if I win the LAND Sale Raffle?"
+                    }
+                }
+            },
+            "buy": {
+                "title": "You are going to buy",
+                "subtitle": "Join the Open Metaverse and get access to exclusive LAND Owner features! With the purchase of this LAND you will be able to:",
+                "assetsIncluded": "Possible Assets Included",
+                "points": {
+                    "regular": {
+                        "1": "Publish and monetize your Experience",
+                        "2": "Rent your LAND (2023)",
+                        "3": "Earn special rewards",
+                        "4": "Exclusive LAND Owner staking pools"
+                    },
+                    "premium": {
+                        "1": "All Regular LAND features +",
+                        "2": "Catalysts & Gems airdrop",
+                        "3": "Get more SAND when you stake",
+                        "4": "Premium exposure: Attract more users into your experience",
+                        "5": "Early access to selected features",
+                        "6": "Exclusive NFT Bundle airdrop"
+                    },
+                    "premiumTooltips": {
+                        "1": "Publish and monetize your Experience, Rent your LAND (2023), Earn special rewards, Exclusive LAND Owner staking options",
+                        "5": "Some play to earn features will be first available on Premium LAND",
+                        "6": "All users who purchase a Premium LAND will receive a Premium NFT airdrop after the LAND Sale ends"
+                    },
+                    "premiumClub": "Premium LAND Owner Club"
+                },
+                "notes": {
+                    "notice": "* You will buy 1 random {landType} LAND at the {partner} LAND Sale. Location will be revealed after the transaction is confirmed.",
+                    "assets": "Premium Assets will be assigned randomly depending on the LAND you get."
+                },
+                "button": "Buy {sandImg} {price}",
+                "status": {
+                    "title": "We are processing your transaction…",
+                    "description": "Please wait while we process your transaction. Once the transaction is approved, your LAND will be instantly revealed! {checkInPolygonscan}",
+                    "checkInPolygonscan": "Check in Polygonscan",
+                    "success": "Success",
+                    "fail": "Failed",
+                    "pending": "Pending"
                 }
             }
         },
