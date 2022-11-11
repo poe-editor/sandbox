@@ -8466,7 +8466,7 @@
                         "footerTitle": "Reminder",
                         "footerText": [
                             "Polygon is a PoS network, your tokens will be sent to the Polygon network in two steps.",
-                            "After signing the first transaction you will have to wait - 10 minutes for the networks to synchronize."
+                            "After signing the first transaction you will have to wait 30 minutes for the networks to synchronize."
                         ],
                         "button": "Start Deposit"
                     },
@@ -8498,7 +8498,7 @@
                     "deposit": {
                         "headerTitle": "Deposit en route",
                         "footerTitle": "Deposit is in progress",
-                        "footerText": "It will take about - 10 minutes to synchronize. Once the transfer is completed the funds will be available on Polygon."
+                        "footerText": "It will take about 30 minutes to synchronize. Once the transfer is completed the funds will be available on Polygon."
                     },
                     "withdraw": {
                         "headerTitle": "Withdrawal en route",
