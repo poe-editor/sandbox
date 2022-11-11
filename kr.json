@@ -2207,6 +2207,12 @@
                     "rewards": "시즌 종료 시 리워드 페이지에서 모든 리워드를 획득하세요!",
                     "missing": "리더보드에 내 계정이 표시되려면 최소 1 EP(퀘스트를 완료하여 획득)를 보유하고 계정 인증을 완료해야 합니다.",
                     "invalidTimes": "일부 시간이 유효하지 않습니다."
+                },
+                "blur": {
+                    "title": "COMMUNITY UPDATE ON ALPHA SEASON 3 REWARDS",
+                    "desc": "The metaverse experience must be fun, engaging, and rewarding, with a competition that is fair and equitable for all, based on the rules established at the beginning of the season.",
+                    "desc2": "We are taking extra time to examine leaderboard results",
+                    "desc3": ", including feedback from the community. We will make sure only human players can claim their prizes."
                 }
             },
             "rewards": {
@@ -3964,7 +3970,9 @@
                 },
                 "wave": "Wave 1 - {time}",
                 "subtitle": "추첨에 당첨된 당첨자들은 {partner} LAND 세일에서 1개의 LAND를 구입할 수 있습니다. {landsCount}개의 LAND가 {landsCount}명의 당첨자들에게 돌아갑니다!",
-                "subtitle2": "These are California Dreamin’ and you never need to wake up!"
+                "subtitle2": "These are California Dreamin’ and you never need to wake up!",
+                "subtitle3": "You are not whitelisted for the LAND Sale. You can still get a LAND through auctions or on Secondary Market",
+                "notLoggedInAndResultsArePublic": "Log in to check if you are whitelisted for {partner} LAND Sale"
             },
             "timeline": {
                 "raffle": "추첨",
@@ -5120,6 +5128,12 @@
                 "titleBlue": "확인하기",
                 "description": "지갑을 연결하고 한정판 아바타 또는 더 샌드박스만의 아바타 컬렉션을 보유하고 있는지 확인하세요.",
                 "button": "지갑 연결하기"
+            },
+            "filter": {
+                "filterBy": "Filter by",
+                "small": "Small",
+                "medium": "Medium",
+                "large": "Large"
             }
         },
         "loginModal": {
