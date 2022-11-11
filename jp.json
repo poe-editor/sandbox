@@ -581,8 +581,8 @@
             },
             "fixes": "Changelog",
             "playmap": "プレイマップ",
-            "s3Leaderboard": "シーズン3 リーダーボード",
-            "s3Rewards": "シーズン3 リワード"
+            "s3Leaderboard": "リーダーボード",
+            "s3Rewards": "リワード"
         },
         "play": {
             "selectAvatar": "アバターを選択する",
@@ -1650,25 +1650,25 @@
                 "leaderboardDesc": "Leaderboard Reward,",
                 "leaderboardDesc2": "Compete against other players in the Leaderboard and win extra rewards.",
                 "leaderboardDesc3": "Leaderboardへ行く",
-                "cannotParticipate": "You cannot participate in the Raffle since you already have an Alpha Pass",
+                "cannotParticipate": "既にアルファパスをお持ちのため抽選に参加することができません。",
                 "didNotWin": "残念ながら、今回は抽選に当たりませんでした。",
                 "wonAlpha": "おめでとうございます！シーズン3アルファパスが当たりました。",
                 "loggedOut": "進捗状況を確認",
-                "collectRaffle": "Collect Raffle Tickets to increase your chances of winning",
+                "collectRaffle": "抽選チケットを集めることで当選確率を上げることができます。",
                 "ifYouWin": "アルファパス当選した場合",
-                "youHold": "YOU HAVE AN ALPHA PASS",
-                "getAlphaDesc": "Get an Alpha Pass to unlock those rewards",
+                "youHold": "アルファパスをもっています",
+                "getAlphaDesc": "アルファパスをGETしてリワードをアンロック",
                 "stake": "ステーキング",
                 "buy": "購入",
                 "guaranteed": "SAND報酬",
-                "guaranteedDesc": "Own a piece of LAND, an Avatar and NFTs from our collections at the end of the season and earn {0} based on your level.",
+                "guaranteedDesc": "シーズンの最後にLAND、アバター、NFTを所有していると、レベルにより {0}を獲得することができます。",
                 "earnSand": "ボーナスSANDリワード",
                 "landOwner": "Land保有者",
                 "forLandOwner": "LAND保有者対象",
-                "landDesc": "LANDをGETしてNFT保有者向けリワードを解除 ",
+                "landDesc": "LANDをGETしてNFT保有者向けリワードをアンロック",
                 "avatarOwner": "アバター保有者",
                 "forAvatarOwner": "アバター保有者対象",
-                "avatarDesc": "アバターをGETしてNFT保有者向けリワードを解除",
+                "avatarDesc": "アバターをGETしてNFT保有者向けリワードをアンロック",
                 "collectorOwner": "NFTコレクター",
                 "forCollectorOwner": "NFT保有者対象",
                 "collectorDesc": "この報酬をアンロックするにはNFTバッジを入手してください",
@@ -7304,7 +7304,7 @@
                 "buyLink": "LANDを購入",
                 "updateContributionTooltip": "LAND の残高が変わりました。金額は自動でアップデートされますが、{0}からアップデートすることも可能です。",
                 "manually": "手入力で",
-                "recommendWithdraw": "LANDの残高よりも多くのSANDをステーキングすることができます。"
+                "recommendWithdraw": "LANDの残高よりも多くのSANDをステーキングすることができます。ステーキングできるSANDの最大数のみがリワードが発生するときにカウントされます。"
             }
         },
         "network": {
