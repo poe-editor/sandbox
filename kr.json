@@ -241,9 +241,9 @@
         "password": "패스워드",
         "username": "유저네임",
         "goBack": "뒤로",
-        "hrs": "hrs",
-        "mins": "MINS",
-        "secs": "SECS",
+        "hrs": "시간",
+        "mins": "분",
+        "secs": "초",
         "months": {
             "0": "January",
             "1": "February",
@@ -749,8 +749,8 @@
                     "date": "3월 3일~3월 31일",
                     "seasonOverTitle": "알파 시즌 2가 종료되었습니다.",
                     "seasonOverDescription": "알파에 참여해 주셔서 감사합니다. 리워드를 준비하고 있습니다. 활성화되면 아래의 받기 버튼을 클릭하세요.",
-                    "raffleStartsIn": "추첨 시작까지 남은 시간:",
-                    "raffleResultsIn": "추첨 결과 발표까지 남은 시간:",
+                    "raffleStartsIn": "추첨 시작까지:",
+                    "raffleResultsIn": "추첨 결과 발표까지:",
                     "claimAvailableAt": "수령 가능:",
                     "raffleTitle": "추첨일",
                     "raffleTitle2": "MARCH",
@@ -861,8 +861,8 @@
                     "didNotWinMemorabilia": "기념품을 획득하지 못했습니다."
                 },
                 "timeRewards": "리워드 수령까지:",
-                "raffleResults": "추첨 결과 발표까지 남은 시간:",
-                "raffleStarts": "추첨 시작까지 남은 시간:",
+                "raffleResults": "추첨 결과 발표까지:",
+                "raffleStarts": "추첨 시작까지:",
                 "timeLeft": "남은 시간",
                 "timeLeftToClaim": "CLAIM AVAILABLE IN",
                 "seasonEnds": "시즌 종료까지 남은 시간"
@@ -3948,18 +3948,18 @@
                     "howDoesItWorkAwnser": "모든 유저들에게 LAND를 구매할 수 있는 기회를 제공하기 위해 LAND 세일 시스템을 변경했습니다.",
                     "description": "시부야 109 이스테이트를 중심으로, 도쿄의 가장 유명한 쇼핑 지역이 더 샌드박스에서 재현됩니다! 이 새로운 놀이터가 제공하는 기대 이상의 차세대 고객 경험을 만나보세요.",
                     "entryClosesOn": "추첨 참여 종료일: {closeDate}",
-                    "ownedTickets": "LAND Raffle Tickets",
+                    "ownedTickets": "LAND 추첨 티켓",
                     "registered": "You are participating in the LAND Sale Raffle!"
                 },
                 "countdown": {
                     "registrationStarts": "등록 시작까지 남은 시간:",
                     "registrationEnds": "등록 종료까지 남은 시간:",
-                    "raffleStarts": "추첨 시작까지 남은 시간:",
+                    "raffleStarts": "추첨 시작까지:",
                     "publicSaleStarts": "퍼블릭 세일 시작까지 남은 시간:",
                     "landSaleStartsIn": "LAND 세일 시작까지 남은 시간:",
                     "landSaleEndsIn": "LAND SALE 종료까지 남은 시간:",
                     "live": "LIVE",
-                    "raffleResultsIn": "RAFFLE RESULTS IN:",
+                    "raffleResultsIn": "추첨 결과 발표까지:",
                     "landSaleStartsOnDate": "LAND sale starts on {date}"
                 },
                 "wave": "Wave 1 - {time}",
@@ -4188,7 +4188,7 @@
                 }
             },
             "register": {
-                "raffleSelected": "YOUR ARE IN THE RAFFLE:",
+                "raffleSelected": "참여 중인 추첨:",
                 "join": {
                     "title": "Select the raffle you want to join",
                     "description": "By joining the LAND Sale Raffle {youAreNotBuyingALand}. You are joining a raffle to win a chance to buy 1 LAND in the LAND Sale. Entering the raffle does not have a cost nor will trigger a transaction.",
@@ -4208,7 +4208,7 @@
                 "success": {
                     "submittedEntry": "Your entry to LAND Sale Raffle has been submitted!",
                     "message": "Thanks for joining the {partner} LAND Sale Raffle. Check the raffle results on {monthDateHour} UTC",
-                    "LandRaffleTickets": "LAND Raffle Tickets ",
+                    "LandRaffleTickets": "LAND 추첨 티켓 ",
                     "kycBanner": "Your account has not verified yet. The Verification process might take up to 48 hours."
                 }
             },
@@ -6408,7 +6408,7 @@
             "discoverIncoming": "시즌 시작까지 남은 시간:",
             "discoverPreStart": "사전 등록 시작까지 남은 시간:",
             "discoverPreEnd": "사전 등록 종료까지 남은 시간:",
-            "discoverLottery": "추첨 결과 발표까지 남은 시간:",
+            "discoverLottery": "추첨 결과 발표까지:",
             "info": "더 샌드박스에서 아바타를 만들어 보세요!",
             "info2": "내 개성을 표현하고, 장비로 능력치를 강화하여 친구들과 함께 더 샌드박스 메타버스를 탐험해 보세요.",
             "info3": "더 샌드박스는 블록체인에서 크리에이터가 복셀 애셋과 게임 경험으로 수익을 창출할 수 있는 커뮤니티 기반 플랫폼입니다.",
@@ -6707,7 +6707,7 @@
             "startSubtitle": "더 샌드박스 알파가 곧 시작됩니다. \n등록하여 플레이와 당첨 기회를 얻어보세요.",
             "startCountDown": "등록 시작까지 남은 시간:",
             "endCountDown": "등록 종료까지 남은 시간:",
-            "lotteryCountDown": "추첨 결과 발표까지 남은 시간:",
+            "lotteryCountDown": "추첨 결과 발표까지:",
             "AlphaCountDown": "알파 시작까지 남은 시간:",
             "registeredSubtitle": "추첨 등록 완료:",
             "notRegisteredSubtitle": "알파에 등록하지 않았습니다.",
@@ -8465,7 +8465,7 @@
                         "headerSubTitle": "폴리곤으로 트랜스퍼할 SAND 수량을 선택해 주세요.",
                         "footerTitle": "알림",
                         "footerText": [
-                            "폴리곤은 PoS 네트워크이며 토큰은 두 단계를 거쳐 폴리곤 네트워크로 전송됩니다. 첫 번째 트랜잭션에 서명한 후 네트워크가 동기화될 수 있도록 약 10분 정도 기다려 주세요."
+                            "폴리곤은 PoS 네트워크이며 토큰은 두 단계를 거쳐 폴리곤 네트워크로 전송됩니다. After signing the first transaction you will have to wait 30 minutes for the networks to synchronize."
                         ],
                         "button": "예치 시작하기"
                     },
@@ -8495,7 +8495,7 @@
                     "deposit": {
                         "headerTitle": "예치 진행 중",
                         "footerTitle": "예치가 진행 중입니다.",
-                        "footerText": "동기화까지는 약 10분 정도의 시간이 소요됩니다. 트랜스퍼가 완료되면 폴리곤에 자금이 표시됩니다."
+                        "footerText": "It will take about 30 minutes to synchronize. Once the transfer is completed the funds will be available on Polygon."
                     },
                     "withdraw": {
                         "headerTitle": "예치 진행 중",
