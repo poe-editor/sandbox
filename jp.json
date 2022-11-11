@@ -8466,7 +8466,7 @@
                         "footerTitle": "Reminder",
                         "footerText": [
                             "PolygonはPoSネットワークであり、あなたのトークンは2つのステップでPolygonネットワークに送信されます。",
-                            "最初のトランザクションに署名した後、ネットワークが同期するために～10分待つ必要があります。"
+                            "After signing the first transaction you will have to wait 30 minutes for the networks to synchronize."
                         ],
                         "button": "Start Deposit"
                     },
@@ -8498,7 +8498,7 @@
                     "deposit": {
                         "headerTitle": "Deposit en route",
                         "footerTitle": "Deposit is in progress",
-                        "footerText": "同期には～10分かかります。送金が完了すると、Polygonで資金を利用できるようになります。"
+                        "footerText": "It will take about 30 minutes to synchronize. Once the transfer is completed the funds will be available on Polygon."
                     },
                     "withdraw": {
                         "headerTitle": "Withdrawal en route",
