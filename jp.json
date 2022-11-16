@@ -229,7 +229,7 @@
         "catalyst&Gems": "CATALYST & GEMS",
         "confirm": "Confirm",
         "sync": "Sync",
-        "addCatalystGems": "Add Catalyst and Gems",
+        "addCatalystGems": "カタリストとジェムを追加",
         "sandboxGame": "The Sandbox Game",
         "sandboxShort": "Sandbox",
         "lands": "LANDS",
@@ -319,8 +319,8 @@
                 "testNetMumbai": "TESTNET MUMBAIネットワーク",
                 "mainNet": "MAINNETネットワーク",
                 "title": "合計額",
-                "ethNetwork": "イーサリアムネットワーク",
-                "plyNetwork": "ポリゴンネットワーク"
+                "ethNetwork": "Ethereum ネットワーク",
+                "plyNetwork": "Polygonネットワーク"
             },
             "notifications": {
                 "status": {
@@ -551,10 +551,10 @@
             "explore": "アバターコレクションを見る"
         },
         "carebearsAvatarBanner": {
-            "title": "MINT YOUR CARE BEARS",
-            "description": "Get your unique Care Bears avatar for The Sandbox on November 14 and enter the metaverse.",
-            "btn1": "Learn more",
-            "btn2": "Create free avatar"
+            "title": "ケアベアをミント化",
+            "description": "11月14日にThe Sandbox のユニークなケアベア アバターをGETしてメタバースへ",
+            "btn1": "詳細",
+            "btn2": "無料アバターを作成"
         }
     },
     "season": {
@@ -579,7 +579,7 @@
                 "belongingMemorabilia": "Belonging Week Memorabilia",
                 "quest": "Quest"
             },
-            "fixes": "Changelog",
+            "fixes": "変更履歴",
             "playmap": "プレイマップ",
             "s3Leaderboard": "リーダーボード",
             "s3Rewards": "リワード"
@@ -613,12 +613,12 @@
                 "moreExperiences": "まだまだ新しい体験が登場",
                 "day": "DAYS",
                 "needLogIn": "進捗を確認する",
-                "eventsOfTheDay": "Extra EPs Events",
+                "eventsOfTheDay": "ボーナス エトスポイント イベント",
                 "boostRewards": "Boost rewards by staking",
                 "to": "TO",
-                "land": "land",
-                "lands": "lands",
-                "eventStartsAt": "Starts on",
+                "land": "LAND",
+                "lands": "LAND",
+                "eventStartsAt": "開始日時",
                 "eventTimeZone": "UTC"
             },
             "welcome": {
@@ -646,7 +646,7 @@
                 "seeRewards": "報酬を見る"
             },
             "tooltips": {
-                "pendingExplore": "Experience not visited",
+                "pendingExplore": "エクスペリエンスをチェックしていません",
                 "explored": "訪問した部署",
                 "locked": "ロック中",
                 "multiplayer": "マルチプレイ",
@@ -697,7 +697,7 @@
                 "winner": "当選しました！",
                 "winnerDesc": "S3 アルファパスが当たりました"
             },
-            "communityBooster": "Community Booster",
+            "communityBooster": "コミュニティ ブースター",
             "day": "",
             "needLogIn": "",
             "eventsOfTheDay": "",
@@ -908,7 +908,7 @@
                 "referralTooltipDesc": ""
             },
             "downloadAlpha": "ダウンロード",
-            "ethosPointsEarned": "Ethos Point(s) earned",
+            "ethosPointsEarned": "エトスポイントを獲得",
             "shop": {
                 "s3": "アルファ・シーズン3",
                 "title": "NFT SHOP",
@@ -929,10 +929,10 @@
                 "internalNFT": "Internal TSB NFT",
                 "s3Collection": "Season3 コレクション"
             },
-            "ethosPoints": "Ethos Point",
-            "eventEthosPoints": "Event Ethos Point",
-            "eventEthosPointsDesc": "Available until",
-            "event": "Event",
+            "ethosPoints": "エトスポイント",
+            "eventEthosPoints": "イベント エトスポイント",
+            "eventEthosPointsDesc": "使用期限",
+            "event": "イベント",
             "playAlpha": "アルファをプレイ",
             "modalTitleSeasonIsOpen": "アルファ シーズン3は終了しました！",
             "modalDescription1SeasonIsOpen": "アルファ シーズン3 にご協力いただきありがとうございました。",
@@ -1647,8 +1647,8 @@
                 "alphaSeason": "アルファ・シーズン3",
                 "rewards": "報酬",
                 "claimDesc": "Available from Nov. 4",
-                "leaderboardDesc": "Leaderboard Reward,",
-                "leaderboardDesc2": "Compete against other players in the Leaderboard and win extra rewards.",
+                "leaderboardDesc": "リーダーボード リワード,",
+                "leaderboardDesc2": "リーダーボードで他のプレーヤーと対戦してボーナス リワードを獲得",
                 "leaderboardDesc3": "Leaderboardへ行く",
                 "cannotParticipate": "既にアルファパスをお持ちのため抽選に参加することができません。",
                 "didNotWin": "残念ながら、今回は抽選に当たりませんでした。",
@@ -1686,9 +1686,9 @@
                 "youAreAvatar": "あなたはアバター保有者です。",
                 "youAreCollector": "あなたはNFTコレクターです",
                 "epTooltip": "体験内のクエストをクリアすることで、エトスポイントを獲得できます。難易度の高いクエストをクリアすると、より多くのエトスポイントを獲得できます。",
-                "raffleRewards": "Raffle Rewards",
-                "raffleTooltip": "You will win the Raffle if you own a Season 3 Alpha Pass",
-                "leaderboardDisclaimer": "Leaderboard rewards will be available on Nov. 22. We will use that time to cleanup the leaderboard from cheaters and remove exploitable quests.",
+                "raffleRewards": "抽選リワード",
+                "raffleTooltip": "シーズン3 アルファパスを所有している方は抽選に当たるようになっています。",
+                "leaderboardDisclaimer": "リーダーボードのリワードは11月22日に送信予定です。それまでリーダーボードのチーターや使用可能なクエストの削除を行います。",
                 "linkGiveawaysRules": "詳しい情報と公式ルールはこちらをご覧ください。"
             },
             "summary": {
@@ -1702,9 +1702,9 @@
                 "goClaim": "受取りにいく",
                 "goBadges": "バッジに行く",
                 "nextSeason": "次のシーズンは君のもの！",
-                "keepHaving": "Keep having fun and try to win some rewards next time.",
-                "coming": "Coming on November 22",
-                "missedRewards": "Rewards you missed:"
+                "keepHaving": "楽しく遊んでリワードをGET",
+                "coming": "11月22日に送信",
+                "missedRewards": "獲得できなかったリワード:"
             },
             "tickets": {
                 "enterMetaverse": "メタバースへ行く",
@@ -1738,7 +1738,7 @@
                 "seeContest": "全イベント",
                 "seeReferrals": "紹介履歴",
                 "buyAtOpensea": "Openseaで購入",
-                "stakingDesc": "ポリゴン",
+                "stakingDesc": "Polygon",
                 "ticketsDescription3": "抽選チケットをゲットして、当選確率をアップしよう！"
             },
             "alphaSeason": "Special Events",
@@ -2036,7 +2036,7 @@
                         "titleKey1": "NFT保有者向け報酬の対象となるにはどうしたらよいですか？",
                         "descriptionKey1": "NFT保有者に対して、NFT保有者向け報酬を配布しています。\n - LAND保有者\n - NFTアバター保有者\n - NFTコレクターバッジ保有者\n シーズン終了時に1つ以上所有している場合、アルファ期間中に到達したレベルに応じた報酬を受け取ることができます。\n\n注）日本在住者を除く",
                         "titleKey2": "アバターや NFT はカウントされますか?",
-                        "descriptionKey2": "Only NFTs released as part of Season 3 Collections will unlock the Avatar Owner and NFT Collector Badge reward. You can see which NFTs are included in the “NFT Shop” tab in the Alpha section of the website.",
+                        "descriptionKey2": "シーズン3 コレクションとしてリリースされたNFTのみがアバターオーナーとNFT コレクターバッジをアンロックすることができます。ウェブサイトのアルファよりNFTショップのタブにどのNFTが該当するのかを確認することができます。",
                         "titleKey3": "NFTコレクターバッジを獲得するにはどうしたらよいですか？",
                         "descriptionKey3": "You need to collect 1 NFT from the Season 3 Collections to unlock the badge and earn the guaranteed owner reward.\nAny NFT from the Season 3 Collections will work but other NFTs are not eligible for the badge. You can see which NFTs are included in the “NFT Shop” tab in the Alpha section of the website.",
                         "titleKey4": "Leaderboardとは何ですか？",
@@ -2095,7 +2095,7 @@
                         "titleKey8": "アルファパスは取引可能です。 レベル 2 に到達してからパスをトレードするとどうなりますか?",
                         "descriptionKey8": "報酬を請求することができません。ただし、レベル2に到達してパスを失い、その後パスを取り戻したか、別のパスを取り戻した場合は、進行状況が保存された状態でレベル2に戻ることができます。",
                         "titleKey9": "シーズン3アルファパスとSANDの報酬はどのチェーンで請求されるのでしょうか？",
-                        "descriptionKey9": "シーズン3アルファパスNFTの請求はイーサリアムメインネットで、SANDはポリゴンメインネットで請求されます。ポリゴン（レイヤー2）を使用したことがない方もご安心ください; このレイヤーを使用するために必要なすべての手順は、報酬を請求する際に説明されます。",
+                        "descriptionKey9": "シーズン3アルファパスNFTの請求はEthereumメインネットで、SANDはPolygonメインネットで請求されます。Polygon（レイヤー2）を使用したことがない方もご安心ください; このレイヤーを使用するために必要なすべての手順は、報酬を請求する際に説明されます。",
                         "titleKey10": "シーズン3のアルファパスはいつまで受け取れますか？",
                         "descriptionKey10": "アルファパスの入手方法によって異なります。\n 1. アルファ・シーズン3が開催されている間にソーシャルコンテストでアルファパスを獲得した場合、アルファ・シーズン3が終了する前にアルファパスを請求しないと、アルファパスは失われてしまいます。\n 2. アルファ・シーズン3の終わりに抽選でアルファパスを獲得した場合、請求に期限はありません。\n",
                         "titleKey11": "SAND 報酬を受け取るまでにどのくらいの時間がかかりますか?",
@@ -2169,10 +2169,10 @@
                     ]
                 }
             },
-            "startsOn": "Starts on {varStartDate}",
+            "startsOn": "開始日時 {varStartDate}",
             "changelog": {
-                "title": "Changelog",
-                "subtitle": "We are continuously working on enhancements and fixes.\nPlease let us know if you found any bug. Feel free to write us at:"
+                "title": "変更履歴",
+                "subtitle": "バグ修正と機能強化に取り組んでいます。バグを見つけた際には以下にご報告ください。"
             },
             "leaderboard": {
                 "claimDesc": "11月22日より開始"
@@ -2262,14 +2262,14 @@
             "cheaters": {
                 "description": "チート対策チームがLeaderboardを監視しています。チーターを報告するには、以下の連絡先にご連絡ください。",
                 "title": "チーターのアカウント停止されます",
-                "title2": "Leaderboard rewards on November 22",
-                "description2": "Cleaning the Leaderboard of cheaters will take us a bit more time. The Leaderboard rewards will be sent on November 22.\n"
+                "title2": "リーダーボード リワードは11月22日に送信予定",
+                "description2": "リーダーボードのチーターの削除にはもう少し時間がかかります。リーダーボードのリワードは11月22日に送信予定となっています。"
             }
         }
     },
     "assets": {
         "meta": {
-            "description": "The Sandboxマーケットプレイスは、クリエイターのアセットを検索してSANDで購入し、自分のLANDへと取り込むことができるNFTマーケットプレイスです。",
+            "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエーターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
             "keywords": "サンドボックス, nft, マーケットプレイス, アセット, クリエイター, コレクション, atari, スマーフ, binance, ウォーキングデッド, LAND, エンティティ",
             "twitter": {
                 "site": "@thesandboxgame",
@@ -2305,7 +2305,7 @@
             "to": "に",
             "cancel": "販売をキャンセルする",
             "network": {
-                "ethereum": "これは、イーサリアムネットワークで動いているSANDです。",
+                "ethereum": "これはEthereum ネットワークで動いているSANDです。",
                 "polygon": "これは、Polygonネットワークで実行されているSANDです。"
             },
             "details": "Details",
@@ -2363,18 +2363,18 @@
     "shop": {
         "meta": {
             "title": "The Sandboxショップ - ブロックチェーンNFTマーケットプレイス",
-            "description": "The Sandboxマーケットプレイスは、クリエイターのアセットを検索してSANDで購入し、自分のLANDdへと取り込むことができるNFTマーケットプレイスです。",
+            "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエーターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
             "keywords": "サンドボックス, nft, マーケットプレイス, アセット, クリエイター, コレクション, atari, スマーフ, binance, ウォーキングデッド, LAND, エンティティ",
             "og": {
                 "title": "The Sandbox | The Sandboxショップ - ブロックチェーンNFTマーケットプレイス",
-                "description": "The Sandboxマーケットプレイスは、クリエイターのアセットを検索してSANDで購入し、自分のLANDへと取り込むことができるNFTマーケットプレイスです。",
+                "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエーターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
                 "url": "https://sandbox.game/shop/",
                 "site_name": "The Sandbox",
                 "image": "https://www.sandbox.game/images/logo.png"
             },
             "twitter": {
                 "title": "The Sandboxショップ - ブロックチェーンNFTマーケットプレイス",
-                "description": "The Sandboxマーケットプレイスは、クリエイターのアセットを検索してSANDで購入し、自分のLANDへと取り込むことができるNFTマーケットプレイスです。",
+                "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエーターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
                 "card": "The Sandboxショップ - ブロックチェーンNFTマーケットプレイス",
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame",
@@ -2450,7 +2450,7 @@
             "luck": "運"
         },
         "behaviours": {
-            "title": "Behaviors",
+            "title": "動作",
             "allyFighter": "味方の戦士",
             "animatedDecoration": "動くデコレーション",
             "assetSpawner": "アセット発生",
@@ -2672,7 +2672,7 @@
             "network": "通信網",
             "polygon": "Polygon",
             "ethereum": "イーサリアム",
-            "disabledReason": "イーサリアムの統合にため取引が一時的にできなくなっています。"
+            "disabledReason": "Ethereumの統合にため取引が一時的にできなくなっています。"
         },
         "assets": {
             "noGems": "このアセットにはジェムはありません",
@@ -2719,80 +2719,80 @@
         },
         "notMinted": "未発行",
         "allCollectionsMeta": {
-            "title": "The Sandbox Shop - Collections",
-            "description": "The Sandbox Marketplace is an NFT marketplace where you can search and buy creator's ASSETS with SAND to incorporate them into your LAND.",
-            "keywords": "sandbox, nft, avatars, marketplace, assets, creators, collections, atari, smurfs, binance, the walking dead, land, entity",
+            "title": "The Sandbox ショップ - コレクション",
+            "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエーターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
+            "keywords": "sandbox、nft、アバター、マーケットプレイス、アセット、クリエーター、コレクション、アタリ、スマーフ、binance、the walking dead, ランド、entity",
             "og": {
-                "title": "The Sandbox | The Sandbox Shop - Collections",
-                "description": "The Sandbox Marketplace is an NFT marketplace where you can search and buy creator's ASSETS with SAND to incorporate them into your LAND.",
+                "title": "The Sandbox | The Sandbox ショップ - コレクション",
+                "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエーターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
                 "url": "https://sandbox.game/collections/",
                 "site_name": "The Sandbox",
                 "image": "https://www.sandbox.game/images/logo.png"
             },
             "twitter": {
-                "title": "The Sandbox Shop - Blockchain NFT Marketplace",
-                "description": "The Sandbox Marketplace is an NFT marketplace where you can search and buy creator's ASSETS with SAND to incorporate them into your LAND.",
-                "card": "The Sandbox Shop - Blockchain NFT Marketplace",
+                "title": "The Sandbox ショップ - ブロックチェーン NFT マーケットプレイス",
+                "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエーターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
+                "card": "The Sandbox ショップ - ブロックチェーン NFT マーケットプレイス",
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame",
                 "image": "https://www.sandbox.game/images/logo.png"
             }
         },
         "specificCollectionsMeta": {
-            "title": "The Sandbox Shop - {name}",
-            "description": "Buy {name} assets on The Sandbox blockchain NFT marketplace.",
-            "keywords": "sandbox, nft, avatars, marketplace, assets, creators, collections, atari, smurfs, binance, the walking dead, land, entity, {name}",
+            "title": "The Sandbox ショップ - {name}",
+            "description": "The Sandbox ブロックチェーンのNFT マーケットプレイスで {name} のアセットを購入",
+            "keywords": "sandbox、nft、アバター、マーケットプレイス、アセット、クリエーター、コレクション、アタリ、スマーフ、binance、the walking dead, ランド、entity、 {name}",
             "og": {
-                "title": "The Sandbox Shop - {name}",
-                "description": "Buy {name} assets on The Sandbox blockchain NFT marketplace.",
+                "title": "The Sandbox ショップ - {name}",
+                "description": "The Sandbox ブロックチェーンのNFT マーケットプレイスで {name} のアセットを購入",
                 "url": "https://sandbox.game/collections/{name}/{id}",
                 "site_name": "The Sandbox",
                 "image": "https://www.sandbox.game/images/logo.png"
             },
             "twitter": {
-                "title": "The Sandbox Shop - {name}",
-                "description": "Buy {name} assets on The Sandbox blockchain NFT marketplace.",
-                "card": "The Sandbox Shop",
+                "title": "The Sandbox ショップ - {name}",
+                "description": "The Sandbox ブロックチェーンのNFT マーケットプレイスで {name} のアセットを購入",
+                "card": "The Sandbox ショップ",
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame",
                 "image": "https://www.sandbox.game/images/logo.png"
             }
         },
         "avatarsMeta": {
-            "title": "The Sandbox Shop - Avatar Collections",
-            "description": "The Sandbox Marketplace is an NFT marketplace where you can search and buy creator's ASSETS with SAND to incorporate them into your LAND.",
-            "keywords": "sandbox, nft, avatars, marketplace, assets, creators, collections, atari, smurfs, binance, the walking dead, land, entity",
+            "title": "The Sandbox ショップ - アバターコレクション",
+            "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエーターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
+            "keywords": "sandbox、nft、アバター、マーケットプレイス、アセット、クリエーター、コレクション、アタリ、スマーフ、binance、the walking dead, ランド、entity",
             "og": {
-                "title": "The Sandbox | The Sandbox Shop - Avatar Collections",
-                "description": "The Sandbox Marketplace is an NFT marketplace where you can search and buy creator's ASSETS with SAND to incorporate them into your LAND.",
+                "title": "The Sandbox | The Sandbox ショップ - アバターコレクション",
+                "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエーターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
                 "url": "https://sandbox.game/avatars/",
                 "site_name": "The Sandbox",
                 "image": "https://www.sandbox.game/images/logo.png"
             },
             "twitter": {
-                "title": "The Sandbox Shop - Blockchain NFT Marketplace",
-                "description": "The Sandbox Marketplace is an NFT marketplace where you can search and buy creator's ASSETS with SAND to incorporate them into your LAND.",
-                "card": "The Sandbox Shop - Blockchain NFT Marketplace",
+                "title": "The Sandbox ショップ - ブロックチェーン NFT マーケットプレイス",
+                "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエーターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
+                "card": "The Sandbox ショップ - ブロックチェーン NFT マーケットプレイス",
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame",
                 "image": "https://www.sandbox.game/images/logo.png"
             }
         },
         "avatarColMeta": {
-            "title": "The Sandbox Shop - {name} avatar collection",
-            "description": "Buy {name} avatars on The Sandbox blockchain NFT marketplace.",
-            "keywords": "sandbox, nft, avatars, marketplace, assets, creators, collections, atari, smurfs, binance, the walking dead, land, entity, {collectionName}",
+            "title": "The Sandbox ショップ - {name} アバターコレクション ",
+            "description": "The Sandbox のブロックチェーン NFT マーケットプレイスで{name} のアバターを購入",
+            "keywords": "sandbox、nft、アバター、マーケットプレイス、アセット、クリエーター、コレクション、アタリ、スマーフ、binance、the walking dead, ランド、entity、 {collectionName}",
             "og": {
-                "title": "The Sandbox Shop - {name}",
-                "description": "Buy {name} avatars on The Sandbox blockchain NFT marketplace.",
+                "title": "The Sandbox ショップ - {name}",
+                "description": "The Sandbox のブロックチェーン NFT マーケットプレイスで{name} のアバターを購入",
                 "url": "https://sandbox.game/avatars/{name}/{id}",
                 "site_name": "The Sandbox",
                 "image": "https://www.sandbox.game/images/logo.png"
             },
             "twitter": {
-                "title": "The Sandbox Shop - ",
-                "description": "Buy {name} avatars on The Sandbox blockchain NFT marketplace.",
-                "card": "The Sandbox Shop",
+                "title": "The Sandbox ショップ - ",
+                "description": "The Sandbox のブロックチェーン NFT マーケットプレイスで{name} のアバターを購入",
+                "card": "The Sandbox ショップ",
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame",
                 "image": "https://www.sandbox.game/images/logo.png"
@@ -3182,13 +3182,13 @@
                         "errorUsername3": "ユーザー名は必須フィールドです。必ず入力してください。",
                         "titleTooLong": "タイトルが長すぎます",
                         "descriptionTooLong": "タイトルが長すぎます",
-                        "emailIsRequired": "メールは必須です",
+                        "emailIsRequired": "メールは必須項目です",
                         "emailIsIncorrect": "メールは正しくありません",
                         "emailAlreadyInUse": "既に使われているメールアドレスです",
                         "emailsDoNotMatch": "メールが一致しません",
-                        "oldPasswordIsRequired": "旧パスワードは必須です",
+                        "oldPasswordIsRequired": "旧パスワードは必須項目です",
                         "oldPaswordDoesNotMatch": "旧パスワードが一致しません",
-                        "newPasswordIsRequired": "新パスワードは必須です",
+                        "newPasswordIsRequired": "新パスワードは必須項目です",
                         "newPasswordTooShort": "新パスワードが短すぎます",
                         "passwordDoNotMatch": "パスワードが一致しません"
                     },
@@ -3321,7 +3321,7 @@
                     "emailTo": "次のアドレス宛にメールを送信しました：",
                     "changeAfterEmail": "これによりパスワードを変更できます。",
                     "errors": {
-                        "emailUsernameIsRequired": "メールアドレスまたはユーザー名は必須です"
+                        "emailUsernameIsRequired": "メールアドレスまたはユーザー名は必須項目です"
                     }
                 },
                 "changePasswordModal": {
@@ -3338,7 +3338,7 @@
                         "good": "普通"
                     },
                     "errors": {
-                        "newPasswordIsRequired": "新パスワードは必須です",
+                        "newPasswordIsRequired": "新パスワードは必須項目です",
                         "newPasswordTooShort": "新パスワードが短すぎます",
                         "passwordDoNotMatch": "新パスワードが一致しません"
                     }
@@ -3466,7 +3466,7 @@
                     "confirm": "私は次を承認することに同意します：",
                     "terms": "利用規約",
                     "errors": {
-                        "emailIsRequired": "メールは必須です",
+                        "emailIsRequired": "メールは必須項目です",
                         "emailIsIncorrect": "有効なメールアドレスではありません",
                         "emailAlreadyInUse": "既に使用されているメールアドレスです",
                         "usernameIncorrect": "ユーザー名が正しくありません",
@@ -3481,7 +3481,7 @@
                     "password": "パスワード",
                     "repeatPassword": "パスワードの再入力",
                     "errors": {
-                        "newPasswordIsRequired": "新パスワードは必須です",
+                        "newPasswordIsRequired": "新パスワードは必須項目です",
                         "newPasswordTooShort": "新パスワードが短すぎます",
                         "passwordDoNotMatch": "パスワードが一致しません"
                     },
@@ -3599,7 +3599,7 @@
         "logoDisclaimer": "マップ上に表示される画像をアップロードすることができます (WEBPまたはJPG)。ファイルサイズは90KB以下にしてください。",
         "howTo": "エステートの編集方法",
         "errors": {
-            "assetNameRequired": "アセット名は必須です",
+            "assetNameRequired": "アセット名は必須項目です",
             "assetNameTooShort": "アセット名が短すぎます",
             "assetDescriptionTooLong": "アセットの説明が長すぎます",
             "logo": "ロゴファイルの形式またはサイズが正しくありません。対応形式はWEBPまたはJPGで、ファイルサイズは90KB以下にしてください",
@@ -3624,7 +3624,7 @@
             "unpublish": "非公開",
             "tags": "タグ",
             "collection": "Avatar collection gating",
-            "collectionToGate": "Collection to gate",
+            "collectionToGate": "ゲートへのコレクション",
             "defaultAvatar": "アバター例",
             "displayedAsPreview": "指定したコレクションのアバターをユーザーが所有していない場合にプレビューとして表示されます。"
         },
@@ -3787,12 +3787,12 @@
             "parcel": "区画",
             "polygonChain": "Polygon Network",
             "network": "Network",
-            "ethereumChain": "イーサリアムネットワーク",
+            "ethereumChain": "Ethereum ネットワーク",
             "tokenId": "トークン ID",
             "type": "タイプ",
             "chain": "チェーン",
-            "ethereum": "イーサリアム",
-            "polygon": "ポリゴン",
+            "ethereum": "Ethereum",
+            "polygon": "Polygon",
             "goerli": "ゴレリ",
             "rinkeby": "リンクビー",
             "mumbai": "ムンバイ",
@@ -3848,7 +3848,7 @@
             "videoUrl": "動画のURL",
             "errors": {
                 "signin": "まずはサインインしてください",
-                "assetNameRequired": "アセット名は必須です",
+                "assetNameRequired": "アセット名は必須項目です",
                 "assetNameTooShort": "アセット名が短すぎます",
                 "assetDescriptionTooLong": "アセットの説明が長すぎます",
                 "preview": "プレビューファイルの形式またはサイズが正しくありません。ファイルは画像、ファイルサイズは90KB以下にしてください",
@@ -4187,7 +4187,7 @@
                     "tooltip": "シーズン2 アルファパスを獲得するためには抽選チケットをあと{tickets}枚GETしてください。抽選がスタートするときにウォレットにNFTがあることを確認してください。"
                 },
                 "s1Memorabilia": {
-                    "title": "シーズン 1: Level 5 Completed",
+                    "title": "シーズン 1: Level 5 クリア",
                     "tooltip": "アルファ シーズン1 のレベル5 に到達するにはあと{tickets} 枚の抽選チケットが必要になります。"
                 },
                 "s2Memorabilia": {
@@ -4330,8 +4330,8 @@
             },
             "chain": {
                 "title": "チェーン",
-                "ethereum": "イーサイアム",
-                "polygon": "ポリゴン"
+                "ethereum": "Ethereum",
+                "polygon": "Polygon"
             },
             "tags": {
                 "sand": "通貨: SAND",
@@ -4341,8 +4341,8 @@
                 "dai": "通貨: DAI",
                 "regular": "レギュラー",
                 "premium": "プレミアム",
-                "ethereum": "チェーン: イーサリアム",
-                "polygon": "チェーン: ポリゴン"
+                "ethereum": "チェーン: Ethereum",
+                "polygon": "チェーン: Polygon"
             },
             "partners": {
                 "title": "パートナー",
@@ -4457,7 +4457,7 @@
         "sand": {
             "meta": {
                 "title": "The Sandbox | SANDトークン",
-                "description": "『The Sandbox』エコシステムでは、取引や交流の基盤としてSANDというユーティリティトークンを使用します。これはイーサリアムブロックチェーン上に構築されたERC-20ユーティリティトークンです。SANDの供給には限りがあり、上限を3,000,000,000SANDとします。 ",
+                "description": "『The Sandbox』エコシステムでは、取引や交流の基盤としてSANDというユーティリティトークンを使用します。これはEthereum ブロックチェーン上に構築されたERC-20ユーティリティトークンです。SANDの供給には限りがあり、上限を3,000,000,000SANDとします。 ",
                 "keywords": "サンドボックス, ボクセルアート, 3Dボクセルゲーム, ボクセルアーティスト, 3DオンラインPCゲーム, コミュニティ, ブロックチェーン DAPP, PC用ボクセルゲーム, PCのボクセルアート, 分散型ゲーム, SAND, トークン",
                 "og": {
                     "title": "The Sandbox | SANDについて",
@@ -4468,7 +4468,7 @@
                 },
                 "twitter": {
                     "title": "The Sandbox | SANDについて",
-                    "description": "『The Sandbox』エコシステムでは、取引や交流の基盤としてSANDというユーティリティトークンを使用します。これはイーサリアムブロックチェーン上に構築されたERC-20ユーティリティトークンです。SANDの供給には限りがあり、上限を3,000,000,000SANDとします。 ",
+                    "description": "『The Sandbox』エコシステムでは、取引や交流の基盤としてSANDというユーティリティトークンを使用します。これはEthereum ブロックチェーン上に構築されたERC-20ユーティリティトークンです。SANDの供給には限りがあり、上限を3,000,000,000SANDとします。 ",
                     "card": "プレイヤーが作り上げる分散型ゲームプラットフォーム。",
                     "site": "@thesandboxgame",
                     "creator": "@thesandboxgame",
@@ -4476,7 +4476,7 @@
                 }
             },
             "header": {
-                "description": "『The Sandbox』エコシステムでは、取引や交流の基盤としてSANDというユーティリティトークンを使用します。これはイーサリアムブロックチェーン上に構築されたERC-20ユーティリティトークンです。SANDの供給には限りがあり、上限を3,000,000,000SANDとします。",
+                "description": "『The Sandbox』エコシステムでは、取引や交流の基盤としてSANDというユーティリティトークンを使用します。これはEthereum ブロックチェーン上に構築されたERC-20ユーティリティトークンです。SANDの供給には限りがあり、上限を3,000,000,000SANDとします。",
                 "mainButtonText": "買う",
                 "secondaryButtonText": "ステーキング",
                 "link": "Binance (バイナンス) のリサーチを読む"
@@ -4485,7 +4485,7 @@
             "brands": {
                 "sandbox": {
                     "name": "The Sandbox",
-                    "description": "メタバースの『The Sandbox』は、イーサリアムブロックチェーン上に構築され、自分たちのゲーム体験を構築し、所有し、そして収益化出来るメタバースです。"
+                    "description": "メタバースの『The Sandbox』は、Ethereum ブロックチェーン上に構築され、自分たちのゲーム体験を構築し、所有し、そして収益化出来るメタバースです。"
                 },
                 "sand": {
                     "name": "$SAND",
@@ -4519,7 +4519,7 @@
             },
             "sandbox": {
                 "title": "「The Sandbox」 (SAND) とは",
-                "text1": "『The Sandbox』は、プラットフォームのユーティリティトークン「SAND」を使用して、イーサリアムブロックチェーン上でゲーム体験を構築、所有、収益化できるメタバースです。プレイヤーは、非代替性トークン (NFT) の形でデジタルASSETを作成し、マーケットプレイスにアップロードし、Game Makerを使ってゲームに実装することができます。",
+                "text1": "『The Sandbox』は、プラットフォームのユーティリティトークン「SAND」を使用して、Ethereum ブロックチェーン上でゲーム体験を構築、所有、収益化できるメタバースです。プレイヤーは、非代替性トークン (NFT) の形でデジタルASSETを作成し、マーケットプレイスにアップロードし、Game Makerを使ってゲームに実装することができます。",
                 "text2": "LANDとは、プレイヤーが購入し、その上にさまさまな体験を構築することができるThe Sandbox メタバース上にある土地のデジタルピースです。プレイヤーがLandを所有すると、プレイヤーはそのLandにゲームやアセットを配置することができます。複数のLandを組み合わせて、Estateと呼ばれる地域も作ることができます。",
                 "text3": "合計166,464のLandは永久に存在し、Landが含まれるマップによりThe Sandboxのメタバースが構成されています。",
                 "text4": "ジェムとカタリストはアセットのランク、希少性、属性を定義します。カタリストを使うと、NFTにジェムで満たすことができる空のソケットを追加します。カタリストの品質が高いほど、アセットが持つソケットの数が多くなります。",
@@ -4538,7 +4538,7 @@
                         "description": "Game Makerを使って、プレイヤーが所有するLAND上にゲームを作成して収益化します。"
                     }
                 },
-                "text6": "ERC-1776を使用することで、The Sandboxはプラットフォームのユーザーがイーサリアムブロックチェーン上で取引を開始できるようにします。取引のネットワーク手数料はプラットフォームが負担し、総合的なユーザー体験を最適化します。",
+                "text6": "ERC-1776を使用することで、The SandboxはプラットフォームのユーザーがEthereum ブロックチェーン上で取引を開始できるようにします。取引のネットワーク手数料はプラットフォームが負担し、総合的なユーザー体験を最適化します。",
                 "text7": "LAND販売とプレミアムNFTセール、取引手数料、サブスクリプションサービスから収集されるSAND取引量の50%が組織に入ります",
                 "text8": "組織はThe Sandboxのエコシステムをサポートすることで、NFTやメタバース、$SAND採用の認知度向上に貢献します。",
                 "text9": "現在、組織は以下に関与しています：",
@@ -4747,13 +4747,13 @@
                 "errorUsername3": "ユーザー名は必須項目で、空欄にすることはできません",
                 "titleTooLong": "タイトルが長すぎます",
                 "descriptionTooLong": "タイトルが長すぎます",
-                "emailIsRequired": "メールは必須です",
+                "emailIsRequired": "メールは必須項目です",
                 "emailIsIncorrect": "メール情報は正しくありません",
                 "emailAlreadyInUse": "既に使われているメールアドレスです",
                 "emailsDoNotMatch": "メールが一致しません",
-                "oldPasswordIsRequired": "旧パスワードは必須です",
+                "oldPasswordIsRequired": "旧パスワードは必須項目です",
                 "oldPaswordDoesNotMatch": "旧パスワードが一致しません",
-                "newPasswordIsRequired": "新パスワードは必須です",
+                "newPasswordIsRequired": "新パスワードは必須項目です",
                 "newPasswordTooShort": "新パスワードが短すぎます",
                 "passwordDoNotMatch": "パスワードが一致しません",
                 "errorAvatarImageSize": "File size to big please use a lighter file",
@@ -5126,7 +5126,7 @@
             "connectWalletFooter": {
                 "titleNormal": "チェック",
                 "titleBlue": "ウォレット",
-                "description": "Connect your wallet and check if you own an exclusive Avatar or choose one from our unique Avatar Collections.",
+                "description": "ウォレットを接続して限定アバターを所有しているかチェックできます。またはユニークなアバターコレクションから一体選ぶこともできます。",
                 "button": "ウォレットを接続する"
             },
             "filter": {
@@ -5211,7 +5211,7 @@
             "emailTo": "次のアドレス宛にメールを送信しました：",
             "changeAfterEmail": "これによりパスワードを変更できます。",
             "errors": {
-                "emailUsernameIsRequired": "メールまたはユーザー名は必須です"
+                "emailUsernameIsRequired": "メールまたはユーザー名は必須項目です"
             },
             "back": "戻る"
         },
@@ -5229,7 +5229,7 @@
                 "good": "普通"
             },
             "errors": {
-                "newPasswordIsRequired": "新パスワードは必須です",
+                "newPasswordIsRequired": "新パスワードは必須項目です",
                 "newPasswordTooShort": "新パスワードが短すぎます",
                 "passwordDoNotMatch": "新パスワードが一致しません"
             }
@@ -5241,7 +5241,7 @@
             "confirm": "私は次を承認することに同意します：",
             "terms": "利用規約",
             "errors": {
-                "emailIsRequired": "メールは必須です",
+                "emailIsRequired": "メールは必須項目です",
                 "emailIsIncorrect": "メール情報が有効なメールアドレスではありません",
                 "emailAlreadyInUse": "既に使用されているメールアドレスです",
                 "usernameIncorrect": "ユーザー名が正しくありません",
@@ -5256,7 +5256,7 @@
             "password": "パスワード",
             "repeatPassword": "パスワードの再入力",
             "errors": {
-                "newPasswordIsRequired": "新パスワードは必須です",
+                "newPasswordIsRequired": "新パスワードは必須項目です",
                 "newPasswordTooShort": "新パスワードが短すぎます",
                 "passwordDoNotMatch": "パスワードが一致しません"
             },
@@ -5607,7 +5607,7 @@
                 "3": "アルファ・シーズン3",
                 "4": "Collector",
                 "5": "Belonging Week",
-                "6": "Halloween 2022"
+                "6": "2022年 ハロウィン"
             },
             "memorabilia": "記念品"
         },
@@ -5637,9 +5637,9 @@
                     "title": "アカウント作成",
                     "wallet-cta": "ウォレットに接続",
                     "divider": "もしくは",
-                    "gg-social": "Sign Up with Google",
-                    "fb-social": "Sign Up with Facebook",
-                    "tw-social": "Sign Up with Twitter"
+                    "gg-social": "Google から登録",
+                    "fb-social": "Facebook から登録",
+                    "tw-social": "Twitter から登録"
                 },
                 "setup-account": {
                     "tos1": "アカウントを作成することで以下に同意することとします。",
@@ -5771,10 +5771,10 @@
             },
             "viewLand": "",
             "checkboxs": {
-                "setAssetArt": "Set Asset type to Art",
-                "setAssetBasic": "Set Asset as Basic",
-                "setAssetExlusive": "Set Asset as Exclusive",
-                "setAssetPrivate": "Show in Public Profile"
+                "setAssetArt": "アセットタイプをアートへ設定",
+                "setAssetBasic": "アセットをベーシックに設定",
+                "setAssetExlusive": "アセットを限定に設定",
+                "setAssetPrivate": "公開プロフィールから隠す（プライベート）"
             }
         },
         "faucet": {
@@ -5936,7 +5936,7 @@
         "landsLinkedToTheExperience": "体験にリンクされたLand",
         "assetsOnSaleFromCreator": "クリエイターが販売に出しているアセット",
         "publishDate": "公開日",
-        "tokenId": "Token Id gating",
+        "tokenId": "トークンIDをゲート中です",
         "explore": "探索",
         "complete": "完了",
         "moreDetail": "詳細を見る",
@@ -6146,7 +6146,7 @@
             "whatsBlockchain": "ブロックチェーンブリッジとは？",
             "bridgeSand": "SANDをブリッジ",
             "bridge": "ブリッジ",
-            "mainnetL1": "イーサリアムネットワーク",
+            "mainnetL1": "Ethereum ネットワーク",
             "mainnetL2": "POLYGONネットワーク",
             "discoverPolygon": "POLYGONの特典について",
             "noActivePool": "ステーキングすればさらに多くのSANDを獲得できます。",
@@ -7157,7 +7157,7 @@
             "oldTransactions": "以前のトランザクションを表示"
         },
         "walletTab": {
-            "mainnetL1Title": "Ethereum",
+            "mainnetL1Title": "ETHEREUM NETWORK L1",
             "testnetL1Title": "Goerli",
             "eth": "ETH",
             "poly": "POLYGON",
@@ -7312,7 +7312,7 @@
             "sandPerLand": {
                 "title": "ステーキングリミット",
                 "dedication": "このプールはLANDオーナー専用です。",
-                "each": "ポリゴン上のウォレット内にあるLANDを使用し、１LANDにつき{0} までステーキングすることができます。",
+                "each": "Polygon上のウォレット内にあるLANDを使用し、１LANDにつき{0} までステーキングすることができます。",
                 "landMore": "もっとステーキングしますか？ {0}",
                 "landNot": "LANDオーナーではありませんか？{0}",
                 "buyLink": "LANDを購入",
@@ -7322,8 +7322,8 @@
             }
         },
         "network": {
-            "polygon": "ポリゴン",
-            "ethereum": "イーサリアム"
+            "polygon": "Polygon",
+            "ethereum": "Ethereum"
         },
         "exitOnDeprecationLP": "Claim all your earnings and get back all your LP.",
         "discontinued": "Discontinued",
@@ -7738,7 +7738,7 @@
                 "deviceNotSupported": "現在、お使いのデバイスには対応していません。プレイするには、MACまたはWindows PCをご利用ください。",
                 "backToHome": "ホームへ戻る",
                 "browserNotSupported": "サポートされているブラウザを使用してください :(",
-                "pleaseUseAnotherOne": "プレイするためには他のブラウザをお使いください。"
+                "pleaseUseAnotherOne": "プレイには他のブラウザをお使いください。"
             },
             "onboarding": {
                 "title1": "素晴らしい体験の数々を楽しみましょう。新体験が日々登場します！",
@@ -8349,7 +8349,7 @@
         "meta": {
             "title": "The Sandbox -",
             "defaultTitle": "プレビュー",
-            "description": "The Sandboxマーケットプレイスは、クリエイターのアセットを検索してSANDで購入し、自分のLandへと取り込むことができるNFTマーケットプレイスです。",
+            "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエーターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
             "keywords": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token",
             "og": {
                 "url": "https://www.sandbox.game/model-viewer/"
@@ -11617,7 +11617,7 @@
         },
         "2022": {
             "0": {
-                "date": "June 24, 2022 - Game Maker 0.7.0 changelog",
+                "date": "2022年6月24日 - Game Maker 0.7.0 変更履歴",
                 "title": "不具合修正と機能強化",
                 "list": {
                     "0": {
@@ -11705,7 +11705,7 @@
                 }
             },
             "1": {
-                "date": "August 29, 2022 - Game Maker 0.7.1 changelog",
+                "date": "2022年8月29日 - Game Maker 0.7.1 変更履歴",
                 "title": "不具合修正と機能拡張",
                 "list": {
                     "0": {
@@ -11717,7 +11717,7 @@
                                 "subtitle": "ビックリマークは常に黄色で表示されるようにした。"
                             },
                             "1": {
-                                "title": "Game Maker usability: ",
+                                "title": "Game Maker ユーザビリティ: ",
                                 "subtitle": "保存して開いた為、アセットを配置することはできませんでした。"
                             },
                             "2": {
@@ -11894,7 +11894,7 @@
         }
     },
     "buySandModal": {
-        "ethereumNetwork": "イーサリアムネットワーク",
+        "ethereumNetwork": "Ethereum ネットワーク",
         "polygonNetwork": "Polygon Network",
         "ethereum": {
             "title": "Add SAND to your wallet",
@@ -12503,7 +12503,7 @@
                     "title": "属性設定: カタリストとジェム",
                     "body": "ジェムとカタリストはアセットの属性を決定する、使用量に応じて変化するThe Sandbox のユーティリティトークンです。属性により、メタバースを通じたThe Sandbox 上のエクスペリエンスにアセットの主要なステータスとして表示されます。つまりアセットの属性が増えれば増えるほど、The Sandbox 上での強さが増し、それによって価値が上がっていく仕組みになっています。",
                     "links": {
-                        "1": "More about Cat & Gems",
+                        "1": "カタリスト & ジェムに関して",
                         "2": "どうやったらもらえますか？"
                     }
                 },
@@ -12531,7 +12531,7 @@
             "onlyMyExperiences": "エクスペリエンスのみを表示",
             "searchName": "名前またはオーナーで検索",
             "noExperiences": "このワークスペースにはエクスペリエンスはありません。",
-            "noExperiencesUpload_1": " GameMakerを使う",
+            "noExperiencesUpload_1": " Game Makerを使う",
             "noExperiencesUpload_2": " Game Maker をアップロード",
             "noAssetsInExp": "このエクスペリエンスではアセットは使用されていません。",
             "filter": {
@@ -12950,20 +12950,20 @@
                 "2": {
                     "title": "+200",
                     "subtitle": "パートナーブランド",
-                    "desc1": "Our unique identity and our plan to market have already helped more than 200 brands to get into our space and develop their own world. When you join The Sandbox, you also join Gucci, Adidas, Snoop Dogg, Ubisoft and much more...",
+                    "desc1": "私たちのユニークなアイデンティティとマーケットへのプランで200以上のブランドにメタバースに参入していただくことができました。The Sandbox に参加していただくことでGucci、Adidas、Snoop Dogg、Ubisoft などの著名なブランドと一緒にメタバースに参加することができるのです。",
                     "desc2": "メタバースにジョインしてブランドが、制作した探検の一部になりませんか？",
                     "desc3": "Our quest toward interoperability also will help our community and the overall market mege worlds all together."
                 },
                 "3": {
-                    "title": "+2.5 MILLION",
-                    "subtitle": "and growing wallets registered",
-                    "desc1": "We have already gathered a strongly involved community, ready to jump on any interesting experiences.",
-                    "desc2": "Our idea has always been to make sure the final end user is able to live the most out of each projects."
+                    "title": "+250万",
+                    "subtitle": "ウォレットの登録も",
+                    "desc1": "私たちは強力なコミュニティを作り上げました。そして新たな挑戦や体験に向かって走り出しています。",
+                    "desc2": "エンドユーザーにすべてのプロジェクトを楽しんでいただくというのが私たちの使命であると考えています。"
                 }
             }
         },
         "howpartner": {
-            "title": "PARTNERS WHO BUILT THEIR OWN WORLD",
+            "title": "独自の世界を構築するパートナー",
             "seecollection": "See Collection",
             "createdby": "Created by",
             "block": {
@@ -12991,7 +12991,7 @@
         },
         "createdunique": {
             "title": "And created unique experiences!",
-            "desc": "Entering The Sandbox means you craft your own universe where communities will navigate and discover your brand and enjoy a truly unique experience in a voxel world.",
+            "desc": "コミュニティーが存在する世界を自分で作り上げ、ブランドを発見し、ボクセル世界で真のユニークな体験をすることができるThe Sandbox へと足を踏み入れてみましょう。",
             "button": "Join us now",
             "createdby": "Created by",
             "blocks": {
@@ -13024,7 +13024,7 @@
             "desc2": "家や街を作ったり、ファッションショーでキャットウォークしたり、ドラゴンやモンスターを倒したりと、あなたの夢見る体験を自由に提供します。"
         },
         "realworld": {
-            "title": "AN EXTENSION OF REAL-WORLD EXPERIENCES",
+            "title": "実世界での体験の延長",
             "blocks": {
                 "1": "Real Estate & Home Related",
                 "2": "Music, Concerts & Streaming",
@@ -13110,7 +13110,7 @@
                 "label": "拒否されました",
                 "description": "お客様のアカウント認証が拒否されました。ご不明な点がございましたら、support@sandbox.game までご連絡ください。",
                 "extra": "他",
-                "cta": "See Rejection Reason",
+                "cta": "拒否理由を見る",
                 "date": "時間： {0} UTC",
                 "needHelp": "ご不明な点は{0} にて、確認できます。",
                 "actionReference": ""
@@ -13155,7 +13155,7 @@
                 },
                 "results": {
                     "labels": {
-                        "manualUpdateLegend": "An administrator did set the status manually",
+                        "manualUpdateLegend": "管理者がステータスを設定しました。",
                         "age": "年齢"
                     }
                 }
@@ -13170,16 +13170,16 @@
                     "text": "ユーザー認証をキャンセルしますか？"
                 },
                 "verify": {
-                    "title": "Verify Account",
-                    "text": "Please explain why you have to verify the user account for {0}."
+                    "title": "アカウントの認証",
+                    "text": "{0} になぜユーザーアカウントの認証が必要か教えてください。"
                 },
                 "reject": {
-                    "title": "Reject Account",
-                    "text": "Please explain why you have to reject the user account for {0}."
+                    "title": "アカウントを拒否",
+                    "text": "{0} になぜユーザーアカウントが拒否されたのか教えてください。"
                 },
                 "sync": {
-                    "title": "Sync Account",
-                    "text": "Please explain why you have to sync the user account for {0}."
+                    "title": "アカウントを同期",
+                    "text": "{0} になぜユーザーアカウントを同期しなければいけないのか教えてください。"
                 }
             },
             "form": {
@@ -13189,7 +13189,7 @@
                     "newStatus": "新しい状態"
                 }
             },
-            "manualUpdateLegend": "Updated by an administrator"
+            "manualUpdateLegend": "管理者によってアップデート済"
         },
         "bar": {
             "explanation": "すべてのイベントリワードの対象になるには本人確認を完了させてください。",
@@ -13219,7 +13219,7 @@
             "createByName": "Create by name",
             "createByUrl": "Created by URL",
             "publicLink": "Public Link",
-            "isFeatured": "IS FEATURED"
+            "isFeatured": "が特集されています"
         }
     },
     "termsOfUse": {
@@ -13411,7 +13411,7 @@
     "changelogVoxedit": {
         "2022": {
             "0": {
-                "date": "August 29, 2022 - Public Beta Release",
+                "date": "2022年8月29日 - 公開ベータリリース",
                 "list": {
                     "0": {
                         "title": "新機能",
@@ -13459,7 +13459,7 @@
                         ]
                     },
                     "2": {
-                        "title": "Changes",
+                        "title": "変更点",
                         "list": [
                             "アニメーションは最長30秒に変更になりました",
                             "ロングウェイローテーションを削除しました（中間キーフレームを自動挿入することで後方互換性を維持）",
@@ -13477,51 +13477,52 @@
                         ]
                     },
                     "3": {
-                        "title": "Fixes",
+                        "title": "修正点",
                         "list": [
-                            "Syncing from MagicaVoxel now selects the correct active material",
-                            "Fixed issues with operative system locale and Inspector transform text fields",
-                            "Fixed scroll areas not resetting when resized",
-                            "Attaching/detaching panels now close all modals",
-                            "Deleting a layer now ensures that there is an active layer afterwards",
-                            "Loop and Zoom bars are now much better behaved",
-                            "Detached panels now enforce a min size",
-                            "Undo and redo no longer break selected voxels in Modeler",
-                            "Zoom to fit now shows at least 2 seconds",
-                            "Recovered most functionality while animation is playing",
-                            "Editor no longer crashes when stress clicking attach/detach panel buttons",
-                            "Skeleton now trims down too long node names.",
-                            "Save Confirmation popup trims down too long filenames",
-                            "Text in Welcome Screen has better readability now",
-                            "Opening a non existant recent file no longer crashes VE",
-                            "Default theme no longer has the same color for the grid and the background in the Animator",
-                            "Using Bucket tool in Paint or Erase mode outside of the volume in 2D views no longer crashes the editor",
-                            "Frame tool didn't create an Undo step",
-                            "New Keyframe will no longer add them to read only template nodes",
-                            "Camera reset was changing the near and far planes",
-                            "Block Editor kept old undo steps inbetween sessions",
-                            "Screen Rect tool in Block Editor now renders rectangle on top",
-                            "2D views now update properly when the user cancels an action",
-                            "Select mode with Face tool on empty space in 2D view no longer crashes the editor",
-                            "Screen Rect tool in 2D views was mirrored on X in TOP and BOTTOM views",
-                            "Next Keyframe button and shortcut now work properly",
-                            "Copying/Pasting Keyframes no longer crash the editor",
-                            "Tweaking an IK constrain was making it invisible",
-                            "Moving Keyframes in a dettached Timeline while the animation is running no longer crashes VE",
-                            "Moving/copying keyframes now create an undo step",
-                            "Palette header menus are now correctly rendered for a dettached Palette panel",
-                            "Adding/deleting layers now move the scroll properly",
-                            "Deleting a model kept it's thumbnail in the cache",
-                            "Opening a VXM now sets the first visible layer to be active",
-                            "Bucket tool with SELECT/PAINT/ERASE mode wasn't working well on the RIGHT/BOTTOM/BACK bounds of the volume",
-                            "Keyframe rect selection now works even if the left bound is behind the zero frame",
-                            "Loading a non palette PNG as a palette no longer overwrites the first slot with a white material",
-                            "Deleting VXMs from Library and importing/creating new ones with the same name will no longer show old thumbnail",
-                            "Having a different decimal separator than \".\" set in the OS's regional settings no longer crashes VE",
-                            "Creating decorative nodes for assets made based on decorable templates no longer crashes VE",
-                            "Load Palette from a dettached Palette panel no longer crashes VE",
-                            "Screen Rect tool now works properly in 2D views",
-                            "Dragging/copying a KF on top of another now overwrites it properly"
+                            "MagicaVoxel からの同期で正しいアクティブマテリアルを選択できるようになりました",
+                            "OSのロケールとインスペクタ トランスフォームテキスト欄が修正されました",
+                            "サイズ変更を行ったときのスクロールエリアが修正されました",
+                            "パネルの貼り付け/ 取り外しの際にすべてのモダルが閉じるようになりました",
+                            "レイヤーを削除するとその後にアクティブなレイヤーが表示されます",
+                            "ループ/ ズームバーの動作が改善されました",
+                            "取り外されたパネルが最小化されます",
+                            "戻る/ やり直すの動作でモデラーのボクセルが壊れることがなくなりました",
+                            "画面サイズに合わせる機能が2秒で表示されるようになりました",
+                            "アニメーションのプレイ中にほとんどの機能が復元するようになりました",
+                            "貼り付け/ 取り外しパネルボタンを連続でクリックしたときのエディターのクラッシュがなくなりました",
+                            "ノード名が長すぎた場合、骨格の名前を短くすることができるようになりました",
+                            "確認画面の保存のためのポップアップのファイル名を短くすることができるようになりました",
+                            "ウェルカム画面の文字が見やすくなりました",
+                            "存在しない直近のファイルを開けてもVEがクラッシュしなくなりました",
+                            "デフォルトのテーマがアニメーターの中のグリッドや背景と同じ色ではなくなりました",
+                            "2Dビューのボリュームの外にあるバケツツールのペイントや削除モードを使用してもエディターがクラッシュすることがなくなりました",
+                            "フレームツールが戻るステップを作成しなかった",
+                            "新しいキーフレームは読み取り専用のテンプレートノードに追加されることはなくなりました",
+                            "カメラリセットによって飛行機の距離が変更になりました",
+                            "ブロックエディターがセッション間で古い仕様である、戻るステップのままになっています",
+                            "Block Editor 上のScreen Rect ツールの上部に長方形が追加されました",
+                            "ユーザーがアクションをキャンセルした際に2D ビューが適切にアップデートされます",
+                            "2D ビューのスペースでFace ツールを選択してもエディターがクラッシュすることがなくなりました",
+                            "2D ビューのScreen Rect ツールがトップとボトムビューでミラーリングされていた",
+                            "キーフレームのボタンとショートカットが適切に作動するようになりました",
+                            "キーフレームをコピー/ 貼り付けすることでエディターがクラッシュすることがなくなりました",
+                            "IKの制約の変更が見えなくなっていました",
+                            "アニメーションの再生中に切り離されたタイムライン上でキーフレームを動かしてもVEがクラッシュすることがなくなりました",
+                            "キーフレームの移動/ コピーに戻る機能が追加されました",
+                            "パレットヘッダーメニューが切り離されたパレットパネルに正しく配置されました",
+                            "レイヤーの追加/ 削除のスクロールが正しく動作するようになりました",
+                            "モデルを削除するとキャッシュにサムネイルが保存されていました",
+                            "VXMを開けた際に最初に表示されるレイヤーがアクティブになるようになりました",
+                            "選択/ ペイント/ 消去モードのバケツツールが右/ 下/ 後ろの部分で作動していなかった",
+                            "キーフレーム Rect 選択機能が左部分がゼロフレームに隠れていても機能するようになりました",
+                            "パレットとしてノンパレットPNGを読み込む際に最初のスロットが白いマテリアルで上書きされることがなくなりました",
+                            "ライブラリからVXMを削除し、同じ名前で新たにインポート及び作成しても古いサムネイルは表示されないようになりました",
+                            "OSのリージョン設定ごとに異なる小数点の位置によってVEがクラッシュすることがなくなりました",
+                            "デコレーションテンプレート上に作成されたアセットにデコレーションノードを作成してもVEはクラッシュすることがなくなりました",
+                            "取り外されたパレットからパレットを読み込んでもVEがクラッシュすることがなくなりました",
+                            "スクリーンRect ツールは2Dビューでも機能するようになりました",
+                            "KF をドラッグ/ コピーしても適切に上書きされるようになりました",
+                            ""
                         ]
                     }
                 }
@@ -13859,7 +13860,7 @@
             "nfts": "NFT"
         },
         "currencies": {
-            "ethereum": "イーサリアム",
+            "ethereum": "Ethereum",
             "sand": "SAND",
             "usDollar": "USドル"
         },
