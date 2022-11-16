@@ -2211,7 +2211,7 @@
                 "blur": {
                     "title": "COMMUNITY UPDATE ON ALPHA SEASON 3 REWARDS",
                     "desc": "The metaverse experience must be fun, engaging, and rewarding, with a competition that is fair and equitable for all, based on the rules established at the beginning of the season.",
-                    "desc2": "We are taking extra time to examine leaderboard results",
+                    "desc2": "리더보드 결과를 더욱 정확히 가려내기 위해 시간이 조금 더 소요되고 있습니다.",
                     "desc3": ", including feedback from the community. We will make sure only human players can claim their prizes."
                 }
             },
@@ -3971,8 +3971,8 @@
                 "wave": "웨이브 1 - {time}",
                 "subtitle": "추첨에 당첨된 당첨자들은 {partner} LAND 세일에서 1개의 LAND를 구입할 수 있습니다. {landsCount}개의 LAND가 {landsCount}명의 당첨자들에게 돌아갑니다!",
                 "subtitle2": "These are California Dreamin’ and you never need to wake up!",
-                "subtitle3": "You are not whitelisted for the LAND Sale. You can still get a LAND through auctions or on Secondary Market",
-                "notLoggedInAndResultsArePublic": "Log in to check if you are whitelisted for {partner} LAND Sale"
+                "subtitle3": "LAND 세일 화이트리스트에 포함되지 않았습니다. 경매 또는 이차 마켓에서 LAND를 구입할 수 있습니다.",
+                "notLoggedInAndResultsArePublic": "{partner} LAND 세일 화이트리스트 명단에 내 계정이 있는지 확인하려면 로그인이 필요합니다."
             },
             "timeline": {
                 "raffle": "추첨",
@@ -4079,7 +4079,7 @@
                     },
                     "yourWallet": "내 지갑: ",
                     "makeSure": "LAND 세일을 위해 모든 준비를 마쳤는지 확인하세요.",
-                    "body": "LAND Sale starts at {startsAt} UTC. Get Ready!"
+                    "body": "{startsAt} UTC에 LAND 세일이 시작됩니다. 준비하세요!"
                 },
                 "youDidntWin": {
                     "title": "다음 번에는 행운이 함께하기를!",
@@ -4106,13 +4106,13 @@
                     "button": "내 LAND로 무엇을 할 수 있나요?",
                     "closeAdvice": "이 팝업창을 닫아도 트랜잭션은 계속 진행됩니다.",
                     "transactionApproved": "축하합니다! 트랜잭션이 승인되었습니다.",
-                    "disclaimer": "It may take up to 3 minutes to see the LAND in your account. {link}",
+                    "disclaimer": "내 지갑에 LAND가 표시되기까지 대략 3분 정도 소요될 수 있습니다. {link}",
                     "disclaimerLink": "폴리곤스캔에서 확인하기"
                 },
                 "registerRequirements": {
                     "title": "LAND Sale Raffle requirements",
                     "description": "자동화된 로봇이 우리 삶에서 빼놓을 수 없는 요소가 되긴 했지만, 더 샌드박스는 메타버스가 다양한 사람들로 채워지기를 바랍니다.",
-                    "readMoreInFAQ": "Read more about the LAND Sale Raffle requirements in the FAQs",
+                    "readMoreInFAQ": "LAND 세일 추첨 참여에 필요한 내용은 FAQ를 참고하세요.",
                     "KYCRequirement": {
                         "title": "계정 인증",
                         "description": "추첨에 참여하려면 계정을 인증해 주세요. 이는 모두를 위한 공정한 기회를 제공하기 위함입니다."
@@ -4132,7 +4132,7 @@
                     "subtitle": "LAND 세일 추첨에는 당첨되지 않았지만, 아직 LAND를 구입할 수 있는 기회가 남아 있습니다.",
                     "body": {
                         "estateAuctions": "이스테이트 경매는 {estateAuctionStartDate} UTC에 시작됩니다.",
-                        "remainingLands": "If any user who won the raffle decides not to buy their LAND, all remaining LAND will be set in auction on {publicAuctionStartDate} UTC."
+                        "remainingLands": "추첨에 당첨되었지만 LAND를 사지 않기로 결정한 당첨자가 있다면, 해당 LAND는 {publicAuctionStartDate} UTC에 경매를 통해 판매됩니다."
                     },
                     "buy": "LAND 구입",
                     "search": "LAND 검색"
@@ -4169,7 +4169,7 @@
                     "cancelled": "인증 취소됨"
                 },
                 "inProgressMessage": "계정이 아직 인증되지 않았습니다. 인증에는 최대 48시간이 소요될 수 있습니다.",
-                "rejectedMessage": "Your account was rejected. Only Verified accounts will be elegible to winning the LAND Sale Raffle.",
+                "rejectedMessage": "해당 계정으로는 참여할 수 없습니다. LAND 세일 추첨에 참여하려면 계정 인증이 필요합니다.",
                 "unverifiedMessage": "계정이 아직 인증되지 않았습니다. 인증에는 최대 48시간이 소요될 수 있습니다.",
                 "actionRequired": "Action Required: To continue your account verification please submit the required documentation. (Upload Document)"
             },
@@ -4238,7 +4238,7 @@
                     }
                 },
                 "requirements": {
-                    "join": "To join the LAND Sale Raffle make sure you meet the following requirements:",
+                    "join": "LAND 세일 추첨에 참여하려면 아래의 조건을 만족해야 합니다.",
                     "1": "더 샌드박스 계정 보유",
                     "2": "지갑에 충분한 SAND 보유",
                     "3": "추첨 시작 전까지 계정 인증 완료"
@@ -4251,11 +4251,11 @@
                         "2": "어떻게 더 많은 티켓을 획득할 수 있나요?",
                         "3": "LAND 세일 추첨에 참여하려면 비용을 지불해야 하나요?",
                         "4": "왜 내 계정을 인증해야 하나요?",
-                        "5": "I joined the LAND Sale Raffle but I still don’t have my account Verified, can I still win?",
-                        "6": "If I win the LAND Sale Raffle, do I need to choose which LAND I want to buy?",
-                        "7": "If I win the LAND Sale Raffle, can LANDs sell out before I get to buy one?",
-                        "8": "Where do I mint my LAND?",
-                        "9": "What happens if I win the raffle but I don’t buy the LAND in time?",
+                        "5": "LAND 세일 추첨에 참여했지만 아직 계정 인증을 완료하지 않았습니다. 그래도 추첨에 당첨될 수 있나요?",
+                        "6": "LAND 세일 추첨에 당첨되면 어떤 LAND를 구입할지 선택해야 하나요?",
+                        "7": "LAND 세일 추첨에 당첨되었는데, 내가 LAND를 구입하기 전에 모든 LAND가 매진될 수도 있나요?",
+                        "8": "어디서 내 LAND를 구입할 수 있나요?",
+                        "9": "추첨에 당첨되었지만 제한 시간 안에 LAND를 구입하지 않으면 어떻게 되나요?",
                         "10": "더 샌드박스에서 LAND를 획득할 수 있는 다른 방법이 있나요?",
                         "11": "내 계정을 인증하지 않아도 LAND 세일 추첨에 참여할 수 있나요?",
                         "12": "LAND 세일 추첨에 당첨되면 무엇을 해야 하나요?"
@@ -4264,29 +4264,29 @@
             },
             "buy": {
                 "title": "You are going to buy",
-                "subtitle": "Join the Open Metaverse and get access to exclusive LAND Owner features! With the purchase of this LAND you will be able to:",
-                "assetsIncluded": "Possible Assets Included",
+                "subtitle": "오픈 메타버스에서 LAND 보유자만이 누릴 수 있는 단독 혜택을 누려보세요! 이 LAND를 구입하면 다음의 혜택이 주어집니다.",
+                "assetsIncluded": "프리미엄 애셋 포함",
                 "points": {
                     "regular": {
-                        "1": "Publish and monetize your Experience",
+                        "1": "내 경험 게시 및 수익화",
                         "2": "LAND 임대 (2023년 예정)",
                         "3": "스페셜 리워드 획득",
-                        "4": "Exclusive LAND Owner staking pools"
+                        "4": "LAND 보유자 전용 스테이킹 풀"
                     },
                     "premium": {
                         "1": "모든 일반 LAND 기능 +",
                         "2": "카탈리스트와 젬 에어드롭",
-                        "3": "Get more SAND when you stake",
-                        "4": "Premium exposure: Attract more users into your experience",
-                        "5": "Early access to selected features",
-                        "6": "Exclusive NFT Bundle airdrop"
+                        "3": "스테이킹 시 더 많은 SAND 획득",
+                        "4": "프리미엄 혜택: 내 경험에 더 많은 유저 유치",
+                        "5": "일부 기능에 얼리 액세스",
+                        "6": "한정판 NFT 번들 에어드롭"
                     },
                     "premiumTooltips": {
                         "1": "Publish and monetize your Experience, Rent your LAND (2023), Earn special rewards, Exclusive LAND Owner staking options",
                         "5": "Some play to earn features will be first available on Premium LAND",
                         "6": "All users who purchase a Premium LAND will receive a Premium NFT airdrop after the LAND Sale ends"
                     },
-                    "premiumClub": "Premium LAND Owner Club"
+                    "premiumClub": "프리미엄 LAND 보유자 클럽"
                 },
                 "notes": {
                     "notice": "* You will buy 1 random {landType} LAND at the {partner} LAND Sale. Location will be revealed after the transaction is confirmed.",
@@ -7157,7 +7157,7 @@
             "oldTransactions": "지난 트랜잭션 내역 확인하기"
         },
         "walletTab": {
-            "mainnetL1Title": "이더리움",
+            "mainnetL1Title": "ETHEREUM NETWORK L1",
             "testnetL1Title": "Goerli",
             "eth": "ETH",
             "poly": "폴리곤",
