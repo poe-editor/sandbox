@@ -360,7 +360,8 @@
             "newSideBarEarn": "Earn",
             "newSideBarWorkbench": "Workbench",
             "newSideBarLanguage": "Language",
-            "newSideBarLandsale": "LAND Sale"
+            "newSideBarLandsale": "LAND Sale",
+            "newSideBarAvatar": "Avatar"
         },
         "footer": {
             "community": {
@@ -368,7 +369,8 @@
                 "description1": "Topluluğumuzun bir parçası ol",
                 "description2": "haberler için takipte kal.",
                 "buttonText": "Bize katıl",
-                "descriptionMobile": "Haberler için takipte kalın!"
+                "descriptionMobile": "Haberler için takipte kalın!",
+                "description": "Be part of our amazing community and stay tuned for any news."
             },
             "pages": {
                 "title": "Sayfalar",
@@ -392,7 +394,8 @@
             "copyright": "Telif ©",
             "rights": "Tüm haklar saklıdır",
             "followUs": "BİZİ TAKİP ET",
-            "subsidiary": "Bağlı kuruluşu"
+            "subsidiary": "Bağlı kuruluşu",
+            "fullCopyright": "Copyright © 2012-{year} The Sandbox. All Rights Reserved"
         },
         "createAvatarModal": {
             "title": "Kendi LAND NFT arsanı satın al",
@@ -476,13 +479,15 @@
         "nft": {
             "title": "NFTs",
             "description": "Non-Fungible Tokenler (NFTs) sanal tokenlerdir ve bir blockchain üzerinde dijital nadirlik, güvenlik ve orjinallik için mint edilir. NFT'ler eşsiz, bölünmez ve değiştirilemez bir yapıya sahiptir ve herkese oyun içi varlıklar üzerinden gerçek dijital sahiplik hakkı tanır.",
-            "buttonText": "Varlık satın al"
+            "buttonText": "Varlık satın al",
+            "newDescription": "Discover the power of true ownership with NFTs (Non-Fungible Tokens). Gear up, unlock exclusive rewards, and build immersive experiences."
         },
         "land": {
             "title": "KENDİ LAND'İNİ OLUŞTUR",
             "description": "Non-Fungible Tokenler (NFTs) sanal tokenlerdir ve bir blockchain üzerinde dijital nadirlik, güvenlik ve orjinallik için mint edilir. NFT'ler eşsiz, bölünmez ve değiştirilemez bir yapıya sahiptir ve herkese oyun içi varlıklar üzerinden gerçek dijital sahiplik hakkı tanır.",
             "buttonText": "Land satın al",
-            "discoverMap": "Haritayı keşfet"
+            "discoverMap": "Haritayı keşfet",
+            "browseMap": "Browse Map"
         },
         "sand": {
             "title": "Neden SAND?",
@@ -532,14 +537,22 @@
         },
         "nftSeason3": {
             "title": "NFT'LERİNİ AL",
-            "buttonText": "Pazaryerine git"
+            "buttonText": "Pazaryerine git",
+            "newTitle": "OWN THE FUTURE",
+            "newButtonText": "Visit Marketplace"
         },
         "landSeason3": {
             "title": "LAND SAHİBİ OL"
         },
         "sandSeason3": {
             "title": "NEDEN SAND?",
-            "buttonText": "Şimdi Al"
+            "buttonText": "Şimdi Al",
+            "newTitle": "GOT SAND?",
+            "description": {
+                "mainText": "{0} is The Sandbox utility token. Get {0} to buy LAND, ASSETS, or to invest in staking pools.",
+                "0": "SAND"
+            },
+            "newButtonText": "Buy SAND"
         },
         "experiencesSeason3": {
             "experiences": "Keşfet!",
@@ -554,7 +567,9 @@
             "title": "MINT YOUR CARE BEARS",
             "description": "Get your unique Care Bears avatar for The Sandbox on November 14 and enter the metaverse.",
             "btn1": "Learn more",
-            "btn2": "Create free avatar"
+            "btn2": "Create free avatar",
+            "btn1SecondLabel": "Buy Now",
+            "soldOutTag": "SOLD OUT"
         }
     },
     "season": {
@@ -2821,9 +2836,10 @@
             }
         },
         "menu": {
-            "gameMaker": "Game Maker",
+            "gameMaker": "Experiences",
             "voxedit": "VoxEdit",
-            "avatar": "Avatar"
+            "avatar": "Avatar",
+            "becomeAPartner": "Become a Partner"
         },
         "gamemaker": {
             "meta": {
@@ -2849,12 +2865,14 @@
             "header": {
                 "title": "Oyununuzu oluşturun. Kodlama gerekli değil",
                 "description": "Hayal gücünüzü hayata geçirmek için ihtiyacınız olan araç kutusu",
-                "buttonText": "İndir"
+                "buttonText": "İndir",
+                "newDescription": "Imagine the future and start building the Metaverse. Design and develop games and experiences for free, no coding required."
             },
             "metaverse": {
                 "title": "Metaverse için oyunlar inşa etmek",
                 "description": "Herkes ücretsiz olarak 3D oyunlar oluşturabilir. Kodlama gerekmez. Muhteşem yaratımlar ve deneyimlerle dolu geniş bir metaverse'e katkıda bulunun.",
-                "buttonText": "İndir"
+                "buttonText": "İndir",
+                "description1": "Contribute to a vast metaverse, filled with amazing creations and experiences."
             },
             "create": {
                 "1": {
@@ -2869,7 +2887,7 @@
                 },
                 "3": {
                     "title": "Kod Gerekmez",
-                    "description": "Öğrenmesi kolay. Davranışlar oluşturmak ve nitelikleri düzenlemek basit ve sezgiseldir",
+                    "description": "Öğrenmesi kolay. Davranışlar oluşturmak ve nitelikleri düzenlemek basit ve sezgiseldir.",
                     "image": "block 3.png"
                 }
             },
@@ -2890,7 +2908,7 @@
                     "title": "Minimum",
                     "text": {
                         "bits": "64 bit işlemci ve işletim sistemi gerektirir",
-                        "os": "OS: Windows 7",
+                        "os": "Operating system: Windows 7",
                         "cpu": "İşlemci: Dual Core 2GHz",
                         "ram": "Bellek: 4 GB RAM",
                         "gpu": "Grafik Kartı: 512 MB VRAM",
@@ -2902,7 +2920,7 @@
                     "title": "Sistem gereksinimleri",
                     "text": {
                         "bits": "64 bit işlemci ve işletim sistemi gerektirir",
-                        "os": "OS: Windows 10",
+                        "os": "Operating system: Windows 10",
                         "cpu": "İşlemci: Quad Core 3GHz",
                         "ram": "Bellek: 8 GB RAM",
                         "gpu": "Grafik Kartı: 2 GB VRAM",
@@ -3775,7 +3793,7 @@
             "buyLand": "LAND Satın Al",
             "buyEstate": "ARAZİ Satın Al",
             "bid": "Teklif",
-            "placeBid": "Teklif Ver",
+            "placeBid": "Make offer",
             "cancel": "İptal Et",
             "landNFT": "LAND NFT",
             "parcels": "parceller",
@@ -3798,7 +3816,7 @@
             "mumbai": "Mumbai",
             "buildExperience": "Build Game",
             "myLand": "MY LAND",
-            "onSale": "ON SALE",
+            "onSale": "FOR SALE",
             "whatCanIDo": {
                 "title": "WHAT CAN I DO WITH MY LAND?",
                 "option1": "Download Game Maker and start building!",
@@ -4405,7 +4423,7 @@
                 },
                 "marketplace": {
                     "title": "Pazaryeri",
-                    "description": "En iyi VARLIKLARI satmak ve toplamak için tek bir yer."
+                    "description": "One place to sell and collect the best assets."
                 },
                 "gameMaker": {
                     "title": "Game Maker",
@@ -4718,7 +4736,9 @@
             "badges": "Rozet",
             "account": "",
             "wallet": "",
-            "migrations": ""
+            "migrations": "",
+            "menu_settings": "",
+            "security": ""
         },
         "profile": {
             "sandAmount": "Senin",
@@ -6561,7 +6581,8 @@
             "description": "ORTAKLAR",
             "description2": "SEZON 3",
             "stayTuned": "Sezon 3'ün çıkış tarihi için bizi takip etmeye devam edin.",
-            "register": "3. Sezon için Kaydol"
+            "register": "3. Sezon için Kaydol",
+            "newTitle": "Visit the experiences of our"
         },
         "modules": {
             "zero": {
@@ -6577,7 +6598,8 @@
                 "title": "LAND SAHİBİ OL",
                 "paragraph1": "A LAND, The Sandbox metaverse'inin bir parçasıdır ve özel içeriğe erişim sağlamanın yanı sıra The Sandbox'ın Metaverse'inde kendi bölümünüzden para kazanma olanağı sağlar. Deneyimler oluşturun, etkinliklere ev sahipliği yapın, arkadaşlarınızı davet edin.",
                 "button": "LAND Satın Al",
-                "button2": "Haritayı Keşfedin"
+                "button2": "Haritayı Keşfedin",
+                "newParagraph": "Get a piece of LAND from The Sandbox metaverse to host your experience and events, access exclusive content and farming perks, and get premium defi staking and monetization options."
             },
             "third": {
                 "title": "NEDEN SAND?",
@@ -13538,7 +13560,10 @@
     },
     "earn": {
         "menu": {
-            "how": "How can I earn"
+            "how": "How can I earn",
+            "staking": "Staking",
+            "claim": "My Claims",
+            "referral": "Referrals"
         }
     },
     "communities": {
