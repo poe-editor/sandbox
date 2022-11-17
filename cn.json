@@ -360,7 +360,8 @@
             "newSideBarEarn": "Earn",
             "newSideBarWorkbench": "Workbench",
             "newSideBarLanguage": "Language",
-            "newSideBarLandsale": "LAND Sale"
+            "newSideBarLandsale": "LAND Sale",
+            "newSideBarAvatar": "Avatar"
         },
         "footer": {
             "community": {
@@ -368,7 +369,8 @@
                 "description1": "成为我们精彩社区的的一员，并",
                 "description2": "随时关注我们的最新消息。",
                 "buttonText": "加入我们",
-                "descriptionMobile": "Stay tuned for the news!"
+                "descriptionMobile": "Stay tuned for the news!",
+                "description": "Be part of our amazing community and stay tuned for any news."
             },
             "pages": {
                 "title": "页面",
@@ -392,7 +394,8 @@
             "copyright": "Copyright ©",
             "rights": "版权所有",
             "followUs": "Follow us",
-            "subsidiary": "Subsidiary of"
+            "subsidiary": "Subsidiary of",
+            "fullCopyright": "Copyright © 2012-{year} The Sandbox. All Rights Reserved"
         },
         "createAvatarModal": {
             "title": "获得属于你自己的LAND NFT",
@@ -476,13 +479,15 @@
         "nft": {
             "title": "非同质化代币",
             "description": "非同质化代币 (NFT) 是一种存储在区块链上的虚拟代币，具有数字稀缺性、安全性和真实性等特点。它们独一无二、不可分割，且无法互换，能让游戏内ASSET真正拥有数字所有权。",
-            "buttonText": "购买ASSET"
+            "buttonText": "购买ASSET",
+            "newDescription": "Discover the power of true ownership with NFTs (Non-Fungible Tokens). Gear up, unlock exclusive rewards, and build immersive experiences."
         },
         "land": {
             "title": "在你的LAND上创建",
             "description": "非同质化代币 (NFT) 是一种存储在区块链上的虚拟代币，具有数字稀缺性、安全性和真实性等特点。它们独一无二、不可分割，且无法互换，能让游戏内ASSET真正拥有数字所有权。",
             "buttonText": "购买LAND",
-            "discoverMap": "探索地图"
+            "discoverMap": "探索地图",
+            "browseMap": "Browse Map"
         },
         "sand": {
             "title": "为何使用SAND？",
@@ -532,14 +537,22 @@
         },
         "nftSeason3": {
             "title": "GET YOUR NFTs",
-            "buttonText": "Go to Marketplace"
+            "buttonText": "Go to Marketplace",
+            "newTitle": "OWN THE FUTURE",
+            "newButtonText": "Visit Marketplace"
         },
         "landSeason3": {
             "title": "BECOME A LAND OWNER"
         },
         "sandSeason3": {
             "title": "WHY SAND?",
-            "buttonText": "Buy now"
+            "buttonText": "Buy now",
+            "newTitle": "GOT SAND?",
+            "description": {
+                "mainText": "{0} is The Sandbox utility token. Get {0} to buy LAND, ASSETS, or to invest in staking pools.",
+                "0": "SAND"
+            },
+            "newButtonText": "Buy SAND"
         },
         "experiencesSeason3": {
             "experiences": "Experiences!",
@@ -554,7 +567,9 @@
             "title": "MINT YOUR CARE BEARS",
             "description": "Get your unique Care Bears avatar for The Sandbox on November 14 and enter the metaverse.",
             "btn1": "Learn more",
-            "btn2": "Create free avatar"
+            "btn2": "Create free avatar",
+            "btn1SecondLabel": "Buy Now",
+            "soldOutTag": "SOLD OUT"
         }
     },
     "season": {
@@ -2821,9 +2836,10 @@
             }
         },
         "menu": {
-            "gameMaker": "Game Maker",
+            "gameMaker": "Experiences",
             "voxedit": "VoxEdit",
-            "avatar": "人物造型"
+            "avatar": "人物造型",
+            "becomeAPartner": "Become a Partner"
         },
         "gamemaker": {
             "meta": {
@@ -2849,12 +2865,14 @@
             "header": {
                 "title": "打造你的游戏。无需编程",
                 "description": "实现你想象力的工具箱",
-                "buttonText": "下载"
+                "buttonText": "下载",
+                "newDescription": "Imagine the future and start building the Metaverse. Design and develop games and experiences for free, no coding required."
             },
             "metaverse": {
                 "title": "打造元宇宙游戏",
                 "description": "所有人均可免费打造3D游戏。无需编程。为广袤的元宇宙做出贡献，创作令人惊叹的作品和体验。",
-                "buttonText": "下载"
+                "buttonText": "下载",
+                "description1": "Contribute to a vast metaverse, filled with amazing creations and experiences."
             },
             "create": {
                 "1": {
@@ -2890,7 +2908,7 @@
                     "title": "最小",
                     "text": {
                         "bits": "需要64位处理器和操作系统",
-                        "os": "操作系统：Windows 7",
+                        "os": "Operating system: Windows 7",
                         "cpu": "处理器：Dual Core 2GHz",
                         "ram": "内存：4 GB RAM",
                         "gpu": "显卡：512MB VRAM",
@@ -3149,12 +3167,12 @@
                     "avatar": "人物造型",
                     "edit": "编辑",
                     "logout": "登出",
-                    "settings": "",
+                    "settings": "Settings",
                     "badges": "Badges",
                     "account": "Account",
                     "wallet": "Wallet",
                     "migrations": "Migrations",
-                    "claim": ""
+                    "claim": "Claims"
                 },
                 "profile": {
                     "sandAmount": "あなたのSAND",
@@ -3775,7 +3793,7 @@
             "buyLand": "购买LAND",
             "buyEstate": "购买ESTATE",
             "bid": "出价",
-            "placeBid": "竞标",
+            "placeBid": "Make offer",
             "cancel": "取消",
             "landNFT": "LAND NFT",
             "parcels": "包裹",
@@ -3798,7 +3816,7 @@
             "mumbai": "Mumbai",
             "buildExperience": "Build Game",
             "myLand": "MY LAND",
-            "onSale": "ON SALE",
+            "onSale": "FOR SALE",
             "whatCanIDo": {
                 "title": "WHAT CAN I DO WITH MY LAND?",
                 "option1": "Download Game Maker and start building!",
@@ -4405,7 +4423,7 @@
                 },
                 "marketplace": {
                     "title": "市场",
-                    "description": "一个出售和收集最佳ASSET的地方。"
+                    "description": "One place to sell and collect the best assets."
                 },
                 "gameMaker": {
                     "title": "Game Maker",
@@ -4718,7 +4736,9 @@
             "badges": "Badges",
             "account": "",
             "wallet": "",
-            "migrations": ""
+            "migrations": "",
+            "menu_settings": "",
+            "security": ""
         },
         "profile": {
             "sandAmount": "你的",
@@ -6561,7 +6581,8 @@
             "description": "PARTNERS",
             "description2": "SEASON 3",
             "stayTuned": "Stay tuned for the Season 3 date announcement.",
-            "register": "Register for Season 3"
+            "register": "Register for Season 3",
+            "newTitle": "Visit the experiences of our"
         },
         "modules": {
             "zero": {
@@ -6577,7 +6598,8 @@
                 "title": "成为LAND所有者",
                 "paragraph1": "LAND是《The Sandbox》元宇宙的组成元素，能为玩家提供专属内容，并让玩家能用《The Sandbox》元宇宙中自己的创作内容赚取收益。打造体验、举办活动、邀请好友。",
                 "button": "购买LAND",
-                "button2": "探索地图"
+                "button2": "探索地图",
+                "newParagraph": "Get a piece of LAND from The Sandbox metaverse to host your experience and events, access exclusive content and farming perks, and get premium defi staking and monetization options."
             },
             "third": {
                 "title": "为何使用SAND？",
@@ -13538,7 +13560,10 @@
     },
     "earn": {
         "menu": {
-            "how": "How can I earn"
+            "how": "How can I earn",
+            "staking": "Staking",
+            "claim": "My Claims",
+            "referral": "Referrals"
         }
     },
     "communities": {
