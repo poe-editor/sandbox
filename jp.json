@@ -360,7 +360,8 @@
             "newSideBarEarn": "獲得",
             "newSideBarWorkbench": "ワークベンチ",
             "newSideBarLanguage": "言語",
-            "newSideBarLandsale": "LAND セール"
+            "newSideBarLandsale": "LAND セール",
+            "newSideBarAvatar": "Avatar"
         },
         "footer": {
             "community": {
@@ -368,7 +369,8 @@
                 "description1": "楽しいコミュニティに参加して",
                 "description2": "最新情報をGETしよう",
                 "buttonText": "参加する",
-                "descriptionMobile": "Stay tuned for the news!"
+                "descriptionMobile": "Stay tuned for the news!",
+                "description": "Be part of our amazing community and stay tuned for any news."
             },
             "pages": {
                 "title": "ページ",
@@ -392,7 +394,8 @@
             "copyright": "Copyright ©",
             "rights": "無断複写・転載を禁じます",
             "followUs": "Follow us",
-            "subsidiary": "Subsidiary of"
+            "subsidiary": "Subsidiary of",
+            "fullCopyright": "Copyright © 2012-{year} The Sandbox. All Rights Reserved"
         },
         "createAvatarModal": {
             "title": "LANDのNFTをゲットしよう",
@@ -476,13 +479,15 @@
         "nft": {
             "title": "NFT",
             "description": "NFTとは、ブロックチェーン上で発行される安全性と信頼性が高いトークンです。The Sandboxメタバースで使うNFTを自分で作ったり、ショップで売買してみませんか？",
-            "buttonText": "アセットを買う"
+            "buttonText": "アセットを買う",
+            "newDescription": "Discover the power of true ownership with NFTs (Non-Fungible Tokens). Gear up, unlock exclusive rewards, and build immersive experiences."
         },
         "land": {
             "title": "自分のLANDで作成する",
             "description": "NFTとは、ブロックチェーン上で発行される安全性と信頼性が高いトークンです。The Sandboxメタバースで使うNFTを自分で作ったり、ショップで売買してみませんか？",
             "buttonText": "LANDを買う",
-            "discoverMap": "マップへ行く"
+            "discoverMap": "マップへ行く",
+            "browseMap": "Browse Map"
         },
         "sand": {
             "title": "SANDを使う理由",
@@ -532,14 +537,22 @@
         },
         "nftSeason3": {
             "title": "NFTをゲットしよう",
-            "buttonText": "ショップへ行く"
+            "buttonText": "ショップへ行く",
+            "newTitle": "OWN THE FUTURE",
+            "newButtonText": "Visit Marketplace"
         },
         "landSeason3": {
             "title": "LAND保有者になろう"
         },
         "sandSeason3": {
             "title": "SANDとは?",
-            "buttonText": "購入する"
+            "buttonText": "購入する",
+            "newTitle": "GOT SAND?",
+            "description": {
+                "mainText": "{0} is The Sandbox utility token. Get {0} to buy LAND, ASSETS, or to invest in staking pools.",
+                "0": "SAND"
+            },
+            "newButtonText": "Buy SAND"
         },
         "experiencesSeason3": {
             "experiences": "体験！",
@@ -554,7 +567,9 @@
             "title": "ケアベアをミント化",
             "description": "11月14日にThe Sandbox のユニークなケアベア アバターをGETしてメタバースへ",
             "btn1": "詳細",
-            "btn2": "無料アバターを作成"
+            "btn2": "無料アバターを作成",
+            "btn1SecondLabel": "Buy Now",
+            "soldOutTag": "SOLD OUT"
         }
     },
     "season": {
@@ -2269,7 +2284,7 @@
     },
     "assets": {
         "meta": {
-            "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエーターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
+            "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエイターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
             "keywords": "サンドボックス, nft, マーケットプレイス, アセット, クリエイター, コレクション, atari, スマーフ, binance, ウォーキングデッド, LAND, エンティティ",
             "twitter": {
                 "site": "@thesandboxgame",
@@ -2363,18 +2378,18 @@
     "shop": {
         "meta": {
             "title": "The Sandboxショップ - ブロックチェーンNFTマーケットプレイス",
-            "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエーターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
+            "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエイターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
             "keywords": "サンドボックス, nft, マーケットプレイス, アセット, クリエイター, コレクション, atari, スマーフ, binance, ウォーキングデッド, LAND, エンティティ",
             "og": {
                 "title": "The Sandbox | The Sandboxショップ - ブロックチェーンNFTマーケットプレイス",
-                "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエーターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
+                "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエイターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
                 "url": "https://sandbox.game/shop/",
                 "site_name": "The Sandbox",
                 "image": "https://www.sandbox.game/images/logo.png"
             },
             "twitter": {
                 "title": "The Sandboxショップ - ブロックチェーンNFTマーケットプレイス",
-                "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエーターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
+                "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエイターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
                 "card": "The Sandboxショップ - ブロックチェーンNFTマーケットプレイス",
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame",
@@ -2720,18 +2735,18 @@
         "notMinted": "未発行",
         "allCollectionsMeta": {
             "title": "The Sandbox ショップ - コレクション",
-            "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエーターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
-            "keywords": "sandbox、nft、アバター、マーケットプレイス、アセット、クリエーター、コレクション、アタリ、スマーフ、binance、the walking dead, ランド、entity",
+            "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエイターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
+            "keywords": "sandbox、nft、アバター、マーケットプレイス、アセット、クリエイター、コレクション、アタリ、スマーフ、binance、the walking dead, ランド、entity",
             "og": {
                 "title": "The Sandbox | The Sandbox ショップ - コレクション",
-                "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエーターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
+                "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエイターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
                 "url": "https://sandbox.game/collections/",
                 "site_name": "The Sandbox",
                 "image": "https://www.sandbox.game/images/logo.png"
             },
             "twitter": {
                 "title": "The Sandbox ショップ - ブロックチェーン NFT マーケットプレイス",
-                "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエーターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
+                "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエイターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
                 "card": "The Sandbox ショップ - ブロックチェーン NFT マーケットプレイス",
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame",
@@ -2741,7 +2756,7 @@
         "specificCollectionsMeta": {
             "title": "The Sandbox ショップ - {name}",
             "description": "The Sandbox ブロックチェーンのNFT マーケットプレイスで {name} のアセットを購入",
-            "keywords": "sandbox、nft、アバター、マーケットプレイス、アセット、クリエーター、コレクション、アタリ、スマーフ、binance、the walking dead, ランド、entity、 {name}",
+            "keywords": "sandbox、nft、アバター、マーケットプレイス、アセット、クリエイター、コレクション、アタリ、スマーフ、binance、the walking dead, ランド、entity、 {name}",
             "og": {
                 "title": "The Sandbox ショップ - {name}",
                 "description": "The Sandbox ブロックチェーンのNFT マーケットプレイスで {name} のアセットを購入",
@@ -2760,18 +2775,18 @@
         },
         "avatarsMeta": {
             "title": "The Sandbox ショップ - アバターコレクション",
-            "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエーターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
-            "keywords": "sandbox、nft、アバター、マーケットプレイス、アセット、クリエーター、コレクション、アタリ、スマーフ、binance、the walking dead, ランド、entity",
+            "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエイターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
+            "keywords": "sandbox、nft、アバター、マーケットプレイス、アセット、クリエイター、コレクション、アタリ、スマーフ、binance、the walking dead, ランド、entity",
             "og": {
                 "title": "The Sandbox | The Sandbox ショップ - アバターコレクション",
-                "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエーターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
+                "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエイターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
                 "url": "https://sandbox.game/avatars/",
                 "site_name": "The Sandbox",
                 "image": "https://www.sandbox.game/images/logo.png"
             },
             "twitter": {
                 "title": "The Sandbox ショップ - ブロックチェーン NFT マーケットプレイス",
-                "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエーターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
+                "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエイターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
                 "card": "The Sandbox ショップ - ブロックチェーン NFT マーケットプレイス",
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame",
@@ -2781,7 +2796,7 @@
         "avatarColMeta": {
             "title": "The Sandbox ショップ - {name} アバターコレクション ",
             "description": "The Sandbox のブロックチェーン NFT マーケットプレイスで{name} のアバターを購入",
-            "keywords": "sandbox、nft、アバター、マーケットプレイス、アセット、クリエーター、コレクション、アタリ、スマーフ、binance、the walking dead, ランド、entity、 {collectionName}",
+            "keywords": "sandbox、nft、アバター、マーケットプレイス、アセット、クリエイター、コレクション、アタリ、スマーフ、binance、the walking dead, ランド、entity、 {collectionName}",
             "og": {
                 "title": "The Sandbox ショップ - {name}",
                 "description": "The Sandbox のブロックチェーン NFT マーケットプレイスで{name} のアバターを購入",
@@ -2821,9 +2836,10 @@
             }
         },
         "menu": {
-            "gameMaker": "Game Maker",
+            "gameMaker": "Experiences",
             "voxedit": "VoxEdit",
-            "avatar": "アバター"
+            "avatar": "アバター",
+            "becomeAPartner": "Become a Partner"
         },
         "gamemaker": {
             "meta": {
@@ -2849,12 +2865,14 @@
             "header": {
                 "title": "プログラミング不要のゲーム制作ツール",
                 "description": "あなたの想像力を現実のものにするために必要なツールボックス",
-                "buttonText": "ダウンロード"
+                "buttonText": "ダウンロード",
+                "newDescription": "Imagine the future and start building the Metaverse. Design and develop games and experiences for free, no coding required."
             },
             "metaverse": {
                 "title": "メタバースにゲームを構築しよう",
                 "description": "誰でも無料で3Dゲームが構築可能。広大なメタバースのコンテンツ制作に貢献しませんか？",
-                "buttonText": "ダウンロード"
+                "buttonText": "ダウンロード",
+                "description1": "Contribute to a vast metaverse, filled with amazing creations and experiences."
             },
             "create": {
                 "1": {
@@ -2890,7 +2908,7 @@
                     "title": "最低スペック",
                     "text": {
                         "bits": "64ビットプロセッサーとオペレーティングシステム",
-                        "os": "OS：Windows 7",
+                        "os": "Operating system: Windows 7",
                         "cpu": "プロセッサー：デュアルコア 2GHz",
                         "ram": "メモリ：4GB RAM",
                         "gpu": "グラフィックス：512MB VRAM",
@@ -2902,7 +2920,7 @@
                     "title": "推奨構成",
                     "text": {
                         "bits": "64ビットプロセッサーとオペレーティングシステム",
-                        "os": "OS：Windows 10",
+                        "os": "Operating system: Windows 10",
                         "cpu": "プロセッサー：クアッドコア 3GHz",
                         "ram": "メモリ：8 GB RAM",
                         "gpu": "グラフィックス：2GB VRAM",
@@ -3154,7 +3172,7 @@
                     "account": "アカウント",
                     "wallet": "ウォレット",
                     "migrations": "移行",
-                    "claim": ""
+                    "claim": "Claims"
                 },
                 "profile": {
                     "sandAmount": "自分のSAND",
@@ -3775,7 +3793,7 @@
             "buyLand": "LANDを購入",
             "buyEstate": "Estateを購入",
             "bid": "入札",
-            "placeBid": "¨応札する",
+            "placeBid": "Make offer",
             "cancel": "キャンセル",
             "landNFT": "LAND NFT",
             "parcels": "区画",
@@ -3798,7 +3816,7 @@
             "mumbai": "ムンバイ",
             "buildExperience": "ビルドゲーム",
             "myLand": "マイランド",
-            "onSale": "販売中",
+            "onSale": "FOR SALE",
             "whatCanIDo": {
                 "title": "LANDで何をすることができますか？",
                 "option1": "Game Makerをダウンロードしてデザイン開始！",
@@ -4405,7 +4423,7 @@
                 },
                 "marketplace": {
                     "title": "マーケットプレイス",
-                    "description": "最高のアセットを販売、入手をひとつの場所で。"
+                    "description": "One place to sell and collect the best assets."
                 },
                 "gameMaker": {
                     "title": "Game Maker",
@@ -4718,7 +4736,9 @@
             "badges": "バッジ",
             "account": "",
             "wallet": "",
-            "migrations": ""
+            "migrations": "",
+            "menu_settings": "",
+            "security": ""
         },
         "profile": {
             "sandAmount": "自分の",
@@ -6561,7 +6581,8 @@
             "description": "PARTNERS",
             "description2": "シーズン3",
             "stayTuned": "シーズン3の日程発表までお待ちください。",
-            "register": "シーズン3に登録する"
+            "register": "シーズン3に登録する",
+            "newTitle": "Visit the experiences of our"
         },
         "modules": {
             "zero": {
@@ -6577,7 +6598,8 @@
                 "title": "LAND所有者になろう",
                 "paragraph1": "LANDとはThe Sandbox メタバース上の土地を指します。LAND上にコンテンツや体験を構築して友達を招待しよう。",
                 "button": "LANDを購入",
-                "button2": "マップの確認"
+                "button2": "マップの確認",
+                "newParagraph": "Get a piece of LAND from The Sandbox metaverse to host your experience and events, access exclusive content and farming perks, and get premium defi staking and monetization options."
             },
             "third": {
                 "title": "SANDを使う理由",
@@ -8349,7 +8371,7 @@
         "meta": {
             "title": "The Sandbox -",
             "defaultTitle": "プレビュー",
-            "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエーターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
+            "description": "The Sandbox のマーケットプレイスは自身のLANDで使用可能なクリエイターのアセットを検索し、SANDで購入することができるNFTのマーケットプレイスとなっています。",
             "keywords": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game, SAND, token",
             "og": {
                 "url": "https://www.sandbox.game/model-viewer/"
@@ -12386,7 +12408,7 @@
                     "art": "Art",
                     "prop": "Prop"
                 },
-                "automaticTransfership": "このワークスペースはアセットの所有権をワークスペースのクリエーターへと自動で移行します。",
+                "automaticTransfership": "このワークスペースはアセットの所有権をワークスペースのクリエイターへと自動で移行します。",
                 "meta": "読み込み中"
             },
             "previewInModal": {
@@ -13539,7 +13561,10 @@
     },
     "earn": {
         "menu": {
-            "how": "どうやって獲得しますか？"
+            "how": "どうやって獲得しますか？",
+            "staking": "Staking",
+            "claim": "My Claims",
+            "referral": "Referrals"
         }
     },
     "communities": {
