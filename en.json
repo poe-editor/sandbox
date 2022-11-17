@@ -360,7 +360,8 @@
             "newSideBarEarn": "Earn",
             "newSideBarWorkbench": "Workbench",
             "newSideBarLanguage": "Language",
-            "newSideBarLandsale": "LAND Sale"
+            "newSideBarLandsale": "LAND Sale",
+            "newSideBarAvatar": "Avatar"
         },
         "footer": {
             "community": {
@@ -368,7 +369,8 @@
                 "description1": "Be part of our amazing community and stay",
                 "description2": "tuned for any news.",
                 "buttonText": "Join Us",
-                "descriptionMobile": "Stay tuned for the news!"
+                "descriptionMobile": "Stay tuned for the news!",
+                "description": "Be part of our amazing community and stay tuned for any news."
             },
             "pages": {
                 "title": "Pages",
@@ -392,7 +394,8 @@
             "copyright": "Copyright ©",
             "rights": "All Rights Reserved",
             "followUs": "Follow us",
-            "subsidiary": "Subsidiary of"
+            "subsidiary": "Subsidiary of",
+            "fullCopyright": "Copyright © 2012-{year} The Sandbox. All Rights Reserved"
         },
         "createAvatarModal": {
             "title": "Get your very own LAND NFT",
@@ -476,13 +479,15 @@
         "nft": {
             "title": "NFTs",
             "description": "Non-Fungible Tokens (NFTs) are virtual tokens minted on the blockchain for digital scarcity, security, and authenticity. They are unique, indivisible, and non-interchangeable — allowing true digital ownership of in-game assets.",
-            "buttonText": "Buy Assets"
+            "buttonText": "Buy Assets",
+            "newDescription": "Discover the power of true ownership with NFTs (Non-Fungible Tokens). Gear up, unlock exclusive rewards, and build immersive experiences."
         },
         "land": {
             "title": "CREATE ON YOUR OWN LAND",
             "description": "Non-Fungible Tokens (NFTs) are virtual tokens minted on the blockchain for digital scarcity, security, and authenticity. They are unique, indivisible, and non-interchangeable — allowing true digital ownership of in-game assets.",
             "buttonText": "Buy Land",
-            "discoverMap": "Discover The Map"
+            "discoverMap": "Discover The Map",
+            "browseMap": "Browse Map"
         },
         "sand": {
             "title": "Why SAND?",
@@ -532,14 +537,22 @@
         },
         "nftSeason3": {
             "title": "GET YOUR NFTs",
-            "buttonText": "Go to Marketplace"
+            "buttonText": "Go to Marketplace",
+            "newTitle": "OWN THE FUTURE",
+            "newButtonText": "Visit Marketplace"
         },
         "landSeason3": {
             "title": "BECOME A LAND OWNER"
         },
         "sandSeason3": {
             "title": "WHY SAND?",
-            "buttonText": "Buy now"
+            "buttonText": "Buy now",
+            "newTitle": "GOT SAND?",
+            "description": {
+                "mainText": "{0} is The Sandbox utility token. Get {0} to buy LAND, ASSETS, or to invest in staking pools.",
+                "0": "SAND"
+            },
+            "newButtonText": "Buy SAND"
         },
         "experiencesSeason3": {
             "experiences": "Experiences!",
@@ -554,7 +567,9 @@
             "title": "MINT YOUR CARE BEARS",
             "description": "Get your unique Care Bears avatar for The Sandbox on November 14 and enter the metaverse.",
             "btn1": "Learn more",
-            "btn2": "Create free avatar"
+            "btn2": "Create free avatar",
+            "btn1SecondLabel": "Buy Now",
+            "soldOutTag": "SOLD OUT"
         }
     },
     "season": {
@@ -2821,9 +2836,10 @@
             }
         },
         "menu": {
-            "gameMaker": "Game Maker",
+            "gameMaker": "Experiences",
             "voxedit": "VoxEdit",
-            "avatar": "Avatar"
+            "avatar": "Avatar",
+            "becomeAPartner": "Become a Partner"
         },
         "gamemaker": {
             "meta": {
@@ -2849,12 +2865,14 @@
             "header": {
                 "title": "Craft your game. Coding not required",
                 "description": "The toolbox you need for your imagination to come to life",
-                "buttonText": "Download"
+                "buttonText": "Download",
+                "newDescription": "Imagine the future and start building the Metaverse. Design and develop games and experiences for free, no coding required."
             },
             "metaverse": {
                 "title": "Building games for the Metaverse",
                 "description": "Anyone can build 3D games for free. No coding required. Contribute to a vast metaverse, filled with amazing creations and experiences.",
-                "buttonText": "Download"
+                "buttonText": "Download",
+                "description1": "Contribute to a vast metaverse, filled with amazing creations and experiences."
             },
             "create": {
                 "1": {
@@ -2864,12 +2882,12 @@
                 },
                 "2": {
                     "title": "Build And Share",
-                    "description": "It's just as fun to build your game as it is to play. Share your creations in the gallery with your friends and make something they will remember forever.",
+                    "description": "It’s just as fun to build your game as it is to play. Share in the gallery to your friends and make something they will remember.",
                     "image": "block 2.png"
                 },
                 "3": {
                     "title": "No Code Required",
-                    "description": "Easy to learn. It is simple and intuitive to create behaviors and edit attributes",
+                    "description": "Easy to learn. It is simple and intuitive to create behaviors and edit attributes.",
                     "image": "block 3.png"
                 }
             },
@@ -2890,7 +2908,7 @@
                     "title": "Minimum",
                     "text": {
                         "bits": "Requires a 64-bit processor and operating system",
-                        "os": "OS: Windows 7",
+                        "os": "Operating system: Windows 7",
                         "cpu": "Processor: Dual Core 2GHz",
                         "ram": "Memory: 4 GB RAM",
                         "gpu": "Graphics: 512 MB VRAM",
@@ -2902,7 +2920,7 @@
                     "title": "Recommended",
                     "text": {
                         "bits": "Requires a 64-bit processor and operating system",
-                        "os": "OS: Windows 10",
+                        "os": "Operating system: Windows 10",
                         "cpu": "Processor: Quad Core 3GHz",
                         "ram": "Memory: 8 GB RAM",
                         "gpu": "Graphics: 2 GB VRAM",
@@ -3775,7 +3793,7 @@
             "buyLand": "Buy LAND",
             "buyEstate": "Buy ESTATE",
             "bid": "Bid",
-            "placeBid": "Place Bid",
+            "placeBid": "Make offer",
             "cancel": "Cancel",
             "landNFT": "LAND NFT",
             "parcels": "LANDs",
@@ -3798,7 +3816,7 @@
             "mumbai": "Mumbai",
             "buildExperience": "Build Game",
             "myLand": "MY LAND",
-            "onSale": "ON SALE",
+            "onSale": "FOR SALE",
             "whatCanIDo": {
                 "title": "WHAT CAN I DO WITH MY LAND?",
                 "option1": "Download Game Maker and start building!",
@@ -4405,7 +4423,7 @@
                 },
                 "marketplace": {
                     "title": "Marketplace",
-                    "description": "One place to sell and collect the best ASSETS."
+                    "description": "One place to sell and collect the best assets."
                 },
                 "gameMaker": {
                     "title": "Game Maker",
@@ -4718,7 +4736,9 @@
             "badges": "Badges",
             "account": "Account",
             "wallet": "Wallet",
-            "migrations": "Migrations"
+            "migrations": "Migrations",
+            "menu_settings": "General Settings",
+            "security": "Security"
         },
         "profile": {
             "sandAmount": "Your",
@@ -6561,7 +6581,8 @@
             "description": "PARTNERS",
             "description2": "SEASON 3",
             "stayTuned": "Stay tuned for the Season 3 date announcement.",
-            "register": "Register for Season 3"
+            "register": "Register for Season 3",
+            "newTitle": "Visit the experiences of our"
         },
         "modules": {
             "zero": {
@@ -6577,7 +6598,8 @@
                 "title": "BECOME A LAND OWNER",
                 "paragraph1": "A LAND is a piece of The Sandbox metaverse, providing access to exclusive content as well as granting the possibility to monetize your own part of The Sandbox’s Metaverse. Build experiences, host events, invite friends.",
                 "button": "Buy LAND",
-                "button2": "Discover the Map"
+                "button2": "Discover the Map",
+                "newParagraph": "Get a piece of LAND from The Sandbox metaverse to host your experience and events, access exclusive content and farming perks, and get premium defi staking and monetization options."
             },
             "third": {
                 "title": "WHY SAND?",
@@ -13538,7 +13560,10 @@
     },
     "earn": {
         "menu": {
-            "how": "How can I earn"
+            "how": "How can I earn",
+            "staking": "Staking",
+            "claim": "My Claims",
+            "referral": "Referrals"
         }
     },
     "communities": {
