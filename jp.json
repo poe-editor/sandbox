@@ -480,14 +480,14 @@
             "title": "NFT",
             "description": "NFTとは、ブロックチェーン上で発行される安全性と信頼性が高いトークンです。The Sandboxメタバースで使うNFTを自分で作ったり、ショップで売買してみませんか？",
             "buttonText": "アセットを買う",
-            "newDescription": "Discover the power of true ownership with NFTs (Non-Fungible Tokens). Gear up, unlock exclusive rewards, and build immersive experiences."
+            "newDescription": "NFT(非代替性トークン)でデジタル資産における所有権の力を発見しましょう。限定の報酬をアンロックし、没入感のある体験を創造しましょう。"
         },
         "land": {
             "title": "自分のLANDで作成する",
             "description": "NFTとは、ブロックチェーン上で発行される安全性と信頼性が高いトークンです。The Sandboxメタバースで使うNFTを自分で作ったり、ショップで売買してみませんか？",
             "buttonText": "LANDを買う",
             "discoverMap": "マップへ行く",
-            "browseMap": "Browse Map"
+            "browseMap": "マップを見る"
         },
         "sand": {
             "title": "SANDを使う理由",
@@ -538,8 +538,8 @@
         "nftSeason3": {
             "title": "NFTをゲットしよう",
             "buttonText": "ショップへ行く",
-            "newTitle": "OWN THE FUTURE",
-            "newButtonText": "Visit Marketplace"
+            "newTitle": "未来を所有する",
+            "newButtonText": "ショップを見る"
         },
         "landSeason3": {
             "title": "LAND保有者になろう"
@@ -547,12 +547,12 @@
         "sandSeason3": {
             "title": "SANDとは?",
             "buttonText": "購入する",
-            "newTitle": "GOT SAND?",
+            "newTitle": "SANDはお持ちですか？",
             "description": {
-                "mainText": "{0} is The Sandbox utility token. Get {0} to buy LAND, ASSETS, or to invest in staking pools.",
+                "mainText": "{0} はThe Sandboxのユーティリティートークンです。 LAND、アセット、ステーキングプールへの投資のため{0}を手に入れましょう。 ",
                 "0": "SAND"
             },
-            "newButtonText": "Buy SAND"
+            "newButtonText": "SANDを購入"
         },
         "experiencesSeason3": {
             "experiences": "体験！",
@@ -564,7 +564,7 @@
             "explore": "アバターコレクションを見る"
         },
         "carebearsAvatarBanner": {
-            "title": "ケアベアをミント化",
+            "title": "自分のケアベアをミントしよう",
             "description": "11月14日にThe Sandbox のユニークなケアベア アバターをGETしてメタバースへ",
             "btn1": "詳細",
             "btn2": "無料アバターを作成",
@@ -6172,7 +6172,8 @@
             "discoverPolygon": "POLYGONの特典について",
             "noActivePool": "ステーキングすればさらに多くのSANDを獲得できます。",
             "bridgeNotAvailable": "現在お使いのウォレットはPolygonブリッジには対応していません。Metamaskをご利用ください。Metamaskウォレットをお持ちでない場合、次でSANDを獲得することはできます：",
-            "learn": "詳細を見る"
+            "learn": "詳細を見る",
+            "canEarnMoreSand": ""
         },
         "avatars": {
             "title": "アバター",
@@ -6229,7 +6230,19 @@
             "reach": "Reach"
         },
         "linkAWallet": "ウォレットをリンクする",
-        "linkWallet": "ウォレットをリンクする",
+        "linkWallet": {
+            "title": "",
+            "explanation": "",
+            "benefits": {
+                "title": "",
+                "benefit1": "",
+                "benefit2": "",
+                "benefit3": "",
+                "benefit4": ""
+            },
+            "referral": "",
+            "connectWallet": ""
+        },
         "linkWalletText": "ウォレットをリンクすると、残高の確認およびすべての機能をアンロックできます",
         "myWallet": "マイウォレット",
         "copied": "コピーしました！",
@@ -6579,7 +6592,7 @@
         "partners": {
             "title": "パートナー",
             "title2": "近日公開",
-            "description": "PARTNERS",
+            "description": "パートナー",
             "description2": "シーズン3",
             "stayTuned": "シーズン3の日程発表までお待ちください。",
             "register": "シーズン3に登録する",
@@ -6600,7 +6613,7 @@
                 "paragraph1": "LANDとはThe Sandbox メタバース上の土地を指します。LAND上にコンテンツや体験を構築して友達を招待しよう。",
                 "button": "LANDを購入",
                 "button2": "マップの確認",
-                "newParagraph": "Get a piece of LAND from The Sandbox metaverse to host your experience and events, access exclusive content and farming perks, and get premium defi staking and monetization options."
+                "newParagraph": "LANDを保有して、あなたの体験、イベントをThe Sandboxのメタバースで開催しましょう。さらに限定コンテンツへのアクセス権、Defiのステーキング、収益化の選択もあります。"
             },
             "third": {
                 "title": "SANDを使う理由",
