@@ -6172,7 +6172,8 @@
             "discoverPolygon": "Discover Polygon benefits",
             "noActivePool": "You can earn more SAND by staking.",
             "bridgeNotAvailable": "Your wallet is not yet supported by the Polygon Bridge for now. Please use Metamask. If you don’t have a Metamask wallet, you can still acquire SAND on ",
-            "learn": "Learn how"
+            "learn": "Learn how",
+            "canEarnMoreSand": "You can earn more SAND by staking"
         },
         "avatars": {
             "title": "AVATARS",
@@ -6229,7 +6230,19 @@
             "reach": "Reach"
         },
         "linkAWallet": "Link a Wallet",
-        "linkWallet": "Link Wallet",
+        "linkWallet": {
+            "title": "Connect your Wallet",
+            "explanation": "See your balance and unlock all features",
+            "benefits": {
+                "title": "Connect your wallet to unlock the full The Sandbox Metaverse experience",
+                "benefit1": "Earn more SAND by Staking",
+                "benefit2": "Play with External Avatars",
+                "benefit3": "Buy and sell NFTs in the Marketplace",
+                "benefit4": "Claim rewards"
+            },
+            "referral": "You need to {connectWallet} to refer a friend and receive the earnings",
+            "connectWallet": "connect a Wallet"
+        },
         "linkWalletText": "Link your wallet to see your balance and unlock all features",
         "myWallet": "My Wallet",
         "copied": "Copied!",
