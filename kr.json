@@ -1757,7 +1757,7 @@
                 "stakingDesc": "스테이킹",
                 "ticketsDescription3": "추첨 티켓을 획득하여 당첨의 기회를 높이세요."
             },
-            "alphaSeason": "Special Events",
+            "alphaSeason": "스페셜 이벤트",
             "shop": {
                 "nftShop": "NFT 마켓",
                 "findAll": "확정 리워드 잠금을 해제하는데 필요한 모든 NFT (LAND, 아바타, 시즌 3 NFT 컬렉션)를 찾아보세요.",
@@ -1977,7 +1977,7 @@
                     "description": "알파 시즌 3 동안 커뮤니티 멤버들이 스테이킹하는 SAND의 총량에 따라 모든 시즌 3 알파 패스의 SAND 리워드가 증가합니다.",
                     "communityStakes": "커뮤니티 스테이킹",
                     "booster": "{0} 부스터",
-                    "earn": "획득 가능한"
+                    "earn": "획득"
                 },
                 "9": {
                     "title": "앰버서더",
@@ -6172,7 +6172,8 @@
             "discoverPolygon": "폴리곤 혜택 확인하기",
             "noActivePool": "스테이킹으로 SAND를 획득하세요",
             "bridgeNotAvailable": "폴리곤 브릿지가 현재 지갑을 지원하지 않습니다. Metamask를 사용하시기 바랍니다. Metamask 지갑이 없어도 SAND는 획득할 수 있습니다.",
-            "learn": "방법 확인하기"
+            "learn": "방법 확인하기",
+            "canEarnMoreSand": ""
         },
         "avatars": {
             "title": "아바타",
@@ -6229,7 +6230,19 @@
             "reach": "도달"
         },
         "linkAWallet": "지갑 연결하기",
-        "linkWallet": "지갑 연결하기",
+        "linkWallet": {
+            "title": "",
+            "explanation": "",
+            "benefits": {
+                "title": "",
+                "benefit1": "",
+                "benefit2": "",
+                "benefit3": "",
+                "benefit4": ""
+            },
+            "referral": "",
+            "connectWallet": ""
+        },
         "linkWalletText": "지갑을 연결하여 잔액을 확인하고 모든 기능을 자유롭게 사용하세요",
         "myWallet": "내 지갑",
         "copied": "복사 완료!",
