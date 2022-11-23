@@ -410,6 +410,11 @@
             "reject": "거부",
             "error": "이용약관을 읽고 동의하지 않을 경우 더 샌드박스의 제품 및 서비스를 이용할 수 없습니다.",
             "goBack": "뒤로"
+        },
+        "errorPage": {
+            "title": "An error ocurred!",
+            "description": "This was a bit unexpected, if this error persists please reach us out on {discord}.",
+            "discord": "Discord"
         }
     },
     "home": {
@@ -1658,7 +1663,10 @@
                 "ended": "종료",
                 "eventRewards": "이벤트 리워드",
                 "landsale": "LAND 세일",
-                "allEvents": "모든 이벤트"
+                "allEvents": "모든 이벤트",
+                "invalidOwner": "The owner must be a valid / existing userId",
+                "questVerification": "If Custom ticket name is specified Total ticket amount must be specified too",
+                "manualVerification": "If Custom manual ticket name is specified Total manual ticket amount must be specified too"
             },
             "rewards": {
                 "alphaSeason": "알파 시즌 3",
@@ -3757,7 +3765,8 @@
             "avex": "METAVEX",
             "shibuya": "SHIBUYA",
             "time": "TIME",
-            "warmup": "Warmup"
+            "warmup": "Warmup",
+            "california": "California Dreamin'"
         },
         "booked": "예약자:",
         "visit": "사이트 방문",
@@ -3938,7 +3947,10 @@
                 "alreadyRegistered": "이미 등록됨",
                 "join": "참여하기",
                 "backToLandSale": "LAND 세일로 돌아가기",
-                "goToMap": "맵으로 이동"
+                "goToMap": "맵으로 이동",
+                "joinRegular": "Join Regular",
+                "joinPremium": "Join Premium",
+                "joinBoth": "Join Both"
             },
             "header": {
                 "titles": {
@@ -3975,7 +3987,9 @@
                     "description": "시부야 109 이스테이트를 중심으로, 도쿄의 가장 유명한 쇼핑 지역이 더 샌드박스에서 재현됩니다! 이 새로운 놀이터가 제공하는 기대 이상의 차세대 고객 경험을 만나보세요.",
                     "entryClosesOn": "추첨 참여 종료일: {closeDate}",
                     "ownedTickets": "LAND 추첨 티켓",
-                    "registered": "LAND 세일 추첨에 참여 중입니다!"
+                    "registered": "LAND 세일 추첨에 참여 중입니다!",
+                    "exploreMap": "Explore Map",
+                    "closedRegistration": "Registration is now closed"
                 },
                 "countdown": {
                     "registrationStarts": "등록 시작까지 남은 시간:",
@@ -3992,7 +4006,8 @@
                 "subtitle": "추첨에 당첨된 당첨자들은 {partner} LAND 세일에서 1개의 LAND를 구입할 수 있습니다. {landsCount}개의 LAND가 {landsCount}명의 당첨자들에게 돌아갑니다!",
                 "subtitle2": "깨고 싶지 않은 꿈, 캘리포니아 드리밍!",
                 "subtitle3": "LAND 세일 화이트리스트에 포함되지 않았습니다. 경매 또는 이차 마켓에서 LAND를 구입할 수 있습니다.",
-                "notLoggedInAndResultsArePublic": "{partner} LAND 세일 화이트리스트 명단에 내 계정이 있는지 확인하려면 로그인이 필요합니다."
+                "notLoggedInAndResultsArePublic": "{partner} LAND 세일 화이트리스트 명단에 내 계정이 있는지 확인하려면 로그인이 필요합니다.",
+                "boughtSubtitle": "Congratulations, you are a LAND Owner! You can get more LAND on Secondary Market."
             },
             "timeline": {
                 "raffle": "추첨",
@@ -4196,7 +4211,10 @@
             "tickets": {
                 "title": "LAND 세일 추첨 티켓 획득 방법",
                 "subtitle": "더 많은 티켓을 획득하고 당첨 확률을 높이세요*. LAND 세일 추첨에 당첨되면 LAND를 구입할 수 있는 기회를 얻을 수 있습니다.",
-                "disclaimer": "* 각 LAND 세일별로 시즌 이벤트, 파트너 및 다양한 활동에 따라 티켓 획득 방법이 달라질 수 있습니다.",
+                "disclaimer": {
+                    "1": "* How you earn tickets might change on each LAND Sale depending on Seasonal events, partners and different activities.",
+                    "2": "** Playboy Rabbitars ticket bonus is capped to 5 per wallet. Owning multiple Playboy Rabbitars NFTs won’t give you more than 5 raffle tickets."
+                },
                 "yourTotalRaffleTickets": "보유한 추첨 티켓 수",
                 "registered": {
                     "title": "추첨 참여하기",
@@ -4213,6 +4231,15 @@
                 "s2Memorabilia": {
                     "title": "시즌 2: 레벨 5 달성",
                     "tooltip": "알파 시즌 2에서 레벨 5를 달성하고 {tickets}개의 추첨 티켓 획득."
+                },
+                "cta": "Learn more about Raffle Tickets",
+                "s3Memorabilia": {
+                    "title": "Season 3: Level 5 Completed",
+                    "tooltip": "Reached level 5 during Alpha Season 3."
+                },
+                "extraTicket": {
+                    "title": "Be a Playboy Rabbitars holder",
+                    "tooltip": "Own at least 1 Playboy Rabbitar, reward limited to 5 raffle tickets by wallet."
                 }
             },
             "register": {
@@ -4280,7 +4307,8 @@
                         "11": "내 계정을 인증하지 않아도 LAND 세일 추첨에 참여할 수 있나요?",
                         "12": "LAND 세일 추첨에 당첨되면 무엇을 해야 하나요?"
                     }
-                }
+                },
+                "learnMore": "Learn more about "
             },
             "buy": {
                 "title": "You are going to buy",
@@ -4320,6 +4348,324 @@
                     "success": "성공",
                     "fail": "실패",
                     "pending": "보류 중"
+                }
+            },
+            "FAQs": {
+                "title": "Frequently Asked Questions",
+                "requirements": {
+                    "1": "Account must be verified (KYC);",
+                    "2": "At least 1,011 SAND on Polygon in their wallet (for regular raffle and Premium raffle)",
+                    "3": "User is not banned;"
+                },
+                "bannedUsers": {
+                    "paragraph": "{bannedUsers}: Users who are flagged for suspicious/fraudulent activity, such as bots detected on Season 2 and 3.",
+                    "bannedUsers": "Banned users"
+                },
+                "aboutLandSaleSystem": {
+                    "title": "About the new LAND Sale System",
+                    "1": {
+                        "title": "How does the new LAND Sale System work?",
+                        "paragraphs": {
+                            "1": "We are redesigning our LAND Sale experience to give users more chances of buying LAND. Users will need to sign up for a raffle in order to get a chance of winning a whitelist spot in the upcoming LAND Sale. Only whitelisted users will be able to buy 1, and only 1 LAND over a 24 hour period.",
+                            "2": "There will be 1 whitelist spot for each LAND available, so every user who wins the raffle gets a chance of buying LAND. Whitelisted users will be able to buy 1 {random} LAND (based on the raffle they joined: Premium Raffle, Regular Raffle). Users will be able to join one, or both lists, but they will only be able to win either a Premium whitelist spot or Regular whitelist spot, not both.",
+                            "random": "random",
+                            "3": "When the 24 hours whitelist window ends all remaining lands will be manually set for auction (auction will start 1 day after the land sale ends).",
+                            "4": "To join the LAND Sale you need to meet the following requirements:",
+                            "5": "We WILL NOT charge users for joining the raffle, we will only check their SAND balance so we make sure users are ready to buy if they win the WL spot."
+                        }
+                    },
+                    "2": {
+                        "title": "Who can join the LAND Sale?",
+                        "paragraph": "Users need to have a Sandbox account (with wallet linked) and meet the following requirements to be eligible to joining the LAND Sale:"
+                    },
+                    "3": {
+                        "title": "Can I join the LAND Sale if I don't Verify my account?",
+                        "paragraph": "No, only verified accounts can join the LAND Sale. Make sure you verify your account in time. You can start your verification process here: {link}"
+                    },
+                    "4": {
+                        "title": "How to get whitelisted for the LAND Sale?",
+                        "paragraph": "You can win a whitelist spot for the LAND Sale through the LAND Sale Raffle. Every winner of the LAND Sale Raffle will be able to min 1 RANDOM LAND."
+                    },
+                    "5": {
+                        "title": "At what time does the LAND Sale start?",
+                        "paragraphs": {
+                            "1": "{landSaleName} LAND Sale schedule:",
+                            "2": {
+                                "1": "LAND Sale Raffle Sign up: {startDate} to {endDate}",
+                                "2": "LAND Sale Raffle Results Announcement: {date}",
+                                "3": {
+                                    "paragraph": "{bold} (Whitelisted user): {startDate} to {endDate} Join here: {link}",
+                                    "bold": "LAND Sale"
+                                },
+                                "4": {
+                                    "paragraph": "{bold} (Everyone): {date}",
+                                    "bold": "LAND Sale Second Chance Auctions*"
+                                }
+                            },
+                            "3": {
+                                "paragraph": "{landSaleSecondChance} supply will depend on how many whitelisted users decide not to buy LAND",
+                                "landSaleSecondChance": "*LAND Sale Second Chance Auctions"
+                            }
+                        }
+                    },
+                    "6": {
+                        "title": "How can I know if I win a whitelist spot for the LAND Sale?",
+                        "paragraph": "The Raffle results will be announced on {date}. After that time you can enter the LAND Sale page ({link}) to find out if you won, make sure you are logged in. Winners will also receive an email notice."
+                    },
+                    "7": {
+                        "title": "Where can I find out more about upcoming LAND Sales?",
+                        "paragraphs": {
+                            "1": "All upcoming LAND Sales will be hosted on {link}.",
+                            "2": "We’ll announce upcoming LAND Sales over social media, on our home page and on the map. Users subscribed to The Sandbox will also receive email communications when a new LAND Sale is coming."
+                        }
+                    }
+                },
+                "landSaleRaffle": {
+                    "title": "LAND Sale Raffle",
+                    "1": {
+                        "title": "When does the LAND Sale Raffle take place?",
+                        "paragraphs": {
+                            "1": "LAND Sale Raffle dates:",
+                            "2": {
+                                "1": "",
+                                "2": ""
+                            },
+                            "3": {
+                                "1": "Find the full LAND Sale schedule here: {link}",
+                                "link": "At what time does the LAND Sale start?"
+                            }
+                        }
+                    },
+                    "2": {
+                        "title": "Where can I sign up for the LAND Sale Raffle?",
+                        "paragraphs": {
+                            "1": "To sign up for the LAND Sale Raffle you need to:",
+                            "2": {
+                                "1": "Log into your Sandbox account",
+                                "2": "Access {link}",
+                                "3": {
+                                    "1": "Click ENTER RAFFLE (make sure you meet all the requirements)",
+                                    "2": "If you don’t have your account verified you can start the process right there or by accessing {link}",
+                                    "3": "To buy SAND please click on the CTA BUY SAND. You can also buy SAND (on polygon) by clicking on the SAND icon in the top right hand corner. Make sure you select {polygon} network",
+                                    "polygon": "Polygon"
+                                },
+                                "4": "Select the raffle you want to join, Regular, Premium or both"
+                            }
+                        }
+                    },
+                    "3": {
+                        "title": "Do I need to pay to join the LAND Sale Raffle?",
+                        "paragraph": "No, you don’t need to pay to enter the Raffle. We just check that you have at least 1011 SAND (on polygon) in your wallet, but it won’t trigger any transaction."
+                    },
+                    "4": {
+                        "title": "Is there any way to increase my chances of winning the LAND Sale Raffle?",
+                        "paragraphs": {
+                            "1": "The more LAND Sale Raffle tickets you have, the more chances you get to win the raffle. 1 Ticket = 1 Chance of winning the raffle, just like Alpha Seasons.",
+                            "2": "Here are the current ticket rules:",
+                            "3": {
+                                "1": "Signup for the Land Sale Raffle = 1 Ticket",
+                                "2": "Reaching Level 5 Season 1 = 20 Raffle Tickets",
+                                "3": "Reaching Level 5 Season 2 = 20 Raffle Tickets",
+                                "4": "Reaching Level 5 Season 3 = 20 Raffle Tickets",
+                                "5": "Own a Playboy Rabittar* = 5 Raffle Tickets"
+                            },
+                            "4": "*Playboy Rabittar NFTs will only grant Raffle tickets on California Dreamin’ LAND Sale. Check Playboy Rabbitars Official at OpenSea: {link}",
+                            "5": "Please note that ticket rules can change from LAND sale to LAND sale. The Sandbox will keep the community updated."
+                        }
+                    },
+                    "5": {
+                        "title": "Are there any requirements to enter the LAND Sale Raffle?",
+                        "paragraphs": {
+                            "1": "Users must meet the following requirements when i) signing up for the raffle, ii) The Sandbox runs the raffle to get the winners:",
+                            "2": "Please note that The Sandbox will not charge you to enter the raffle. Having 1,011 SAND in your wallet only proves that you’ll be able to purchase the LAND if you get selected."
+                        }
+                    },
+                    "6": {
+                        "title": "What should I do if I win the LAND Sale Raffle?",
+                        "paragraph": "If you win the LAND Sale Raffle it means that you have a whitelist spot for minting 1 LAND once the LAND Sale starts. Just make sure you log into your account and enter {link} to check when the LAND Sale starts."
+                    },
+                    "7": {
+                        "title": "If I win the LAND Sale Raffle, when can I purchase my LAND?",
+                        "paragraph": "As soon as the LAND Sale starts you can enter {link} and mint your LAND. The minting period will last for 24 hours, make sure you don’t miss the window."
+                    },
+                    "8": {
+                        "title": "If I win the LAND Sale Raffle, can I transfer / sell the whitelist spot to another account?",
+                        "paragraph": "No, if you win a whitelist spot you can not transfer it to another account."
+                    },
+                    "9": {
+                        "title": "How can I get SAND on Polygon?",
+                        "paragraphs": {
+                            "1": "If you have SAND on Ethereum you can bridge into Polygon. Read how you can bridge SAND below or enter {link}.",
+                            "2": "You can buy SAND directly on polygon, click the SAND icon on the top bar and then BUY SAND. Make sure you switch to the Polygon network before selecting the purchase method."
+                        }
+                    },
+                    "10": {
+                        "title": "How can I bridge SAND from the Ethereum network to Polygon?",
+                        "paragraph": "To bridge SAND from Ethereum to Polygon you can enter the bridge section under your account {link}. On the left you’ll see your SAND balance on Ethereum. You can bridge SAND to Polygon by clicking on Deposit."
+                    }
+                },
+                "accountVerification": {
+                    "title": "Account Verification (KYC)",
+                    "1": {
+                        "title": "How can I verify my Account?",
+                        "paragraphs": {
+                            "1": "To start the verification process go to Account > Settings > Account Verification or access {link}.",
+                            "2": "All you need is a smartphone (or laptop/tablet) with a camera, an internet connection, a well-lit room and your ID document.",
+                            "3": "To verify your account you need a Passport, National ID, Driver license or Resident Permit issued by the government can be submitted in your KYC process.",
+                            "4": "Your document must:",
+                            "5": {
+                                "1": "Have the 4 corners are clearly visible",
+                                "2": "Be in a good quality with all information clearly readable",
+                                "3": "Be valid: the document expiration is not exceeded",
+                                "4": "Not be handwritten (if your identity document is handwritten, it will be rejected)"
+                            }
+                        }
+                    },
+                    "2": {
+                        "title": "Why do I need to Verify my account?",
+                        "paragraphs": {
+                            "1": "The KYC process (Know Your Customer) ensures that a real, physical person is behind the account. It proves that a person is who they claim to be. Required by current regulations, identification prevents a person from carrying out activities in the name of another person, using false documents to commit fraud (e.g. money laundering, identity theft, etc.).",
+                            "2": "The process consists first in a liveness proof, where we verify you are alive and you are a real person applying for the account verification. Then we require you to upload a document ID where we verify your identity.",
+                            "3": "Learn more about the Account Verification process {link}.",
+                            "here": "here"
+                        }
+                    },
+                    "3": {
+                        "title": "I joined the LAND Sale Raffle but I still don't have my account Verified, can I still win?",
+                        "paragraphs": {
+                            "1": "No, only Verified Accounts can win the LAND Sale Raffle. You can enter the raffle while your account is under verification, but you will only be eligible if your account gets verified before the raffle starts.",
+                            "2": "Account Verification might take up to 48 hours."
+                        }
+                    },
+                    "4": {
+                        "title": "I have more questions about the Account Verification process (KYC)",
+                        "paragraph": "You can find more information about the Account Verification process here: {link}"
+                    }
+                },
+                "buyingLand": {
+                    "title": "Buying LAND",
+                    "1": {
+                        "title": "What’s the price of LAND?",
+                        "paragraph": "Regular LAND costs 1,011 SAND; Premium LAND costs 4,683 SAND."
+                    },
+                    "2": {
+                        "title": "Do I need to pay for gas fees?",
+                        "paragraph": "The LAND Sale will be on Polygon, this means the gas price will be really low. Make sure you have some MATIC in your wallet."
+                    },
+                    "3": {
+                        "title": "Can I select which LAND I want to buy?",
+                        "paragraph": "No, the LANDs will be distributed randomly. Even if you entered the Premium raffle, you won’t be able to pick the LAND coordinates. Premium raffle winners will buy a RANDOM Premium LAND; Regular raffle winners will buy a RANDOM regular LAND."
+                    },
+                    "4": {
+                        "title": "If I win the LAND Sale Raffle, can LANDs sell out before I get to buy one?",
+                        "paragraph": "No, every winner will have the chance to buy 1 LAND. We’ll have the same amount of winners as LAND available, so if you win, you get a guaranteed purchase (as long as you buy within the minting window). After the minting window ends, your whitelist spot will no longer be valid."
+                    },
+                    "5": {
+                        "title": "Where do I mint my LAND?",
+                        "paragraph": "When the LAND Sale starts, all whitelisted users can access {link} to min their LAND. Log into your account and start the purchase process by clicking BUY LAND."
+                    },
+                    "6": {
+                        "title": "What happens if I win the raffle but I don't buy the LAND in time?",
+                        "paragraph": "All whitelist spots are only valid for one LAND Sale. After the LAND Sale ends, if you did not purchase any LAND, you can still get LAND in the Second Chance Auction, or at any time on the Secondary Market."
+                    },
+                    "7": {
+                        "title": "I didn’t win the LAND Sale Raffle, Is there any other way to get LAND?",
+                        "paragraphs": {
+                            "1": "Yes, if you did not win the LAND Sale Raffle you can still get LAND.",
+                            "2": {
+                                "1": "You can get a LAND through the Second Chance Auctions (If any whitelisted user decides not to buy LAND on the LAND sale)",
+                                "2": "Keep an eye on Second Chance Auctions here: {link}",
+                                "3": "Through Secondary Market: {link}",
+                                "4": "Upcoming LAND Sale: Keep an eye on the LAND Sale schedule, there will be more chances to get LAND"
+                            }
+                        }
+                    },
+                    "8": {
+                        "title": "If I win the LAND Sale Raffle and I don’t buy a LAND, can I buy a LAND on the next LAND Sale?",
+                        "paragraph": "All whitelist spots are only valid for one LAND Sale. If you want to buy LAND on the next LAND Sale, you need to sign up for the next LAND Sale Raffle and win a whitelist spot."
+                    }
+                },
+                "premiumLand": {
+                    "title": "Premium LAND",
+                    "1": {
+                        "title": "Does Premium LAND include a Premium NFT Bundle like previous LAND Sales?",
+                        "paragraph": "Yes, if you buy Premium LAND, you will get a special Premium NFT Bundle. The bundle will not be included in the initial purchase and it will be airdropped to your wallet after the LAND Sale is over."
+                    },
+                    "2": {
+                        "title": "What happens if I buy a Premium LAND and then sell the LAND before receiving the NFT Bundle airdrop?",
+                        "paragraph": "The Premium NFT Bundle will be sent to the user (wallet) who initially buys the PREMIUM LAND. If that user sells the LAND, the Premium NFT Bundle will still be sent to the original wallet."
+                    },
+                    "3": {
+                        "title": "Is there any chance to pick a brand and join the Premium Raffle?",
+                        "paragraph": "No, it is random."
+                    }
+                },
+                "aboutLand": {
+                    "title": "About LAND",
+                    "1": {
+                        "title": "What can I do with LAND at The Sandbox?",
+                        "paragraphs": {
+                            "1": "A LAND is a digital piece of real-estate in The Sandbox's metaverse. Game designers use LAND to build digital experiences, such as games or dioramas, and also populate it with ASSETs",
+                            "2": "Each LAND is a unique, non-fungible ERC-721 token on the Ethereum blockchain. A total of 166,464 LANDs will be available.",
+                            "3": "In the metaverse you can find REGULAR LAND and PREMIUM LAND.",
+                            "4": "Regular LAND utility:",
+                            "5": "Premium LAND owners get all the utility from REGULAR LAND plus:",
+                            "regular": {
+                                "1": "Earn special rewards",
+                                "2": "Exclusive LAND Owner staking",
+                                "3": "Sell your LAND",
+                                "4": "Publish and monetize your Experience (2023)"
+                            },
+                            "premium": {
+                                "1": "Get more SAND when you stake (2023)",
+                                "2": "Early access to selected features",
+                                "3": "Attract more users into your experience",
+                                "4": "Catalyst & Gems airdrop"
+                            }
+                        }
+                    },
+                    "2": {
+                        "title": "What’s the price of LAND?",
+                        "paragraph": "Regular LAND costs 1,011 SAND; Premium LAND costs 4,683 SAND."
+                    },
+                    "3": {
+                        "title": "What’s the difference between Regular and Premium LAND?",
+                        "paragraphs": {
+                            "1": "Premium LANDs are located next to a Partner’s ESTATE and grant to its buyer several Premium NFTs linked to the LAND sale’s partners. Premium NFTs get airdropped at the end of the sale.",
+                            "2": "For each wave, users will be able to enter the regular raffle, the Premium raffle, or both. But each user will only be able to win one whitelist spot per wave.",
+                            "3": "The Premium raffle will run first; if a user wins a Premium LAND whitelist spot and IF that user is also in the rRegular raffle, the user will be removed from the regular raffle. The regular raffle will run after the Premium raffle."
+                        }
+                    },
+                    "4": {
+                        "title": "What does it mean that now LAND is on Polygon?",
+                        "paragraphs": {
+                            "1": "Hosting the LAND sales on Layer 2 will lower gas fees for each transaction and offer seamless gasless systems through Biconomy. Thanks to the combination of our upcoming raffle system and gasless fees we aim at providing a less frustrating buying experience for our future LAND sales while giving more people a chance to participate.",
+                            "2": "Learn more about Polygon: {link}",
+                            "link": "The Sandbox is deploying on Polygon"
+                        }
+                    },
+                    "5": {
+                        "title": "From now on, LAND Sales will be on Polygon?",
+                        "paragraph": "Yes, all LAND Sales will be on Polygon. Make sure you have your SAND on Polygon ready."
+                    }
+                },
+                "troubleShooting": {
+                    "title": "Troubleshooting",
+                    "1": {
+                        "title": "I can’t enter the raffle, it says I need to have 1011 SAND. I checked my wallet and I have 1011 SAND",
+                        "paragraph": "To enter the raffle you need to have 1011 SAND in Polygon. Some users might have SAND in ethereum. If you have SAND in ethereum you can {bridgeToPolygon} or you can {buyInPolygon}.",
+                        "bridgeToPolygon": "bridge it to Polygon",
+                        "buyInPolygon": "buy SAND in Polygon directly"
+                    },
+                    "2": {
+                        "title": "I have SAND in Ethereum, how can I bridge SAND from the Ethereum network to Polygon?",
+                        "paragraph": "To bridge SAND from Ethereum to Polygon you can enter the bridge section under your account {link}. On the left you’ll see your SAND balance on Ethereum. You can bridge SAND to Polygon by clicking on {deposit}.",
+                        "deposit": "Deposit"
+                    },
+                    "3": {
+                        "title": "I bought LAND but when I go into the Map I don’t see it assigned to my account",
+                        "paragraph": "After the transaction is approved it might take between 3-10 minutes for the metadata to be updated. Try refreshing the site after 10 minutes."
+                    }
                 }
             }
         },
