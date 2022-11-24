@@ -412,9 +412,9 @@
             "goBack": "뒤로"
         },
         "errorPage": {
-            "title": "An error ocurred!",
-            "description": "This was a bit unexpected, if this error persists please reach us out on {discord}.",
-            "discord": "Discord"
+            "title": "오류가 발생했습니다!",
+            "description": "알 수 없는 오류가 발생했습니다. 오류가 지속될 경우 {discord}로 문의해 주세요.",
+            "discord": "디스코드"
         }
     },
     "home": {
@@ -1728,7 +1728,7 @@
                 "goBadges": "배지로 이동",
                 "nextSeason": "다음 시즌을 기대해 주세요!",
                 "keepHaving": "다음 시즌에도 재미와 풍성한 리워드가 기다리고 있습니다.",
-                "coming": "Coming on November 29",
+                "coming": "11월 29일 찾아옵니다.",
                 "missedRewards": "획득하지 못한 리워드:"
             },
             "tickets": {
@@ -3766,7 +3766,7 @@
             "shibuya": "SHIBUYA",
             "time": "TIME",
             "warmup": "Warmup",
-            "california": "California Dreamin'"
+            "california": "캘리포니아 드리밍"
         },
         "booked": "예약자:",
         "visit": "사이트 방문",
@@ -3948,9 +3948,9 @@
                 "join": "참여하기",
                 "backToLandSale": "LAND 세일로 돌아가기",
                 "goToMap": "맵으로 이동",
-                "joinRegular": "Join Regular",
-                "joinPremium": "Join Premium",
-                "joinBoth": "Join Both"
+                "joinRegular": "일반 추첨 참여",
+                "joinPremium": "프리미엄 추첨 참여",
+                "joinBoth": "모두 참여"
             },
             "header": {
                 "titles": {
@@ -3988,11 +3988,11 @@
                     "entryClosesOn": "추첨 참여 종료일: {closeDate}",
                     "ownedTickets": "LAND 추첨 티켓",
                     "registered": "LAND 세일 추첨에 참여 중입니다!",
-                    "exploreMap": "Explore Map",
-                    "closedRegistration": "Registration is now closed"
+                    "exploreMap": "맵 탐험하기",
+                    "closedRegistration": "추첨 등록이 종료되었습니다."
                 },
                 "countdown": {
-                    "registrationStarts": "등록 시작까지 남은 시간:",
+                    "registrationStarts": "추첨 등록 시작까지:",
                     "registrationEnds": "등록 종료까지 남은 시간:",
                     "raffleStarts": "추첨 시작까지:",
                     "publicSaleStarts": "퍼블릭 세일 시작까지 남은 시간:",
@@ -4007,7 +4007,7 @@
                 "subtitle2": "깨고 싶지 않은 꿈, 캘리포니아 드리밍!",
                 "subtitle3": "LAND 세일 화이트리스트에 포함되지 않았습니다. 경매 또는 이차 마켓에서 LAND를 구입할 수 있습니다.",
                 "notLoggedInAndResultsArePublic": "{partner} LAND 세일 화이트리스트 명단에 내 계정이 있는지 확인하려면 로그인이 필요합니다.",
-                "boughtSubtitle": "Congratulations, you are a LAND Owner! You can get more LAND on Secondary Market."
+                "boughtSubtitle": "축하합니다, LAND 보유자가 되었습니다! 2차 마켓을 통해 더 많은 LAND를 구입할 수 있습니다."
             },
             "timeline": {
                 "raffle": "추첨",
@@ -4023,7 +4023,7 @@
                 "youWon": "화이트리스트에 등록되었습니다!",
                 "youDidntWin": "화이트리스트에 등록되지 못했습니다!",
                 "sale": "세일",
-                "until": "{date}까지"
+                "until": "{date}일까지"
             },
             "whatsTheLANDSale": {
                 "title": "LAND 세일 추첨이란 무엇인가요?",
@@ -4212,8 +4212,8 @@
                 "title": "LAND 세일 추첨 티켓 획득 방법",
                 "subtitle": "더 많은 티켓을 획득하고 당첨 확률을 높이세요*. LAND 세일 추첨에 당첨되면 LAND를 구입할 수 있는 기회를 얻을 수 있습니다.",
                 "disclaimer": {
-                    "1": "* How you earn tickets might change on each LAND Sale depending on Seasonal events, partners and different activities.",
-                    "2": "** Playboy Rabbitars ticket bonus is capped to 5 per wallet. Owning multiple Playboy Rabbitars NFTs won’t give you more than 5 raffle tickets."
+                    "1": "* 각 LAND 세일별로 시즌 이벤트, 파트너 및 다양한 활동에 따라 티켓 획득 방법이 달라질 수 있습니다.",
+                    "2": "** 플레이보이 래비타 티켓 보너스는 지갑당 최대 5개입니다. 여러 개의 플레이보이 래비타 NFT를 보유해도 5개 이상의 추첨 티켓을 획득할 수는 없습니다."
                 },
                 "yourTotalRaffleTickets": "보유한 추첨 티켓 수",
                 "registered": {
@@ -4232,14 +4232,14 @@
                     "title": "시즌 2: 레벨 5 달성",
                     "tooltip": "알파 시즌 2에서 레벨 5를 달성하고 {tickets}개의 추첨 티켓 획득."
                 },
-                "cta": "Learn more about Raffle Tickets",
+                "cta": "추첨 티켓 자세히 알아보기",
                 "s3Memorabilia": {
-                    "title": "Season 3: Level 5 Completed",
-                    "tooltip": "Reached level 5 during Alpha Season 3."
+                    "title": "시즌 3: 레벨 5 달성",
+                    "tooltip": "알파 시즌 3에서 레벨 5 달성"
                 },
                 "extraTicket": {
-                    "title": "Be a Playboy Rabbitars holder",
-                    "tooltip": "Own at least 1 Playboy Rabbitar, reward limited to 5 raffle tickets by wallet."
+                    "title": "플레이보이 래비타 NFT 보유",
+                    "tooltip": "1개 이상의 플레이보이 래비타 보유 시, 지갑당 최대 5개의 추첨 티켓이 주어집니다."
                 }
             },
             "register": {
@@ -4308,7 +4308,7 @@
                         "12": "LAND 세일 추첨에 당첨되면 무엇을 해야 하나요?"
                     }
                 },
-                "learnMore": "Learn more about "
+                "learnMore": "{partner} 자세히 알아보기"
             },
             "buy": {
                 "title": "You are going to buy",
@@ -4351,71 +4351,71 @@
                 }
             },
             "FAQs": {
-                "title": "Frequently Asked Questions",
+                "title": "FAQ",
                 "requirements": {
-                    "1": "Account must be verified (KYC);",
-                    "2": "At least 1,011 SAND on Polygon in their wallet (for regular raffle and Premium raffle)",
-                    "3": "User is not banned;"
+                    "1": "계정 인증 (KYC)",
+                    "2": "지갑에 최소 1,011 SAND (폴리곤) 보유",
+                    "3": "소프트 밴이 걸리지 않은 유저 계정"
                 },
                 "bannedUsers": {
-                    "paragraph": "{bannedUsers}: Users who are flagged for suspicious/fraudulent activity, such as bots detected on Season 2 and 3.",
-                    "bannedUsers": "Banned users"
+                    "paragraph": "{bannedUsers}: 시즌 2와 3에서 감지된 봇과 같은 의심스러운/사기 활동으로 신고된 유저.",
+                    "bannedUsers": "소프트 밴 유저"
                 },
                 "aboutLandSaleSystem": {
-                    "title": "About the new LAND Sale System",
+                    "title": "새로운 LAND 세일 시스템 알아보기",
                     "1": {
-                        "title": "How does the new LAND Sale System work?",
+                        "title": "새로운 LAND 세일 시스템은 어떻게 작동하나요?",
                         "paragraphs": {
-                            "1": "We are redesigning our LAND Sale experience to give users more chances of buying LAND. Users will need to sign up for a raffle in order to get a chance of winning a whitelist spot in the upcoming LAND Sale. Only whitelisted users will be able to buy 1, and only 1 LAND over a 24 hour period.",
-                            "2": "There will be 1 whitelist spot for each LAND available, so every user who wins the raffle gets a chance of buying LAND. Whitelisted users will be able to buy 1 {random} LAND (based on the raffle they joined: Premium Raffle, Regular Raffle). Users will be able to join one, or both lists, but they will only be able to win either a Premium whitelist spot or Regular whitelist spot, not both.",
-                            "random": "random",
-                            "3": "When the 24 hours whitelist window ends all remaining lands will be manually set for auction (auction will start 1 day after the land sale ends).",
-                            "4": "To join the LAND Sale you need to meet the following requirements:",
-                            "5": "We WILL NOT charge users for joining the raffle, we will only check their SAND balance so we make sure users are ready to buy if they win the WL spot."
+                            "1": "더 샌드박스는 모든 유저 여러분에게 LAND를 구입할 수 있는 공정한 기회를 제공하고자 LAND 세일 시스탬을 개편했습니다. 유저들은 다가올 LAND 세일의 화이트리스트에 당첨차를 가리는 추첨에 참여해야 합니다. 화이트리스트에 당첨된 유저는 24시간 동안 1개의 LAND를 구입할 수 있는 기회가 주어집니다.",
+                            "2": "각 LAND마다 1개의 화이트리스트 자리가 할당되므로, 추첨에 당첨된 모든 당첨자에게는 LAND를 구입할 수 있는 기회가 있습니다. 화이트리스트 당첨자는 참여한 추첨 형식(프리미엄, 일반)에 따라 {random} LAND 1개를 구입할 수 있게 됩니다. 양 추첨 모두, 혹은 원하는 어느 한 쪽의 추첨을 선택하여 참여할 수 있으나, 당첨은 프리미엄 또는 일반 한 쪽에서만 가능합니다.",
+                            "random": "랜덤 위치의",
+                            "3": "24시간의 구매 기한이 종료된 후 판매되지 않은 모든 LAND는 자동으로 경매로 넘어갑니다(경매는 세일 종료 하루 뒤에 시작됩니다).",
+                            "4": "LAND 세일에 참여하려면 아래 세 가지 조건을 만족해야 합니다.",
+                            "5": "추첨 참여에는 별도의 비용이 발생하지 않습니다. 지갑에 최소 금액을 보유하는 것은 화이트리스트에 당첨될 경우 LAND를 구매할 수 있는 구매력을 증명하는 수단입니다."
                         }
                     },
                     "2": {
-                        "title": "Who can join the LAND Sale?",
-                        "paragraph": "Users need to have a Sandbox account (with wallet linked) and meet the following requirements to be eligible to joining the LAND Sale:"
+                        "title": "LAND 세일에 참여할 수 있는 사람은 누구인가요?",
+                        "paragraph": "지갑이 연결된 더 샌드박스 계정을 보유하고 아래 조건을 만족하는 누구나 참여 가능합니다."
                     },
                     "3": {
-                        "title": "Can I join the LAND Sale if I don't Verify my account?",
-                        "paragraph": "No, only verified accounts can join the LAND Sale. Make sure you verify your account in time. You can start your verification process here: {link}"
+                        "title": "계정 인증(KYC)을 하지 않고 LAND 세일 추첨에 참여할 수 있나요?",
+                        "paragraph": "아니요, 인증된 계정만 LAND 세일에 참여할 수 있습니다. 사전에 미리 계정 인증을 완료해 주세요. 계정 인증은 {link}에서 완료할 수 있습니다."
                     },
                     "4": {
-                        "title": "How to get whitelisted for the LAND Sale?",
-                        "paragraph": "You can win a whitelist spot for the LAND Sale through the LAND Sale Raffle. Every winner of the LAND Sale Raffle will be able to min 1 RANDOM LAND."
+                        "title": "LAND 세일 화이트리스트에 어떻게 당첨될 수 있나요?",
+                        "paragraph": "LAND 세일 추첨을 통해 화이트리스트에 당첨될 수 있습니다. 모든 당첨자는 랜덤 위치의 LAND 1개를 구입할 수 있습니다."
                     },
                     "5": {
-                        "title": "At what time does the LAND Sale start?",
+                        "title": "언제 LAND 세일이 시작되나요?",
                         "paragraphs": {
-                            "1": "{landSaleName} LAND Sale schedule:",
+                            "1": "{landSaleName} LAND 세일 일정",
                             "2": {
-                                "1": "LAND Sale Raffle Sign up: {startDate} to {endDate}",
-                                "2": "LAND Sale Raffle Results Announcement: {date}",
+                                "1": "LAND 세일 추첨 등록: {startDate} - {endDate}",
+                                "2": "LAND 세일 추첨 결과 발표: {date}",
                                 "3": {
-                                    "paragraph": "{bold} (Whitelisted user): {startDate} to {endDate} Join here: {link}",
-                                    "bold": "LAND Sale"
+                                    "paragraph": "{bold} (당첨자 대상): {startDate} to {endDate} Join here: {link}",
+                                    "bold": "LAND 세일"
                                 },
                                 "4": {
-                                    "paragraph": "{bold} (Everyone): {date}",
-                                    "bold": "LAND Sale Second Chance Auctions*"
+                                    "paragraph": "{bold} (모든 유저 대상): {date}",
+                                    "bold": "LAND 세일 2차 경매*"
                                 }
                             },
                             "3": {
-                                "paragraph": "{landSaleSecondChance} supply will depend on how many whitelisted users decide not to buy LAND",
-                                "landSaleSecondChance": "*LAND Sale Second Chance Auctions"
+                                "paragraph": "{landSaleSecondChance}를 통해 판매되는 LAND의 수량은 추첨에 당첨된 화이트리스트 유저들이 구매하지 않은 LAND의 수량에 따라 결정됩니다.",
+                                "landSaleSecondChance": "*LAND 세일 2차 경매"
                             }
                         }
                     },
                     "6": {
-                        "title": "How can I know if I win a whitelist spot for the LAND Sale?",
-                        "paragraph": "The Raffle results will be announced on {date}. After that time you can enter the LAND Sale page ({link}) to find out if you won, make sure you are logged in. Winners will also receive an email notice."
+                        "title": "추첨에 당첨되었는지 어떻게 알 수 있나요?",
+                        "paragraph": "추첨 결과는 {date}에 발표됩니다. 해당일 이후 더 샌드박스 웹페이지에 로그인하여 LAND 세일 페이지({link})를 통해 당첨 결과를 알아보세요. 당첨자에게는 이메일로도 알림이 발송됩니다."
                     },
                     "7": {
-                        "title": "Where can I find out more about upcoming LAND Sales?",
+                        "title": "다가올 LAND 세일에 대해 더 자세히 알아보려면 어디를 참고해야 하나요?",
                         "paragraphs": {
-                            "1": "All upcoming LAND Sales will be hosted on {link}.",
+                            "1": "모든 LAND 세일은 {link}를 통해 진행됩니다.",
                             "2": "We’ll announce upcoming LAND Sales over social media, on our home page and on the map. Users subscribed to The Sandbox will also receive email communications when a new LAND Sale is coming."
                         }
                     }
@@ -7102,7 +7102,7 @@
             "lostSeasonPassTitle": "알파 패스가 없습니다.",
             "notStartSubtitle": "알파에서 플레이하고",
             "startSubtitle": "더 샌드박스 알파가 곧 시작됩니다. \n등록하여 플레이와 당첨 기회를 얻어보세요.",
-            "startCountDown": "등록 시작까지 남은 시간:",
+            "startCountDown": "추첨 등록 시작까지:",
             "endCountDown": "등록 종료까지 남은 시간:",
             "lotteryCountDown": "추첨 결과 발표까지:",
             "AlphaCountDown": "알파 시작까지 남은 시간:",
