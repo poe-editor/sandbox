@@ -265,7 +265,8 @@
         "totalResults": "Records found: {0}",
         "browserSupport": {
             "videoTag": "이 브라우저는 비디오 태그를 지원하지 않습니다."
-        }
+        },
+        "sale": "Sale"
     },
     "layout": {
         "topbar": {
@@ -3182,7 +3183,10 @@
                     "account": "계정",
                     "wallet": "지갑",
                     "migrations": "마이그레이션",
-                    "claim": "수령하기"
+                    "claim": "수령하기",
+                    "bridge": "Bridge",
+                    "menu_settings": "General Settings",
+                    "security": "Security"
                 },
                 "profile": {
                     "sandAmount": "내 SAND",
@@ -4427,8 +4431,14 @@
                         "paragraphs": {
                             "1": "LAND 세일 추첨 일정:",
                             "2": {
-                                "1": "LAND 세일 추첨 등록:",
-                                "2": "LAND 세일 추첨 결과 발표:"
+                                "1": {
+                                    "paragraph": "{landSaleSignUp} November 17 3:00 PM UTC to November 21 1:00 PM UTC",
+                                    "landSaleSignUp": "LAND Sale Raffle Sign up:"
+                                },
+                                "2": {
+                                    "paragraph": "{landSaleRaffleResults} November 21 8:00 PM UTC",
+                                    "landSaleRaffleResults": "LAND Sale Raffle Results Announcement:"
+                                }
                             },
                             "3": {
                                 "1": "더 자세한 LAND 세일 일정은 {link}를 통해 확인하세요.",
@@ -6574,7 +6584,8 @@
             "option2": "시즌 동안 레벨 5를 달성한 추천 친구당 25개의 추첨 티켓",
             "sandEarning": "획득한 SAND",
             "ticketEarning": "획득한 티켓",
-            "reach": "도달"
+            "reach": "도달",
+            "landPurchase": "10% referral fee for any new LAND purchase made by one of your referred friends"
         },
         "linkAWallet": "지갑 연결하기",
         "linkWallet": {
