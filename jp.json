@@ -3983,7 +3983,7 @@
                     "entersTheMetaverse": "{partner} がメタバースに入りました",
                     "beTheirNeighbour": "隣人になることができます",
                     "howDoesItWork": "どのような仕組みですか？",
-                    "howDoesItWorkAwnser": "より多くのユーザーにLAND を購入していただけるように現在、LAND Sale のシステムを更新しています。",
+                    "howDoesItWorkAwnser": "より多くのユーザーにLAND を購入していただけるように現在、LANDセールのシステムを更新しています。",
                     "description": "東京の最も有名なショッピングエリアがThe Sandbox に参入します。Shibuya 109 をその中心に広がるプレイグラウンドで創造を超える次世代エクスペリエンスを体験してください！",
                     "entryClosesOn": "エントリーは {closeDate} に終了します。",
                     "ownedTickets": "LAND 抽選チケット",
@@ -4040,7 +4040,7 @@
                 "joinRequirements": "LAND 抽選セールに参加するためには以下の要件を満たす必要があります。",
                 "requirement1": "The Sandboxのアカウントを持っている",
                 "requirement2": "ウォレットに十分なSANDが入っている",
-                "requirement3": "抽選開始前にアカウントが認証済みである",
+                "requirement3": "抽選開始前にアカウントがKYC認証済みである",
                 "farewell": "チケットの数が多いほど当選の確率は高くなります。"
             },
             "modals": {
@@ -4218,27 +4218,27 @@
                 "yourTotalRaffleTickets": "抽選チケット合計",
                 "registered": {
                     "title": "抽選にエントリー",
-                    "tooltip": "LAND 抽選セールにエントリーする{tickets} をGET"
+                    "tooltip": "Every user gets 1 Ticket for joining the LAND Sale Raffle"
                 },
                 "season2pass": {
                     "title": "シーズン 2 Alpha Pass",
-                    "tooltip": "シーズン2 アルファパスを獲得するためには抽選チケットをあと{tickets}枚GETしてください。抽選がスタートするときにウォレットにNFTがあることを確認してください。"
+                    "tooltip": "Reached level 5 during Alpha Season 2."
                 },
                 "s1Memorabilia": {
                     "title": "シーズン 1: Level 5 クリア",
-                    "tooltip": "アルファ シーズン1 のレベル5 に到達するにはあと{tickets} 枚の抽選チケットが必要になります。"
+                    "tooltip": "Reached level 5 during Alpha Season 1."
                 },
                 "s2Memorabilia": {
                     "title": "シーズン 2: レベル 5 クリア",
-                    "tooltip": "アルファ シーズン2 のレベル5 に到達するにはあと{tickets} 枚の抽選チケットが必要になります。"
+                    "tooltip": "Reached level 5 during Alpha Season 2."
                 },
                 "cta": "Learn more about Raffle Tickets",
                 "s3Memorabilia": {
-                    "title": "Season 3: Level 5 Completed",
+                    "title": "シーズン3: レベル5 クリア",
                     "tooltip": "Reached level 5 during Alpha Season 3."
                 },
                 "extraTicket": {
-                    "title": "Be a Playboy Rabbitars holder",
+                    "title": "PlayboyのRabbitarsのNFTの保有",
                     "tooltip": "Own at least 1 Playboy Rabbitar, reward limited to 5 raffle tickets by wallet."
                 }
             },
@@ -4272,7 +4272,7 @@
                 "question": "LAND 抽選セールとは何ですか？",
                 "howDoesItWork": "どのような仕組みですか？",
                 "farewell": "チケットの数が多いほど当選の確率は高くなります。",
-                "changingLANDSaleSystem": "より多くのユーザーにLAND を購入していただけるように現在、LAND Sale のシステムを更新しています。",
+                "changingLANDSaleSystem": "より多くのユーザーにLAND を購入していただけるように現在、LANDセールのシステムを更新しています。",
                 "needHelp": "ご不明点がある場合",
                 "explanations": {
                     "1": {
@@ -4288,7 +4288,7 @@
                     "join": "LAND 抽選セールに参加する場合、以下の要件を満たしていることを確認してください:",
                     "1": "The Sandbox のアカウントを持っている",
                     "2": "ウォレットに十分なSANDが入っている",
-                    "3": "抽選開始前にアカウントが認証済みである"
+                    "3": "抽選開始前にアカウントがKYC認証済みである"
                 },
                 "KYCDescription": "LAND セールに参加するためにはアカウントを認証する必要があります。認証には最大48時間かかることがありますので、前もって認証を済ませておいてください。",
                 "FAQs": {
