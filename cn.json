@@ -265,7 +265,8 @@
         "totalResults": "Records found: {0}",
         "browserSupport": {
             "videoTag": "Your browser does not support the video tag."
-        }
+        },
+        "sale": "Sale"
     },
     "layout": {
         "topbar": {
@@ -3182,7 +3183,10 @@
                     "account": "Account",
                     "wallet": "Wallet",
                     "migrations": "Migrations",
-                    "claim": "Claims"
+                    "claim": "Claims",
+                    "bridge": "Bridge",
+                    "menu_settings": "General Settings",
+                    "security": "Security"
                 },
                 "profile": {
                     "sandAmount": "あなたのSAND",
@@ -4427,8 +4431,14 @@
                         "paragraphs": {
                             "1": "LAND Sale Raffle dates:",
                             "2": {
-                                "1": "",
-                                "2": ""
+                                "1": {
+                                    "paragraph": "{landSaleSignUp} November 17 3:00 PM UTC to November 21 1:00 PM UTC",
+                                    "landSaleSignUp": "LAND Sale Raffle Sign up:"
+                                },
+                                "2": {
+                                    "paragraph": "{landSaleRaffleResults} November 21 8:00 PM UTC",
+                                    "landSaleRaffleResults": "LAND Sale Raffle Results Announcement:"
+                                }
                             },
                             "3": {
                                 "1": "Find the full LAND Sale schedule here: {link}",
@@ -6574,7 +6584,8 @@
             "option2": "25 Raffle Tickets for each referred friend who reaches level 5 during the Season",
             "sandEarning": "SAND Earning",
             "ticketEarning": "Tickets Earning",
-            "reach": "Reach"
+            "reach": "Reach",
+            "landPurchase": "10% referral fee for any new LAND purchase made by one of your referred friends"
         },
         "linkAWallet": "关联钱包",
         "linkWallet": {
