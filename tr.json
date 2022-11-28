@@ -234,7 +234,7 @@
         "sandboxShort": "Sandbox",
         "lands": "LANDS",
         "close": "Close",
-        "regular": "",
+        "regular": "Regular",
         "selectOption": "Select an option | Select one or more options | ",
         "failed": "Something went wrong",
         "opensea": "OpenSea",
@@ -256,7 +256,21 @@
             "8": "September",
             "9": "October",
             "10": "November",
-            "11": "December"
+            "11": "December",
+            "abbreviation": {
+                "0": "Jan.",
+                "1": "Feb.",
+                "2": "Mar.",
+                "3": "Apr.",
+                "4": "May.",
+                "5": "Jun.",
+                "6": "Jul.",
+                "7": "Aug.",
+                "8": "Sep.",
+                "9": "Oct.",
+                "10": "Nov.",
+                "11": "Dec."
+            }
         },
         "markAsRequired": "Required",
         "verify": "Verify",
@@ -266,7 +280,22 @@
         "browserSupport": {
             "videoTag": "Your browser does not support the video tag."
         },
-        "sale": "Sale"
+        "sale": "Sale",
+        "richText": {
+            "placeholder": "Change this text...",
+            "title": "Title",
+            "bold": "Bold",
+            "italic": "Italic",
+            "underline": "Underline",
+            "alignLeft": "Align Left",
+            "alignRight": "Align Right",
+            "alignCenter": "Align Center",
+            "justify": "Justify",
+            "bulletList": "Bullet List",
+            "orderedList": "Ordered List",
+            "addImage": "Add Image"
+        },
+        "optional": "(Optional)"
     },
     "layout": {
         "topbar": {
@@ -576,6 +605,10 @@
             "btn2": "Create free avatar",
             "btn1SecondLabel": "Buy Now",
             "soldOutTag": "SOLD OUT"
+        },
+        "playboyBanner": {
+            "title": "MINT YOUR PLAYBOY PARTY PEOPLE",
+            "description": "Celebrating its 69th anniversary, Playboy and The Sandbox partnered up to bring sexy into the metaverse!"
         }
     },
     "season": {
@@ -2202,6 +2235,11 @@
             },
             "leaderboard": {
                 "claimDesc": "29 Kasım'dan itibaren mevcut"
+            },
+            "claimModal": {
+                "title": "You have rewards available to claim!",
+                "button": "Go to Claims",
+                "disclaimer": "Do not ask me again"
             }
         },
         "leaderboard": {
@@ -2210,7 +2248,7 @@
                 "title": "Sıralama",
                 "description": "En hızlı zamana ulaşarak ve sıralamada üstlerde yer alarak Ethos Puanı (EP) ve 30bin SAND kazan!",
                 "link": "NFT Mağazasına Git",
-                "description2": ""
+                "description2": "Equipment NFTs will help you complete quests faster."
             },
             "table": {
                 "description": {
@@ -2499,7 +2537,7 @@
             "plant": "Dikmek",
             "question": "Soru",
             "none": "None",
-            "asker": ""
+            "asker": "Asker"
         },
         "slots": {
             "title": "Yuvalar",
@@ -2823,6 +2861,12 @@
                 "creator": "@thesandboxgame",
                 "image": "https://www.sandbox.game/images/logo.png"
             }
+        },
+        "assetOwnersList": {
+            "user": "User",
+            "chain": "Chain",
+            "quantity": "QTY",
+            "price": "Price"
         }
     },
     "create": {
@@ -3637,6 +3681,38 @@
             "logo": "Logo dosyasının formatı veya boyutu yanlış, WEBP veya JPG olmalı ve dosya boyutu 90 kb'den küçük olmalıdır.",
             "preview": "Önizleme dosyasının biçimi veya boyutu yanlış, bir resim olmalı ve dosya boyutu 90 kb'den küçük olmalıdır",
             "pleaseSignInFirst": "Lütfen önce oturum açın"
+        },
+        "connect": {
+            "confirmBoxTitle": "",
+            "confirmBoxSubtitle": "",
+            "confirmBtnTxt": "",
+            "disconnectBtnTxt": "",
+            "connectBtnTxt": "",
+            "unpublishBtnTxt": "",
+            "direct": "",
+            "estateOccupied": ""
+        },
+        "placement": {
+            "title": "",
+            "subtitle": "",
+            "legend": {
+                "available": "",
+                "notAvailable": "",
+                "fit": "",
+                "notFit": "",
+                "placed": ""
+            },
+            "modals": {
+                "connectToXp": {
+                    "affirmativeBtnTxt": ""
+                },
+                "congratulations": {
+                    "affirmativeBtnTxt": ""
+                },
+                "disconnectXp": {
+                    "affirmativeBtnTxt": ""
+                }
+            }
         }
     },
     "experience": {
@@ -3658,13 +3734,158 @@
             "collection": "Avatar collection gating",
             "collectionToGate": "Kapıya koleksiyon",
             "defaultAvatar": "Example avatar",
-            "displayedAsPreview": "Kullanıcı belirtilen koleksiyondan bir avatara sahip olmadığında bu bir önizleme olarak gösterilecektir."
+            "displayedAsPreview": "Kullanıcı belirtilen koleksiyondan bir avatara sahip olmadığında bu bir önizleme olarak gösterilecektir.",
+            "fullName": "",
+            "thumbnail": "",
+            "logo": "",
+            "logoOptimalDimensions": "",
+            "bannerOptimalDimensions": "",
+            "thumbnailOptimalDimensions": "",
+            "addBannerImage": "",
+            "optimalDimensions": "",
+            "experienceUpdated": "",
+            "errors": {
+                "titleIsRequired": ""
+            },
+            "bannerLoaded": "",
+            "logoLoaded": "",
+            "thumbnailLoaded": "",
+            "errorImageSize": ""
         },
         "publish": {
             "title": "Deneyimi yayınla"
         },
         "edit": {
             "title": "Deneyimi düzenle"
+        },
+        "inventoryCard": {
+            "tooltips": {
+                "connected": "",
+                "tooSmall": "",
+                "published": ""
+            },
+            "status": {
+                "locationOccupied": "",
+                "locationCommited": "",
+                "locationTooSmall": ""
+            }
+        },
+        "location": {
+            "publish": "",
+            "unpublish": "",
+            "publishDescription": "",
+            "unpublishDescription": "",
+            "landOccupiedTitle": "",
+            "estateOcuppied": "",
+            "landOccupied": "",
+            "choose": "",
+            "chooseLocation": "",
+            "chooseLand": "",
+            "chooseEstate": "",
+            "selectLand": "",
+            "selectEstate": "",
+            "showAvailable": "",
+            "empty": {
+                "all": {
+                    "title": "",
+                    "description": ""
+                },
+                "estates": {
+                    "title": "",
+                    "description": ""
+                },
+                "lands": {
+                    "title": "",
+                    "description": ""
+                }
+            },
+            "connect": {
+                "successMsg": "",
+                "errorMsg": ""
+            },
+            "disconnect": {
+                "successMsg": "",
+                "errorMsg": ""
+            },
+            "pageTitle": "",
+            "placement": {
+                "pageTitle": ""
+            }
+        },
+        "disconnect": "",
+        "hub": {
+            "versionSelectorText": "",
+            "featureStatus": {
+                "ready": "",
+                "pending": ""
+            },
+            "checklistCards": {
+                "assetReview": {
+                    "title": "",
+                    "description": "",
+                    "allAssetsOk": "",
+                    "someNeedReview": ""
+                },
+                "locationSelection": {
+                    "title": "",
+                    "description": "",
+                    "buttonText": "",
+                    "alreadyConnected": "",
+                    "availableLocations": "",
+                    "alreadyConnectedDescription": "",
+                    "disconnect": "",
+                    "edit": ""
+                },
+                "accessControl": {
+                    "title": "",
+                    "description": "",
+                    "buttonText": ""
+                },
+                "contentWarning": {
+                    "title": "",
+                    "description": "",
+                    "buttonText": ""
+                },
+                "playPage": {
+                    "title": "",
+                    "description": "",
+                    "buttonText": ""
+                }
+            },
+            "pageTitle": ""
+        },
+        "gating": {
+            "timestamp": "",
+            "token": "",
+            "collection": "",
+            "successfulConfiguration": "",
+            "placeholders": {
+                "token": ""
+            }
+        },
+        "assetReview": {
+            "title": "Asset Review",
+            "subtitle": "Check every asset is minted and own by you.",
+            "searchName": "Search by name",
+            "assetsTotal": "No assets | {count} Asset | {count} Assets",
+            "loading": "Loading assets...",
+            "filter": {
+                "all": "All",
+                "equipment": "Equipments",
+                "entity": "Entities",
+                "art": "Arts"
+            },
+            "actions": {
+                "editInGameMaker": "Edit in Game Maker",
+                "mint": "Mint",
+                "addToCart": "Add to Cart"
+            },
+            "statusBar": {
+                "toBuy": "{count} To Buy",
+                "unavailable": "{count} Unavailable",
+                "toMint": "{count} To Mint",
+                "ready": "{count} Ready"
+            }
         }
     },
     "map": {
@@ -3954,7 +4175,8 @@
                 "goToMap": "Go to Map",
                 "joinRegular": "Join Regular",
                 "joinPremium": "Join Premium",
-                "joinBoth": "Join Both"
+                "joinBoth": "Join Both",
+                "exploreLANDSale": "Explore LAND Sale"
             },
             "header": {
                 "titles": {
@@ -4011,7 +4233,8 @@
                 "subtitle2": "These are California Dreamin’ and you never need to wake up!",
                 "subtitle3": "You are not whitelisted for the LAND Sale. You can still get a LAND through auctions or on Secondary Market",
                 "notLoggedInAndResultsArePublic": "Log in to check if you are whitelisted for {partner} LAND Sale",
-                "boughtSubtitle": "Congratulations, you are a LAND Owner! You can get more LAND on Secondary Market."
+                "boughtSubtitle": "Congratulations, you are a LAND Owner! You can get more LAND on Secondary Market.",
+                "title": "Welcome to the {partner} LAND Sale!"
             },
             "timeline": {
                 "raffle": "Raffle",
@@ -4677,6 +4900,35 @@
                         "paragraph": "After the transaction is approved it might take between 3-10 minutes for the metadata to be updated. Try refreshing the site after 10 minutes."
                     }
                 }
+            },
+            "layout": {
+                "partner": "Partner",
+                "howDoesItWork": "How does it work?",
+                "summary": "Summary",
+                "map": "Map"
+            },
+            "mapPage": {
+                "goToMap": "",
+                "countCards": {
+                    "premiumLands": "",
+                    "regularLands": "",
+                    "3x3Estates": "",
+                    "6x6Estates": ""
+                },
+                "infoCards": {
+                    "card1": {
+                        "title": "",
+                        "subtitle": "",
+                        "description": "",
+                        "button": ""
+                    },
+                    "card2": {
+                        "title": "",
+                        "subtitle": "",
+                        "description": "",
+                        "button": ""
+                    }
+                }
             }
         },
         "filters": {
@@ -5000,7 +5252,12 @@
                         "text2": "varlıklar kazanmak için"
                     }
                 }
-            }
+            },
+            "connectToXp": "",
+            "connectToXpDescription": "",
+            "congratulations": "",
+            "disconnectExperience": "",
+            "disconnectExperienceDescription": ""
         },
         "blog": {
             "meta": {
@@ -5092,11 +5349,11 @@
             "claim": "Talepler",
             "bridge": "Köprü",
             "badges": "Rozet",
-            "account": "",
-            "wallet": "",
-            "migrations": "",
-            "menu_settings": "",
-            "security": ""
+            "account": "Account",
+            "wallet": "Wallet",
+            "migrations": "Migrations",
+            "menu_settings": "General Settings",
+            "security": "Security"
         },
         "profile": {
             "sandAmount": "Senin",
@@ -5180,7 +5437,7 @@
                 "line": "{0}{1}{2} {3}",
                 "get": "Al "
             },
-            "meta": ""
+            "meta": "My Account"
         },
         "inventory": {
             "noAssets": "Envanterinizde varlığınız bulunmamakta.",
@@ -5491,15 +5748,15 @@
             "noResultEntity": "Herhangi bir kimliğin yok",
             "buyAvatarButtonText": "Buy on Opensea",
             "collectionGroup": {
-                "feature": "",
-                "internal": "",
-                "external": ""
+                "feature": "Feature",
+                "internal": "Internal",
+                "external": "External"
             },
             "getMoreAvatarsButtonText": "Get More Avatars",
             "noNftsFooter": {
-                "titleNormal": "",
-                "titleBlue": "",
-                "description": ""
+                "titleNormal": "Own your",
+                "titleBlue": "unique identity",
+                "description": "Choose a unique identity from our exclusive Avatar Collections and enjoy special benefits!"
             },
             "connectWalletFooter": {
                 "titleNormal": "Check",
@@ -5995,7 +6252,8 @@
                     "usernameOrEmail": "Username or Email",
                     "password": "Password",
                     "provider-mismatch": "Seems that you registered with our previous social provider Venly. Please try the process again choosing Sign in with a Wallet, then select Venly to continue.",
-                    "user-wallet-browser": "IMPORTANT"
+                    "user-wallet-browser": "IMPORTANT",
+                    "social-loading": "Validating your account"
                 },
                 "signin": {
                     "action": "Sign in",
@@ -6005,7 +6263,9 @@
                     "signin-with-wallet": "Connect with a wallet",
                     "signin-with-email": "Sign in with an email",
                     "divider": "Or",
-                    "forgot-password": "Forgot password?"
+                    "forgot-password": "Forgot password?",
+                    "login-collision-1": "Oops, it looks like your email is already registered with another Sign up option.",
+                    "login-collision-2": "Try to login using Email and Password or connecting a wallet."
                 },
                 "wallet-choice": {
                     "highlight": "Popular"
@@ -6147,7 +6407,7 @@
                     "summary": "Özet"
                 }
             },
-            "viewLand": "",
+            "viewLand": "view LAND",
             "checkboxs": {
                 "setAssetArt": "Set Asset type to Art",
                 "setAssetBasic": "Set Asset as Basic",
@@ -6173,7 +6433,8 @@
             "sand": "SAND",
             "msand": "SAND",
             "eth": "ETH",
-            "matic": "MATIC"
+            "matic": "MATIC",
+            "attributes": ""
         },
         "products": {
             "product": "Ürün Sürümleri",
@@ -6337,9 +6598,37 @@
             "seasonPass": "Sezon Bileti'ne sahip olmadığın için bu deneyim kilitlendi",
             "warning": "Missing access to this land, you need the following:",
             "collection": "Collection",
-            "token": "NFT"
+            "token": "NFT",
+            "accessRestrictions": "",
+            "setUpGatingHub": ""
         },
-        "creatorWebsite": "Website"
+        "creatorWebsite": "Website",
+        "assetsIncludedTitle": "",
+        "mapDescription": "",
+        "metadata": "",
+        "opened": "",
+        "setUpAssetsFromGM": "",
+        "uploadFiles": {
+            "fileUploaded": "",
+            "selectFile": "",
+            "uploadLogo": "",
+            "uploadThumbnail": "",
+            "uploadBanner": "",
+            "dragAndDrop": "",
+            "imageFormat": "",
+            "addVideo": "",
+            "addMainVideo": "",
+            "addContent": "",
+            "filesLimit": "",
+            "multimedia": "",
+            "onlyMainVideoRequired": "",
+            "maxAmount": "",
+            "filesUploaded": "",
+            "mainVideo": "",
+            "reserved": "",
+            "video": "",
+            "image": ""
+        }
     },
     "collectionPage": {
         "goBack": "Geri",
@@ -10427,7 +10716,9 @@
                     }
                 }
             }
-        }
+        },
+        "assetsQuantity": "ASSET",
+        "landsQuantity": "LAND"
     },
     "season.info.communityBooster.bulletPoints.1.3": {
         "3": ""
@@ -12559,7 +12850,7 @@
             "date": "DATE",
             "searchInput": "Search by role",
             "menuAction": {
-                "deleteInvite": "",
+                "deleteInvite": "Delete Invitation",
                 "deleteInvitation": "Delete Invitation"
             },
             "metaEdit": "Edit",
@@ -12583,7 +12874,12 @@
             "wantToRemove": "Bu işyerini Yöneticiden kaldırmak istiyor musunuz?",
             "wantToRemoveDescription": "Ekibinizi kaldırmak, tüm kullanıcıları ve yöneticileri ekibinizden kaldırır. Bir çalışma alanını silme eylemi KALICIDIR ve bununla ilişkili veriler kurtarılamaz.",
             "wantToRemoveLink": "Bu işyerini kalıcı olarak silmek istiyorum",
-            "create": "Create"
+            "create": "Create",
+            "transferType": "Transfer ownership",
+            "approvalFlows": {
+                "manual": "Manual",
+                "automatic": "Automatic"
+            }
         },
         "roles": {
             "modal": {
@@ -12691,7 +12987,11 @@
             "stats": {
                 "copies": "KOPYALAR",
                 "behavior": "DAVRANIŞ",
-                "none": "YOK"
+                "none": "YOK",
+                "mintUpTo": " '' | Mint up to {copies} copy | Mint up to {copies} copies",
+                "max": "{copies} Max",
+                "gemsNotAllowed": "The Catalyst you selected for this asset does not allow Gems.",
+                "emptyGems": "Tap Edit to add gems to your assets."
             },
             "minting": {
                 "title": "VARLIKLAR {amount}"
@@ -12710,7 +13010,8 @@
                 "successGroupUnallocate": "{amount} varlık, çalışma alanında başarıyla ayrıldı",
                 "addAsset": "Add Asset",
                 "successfullyMove": " '' | An Asset has changed it's location in this workspace | {count} Assets have changed their location in this workspace.",
-                "subtitle": "Select the assets from your private workspace to add"
+                "subtitle": "Select the assets from your private workspace to add",
+                "title": "Select assets to move from your personal Workspace to this Workspace"
             },
             "history": {
                 "searchUser": "Kullanıcı ara",
@@ -12740,7 +13041,8 @@
                     "name": "NFT Tam Adı",
                     "description": "Tanım",
                     "placeDescription": "NFT açıklamasını girin",
-                    "placeName": "NFT adını girin"
+                    "placeName": "NFT adını girin",
+                    "descriptionSubt": "The description will be included on this asset's detail page"
                 },
                 "rarity": {
                     "behaviour": "Davranışlar",
@@ -12757,7 +13059,14 @@
                     "previousStep": "Önceki Adım",
                     "continue": "Devam et",
                     "skipAll": "Hepsini geç",
-                    "save": "Kaydet"
+                    "save": "Kaydet",
+                    "createyourAsset": "Create your Asset",
+                    "createAsset": "Create Asset",
+                    "setupLater": "Set up Later",
+                    "nftPremiumOrBasic": "Your NFT can be Basic or Premium.",
+                    "nftPremium": "- Premium NFTs have a Catalyst that defines their scarcity and their number of gem sockets.",
+                    "nftBasic": "- Basic NFTs can be Props or Art. They have no special utilities.",
+                    "rarityTitleNoWhitelist": "For now, you can only create Basic NFTs. Basics NFTs can be Props or Art and have no special utilities."
                 },
                 "tabs": {
                     "title1": "1. NFT'nizin adı nedir",
@@ -12770,7 +13079,8 @@
                     "subtitle3_1": "Katalizör, varlığınızın Aşamasını tanımlar, Mücevherlerle soketlenebilirler.",
                     "subtitle3_2": "Katman ne kadar yüksek olursa, yuva o kadar fazla olur.",
                     "subtitle4_1": "Her Mücevher, varlığınıza farklı bir nitelik kazandırır. Aynı türden ne kadar çok Mücevher alırsanız, o kadar çok nitelik kazanırsınız.",
-                    "subtitle4_2": "Katalizörün içine eklemek veya çıkarmak için mücevherlerinizi sürükleyin veya tıklayın."
+                    "subtitle4_2": "Katalizörün içine eklemek veya çıkarmak için mücevherlerinizi sürükleyin veya tıklayın.",
+                    "title6": ""
                 },
                 "theme": {
                     "pickTheme": "Bir tema seçin",
@@ -12791,7 +13101,8 @@
                 "owner": "Yeni sahip seçin",
                 "search": "E-posta veya ada göre ara",
                 "transfer": "Transfer",
-                "input": "Insert username or email of the new owner"
+                "input": "Insert username or email of the new owner",
+                "transferDone": "Your asset has been successfully transfer"
             },
             "delete": {
                 "title": "Kalıcı olarak sil",
@@ -12812,8 +13123,16 @@
                 "message": "Sanatçıya bir yorum bırakın",
                 "explain": "Lütfen varlığı reddetme nedenlerinizi sanatçıya açıklayın",
                 "placeholderArea": "Yinelenen/reddetme nedeni yazın",
-                "reject": "Reddetmek",
-                "iterate": "Yinelemeye Gönder",
+                "reject": {
+                    "title": "Reject",
+                    "explain": "reject",
+                    "placeholder": "rejecting"
+                },
+                "iterate": {
+                    "title": "Request changes",
+                    "explain": "request changes",
+                    "placeholder": "iterating"
+                },
                 "comments": "YORUMLAR",
                 "general": "Asset approval",
                 "send": "Send",
@@ -12842,7 +13161,14 @@
                 "ban": "Varlıkları Yasakla",
                 "restore": "Onar",
                 "backToList": "Back to list view",
-                "publish": "Publish"
+                "publish": "Publish",
+                "behavior": "",
+                "published": "Published",
+                "notPublished": "Not Published",
+                "private": "Private",
+                "setPrivate": "Set as Private",
+                "setNotPrivate": "Remove private",
+                "publishToMint": "You have to publish the asset before minting it"
             },
             "pagination": {
                 "page": "Sayfa",
@@ -12876,7 +13202,7 @@
             "goMyWorkspace": "Go to my Workspace",
             "resumeUpload": "Resume upload",
             "leaveingUpload": "You are leaving the asset upload...",
-            "edit": "",
+            "edit": "Edit",
             "publishSuccess": "Asset published successfully",
             "moveSuccess": "Asset moved successfully",
             "Edit": "Edit",
@@ -12912,7 +13238,13 @@
                         "1": "Download Game Maker"
                     }
                 }
-            }
+            },
+            "searchNamePrivate": "Search by name",
+            "uploadingYourAsset": "Uploading your asset",
+            "privateSuccess": "Asset set as private successfully",
+            "unprivateSuccess": "Asset set as not private successfully",
+            "dragGems": "Drag or click in your gems to add or remove them inside the Catalyst.",
+            "infoDragGems": "Each Gem gives a different attribute to your asset. The more Gems of the same type, the more attributes you get."
         },
         "experiences": {
             "construction": "Bu bölüm geliştirilme aşamasındadır",
@@ -13468,8 +13800,8 @@
         "collections": "Koleksiyonlar",
         "sidebarcollections": "NFT KOLEKSİYONLARI",
         "exploreCollections": "Koleksiyonları Keşfet",
-        "exploreArts": "",
-        "exploreEquipments": ""
+        "exploreArts": "Explore All Arts",
+        "exploreEquipments": "Explore All Equipments"
     },
     "kyc": {
         "statuses": {
@@ -14317,7 +14649,7 @@
         "transactionDate": "Transaction date",
         "tokenId": "Token Id",
         "date": "Date",
-        "numberOfSales": "",
+        "numberOfSales": "# Sales",
         "averageSale": "AVG Sale",
         "highestSale": "Highest Sale",
         "owners": "Owners",
@@ -14341,7 +14673,7 @@
         "percentageOfSupple": "% of Supply",
         "latest": "Latest",
         "highest": "Highest",
-        "nfts": "",
+        "nfts": "ASSET",
         "tokenID": "Token ID",
         "market": "Market",
         "time": "Time",
