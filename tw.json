@@ -234,7 +234,7 @@
         "sandboxShort": "Sandbox",
         "lands": "LANDS",
         "close": "Close",
-        "regular": "",
+        "regular": "Regular",
         "selectOption": "Select an option | Select one or more options | ",
         "failed": "Something went wrong",
         "opensea": "OpenSea",
@@ -256,7 +256,21 @@
             "8": "September",
             "9": "October",
             "10": "November",
-            "11": "December"
+            "11": "December",
+            "abbreviation": {
+                "0": "Jan.",
+                "1": "Feb.",
+                "2": "Mar.",
+                "3": "Apr.",
+                "4": "May.",
+                "5": "Jun.",
+                "6": "Jul.",
+                "7": "Aug.",
+                "8": "Sep.",
+                "9": "Oct.",
+                "10": "Nov.",
+                "11": "Dec."
+            }
         },
         "markAsRequired": "Required",
         "verify": "Verify",
@@ -266,7 +280,22 @@
         "browserSupport": {
             "videoTag": "Your browser does not support the video tag."
         },
-        "sale": "Sale"
+        "sale": "Sale",
+        "richText": {
+            "placeholder": "Change this text...",
+            "title": "Title",
+            "bold": "Bold",
+            "italic": "Italic",
+            "underline": "Underline",
+            "alignLeft": "Align Left",
+            "alignRight": "Align Right",
+            "alignCenter": "Align Center",
+            "justify": "Justify",
+            "bulletList": "Bullet List",
+            "orderedList": "Ordered List",
+            "addImage": "Add Image"
+        },
+        "optional": "(Optional)"
     },
     "layout": {
         "topbar": {
@@ -576,6 +605,10 @@
             "btn2": "Create free avatar",
             "btn1SecondLabel": "Buy Now",
             "soldOutTag": "SOLD OUT"
+        },
+        "playboyBanner": {
+            "title": "MINT YOUR PLAYBOY PARTY PEOPLE",
+            "description": "Celebrating its 69th anniversary, Playboy and The Sandbox partnered up to bring sexy into the metaverse!"
         }
     },
     "season": {
@@ -615,12 +648,12 @@
                 "title": "歡迎來到《The Sandbox》內部 Alpha 版！",
                 "description": "元宇宙之門正逐漸敞開，我們需要你協助我們將這裡變成加密之地！在這裡填寫我們的意見回饋表單，就能賺取 1000 SAND！希望你玩得愉快！",
                 "buttonText": "這裡",
-                "dailyChallenge": "",
-                "dailyChallenges": "",
-                "goToMap": "",
-                "completed": "",
-                "missed": "",
-                "newThisWeek": ""
+                "dailyChallenge": "Daily Challenge",
+                "dailyChallenges": "Daily Challenges",
+                "goToMap": "Go To Map",
+                "completed": "Completed",
+                "missed": "Missed",
+                "newThisWeek": "New This Week"
             },
             "sidebarRight": {
                 "progressTitle": "最新進度",
@@ -719,11 +752,11 @@
                 "winnerDesc": "You won a S3 Alpha Pass"
             },
             "communityBooster": "Community Booster",
-            "day": "",
-            "needLogIn": "",
-            "eventsOfTheDay": "",
-            "boostRewards": "",
-            "to": ""
+            "day": "DAYS",
+            "needLogIn": "You need to be signed in to see your progress",
+            "eventsOfTheDay": "Social events of the day",
+            "boostRewards": "Boost rewards by staking",
+            "to": "TO"
         },
         "pass": {
             "title": "獎勵",
@@ -2202,6 +2235,11 @@
             },
             "leaderboard": {
                 "claimDesc": "Available from Nov. 29"
+            },
+            "claimModal": {
+                "title": "You have rewards available to claim!",
+                "button": "Go to Claims",
+                "disclaimer": "Do not ask me again"
             }
         },
         "leaderboard": {
@@ -2823,6 +2861,12 @@
                 "creator": "@thesandboxgame",
                 "image": "https://www.sandbox.game/images/logo.png"
             }
+        },
+        "assetOwnersList": {
+            "user": "User",
+            "chain": "Chain",
+            "quantity": "QTY",
+            "price": "Price"
         }
     },
     "create": {
@@ -3637,6 +3681,38 @@
             "logo": "標誌檔案格式或大小有誤，格式應為 WEBP 或 JPG，且檔案大小應小於 90KB",
             "preview": "預覽檔案格式或大小有誤，格式應為影像，且檔案大小應小於 90KB",
             "pleaseSignInFirst": "請先登入"
+        },
+        "connect": {
+            "confirmBoxTitle": "",
+            "confirmBoxSubtitle": "",
+            "confirmBtnTxt": "",
+            "disconnectBtnTxt": "",
+            "connectBtnTxt": "",
+            "unpublishBtnTxt": "",
+            "direct": "",
+            "estateOccupied": ""
+        },
+        "placement": {
+            "title": "",
+            "subtitle": "",
+            "legend": {
+                "available": "",
+                "notAvailable": "",
+                "fit": "",
+                "notFit": "",
+                "placed": ""
+            },
+            "modals": {
+                "connectToXp": {
+                    "affirmativeBtnTxt": ""
+                },
+                "congratulations": {
+                    "affirmativeBtnTxt": ""
+                },
+                "disconnectXp": {
+                    "affirmativeBtnTxt": ""
+                }
+            }
         }
     },
     "experience": {
@@ -3658,13 +3734,158 @@
             "collection": "Avatar collection gating",
             "collectionToGate": "Collection to gate",
             "defaultAvatar": "Example avatar",
-            "displayedAsPreview": "This will be displayed as a preview when the user does not own an avatar from the specified collection."
+            "displayedAsPreview": "This will be displayed as a preview when the user does not own an avatar from the specified collection.",
+            "fullName": "",
+            "thumbnail": "",
+            "logo": "",
+            "logoOptimalDimensions": "",
+            "bannerOptimalDimensions": "",
+            "thumbnailOptimalDimensions": "",
+            "addBannerImage": "",
+            "optimalDimensions": "",
+            "experienceUpdated": "",
+            "errors": {
+                "titleIsRequired": ""
+            },
+            "bannerLoaded": "",
+            "logoLoaded": "",
+            "thumbnailLoaded": "",
+            "errorImageSize": ""
         },
         "publish": {
             "title": "發佈體驗"
         },
         "edit": {
             "title": "編輯體驗"
+        },
+        "inventoryCard": {
+            "tooltips": {
+                "connected": "",
+                "tooSmall": "",
+                "published": ""
+            },
+            "status": {
+                "locationOccupied": "",
+                "locationCommited": "",
+                "locationTooSmall": ""
+            }
+        },
+        "location": {
+            "publish": "",
+            "unpublish": "",
+            "publishDescription": "",
+            "unpublishDescription": "",
+            "landOccupiedTitle": "",
+            "estateOcuppied": "",
+            "landOccupied": "",
+            "choose": "",
+            "chooseLocation": "",
+            "chooseLand": "",
+            "chooseEstate": "",
+            "selectLand": "",
+            "selectEstate": "",
+            "showAvailable": "",
+            "empty": {
+                "all": {
+                    "title": "",
+                    "description": ""
+                },
+                "estates": {
+                    "title": "",
+                    "description": ""
+                },
+                "lands": {
+                    "title": "",
+                    "description": ""
+                }
+            },
+            "connect": {
+                "successMsg": "",
+                "errorMsg": ""
+            },
+            "disconnect": {
+                "successMsg": "",
+                "errorMsg": ""
+            },
+            "pageTitle": "",
+            "placement": {
+                "pageTitle": ""
+            }
+        },
+        "disconnect": "",
+        "hub": {
+            "versionSelectorText": "",
+            "featureStatus": {
+                "ready": "",
+                "pending": ""
+            },
+            "checklistCards": {
+                "assetReview": {
+                    "title": "",
+                    "description": "",
+                    "allAssetsOk": "",
+                    "someNeedReview": ""
+                },
+                "locationSelection": {
+                    "title": "",
+                    "description": "",
+                    "buttonText": "",
+                    "alreadyConnected": "",
+                    "availableLocations": "",
+                    "alreadyConnectedDescription": "",
+                    "disconnect": "",
+                    "edit": ""
+                },
+                "accessControl": {
+                    "title": "",
+                    "description": "",
+                    "buttonText": ""
+                },
+                "contentWarning": {
+                    "title": "",
+                    "description": "",
+                    "buttonText": ""
+                },
+                "playPage": {
+                    "title": "",
+                    "description": "",
+                    "buttonText": ""
+                }
+            },
+            "pageTitle": ""
+        },
+        "gating": {
+            "timestamp": "",
+            "token": "",
+            "collection": "",
+            "successfulConfiguration": "",
+            "placeholders": {
+                "token": ""
+            }
+        },
+        "assetReview": {
+            "title": "Asset Review",
+            "subtitle": "Check every asset is minted and own by you.",
+            "searchName": "Search by name",
+            "assetsTotal": "No assets | {count} Asset | {count} Assets",
+            "loading": "Loading assets...",
+            "filter": {
+                "all": "All",
+                "equipment": "Equipments",
+                "entity": "Entities",
+                "art": "Arts"
+            },
+            "actions": {
+                "editInGameMaker": "Edit in Game Maker",
+                "mint": "Mint",
+                "addToCart": "Add to Cart"
+            },
+            "statusBar": {
+                "toBuy": "{count} To Buy",
+                "unavailable": "{count} Unavailable",
+                "toMint": "{count} To Mint",
+                "ready": "{count} Ready"
+            }
         }
     },
     "map": {
@@ -3954,7 +4175,8 @@
                 "goToMap": "Go to Map",
                 "joinRegular": "Join Regular",
                 "joinPremium": "Join Premium",
-                "joinBoth": "Join Both"
+                "joinBoth": "Join Both",
+                "exploreLANDSale": ""
             },
             "header": {
                 "titles": {
@@ -4011,7 +4233,8 @@
                 "subtitle2": "These are California Dreamin’ and you never need to wake up!",
                 "subtitle3": "You are not whitelisted for the LAND Sale. You can still get a LAND through auctions or on Secondary Market",
                 "notLoggedInAndResultsArePublic": "Log in to check if you are whitelisted for {partner} LAND Sale",
-                "boughtSubtitle": "Congratulations, you are a LAND Owner! You can get more LAND on Secondary Market."
+                "boughtSubtitle": "Congratulations, you are a LAND Owner! You can get more LAND on Secondary Market.",
+                "title": "Welcome to the {partner} LAND Sale!"
             },
             "timeline": {
                 "raffle": "Raffle",
@@ -4677,6 +4900,35 @@
                         "paragraph": "After the transaction is approved it might take between 3-10 minutes for the metadata to be updated. Try refreshing the site after 10 minutes."
                     }
                 }
+            },
+            "layout": {
+                "partner": "Partner",
+                "howDoesItWork": "How does it work?",
+                "summary": "Summary",
+                "map": "Map"
+            },
+            "mapPage": {
+                "goToMap": "",
+                "countCards": {
+                    "premiumLands": "",
+                    "regularLands": "",
+                    "3x3Estates": "",
+                    "6x6Estates": ""
+                },
+                "infoCards": {
+                    "card1": {
+                        "title": "",
+                        "subtitle": "",
+                        "description": "",
+                        "button": ""
+                    },
+                    "card2": {
+                        "title": "",
+                        "subtitle": "",
+                        "description": "",
+                        "button": ""
+                    }
+                }
             }
         },
         "filters": {
@@ -5000,7 +5252,12 @@
                         "text2": "以賺取並自訂 ASSET"
                     }
                 }
-            }
+            },
+            "connectToXp": "",
+            "connectToXpDescription": "",
+            "congratulations": "",
+            "disconnectExperience": "",
+            "disconnectExperienceDescription": ""
         },
         "blog": {
             "meta": {
@@ -5095,8 +5352,8 @@
             "account": "Account",
             "wallet": "Wallet",
             "migrations": "Migrations",
-            "menu_settings": "",
-            "security": ""
+            "menu_settings": "General Settings",
+            "security": "Security"
         },
         "profile": {
             "sandAmount": "你的",
@@ -5180,7 +5437,7 @@
                 "line": "{0}{1}{2} {3}",
                 "get": "Get "
             },
-            "meta": ""
+            "meta": "My Account"
         },
         "inventory": {
             "noAssets": "你的物品欄內沒有 ASSET。",
@@ -5491,15 +5748,15 @@
             "noResultEntity": "You don't have any entity",
             "buyAvatarButtonText": "Buy on Opensea",
             "collectionGroup": {
-                "feature": "",
-                "internal": "",
-                "external": ""
+                "feature": "Feature",
+                "internal": "Internal",
+                "external": "External"
             },
             "getMoreAvatarsButtonText": "Get More Avatars",
             "noNftsFooter": {
-                "titleNormal": "",
-                "titleBlue": "",
-                "description": ""
+                "titleNormal": "Own your",
+                "titleBlue": "unique identity",
+                "description": "Choose a unique identity from our exclusive Avatar Collections and enjoy special benefits!"
             },
             "connectWalletFooter": {
                 "titleNormal": "Check",
@@ -5711,7 +5968,7 @@
                 "oldEmailSub": "真實電子郵件",
                 "newEmailSub": "新電子郵件",
                 "infoNote": "新增你的姓名、變更你的暱稱並寫下超酷的描述，讓其他使用者更加認識你！",
-                "usernameInvalid": "",
+                "usernameInvalid": "Invalid Username",
                 "socialNote": "可以連接你的社群媒體，讓其他使用者能夠與看見你。",
                 "genericError": "發生一或多個錯誤。"
             },
@@ -5995,7 +6252,8 @@
                     "usernameOrEmail": "Username or Email",
                     "password": "Password",
                     "provider-mismatch": "Seems that you registered with our previous social provider Venly. Please try the process again choosing Sign in with a Wallet, then select Venly to continue.",
-                    "user-wallet-browser": "IMPORTANT"
+                    "user-wallet-browser": "IMPORTANT",
+                    "social-loading": "Validating your account"
                 },
                 "signin": {
                     "action": "Sign in",
@@ -6005,7 +6263,9 @@
                     "signin-with-wallet": "Connect with a wallet",
                     "signin-with-email": "Sign in with an email",
                     "divider": "Or",
-                    "forgot-password": "Forgot password?"
+                    "forgot-password": "Forgot password?",
+                    "login-collision-1": "Oops, it looks like your email is already registered with another Sign up option.",
+                    "login-collision-2": "Try to login using Email and Password or connecting a wallet."
                 },
                 "wallet-choice": {
                     "highlight": "Popular"
@@ -6147,7 +6407,7 @@
                     "summary": "摘要"
                 }
             },
-            "viewLand": "",
+            "viewLand": "view LAND",
             "checkboxs": {
                 "setAssetArt": "Set Asset type to Art",
                 "setAssetBasic": "Set Asset as Basic",
@@ -6173,7 +6433,8 @@
             "sand": "SAND",
             "msand": "SAND",
             "eth": "ETH",
-            "matic": "MATIC"
+            "matic": "MATIC",
+            "attributes": ""
         },
         "products": {
             "product": "Product Release",
@@ -6337,9 +6598,37 @@
             "seasonPass": "因為你沒有季度通行證，此體驗已鎖定",
             "warning": "Missing access to this land, you need the following:",
             "collection": "Collection",
-            "token": "NFT"
+            "token": "NFT",
+            "accessRestrictions": "",
+            "setUpGatingHub": ""
         },
-        "creatorWebsite": "網站"
+        "creatorWebsite": "網站",
+        "assetsIncludedTitle": "",
+        "mapDescription": "",
+        "metadata": "",
+        "opened": "",
+        "setUpAssetsFromGM": "",
+        "uploadFiles": {
+            "fileUploaded": "",
+            "selectFile": "",
+            "uploadLogo": "",
+            "uploadThumbnail": "",
+            "uploadBanner": "",
+            "dragAndDrop": "",
+            "imageFormat": "",
+            "addVideo": "",
+            "addMainVideo": "",
+            "addContent": "",
+            "filesLimit": "",
+            "multimedia": "",
+            "onlyMainVideoRequired": "",
+            "maxAmount": "",
+            "filesUploaded": "",
+            "mainVideo": "",
+            "reserved": "",
+            "video": "",
+            "image": ""
+        }
     },
     "collectionPage": {
         "goBack": "返回",
@@ -10426,7 +10715,9 @@
                     }
                 }
             }
-        }
+        },
+        "assetsQuantity": "ASSET",
+        "landsQuantity": "LAND"
     },
     "season.info.communityBooster.bulletPoints.1.3": {
         "3": ""
@@ -12558,7 +12849,7 @@
             "date": "DATE",
             "searchInput": "Search by role",
             "menuAction": {
-                "deleteInvite": "",
+                "deleteInvite": "Delete Invitation",
                 "deleteInvitation": "Delete Invitation"
             },
             "metaEdit": "Edit",
@@ -12582,7 +12873,12 @@
             "wantToRemove": "Do you want to remove this workplace from Administrator?",
             "wantToRemoveDescription": "Removing your team will remove all users and administrators from your team. The action of deleting a workspace is PERMANENT and the data associated with it cannot be recovered.",
             "wantToRemoveLink": "I want to delete this workplace permanently",
-            "create": "Create"
+            "create": "Create",
+            "transferType": "Transfer ownership",
+            "approvalFlows": {
+                "manual": "Manual",
+                "automatic": "Automatic"
+            }
         },
         "roles": {
             "modal": {
@@ -12690,7 +12986,11 @@
             "stats": {
                 "copies": "COPIES",
                 "behavior": "BEHAVIOR",
-                "none": "NONE"
+                "none": "NONE",
+                "mintUpTo": " '' | Mint up to {copies} copy | Mint up to {copies} copies",
+                "max": "{copies} Max",
+                "gemsNotAllowed": "The Catalyst you selected for this asset does not allow Gems.",
+                "emptyGems": "Tap Edit to add gems to your assets."
             },
             "minting": {
                 "title": "ASSETS {amount}"
@@ -12709,7 +13009,8 @@
                 "successGroupUnallocate": "{amount} assets were successfully unallocated in the workspace",
                 "addAsset": "Add Asset",
                 "successfullyMove": " '' | An Asset has changed it's location in this workspace | {count} Assets have changed their location in this workspace.",
-                "subtitle": "Select the assets from your private workspace to add"
+                "subtitle": "Select the assets from your private workspace to add",
+                "title": "Select assets to move from your personal Workspace to this Workspace"
             },
             "history": {
                 "searchUser": "Search user",
@@ -12739,7 +13040,8 @@
                     "name": "NFT Full Name",
                     "description": "Description",
                     "placeDescription": "Enter the NFT description",
-                    "placeName": "Enter the NFT name"
+                    "placeName": "Enter the NFT name",
+                    "descriptionSubt": "The description will be included on this asset's detail page"
                 },
                 "rarity": {
                     "behaviour": "Behaviour",
@@ -12756,7 +13058,14 @@
                     "previousStep": "Previous Step",
                     "continue": "Continue",
                     "skipAll": "Skip All",
-                    "save": "Save"
+                    "save": "Save",
+                    "createyourAsset": "Create your Asset",
+                    "createAsset": "Create Asset",
+                    "setupLater": "Set up Later",
+                    "nftPremiumOrBasic": "Your NFT can be Basic or Premium.",
+                    "nftPremium": "- Premium NFTs have a Catalyst that defines their scarcity and their number of gem sockets.",
+                    "nftBasic": "- Basic NFTs can be Props or Art. They have no special utilities.",
+                    "rarityTitleNoWhitelist": "For now, you can only create Basic NFTs. Basics NFTs can be Props or Art and have no special utilities."
                 },
                 "tabs": {
                     "title1": "1. What is your NFT's name",
@@ -12769,7 +13078,8 @@
                     "subtitle3_1": "The catalyst define the Tier of your asset, they can be socketed with Gems.",
                     "subtitle3_2": "The higher the Tier, the more sockets.",
                     "subtitle4_1": "Each Gem gives a different attribute to your asset. The more Gems of the same type, the more attributes you get.",
-                    "subtitle4_2": "Drag or click in your gems to add or remove then inside the Catalyst."
+                    "subtitle4_2": "Drag or click in your gems to add or remove then inside the Catalyst.",
+                    "title6": ""
                 },
                 "theme": {
                     "pickTheme": "Pick a theme",
@@ -12790,7 +13100,8 @@
                 "owner": "Select new owner",
                 "search": "Search by email or name",
                 "transfer": "Transfer",
-                "input": "Insert username or email of the new owner"
+                "input": "Insert username or email of the new owner",
+                "transferDone": "Your asset has been successfully transfer"
             },
             "delete": {
                 "title": "Delete permanently",
@@ -12811,8 +13122,16 @@
                 "message": "Leave a comment to the artist",
                 "explain": "Please explain the reasons you have, to reject the asset to the artist",
                 "placeholderArea": "Write an iterating/reject reason",
-                "reject": "Reject",
-                "iterate": "Send to Iterate",
+                "reject": {
+                    "title": "Reject",
+                    "explain": "reject",
+                    "placeholder": "rejecting"
+                },
+                "iterate": {
+                    "title": "Request changes",
+                    "explain": "request changes",
+                    "placeholder": "iterating"
+                },
                 "comments": "COMMENTS",
                 "general": "Asset approval",
                 "send": "Send",
@@ -12841,7 +13160,14 @@
                 "ban": "Ban Asset",
                 "restore": "Restore",
                 "backToList": "Back to list view",
-                "publish": "Publish"
+                "publish": "Publish",
+                "behavior": "",
+                "published": "Published",
+                "notPublished": "Not Published",
+                "private": "Private",
+                "setPrivate": "Set as Private",
+                "setNotPrivate": "Remove private",
+                "publishToMint": "You have to publish the asset before minting it"
             },
             "pagination": {
                 "page": "Page",
@@ -12911,7 +13237,13 @@
                         "1": "Download Game Maker"
                     }
                 }
-            }
+            },
+            "searchNamePrivate": "Search by name",
+            "uploadingYourAsset": "Uploading your asset",
+            "privateSuccess": "Asset set as private successfully",
+            "unprivateSuccess": "Asset set as not private successfully",
+            "dragGems": "Drag or click in your gems to add or remove them inside the Catalyst.",
+            "infoDragGems": "Each Gem gives a different attribute to your asset. The more Gems of the same type, the more attributes you get."
         },
         "experiences": {
             "construction": "This section is under development",
@@ -13467,8 +13799,8 @@
         "collections": "Collections",
         "sidebarcollections": "NFT COLLECTIONS",
         "exploreCollections": "Explore Collections",
-        "exploreArts": "",
-        "exploreEquipments": ""
+        "exploreArts": "Explore All Arts",
+        "exploreEquipments": "Explore All Equipments"
     },
     "kyc": {
         "statuses": {
@@ -14316,7 +14648,7 @@
         "transactionDate": "Transaction date",
         "tokenId": "Token Id",
         "date": "Date",
-        "numberOfSales": "",
+        "numberOfSales": "# Sales",
         "averageSale": "AVG Sale",
         "highestSale": "Highest Sale",
         "owners": "Owners",
@@ -14340,7 +14672,7 @@
         "percentageOfSupple": "% of Supply",
         "latest": "Latest",
         "highest": "Highest",
-        "nfts": "",
+        "nfts": "ASSET",
         "tokenID": "Token ID",
         "market": "Market",
         "time": "Time",
