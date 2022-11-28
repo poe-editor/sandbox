@@ -256,7 +256,21 @@
             "8": "September",
             "9": "October",
             "10": "November",
-            "11": "December"
+            "11": "December",
+            "abbreviation": {
+                "0": "Jan.",
+                "1": "Feb.",
+                "2": "Mar.",
+                "3": "Apr.",
+                "4": "May.",
+                "5": "Jun.",
+                "6": "Jul.",
+                "7": "Aug.",
+                "8": "Sep.",
+                "9": "Oct.",
+                "10": "Nov.",
+                "11": "Dec."
+            }
         },
         "markAsRequired": "Required",
         "verify": "Verify",
@@ -266,7 +280,22 @@
         "browserSupport": {
             "videoTag": "Your browser does not support the video tag."
         },
-        "sale": "Sale"
+        "sale": "Sale",
+        "richText": {
+            "placeholder": "Change this text...",
+            "title": "Title",
+            "bold": "Bold",
+            "italic": "Italic",
+            "underline": "Underline",
+            "alignLeft": "Align Left",
+            "alignRight": "Align Right",
+            "alignCenter": "Align Center",
+            "justify": "Justify",
+            "bulletList": "Bullet List",
+            "orderedList": "Ordered List",
+            "addImage": "Add Image"
+        },
+        "optional": "(Optional)"
     },
     "layout": {
         "topbar": {
@@ -576,6 +605,10 @@
             "btn2": "Create free avatar",
             "btn1SecondLabel": "Buy Now",
             "soldOutTag": "SOLD OUT"
+        },
+        "playboyBanner": {
+            "title": "MINT YOUR PLAYBOY PARTY PEOPLE",
+            "description": "Celebrating its 69th anniversary, Playboy and The Sandbox partnered up to bring sexy into the metaverse!"
         }
     },
     "season": {
@@ -2202,6 +2235,11 @@
             },
             "leaderboard": {
                 "claimDesc": "Available from Nov. 29"
+            },
+            "claimModal": {
+                "title": "You have rewards available to claim!",
+                "button": "Go to Claims",
+                "disclaimer": "Do not ask me again"
             }
         },
         "leaderboard": {
@@ -2823,6 +2861,12 @@
                 "creator": "@thesandboxgame",
                 "image": "https://www.sandbox.game/images/logo.png"
             }
+        },
+        "assetOwnersList": {
+            "user": "User",
+            "chain": "Chain",
+            "quantity": "QTY",
+            "price": "Price"
         }
     },
     "create": {
@@ -3637,6 +3681,38 @@
             "logo": "The format or size of the logo file is incorrect, it should be WEBP or JPG and the file size should be less than 90kb",
             "preview": "The format or size of the preview file is incorrect, it should be an image and the file size should be less than 90kb",
             "pleaseSignInFirst": "Please sign in first"
+        },
+        "connect": {
+            "confirmBoxTitle": "These lands are about to be connected to the experience",
+            "confirmBoxSubtitle": "Do you wish to continue?",
+            "confirmBtnTxt": "Confirm Connection",
+            "disconnectBtnTxt": "Disconnect",
+            "connectBtnTxt": "Connect",
+            "unpublishBtnTxt": "Unpublish",
+            "direct": "This ESTATE is about to be connected to the experience",
+            "estateOccupied": "This ESTATE is occupied"
+        },
+        "placement": {
+            "title": "Locate your Experience",
+            "subtitle": "Click over a position to place your experience in your purchased ESTATE",
+            "legend": {
+                "available": "Available",
+                "notAvailable": "Not available",
+                "fit": "Fit",
+                "notFit": "Not fit",
+                "placed": "Placed"
+            },
+            "modals": {
+                "connectToXp": {
+                    "affirmativeBtnTxt": "Confirm"
+                },
+                "congratulations": {
+                    "affirmativeBtnTxt": "Continue"
+                },
+                "disconnectXp": {
+                    "affirmativeBtnTxt": "Confirm"
+                }
+            }
         }
     },
     "experience": {
@@ -3658,13 +3734,158 @@
             "collection": "Avatar collection gating",
             "collectionToGate": "Collection to gate",
             "defaultAvatar": "Example avatar",
-            "displayedAsPreview": "This will be displayed as a preview when the user does not own an avatar from the specified collection."
+            "displayedAsPreview": "This will be displayed as a preview when the user does not own an avatar from the specified collection.",
+            "fullName": "Experience Full Name",
+            "thumbnail": "Thumbnail",
+            "logo": "Logo",
+            "logoOptimalDimensions": "Optimal dimensions 200 x 200",
+            "bannerOptimalDimensions": "Optimal dimensions 2000 x 200",
+            "thumbnailOptimalDimensions": "Optimal dimensions 2000 x 2000",
+            "addBannerImage": "Banner",
+            "optimalDimensions": "Optimal dimensions 2000 x 200",
+            "experienceUpdated": "Experience was updated!",
+            "errors": {
+                "titleIsRequired": "Title is required"
+            },
+            "bannerLoaded": "The new banner was successfully loaded!",
+            "logoLoaded": "The new logo was successfully loaded!",
+            "thumbnailLoaded": "The new thumbnail was successfully loaded!",
+            "errorImageSize": "File size too big please use a lighter file (Maximum: 10 Mb)"
         },
         "publish": {
             "title": "Publish experience"
         },
         "edit": {
             "title": "Edit experience"
+        },
+        "inventoryCard": {
+            "tooltips": {
+                "connected": "This LAND or ESTATE has experiences connected",
+                "tooSmall": "This LAND or ESTATE is too small for this experience.",
+                "published": "This LAND has already one experience published there."
+            },
+            "status": {
+                "locationOccupied": "Occupied",
+                "locationCommited": "Commited",
+                "locationTooSmall": "Too Small"
+            }
+        },
+        "location": {
+            "publish": "Publish",
+            "unpublish": "Unpublish",
+            "publishDescription": "You are about to publish your experience",
+            "unpublishDescription": "You are about to unpublish your experience",
+            "landOccupiedTitle": "This LAND is occupied",
+            "estateOcuppied": "This Estate is already hosting a published experience, and it has not enough free space. You can edit the location of the Experience to free the ESTATE or you can se the list of available ESTATEs.",
+            "landOccupied": "You already published an Experience and the LAND is full. You can edit the location of the Experience to free the LAND or you can buy more LAND..",
+            "choose": "Choose",
+            "chooseLocation": "Select a location to place your Experience",
+            "chooseLand": "Choose an LAND to connect Experience",
+            "chooseEstate": "Choose an ESTATE to connect Experience",
+            "selectLand": "Choose LAND",
+            "selectEstate": "Choose ESTATE",
+            "showAvailable": "Show available only",
+            "empty": {
+                "all": {
+                    "title": "You don't have any LAND or ESTATE in your inventory",
+                    "description": "In order to locate your experience you need to have LAND available in the wallet linked to this account. If you don't own any LAND you can always buy one."
+                },
+                "estates": {
+                    "title": "You don't have any ESTATE in your inventory",
+                    "description": "In order to locate your experience you need to have LAND available in the wallet linked to this account. If you don't own any LAND you can always buy one."
+                },
+                "lands": {
+                    "title": "You don't have any LAND in your inventory",
+                    "description": "In order to locate your experience you need to have LAND available in the wallet linked to this account. If you don't own any LAND you can always buy one."
+                }
+            },
+            "connect": {
+                "successMsg": "The experience was linked succesfully!",
+                "errorMsg": "Could not link experience. {reason}"
+            },
+            "disconnect": {
+                "successMsg": "The experience was disconnected!",
+                "errorMsg": "Could not disconnect experience. {reason}"
+            },
+            "pageTitle": "Sandbox - Experience Location",
+            "placement": {
+                "pageTitle": "Sandbox - Experience Placement"
+            }
+        },
+        "disconnect": "This experience is about to be disconnected with the location.",
+        "hub": {
+            "versionSelectorText": "Version:",
+            "featureStatus": {
+                "ready": "Ready",
+                "pending": "Pending"
+            },
+            "checklistCards": {
+                "assetReview": {
+                    "title": "Asset Review",
+                    "description": "Make sure you have ownership and every asset is minted before publishing.",
+                    "allAssetsOk": "Assets Ready",
+                    "someNeedReview": "Assets Ready | 1 asset to review | {count} assets to review"
+                },
+                "locationSelection": {
+                    "title": "Location Selection",
+                    "description": "You need to select a LAND or ESTATE to host the Experience.",
+                    "buttonText": "Position",
+                    "alreadyConnected": "This experience is already connected!",
+                    "availableLocations": "no locations available | 1 location available | {count} location available",
+                    "alreadyConnectedDescription": "You already placed your Experience. You can edit the location here.",
+                    "disconnect": "Disconnect",
+                    "edit": "Edit"
+                },
+                "accessControl": {
+                    "title": "Access Control",
+                    "description": "You can establish a gating criteria to access your Experience.",
+                    "buttonText": "Set up"
+                },
+                "contentWarning": {
+                    "title": "Content Warning",
+                    "description": "You can set up Content Warning if needed.",
+                    "buttonText": "Set up"
+                },
+                "playPage": {
+                    "title": "Playpage",
+                    "description": "A Playpage is created automatically to promote your Experience.",
+                    "buttonText": "Share"
+                }
+            },
+            "pageTitle": "Sandbox - Experience Hub"
+        },
+        "gating": {
+            "timestamp": "Timestamp",
+            "token": "Token ID",
+            "collection": "Collection",
+            "successfulConfiguration": "The gating was set successfully!",
+            "placeholders": {
+                "token": "Enter the token id"
+            }
+        },
+        "assetReview": {
+            "title": "Asset Review",
+            "subtitle": "Check every asset is minted and own by you.",
+            "searchName": "Search by name",
+            "assetsTotal": "No assets | {count} Asset | {count} Assets",
+            "loading": "Loading assets...",
+            "filter": {
+                "all": "All",
+                "equipment": "Equipments",
+                "entity": "Entities",
+                "art": "Arts"
+            },
+            "actions": {
+                "editInGameMaker": "Edit in Game Maker",
+                "mint": "Mint",
+                "addToCart": "Add to Cart"
+            },
+            "statusBar": {
+                "toBuy": "{count} To Buy",
+                "unavailable": "{count} Unavailable",
+                "toMint": "{count} To Mint",
+                "ready": "{count} Ready"
+            }
         }
     },
     "map": {
@@ -3954,7 +4175,8 @@
                 "goToMap": "Go to Map",
                 "joinRegular": "Join Regular",
                 "joinPremium": "Join Premium",
-                "joinBoth": "Join Both"
+                "joinBoth": "Join Both",
+                "exploreLANDSale": "Explore LAND Sale"
             },
             "header": {
                 "titles": {
@@ -4011,12 +4233,13 @@
                 "subtitle2": "These are California Dreamin’ and you never need to wake up!",
                 "subtitle3": "You are not whitelisted for the LAND Sale. You can still get a LAND through auctions or on Secondary Market",
                 "notLoggedInAndResultsArePublic": "Log in to check if you are whitelisted for {partner} LAND Sale",
-                "boughtSubtitle": "Congratulations, you are a LAND Owner! You can get more LAND on Secondary Market."
+                "boughtSubtitle": "Congratulations, you are a LAND Owner! You can get more LAND on Secondary Market.",
+                "title": "Welcome to the {partner} LAND Sale!"
             },
             "timeline": {
                 "raffle": "Raffle Results",
                 "registration": "Register",
-                "registerUntil": "{date}",
+                "registerUntil": "Until {date}",
                 "wlSale": "WL Sale",
                 "publicSale": "Public Sale",
                 "publicSaleOpens": "Public sale opens 24 hours after the allowlist sale",
@@ -4677,6 +4900,35 @@
                         "paragraph": "After the transaction is approved it might take between 3-10 minutes for the metadata to be updated. Try refreshing the site after 10 minutes."
                     }
                 }
+            },
+            "layout": {
+                "partner": "Partner",
+                "howDoesItWork": "How does it work?",
+                "summary": "Summary",
+                "map": "Map"
+            },
+            "mapPage": {
+                "goToMap": "Go to Map",
+                "countCards": {
+                    "premiumLands": "PREMIUM LANDS",
+                    "regularLands": "REGULAR LANDS",
+                    "3x3Estates": "3x3 ESTATES",
+                    "6x6Estates": "6x6 ESTATES"
+                },
+                "infoCards": {
+                    "card1": {
+                        "title": "How to get more Lands",
+                        "subtitle": "Secondary Market",
+                        "description": "Many users resell their LANDs as an investment. You can get LAND from other users through the secondary market. Buy your dream LAND at OpenSea.",
+                        "button": "Buy Land"
+                    },
+                    "card2": {
+                        "title": "Care Bears Estates Auction",
+                        "subtitle": "Get an ESTATE and start building the Metaverse.",
+                        "description": "An ESTATE is a group of LANDs where you can build and monetize experiences. The auction starts on {month} {time} UTC at OpenSea.",
+                        "button": "ESTATEs Auction"
+                    }
+                }
             }
         },
         "filters": {
@@ -5000,7 +5252,12 @@
                         "text2": "to earn and customize assets"
                     }
                 }
-            }
+            },
+            "connectToXp": "Connect Experience to Location",
+            "connectToXpDescription": "You are about to place your Experience in a LAND/ESTATE. This is going to be its location in the metaverse once you decide to publish it.",
+            "congratulations": "Your Experience is connected to a Location. You are one step closer to publish your Experience in the metaverse.",
+            "disconnectExperience": "Disconnect Experience from Location",
+            "disconnectExperienceDescription": "You are about to disconnect your Experience from its Location. If the Experience is published, by disconnecting it you are also unpublishing it."
         },
         "blog": {
             "meta": {
@@ -5995,7 +6252,8 @@
                     "usernameOrEmail": "Username or Email",
                     "password": "Password",
                     "provider-mismatch": "Seems that you registered with our previous social provider Venly. Please try the process again choosing Sign in with a Wallet, then select Venly to continue.",
-                    "user-wallet-browser": "IMPORTANT"
+                    "user-wallet-browser": "IMPORTANT",
+                    "social-loading": "Validating your account"
                 },
                 "signin": {
                     "action": "Sign in",
@@ -6005,7 +6263,9 @@
                     "signin-with-wallet": "Connect with a wallet",
                     "signin-with-email": "Sign in with an email",
                     "divider": "Or",
-                    "forgot-password": "Forgot password?"
+                    "forgot-password": "Forgot password?",
+                    "login-collision-1": "Oops, it looks like your email is already registered with another Sign up option.",
+                    "login-collision-2": "Try to login using Email and Password or connecting a wallet."
                 },
                 "wallet-choice": {
                     "highlight": "Popular"
@@ -6173,7 +6433,8 @@
             "sand": "SAND",
             "msand": "SAND",
             "eth": "ETH",
-            "matic": "MATIC"
+            "matic": "MATIC",
+            "attributes": "ATTRIBUTES"
         },
         "products": {
             "product": "Product Release",
@@ -6337,9 +6598,37 @@
             "seasonPass": "This experience is locked because you don’t have the Season Pass",
             "warning": "Missing access to this land, you need the following:",
             "collection": "Collection",
-            "token": "NFT"
+            "token": "NFT",
+            "accessRestrictions": "Access restrictions",
+            "setUpGatingHub": "Set up gating from the experience hub"
         },
-        "creatorWebsite": "Website"
+        "creatorWebsite": "Website",
+        "assetsIncludedTitle": "Assets included",
+        "mapDescription": "Short map description",
+        "metadata": "(Metadata)",
+        "opened": "Opened:",
+        "setUpAssetsFromGM": "Set up the assets from the gamer maker",
+        "uploadFiles": {
+            "fileUploaded": "Your file uploaded succesfully",
+            "selectFile": "Select your file to upload here",
+            "uploadLogo": "Upload your logo here",
+            "uploadThumbnail": "Upload your thumbnail here",
+            "uploadBanner": "Upload your banner here",
+            "dragAndDrop": "Drag and frop or browse to choose your image here.",
+            "imageFormat": "JPEG, PNG. Optimal Dimension 2000 x 2000",
+            "addVideo": "Add link from Youtube URL",
+            "addMainVideo": "Add main video",
+            "addContent": "Add content",
+            "filesLimit": "Upload until 12 videos or images, including the main video.",
+            "multimedia": "Multimedia files",
+            "onlyMainVideoRequired": "(Only the Main video is required)",
+            "maxAmount": "(max amount: 12 files)",
+            "filesUploaded": "{0} files uploaded",
+            "mainVideo": "Main video",
+            "reserved": "Reserved",
+            "video": "Video",
+            "image": "Image"
+        }
     },
     "collectionPage": {
         "goBack": "Back",
@@ -10427,7 +10716,9 @@
                     }
                 }
             }
-        }
+        },
+        "assetsQuantity": "ASSET",
+        "landsQuantity": "LAND"
     },
     "season.info.communityBooster.bulletPoints.1.3": {
         "3": ""
@@ -12583,7 +12874,12 @@
             "wantToRemove": "Do you want to remove this workplace from Administrator?",
             "wantToRemoveDescription": "Removing your team will remove all users and administrators from your team. The action of deleting a workspace is PERMANENT and the data associated with it cannot be recovered.",
             "wantToRemoveLink": "I want to delete this workplace permanently",
-            "create": "Create"
+            "create": "Create",
+            "transferType": "Transfer ownership",
+            "approvalFlows": {
+                "manual": "Manual",
+                "automatic": "Automatic"
+            }
         },
         "roles": {
             "modal": {
@@ -12691,7 +12987,11 @@
             "stats": {
                 "copies": "COPIES",
                 "behavior": "BEHAVIOR",
-                "none": "None"
+                "none": "None",
+                "mintUpTo": " '' | Mint up to {copies} copy | Mint up to {copies} copies",
+                "max": "{copies} Max",
+                "gemsNotAllowed": "The Catalyst you selected for this asset does not allow Gems.",
+                "emptyGems": "Tap Edit to add gems to your assets."
             },
             "minting": {
                 "title": "ASSETS {amount}"
@@ -12710,7 +13010,8 @@
                 "successGroupUnallocate": "{amount} assets were successfully unallocated in the workspace",
                 "addAsset": "Add Assets",
                 "successfullyMove": " '' | An Asset has changed it's location in this workspace | {count} Assets have changed their location in this workspace.",
-                "subtitle": "Select the assets from your private workspace to add"
+                "subtitle": "Select the assets from your private workspace to add",
+                "title": "Select assets to move from your personal Workspace to this Workspace"
             },
             "history": {
                 "searchUser": "Search user",
@@ -12740,7 +13041,8 @@
                     "name": "NFT Full Name",
                     "description": "Description",
                     "placeDescription": "Enter the NFT description",
-                    "placeName": "Enter the NFT name"
+                    "placeName": "Enter the NFT name",
+                    "descriptionSubt": "The description will be included on this asset's detail page"
                 },
                 "rarity": {
                     "behaviour": "Behaviour",
@@ -12757,7 +13059,14 @@
                     "previousStep": "Previous Step",
                     "continue": "Continue",
                     "skipAll": "Skip All",
-                    "save": "Save"
+                    "save": "Save",
+                    "createyourAsset": "Create your Asset",
+                    "createAsset": "Create Asset",
+                    "setupLater": "Set up Later",
+                    "nftPremiumOrBasic": "Your NFT can be Basic or Premium.",
+                    "nftPremium": "- Premium NFTs have a Catalyst that defines their scarcity and their number of gem sockets.",
+                    "nftBasic": "- Basic NFTs can be Props or Art. They have no special utilities.",
+                    "rarityTitleNoWhitelist": "For now, you can only create Basic NFTs. Basics NFTs can be Props or Art and have no special utilities."
                 },
                 "tabs": {
                     "title1": "1. Set Asset's information",
@@ -12770,7 +13079,8 @@
                     "subtitle3_1": "The catalyst define the Tier of your asset, they can be socketed with Gems.",
                     "subtitle3_2": "The higher the Tier, the more sockets.",
                     "subtitle4_1": "Each Gem gives a different attribute to your asset. The more Gems of the same type, the more attributes you get.",
-                    "subtitle4_2": "Drag or click in your gems to add or remove them inside the Catalyst."
+                    "subtitle4_2": "Drag or click in your gems to add or remove them inside the Catalyst.",
+                    "title6": "Choose the behavior of your NFT"
                 },
                 "theme": {
                     "pickTheme": "Pick a theme",
@@ -12791,7 +13101,8 @@
                 "owner": "Select new owner",
                 "search": "Search by email or name",
                 "transfer": "Transfer",
-                "input": "Insert username or email of the new owner"
+                "input": "Insert username or email of the new owner",
+                "transferDone": "Your asset has been successfully transfer"
             },
             "delete": {
                 "title": "Delete permanently",
@@ -12812,8 +13123,16 @@
                 "message": "Leave a comment to the artist",
                 "explain": "Please explain the reasons you have, to reject the asset to the artist",
                 "placeholderArea": "Write an iterating/reject reason",
-                "reject": "Reject",
-                "iterate": "Request changes",
+                "reject": {
+                    "title": "Reject",
+                    "explain": "reject",
+                    "placeholder": "rejecting"
+                },
+                "iterate": {
+                    "title": "Request changes",
+                    "explain": "request changes",
+                    "placeholder": "iterating"
+                },
                 "comments": "COMMENTS",
                 "general": "Asset approval",
                 "send": "Send",
@@ -12842,7 +13161,14 @@
                 "ban": "Ban Asset",
                 "restore": "Restore",
                 "backToList": "Back to list view",
-                "publish": "Publish"
+                "publish": "Publish",
+                "behavior": "Behavior",
+                "published": "Published",
+                "notPublished": "Not Published",
+                "private": "Private",
+                "setPrivate": "Set as Private",
+                "setNotPrivate": "Remove private",
+                "publishToMint": "You have to publish the asset before minting it"
             },
             "pagination": {
                 "page": "Page",
@@ -12912,7 +13238,13 @@
                         "1": "Download Game Maker"
                     }
                 }
-            }
+            },
+            "searchNamePrivate": "Search by name",
+            "uploadingYourAsset": "Uploading your asset",
+            "privateSuccess": "Asset set as private successfully",
+            "unprivateSuccess": "Asset set as not private successfully",
+            "dragGems": "Drag or click in your gems to add or remove them inside the Catalyst.",
+            "infoDragGems": "Each Gem gives a different attribute to your asset. The more Gems of the same type, the more attributes you get."
         },
         "experiences": {
             "construction": "This tab is under development",
