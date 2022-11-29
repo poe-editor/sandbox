@@ -258,18 +258,18 @@
             "10": "11월",
             "11": "12월",
             "abbreviation": {
-                "0": "Jan.",
-                "1": "Feb.",
-                "2": "Mar.",
-                "3": "Apr.",
-                "4": "May.",
-                "5": "Jun.",
-                "6": "Jul.",
-                "7": "Aug.",
-                "8": "Sep.",
-                "9": "Oct.",
-                "10": "Nov.",
-                "11": "Dec."
+                "0": "1월",
+                "1": "2월",
+                "2": "3월",
+                "3": "4월",
+                "4": "5월",
+                "5": "6월",
+                "6": "7월",
+                "7": "8월",
+                "8": "9월",
+                "9": "10월",
+                "10": "11월",
+                "11": "12월"
             }
         },
         "markAsRequired": "필요",
@@ -3814,7 +3814,7 @@
         },
         "disconnect": "This experience is about to be disconnected with the location.",
         "hub": {
-            "versionSelectorText": "Version:",
+            "versionSelectorText": "버전:",
             "featureStatus": {
                 "ready": "Ready",
                 "pending": "Pending"
@@ -3864,11 +3864,11 @@
             }
         },
         "assetReview": {
-            "title": "",
+            "title": "애셋 리뷰",
             "subtitle": "",
-            "searchName": "",
+            "searchName": "이름으로 검색",
             "assetsTotal": "",
-            "loading": "",
+            "loading": "애셋 로딩 중...",
             "filter": {
                 "all": "",
                 "equipment": "",
@@ -4397,7 +4397,7 @@
                         "remainingLands": "추첨에 당첨되었지만 LAND를 사지 않기로 결정한 당첨자가 있다면, 해당 LAND는 {publicAuctionStartDate} UTC에 경매를 통해 판매됩니다."
                     },
                     "buy": "LAND 구입",
-                    "search": "LAND 검색"
+                    "search": "판매 중인 LAND 찾아보기"
                 }
             },
             "KYC": {
@@ -4904,8 +4904,8 @@
             "layout": {
                 "partner": "Partner",
                 "howDoesItWork": "How does it work?",
-                "summary": "Summary",
-                "map": "Map"
+                "summary": "요약",
+                "map": "맵"
             },
             "mapPage": {
                 "goToMap": "",
@@ -4918,9 +4918,9 @@
                 "infoCards": {
                     "card1": {
                         "title": "",
-                        "subtitle": "",
+                        "subtitle": "2차 마켓",
                         "description": "",
-                        "button": ""
+                        "button": "LAND 구입"
                     },
                     "card2": {
                         "title": "",
@@ -6253,7 +6253,7 @@
                     "password": "패스워드",
                     "provider-mismatch": "이미 Venly를 이용하여 가입하셨습니다. 지갑으로 로그인 > Venly를 선택하여 다시 진행해 주세요.",
                     "user-wallet-browser": "중요",
-                    "social-loading": "Validating your account"
+                    "social-loading": "계정 인증하기"
                 },
                 "signin": {
                     "action": "로그인",
@@ -6434,7 +6434,7 @@
             "msand": "SAND",
             "eth": "ETH",
             "matic": "MATIC",
-            "attributes": ""
+            "attributes": "능력치"
         },
         "products": {
             "product": "상품 출시",
@@ -6603,7 +6603,7 @@
             "setUpGatingHub": "Set up gating from the experience hub"
         },
         "creatorWebsite": "웹사이트",
-        "assetsIncludedTitle": "Assets included",
+        "assetsIncludedTitle": "포함된 애셋",
         "mapDescription": "Short map description",
         "metadata": "(Metadata)",
         "opened": "Opened:",
@@ -6611,7 +6611,7 @@
         "uploadFiles": {
             "fileUploaded": "Your file uploaded succesfully",
             "selectFile": "Select your file to upload here",
-            "uploadLogo": "Upload your logo here",
+            "uploadLogo": "여기에 로고를 업로드해 주세요.",
             "uploadThumbnail": "Upload your thumbnail here",
             "uploadBanner": "Upload your banner here",
             "dragAndDrop": "Drag and frop or browse to choose your image here.",
@@ -12572,6 +12572,26 @@
                         }
                     }
                 }
+            },
+            "9": {
+                "date": "November 8, 2022 - Game Maker 0.7.9 changelog",
+                "title": "Bug Fixing and Enhancements",
+                "list": {
+                    "0": {
+                        "title": "Bug Fixing",
+                        "subtitle": "",
+                        "list": {
+                            "0": {
+                                "title": "Splash Screen UI: ",
+                                "subtitle": "A new Splash screen has been added."
+                            },
+                            "1": {
+                                "title": "Optimized Size: ",
+                                "subtitle": "Files were deducted from the build to make the installer lighter."
+                            }
+                        }
+                    }
+                }
             }
         }
     },
@@ -13159,9 +13179,9 @@
                 "restore": "복구하기",
                 "backToList": "목록으로 돌아가기",
                 "publish": "게시하기",
-                "behavior": "",
-                "published": "Published",
-                "notPublished": "Not Published",
+                "behavior": "행동",
+                "published": "게시됨",
+                "notPublished": "게시되지 않음",
                 "private": "Private",
                 "setPrivate": "Set as Private",
                 "setNotPrivate": "Remove private",
@@ -14129,7 +14149,9 @@
         "text146": "일본에 거주하거나 일본 IP를 사용하면서 콘테스트 및 다양한 활동에 참여할 경우, 일본 내 법률 규제에 따라 SAND 보상을 받을 수 없습니다.",
         "linkGiveawaysSummary": "기브어웨이 규정 요약",
         "linkGiveawaysOfficial": "기브어웨이 공식 규정",
-        "linkCryptoweenRules": "패리스 힐튼 크립토윈 공식 규정"
+        "linkCryptoweenRules": "패리스 힐튼 크립토윈 공식 규정",
+        "linkKuniverseRules": "Kuniverse official rules",
+        "linkSportslandRules": "SportsLand official rules"
     },
     "changelogVoxedit": {
         "2022": {
