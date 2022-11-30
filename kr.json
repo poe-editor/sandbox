@@ -287,9 +287,9 @@
             "bold": "Bold",
             "italic": "Italic",
             "underline": "Underline",
-            "alignLeft": "Align Left",
-            "alignRight": "Align Right",
-            "alignCenter": "Align Center",
+            "alignLeft": "왼쪽 맞춤",
+            "alignRight": "오른쪽 맞춤",
+            "alignCenter": "가운데 맞춤",
             "justify": "Justify",
             "bulletList": "Bullet List",
             "orderedList": "Ordered List",
@@ -607,8 +607,8 @@
             "soldOutTag": "SOLD OUT"
         },
         "playboyBanner": {
-            "title": "MINT YOUR PLAYBOY PARTY PEOPLE",
-            "description": "Celebrating its 69th anniversary, Playboy and The Sandbox partnered up to bring sexy into the metaverse!"
+            "title": "플레이보이 파티 피플 아바타 구매하기",
+            "description": "플레이보이 69주년을 기념하며, 메타버스를 한층 섹시하게!"
         }
     },
     "season": {
@@ -2237,9 +2237,9 @@
                 "claimDesc": "11월 30일부터 수령 가능"
             },
             "claimModal": {
-                "title": "You have rewards available to claim!",
-                "button": "Go to Claims",
-                "disclaimer": "Do not ask me again"
+                "title": "수령할 수 있는 리워드가 있습니다!",
+                "button": "수령하기 페이지로 이동",
+                "disclaimer": "다시 보지 않기"
             }
         },
         "leaderboard": {
@@ -2863,10 +2863,10 @@
             }
         },
         "assetOwnersList": {
-            "user": "User",
-            "chain": "Chain",
-            "quantity": "QTY",
-            "price": "Price"
+            "user": "유저",
+            "chain": "체인",
+            "quantity": "수량",
+            "price": "가격"
         }
     },
     "create": {
@@ -3684,7 +3684,7 @@
         },
         "connect": {
             "confirmBoxTitle": "These lands are about to be connected to the experience",
-            "confirmBoxSubtitle": "Do you wish to continue?",
+            "confirmBoxSubtitle": "계속 진행하시겠습니까?",
             "confirmBtnTxt": "Confirm Connection",
             "disconnectBtnTxt": "Disconnect",
             "connectBtnTxt": "Connect",
@@ -3856,11 +3856,11 @@
         },
         "gating": {
             "timestamp": "Timestamp",
-            "token": "Token ID",
-            "collection": "Collection",
+            "token": "토큰 ID",
+            "collection": "컬렉션",
             "successfulConfiguration": "The gating was set successfully!",
             "placeholders": {
-                "token": "Enter the token id"
+                "token": "토큰 ID 입력"
             }
         },
         "assetReview": {
@@ -3870,15 +3870,15 @@
             "assetsTotal": "",
             "loading": "애셋 로딩 중...",
             "filter": {
-                "all": "",
-                "equipment": "",
-                "entity": "",
-                "art": ""
+                "all": "전체",
+                "equipment": "장비",
+                "entity": "엔티티",
+                "art": "아트"
             },
             "actions": {
-                "editInGameMaker": "",
-                "mint": "",
-                "addToCart": ""
+                "editInGameMaker": "게임 메이커에서 편집",
+                "mint": "민팅",
+                "addToCart": "장바구니 추가"
             },
             "statusBar": {
                 "toBuy": "",
@@ -4176,7 +4176,7 @@
                 "joinRegular": "일반 추첨 참여",
                 "joinPremium": "프리미엄 추첨 참여",
                 "joinBoth": "모두 참여",
-                "exploreLANDSale": ""
+                "exploreLANDSale": "LAND 세일 알아보기"
             },
             "header": {
                 "titles": {
@@ -4902,13 +4902,13 @@
                 }
             },
             "layout": {
-                "partner": "Partner",
-                "howDoesItWork": "How does it work?",
+                "partner": "파트너",
+                "howDoesItWork": "어떻게 진행되나요?",
                 "summary": "요약",
                 "map": "맵"
             },
             "mapPage": {
-                "goToMap": "",
+                "goToMap": "맵으로 이동",
                 "countCards": {
                     "premiumLands": "",
                     "regularLands": "",
@@ -6265,7 +6265,7 @@
                     "divider": "또는",
                     "forgot-password": "패스워드를 잊어버렸습니다.",
                     "login-collision-1": "Oops, it looks like your email is already registered with another Sign up option.",
-                    "login-collision-2": "Try to login using Email and Password or connecting a wallet."
+                    "login-collision-2": "이메일과 패스워드로 로그인하거나 지갑을 연결하세요."
                 },
                 "wallet-choice": {
                     "highlight": "추천"
@@ -6623,7 +6623,7 @@
             "multimedia": "Multimedia files",
             "onlyMainVideoRequired": "(Only the Main video is required)",
             "maxAmount": "(max amount: 12 files)",
-            "filesUploaded": "files uploaded",
+            "filesUploaded": "{0}개 파일 업로드됨",
             "mainVideo": "Main video",
             "reserved": "Reserved",
             "video": "Video",
@@ -10714,7 +10714,7 @@
                 }
             }
         },
-        "assetsQuantity": "ASSET",
+        "assetsQuantity": "애셋",
         "landsQuantity": "LAND"
     },
     "season.info.communityBooster.bulletPoints.1.3": {
@@ -12582,8 +12582,8 @@
                         "subtitle": "",
                         "list": {
                             "0": {
-                                "title": "Splash Screen UI: ",
-                                "subtitle": "A new Splash screen has been added."
+                                "title": "스플래시 스크린 UI: ",
+                                "subtitle": "신규 스플래시 스크린 추가"
                             },
                             "1": {
                                 "title": "Optimized Size: ",
@@ -12892,10 +12892,10 @@
             "wantToRemoveDescription": "팀을 제거하면 팀에서 모든 유저와 관리자가 삭제됩니다. 워크스페이스 삭제는 영구적이며 해당 워크스페이스의 데이터는 복구되지 않습니다.",
             "wantToRemoveLink": "이 워크스페이스를 영구적으로 삭제합니다.",
             "create": "생성하기",
-            "transferType": "Transfer ownership",
+            "transferType": "소유권 이전",
             "approvalFlows": {
-                "manual": "Manual",
-                "automatic": "Automatic"
+                "manual": "수동",
+                "automatic": "자동"
             }
         },
         "roles": {
@@ -13077,8 +13077,8 @@
                     "continue": "계속",
                     "skipAll": "모두 건너뛰기",
                     "save": "저장",
-                    "createyourAsset": "Create your Asset",
-                    "createAsset": "Create Asset",
+                    "createyourAsset": "애셋 만들기",
+                    "createAsset": "애셋 만들기",
                     "setupLater": "Set up Later",
                     "nftPremiumOrBasic": "Your NFT can be Basic or Premium.",
                     "nftPremium": "- Premium NFTs have a Catalyst that defines their scarcity and their number of gem sockets.",
@@ -13256,7 +13256,7 @@
                     }
                 }
             },
-            "searchNamePrivate": "Search by name",
+            "searchNamePrivate": "이름으로 검색",
             "uploadingYourAsset": "Uploading your asset",
             "privateSuccess": "Asset set as private successfully",
             "unprivateSuccess": "Asset set as not private successfully",
@@ -14150,8 +14150,8 @@
         "linkGiveawaysSummary": "기브어웨이 규정 요약",
         "linkGiveawaysOfficial": "기브어웨이 공식 규정",
         "linkCryptoweenRules": "패리스 힐튼 크립토윈 공식 규정",
-        "linkKuniverseRules": "Kuniverse official rules",
-        "linkSportslandRules": "SportsLand official rules"
+        "linkKuniverseRules": "쿠니버스 공식 규정",
+        "linkSportslandRules": "스포츠랜드 공식 규정"
     },
     "changelogVoxedit": {
         "2022": {
