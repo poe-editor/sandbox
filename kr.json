@@ -3997,7 +3997,7 @@
             "time": "TIME",
             "warmup": "Warmup",
             "california": "캘리포니아 드리밍",
-            "galleria": "THE GALLERIA"
+            "galleria": "갤러리아"
         },
         "booked": "예약자:",
         "visit": "사이트 방문",
@@ -4137,6 +4137,16 @@
             "not2": {
                 "text": "상점에서 NFT를 검색하고 구매하세요",
                 "button": "상점으로 이동"
+            },
+            "comming": "COMING UP",
+            "landsale": "LAND SALE",
+            "joinLandsale": "Join LAND Sale",
+            "1": {
+                "title": "A timeless mix of tradition and modernity"
+            },
+            "2": {
+                "title": "Join the Metaverse and never stop building, never stop playing!",
+                "date": "Early 2023"
             }
         },
         "alpha": {
@@ -4182,7 +4192,7 @@
                 "joinRegular": "일반 추첨 참여",
                 "joinPremium": "프리미엄 추첨 참여",
                 "joinBoth": "모두 참여",
-                "exploreLANDSale": "LAND 세일 알아보기"
+                "exploreLANDSale": "랜드 세일 알아보기"
             },
             "header": {
                 "titles": {
@@ -4225,7 +4235,7 @@
                 },
                 "countdown": {
                     "registrationStarts": "추첨 등록 시작까지:",
-                    "registrationEnds": "등록 종료까지:",
+                    "registrationEnds": "추첨 등록 종료까지:",
                     "raffleStarts": "추첨 시작까지:",
                     "publicSaleStarts": "퍼블릭 세일 시작까지 남은 시간:",
                     "landSaleStartsIn": "LAND 세일 시작까지:",
@@ -4240,7 +4250,7 @@
                 "subtitle3": "LAND 세일 화이트리스트에 포함되지 않았습니다. 경매 또는 이차 마켓에서 LAND를 구입할 수 있습니다.",
                 "notLoggedInAndResultsArePublic": "{partner} LAND 세일 화이트리스트 명단에 내 계정이 있는지 확인하려면 로그인이 필요합니다.",
                 "boughtSubtitle": "축하합니다, LAND 보유자가 되었습니다! 2차 마켓을 통해 더 많은 LAND를 구입할 수 있습니다.",
-                "title": "{partner} LAND 세일에 오신 것을 환영합니다!"
+                "title": "{partner} 랜드 세일에 오신 것을 환영합니다!"
             },
             "timeline": {
                 "raffle": "추첨",
@@ -4587,7 +4597,7 @@
                 "title": "FAQ",
                 "requirements": {
                     "1": "계정 인증 (KYC)",
-                    "2": "지갑에 최소 1,011 SAND (폴리곤) 보유",
+                    "2": "일반 추첨에 참여할 경우 지갑에 최소 1,011 SAND (폴리곤)를 보유해야 하며, 프리미엄 또는 일반과 프리미엄 두 가지 추첨에 모두 참여할 경우 최소 4,683 SAND (폴리곤)을 보유해야 합니다.",
                     "3": "소프트 밴이 걸리지 않은 유저 계정"
                 },
                 "bannedUsers": {
@@ -4662,11 +4672,11 @@
                             "2": {
                                 "1": {
                                     "paragraph": "{landSaleSignUp} November 17 3:00 PM UTC to November 21 1:00 PM UTC",
-                                    "landSaleSignUp": "LAND 세일 추첨 등록:"
+                                    "landSaleSignUp": "랜드 세일 추첨 등록:"
                                 },
                                 "2": {
                                     "paragraph": "{landSaleRaffleResults} November 21 8:00 PM UTC",
-                                    "landSaleRaffleResults": "LAND 세일 추첨 결과 발표:"
+                                    "landSaleRaffleResults": "랜드 세일 추첨 결과 발표:"
                                 }
                             },
                             "3": {
@@ -4884,8 +4894,8 @@
                         }
                     },
                     "5": {
-                        "title": "이제부터 LAND 세일은 폴리곤에서 진행되나요?",
-                        "paragraph": "네, 이제부터 모든 LAND 세일은 폴리곤 네트워크 기반으로 진행되므로 폴리곤 네트워크에서 SAND를 보유하고 있는지 확인해 주세요."
+                        "title": "이제부터 랜드 세일은 폴리곤에서 진행되나요?",
+                        "paragraph": "네, 이제부터 모든 랜드 세일은 폴리곤 네트워크 기반으로 진행되므로 폴리곤 네트워크에서 SAND를 보유하고 있는지 확인해 주세요."
                     }
                 },
                 "troubleShooting": {
