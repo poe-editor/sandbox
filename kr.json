@@ -293,9 +293,9 @@
             "justify": "Justify",
             "bulletList": "Bullet List",
             "orderedList": "Ordered List",
-            "addImage": "Add Image"
+            "addImage": "이미지 추가"
         },
-        "optional": "(Optional)"
+        "optional": "(선택)"
     },
     "layout": {
         "topbar": {
@@ -609,7 +609,7 @@
         "playboyBanner": {
             "title": "플레이보이 파티 피플 컬렉션 아바타 출시",
             "description": "플레이보이의 69주년을 기념하여, 플레이보이 파티 피플 컬렉션이 메타버스에 찾아왔습니다!",
-            "title-mobile": "MINT YOUR AVATAR",
+            "title-mobile": "아바타 구입하기",
             "btn1": "더 알아보기",
             "btn2": "무료 아바타 만들기",
             "btn1SecondLabel": "지금 구매하기",
@@ -3741,16 +3741,16 @@
             "defaultAvatar": "예시 아바타",
             "displayedAsPreview": "특정 컬렉션의 아바타를 보유하고 있지 않을 경우 미리보기로 표시됩니다.",
             "fullName": "Experience Full Name",
-            "thumbnail": "Thumbnail",
-            "logo": "Logo",
+            "thumbnail": "썸네일",
+            "logo": "로고",
             "logoOptimalDimensions": "Optimal dimensions 200 x 200",
             "bannerOptimalDimensions": "Optimal dimensions 2000 x 200",
             "thumbnailOptimalDimensions": "Optimal dimensions 2000 x 2000",
-            "addBannerImage": "Banner",
+            "addBannerImage": "배너",
             "optimalDimensions": "",
-            "experienceUpdated": "Experience was updated!",
+            "experienceUpdated": "경험이 업데이트되었습니다!",
             "errors": {
-                "titleIsRequired": "Title is required"
+                "titleIsRequired": "타이틀을 입력해 주세요."
             },
             "bannerLoaded": "",
             "logoLoaded": "The new logo was successfully loaded!",
@@ -3787,7 +3787,7 @@
             "chooseLocation": "Select a location to place your Experience",
             "chooseLand": "Choose an LAND to connect Experience",
             "chooseEstate": "Choose an ESTATE to connect Experience",
-            "selectLand": "Choose LAND",
+            "selectLand": "LAND 선택",
             "selectEstate": "Choose ESTATE",
             "showAvailable": "Show available only",
             "empty": {
@@ -3996,7 +3996,8 @@
             "shibuya": "SHIBUYA",
             "time": "TIME",
             "warmup": "Warmup",
-            "california": "캘리포니아 드리밍"
+            "california": "캘리포니아 드리밍",
+            "galleria": "THE GALLERIA"
         },
         "booked": "예약자:",
         "visit": "사이트 방문",
@@ -4233,13 +4234,13 @@
                     "raffleResultsIn": "추첨 결과 발표까지:",
                     "landSaleStartsOnDate": "{date}에 LAND 세일이 시작됩니다."
                 },
-                "wave": "웨이브 1 - {time}",
+                "wave": "웨이브 2 - {time}",
                 "subtitle": "추첨에 당첨된 당첨자들은 {partner} LAND 세일에서 1개의 LAND를 구입할 수 있습니다. {landsCount}개의 LAND가 {landsCount}명의 당첨자들에게 돌아갑니다!",
                 "subtitle2": "깨고 싶지 않은 꿈, 캘리포니아 드리밍!",
                 "subtitle3": "LAND 세일 화이트리스트에 포함되지 않았습니다. 경매 또는 이차 마켓에서 LAND를 구입할 수 있습니다.",
                 "notLoggedInAndResultsArePublic": "{partner} LAND 세일 화이트리스트 명단에 내 계정이 있는지 확인하려면 로그인이 필요합니다.",
                 "boughtSubtitle": "축하합니다, LAND 보유자가 되었습니다! 2차 마켓을 통해 더 많은 LAND를 구입할 수 있습니다.",
-                "title": ""
+                "title": "{partner} LAND 세일에 오신 것을 환영합니다!"
             },
             "timeline": {
                 "raffle": "추첨",
@@ -4915,23 +4916,23 @@
             "mapPage": {
                 "goToMap": "맵으로 이동",
                 "countCards": {
-                    "premiumLands": "",
-                    "regularLands": "",
-                    "3x3Estates": "",
-                    "6x6Estates": ""
+                    "premiumLands": "프리미엄 LAND",
+                    "regularLands": "일반 LAND",
+                    "3x3Estates": "3X3 이스테이트",
+                    "6x6Estates": "6X6 이스테이트"
                 },
                 "infoCards": {
                     "card1": {
-                        "title": "",
+                        "title": "더 많은 LAND 획득하기",
                         "subtitle": "2차 마켓",
                         "description": "",
                         "button": "LAND 구입"
                     },
                     "card2": {
                         "title": "",
-                        "subtitle": "",
+                        "subtitle": "이스테이트를 구입하고 메타버스를 함께 만들어 나가요.",
                         "description": "",
-                        "button": ""
+                        "button": "이스테이트 경매"
                     }
                 }
             }
@@ -6604,8 +6605,8 @@
             "warning": "이 LAND에 입장할 수 없습니다. 입장하려면 다음의 항목이 필요합니다:",
             "collection": "컬렉션",
             "token": "NFT",
-            "accessRestrictions": "Access restrictions",
-            "setUpGatingHub": "Set up gating from the experience hub"
+            "accessRestrictions": "액세스 제한",
+            "setUpGatingHub": "경험 허브로부터 게이팅 설정"
         },
         "creatorWebsite": "웹사이트",
         "assetsIncludedTitle": "포함된 애셋",
@@ -6632,7 +6633,7 @@
             "mainVideo": "Main video",
             "reserved": "Reserved",
             "video": "Video",
-            "image": "Image"
+            "image": "이미지"
         }
     },
     "collectionPage": {
@@ -12579,20 +12580,20 @@
                 }
             },
             "9": {
-                "date": "November 8, 2022 - Game Maker 0.7.9 changelog",
-                "title": "Bug Fixing and Enhancements",
+                "date": "2022년 11월 8일 - 게임 메이커 0.7.9 변경 내역",
+                "title": "버그 수정 및 개선",
                 "list": {
                     "0": {
-                        "title": "Bug Fixing",
+                        "title": "버그 수정",
                         "subtitle": "",
                         "list": {
                             "0": {
                                 "title": "스플래시 스크린 UI: ",
-                                "subtitle": "신규 스플래시 스크린 추가"
+                                "subtitle": "신규 스플래시 스크린이 추가되었습니다."
                             },
                             "1": {
-                                "title": "Optimized Size: ",
-                                "subtitle": "Files were deducted from the build to make the installer lighter."
+                                "title": "최적화된 사이즈: ",
+                                "subtitle": "인스톨러를 더 가볍게 하기 위해 빌드에서 파일 사이즈를 줄였습니다."
                             }
                         }
                     }
@@ -13084,7 +13085,7 @@
                     "save": "저장",
                     "createyourAsset": "애셋 만들기",
                     "createAsset": "애셋 만들기",
-                    "setupLater": "Set up Later",
+                    "setupLater": "나중에 설정",
                     "nftPremiumOrBasic": "Your NFT can be Basic or Premium.",
                     "nftPremium": "- Premium NFTs have a Catalyst that defines their scarcity and their number of gem sockets.",
                     "nftBasic": "- Basic NFTs can be Props or Art. They have no special utilities.",
@@ -13102,7 +13103,7 @@
                     "subtitle3_2": "등급이 높을수록 소켓 수가 많아집니다.",
                     "subtitle4_1": "각 젬은 애셋에 다양한 능력치를 부여합니다. 같은 유형의 젬이 많을수록 해당 유형의 능력치가 커집니다.",
                     "subtitle4_2": "젬을 드래그하거나 클릭하여 카탈리스트 내부에 추가 및 제거합니다.",
-                    "title6": "Choose the behavior of your NFT"
+                    "title6": "NFT의 행동을 선택하세요."
                 },
                 "theme": {
                     "pickTheme": "테마 선택",
@@ -13190,7 +13191,7 @@
                 "private": "Private",
                 "setPrivate": "Set as Private",
                 "setNotPrivate": "Remove private",
-                "publishToMint": "You have to publish the asset before minting it"
+                "publishToMint": "애셋을 민팅하기 전에 게시해야 합니다."
             },
             "pagination": {
                 "page": "페이지",
@@ -13262,11 +13263,11 @@
                 }
             },
             "searchNamePrivate": "이름으로 검색",
-            "uploadingYourAsset": "Uploading your asset",
+            "uploadingYourAsset": "애셋을 업로드하는 중입니다",
             "privateSuccess": "Asset set as private successfully",
             "unprivateSuccess": "Asset set as not private successfully",
-            "dragGems": "Drag or click in your gems to add or remove them inside the Catalyst.",
-            "infoDragGems": "Each Gem gives a different attribute to your asset. The more Gems of the same type, the more attributes you get."
+            "dragGems": "젬을 드래그하거나 클릭하여 카탈리스트에 추가하거나 삭제하세요.",
+            "infoDragGems": "각 젬은 애셋에 다양한 능력치를 부여합니다. 같은 종류의 젬이 여러 개 있다면 해당 능력치가 더욱 상승하게 됩니다."
         },
         "experiences": {
             "construction": "이 섹션은 현재 개발 중입니다.",
