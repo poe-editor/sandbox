@@ -3672,7 +3672,7 @@
     },
     "estate": {
         "title": "編輯 ESTATE",
-        "previewDisclaimer": "你可以上傳最多 3 張影像來預覽你的 LAND (格式為 JPG、PNG、WEBP)。檔案大小應小於 90KB。",
+        "previewDisclaimer": "你可以上傳最多 3 張影像來預覽你的 LAND (格式為 JPG、PNG、WEBP)。檔案大小應小於 2MB。",
         "name": "名稱",
         "description": "描述",
         "url": "網址",
@@ -4101,7 +4101,7 @@
         },
         "landEdit": {
             "title": "編輯 LAND",
-            "uploadInfo": "上傳影像以預覽你的 LAND (格式為 JPG、PNG、WEBP)。檔案大小應小於 90KB。",
+            "uploadInfo": "上傳影像以預覽你的 LAND (格式為 JPG、PNG、WEBP)。檔案大小應小於 2MB。",
             "name": "LAND 名稱",
             "description": "LAND 描述",
             "url": "網址",
@@ -4113,7 +4113,7 @@
                 "assetDescriptionTooLong": "ASSET 描述太長了",
                 "preview": "預覽檔案格式或大小有誤，格式應為影像，且檔案大小應小於 90KB",
                 "type": "Please enter a jpg, jpeg or webp file",
-                "size": "Please enter a file with a valid size no larger than 90k"
+                "size": "Please enter a file with a valid size no larger than 2MB"
             },
             "viewInMap": "在地圖中查看",
             "notifications": {
@@ -4500,7 +4500,9 @@
                             "title": "REGULAR + PREMIUM RAFFLE",
                             "subtitle": "You can get a chance of buying a {premium} or a {regular} LAND",
                             "message": "Increase your chances of winning by participating in both LAND Raffles!"
-                        }
+                        },
+                        "requirements": "Requirements:",
+                        "requirementsMessage": "{requirements} Have {price} SAND in your wallet"
                     }
                 },
                 "success": {
