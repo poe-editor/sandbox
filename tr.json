@@ -3672,7 +3672,7 @@
     },
     "estate": {
         "title": "Araziyi düzenle",
-        "previewDisclaimer": "Arazinizi önizlemek için en fazla 3 resim yükleyebilirsiniz (JPG, PNG, WEBP). Dosya boyutu 90 kb'den az olmalıdır.",
+        "previewDisclaimer": "You can upload up to 3 images to preview your land (JPG, PNG, WEBP). The file size should be less than 2MB.",
         "name": "İsim",
         "description": "Açıklama",
         "url": "URL",
@@ -4101,7 +4101,7 @@
         },
         "landEdit": {
             "title": "LAND Düzenle",
-            "uploadInfo": "LAND'inizi önizlemek için bir resim yükleyin (JPG, PNG, WEBP). Dosya boyutu 90 kb'den az olmalıdır.",
+            "uploadInfo": "Upload an image to preview your land (JPG, PNG, WEBP). The file size should be less than 2MB.",
             "name": "LAND Adı",
             "description": "LAND açıklaması",
             "url": "URL",
@@ -4113,7 +4113,7 @@
                 "assetDescriptionTooLong": "Varlık açıklaması çok uzun",
                 "preview": "Önizleme dosyasının biçimi veya boyutu yanlış, bir resim olmalı ve dosya boyutu 90 kb'den küçük olmalıdır",
                 "type": "Lütfen bir jpg, jpeg veya webp dosyası girin",
-                "size": "Lütfen 90k'dan büyük olmayan geçerli bir boyuta sahip bir dosya girin"
+                "size": "Please enter a file with a valid size no larger than 2MB"
             },
             "viewInMap": "Haritada Görüntüle",
             "notifications": {
@@ -4500,7 +4500,9 @@
                             "title": "REGULAR + PREMIUM RAFFLE",
                             "subtitle": "You can get a chance of buying a {premium} or a {regular} LAND",
                             "message": "Increase your chances of winning by participating in both LAND Raffles!"
-                        }
+                        },
+                        "requirements": "Requirements:",
+                        "requirementsMessage": "{requirements} Have {price} SAND in your wallet"
                     }
                 },
                 "success": {
