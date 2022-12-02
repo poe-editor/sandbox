@@ -3672,7 +3672,7 @@
     },
     "estate": {
         "title": "Edit estate",
-        "previewDisclaimer": "You can upload up to 3 images to preview your land (JPG, PNG, WEBP). The file size should be less than 90 kb.",
+        "previewDisclaimer": "You can upload up to 3 images to preview your land (JPG, PNG, WEBP). The file size should be less than 2MB.",
         "name": "Name",
         "description": "Description",
         "url": "URL",
@@ -4101,7 +4101,7 @@
         },
         "landEdit": {
             "title": "Edit a LAND",
-            "uploadInfo": "Upload an image to preview your land (JPG, PNG, WEBP). The file size should be less than 90 kb.",
+            "uploadInfo": "Upload an image to preview your land (JPG, PNG, WEBP). The file size should be less than 2MB.",
             "name": "LAND name",
             "description": "LAND description",
             "url": "URL",
@@ -4113,7 +4113,7 @@
                 "assetDescriptionTooLong": "Asset description is too long",
                 "preview": "The format or size of the preview file is incorrect, it should be an image and the file size should be less than 90kb",
                 "type": "Please enter a jpg, jpeg or webp file",
-                "size": "Please enter a file with a valid size no larger than 90k"
+                "size": "Please enter a file with a valid size no larger than 2MB"
             },
             "viewInMap": "View in Map",
             "notifications": {
@@ -4500,7 +4500,9 @@
                             "title": "REGULAR + PREMIUM RAFFLE",
                             "subtitle": "You can get a chance of buying a {premium} or a {regular} LAND",
                             "message": "Increase your chances of winning by participating in both LAND Raffles!"
-                        }
+                        },
+                        "requirements": "Requirements:",
+                        "requirementsMessage": "{requirements} Have {price} SAND in your wallet"
                     }
                 },
                 "success": {
