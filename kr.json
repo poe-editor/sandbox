@@ -3,7 +3,7 @@
         "sandbox": "The Sandbox",
         "$sand": "$SAND",
         "sand": "SAND",
-        "land": "랜드",
+        "land": "LAND",
         "location": "위치",
         "size": "크기",
         "parcel": "구획",
@@ -2489,7 +2489,7 @@
         "nftTypes": {
             "title": "NFT 유형",
             "all": "전체",
-            "land": "랜드",
+            "land": "랜드 & 이스테이트",
             "entity": "엔티티",
             "equipment": "장비",
             "wearable": "웨어러블",
@@ -4500,7 +4500,9 @@
                             "title": "일반 + 프리미엄 추첨",
                             "subtitle": "{premium} 또는 {regular} 랜드를 구입할 수 있는 기회를 잡을 수 있습니다.",
                             "message": "두 종류의 랜드 세일 추첨에 모두 참여하여 당첨 확률을 높여보세요!"
-                        }
+                        },
+                        "requirements": "Requirements:",
+                        "requirementsMessage": "{requirements} Have {price} SAND in your wallet"
                     }
                 },
                 "success": {
@@ -4717,8 +4719,8 @@
                                 "3": "시즌 2에서 레벨 5 달성 = 추첨 티켓 20개",
                                 "4": "시즌 3에서 레벨 5 달성 = 추첨 티켓 20개"
                             },
-                            "4": "Please note that ticket rules can change from 랜드 sale to 랜드 sale. The Sandbox will keep the community updated.",
-                            "5": "티켓 규칙은 랜드 세일별로 다를 수 있습니다. 더 샌드박스는 커뮤니티 멤버 여러분에게 계속해서 새로운 소식을 전달드릴 예정이니 참고해 주세요."
+                            "4": "티켓 규칙은 랜드 세일별로 다를 수 있습니다. 더 샌드박스는 커뮤니티 멤버 여러분에게 계속해서 새로운 소식을 전달드릴 예정입니다.",
+                            "5": "티켓 규칙은 랜드 세일별로 다를 수 있습니다. 더 샌드박스는 커뮤니티 멤버 여러분에게 계속해서 새로운 소식을 전달드릴 예정입니다."
                         }
                     },
                     "5": {
@@ -5034,7 +5036,7 @@
         "menu": {
             "sandbox": "더 샌드박스",
             "sand": "SAND",
-            "land": "랜드",
+            "land": "LAND",
             "blog": "블로그",
             "getting": "시작하기",
             "docsAndRes": "문서와 자료"
@@ -5055,7 +5057,7 @@
                     "description": "상상할 수 있는 게임은 무엇이든 만들어 플레이할 수 있습니다."
                 },
                 "land": {
-                    "title": "랜드",
+                    "title": "랜드(LAND)",
                     "description": "무궁무진한 가능성의 랜드를 만나보세요. 나만의 랜드를 구입하는 건 어떨까요?"
                 },
                 "gameMakerProduct": {
