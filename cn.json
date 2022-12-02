@@ -3672,7 +3672,7 @@
     },
     "estate": {
         "title": "编辑ESTATE",
-        "previewDisclaimer": "你可以最多上传3张你LAND的预览照片（JPG、PNG、WEBP格式）。文件大小需小于90KB。",
+        "previewDisclaimer": "你可以最多上传3张你LAND的预览照片（JPG、PNG、WEBP格式）。文件大小需小于2MB。",
         "name": "名称",
         "description": "描述",
         "url": "链接",
@@ -4101,7 +4101,7 @@
         },
         "landEdit": {
             "title": "编辑LAND",
-            "uploadInfo": "上传一张你LAND的预览照片（JPG、PNG、WEBP格式）文件大小需小于90KB。",
+            "uploadInfo": "上传一张你LAND的预览照片（JPG、PNG、WEBP格式）文件大小需小于2MB。",
             "name": "LAND名称",
             "description": "LAND描述",
             "url": "链接",
@@ -4113,7 +4113,7 @@
                 "assetDescriptionTooLong": "ASSET描述太长",
                 "preview": "预览文件格式或大小错误，文件需为图像，文件大小需小于90KB",
                 "type": "Please enter a jpg, jpeg or webp file",
-                "size": "Please enter a file with a valid size no larger than 90k"
+                "size": "Please enter a file with a valid size no larger than 2MB"
             },
             "viewInMap": "在地图中查看",
             "notifications": {
@@ -4500,7 +4500,9 @@
                             "title": "REGULAR + PREMIUM RAFFLE",
                             "subtitle": "You can get a chance of buying a {premium} or a {regular} LAND",
                             "message": "Increase your chances of winning by participating in both LAND Raffles!"
-                        }
+                        },
+                        "requirements": "Requirements:",
+                        "requirementsMessage": "{requirements} Have {price} SAND in your wallet"
                     }
                 },
                 "success": {
