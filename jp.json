@@ -3672,7 +3672,7 @@
     },
     "estate": {
         "title": "エステートを編集する",
-        "previewDisclaimer": "最大3つの画像をアップロードして、自分のLANDを確認します (JPG, PNG, WEBP)。ファイルサイズは90KB以下にしてください。",
+        "previewDisclaimer": "最大3つの画像をアップロードして、自分のLANDを確認します (JPG, PNG, WEBP)。ファイルサイズは2MB以下にしてください。",
         "name": "名前",
         "description": "説明",
         "url": "URL",
@@ -4101,7 +4101,7 @@
         },
         "landEdit": {
             "title": "LANDを編集する",
-            "uploadInfo": "画像をアップロードして、自分のLandを確認します (JPG, PNG, WEBP)。　　ファイルサイズは90KB以下にしてください。",
+            "uploadInfo": "画像をアップロードして、自分のLandを確認します (JPG, PNG, WEBP)。　　ファイルサイズは2MB以下にしてください。",
             "name": "LAND名",
             "description": "LANDの説明",
             "url": "URL",
@@ -4113,7 +4113,7 @@
                 "assetDescriptionTooLong": "アセットの説明が長すぎます",
                 "preview": "プレビューファイルの形式またはサイズが正しくありません。ファイルは画像、ファイルサイズは90KB以下にしてください",
                 "type": "Please enter a jpg, jpeg or webp file",
-                "size": "Please enter a file with a valid size no larger than 90k"
+                "size": "Please enter a file with a valid size no larger than 2MB"
             },
             "viewInMap": "マップで表示",
             "notifications": {
@@ -4500,7 +4500,9 @@
                             "title": "レギュラー + プレミアム抽選",
                             "subtitle": "{premium} もしくは {regular} LAND を購入するチャンスがあります。",
                             "message": "両方のLAND 抽選に参加して当選確率をあげよう！"
-                        }
+                        },
+                        "requirements": "Requirements:",
+                        "requirementsMessage": "{requirements} Have {price} SAND in your wallet"
                     }
                 },
                 "success": {
