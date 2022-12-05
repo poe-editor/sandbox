@@ -4068,12 +4068,13 @@
                 "option5": "랜드 더 알아보기",
                 "regular": {
                     "title": "랜드로 무엇을 할 수 있나요?",
-                    "option1": "게임 메이커를 다운로드하고 월드 건설",
+                    "option1": "Start building!",
                     "option2": "스페셜 리워드 획득",
                     "option3": "랜드 보유자 전용 스테이킹",
                     "option4": "내 랜드 판매",
                     "option5": "내 경험 게시 및 수익화 (2023년 예정)",
-                    "option6": "랜드 임대 (2023년 예정)"
+                    "option6": "랜드 임대 (2023년 예정)",
+                    "download": "Download Game Maker"
                 },
                 "premium": {
                     "title": "{0} 랜드로 무엇을 할 수 있나요?",
@@ -4501,8 +4502,8 @@
                             "subtitle": "{premium} 또는 {regular} 랜드를 구입할 수 있는 기회를 잡을 수 있습니다.",
                             "message": "두 종류의 랜드 세일 추첨에 모두 참여하여 당첨 확률을 높여보세요!"
                         },
-                        "requirements": "Requirements:",
-                        "requirementsMessage": "{requirements} Have {price} SAND in your wallet"
+                        "requirements": "참여 조건:",
+                        "requirementsMessage": "{requirements} 지갑에 {price} SAND 보유"
                     }
                 },
                 "success": {
