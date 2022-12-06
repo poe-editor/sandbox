@@ -4074,7 +4074,7 @@
                     "option4": "내 랜드 판매",
                     "option5": "내 경험 게시 및 수익화 (2023년 예정)",
                     "option6": "랜드 임대 (2023년 예정)",
-                    "download": "Download Game Maker"
+                    "download": "게임 메이커 다운로드"
                 },
                 "premium": {
                     "title": "{0} 랜드로 무엇을 할 수 있나요?",
@@ -9285,8 +9285,8 @@
         },
         "buySand": "SAND 구매",
         "buymSand": "SAND 구매",
-        "confirmDeposit": "예치 확인하기",
-        "confirmWithdraw": "인출 확인하기",
+        "confirmDeposit": "Transfer to Polygon ({payloadLength})",
+        "confirmWithdraw": "Transfer to Ethereum ({payloadLength})",
         "noTransactions": "표시할 트랜잭션이 없습니다.",
         "pending": "보류 중",
         "checkTransactions": "이전 트랜잭션이나 보류 중인 트랜잭션을 확인하세요.",
@@ -10733,7 +10733,12 @@
             }
         },
         "assetsQuantity": "애셋",
-        "landsQuantity": "랜드"
+        "landsQuantity": "랜드",
+        "withdrawsDisabled": "LAND transfers to Ethereum are temporarly paused.",
+        "bridgeItemslabels": {
+            "inProgress": "In Progress",
+            "checkpointed": "Action Required"
+        }
     },
     "season.info.communityBooster.bulletPoints.1.3": {
         "3": "3"
