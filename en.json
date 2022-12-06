@@ -9288,8 +9288,8 @@
         },
         "buySand": "Buy SAND",
         "buymSand": "Buy SAND",
-        "confirmDeposit": "Confirm Deposit",
-        "confirmWithdraw": "Confirm Withdraw",
+        "confirmDeposit": "Transfer to Polygon ({payloadLength})",
+        "confirmWithdraw": "Transfer to Ethereum ({payloadLength})",
         "noTransactions": "There are no transactions to display",
         "pending": "Pending",
         "checkTransactions": "Check previous transactions or confirm pending ones",
@@ -10736,7 +10736,12 @@
             }
         },
         "assetsQuantity": "ASSET",
-        "landsQuantity": "LAND"
+        "landsQuantity": "LAND",
+        "withdrawsDisabled": "LAND transfers to Ethereum are temporarly paused.",
+        "bridgeItemslabels": {
+            "inProgress": "In Progress",
+            "checkpointed": "Action Required"
+        }
     },
     "season.info.communityBooster.bulletPoints.1.3": {
         "3": ""
