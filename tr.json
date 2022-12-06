@@ -9288,8 +9288,8 @@
         },
         "buySand": "SAND Satın Al",
         "buymSand": "SAND Satın Al",
-        "confirmDeposit": "Depozitoyu Onayla",
-        "confirmWithdraw": "Para Çekmeyi Onayla",
+        "confirmDeposit": "Transfer to Polygon ({payloadLength})",
+        "confirmWithdraw": "Transfer to Ethereum ({payloadLength})",
         "noTransactions": "Görüntülenecek işlem yok",
         "pending": "Bekliyor",
         "checkTransactions": "Önceki işlemleri kontrol edin veya bekleyen işlemleri onaylayın",
@@ -10736,7 +10736,12 @@
             }
         },
         "assetsQuantity": "ASSET",
-        "landsQuantity": "LAND"
+        "landsQuantity": "LAND",
+        "withdrawsDisabled": "LAND transfers to Ethereum are temporarly paused.",
+        "bridgeItemslabels": {
+            "inProgress": "In Progress",
+            "checkpointed": "Action Required"
+        }
     },
     "season.info.communityBooster.bulletPoints.1.3": {
         "3": ""
