@@ -4145,7 +4145,7 @@
             "landsale": "랜드 세일",
             "joinLandsale": "랜드 세일 참여",
             "1": {
-                "title": "Dive into Korean Culture and start building the Metaverse!"
+                "title": "메타버스에서 만나는 한국 문화의 매력 속으로!"
             },
             "2": {
                 "title": "무한한 복셀 창작과 플레이의 세계로!",
@@ -4212,7 +4212,7 @@
                     "weAreProcessing": "추첨이 진행 중입니다"
                 },
                 "subtitles": {
-                    "default": "추첨에 당첨된 당첨자들은 {partner} 랜드 세일에서 1개의 랜드를 구입할 수 있습니다. {랜드sCount}개의 랜드가 {랜드sCount}명의 당첨자들에게 돌아갑니다!",
+                    "default": "추첨에 당첨된 당첨자들은 {partner} 랜드 세일에서 1개의 랜드를 구입할 수 있습니다. {landsCount}개의 랜드가 {landsCount}명의 당첨자들에게 돌아갑니다!",
                     "joinTheRaffle": "{partner} 랜드 세일 추첨에 참여하고 랜드를 구매할 수 있는 화이트리스트 당첨의 기회를 노려보세요.",
                     "signInToCheck": "내 현황을 확인하려면 로그인하세요.",
                     "notInRaffle": "퍼블릭 세일을 통해 {partner} 랜드를 구입할 수 있는 기회가 남아있습니다.",
@@ -4248,7 +4248,7 @@
                     "landSaleStartsOnDate": "{date}에 랜드 세일이 시작됩니다."
                 },
                 "wave": "웨이브 3 - {time}",
-                "subtitle": "추첨에 당첨된 당첨자들은 {partner} 랜드 세일에서 1개의 랜드를 구입할 수 있습니다. {랜드sCount}개의 랜드가 {랜드sCount}명의 당첨자들에게 돌아갑니다!",
+                "subtitle": "추첨에 당첨된 당첨자들은 {partner} 랜드 세일에서 1개의 랜드를 구입할 수 있습니다. {landsCount}개의 랜드가 {landsCount}명의 당첨자들에게 돌아갑니다!",
                 "subtitle2": "깨고 싶지 않은 꿈, 캘리포니아 드리밍!",
                 "subtitle3": "랜드 세일 화이트리스트에 포함되지 않았습니다. 경매 또는 이차 마켓에서 랜드를 구입할 수 있습니다.",
                 "notLoggedInAndResultsArePublic": "{partner} 랜드 세일 화이트리스트 명단에 내 계정이 있는지 확인하려면 로그인이 필요합니다.",
@@ -4270,8 +4270,8 @@
                 "youDidntWin": "화이트리스트에 등록되지 못했습니다!",
                 "sale": "랜드 세일",
                 "until": "{date}일까지",
-                "to": "{date} to {dateTo}",
-                "allTimesUTC": "All times are in UTC"
+                "to": "{date} - {dateTo}",
+                "allTimesUTC": "모든 시간은 UTC 기준입니다."
             },
             "whatsTheLANDSale": {
                 "title": "랜드 세일 추첨이란 무엇인가요?",
@@ -4540,7 +4540,7 @@
                     "2": "지갑에 충분한 SAND 보유",
                     "3": "추첨 시작 전까지 계정 인증 완료"
                 },
-                "KYCDescription": "랜드 세일에 참여하려면 계정을 인증해야 합니다. 인증에는 최대 48시간이 소요될 수 있으므로 미리 사전에 인증을 완료해 주세요.",
+                "KYCDescription": "랜드 세일에 참여하려면 계정을 인증해야 합니다. 인증에는 최대 48시간이 소요될 수 있으므로 인증을 미리 완료해 주세요.",
                 "FAQs": {
                     "title": "자주 묻는 질문들",
                     "questions": {
