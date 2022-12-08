@@ -4070,7 +4070,7 @@
                 "option5": "랜드 더 알아보기",
                 "regular": {
                     "title": "랜드로 무엇을 할 수 있나요?",
-                    "option1": "Start building!",
+                    "option1": "나만의 콘텐츠 만들기!",
                     "option2": "스페셜 리워드 획득",
                     "option3": "랜드 보유자 전용 스테이킹",
                     "option4": "내 랜드 판매",
@@ -4530,8 +4530,8 @@
                         "landSaleRaffle": "랜드 세일 추첨"
                     },
                     "2": {
-                        "message": "더 샌드박스 랜드를 구입하려면, 랜드 세일 추첨에 참여해야 합니다. {winnerWillBeAble} 등록한 추첨의 종류에 따라, 랜덤 위치의 {premium} 또는 {regular}를 구입할 수 있습니다.",
-                        "winnerWillBeAble": "당첨자는 랜덤 위치의 랜드를 구입할 수 있습니다."
+                        "message": "더 샌드박스 랜드를 구입하려면, 랜드 세일 추첨에 참여해야 합니다. 등록한 추첨의 종류에 따라, {winnerWillBeAble} {premium} 또는 {regular} 랜드를 구입할 수 있습니다.",
+                        "winnerWillBeAble": "모든 당첨자는 랜덤 위치의"
                     }
                 },
                 "requirements": {
@@ -4587,7 +4587,7 @@
                     "premiumClub": "프리미엄 랜드 보유자 클럽"
                 },
                 "notes": {
-                    "notice": "* {partner} 랜드 세일에서 랜덤 위치의 {랜드Type} 랜드 1개를 구입합니다. 위치는 트랜잭션이 완료된 후 공개됩니다.",
+                    "notice": "* {partner} 랜드 세일에서 랜덤 위치의 {landType} 랜드 1개를 구입합니다. 위치는 트랜잭션이 완료된 후 공개됩니다.",
                     "assets": "프리미엄 애셋은 랜드 구매 여부에 따라 무작위로 주어집니다(선택 불가)."
                 },
                 "button": "{sandImg} {price} 구입",
@@ -4639,7 +4639,7 @@
                     "5": {
                         "title": "언제 랜드 세일이 시작되나요?",
                         "paragraphs": {
-                            "1": "{랜드SaleName} 랜드 세일 일정",
+                            "1": "{landSaleName} 랜드 세일 일정:",
                             "2": {
                                 "1": "랜드 세일 추첨 등록: {startDate} - {endDate}",
                                 "2": "랜드 세일 추첨 결과 발표: {date}",
@@ -4653,7 +4653,7 @@
                                 }
                             },
                             "3": {
-                                "paragraph": "{랜드SaleSecondChance}를 통해 판매되는 랜드의 수량은 추첨에 당첨된 화이트리스트 유저들이 구매하지 않은 랜드의 수량에 따라 결정됩니다.",
+                                "paragraph": "{landSaleSecondChance}를 통해 판매되는 랜드의 수량은 추첨에 당첨된 화이트리스트 유저들이 구매하지 않은 랜드의 수량에 따라 결정됩니다.",
                                 "landSaleSecondChance": "*랜드 세일 2차 경매"
                             }
                         }
@@ -4945,7 +4945,7 @@
                         "button": "랜드 구입"
                     },
                     "card2": {
-                        "title": "",
+                        "title": "케어 베어 이스테이트 경매",
                         "subtitle": "이스테이트를 구입하고 메타버스를 함께 만들어 나가요.",
                         "description": "",
                         "button": "이스테이트 경매"
