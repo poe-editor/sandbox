@@ -3806,7 +3806,7 @@
             },
             "connect": {
                 "successMsg": "The experience was linked succesfully!",
-                "errorMsg": "Could not link experience. {reason}"
+                "errorMsg": "경험을 연결할 수 없습니다. {reason}"
             },
             "disconnect": {
                 "successMsg": "The experience was disconnected!",
@@ -4087,7 +4087,7 @@
             "manageSale": "판매 관리",
             "onLandsaleRaffle": "랜드 세일 추첨",
             "landsaleRaffle": {
-                "description": "이 랜드는 {랜드saleName} 랜드 세일에 포함된 랜드입니다. 랜드 세일 추첨에 참여하여 이 랜드를 구입할 수 있습니다.",
+                "description": "이 랜드는 {landsaleName} 랜드 세일에 포함된 랜드입니다. 랜드 세일 추첨에 참여하여 이 랜드를 구입할 수 있습니다.",
                 "learnMoreAbout": "랜드 세일 추첨 자세히 알아보기",
                 "join": "랜드 세일 추첨 참여하기"
             }
@@ -4462,7 +4462,7 @@
                 "yourTotalRaffleTickets": "보유한 추첨 티켓 수",
                 "registered": {
                     "title": "추첨 참여하기",
-                    "tooltip": "Every user gets 1 Ticket for joining the 랜드 Sale Raffle"
+                    "tooltip": "모든 유저는 랜드 세일 추첨에 참여하여 한 개의 티켓을 획득할 수 있습니다."
                 },
                 "season2pass": {
                     "title": "시즌 2 알파 패스",
@@ -4522,7 +4522,7 @@
                 "needHelp": "도움이 필요한가요?",
                 "explanations": {
                     "1": {
-                        "message": "더 샌드박스는 모든 유저 여러분에게 랜드를 구입할 수 있는 공정한 기회를 제공하고자 합니다. 이에, 새로운 {랜드SaleRaffle}을 도입하여 랜드 세일 시스템을 개편했습니다. ",
+                        "message": "더 샌드박스는 모든 유저 여러분에게 랜드를 구입할 수 있는 공정한 기회를 제공하고자 합니다. 이에, 새로운 {landSaleRaffle}을 도입하여 랜드 세일 시스템을 개편했습니다. ",
                         "landSaleRaffle": "랜드 세일 추첨"
                     },
                     "2": {
@@ -4674,11 +4674,11 @@
                             "1": "랜드 세일 추첨 일정:",
                             "2": {
                                 "1": {
-                                    "paragraph": "{랜드SaleSignUp} November 17 3:00 PM UTC to November 21 1:00 PM UTC",
+                                    "paragraph": "{landSaleSignUp} November 17 3:00 PM UTC to November 21 1:00 PM UTC",
                                     "landSaleSignUp": "랜드 세일 추첨 등록:"
                                 },
                                 "2": {
-                                    "paragraph": "{랜드SaleRaffleResults} November 21 8:00 PM UTC",
+                                    "paragraph": "{landSaleRaffleResults} November 21 8:00 PM UTC",
                                     "landSaleRaffleResults": "랜드 세일 추첨 결과 발표:"
                                 }
                             },
@@ -6841,7 +6841,7 @@
         },
         "avatars": {
             "title": "아바타",
-            "lands": "랜드s & Estates",
+            "lands": "랜드 및 이스테이트",
             "experiences": "경험",
             "entities": "엔티티"
         },
@@ -7740,7 +7740,7 @@
         "text175": "귀하가 공인 대리인이면서 공증법 4121-4130절에 따라 거주자에게 받은 대리권 증명서를 제출하지 않은 경우, 당사는 거주자에게 다음을 요청할 수 있습니다.",
         "text176": "거주자의 신원을 당사에 직접 인증해 줄 것",
         "text177": "거주자가 대리인에게 해당 요청을 하는 것을 허가했다는 사실을 당사에 직접 확인해 줄 것",
-        "text178": "Postal address",
+        "text178": "우편 주소",
         "text179": "Government-issued ID, when you apply to participate in one of our raffles, sweepstakes, or other promotions",
         "text180": "Allow you to participate in raffles, sweepstakes, contests or other promotions;"
     },
@@ -7861,7 +7861,7 @@
             "oldTransactions": "지난 트랜잭션 내역 확인하기"
         },
         "walletTab": {
-            "mainnetL1Title": "ETHEREUM NETWORK L1",
+            "mainnetL1Title": "이더리움 네트워크 L1",
             "testnetL1Title": "Goerli",
             "eth": "ETH",
             "poly": "폴리곤",
