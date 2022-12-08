@@ -283,10 +283,10 @@
         "sale": "Sale",
         "richText": {
             "placeholder": "Change this text...",
-            "title": "Title",
-            "bold": "Bold",
-            "italic": "Italic",
-            "underline": "Underline",
+            "title": "제목",
+            "bold": "굵게",
+            "italic": "이탤릭체",
+            "underline": "밑줄",
             "alignLeft": "왼쪽 맞춤",
             "alignRight": "오른쪽 맞춤",
             "alignCenter": "가운데 맞춤",
@@ -3788,19 +3788,19 @@
             "chooseLand": "Choose an 랜드 to connect Experience",
             "chooseEstate": "Choose an ESTATE to connect Experience",
             "selectLand": "랜드 선택",
-            "selectEstate": "Choose ESTATE",
+            "selectEstate": "이스테이트 선택",
             "showAvailable": "Show available only",
             "empty": {
                 "all": {
-                    "title": "You don't have any 랜드 or ESTATE in your inventory",
+                    "title": "인벤토리에 랜드 또는 이스테이트를 보유하고 있지 않습니다.",
                     "description": "In order to locate your experience you need to have 랜드 available in the wallet linked to this account. If you don't own any 랜드 you can always buy one."
                 },
                 "estates": {
-                    "title": "You don't have any ESTATE in your inventory",
+                    "title": "인벤토리에 이스테이트를 보유하고 있지 않습니다.",
                     "description": "In order to locate your experience you need to have 랜드 available in the wallet linked to this account. If you don't own any 랜드 you can always buy one."
                 },
                 "lands": {
-                    "title": "You don't have any 랜드 in your inventory",
+                    "title": "인벤토리에 랜드를 보유하고 있지 않습니다.",
                     "description": "In order to locate your experience you need to have 랜드 available in the wallet linked to this account. If you don't own any 랜드 you can always buy one."
                 }
             },
@@ -4494,7 +4494,7 @@
                 "raffleSelected": "참여 중인 추첨:",
                 "join": {
                     "title": "참여하고 싶은 추첨을 선택하세요.",
-                    "description": "랜드 세일 추첨 참여가 {}. 랜드 세일에서 1개의 랜드를 구매할 수 있는 기회에 당첨되기 위해 추첨에 참여하는 것입니다. 추첨 참여에는 별도 비용이나 트랜잭션이 발생하지 않습니다.",
+                    "description": "랜드 세일 추첨 참여가 {youAreNotBuyingALand}. 랜드 세일에서 1개의 랜드를 구매할 수 있는 기회에 당첨되기 위해 추첨에 참여하는 것입니다. 추첨 참여에는 별도 비용이나 트랜잭션이 발생하지 않습니다.",
                     "youAreNotBuyingALand": "랜드 구매를 의미하는 것은 아닙니다",
                     "card": {
                         "title": "{raffleType} 랜드 추첨",
@@ -4941,13 +4941,13 @@
                     "card1": {
                         "title": "더 많은 랜드 획득하기",
                         "subtitle": "2차 마켓",
-                        "description": "",
+                        "description": "많은 유저들이 투자의 일환으로 보유한 랜드를 재판매합니다. 2차 마켓에서 다른 유저로부터 랜드를 구매할 수 있습니다. 오픈시(OpenSea)에서 꿈에 그리던 랜드를 구입해 보세요.",
                         "button": "랜드 구입"
                     },
                     "card2": {
                         "title": "케어 베어 이스테이트 경매",
                         "subtitle": "이스테이트를 구입하고 메타버스를 함께 만들어 나가요.",
-                        "description": "",
+                        "description": "이스테이트는 다수의 랜드 모음으로 그 안에 경험을 제작하고 수익화할 수 있습니다. 경매는 오픈시(OpenSea)에서 {month} {time} UTC에 진행됩니다.",
                         "button": "이스테이트 경매"
                     }
                 }
@@ -7865,7 +7865,7 @@
             "oldTransactions": "지난 트랜잭션 내역 확인하기"
         },
         "walletTab": {
-            "mainnetL1Title": "Ethereum",
+            "mainnetL1Title": "이더리움",
             "testnetL1Title": "Goerli",
             "eth": "ETH",
             "poly": "폴리곤",
@@ -9293,7 +9293,7 @@
         "buySand": "SAND 구매",
         "buymSand": "SAND 구매",
         "confirmDeposit": "Transfer to Polygon ({payloadLength})",
-        "confirmWithdraw": "Transfer to Ethereum ({payloadLength})",
+        "confirmWithdraw": "이더리움으로 트랜스퍼 ({payloadLength})",
         "noTransactions": "표시할 트랜잭션이 없습니다.",
         "pending": "보류 중",
         "checkTransactions": "이전 트랜잭션이나 보류 중인 트랜잭션을 확인하세요.",
@@ -10741,7 +10741,7 @@
         },
         "assetsQuantity": "애셋",
         "landsQuantity": "랜드",
-        "withdrawsDisabled": "이더리움으로의 LAND 이전은 일시 중단되었습니다.",
+        "withdrawsDisabled": "이더리움으로의 랜드 이전은 일시 중단되었습니다.",
         "bridgeItemslabels": {
             "inProgress": "진행 중",
             "checkpointed": "조치 필요"
