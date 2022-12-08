@@ -3,7 +3,7 @@
         "sandbox": "The Sandbox",
         "$sand": "$SAND",
         "sand": "SAND",
-        "land": "LAND",
+        "land": "Land",
         "location": "ロケーション",
         "size": "サイズ",
         "parcel": "区画",
@@ -52,7 +52,7 @@
             "glide": "滑空",
             "death": "死亡",
             "fall": "落下",
-            "hit": "ヒットを受ける",
+            "hit": "ヒット",
             "taunt": "挑発",
             "attack": "攻撃",
             "landing": "着陸",
@@ -1149,7 +1149,7 @@
                     "description3": "- アルファパスと報酬を請求するには、ガス代としてETHが必要です。",
                     "requirements": {
                         "title": "The Sandbox Alphaゲームクライアントの最小スペック",
-                        "1": "操作系统：Windows 10 64位",
+                        "1": "OS：Windows 10 64ビット",
                         "2": "NVIDIA GeForce GTX 760以上",
                         "3": "i5-8400或以上（需支持AVX）",
                         "4": "内存：8192Mb或以上"
@@ -1413,7 +1413,7 @@
                 }
             },
             "carousel": {
-                "0": "第一日 - 11月16日：Alpha中心",
+                "0": "DAY1 - 11月29日：アルファハブ",
                 "1": "Day 2 - 11月30日：NFTインスティテュート",
                 "2": "第三日 - 11月18日：Dum-Yz地下城",
                 "3": "第四日 - 11月19日：Club XYZ"
@@ -2868,10 +2868,10 @@
             }
         },
         "assetOwnersList": {
-            "user": "User",
-            "chain": "Chain",
+            "user": "ユーザー",
+            "chain": "チェーン",
             "quantity": "QTY",
-            "price": "Price"
+            "price": "価格"
         }
     },
     "create": {
@@ -3997,7 +3997,9 @@
             "time": "TIME",
             "warmup": "ウォームアップ",
             "california": "California Dreamin'",
-            "galleria": "THE GALLERIA"
+            "galleria": "THE GALLERIA",
+            "kverse": "K-VERSE",
+            "voxelMadness": "Voxel Madness"
         },
         "booked": "予約者：",
         "visit": "サイトにアクセス",
@@ -4143,7 +4145,7 @@
             "landsale": "LAND SALE",
             "joinLandsale": "Join LAND Sale",
             "1": {
-                "title": "A timeless mix of tradition and modernity"
+                "title": "Dive into Korean Culture and start building the Metaverse!"
             },
             "2": {
                 "title": "Join the Metaverse and never stop building, never stop playing!",
@@ -4245,7 +4247,7 @@
                     "raffleResultsIn": "結果発表まであと:",
                     "landSaleStartsOnDate": "LAND セールは {date} に開始します"
                 },
-                "wave": "ウェーブ 2 - {time}",
+                "wave": "ウェーブ 3 - {time}",
                 "subtitle": "当選者は {partner} LAND セールで1 LANDを購入することができます。 {landsCount} LANDある場合は {landsCount} 人の当選者がいることになります。",
                 "subtitle2": "California Dreamin’　もう目が覚めなくても大丈夫！",
                 "subtitle3": "LAND セールのホワイトリストには当選してません。LAND はオークションやセカンダリーマーケットで獲得することができます。",
@@ -4267,7 +4269,9 @@
                 "youWon": "ホワイトリストスポットに当選しました！",
                 "youDidntWin": "ホワイトリストスポットに当選しませんでした。",
                 "sale": "セール",
-                "until": " {date} まで"
+                "until": " {date} まで",
+                "to": "{date} to {dateTo}",
+                "allTimesUTC": "All times are in UTC"
             },
             "whatsTheLANDSale": {
                 "title": "LAND 抽選セールとは何ですか？",
@@ -5626,7 +5630,7 @@
             "notCompatible": "お使いのブラウザではアバタークリエイターを実行できません。",
             "body": {
                 "listItems": {
-                    "1": "体",
+                    "1": "ボディ",
                     "2": "頭",
                     "3": "胴体",
                     "4": "脚",
@@ -6015,7 +6019,7 @@
                     "save": "Save change",
                     "success": "Successfully changed!",
                     "months": {
-                        "0": "January",
+                        "0": "1月",
                         "1": "February",
                         "2": "March",
                         "3": "April",
@@ -7525,18 +7529,18 @@
         },
         "text2": {
             "mainText": "お客様が本プライバシーポリシーにアクセスされている弊社が運営するウェブサイト(the “{0}”);",
-            "0": "Websites"
+            "0": "ウェブサイト"
         },
         "text3": "HTML-formatted email messages that we send to you that link to this Privacy Policy or other communications with you; and",
         "text4": "Offline business interactions you have with us.",
         "text5": {
             "mainText": "Collectively, we refer to the Websites, emails, and offline business interactions as the “{0}.”",
-            "0": "Services"
+            "0": "サービス"
         },
         "text6": "PERSONAL INFORMATION",
         "text7": {
             "mainText": "“{0}” is information that identifies you as an individual or relates to an identifiable individual. The Services collect Personal Information, including:",
-            "0": "Personal Information"
+            "0": "個人情報"
         },
         "text8": "Name",
         "text9": "Email address",
@@ -7613,7 +7617,7 @@
         "text79": "OTHER INFORMATION",
         "text80": {
             "mainText": "“{0}” is any information that does not reveal your specific identity or does not directly relate to an identifiable individual. The Services collect Other Information such as:",
-            "0": "Other Information"
+            "0": "他の情報"
         },
         "text81": "Browser and device information",
         "text82": "Information collected through cookies, pixel tags and other technologies",
@@ -7630,7 +7634,7 @@
         "text92": "Pixel tags (also known as web beacons and clear GIFs) may be used to, among other things, track the actions of users of the Services (including email recipients), measure the success of our marketing campaigns, and compile statistics about usage of the Services and response rates.",
         "text93": {
             "mainText": "{0}. We use third party analytics service providers, including Google Analytics, which use cookies and similar technologies to collect and analyze information about use of the Services and report on activities and trends.  These analytics services may also collect information regarding the use of other websites, apps and online resources.  You can learn about Google’s practices by going to ",
-            "0": "Analytics"
+            "0": "アナリティックス"
         },
         "text93part2": ", and exercise the opt-out provided by Google by downloading the Google Analytics opt-out browser add-on, available at ",
         "text94": "Uses and Disclosures of Other Information",
@@ -7680,32 +7684,32 @@
         "text133": "Disclosed to Which Categories of Third Parties for Operational Business Purposes",
         "text134": {
             "mainText": "{0}, such as username, contact information, government-issued ID, IP address and other online identifiers",
-            "0": "Identifiers"
+            "0": "識別情報"
         },
         "text135": "Affiliates; service providers; business partners; joint marketing partners; contest sponsors; legal authorities",
         "text136": {
             "mainText": "{0}, such as name, contact information and government-issued ID",
-            "0": "Personal information as defined in the California customer records law"
+            "0": "カリフォルニア州顧客記録法に定義される個人情報"
         },
         "text137": "Affiliates; service providers; business partners; joint marketing partners; contest sponsors; legal authorities",
         "text138": {
             "mainText": "{0}, such as transaction information and purchase history",
-            "0": "Commercial Information"
+            "0": "商用情報"
         },
         "text139": "Affiliates; service providers; business partners; joint marketing partners; contest sponsors; legal authorities",
         "text140": {
             "mainText": "{0}, such as interactions with our online properties",
-            "0": "Internet or network activity information"
+            "0": "インターネットまたはネットワークの活動情報"
         },
         "text141": "Affiliates; service providers; business partners; joint marketing partners; contest sponsors; legal authorities",
         "text142": {
             "mainText": "{0}, such as approximate location derived from IP address",
-            "0": "Geolocation Data"
+            "0": "地域データ"
         },
         "text143": "Affiliates; service providers; business partners; joint marketing partners; contest sponsors; legal authorities",
         "text144": {
             "mainText": "{0}. Audio, electronic, and similar information",
-            "0": "Audio/Video Data"
+            "0": "音声/ビデオデータ"
         },
         "text145": "Affiliates; service providers; business partners; joint marketing partners; contest sponsors; legal authorities",
         "text146": "当社は、過去12ヶ月間、CCPAの目的のために個人情報を\"販売\"していませんし、\"販売\"したこともありません。 例えば、上記を制限することなく、当社は16歳未満の未成年者の個人情報を販売することはありません。",
@@ -8487,7 +8491,7 @@
             "lookBack": {
                 "title": "A LOOK BACK AT",
                 "metrics": {
-                    "0": "SAND DISTRIBUTED",
+                    "0": "配布SAND",
                     "1": "STAKING VOLUME S2",
                     "2": "コミュニティ・ブースター",
                     "3": "ALPHA PASSES DISTRIBUTED",
@@ -10226,7 +10230,7 @@
                             "title": "",
                             "subtitle": "",
                             "list": {
-                                "0": "",
+                                "0": "0",
                                 "1": "",
                                 "2": ""
                             }
@@ -10298,7 +10302,7 @@
                             "title": "",
                             "subtitle": "",
                             "list": {
-                                "0": "",
+                                "0": "0",
                                 "1": "",
                                 "2": ""
                             }
@@ -10319,7 +10323,7 @@
                             "title": "",
                             "subtitle": "",
                             "list": {
-                                "0": "",
+                                "0": "0",
                                 "1": "",
                                 "2": ""
                             }
@@ -10327,7 +10331,7 @@
                         "5": {
                             "subtitle": "",
                             "list": {
-                                "0": "",
+                                "0": "0",
                                 "1": "",
                                 "2": "",
                                 "3": "",
@@ -10374,7 +10378,7 @@
                             "title": "",
                             "subtitle": "",
                             "list": {
-                                "0": "",
+                                "0": "0",
                                 "1": "",
                                 "2": ""
                             }
@@ -10383,7 +10387,7 @@
                             "title": "",
                             "subtitle": "",
                             "list": {
-                                "0": "",
+                                "0": "0",
                                 "1": "",
                                 "2": "",
                                 "3": ""
@@ -11815,7 +11819,7 @@
                         "title": "Quest Icons",
                         "subtitle": "As said before, a Quest is split into 4 steps. For 3 of them, a specific Quest Icon is displayed during the Play Mode.",
                         "list": {
-                            "0": "Quest can be started: Gold '!' ",
+                            "0": "クエストを開始することができます。ゴールド「！」 ",
                             "1": "Quest’s Objective: Gold Target Icon",
                             "2": "Quest can be finished: Gold '?'"
                         }
@@ -11887,7 +11891,7 @@
                         "title": "Global Game Maker Improvements",
                         "subtitle": "Our main focus with this version was all about performance. We’ve still got ways to go before we can provide the absolute best experience possible but we’ve made quite a few changes in our architecture and you will be able to notice:",
                         "list": {
-                            "0": "Faster loading and response times of the Game Maker Tools",
+                            "0": "Game Maker のロードおよびレスポンスの高速化",
                             "1": "Improved performance on different types of PC’s",
                             "2": "Improved performance on bigger experiences with a large amount of assets"
                         }
@@ -11908,7 +11912,7 @@
                         "title": "New Templates",
                         "subtitle": "Game Makerに新たに3つの体験のテンプレートが追加されました。",
                         "list": {
-                            "0": "Logic - Behaviours: An experience that lets you test out the different behaviors we have and different ways to use them",
+                            "0": "ロジック - ビヘイビア。さまざまなビヘイビアとその使い方をテストすることができる体験",
                             "1": "Logic - Victory and Defeat: understand the basics of Victory and Defeat conditions in your game",
                             "2": "Logic - Counter Quest: learn how to make a Death Counter and Collection Counter quest"
                         }
@@ -11916,7 +11920,7 @@
                     "5": {
                         "subtitle": "We’ve also added another 8 new experience templates without any logic for you to use as starting points:",
                         "list": {
-                            "0": "Landscape - Desert 1x1 / Forgotten Wasteland",
+                            "0": "風景 - 砂漠 1x1 / 忘れられた荒れ地",
                             "1": "Landscape - Desert 2x2 / Barren Night",
                             "2": "Landscape - Forest 1x1 / Woodlands",
                             "3": "Landscape - Forest 2x2 / Dusk Forest",
@@ -11963,7 +11967,7 @@
                         "title": "NFT Images",
                         "subtitle": "We’ve added the NFT Image component to the Game Maker. Now you’ll be able to add NFT images from Opensea:",
                         "list": {
-                            "0": "Put them on Billboards and Picture frames to create an NFT environment or art Gallery",
+                            "0": "ビルボードやフォトフレームに貼って、NFT環境やアートギャラリーを演出する",
                             "1": "Showcase your owned NFT inside the Sandbox to the players and creators",
                             "2": "Use the NFT Inventory feature to be able to see the NFT in Opensea"
                         }
@@ -11972,7 +11976,7 @@
                         "title": "Play Mode Settings",
                         "subtitle": "We’ve added settings to this version of the Game Maker in order to provide a better quality of life for users. In this iteration of the feature you’ll be able to:",
                         "list": {
-                            "0": "Change Resolution and Screen Mode",
+                            "0": "解像度と画面モードの変更",
                             "1": "Turn Sound on/off",
                             "2": "Control the Play Camera sensitivity",
                             "3": "View the play mode Control Scheme (We now support AZERTY too)"
@@ -14000,7 +14004,7 @@
         "text1": "These Sandbox Terms of Use (the “Terms”) set forth the terms and conditions under which TSB Gaming Ltd, a company incorporated in Malta, and its subsidiaries and affiliates (collectively, “TSB”, “us”, “our”, or “we”), and you (“you” or “your”) agree to be governed as it relates to any of your activity in The Sandbox, a decentralized, community-driven platform created and owned by TSB (“The Sandbox”). These Terms govern your access to, use of, and interaction with The Sandbox, including any content, functionality, and services offered on or through The Sandbox and your creation of any Assets and/or Games (defined below) (collectively, the “Services”).",
         "text2": {
             "mainText": "Please read these Terms carefully before you start to use The Sandbox. By using The Sandbox, you accept and agree to be bound and abide by these Terms, the extra Terms of Use which can be found at URL: {0} and our Privacy Policy, which can be found at the following URL: {1}, you must not access or use The Sandbox.",
-            "0": "Privacy Policy"
+            "0": "プライバシーポリシー"
         },
         "text3": "The Sandbox is offered and available to users who are 18 years of age or older. By accessing or using The Sandbox, you represent and warrant that you are of legal age to form a binding contract with TSB and meet the foregoing eligibility requirements. If you do not meet all of these requirements, you must not access or use The Sandbox.",
         "text4": "THE SANDBOX",
@@ -14017,7 +14021,7 @@
         "text15": "You are solely responsible for ensuring that any Assets you submit to the Services comply with any applicable laws and third party rights, including but not limited to any intellectual property rights, privacy rights and publicity rights.",
         "text16": {
             "mainText": "You agree that any information included in your Assets and/or Games may be used in accordance with our {0}.",
-            "0": "Privacy Policy"
+            "0": "プライバシーポリシー"
         },
         "text17": "TSB always has the right, in its sole discretion, to accept or reject any Assets and/or Games.",
         "text18": "LANDS",
@@ -14036,7 +14040,7 @@
         "text31": "During the operation of the Services, you may upload certain Assets and Games that you have created to The Sandbox in accordance with these Terms. Except as otherwise set forth in these Terms, you remain the owner of your Assets and Games at all times, and TSB does not claim any ownership rights in your Assets and Games. Assets and Games are otherwise subject to the following provisions. These Terms apply to all Assets and Games that you contribute to The Sandbox or to any TSB website.",
         "text32": {
             "mainText": "You are solely responsible for ensuring that any Assets and Games you submit to the Services comply with any applicable laws and third party rights, including but not limited to any intellectual property rights, privacy rights and publicity rights. You agree that any information included in your Assets and Games may be used in accordance with our {0}. TSB always has the right, in its sole discretion, to accept or reject any Assets and/or Games.",
-            "0": "Privacy Policy"
+            "0": "プライバシーポリシー"
         },
         "text33": "By using the Services, you grant TSB a worldwide, non-exclusive, royalty-free, perpetual, irrevocable, sub-licensable (through multiple tiers), transferable right and license to use, reproduce, publicly display, distribute and adapt the publicly shared Assets and Games for the purposes of developing, distributing, providing, improving, and promoting the Services, our activities, and your publicly shared Assets and Games. You further grant TSB the right to use your name and trademarks, if any, in connection with our use of your publicly shared Assets and Games.",
         "text34": "You may make your Assets and Games available for purchase in The Sandbox. Each Asset is a non-fungible token (a “NFT”) on the blockchain. When you upload an Asset and make it available for sale in The Sandbox marketplace, you retain ownership of all intellectual property rights associated with such Asset but you agree to make a certain number of the Assets available for sale as NFTs. End users who purchase the Asset own that underlying, purchased NFT completely and have the right to sell, trade, donate, give away, transfer, or otherwise dispose of the NFT as they see fit; provided, however, that each Asset will be tokenized so that it will have provable scarcity and proof of ownership.",
@@ -14046,15 +14050,15 @@
         "text38": "USER CONTENT",
         "text39": {
             "mainText": "{0} means any and all information and content that a user submits to, or uses with, the Site (e.g., content in the user’s profile or postings). You are solely responsible for your User Content. You assume all risks associated with use of your User Content, including any reliance on its accuracy, completeness or usefulness by others, or any disclosure of your User Content that personally identifies you or any third party. You hereby represent and warrant that your User Content does not violate our Acceptable Use Policy (defined in Section 1.3). You may not represent or imply to others that your User Content is in any way provided, sponsored or endorsed by Company. Because you alone are responsible for your User Content, you may expose yourself to liability if, for example, your User Content violates the Acceptable Use Policy. Company is not obligated to backup any User Content, and your User Content may be deleted at any time without prior notice. You are solely responsible for creating and maintaining your own backup copies of your User Content if you desire.",
-            "0": "1.1 User Content. “User Content”"
+            "0": "1.1 ユーザーコンテンツ \"ユーザーコンテンツ\""
         },
         "text40": {
             "mainText": "{0} You hereby grant (and you represent and warrant that you have the right to grant) to Company an irrevocable, nonexclusive, royalty-free and fully paid, worldwide license to reproduce, distribute, publicly display and perform, prepare derivative works of, incorporate into other works, and otherwise use and exploit your User Content, and to grant sublicenses of the foregoing rights, solely for the purposes of including your User Content in the Site. You hereby irrevocably waive (and agree to cause to be waived) any claims and assertions of moral rights or attribution with respect to your User Content.",
-            "0": "1.2 License."
+            "0": "1.2 ライセンス。"
         },
         "text41": {
             "mainText": "{0} The following terms constitute our {1}:",
-            "0": "1.3 Acceptable Use Policy.",
+            "0": "1.3 利用ポリシー。",
             "1": "“Acceptable Use Policy”"
         },
         "text42": {
@@ -14067,12 +14071,12 @@
         },
         "text44": {
             "mainText": "{0} We reserve the right (but have no obligation) to review any User Content, and to investigate and/or take appropriate action against you in our sole discretion if you violate the Acceptable Use Policy or any other provision of these Terms or otherwise create liability for us or any other person. Such action may include removing or modifying your User Content, terminating your Account in accordance with Section {1}, and/or reporting you to law enforcement authorities.",
-            "0": "1.4 Enforcement.",
+            "0": "1.4 施行。",
             "1": "Error! Reference source not found."
         },
         "text45": {
             "mainText": "{0} If you provide Company with any feedback or suggestions regarding the Site ({1}), you hereby assign to Company all rights in such Feedback and agree that Company shall have the right to use and fully exploit such Feedback and related information in any manner it deems appropriate. Company will treat any Feedback you provide to Company as non-confidential and non-proprietary. You agree that you will not submit to Company any information or ideas that you consider to be confidential or proprietary.",
-            "0": "1.5 Feedback.",
+            "0": "1.5 フィードバック。",
             "1": "“Feedback”"
         },
         "text46": "REPRESENTATIONS AND WARRANTIES",
@@ -14361,11 +14365,11 @@
         "text8": "Giveaway のエントリーをするには下記いずれかを行っていただく必要があります。",
         "text9": {
             "mainText": "The Sandbox 内でクエストを終了し、エトスポイントを貯める：最大500エントリー（エトスポイントを300まで貯めた後）({0})\n",
-            "0": "詳細はこちらをご覧ください。"
+            "0": "詳細はこちら"
         },
         "text10": {
             "mainText": "SAND をステーキング({0})：最大500エントリー",
-            "0": "詳細はこちらをご覧ください。"
+            "0": "詳細はこちら"
         },
         "text11": "シーズン1 アルファパスの所有権を証明する：210エントリー",
         "text12": "シーズン2 アルファパスの所有権を証明する：210エントリー",
@@ -14447,7 +14451,7 @@
         "text1": "購入をしていただく必要は一切ございません。購入、取引、支払いが当選確率を引き上げるということもございません。上記事項はGiveaway の必須要件とはなっておりません。",
         "text2": {
             "mainText": "The Sandbox シーズン3 Giveaway（それぞれの {0} 、または合わせて {1}） への参加には公式ルールへの同意が必要になります。Giveaway への参加により、お客様は公式ルールに記載されている参加資格要件を満たしていることを表明し保障することとします。また当該参加資格条件を満たしていない場合は失格となることに同意します。公式ルールの写しはGiveaway 開催期間中に {2}よりご覧いただくことができます。",
-            "0": "GIVEAWAY",
+            "0": "プレゼント",
             "1": "GIVEAWAY",
             "2": "https://www.sandbox.game/en/giveaways_rules"
         },
@@ -14481,7 +14485,7 @@
         },
         "text13": {
             "mainText": "SAND をステーキング({0})：最大500エントリー",
-            "0": "詳しくはこちらをご覧ください。"
+            "0": "詳しくはこちら"
         },
         "text14": "シーズン1 アルファパスの所有権を証明する：210エントリー",
         "text15": "シーズン2 アルファパスの所有権を証明する：210エントリー",
