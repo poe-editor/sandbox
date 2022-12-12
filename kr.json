@@ -282,7 +282,7 @@
         },
         "sale": "Sale",
         "richText": {
-            "placeholder": "Change this text...",
+            "placeholder": "이 텍스트를 변경합니다...",
             "title": "제목",
             "bold": "굵게",
             "italic": "이탤릭체",
@@ -3688,13 +3688,13 @@
             "pleaseSignInFirst": "먼저 로그인하세요"
         },
         "connect": {
-            "confirmBoxTitle": "These 랜드s are about to be connected to the experience",
+            "confirmBoxTitle": "이 랜드와 경험을 연결합니다.",
             "confirmBoxSubtitle": "계속 진행하시겠습니까?",
-            "confirmBtnTxt": "Confirm Connection",
-            "disconnectBtnTxt": "Disconnect",
-            "connectBtnTxt": "Connect",
+            "confirmBtnTxt": "연결 확인",
+            "disconnectBtnTxt": "연결 끊기",
+            "connectBtnTxt": "연결하기",
             "unpublishBtnTxt": "Unpublish",
-            "direct": "This ESTATE is about to be connected to the experience",
+            "direct": "이 이스테이트와 경험을 연결합니다.",
             "estateOccupied": "This ESTATE is occupied"
         },
         "placement": {
@@ -3752,10 +3752,10 @@
             "errors": {
                 "titleIsRequired": "타이틀을 입력해 주세요."
             },
-            "bannerLoaded": "",
-            "logoLoaded": "The new logo was successfully loaded!",
-            "thumbnailLoaded": "The new thumbnail was successfully loaded!",
-            "errorImageSize": "File size too big please use a lighter file (Maximum: 10 Mb)"
+            "bannerLoaded": "새로운 배너를 성공적으로 불러왔습니다!",
+            "logoLoaded": "새로운 로고를 성공적으로 불러왔습니다!",
+            "thumbnailLoaded": "새로운 썸네일을 성공적으로 불러왔습니다!",
+            "errorImageSize": "파일 크기가 너무 큽니다. 사이즈를 다시 확인해 주세요 (최대 크기: 10 Mb)."
         },
         "publish": {
             "title": "경험 게시"
@@ -3783,10 +3783,10 @@
             "landOccupiedTitle": "This 랜드 is occupied",
             "estateOcuppied": "This Estate is already hosting a published experience, and it has not enough free space. You can edit the location of the Experience to free the ESTATE or you can se the list of available ESTATEs.",
             "landOccupied": "You already published an Experience and the 랜드 is full. You can edit the location of the Experience to free the 랜드 or you can buy more 랜드..",
-            "choose": "Choose",
-            "chooseLocation": "Select a location to place your Experience",
-            "chooseLand": "Choose an 랜드 to connect Experience",
-            "chooseEstate": "Choose an ESTATE to connect Experience",
+            "choose": "선택하기",
+            "chooseLocation": "경험을 배치할 위치를 선택하세요.",
+            "chooseLand": "랜드를 선택하여 경험을 연결하세요.",
+            "chooseEstate": "이스테이트를 선택하여 경험을 연결하세요.",
             "selectLand": "랜드 선택",
             "selectEstate": "이스테이트 선택",
             "showAvailable": "Show available only",
@@ -3833,18 +3833,18 @@
                 },
                 "locationSelection": {
                     "title": "Location Selection",
-                    "description": "You need to select a 랜드 or ESTATE to host the Experience.",
+                    "description": "경험을 선보일 랜드 또는 이스테이트를 선택해야 합니다.",
                     "buttonText": "Position",
-                    "alreadyConnected": "This experience is already connected!",
+                    "alreadyConnected": "이 경험은 이미 연결되었습니다!",
                     "availableLocations": "no locations available | 1 location available | {count} location available",
                     "alreadyConnectedDescription": "You already placed your Experience. You can edit the location here.",
                     "disconnect": "Disconnect",
-                    "edit": "Edit"
+                    "edit": "편집하기"
                 },
                 "accessControl": {
                     "title": "Access Control",
                     "description": "You can establish a gating criteria to access your Experience.",
-                    "buttonText": "Set up"
+                    "buttonText": "설정하기"
                 },
                 "contentWarning": {
                     "title": "Content Warning",
@@ -3854,10 +3854,10 @@
                 "playPage": {
                     "title": "Playpage",
                     "description": "A Playpage is created automatically to promote your Experience.",
-                    "buttonText": "Share"
+                    "buttonText": "공유하기"
                 }
             },
-            "pageTitle": "Sandbox - Experience Hub"
+            "pageTitle": "더 샌드박스 - 경험 허브"
         },
         "gating": {
             "timestamp": "Timestamp",
@@ -3870,9 +3870,9 @@
         },
         "assetReview": {
             "title": "애셋 리뷰",
-            "subtitle": "",
+            "subtitle": "모든 애셋이 민팅되었으며 본인이 소유하고 있는지 확인해 주세요.",
             "searchName": "이름으로 검색",
-            "assetsTotal": "",
+            "assetsTotal": "애셋 없음 | 애셋 {count}개 | 애셋 {count}개",
             "loading": "애셋 로딩 중...",
             "filter": {
                 "all": "전체",
@@ -3886,7 +3886,7 @@
                 "addToCart": "장바구니 추가"
             },
             "statusBar": {
-                "toBuy": "",
+                "toBuy": "{count}개 구매",
                 "unavailable": "",
                 "toMint": "",
                 "ready": ""
@@ -6651,7 +6651,7 @@
             "video": "Video",
             "image": "이미지"
         },
-        "mobileDisclaimer": "This experience awaits you on a desktop device"
+        "mobileDisclaimer": "To play this experience you must connect from a desktop computer"
     },
     "collectionPage": {
         "goBack": "뒤로",
@@ -13037,9 +13037,9 @@
                 "behavior": "행동",
                 "none": "해당없음",
                 "mintUpTo": " '' | Mint up to {copies} copy | Mint up to {copies} copies",
-                "max": "{copies} Max",
-                "gemsNotAllowed": "The Catalyst you selected for this asset does not allow Gems.",
-                "emptyGems": "Tap Edit to add gems to your assets."
+                "max": "최대 {copies}",
+                "gemsNotAllowed": "이 애셋의 카탈리스트에는 젬을 추가할 수 없습니다.",
+                "emptyGems": "편집을 클릭하여 애셋에 젬을 추가합니다."
             },
             "minting": {
                 "title": "애셋 {amount}개"
@@ -13059,7 +13059,7 @@
                 "addAsset": "애셋 추가",
                 "successfullyMove": " '' | 이 워크스페이스에서 애셋 위치가 변경되었습니다. | 이 워크스페이스에서 {count}개의 애셋 위치가 변경되었습니다.",
                 "subtitle": "개인 워크스페이스에서 애셋을 선택하여 추가",
-                "title": "Select assets to move from your personal Workspace to this Workspace"
+                "title": "애셋을 선택하여 개인 워크스페이스에서 이 워크스페이스로 애셋을 이동합니다."
             },
             "history": {
                 "searchUser": "유저 검색",
@@ -13090,7 +13090,7 @@
                     "description": "설명",
                     "placeDescription": "NFT의 설명을 입력하세요",
                     "placeName": "NFT의 이름을 입력하세요",
-                    "descriptionSubt": "The description will be included on this asset's detail page"
+                    "descriptionSubt": "애셋 상세 페이지에 설명이 표시됩니다."
                 },
                 "rarity": {
                     "behaviour": "행동",
@@ -13213,8 +13213,8 @@
                 "behavior": "행동",
                 "published": "게시됨",
                 "notPublished": "게시되지 않음",
-                "private": "Private",
-                "setPrivate": "Set as Private",
+                "private": "나만 보기",
+                "setPrivate": "나만 보기로 설정",
                 "setNotPrivate": "Remove private",
                 "publishToMint": "애셋을 민팅하기 전에 게시해야 합니다."
             },
@@ -13289,8 +13289,8 @@
             },
             "searchNamePrivate": "이름으로 검색",
             "uploadingYourAsset": "애셋을 업로드하는 중입니다",
-            "privateSuccess": "Asset set as private successfully",
-            "unprivateSuccess": "Asset set as not private successfully",
+            "privateSuccess": "애셋을 나만 보기로 설정했습니다.",
+            "unprivateSuccess": "애셋을 전채 공개로 설정했습니다.",
             "dragGems": "젬을 드래그하거나 클릭하여 카탈리스트에 추가하거나 삭제하세요.",
             "infoDragGems": "각 젬은 애셋에 다양한 능력치를 부여합니다. 같은 종류의 젬이 여러 개 있다면 해당 능력치가 더욱 상승하게 됩니다."
         },
