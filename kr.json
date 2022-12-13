@@ -1705,7 +1705,17 @@
                 "allEvents": "모든 이벤트",
                 "invalidOwner": "The owner must be a valid / existing userId",
                 "questVerification": "If Custom ticket name is specified Total ticket amount must be specified too",
-                "manualVerification": "If Custom manual ticket name is specified Total manual ticket amount must be specified too"
+                "manualVerification": "If Custom manual ticket name is specified Total manual ticket amount must be specified too",
+                "noResults": "There are no results for this search",
+                "tickets": "Tickets",
+                "landsaleTickets": "Landsales Tickets",
+                "avatars": "Avatars",
+                "rewardPool": "Reward Pool",
+                "special": "Special Event",
+                "availableNow": "Available Now",
+                "search": "Search for an event",
+                "ends": "ENDS",
+                "starts": "STARTS"
             },
             "rewards": {
                 "alphaSeason": "알파 시즌 3",
@@ -8044,7 +8054,13 @@
             "lp": "LP 알아보기"
         },
         "conditions": "스테이킹 조건",
-        "nextClaim": "다음 수령까지 남은 시간:"
+        "nextClaim": "다음 수령까지 남은 시간:",
+        "tags": {
+            "staked": "Staked",
+            "stakeable": "Ready to stake",
+            "approvable": "To approve",
+            "discontinued": "Discontinued"
+        }
     },
     "login": {
         "refresh": "플러그인 설치 후에 브라우저를 새로 고치세요",
