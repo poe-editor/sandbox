@@ -1705,7 +1705,17 @@
                 "allEvents": "All Events",
                 "invalidOwner": "The owner must be a valid / existing userId",
                 "questVerification": "If Custom ticket name is specified Total ticket amount must be specified too",
-                "manualVerification": "If Custom manual ticket name is specified Total manual ticket amount must be specified too"
+                "manualVerification": "If Custom manual ticket name is specified Total manual ticket amount must be specified too",
+                "noResults": "There are no results for this search",
+                "tickets": "Tickets",
+                "landsaleTickets": "Landsales Tickets",
+                "avatars": "Avatars",
+                "rewardPool": "Reward Pool",
+                "special": "Special Event",
+                "availableNow": "Available Now",
+                "search": "Search for an event",
+                "ends": "ENDS",
+                "starts": "STARTS"
             },
             "rewards": {
                 "alphaSeason": "Alfa Sezon 3",
@@ -2868,10 +2878,10 @@
             }
         },
         "assetOwnersList": {
-            "user": "User",
-            "chain": "Chain",
-            "quantity": "QTY",
-            "price": "Price"
+            "user": "Kullanıcı",
+            "chain": "Zincir",
+            "quantity": "Miktar",
+            "price": "Fiyat"
         }
     },
     "create": {
@@ -8044,7 +8054,13 @@
             "lp": "LP'ler nelerdir"
         },
         "conditions": "Conditions to stake",
-        "nextClaim": "Next claim in:"
+        "nextClaim": "Next claim in:",
+        "tags": {
+            "staked": "Staked",
+            "stakeable": "Ready to stake",
+            "approvable": "To approve",
+            "discontinued": "Discontinued"
+        }
     },
     "login": {
         "refresh": "Lütfen eklentiyi yükledikten sonra tarayıcınızı yenileyin",
