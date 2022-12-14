@@ -1706,16 +1706,16 @@
                 "invalidOwner": "The owner must be a valid / existing userId",
                 "questVerification": "If Custom ticket name is specified Total ticket amount must be specified too",
                 "manualVerification": "If Custom manual ticket name is specified Total manual ticket amount must be specified too",
-                "noResults": "There are no results for this search",
-                "tickets": "Tickets",
-                "landsaleTickets": "Landsales Tickets",
-                "avatars": "Avatars",
-                "rewardPool": "Reward Pool",
-                "special": "Special Event",
-                "availableNow": "Available Now",
-                "search": "Search for an event",
-                "ends": "ENDS",
-                "starts": "STARTS"
+                "noResults": "검색 결과가 없습니다.",
+                "tickets": "티켓",
+                "landsaleTickets": "랜드세일 티켓",
+                "avatars": "아바타",
+                "rewardPool": "리워드 풀",
+                "special": "스페셜 이벤트",
+                "availableNow": "진행 중인 이벤트",
+                "search": "이벤트 검색",
+                "ends": "종료",
+                "starts": "시작"
             },
             "rewards": {
                 "alphaSeason": "알파 시즌 3",
@@ -3750,14 +3750,14 @@
             "collectionToGate": "게이팅할 컬렉션",
             "defaultAvatar": "예시 아바타",
             "displayedAsPreview": "특정 컬렉션의 아바타를 보유하고 있지 않을 경우 미리보기로 표시됩니다.",
-            "fullName": "Experience Full Name",
+            "fullName": "경험 전체 이름",
             "thumbnail": "썸네일",
             "logo": "로고",
-            "logoOptimalDimensions": "Optimal dimensions 200 x 200",
-            "bannerOptimalDimensions": "Optimal dimensions 2000 x 200",
-            "thumbnailOptimalDimensions": "Optimal dimensions 2000 x 2000",
+            "logoOptimalDimensions": "최적 사이즈: 200 x 200",
+            "bannerOptimalDimensions": "최적 사이즈: 2000 x 200",
+            "thumbnailOptimalDimensions": "최적 사이즈: 2000 x 2000",
             "addBannerImage": "배너",
-            "optimalDimensions": "",
+            "optimalDimensions": "최적 사이즈: 2000 x 200",
             "experienceUpdated": "경험이 업데이트되었습니다!",
             "errors": {
                 "titleIsRequired": "타이틀을 입력해 주세요."
@@ -3842,13 +3842,13 @@
                     "someNeedReview": "Assets Ready | 1 asset to review | {count} assets to review"
                 },
                 "locationSelection": {
-                    "title": "Location Selection",
+                    "title": "위치 선택",
                     "description": "경험을 선보일 랜드 또는 이스테이트를 선택해야 합니다.",
-                    "buttonText": "Position",
+                    "buttonText": "위치",
                     "alreadyConnected": "이 경험은 이미 연결되었습니다!",
                     "availableLocations": "no locations available | 1 location available | {count} location available",
                     "alreadyConnectedDescription": "You already placed your Experience. You can edit the location here.",
-                    "disconnect": "Disconnect",
+                    "disconnect": "연결 해제",
                     "edit": "편집하기"
                 },
                 "accessControl": {
@@ -4361,7 +4361,7 @@
                 },
                 "youWon": {
                     "title": "축하합니다!",
-                    "subtitle": "화이트리스트에 등록되어 {partner} 랜드 세일에서 {landType} 랜드 1개를 구입할 수 있습니다.",
+                    "subtitle": "You are now whitelisted to buy 1 {landType} at {partner} LAND Sale",
                     "message": {
                         "body": "{3} - {4} 기간 안에 {1} 페이지에서 {0}를 구입하세요 ({2}). 기간 종료 이후에는 랜드를 구입할 수 없습니다. 추첨 참여는 {partner} 랜드 세일에만 해당됩니다.",
                         "landSale": "랜드 세일",
@@ -5285,10 +5285,10 @@
                     }
                 }
             },
-            "connectToXp": "Connect Experience to Location",
+            "connectToXp": "랜드에 경험 연결하기",
             "connectToXpDescription": "You are about to place your Experience in a 랜드/ESTATE. This is going to be its location in the metaverse once you decide to publish it.",
             "congratulations": "Your Experience is connected to a Location. You are one step closer to publish your Experience in the metaverse.",
-            "disconnectExperience": "Disconnect Experience from Location",
+            "disconnectExperience": "랜드에서 경험 연결 해제하기",
             "disconnectExperienceDescription": "You are about to disconnect your Experience from its Location. If the Experience is published, by disconnecting it you are also unpublishing it."
         },
         "blog": {
@@ -5972,7 +5972,7 @@
                 "email-invalid": "유효하지 않은 이메일 형식",
                 "oldEmail-sub": "기존 이메일",
                 "submitEmail": "이메일 변경",
-                "websiteUrl": "개인 웹",
+                "websiteUrl": "개인 홈페이지",
                 "generic-error": "하나 이상의 오류가 발생했습니다.",
                 "error": "올바르지 않은 형식",
                 "name": "이름",
@@ -6296,7 +6296,7 @@
                     "signin-with-email": "이메일로 로그인하기",
                     "divider": "또는",
                     "forgot-password": "패스워드를 잊어버렸습니다.",
-                    "login-collision-1": "Oops, it looks like your email is already registered with another Sign up option.",
+                    "login-collision-1": "다른 옵션을 통해 해당 이메일이 이미 등록되었습니다.",
                     "login-collision-2": "이메일과 패스워드로 로그인하거나 지갑을 연결하세요."
                 },
                 "wallet-choice": {
@@ -6639,15 +6639,15 @@
         "mapDescription": "Short map description",
         "metadata": "(Metadata)",
         "opened": "Opened:",
-        "setUpAssetsFromGM": "Set up the assets from the gamer maker",
+        "setUpAssetsFromGM": "게임 메이커에서 애셋을 설정합니다.",
         "uploadFiles": {
-            "fileUploaded": "Your file uploaded succesfully",
-            "selectFile": "Select your file to upload here",
+            "fileUploaded": "성공적으로 파일이 업로드되었습니다.",
+            "selectFile": "여기에서 업로드할 파일을 선택하세요.",
             "uploadLogo": "여기에 로고를 업로드해 주세요.",
-            "uploadThumbnail": "Upload your thumbnail here",
-            "uploadBanner": "Upload your banner here",
-            "dragAndDrop": "Drag and frop or browse to choose your image here.",
-            "imageFormat": "JPEG, PNG. Optimal Dimension 2000 x 2000",
+            "uploadThumbnail": "여기에 썸네일을 업로드해 주세요.",
+            "uploadBanner": "여기에 배너를 업로드해 주세요.",
+            "dragAndDrop": "이미지를 드래그 앤 드롭하거나 탐색기를 통해 검색하세요.",
+            "imageFormat": "JPEG, PNG. 최적 사이즈: 2000 x 2000",
             "addVideo": "Add link from Youtube URL",
             "addMainVideo": "Add main video",
             "addContent": "Add content",
@@ -6656,12 +6656,12 @@
             "onlyMainVideoRequired": "(Only the Main video is required)",
             "maxAmount": "(max amount: 12 files)",
             "filesUploaded": "{0}개 파일 업로드됨",
-            "mainVideo": "Main video",
+            "mainVideo": "메인 영상",
             "reserved": "Reserved",
             "video": "Video",
             "image": "이미지"
         },
-        "mobileDisclaimer": "To play this experience you must connect from a desktop computer"
+        "mobileDisclaimer": "이 경험은 데스크톱에서만 플레이 가능합니다."
     },
     "collectionPage": {
         "goBack": "뒤로",
@@ -8056,10 +8056,10 @@
         "conditions": "스테이킹 조건",
         "nextClaim": "다음 수령까지 남은 시간:",
         "tags": {
-            "staked": "Staked",
+            "staked": "스테이킹됨",
             "stakeable": "Ready to stake",
             "approvable": "To approve",
-            "discontinued": "Discontinued"
+            "discontinued": "중지됨"
         }
     },
     "login": {
@@ -13127,10 +13127,10 @@
                     "createyourAsset": "애셋 만들기",
                     "createAsset": "애셋 만들기",
                     "setupLater": "나중에 설정",
-                    "nftPremiumOrBasic": "Your NFT can be Basic or Premium.",
-                    "nftPremium": "- Premium NFTs have a Catalyst that defines their scarcity and their number of gem sockets.",
-                    "nftBasic": "- Basic NFTs can be Props or Art. They have no special utilities.",
-                    "rarityTitleNoWhitelist": "For now, you can only create Basic NFTs. Basics NFTs can be Props or Art and have no special utilities."
+                    "nftPremiumOrBasic": "NFT는 기본 또는 프리미엄으로 구분됩니다.",
+                    "nftPremium": "- 프리미엄 NFT는 희귀도와 젬 소켓 수를 정의하는 카탈리스트를 포함합니다.",
+                    "nftBasic": "- 기본 NFT는 장식품이나 아트입니다. 특별한 기능을 포함하지 않습니다.",
+                    "rarityTitleNoWhitelist": "현재는 기본 NFT만 제작할 수 있습니다. 기본 NFT는 장식품이나 아트입니다. 특별한 기능을 포함하지 않습니다."
                 },
                 "tabs": {
                     "title1": "1. NFT의 이름은 무엇인가요?",
@@ -13166,7 +13166,7 @@
                 "search": "이메일 또는 이름으로 검색",
                 "transfer": "트랜스퍼",
                 "input": "새로운 소유자의 유저네임 또는 이메일을 기입해 주세요.",
-                "transferDone": "Your asset has been successfully transfer"
+                "transferDone": "애셋을 성공적으로 이동했습니다."
             },
             "delete": {
                 "title": "영구 삭제",
