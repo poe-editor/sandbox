@@ -3827,7 +3827,7 @@
                 "pageTitle": "Sandbox - Experience Placement"
             }
         },
-        "disconnect": "This experience is about to be disconnected with the location.",
+        "disconnect": "이 경험은 곧 위치에서 연결이 해제됩니다.",
         "hub": {
             "versionSelectorText": "버전:",
             "featureStatus": {
@@ -3836,18 +3836,18 @@
             },
             "checklistCards": {
                 "assetReview": {
-                    "title": "Asset Review",
-                    "description": "Make sure you have ownership and every asset is minted before publishing.",
-                    "allAssetsOk": "Assets Ready",
-                    "someNeedReview": "Assets Ready | 1 asset to review | {count} assets to review"
+                    "title": "애셋 리뷰",
+                    "description": "애셋을 게시하기 전에 소유권을 가지고 있는지, 모든 애셋이 민팅되었는지 확인하세요.",
+                    "allAssetsOk": "애셋 준비됨",
+                    "someNeedReview": "애셋 준비됨 | 1개 애셋 리뷰 대기 중 | {count}개 애셋 리뷰 대기 중"
                 },
                 "locationSelection": {
                     "title": "위치 선택",
                     "description": "경험을 선보일 랜드 또는 이스테이트를 선택해야 합니다.",
                     "buttonText": "위치",
                     "alreadyConnected": "이 경험은 이미 연결되었습니다!",
-                    "availableLocations": "no locations available | 1 location available | {count} location available",
-                    "alreadyConnectedDescription": "You already placed your Experience. You can edit the location here.",
+                    "availableLocations": "가능한 위치 없음 | 가능한 위치 1개 | 가능한 위치 {count}개",
+                    "alreadyConnectedDescription": "이미 경험을 배치했습니다. 여기에서 위치를 편집할 수 있습니다.",
                     "disconnect": "연결 해제",
                     "edit": "편집하기"
                 },
@@ -3862,18 +3862,18 @@
                     "buttonText": "Set up"
                 },
                 "playPage": {
-                    "title": "Playpage",
-                    "description": "A Playpage is created automatically to promote your Experience.",
+                    "title": "플레이페이지",
+                    "description": "경험을 홍보하기 위해 자동으로 플레이페이지가 생성되었습니다.",
                     "buttonText": "공유하기"
                 }
             },
             "pageTitle": "더 샌드박스 - 경험 허브"
         },
         "gating": {
-            "timestamp": "Timestamp",
+            "timestamp": "타임스탬프",
             "token": "토큰 ID",
             "collection": "컬렉션",
-            "successfulConfiguration": "The gating was set successfully!",
+            "successfulConfiguration": "성공적으로 게이팅이 설정되었습니다!",
             "placeholders": {
                 "token": "토큰 ID 입력"
             }
@@ -4160,6 +4160,11 @@
             "2": {
                 "title": "무한한 복셀 창작과 플레이의 세계로!",
                 "date": "2023년 초"
+            },
+            "tooltip": {
+                "title": "Map News",
+                "description": "Click here to open the Map News bar",
+                "cta": "Don't show this again"
             }
         },
         "alpha": {
@@ -5286,10 +5291,10 @@
                 }
             },
             "connectToXp": "랜드에 경험 연결하기",
-            "connectToXpDescription": "You are about to place your Experience in a 랜드/ESTATE. This is going to be its location in the metaverse once you decide to publish it.",
+            "connectToXpDescription": "랜드/이스테이트에 경험을 배치하려 합니다. 경험을 게시하고 나면 메타버스 속 해당 좌표에 경험이 위치하게 됩니다.",
             "congratulations": "Your Experience is connected to a Location. You are one step closer to publish your Experience in the metaverse.",
-            "disconnectExperience": "랜드에서 경험 연결 해제하기",
-            "disconnectExperienceDescription": "You are about to disconnect your Experience from its Location. If the Experience is published, by disconnecting it you are also unpublishing it."
+            "disconnectExperience": "위치에서 경험 연결 해제하기",
+            "disconnectExperienceDescription": "해당 위치에서 경험 연결을 해제합니다. 경험 게시 후, 위치에서 연결을 해제하면 경험 게시 또한 취소됩니다."
         },
         "blog": {
             "meta": {
@@ -6648,17 +6653,17 @@
             "uploadBanner": "여기에 배너를 업로드해 주세요.",
             "dragAndDrop": "이미지를 드래그 앤 드롭하거나 탐색기를 통해 검색하세요.",
             "imageFormat": "JPEG, PNG. 최적 사이즈: 2000 x 2000",
-            "addVideo": "Add link from Youtube URL",
-            "addMainVideo": "Add main video",
-            "addContent": "Add content",
-            "filesLimit": "Upload until 12 videos or images, including the main video.",
-            "multimedia": "Multimedia files",
+            "addVideo": "유튜브 URL 링크 추가",
+            "addMainVideo": "메인 영상 추가",
+            "addContent": "콘텐츠 추가",
+            "filesLimit": "메인 영상을 포함하여 최대 12개의 영상 및 이미지를 업로드할 수 있습니다.",
+            "multimedia": "멀티미디어 파일",
             "onlyMainVideoRequired": "(Only the Main video is required)",
-            "maxAmount": "(max amount: 12 files)",
+            "maxAmount": "(최대 파일 개수: 12개)",
             "filesUploaded": "{0}개 파일 업로드됨",
             "mainVideo": "메인 영상",
             "reserved": "Reserved",
-            "video": "Video",
+            "video": "영상",
             "image": "이미지"
         },
         "mobileDisclaimer": "이 경험은 데스크톱에서만 플레이 가능합니다."
@@ -7756,8 +7761,8 @@
         "text176": "거주자의 신원을 당사에 직접 인증해 줄 것",
         "text177": "거주자가 대리인에게 해당 요청을 하는 것을 허가했다는 사실을 당사에 직접 확인해 줄 것",
         "text178": "우편 주소",
-        "text179": "Government-issued ID, when you apply to participate in one of our raffles, sweepstakes, or other promotions",
-        "text180": "Allow you to participate in raffles, sweepstakes, contests or other promotions;"
+        "text179": "추첨, 경품 행사 또는 기타 프로모션에 참여 신청 시 사용할 정부에서 발급한 신분증",
+        "text180": "추첨, 스테이킹, 콘테스트, 기타 이벤트에 참여"
     },
     "seasons": {
         "title": "시즌",
@@ -13052,7 +13057,7 @@
                 "copies": "COPIES",
                 "behavior": "행동",
                 "none": "해당없음",
-                "mintUpTo": " '' | Mint up to {copies} copy | Mint up to {copies} copies",
+                "mintUpTo": " '' | 최대 {copies}개까지 민팅 | 최대 {copies}개까지 민팅",
                 "max": "최대 {copies}",
                 "gemsNotAllowed": "이 애셋의 카탈리스트에는 젬을 추가할 수 없습니다.",
                 "emptyGems": "편집을 클릭하여 애셋에 젬을 추가합니다."
@@ -13193,8 +13198,8 @@
                     "placeholder": "rejecting"
                 },
                 "iterate": {
-                    "title": "Request changes",
-                    "explain": "request changes",
+                    "title": "변경 요청",
+                    "explain": "변경 요청",
                     "placeholder": "iterating"
                 },
                 "comments": "코멘트",
@@ -13745,7 +13750,7 @@
                     "desc3": "또한, 더 샌드박스는 커뮤니티와 마켓 전반의 통합을 위한 상호운용성을 추구합니다."
                 },
                 "3": {
-                    "title": "+2.5 MILLION",
+                    "title": "+250만",
                     "subtitle": "계속해서 증가하는 가입 지갑 수",
                     "desc1": "더 샌드박스에는 흥미로운 경험에 언제든 참여할 준비가 되어 있는 커뮤니티가 형성되어 있습니다.",
                     "desc2": "더 샌드박스는 언제나 최종 유저가 각 프로젝트를 최대한 즐길 수 있는 환경을 조성하고자 합니다."
@@ -13792,12 +13797,12 @@
                 },
                 "2": {
                     "title": "게이밍",
-                    "desc": "The Sandbox metaverse draws its roots from a deep gaming culture, where the fun is a whole part of the show. Enter our universe to build your own and dive into a voxel world where anything is possible.",
+                    "desc": "더 샌드박스 메타버스에서는 재미가 커다란 부분을 차지하고 있는 게이밍 문화의 뿌리를 이끌어냅니다. 무엇이든 가능한 복셀 세상에서 나만의 세계를 건설해 보세요.",
                     "screen": "Forest"
                 },
                 "3": {
                     "title": "라이프스타일",
-                    "desc": "Chilling by the pool with some friends sounds cool? The metaverse can help you deliver a social experience as you would in real life, without limiting yourself with physical hurdles. The metaverse is a place where you can do whatever you want, embody an avatar, visit, shop and play.",
+                    "desc": "수영장에서 친구들과 어울려 신나게 놀아보는 건 어때요? 물리적 한계를 뛰어넘어 실생활에서 느끼는 재미를 메타버스에서도 느껴보세요! 메타버스에서는 종류에 관계없이 모든 활동이 가능하며, 좋아하는 아바타의 모습으로 탐험하고, 쇼핑하고, 놀 수 있습니다.",
                     "screen": "Modern House"
                 },
                 "4": {
@@ -13807,7 +13812,7 @@
                 },
                 "5": {
                     "title": "음악",
-                    "desc": "From LA to The Sandbox, there is only one step, and Snoop Dogg understood this. The Sandbox is about delivering a new viewer experience during concerts and live performance. Enabling broader access to everyone, interacting with the crowd, through their avatars. Fans are now complete part of the deal.",
+                    "desc": "LA에서 더 샌드박스까지, 스눕 독은 이 경계를 뛰어넘었습니다. 이제 곧 더 샌드박스에서 새로운 형식의 콘서트와 라이브 퍼포먼스가 펼쳐집니다. 모두를 위한 경계선을 허물며, 아바타의 모습으로 대중과 소통하세요. 이제 팬들을 위한 공간이 마련됩니다.",
                     "screen": "Climbing madness"
                 }
             },
