@@ -1706,16 +1706,16 @@
                 "invalidOwner": "The owner must be a valid / existing userId",
                 "questVerification": "If Custom ticket name is specified Total ticket amount must be specified too",
                 "manualVerification": "If Custom manual ticket name is specified Total manual ticket amount must be specified too",
-                "noResults": "There are no results for this search",
-                "tickets": "Tickets",
-                "landsaleTickets": "Landsales Tickets",
-                "avatars": "Avatars",
-                "rewardPool": "Reward Pool",
-                "special": "Special Event",
-                "availableNow": "Available Now",
-                "search": "Search for an event",
-                "ends": "ENDS",
-                "starts": "STARTS"
+                "noResults": "この検索結果に該当するものはありません",
+                "tickets": "チケット",
+                "landsaleTickets": "Land Saleのチケット",
+                "avatars": "アバター",
+                "rewardPool": "報酬のプール",
+                "special": "スペシャルイベント",
+                "availableNow": "発売中",
+                "search": "イベントを検索する",
+                "ends": "終了",
+                "starts": "開始"
             },
             "rewards": {
                 "alphaSeason": "アルファ・シーズン3",
@@ -4155,11 +4155,16 @@
             "landsale": "LAND SALE",
             "joinLandsale": "Join LAND Sale",
             "1": {
-                "title": "Dive into Korean Culture and start building the Metaverse!"
+                "title": "韓国文化に飛び込み、メタバースを構築しよう！"
             },
             "2": {
                 "title": "Join the Metaverse and never stop building, never stop playing!",
                 "date": "Early 2023"
+            },
+            "tooltip": {
+                "title": "Map News",
+                "description": "Click here to open the Map News bar",
+                "cta": "Don't show this again"
             }
         },
         "alpha": {
@@ -4257,7 +4262,7 @@
                     "raffleResultsIn": "結果発表まであと:",
                     "landSaleStartsOnDate": "LAND セールは {date} に開始します"
                 },
-                "wave": "ウェーブ 3 - {time}",
+                "wave": "{time}",
                 "subtitle": "当選者は {partner} LAND セールで1 LANDを購入することができます。 {landsCount} LANDある場合は {landsCount} 人の当選者がいることになります。",
                 "subtitle2": "California Dreamin’　もう目が覚めなくても大丈夫！",
                 "subtitle3": "LAND セールのホワイトリストには当選してません。LAND はオークションやセカンダリーマーケットで獲得することができます。",
@@ -4280,8 +4285,8 @@
                 "youDidntWin": "ホワイトリストスポットに当選しませんでした。",
                 "sale": "セール",
                 "until": " {date} まで",
-                "to": "{date} to {dateTo}",
-                "allTimesUTC": "All times are in UTC"
+                "to": "{date}から {dateTo}",
+                "allTimesUTC": "すべての時刻はUTCで表示されます"
             },
             "whatsTheLANDSale": {
                 "title": "LAND 抽選セールとは何ですか？",
@@ -4361,7 +4366,7 @@
                 },
                 "youWon": {
                     "title": "おめでとうございます！",
-                    "subtitle": "{partner} LAND セールで1 {landType} を購入できるホワイリストに当選しました。",
+                    "subtitle": "{partner} LAND セールで1 {landType} を購入できるホワイリストの該当者です\n",
                     "message": {
                         "body": "{0}を購入するには {3}から{4}の間に{1}ページよりエントリーしてください。({2}) 期間終了後には購入することができませんのであらかじめご了承ください。またエントリーは {partner} LAND セールにのみ有効となります。",
                         "landSale": "LAND セール",
@@ -6661,7 +6666,7 @@
             "video": "Video",
             "image": "Image"
         },
-        "mobileDisclaimer": "To play this experience you must connect from a desktop computer"
+        "mobileDisclaimer": "この体験をプレイするには、デスクトップパソコンからの接続が必要です"
     },
     "collectionPage": {
         "goBack": "戻る",
@@ -7876,7 +7881,7 @@
             "oldTransactions": "以前のトランザクションを表示"
         },
         "walletTab": {
-            "mainnetL1Title": "Ethereum",
+            "mainnetL1Title": "イーサリアム",
             "testnetL1Title": "Goerli",
             "eth": "ETH",
             "poly": "POLYGON",
@@ -8056,10 +8061,10 @@
         "conditions": "ステーキング条件",
         "nextClaim": "次の受け取りまで：",
         "tags": {
-            "staked": "Staked",
-            "stakeable": "Ready to stake",
-            "approvable": "To approve",
-            "discontinued": "Discontinued"
+            "staked": "ステーキング中",
+            "stakeable": "スケーキング可能",
+            "approvable": "要確認",
+            "discontinued": "終了"
         }
     },
     "login": {
