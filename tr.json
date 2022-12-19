@@ -3701,8 +3701,8 @@
             "confirmBoxTitle": "",
             "confirmBoxSubtitle": "",
             "confirmBtnTxt": "",
-            "disconnectBtnTxt": "",
-            "connectBtnTxt": "",
+            "disconnectBtnTxt": "Bağlantıyı kes",
+            "connectBtnTxt": "Bağla",
             "unpublishBtnTxt": "",
             "direct": "",
             "estateOccupied": ""
@@ -3831,8 +3831,8 @@
         "hub": {
             "versionSelectorText": "",
             "featureStatus": {
-                "ready": "",
-                "pending": ""
+                "ready": "Hazır",
+                "pending": "Bekliyor"
             },
             "checklistCards": {
                 "assetReview": {
@@ -3849,7 +3849,7 @@
                     "availableLocations": "",
                     "alreadyConnectedDescription": "",
                     "disconnect": "",
-                    "edit": ""
+                    "edit": "Düzenle"
                 },
                 "accessControl": {
                     "title": "",
@@ -3857,14 +3857,14 @@
                     "buttonText": ""
                 },
                 "contentWarning": {
-                    "title": "",
+                    "title": "İçerik Uyarısı",
                     "description": "",
                     "buttonText": ""
                 },
                 "playPage": {
                     "title": "",
                     "description": "",
-                    "buttonText": ""
+                    "buttonText": "Paylaş"
                 }
             },
             "pageTitle": ""
@@ -3872,7 +3872,7 @@
         "gating": {
             "timestamp": "",
             "token": "",
-            "collection": "",
+            "collection": "Koleksiyon",
             "successfulConfiguration": "",
             "placeholders": {
                 "token": ""
@@ -4160,6 +4160,11 @@
             "2": {
                 "title": "Join the Metaverse and never stop building, never stop playing!",
                 "date": "Early 2023"
+            },
+            "tooltip": {
+                "title": "Map News",
+                "description": "Click here to open the Map News bar",
+                "cta": "Don't show this again"
             }
         },
         "alpha": {
@@ -6631,7 +6636,7 @@
             "warning": "Missing access to this land, you need the following:",
             "collection": "Collection",
             "token": "NFT",
-            "accessRestrictions": "",
+            "accessRestrictions": "Erişim kısıtlamaları",
             "setUpGatingHub": ""
         },
         "creatorWebsite": "Website",
@@ -6641,24 +6646,24 @@
         "opened": "",
         "setUpAssetsFromGM": "",
         "uploadFiles": {
-            "fileUploaded": "",
+            "fileUploaded": "Dosyanız başarıyla yüklendi",
             "selectFile": "",
-            "uploadLogo": "",
+            "uploadLogo": "Logonuzu buraya yükleyin",
             "uploadThumbnail": "",
-            "uploadBanner": "",
+            "uploadBanner": "Banner'ınızı buraya yükleyin",
             "dragAndDrop": "",
             "imageFormat": "",
-            "addVideo": "",
-            "addMainVideo": "",
-            "addContent": "",
-            "filesLimit": "",
-            "multimedia": "",
-            "onlyMainVideoRequired": "",
-            "maxAmount": "",
-            "filesUploaded": "",
-            "mainVideo": "",
-            "reserved": "",
-            "video": "",
+            "addVideo": "Youtube URL'sinden bağlantı ekle",
+            "addMainVideo": "Ana videoyu ekle",
+            "addContent": "İçerik ekle",
+            "filesLimit": "Ana video dahil en fazla 12 video veya resim yükleyin.",
+            "multimedia": "Multimedia dosyaları",
+            "onlyMainVideoRequired": "(Yalnızca Ana video gereklidir)",
+            "maxAmount": "(max miktar: 12 dosya)",
+            "filesUploaded": "{0} dosya yüklendi",
+            "mainVideo": "Ana video",
+            "reserved": "Rezerve",
+            "video": "Video",
             "image": ""
         },
         "mobileDisclaimer": "To play this experience you must connect from a desktop computer"
@@ -9331,305 +9336,305 @@
         "land": "Land | Land'ler",
         "roadmap": {
             "2011": {
-                "date": "",
-                "title": "",
-                "text": "",
-                "month": ""
+                "date": "tarih",
+                "title": "başlık",
+                "text": "metin",
+                "month": "ay"
             },
             "2012": {
-                "date": "",
-                "title": "",
-                "text": "",
-                "month": ""
+                "date": "tarih",
+                "title": "başlık",
+                "text": "metin",
+                "month": "ay"
             },
             "2013": {
-                "date": "",
-                "title": "",
-                "text": "",
-                "month": ""
+                "date": "tarih",
+                "title": "başlık",
+                "text": "metin",
+                "month": "ay"
             },
             "2014": {
-                "date": "",
-                "title": "",
-                "text": "",
-                "month": ""
+                "date": "tarih",
+                "title": "başlık",
+                "text": "metin",
+                "month": "ay"
             },
             "2015": {
-                "date": "",
-                "title": "",
-                "text": "",
-                "month": ""
+                "date": "tarih",
+                "title": "başlık",
+                "text": "metin",
+                "month": "ay"
             },
             "2016": {
-                "date": "",
-                "title": "",
-                "text": "",
-                "month": ""
+                "date": "tarih",
+                "title": "başlık",
+                "text": "metin",
+                "month": "ay"
             },
             "2017": {
-                "date": "",
-                "title": "",
-                "text": "",
-                "month": ""
+                "date": "tarih",
+                "title": "başlık",
+                "text": "metin",
+                "month": "ay"
             },
             "2018": {
                 "1": {
-                    "date": "",
-                    "title": "",
-                    "text": "",
-                    "month": ""
+                    "date": "tarih",
+                    "title": "başlık",
+                    "text": "metin",
+                    "month": "ay"
                 },
                 "2": {
-                    "date": "",
-                    "title": "",
-                    "text": "",
-                    "month": ""
+                    "date": "tarih",
+                    "title": "başlık",
+                    "text": "metin",
+                    "month": "ay"
                 }
             },
             "2019": {
                 "1": {
-                    "date": "",
-                    "title": "",
-                    "text": "",
-                    "month": ""
+                    "date": "tarih",
+                    "title": "başlık",
+                    "text": "metin",
+                    "month": "ay"
                 },
                 "2": {
-                    "date": "",
-                    "title": "",
-                    "text": "",
-                    "month": ""
+                    "date": "tarih",
+                    "title": "başlık",
+                    "text": "metin",
+                    "month": "ay"
                 }
             },
             "2020": {
                 "1": {
-                    "date": "",
-                    "month": "",
+                    "date": "tarih",
+                    "month": "ay",
                     "items": {
                         "1": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "2": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         }
                     }
                 },
                 "2": {
-                    "date": "",
-                    "month": "",
+                    "date": "tarih",
+                    "month": "ay",
                     "items": {
                         "1": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "2": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         }
                     }
                 },
                 "3": {
-                    "date": "",
-                    "month": "",
+                    "date": "tarih",
+                    "month": "ay",
                     "items": {
                         "1": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "2": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "3": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         }
                     }
                 },
                 "4": {
-                    "date": "",
-                    "month": "",
+                    "date": "tarih",
+                    "month": "ay",
                     "items": {
                         "1": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "2": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         }
                     }
                 }
             },
             "2021": {
                 "1": {
-                    "date": "",
-                    "month": "",
+                    "date": "tarih",
+                    "month": "ay",
                     "items": {
                         "1": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "2": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "3": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "4": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "5": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "6": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         }
                     }
                 },
                 "2": {
-                    "date": "",
-                    "month": "",
+                    "date": "tarih",
+                    "month": "ay",
                     "items": {
                         "1": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         }
                     }
                 },
                 "3": {
-                    "date": "",
-                    "month": "",
+                    "date": "tarih",
+                    "month": "ay",
                     "items": {
                         "1": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "2": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "3": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "4": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         }
                     }
                 }
             },
             "2022": {
                 "1": {
-                    "date": "",
-                    "month": "",
+                    "date": "tarih",
+                    "month": "ay",
                     "items": {
                         "1": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         }
                     }
                 },
                 "2": {
-                    "date": "",
-                    "month": "",
+                    "date": "tarih",
+                    "month": "ay",
                     "items": {
                         "1": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "2": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         }
                     }
                 },
                 "3": {
-                    "date": "",
-                    "month": "",
+                    "date": "tarih",
+                    "month": "ay",
                     "items": {
                         "1": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         }
                     }
                 },
                 "4": {
-                    "date": "",
-                    "month": "",
+                    "date": "tarih",
+                    "month": "ay",
                     "items": {
                         "1": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         }
                     }
                 },
                 "5": {
-                    "date": "",
-                    "month": "",
+                    "date": "tarih",
+                    "month": "ay",
                     "items": {
                         "1": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "2": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "3": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "4": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "5": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "6": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "7": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         }
                     }
                 }
             },
             "2023": {
                 "1": {
-                    "date": "",
-                    "month": "",
+                    "date": "tarih",
+                    "month": "ay",
                     "items": {
                         "1": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "2": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "3": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "4": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "5": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         }
                     }
                 }
@@ -9637,303 +9642,303 @@
         },
         "changelog": {
             "2018": {
-                "date": "",
+                "date": "tarih",
                 "list": {
                     "0": {
-                        "title": ""
+                        "title": "başlık"
                     },
                     "1": {
-                        "title": ""
+                        "title": "başlık"
                     },
                     "2": {
-                        "title": ""
+                        "title": "başlık"
                     },
                     "3": {
-                        "title": ""
+                        "title": "başlık"
                     },
                     "4": {
-                        "title": ""
+                        "title": "başlık"
                     },
                     "5": {
-                        "title": ""
+                        "title": "başlık"
                     },
                     "6": {
-                        "title": ""
+                        "title": "başlık"
                     },
                     "7": {
-                        "title": ""
+                        "title": "başlık"
                     }
                 }
             },
             "2019": {
                 "0": {
-                    "date": "",
+                    "date": "tarih",
                     "list": {
                         "0": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "1": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "2": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "3": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "4": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "5": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "6": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "7": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "8": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "9": {
-                            "title": ""
+                            "title": "başlık"
                         }
                     }
                 },
                 "01": {
-                    "date": "",
+                    "date": "tarih",
                     "list": {
                         "0": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "1": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "2": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "3": {
-                            "title": ""
+                            "title": "başlık"
                         }
                     }
                 },
                 "1": {
-                    "date": "",
+                    "date": "tarih",
                     "list": {
                         "0": {
-                            "title": ""
+                            "title": "başlık"
                         }
                     }
                 },
                 "2": {
-                    "date": "",
+                    "date": "tarih",
                     "list": {
                         "0": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "1": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "2": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "3": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "5": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "6": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "7": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "8": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "9": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "10": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "11": {
-                            "title": ""
+                            "title": "başlık"
                         }
                     }
                 },
                 "3": {
-                    "date": "",
+                    "date": "tarih",
                     "list": {
                         "0": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "1": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "2": {
-                            "title": ""
+                            "title": "başlık"
                         }
                     }
                 },
                 "4": {
-                    "date": "",
+                    "date": "tarih",
                     "list": {
                         "0": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "1": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "2": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "3": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "4": {
-                            "title": ""
+                            "title": "başlık"
                         }
                     }
                 },
                 "5": {
-                    "date": "",
+                    "date": "tarih",
                     "list": {
                         "0": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "1": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "2": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "3": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "4": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "5": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "6": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "7": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "8": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "9": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "10": {
-                            "title": ""
+                            "title": "başlık"
                         }
                     }
                 }
             },
             "2020": {
                 "0": {
-                    "date": "",
+                    "date": "başlık",
                     "list": {
                         "0": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "1": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "2": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "3": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "4": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "5": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "6": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "7": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "8": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "9": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "10": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "11": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "12": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "13": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "14": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "15": {
-                            "title": ""
+                            "title": "başlık"
                         }
                     }
                 },
                 "3": {
-                    "date": "",
-                    "month": "",
+                    "date": "tarih",
+                    "month": "ay",
                     "items": {
                         "1": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "2": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "3": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         },
                         "4": {
-                            "title": "",
-                            "text": ""
+                            "title": "başlık",
+                            "text": "metin"
                         }
                     }
                 }
             },
             "2022": {
                 "1": {
-                    "date": "",
+                    "date": "tarih",
                     "list": {
                         "0": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "1": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "2": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "3": {
-                            "title": ""
+                            "title": "başlık"
                         }
                     }
                 },
                 "2": {
-                    "date": "",
+                    "date": "tarih",
                     "list": {
                         "0": {
                             "title": ""
@@ -9971,68 +9976,68 @@
                             "title": ""
                         },
                         "8": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "9": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "10": {
-                            "title": ""
+                            "title": "başlık"
                         }
                     }
                 },
                 "4": {
-                    "date": "",
+                    "date": "tarih",
                     "list": {
                         "0": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "1": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "2": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "3": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "4": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "5": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "6": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "7": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "8": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "9": {
-                            "title": ""
+                            "title": "başlık"
                         },
                         "10": {
-                            "title": ""
+                            "title": "başlık"
                         }
                     }
                 },
                 "5": {
-                    "date": "",
+                    "date": "tarih",
                     "list": {
                         "0": {
-                            "title": "",
+                            "title": "başlık",
                             "list": {
                                 "0": {
-                                    "title": ""
+                                    "title": "başlık"
                                 },
                                 "1": {
-                                    "title": ""
+                                    "title": "başlık"
                                 },
                                 "2": {
-                                    "title": ""
+                                    "title": "başlık"
                                 },
                                 "3": {
                                     "title": ""
@@ -10939,7 +10944,7 @@
                     "items": {
                         "1": {
                             "title": "Çok Oyunculu Sezon genel alfasının lansmanı",
-                            "text": ""
+                            "text": "metin"
                         }
                     }
                 },
@@ -10949,11 +10954,11 @@
                     "items": {
                         "1": {
                             "title": "IP tabanlı olanlar da dahil olmak üzere ilk NFT Avatar koleksiyonlarının lansmanı",
-                            "text": ""
+                            "text": "metin"
                         },
                         "2": {
                             "title": "Katman 2'de DeFi Staking mekanizmalarını tanıtın",
-                            "text": ""
+                            "text": "metin"
                         },
                         "3": {
                             "title": "İlk kazan-kazan sezonları ve Explorer Sezonu yayında",
@@ -13147,7 +13152,7 @@
                     "subtitle3_2": "Katman ne kadar yüksek olursa, yuva o kadar fazla olur.",
                     "subtitle4_1": "Her Mücevher, varlığınıza farklı bir nitelik kazandırır. Aynı türden ne kadar çok Mücevher alırsanız, o kadar çok nitelik kazanırsınız.",
                     "subtitle4_2": "Katalizörün içine eklemek veya çıkarmak için mücevherlerinizi sürükleyin veya tıklayın.",
-                    "title6": ""
+                    "title6": "NFT'nizin davranışını seçin"
                 },
                 "theme": {
                     "pickTheme": "Bir tema seçin",
@@ -13229,7 +13234,7 @@
                 "restore": "Onar",
                 "backToList": "Back to list view",
                 "publish": "Publish",
-                "behavior": "",
+                "behavior": "davranış",
                 "published": "Published",
                 "notPublished": "Not Published",
                 "private": "Private",
