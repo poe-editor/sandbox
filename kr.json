@@ -1715,7 +1715,8 @@
                 "availableNow": "진행 중인 이벤트",
                 "search": "이벤트 검색",
                 "ends": "종료",
-                "starts": "시작"
+                "starts": "시작",
+                "frameTitle": "This experience is part of an event"
             },
             "rewards": {
                 "alphaSeason": "알파 시즌 3",
@@ -3765,7 +3766,8 @@
             "bannerLoaded": "새로운 배너를 성공적으로 불러왔습니다!",
             "logoLoaded": "새로운 로고를 성공적으로 불러왔습니다!",
             "thumbnailLoaded": "새로운 썸네일을 성공적으로 불러왔습니다!",
-            "errorImageSize": "파일 크기가 너무 큽니다. 사이즈를 다시 확인해 주세요 (최대 크기: 10 Mb)."
+            "errorImageSize": "파일 크기가 너무 큽니다. 사이즈를 다시 확인해 주세요 (최대 크기: 10 Mb).",
+            "playMapPortrait": "Play Map Portrait"
         },
         "publish": {
             "title": "경험 게시"
@@ -4162,9 +4164,9 @@
                 "date": "2023년 초"
             },
             "tooltip": {
-                "title": "Map News",
-                "description": "Click here to open the Map News bar",
-                "cta": "Don't show this again"
+                "title": "맵 소식",
+                "description": "여기를 클릭하여 맵 소식을 엽니다",
+                "cta": "이 메시지를 다시 표시하지 않음"
             }
         },
         "alpha": {
