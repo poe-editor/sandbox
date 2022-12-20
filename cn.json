@@ -1715,7 +1715,8 @@
                 "availableNow": "Available Now",
                 "search": "Search for an event",
                 "ends": "ENDS",
-                "starts": "STARTS"
+                "starts": "STARTS",
+                "frameTitle": "This experience is part of an event"
             },
             "rewards": {
                 "alphaSeason": "Alpha Season 3",
@@ -3765,7 +3766,8 @@
             "bannerLoaded": "",
             "logoLoaded": "",
             "thumbnailLoaded": "",
-            "errorImageSize": ""
+            "errorImageSize": "",
+            "playMapPortrait": "Play Map Portrait"
         },
         "publish": {
             "title": "发布体验内容"
@@ -4162,9 +4164,9 @@
                 "date": "Early 2023"
             },
             "tooltip": {
-                "title": "",
-                "description": "",
-                "cta": ""
+                "title": "Map News",
+                "description": "Click here to open the Map News bar",
+                "cta": "Don't show this again"
             }
         },
         "alpha": {
