@@ -1716,7 +1716,7 @@
                 "search": "이벤트 검색",
                 "ends": "종료",
                 "starts": "시작",
-                "frameTitle": "This experience is part of an event"
+                "frameTitle": "이 경험은 이벤트의 일부입니다."
             },
             "rewards": {
                 "alphaSeason": "알파 시즌 3",
@@ -2343,7 +2343,7 @@
                 "description": "더 샌드박스 부정행위 방지팀이 리더보드를 지켜보고 있습니다. 부정행위자를 발견했을 경우, 아래의 이메일 주소로 제보해 주세요.",
                 "title": "부정행위 금지",
                 "title2": "리더보드 결과가 공개되었습니다",
-                "description2": "11월 30일부터 리워드를 수령할 수 있습니다. 조금만 기다려 주세요!"
+                "description2": "It will take us 1 more day to deploy the rewards on Nov. 30. Stay tuned!"
             }
         }
     },
@@ -3704,9 +3704,9 @@
             "confirmBtnTxt": "연결 확인",
             "disconnectBtnTxt": "연결 끊기",
             "connectBtnTxt": "연결하기",
-            "unpublishBtnTxt": "Unpublish",
+            "unpublishBtnTxt": "게시 취소",
             "direct": "이 이스테이트와 경험을 연결합니다.",
-            "estateOccupied": "This ESTATE is occupied"
+            "estateOccupied": "이 이스테이트는 이미 사용 중입니다."
         },
         "placement": {
             "title": "Locate your Experience",
@@ -3714,19 +3714,19 @@
             "legend": {
                 "available": "Available",
                 "notAvailable": "Not available",
-                "fit": "Fit",
-                "notFit": "Not fit",
-                "placed": "Placed"
+                "fit": "맞음",
+                "notFit": "맞지 않음",
+                "placed": "배치됨"
             },
             "modals": {
                 "connectToXp": {
-                    "affirmativeBtnTxt": "Confirm"
+                    "affirmativeBtnTxt": "확인"
                 },
                 "congratulations": {
-                    "affirmativeBtnTxt": "Continue"
+                    "affirmativeBtnTxt": "계속"
                 },
                 "disconnectXp": {
-                    "affirmativeBtnTxt": "Confirm"
+                    "affirmativeBtnTxt": "확인"
                 }
             }
         }
@@ -3767,7 +3767,7 @@
             "logoLoaded": "새로운 로고를 성공적으로 불러왔습니다!",
             "thumbnailLoaded": "새로운 썸네일을 성공적으로 불러왔습니다!",
             "errorImageSize": "파일 크기가 너무 큽니다. 사이즈를 다시 확인해 주세요 (최대 크기: 10 Mb).",
-            "playMapPortrait": "Play Map Portrait"
+            "playMapPortrait": "플레이맵 세로 보기"
         },
         "publish": {
             "title": "경험 게시"
@@ -3777,39 +3777,39 @@
         },
         "inventoryCard": {
             "tooltips": {
-                "connected": "This 랜드 or ESTATE has experiences connected",
-                "tooSmall": "This 랜드 or ESTATE is too small for this experience.",
-                "published": "This 랜드 has already one experience published there."
+                "connected": "이 랜드 또는 이스테이트에 경험이 연결되어 있습니다.",
+                "tooSmall": "이 랜드 또는 이스테이트는 경험을 배치하기에 너무 작습니다.",
+                "published": "이 랜드에는 이미 경험이 게시되어 있습니다."
             },
             "status": {
-                "locationOccupied": "Occupied",
+                "locationOccupied": "사용 중",
                 "locationCommited": "Commited",
                 "locationTooSmall": "Too Small"
             }
         },
         "location": {
-            "publish": "Publish",
-            "unpublish": "Unpublish",
-            "publishDescription": "You are about to publish your experience",
-            "unpublishDescription": "You are about to unpublish your experience",
-            "landOccupiedTitle": "This 랜드 is occupied",
-            "estateOcuppied": "This Estate is already hosting a published experience, and it has not enough free space. You can edit the location of the Experience to free the ESTATE or you can se the list of available ESTATEs.",
-            "landOccupied": "You already published an Experience and the 랜드 is full. You can edit the location of the Experience to free the 랜드 or you can buy more 랜드..",
+            "publish": "게시",
+            "unpublish": "게시 취소",
+            "publishDescription": "경험을 게시합니다.",
+            "unpublishDescription": "경험 게시를 취소합니다.",
+            "landOccupiedTitle": "이 랜드는 이미 사용 중입니다.",
+            "estateOcuppied": "이미 경험을 게시하여 해당 이스테이트에는 빈 공간이 없습니다. 경험의 위치를 수정하여 이스테이트를 비우거나 더 많은 이스테이트를 구입할 수 있습니다.",
+            "landOccupied": "이미 경험을 게시하여 해당 랜드에는 빈 공간이 없습니다. 경험의 위치를 수정하여 랜드를 비우거나 더 많은 랜드를 구입할 수 있습니다.",
             "choose": "선택하기",
             "chooseLocation": "경험을 배치할 위치를 선택하세요.",
             "chooseLand": "랜드를 선택하여 경험을 연결하세요.",
             "chooseEstate": "이스테이트를 선택하여 경험을 연결하세요.",
             "selectLand": "랜드 선택",
             "selectEstate": "이스테이트 선택",
-            "showAvailable": "Show available only",
+            "showAvailable": "가능한 위치만 보기",
             "empty": {
                 "all": {
                     "title": "인벤토리에 랜드 또는 이스테이트를 보유하고 있지 않습니다.",
-                    "description": "In order to locate your experience you need to have 랜드 available in the wallet linked to this account. If you don't own any 랜드 you can always buy one."
+                    "description": "경험을 게시하려면 이 계정과 연결된 지갑에 랜드를 보유해야 합니다. 랜드를 보유하고 있지 않을 경우, 새로 랜드를 구입할 수 있습니다."
                 },
                 "estates": {
                     "title": "인벤토리에 이스테이트를 보유하고 있지 않습니다.",
-                    "description": "In order to locate your experience you need to have 랜드 available in the wallet linked to this account. If you don't own any 랜드 you can always buy one."
+                    "description": "경험을 게시하려면 이 계정과 연결된 지갑에 랜드를 보유해야 합니다. 랜드를 보유하고 있지 않을 경우, 새로 랜드를 구입할 수 있습니다."
                 },
                 "lands": {
                     "title": "인벤토리에 랜드를 보유하고 있지 않습니다.",
@@ -3817,16 +3817,16 @@
                 }
             },
             "connect": {
-                "successMsg": "The experience was linked succesfully!",
+                "successMsg": "성공적으로 경험을 연결했습니다!",
                 "errorMsg": "경험을 연결할 수 없습니다. {reason}"
             },
             "disconnect": {
-                "successMsg": "The experience was disconnected!",
-                "errorMsg": "Could not disconnect experience. {reason}"
+                "successMsg": "경험의 연결이 해제되었습니다!",
+                "errorMsg": "경험 연결을 해제할 수 없습니다. {reason}"
             },
-            "pageTitle": "Sandbox - Experience Location",
+            "pageTitle": "더 샌드박스 - 경험 위치",
             "placement": {
-                "pageTitle": "Sandbox - Experience Placement"
+                "pageTitle": "더 샌드박스 - 경험 배치"
             }
         },
         "disconnect": "이 경험은 곧 위치에서 연결이 해제됩니다.",
@@ -3899,9 +3899,9 @@
             },
             "statusBar": {
                 "toBuy": "{count}개 구매",
-                "unavailable": "",
-                "toMint": "",
-                "ready": ""
+                "unavailable": "{count}개 사용 불가",
+                "toMint": "{count}개 민팅",
+                "ready": "{count}개 애셋 준비 완료"
             }
         }
     },
@@ -5294,7 +5294,7 @@
             },
             "connectToXp": "랜드에 경험 연결하기",
             "connectToXpDescription": "랜드/이스테이트에 경험을 배치하려 합니다. 경험을 게시하고 나면 메타버스 속 해당 좌표에 경험이 위치하게 됩니다.",
-            "congratulations": "Your Experience is connected to a Location. You are one step closer to publish your Experience in the metaverse.",
+            "congratulations": "경험이 위치에 연결되었습니다. 이제 메타버스에서 내 경험을 게시하기 위한 단계에 한 발 더 가까워졌습니다.",
             "disconnectExperience": "위치에서 경험 연결 해제하기",
             "disconnectExperienceDescription": "해당 위치에서 경험 연결을 해제합니다. 경험 게시 후, 위치에서 연결을 해제하면 경험 게시 또한 취소됩니다."
         },
@@ -6644,8 +6644,8 @@
         "creatorWebsite": "웹사이트",
         "assetsIncludedTitle": "포함된 애셋",
         "mapDescription": "Short map description",
-        "metadata": "(Metadata)",
-        "opened": "Opened:",
+        "metadata": "(메타데이터)",
+        "opened": "오픈됨:",
         "setUpAssetsFromGM": "게임 메이커에서 애셋을 설정합니다.",
         "uploadFiles": {
             "fileUploaded": "성공적으로 파일이 업로드되었습니다.",
@@ -6660,11 +6660,11 @@
             "addContent": "콘텐츠 추가",
             "filesLimit": "메인 영상을 포함하여 최대 12개의 영상 및 이미지를 업로드할 수 있습니다.",
             "multimedia": "멀티미디어 파일",
-            "onlyMainVideoRequired": "(Only the Main video is required)",
+            "onlyMainVideoRequired": "(주요 영상만 필요)",
             "maxAmount": "(최대 파일 개수: 12개)",
             "filesUploaded": "{0}개 파일 업로드됨",
             "mainVideo": "메인 영상",
-            "reserved": "Reserved",
+            "reserved": "예약됨",
             "video": "영상",
             "image": "이미지"
         },
@@ -8064,8 +8064,8 @@
         "nextClaim": "다음 수령까지 남은 시간:",
         "tags": {
             "staked": "스테이킹됨",
-            "stakeable": "Ready to stake",
-            "approvable": "To approve",
+            "stakeable": "스테이킹 준비 완료",
+            "approvable": "승인 필요",
             "discontinued": "중지됨"
         }
     },
@@ -13238,7 +13238,7 @@
                 "notPublished": "게시되지 않음",
                 "private": "나만 보기",
                 "setPrivate": "나만 보기로 설정",
-                "setNotPrivate": "Remove private",
+                "setNotPrivate": "나만 보기 설정 해제",
                 "publishToMint": "애셋을 민팅하기 전에 게시해야 합니다."
             },
             "pagination": {
