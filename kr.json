@@ -3813,7 +3813,7 @@
                 },
                 "lands": {
                     "title": "인벤토리에 랜드를 보유하고 있지 않습니다.",
-                    "description": "In order to locate your experience you need to have 랜드 available in the wallet linked to this account. If you don't own any 랜드 you can always buy one."
+                    "description": "경험을 게시하려면 이 계정과 연결된 지갑에 랜드를 보유해야 합니다. 랜드를 보유하고 있지 않을 경우, 새로 랜드를 구입할 수 있습니다."
                 }
             },
             "connect": {
@@ -3833,8 +3833,8 @@
         "hub": {
             "versionSelectorText": "버전:",
             "featureStatus": {
-                "ready": "Ready",
-                "pending": "Pending"
+                "ready": "준비됨",
+                "pending": "보류 중"
             },
             "checklistCards": {
                 "assetReview": {
@@ -3854,13 +3854,13 @@
                     "edit": "편집하기"
                 },
                 "accessControl": {
-                    "title": "Access Control",
+                    "title": "액세스 조정",
                     "description": "You can establish a gating criteria to access your Experience.",
                     "buttonText": "설정하기"
                 },
                 "contentWarning": {
-                    "title": "Content Warning",
-                    "description": "You can set up Content Warning if needed.",
+                    "title": "민감한 콘텐츠",
+                    "description": "필요 시 민감한 콘텐츠 경고를 설정할 수 있습니다.",
                     "buttonText": "Set up"
                 },
                 "playPage": {
@@ -13060,7 +13060,7 @@
                 "behavior": "행동",
                 "none": "해당없음",
                 "mintUpTo": " '' | 최대 {copies}개까지 민팅 | 최대 {copies}개까지 민팅",
-                "max": "최대 {copies}",
+                "max": "최대 {copies}개",
                 "gemsNotAllowed": "이 애셋의 카탈리스트에는 젬을 추가할 수 없습니다.",
                 "emptyGems": "편집을 클릭하여 애셋에 젬을 추가합니다."
             },
@@ -14206,7 +14206,7 @@
         "linkCryptoweenRules": "패리스 힐튼 크립토윈 공식 규정",
         "linkKuniverseRules": "쿠니버스 공식 규정",
         "linkSportslandRules": "스포츠랜드 공식 규정",
-        "linkSeasonsGreetingsRules": "Season's greetings! official rules"
+        "linkSeasonsGreetingsRules": "시즌 그리팅 공식 규정"
     },
     "changelogVoxedit": {
         "2022": {
