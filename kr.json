@@ -2728,7 +2728,7 @@
             "item": "상품",
             "items": "상품",
             "description": "상품을 장바구니에 담고 구매를 시작해 보세요.",
-            "emptyButtonText": "상점으로 이동",
+            "emptyButtonText": "마켓으로 이동",
             "goToCart": "장바구니로 이동",
             "total": "장바구니 총액",
             "buy": "지금 구매",
@@ -2745,7 +2745,7 @@
                 "status": "상태"
             },
             "cartItem": {
-                "available": "구입 가능"
+                "available": "개 구입 가능"
             },
             "totalOnNetwork1": "총",
             "totalOnNetwork2": "네트워크",
@@ -3784,7 +3784,7 @@
             "status": {
                 "locationOccupied": "사용 중",
                 "locationCommited": "Commited",
-                "locationTooSmall": "Too Small"
+                "locationTooSmall": "너무 작음"
             }
         },
         "location": {
@@ -3855,13 +3855,13 @@
                 },
                 "accessControl": {
                     "title": "액세스 조정",
-                    "description": "You can establish a gating criteria to access your Experience.",
+                    "description": "경험에 액세스하기 위한 게이팅 기준을 설정할 수 있습니다.",
                     "buttonText": "설정하기"
                 },
                 "contentWarning": {
                     "title": "민감한 콘텐츠",
                     "description": "필요 시 민감한 콘텐츠 경고를 설정할 수 있습니다.",
-                    "buttonText": "Set up"
+                    "buttonText": "설정하기"
                 },
                 "playPage": {
                     "title": "플레이페이지",
@@ -4138,7 +4138,7 @@
                 },
                 "not2": {
                     "text": "상점에서 NFT를 검색하고 구매하세요",
-                    "btn": "상점으로 이동"
+                    "btn": "마켓으로 이동"
                 }
             },
             "partner": "파트너",
@@ -4151,7 +4151,7 @@
             },
             "not2": {
                 "text": "상점에서 NFT를 검색하고 구매하세요",
-                "button": "상점으로 이동"
+                "button": "마켓으로 이동"
             },
             "comming": "시작 예정",
             "landsale": "랜드 세일",
@@ -6431,7 +6431,7 @@
                 "upload": "애셋 업로드",
                 "loadingAsset": "애셋 불러오는 중",
                 "pleaseWait": "기다려 주세요",
-                "goToShop": "상점으로 이동",
+                "goToShop": "마켓으로 이동",
                 "errorLoadingAsset": "애셋 불러오기 오류",
                 "problemLoading": "애셋을 처리하는 도중 문제가 발생했거나 링크가 만료되었습니다",
                 "pleaseExportAgain": "복스에딧에서 내보내기를 다시 시도해 보세요",
@@ -6643,7 +6643,7 @@
         },
         "creatorWebsite": "웹사이트",
         "assetsIncludedTitle": "포함된 애셋",
-        "mapDescription": "Short map description",
+        "mapDescription": "간단한 지도 설명",
         "metadata": "(메타데이터)",
         "opened": "오픈됨:",
         "setUpAssetsFromGM": "게임 메이커에서 애셋을 설정합니다.",
@@ -7570,7 +7570,7 @@
         "text15": "개인정보 수집",
         "text16": "당사와 당사 서비스 제공업체가 개인정보를 수집하는 방법은 아래 내용을 포함합니다.",
         "text17": "서비스를 통해.",
-        "text18": "We collect Personal Information through the Services, for example, when you register an account to access the Services, complete a survey, apply to participate in a raffle, sweepstakes or other promotion, contact customer support, or make a purchase on our online marketplace.",
+        "text18": "당사는 서비스로부터 귀하의 개인정보를 수집합니다. 예시로는 귀하가 서비스에 액세스하기 위해 계정을 등록하거나, 추첨, 경품 행사 또는 기타 프로모션에 참여하거나, 고객 지원에 문의하거나, 온라인 마켓플레이스에서 구매할 때 등의 경우입니다.",
         "text19": "기타 출처를 통해.",
         "text20": "당사는 기타 출처로부터 귀하의 개인정보를 수령합니다. 예시로는 암호화폐 지갑 제공업체가 당사와 정보를 공유하는 경우입니다.",
         "text21": "당사는 귀하에게 요청받은 서비스를 제공하기 위해 개인정보를 수집해야 합니다. 귀하가 요청받은 정보를 제공하지 않는 경우, 당사는 서비스를 제공하지 못할 수도 있습니다. 귀하가 당사 또는 당사의 서비스 제공업체에 타인의 개인정보를 공개하면, 귀하에게 그럴 권한이 있으며 당사가 본 개인정보처리방침에 따라 해당 정보를 이용하도록 승인하는 것입니다.",
@@ -7591,14 +7591,14 @@
         "text36": "귀하에게 맞춤형 상호작용을 제공하고 관심사에 맞춘 정보 및 상품을 제공할 수 있도록 귀하의 관심 및 선호 사항을 파악하는 것;",
         "text37": "당사 서비스를 통해 귀하와 관련이 있거나 흥미로울 것이라고 판단되는 콘텐츠를 제공할 수 있도록 귀하의 선호 사항을 파악하는 것.",
         "text38": "당사는 적법한 이익을 근거로 귀하의 동의를 받아 준거법이 요구하는 범위 내에서 맞춤형 서비스를 제공합니다.",
-        "text39": "Allowing you to participate in sweepstakes, raffles, contests or other promotions",
-        "text40": "We may offer you the opportunity to participate in a sweepstakes, raffle, contest or other promotion",
+        "text39": "귀하는 경품 행사, 추첨, 콘테스트 또는 기타 프로모션에 참여할 수 있습니다.",
+        "text40": "당사는 경품 행사, 추첨, 콘테스트 또는 기타 프로모션에 참여할 수 있는 기회를 제공할 수 있습니다.",
         "text41": "이러한 프로모션의 일부에는 당사가 귀하의 개인정보를 이용하고 공개하는 방식에 대한 정보를 포함한 추가 규정이 존재합니다. 참가를 선택하기 전에 이러한 추가 규정을 숙지하시기 바랍니다.",
         "text42": "당사는 해당 정보를 이용하여 귀하와의 계약 관계를 관리합니다.",
         "text43": "개인정보를 집계 및/또는 익명화하는 활동.",
         "text44": "당사는 개인정보로 간주되지 않는 형태로 개인정보를 집계하거나 익명화할 수 있습니다. 이를 통해 당사가 이용하기 위한 기타 데이터를 생성할 수 있으며, 이러한 정보는 귀하나 기타 개인을 식별하지 못하므로 목적에 관계없이 당사가 이용하고 공개할 수 있습니다.",
         "text45": "당사의 사업 목적을 달성하는 활동.",
-        "updatedDate": "LAST UPDATED:  November 2022",
+        "updatedDate": "최종 업데이트: 2022년 11월",
         "text46": "서비스의 효율 및 품질 개선 등을 위해 데이터를 분석하는 것;",
         "text47": "디버그, 서비스의 의도된 기능을 저해하는 오류를 식별하고 수정하는 것;",
         "text48": "당사 내부 절차가 의도대로 기능하는지 검증하고 법규 또는 계약 요건을 충족하기 위한 감사를 시행하는 것;",
@@ -7615,7 +7615,7 @@
         "text59": "해당 제휴사: Bacasable UK Ltd. (영국), Sviper GmbH (독일), The Sandbox U.S. Inc. (미국), Cualit Eng. Ltd. (우루과이), TSB Gaming Argentina SA. (아르헨티나), TSBMV Global Limited (케이맨), Bacasable France S.A.S. (프랑스), Sandbox Development Canada Inc. (캐나다), TSB Korea Inc. (대한민국)",
         "text60": "서드파티 서비스 제공업체가 당사에 제공하는 서비스를 촉진하기 위한 목적으로 서드파티 서비스 제공업체에 공개.",
         "text61": "여기에는 웹사이트 호스팅, 데이터 분석, 사기 방지, 정보 기술 및 관련 인프라 공급, 고객 서비스 또는 기타 혜택, 이메일 전송, 감사, 기타 서비스 등의 제공업체가 포함됩니다.",
-        "text62": "To third party sponsors of sweepstakes, raffles, contests, and similar promotions",
+        "text62": "경품 행사, 추첨, 콘테스트 및 유사 프로모션의 외부 스폰서에 공개",
         "text63": "서비스를 이용함으로써 귀하는 개인정보를 공개하도록 선택할 수 있습니다.",
         "text64": "게임을 플레이하는 동안 메시지 보드, 채팅, 프로필 페이지, 기타 서비스에 정보 및 콘텐츠를 게시할 수 있습니다. 해당 서비스를 통해 게시하거나 공개한 모든 정보는 공개되며 다른 사용자나 일반 대중이 이용할 수 있으니 유의하십시오.",
         "text65": "기타 목적의 이용 및 공개",
@@ -7646,8 +7646,8 @@
         "text87": "귀하의 브라우저 또는 기기",
         "text88": "미디어 접근 제어(MAC) 주소, 컴퓨터 유형(Windows 또는 Mac), 화면 해상도, 운영 시스템 이름 및 버전, 기기 제조사 및 모델, 언어, 인터넷 브라우저 유형 및 버전, 사용 중인 서비스의 이름 및 버전 등 특정 정보는 대부분의 브라우저와 기기에서 자동으로 수집됩니다. 당사는 해당 정보를 이용하여 서비스가 적절하게 기능하도록 보장합니다.",
         "text89": "쿠키",
-        "text90": "Cookies are pieces of information stored directly on the computer that you are using.  Cookies allow us to collect information such as browser type, time spent on the Services, pages visited, language preferences, mouse clicks, page scrolls, keystrokes, and other traffic data.  We and our service providers use the information for security purposes, to facilitate navigation, to display information more effectively, and to personalize your experience.  We also gather statistical information about use of the Services in order to continually improve their design and functionality, understand how they are used, and assist us with resolving questions regarding them. Cookies further allow us to select which of our advertisements or offers are most likely to appeal to you and display them while you are on the Services.  We may also use cookies or other technologies in online advertising to track responses to our ads.  We do not currently respond to browser do-not-track signals. If you do not want information collected through the use of cookies, most browsers allow you to automatically decline cookies or be given the choice of declining or accepting a particular cookie (or cookies) from a particular website.  You may also wish to refer to ",
-        "text90part2": " 링크를 참조하시기 바랍니다. 그러나 쿠키 사용을 허용하지 않는 경우, 서비스를 이용할 때 불편을 겪을 수 있습니다. 또한 귀하의 관심사나 니즈와 관련된 광고나 기타 상품 정보를 이용하지 못할 수도 있습니다.",
+        "text90": "쿠키란 귀하가 사용하는 컴퓨터에 직접 저장되는 정보의 조각입니다. 쿠키를 사용하여 브라우저 유형, 서비스에 소요된 시간, 방문한 페이지, 언어 기본 설정, 마우스 클릭, 페이지 스크롤, 키 입력 및 기타 트래픽 데이터 등의 정보를 수집할 수 있습니다. 당사와 당사의 서비스 제공업체는 검색을 용이하게 하고 정보를 보다 효과적으로 표시하고 귀하의 경험을 개인화하기 위한 보안 목적으로 정보를 이용합니다. 또한 디자인과 기능을 지속적으로 개선하고 사용 방법을 이해하며 관련 질문을 해결하는 데 도움을 주기 위해 서비스 사용에 대한 통계 정보를 수집합니다. 쿠키를 사용하면 귀하가 서비스를 사용하는 동안 귀하의 관심을 끌 가능성이 가장 높은 광고 또는 제안을 선택하고 표시할 수 있습니다. 또한 온라인 광고에서 쿠키 또는 기타 기술을 사용하여 광고에 대한 반응을 추적할 수 있습니다. 당사는 현재 브라우저 추적 금지 신호에 응답하지 않습니다. 쿠키 사용을 통해 정보가 수집되는 것을 원하지 않는 경우 대부분의 브라우저는 자동으로 쿠키를 거부하거나 특정 웹사이트의 특정 쿠키를 거부하거나 수락할 수 있는 선택권을 제공합니다. 자세한 내용은 ",
+        "text90part2": " 링크를 참조하시기 바랍니다. 쿠키 사용을 허용하지 않는 경우, 서비스를 이용할 때 불편을 겪을 수 있습니다. 또한 귀하의 관심사나 니즈와 관련된 광고나 기타 상품 정보를 이용하지 못할 수도 있습니다.",
         "text91": "픽셀 태그 및 기타 유사 기술",
         "text92": "픽셀 태그(웹 비콘 및 클리어 GIF라고도 함)는 서비스 사용자(이메일 수령인 포함)의 행동을 추적하고, 당사 마케팅 캠페인의 성과를 측정하며, 서비스 이용 및 응답률에 대한 통계를 수집하기 위해 사용될 수 있습니다.",
         "text93": {
@@ -7701,12 +7701,12 @@
         "text132": "개인정보 카테고리",
         "text133": "사업 운영 목적의 공개가 이루어지는 서드파티 카테고리",
         "text134": {
-            "mainText": "{0}, such as username, contact information, government-issued ID, IP address and other online identifiers",
+            "mainText": "유저네임, 연락처 및 정부에서 발행된 신분증, IP 주소 및 기타 온라인 식별자 등의 {0}",
             "0": "식별자"
         },
         "text135": "제휴사, 서비스 제공업체, 사업 파트너, 공동 마케팅 파트너, 콘테스트 후원자, 법무 기관",
         "text136": {
-            "mainText": "{0}, such as name, contact information and government-issued ID",
+            "mainText": "이름, 연락처 및 정부에서 발행된 신분증 등의 {0}",
             "0": "캘리포니아 소비자 기록법에 정의된 개인정보"
         },
         "text137": "제휴사, 서비스 제공업체, 사업 파트너, 공동 마케팅 파트너, 콘테스트 후원자, 법무 기관",
@@ -7958,7 +7958,7 @@
             "action-desc-deposit-single": "SAND 획득하기",
             "footer-text-deposit-single": "이 트랜잭션은 선택한 수량의 SAND를 예치합니다. 총 예치금이 올라갑니다.",
             "footer-text-claim-single": "이 트랜잭션은 지갑으로 현재 SAND 리워드를 청구합니다.",
-            "footer-text-exit": "This transaction will withdraw the staked amount from your total deposit. It will also claim any available earnings to save you some gas fee.",
+            "footer-text-exit": "이 트랜잭션으로 총 예치금에서 스테이킹된 금액을 인출합니다. 또한 가스비 절약을 위해 사용 가능한 일정 수입 금액을 청구합니다.",
             "footer-text-withdraw-single": "이 트랜잭션은 총 예치금에서 SAND를  인출합니다.",
             "footer-text-withdraw-exit": "이 트랜잭션은 전체 예치금에서 선택한 LP 금액을 인출합니다. 가스비를 절약하기 위해 가능한 수익금을 수령할 수 있습니다.",
             "addMsand": "SAND 받기",
