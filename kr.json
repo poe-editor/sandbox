@@ -3709,11 +3709,11 @@
             "estateOccupied": "이 이스테이트는 이미 사용 중입니다."
         },
         "placement": {
-            "title": "Locate your Experience",
-            "subtitle": "Click over a position to place your experience in your purchased ESTATE",
+            "title": "경험 배치하기",
+            "subtitle": "구입한 이스테이트 중 경험을 배치할 위치를 클릭하세요.",
             "legend": {
-                "available": "Available",
-                "notAvailable": "Not available",
+                "available": "배치 가능",
+                "notAvailable": "배치 불가",
                 "fit": "맞음",
                 "notFit": "맞지 않음",
                 "placed": "배치됨"
@@ -5639,7 +5639,9 @@
                 "title": "네트워크",
                 "layer1": "이더리움",
                 "layer2": "폴리곤"
-            }
+            },
+            "viewLess": "",
+            "viewMore": ""
         },
         "avatar": {
             "empty": "이 목록은 비어 있습니다",
@@ -13855,7 +13857,8 @@
             "assetscard": "애셋",
             "bycard": "by",
             "button1": "컬렉션 알아보기",
-            "button2": "무료 아바타 생성하기"
+            "button2": "무료 아바타 생성하기",
+            "linkcopied": "Public link copied to clipboard"
         },
         "noresult": {
             "title": "검색 결과를 찾을 수 없습니다",
