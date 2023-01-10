@@ -5486,7 +5486,7 @@
             "nftTypes": {
                 "title": "NFT 유형",
                 "entity": "엔티티",
-                "land": "랜드 & Estate",
+                "land": "랜드 & 이스테이트",
                 "estates": "이스테이트",
                 "experiences": "경험",
                 "all": "전체",
@@ -5640,8 +5640,8 @@
                 "layer1": "이더리움",
                 "layer2": "폴리곤"
             },
-            "viewLess": "",
-            "viewMore": ""
+            "viewLess": "숨기기 <<<",
+            "viewMore": "더 보기 >>>"
         },
         "avatar": {
             "empty": "이 목록은 비어 있습니다",
@@ -13858,7 +13858,7 @@
             "bycard": "by",
             "button1": "컬렉션 알아보기",
             "button2": "무료 아바타 생성하기",
-            "linkcopied": "Public link copied to clipboard"
+            "linkcopied": "공개 링크가 클립보드에 복사되었습니다."
         },
         "noresult": {
             "title": "검색 결과를 찾을 수 없습니다",
@@ -14018,7 +14018,7 @@
             "errorPublicLinkMessage": "올바르지 않은 형식의 URL",
             "createByName": "이름으로 생성",
             "createByUrl": "URL로 생성",
-            "publicLink": "공용 링크",
+            "publicLink": "공개 링크",
             "isFeatured": "IS FEATURED"
         }
     },
@@ -14209,7 +14209,10 @@
         "linkCryptoweenRules": "패리스 힐튼 크립토윈 공식 규정",
         "linkKuniverseRules": "쿠니버스 공식 규정",
         "linkSportslandRules": "스포츠랜드 공식 규정",
-        "linkSeasonsGreetingsRules": "시즌 그리팅 공식 규정"
+        "linkSeasonsGreetingsRules": "시즌 그리팅 공식 규정",
+        "linkMetaGreenRules": "Metagreen official rules",
+        "linkSMCUPalaceRules": "SMCU Palace official rules",
+        "linkCarrefourRules": "Carrefour official rules"
     },
     "changelogVoxedit": {
         "2022": {
