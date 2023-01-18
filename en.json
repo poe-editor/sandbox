@@ -295,7 +295,18 @@
             "orderedList": "Ordered List",
             "addImage": "Add Image"
         },
-        "optional": "(Optional)"
+        "optional": "(Optional)",
+        "ordinalDate": {
+            "st": "st",
+            "nd": "nd",
+            "rd": "rd",
+            "th": "th"
+        },
+        "chains": {
+            "chain": "Chain",
+            "ethereum": "Ethereum",
+            "polygon": "Polygon"
+        }
     },
     "layout": {
         "topbar": {
