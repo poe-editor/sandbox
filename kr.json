@@ -297,15 +297,15 @@
         },
         "optional": "(선택)",
         "ordinalDate": {
-            "st": "st",
-            "nd": "nd",
-            "rd": "rd",
-            "th": "th"
+            "st": "일",
+            "nd": "일",
+            "rd": "일",
+            "th": "일"
         },
         "chains": {
-            "chain": "Chain",
-            "ethereum": "Ethereum",
-            "polygon": "Polygon"
+            "chain": "체인",
+            "ethereum": "이더리움",
+            "polygon": "폴리곤"
         }
     },
     "layout": {
@@ -1026,7 +1026,7 @@
                 "bulletPoints": {
                     "title": "알파 패스 받는 방법",
                     "firstTitle": "추첨:",
-                    "firstDescription": "랜드 소유자는 추첨에 등록하여 알파 패스를 받을 기회를 잡을 수 있습니다.",
+                    "firstDescription": "랜드 오너는 추첨에 등록하여 알파 패스를 받을 기회를 잡을 수 있습니다.",
                     "secondTitle": "일일 대회:",
                     "secondDescription1": "알파 허브에서 일일 대회에 참여하면 누구나 알파 패스를 받을 기회를 잡을 수 있습니다. 참여하려면",
                     "secondDescription2": "더 샌드박스 소식과",
@@ -1399,8 +1399,8 @@
                     "description10": "늦지 않았습니다. 스테이킹을 늦게 시작한 경우, 스테이킹으로 얻을 수 있는 최대한의 추첨 티켓(200개)을 얻고 싶다면 더 많은 $SAND를 스테이킹해야 합니다. 그만큼 스테이킹하지 않고 알파 시즌 2가 곧 종료된다고 하더라도 여전히 스테이킹을 통해 어느 정도의 추첨 티켓은 얻을 수 있습니다. 추첨 티켓 200개 한도에 도달할 시간과 리소스는 없더라도 여전히 몇 개를 얻을 기회가 남아 있습니다. 또한 알파 시즌 2 보너스를 위해서가 아니더라도 스테이킹은 그 자체로 매우 이득이 되는 기능입니다.",
                     "description3d1": "점의 스테이킹 점수를 유지해야 합니다.",
                     "description3f1": "점의 목표치에 도달해야 합니다",
-                    "description3h1": "점 이상이 되면 커뮤니티 리워드 부스터는 +100%가 되며, 이에 따라 시즌 2 알파 패스 리워드가 +100% 늘어나므로 모든 시즌 2 알파 패스 소유자가 1,000 $SAND를 획득하게 됩니다.",
-                    "description3i1": "점이 되면 커뮤니티 리워드 부스터는 +57%가 되며, 이에 따라 시즌 2 알파 패스 리워드가 +57% 늘어나므로 모든 시즌 2 알파 패스 소유자가 785 $SAND (500 + 500의 57%)를 획득하게 됩니다.",
+                    "description3h1": "점 이상이 되면 커뮤니티 리워드 부스터는 +100%가 되며, 이에 따라 시즌 2 알파 패스 리워드가 +100% 늘어나므로 모든 시즌 2 알파 패스 오너가 1,000 $SAND를 획득하게 됩니다.",
+                    "description3i1": "점이 되면 커뮤니티 리워드 부스터는 +57%가 되며, 이에 따라 시즌 2 알파 패스 리워드가 +57% 늘어나므로 모든 시즌 2 알파 패스 오너가 785 $SAND (500 + 500의 57%)를 획득하게 됩니다.",
                     "description6b1": "점이 주어집니다.",
                     "description6g1": "점입니다 (추첨 티켓 200개). 알파 시즌 전체 기간 (28일)동안 스테이킹하는 1 SAND마다 스테이킹 점수",
                     "description6g2": "점이 주어집니다.",
@@ -1675,7 +1675,7 @@
                 "howItWorksDesc": "매주 여러 활동에 참여하여 다양한 리워드를 획득하세요.",
                 "ongoing": "진행 중",
                 "coming": "진행 예정",
-                "onlyForOwners": "NFT 보유자 전용",
+                "onlyForOwners": "NFT 오너 전용",
                 "seeMore": "더 알아보기",
                 "shared": "리워드 풀",
                 "rewards": "리워드",
@@ -1714,7 +1714,7 @@
                 "eventRewards": "이벤트 리워드",
                 "landsale": "랜드 세일",
                 "allEvents": "모든 이벤트",
-                "invalidOwner": "The owner must be a valid / existing userId",
+                "invalidOwner": "소유자는 인증된 기존 userID를 사용해야 합니다.",
                 "questVerification": "If Custom ticket name is specified Total ticket amount must be specified too",
                 "manualVerification": "If Custom manual ticket name is specified Total manual ticket amount must be specified too",
                 "noResults": "검색 결과가 없습니다.",
@@ -1749,14 +1749,14 @@
                 "guaranteed": "확정",
                 "guaranteedDesc": "시즌 종료까지 랜드 및 컬렉션의 아바타와 NFT를 보유하면 레벨에 따라 {0}를 획득합니다.",
                 "earnSand": "보너스 확정 SAND 리워드",
-                "landOwner": "랜드 보유자",
-                "forLandOwner": "랜드 보유자 전용",
+                "landOwner": "랜드 오너",
+                "forLandOwner": "랜드 오너 전용",
                 "landDesc": "랜드를 보유하고 확정 보상을 잠금 해제하세요.",
-                "avatarOwner": "아바타 보유자",
-                "forAvatarOwner": "아바타 보유자 전용",
+                "avatarOwner": "아바타 오너",
+                "forAvatarOwner": "아바타 오너 전용",
                 "avatarDesc": "확정 리워드 잠금 해제를 위해 아바타를 구매하세요.",
                 "collectorOwner": "NFT 컬렉터",
-                "forCollectorOwner": "NFT 보유자 전용",
+                "forCollectorOwner": "NFT 오너 전용",
                 "collectorDesc": "이 리워드를 잠금 해제하려면 NFT 배지 컬렉터를 보유하세요.",
                 "boosterTitle": "커뮤니티 부스터 리워드",
                 "stakeDesc": "{0}를 스테이킹하면 모두를 위한 알파 패스 리워드가 증가합니다.",
@@ -1768,8 +1768,8 @@
                 "alreadyOwnRaffle": "이미 알파 패스를 보유하고 있습니다! 시즌이 종료된 후 알파 패스 리워드를 받을 수 있습니다. 추첨에 더 이상 참여하지 않아도 됩니다.",
                 "getMore": "자세히 보기",
                 "raffleResults": "추첨까지 남은 시간",
-                "youAreLand": "랜드 보유자입니다.",
-                "youAreAvatar": "아바타 보유자입니다.",
+                "youAreLand": "랜드 오너입니다.",
+                "youAreAvatar": "아바타 오너입니다.",
                 "youAreCollector": "NFT 컬렉터입니다.",
                 "epTooltip": "경험 속 퀘스트를 완료하고 에토스 포인트를 획득하세요. 퀘스트의 난이도가 높을수록 더 많은 에토스 포인트를 획득할 수 있습니다.",
                 "raffleRewards": "추첨 리워드",
@@ -1784,7 +1784,7 @@
                 "badges": "배지",
                 "badge": "배지",
                 "leaderboard": "리더보드",
-                "collectorOwner": "NFT 컬렉터 보유자",
+                "collectorOwner": "NFT 컬렉터 오너",
                 "goClaim": "수령하기 페이지로 이동",
                 "goBadges": "배지로 이동",
                 "nextSeason": "다음 시즌을 기대해 주세요!",
@@ -1852,13 +1852,13 @@
                 "land": {
                     "title": "랜드",
                     "ctaText": "랜드 구매",
-                    "description": "랜드를 보유하여 랜드 보유자 확정 리워드를 잠금 해제하세요.",
+                    "description": "랜드를 보유하여 랜드 오너 확정 리워드를 잠금 해제하세요.",
                     "cardTitle": "메타버스 랜드 구입하기",
                     "cardDescription": "총 랜드의 수는 166,464개이며, 랜드 위에 게임, 멀티플레이어 경험, 전시, 또는 커뮤니티 소셜 경험 등을 자유롭게 만들 수 있습니다."
                 },
                 "nftAvatar": {
                     "title": "NFT 아바타",
-                    "description": "NFT 아바타를 보유하여 아바타 보유자 확정 리워드를 잠금 해제하세요."
+                    "description": "NFT 아바타를 보유하여 아바타 오너 확정 리워드를 잠금 해제하세요."
                 },
                 "nftAsset": {
                     "title": "NFT 컬렉션",
@@ -1890,9 +1890,9 @@
                 "learnMore": "더 알아보기",
                 "maxRewards": "최대 기본 리워드:",
                 "maxBoosted": "최대 부스트 적용 리워드:",
-                "landOwners": "랜드 보유자:",
-                "avatarOwners": "아바타 보유자:",
-                "collectorOwners": "NFT 컬렉션 보유자:",
+                "landOwners": "랜드 오너:",
+                "avatarOwners": "아바타 오너:",
+                "collectorOwners": "NFT 컬렉션 오너:",
                 "guaranteedRewards": "이는 추첨과는 무관한 확정 리워드입니다.",
                 "stakingInfo": "커뮤니티가 스테이킹 목표에 도달할 경우 알파 패스 리워드는 두 배가 됩니다. {0}",
                 "boostRewards": "리워드 부스트",
@@ -1942,7 +1942,7 @@
                 "eventsDescription": "메타버스 내 일부 경험에서 시간 제한이 있는 주간 이벤트가 진행됩니다. 이벤트 기간 중 이전에 방문했던 경험으로 돌아가 새로운 EP를 획득해 보세요.",
                 "seeEvents": "이벤트 보기",
                 "guaranteed": "확정 리워드",
-                "guaranteedDescription": "이번 시즌에는 랜드 보유자, 아바타 보유자, NFT 컬렉터인 유저들에게 확정 리워드가 주어집니다.",
+                "guaranteedDescription": "이번 시즌에는 랜드 오너, 아바타 오너, NFT 컬렉터인 유저들에게 확정 리워드가 주어집니다.",
                 "1": {
                     "title": "더 샌드박스 알파 시즌 3에 오신 것을 환영합니다!",
                     "description": "{0}를 통해 더 샌드박스 메타버스를 탐험하고 다채로운 콘텐츠를 즐겨보세요.",
@@ -1959,9 +1959,9 @@
                     "upTo": "최대 3만 SAND를 획득할 수 있는 기회!",
                     "title1": "추첨",
                     "reward1": "500 {0}",
-                    "title2": "랜드 보유자",
+                    "title2": "랜드 오너",
                     "reward2": "180 {0}",
-                    "title3": "아바타 보유자",
+                    "title3": "아바타 오너",
                     "reward3": "60 {0}",
                     "title4": "NFT 컬렉터",
                     "reward4": "30 {0}",
@@ -2006,9 +2006,9 @@
                     "title": "확정 리워드",
                     "description": "보유한 NFT에 따라 레벨업할 때마다 확정 {0}를 잠금 해제할 수 있습니다.",
                     "description2": "SAND 리워드",
-                    "title1": "랜드 보유자",
+                    "title1": "랜드 오너",
                     "reward1": "180 {0}",
-                    "title2": "아바타 보유자",
+                    "title2": "아바타 오너",
                     "reward2": "60 {0}",
                     "title3": "NFT 컬렉터",
                     "reward3": "30 {0}",
@@ -2098,16 +2098,16 @@
                     "raffle": {
                         "title": "알파 시즌 3 참여(추첨)",
                         "titleKey": "누구나 이용할 수 있는데 알파 패스가 왜 필요한가요?",
-                        "descriptionKey": "알파 패스를 보유해야 SAND 리워드를 획득할 수 있기 때문입니다! 알파 패스 보유자만이 시즌 종료 후 최대 500 SAND의 알파 리워드를 수령할 수 있습니다.\n\n그러나, 알파 패스를 보유하지 않아도 랜드, 아바타 보유자 및 NFT 컬렉터에게는 별도의 리워드가 주어집니다. 자세한 내용은 아래를 참고하세요.",
+                        "descriptionKey": "알파 패스를 보유해야 SAND 리워드를 획득할 수 있기 때문입니다! 알파 패스 오너만이 시즌 종료 후 최대 500 SAND의 알파 리워드를 수령할 수 있습니다.\n\n그러나, 알파 패스를 보유하지 않아도 랜드, 아바타 오너 및 NFT 컬렉터에게는 별도의 리워드가 주어집니다. 자세한 내용은 아래를 참고하세요.",
                         "titleKey1": "어떻게 알파 패스를 획득할 수 있나요?",
                         "descriptionKey1": "다음의 세 가지 방법으로 시즌 3 알파 패스를 획득할 수 있습니다.\n- 추첨: 시즌 3 종료까지 더 샌드박스 생태계에서 더 많은 시간을 투자할수록, 알파 패스 당첨의 기회는 높아집니다.\n- 주간 알파 기브어웨이: 주 1회 진행될 트위터 콘테스트에 참여하여 알파 패스 당첨의 기회를 획득하세요.\n- OpenSea: 패스 판매자가 있다면 2차 마켓에서 시즌 3 알파 패스를 구매할 수 있습니다. {0}",
                         "descriptionKey1-1": "2차 마켓에서 시즌 3 알파 패스를 구매할 때는 언제나 주의하세요. 가짜 알파 패스를 판매하는 판매자가 있을 수 있습니다. 또한, 시즌이 종료된 이후에는 패스를 구매하지 마세요!",
                         "titleKey2": "어떻게 추첨에 등록할 수 있나요?",
                         "descriptionKey2": "추첨은 알파 시즌 3 종료 후에 진행됩니다. 시즌 3 추첨에 참여하려면 게임을 플레이하기만 하면 됩니다. 누구나 무료로 진행할 수 있는 퀘스트를 완료하면 EP(에토스 포인트)를 획득하게 되며, 레벨업을 통해 추첨 티켓을 얻을 수 있습니다. 몇 개의 퀘스트를 완료하여 빠른 시간 안에 레벨 1에 도달하고 계정 인증을 완료하면 추첨 참여 기회가 주어집니다.",
                         "titleKey3": "획득할 수 있는 추첨 티켓은 최대 몇 개인가요?",
-                        "descriptionKey3": "모든 추첨 티켓 획득처에서 최대로 티켓을 모았을 경우, 획득할 수 있는 총 추첨 티켓의 수는 2,500개입니다.\n\n아래 내용을 참고하세요.\n- 에토스 포인트(퀘스트 완료): 최대 500개 추첨 티켓(300 EP 획득 시)\n- 스테이킹: 최대 500개 추첨 티켓\n- 시즌 1 알파 패스 보유자: 210 추첨 티켓\n- 시즌 2 알파 패스 보유자: 210 추첨 티켓\n- 시즌 1 기념품: 150 추첨 티켓\n- 시즌 2 기념품: 150 추첨 티켓\n- 빌롱잉 위크 기념품: 150 추첨 티켓\n- 시즌 2 피드백 양식 완료: 30 추첨 티켓\n- 일일 이벤트: 최대 350 추첨 티켓\n- 친구 추천: 최대 250 추첨 티켓",
+                        "descriptionKey3": "모든 추첨 티켓 획득처에서 최대로 티켓을 모았을 경우, 획득할 수 있는 총 추첨 티켓의 수는 2,500개입니다.\n\n아래 내용을 참고하세요.\n- 에토스 포인트(퀘스트 완료): 최대 500개 추첨 티켓(300 EP 획득 시)\n- 스테이킹: 최대 500개 추첨 티켓\n- 시즌 1 알파 패스 오너: 210 추첨 티켓\n- 시즌 2 알파 패스 오너: 210 추첨 티켓\n- 시즌 1 기념품: 150 추첨 티켓\n- 시즌 2 기념품: 150 추첨 티켓\n- 빌롱잉 위크 기념품: 150 추첨 티켓\n- 시즌 2 피드백 양식 완료: 30 추첨 티켓\n- 일일 이벤트: 최대 350 추첨 티켓\n- 친구 추천: 최대 250 추첨 티켓",
                         "titleKey4": "랜드를 보유하고 있다면 알파 패스를 받을 확률이 높아지나요?",
-                        "descriptionKey4": "아니요. 그러나, 시즌 3를 플레이 시 랜드 보유자에게는 확정 리워드가 주어집니다. 자세한 내용은 아래를 참고하세요.",
+                        "descriptionKey4": "아니요. 그러나, 시즌 3를 플레이 시 랜드 오너에게는 확정 리워드가 주어집니다. 자세한 내용은 아래를 참고하세요.",
                         "titleKey5": "시즌 1이나 2의 알파 패스를 보유하고 있다면 시즌 3 알파 패스에 당첨될 확률이 높아지나요?",
                         "descriptionKey5": "그렇습니다. 지갑에 보유하고 있는 각 알파 패스당 추가 210개의 추첨 티켓이 주어집니다. 동일 시즌의 패스를 여러 개 보유하고 있는 경우 추첨 티켓이 중복으로 주어지는 것은 아니지만, 시즌 1과 2 알파 패스를 모두 보유했을 경우 최대 420개의 추첨 티켓을 획득할 수 있습니다.",
                         "titleKey6": "시즌 3 알파 패스에 중복으로 당첨될 수 있나요?",
@@ -2120,9 +2120,9 @@
                         "titleKey": "알파 시즌 3에서 알파 패스를 제외하고 리워드를 획득할 수 있는 다른 방법이 있나요?",
                         "descriptionKey": "네, 이번 시즌에서는 확정 리워드와 리더보드, 이렇게 두 가지의 새로운 방식으로 리워드를 획득할 수 있습니다. 자세한 내용은 아래를 참고하세요.",
                         "titleKey1": "확정 리워드는 어떻게 획득할 수 있나요?",
-                        "descriptionKey1": "아래 세 가지 유형에 해당될 경우, 확정 보상 대상자에 포함됩니다.\n- 랜드 보유자\n- NFT 아바타 보유자\n- NFT 컬렉터 배지\n시즌 종료 시점까지 위 목록 중 하나 이상에 해당된다면, 알파 기간 동안 달성하는 레벨에 따라 리워드가 주어집니다.",
+                        "descriptionKey1": "아래 세 가지 유형에 해당될 경우, 확정 보상 대상자에 포함됩니다.\n- 랜드 오너\n- NFT 아바타 오너\n- NFT 컬렉터 배지\n시즌 종료 시점까지 위 목록 중 하나 이상에 해당된다면, 알파 기간 동안 달성하는 레벨에 따라 리워드가 주어집니다.",
                         "titleKey2": "모든 아바타 또는 NFT에 적용되나요?",
-                        "descriptionKey2": "시즌 3 컬렉션의 일부로 공개된 NFT에만 아바타 보유자 또는 NFT 컬렉터 배지 리워드가 주어집니다. 홈페이지 알파 섹션의 '마켓' 탭에서 어떤 NFT에 해당 리워드가 적용되는지 확인하세요.",
+                        "descriptionKey2": "시즌 3 컬렉션의 일부로 공개된 NFT에만 아바타 오너 또는 NFT 컬렉터 배지 리워드가 주어집니다. 홈페이지 알파 섹션의 '마켓' 탭에서 어떤 NFT에 해당 리워드가 적용되는지 확인하세요.",
                         "titleKey3": "어떻게 NFT 컬렉터 배지를 획득할 수 있나요?",
                         "descriptionKey3": "시즌 3 컬렉션 중 최소 한 개의 NFT를 보유하여 배지를 잠금 해제하고 확정 리워드를 획득할 수 있습니다.\n시즌 3 컬렉션에 포함된 모든 NFT에만 적용되며, 이외의 NFT를 보유하고 있을 경우 배지가 주어지지 않습니다. 홈페이지 알파 섹션의 '마켓' 탭에서 어떤 NFT에 해당 리워드가 적용되는지 확인하세요.",
                         "titleKey4": "리더보드는 무엇인가요?",
@@ -2677,8 +2677,8 @@
         "token": "토큰 ID",
         "minted": "민팅됨",
         "sale": "판매 중",
-        "owner": "소유자",
-        "owners": "소유자",
+        "owner": "오너",
+        "owners": "오너",
         "description": "설명",
         "allSales": "모든 상품",
         "share": {
@@ -2921,7 +2921,8 @@
             "gameMaker": "경험",
             "voxedit": "애셋",
             "avatar": "아바타",
-            "becomeAPartner": "파트너 맺기"
+            "becomeAPartner": "파트너 맺기",
+            "partnerAgencies": "Find an Agency"
         },
         "gamemaker": {
             "meta": {
@@ -3457,13 +3458,13 @@
                         "landsCount2": "개의 랜드를 보유하고 있습니다.",
                         "landsCount3": "다음의 보상을 획득하게 됩니다:",
                         "step1Title1": "수령하기:",
-                        "step1Subtitle": "보상 획득 조건을 충족했습니다. 모든 랜드 보유자는 2022년 5월 13일 기준으로 보유한 랜드 수에 따라 $SAND를 획득하게 됩니다.",
+                        "step1Subtitle": "보상 획득 조건을 충족했습니다. 모든 랜드 오너는 2022년 5월 13일 기준으로 보유한 랜드 수에 따라 $SAND를 획득하게 됩니다.",
                         "step5Title": "다음의 보상을 수령할 수 있습니다.",
-                        "step5Subtitle": "여러분에게 이 흥미로운 로드맵을 공유하게 되어 매우 기쁘게 생각합니다. 여러분은 랜드 보유자로서 미래를 건설해 나아가며, 더 샌드박스는 여러분과 함께 만들어 나갈 미래를 기대하고 있습니다!",
-                        "steps2To4Title1": "랜드 보유자",
+                        "step5Subtitle": "여러분에게 이 흥미로운 로드맵을 공유하게 되어 매우 기쁘게 생각합니다. 여러분은 랜드 오너로서 미래를 건설해 나아가며, 더 샌드박스는 여러분과 함께 만들어 나갈 미래를 기대하고 있습니다!",
+                        "steps2To4Title1": "랜드 오너",
                         "steps2To4Title2": "2022 로드맵",
-                        "steps2To4Subtitle1": "2022년 5월 13일, 랜드 보유자를 위한 최신 로드맵을 발표했습니다. 2022년에 기대할 수 있는 특전과 새로운 기능을 살펴보세요!",
-                        "steps2To4Subtitle2": "보상 획득 조건을 충족하지 못했습니다. 모든 랜드 보유자는 2022년 5월 13일 기준으로 보유한 랜드 수에 따라 $SAND를 획득하게 됩니다.",
+                        "steps2To4Subtitle1": "2022년 5월 13일, 랜드 오너를 위한 최신 로드맵을 발표했습니다. 2022년에 기대할 수 있는 특전과 새로운 기능을 살펴보세요!",
+                        "steps2To4Subtitle2": "보상 획득 조건을 충족하지 못했습니다. 모든 랜드 오너는 2022년 5월 13일 기준으로 보유한 랜드 수에 따라 $SAND를 획득하게 됩니다.",
                         "footer": "다음 보상 수령을 위해 랜드를 구입하세요!",
                         "alreadyClaimed": "이미 보상을 수령했습니다.",
                         "congrats": {
@@ -3491,8 +3492,8 @@
                             },
                             "claim": {
                                 "title": "보상 수령",
-                                "text1": "랜드 보유자를 위한 2.5M $SAND 에어드롭",
-                                "text2": "랜드 보유자를 위한 5M $SAND 에어드롭",
+                                "text1": "랜드 오너를 위한 2.5M $SAND 에어드롭",
+                                "text2": "랜드 오너를 위한 5M $SAND 에어드롭",
                                 "text3": "랜드 보유일 기준 메타버스 1,000일 기념 $SAND 보상 수령"
                             },
                             "stake": {
@@ -3500,12 +3501,12 @@
                                 "text1": "SAND-ETH 스테이킹 계수 (유니스왑)",
                                 "text2": "SAND-MATIC 스테이킹 계수 (퀵스왑)",
                                 "text3": "SAND 스테이킹 계수 (레이어 2)",
-                                "text4": "랜드 보유자 전용 $CATALYST 및 $GEM 파밍 (레이어 2)",
-                                "text5": "랜드 보유자 전용 10M $SAND 파밍 (레이어 2)"
+                                "text4": "랜드 오너 전용 $CATALYST 및 $GEM 파밍 (레이어 2)",
+                                "text5": "랜드 오너 전용 10M $SAND 파밍 (레이어 2)"
                             },
                             "buy": {
                                 "title": "구입",
-                                "text1": "20,000명 이상의 랜드 보유자가 100,000개 이상의 랜드 획득",
+                                "text1": "20,000명 이상의 랜드 오너가 100,000개 이상의 랜드 획득",
                                 "text2": "새로운 파트너",
                                 "text3": "공정하고 분산된 프로세스를 위한 추첨 및 KYC를 통한 새로운 판매 시스템",
                                 "text4": "유비소프트, 패리스 힐튼, 워너뮤직 그룹, 구찌 랜드 세일"
@@ -3531,15 +3532,15 @@
                             },
                             "meet": {
                                 "title": "소통",
-                                "text1": "다양한 브랜드 및 재능있는 랜드 보유자들과 함께 독점 IRL 이벤트 개최 /  www.nft.nyc에서 곧 찾아옵니다 ✈️",
+                                "text1": "다양한 브랜드 및 재능있는 랜드 오너들과 함께 독점 IRL 이벤트 개최 /  www.nft.nyc에서 곧 찾아옵니다 ✈️",
                                 "text2": "로컬 밋업 구성 및 자금 조달"
                             }
                         }
                     },
-                    "landOwnerBannerTitle": "랜드 보유자 수령하기",
-                    "landOwnerBannerSubtitle1": "더 샌드박스는 랜드 보유자 여러분들께 지속적인 가치를 전달드릴 것입니다.",
-                    "landOwnerBannerSubtitle2": "랜드 보유자를 위한 2022 로드맵",
-                    "landOwnerBannerSubtitle3": "랜드 보유자를 위한 SAND 에어드롭"
+                    "landOwnerBannerTitle": "랜드 오너 수령하기",
+                    "landOwnerBannerSubtitle1": "더 샌드박스는 랜드 오너 여러분들께 지속적인 가치를 전달드릴 것입니다.",
+                    "landOwnerBannerSubtitle2": "랜드 오너를 위한 2022 로드맵",
+                    "landOwnerBannerSubtitle3": "랜드 오너를 위한 SAND 에어드롭"
                 }
             },
             "changelog": "변경 내역",
@@ -3944,7 +3945,7 @@
             "text3": "랜드를 이스테이트에 결합하는 중...",
             "text4": "복셀 배치 중...",
             "text5": "샌드박스 이스테이트 위치 설정 중...",
-            "text6": "랜드 소유자의 구획 찾는 중...",
+            "text6": "랜드 오너의 랜드 찾는 중...",
             "text7": "메타버스 곳곳에 보물 숨기는 중...",
             "text8": "알고 계셨나요? 랜드를 결합하여 이스테이트를 형성하면 보다 큰 규모의 게임 경험을 만들 수 있습니다.",
             "text9": "알고 계셨나요? 더 샌드박스 내에서 게임 경험을 대여하고 판매할 수 있습니다.",
@@ -4042,7 +4043,7 @@
             "landsIncluded": "이스테이트에 포함된 랜드",
             "available": "이용 가능",
             "unavailable": "이용 불가능",
-            "owner": "소유자",
+            "owner": "오너",
             "cost": "비용",
             "location": "위치",
             "assetsOwned": "보유한 애셋",
@@ -4095,7 +4096,7 @@
                     "title": "랜드로 무엇을 할 수 있나요?",
                     "option1": "나만의 콘텐츠 만들기!",
                     "option2": "스페셜 리워드 획득",
-                    "option3": "랜드 보유자 전용 스테이킹",
+                    "option3": "랜드 오너 전용 스테이킹",
                     "option4": "내 랜드 판매",
                     "option5": "내 경험 게시 및 수익화 (2023년 예정)",
                     "option6": "랜드 임대 (2023년 예정)",
@@ -4280,7 +4281,7 @@
                 "subtitle2": "깨고 싶지 않은 꿈, 캘리포니아 드리밍!",
                 "subtitle3": "랜드 세일 화이트리스트에 포함되지 않았습니다. 경매 또는 이차 마켓에서 랜드를 구입할 수 있습니다.",
                 "notLoggedInAndResultsArePublic": "{partner} 랜드 세일 화이트리스트 명단에 내 계정이 있는지 확인하려면 로그인이 필요합니다.",
-                "boughtSubtitle": "축하합니다, 랜드 보유자가 되었습니다! 2차 마켓을 통해 더 많은 랜드를 구입할 수 있습니다.",
+                "boughtSubtitle": "축하합니다, 랜드 오너가 되었습니다! 2차 마켓을 통해 더 많은 랜드를 구입할 수 있습니다.",
                 "title": "{partner} 랜드 세일에 오신 것을 환영합니다!"
             },
             "timeline": {
@@ -4590,14 +4591,14 @@
             },
             "buy": {
                 "title": "다음을 구입합니다:",
-                "subtitle": "오픈 메타버스에서 랜드 보유자만이 누릴 수 있는 단독 혜택을 누려보세요! 이 랜드를 구입하면 다음의 혜택이 주어집니다.",
+                "subtitle": "오픈 메타버스에서 랜드 오너만이 누릴 수 있는 단독 혜택을 누려보세요! 이 랜드를 구입하면 다음의 혜택이 주어집니다.",
                 "assetsIncluded": "프리미엄 애셋 포함",
                 "points": {
                     "regular": {
                         "1": "내 경험 게시 및 수익화",
                         "2": "랜드 임대 (2023년 예정)",
                         "3": "스페셜 리워드 획득",
-                        "4": "랜드 보유자 전용 스테이킹 풀"
+                        "4": "랜드 오너 전용 스테이킹 풀"
                     },
                     "premium": {
                         "1": "모든 일반 랜드 기능 +",
@@ -4608,11 +4609,11 @@
                         "6": "한정판 NFT 번들 에어드롭"
                     },
                     "premiumTooltips": {
-                        "1": "내 경험 게시 및 수익화, 랜드 임대 (2023년 예정), 스페셜 리워드 획득, 랜드 보유자 전용 스테이킹 옵션",
+                        "1": "내 경험 게시 및 수익화, 랜드 임대 (2023년 예정), 스페셜 리워드 획득, 랜드 오너 전용 스테이킹 옵션",
                         "5": "일부 플레이 투 언 기능은 프리미엄 랜드에서 먼저 사용할 수 있게 됩니다.",
                         "6": "프리미엄 랜드를 구입한 모든 유저는 랜드 세일 종료 후 프리미엄 NFT를 에어드롭받게 됩니다."
                     },
-                    "premiumClub": "프리미엄 랜드 보유자 클럽"
+                    "premiumClub": "프리미엄 랜드 오너 클럽"
                 },
                 "notes": {
                     "notice": "* {partner} 랜드 세일에서 랜덤 위치의 {landType} 랜드 1개를 구입합니다. 위치는 트랜잭션이 완료된 후 공개됩니다.",
@@ -4892,10 +4893,10 @@
                             "2": "모든 랜드는 고유하며 대체 불가능한 이더리움의 ERC-721 토큰입니다. 전체 랜드는 166,464개로 구성되어 있습니다.",
                             "3": "메타머스에는 일반 랜드와 프리미엄 랜드가 존재합니다.",
                             "4": "일반 랜드 혜택",
-                            "5": "프리미엄 랜드 보유자는 일반 랜드 혜택에 더하여 아래 혜택이 추가로 주어집니다.",
+                            "5": "프리미엄 랜드 오너는 일반 랜드 혜택에 더하여 아래 혜택이 추가로 주어집니다.",
                             "regular": {
                                 "1": "스페셜 리워드 획득",
-                                "2": "랜드 보유자 전용 스테이킹",
+                                "2": "랜드 오너 전용 스테이킹",
                                 "3": "랜드 판매",
                                 "4": "경험 게시 및 수익화 (2023년 예정)"
                             },
@@ -6178,7 +6179,7 @@
             "bannerTitle": "수령하기",
             "bannerSubtitle1": "콘테스트에서 우승했거나 기브어웨이 당첨자라면,",
             "bannerSubtitle2": "이 페이지에서 애셋 또는 SAND를 수령할 수 있습니다.",
-            "bannerSubtitle3": "랜드 보유자를 위한 SAND 에어드롭",
+            "bannerSubtitle3": "랜드 오너를 위한 SAND 에어드롭",
             "checkButtonText": "내 보상 내역 확인하기",
             "landOwner": {
                 "lands": "{0} 랜드",
@@ -6191,12 +6192,12 @@
                 "landsCount2": "다음의 보상을 획득하게 됩니다: {0} {1} {2}",
                 "landsCount3": "다음의 보상을 획득하게 됩니다: {0} {1} {2}",
                 "step1Title1": "수령하기:",
-                "step1Subtitle": "보상 획득 조건을 충족했습니다. 모든 랜드 보유자는 2022년 5월 13일 기준으로 보유한 랜드 수에 따라 $SAND를 획득하게 됩니다.",
+                "step1Subtitle": "보상 획득 조건을 충족했습니다. 모든 랜드 오너는 2022년 5월 13일 기준으로 보유한 랜드 수에 따라 $SAND를 획득하게 됩니다.",
                 "step5Title": "다음의 보상을 수령할 수 있습니다.",
-                "step5Subtitle": "여러분에게 이 흥미로운 로드맵을 공유하게 되어 매우 기쁘게 생각합니다. 여러분은 랜드 보유자로서 미래를 건설해 나아가며, 더 샌드박스는 여러분과 함께 만들어 나갈 미래를 기대하고 있습니다!",
-                "steps2To4Title1": "랜드 보유자",
+                "step5Subtitle": "여러분에게 이 흥미로운 로드맵을 공유하게 되어 매우 기쁘게 생각합니다. 여러분은 랜드 오너로서 미래를 건설해 나아가며, 더 샌드박스는 여러분과 함께 만들어 나갈 미래를 기대하고 있습니다!",
+                "steps2To4Title1": "랜드 오너",
                 "steps2To4Title2": "2022 로드맵",
-                "steps2To4Subtitle1": "2022년 5월 13일, 랜드 보유자를 위한 최신 로드맵을 발표했습니다. 2022년에 기대할 수 있는 특전과 새로운 기능을 살펴보세요!",
+                "steps2To4Subtitle1": "2022년 5월 13일, 랜드 오너를 위한 최신 로드맵을 발표했습니다. 2022년에 기대할 수 있는 특전과 새로운 기능을 살펴보세요!",
                 "steps2To4Subtitle2": "보상 획득 조건을 충족하지 못했습니다. 모든 랜드 보유자는 2022년 5월 13일 기준으로 보유한 랜드 수에 따라 $SAND를 획득하게 됩니다.",
                 "footer": "다음 보상 수령을 위해 랜드를 구입하세요!",
                 "alreadyClaimed": "이미 보상을 수령했습니다.",
@@ -6226,8 +6227,8 @@
                     },
                     "claim": {
                         "title": "보상 수령",
-                        "text1": "랜드 보유자를 위한 2.5M $SAND 에어드롭",
-                        "text2": "랜드 보유자를 위한 5M $SAND 에어드롭",
+                        "text1": "랜드 오너를 위한 2.5M $SAND 에어드롭",
+                        "text2": "랜드 오너를 위한 5M $SAND 에어드롭",
                         "text3": "랜드 보유일 기준 메타버스 1,000일 기념 $SAND 보상 수령"
                     },
                     "stake": {
@@ -6235,12 +6236,12 @@
                         "text1": "SAND-ETH 스테이킹 계수 (유니스왑)",
                         "text2": "SAND-MATIC 스테이킹 계수 (퀵스왑)",
                         "text3": "SAND 스테이킹 계수 (레이어 2)",
-                        "text4": "랜드 보유자 전용 $CATALYST 및 $GEM 파밍 (레이어 2)",
-                        "text5": "랜드 보유자 전용 10M $SAND 파밍 (레이어 2)"
+                        "text4": "랜드 오너 전용 $CATALYST 및 $GEM 파밍 (레이어 2)",
+                        "text5": "랜드 오너 전용 10M $SAND 파밍 (레이어 2)"
                     },
                     "buy": {
                         "title": "구입",
-                        "text1": "20,000명 이상의 랜드 보유자가 100,000개 이상의 랜드 획득",
+                        "text1": "20,000명 이상의 랜드 오너가 100,000개 이상의 랜드 획득",
                         "text2": "새로운 파트너",
                         "text3": "공정하고 분산된 프로세스를 위한 추첨 및 KYC를 통한 새로운 판매 시스템",
                         "text4": "유비소프트, 패리스 힐튼, 워너뮤직 그룹, 구찌 랜드 세일"
@@ -6249,7 +6250,7 @@
                         "title": "플레이",
                         "text1": "시즌 1 : 독점 보상",
                         "text2": "시즌 2 : 추가 $SAND 획득 및 추첨 티켓",
-                        "text3": "시즌 3 : 추가 추첨 티켓, 더 많은 보상, 랜드 보유자 전용 특별 추첨, 추첨 보너스"
+                        "text3": "시즌 3 : 추가 추첨 티켓, 더 많은 보상, 랜드 오너 전용 특별 추첨, 추첨 보너스"
                     },
                     "build": {
                         "title": "건설",
@@ -6266,15 +6267,15 @@
                     },
                     "meet": {
                         "title": "소통",
-                        "text1": "다양한 브랜드 및 재능있는 랜드 보유자들과 함께 독점 IRL 이벤트 개최 /  www.nft.nyc에서 곧 찾아옵니다 ✈️",
+                        "text1": "다양한 브랜드 및 재능있는 랜드 오너들과 함께 독점 IRL 이벤트 개최 /  www.nft.nyc에서 곧 찾아옵니다 ✈️",
                         "text2": "로컬 밋업 구성 및 자금 조달"
                     }
                 }
             },
-            "landOwnerBannerTitle": "랜드 보유자 수령하기",
-            "landOwnerBannerSubtitle1": "더 샌드박스는 랜드 보유자 여러분들께 지속적인 가치를 전달드릴 것입니다.",
-            "landOwnerBannerSubtitle2": "랜드 보유자를 위한 2022 로드맵",
-            "landOwnerBannerSubtitle3": "랜드 보유자를 위한 SAND 에어드롭"
+            "landOwnerBannerTitle": "랜드 오너 수령하기",
+            "landOwnerBannerSubtitle1": "더 샌드박스는 랜드 오너 여러분들께 지속적인 가치를 전달드릴 것입니다.",
+            "landOwnerBannerSubtitle2": "랜드 오너를 위한 2022 로드맵",
+            "landOwnerBannerSubtitle3": "랜드 오너를 위한 SAND 에어드롭"
         },
         "tag-new": "NEW",
         "tagNew": "NEW",
@@ -6984,7 +6985,7 @@
             "gasless1": "마이그레이션에는 가스 수수료가 발생하지 않습니다.",
             "gasless2": "비용은 100% 무료입니다.",
             "didYouKnow": "알고 계셨나요?",
-            "sandDropTitle": "1월에 랜드 보유자를 위한 SAND 에어드롭 이벤트가 있었습니다.",
+            "sandDropTitle": "1월에 랜드 오너를 위한 SAND 에어드롭 이벤트가 있었습니다.",
             "readTheArticle": "기사 확인하기",
             "sandDropSubtitle": "받을 수 있는 SAND는",
             "checkYourWallet": "이었습니다. 폴리곤에서 지갑을 확인해 보세요.",
@@ -7504,7 +7505,7 @@
         "modalLottery": {
             "cannotPreRegister": {
                 "title": "알파 등록",
-                "mustLandOwn": "랜드 소유자만 알파 추첨에 등록할 수 있습니다.",
+                "mustLandOwn": "랜드 오너만 알파 추첨에 등록할 수 있습니다.",
                 "mustLandOwn2": "걱정하지 마세요. 알파는 누구나 이용할 수 있습니다. 단, 알파 패스가 없으면 일부 경험 이용이 제한됩니다.",
                 "learnMore": "알파 자세히 알아보기",
                 "buyLand": "랜드 구매",
@@ -8050,10 +8051,10 @@
             },
             "sandPerLand": {
                 "title": "스테이킹 제한",
-                "dedication": "해당 풀은 랜드 보유자 전용입니다.",
+                "dedication": "해당 풀은 랜드 오너 전용입니다.",
                 "each": "폴리곤 체인으로 설정한 지갑 안에 있는 랜드당 최대 {0}까지 스테이킹할 수 있습니다.",
                 "landMore": "더 많이 스테이킹하시겠습니까? {0}",
-                "landNot": "아직 랜드를 보유하고 있지 않은가요? {0}",
+                "landNot": "아직 랜드가 없다면? {0}",
                 "buyLink": "랜드를 구매하세요!",
                 "updateContributionTooltip": "랜드 잔고가 변경되었습니다. 내역은 곧 업데이트 될 예정이며, {0} 업데이트할 수 있습니다.",
                 "manually": "수동으로",
@@ -8381,7 +8382,7 @@
                             "sand": "1,000 SAND",
                             "nft": "+ 3개의 NFT를 받을 수 있습니다.",
                             "subtitle2": "알파 패스는 단 5,000개만 생성되어 커뮤니티에 제공됩니다.",
-                            "4": "랜드 소유자는 추첨에 등록하여 알파 패스를 받을 기회를 잡을 수 있습니다.",
+                            "4": "랜드 오너는 추첨에 등록하여 알파 패스를 받을 기회를 잡을 수 있습니다.",
                             "5": "일일 대회:",
                             "6": "Twitter, Twitch, YouTube의 공식 소셜 미디어 채널에서 진행되는 일일 소셜 콘테스트에 참여하세요. 누구나 알파 패스를 획득할 기회를 잡을 수 있습니다!",
                             "7": "더 샌드박스 소식과",
@@ -8781,7 +8782,7 @@
         },
         "welcomeUponUs": {
             "howTo": "참여 방법",
-            "text1": "- 랜드 소유자는 1,000개의 시즌 패스 NFT 중 하나를 받을 수 있는 추첨에 등록할 수 있습니다.",
+            "text1": "- 랜드 오너는 1,000개의 시즌 패스 NFT 중 하나를 받을 수 있는 추첨에 등록할 수 있습니다.",
             "text2": "- 당첨자가 시즌 패스를 판매하면 누구나 OpenSea에서 구매할 수 있습니다.",
             "text3": "- 시즌 패스를 소유한 사람이면 누구나 참여 가능합니다.",
             "whatDo": "할 수 있는 일",
@@ -8795,7 +8796,7 @@
         },
         "cannotPreRegister": {
             "title": "알파 등록",
-            "mustLandOwn": "랜드 소유자만 비공개 알파에 등록할 수 있습니다.",
+            "mustLandOwn": "랜드 오너만 비공개 알파에 등록할 수 있습니다.",
             "mustLandOwn2": "걱정하지 마세요. 곧 누구나 메타버스를 이용할 수 있게 됩니다.",
             "learnMore": "알파 자세히 알아보기"
         },
@@ -8848,7 +8849,7 @@
             "claim-action": "지금 받기",
             "SmurfGiveaway": {
                 "title": "더 샌드박스와 스머프",
-                "desc": "초창기부터 더 샌드박스를 발전시키는 데 도움을 주신 여러분께 보답하고자 모든 랜드 소유자에게 스머프(Smurf) NFT를 하나씩 드립니다."
+                "desc": "초창기부터 더 샌드박스를 발전시키는 데 도움을 주신 여러분께 보답하고자 모든 랜드 오너에게 스머프(Smurf) NFT를 하나씩 드립니다."
             },
             "GildedGiveaway": {
                 "title": "SAND 스테이킹 리워드입니다!",
@@ -9026,7 +9027,7 @@
             "11": {
                 "title": "더 도기즈를 소유하면 혜택이 있나요?",
                 "paragraphs": {
-                    "1": "더 도기즈 소유자 몇 명을 선정하여 앞으로 공개될 스눕의 뮤직비디오에 아바타를 출연시킬 기회를 드립니다. 스눕의 역사에 길이 남을 춤을 선보일 기회입니다."
+                    "1": "더 도기즈 NFT 오너 몇 명을 선정하여 앞으로 공개될 스눕의 뮤직비디오에 아바타를 출연시킬 기회를 드립니다. 스눕의 역사에 길이 남을 춤을 선보일 기회입니다."
                 }
             },
             "12": {
@@ -12730,7 +12731,7 @@
             "title": "외부 컬렉션 살펴보기",
             "description": "메타버스에서 사용할 수 있는 외부 컬렉션을 찾아보세요",
             "info": "컬렉션 정보",
-            "owners": "소유자",
+            "owners": "오너",
             "assets": "애셋",
             "link": "공개 링크",
             "created": "크리에이터:",
@@ -12902,7 +12903,7 @@
             "creatorCannontBeDeleted": "워크스페이스 생성자는 삭제할 수 없습니다.",
             "numberOfMembers": "{count}명의 멤버 | {count}명의 멤버",
             "searchField": "이름 또는 이메일로 검색",
-            "ownerWorkspace": "소유자",
+            "ownerWorkspace": "오너",
             "filter": {
                 "all": "전체",
                 "admin": "관리자",
@@ -13239,7 +13240,7 @@
                 "mint": "민팅",
                 "catalyst": "카탈리스트",
                 "gems": "젬",
-                "owner": "소유자",
+                "owner": "오너",
                 "viewHistory": "내역 확인하기",
                 "updatedOk": "애셋이 올바르게 업데이트 되었습니다",
                 "ban": "애셋 차단",
@@ -13478,7 +13479,7 @@
         "POC_LANDING_FAQ_WHERE_CAN_I_BUY_TITLE": "첫 세일 종료 이후에는 어디서 아바타를 구매할 수 있나요?",
         "POC_LANDING_FAQ_WHERE_CAN_I_BUY_DESCRIPTION": "최초 판매가 종료되면, 오픈시(OpenSea) 등의 2차 마켓에서 보유한 아바타를 판매하려는 유저들로부터 아바타를 구매할 수 있습니다.",
         "POC_LANDING_FAQ_HOW_DO_I_GET_WHITELISTED_TITLE": "웰컴리스트 목록에 어떻게 등록할 수 있나요?",
-        "POC_LANDING_FAQ_HOW_DO_I_GET_WHITELISTED_DESCRIPTION": "아래 목록의 NFT 중 하나를 보유하고 있을 경우, 민팅 시작 24시간 전 POC 아바타를 먼저 민팅할 기회가 주어집니다. \n- 스눕 독 도기즈(Snoop Dogg Doggies) 아바타\n- 럼블 콩 리그(Rumble Kong League)\n- 랜드 보유자\n위 NFT 중 어느 것도 보유하고 있지 않을 경우, peopleofcrypto.io를 방문하세요.\n트위터 콘테스트에 참여하여 당첨되면 NFT 얼리 액세스 민팅 기회를 획득할 수 있습니다.",
+        "POC_LANDING_FAQ_HOW_DO_I_GET_WHITELISTED_DESCRIPTION": "아래 목록의 NFT 중 하나를 보유하고 있을 경우, 민팅 시작 24시간 전 POC 아바타를 먼저 민팅할 기회가 주어집니다. \n- 스눕 독 도기즈(Snoop Dogg Doggies) 아바타\n- 럼블 콩 리그(Rumble Kong League)\n- 랜드 오너\n위 NFT 중 어느 것도 보유하고 있지 않을 경우, peopleofcrypto.io를 방문하세요.\n트위터 콘테스트에 참여하여 당첨되면 NFT 얼리 액세스 민팅 기회를 획득할 수 있습니다.",
         "POC_LANDING_FAQ_HOW_DO_I_KNOW_IF_TITLE": "내가 웰컴리스트에 등록되었는지 어떻게 알 수 있나요?",
         "POC_LANDING_FAQ_HOW_DO_I_KNOW_IF_DESCRIPTION": "위 NFT 컬렉션 중 하나를 보유하고 있다면 웰컴리스트에 등록된 지갑에 해당 NFT를 보유하고 민팅 페이지에 연결하여 민팅의 기회를 획득할 수 있습니다.",
         "POC_LANDING_FAQ_HOW_MANY_MINT_AS_WHITELISTED_TITLE": "웰컴리스트 유저는 몇 개의 POC 아바타를 민팅할 수 있나요?",
@@ -13666,7 +13667,7 @@
         "STEVE_AOKI_LANDING_MINT_AVATAR_DESCRIPTION_SOLD_OUT": "아오키 아바타가 모두 매진되었습니다! 오픈시(OpenSea)에서 판매 중인 아오키 아바타가 있는지 확인해 보세요.",
         "STEVE_AOKI_LANDING_MINT_AVATAR_BUTTON_GO_TO_OPENSEA": "OpenSea로 이동하기",
         "STEVE_AOKI_RAFFLE_HOW_TO_MINT_MINT_NOW_TITLE": "지금 민팅하기",
-        "STEVE_AOKI_RAFFLE_HOW_TO_MINT_MINT_NOW_SUBTITLE": "더 샌드박스 화이트리스트 - 랜드 보유자, 도기즈 및 POC 아바타 보유자"
+        "STEVE_AOKI_RAFFLE_HOW_TO_MINT_MINT_NOW_SUBTITLE": "더 샌드박스 화이트리스트 - 랜드 오너, 도기즈 및 POC 아바타 오너"
     },
     "partners": {
         "meta": {
@@ -13861,7 +13862,7 @@
             "description": "더 샌드박스가 자랑하는 상호운용 아바타 컬렉션을 만나보세요. NFT를 구매하고 특별한 아바타를 획득하여 메타버스를 탐험하세요. 더 많은 컬렉션이 더 샌드박스를 찾아올 예정이니 기대해 주세요!",
             "description2": " 지갑을 연결하여 외부 아바타를 소유하고 있는지 확인하십시오.",
             "info": "컬렉션 정보",
-            "owners": "보유자",
+            "owners": "오너",
             "assets": "애셋",
             "link": "공개 링크",
             "created": "크리에이터:",
@@ -14223,7 +14224,8 @@
         "linkSeasonsGreetingsRules": "시즌 그리팅 공식 규정",
         "linkMetaGreenRules": "메타그린 공식 규정",
         "linkSMCUPalaceRules": "SMCU 팰리스 공식 규정",
-        "linkCarrefourRules": "까르푸 공식 규정"
+        "linkCarrefourRules": "까르푸 공식 규정",
+        "linkLunarNewYear": "Lunar New Year official rules"
     },
     "changelogVoxedit": {
         "2022": {
@@ -14792,5 +14794,139 @@
         "transactionsSales": "트랜잭션 / 판매",
         "items": "아이템",
         "asset": "애셋"
+    },
+    "builders": {
+        "sliderSection": {
+            "slide1": {
+                "title": "BUILD YOUR BRAND IN THE OPEN METAVERSE",
+                "description": "Looking to take your metaverse strategy to the next level? We are here to help you fill your specific needs."
+            },
+            "slide2": {
+                "title": "WORK WITH THE SANDBOX' AGENCY PARTNERS",
+                "description": "Agency Partners are recognized for the quality of their work, the diverse range of industry expertise and technical knowledge."
+            },
+            "slide3": {
+                "title": "PARTNERS PROGRAM IS SPECIAL",
+                "description": "We support 200+ agencies around the globe, with dedicated training and resources to help you get the expertise you need."
+            },
+            "button": "Find Agency Partners"
+        },
+        "findPartner": "Find Agency Partners",
+        "expertSection": {
+            "title": "Work with the experts in the Metaverse",
+            "partnerText1": {
+                "title": "Who works with Agency Partners?",
+                "text": "All sizes and types of brands and IPs work with our Agency Partners, from artists and celebrities to fashion brands and institutions. When you join The Sandbox, you also join Snoop Dogg, Gucci, Ubisoft, and more than 400 other brands, where entertainment and culture meet the next generation of the creators."
+            },
+            "partnerText2": {
+                "title": "How do I work with The Sandbox' Agency Partners?",
+                "text": "If you have industry-specific challenges or are new to the metaverse, don’t worry! See which Agency Partners meet your needs and contact them, all in our Agency Partners directory."
+            }
+        },
+        "servicesSection": {
+            "title": "Discover our Agency Partners’ services",
+            "description": "Agency Partners have a diverse range of industry expertise and technical knowledge in The Sandbox ecosystem. They qualify for specific criteria recognizing the quality of work.",
+            "service0": {
+                "title": {
+                    "main": "Strategy ",
+                    "secondary": "(web3 & metaverse)"
+                },
+                "description": "Define your web3 strategy from gaming experience concept, NFT sales, events creation to brand activations, aligned with your marketing & business objectives"
+            },
+            "service1": {
+                "title": {
+                    "main": "LAND purchase",
+                    "secondary": ""
+                },
+                "description": "Help you buy, rent or sell LANDS, providing easier access to the Metaverse"
+            },
+            "service2": {
+                "title": {
+                    "main": "Creation ",
+                    "secondary": "(avatar & assets)"
+                },
+                "description": "Design your avatars and assets needed for your experience in The Sandbox"
+            },
+            "service3": {
+                "title": {
+                    "main": "Production ",
+                    "secondary": "(experiences & games)"
+                },
+                "description": "Build your gaming experience based on narrative design, level design and artist expertise"
+            },
+            "service4": {
+                "title": {
+                    "main": "Sales ",
+                    "secondary": "(avatar & assets)"
+                },
+                "description": "Sell and manage your avatar collection, equipments, tickets, and other NFTs on The Sandbox marketplace"
+            },
+            "service5": {
+                "title": {
+                    "main": "Activation ",
+                    "secondary": "(community & brand)"
+                },
+                "description": "Manage your social channels (Discord, Twitter, etc.) to develop your community, create events in The Sandbox (gamejam, rewards, giveaways, etc.) to drive visits on your experience and IRL (discount, phygital, events, etc.)"
+            }
+        },
+        "directory": {
+            "title": "FIND AN AGENCY PARTNER",
+            "description": "Find the right Agency Partner to imagine, produce and activate your Metaverse strategy in The Sandbox.",
+            "secondDesc": "Our Agency Partners directory is provided for reference only, and businesses should conduct their own due diligence of the company they choose to work with.",
+            "noResults": "There are no results for this search"
+        },
+        "filterBar": {
+            "title": "FILTERS",
+            "clear": "CLEAR ALL",
+            "applyFilter": "Apply Filters",
+            "services": {
+                "title": "Agency Partners Services",
+                "web3Strategy": "Web3 Strategy",
+                "landPurchase": "Land Purchase",
+                "assetCreation": "Asset Creation",
+                "experienceProduction": "Experience Production",
+                "assetSales": "Asset Sales",
+                "communityActivation": "Community Activation"
+            },
+            "industry": {
+                "title": "Industry",
+                "gaming": "Gaming"
+            },
+            "countries": {
+                "title": "Countries & Region",
+                "uruguay": "Uruguay",
+                "argentina": "Argentina",
+                "australia": "Australia",
+                "unitedStates": "United States"
+            },
+            "languages": {
+                "title": "Languages",
+                "english": "English"
+            }
+        },
+        "partnerDescription": {
+            "language": "Language: ",
+            "services": "Services: ",
+            "industry": "Industry: ",
+            "showMore": "Show more",
+            "showLess": "Show less",
+            "exampleOfWork": "Example of Work",
+            "contactInfo": "Contact Info",
+            "linkCopied": "Link copied to clipboard",
+            "form": {
+                "nameLabel": "Name",
+                "namePlaceholder": "Enter your name",
+                "emailLabel": "Email",
+                "emailPlaceholder": "Enter your email",
+                "companyNameLabel": "Name of the Company",
+                "companyNamePlaceholder": "Enter your company name",
+                "messageLabel": "Message",
+                "messagePlaceholder": "Hello,\n\n I would be interested in getting in touch with you to talk about a project.\n\n Thank you,\n Bests!",
+                "requiredInputError": "This field must be completed.",
+                "emailInputError": "It must be a valid email.",
+                "button": "Contact",
+                "successfulMessage": "Message successfully sent! The Agency Partner will contact you soon."
+            }
+        }
     }
 }
