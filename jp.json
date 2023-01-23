@@ -2921,7 +2921,8 @@
             "gameMaker": "Experiences",
             "voxedit": "Assets",
             "avatar": "アバター",
-            "becomeAPartner": "Become a Partner"
+            "becomeAPartner": "Become a Partner",
+            "partnerAgencies": "Find an Agency"
         },
         "gamemaker": {
             "meta": {
@@ -7965,7 +7966,7 @@
             "noTxsLeft": "No transactions left",
             "txsLeft": "transactions left",
             "payGasWith": "Pay gas with:",
-            "estimatedGas": "Estimated gas cost",
+            "estimatedGas": "推定のガス代",
             "polygonNetwork": "Polygon",
             "ethereumNetwork": "Ethereum",
             "action-desc-deposit-single": "より多くのSANDを獲得するには",
@@ -9111,7 +9112,7 @@
         "nftOnEth": "NFT's on Ethereum Mainnet",
         "nftOnPolygon": "Polygon Mainnet上のNFT",
         "banner": {
-            "title": "The Sandbox Bridge",
+            "title": "The Sandbox ブリッジ",
             "subtitleDeposit1": "Ethereum（L1）とPolygon（L2）の間でSANDとLANDをブリッジしよう",
             "subtitleDeposit2": "LANDのブリッジはPolygon利用初回時にSANDキャッシュバックを実施します",
             "subtitleWithdraw": ": Transfer your assets to Ethereum",
@@ -9214,7 +9215,7 @@
             "viewEth": "View on Etherscan",
             "viewPol": "Polygonscanで表示する",
             "back": "Back to the Bridge",
-            "confirm": "Confirm",
+            "confirm": "確認",
             "deposit": "DEPOSIT",
             "withdraw": "WITHDRAW",
             "stages": {
@@ -9222,7 +9223,7 @@
                     "deposit": {
                         "headerTitle": "Select amount to deposit",
                         "headerSubTitle": "Polygonに転送するSANDの金額を選択してください。",
-                        "footerTitle": "Reminder",
+                        "footerTitle": "ご注意",
                         "footerText": [
                             "PolygonはPoSネットワークであり、トークンは2つのステップを経てPolygonネットワークに送信されます。",
                             "最初の取引にサインインした後ネットワークを同期させるのに約30分かかります。"
@@ -9230,20 +9231,20 @@
                         "button": "Start Deposit"
                     },
                     "withdraw": {
-                        "headerTitle": "Select amount to withdraw",
-                        "headerSubTitle": "Please select a SAND amount to transfer to Ethereum.",
+                        "headerTitle": "ブリッジする数量を選択",
+                        "headerSubTitle": "ETHチェーンに転送する$SANDの数量を選択してください。",
                         "footerText": [
-                            "Your tokens will be sent back to the Ethereum network in two steps.",
-                            "After signing the first transaction you will have to wait - 3-4 hours for the networks to synchronize.",
-                            "Then you will be asked to sign a second transaction."
+                            "あなたのトークンは２ステップでEthereumネットワークに送られます。",
+                            "サイン後の最初のトランザクションでは３~４時間ネットワークの同期のためお待ちいただく可能性があります。",
+                            "その後2度目のトランザクションのサインをお願いします。"
                         ],
                         "button": "Start Withdrawal"
                     }
                 },
                 "confirm": {
-                    "headerTitle": "Review transaction",
-                    "headerSubTitle": "Please review the transaction details.",
-                    "footerTitle": "Estimated Gass Fee",
+                    "headerTitle": "トランザクションの確認",
+                    "headerSubTitle": "トランザクションの詳細のご確認ください",
+                    "footerTitle": "推定のガス代",
                     "feePol": "Polygon Fee",
                     "feeEth": "Ethereum Fee"
                 },
@@ -10781,7 +10782,7 @@
         },
         "assetsQuantity": "ASSET",
         "landsQuantity": "LAND",
-        "withdrawsDisabled": "LAND transfers to Ethereum are temporarly paused.",
+        "withdrawsDisabled": "LANDのEthereumチェーンへの転送は一時的に中止しております。",
         "bridgeItemslabels": {
             "inProgress": "In Progress",
             "checkpointed": "Action Required"
@@ -14226,7 +14227,8 @@
         "linkSeasonsGreetingsRules": "Season's greetings! official rules",
         "linkMetaGreenRules": "Metagreen official rules",
         "linkSMCUPalaceRules": "SMCU Palace official rules",
-        "linkCarrefourRules": "Carrefour official rules"
+        "linkCarrefourRules": "Carrefour official rules",
+        "linkLunarNewYear": "Lunar New Year official rules"
     },
     "changelogVoxedit": {
         "2022": {
@@ -14796,5 +14798,139 @@
         "transactionsSales": "取引 / 売上",
         "items": "アイテム",
         "asset": "アセット"
+    },
+    "builders": {
+        "sliderSection": {
+            "slide1": {
+                "title": "BUILD YOUR BRAND IN THE OPEN METAVERSE",
+                "description": "Looking to take your metaverse strategy to the next level? We are here to help you fill your specific needs."
+            },
+            "slide2": {
+                "title": "WORK WITH THE SANDBOX' AGENCY PARTNERS",
+                "description": "Agency Partners are recognized for the quality of their work, the diverse range of industry expertise and technical knowledge."
+            },
+            "slide3": {
+                "title": "PARTNERS PROGRAM IS SPECIAL",
+                "description": "We support 200+ agencies around the globe, with dedicated training and resources to help you get the expertise you need."
+            },
+            "button": "Find Agency Partners"
+        },
+        "findPartner": "Find Agency Partners",
+        "expertSection": {
+            "title": "Work with the experts in the Metaverse",
+            "partnerText1": {
+                "title": "Who works with Agency Partners?",
+                "text": "All sizes and types of brands and IPs work with our Agency Partners, from artists and celebrities to fashion brands and institutions. When you join The Sandbox, you also join Snoop Dogg, Gucci, Ubisoft, and more than 400 other brands, where entertainment and culture meet the next generation of the creators."
+            },
+            "partnerText2": {
+                "title": "How do I work with The Sandbox' Agency Partners?",
+                "text": "If you have industry-specific challenges or are new to the metaverse, don’t worry! See which Agency Partners meet your needs and contact them, all in our Agency Partners directory."
+            }
+        },
+        "servicesSection": {
+            "title": "Discover our Agency Partners’ services",
+            "description": "Agency Partners have a diverse range of industry expertise and technical knowledge in The Sandbox ecosystem. They qualify for specific criteria recognizing the quality of work.",
+            "service0": {
+                "title": {
+                    "main": "Strategy ",
+                    "secondary": "(web3 & metaverse)"
+                },
+                "description": "Define your web3 strategy from gaming experience concept, NFT sales, events creation to brand activations, aligned with your marketing & business objectives"
+            },
+            "service1": {
+                "title": {
+                    "main": "LAND purchase",
+                    "secondary": ""
+                },
+                "description": "Help you buy, rent or sell LANDS, providing easier access to the Metaverse"
+            },
+            "service2": {
+                "title": {
+                    "main": "Creation ",
+                    "secondary": "(avatar & assets)"
+                },
+                "description": "Design your avatars and assets needed for your experience in The Sandbox"
+            },
+            "service3": {
+                "title": {
+                    "main": "Production ",
+                    "secondary": "(experiences & games)"
+                },
+                "description": "Build your gaming experience based on narrative design, level design and artist expertise"
+            },
+            "service4": {
+                "title": {
+                    "main": "Sales ",
+                    "secondary": "(avatar & assets)"
+                },
+                "description": "Sell and manage your avatar collection, equipments, tickets, and other NFTs on The Sandbox marketplace"
+            },
+            "service5": {
+                "title": {
+                    "main": "Activation ",
+                    "secondary": "(community & brand)"
+                },
+                "description": "Manage your social channels (Discord, Twitter, etc.) to develop your community, create events in The Sandbox (gamejam, rewards, giveaways, etc.) to drive visits on your experience and IRL (discount, phygital, events, etc.)"
+            }
+        },
+        "directory": {
+            "title": "FIND AN AGENCY PARTNER",
+            "description": "Find the right Agency Partner to imagine, produce and activate your Metaverse strategy in The Sandbox.",
+            "secondDesc": "Our Agency Partners directory is provided for reference only, and businesses should conduct their own due diligence of the company they choose to work with.",
+            "noResults": "There are no results for this search"
+        },
+        "filterBar": {
+            "title": "FILTERS",
+            "clear": "CLEAR ALL",
+            "applyFilter": "Apply Filters",
+            "services": {
+                "title": "Agency Partners Services",
+                "web3Strategy": "Web3 Strategy",
+                "landPurchase": "Land Purchase",
+                "assetCreation": "Asset Creation",
+                "experienceProduction": "Experience Production",
+                "assetSales": "Asset Sales",
+                "communityActivation": "Community Activation"
+            },
+            "industry": {
+                "title": "Industry",
+                "gaming": "Gaming"
+            },
+            "countries": {
+                "title": "Countries & Region",
+                "uruguay": "Uruguay",
+                "argentina": "Argentina",
+                "australia": "Australia",
+                "unitedStates": "United States"
+            },
+            "languages": {
+                "title": "Languages",
+                "english": "English"
+            }
+        },
+        "partnerDescription": {
+            "language": "Language: ",
+            "services": "Services: ",
+            "industry": "Industry: ",
+            "showMore": "Show more",
+            "showLess": "Show less",
+            "exampleOfWork": "Example of Work",
+            "contactInfo": "Contact Info",
+            "linkCopied": "Link copied to clipboard",
+            "form": {
+                "nameLabel": "Name",
+                "namePlaceholder": "Enter your name",
+                "emailLabel": "Email",
+                "emailPlaceholder": "Enter your email",
+                "companyNameLabel": "Name of the Company",
+                "companyNamePlaceholder": "Enter your company name",
+                "messageLabel": "Message",
+                "messagePlaceholder": "Hello,\n\n I would be interested in getting in touch with you to talk about a project.\n\n Thank you,\n Bests!",
+                "requiredInputError": "This field must be completed.",
+                "emailInputError": "It must be a valid email.",
+                "button": "Contact",
+                "successfulMessage": "Message successfully sent! The Agency Partner will contact you soon."
+            }
+        }
     }
 }
