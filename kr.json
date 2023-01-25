@@ -2506,7 +2506,9 @@
         "collections": {
             "title": "NFT 컬렉션",
             "sandbox": "더 샌드박스",
-            "featured": "추천"
+            "featured": "추천",
+            "collectionFilter": "Collection Filters",
+            "collections": "Collections"
         },
         "nftTypes": {
             "title": "NFT 유형",
@@ -2643,7 +2645,13 @@
             "arts": "아트",
             "equipment": "장비",
             "searchresult": "검색 결과",
-            "allAssets": "모든 애셋"
+            "allAssets": "모든 애셋",
+            "allAssetsFilters": "All Assets Filters",
+            "entityFilters": "Entity Filters",
+            "equipmentFilters": "Equipment Filters",
+            "artFilters": "Art Filters",
+            "landFilters": "LAND Filters",
+            "avatarsFilters": "Avatars Filters"
         },
         "sorts": {
             "title": "정렬 기준",
@@ -2894,7 +2902,8 @@
             "chain": "체인",
             "quantity": "수량",
             "price": "가격"
-        }
+        },
+        "name": "Name"
     },
     "create": {
         "meta": {
@@ -14820,7 +14829,7 @@
             },
             "partnerText2": {
                 "title": "어떻게 더 샌드박스 에이전시 파트너와 함께 일할 수 있나요?",
-                "text": "산업 특정 문제에 부딪혔거나 메타버스를 처음 접했더라도 걱정하지 마세요! 에이전시 파트너 목록에서 도움을 받을 수 있는 에이전시를 확인하고 연락해 보세요."
+                "text": "산업 내 특정 문제에 부딪혔거나 메타버스를 처음 접했더라도 걱정하지 마세요! 에이전시 파트너 목록에서 도움을 받을 수 있는 에이전시를 확인하고 연락해 보세요."
             }
         },
         "servicesSection": {
@@ -14928,5 +14937,21 @@
                 "successfulMessage": "성공적으로 메시지를 전송했습니다! 에이전시 파트너사에서 곧 연락이 올 예정입니다."
             }
         }
+    },
+    "entities": {
+        "title": "Explore Entities",
+        "subtitle": "Discover Entities and start creating unique Experiences in the Metaverse."
+    },
+    "equipments": {
+        "title": "Explore Equipments",
+        "subtitle": "Discover Equipments and start creating unique Experiences in the Metaverse."
+    },
+    "assetsPage": {
+        "title": "Explore All Assets",
+        "subtitle": "Discover Assets and start creating unique Experiences in the Metaverse."
+    },
+    "lands": {
+        "title": "Explore Land & Estates",
+        "subtitle": "Discover Land & Estates and start creating unique Experiences in the Metaverse."
     }
 }
