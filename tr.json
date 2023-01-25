@@ -625,6 +625,11 @@
             "btn2": "Create free avatar",
             "btn1SecondLabel": "Buy Now",
             "soldOutTag": "SOLD OUT"
+        },
+        "avatarBanner": {
+            "title": "PLAY WITH YOUR OWN AVATAR",
+            "description": "Take your profile pic to the next level. Now you can choose your favorite Avatar to explore The Sandbox Metaverse.",
+            "btn": "Create free avatar"
         }
     },
     "season": {
@@ -12668,6 +12673,830 @@
                             "1": {
                                 "title": "Optimize Edilmiş Boyut: ",
                                 "subtitle": "Yükleyiciyi daha hafif hale getirmek için dosyalar yapıdan çıkarıldı."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "2023": {
+            "1": {
+                "date": "January 23, 2023 - Game Maker 0.8.0 changelog",
+                "title": "Upgrading to v0.8",
+                "list": {
+                    "0": {
+                        "title": "Read Before",
+                        "list": {
+                            "0": {
+                                "title": "Many behaviors now appear with the [MP/SP] prefix in the selection window. This means the behavior was (re) made under the new MP compatible solution. "
+                            },
+                            "1": {
+                                "title": "Only [SP] and Legacy behaviors can interact with the rules/quest system."
+                            },
+                            "2": {
+                                "title": "When opening a 0.7 save file, the ported behaviors will be automatically upgraded to the new version while keeping the same configuration. They should work as closely as possible to the legacy version, and the idea is to minimize the impact of this upgrade as much as possible."
+                            },
+                            "3": {
+                                "title": "If you save an experience with new behaviors on a 0.8 build, you won’t be able to open it again in 0.7."
+                            },
+                            "4": {
+                                "title": "“Alternative” functionalities (different from the ones each behavior was originally designed for) shouldn’t be considered features and won’t be necessarily maintained in the new versions."
+                            },
+                            "5": {
+                                "title": "Support and bug fixing won’t be provided to the legacy versions of behaviors that have been ported. Only will be provided to the new versions, and to the legacy behaviors that aren’t ported on 0.8."
+                            }
+                        }
+                    },
+                    "1": {
+                        "title": "Behaviors SP/MP Split",
+                        "subtitle": "The SP/MP split only affects **Multiplayer** experiences. Single-player experiences shouldn’t get affected by the distinction, although is always encouraged to be thoughtful and consistent at the moment of selecting a network type for behaviors. In the behavior/component selection window there’s a new “Type” dropdown that allows for selection of:",
+                        "list": {
+                            "0": {
+                                "title": "[SP] behaviors can work “locally”: Affects each player individually in multiplayer experiences. It’s main purpose is to allow communication with the Game Objectives in MP. The state of the actor will be independent for each player."
+                            },
+                            "1": {
+                                "title": "[MP] behaviors work “globally”: Every message exchanged between actors happens for all the players. All players will see other actors in the same state."
+                            },
+                            "2": {
+                                "title": "The following are some considerations and highlights from the behaviors SP/MP split documentation. It’s encouraged that everyone reads the full extent of the documentation if possible. "
+                            }
+                        }
+                    },
+                    "2": {
+                        "title": "Migration and Upgrade",
+                        "list": {
+                            "0": {
+                                "title": "Opening an experience from an v0.7.x version in GC or GM Gallery will keep the legacy BEH/COM. The experience should work the same as 0.7.x."
+                            },
+                            "1": {
+                                "title": "Opening an experience from an v0.7.x version in GM Editor will upgrade each BEH/COM version to their respective [SP] version. If the behavior doesn’t have a [SP] version they will be upgraded to the [MP] version."
+                            },
+                            "2": {
+                                "title": "IMPORTANT: This can result in mixed bag [SP]+[MP] situations for some actors, which isn’t allowed and needs to be manually fixed by the creators."
+                            },
+                            "3": {
+                                "title": "Opening an experience from an previous internal v0.8.x version in either GM or GC will upgrade each BEH/COM version to their respective [MP] version."
+                            },
+                            "4": {
+                                "title": "v0.9.x versions will not be able to open experiences older than v0.7.x"
+                            }
+                        }
+                    },
+                    "3": {
+                        "title": "Single-Player vs Multiplayer",
+                        "subtitle": "There are considerations to be aware of before start creating experiences with the new behaviors, specially in a MP environment. The list of behaviors below contains all the ones that were re-implemented. All of those new implementations are [MP] compatible, but there also some [SP] versions as well. Any legacy behavior outside that list still works with the legacy SP-only architecture."
+                    },
+                    "4": {
+                        "title": "Single Player Experiences",
+                        "subtitle": "This includes GM Editor + GC Single Player + Gallery Single Player",
+                        "list": {
+                            "0": {
+                                "title": "Both new and legacy behaviors should be able to co-exist."
+                            },
+                            "1": {
+                                "title": "There are no communication restrictions:"
+                            },
+                            "2": {
+                                "title": "Messages could be sent from [SP] behaviors to [MP] behaviors and vice versa."
+                            },
+                            "3": {
+                                "title": "Messages could be sent from legacy behaviors to new behaviors and vice versa."
+                            },
+                            "4": {
+                                "title": "New and legacy behaviors can communicate with the game objectives."
+                            },
+                            "5": {
+                                "title": "The new “toggle” component should be able to pause legacy and new behaviors."
+                            }
+                        }
+                    },
+                    "5": {
+                        "title": "Multiplayer Experiences",
+                        "subtitle": "This includes GC Multi Player + Gallery Multi Player",
+                        "list": {
+                            "0": {
+                                "title": "AVOID using legacy behaviors in MP experiences."
+                            },
+                            "1": {
+                                "title": "[SP] can only communicate with [SP] behaviors and game objectives."
+                            },
+                            "2": {
+                                "title": "[MP] can only communicate with [MP] behaviors."
+                            },
+                            "3": {
+                                "title": "Every [SP] behavior works “locally”."
+                            },
+                            "4": {
+                                "title": "Every [MP] behavior works “globally”."
+                            }
+                        }
+                    },
+                    "6": {
+                        "title": "Logic Actors",
+                        "subtitle": "Logic actors are a new feature to allow the creation of gameplay without the need for asset placement in the world. The actor presented with a placeholder model will be completely invisible during play mode. To make more efficient experiences and boost performance as a result, is encouraged each time an asset is solely functional as a “gameplay gear” and doesn’t need any mesh presentation, use a logic actor. There are a number of options already loaded in the library to allow quick logic placement with some of the new common use cases."
+                    },
+                    "7": {
+                        "title": "3C"
+                    },
+                    "8": {
+                        "title": "Swimming",
+                        "list": {
+                            "0": {
+                                "title": "When the avatar enters any liquid, it will start to swim."
+                            },
+                            "1": {
+                                "title": "This new behavior is disabled by default on already existing experiences."
+                            },
+                            "2": {
+                                "title": "This new behavior will be enabled by default on new experiences created with the 0.8 version."
+                            },
+                            "4": {
+                                "title": "There is a toggle switch at Global Parameters/Controller/Behaviour at the end of the list of field."
+                            },
+                            "5": {
+                                "title": "The toggle switch allows the creator to switch swimming on or off."
+                            }
+                        }
+                    },
+                    "9": {
+                        "title": "Crouching",
+                        "list": {
+                            "0": {
+                                "title": "Tapping the C key will make the avatar crouch."
+                            },
+                            "1": {
+                                "title": "Using this movement, the avatar can enter new places with a lower ceiling."
+                            }
+                        }
+                    },
+                    "10": {
+                        "title": "Crawling",
+                        "list": {
+                            "0": {
+                                "title": "Holding the C key down will make the avatar crawl on the ground."
+                            },
+                            "1": {
+                                "title": "This movement, while slow, enables the avatar to go through smaller openings."
+                            }
+                        }
+                    },
+                    "11": {
+                        "title": "Slide",
+                        "list": {
+                            "0": {
+                                "title": "After sprinting for a second or more, tapping the C key will make the avatar drop to the ground and start sliding."
+                            },
+                            "1": {
+                                "title": "The avatar can enter the same openings as when crawling but the movement is faster and limited."
+                            },
+                            "2": {
+                                "title": "When finished sliding the avatar will start crawling or crouching if there is not enough space to stand."
+                            }
+                        }
+                    },
+                    "12": {
+                        "title": "Sheathing",
+                        "list": {
+                            "0": {
+                                "title": "Tapping the Z key will make the avatar sheathe its weapon and/or shield."
+                            },
+                            "1": {
+                                "title": "Tapping the Z key again will make the avatar unsheathe its equipment."
+                            },
+                            "2": {
+                                "title": "The equipment is still equipped. So starting an attack will unsheathe the equipment automatically."
+                            }
+                        }
+                    },
+                    "13": {
+                        "title": "New Behaviors & Components",
+                        "subtitle": "This is the complete list of new or ported behaviors that have been implemented in the new MP-compatible solution. Any behavior that doesn’t appear on the list is out of the 0.8 scope and will still exist as the legacy SP-only solution."
+                    },
+                    "14": {
+                        "title": "Asker [SP][MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "The behavior should maintain the same features & configs as it did in 0.7"
+                            },
+                            "1": {
+                                "title": "Retro-compatibility",
+                                "subtitle": "No changes to the features & configs should be seen upon upgrading from 0.7"
+                            },
+                            "2": {
+                                "title": "Multiplayer",
+                                "subtitle": "[SP] Can be triggered by any text message. The messages sent in a MP experience can only be listened by other [SP] behaviors and will affect each player individually. [MP] The UI is displayed only to the user that triggered the behavior. It means that it will only react to the “Interact” message. All the other messages will be ignored. The messages sent in a MP experience can only be listened by other [MP] behaviors will affect all players."
+                            }
+                        }
+                    },
+                    "15": {
+                        "title": "Asset Spawner [SP][MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "The behavior should maintain the same functionalities & configuration as it did in 0.7 except for the “visible” toggle which was removed. The actor visibility setting should be used instead."
+                            },
+                            "1": {
+                                "title": "Retro-compatibility",
+                                "subtitle": "If the actor had the “visible” toggle disabled, then the visibility of the actor will automatically change to hidden in the editor. Other than that, no changes to the functionalities & configuration should be seen upon upgrading from 0.7"
+                            },
+                            "2": {
+                                "title": "Multiplayer",
+                                "subtitle": "[SP] The actor spawned will be seen by each player individually. The actor will spawn with [SP] behaviors. [MP] The actor spawned by the behavior will appear to all the players in the experience. The actor will spawn with [MP] behaviors."
+                            }
+                        }
+                    },
+                    "16": {
+                        "title": "Bird [MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "The behavior should maintain the same features & configs as it did in 0.7"
+                            },
+                            "1": {
+                                "title": "Retro-compatibility",
+                                "subtitle": "No changes to the features & configs should be seen upon upgrading from 0.7"
+                            },
+                            "2": {
+                                "title": "Multiplayer",
+                                "subtitle": "[MP] The state of the bird should be consistent to all players in the experience: they’ll see the platform doing the same movement at the same time."
+                            }
+                        }
+                    },
+                    "17": {
+                        "title": " Button [SP][MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "The behavior should maintain the same features & configs as it did in 0.7"
+                            },
+                            "1": {
+                                "title": "Retro-compatibility",
+                                "subtitle": "No changes to the features & configs should be seen upon upgrading from 0.7"
+                            },
+                            "2": {
+                                "title": "Multiplayer",
+                                "subtitle": "[SP] The Each player will be able to trigger the button. The messages sent in a MP experience can only be listened by other [SP] behaviors and will affect each player individually. [MP] All players in the experience will be able to interact with the button. The messages sent in a MP experience can only be listened by other [MP] behaviors will affect all players."
+                            }
+                        }
+                    },
+                    "18": {
+                        "title": "Climbable [MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "The behavior should maintain the same features & configs as it did in 0.7"
+                            },
+                            "1": {
+                                "title": "Retro-compatibility",
+                                "subtitle": "No changes to the features & configs should be seen upon upgrading from 0.7"
+                            },
+                            "2": {
+                                "title": "Multiplayer",
+                                "subtitle": "[MP] All players in the experience will be able to climb the actor, same as in 0.7"
+                            }
+                        }
+                    },
+                    "19": {
+                        "title": "Collectable [SP][MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "The behavior should include the same features & configs as it did in 0.7 Some new parameters related to the message broadcasting were added."
+                            },
+                            "1": {
+                                "title": "Retro-compatibility",
+                                "subtitle": "No changes to the features & configs should be seen upon upgrading from 0.7 The broadcasting type should automatically be set to “All”"
+                            },
+                            "2": {
+                                "title": "Multiplayer",
+                                "subtitle": "[SP] The collectible can be collected by each player and won’t affect how other players perceive it. [MP] The collectable can only be collected by the first player that reaches it. After its collected the actor disappears for everyone in the scene."
+                            }
+                        }
+                    },
+                    "20": {
+                        "title": "Curio [MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "It’s a MP collectable that can be picked by every player."
+                            },
+                            "1": {
+                                "title": "Multiplayer",
+                                "subtitle": "[MP] The curio can be picked by all the players inside the experience. This means that if you pick it, all the other players will still see the collectable available to be picked up."
+                            }
+                        }
+                    },
+                    "21": {
+                        "title": "Door [MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "The behavior should include the same features & configs as it did in 0.7 On top of that, the fields for animation on “open” and “closed” where added, as well as some broadcasting configurations."
+                            },
+                            "1": {
+                                "title": "Retro-compatibility",
+                                "subtitle": "No changes to the features & configs should be seen upon upgrading from 0.7 The broadcasting type should automatically be set to “All”"
+                            },
+                            "2": {
+                                "title": "Multiplayer",
+                                "subtitle": "[MP] A door can be opened or closed by any player on the experience. The current status of the door is global and consistent for all the players."
+                            }
+                        }
+                    },
+                    "22": {
+                        "title": "Drop [SP][MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "All inputs that allowed collectible configuration through the drop were removed. This is due a lot of inconsistencies presented with this design. The remaining features & configs from 0.7 should remain the same."
+                            },
+                            "1": {
+                                "title": "Retro-compatibility",
+                                "subtitle": "To compensate for the removed inputs, upon loading an old drop, a new preset with the collectible component should be created and the configurations should be applied. The drop will be set to spawn that preset. The remaining features & configs from 0.7 should remain the same."
+                            },
+                            "2": {
+                                "title": "Multiplayer",
+                                "subtitle": "[SP] The drop could be triggered by messages or death in MP experience. When the asset spawns, it appears for each player individually. [MP] The drop could be triggered by messages or death in MP experience. When the asset spawns, it appears for every player on the experience. (NEED TO ESTABLISH HOW DEATH CAN BE ACHIEVED IN MP)"
+                            }
+                        }
+                    },
+                    "23": {
+                        "title": "Image Display / NFT Image Display [MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "The behavior should maintain the same features & configs as it did in 0.7"
+                            },
+                            "1": {
+                                "title": "Retro-compatibility",
+                                "subtitle": "No changes to the features & configs should be seen upon upgrading from 0.7"
+                            },
+                            "2": {
+                                "title": "Multiplayer",
+                                "subtitle": "[MP] All players in the experience will be able to see the same image as it happened in 0.7"
+                            }
+                        }
+                    },
+                    "24": {
+                        "title": "Indicator [SP][MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "The behavior should maintain the same features & configs as it did in 0.7"
+                            },
+                            "1": {
+                                "title": "Retro-compatibility",
+                                "subtitle": "No changes to the features & configs should be seen upon upgrading from 0.7"
+                            },
+                            "2": {
+                                "title": "Multiplayer",
+                                "subtitle": "[SP] All players in the experience will be able to see the same indicators as it happened in 0.7 [MP] Currently non functional. "
+                            }
+                        }
+                    },
+                    "25": {
+                        "title": "Message Broadcaster [SP][MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "The behavior should maintain the same functionalities & configuration as it did in 0.7 except for the “visible” toggle which was removed. The actor visibility setting should be used instead."
+                            },
+                            "1": {
+                                "title": "Retro-compatibility",
+                                "subtitle": "If the actor had the “visible” toggle disabled, then the visibility of the actor will automatically change to hidden in the editor. Other than that, no changes to the functionalities & configuration should be seen upon upgrading from 0.7"
+                            },
+                            "2": {
+                                "title": "Multiplayer",
+                                "subtitle": "[SP] The messages sent in a MP experience can only be listened by other [SP] behaviors and will affect each player individually. [MP] The messages sent in a MP experience can only be listened by other [MP] behaviors will affect all players."
+                            }
+                        }
+                    },
+                    "26": {
+                        "title": "NFT Details Display [SP][MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "The behavior should maintain the same features & configs as it did in 0.7"
+                            },
+                            "1": {
+                                "title": "Retro-compatibility",
+                                "subtitle": "No changes to the features & configs should be seen upon upgrading from 0.7"
+                            },
+                            "2": {
+                                "title": "Multiplayer",
+                                "subtitle": "[SP] The UI is displayed only to the user that triggered the behavior. It means that it will only react to the “Interact” message. All the other messages will be ignored. The For Player Only behaviors/components will enable to work-around this limitation to be able to receive messages coming from those behaviors/components. [MP] Currently non functional."
+                            }
+                        }
+                    },
+                    "27": {
+                        "title": "Pickable [MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "For the most part, the behavior should maintain the same features & configs as it did in 0.7."
+                            },
+                            "1": {
+                                "title": "Retro-compatibility",
+                                "subtitle": "No changes to the features & configs should be seen upon upgrading from 0.7"
+                            },
+                            "2": {
+                                "title": "Multiplayer",
+                                "subtitle": "[MP] When an object is picked by a player, all other players will see the object being carried around. When the actor is picked it cannot be grabbed by another player until the first one releases it and the actor becomes opaque again. A pickable can only be picked up by a single player at a time. A player can only pickup an object at a time."
+                            }
+                        }
+                    },
+                    "28": {
+                        "title": "Plant [SP][MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "The behavior should maintain the same features & configs as it did in 0.7. The only difference is that new behaviors don’t come with pre-set tags. So if you want the Plant to be gathered by a farmer for example, you’ll have to make sure that the tags are setup properly."
+                            },
+                            "1": {
+                                "title": "Retro-compatibility",
+                                "subtitle": "No changes to the features & configs should be seen upon upgrading from 0.7"
+                            },
+                            "2": {
+                                "title": "Multiplayer",
+                                "subtitle": "[SP] When the asset gets destroyed, it will disappear only for the player locally. [MP] When the asset gets destroyed, it will disappear for all players in the experience."
+                            }
+                        }
+                    },
+                    "29": {
+                        "title": "Platform [MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "The behavior should maintain the same features & configs as it did in 0.7"
+                            },
+                            "1": {
+                                "title": "Retro-compatibility",
+                                "subtitle": "No changes to the features & configs should be seen upon upgrading from 0.7"
+                            },
+                            "2": {
+                                "title": "Multiplayer",
+                                "subtitle": "[MP] The state of the platform should be consistent for all players in the experience: they’ll see the platform doing the same movement at the same time."
+                            }
+                        }
+                    },
+                    "30": {
+                        "title": "Play Sound [MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "The behavior should include the same features & configs as it did in 0.7 Some new parameters related to the message broadcasting were added."
+                            },
+                            "1": {
+                                "title": "Retro-compatibility",
+                                "subtitle": "No changes to the features & configs should be seen upon upgrading from 0.7 The broadcasting type should automatically be set to “All”"
+                            },
+                            "2": {
+                                "title": "Multiplayer",
+                                "subtitle": "[MP] When a sound gets triggered, it will play for all the players that are able to hear it."
+                            }
+                        }
+                    },
+                    "31": {
+                        "title": "Rarity VFX [MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "The behavior should maintain the same features & configs as it did in 0.7"
+                            },
+                            "1": {
+                                "title": "Retro-compatibility",
+                                "subtitle": "No changes to the features & configs should be seen upon upgrading from 0.7"
+                            },
+                            "2": {
+                                "title": "Multiplayer",
+                                "subtitle": "[MP] All players in the experience will be able to see the same rarity vfx as it happened in 0.7"
+                            }
+                        }
+                    },
+                    "32": {
+                        "title": "Replace Asset [SP][MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "The behavior should maintain the same functionalities & configuration as it did in 0.7."
+                            },
+                            "1": {
+                                "title": "Retro-compatibility",
+                                "subtitle": "No changes to the functionalities & configuration should be seen upon upgrading from 0.7"
+                            },
+                            "2": {
+                                "title": "Multiplayer",
+                                "subtitle": "[SP] The actor replacement will be seen by each player individually [MP] The actor replacement will be seen by all the players in the experience."
+                            }
+                        }
+                    },
+                    "33": {
+                        "title": "Speaker [SP][MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "The behavior should include the same features & configs as it did in 0.7 Some new parameters related to the message broadcasting were added."
+                            },
+                            "1": {
+                                "title": "Retro-compatibility",
+                                "subtitle": "No changes to the features & configs should be seen upon upgrading from 0.7 The broadcasting type should automatically be set to “All”"
+                            },
+                            "2": {
+                                "title": "Multiplayer",
+                                "subtitle": "[SP] The messages sent in a MP experience can only be listened by other [SP] behaviors and will affect each player individually. If “look at” enabled it will look towards each player. [MP] The messages sent in a MP experience can only be listened by other [MP] behaviors will affect all players. If “look at” enabled it will look towards the closest player."
+                            }
+                        }
+                    },
+                    "34": {
+                        "title": "Toggle Behavior [MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "The behavior should include the same features & configs as it did in 0.7 In SP experiences the toggle should allow pause/un-pause new and legacy behaviors."
+                            },
+                            "1": {
+                                "title": "Retro-compatibility",
+                                "subtitle": "No changes to the features & configs should be seen upon upgrading from 0.7"
+                            },
+                            "2": {
+                                "title": "Multiplayer",
+                                "subtitle": "[MP] All the players will see the behavior being paused/un-paused in a MP experience, as well as the actor’s animation. An important clarification is that it wont work with legacy behaviors on a MP experience, only on SP experiences."
+                            }
+                        }
+                    },
+                    "35": {
+                        "title": "Animated Decoration v2 [SP][MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "You can set a number of different animations that can be triggered to play at different moments based on condition, and with several customizable configurations allowed."
+                            },
+                            "1": {
+                                "title": "Retro-compatibility",
+                                "subtitle": "For old experiences with Animated Decoration, the behavior will be automatically upgraded to the new version while keeping the same animation selected as well as the loop policy."
+                            },
+                            "2": {
+                                "title": "Multiplayer",
+                                "subtitle": "[SP] The animations triggered by the behavior should be seen by each player individually. Different animations could be playing for different players. [MP] The animations triggered by the behavior should be seen by all the players in a experience."
+                            }
+                        }
+                    },
+                    "36": {
+                        "title": "Audio Streaming [MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "You can select a variety of audios hosted by The Sandbox on a selection window. Admin users will be able to upload audios through the [backoffice](https://www.notion.so/4bd6c1ca25c946949e7cfbbc761812b6) tool. If the audio is played/stopped/paused by any actor, it will affect all other actors that show the same audio."
+                            },
+                            "1": {
+                                "title": "Multiplayer",
+                                "subtitle": "[MP] All players in the experience will be able to hear the same audio playing in sync."
+                            }
+                        }
+                    },
+                    "37": {
+                        "title": "Crowd Events [MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "This new behaviors allows to start a event-based sequence that can be used to create gameplay mechanics based on progression"
+                            },
+                            "1": {
+                                "title": "Multiplayer",
+                                "subtitle": "[MP] All players in the experience should be able to participate of the behavior (based on the selected criteria for participation). The rewards should be visible for all players as well."
+                            }
+                        }
+                    },
+                    "38": {
+                        "title": "Light [MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "This new behavior allows to create lights in the scene. Can be configured for both point lights or spot lights. Comes with a set of parameters to define how it should glow up the surroundings. Supports preview display on edit mode. Its recommended to be used on logic entities."
+                            },
+                            "1": {
+                                "title": "Multiplayer",
+                                "subtitle": "[MP] All players in the experience will be able to see the same lights with the same configuration behaving in the same way."
+                            }
+                        }
+                    },
+                    "39": {
+                        "title": "Video Streaming [MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "To be used solely in frame actors (like image display). You can select a variety of videos hosted by The Sandbox on a selection window. Admin users will be able to upload videos through the [backoffice](https://www.notion.so/4bd6c1ca25c946949e7cfbbc761812b6) tool. If the video is played/stopped/paused by any actor, it will affect all other actors that show the same video. Allows to configure the way the video should be displayed/fit into the frame. Supports preview display on edit mode."
+                            },
+                            "1": {
+                                "title": "Multiplayer",
+                                "subtitle": "[MP] All players in the experience will be able to see the same video playing in sync."
+                            }
+                        }
+                    },
+                    "40": {
+                        "title": "Slide [MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "Will force the avatar to slide over the asset."
+                            },
+                            "1": {
+                                "title": "Multiplayer",
+                                "subtitle": "[MP] All players in the experience will be able to slide over the actor."
+                            }
+                        }
+                    },
+                    "41": {
+                        "title": "Timed Events [SP][MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "Allows setting messages to be send based on the elapsed time since the behavior (or the experience) started running."
+                            },
+                            "1": {
+                                "title": "Multiplayer",
+                                "subtitle": "[SP] The time tracking is local to each player. The messages sent in a MP experience can only be listened by other [SP] behaviors and will affect each player individually. [MP] The time tracking is global for the whole experience. The messages sent in a MP experience can only be listened by other [MP] behaviors will affect all players."
+                            }
+                        }
+                    },
+                    "42": {
+                        "title": "VFX [SP][MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "This new behavior allows placing one of the available VFXs for selection in the actor’s position. Can be turned on/off by message."
+                            },
+                            "1": {
+                                "title": "Multiplayer",
+                                "subtitle": "[SP] Each player could see different VFXs. [MP] All players in the experience will be able to see the same VFX."
+                            }
+                        }
+                    },
+                    "43": {
+                        "title": "Weather Switcher [MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "This new behavior allows configuration of the weather for the scene (skybox, colors, clouds, etc). Can be enabled through messages. Supports preview display on edit mode. Its recommendable to use on logic entities."
+                            },
+                            "1": {
+                                "title": "Multiplayer",
+                                "subtitle": "[MP] Applies the weather configuration to all players in the experience."
+                            }
+                        }
+                    },
+                    "44": {
+                        "title": "Post Processing [MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "Allows to apply full screen post process effects. Its recommendable to use on logic entities."
+                            },
+                            "1": {
+                                "title": "Multiplayer",
+                                "subtitle": "[MP] Applies the post processing configuration to all players in the experience."
+                            }
+                        }
+                    },
+                    "45": {
+                        "title": "Actor Property Switcher [MP]",
+                        "list": {
+                            "0": {
+                                "title": "Functionality",
+                                "subtitle": "Allows changing properties like visibility and collision on actors. Usage is similar to a message broadcaster"
+                            },
+                            "1": {
+                                "title": "Multiplayer",
+                                "subtitle": "[MP] The changes applied by the behavior will be synchronized to all players."
+                            }
+                        }
+                    },
+                    "46": {
+                        "title": "Messages with Arguments",
+                        "subtitle": "Upon selecting a message to send from a behavior, you’ll see there’s a new set of “special” messages that could be used for gameplay mechanics. This messages appear in yellow and allow the customization of parameters to produce a desired outcome on the “targeted” actors during gameplay.",
+                        "list": {
+                            "0": {
+                                "title": "AudioPlay",
+                                "subtitle": "Allows to start/resume playing the audio with a fade-in duration."
+                            },
+                            "1": {
+                                "title": "AudioPause",
+                                "subtitle": "Allows to pause playing the audio with a fade-out duration."
+                            },
+                            "2": {
+                                "title": "AudioStop",
+                                "subtitle": "Allows to stop playing the audio with a fade-out duration."
+                            },
+                            "3": {
+                                "title": "LightColor",
+                                "subtitle": "Allows to change the color of the targeted lights in the scene with a fade duration."
+                            },
+                            "4": {
+                                "title": "WeatherFade",
+                                "subtitle": "Allows to set a fading time for the transition between the currently set weather into the targeted one."
+                            },
+                            "5": {
+                                "title": "PostProcessFade",
+                                "subtitle": "Works the same as WeatherFade. Allows to set a fading time for the transition between the currently set postprocess into the targeted one. ONLY for custom postprocesses, not functional for presets."
+                            }
+                        }
+                    },
+                    "47": {
+                        "title": "UI Revamp",
+                        "list": {
+                            "0": {
+                                "title": "Menu Framework",
+                                "subtitle": "Implemented a scalable interface for players to navigate through all the screens available in the game (Map | Inventory | NFT Scan, among others). This framework is used as the base for all the new UI/UX created/improved."
+                            },
+                            "1": {
+                                "title": "Main Menu",
+                                "subtitle": "New UI and UX for the main menu. Users can go back and forth from the Menu to the Main Menu screen. Some key bindings were added for accessing the Main Menu from the HUD and the Menu."
+                            },
+                            "2": {
+                                "title": "Inventory",
+                                "subtitle": "A new inventory window has been designed and implemented: Slot-based approach as in classic RPGs, Inventory and Character sheet displayed in the same screen, Character sheet displays the Avatar stats based on its current equipped items, with the possibility to change the equipment while in-game."
+                            },
+                            "3": {
+                                "title": "User Information",
+                                "subtitle": "A new UI section has been added to display the current user information: Name, Sand, Experience"
+                            },
+                            "4": {
+                                "title": "Mini Map",
+                                "subtitle": "Added a map to the in-game HUD. It displays information about the current experience, and the player position/orientation. It also shows the other experiences that are close in the metaverse."
+                            },
+                            "5": {
+                                "title": "Victory Screen",
+                                "subtitle": "Improved our completion screens flow, along with a full-fledged UI/UX redesign."
+                            }
+                        }
+                    },
+                    "48": {
+                        "title": "Multiplayer Inventory",
+                        "subtitle": "Extended the inventory system to support some multiplayer features. The players are allowed to equip cosmetic items in MP experiences. The items equipped will be displayed to all the other players and work experience wise (they are not carried from one experience to another)"
+                    },
+                    "49": {
+                        "title": "Known Issues",
+                        "list": {
+                            "0": {
+                                "title": "VFX issues - Auto start toggle is not working properly and some related issues"
+                            },
+                            "1": {
+                                "title": "Weather Fade - Sky Middle and Sky Bottom colors visible through blocks and asset"
+                            },
+                            "2": {
+                                "title": "Post Processing - Effects have an impact on Speaker dialog boxes"
+                            },
+                            "3": {
+                                "title": "User cannot exit Quit to Desktop prompt and is forced to quit"
+                            },
+                            "4": {
+                                "title": "Lunge Attack - Stun duration is approximately 2 seconds regardless of charge duration"
+                            },
+                            "5": {
+                                "title": "Platforms refactor - Avatar auto jumps when Legacy and New platform goes up or down"
+                            },
+                            "6": {
+                                "title": "Basic Platform - Platforms don't collide properly with the avatar"
+                            },
+                            "7": {
+                                "title": "Hierarchy - Unparent + undo is not working."
+                            },
+                            "8": {
+                                "title": "Avatar has 950 HP in the life bar"
+                            },
+                            "9": {
+                                "title": "Water SFX is sometimes triggered randomly when using crouch, crawl or slide"
+                            },
+                            "10": {
+                                "title": "The player must only be able to jump in the same direction of the slide."
+                            },
+                            "11": {
+                                "title": "The avatar gets stuck in the water after colliding with a solid block"
+                            },
+                            "12": {
+                                "title": "Climbing - The avatar does not attach correctly to Climbable assets"
+                            },
+                            "13": {
+                                "title": "New or added assets are not refreshed in the library in real time"
+                            },
+                            "14": {
+                                "title": "New Basic Platform - The platform will go through the avatar, and it will mount it or go underground instead of being moved aside"
+                            },
+                            "15": {
+                                "title": "Post FX - Motion blur is applied on character movement"
+                            },
+                            "16": {
+                                "title": "Basic Platform - Platform stutters when being stopped with Toggle Behavior"
+                            },
+                            "17": {
+                                "title": "Replace Asset - Settings have no restrictions over behaviors, components or physics"
+                            },
+                            "18": {
+                                "title": "New replace asset behaviour asset error - When the asset it replaces has \"new pickable component\" with \"collision + gravity\" the asset flies out"
+                            },
+                            "19": {
+                                "title": "New asset spawner behaviour asset error - When the asset to spawn is set to bird behavior and \"collision + gravity\" the asset trembles"
                             }
                         }
                     }
