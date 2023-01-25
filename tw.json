@@ -2506,7 +2506,9 @@
         "collections": {
             "title": "NFT 集錦",
             "sandbox": "《The Sandbox》",
-            "featured": "精選"
+            "featured": "精選",
+            "collectionFilter": "Collection Filters",
+            "collections": "Collections"
         },
         "nftTypes": {
             "title": "NFT 類型",
@@ -2643,7 +2645,13 @@
             "arts": "Art",
             "equipment": "Equipments",
             "searchresult": "搜索结果",
-            "allAssets": "Tüm Varlıklar"
+            "allAssets": "Tüm Varlıklar",
+            "allAssetsFilters": "All Assets Filters",
+            "entityFilters": "Entity Filters",
+            "equipmentFilters": "Equipment Filters",
+            "artFilters": "Art Filters",
+            "landFilters": "LAND Filters",
+            "avatarsFilters": "Avatars Filters"
         },
         "sorts": {
             "title": "排序依據",
@@ -2894,7 +2902,8 @@
             "chain": "鏈",
             "quantity": "數量",
             "price": "價錢"
-        }
+        },
+        "name": "Name"
     },
     "create": {
         "meta": {
@@ -14930,5 +14939,21 @@
                 "successfulMessage": "Message successfully sent! The Agency Partner will contact you soon."
             }
         }
+    },
+    "entities": {
+        "title": "Explore Entities",
+        "subtitle": "Discover Entities and start creating unique Experiences in the Metaverse."
+    },
+    "equipments": {
+        "title": "Explore Equipments",
+        "subtitle": "Discover Equipments and start creating unique Experiences in the Metaverse."
+    },
+    "assetsPage": {
+        "title": "Explore All Assets",
+        "subtitle": "Discover Assets and start creating unique Experiences in the Metaverse."
+    },
+    "lands": {
+        "title": "Explore Land & Estates",
+        "subtitle": "Discover Land & Estates and start creating unique Experiences in the Metaverse."
     }
 }
