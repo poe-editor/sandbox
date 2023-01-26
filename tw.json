@@ -594,10 +594,7 @@
             "title": "WHY SAND?",
             "buttonText": "Buy now",
             "newTitle": "GOT SAND?",
-            "description": {
-                "mainText": "{0} is The Sandbox utility token. Get {0} to buy LAND, ASSETS, or to invest in staking pools.",
-                "0": "SAND"
-            },
+            "description": "$SAND is The Sandbox utility token. Get $SAND to buy LAND, ASSETS, or to invest in staking pools.",
             "newButtonText": "Buy SAND"
         },
         "experiencesSeason3": {
@@ -3036,7 +3033,16 @@
                 "text": "啟動遊戲，並開始體驗放入任何自創 ASSET 的滋味！",
                 "buttonText": "立即搶先註冊！"
             },
-            "release": "0.7.1"
+            "release": "0.7.1",
+            "downloadModal": {
+                "title": "Build your Experience with Game Maker v0.8",
+                "downloadLatestMac": "Download for macOS",
+                "downloadPreviousMac": "Download v0.7 for macOS",
+                "downloadLatestWindows": "Download for Windows",
+                "downloadPreviousWindows": "Download v0.7 for Windows",
+                "warningText": "Once a v0.7 experience is saved in v0.8, it won't open in previous versions again. Behaviour may differ between v0.7 and v0.8. To check our changes, ",
+                "v8Changelog": "see the v0.8 changelog."
+            }
         },
         "voxedit": {
             "meta": {
@@ -3853,21 +3859,29 @@
             "pageTitle": "",
             "placement": {
                 "pageTitle": ""
-            }
+            },
+            "publishButton": "",
+            "unpublishButton": ""
         },
         "disconnect": "",
         "hub": {
             "versionSelectorText": "",
             "featureStatus": {
                 "ready": "",
-                "pending": ""
+                "pending": "",
+                "optional": ""
             },
             "checklistCards": {
                 "assetReview": {
                     "title": "",
                     "description": "",
                     "allAssetsOk": "",
-                    "someNeedReview": ""
+                    "someNeedReview": "",
+                    "pendingReview": "",
+                    "assetsIssues": "",
+                    "reviewReady": "",
+                    "readyToStart": "",
+                    "oneStepCloser": ""
                 },
                 "locationSelection": {
                     "title": "",
@@ -3877,25 +3891,76 @@
                     "availableLocations": "",
                     "alreadyConnectedDescription": "",
                     "disconnect": "",
-                    "edit": ""
+                    "edit": "",
+                    "selectLocation": "",
+                    "experienceNotHosted": "",
+                    "needHostExperience": "",
+                    "experienceHosted": "",
+                    "hostedInMetaverse": ""
                 },
                 "accessControl": {
                     "title": "",
                     "description": "",
-                    "buttonText": ""
+                    "buttonText": "",
+                    "noAccessCriteriaDefined": "",
+                    "canMonetizeTheExperience": "",
+                    "gatingDefined": "",
+                    "openingDate": "",
+                    "openForEveryone": "",
+                    "passRequired": "",
+                    "notSet": ""
                 },
                 "contentWarning": {
                     "title": "",
                     "description": "",
-                    "buttonText": ""
+                    "buttonText": "",
+                    "notDefined": "",
+                    "canDefine": ""
                 },
                 "playPage": {
                     "title": "",
                     "description": "",
-                    "buttonText": ""
+                    "buttonText": "",
+                    "edit": "",
+                    "mandatoryContentMissing": "",
+                    "contentMissed": "",
+                    "experiencePageReady": "",
+                    "canChange": ""
+                },
+                "requiredCard": "",
+                "welcomeBackCard": {
+                    "title": "",
+                    "description": "",
+                    "allRequiredItemsAreNeeded": "",
+                    "useExperiencePage": ""
+                },
+                "wellDoneCard": {
+                    "title": "",
+                    "description": ""
+                },
+                "welcomeCard": {
+                    "title": "",
+                    "description": "",
+                    "stepsToPublish": "",
+                    "notReadyToPublish": "",
+                    "tasksToSolve": ""
+                },
+                "canPublishCard": {
+                    "title": "",
+                    "description": "",
+                    "canWorkInDetails": "",
+                    "readyToPublish": "",
+                    "pressPublishButton": ""
+                },
+                "publishedCard": {
+                    "title": "",
+                    "description": "",
+                    "canPrepareAnUpdate": "",
+                    "experiencePublished": ""
                 }
             },
-            "pageTitle": ""
+            "pageTitle": "",
+            "title": ""
         },
         "gating": {
             "timestamp": "",
@@ -5667,7 +5732,9 @@
                 "layer2": "Polygon"
             },
             "viewLess": "View less <<<",
-            "viewMore": "View more >>>"
+            "viewMore": "View more >>>",
+            "tooltipMinting": "Minting not available for basic or exclusive asset",
+            "tooltipWaitingMinting": "Waiting for prev minting"
         },
         "avatar": {
             "empty": "此清單為空",
@@ -6671,7 +6738,7 @@
         },
         "creatorWebsite": "網站",
         "assetsIncludedTitle": "",
-        "mapDescription": "",
+        "mapDescription": "Map description",
         "metadata": "",
         "opened": "",
         "setUpAssetsFromGM": "",
@@ -6694,9 +6761,12 @@
             "mainVideo": "",
             "reserved": "",
             "video": "",
-            "image": ""
+            "image": "",
+            "editMainVideo": "",
+            "uploadMainVideo": ""
         },
-        "mobileDisclaimer": "To play this experience you must connect from a desktop computer"
+        "mobileDisclaimer": "To play this experience you must connect from a desktop computer",
+        "contentLimitReached": ""
     },
     "collectionPage": {
         "goBack": "返回",
@@ -14093,7 +14163,11 @@
                 "private": "Private",
                 "setPrivate": "Set as Private",
                 "setNotPrivate": "Remove private",
-                "publishToMint": "You have to publish the asset before minting it"
+                "publishToMint": "You have to publish the asset before minting it",
+                "exclusive": "Exclusive",
+                "basic": "Basic",
+                "setFlag": "Set as {flag}",
+                "removeFlag": "Remove {flag}"
             },
             "pagination": {
                 "page": "Page",
@@ -15784,5 +15858,12 @@
     "lands": {
         "title": "Explore Land & Estates",
         "subtitle": "Discover Land & Estates and start creating unique Experiences in the Metaverse."
+    },
+    "sidebarSell": {
+        "polygonTooltip": "",
+        "ethTooltip": "",
+        "ethHasSell": "",
+        "cancelSell": "",
+        "bridgeAsset": ""
     }
 }
