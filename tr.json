@@ -533,7 +533,7 @@
             "description": "Non-Fungible Token'ler (NFT'ler) sanal token'lerdir ve bir blok zinciri üzerinde dijital nadirlik, güvenlik ve orjinallik için mint edilir. NFT'ler eşsiz, bölünmez ve değiştirilemez bir yapıya sahiptir ve herkese oyun içi varlıklar üzerinden gerçek dijital sahiplik hakkı tanır.",
             "buttonText": "Land satın al",
             "discoverMap": "Haritayı keşfet",
-            "browseMap": "Browse Map"
+            "browseMap": "Haritaya Göz Atın"
         },
         "sand": {
             "title": "Neden SAND?",
@@ -554,7 +554,7 @@
         "avatar": {
             "title": "The Sandbox Avatar",
             "description": {
-                "1": "Profil fotoğrafını bir üst seviyeye taşı. Artık kendi favori Avatar'ını seçip Sandbox Metaverse'ü keşfedebilirsin.",
+                "1": "Profil resminizi bir sonraki seviyeye taşıyın. Artık The Sandbox Metaverse'i keşfetmek için favori Avatarınızı seçebilirsiniz.",
                 "2": "Harici bir avatara sahip olup olmadığını öğrenmek için favori cüzdanını bağla."
             },
             "button": {
@@ -576,15 +576,15 @@
             "disabled": "*Mintleme 25 Temmuz'da başlar"
         },
         "avatarSeason3": {
-            "title": "Kendi avatarınla oyna\n",
+            "title": "Kendi avatarınızla oynayın\n",
             "description": {
-                "1": "Profil fotoğrafını bir üst seviyeye taşı. Artık kendi favori Avatar'ını seçip Sandbox Metaverse'ü keşfedebilirsin."
+                "1": "Profil resminizi bir sonraki seviyeye taşıyın. Artık The Sandbox Metaverse'i keşfetmek için favori Avatarınızı seçebilirsiniz."
             }
         },
         "nftSeason3": {
             "title": "NFT'LERİNİ AL",
             "buttonText": "Pazaryerine git",
-            "newTitle": "OWN THE FUTURE",
+            "newTitle": "GELECEĞİN SAHİBİ OLUN",
             "newButtonText": "Visit Marketplace"
         },
         "landSeason3": {
@@ -594,10 +594,7 @@
             "title": "NEDEN SAND?",
             "buttonText": "Şimdi Al",
             "newTitle": "GOT SAND?",
-            "description": {
-                "mainText": "{0} The Sandbox yardımcı token'i. ARAZİ, VARLIK satın almak veya stake havuzlarına yatırım yapmak için {0} alın.",
-                "0": "SAND"
-            },
+            "description": "$SAND is The Sandbox utility token. Get $SAND to buy LAND, ASSETS, or to invest in staking pools.",
             "newButtonText": "Buy SAND"
         },
         "experiencesSeason3": {
@@ -605,7 +602,7 @@
             "discover": "Metaverse Deneyimlerini"
         },
         "apeavatarSeason3": {
-            "title": "KENDİ NFT'LERİNLE OYNA",
+            "title": "KENDİ NFT'LERİNİZLE OYNAYIN",
             "description": "140 binden fazla eşsiz avatar artık Sandbox'ta oynanabilir. Kolleksiyonları inceleyip, NFT'lerinize hayat verin.",
             "explore": "Avatar Kolleksiyonunu keşfet"
         },
@@ -613,7 +610,7 @@
             "title": "MINT YOUR CARE BEARS",
             "description": "Get your unique Care Bears avatar for The Sandbox on November 14 and enter the metaverse.",
             "btn1": "Learn more",
-            "btn2": "Create free avatar",
+            "btn2": "Ücretsiz avatar oluşturun",
             "btn1SecondLabel": "Buy Now",
             "soldOutTag": "SOLD OUT"
         },
@@ -622,14 +619,14 @@
             "description": "Dropping just in time for Playboy's 69th Birthday, the Playboy Party People Collection brings Pleasure for All to the metaverse.",
             "title-mobile": "MINT YOUR AVATAR",
             "btn1": "Learn more",
-            "btn2": "Create free avatar",
+            "btn2": "Ücretsiz avatar oluşturun",
             "btn1SecondLabel": "Buy Now",
             "soldOutTag": "SOLD OUT"
         },
         "avatarBanner": {
-            "title": "PLAY WITH YOUR OWN AVATAR",
-            "description": "Take your profile pic to the next level. Now you can choose your favorite Avatar to explore The Sandbox Metaverse.",
-            "btn": "Create free avatar"
+            "title": "KENDİ AVATARINIZLA OYNAYIN",
+            "description": "Profil resminizi bir sonraki seviyeye taşıyın. Artık The Sandbox Metaverse'i keşfetmek için favori Avatarınızı seçebilirsiniz.",
+            "btn": "Ücretsiz avatar oluşturun"
         }
     },
     "season": {
@@ -1682,7 +1679,7 @@
                 "coming": "BİR SONRAKİ",
                 "onlyForOwners": "Sadece Sahipler İçin",
                 "seeMore": "Daha fazla bilgi",
-                "shared": "Reward Pool",
+                "shared": "Ödül Havuzu",
                 "rewards": "Ödüller",
                 "comingSoon": "Coming Soon",
                 "upcoming": "Gelecek",
@@ -1726,8 +1723,8 @@
                 "tickets": "Tickets",
                 "landsaleTickets": "Landsales Tickets",
                 "avatars": "Avatars",
-                "rewardPool": "Reward Pool",
-                "special": "Special Event",
+                "rewardPool": "Ödül Havuzu",
+                "special": "Özel Etkinlik",
                 "availableNow": "Available Now",
                 "search": "Search for an event",
                 "ends": "ENDS",
@@ -1832,7 +1829,7 @@
                 "stakingDesc": "Stake Ederek",
                 "ticketsDescription3": "Çekilişi kazanma şansınızı artırmak için Çekiliş Biletleri kazanın."
             },
-            "alphaSeason": "Special Events",
+            "alphaSeason": "Özel Etkinlikler",
             "shop": {
                 "nftShop": "NFT Mağazası",
                 "findAll": "Garantili ödüllerin kilidini açmak için ihtiyacınız olan tüm NFT'leri bulun: LAND'ler, Avatarlar ve AS3 NFT Koleksiyonları",
@@ -3036,7 +3033,16 @@
                 "text": "Oyunu başlatın ve varlıklarınızdan herhangi birini yerleştirerek deneyimler kazanmaya başlayın!",
                 "buttonText": "Şimdi Ön Kayıt Olun!"
             },
-            "release": "0.7.1"
+            "release": "0.7.1",
+            "downloadModal": {
+                "title": "Build your Experience with Game Maker v0.8",
+                "downloadLatestMac": "Download for macOS",
+                "downloadPreviousMac": "Download v0.7 for macOS",
+                "downloadLatestWindows": "Download for Windows",
+                "downloadPreviousWindows": "Download v0.7 for Windows",
+                "warningText": "Once a v0.7 experience is saved in v0.8, it won't open in previous versions again. Behaviour may differ between v0.7 and v0.8. To check our changes, ",
+                "v8Changelog": "see the v0.8 changelog."
+            }
         },
         "voxedit": {
             "meta": {
@@ -3853,21 +3859,29 @@
             "pageTitle": "",
             "placement": {
                 "pageTitle": ""
-            }
+            },
+            "publishButton": "",
+            "unpublishButton": ""
         },
         "disconnect": "",
         "hub": {
             "versionSelectorText": "",
             "featureStatus": {
                 "ready": "Hazır",
-                "pending": "Bekliyor"
+                "pending": "Bekliyor",
+                "optional": ""
             },
             "checklistCards": {
                 "assetReview": {
                     "title": "",
                     "description": "",
                     "allAssetsOk": "",
-                    "someNeedReview": ""
+                    "someNeedReview": "",
+                    "pendingReview": "",
+                    "assetsIssues": "",
+                    "reviewReady": "",
+                    "readyToStart": "",
+                    "oneStepCloser": ""
                 },
                 "locationSelection": {
                     "title": "",
@@ -3877,25 +3891,76 @@
                     "availableLocations": "",
                     "alreadyConnectedDescription": "",
                     "disconnect": "",
-                    "edit": "Düzenle"
+                    "edit": "Düzenle",
+                    "selectLocation": "",
+                    "experienceNotHosted": "",
+                    "needHostExperience": "",
+                    "experienceHosted": "",
+                    "hostedInMetaverse": ""
                 },
                 "accessControl": {
                     "title": "",
                     "description": "",
-                    "buttonText": ""
+                    "buttonText": "",
+                    "noAccessCriteriaDefined": "",
+                    "canMonetizeTheExperience": "",
+                    "gatingDefined": "",
+                    "openingDate": "",
+                    "openForEveryone": "",
+                    "passRequired": "",
+                    "notSet": ""
                 },
                 "contentWarning": {
                     "title": "İçerik Uyarısı",
                     "description": "",
-                    "buttonText": ""
+                    "buttonText": "",
+                    "notDefined": "",
+                    "canDefine": ""
                 },
                 "playPage": {
                     "title": "",
                     "description": "",
-                    "buttonText": "Paylaş"
+                    "buttonText": "Paylaş",
+                    "edit": "",
+                    "mandatoryContentMissing": "",
+                    "contentMissed": "",
+                    "experiencePageReady": "",
+                    "canChange": ""
+                },
+                "requiredCard": "",
+                "welcomeBackCard": {
+                    "title": "",
+                    "description": "",
+                    "allRequiredItemsAreNeeded": "",
+                    "useExperiencePage": ""
+                },
+                "wellDoneCard": {
+                    "title": "",
+                    "description": ""
+                },
+                "welcomeCard": {
+                    "title": "",
+                    "description": "",
+                    "stepsToPublish": "",
+                    "notReadyToPublish": "",
+                    "tasksToSolve": ""
+                },
+                "canPublishCard": {
+                    "title": "",
+                    "description": "",
+                    "canWorkInDetails": "",
+                    "readyToPublish": "",
+                    "pressPublishButton": ""
+                },
+                "publishedCard": {
+                    "title": "",
+                    "description": "",
+                    "canPrepareAnUpdate": "",
+                    "experiencePublished": ""
                 }
             },
-            "pageTitle": ""
+            "pageTitle": "",
+            "title": ""
         },
         "gating": {
             "timestamp": "",
@@ -5667,7 +5732,9 @@
                 "layer2": "Polygon"
             },
             "viewLess": "View less <<<",
-            "viewMore": "View more >>>"
+            "viewMore": "View more >>>",
+            "tooltipMinting": "Minting not available for basic or exclusive asset",
+            "tooltipWaitingMinting": "Waiting for prev minting"
         },
         "avatar": {
             "empty": "Bu liste boş",
@@ -6356,7 +6423,7 @@
                 "onboard-modal": {
                     "welcome-title-part-1": "Welcome to",
                     "welcome-title-part-2": "The Sandbox Metaverse!",
-                    "welcome-message": "Create your free avatar. Customize your look, boost it with equipment and get ready to play with your friend!"
+                    "welcome-message": "Ücretsiz avatarınızı oluşturun. Görünümünüzü özelleştirin, ekipmanlarla güçlendirin ve arkadaşınızla oynamaya hazır olun!"
                 },
                 "title": "Select a wallet to continue",
                 "errors": {
@@ -6671,7 +6738,7 @@
         },
         "creatorWebsite": "Website",
         "assetsIncludedTitle": "",
-        "mapDescription": "",
+        "mapDescription": "Map description",
         "metadata": "",
         "opened": "",
         "setUpAssetsFromGM": "",
@@ -6694,9 +6761,12 @@
             "mainVideo": "Ana video",
             "reserved": "Rezerve",
             "video": "Video",
-            "image": ""
+            "image": "",
+            "editMainVideo": "",
+            "uploadMainVideo": ""
         },
-        "mobileDisclaimer": "To play this experience you must connect from a desktop computer"
+        "mobileDisclaimer": "To play this experience you must connect from a desktop computer",
+        "contentLimitReached": ""
     },
     "collectionPage": {
         "goBack": "Geri",
@@ -7311,7 +7381,7 @@
             "description2": "SEZON 3",
             "stayTuned": "Sezon 3'ün çıkış tarihi için bizi takip etmeye devam edin.",
             "register": "3. Sezon için Kaydol",
-            "newTitle": "Visit the experiences of our"
+            "newTitle": "Deneyimlerimizi ziyaret edin"
         },
         "modules": {
             "zero": {
@@ -7328,7 +7398,7 @@
                 "paragraph1": "A LAND, The Sandbox metaverse'inin bir parçasıdır ve özel içeriğe erişim sağlamanın yanı sıra The Sandbox'ın Metaverse'inde kendi bölümünüzden para kazanma olanağı sağlar. Deneyimler oluşturun, etkinliklere ev sahipliği yapın, arkadaşlarınızı davet edin.",
                 "button": "LAND Satın Al",
                 "button2": "Haritayı Keşfedin",
-                "newParagraph": "Get a piece of LAND from The Sandbox metaverse to host your experience and events, access exclusive content and farming perks, and get premium defi staking and monetization options."
+                "newParagraph": "Deneyiminize ve etkinliklere ev sahipliği yapmak, özel içeriklere ve farming avantajlarına erişmek, premium defi staking ve para kazanma seçenekleri elde etmek için The Sandbox metaverse'den bir parça LAND alın."
             },
             "third": {
                 "title": "NEDEN SAND?",
@@ -14094,7 +14164,11 @@
                 "private": "Private",
                 "setPrivate": "Set as Private",
                 "setNotPrivate": "Remove private",
-                "publishToMint": "You have to publish the asset before minting it"
+                "publishToMint": "You have to publish the asset before minting it",
+                "exclusive": "Exclusive",
+                "basic": "Basic",
+                "setFlag": "Set as {flag}",
+                "removeFlag": "Remove {flag}"
             },
             "pagination": {
                 "page": "Sayfa",
@@ -15323,7 +15397,7 @@
         },
         "text77": "Additional Terms",
         "text78": {
-            "mainText": "Visit The Sandbox Season 3 Giveaways {0} for a complete view of eligibility requirements.",
+            "mainText": "Uygunluk koşullarının tamamını görmek için The Sandbox 3. Sezon Çekilişleri {0} adresini ziyaret edin.",
             "0": "Official Rules"
         }
     },
@@ -15785,5 +15859,12 @@
     "lands": {
         "title": "Explore Land & Estates",
         "subtitle": "Discover Land & Estates and start creating unique Experiences in the Metaverse."
+    },
+    "sidebarSell": {
+        "polygonTooltip": "",
+        "ethTooltip": "",
+        "ethHasSell": "",
+        "cancelSell": "",
+        "bridgeAsset": ""
     }
 }
