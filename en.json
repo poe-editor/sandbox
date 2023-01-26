@@ -594,10 +594,7 @@
             "title": "WHY SAND?",
             "buttonText": "Buy now",
             "newTitle": "GOT SAND?",
-            "description": {
-                "mainText": "{0} is The Sandbox utility token. Get {0} to buy LAND, ASSETS, or to invest in staking pools.",
-                "0": "SAND"
-            },
+            "description": "",
             "newButtonText": "Buy SAND"
         },
         "experiencesSeason3": {
@@ -3036,7 +3033,16 @@
                 "text": "Launch the game and start making experiences by placing any of your ASSETS!",
                 "buttonText": "Pre-Register Now!"
             },
-            "release": "0.7.1"
+            "release": "0.7.1",
+            "downloadModal": {
+                "title": "Build your Experience with Game Maker v0.8",
+                "downloadLatestMac": "Download for macOS",
+                "downloadPreviousMac": "Download v0.7 for macOS",
+                "downloadLatestWindows": "Download for Windows",
+                "downloadPreviousWindows": "Download v0.7 for Windows",
+                "warningText": "Once a v0.7 experience is saved in v0.8, it won't open in previous versions again. Behaviour may differ between v0.7 and v0.8. To check our changes, ",
+                "v8Changelog": "see the v0.8 changelog."
+            }
         },
         "voxedit": {
             "meta": {
@@ -3853,21 +3859,29 @@
             "pageTitle": "Sandbox - Experience Location",
             "placement": {
                 "pageTitle": "Sandbox - Experience Placement"
-            }
+            },
+            "publishButton": "Publish",
+            "unpublishButton": "Unpublish"
         },
         "disconnect": "This experience is about to be disconnected with the location.",
         "hub": {
             "versionSelectorText": "Version:",
             "featureStatus": {
                 "ready": "Ready",
-                "pending": "Pending"
+                "pending": "Pending",
+                "optional": "Optional"
             },
             "checklistCards": {
                 "assetReview": {
                     "title": "Asset Review",
                     "description": "Make sure you have ownership and every asset is minted before publishing.",
                     "allAssetsOk": "Assets Ready",
-                    "someNeedReview": "Assets Ready | 1 asset to review | {count} assets to review"
+                    "someNeedReview": "Assets Ready | 1 asset to review | {count} assets to review",
+                    "pendingReview": "Pending review",
+                    "assetsIssues": "Buy, mint or replace the assets to solve the issue.",
+                    "reviewReady": "Review is ready",
+                    "readyToStart": "Your experience are ready and available to start.",
+                    "oneStepCloser": "You are one step closer to publish! All the assets in your Experience are ready and available."
                 },
                 "locationSelection": {
                     "title": "Location Selection",
@@ -3877,25 +3891,76 @@
                     "availableLocations": "no locations available | 1 location available | {count} location available",
                     "alreadyConnectedDescription": "You already placed your Experience. You can edit the location here.",
                     "disconnect": "Disconnect",
-                    "edit": "Edit"
+                    "edit": "Edit",
+                    "selectLocation": "Select Location",
+                    "experienceNotHosted": "Experience not hosted yet",
+                    "needHostExperience": "You need to host your experience to enable publishing.",
+                    "experienceHosted": "Experience is hosted",
+                    "hostedInMetaverse": "Your experience is hosted in The Sandbox metaverse."
                 },
                 "accessControl": {
                     "title": "Access Control",
                     "description": "You can establish a gating criteria to access your Experience.",
-                    "buttonText": "Set up"
+                    "buttonText": "Set up",
+                    "noAccessCriteriaDefined": "No access criteria defined",
+                    "canMonetizeTheExperience": "By defining an access criteria you can monetize the experience.",
+                    "gatingDefined": "Access criteria defined",
+                    "openingDate": "Opening date: {date}",
+                    "openForEveryone": "Experience is open to everyone",
+                    "passRequired": "Experience requires a Pass:",
+                    "notSet": "Not set"
                 },
                 "contentWarning": {
                     "title": "Content Warning",
                     "description": "You can set up Content Warning if needed.",
-                    "buttonText": "Set up"
+                    "buttonText": "Set up",
+                    "notDefined": "Content Warning not defined",
+                    "canDefine": "If you want it you can define the content warning."
                 },
                 "playPage": {
                     "title": "Playpage",
                     "description": "A Playpage is created automatically to promote your Experience.",
-                    "buttonText": "Share"
+                    "buttonText": "Share",
+                    "edit": "Edit",
+                    "mandatoryContentMissing": "Mandatory content missing",
+                    "contentMissed": "Description, images and video",
+                    "experiencePageReady": "Experience Page Ready",
+                    "canChange": "You can still change the content clicking Edit button."
+                },
+                "requiredCard": "Step is required to publish",
+                "welcomeBackCard": {
+                    "title": "Welcome back!",
+                    "description": "Are you preparing an update already?",
+                    "allRequiredItemsAreNeeded": "Remember you need to comply with all the required items to Update the experience with a new version.",
+                    "useExperiencePage": "Also we recommend telling your players/users about all the improvements included in this new version, using the description area in the ExperiencePage editor."
+                },
+                "wellDoneCard": {
+                    "title": "Well done!",
+                    "description": "You are getting closer to publish the experience. Now let’s continue with the pending steps."
+                },
+                "welcomeCard": {
+                    "title": "Welcome to the Experience Hub!",
+                    "description": "Here you can choose the location in the metaverse, review the assets included, create a promotional landing page and more!",
+                    "stepsToPublish": "In order to publish you need to complete all the PENDING steps.",
+                    "notReadyToPublish": "Not ready to publish",
+                    "tasksToSolve": "You need to solve the pending tasks to enable publishing."
+                },
+                "canPublishCard": {
+                    "title": "Wow! Everything looks good already!",
+                    "description": "You can now set this experience as open for the public. It will be playable from the Map and from the Experience Page.",
+                    "canWorkInDetails": "If you want you can continue working on any detail or even with the optional topics, before publishing.",
+                    "readyToPublish": "Ready to publish",
+                    "pressPublishButton": "If you are ready, the only thing left is to press the PUBLISH button."
+                },
+                "publishedCard": {
+                    "title": "Congratulations!",
+                    "description": "Your experience is already available to be accessed by anyone from the Sandbox Map, or from the Experience Page.",
+                    "canPrepareAnUpdate": "Now remember you can prepare an update to the published experience, by selecting DRAFT in the “version selector”.",
+                    "experiencePublished": "Experience published"
                 }
             },
-            "pageTitle": "Sandbox - Experience Hub"
+            "pageTitle": "Sandbox - Experience Hub",
+            "title": "Experience Hub"
         },
         "gating": {
             "timestamp": "Timestamp",
@@ -5667,7 +5732,9 @@
                 "layer2": "Polygon"
             },
             "viewLess": "View less <<<",
-            "viewMore": "View more >>>"
+            "viewMore": "View more >>>",
+            "tooltipMinting": "Minting not available for basic or exclusive asset",
+            "tooltipWaitingMinting": "Waiting for prev minting"
         },
         "avatar": {
             "empty": "This list is empty",
@@ -6694,9 +6761,12 @@
             "mainVideo": "Main video",
             "reserved": "Reserved",
             "video": "Video",
-            "image": "Image"
+            "image": "Image",
+            "editMainVideo": "Edit main video",
+            "uploadMainVideo": "Upload your main video here."
         },
-        "mobileDisclaimer": "To play this experience you must connect from a desktop computer"
+        "mobileDisclaimer": "To play this experience you must connect from a desktop computer",
+        "contentLimitReached": "You are reached the limit of content."
     },
     "collectionPage": {
         "goBack": "Back",
@@ -14094,7 +14164,11 @@
                 "private": "Private",
                 "setPrivate": "Set as Private",
                 "setNotPrivate": "Remove private",
-                "publishToMint": "You have to publish the asset before minting it"
+                "publishToMint": "You have to publish the asset before minting it",
+                "exclusive": "Exclusive",
+                "basic": "Basic",
+                "setFlag": "Set as {flag}",
+                "removeFlag": "Remove {flag}"
             },
             "pagination": {
                 "page": "Page",
@@ -15785,5 +15859,12 @@
     "lands": {
         "title": "Explore Land & Estates",
         "subtitle": "Discover Land & Estates and start creating unique Experiences in the Metaverse."
+    },
+    "sidebarSell": {
+        "polygonTooltip": "",
+        "ethTooltip": "",
+        "ethHasSell": "",
+        "cancelSell": "",
+        "bridgeAsset": ""
     }
 }
