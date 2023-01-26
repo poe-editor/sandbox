@@ -554,7 +554,7 @@
         "avatar": {
             "title": "더 샌드박스 아바타",
             "description": {
-                "1": "프로필 사진을 한층 더 새롭게 꾸며보세요. 이제 마음에 드는\n아바타를 선택하여 더 샌드박스 메타버스를 탐험할 수 있습니다.",
+                "1": "프로필 사진을 한 단계 더 업그레이드! 이제 마음에 드는\n아바타를 선택하여 더 샌드박스 메타버스를 탐험할 수 있습니다.",
                 "2": "자주 사용하는 지갑을 연결하여 외부 아바타가 있는지 확인해 보세요."
             },
             "button": {
@@ -572,13 +572,13 @@
             "title": "스티브 아오키 아바타 민팅하기",
             "description": "나만의 스티브 아오키 아바타를 획득하고 메타버스에 함께하세요!",
             "button": "지금 민팅하기",
-            "button2": "무료 아바타 생성하기",
+            "button2": "무료로 아바타 만들기",
             "disabled": "* 7월 25일에 민팅이 시작됩니다"
         },
         "avatarSeason3": {
             "title": "나만의 아바타로 플레이",
             "description": {
-                "1": "프로필 사진을 한층 더 새롭게 꾸며보세요. 이제 마음에 드는 아바타를 선택하여 더 샌드박스 메타버스를 탐험할 수 있습니다."
+                "1": "프로필 사진을 한 단계 더 업그레이드! 이제 마음에 드는 아바타를 선택하여 더 샌드박스 메타버스를 탐험할 수 있습니다."
             }
         },
         "nftSeason3": {
@@ -594,10 +594,7 @@
             "title": "왜 SAND인가요?",
             "buttonText": "지금 구매",
             "newTitle": "SAND란?",
-            "description": {
-                "mainText": "{0}는 더 샌드박스의 유틸리티 토큰입니다. {0}로 랜드, 애셋을 구입하고 스테이킹 풀에 투자할 수 있습니다.",
-                "0": "SAND"
-            },
+            "description": "$SAND is The Sandbox utility token. Get $SAND to buy LAND, ASSETS, or to invest in staking pools.",
             "newButtonText": "SAND 구입"
         },
         "experiencesSeason3": {
@@ -613,7 +610,7 @@
             "title": "나만의 케어 베어 민팅하기",
             "description": "11월 14일, 더 샌드박스에서 나만의 케어 베어 아바타를 구매하고 메타버스로 여행을 떠나요!",
             "btn1": "더 알아보기",
-            "btn2": "무료 아바타 만들기",
+            "btn2": "무료로 아바타 만들기",
             "btn1SecondLabel": "지금 구입하기",
             "soldOutTag": "SOLD OUT"
         },
@@ -622,14 +619,14 @@
             "description": "플레이보이의 69주년을 기념하여, 플레이보이 파티 피플 컬렉션이 메타버스에 찾아왔습니다!",
             "title-mobile": "아바타 구입하기",
             "btn1": "더 알아보기",
-            "btn2": "무료 아바타 만들기",
+            "btn2": "무료로 아바타 만들기",
             "btn1SecondLabel": "지금 구매하기",
             "soldOutTag": "SOLD OUT"
         },
         "avatarBanner": {
-            "title": "PLAY WITH YOUR OWN AVATAR",
-            "description": "Take your profile pic to the next level. Now you can choose your favorite Avatar to explore The Sandbox Metaverse.",
-            "btn": "Create free avatar"
+            "title": "내 아바타 가지고 놀기",
+            "description": "프로필 사진을 한 단계 더 업그레이드! 이제 마음에 드는 아바타를 선택하여 더 샌드박스 메타버스를 탐험할 수 있습니다.",
+            "btn": "무료로 아바타 만들기"
         }
     },
     "season": {
@@ -2512,8 +2509,8 @@
             "title": "NFT 컬렉션",
             "sandbox": "더 샌드박스",
             "featured": "추천",
-            "collectionFilter": "Collection Filters",
-            "collections": "Collections"
+            "collectionFilter": "컬렉션 필터",
+            "collections": "컬렉션"
         },
         "nftTypes": {
             "title": "NFT 유형",
@@ -2651,12 +2648,12 @@
             "equipment": "장비",
             "searchresult": "검색 결과",
             "allAssets": "모든 애셋",
-            "allAssetsFilters": "All Assets Filters",
-            "entityFilters": "Entity Filters",
-            "equipmentFilters": "Equipment Filters",
-            "artFilters": "Art Filters",
-            "landFilters": "LAND Filters",
-            "avatarsFilters": "Avatars Filters"
+            "allAssetsFilters": "모든 애셋 필터",
+            "entityFilters": "엔티티 필터",
+            "equipmentFilters": "장비 필터",
+            "artFilters": "아트 필터",
+            "landFilters": "랜드 필터",
+            "avatarsFilters": "아바타 필터"
         },
         "sorts": {
             "title": "정렬 기준",
@@ -2908,7 +2905,7 @@
             "quantity": "수량",
             "price": "가격"
         },
-        "name": "Name"
+        "name": "이름"
     },
     "create": {
         "meta": {
@@ -3036,7 +3033,16 @@
                 "text": "게임을 시작하고 애셋을 배치하여 경험을 만들어 보세요.",
                 "buttonText": "지금 사전 등록하세요!"
             },
-            "release": "0.7.1"
+            "release": "0.7.1",
+            "downloadModal": {
+                "title": "Build your Experience with Game Maker v0.8",
+                "downloadLatestMac": "Download for macOS",
+                "downloadPreviousMac": "Download v0.7 for macOS",
+                "downloadLatestWindows": "Download for Windows",
+                "downloadPreviousWindows": "Download v0.7 for Windows",
+                "warningText": "Once a v0.7 experience is saved in v0.8, it won't open in previous versions again. Behaviour may differ between v0.7 and v0.8. To check our changes, ",
+                "v8Changelog": "see the v0.8 changelog."
+            }
         },
         "voxedit": {
             "meta": {
@@ -3187,7 +3193,7 @@
                 },
                 "title1": "만들어 봐요",
                 "title2": "나만의 아바타",
-                "description1": "프로필 사진을 한층 더 새롭게 꾸며보세요. 이제 마음에 드는 아바타를 선택하여 더 샌드박스 메타버스를 탐험할 수 있습니다.",
+                "description1": "프로필 사진을 한 단계 더 업그레이드! 이제 마음에 드는 아바타를 선택하여 더 샌드박스 메타버스를 탐험할 수 있습니다.",
                 "description2": "지갑을 연결하여 외부 아바타가 있는지 확인해 보세요.",
                 "button": "지갑 연결하기"
             },
@@ -3853,21 +3859,29 @@
             "pageTitle": "더 샌드박스 - 경험 위치",
             "placement": {
                 "pageTitle": "더 샌드박스 - 경험 배치"
-            }
+            },
+            "publishButton": "Publish",
+            "unpublishButton": "Unpublish"
         },
         "disconnect": "이 경험은 곧 위치에서 연결이 해제됩니다.",
         "hub": {
             "versionSelectorText": "버전:",
             "featureStatus": {
                 "ready": "준비됨",
-                "pending": "보류 중"
+                "pending": "보류 중",
+                "optional": "Optional"
             },
             "checklistCards": {
                 "assetReview": {
                     "title": "애셋 리뷰",
                     "description": "애셋을 게시하기 전에 소유권을 가지고 있는지, 모든 애셋이 민팅되었는지 확인하세요.",
                     "allAssetsOk": "애셋 준비됨",
-                    "someNeedReview": "애셋 준비됨 | 1개 애셋 리뷰 대기 중 | {count}개 애셋 리뷰 대기 중"
+                    "someNeedReview": "애셋 준비됨 | 1개 애셋 리뷰 대기 중 | {count}개 애셋 리뷰 대기 중",
+                    "pendingReview": "Pending review",
+                    "assetsIssues": "Buy, mint or replace the assets to solve the issue.",
+                    "reviewReady": "Review is ready",
+                    "readyToStart": "Your experience are ready and available to start.",
+                    "oneStepCloser": "You are one step closer to publish! All the assets in your Experience are ready and available."
                 },
                 "locationSelection": {
                     "title": "위치 선택",
@@ -3877,25 +3891,76 @@
                     "availableLocations": "가능한 위치 없음 | 가능한 위치 1개 | 가능한 위치 {count}개",
                     "alreadyConnectedDescription": "이미 경험을 배치했습니다. 여기에서 위치를 편집할 수 있습니다.",
                     "disconnect": "연결 해제",
-                    "edit": "편집하기"
+                    "edit": "편집하기",
+                    "selectLocation": "Select Location",
+                    "experienceNotHosted": "Experience not hosted yet",
+                    "needHostExperience": "You need to host your experience to enable publishing.",
+                    "experienceHosted": "Experience is hosted",
+                    "hostedInMetaverse": "Your experience is hosted in The Sandbox metaverse."
                 },
                 "accessControl": {
                     "title": "액세스 조정",
                     "description": "경험에 액세스하기 위한 게이팅 기준을 설정할 수 있습니다.",
-                    "buttonText": "설정하기"
+                    "buttonText": "설정하기",
+                    "noAccessCriteriaDefined": "No access criteria defined",
+                    "canMonetizeTheExperience": "By defining an access criteria you can monetize the experience.",
+                    "gatingDefined": "Access criteria defined",
+                    "openingDate": "Opening date: {date}",
+                    "openForEveryone": "Experience is open to everyone",
+                    "passRequired": "Experience requires a Pass:",
+                    "notSet": "Not set"
                 },
                 "contentWarning": {
                     "title": "민감한 콘텐츠",
                     "description": "필요 시 민감한 콘텐츠 경고를 설정할 수 있습니다.",
-                    "buttonText": "설정하기"
+                    "buttonText": "설정하기",
+                    "notDefined": "Content Warning not defined",
+                    "canDefine": "If you want it you can define the content warning."
                 },
                 "playPage": {
                     "title": "플레이페이지",
                     "description": "경험을 홍보하기 위해 자동으로 플레이페이지가 생성되었습니다.",
-                    "buttonText": "공유하기"
+                    "buttonText": "공유하기",
+                    "edit": "Edit",
+                    "mandatoryContentMissing": "Mandatory content missing",
+                    "contentMissed": "Description, images and video",
+                    "experiencePageReady": "Experience Page Ready",
+                    "canChange": "You can still change the content clicking Edit button."
+                },
+                "requiredCard": "Step is required to publish",
+                "welcomeBackCard": {
+                    "title": "Welcome back!",
+                    "description": "Are you preparing an update already?",
+                    "allRequiredItemsAreNeeded": "Remember you need to comply with all the required items to Update the experience with a new version.",
+                    "useExperiencePage": "Also we recommend telling your players/users about all the improvements included in this new version, using the description area in the ExperiencePage editor."
+                },
+                "wellDoneCard": {
+                    "title": "Well done!",
+                    "description": "You are getting closer to publish the experience. Now let’s continue with the pending steps."
+                },
+                "welcomeCard": {
+                    "title": "Welcome to the Experience Hub!",
+                    "description": "Here you can choose the location in the metaverse, review the assets included, create a promotional landing page and more!",
+                    "stepsToPublish": "In order to publish you need to complete all the PENDING steps.",
+                    "notReadyToPublish": "Not ready to publish",
+                    "tasksToSolve": "You need to solve the pending tasks to enable publishing."
+                },
+                "canPublishCard": {
+                    "title": "Wow! Everything looks good already!",
+                    "description": "You can now set this experience as open for the public. It will be playable from the Map and from the Experience Page.",
+                    "canWorkInDetails": "If you want you can continue working on any detail or even with the optional topics, before publishing.",
+                    "readyToPublish": "Ready to publish",
+                    "pressPublishButton": "If you are ready, the only thing left is to press the PUBLISH button."
+                },
+                "publishedCard": {
+                    "title": "Congratulations!",
+                    "description": "Your experience is already available to be accessed by anyone from the Sandbox Map, or from the Experience Page.",
+                    "canPrepareAnUpdate": "Now remember you can prepare an update to the published experience, by selecting DRAFT in the “version selector”.",
+                    "experiencePublished": "Experience published"
                 }
             },
-            "pageTitle": "더 샌드박스 - 경험 허브"
+            "pageTitle": "더 샌드박스 - 경험 허브",
+            "title": "Experience Hub"
         },
         "gating": {
             "timestamp": "타임스탬프",
@@ -5667,7 +5732,9 @@
                 "layer2": "폴리곤"
             },
             "viewLess": "숨기기 <<<",
-            "viewMore": "더 보기 >>>"
+            "viewMore": "더 보기 >>>",
+            "tooltipMinting": "Minting not available for basic or exclusive asset",
+            "tooltipWaitingMinting": "Waiting for prev minting"
         },
         "avatar": {
             "empty": "이 목록은 비어 있습니다",
@@ -6694,9 +6761,12 @@
             "mainVideo": "메인 영상",
             "reserved": "예약됨",
             "video": "영상",
-            "image": "이미지"
+            "image": "이미지",
+            "editMainVideo": "Edit main video",
+            "uploadMainVideo": "Upload your main video here."
         },
-        "mobileDisclaimer": "이 경험은 데스크톱에서만 플레이 가능합니다."
+        "mobileDisclaimer": "이 경험은 데스크톱에서만 플레이 가능합니다.",
+        "contentLimitReached": "You are reached the limit of content."
     },
     "collectionPage": {
         "goBack": "뒤로",
@@ -12678,11 +12748,11 @@
         },
         "2023": {
             "1": {
-                "date": "",
-                "title": "",
+                "date": "2023년 1월 23일 - 게임 메이커 0.8.0 변경 내역",
+                "title": "V0.8 업그레이드",
                 "list": {
                     "0": {
-                        "title": "",
+                        "title": "시작하기 전에",
                         "list": {
                             "0": {
                                 "title": ""
@@ -12694,7 +12764,7 @@
                                 "title": ""
                             },
                             "3": {
-                                "title": ""
+                                "title": "0.8 빌드에서 새로운 행동이 적용된 경험을 저장하면, 0.7 버전에서는 해당 경험을 오픈할 수 없습니다."
                             },
                             "4": {
                                 "title": ""
@@ -12720,7 +12790,7 @@
                         }
                     },
                     "2": {
-                        "title": "",
+                        "title": "마이그레이션과 업그레이드",
                         "list": {
                             "0": {
                                 "title": ""
@@ -12740,11 +12810,11 @@
                         }
                     },
                     "3": {
-                        "title": "",
+                        "title": "싱글플레이어 vs. 멀티플레이어",
                         "subtitle": ""
                     },
                     "4": {
-                        "title": "",
+                        "title": "싱글플레이어 경험",
                         "subtitle": "",
                         "list": {
                             "0": {
@@ -12768,7 +12838,7 @@
                         }
                     },
                     "5": {
-                        "title": "",
+                        "title": "멀티플레이어 경험",
                         "subtitle": "",
                         "list": {
                             "0": {
@@ -12793,13 +12863,13 @@
                         "subtitle": ""
                     },
                     "7": {
-                        "title": ""
+                        "title": "3C"
                     },
                     "8": {
-                        "title": "",
+                        "title": "수영하기",
                         "list": {
                             "0": {
-                                "title": ""
+                                "title": "아바타가 액체에 들어가면 수영합니다."
                             },
                             "1": {
                                 "title": ""
@@ -12816,21 +12886,21 @@
                         }
                     },
                     "9": {
-                        "title": "",
+                        "title": "쪼그려 앉기",
                         "list": {
                             "0": {
-                                "title": ""
+                                "title": "C 키를 누르면 아바타가 쪼그려 앉습니다."
                             },
                             "1": {
-                                "title": ""
+                                "title": "아바타는 이 동작으로 천장이 낮은 장소에서 쪼그려 앉은 자세로 통과할 수 있습니다."
                             }
                         }
                     },
                     "10": {
-                        "title": "",
+                        "title": "기어가기",
                         "list": {
                             "0": {
-                                "title": ""
+                                "title": "C 키를 누르고 있으면 아바타가 땅을 기어갑니다."
                             },
                             "1": {
                                 "title": ""
@@ -12838,7 +12908,7 @@
                         }
                     },
                     "11": {
-                        "title": "",
+                        "title": "미끄러지기",
                         "list": {
                             "0": {
                                 "title": ""
@@ -12852,7 +12922,7 @@
                         }
                     },
                     "12": {
-                        "title": "",
+                        "title": "칼집에 넣기",
                         "list": {
                             "0": {
                                 "title": ""
@@ -12866,7 +12936,7 @@
                         }
                     },
                     "13": {
-                        "title": "",
+                        "title": "새로운 행동과 컴포넌트",
                         "subtitle": ""
                     },
                     "14": {
@@ -12881,7 +12951,7 @@
                                 "subtitle": ""
                             },
                             "2": {
-                                "title": "",
+                                "title": "멀티플레이어",
                                 "subtitle": ""
                             }
                         }
@@ -12915,7 +12985,7 @@
                                 "subtitle": ""
                             },
                             "2": {
-                                "title": "",
+                                "title": "멀티플레이어",
                                 "subtitle": ""
                             }
                         }
@@ -12932,7 +13002,7 @@
                                 "subtitle": ""
                             },
                             "2": {
-                                "title": "",
+                                "title": "멀티플레이어",
                                 "subtitle": ""
                             }
                         }
@@ -12949,7 +13019,7 @@
                                 "subtitle": ""
                             },
                             "2": {
-                                "title": "",
+                                "title": "멀티플레이어",
                                 "subtitle": ""
                             }
                         }
@@ -12975,7 +13045,7 @@
                         "title": "",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
@@ -12996,7 +13066,7 @@
                                 "subtitle": ""
                             },
                             "2": {
-                                "title": "",
+                                "title": "멀티플레이어",
                                 "subtitle": ""
                             }
                         }
@@ -13005,7 +13075,7 @@
                         "title": "",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
@@ -13022,7 +13092,7 @@
                         "title": "",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
@@ -13030,7 +13100,7 @@
                                 "subtitle": ""
                             },
                             "2": {
-                                "title": "",
+                                "title": "멀티플레이어",
                                 "subtitle": ""
                             }
                         }
@@ -14091,7 +14161,11 @@
                 "private": "나만 보기",
                 "setPrivate": "나만 보기로 설정",
                 "setNotPrivate": "나만 보기 설정 해제",
-                "publishToMint": "애셋을 민팅하기 전에 게시해야 합니다."
+                "publishToMint": "애셋을 민팅하기 전에 게시해야 합니다.",
+                "exclusive": "Exclusive",
+                "basic": "Basic",
+                "setFlag": "Set as {flag}",
+                "removeFlag": "Remove {flag}"
             },
             "pagination": {
                 "page": "페이지",
@@ -14707,7 +14781,7 @@
             "assetscard": "애셋",
             "bycard": "by",
             "button1": "컬렉션 알아보기",
-            "button2": "무료 아바타 생성하기",
+            "button2": "무료로 아바타 만들기",
             "linkcopied": "공개 링크가 클립보드에 복사되었습니다."
         },
         "noresult": {
@@ -15768,19 +15842,26 @@
         }
     },
     "entities": {
-        "title": "Explore Entities",
-        "subtitle": "Discover Entities and start creating unique Experiences in the Metaverse."
+        "title": "엔티티 찾아보기",
+        "subtitle": "다양한 엔티티를 살펴보고 메타버스 속 독특한 경험을 제작해 보세요."
     },
     "equipments": {
-        "title": "Explore Equipments",
-        "subtitle": "Discover Equipments and start creating unique Experiences in the Metaverse."
+        "title": "장비 찾아보기",
+        "subtitle": "다양한 장비를 살펴보고 메타버스 속 독특한 경험을 제작해 보세요."
     },
     "assetsPage": {
-        "title": "Explore All Assets",
-        "subtitle": "Discover Assets and start creating unique Experiences in the Metaverse."
+        "title": "모든 애셋 찾아보기",
+        "subtitle": "다양한 애셋을 살펴보고 메타버스 속 독특한 경험을 제작해 보세요."
     },
     "lands": {
-        "title": "Explore Land & Estates",
-        "subtitle": "Discover Land & Estates and start creating unique Experiences in the Metaverse."
+        "title": "랜드와 이스테이트 찾아보기",
+        "subtitle": "다양한 랜드와 이스테이트를 살펴보고 메타버스 속 독특한 경험을 제작해 보세요."
+    },
+    "sidebarSell": {
+        "polygonTooltip": "",
+        "ethTooltip": "",
+        "ethHasSell": "",
+        "cancelSell": "",
+        "bridgeAsset": ""
     }
 }
