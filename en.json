@@ -594,7 +594,10 @@
             "title": "WHY SAND?",
             "buttonText": "Buy now",
             "newTitle": "GOT SAND?",
-            "description": "$SAND is The Sandbox utility token. Get $SAND to buy LAND, ASSETS, or to invest in staking pools.",
+            "description": {
+                "mainText": "{0} is The Sandbox utility token. Get {0} to buy LAND, ASSETS, or to invest in staking pools.",
+                "0": "SAND"
+            },
             "newButtonText": "Buy SAND"
         },
         "experiencesSeason3": {
