@@ -594,7 +594,10 @@
             "title": "왜 SAND인가요?",
             "buttonText": "지금 구매",
             "newTitle": "SAND란?",
-            "description": "$SAND is The Sandbox utility token. Get $SAND to buy LAND, ASSETS, or to invest in staking pools.",
+            "description": {
+                "mainText": "{0}는 더 샌드박스의 유틸리티 토큰입니다. {0}로 랜드, 애셋을 구입하고 스테이킹 풀에 투자할 수 있습니다.",
+                "0": "SAND"
+            },
             "newButtonText": "SAND 구입"
         },
         "experiencesSeason3": {
@@ -3035,13 +3038,13 @@
             },
             "release": "0.7.1",
             "downloadModal": {
-                "title": "Build your Experience with Game Maker v0.8",
-                "downloadLatestMac": "Download for macOS",
-                "downloadPreviousMac": "Download v0.7 for macOS",
-                "downloadLatestWindows": "Download for Windows",
-                "downloadPreviousWindows": "Download v0.7 for Windows",
-                "warningText": "Once a v0.7 experience is saved in v0.8, it won't open in previous versions again. Behaviour may differ between v0.7 and v0.8. To check our changes, ",
-                "v8Changelog": "see the v0.8 changelog."
+                "title": "게임 메이커 v0.8로 경험 제작하기",
+                "downloadLatestMac": "macOS용 다운받기",
+                "downloadPreviousMac": "macOS용 v0.7 다운받기",
+                "downloadLatestWindows": "Windows용 다운받기",
+                "downloadPreviousWindows": "Windows용 v0.7 다운받기",
+                "warningText": "v0.7에서 제작된 경험을 v0.8에서 저장하면 이전 버전의 게임 메이커에서는 다시 해당 경험을 오픈할 수 없습니다. 버전별로 행동의 작동 방식이 달라질 수 있습니다. 변경된 내용을 확인하려면 ",
+                "v8Changelog": "v0.8 변경 내역을 확인하세요."
             }
         },
         "voxedit": {
@@ -3877,11 +3880,11 @@
                     "description": "애셋을 게시하기 전에 소유권을 가지고 있는지, 모든 애셋이 민팅되었는지 확인하세요.",
                     "allAssetsOk": "애셋 준비됨",
                     "someNeedReview": "애셋 준비됨 | 1개 애셋 리뷰 대기 중 | {count}개 애셋 리뷰 대기 중",
-                    "pendingReview": "Pending review",
+                    "pendingReview": "리뷰 보류 중",
                     "assetsIssues": "Buy, mint or replace the assets to solve the issue.",
-                    "reviewReady": "Review is ready",
-                    "readyToStart": "Your experience are ready and available to start.",
-                    "oneStepCloser": "You are one step closer to publish! All the assets in your Experience are ready and available."
+                    "reviewReady": "리뷰 완료",
+                    "readyToStart": "모든 준비가 완료되어 이제 경험을 플레이할 수 있습니다.",
+                    "oneStepCloser": "게시 준비가 거의 완료되었습니다! 경험 내 모든 애셋이 제작되어 사용 가능합니다."
                 },
                 "locationSelection": {
                     "title": "위치 선택",
@@ -3892,7 +3895,7 @@
                     "alreadyConnectedDescription": "이미 경험을 배치했습니다. 여기에서 위치를 편집할 수 있습니다.",
                     "disconnect": "연결 해제",
                     "edit": "편집하기",
-                    "selectLocation": "Select Location",
+                    "selectLocation": "위치 선택",
                     "experienceNotHosted": "Experience not hosted yet",
                     "needHostExperience": "You need to host your experience to enable publishing.",
                     "experienceHosted": "Experience is hosted",
@@ -3905,8 +3908,8 @@
                     "noAccessCriteriaDefined": "No access criteria defined",
                     "canMonetizeTheExperience": "By defining an access criteria you can monetize the experience.",
                     "gatingDefined": "Access criteria defined",
-                    "openingDate": "Opening date: {date}",
-                    "openForEveryone": "Experience is open to everyone",
+                    "openingDate": "오픈 일자: {date}",
+                    "openForEveryone": "누구나 경험을 플레이할 수 있습니다.",
                     "passRequired": "Experience requires a Pass:",
                     "notSet": "Not set"
                 },
@@ -3921,15 +3924,15 @@
                     "title": "플레이페이지",
                     "description": "경험을 홍보하기 위해 자동으로 플레이페이지가 생성되었습니다.",
                     "buttonText": "공유하기",
-                    "edit": "Edit",
-                    "mandatoryContentMissing": "Mandatory content missing",
-                    "contentMissed": "Description, images and video",
+                    "edit": "편집하기",
+                    "mandatoryContentMissing": "필수 콘텐츠가 누락되었습니다.",
+                    "contentMissed": "설명, 이미지와 영상",
                     "experiencePageReady": "Experience Page Ready",
                     "canChange": "You can still change the content clicking Edit button."
                 },
                 "requiredCard": "Step is required to publish",
                 "welcomeBackCard": {
-                    "title": "Welcome back!",
+                    "title": "환영합니다!",
                     "description": "Are you preparing an update already?",
                     "allRequiredItemsAreNeeded": "Remember you need to comply with all the required items to Update the experience with a new version.",
                     "useExperiencePage": "Also we recommend telling your players/users about all the improvements included in this new version, using the description area in the ExperiencePage editor."
@@ -3939,8 +3942,8 @@
                     "description": "You are getting closer to publish the experience. Now let’s continue with the pending steps."
                 },
                 "welcomeCard": {
-                    "title": "Welcome to the Experience Hub!",
-                    "description": "Here you can choose the location in the metaverse, review the assets included, create a promotional landing page and more!",
+                    "title": "경험 허브에 오신 것을 환영합니다!",
+                    "description": "여기에서 메타버스 내 위치를 선택하고, 포함된 애셋을 검토하고, 홍보용 랜딩 페이지 제작 등 다양한 작업을 할 수 있습니다!",
                     "stepsToPublish": "In order to publish you need to complete all the PENDING steps.",
                     "notReadyToPublish": "Not ready to publish",
                     "tasksToSolve": "You need to solve the pending tasks to enable publishing."
@@ -3949,18 +3952,18 @@
                     "title": "Wow! Everything looks good already!",
                     "description": "You can now set this experience as open for the public. It will be playable from the Map and from the Experience Page.",
                     "canWorkInDetails": "If you want you can continue working on any detail or even with the optional topics, before publishing.",
-                    "readyToPublish": "Ready to publish",
-                    "pressPublishButton": "If you are ready, the only thing left is to press the PUBLISH button."
+                    "readyToPublish": "게시 준비 완료",
+                    "pressPublishButton": "모든 준비가 완료되었다면, 게시 버튼을 눌러 경험을 게시하세요."
                 },
                 "publishedCard": {
-                    "title": "Congratulations!",
+                    "title": "축하합니다!",
                     "description": "Your experience is already available to be accessed by anyone from the Sandbox Map, or from the Experience Page.",
                     "canPrepareAnUpdate": "Now remember you can prepare an update to the published experience, by selecting DRAFT in the “version selector”.",
-                    "experiencePublished": "Experience published"
+                    "experiencePublished": "게시된 경험"
                 }
             },
             "pageTitle": "더 샌드박스 - 경험 허브",
-            "title": "Experience Hub"
+            "title": "경험 허브"
         },
         "gating": {
             "timestamp": "타임스탬프",
@@ -6762,8 +6765,8 @@
             "reserved": "예약됨",
             "video": "영상",
             "image": "이미지",
-            "editMainVideo": "Edit main video",
-            "uploadMainVideo": "Upload your main video here."
+            "editMainVideo": "메인 영상 편집",
+            "uploadMainVideo": "여기에 메인 영상을 업로드해 주세요."
         },
         "mobileDisclaimer": "이 경험은 데스크톱에서만 플레이 가능합니다.",
         "contentLimitReached": "You are reached the limit of content."
@@ -7094,7 +7097,7 @@
                 "text5": "마이그레이션 페이지로 이동해 주세요. 마이그레이션은 100% 무료입니다.",
                 "required": "마이그레이션 필요",
                 "infoText": "가스 수수료 없음",
-                "textInventory": "We have deployed a new and enhanced version of the 랜드 smart contract.",
+                "textInventory": "보다 편리하고 새로운 버전의 랜드 스마트 컨트랙트가 배포되었습니다.",
                 "textInventory2": "You can find all the details related to the migration on the ",
                 "textInventorySubtext": "Please proceed to the migration page. The migration is completely free."
             },
@@ -8378,7 +8381,7 @@
                 "home": "홈",
                 "unique": "고유 아바타",
                 "snoopverse": "스눕버스",
-                "roadmap": "Roadmap",
+                "roadmap": "로드맵",
                 "mint": "아바타 민팅하기",
                 "mintSoon": "곧 민팅 예정"
             },
@@ -12039,14 +12042,14 @@
                     "5": {
                         "subtitle": "이에 더하여 시작점으로 이용할 수 있는 8개의 신규 경험 템플릿 (로직 미포함)을 추가했습니다.",
                         "list": {
-                            "0": "랜드scape - Desert 1x1 / Forgotten Waste랜드",
-                            "1": "랜드scape - Desert 2x2 / Barren Night",
-                            "2": "랜드scape - Forest 1x1 / Wood랜드s",
-                            "3": "랜드scape - Forest 2x2 / Dusk Forest",
-                            "4": "랜드scape - Tropical Volcano 1x1 / Adventure Is랜드",
-                            "5": "랜드scape - Ice Cave 1x1 / Ice Grotto",
-                            "6": "랜드scape - Lake Shores 1x1 / Lake Shores",
-                            "7": "랜드scape - The Block 1x1 / The Block"
+                            "0": "Landscape - Desert 1x1 / Forgotten Wasteland",
+                            "1": "Landscape - Desert 2x2 / Barren Night",
+                            "2": "Landscape - Forest 1x1 / Woodlands",
+                            "3": "Landscape - Forest 2x2 / Dusk Fores",
+                            "4": "Landscape - Tropical Volcano 1x1 / Adventure Island",
+                            "5": "Landscape - Ice Cave 1x1 / Ice Grotto",
+                            "6": "Landscape - Lake Shores 1x1 / Lake Shores",
+                            "7": "Landscape - The Block 1x1 / The Block"
                         }
                     }
                 }
@@ -12755,7 +12758,7 @@
                         "title": "시작하기 전에",
                         "list": {
                             "0": {
-                                "title": ""
+                                "title": "이제 행동 선택창의 행동 이름에 [MP] 또는 [SP]가 추가되어 표시됩니다. 즉, 새로운 MP 호환 솔루션 하에서 행동이 (다시) 제작되었음을 의미합니다."
                             },
                             "1": {
                                 "title": ""
@@ -12805,7 +12808,7 @@
                                 "title": ""
                             },
                             "4": {
-                                "title": ""
+                                "title": "v0.9.x에서는 v0.7.x 이하 버전에서 제작된 경험을 오픈할 수 없습니다."
                             }
                         }
                     },
@@ -12845,16 +12848,16 @@
                                 "title": ""
                             },
                             "1": {
-                                "title": ""
+                                "title": "[SP]는 "
                             },
                             "2": {
                                 "title": ""
                             },
                             "3": {
-                                "title": ""
+                                "title": "모든 [SP] 행동은 '로컬' 환경에서 작동합니다."
                             },
                             "4": {
-                                "title": ""
+                                "title": "모든 [MP] 행동은 '글로벌' 환경에서 작동합니다."
                             }
                         }
                     },
@@ -12872,16 +12875,16 @@
                                 "title": "아바타가 액체에 들어가면 수영합니다."
                             },
                             "1": {
-                                "title": ""
+                                "title": "이 신규 행동은 기존 경험에서 기본적으로 비활성화됩니다."
                             },
                             "2": {
-                                "title": ""
+                                "title": "이 신규 행동은 0.8 버전 게임 메이커로 제작된 신규 경험에서 기본적으로 활성화됩니다."
                             },
                             "4": {
-                                "title": ""
+                                "title": "Global Parameters/Controller/Behaviour"
                             },
                             "5": {
-                                "title": ""
+                                "title": "크리에이터는 이 토글 스위치를 이용해 수영하기 기능을 켜고 끌 수 있습니다."
                             }
                         }
                     },
@@ -12940,10 +12943,10 @@
                         "subtitle": ""
                     },
                     "14": {
-                        "title": "",
+                        "title": "Asker [SP][MP]",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
@@ -12957,10 +12960,10 @@
                         }
                     },
                     "15": {
-                        "title": "",
+                        "title": "Asset Spawner [SP][MP]",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
@@ -12968,16 +12971,16 @@
                                 "subtitle": ""
                             },
                             "2": {
-                                "title": "",
+                                "title": "멀티플레이어",
                                 "subtitle": ""
                             }
                         }
                     },
                     "16": {
-                        "title": "",
+                        "title": "Bird [MP]",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
@@ -12991,10 +12994,10 @@
                         }
                     },
                     "17": {
-                        "title": "",
+                        "title": "Button [SP][MP]",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
@@ -13008,10 +13011,10 @@
                         }
                     },
                     "18": {
-                        "title": "",
+                        "title": "Climbable [MP]",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
@@ -13025,24 +13028,7 @@
                         }
                     },
                     "19": {
-                        "title": "",
-                        "list": {
-                            "0": {
-                                "title": "",
-                                "subtitle": ""
-                            },
-                            "1": {
-                                "title": "",
-                                "subtitle": ""
-                            },
-                            "2": {
-                                "title": "",
-                                "subtitle": ""
-                            }
-                        }
-                    },
-                    "20": {
-                        "title": "",
+                        "title": "Collectable [SP][MP]",
                         "list": {
                             "0": {
                                 "title": "기능",
@@ -13051,14 +13037,31 @@
                             "1": {
                                 "title": "",
                                 "subtitle": ""
+                            },
+                            "2": {
+                                "title": "멀티플레이어",
+                                "subtitle": ""
+                            }
+                        }
+                    },
+                    "20": {
+                        "title": "Curio [MP]",
+                        "list": {
+                            "0": {
+                                "title": "기능",
+                                "subtitle": "모든 플레이어가 집을 수 있는 MP 컬렉터블입니다."
+                            },
+                            "1": {
+                                "title": "멀티플레이어",
+                                "subtitle": ""
                             }
                         }
                     },
                     "21": {
-                        "title": "",
+                        "title": "Door [MP]",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
@@ -13072,7 +13075,7 @@
                         }
                     },
                     "22": {
-                        "title": "",
+                        "title": "Drop [SP][MP]",
                         "list": {
                             "0": {
                                 "title": "기능",
@@ -13083,13 +13086,13 @@
                                 "subtitle": ""
                             },
                             "2": {
-                                "title": "",
+                                "title": "멀티플레이어",
                                 "subtitle": ""
                             }
                         }
                     },
                     "23": {
-                        "title": "",
+                        "title": "Image Display / NFT Image Display [MP]",
                         "list": {
                             "0": {
                                 "title": "기능",
@@ -13106,27 +13109,27 @@
                         }
                     },
                     "24": {
-                        "title": "",
+                        "title": "Indicator [SP][MP]",
                         "list": {
                             "0": {
-                                "title": "",
-                                "subtitle": ""
+                                "title": "기능",
+                                "subtitle": "0.7 버전과 동일한 기능 및 구성 유지"
                             },
                             "1": {
                                 "title": "",
                                 "subtitle": ""
                             },
                             "2": {
-                                "title": "",
+                                "title": "멀티플레이어",
                                 "subtitle": ""
                             }
                         }
                     },
                     "25": {
-                        "title": "",
+                        "title": "Message Broadcaster [SP][MP]",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
@@ -13134,16 +13137,16 @@
                                 "subtitle": ""
                             },
                             "2": {
-                                "title": "",
+                                "title": "멀티플레이어",
                                 "subtitle": ""
                             }
                         }
                     },
                     "26": {
-                        "title": "",
+                        "title": "NFT Details Display [SP][MP]",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
@@ -13151,16 +13154,16 @@
                                 "subtitle": ""
                             },
                             "2": {
-                                "title": "",
+                                "title": "멀티플레이어",
                                 "subtitle": ""
                             }
                         }
                     },
                     "27": {
-                        "title": "",
+                        "title": "Pickable [MP]",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
@@ -13168,7 +13171,7 @@
                                 "subtitle": ""
                             },
                             "2": {
-                                "title": "",
+                                "title": "멀티플레이어",
                                 "subtitle": ""
                             }
                         }
@@ -13185,16 +13188,16 @@
                                 "subtitle": ""
                             },
                             "2": {
-                                "title": "",
+                                "title": "멀티플레이어",
                                 "subtitle": ""
                             }
                         }
                     },
                     "29": {
-                        "title": "",
+                        "title": "Platform [MP]",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
@@ -13202,16 +13205,16 @@
                                 "subtitle": ""
                             },
                             "2": {
-                                "title": "",
+                                "title": "멀티플레이어",
                                 "subtitle": ""
                             }
                         }
                     },
                     "30": {
-                        "title": "",
+                        "title": "Play Sound [MP]",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
@@ -13219,16 +13222,16 @@
                                 "subtitle": ""
                             },
                             "2": {
-                                "title": "",
+                                "title": "멀티플레이어",
                                 "subtitle": ""
                             }
                         }
                     },
                     "31": {
-                        "title": "",
+                        "title": "Rarity VFX [MP]",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
@@ -13236,16 +13239,16 @@
                                 "subtitle": ""
                             },
                             "2": {
-                                "title": "",
+                                "title": "멀티플레이어",
                                 "subtitle": ""
                             }
                         }
                     },
                     "32": {
-                        "title": "",
+                        "title": "Replace Asset [SP][MP]",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
@@ -13253,16 +13256,16 @@
                                 "subtitle": ""
                             },
                             "2": {
-                                "title": "",
+                                "title": "멀티플레이어",
                                 "subtitle": ""
                             }
                         }
                     },
                     "33": {
-                        "title": "",
+                        "title": "Speaker [SP][MP]",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
@@ -13270,16 +13273,16 @@
                                 "subtitle": ""
                             },
                             "2": {
-                                "title": "",
+                                "title": "멀티플레이어",
                                 "subtitle": ""
                             }
                         }
                     },
                     "34": {
-                        "title": "",
+                        "title": "Toggle Behavior [MP]",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
@@ -13287,16 +13290,16 @@
                                 "subtitle": ""
                             },
                             "2": {
-                                "title": "",
+                                "title": "멀티플레이어",
                                 "subtitle": ""
                             }
                         }
                     },
                     "35": {
-                        "title": "",
+                        "title": "Animated Decoration v2 [SP][MP]",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
@@ -13304,124 +13307,124 @@
                                 "subtitle": ""
                             },
                             "2": {
-                                "title": "",
+                                "title": "멀티플레이어",
                                 "subtitle": ""
                             }
                         }
                     },
                     "36": {
-                        "title": "",
+                        "title": "Audio Streaming [MP]",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
-                                "title": "",
+                                "title": "멀티플레이어",
                                 "subtitle": ""
                             }
                         }
                     },
                     "37": {
-                        "title": "",
+                        "title": "Crowd Events [MP]",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
-                                "title": "",
+                                "title": "멀티플레이어",
                                 "subtitle": ""
                             }
                         }
                     },
                     "38": {
-                        "title": "",
+                        "title": "Light [MP]",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
-                                "title": "",
+                                "title": "멀티플레이어",
                                 "subtitle": ""
                             }
                         }
                     },
                     "39": {
-                        "title": "",
+                        "title": "Video Streaming [MP]",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
-                                "title": "",
-                                "subtitle": ""
+                                "title": "멀티플레이어",
+                                "subtitle": "[MP] 경험 내 모든 플레이어가 동시에 같은 영상이 재생되는 것을 시청할 수 있습니다."
                             }
                         }
                     },
                     "40": {
-                        "title": "",
+                        "title": "Slide [MP]",
                         "list": {
                             "0": {
-                                "title": "",
-                                "subtitle": ""
+                                "title": "기능",
+                                "subtitle": "아바타가 애셋 위로 미끄러지게 합니다."
                             },
                             "1": {
-                                "title": "",
-                                "subtitle": ""
+                                "title": "멀티플레이어",
+                                "subtitle": "[MP] 경험 내 모든 플레이어가 액터 위로 미끄러질 수 있습니다."
                             }
                         }
                     },
                     "41": {
-                        "title": "",
+                        "title": "Timed Events [SP][MP]",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
-                                "title": "",
+                                "title": "멀티플레이어",
                                 "subtitle": ""
                             }
                         }
                     },
                     "42": {
-                        "title": "",
+                        "title": "VFX [SP][MP]",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
-                                "title": "",
-                                "subtitle": ""
+                                "title": "멀티플레이어",
+                                "subtitle": "[SP] 각 플레이어가 서로 다른 VFX를 확인합니다.\n[MP] 경험 내 모든 플레이어가 동일한 VFX를 확인합니다."
                             }
                         }
                     },
                     "43": {
-                        "title": "",
+                        "title": "Weather Switcher [MP]",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
-                                "title": "",
-                                "subtitle": ""
+                                "title": "멀티플레이어",
+                                "subtitle": "[MP] 경험 내 모든 플레이어에게 동일한 날씨 환경을 적용합니다."
                             }
                         }
                     },
                     "44": {
-                        "title": "",
+                        "title": "Post Processing [MP]",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
-                                "title": "",
+                                "title": "멀티플레이어",
                                 "subtitle": ""
                             }
                         }
@@ -13430,12 +13433,12 @@
                         "title": "",
                         "list": {
                             "0": {
-                                "title": "",
+                                "title": "기능",
                                 "subtitle": ""
                             },
                             "1": {
-                                "title": "",
-                                "subtitle": ""
+                                "title": "멀티플레이어",
+                                "subtitle": "[MP] 이 행동으로 적용된 변경 사항이 모든 플레이어에게 동기화됩니다."
                             }
                         }
                     },
@@ -13477,33 +13480,33 @@
                                 "subtitle": ""
                             },
                             "1": {
-                                "title": "",
-                                "subtitle": ""
+                                "title": "메인 메뉴",
+                                "subtitle": "메인 메뉴에 새로운 UI와 UX가 적용되었습니다. 이제 메뉴에서 메인 메뉴 화면으로 자유롭게 이동 가능합니다. HUD 및 메뉴에서 메인 메뉴에 액세스하기 위한 일부 단축키가 추가되었습니다."
                             },
                             "2": {
-                                "title": "",
+                                "title": "인벤토리",
                                 "subtitle": ""
                             },
                             "3": {
-                                "title": "",
-                                "subtitle": ""
+                                "title": "유저 정보",
+                                "subtitle": "현재 유저 정보를 표시할 수 있는 새로운 UI 섹션이 추가되었습니다(이름, SAND, 경험)."
                             },
                             "4": {
-                                "title": "",
+                                "title": "미니맵",
                                 "subtitle": ""
                             },
                             "5": {
-                                "title": "",
+                                "title": "승리 화면",
                                 "subtitle": ""
                             }
                         }
                     },
                     "48": {
-                        "title": "",
+                        "title": "멀티플레이어 인벤토리",
                         "subtitle": ""
                     },
                     "49": {
-                        "title": "",
+                        "title": "알려진 이슈",
                         "list": {
                             "0": {
                                 "title": ""
@@ -13524,10 +13527,10 @@
                                 "title": ""
                             },
                             "6": {
-                                "title": ""
+                                "title": "기본 플랫폼 - 플랫폼이 아바타와 제대로 충돌하지 않음"
                             },
                             "7": {
-                                "title": ""
+                                "title": "위계 - 패어런팅 취소+실행 취소가 작동하지 않음"
                             },
                             "8": {
                                 "title": ""
@@ -13539,22 +13542,22 @@
                                 "title": ""
                             },
                             "11": {
-                                "title": ""
+                                "title": "아바타가 액체 블록과 충돌한 후 움직이지 않고 끼이는 문제"
                             },
                             "12": {
-                                "title": ""
+                                "title": "등반 - 아바타가 등반 가능한 애셋에 제대로 접촉하지 않음"
                             },
                             "13": {
-                                "title": ""
+                                "title": "신규 또는 새로 추가된 애셋이 실시간으로 라이브러리에 업데이트되지 않음"
                             },
                             "14": {
-                                "title": ""
+                                "title": "새로운 Basic Platform - 플랫폼이 아바타를 통과하거나 아바타에 장착되며, 옆으로 이동하는 대신 지하로 이동함"
                             },
                             "15": {
                                 "title": ""
                             },
                             "16": {
-                                "title": ""
+                                "title": "Basic Platform - "
                             },
                             "17": {
                                 "title": ""
@@ -14158,14 +14161,14 @@
                 "behavior": "행동",
                 "published": "게시됨",
                 "notPublished": "게시되지 않음",
-                "private": "나만 보기",
-                "setPrivate": "나만 보기로 설정",
-                "setNotPrivate": "나만 보기 설정 해제",
+                "private": "비공개",
+                "setPrivate": "비공개로 설정",
+                "setNotPrivate": "비공개 설정 해제",
                 "publishToMint": "애셋을 민팅하기 전에 게시해야 합니다.",
                 "exclusive": "Exclusive",
                 "basic": "Basic",
-                "setFlag": "Set as {flag}",
-                "removeFlag": "Remove {flag}"
+                "setFlag": "{flag}로 설정",
+                "removeFlag": "{flag} 삭제"
             },
             "pagination": {
                 "page": "페이지",
@@ -14238,7 +14241,7 @@
             },
             "searchNamePrivate": "이름으로 검색",
             "uploadingYourAsset": "애셋을 업로드하는 중입니다",
-            "privateSuccess": "애셋을 나만 보기로 설정했습니다.",
+            "privateSuccess": "애셋을 비공개로 설정했습니다.",
             "unprivateSuccess": "애셋을 전채 공개로 설정했습니다.",
             "dragGems": "젬을 드래그하거나 클릭하여 카탈리스트에 추가하거나 삭제하세요.",
             "infoDragGems": "각 젬은 애셋에 다양한 능력치를 부여합니다. 같은 종류의 젬이 여러 개 있다면 해당 능력치가 더욱 상승하게 됩니다."
