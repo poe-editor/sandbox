@@ -594,7 +594,10 @@
             "title": "SANDとは?",
             "buttonText": "購入する",
             "newTitle": "SANDはお持ちですか？",
-            "description": "$SAND is The Sandbox utility token. Get $SAND to buy LAND, ASSETS, or to invest in staking pools.",
+            "description": {
+                "mainText": "{0} はThe Sandboxのユーティリティートークンです。 LAND、アセット、ステーキングプールへの投資のため{0}を手に入れましょう。 ",
+                "0": "SAND"
+            },
             "newButtonText": "SANDを購入"
         },
         "experiencesSeason3": {
@@ -6546,7 +6549,7 @@
                 "setAssetArt": "アセットタイプをアートへ設定",
                 "setAssetBasic": "アセットをベーシックに設定",
                 "setAssetExlusive": "アセットを限定に設定",
-                "setAssetPrivate": "公開プロフィールから隠す（プライベート）"
+                "setAssetPrivate": "プロフィールに公開する"
             }
         },
         "faucet": {
