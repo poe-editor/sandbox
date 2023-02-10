@@ -594,7 +594,10 @@
             "title": "NEDEN SAND?",
             "buttonText": "Şimdi Al",
             "newTitle": "GOT SAND?",
-            "description": "$SAND is The Sandbox utility token. Get $SAND to buy LAND, ASSETS, or to invest in staking pools.",
+            "description": {
+                "mainText": "{0} The Sandbox yardımcı token'i. ARAZİ, VARLIK satın almak veya stake havuzlarına yatırım yapmak için {0} alın.",
+                "0": "SAND"
+            },
             "newButtonText": "Buy SAND"
         },
         "experiencesSeason3": {
@@ -2909,11 +2912,11 @@
     },
     "create": {
         "meta": {
-            "title": "Sandbox'ta kendi oyunlarınızı oluşturun",
+            "title": "The Sandbox'ta kendi oyunlarınızı oluşturun",
             "description": "Sandbox, 3D voksel modelleri oluşturmak, birleştirmek ve paylaşmak için benzersiz bir yol sunar. Kendi 3D voksel nesnelerinizi yapın, canlandırın ve dünya çapındaki pazar yerimizde ücretsiz olarak yayınlayın/satın!",
             "keywords": "sandbox, yarat, voksel sanatı yarat, 3D voksel oyunu, voksel sanatçıları, voksel oyunu sanatı, voksel pazarı, blockchain dapp, PC voksel oyunu, PC voksel sanatı",
             "og": {
-                "title": "Sandbox | 3D Voksel nesneleri oluşturun, canlandırın, yayınlayın ve satın!",
+                "title": "The Sandbox | 3D Voksel nesneleri oluşturun, canlandırın, yayınlayın ve satın!",
                 "description": "Sandbox, 3D voksel modelleri oluşturmak, birleştirmek ve paylaşmak için benzersiz bir yol sunar. 3D voksel nesneleri yapın, onları canlandırın ve bunları dünya çapındaki pazarımızda yayınlayın/satın.",
                 "url": "https://sandbox.game/create/",
                 "site_name": "The Sandbox",
@@ -2922,15 +2925,15 @@
             "twitter": {
                 "title": "Sandbox | 3D Voksel nesneleri oluşturun, canlandırın, yayınlayın ve satın",
                 "description": "Sandbox, 3D voksel modelleri oluşturmak, birleştirmek ve paylaşmak için benzersiz bir yol sunar. Kendi 3D voksel nesnelerinizi yapın, onları canlandırın ve dünya çapındaki pazar yerimizde yayınlayın/satın.",
-                "card": "Merkezi Olmayan Oyun Ekosisteminde Oyun oluşturun.",
+                "card": "Merkeziyetsiz Oyun Ekosisteminde Oyun oluşturun.",
                 "site": "@thesandboxgame",
                 "creator": "@thesandboxgame",
                 "image": "https://www.sandbox.game/media/The-Sandbox-VoxEdit-Character-Preview.gif"
             }
         },
         "menu": {
-            "gameMaker": "Experiences",
-            "voxedit": "Assets",
+            "gameMaker": "Deneyimler",
+            "voxedit": "Varlıklar",
             "avatar": "Avatar",
             "becomeAPartner": "Ortak Olun",
             "partnerAgencies": "Ajans Bulun"
@@ -4225,7 +4228,7 @@
             "notifications": {
                 "not1": {
                     "text": "Bir sonraki ön satışın ne zaman olduğunu öğrenin",
-                    "btn": "Kayıt olmak"
+                    "btn": "Oturum Açın"
                 },
                 "not2": {
                     "text": "Pazarımızda NFT'leri arayın ve satın alın",
@@ -4238,7 +4241,7 @@
         "notifications": {
             "not1": {
                 "text": "Bir sonraki ön satışın ne zaman olduğunu öğrenin",
-                "button": "Kayıt olmak"
+                "button": "Oturum Açın"
             },
             "not2": {
                 "text": "Pazarımızda NFT'leri arayın ve satın alın",
@@ -5465,7 +5468,7 @@
         }
     },
     "user": {
-        "signin": "Kayıt Ol",
+        "signin": "Oturum Açın",
         "menu": {
             "profile": "Profil",
             "defi": "Staking",
@@ -6390,8 +6393,8 @@
                     "social-loading": "Validating your account"
                 },
                 "signin": {
-                    "action": "Sign in",
-                    "title": "Sign in",
+                    "action": "Oturum Açın",
+                    "title": "Oturum Açın",
                     "create-account-question": "Hesabınız yok mu?",
                     "create-account": "Bir tane oluşturun",
                     "signin-with-wallet": "Bir cüzdan ile bağlanın",
