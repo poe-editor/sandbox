@@ -246,7 +246,7 @@
         "secs": "SECS",
         "months": {
             "0": "January",
-            "1": "February",
+            "1": "Şubat",
             "2": "March",
             "3": "April",
             "4": "May",
@@ -370,7 +370,7 @@
                     "pending": "Bekliyor"
                 },
                 "deposit": {
-                    "of": "Bakiye",
+                    "of": "Mevduat",
                     "sand": "SAND",
                     "msand": "SAND",
                     "asset": "VARLIK",
@@ -498,14 +498,14 @@
             "alphaDate": "29 KASIM'DAN - 20 ARALIK'A KADAR",
             "readMore": "Daha fazla bilgi",
             "description2": "Alfa Sezon 1 ödüllerini görmek için buraya tıklayın",
-            "createButtonText": "Hesap oluştur",
+            "createButtonText": "Hesap Oluştur",
             "ribbon": {
                 "preSeason": "ALFA 2. SEZON YAKINDA GELİYOR",
                 "duringSeason": "ALFA 2. SEZON YAYINDA",
                 "welcome": "Metaverse'e hoş geldiniz",
                 "play": "Oynayın, yaratın ve geleceğe sahip olun"
             },
-            "createAccount": "Hesap Oluştur",
+            "createAccount": "Hesap oluştur",
             "ribbonSeason3": {
                 "welcome": "24 Ağustos'ta başlayacak Alfa Sezonu 3'ü keşfe hazır mısın! Sezon başlamadan sana özel avatarını oluştur.",
                 "play": "Görevleri tamamlayarak Alfa Bileti.",
@@ -573,7 +573,7 @@
             "description": "The Sandbox Today için benzersiz Steve Aoki avatarınızı alın ve metaverse içine girin.",
             "button": "Şimdi mintle",
             "button2": "Ücretsiz Avatar Oluştur",
-            "disabled": "*Mintleme 25 Temmuz'da başlar"
+            "disabled": "*Mint'leme 25 Temmuz'da başlar"
         },
         "avatarSeason3": {
             "title": "Kendi avatarınızla oynayın\n",
@@ -593,7 +593,7 @@
         "sandSeason3": {
             "title": "NEDEN SAND?",
             "buttonText": "Şimdi Al",
-            "newTitle": "GOT SAND?",
+            "newTitle": "SAND VAR MI?",
             "description": {
                 "mainText": "{0} The Sandbox yardımcı token'i. ARAZİ, VARLIK satın almak veya stake havuzlarına yatırım yapmak için {0} alın.",
                 "0": "SAND"
@@ -618,9 +618,9 @@
             "soldOutTag": "SOLD OUT"
         },
         "playboyBanner": {
-            "title": "MINT YOUR AVATAR FROM THE PLAYBOY PARTY PEOPLE COLLECTION",
+            "title": "PLAYBOY PARTY PEOPLE KOLEKSİYONUNDAN AVATARINIZI MİNTLEYİN",
             "description": "Dropping just in time for Playboy's 69th Birthday, the Playboy Party People Collection brings Pleasure for All to the metaverse.",
-            "title-mobile": "MINT YOUR AVATAR",
+            "title-mobile": "AVATARINI MİNTLE",
             "btn1": "Learn more",
             "btn2": "Ücretsiz avatar oluşturun",
             "btn1SecondLabel": "Buy Now",
@@ -2806,7 +2806,7 @@
             "5": "Vücut Parçası",
             "6": "Sanat"
         },
-        "mintingApprovalPending": "Pending minting approval",
+        "mintingApprovalPending": "Mint onayı bekleniyor",
         "mintingApprovalRejected": "Mint onayı bekleniyor",
         "sell": {
             "asset": "satılacak varlık",
@@ -4255,7 +4255,7 @@
             },
             "2": {
                 "title": "Join the Metaverse and never stop building, never stop playing!",
-                "date": "Early 2023"
+                "date": "14 Feb - 3:00 PM UTC"
             },
             "tooltip": {
                 "title": "Map News",
@@ -4361,7 +4361,7 @@
                 "wave": "Wave 3 - {time}",
                 "subtitle": "Raffle winners will be able to buy 1 LAND in the {partner} LAND Sale. {landsCount} LANDs, {landsCount} winners!",
                 "subtitle2": "These are California Dreamin’ and you never need to wake up!",
-                "subtitle3": "You are not whitelisted for the LAND Sale. You can still get a LAND through auctions or on Secondary Market",
+                "subtitle3": "LAND Satışı için beyaz listede değilsiniz. Müzayedeler yoluyla veya İkincil Piyasada hala bir LAND alabilirsiniz.",
                 "notLoggedInAndResultsArePublic": "Log in to check if you are whitelisted for {partner} LAND Sale",
                 "boughtSubtitle": "Congratulations, you are a LAND Owner! You can get more LAND on Secondary Market.",
                 "title": "Welcome to the {partner} LAND Sale!"
@@ -4516,7 +4516,7 @@
                         "description": "You need a {minimumOfSand} in your wallet (the price for a regular LAND) to enter the raffle. You won’t be charged until you confirm your purchase.",
                         "minimumOfSand": "minimum of {sandAmount} on Polygon",
                         "cta": {
-                            "bridgeSand": "Bridge SAND",
+                            "bridgeSand": "SAND Köprüle",
                             "buySand": "Buy SAND on Polygon"
                         }
                     }
@@ -4848,11 +4848,11 @@
                     },
                     "6": {
                         "title": "What should I do if I win the LAND Sale Raffle?",
-                        "paragraph": "If you win the LAND Sale Raffle it means that you have a whitelist spot for minting 1 LAND once the LAND Sale starts. Just make sure you log into your account and enter {link} to check when the LAND Sale starts."
+                        "paragraph": "LAND Satışı Çekilişini kazanırsanız, LAND Satışı başladığında 1 LAND mint'lemek için beyaz listeye yeriniz olduğu anlamına gelir. LAND satışının ne zaman başladığını kontrol etmek için hesabınıza giriş yaptığınızdan ve {link} adresini girdiğinizden emin olun."
                     },
                     "7": {
                         "title": "If I win the LAND Sale Raffle, when can I purchase my LAND?",
-                        "paragraph": "As soon as the LAND Sale starts you can enter {link} and mint your LAND. The minting period will last for 24 hours, make sure you don’t miss the window."
+                        "paragraph": "LAND Satışı başlar başlamaz {link}'e girebilir ve LAND'nizi basabilirsiniz. Mint süresi 24 saat sürecek, pencereyi kaçırmadığınızdan emin olun."
                     },
                     "8": {
                         "title": "If I win the LAND Sale Raffle, can I transfer / sell the whitelist spot to another account?",
@@ -4861,13 +4861,13 @@
                     "9": {
                         "title": "How can I get SAND on Polygon?",
                         "paragraphs": {
-                            "1": "If you have SAND on Ethereum you can bridge into Polygon. Read how you can bridge SAND below or enter {link}.",
+                            "1": "Ethereum'da SAND'ınız varsa Polygon'a köprü kurabilirsiniz. Aşağıda SAND'ı nasıl köprüleyebileceğinizi okuyun veya {link} girin.",
                             "2": "You can buy SAND directly on polygon, click the SAND icon on the top bar and then BUY SAND. Make sure you switch to the Polygon network before selecting the purchase method."
                         }
                     },
                     "10": {
-                        "title": "How can I bridge SAND from the Ethereum network to Polygon?",
-                        "paragraph": "To bridge SAND from Ethereum to Polygon you can enter the bridge section under your account {link}. On the left you’ll see your SAND balance on Ethereum. You can bridge SAND to Polygon by clicking on Deposit."
+                        "title": "SAND'ı Ethereum ağından Polygon'a nasıl köprüleyebilirim?",
+                        "paragraph": "Ethereum'dan Polygon'a SAND köprüsü kurmak için hesabınızın altındaki köprü bölümüne girebilirsiniz {link}. Sol tarafta Ethereum'daki SAND bakiyenizi göreceksiniz. Mevduat'a tıklayarak SAND'ı Polygon'a köprüleyebilirsiniz."
                     }
                 },
                 "accountVerification": {
@@ -4924,7 +4924,7 @@
                     },
                     "4": {
                         "title": "If I win the LAND Sale Raffle, can LANDs sell out before I get to buy one?",
-                        "paragraph": "No, every winner will have the chance to buy 1 LAND. We’ll have the same amount of winners as LAND available, so if you win, you get a guaranteed purchase (as long as you buy within the minting window). After the minting window ends, your whitelist spot will no longer be valid."
+                        "paragraph": "Hayır, her kazanan 1 LAND satın alma şansına sahip olacaktır. LAND ile aynı sayıda kazananımız olacak, bu nedenle kazanırsanız, garantili bir satın alma işlemi elde edersiniz (mint'leme dönemi içinde satın aldığınız sürece). Mint'leme penceresi sona erdikten sonra, beyaz liste noktanız artık geçerli olmayacaktır."
                     },
                     "5": {
                         "title": "Where do I mint my LAND?",
@@ -5025,8 +5025,8 @@
                     },
                     "2": {
                         "title": "I have SAND in Ethereum, how can I bridge SAND from the Ethereum network to Polygon?",
-                        "paragraph": "To bridge SAND from Ethereum to Polygon you can enter the bridge section under your account {link}. On the left you’ll see your SAND balance on Ethereum. You can bridge SAND to Polygon by clicking on {deposit}.",
-                        "deposit": "Deposit"
+                        "paragraph": "SAND'ı Ethereum'dan Polygon'a köprülemek için hesabınızın {link} altındaki köprü bölümüne girebilirsiniz. Solda, Ethereum'daki SAND bakiyenizi göreceksiniz. {deposit} üzerine tıklayarak SAND'ı Polygon'a köprüleyebilirsiniz.",
+                        "deposit": "Mevduat"
                     },
                     "3": {
                         "title": "I bought LAND but when I go into the Map I don’t see it assigned to my account",
@@ -5576,7 +5576,7 @@
             "noAssets": "Envanterinizde varlığınız bulunmamakta.",
             "goFind": "OpenSea'ye gidin ve aradığınız her şeyi bulun.",
             "goMarketplace": "Pazaryeri'ne gidin",
-            "startMinting": "Yayınlamaya Başla",
+            "startMinting": "Mint'lemeye Başla",
             "nftTypes": {
                 "title": "NFT Türleri",
                 "entity": "Varlıklar",
@@ -5660,15 +5660,15 @@
             },
             "minting": {
                 "purchaseGems": "Mücevher Topla",
-                "mint": "Yayınla",
+                "mint": "Mint",
                 "commonmint": "Yaygın Mint",
                 "commonMintDisclaimer": "Varlıklarınızı SANAT türüne eklemeyi unutmayın",
-                "catalystmint": "Mücevher ile Mintle",
+                "catalystmint": "Mücevher ile Mint'le",
                 "purchaseGemsDisclaimer": "Devam etmek için Katalizör ve Mücevher satın almanız gerekiyor",
                 "removing": "Tüm nitelikler kaldırılacak.",
                 "wishToContinue": " Devam etmek istiyor musunuz?",
                 "invalidAndMaxed": "Geçersiz miktar, mümkün olan tüm miktar kullanılmakta.",
-                "requiredTokens": "Basmaya devam etmek için aşağıdaki token'lere ihtiyacınız var:"
+                "requiredTokens": "Mint işlemine devam etmek için aşağıdaki token'lere ihtiyacınız var:"
             },
             "search": "Ara...",
             "preview": "Önizle",
@@ -5736,8 +5736,8 @@
             },
             "viewLess": "View less <<<",
             "viewMore": "View more >>>",
-            "tooltipMinting": "Minting not available for basic or exclusive asset",
-            "tooltipWaitingMinting": "Waiting for prev minting"
+            "tooltipMinting": "Temel veya münhasır varlık için mint'leme mevcut değil",
+            "tooltipWaitingMinting": "Önceki mint'leme için bekleniyor"
         },
         "avatar": {
             "empty": "Bu liste boş",
@@ -6857,7 +6857,7 @@
         },
         "minting": {
             "1": {
-                "title": "İlk kez mi mintliyorsun?",
+                "title": "İlk kez mi mint'liyorsun?",
                 "description": "Daha fazlasını öğrenmek için bu kısa makaleyi okumanızı öneririz.",
                 "link-content": "Makaleyi oku"
             },
@@ -6952,7 +6952,7 @@
             "whyPolygon": "NEDEN POLYGON?",
             "whyPolygonText": "The Sandbox, blockchain işlemlerini yönetmenin daha hızlı ve daha performanslı bir yolunu sağlamak için Polygon'a taşınıyor. Ethereum ve Polygon arasında transferleri etkinleştirmek için bir köprü mevcut olacak.",
             "whatsBlockchain": "Blockchain Köprüleri nedir?",
-            "bridgeSand": "SAND Köprüsü",
+            "bridgeSand": "SAND Köprüle",
             "bridge": "Köprü",
             "mainnetL1": "ETHEREUM NETWORK",
             "mainnetL2": "POLYGON NETWORK",
@@ -7889,13 +7889,13 @@
         "LP": "LP",
         "yourDeposit": "Mevduat likiditeniz",
         "yourRewards": "Ödülleriniz",
-        "deposit": "Yatır",
+        "deposit": "Mevduat",
         "findPool": "Havuzunuzu bulun",
         "landAsset": "Land<>Varlıklar",
         "liquidity": "Likidite Madenciliği",
         "myShare": "Payım",
         "earning": "Kazanımlar",
-        "totalDeposits": "Toplam Yatırılan",
+        "totalDeposits": "Toplam Mevduat",
         "poolRewards": "Havuz Ödülleri",
         "totalPoolRewards": "Havuz ödülleri p/week",
         "tvl": "Toplam Bloke Değer",
@@ -7974,7 +7974,7 @@
             "contract": "Sözleşme",
             "fee": "Gaz Ücreti",
             "block": "Blok",
-            "stake": "Yatırma",
+            "stake": "Mevduat",
             "withdraw": "Çekme",
             "claim": "Topla"
         },
@@ -8034,15 +8034,15 @@
         "sushiswap": "Sushiswap",
         "withdrawTitle": "Çekme",
         "claimTitle": "Topla",
-        "depositTitle": "Yatır",
+        "depositTitle": "Mevduat",
         "historyTitle": "İŞLEM GEÇMİŞİ",
         "pool": "Token",
         "myPools": "Havuzlarım",
         "totalRewards": "Toplam Ödül",
         "landMultiplierHeader": "LAND Çarpanı",
         "sidebar": {
-            "action-desc-deposit": "LP token'ı yatırarak daha fazla SAND kazan",
-            "footer-text-deposit": "Bu işlem seçilen LP token miktarını yatıracak ve toplam depozitonuzu artıracaktır.",
+            "action-desc-deposit": "Daha fazla SAND kazanmak için LP token'ları yatırın",
+            "footer-text-deposit": "Bu işlem seçilen LP token miktarını yatıracak ve toplam mevduatınızı artıracaktır.",
             "footer-text-claim": "Bu işlem tüm kazançları talep edecek ve bunları cüzdanınıza aktaracaktır.",
             "footer-text-withdraw": "Bu işlemde toplam yatırılan tutardan belirlenen LP tutarı çekilir. Alabileceğiniz geliri alarak gaz komisyon ücretlerinden de tasarruf etmenize yarayacaktır.",
             "onEtherscan": "Etherscan ile görüntüle",
@@ -8188,12 +8188,12 @@
             "bannerTop": {
                 "signin": "Kayıt Ol",
                 "title": "Snoop Dogg",
-                "button": "Hesap Oluştur",
+                "button": "Hesap oluştur",
                 "subtitle1": "Metaverse'e girer.",
                 "paragraph1": "Snoop Dogg, The Sandbox'ın içinde malikanesini inşa ediyor ve SİZ de partiye davetlisiniz!",
                 "paragraph2": "Top oynayın, film izleyin ve havuz kenarında rahatlayın.",
                 "paragraph3": "Snoop Dogg'un malikanesini ziyaret edin ve Dogg Baba'nın NFT'lerine göz atın.",
-                "mintNow": "Şimdi kendininkini yayınla!"
+                "mintNow": "Şimdi seninkini mint'le!"
             },
             "loginVIP": {
                 "title": "VIP Parti Biletin",
@@ -8382,15 +8382,15 @@
                 "unique": "Eşsiz Avatarlar",
                 "snoopverse": "Snoopverse",
                 "roadmap": "Yol Haritası",
-                "mint": "Kendi Avatarını Oluştur",
-                "mintSoon": "Yakında Oluşturulacak"
+                "mint": "Avatarını mintle",
+                "mintSoon": "Yakında Mint'lenecek"
             },
             "mintYoursNow": {
                 "title1": "10K YENİ-NESİL",
                 "title2": "METAVERSE AVATARI",
                 "description1": "Eşsiz, el yapımı ve oynanabilir Doggy'ler Sandbox'a geliyor.",
                 "description2": "Dogg Baba'nın kendisi tarafından dizayn edildi ve oluşturuldu.",
-                "button": "ŞİMDİ YAYINLA!",
+                "button": "ŞİMDİ SENİNKİNİ MİNT'LE!",
                 "definitions": {
                     "title1": "DOGGY'LER",
                     "title2": "NELERDİR?",
@@ -8915,7 +8915,7 @@
             }
         },
         "signIn": {
-            "createAccount": "Hesap Oluştur",
+            "createAccount": "Hesap oluştur",
             "usernameEmailMissing": "Kullanıcı Adı / E-posta adresi eksik",
             "passwordMissing": "Şifre eksik",
             "userPasswordMismatches": "Kullanıcı Adı veya şifre uyuşmazlığı",
@@ -9009,7 +9009,7 @@
             "button": "Şimdi yayınla",
             "process": "İşleminiz yapılıyor.",
             "finish": "İşleminiz başarıyla tamamlandı! OpenSea'ye gidip kendi avatarınızı görebilir ya da daha fazla yayınlayabilirsiniz.",
-            "refresh": "Tekrar yayınla!",
+            "refresh": "Tekrar mint'le!",
             "errorButton": "Tekrar deneyin!",
             "error": "Bir şeyler yanlış gitti! Belki isteğimiz zaman aşımına uğradı - lütfen işleminizin gerçekleştiğini onaylamak için cüzdanınızı kontrol edin.",
             "wrongWallet": "Afedersiniz! Yanlış cüzdanla bağlandınız! Lütfen Metamask ile tekrar giriş yapın.",
@@ -9090,7 +9090,7 @@
             "7": {
                 "title": "Yayınladığım Doggy'i ne zaman görebilirim?",
                 "paragraphs": {
-                    "1": "Doggy'ler OpenSea'de yayınladıktan 48 saat sonra görünür olacaktır."
+                    "1": "Doggy'ler OpenSea'de mint'lendikten 48 saat sonra görünür olacaktır."
                 }
             },
             "8": {
@@ -9108,7 +9108,7 @@
             "10": {
                 "title": "Alfa sırasında Doggy'mi nasıl kullanabilirim?",
                 "paragraphs": {
-                    "1": "Sandbox panosundaki Avatar Yöneticisi'nden seçerek onu bir Avatar olarak kullanabileceksiniz."
+                    "1": "The Sandbox panosundaki Avatar Yöneticisi'nden seçerek onu bir Avatar olarak kullanabileceksiniz."
                 }
             },
             "11": {
@@ -9127,7 +9127,7 @@
             "13": {
                 "title": "Nasıl beyaz listeye girebilirim?",
                 "paragraphs": {
-                    "1": "Yayınlama başlamadan 24 saat önce aşağıda listelenen NFT'lerden birine sahipseniz, Doggy'nizi yayınlamak için erken erişime sahip olacaksınız:",
+                    "1": "Mint'leme başlamadan 24 saat önce aşağıda listelenen NFT'lerden birine sahipseniz, Doggy'nizi yayınlamak için erken erişime sahip olacaksınız:",
                     "2": "- Snoopverse Erken Erişim Bileti",
                     "3": "- Snoop Parti Bileti",
                     "4": "- JADU Roketi",
@@ -9143,7 +9143,7 @@
             "14": {
                 "title": "Beyaz listede olup olmadığımı nasıl öğrenebilirim?",
                 "paragraphs": {
-                    "1": "Yukarıdaki koleksiyondan bir NFT'ye sahipseniz, NFT'yi beyaz listede olduğunuz cüzdanda tuttuğunuz sürece yayınlama sayfasından yayınlama işlemi yapabilirsiniz."
+                    "1": "Yukarıdaki koleksiyondan bir NFT'ye sahipseniz, NFT'yi beyaz listede olduğunuz cüzdanda tuttuğunuz sürece mint'leme sayfasından mint işlemi yapabilirsiniz."
                 }
             },
             "15": {
@@ -9201,7 +9201,7 @@
         "banner": {
             "title": "The Sandbox Köprüsü",
             "subtitleDeposit1": "SAND ve LAND'inizi Ethereum (L1) ve Polygon (L2) arasında köprüleyin",
-            "subtitleDeposit2": "LAND köprülü, Polygon'a ilk transferlerinde bir SAND para iadesi verirLAND bridged grant a SAND cashback on their first transfer to Polygon",
+            "subtitleDeposit2": "LAND köprüsü, Polygon'a ilk transferlerinde bir SAND para iadesi sağlar",
             "subtitleWithdraw": ": Varlıklarınızı Ethereum'a aktarın",
             "howToLink": "Köprü nasıl yapılır",
             "guideLink": "Destek alın",
@@ -9345,7 +9345,7 @@
                     "deposit": {
                         "headerTitle": "Deposit en route",
                         "footerTitle": "Yatırma işlemi şuan yolda",
-                        "footerText": "It will take about 30 minutes to synchronize. Once the transfer is completed the funds will be available on Polygon."
+                        "footerText": "Senkronize edilmesi 1 saate kadar sürebilir. Transfer tamamlandığında, fonlar Polygon'da mevcut olacaktır."
                     },
                     "withdraw": {
                         "headerTitle": "Çekme işlemi şuan yolda",
@@ -10992,7 +10992,7 @@
                     },
                     "3": {
                         "title": "Pazaryeri",
-                        "text": "SAND alımları, P2P satışları, Mücevher ve Katalizörlerle VARLIK basımı"
+                        "text": "SAND alımları, P2P satışları, Mücevher ve Katalizörlerle VARLIK mint'leme"
                     }
                 }
             },
@@ -14167,7 +14167,7 @@
                 "private": "Private",
                 "setPrivate": "Set as Private",
                 "setNotPrivate": "Remove private",
-                "publishToMint": "You have to publish the asset before minting it",
+                "publishToMint": "Varlığı mint'lemeden önce yayınlamanız gerekir",
                 "exclusive": "Exclusive",
                 "basic": "Basic",
                 "setFlag": "Set as {flag}",
@@ -14341,13 +14341,13 @@
     "strapi": {
         "POC_LANDING_MINT_AVATAR_TITLE": "Metaverse'de kendinizi ifade edin",
         "POC_LANDING_MINT_AVATAR_DESCRIPTION": "The Sandbox'ta tamamen oynanabilir avatarlar olmanın yanı sıra, POC Avatarları, sahiplerine cinsel yönelimlerini ve zamirlerini gösterme yeteneği verecek. Kim olmak istediğine sen karar ver!",
-        "POC_LANDING_MINT_AVATAR_BUTTON": "Şimdi seninkini mintle!",
+        "POC_LANDING_MINT_AVATAR_BUTTON": "Şimdi seninkini mint'le!",
         "POC_LANDING_HEADER_MENU_HOME_LABEL": "Anasayfa",
         "POC_LANDING_HEADER_MENU_UNIQUE_AVATARS_LABEL": "Eşsiz avatarlar",
         "POC_LANDING_HEADER_MENU_PEOPLE_OF_CRYPTO_LABEL": "Kripto insanları",
         "POC_LANDING_HEADER_MENU_MINT_YOUR_AVATAR_LABEL": "Avatarını mintle",
         "POC_LANDING_INTRO_START_DATE": "Haziran'da kullanıma sunuluyor {launchDateWhitelist}",
-        "POC_LANDING_INTRO_BUTTON": "Şimdi seninkini mintle",
+        "POC_LANDING_INTRO_BUTTON": "Şimdi seninkini mint'le",
         "POC_LANDING_INTRO_TITLE": "8,430 Yeni nesil",
         "POC_LANDING_INTRO_SUBTITLE": "Metaverse avatarları",
         "POC_LANDING_INTRO_DESCRIPTION": "Web3 genelinde çeşitlilik için metaversal planı oluşturuyoruz. İlk adımımız, her yönüyle kapsayıcılık ve çeşitlilik etrafında benzersiz bir The Sandbox metaverse avatarları seçimidir.",
@@ -14391,15 +14391,15 @@
         "POC_LANDING_FAQ_WHAT_CAN_I_DO_TITLE": "POC Avatarları ile ne yapabilirim?",
         "POC_LANDING_FAQ_WHAT_WHAT_CAN_I_DO_DESCRIPTION": "Her Avatar, Sandbox Alfa Sezon 3'ten başlayarak tüm çok oyunculu deneyimlerde Sandbox içinde oynanabilecek.",
         "POC_LANDING_FAQ_HOW_CAN_I_USE_TITLE": "Alfa sırasında Kripto Kişileri Avatar'ımı nasıl kullanabilirim?",
-        "POC_LANDING_FAQ_HOW_CAN_I_USE_DESCRIPTION": "Sandbox panosundaki Avatar Yöneticisinden seçerek onu bir Avatar olarak kullanabileceksiniz.",
+        "POC_LANDING_FAQ_HOW_CAN_I_USE_DESCRIPTION": "The Sandbox panosundaki Avatar Yöneticisi'nden seçerek onu bir Avatar olarak kullanabileceksiniz.",
         "POC_LANDING_FAQ_DOES_OWNING_TITLE": "POC Avatarına sahip olmak bana başka avantajlar sağlar mı?",
         "POC_LANDING_FAQ_DOES_OWNING_DESCRIPTION": "Kendi avatarınıza sahip olmak, size Çeşitlilik ve Katılım Merkezi'ndeki erişim ve özelliklerin yanı sıra diğer Oyna ve Kazan avantajları sağlar.",
         "POC_LANDING_FAQ_WHERE_CAN_I_BUY_TITLE": "İlk indirim bittikten sonra avatarı nereden satın alabilirim?",
         "POC_LANDING_FAQ_WHERE_CAN_I_BUY_DESCRIPTION": "İlk satış bittikten sonra, kendi avatarlarını OpenSea ikincil pazarında satmak isteyen kullanıcılardan bir avatar satın alabileceksiniz.",
         "POC_LANDING_FAQ_HOW_DO_I_GET_WHITELISTED_TITLE": "Nasıl karşılama listesine alınırım?",
-        "POC_LANDING_FAQ_HOW_DO_I_GET_WHITELISTED_DESCRIPTION": "Aşağıda listelenen NFT'lerden birine sahipseniz, basım başlamadan 24 saat önce, POC avatarınızı basmak için erken erişime sahip olacaksınız:\n  - Snoop Dogg Doggies avatar sahipleri\n  - Rumble Kong Ligi\n  Listelenen arazi sahipleri de memnuniyetle karşılanacaktır. Bunlardan herhangi birinin sahibi değilseniz, lütfen peopleofcrypto.io'ya gidin.\n  Twitter yarışmalarımızdan birini kazanmak, NFT'nizi basmak için size erken erişim de sağlayabilir.",
+        "POC_LANDING_FAQ_HOW_DO_I_GET_WHITELISTED_DESCRIPTION": "Aşağıda listelenen NFT'lerden birine sahipseniz, mint'leme başlamadan 24 saat önce, POC avatarınızı basmak için erken erişime sahip olacaksınız:\n  - Snoop Dogg Doggies avatar sahipleri\n  - Rumble Kong Ligi\n  Listelenen arazi sahipleri de memnuniyetle karşılanacaktır. Bunlardan herhangi birinin sahibi değilseniz, lütfen peopleofcrypto.io'ya gidin.\n  Twitter yarışmalarımızdan birini kazanmak, NFT'nizi mint'lemek için size erken erişim de sağlayabilir.",
         "POC_LANDING_FAQ_HOW_DO_I_KNOW_IF_TITLE": "Karşılama listesine alınıp alınmadığımı nasıl anlarım",
-        "POC_LANDING_FAQ_HOW_DO_I_KNOW_IF_DESCRIPTION": "Yukarıdaki koleksiyonun bir NFT'sine sahipseniz, NFT'yi karşılama listesine girdiğiniz ve mintleme sayfasına bağlı olduğunuz cüzdanda tuttuğunuz sürece mint edebilirsiniz.",
+        "POC_LANDING_FAQ_HOW_DO_I_KNOW_IF_DESCRIPTION": "Yukarıdaki koleksiyonun bir NFT'sine sahipseniz, NFT'yi karşılama listesine girdiğiniz ve mint'leme sayfasına bağlı olduğunuz cüzdanda tuttuğunuz sürece mint edebilirsiniz.",
         "POC_LANDING_FAQ_HOW_MANY_MINT_AS_WHITELISTED_TITLE": "Karşılama listesine alınan bir kullanıcı olarak kaç tane POC Avatar basabilirim?",
         "POC_LANDING_FAQ_HOW_MANY_MINT_AS_WHITELISTED_DESCRIPTION": "Karşılama listesindeki bir kullanıcı olarak iki NFT basabileceksiniz.",
         "POC_LANDING_FAQ_MY_AVATARS_TITLE": "Avatar(lar)ım henüz OpenSea'de açıklanmadı. Ne yapabilirim?",
@@ -14492,14 +14492,14 @@
         "STEVE_AOKI_LANDING_INTRO_TITLE": "3,333 Steve Aoki",
         "STEVE_AOKI_LANDING_INTRO_SUBTITLE": "Metaverse avatarları",
         "STEVE_AOKI_LANDING_INTRO_DESCRIPTION": "Sana bir pastadan daha sert gelen Steve Aoki, The Sandbox'a giriyor ve herkese metaverse'de Steve Aoki olma fırsatı veriyor. Dünyanın en havalı müzisyenlerinden biriyle el yapımı ve küratörlüğünde benzersiz tasarımlar.",
-        "STEVE_AOKI_LANDING_INTRO_BUTTON": "Şimdi seninkini mintle",
+        "STEVE_AOKI_LANDING_INTRO_BUTTON": "Şimdi seninkini mint'le",
         "STEVE_AOKI_LANDING_INTRO_START_DATE": "{launchDateWhitelist} başlatılıyor",
         "STEVE_AOKI_LANDING_OUR_VISION_TITLE": "Steve ol",
         "STEVE_AOKI_LANDING_OUR_VISION_DESCRIPTION_PRIMARY": "Steve Aoki Avatarları, The Sandbox için 3.333 benzersiz ve rastgele oluşturulmuş metaverse avatarlarından oluşan bir koleksiyondur. Her avatar, Sandbox içinde benzersiz işlevlerin kilidini açan ve sahiplerine oynayarak SAND kazanma imkanı veren oynanabilir bir avatar olacak.",
         "STEVE_AOKI_LANDING_OUR_VISION_DESCRIPTION_SECONDARY": "Steve Aoki olun ve bugün The Sandbox'a girin!",
         "STEVE_AOKI_LANDING_MINT_AVATAR_TITLE": "Steve Aoki avatarını bas",
         "STEVE_AOKI_LANDING_MINT_AVATAR_DESCRIPTION": "The Sandbox için benzersiz Steve Aoki avatarınızı bugün alın ve metaverse'e girin.",
-        "STEVE_AOKI_LANDING_MINT_AVATAR_BUTTON": "Şimdi seninkini mintle!",
+        "STEVE_AOKI_LANDING_MINT_AVATAR_BUTTON": "Şimdi seninkini mint'le!",
         "STEVE_AOKI_LANDING_PLAY_IN_SEASON_TITLE": "Alfa'da oynayın",
         "STEVE_AOKI_LANDING_PLAY_IN_SEASON_SUBTITLE": "Sezon 3",
         "STEVE_AOKI_LANDING_PLAY_IN_SEASON_DESCRIPTION": "Her Avatar, yaklaşmakta olan Alfa Sezon 3'ten başlayarak The Sandbox içinde oynanabilir olacak. Avatarınızı alın, oyuna atlayın ve avatarınızı dünyayla paylaşın! Ayrıca avatar sahipleri için Steve Aoki'ye özel etkinliklere ve Oyna ve Kazan etkinliklerine de ev sahipliği yapacağız.",
@@ -14565,26 +14565,26 @@
         "STEVE_AOKI_FAQ_HOW_MANY_CAN_I_MINT_TITLE": "Cüzdan adresi başına kaç Avatar basabilirim?",
         "STEVE_AOKI_FAQ_HOW_MANY_CAN_I_MINT_DESCRIPTION": "Aoki Avatarları 3 dalga halinde yayınlanacak:\n  1) 25 Temmuz 2022, 2PM UTC: Aoki'nin kendisi tarafından beyaz listeye alınan kişiler, 48 saatlik bir zaman dilimi içinde cüzdan başına en fazla 2 avatar basma şansına sahip olacaklar.\n  2) 26 Temmuz 2022, 2PM UTC: Aoki AND The Sandbox tarafından beyaz listeye alınan kişiler, 24 saat içinde cüzdan başına 2 avatar basma şansına sahip olacak.\n  3) 27 Temmuz 2022, 2PM UTC: Genel yayın. Her kullanıcı, cüzdan başına en fazla 4 avatar basma şansına sahip olacak.\n  *ilk beyaz liste dalgasının maksimum 2.000 Aoki Avatarı ile sınırlı olacağını lütfen unutmayın. Bu, diğer tüm kullanıcılar için adil bir dağıtım sağlamak içindir.",
         "STEVE_AOKI_FAQ_WHEN_CAN_I_DISCOVER_TITLE": "Avatarımı nasıl görebilirim?",
-        "STEVE_AOKI_FAQ_WHEN_CAN_I_DISCOVER_DESCRIPTION": "Steve Aoki Avatarları, OpenSea'de para bastıktan 48 saat sonra ortaya çıkacak.",
+        "STEVE_AOKI_FAQ_WHEN_CAN_I_DISCOVER_DESCRIPTION": "Steve Aoki Avatarları, OpenSea'de mint'ledikten 48 saat sonra ortaya çıkacak.",
         "STEVE_AOKI_FAQ_CAN_I_MINT_USING_TITLE": "Herhangi bir cüzdan kullanarak mintleyebilir miyim?",
         "STEVE_AOKI_FAQ_CAN_I_MINT_USING_DESCRIPTION": "Evet, sahip olduğunuz herhangi bir cüzdanla mint yapabilirsiniz.",
         "STEVE_AOKI_FAQ_WHAT_CAN_I_DO_TITLE": "Avatarlarla ne yapabilirim?",
         "STEVE_AOKI_FAQ_WHAT_WHAT_CAN_I_DO_DESCRIPTION": "Her Avatar, Sandbox Alfa Sezon 3'ten başlayarak gelecek tüm çok oyunculu deneyimlerde Sandbox içinde oynanabilecek. Avatar sahipleri için benzersiz Oyna&Kazan fırsatları sunacağız ve her kullanıcıya oyun yoluyla SAND kazanma fırsatı vereceğiz.",
         "STEVE_AOKI_FAQ_HOW_CAN_I_USE_TITLE": "Avatarımı Sandbox içinde nasıl kullanabilirim?",
-        "STEVE_AOKI_FAQ_HOW_CAN_I_USE_DESCRIPTION": "Etkinleştirildikten sonra Sandbox panosundaki Avatar Yöneticisinde seçerek onu bir Avatar olarak kullanabileceksiniz.",
+        "STEVE_AOKI_FAQ_HOW_CAN_I_USE_DESCRIPTION": "Etkinleştirildikten sonra The Sandbox panosundaki Avatar Yöneticisi'nden seçerek onu bir Avatar olarak kullanabileceksiniz.",
         "STEVE_AOKI_FAQ_WHERE_CAN_I_BUY_TITLE": "İlk satış bittikten sonra Steve Aoki avatarını nereden satın alabilirim?",
         "STEVE_AOKI_FAQ_WHERE_CAN_I_BUY_DESCRIPTION": "İlk satış bittikten sonra, kendi avatarlarını Opensea ikincil pazarında satmak isteyen kullanıcılardan istediğiniz kadar avatar satın alabileceksiniz.",
         "STEVE_AOKI_FAQ_HOW_DO_I_GET_WHITELISTED_TITLE": "Nasıl beyaz listeye alınırım?",
-        "STEVE_AOKI_FAQ_HOW_DO_I_GET_WHITELISTED_DESCRIPTION": "Aşağıdaki NFT'lerden birine sahipseniz, anlık görüntü sırasında, resmi para basma başlangıcından 48 saat önce maksimum 2 Aoki Avatar basabilirsiniz:\n  - A0K1VERSE Pasaportu (Anlık Görüntü: 18 Temmuz Pazartesi, saat 14:00 UTC)\nAşağıdaki NFT'lerden birine sahipseniz, anlık görüntü sırasında, resmi para basma başlangıcından 24 saat önce en fazla 2 Aoki Avatar basabilirsiniz:\n  - The Sandbox LAND (Anlık Görüntü: 21 Temmuz Perşembe, 14:00 UTC)\n  - The Doggies Avatar (Anlık Görüntü: 21 Temmuz Perşembe, saat 14:00 UTC)\n  - Kripto İnsanları Avatar (Anlık Görüntü: 21 Temmuz Perşembe, 14:00 UTC)\n  - Twitter yarışmalarımızdan birini kazanmak, NFT'nizi basmak için size erken erişim de sağlayabilir.",
+        "STEVE_AOKI_FAQ_HOW_DO_I_GET_WHITELISTED_DESCRIPTION": "Aşağıdaki NFT'lerden birine sahipseniz, anlık görüntü sırasında, resmi mint'leme başlangıcından 48 saat önce maksimum 2 Aoki Avatar mint'leyebilirsiniz:\n  - A0K1VERSE Pasaportu (Anlık Görüntü: 18 Temmuz Pazartesi, saat 14:00 UTC)\nAşağıdaki NFT'lerden birine sahipseniz, anlık görüntü sırasında, resmi para basma başlangıcından 24 saat önce en fazla 2 Aoki Avatar basabilirsiniz:\n  - The Sandbox LAND (Anlık Görüntü: 21 Temmuz Perşembe, 14:00 UTC)\n  - The Doggies Avatar (Anlık Görüntü: 21 Temmuz Perşembe, saat 14:00 UTC)\n  - People of Crypto Avatar (Anlık Görüntü: 21 Temmuz Perşembe, 14:00 UTC)\n  - Twitter yarışmalarımızdan birini kazanmak, NFT'nizi mint'lemek için size erken erişim de sağlayabilir.",
         "STEVE_AOKI_FAQ_HOW_DO_I_KNOW_IF_TITLE": "Beyaz listeye eklenip eklenmediğimi nasıl anlarım?",
-        "STEVE_AOKI_FAQ_HOW_DO_I_KNOW_IF_DESCRIPTION": "Yukarıdaki koleksiyonun bir NFT'sine sahipseniz, NFT'yi beyaz listede olduğunuz ve darphane sayfasına bağlı olduğunuz cüzdanda tuttuğunuz sürece mint yapabilirsiniz.",
+        "STEVE_AOKI_FAQ_HOW_DO_I_KNOW_IF_DESCRIPTION": "Yukarıdaki koleksiyonun bir NFT'sine sahipseniz, NFT'yi beyaz listede olduğunuz ve mint'leme sayfasına bağlı olduğunuz cüzdanda tuttuğunuz sürece mint yapabilirsiniz.",
         "STEVE_AOKI_FAQ_MY_AVATARS_TITLE": "Avatarlarım OpenSea'de henüz açıklanmadı. Ne yapabilirim?",
         "STEVE_AOKI_FAQ_MY_AVATARS_DESCRIPTION": "Açıklanmadan önce kontrol ediyorsanız, bu normaldir. Bu tarihten sonra kontrol ediyorsanız, OpenSea'nin sağ üst köşesindeki \"Meta Verileri Yenile\" düğmesine basın.",
         "STEVE_AOKI_FAQ_BUYING_NFT_TITLE": "NFT'yi ilk kez satın alıyorum, nasıl başlayabilirim?",
         "STEVE_AOKI_FAQ_BUYING_NFT_DESCRIPTION": "İşlem oldukça basittir. Şunlara sahip olduğunuzdan emin olmanız gerekir:\n  - The Sandbox'ta bir hesap oluşturdu.\n  - İstediğiniz avatar sayısını basmak için doğru miktarda SAND'e ve gaz ücretlerini karşılamak için bir miktar ETH'ye sahip olduğunuzdan emin olun.\n  - Hesabınıza giriş yapın ve mint sayfasına gidin: {link}\n  - Cüzdanınızın doğru şekilde bağlandığını kontrol edin ve Avatarınızı almak için Mint düğmesine basın.",
         "STEVE_AOKI_LANDING_MINT_AVATAR_DESCRIPTION_SOLD_OUT": "Aokis SATILDI! OpenSea'ye gidin ve satılık tüm mevcut avatarları keşfedin.",
         "STEVE_AOKI_LANDING_MINT_AVATAR_BUTTON_GO_TO_OPENSEA": "Opensea'ya Gidin",
-        "STEVE_AOKI_RAFFLE_HOW_TO_MINT_MINT_NOW_TITLE": "Şuan mintleniyor",
+        "STEVE_AOKI_RAFFLE_HOW_TO_MINT_MINT_NOW_TITLE": "Şuan mint'leniyor",
         "STEVE_AOKI_RAFFLE_HOW_TO_MINT_MINT_NOW_SUBTITLE": "Sandbox beyaz listesi - LAND sahipleri, Doggies ve Kripto İnsanları avatar sahipleri"
     },
     "partners": {
@@ -15077,7 +15077,7 @@
         "text87": "\"description\" maks. 1024 uzunlukta OLMALIDIR",
         "text88": "\"description\" müstehcen OLMAMALIDIR veya ırkçı çağrışımlara sahip OLMAMALIDIR",
         "text89": "\"image\", png / gif / jpeg / webp biçimindeki bir resme bağlantı veren geçerli bir IPFS URL'si OLMALIDIR",
-        "text90": "Görüntü, para basma olayı sırasında (veya sonraki bir saat içinde) IPFS ağında bulunmalıdır",
+        "text90": "Görüntü, mint'leme sırasında (veya sonraki bir saat içinde) IPFS ağında bulunmalıdır",
         "text91": "Bağlantılı dosya, voksel Varlığının gerçek bir temsili olmalı ve izleyiciyi yanıltmamalıdır.",
         "text92": "\"creator\", Varlık akıllı sözleşmesi aracılığıyla tanımlanan içerik oluşturucuya eşit OLMALIDIR",
         "text93": "\"classification\" ya ++TODO++ olmalıdır",
@@ -15108,7 +15108,7 @@
         "text118": "\"tags\"de bulunan herhangi bir dize değeri müstehcen OLMAMALIDIR veya ırkçı çağrışımlara sahip OLMAMALIDIR.",
         "text119": "“attributes” tanımlanmalıdır: YAPILACAKLAR",
         "text120": "\"vxc.url\", VXC biçiminde bir voksel varlığına bağlanan geçerli bir IPFS URL'si OLMALIDIR",
-        "text121": "Vxc dosyası, para basma olayının gerçekleştiği anda (veya sonraki bir saat içinde) IPFS ağında bulunmalıdır.",
+        "text121": "Vxc dosyası, mint'lemenin gerçekleştiği anda (veya sonraki bir saat içinde) IPFS ağında bulunmalıdır.",
         "text122": "Voksel varlığı müstehcen olmamalı veya ırkçı çağrışımlara sahip OLMAMALIDIR",
         "text123": "\"vxc.height\", vxc.url'de bağlantılı varlığın voksel yüksekliğine eşit OLMALIDIR",
         "text124": "\"vxc.width\", vxc.url'de bağlantılı varlığın voksel yüksekliğine eşit OLMALIDIR",
@@ -15117,7 +15117,7 @@
         "text127": "\"vxc.size\", vxc.url'de bağlantılı varlığın voksel yüksekliğine eşit OLMALIDIR",
         "text128": "\"vxc.num_animations\", vxc.url adresinde bağlantılı varlıkta tanımlanan animasyon sayısına eşit OLMALIDIR",
         "text129": "\"gltf.url\" ”, GLTF biçiminde bir voksel varlığına bağlanan geçerli bir IPFS url'si OLMALIDIR",
-        "text130": "gltf dosyası, para basma olayı sırasında (veya sonraki bir saat içinde) IPFS ağında bulunmalıdır",
+        "text130": "gltf dosyası, mint'leme sırasında (veya sonraki bir saat içinde) IPFS ağında bulunmalıdır",
         "text131": "gltf 3d gösterimi, voksel Varlığının gerçek bir temsili olmalı ve izleyiciyi yanıltmamalıdır.",
         "text132": "\"gltf.size\", gltf.url'de bağlantılı varlığın bayt cinsinden boyutuna eşit OLMALIDIR",
         "text133": "\"sandbox_policy\", bu politika içeriğinden oluşturulan IPFS url'sine eşit OLMALIDIR",
