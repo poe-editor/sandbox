@@ -4610,7 +4610,7 @@
                     "youAreNotBuyingALand": "YOU ARE NOT BUYING A LAND",
                     "card": {
                         "title": "{raffleType} LAND RAFFLE",
-                        "subtitle": "Get a chance of buying a {raffleType}",
+                        "subtitle": "Get a chance of buying a {raffleType} LAND",
                         "price": "Price:",
                         "landAvailable": "Lands Available:",
                         "regularPremium": {
@@ -5020,7 +5020,7 @@
                     "title": "Troubleshooting",
                     "1": {
                         "title": "I can’t enter the raffle, it says I need to have 1011 SAND. I checked my wallet and I have 1011 SAND",
-                        "paragraph": "To enter the raffle you need to have 1011 SAND in Polygon. Some users might have SAND in ethereum. If you have SAND in ethereum you can {bridgeToPolygon} or you can {buyInPolygon}.",
+                        "paragraph": "To enter the Regular Raffle you need to have 1011 SAND in Polygon, and 4683 SAND to enter the Premium Raffle. Some users might have SAND in ethereum. If you have SAND in ethereum you can {bridgeToPolygon} or you can {buyInPolygon}.",
                         "bridgeToPolygon": "bridge it to Polygon",
                         "buyInPolygon": "buy SAND in Polygon directly"
                     },
