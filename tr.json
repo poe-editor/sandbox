@@ -315,8 +315,8 @@
                 "title": "Şimdi Al!",
                 "cards": {
                     "binance": "Binance üzerinden SAND al",
-                    "uniswap": "Uniswap'da SAND al",
-                    "simplex": "Simplex'te SAND al",
+                    "uniswap": "Uniswap üzerinden SAND al",
+                    "simplex": "Simplex üzerinden SAND al",
                     "binanceCS": "Binance üzerinden SAND al (çok yakında)",
                     "quickswap": "Quickswap'ta SAND takas et",
                     "comingSoon": "Daha fazla seçenekler çok yakında...",
@@ -598,7 +598,7 @@
                 "mainText": "{0} The Sandbox yardımcı token'i. ARAZİ, VARLIK satın almak veya stake havuzlarına yatırım yapmak için {0} alın.",
                 "0": "SAND"
             },
-            "newButtonText": "Buy SAND"
+            "newButtonText": "SAND Satın Al"
         },
         "experiencesSeason3": {
             "experiences": "Keşfet!",
@@ -1733,7 +1733,7 @@
                 "ends": "ENDS",
                 "starts": "STARTS",
                 "frameTitle": "This experience is part of an event",
-                "NewCollection": "New Collection"
+                "newCollection": "New Collection"
             },
             "rewards": {
                 "alphaSeason": "Alfa Sezon 3",
@@ -4255,8 +4255,8 @@
                 "title": "Dive into Korean Culture and start building the Metaverse!"
             },
             "2": {
-                "title": "Join the Metaverse and never stop building, never stop playing!",
-                "date": "14 Feb - 3:00 PM UTC"
+                "title": "Metaverse'e katılın ve inşa etmeyi asla bırakmayın, oynamayı asla bırakmayın!",
+                "date": "14 Şubat - 18:00 TRT"
             },
             "tooltip": {
                 "title": "Map News",
@@ -4327,12 +4327,12 @@
                     "default": "Raffle winners will be able to buy 1 LAND in the {partner} LAND Sale. {landsCount} LANDs, {landsCount} winners!",
                     "joinTheRaffle": "Join the {partner} LAND Sale Raffle and get a chance of winning a whitelist spot to buy a LAND",
                     "signInToCheck": "Sign in to check your status",
-                    "notInRaffle": "But you can get a chance of buying a {partner} LAND in the Public Sale",
+                    "notInRaffle": "Ancak Halka Açık Satışta bir {partner} LAND satın alma şansı elde edebilirsiniz",
                     "raffleResultsAreSignInToCheck": "{partner} Land Sale raffle results are in! Sign in to find out if you won a whitelist spot.",
                     "raffleResultsAreReady": "{partner} Land Sale raffle results are in!  Check results to find out if you won a whitelist spot.",
                     "youWon": "You are whitelisted for {partner} Land Sale. Make sure you are ready for the LAND sale, see the checklist below.",
                     "youDidntWin": "Didn't win the raffle? Don't worry! Public Sale opnes 24 hours after the whitelist sale.",
-                    "youDidntParticipated": "But you can get a chance of buying a {partner} LAND in the Public Sale",
+                    "youDidntParticipated": "Ancak Halka Açık Satışta bir {partner} LAND satın alma şansı elde edebilirsiniz",
                     "weAreProcessing": "This process can take a few minutes."
                 },
                 "texts": {
@@ -4359,7 +4359,7 @@
                     "raffleResultsIn": "RAFFLE RESULTS IN:",
                     "landSaleStartsOnDate": "LAND sale starts on {date}"
                 },
-                "wave": "Wave 3 - {time}",
+                "wave": "3. Dalga- {time}",
                 "subtitle": "Raffle winners will be able to buy 1 LAND in the {partner} LAND Sale. {landsCount} LANDs, {landsCount} winners!",
                 "subtitle2": "These are California Dreamin’ and you never need to wake up!",
                 "subtitle3": "LAND Satışı için beyaz listede değilsiniz. Müzayedeler yoluyla veya İkincil Piyasada hala bir LAND alabilirsiniz.",
@@ -4518,7 +4518,7 @@
                         "minimumOfSand": "minimum of {sandAmount} on Polygon",
                         "cta": {
                             "bridgeSand": "SAND Köprüle",
-                            "buySand": "Buy SAND on Polygon"
+                            "buySand": "Polygon üzerinden SAND Satın Alın"
                         }
                     }
                 },
@@ -4610,12 +4610,12 @@
                     "youAreNotBuyingALand": "YOU ARE NOT BUYING A LAND",
                     "card": {
                         "title": "{raffleType} LAND RAFFLE",
-                        "subtitle": "Get a chance of buying a {raffleType}",
+                        "subtitle": "Bir {raffleType} LAND satın alma şansı yakalayın",
                         "price": "Price:",
                         "landAvailable": "Lands Available:",
                         "regularPremium": {
                             "title": "REGULAR + PREMIUM RAFFLE",
-                            "subtitle": "You can get a chance of buying a {premium} or a {regular} LAND",
+                            "subtitle": "Bir {premium} veya bir {regular} LAND satın alma şansına sahip olabilirsiniz",
                             "message": "Increase your chances of winning by participating in both LAND Raffles!"
                         },
                         "requirements": "Requirements:",
@@ -4716,7 +4716,7 @@
                 "title": "Frequently Asked Questions",
                 "requirements": {
                     "1": "Account must be verified (KYC);",
-                    "2": "At least 1,011 SAND on Polygon in their wallet (for regular raffle and Premium raffle)",
+                    "2": "Normal Çekilişe katılırsanız cüzdanınızda Polygon'da 1.011 SAND bulundurun. Premium veya Her İki Çekilişe katılırsanız cüzdanınızda Polygon üzerinde 4.683 SAND bulundurun",
                     "3": "User is not banned;"
                 },
                 "bannedUsers": {
@@ -4814,7 +4814,7 @@
                                 "3": {
                                     "1": "Click ENTER RAFFLE (make sure you meet all the requirements)",
                                     "2": "If you don’t have your account verified you can start the process right there or by accessing {link}",
-                                    "3": "To buy SAND please click on the CTA BUY SAND. You can also buy SAND (on polygon) by clicking on the SAND icon in the top right hand corner. Make sure you select {polygon} network",
+                                    "3": "SAND satın almak için lütfen SAND SATIN AL CTA'sına tıklayın. Sağ üst köşedeki SAND simgesine tıklayarak da SAND (polygon'da) satın alabilirsiniz. {polygon} ağını seçtiğinizden emin olun",
                                     "polygon": "Polygon"
                                 },
                                 "4": "Select the raffle you want to join, Regular, Premium or both"
@@ -4863,7 +4863,7 @@
                         "title": "How can I get SAND on Polygon?",
                         "paragraphs": {
                             "1": "Ethereum'da SAND'ınız varsa Polygon'a köprü kurabilirsiniz. Aşağıda SAND'ı nasıl köprüleyebileceğinizi okuyun veya {link} girin.",
-                            "2": "You can buy SAND directly on polygon, click the SAND icon on the top bar and then BUY SAND. Make sure you switch to the Polygon network before selecting the purchase method."
+                            "2": "SAND'ı doğrudan polygon'dan satın alabilirsiniz, üst çubuktaki SAND simgesine tıklayın ve ardından SAND'ı SATIN ALIN. Satın alma yöntemini seçmeden önce Polygon ağına geçtiğinizden emin olun."
                         }
                     },
                     "10": {
@@ -5019,10 +5019,10 @@
                 "troubleShooting": {
                     "title": "Troubleshooting",
                     "1": {
-                        "title": "I can’t enter the raffle, it says I need to have 1011 SAND. I checked my wallet and I have 1011 SAND",
-                        "paragraph": "To enter the raffle you need to have 1011 SAND in Polygon. Some users might have SAND in ethereum. If you have SAND in ethereum you can {bridgeToPolygon} or you can {buyInPolygon}.",
-                        "bridgeToPolygon": "bridge it to Polygon",
-                        "buyInPolygon": "buy SAND in Polygon directly"
+                        "title": "Çekilişe katılamıyorum, 1011 SAND'e sahip olmam gerektiğini söylüyor. Cüzdanımı kontrol ettim ve 1011 SAND'im var.",
+                        "paragraph": "Çekilişe katılmak için Polygon'da 1011 SAND'a sahip olmanız gerekir. Bazı kullanıcıların ethereum'da SAND'ı olabilir. Ethereum'da SAND'ınız varsa {bridgeToPolygon} veya {buyInPolygon} yapabilirsiniz.",
+                        "bridgeToPolygon": "Polygon'a köprü kurun",
+                        "buyInPolygon": "Polygon'dan doğrudan SAND satın alın"
                     },
                     "2": {
                         "title": "I have SAND in Ethereum, how can I bridge SAND from the Ethereum network to Polygon?",
@@ -5042,25 +5042,25 @@
                 "map": "Map"
             },
             "mapPage": {
-                "goToMap": "",
+                "goToMap": "Haritaya Git",
                 "countCards": {
-                    "premiumLands": "",
-                    "regularLands": "",
-                    "3x3Estates": "",
-                    "6x6Estates": ""
+                    "premiumLands": "PREMİUM LAND'LER",
+                    "regularLands": "NORMAL LAND'LER",
+                    "3x3Estates": "3X3 ESTATE'LER",
+                    "6x6Estates": "6X6 ESTATE'LER"
                 },
                 "infoCards": {
                     "card1": {
-                        "title": "",
-                        "subtitle": "",
-                        "description": "",
-                        "button": ""
+                        "title": "Nasıl daha fazla Land elde edilir",
+                        "subtitle": "İKİNCİL MAĞAZA",
+                        "description": "Birçok kullanıcı LAND'lerini yatırım olarak satmaktadır. İkincil piyasa aracılığıyla diğer kullanıcılardan LAND alabilirsiniz. Hayalinizdeki LAND'i OpenSea'den satın alın.",
+                        "button": "Land Satın Al"
                     },
                     "card2": {
-                        "title": "",
-                        "subtitle": "",
-                        "description": "",
-                        "button": ""
+                        "title": "Care Bears Estate Müzayedesi",
+                        "subtitle": "Bir ESTATE alın ve Metaverse'i inşa etmeye başlayın.",
+                        "description": "ESTATE, deneyimler inşa edebileceğiniz ve bunlardan para kazanabileceğiniz bir grup LAND'dir. Açık artırma {month} {time} UTC tarihinde OpenSea'de başlar.",
+                        "button": "ESTATE Müzayedesi"
                     }
                 }
             }
@@ -6547,10 +6547,10 @@
             },
             "viewLand": "view LAND",
             "checkboxs": {
-                "setAssetArt": "Set Asset type to Art",
-                "setAssetBasic": "Set Asset as Basic",
-                "setAssetExlusive": "Set Asset as Exclusive",
-                "setAssetPrivate": "Show in Public Profile"
+                "setAssetArt": "Varlık türünü Sanat olarak ayarlayın",
+                "setAssetBasic": "Varlığı Temel Olarak Ayarla",
+                "setAssetExlusive": "Varlığı Özel Olarak Ayarla",
+                "setAssetPrivate": "Herkese Açık Profilde Göster"
             }
         },
         "faucet": {
@@ -7700,7 +7700,7 @@
         "text43": "Kişisel Bilgilerin toplanması ve/veya anonimleştirilmesi.",
         "text44": "Artık Kişisel Bilgi olarak kabul edilmeyecek şekilde Kişisel Bilgileri toplayabilir ve/veya anonim hale getirebiliriz. Bunu, sizi veya başka herhangi bir kişiyi artık tanımlamadığından, herhangi bir amaçla kullanabileceğimiz ve değerlendireceğimiz, kullanımımız için başka veriler oluşturmak için yapıyoruz.",
         "text45": "İş amaçlarımızı gerçekleştirmek.",
-        "updatedDate": "LAST UPDATED:  November 2022",
+        "updatedDate": "SON GÜNCELLEME: Kasım 2022",
         "text46": "Örneğin, Hizmetlerimizin verimliliğini ve kalitesini artırmak için veri analizi için;",
         "text47": "Hizmetlerimizin amaçlanan işlevselliğini bozan hataları ayıklamak, belirlemek ve onarmak;",
         "text48": "Denetimler için, dahili süreçlerimizin amaçlandığı gibi çalıştığını doğrulamak ve yasal, düzenleyici veya sözleşme gerekliliklerini ele almak için;",
@@ -14955,7 +14955,7 @@
     },
     "termsOfUse": {
         "title": "SANDBOX KULLANIM ŞARTLARI",
-        "updatedDate": "SON GÜNCELLEME: 24 Ağu 2022",
+        "updatedDate": "SON GÜNCELLEME: 10 Ocak, 2023.",
         "text1": "Bu Sandbox Kullanım Koşulları (\"Şartlar\"), Malta'da kurulmuş bir şirket olan TSB Gaming Ltd'nin ve bağlı kuruluşlarının ve bağlı kuruluşlarının (topluca \"TSB\", \"bize\", \"bizim\" veya \"biz\") ve siz (\"siz\" veya \"sizin\"), TSB'nin (\"The Sandbox\") oluşturduğu ve sahip olduğu merkezi olmayan, topluluk odaklı bir platform olan The Sandbox'taki herhangi bir faaliyetinizle ilgili olarak yönetilmeyi kabul edersiniz. . Bu Koşullar, Sandbox'ta veya Sandbox aracılığıyla sunulan her türlü içerik, işlev ve hizmetler dahil olmak üzere Sandbox'a erişiminizi, kullanımınızı ve etkileşiminizi ve herhangi bir Varlık ve/veya Oyun (aşağıda tanımlanmıştır) oluşturmanızı (topluca \"Hizmetler\" olarak anılacaktır) düzenler. ”).",
         "text2": {
             "mainText": "Sandbox'ı kullanmaya başlamadan önce lütfen bu Koşulları dikkatlice okuyun. Sandbox'ı kullanarak, bu Şartlara, URL: {0} adresinde bulunabilecek ekstra Kullanım Şartlarına ve aşağıdaki URL'de bulunabilecek Gizlilik Politikamıza bağlı kalmayı ve bunlara uymayı kabul ve taahhüt edersiniz: {1} , The Sandbox'a erişmemeli veya onu kullanmamalısınız.",
