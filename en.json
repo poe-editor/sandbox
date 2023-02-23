@@ -293,7 +293,8 @@
             "justify": "Justify",
             "bulletList": "Bullet List",
             "orderedList": "Ordered List",
-            "addImage": "Add Image"
+            "addImage": "Add Image",
+            "selectImg": "Select the image to upload"
         },
         "optional": "(Optional)",
         "ordinalDate": {
@@ -306,7 +307,9 @@
             "chain": "Chain",
             "ethereum": "Ethereum",
             "polygon": "Polygon"
-        }
+        },
+        "openInNewTab": "Open in a new tab",
+        "copiesAvailable": "copies available"
     },
     "layout": {
         "topbar": {
@@ -745,7 +748,8 @@
                 "collections": "NFT Collection",
                 "feedback": "Feedback on your experience",
                 "noProgression": "No EP to earn",
-                "creatorTooltip": "Contact creator"
+                "creatorTooltip": "Contact creator",
+                "seeRequirements": "See requirements"
             },
             "loading": {
                 "title": "The Sandbox is now loading...",
@@ -3766,6 +3770,12 @@
                 "disconnectXp": {
                     "affirmativeBtnTxt": "Confirm"
                 }
+            },
+            "messages": {
+                "info": "Select a location that suits the experience's size",
+                "notFit": "You can't place your experience in this location",
+                "placed": "The experience is placed! \n Click disconnect to change the location",
+                "fit": "The experience can be placed in this location"
             }
         }
     },
@@ -3852,7 +3862,8 @@
                 "lands": {
                     "title": "You don't have any LAND in your inventory",
                     "description": "In order to locate your experience you need to have LAND available in the wallet linked to this account. If you don't own any LAND you can always buy one."
-                }
+                },
+                "buy": "Buy"
             },
             "connect": {
                 "successMsg": "The experience was linked succesfully!",
@@ -3867,7 +3878,15 @@
                 "pageTitle": "Sandbox - Experience Placement"
             },
             "publishButton": "Publish",
-            "unpublishButton": "Unpublish"
+            "unpublishButton": "Unpublish",
+            "estateOccupied": "This Estate is already hosting a published experience, and it has not enough free space. You can edit the location of the Experience to free the ESTATE or you can se the list of available ESTATEs.",
+            "subtitle": "Select a LAND or ESTATE to place your Experience",
+            "modals": {
+                "leaving": {
+                    "title": "Leave without confirming connection",
+                    "description": "You chose a location but didn't confirm the connection. If you leave now the changes won't be saved. Are you sure you want to continue?"
+                }
+            }
         },
         "disconnect": "This experience is about to be disconnected with the location.",
         "hub": {
@@ -3931,7 +3950,8 @@
                     "mandatoryContentMissing": "Mandatory content missing",
                     "contentMissed": "Description, images and video",
                     "experiencePageReady": "Experience Page Ready",
-                    "canChange": "You can still change the content clicking Edit button."
+                    "canChange": "You can still change the content clicking Edit button.",
+                    "descriptionReady": "Great! All mandatory information is set up. You can still change the content by clicking the Edit button. \n\n Remember to share this page with your audience and update this information once you publish a new version of the experience."
                 },
                 "requiredCard": "Step is required to publish",
                 "welcomeBackCard": {
@@ -3966,7 +3986,15 @@
                 }
             },
             "pageTitle": "Sandbox - Experience Hub",
-            "title": "Experience Hub"
+            "title": "Experience Hub",
+            "publishedVersion": "{date} (published)",
+            "draftVersion": "{date} (draft)",
+            "experiencePublishedMetaverse": "The experience is PUBLISHED in the metaverse!",
+            "experienceNotPublishedMetaverse": "The experience is NOT PUBLISHED in the metaverse",
+            "draftNotReady": "Draft not ready to be published",
+            "draftReady": "Draft is ready to be published",
+            "experiencePublished": "Experience is published",
+            "notAvailableYet": "Not available yet"
         },
         "gating": {
             "timestamp": "Timestamp",
@@ -3987,7 +4015,8 @@
                 "all": "All",
                 "equipment": "Equipment",
                 "entity": "Entities",
-                "art": "Art"
+                "art": "Art",
+                "filterBy": "Filter by"
             },
             "actions": {
                 "editInGameMaker": "Edit in Game Maker",
@@ -3999,7 +4028,9 @@
                 "unavailable": "{count} Unavailable",
                 "toMint": "{count} To Mint",
                 "ready": "{count} Ready"
-            }
+            },
+            "notAssetsTotal": "No assets",
+            "selected": "{value} Selected"
         }
     },
     "map": {
@@ -6740,7 +6771,22 @@
             "collection": "Collection",
             "token": "NFT",
             "accessRestrictions": "Access restrictions",
-            "setUpGatingHub": "Set up gating from the experience hub"
+            "setUpGatingHub": "Set up gating from the experience hub",
+            "experienceNotPublished": "This experience is not published yet!",
+            "description": "{experienceName} experience requires at least:",
+            "buyNow": "Buy Token",
+            "buyAvatar": "Buy Avatar",
+            "owned": "Owned",
+            "equip": "Equip",
+            "equipped": "Equipped",
+            "or": "OR",
+            "and": "AND",
+            "ownAvatarAndToken": "You own an Avatar and a Token!",
+            "allowYouToEnter": "This allows you to enter the experience",
+            "ownToken": "You own a Token!",
+            "equippedAvatar": "You equipped an Avatar!",
+            "thisTokenAllows": "This Token allows you to enter this experience. Enjoy the perks of being part of this amazing community!",
+            "thisAvatarAllows": "This Avatar allows you to enter this experience. Enjoy the perks of being part of this amazing community!"
         },
         "creatorWebsite": "Website",
         "assetsIncludedTitle": "Assets included",
@@ -6769,10 +6815,31 @@
             "video": "Video",
             "image": "Image",
             "editMainVideo": "Edit main video",
-            "uploadMainVideo": "Upload your main video here."
+            "uploadMainVideo": "Upload your main video here.",
+            "uploadContent": "Upload content to the Carousel",
+            "chooseAFile": "Choose a file",
+            "maxSize": "Max size 90kb",
+            "errorFormatImage": "File extension not supported, please use {formats}"
         },
         "mobileDisclaimer": "To play this experience you must connect from a desktop computer",
-        "contentLimitReached": "You are reached the limit of content."
+        "contentLimitReached": "You are reached the limit of content.",
+        "requirementsToPlay": "Requirements to Play",
+        "gating": "Gating",
+        "blackListedCountriesGating": "Blacklisted countries gating",
+        "optimalDimensions": "Optimal dimensions {width} x {height}",
+        "imageLoaded": "File was uploaded successfully",
+        "urlLoaded": "Video was uploaded successfully",
+        "fileSupported": "File type supported: {types}",
+        "pageMetadata": {
+            "mapDescription": "Map description",
+            "doNotExceedChar": "Do not exceed {number} characters",
+            "contact": "Contact ",
+            "restrictions": "Access Restrictions",
+            "rewards": "Rewards system",
+            "setUpRestrictions": " to set up access restrictions.",
+            "setUpRewards": " to set up rewards.",
+            "sandboxTeam": "The Sandbox Team"
+        }
     },
     "collectionPage": {
         "goBack": "Back",
@@ -8171,7 +8238,12 @@
             "stakeable": "Ready to stake",
             "approvable": "To approve",
             "discontinued": "Discontinued"
-        }
+        },
+        "liquidityPool": "Liquidity Pools",
+        "stakedFunds": "Staked funds",
+        "rankingLastUpdate": "Last update: {rankingComputedTime}",
+        "showRanking": "Your ranking is {ranking}/{totalStakers}",
+        "showNoRanking": "Stake to increase your ranking"
     },
     "login": {
         "refresh": "Please refresh your browser after installing the plugin",
@@ -14044,7 +14116,8 @@
                     "description": "Description",
                     "placeDescription": "Enter the NFT description",
                     "placeName": "Enter the NFT name",
-                    "descriptionSubt": "The description will be included on this asset's detail page"
+                    "descriptionSubt": "The description will be included on this asset's detail page",
+                    "properties": "Properties"
                 },
                 "rarity": {
                     "behaviour": "Behaviour",
@@ -15867,10 +15940,14 @@
         "subtitle": "Discover LANDs & Estates and start creating unique Experiences in the Metaverse."
     },
     "sidebarSell": {
-        "polygonTooltip": "",
-        "ethTooltip": "",
-        "ethHasSell": "",
-        "cancelSell": "",
-        "bridgeAsset": ""
+        "polygonTooltip": "To sell your assets on a different layer you have to bridge you assets.",
+        "ethTooltip": "To sell your assets on a different layer you have to bridge you assets.",
+        "ethHasSell": "You can only have one active sale, to add more assets on sale you must cancel the actual sale.",
+        "cancelSell": "Cancel sell",
+        "bridgeAsset": "Bridge asset"
+    },
+    "art": {
+        "title": "Explore Art",
+        "subtitle": "Discover Art and start creating unique Experiences in the Metaverse."
     }
 }
