@@ -293,7 +293,8 @@
             "justify": "Justify",
             "bulletList": "Bullet List",
             "orderedList": "Ordered List",
-            "addImage": "Add Image"
+            "addImage": "Add Image",
+            "selectImg": ""
         },
         "optional": "(Optional)",
         "ordinalDate": {
@@ -306,7 +307,9 @@
             "chain": "Chain",
             "ethereum": "Ethereum",
             "polygon": "Polygon"
-        }
+        },
+        "openInNewTab": "",
+        "copiesAvailable": ""
     },
     "layout": {
         "topbar": {
@@ -599,7 +602,7 @@
                 "0": "SAND"
             },
             "newButtonText": "Buy SAND",
-            "mainText": "{0} is The Sandbox utility token. Get {0} to buy LAND, ASSETS, or to invest in staking pools.",
+            "mainText": "{sand} is The Sandbox utility token. Get {sand} to buy LAND, ASSETS, or to invest in staking pools. {learnMore}",
             "0": "SAND"
         },
         "experiencesSeason3": {
@@ -745,7 +748,8 @@
                 "collections": "NFT Collection",
                 "feedback": "Feedback on your experience",
                 "noProgression": "No EP to earn",
-                "creatorTooltip": "Contact creator"
+                "creatorTooltip": "Contact creator",
+                "seeRequirements": ""
             },
             "loading": {
                 "title": "《The Sandbox》载入中……",
@@ -3766,6 +3770,12 @@
                 "disconnectXp": {
                     "affirmativeBtnTxt": "Confirm"
                 }
+            },
+            "messages": {
+                "info": "",
+                "notFit": "",
+                "placed": "",
+                "fit": ""
             }
         }
     },
@@ -3852,7 +3862,8 @@
                 "lands": {
                     "title": "You don't have any LAND in your inventory",
                     "description": "In order to locate your experience you need to have LAND available in the wallet linked to this account. If you don't own any LAND you can always buy one."
-                }
+                },
+                "buy": ""
             },
             "connect": {
                 "successMsg": "The experience was linked succesfully!",
@@ -3867,7 +3878,15 @@
                 "pageTitle": "Sandbox - Experience Placement"
             },
             "publishButton": "Publish",
-            "unpublishButton": "Unpublish"
+            "unpublishButton": "Unpublish",
+            "estateOccupied": "",
+            "subtitle": "",
+            "modals": {
+                "leaving": {
+                    "title": "",
+                    "description": ""
+                }
+            }
         },
         "disconnect": "This experience is about to be disconnected with the location.",
         "hub": {
@@ -3931,7 +3950,8 @@
                     "mandatoryContentMissing": "Mandatory content missing",
                     "contentMissed": "Description, images and video",
                     "experiencePageReady": "Experience Page Ready",
-                    "canChange": "You can still change the content clicking Edit button."
+                    "canChange": "You can still change the content clicking Edit button.",
+                    "descriptionReady": ""
                 },
                 "requiredCard": "Step is required to publish",
                 "welcomeBackCard": {
@@ -3966,7 +3986,15 @@
                 }
             },
             "pageTitle": "Sandbox - Experience Hub",
-            "title": "Experience Hub"
+            "title": "Experience Hub",
+            "publishedVersion": "",
+            "draftVersion": "",
+            "experiencePublishedMetaverse": "",
+            "experienceNotPublishedMetaverse": "",
+            "draftNotReady": "",
+            "draftReady": "",
+            "experiencePublished": "",
+            "notAvailableYet": ""
         },
         "gating": {
             "timestamp": "Timestamp",
@@ -3987,7 +4015,8 @@
                 "all": "",
                 "equipment": "",
                 "entity": "",
-                "art": ""
+                "art": "",
+                "filterBy": ""
             },
             "actions": {
                 "editInGameMaker": "",
@@ -3999,7 +4028,9 @@
                 "unavailable": "",
                 "toMint": "",
                 "ready": ""
-            }
+            },
+            "notAssetsTotal": "",
+            "selected": ""
         }
     },
     "map": {
@@ -6740,7 +6771,22 @@
             "collection": "Collection",
             "token": "NFT",
             "accessRestrictions": "",
-            "setUpGatingHub": ""
+            "setUpGatingHub": "",
+            "experienceNotPublished": "",
+            "description": "",
+            "buyNow": "",
+            "buyAvatar": "",
+            "owned": "",
+            "equip": "",
+            "equipped": "",
+            "or": "",
+            "and": "",
+            "ownAvatarAndToken": "",
+            "allowYouToEnter": "",
+            "ownToken": "",
+            "equippedAvatar": "",
+            "thisTokenAllows": "",
+            "thisAvatarAllows": ""
         },
         "creatorWebsite": "网站",
         "assetsIncludedTitle": "",
@@ -6769,10 +6815,31 @@
             "video": "Video",
             "image": "Image",
             "editMainVideo": "Edit main video",
-            "uploadMainVideo": "Upload your main video here."
+            "uploadMainVideo": "Upload your main video here.",
+            "uploadContent": "",
+            "chooseAFile": "",
+            "maxSize": "",
+            "errorFormatImage": ""
         },
         "mobileDisclaimer": "To play this experience you must connect from a desktop computer",
-        "contentLimitReached": "You are reached the limit of content."
+        "contentLimitReached": "You are reached the limit of content.",
+        "requirementsToPlay": "",
+        "gating": "",
+        "blackListedCountriesGating": "",
+        "optimalDimensions": "",
+        "imageLoaded": "",
+        "urlLoaded": "",
+        "fileSupported": "",
+        "pageMetadata": {
+            "mapDescription": "",
+            "doNotExceedChar": "",
+            "contact": "",
+            "restrictions": "",
+            "rewards": "",
+            "setUpRestrictions": "",
+            "setUpRewards": "",
+            "sandboxTeam": ""
+        }
     },
     "collectionPage": {
         "goBack": "返回",
@@ -8171,7 +8238,12 @@
             "stakeable": "Ready to stake",
             "approvable": "To approve",
             "discontinued": "Discontinued"
-        }
+        },
+        "liquidityPool": "",
+        "stakedFunds": "",
+        "rankingLastUpdate": "",
+        "showRanking": "",
+        "showNoRanking": ""
     },
     "login": {
         "refresh": "安装插件后请刷新浏览器",
@@ -14044,7 +14116,8 @@
                     "description": "Description",
                     "placeDescription": "Enter the NFT description",
                     "placeName": "Enter the NFT name",
-                    "descriptionSubt": "The description will be included on this asset's detail page"
+                    "descriptionSubt": "The description will be included on this asset's detail page",
+                    "properties": ""
                 },
                 "rarity": {
                     "behaviour": "Behaviour",
@@ -15872,5 +15945,9 @@
         "ethHasSell": "",
         "cancelSell": "",
         "bridgeAsset": ""
+    },
+    "art": {
+        "title": "",
+        "subtitle": ""
     }
 }
