@@ -593,18 +593,6 @@
         "landSeason3": {
             "title": "랜드(LAND) 보유하기"
         },
-        "sandSeason3": {
-            "title": "왜 SAND인가요?",
-            "buttonText": "지금 구매",
-            "newTitle": "SAND란?",
-            "description": {
-                "mainText": "{0}는 더 샌드박스의 유틸리티 토큰입니다. {0}로 랜드, 애셋을 구입하고 스테이킹 풀에 투자할 수 있습니다.",
-                "0": "SAND"
-            },
-            "newButtonText": "SAND 구입",
-            "mainText": "{sand} is The Sandbox utility token. Get {sand} to buy LAND, ASSETS, or to invest in staking pools. {learnMore}",
-            "0": "SAND"
-        },
         "experiencesSeason3": {
             "experiences": "만나보세요!",
             "discover": "다양한 경험을"
@@ -621,6 +609,11 @@
             "btn2": "무료로 아바타 만들기",
             "btn1SecondLabel": "지금 구입하기",
             "soldOutTag": "SOLD OUT"
+        },
+        "sandSeason3": {
+            "newTitle": "SAND란?",
+            "newButtonText": "SAND 구입",
+            "mainText": "{sand} is The Sandbox utility token. Get {sand} to buy LAND, ASSETS, or to invest in staking pools. {learnMore}"
         },
         "playboyBanner": {
             "title": "플레이보이 파티 피플 컬렉션 아바타 출시",
@@ -15946,5 +15939,8 @@
     "art": {
         "title": "",
         "subtitle": ""
+    },
+    "prueba": {
+        "prueba": ""
     }
 }
