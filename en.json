@@ -593,18 +593,6 @@
         "landSeason3": {
             "title": "BECOME A LAND OWNER"
         },
-        "sandSeason3": {
-            "title": "WHY SAND?",
-            "buttonText": "Buy now",
-            "newTitle": "GOT SAND?",
-            "description": {
-                "mainText": "{0} is The Sandbox utility token. Get {0} to buy LAND, ASSETS, or to invest in staking pools.",
-                "0": "SAND"
-            },
-            "newButtonText": "Buy SAND",
-            "mainText": "{sand} is The Sandbox utility token. Get {sand} to buy LAND, ASSETS, or to invest in staking pools. {learnMore}",
-            "0": "SAND"
-        },
         "experiencesSeason3": {
             "experiences": "Experiences!",
             "discover": "Discover all our"
@@ -621,6 +609,11 @@
             "btn2": "Create free avatar",
             "btn1SecondLabel": "Buy Now",
             "soldOutTag": "SOLD OUT"
+        },
+        "sandSeason3": {
+            "newTitle": "GOT SAND?",
+            "newButtonText": "Buy SAND",
+            "mainText": "{sand} is The Sandbox utility token. Get {sand} to buy LAND, ASSETS, or to invest in staking pools. {learnMore}"
         },
         "playboyBanner": {
             "title": "MINT YOUR AVATAR FROM THE PLAYBOY PARTY PEOPLE COLLECTION",
@@ -15949,5 +15942,8 @@
     "art": {
         "title": "Explore Art",
         "subtitle": "Discover Art and start creating unique Experiences in the Metaverse."
+    },
+    "prueba": {
+        "prueba": ""
     }
 }
