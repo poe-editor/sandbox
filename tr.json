@@ -593,18 +593,6 @@
         "landSeason3": {
             "title": "LAND SAHİBİ OL"
         },
-        "sandSeason3": {
-            "title": "NEDEN SAND?",
-            "buttonText": "Şimdi Al",
-            "newTitle": "SAND VAR MI?",
-            "description": {
-                "mainText": "{0} The Sandbox yardımcı token'i. ARAZİ, VARLIK satın almak veya stake havuzlarına yatırım yapmak için {0} alın.",
-                "0": "SAND"
-            },
-            "newButtonText": "SAND Satın Al",
-            "mainText": "{sand} is The Sandbox utility token. Get {sand} to buy LAND, ASSETS, or to invest in staking pools. {learnMore}",
-            "0": "SAND"
-        },
         "experiencesSeason3": {
             "experiences": "Keşfet!",
             "discover": "Metaverse Deneyimlerini"
@@ -621,6 +609,11 @@
             "btn2": "Ücretsiz avatar oluşturun",
             "btn1SecondLabel": "Buy Now",
             "soldOutTag": "SOLD OUT"
+        },
+        "sandSeason3": {
+            "newTitle": "SAND VAR MI?",
+            "newButtonText": "SAND Satın Al",
+            "mainText": "{sand} is The Sandbox utility token. Get {sand} to buy LAND, ASSETS, or to invest in staking pools. {learnMore}"
         },
         "playboyBanner": {
             "title": "PLAYBOY PARTY PEOPLE KOLEKSİYONUNDAN AVATARINIZI MİNTLEYİN",
@@ -15949,5 +15942,8 @@
     "art": {
         "title": "",
         "subtitle": ""
+    },
+    "prueba": {
+        "prueba": ""
     }
 }
