@@ -593,18 +593,6 @@
         "landSeason3": {
             "title": "LAND保有者になろう"
         },
-        "sandSeason3": {
-            "title": "SANDとは?",
-            "buttonText": "購入する",
-            "newTitle": "SANDはお持ちですか？",
-            "description": {
-                "mainText": "{0} はThe Sandboxのユーティリティートークンです。 LAND、アセット、ステーキングプールへの投資のため{0}を手に入れましょう。 ",
-                "0": "SAND"
-            },
-            "newButtonText": "SANDを購入",
-            "mainText": "{sand} is The Sandbox utility token. Get {sand} to buy LAND, ASSETS, or to invest in staking pools. {learnMore}",
-            "0": "SAND"
-        },
         "experiencesSeason3": {
             "experiences": "体験！",
             "discover": "探索しよう"
@@ -621,6 +609,11 @@
             "btn2": "無料アバターを作成",
             "btn1SecondLabel": "Buy Now",
             "soldOutTag": "SOLD OUT"
+        },
+        "sandSeason3": {
+            "newTitle": "SANDはお持ちですか？",
+            "newButtonText": "SANDを購入",
+            "mainText": "{sand} is The Sandbox utility token. Get {sand} to buy LAND, ASSETS, or to invest in staking pools. {learnMore}"
         },
         "playboyBanner": {
             "title": "MINT YOUR AVATAR FROM THE PLAYBOY PARTY PEOPLE COLLECTION",
@@ -15950,5 +15943,8 @@
     "art": {
         "title": "",
         "subtitle": ""
+    },
+    "prueba": {
+        "prueba": ""
     }
 }
