@@ -860,7 +860,7 @@
                     "youCanWinDescription": "18 Mart'ta bir Alpha Pass kazanabilirsiniz. Görevleri tamamlayarak yarışa bilet al!",
                     "alreadyOwn": "Zaten bir Alfa Bileti'niz var",
                     "claimIt": "Ödüllerin kilidini açmak için Talep edin.",
-                    "betterLuck": "Bir daha ki sefere bol şans!",
+                    "betterLuck": "Bir daha ki sefere, bol şans!",
                     "didNotWin": "2. Sezon Alfa Bileti kazanmadınız",
                     "communityBoosterRewards": "Topluluk Takviyesi Ödülleri",
                     "baseRewards": "Temel Ödüller",
@@ -903,7 +903,7 @@
                     "communityBoosterDescription1": "Stake et ve",
                     "communityBoosterDescription2": "toplam ödül havuzunu arttır. %100'e kadar.",
                     "communityBoosterDescription3": "Ayrıca 200 adede kadar ekstra Çekiliş Bileti de elde edeceksiniz",
-                    "raffleHasPass": "TALEP IÇIN GÜN",
+                    "raffleHasPass": "TALEP İÇİN GÜN",
                     "raffleHasPassDesc": "S3 Alfa Bileti sahibisiniz",
                     "communityBoosterDescription": "Toplam ödül havuzunu artırmak için $SAND yatırın. Topluluk güçlendirici, herkesin $SAND ödüllerine uygulanacaktır. Topluluk ne kadar çok bahis oynarsa, Topluluk o kadar çok kazanır. Ayrıca stake için ekstra Çekiliş Biletleri alacaksınız.",
                     "enterThePartyDescription": "24 Mart Perşembe günü saat 19:00'da VIP Partisine Katılın",
@@ -1006,7 +1006,7 @@
             },
             "ethosPoints": "Ethos Point",
             "eventEthosPoints": "Event Ethos Point",
-            "eventEthosPointsDesc": "Available until",
+            "eventEthosPointsDesc": "Şu tarihe kadar mevcut:",
             "event": "Event",
             "playAlpha": "Alpha Oyna",
             "modalTitleSeasonIsOpen": "Alpha Season 3 is closed!",
@@ -1717,14 +1717,14 @@
                 "avatarGiveaway": "Avatar Giveaway",
                 "ended": "Ended",
                 "eventRewards": "Event Rewards",
-                "landsale": "Land sale",
+                "landsale": "Land satışı",
                 "allEvents": "All Events",
                 "invalidOwner": "The owner must be a valid / existing userId",
                 "questVerification": "If Custom ticket name is specified Total ticket amount must be specified too",
                 "manualVerification": "If Custom manual ticket name is specified Total manual ticket amount must be specified too",
                 "noResults": "There are no results for this search",
                 "tickets": "Tickets",
-                "landsaleTickets": "Landsales Tickets",
+                "landsaleTickets": "Land satışı biletleri",
                 "avatars": "Avatars",
                 "rewardPool": "Ödül Havuzu",
                 "special": "Özel Etkinlik",
@@ -4025,7 +4025,7 @@
         "loader": {
             "text1": "Metaverse LAND oluşturuluyor...",
             "text2": "Parsel sınırları belirleniyor...",
-            "text3": "LAND'i Arazi ile birleştiriliyor...",
+            "text3": "LAND'ler ESTATE'de birleştiriliyor...",
             "text4": "Voksel yerleştiriliyor...",
             "text5": "Sandbox Arazi konumlanıyor...",
             "text6": "Arazi Sahiplerinin parsellerinin bulunuyor...",
@@ -4142,7 +4142,7 @@
             "askSellMarket": "Bu Land'i Pazarımızda satmak ister misiniz?",
             "putOnSale": "Sell LAND",
             "buyLand": "LAND Satın Al",
-            "buyEstate": "ARAZİ Satın Al",
+            "buyEstate": "ESTATE Satın Al",
             "bid": "Teklif",
             "placeBid": "Make offer",
             "cancel": "İptal Et",
@@ -4169,12 +4169,12 @@
             "myLand": "MY LAND",
             "onSale": "FOR SALE",
             "whatCanIDo": {
-                "title": "WHAT CAN I DO WITH MY LAND?",
+                "title": "LAND'im ile ne yapabilirim?",
                 "option1": "Download Game Maker and start building!",
                 "option2": "Publish a GAME",
                 "option3": "Hire Metaverse builders",
                 "option4": "Sell your LAND",
-                "option5": "Lear more about LANDs",
+                "option5": "LAND'ler hakkında daha fazla bilgi edinin",
                 "regular": {
                     "title": "WHAT CAN I DO WITH LAND?",
                     "option1": "Start building!",
@@ -4188,17 +4188,17 @@
                 "premium": {
                     "title": "WHAT CAN I DO WITH {0} LAND?",
                     "option1": "Get more SAND when you stake",
-                    "option2": "Early access to selected features",
+                    "option2": "Seçilen özelliklere erken erişim",
                     "option3": "Attract more users into your experience",
                     "option4": "Catalyst & Gems airdrop"
                 }
             },
             "manageSale": "Manage Sale",
-            "onLandsaleRaffle": "LAND SALE RAFFLE",
+            "onLandsaleRaffle": "LAND SATIŞI ÇEKİLİŞİ ",
             "landsaleRaffle": {
-                "description": "This LAND is part of the {landsaleName} LAND Sale. You can get this LAND joining the LAND Sale Raffle.",
-                "learnMoreAbout": "Learn more about the LAND Sale Raffle",
-                "join": "Join LAND Sale Raffle"
+                "description": "Bu LAND, {landsaleName} LAND Satışının bir parçasıdır. Bu LAND'i LAND Satışı Çekilişine katılarak alabilirsiniz.",
+                "learnMoreAbout": "LAND Satışı Çekilişi hakkında daha fazla bilgi edinin",
+                "join": "LAND Satışı Çekilişine Katılın"
             }
         },
         "onboarding": {
@@ -4206,7 +4206,7 @@
             "description": "Hoşgeldiniz",
             "buttonText": "Devam et",
             "lastButtonText": "Şimdi LAND Satın Al!",
-            "slide1": "Yaklaşan oynanabilir metaverse'imizin LANDS ve ESTATES'lerini bulmak için Sandbox haritasında gezinin. Kendinize bir Sandbox parçası almak için cüzdanınızı SAND ile ayarladığınızdan emin olun.",
+            "slide1": "Yaklaşan oynanabilir metaverse'imizin LAND'leri ve ESTATE'lerinizi bulmak için The Sandbox haritasında gezinin. Kendinize bir The Sandbox parçası almak için cüzdanınızı SAND ile ayarladığınızdan emin olun.",
             "slide2": "4 Haziran'dan 2 Temmuz'a kadar bir dizi özel ay temalı LAND ön satışları düzenliyoruz. Bu MoonSale'in 7.254 LANDS'ından birini %20 indirimle alın ve metaverse'e katılmaya hazır olun."
         },
         "landEdit": {
@@ -4249,8 +4249,8 @@
                 "button": "Pazaryerine git"
             },
             "comming": "COMING UP",
-            "landsale": "LAND SALE",
-            "joinLandsale": "Join LAND Sale",
+            "landsale": "LAND SATIŞI",
+            "joinLandsale": "LAND Satışına Katılın",
             "1": {
                 "title": "Dive into Korean Culture and start building the Metaverse!"
             },
@@ -4294,228 +4294,228 @@
         },
         "landsale": {
             "buttons": {
-                "getMoreTickets": "Get More Tickets",
-                "enterRaffle": "Enter Raffle",
-                "getReady": "Get Ready",
-                "buyLand": "Buy LAND",
-                "checkResults": "Check Results",
-                "getNFT": "Get NFT",
-                "alreadyRegistered": "Already Registered",
-                "join": "Join",
-                "backToLandSale": "Back to LAND Sale",
-                "goToMap": "Go to Map",
-                "joinRegular": "Join Regular",
-                "joinPremium": "Join Premium",
-                "joinBoth": "Join Both",
-                "exploreLANDSale": "Explore LAND Sale"
+                "getMoreTickets": "Daha Fazla Bilet Alın",
+                "enterRaffle": "Çekilişe Katılın",
+                "getReady": "Hazır Olun",
+                "buyLand": "LAND Satın Alın",
+                "checkResults": "Sonuçları Kontrol Edin",
+                "getNFT": "NFT Alın",
+                "alreadyRegistered": "Zaten Kayıtlıyım",
+                "join": "Katıl",
+                "backToLandSale": "LAND Satışına Geri Dön",
+                "goToMap": "Haritaya Git",
+                "joinRegular": "Normal'e Katılın",
+                "joinPremium": "Premium'a Katılın",
+                "joinBoth": "İkisine de Katılın",
+                "exploreLANDSale": "LAND Satışını Keşfedin"
             },
             "header": {
                 "titles": {
-                    "loading": "LAND Sale Raffle",
-                    "default": "{partner} LAND Sale Raffle",
-                    "readyToBuyALAND": "Ready to buy a LAND?",
-                    "registrationClosed": "Registration for the {partner} LAND Sale Raffle is closed",
-                    "inRaffle": "You are registered for the Raffle",
-                    "notInRaffle": "You are not in the Raffle",
-                    "raffleResultsAreReady": "The Raffle results are ready!",
-                    "youWon": "You won a whitelist spot!",
-                    "youDidntWin": "You didn't win a whitelist spot!",
-                    "youDidntParticipated": "You didn't participated in the Raffle",
-                    "weAreProcessing": "We are processing the raffle"
+                    "loading": "LAND Satışı Çekilişi",
+                    "default": "{partner} LAND Satışı Çekilişi",
+                    "readyToBuyALAND": "Bir LAND satın almaya hazır mısınız?",
+                    "registrationClosed": "{partner} LAND Satışı Çekilişi için kayıtlar kapanmıştır",
+                    "inRaffle": "Çekiliş için kayıt oldunuz",
+                    "notInRaffle": "Çekilişte yoksunuz",
+                    "raffleResultsAreReady": "Çekiliş sonuçları hazır!",
+                    "youWon": "Bir beyaz liste yeri kazandınız!",
+                    "youDidntWin": "Beyaz listede yer kazanamadınız!",
+                    "youDidntParticipated": "Çekilişe katılmadınız",
+                    "weAreProcessing": "Çekilişi gerçekleştiriyoruz"
                 },
                 "subtitles": {
-                    "default": "Raffle winners will be able to buy 1 LAND in the {partner} LAND Sale. {landsCount} LANDs, {landsCount} winners!",
-                    "joinTheRaffle": "Join the {partner} LAND Sale Raffle and get a chance of winning a whitelist spot to buy a LAND",
-                    "signInToCheck": "Sign in to check your status",
+                    "default": "Çekilişi kazananlar LAND SATIŞINDA {partner} için 1 LAND satın alabilecekler. {landsCount} LAND, {landsCount} kazananları!",
+                    "joinTheRaffle": "{partner} LAND Satışı Çekilişine katılın ve bir LAND satın almak için beyaz liste kazanma şansı yakalayın",
+                    "signInToCheck": "Durumunuzu kontrol etmek için oturum açın",
                     "notInRaffle": "Ancak Halka Açık Satışta bir {partner} LAND satın alma şansı elde edebilirsiniz",
-                    "raffleResultsAreSignInToCheck": "{partner} Land Sale raffle results are in! Sign in to find out if you won a whitelist spot.",
-                    "raffleResultsAreReady": "{partner} Land Sale raffle results are in!  Check results to find out if you won a whitelist spot.",
-                    "youWon": "You are whitelisted for {partner} Land Sale. Make sure you are ready for the LAND sale, see the checklist below.",
-                    "youDidntWin": "Didn't win the raffle? Don't worry! Public Sale opnes 24 hours after the whitelist sale.",
+                    "raffleResultsAreSignInToCheck": "{partner} Arazi Satışı çekiliş sonuçları geldi! Beyaz liste kazanıp kazanmadığınızı öğrenmek için oturum açın.",
+                    "raffleResultsAreReady": "{partner} Arazi Satışı çekiliş sonuçları geldi!  Beyaz liste kazanıp kazanmadığınızı öğrenmek için sonuçları kontrol edin.",
+                    "youWon": "{Partner} için beyaz listeye alındınız Arazi Satışı. LAND satışı için hazır olduğunuzdan emin olun, aşağıdaki kontrol listesine bakın.",
+                    "youDidntWin": "Çekilişi kazanamadınız mı? Endişelenmeyin! Halka Açık Satış, beyaz liste satışından 24 saat sonra başlar.",
                     "youDidntParticipated": "Ancak Halka Açık Satışta bir {partner} LAND satın alma şansı elde edebilirsiniz",
-                    "weAreProcessing": "This process can take a few minutes."
+                    "weAreProcessing": "Bu işlem birkaç dakika sürebilir."
                 },
                 "texts": {
-                    "youHaveTickets": "You have",
-                    "entersTheMetaverse": "{partner} enters the Metaverse",
-                    "beTheirNeighbour": "And you can be their neighbour",
-                    "howDoesItWork": "How does it work?",
-                    "howDoesItWorkAwnser": "We are changing our LAND Sale system to give all users more chances of buying a LAND",
-                    "description": "The most famous shopping district from Tokyo is entering The Sandbox. With the Shibuya 109 Estate at its heart! This new playground will offer next-generation customer experiences that exceed expectations.",
-                    "entryClosesOn": "Entry closes on {closeDate}",
-                    "ownedTickets": "LAND Raffle Tickets",
-                    "registered": "You are participating in the LAND Sale Raffle!",
-                    "exploreMap": "Explore Map",
-                    "closedRegistration": "Registration is now closed"
+                    "youHaveTickets": "Sizin var",
+                    "entersTheMetaverse": "{partner} Metaverse'e giriyor",
+                    "beTheirNeighbour": "Ve siz de onların komşusu olabilirsiniz.",
+                    "howDoesItWork": "Nasıl çalışır?",
+                    "howDoesItWorkAwnser": "Tüm kullanıcılara daha fazla LAND satın alma şansı vermek için LAND Satış sistemimizi değiştiriyoruz",
+                    "description": "Tokyo'nun en ünlü alışveriş bölgesi The Sandbox'a giriyor. Merkezinde Shibuya 109 Sitesi var! Bu yeni oyun alanı, beklentileri aşan yeni nesil müşteri deneyimleri sunacak.",
+                    "entryClosesOn": "Giriş {closeDate} tarihinde kapanır",
+                    "ownedTickets": "LAND Çekiliş Biletleri",
+                    "registered": "LAND Satışı Çekilişine katılıyorsunuz!",
+                    "exploreMap": "Haritayı Keşfet",
+                    "closedRegistration": "Kayıtlar kapanmıştır"
                 },
                 "countdown": {
-                    "registrationStarts": "REGISTRATION STARTS IN",
-                    "registrationEnds": "REGISTRATION ENDS IN",
-                    "raffleStarts": "RAFFLE STARTS IN",
-                    "publicSaleStarts": "PUBLIC SALE STARTS IN",
-                    "landSaleStartsIn": "LAND SALE SALE STARTS IN",
-                    "landSaleEndsIn": "LAND SALE ENDS IN",
-                    "live": "LIVE",
-                    "raffleResultsIn": "RAFFLE RESULTS IN:",
-                    "landSaleStartsOnDate": "LAND sale starts on {date}"
+                    "registrationStarts": "KAYITLAR ŞU TARİHTE BAŞLIYOR",
+                    "registrationEnds": "KAYITLAR ŞU TARİHTE BİTİYOR",
+                    "raffleStarts": "ÇEKİLİŞ BAŞLIYOR",
+                    "publicSaleStarts": "HALKA AÇIK SATIŞ BAŞLIYOR",
+                    "landSaleStartsIn": "LAND SATIŞ BAŞLIYOR",
+                    "landSaleEndsIn": "LAND SATIŞI SONA ERDİ",
+                    "live": "CANLI",
+                    "raffleResultsIn": "ÇEKİLİŞ SONUÇLARI GELDİ:",
+                    "landSaleStartsOnDate": "LAND satışı {date} tarihinde başlıyor"
                 },
                 "wave": "3. Dalga- {time}",
-                "subtitle": "Raffle winners will be able to buy 1 LAND in the {partner} LAND Sale. {landsCount} LANDs, {landsCount} winners!",
-                "subtitle2": "These are California Dreamin’ and you never need to wake up!",
+                "subtitle": "Çekilişi kazananlar LAND SATIŞINDA {partner} için 1 LAND satın alabilecekler. {landsCount} LAND, {landsCount} kazananları!",
+                "subtitle2": "Bunlar California Dreamin' ve asla uyanmanıza gerek yok!",
                 "subtitle3": "LAND Satışı için beyaz listede değilsiniz. Müzayedeler yoluyla veya İkincil Piyasada hala bir LAND alabilirsiniz.",
-                "notLoggedInAndResultsArePublic": "Log in to check if you are whitelisted for {partner} LAND Sale",
-                "boughtSubtitle": "Congratulations, you are a LAND Owner! You can get more LAND on Secondary Market.",
-                "title": "Welcome to the {partner} LAND Sale!"
+                "notLoggedInAndResultsArePublic": "{partner} LAND Satışı için beyaz listede olup olmadığınızı kontrol etmek için giriş yapın",
+                "boughtSubtitle": "Tebrikler, artık bir LAND Sahibisiniz! İkincil Piyasada daha fazla LAND alabilirsiniz.",
+                "title": "{partner} LAND Satışına hoş geldiniz!"
             },
             "timeline": {
-                "raffle": "Raffle",
-                "registration": "Registration",
-                "registerUntil": "Until {date}",
-                "wlSale": "WL Sale",
-                "publicSale": "Public Sale",
-                "publicSaleOpens": "Public sale opens 24 hours after the allowlist sale",
-                "didntWinTheRaffle": "Didn't win the Raffle?",
-                "wantToKnowHowManyTickets": "Want to know how many tickets do you already have",
-                "youAreRegistered": "You are Registered for the Raffle",
-                "youAreNotRegistered": "You are NOT Registered for the Raffle",
-                "youWon": "You won a whitelist spot!",
-                "youDidntWin": "You didn't win a whitelist spot!",
-                "sale": "Sale",
-                "until": "Until {date}",
-                "to": "{date} to {dateTo}",
-                "allTimesUTC": "All times are in UTC"
+                "raffle": "Çekiliş Sonuçları",
+                "registration": "Kayıt",
+                "registerUntil": "{date}'e kadar",
+                "wlSale": "WL Satışı",
+                "publicSale": "Halka Açık Satış",
+                "publicSaleOpens": "Halka açık satış, izin verilenler liste satışından 24 saat sonra açılır",
+                "didntWinTheRaffle": "Çekilişi kazanmadınız mı?",
+                "wantToKnowHowManyTickets": "Halihazırda kaç biletiniz olduğunu bilmek ister misiniz?",
+                "youAreRegistered": "Çekiliş için Kaydınız Yapıldı",
+                "youAreNotRegistered": "Çekiliş için Kayıtlı DEĞİLSİNİZ",
+                "youWon": "Beyaz listede yer kazandınız!",
+                "youDidntWin": "Beyaz listede yer kazanamadınız!",
+                "sale": "Satış",
+                "until": "{date}'e kadar",
+                "to": "{date} ile {dateTo} arasında",
+                "allTimesUTC": "Tüm zaman dilimleri UTC"
             },
             "whatsTheLANDSale": {
-                "title": "What is the LAND Sale Raffle?",
+                "title": "LAND Satışı Çekilişi nedir?",
                 "explain1": {
-                    "message": "We want to provide a fair experience so everyone can get the chance of buying LAND. This is why we are redesigning our LAND Sale system introducing the {0}. ",
-                    "boldMessage": "LAND Sale Raffle"
+                    "message": "Herkesin LAND satın alma şansına sahip olabilmesi için adil bir deneyim sunmak istiyoruz. Bu nedenle LAND Satış sistemimizi yeniden tasarlayarak {0}'ı getiriyoruz. ",
+                    "boldMessage": "LAND Satışı Çekilişi"
                 },
                 "explain2": {
-                    "message": "In order to buy LAND at The Sandbox, users will need to join the LAND Sale Raffle. {0} depending on the type of raffle they joined, {1} or {2}.",
-                    "boldMessage": "Every winner will be able to buy a random LAND",
+                    "message": "The Sandbox'ta LAND satın almak için kullanıcıların LAND Satış Çekilişine katılmaları gerekecektir. Katıldıkları çekiliş türüne bağlı olarak {0}, {1} veya {2}.",
+                    "boldMessage": "Her kazanan rastgele bir LAND satın alabilecek",
                     "premium": "Premium",
-                    "regular": "Regular"
+                    "regular": "Normal"
                 },
-                "joinRequirements": "To join the LAND Sale Raffle make sure you meet the following requirements:",
-                "requirement1": "Having an account at The Sandbox",
-                "requirement2": "Having enough SAND in your wallet",
-                "requirement3": "Having your Account Verified before the Raffle starts",
-                "farewell": "The more tickets you have, the more chances of winning."
+                "joinRequirements": "LAND Satışı Çekilişine katılmak için aşağıdaki şartları karşıladığınızdan emin olun:",
+                "requirement1": "The Sandbox'ta bir hesabınızın olması",
+                "requirement2": "Cüzdanınızda yeterli miktarda SAND olması",
+                "requirement3": "Çekiliş başlamadan önce Hesabınızın Doğrulanması",
+                "farewell": "Ne kadar çok bilete sahip olursanız, kazanma şansınız o kadar artar."
             },
             "modals": {
                 "KYCStatus": {
                     "firstView": {
-                        "verifyAccount": "Verify your account",
+                        "verifyAccount": "Hesabınızı doğrulayın",
                         "explain": {
-                            "message": "As much as we love robots, we want the Metaverse to be full of {0}. We are improving our LAND Sale system so everyone has a fair chance of getting LAND.",
-                            "humans": "humans"
+                            "message": "Robotları ne kadar sevsek de, Metaverse'in {0} ile dolu olmasını istiyoruz. Herkesin LAND almak için adil bir şansa sahip olması için LAND Satış sistemimizi geliştiriyoruz.",
+                            "humans": "insanlar"
                         },
-                        "importantMessage": "IMPORTANT: The Verification process might take up to 48 hours.",
+                        "importantMessage": "ÖNEMLİ: Doğrulama süreci 48 saate kadar sürebilir.",
                         "disclaimer": {
-                            "message": "Only Verified accounts will be elegible to winning the LAND Sale Raffle. If you choose to Verify your account later, you can start the verification process at {0}",
+                            "message": "Sadece Doğrulanmış hesaplar LAND Satışı Çekilişini kazanmaya hak kazanacaktır. Hesabınızı daha sonra doğrulamayı seçerseniz, doğrulama işlemini {0} adresinden başlatabilirsiniz.",
                             "path": "{verificationPath}"
                         }
                     },
                     "secondView": {
-                        "continueWithoutVerification": "Continue without verification",
-                        "disclaimer": "Only Verified accounts can be elegible to win the LAND Sale Raffle.",
-                        "disclaimerExplanation": "If you decide to Verify your account later please remember the verification process might take up to 48 hours. If you account is not Verified before the LAND Sale Raffle starts, your entry won’t be valid."
+                        "continueWithoutVerification": "Doğrulama olmadan devam et",
+                        "disclaimer": "LAND Satışı Çekilişini kazanmak için yalnızca Doğrulanmış hesaplar uygun olabilir.",
+                        "disclaimerExplanation": "Hesabınızı daha sonra doğrulamaya karar verirseniz, lütfen doğrulama işleminin 48 saate kadar sürebileceğini unutmayın. LAND Satışı Çekilişi başlamadan önce hesabınız doğrulanmazsa, girişiniz geçerli olmayacaktır."
                     }
                 },
                 "registration": {
-                    "title": "Select the raffle you want to join",
-                    "message": "Joining one raffle, or both to increase your chance of winning. You can only win one of them.",
-                    "importantMessage": "IMPORTANT: By joining the LAND Sale Raffle YOU ARE NOT BUYING A LAND. You are joining a raffle to win a chance to buy 1 LAND in the LOREMIPSUM LAND Sale Raffle. Entering the raffle does not have a cost nor will trigger a transaction.",
-                    "raffleDate": "Raffle Date",
+                    "title": "Katılmak istediğiniz çekilişi seçin",
+                    "message": "Kazanma şansınızı artırmak için bir çekilişe veya her ikisine birden katılabilirsiniz. Sadece birini kazanabilirsiniz.",
+                    "importantMessage": "ÖNEMLİ: LAND Satış Çekilişine katılarak LAND SATIN ALMIYORSUNUZ. LOREMIPSUM LAND Satış Çekilişinde 1 LAND satın alma şansı kazanmak için bir çekilişe katılıyorsunuz. Çekilişe katılmanın bir maliyeti yoktur ve bir işlemi tetiklemez.",
+                    "raffleDate": "Çekiliş Tarihi",
                     "regularLand": {
-                        "publishMonetize": "Publish and monetize your Experience",
-                        "rentYourLAND": "Rent your LAND",
-                        "earnRewards": "Earn exclusive rewards",
+                        "publishMonetize": "Deneyiminizi yayınlayın ve para kazanın",
+                        "rentYourLAND": "LAND'inizi kiralayın",
+                        "earnRewards": "Özel ödüller kazanın",
                         "stake": "Stake"
                     },
                     "premiumLand": {
-                        "regularFeaturesPlus": "All Regular LAND features +",
-                        "premiumLocation": "Premium location next to top Partners",
-                        "exclusiveAssets": "Exclusive assets bundle"
+                        "regularFeaturesPlus": "Tüm Normal LAND özellikleri +",
+                        "premiumLocation": "En iyi Ortakların yanında birinci sınıf konum",
+                        "exclusiveAssets": "Özel varlıklar paketi"
                     }
                 },
                 "confirmation": {
                     "verificationNotStarted": {
-                        "title": "Verify you account to continue",
-                        "message": "You need to verify your account before the raffle starts. Account verification might take up to 48 hours.",
+                        "title": "Devam etmek için hesabınızı doğrulayın",
+                        "message": "Çekiliş başlamadan önce hesabınızı doğrulamanız gerekir. Hesap doğrulaması 48 saate kadar sürebilir.",
                         "button": "START ACCOUNT VERIFICATION"
                     },
                     "verificationStarted": {
-                        "title": "Verify you account to continue",
-                        "message": "You need to verify your account before the raffle starts. Account verification might take up to 48 hours.",
-                        "button": "CONTINUE ACCOUNT VERIFICATION "
+                        "title": "Devam etmek için hesabınızı doğrulayın",
+                        "message": "Çekiliş başlamadan önce hesabınızı doğrulamanız gerekir. Hesap doğrulaması 48 saate kadar sürebilir.",
+                        "button": "HESAP DOĞRULAMAYA DEVAM ET "
                     },
                     "waitingVerification": {
-                        "title": "We are processing your Raffle entry",
-                        "message": "Your entry will be approved if your account gets verified. This process can take up to 48 hours.",
-                        "button": "CHECK VERIFICATION STATUS"
+                        "title": "Çekiliş girişinizi işleme alıyoruz",
+                        "message": "Hesabınız doğrulanırsa girişiniz onaylanacaktır. Bu işlem 48 saate kadar sürebilir.",
+                        "button": "DOĞRULAMA DURUMUNU KONTROL ET"
                     },
                     "verified": {
-                        "title": "You are in the raffle",
-                        "message": "Thanks for joining the LOREMIPSUM Land Sale Raffle. Good luck!"
+                        "title": "Çekiliştesiniz",
+                        "message": "LOREMIPSUM LAND Satışı Çekilişine katıldığınız için teşekkür ederiz. İyi şanslar!"
                     }
                 },
                 "youWon": {
-                    "title": "Congratulations!",
-                    "subtitle": "You are now whitelisted to buy 1 {landType} at {partner} LAND Sale",
+                    "title": "Tebrikler!",
+                    "subtitle": "Şimdi {partner} LAND Satışında 1 {landType} satın almak için beyaz listeye alındınız",
                     "message": {
-                        "body": "To buy {0} enter the {1} page ({2}) between {3} and {4}. After that period, you won’t be able to purchase. Your entry is only valid for {partner} LAND Sale.",
-                        "landSale": "LAND Sale",
+                        "body": "{0} satın almak için {3} ile {4} arasında {1} sayfasına ({2}) girin. Bu süreden sonra satın alamazsınız. Girişiniz yalnızca {ortak} LAND Satışı için geçerlidir.",
+                        "landSale": "LAND Satışı",
                         "landType": "1 {landType} LAND",
                         "link": "https://sandbox.game/en/landsale",
                         "startsAt": "{startsAt}",
                         "endsAt": "{endsAt}"
                     },
-                    "yourWallet": "Your wallet: ",
-                    "makeSure": "Make sure you are all set for the LAND Sale.",
-                    "body": "LAND Sale starts at {startsAt} UTC. Get Ready!"
+                    "yourWallet": "Cüzdanınız: ",
+                    "makeSure": "LAND Satışı için her şeyin hazır olduğundan emin olun.",
+                    "body": "LAND Satışı {startsAt} ile başlıyor. Hazır olun!"
                 },
                 "youDidntWin": {
-                    "title": "Better luck next time",
-                    "subtitle": "You can still get a LAND",
+                    "title": "Bir daha ki sefere, bol şans!",
+                    "subtitle": "Hala bir LAND alabilirsiniz",
                     "message": {
-                        "body": "ESTATE Auctions will start on {0}. If any user who won the raffle decides not to buy their LAND, all remaining LAND will be set in auction on {1}.",
+                        "body": "ESTATE Açık Artırmaları {0} tarihinde başlayacaktır. Çekilişi kazanan herhangi bir kullanıcı LAND'ini satın almamaya karar verirse, kalan tüm LAND {1}'de açık artırmaya çıkarılacaktır.",
                         "startsAt": "{startsAt}",
                         "endsAt": "{endsAt}"
                     },
-                    "learnMore": "Learn more about {partner} Land Sale",
-                    "redirectedToOpenSea": "You will be redirected to OpenSea"
+                    "learnMore": "{partner} Arazi Satışı hakkında daha fazla bilgi edinin",
+                    "redirectedToOpenSea": "OpenSea'ye yönlendirileceksiniz"
                 },
                 "buyLand": {
-                    "title": "You are going to buy",
+                    "title": "Satın alacaksınız",
                     "title2": "1 {type} LAND",
-                    "description": "Click the button below to BUY and reveal the location of your new LAND!",
-                    "button": "BUY 1 {type} LAND ({price} SAND)"
+                    "description": "Yeni LAND'inizi SATIN ALMAK ve yerini öğrenmek için aşağıdaki butona tıklayın!",
+                    "button": "1 {type} LAND SATIN AL ({price} SAND)"
                 },
                 "landBought": {
-                    "title": "You just bought",
+                    "title": "Az önce satın aldın",
                     "title2": "{type} LAND ({coordinates})",
-                    "description": "Your transaction is being processed.",
-                    "check": "Check your transaction:",
-                    "button": "What can I do with my LAND?",
-                    "closeAdvice": "You can close this popup, your transaction will still be processed",
-                    "transactionApproved": "Congratulations! Your transaction has been approved",
-                    "disclaimer": "It may take up to 3 minutes to see the LAND in your account. {link}",
-                    "disclaimerLink": "Check in Polygonscan"
+                    "description": "İşleminiz gerçekleştiriliyor.",
+                    "check": "İşleminizi kontrol edin:",
+                    "button": "LAND'im ile ne yapabilirim?",
+                    "closeAdvice": "Bu açılır pencereyi kapatabilirsiniz, işleminiz yine de işleme alınacaktır",
+                    "transactionApproved": "Tebrikler! İşleminiz onaylandı",
+                    "disclaimer": "LAND'ı hesabınızda görmeniz 3 dakika kadar sürebilir. {link}",
+                    "disclaimerLink": "Polygonscan'de kontrol edin"
                 },
                 "registerRequirements": {
-                    "title": "LAND Sale Raffle requirements",
-                    "description": "As much as we love robots, we want the Metaverse to be full of humans.",
-                    "readMoreInFAQ": "Read more about the LAND Sale Raffle requirements in the FAQs",
+                    "title": "LAND Satışı Çekilişi şartları ",
+                    "description": "Robotları ne kadar sevsek de Metaverse'in insanlarla dolu olmasını istiyoruz.",
+                    "readMoreInFAQ": "LAND Satışı Çekilişi gereklilikleri hakkında daha fazla bilgi için SSS bölümüne bakınız",
                     "KYCRequirement": {
-                        "title": "Account Verification",
-                        "description": "Please verify your account to enter the Raffle. It’s the best way to assure equal chances for everyone."
+                        "title": "Hesap Doğrulama",
+                        "description": "Çekilişe katılmak için lütfen hesabınızı doğrulayın. Herkes için eşit şans sağlamanın en iyi yolu budur."
                     },
                     "insufficientSand": {
-                        "title": "SAND Verification",
-                        "description": "You need a {minimumOfSand} in your wallet (the price for a regular LAND) to enter the raffle. You won’t be charged until you confirm your purchase.",
-                        "minimumOfSand": "minimum of {sandAmount} on Polygon",
+                        "title": "SAND Doğrulama",
+                        "description": "Çekilişe katılmak için cüzdanınızda {minimumOfSand} (normal bir LAND fiyatı) olması gerekir. Satın alma işleminizi onaylayana kadar ücretlendirilmeyeceksiniz.",
+                        "minimumOfSand": "Polygon üzerinde minimum {sandAmount}",
                         "cta": {
                             "bridgeSand": "SAND Köprüle",
                             "buySand": "Polygon üzerinden SAND Satın Alın"
@@ -4523,344 +4523,344 @@
                     }
                 },
                 "youLose": {
-                    "title": "Better luck next time",
-                    "subtitle": "You didn't win the LAND Sale Raffle, but you can still get a LAND.",
+                    "title": "Bir daha ki sefere, bol şans!",
+                    "subtitle": "LAND Satış Çekilişini kazanamadınız, ama hala bir LAND alabilirsiniz.",
                     "body": {
-                        "estateAuctions": "ESTATE Auctions will start on {estateAuctionStartDate} UTC.",
-                        "remainingLands": "If any user who won the raffle decides not to buy their LAND, all remaining LAND will be set in auction on {publicAuctionStartDate} UTC."
+                        "estateAuctions": "ESTATE Açık Artırmaları {estateAuctionStartDate} UTC tarihinde başlayacaktır.",
+                        "remainingLands": "Çekilişi kazanan herhangi bir kullanıcı LAND'ini satın almamaya karar verirse, kalan tüm LAND'ler {publicAuctionStartDate} UTC tarihinde açık artırmaya çıkarılacaktır."
                     },
-                    "buy": "Buy LAND",
-                    "search": "Search for LAND"
+                    "buy": "LAND Satın Alın",
+                    "search": "LAND arayın"
                 }
             },
             "KYC": {
-                "accountStatus": "Account Status",
+                "accountStatus": "Hesap Durumu",
                 "poweredBy": {
-                    "by": "Powered by SYNAPS. {0}",
-                    "linkMessage": "Learn more about SYNAPS"
+                    "by": "SYNAPS tarafından desteklenmektedir. {0}",
+                    "linkMessage": "SYNAPS hakkında daha fazla bilgi edinin"
                 },
                 "buttons": {
-                    "startVerification": "Start Verification",
-                    "checkVerification": "CHECK VERIFICATION STATUS",
-                    "doLater": "I'll do the verification later",
-                    "IUnderstand": "I understand, continue",
-                    "checkTheStatus": "Check the status",
-                    "continue": "Continue Verification",
-                    "startHere": "Start here"
+                    "startVerification": "Doğrulamayı Başlat",
+                    "checkVerification": "DOĞRULAMA DURUMUNU KONTROL EDİN",
+                    "doLater": "Doğrulamayı daha sonra yapacağım.",
+                    "IUnderstand": "Anladım devam et.",
+                    "checkTheStatus": "Durumu kontrol edin",
+                    "continue": "Doğrulamaya Devam Et",
+                    "startHere": "Buradan başlayın"
                 },
                 "verificationProcess": {
-                    "disclaimer": "{0}: If you want to receive a confirmation via e-mail please make sure there’s an email linked to your account. You can link an email at {1}  You can always check your account Verification status at {2}",
-                    "title": "VERIFICATION PROCESS",
-                    "emailPath": "Account > Settings > Email & Password",
+                    "disclaimer": "{0}: E-posta yoluyla bir onay almak istiyorsanız, lütfen hesabınıza bağlı bir e-posta olduğundan emin olun. {1} adresinden bir e-posta bağlayabilirsiniz.  Hesap Doğrulama durumunuzu her zaman {2} adresinden kontrol edebilirsiniz.",
+                    "title": "DOĞRULAMA SÜRECI",
+                    "emailPath": "Hesap > Ayarlar > E-posta ve Şifre",
                     "verificationPath": "{verificationPath}"
                 },
                 "verificationStatus": {
-                    "title": "RAFFLE ENTRY STATUS",
-                    "unverified": "YOU ARE NOT VERIFIED",
-                    "inProgress": "VERIFICATION PENDING",
-                    "waitingVerification": "VERIFICATION PENDING",
-                    "verified": "YOU ARE IN THE RAFFLE",
-                    "rejected": "VERIFICATION REJECTED",
-                    "cancelled": "VERIFICATION CANCELLED"
+                    "title": "ÇEKİLİŞ GİRİŞ DURUMU",
+                    "unverified": "DOĞRULANMADINIZ",
+                    "inProgress": "DOĞRULAMA BEKLEMEDE",
+                    "waitingVerification": "DOĞRULAMA BEKLEMEDE",
+                    "verified": "ÇEKİLİŞTESİNİZ",
+                    "rejected": "DOĞRULAMA REDDEDİLDİ",
+                    "cancelled": "DOĞRULAMA İPTAL EDİLDİ"
                 },
-                "inProgressMessage": "Your account has not verified yet. The Verification process might take up to 48 hours.",
-                "rejectedMessage": "Your account was rejected. Only Verified accounts will be elegible to winning the LAND Sale Raffle.",
-                "unverifiedMessage": "Your account needs to be verified to join the LAND Sale Raffle. The Verification process might take up to 48 hours.",
-                "actionRequired": "Action Required: To continue your account verification please submit the required documentation. (Upload Document)"
+                "inProgressMessage": "Hesabınız henüz doğrulanmadı. Doğrulama işlemi 48 saate kadar sürebilir.",
+                "rejectedMessage": "Hesabınız reddedildi. Yalnızca Doğrulanmış hesaplar LAND Satışı Çekilişini kazanmaya hak kazanacaktır.",
+                "unverifiedMessage": "LAND Satışı Çekilişine katılmak için hesabınızın doğrulanması gerekmektedir. Doğrulama işlemi 48 saate kadar sürebilir.",
+                "actionRequired": "Yapılması Gereken İşlem: Hesap doğrulama işleminize devam etmek için lütfen gerekli belgeleri gönderin. (Belge Yükle)"
             },
             "tickets": {
-                "title": "How to get LAND Sale Raffle tickets",
-                "subtitle": "Increase your chances of winning by earning more tickets*. By winning the LAND Sale Raffle you earn the chance of buying a LAND.",
+                "title": "LAND Satışı Çekiliş biletleri nasıl alınır",
+                "subtitle": "Daha fazla bilet kazanarak kazanma şansınızı artırın*. LAND Satışı Çekilişini kazanarak bir LAND satın alma şansı elde edersiniz.",
                 "disclaimer": {
-                    "1": "* How you earn tickets might change on each LAND Sale depending on Seasonal events, partners and different activities.",
-                    "2": "** Playboy Rabbitars ticket bonus is capped to 5 per wallet. Owning multiple Playboy Rabbitars NFTs won’t give you more than 5 raffle tickets."
+                    "1": "*Sezon etkinliklerine, ortaklara ve farklı faaliyetlere bağlı olarak her LAND Satışında nasıl bilet kazanacağınız değişebilir.",
+                    "2": "** Playboy Rabbitars bilet bonusu cüzdan başına 5 ile sınırlandırılmıştır. Birden fazla Playboy Rabbitars NFT'sine sahip olmak size 5'ten fazla çekiliş bileti kazandırmaz."
                 },
-                "yourTotalRaffleTickets": "YOUR TOTAL RAFFLE TICKETS",
+                "yourTotalRaffleTickets": "TOPLAM ÇEKİLİŞ BİLETLERİNİZ",
                 "registered": {
-                    "title": "Enter the Raffle",
-                    "tooltip": "Every user gets 1 Ticket for joining the LAND Sale Raffle"
+                    "title": "Çekilişe Katılın",
+                    "tooltip": "Her kullanıcı LAND Satışı Çekilişine katılmak için 1 Bilet alır"
                 },
                 "season2pass": {
-                    "title": "Season 2 Alpha Pass",
-                    "tooltip": "Reached level 5 during Alpha Season 2."
+                    "title": "Sezon 2 Alfa Bileti",
+                    "tooltip": "Alfa Sezon 2 sırasında 5. seviyeye ulaştı."
                 },
                 "s1Memorabilia": {
-                    "title": "Season 1: Level 5 Completed",
-                    "tooltip": "Reached level 5 during Alpha Season 1."
+                    "title": "Sezon 1: Seviye 5 Tamamlandı",
+                    "tooltip": "Alfa Sezon 1 sırasında 5. seviyeye ulaştı."
                 },
                 "s2Memorabilia": {
-                    "title": "Season 2: Level 5 Completed",
-                    "tooltip": "Reached level 5 during Alpha Season 2."
+                    "title": "Sezon 2: Seviye 5 Tamamlandı",
+                    "tooltip": "Alfa Sezon 2 sırasında 5. seviyeye ulaştı."
                 },
-                "cta": "Learn more about Raffle Tickets",
+                "cta": "Çekiliş Biletleri hakkında daha fazla bilgi edinin",
                 "s3Memorabilia": {
-                    "title": "Season 3: Level 5 Completed",
-                    "tooltip": "Reached level 5 during Alpha Season 3."
+                    "title": "Sezon 3: Seviye 5 Tamamlandı",
+                    "tooltip": "Alfa Sezon 3 sırasında 5. seviyeye ulaştı."
                 },
                 "extraTicket": {
-                    "title": "Be a Playboy Rabbitars holder",
-                    "tooltip": "Own at least 1 Playboy Rabbitar, reward limited to 5 raffle tickets by wallet."
+                    "title": "Playboy Rabbitars sahibi olun",
+                    "tooltip": "En az 1 Playboy Rabbitar sahibi olun, ödül cüzdanla 5 çekiliş bileti ile sınırlıdır."
                 }
             },
             "register": {
-                "raffleSelected": "YOU ARE IN THE RAFFLE:",
+                "raffleSelected": "ÇEKİLİŞTESİNİZ",
                 "join": {
-                    "title": "Select the raffle you want to join",
-                    "description": "By joining the LAND Sale Raffle {youAreNotBuyingALand}. You are joining a raffle to win a chance to buy 1 LAND in the LAND Sale. Entering the raffle does not have a cost nor will trigger a transaction.",
-                    "youAreNotBuyingALand": "YOU ARE NOT BUYING A LAND",
+                    "title": "Katılmak istediğiniz çekilişi seçin",
+                    "description": "LAND Satışı Çekilişine katılarak {arazi satın almıyorsunuz}. LAND Satışında 1 LAND satın alma şansı kazanmak için bir çekilişe katılıyorsunuz. Çekilişe katılmanın bir maliyeti yoktur ve bir işlemi tetiklemez.",
+                    "youAreNotBuyingALand": "BİR ARAZİ SATIN ALMIYORSUNUZ",
                     "card": {
-                        "title": "{raffleType} LAND RAFFLE",
+                        "title": "{raffleType} LAND ÇEKİLİŞİ",
                         "subtitle": "Bir {raffleType} LAND satın alma şansı yakalayın",
-                        "price": "Price:",
-                        "landAvailable": "Lands Available:",
+                        "price": "Fiyat:",
+                        "landAvailable": "Mevcut Land'ler:",
                         "regularPremium": {
-                            "title": "REGULAR + PREMIUM RAFFLE",
+                            "title": "NORMAL + PREMIUM ÇEKİLİŞ",
                             "subtitle": "Bir {premium} veya bir {regular} LAND satın alma şansına sahip olabilirsiniz",
-                            "message": "Increase your chances of winning by participating in both LAND Raffles!"
+                            "message": "Her iki LAND Çekilişine de katılarak kazanma şansınızı artırın!"
                         },
-                        "requirements": "Requirements:",
-                        "requirementsMessage": "{requirements} Have {price} SAND in your wallet"
+                        "requirements": "Gereksinimler:",
+                        "requirementsMessage": "{requirements} Cüzdanınızda {price} SAND olsun"
                     }
                 },
                 "success": {
-                    "submittedEntry": "Your entry to LAND Sale Raffle has been submitted!",
-                    "message": "Thanks for joining the {partner} LAND Sale Raffle. Check the raffle results on {monthDateHour} UTC",
-                    "LandRaffleTickets": "LAND Raffle Tickets ",
-                    "kycBanner": "Your account has not verified yet. The Verification process might take up to 48 hours."
+                    "submittedEntry": "LAND Satışı Çekilişi için katılımınız gönderildi!",
+                    "message": "{partner} LAND Satışı Çekilişine katıldığınız için teşekkürler. Çekiliş sonuçlarını {monthDateHour} UTC tarihinde kontrol edin",
+                    "LandRaffleTickets": "LAND Çekiliş Biletleri␣",
+                    "kycBanner": "Hesabınız henüz doğrulanmadı. Doğrulama işlemi 48 saate kadar sürebilir."
                 }
             },
             "howDoesItWorkPage": {
-                "title": "What is the LAND Sale Raffle",
-                "question": "What is the LAND Sale Raffle?",
-                "howDoesItWork": "How does it work?",
-                "farewell": "The more tickets you have, the more chances of winning.",
-                "changingLANDSaleSystem": "We are changing our LAND Sale system to give all users more chances of buying a LAND",
-                "needHelp": "Need Help?",
+                "title": "LAND Satışı Çekilişi nedir?",
+                "question": "LAND Satışı Çekilişi nedir?",
+                "howDoesItWork": "Nasıl çalışır?",
+                "farewell": "Ne kadar çok bilete sahip olursanız, kazanma şansınız o kadar artar.",
+                "changingLANDSaleSystem": "Tüm kullanıcılara daha fazla LAND satın alma şansı vermek için LAND Satış sistemimizi değiştiriyoruz",
+                "needHelp": "Yardıma mı ihtiyacınız var?",
                 "explanations": {
                     "1": {
-                        "message": "We want to provide a fair experience so everyone can get the chance of buying LAND. This is why we are redesigning our LAND Sale system introducing the {landSaleRaffle}. ",
-                        "landSaleRaffle": "LAND Sale Raffle"
+                        "message": "Herkesin LAND satın alma şansına sahip olabilmesi için adil bir deneyim sunmak istiyoruz. Bu nedenle LAND Satış sistemimizi yeniden tasarlayarak {landSaleRaffle} uygulamasını başlatıyoruz. ",
+                        "landSaleRaffle": "LAND Satışı Çekilişi"
                     },
                     "2": {
-                        "message": "In order to buy LAND at The Sandbox, users will need to join the LAND Sale Raffle. {winnerWillBeAble} depending on the type of raffle they joined, {premium} or {regular}.",
-                        "winnerWillBeAble": "Every winner will be able to buy a random LAND"
+                        "message": "The Sandbox'ta LAND satın almak için kullanıcıların LAND Satış Çekilişine katılmaları gerekecektir. {winnerWillBeAble} katıldıkları çekiliş türüne bağlı olarak {premium} veya {regular} olacaktır.",
+                        "winnerWillBeAble": "Her kazanan rastgele bir LAND satın alabilecek"
                     }
                 },
                 "requirements": {
-                    "join": "To join the LAND Sale Raffle make sure you meet the following requirements:",
-                    "1": "Having an account at The Sandbox",
-                    "2": "Having enough SAND in your wallet",
-                    "3": "Having your Account Verified before the Raffle starts"
+                    "join": "LAND Satışı Çekilişine katılmak için aşağıdaki şartları karşıladığınızdan emin olun:",
+                    "1": "The Sandbox'ta bir hesabınızın olması",
+                    "2": "Cüzdanınızda yeterli miktarda SAND olması",
+                    "3": "Çekiliş başlamadan önce Hesabınızın Doğrulanması"
                 },
-                "KYCDescription": "To join the LAND Sale you need to verify your account. Verification may take up to 48 hours, make sure you are verified on time.",
+                "KYCDescription": "LAND Satışı Çekilişine katılmak için hesabınızın doğrulanması gerekmektedir. Doğrulama işlemi 48 saate kadar sürebilir.",
                 "FAQs": {
-                    "title": "Frequently Asked Questions",
+                    "title": "Sıkça Sorulan Sorular",
                     "questions": {
-                        "1": "Who can join the LAND Sale Raffle?",
-                        "2": "How can I get more tickets?",
-                        "3": "Do I need to pay to join the LAND Sale Raffle?",
-                        "4": "Why do I need to Verify my account?",
-                        "5": "I joined the LAND Sale Raffle but I still don’t have my account Verified, can I still win?",
-                        "6": "If I win the LAND Sale Raffle, do I need to choose which LAND I want to buy?",
-                        "7": "If I win the LAND Sale Raffle, can LANDs sell out before I get to buy one?",
-                        "8": "Where do I mint my LAND?",
-                        "9": "What happens if I win the raffle but I don’t buy the LAND in time?",
-                        "10": "Is there any other way to get LAND at The Sandbox?",
+                        "1": "LAND Satışı Çekilişine kimler katılabilir?",
+                        "2": "Nasıl daha fazla bilet alabilirim?",
+                        "3": "LAND Satışı Çekilişine katılmak için ödeme yapmam gerekiyor mu?",
+                        "4": "Hesabımı neden Doğrulamam gerekiyor?",
+                        "5": "LAND Satışı Çekilişine katıldım ama hesabım hala doğrulanmadı, yine de kazanabilir miyim?",
+                        "6": "LAND Satışı Çekilişini kazanırsam, hangi araziyi satın almak istediğimi seçmem gerekir mi?",
+                        "7": "LAND Satış Çekilişini kazanırsam, LAND'ler ben bir tane satın alamadan tükenebilir mi?",
+                        "8": "LAND'ımı nerede mint'leyeceğim?",
+                        "9": "Çekilişi kazanmama rağmen LAND'ı zamanında satın almazsam ne olur?",
+                        "10": "The Sandbox'ta LAND almanın başka bir yolu var mı?",
                         "11": "Hesabımı doğrulamadan LAND Satışı çekilişine katılabilir miyim?",
-                        "12": "What should I do if I win the LAND Sale Raffle?"
+                        "12": "LAND Satışı Çekilişini kazanırsam ne yapmalıyım?"
                     }
                 },
-                "learnMore": "Learn more about {partner}"
+                "learnMore": "{partner} hakkında daha fazla bilgi edinin"
             },
             "buy": {
-                "title": "You are going to buy",
-                "subtitle": "Join the Open Metaverse and get access to exclusive LAND Owner features! With the purchase of this LAND you will be able to:",
-                "assetsIncluded": "Possible Assets Included",
+                "title": "Satın alacaksınız",
+                "subtitle": "Open Metaverse'e katılın ve özel LAND Sahibi özelliklerine erişin! Bu LAND'i satın alarak şunları yapabileceksiniz:",
+                "assetsIncluded": "Dahil Edilen Olası Varlıklar",
                 "points": {
                     "regular": {
-                        "1": "Publish and monetize your Experience",
-                        "2": "Rent your LAND (2023)",
-                        "3": "Earn special rewards",
-                        "4": "Exclusive LAND Owner staking pools"
+                        "1": "Deneyiminizi yayınlayın ve para kazanın",
+                        "2": "LAND'inizi kiralayın (2023)",
+                        "3": "Özel ödüller kazanın",
+                        "4": "Özel LAND Sahibi staking havuzları"
                     },
                     "premium": {
-                        "1": "All Regular LAND features +",
+                        "1": "Tüm Normal LAND özellikleri +",
                         "2": "Catalysts & Gems airdrop",
-                        "3": "Get more SAND when you stake",
-                        "4": "Premium exposure: Attract more users into your experience",
-                        "5": "Early access to selected features",
-                        "6": "Exclusive NFT Bundle airdrop"
+                        "3": "Stake yaparak daha fazla SAND elde edin (2023)",
+                        "4": "Premium gösterim: Deneyiminize daha fazla kullanıcı çekin",
+                        "5": "Seçilen özelliklere erken erişim",
+                        "6": "Özel NFT Paketi airdropu"
                     },
                     "premiumTooltips": {
-                        "1": "Publish and monetize your Experience, Rent your LAND (2023), Earn special rewards, Exclusive LAND Owner staking options",
-                        "5": "Some play to earn features will be first available on Premium LAND",
-                        "6": "All users who purchase a Premium LAND will receive a Premium NFT airdrop after the LAND Sale ends"
+                        "1": "Deneyiminizi yayınlayın ve para kazanın, LAND'ınızı kiralayın (2023), Özel ödüller kazanın, Özel LAND Sahibi staking seçenekleri",
+                        "5": "Bazı kazanmak için oyna özellikleri ilk olarak Premium LAND'de sunulacak",
+                        "6": "Premium LAND satın alan tüm kullanıcılar, LAND Satışı sona erdikten sonra Premium NFT airdrop'u alacaktır"
                     },
-                    "premiumClub": "Premium LAND Owner Club"
+                    "premiumClub": "Premium LAND Sahibi Kulübü"
                 },
                 "notes": {
-                    "notice": "* You will buy 1 random {landType} LAND at the {partner} LAND Sale. Location will be revealed after the transaction is confirmed.",
-                    "assets": "Premium Assets will be assigned randomly depending on the LAND you get."
+                    "notice": "* {partner} LAND Satışında 1 adet rastgele {landType} LAND satın alacaksınız. İşlem onaylandıktan sonra konum açıklanacaktır.",
+                    "assets": "Premium Varlıklar, aldığınız LAND'a bağlı olarak rastgele atanacaktır."
                 },
-                "button": "Buy {sandImg} {price}",
+                "button": "{sandImg} {price} Satın Alın",
                 "status": {
-                    "title": "We are processing your transaction…",
-                    "description": "Please wait while we process your transaction. Once the transaction is approved, your LAND will be instantly revealed! {checkInPolygonscan}",
-                    "checkInPolygonscan": "Check in Polygonscan",
-                    "success": "Success",
-                    "fail": "Failed",
-                    "pending": "Pending"
+                    "title": "İşleminizi gerçekleştiriyoruz…",
+                    "description": "İşleminizi gerçekleştirirken lütfen bekleyin. İşlem onaylandıktan sonra LAND'ınız anında ortaya çıkacak! {checkInPolygonscan}",
+                    "checkInPolygonscan": "Polygonscan'de kontrol edin",
+                    "success": "Başarılı",
+                    "fail": "Başarısız Oldu",
+                    "pending": "Beklemede"
                 }
             },
             "FAQs": {
-                "title": "Frequently Asked Questions",
+                "title": "Sıkça Sorulan Sorular",
                 "requirements": {
-                    "1": "Account must be verified (KYC);",
+                    "1": "Hesap doğrulanmış olmalıdır (KYC);",
                     "2": "Normal Çekilişe katılırsanız cüzdanınızda Polygon'da 1.011 SAND bulundurun. Premium veya Her İki Çekilişe katılırsanız cüzdanınızda Polygon üzerinde 4.683 SAND bulundurun",
-                    "3": "User is not banned;"
+                    "3": "Kullanıcı yasaklı değil;"
                 },
                 "bannedUsers": {
-                    "paragraph": "{bannedUsers}: Users who are flagged for suspicious/fraudulent activity, such as bots detected on Season 2 and 3.",
-                    "bannedUsers": "Banned users"
+                    "paragraph": "{bannedUsers}: Sezon 2 ve 3'te tespit edilen botlar gibi şüpheli/dolandırıcılık faaliyeti nedeniyle işaretlenen kullanıcılar.",
+                    "bannedUsers": "Yasaklı kullanıcılar"
                 },
                 "aboutLandSaleSystem": {
-                    "title": "About the new LAND Sale System",
+                    "title": "Yeni LAND Satış Sistemi Hakkında",
                     "1": {
-                        "title": "How does the new LAND Sale System work?",
+                        "title": "Yeni LAND Satış Sistemi nasıl işliyor?",
                         "paragraphs": {
                             "1": "Kullanıcılara daha fazla LAND satın alma şansı vermek için LAND Sale deneyimimizi yeniden tasarlıyoruz. Kullanıcıların yaklaşan LAND Satışında whitelist kazanma şansı elde etmek için bir çekilişe kaydolmaları gerekecek. Yalnızca whitelist'teki kullanıcılar 24 saatlik bir süre içinde 1 ve yalnızca 1 LAND satın alabilecek.",
-                            "2": "There will be 1 whitelist spot for each LAND available, so every user who wins the raffle gets a chance of buying LAND. Whitelisted users will be able to buy 1 {random} LAND (based on the raffle they joined: Premium Raffle, Regular Raffle). Users will be able to join one, or both lists, but they will only be able to win either a Premium whitelist spot or Regular whitelist spot, not both.",
-                            "random": "random",
-                            "3": "When the 24 hours whitelist window ends all remaining lands will be manually set for auction (auction will start 1 day after the land sale ends).",
-                            "4": "To join the LAND Sale you need to meet the following requirements:",
-                            "5": "We WILL NOT charge users for joining the raffle, we will only check their SAND balance so we make sure users are ready to buy if they win the WL spot."
+                            "2": "Mevcut her LAND için 1 beyaz liste hakkı olacak, böylece çekilişi kazanan her kullanıcı LAND satın alma şansına sahip olacak. Beyaz listedeki kullanıcılar 1 adet {random} LAND (katıldıkları çekilişe göre: Premium Çekiliş, Normal Çekiliş). Kullanıcılar listelerden birine veya her ikisine de katılabilecekler, ancak yalnızca Premium beyaz liste veya Normal beyaz liste kazanabilecekler, her ikisini birden kazanamayacaklar.",
+                            "random": "rastgele",
+                            "3": "24 saatlik beyaz liste süresi sona erdiğinde, kalan tüm araziler açık artırma için manuel olarak ayarlanacaktır (açık artırma, arazi satışı sona erdikten 1 gün sonra başlayacaktır).",
+                            "4": "LAND Satışı Çekilişine katılmak için aşağıdaki şartları karşıladığınızdan emin olun:",
+                            "5": "Kullanıcılardan çekilişe katıldıkları için ücret ALMAYACAĞIZ, sadece SAND bakiyelerini kontrol edeceğiz, böylece kullanıcıların WL noktasını kazanmaları halinde satın almaya hazır olduklarından emin olacağız."
                         }
                     },
                     "2": {
-                        "title": "Who can join the LAND Sale?",
-                        "paragraph": "Users need to have a Sandbox account (with wallet linked) and meet the following requirements to be eligible to joining the LAND Sale:"
+                        "title": "LAND Satışına kimler katılabilir?",
+                        "paragraph": "LAND Satışına katılabilmek için kullanıcıların bir The Sandbox hesabına (cüzdan bağlantılı) sahip olmaları ve aşağıdaki gereklilikleri karşılamaları gerekmektedir:"
                     },
                     "3": {
-                        "title": "Can I join the LAND Sale if I don't Verify my account?",
-                        "paragraph": "No, only verified accounts can join the LAND Sale. Make sure you verify your account in time. You can start your verification process here: {link}"
+                        "title": "Hesabımı doğrulamasam da LAND Satışına katılabilir miyim?",
+                        "paragraph": "Hayır, yalnızca doğrulanmış hesaplar LAND Satışına katılabilir. Hesabınızı zamanında doğruladığınızdan emin olun. Doğrulama işleminize buradan başlayabilirsiniz: {link}"
                     },
                     "4": {
-                        "title": "How to get whitelisted for the LAND Sale?",
-                        "paragraph": "You can win a whitelist spot for the LAND Sale through the LAND Sale Raffle. Every winner of the LAND Sale Raffle will be able to min 1 RANDOM LAND."
+                        "title": "LAND Satışı için nasıl beyaz listeye alınabilirim?",
+                        "paragraph": "LAND Satışı Çekilişi aracılığıyla LAND Satışı için bir beyaz liste hakkı kazanabilirsiniz. LAND Satışı Çekilişinin her kazananı 1 RASTGELE LAND kazanabilecektir."
                     },
                     "5": {
-                        "title": "At what time does the LAND Sale start?",
+                        "title": "LAND Satışı saat kaçta başlıyor?",
                         "paragraphs": {
-                            "1": "{landSaleName} LAND Sale schedule:",
+                            "1": "{landSaleName} LAND Satış takvimi:",
                             "2": {
-                                "1": "LAND Sale Raffle Sign up: {startDate} to {endDate}",
-                                "2": "LAND Sale Raffle Results Announcement: {date}",
+                                "1": "LAND Satışı Çekilişine Kaydolun: {startDate} ile {endDate} arasında",
+                                "2": "LAND Satışı Çekiliş Sonuçları Duyurusu: : {date}",
                                 "3": {
-                                    "paragraph": "{bold} (Whitelisted user): {startDate} to {endDate} Join here: {link}",
-                                    "bold": "LAND Sale"
+                                    "paragraph": "{bold} (Beyaz listedeki kullanıcı): {startDate} ile {endDate} Buradan katılın: {link}",
+                                    "bold": "LAND Satışı"
                                 },
                                 "4": {
-                                    "paragraph": "{bold} (Everyone): {date}",
-                                    "bold": "LAND Sale Second Chance Auctions*"
+                                    "paragraph": "{bold} (Herkes): {date}",
+                                    "bold": "LAND Satışı İkinci Şans Açık Artırmaları*"
                                 }
                             },
                             "3": {
-                                "paragraph": "{landSaleSecondChance} supply will depend on how many whitelisted users decide not to buy LAND",
-                                "landSaleSecondChance": "*LAND Sale Second Chance Auctions"
+                                "paragraph": "{LandSaleSecondChance} arzı, kaç beyaz listedeki kullanıcının LAND satın almamaya karar verdiğine bağlı olacaktır",
+                                "landSaleSecondChance": "LAND Satışı İkinci Şans Açık Artırmaları*"
                             }
                         }
                     },
                     "6": {
-                        "title": "How can I know if I win a whitelist spot for the LAND Sale?",
-                        "paragraph": "The Raffle results will be announced on {date}. After that time you can enter the LAND Sale page ({link}) to find out if you won, make sure you are logged in. Winners will also receive an email notice."
+                        "title": "LAND Satışı için bir beyaz liste hakkı kazanıp kazanmadığımı nasıl öğrenebilirim?",
+                        "paragraph": "Çekiliş sonuçları {tarih} tarihinde açıklanacaktır. Bu saatten sonra kazanıp kazanmadığınızı öğrenmek için LAND Satışı sayfasına ({link}) girebilirsiniz, giriş yaptığınızdan emin olun. Kazananlar ayrıca bir e-posta bildirimi alacaktır."
                     },
                     "7": {
-                        "title": "Where can I find out more about upcoming LAND Sales?",
+                        "title": "Yaklaşan LAND Satışları hakkında daha fazla bilgiyi nereden edinebilirim?",
                         "paragraphs": {
-                            "1": "All upcoming LAND Sales will be hosted on {link}.",
-                            "2": "We’ll announce upcoming LAND Sales over social media, on our home page and on the map. Users subscribed to The Sandbox will also receive email communications when a new LAND Sale is coming."
+                            "1": "Yaklaşan tüm LAND Satışları {link} üzerinde barındırılacaktır.",
+                            "2": "Yaklaşan LAND Satışlarını sosyal medya üzerinden, ana sayfamızdan ve haritadan duyuracağız. The Sandbox'a abone olan kullanıcılar, yeni bir LAND Satışı yaklaştığında e-posta iletişimi de alacaklar."
                         }
                     }
                 },
                 "landSaleRaffle": {
-                    "title": "LAND Sale Raffle",
+                    "title": "LAND Satışı Çekilişi",
                     "1": {
-                        "title": "When does the LAND Sale Raffle take place?",
+                        "title": "LAND Satışı Çekilişi ne zaman gerçekleşiyor?",
                         "paragraphs": {
-                            "1": "LAND Sale Raffle dates:",
+                            "1": "LAND Satışı Çekiliş tarihleri:",
                             "2": {
                                 "1": {
-                                    "paragraph": "{landSaleSignUp} November 17 3:00 PM UTC to November 21 1:00 PM UTC",
-                                    "landSaleSignUp": "LAND Sale Raffle Sign up:"
+                                    "paragraph": "{landSaleSignUp} 17 Kasım 3:00 ÖS UTC- 21 Kasım 1:00 ÖÖ UTC",
+                                    "landSaleSignUp": "LAND Satışı Çekiliş Kaydı:"
                                 },
                                 "2": {
-                                    "paragraph": "{landSaleRaffleResults} November 21 8:00 PM UTC",
-                                    "landSaleRaffleResults": "LAND Sale Raffle Results Announcement:"
+                                    "paragraph": "{landSaleRaffleResults} 21 Kasım 8:00 ÖS UTC ",
+                                    "landSaleRaffleResults": "LAND Satışı Çekiliş Sonuçları Duyurusu:"
                                 }
                             },
                             "3": {
-                                "1": "Find the full LAND Sale schedule here: {link}",
-                                "link": "At what time does the LAND Sale start?"
+                                "1": "LAND Satışı programının tamamına buradan ulaşabilirsiniz: {link}",
+                                "link": "LAND Satışı saat kaçta başlıyor?"
                             }
                         }
                     },
                     "2": {
-                        "title": "Where can I sign up for the LAND Sale Raffle?",
+                        "title": "LAND Satışı Çekilişi için nereye kaydolabilirim?",
                         "paragraphs": {
-                            "1": "To sign up for the LAND Sale Raffle you need to:",
+                            "1": "LAND Satışı Çekilişine kaydolmak için yapmanız gerekenler:",
                             "2": {
-                                "1": "Log into your Sandbox account",
-                                "2": "Access {link}",
+                                "1": "Sandbox hesabınıza giriş yapın",
+                                "2": "Erişim {link}",
                                 "3": {
-                                    "1": "Click ENTER RAFFLE (make sure you meet all the requirements)",
-                                    "2": "If you don’t have your account verified you can start the process right there or by accessing {link}",
+                                    "1": "ÇEKİLİŞE KATIL'a tıklayın (tüm gereksinimleri karşıladığınızdan emin olun)",
+                                    "2": "Hesabınız doğrulanmadıysa, süreci buradan veya {link} adresine erişerek başlatabilirsiniz.",
                                     "3": "SAND satın almak için lütfen SAND SATIN AL CTA'sına tıklayın. Sağ üst köşedeki SAND simgesine tıklayarak da SAND (polygon'da) satın alabilirsiniz. {polygon} ağını seçtiğinizden emin olun",
                                     "polygon": "Polygon"
                                 },
-                                "4": "Select the raffle you want to join, Regular, Premium or both"
+                                "4": "Katılmak istediğiniz çekilişi seçin, Normal, Premium veya her ikisi"
                             }
                         }
                     },
                     "3": {
-                        "title": "Do I need to pay to join the LAND Sale Raffle?",
-                        "paragraph": "No, you don’t need to pay to enter the Raffle. We just check that you have at least 1011 SAND (on polygon) in your wallet, but it won’t trigger any transaction."
+                        "title": "LAND Satışı Çekilişine katılmak için ödeme yapmam gerekiyor mu?",
+                        "paragraph": "Hayır, Çekilişe katılmak için ödeme yapmanıza gerek yok. Sadece cüzdanınızda en az 1011 SAND (polygon üzerinde) olup olmadığını kontrol ediyoruz, ancak bu herhangi bir işlemi tetiklemeyecektir."
                     },
                     "4": {
-                        "title": "Is there any way to increase my chances of winning the LAND Sale Raffle?",
+                        "title": "LAND Satışı Çekilişini kazanma şansımı artırmanın herhangi bir yolu var mı?",
                         "paragraphs": {
-                            "1": "The more LAND Sale Raffle tickets you have, the more chances you get to win the raffle. 1 Ticket = 1 Chance of winning the raffle, just like Alpha Seasons.",
-                            "2": "Here are the current ticket rules:",
+                            "1": "Ne kadar çok LAND Satışı Çekiliş biletiniz olursa, çekilişi kazanmak için o kadar çok şansınız olur. 1 Bilet = 1 Çekiliş kazanma şansı, tıpkı Alpha Sezonlarındaki gibi.",
+                            "2": "İşte mevcut bilet kuralları:",
                             "3": {
-                                "1": "Signup for the Land Sale Raffle = 1 Ticket",
-                                "2": "Reaching Level 5 Season 1 = 20 Raffle Tickets",
-                                "3": "Reaching Level 5 Season 2 = 20 Raffle Tickets",
-                                "4": "Reaching Level 5 Season 3 = 20 Raffle Tickets"
+                                "1": "Arazi Satışı Çekilişi için Kayıt = 1 Bilet",
+                                "2": "Sezon 1 Seviye 5'e Ulaşmak = 20 Çekiliş Bileti",
+                                "3": "Sezon 2 Seviye 5'e Ulaşmak = 20 Çekiliş Bileti",
+                                "4": "Sezon 3 Seviye 5'e Ulaşmak = 20 Çekiliş Bileti"
                             },
-                            "4": "Please note that ticket rules can change from LAND sale to LAND sale. The Sandbox will keep the community updated.",
-                            "5": "Please note that ticket rules can change from LAND sale to LAND sale. The Sandbox will keep the community updated."
+                            "4": "Bilet kurallarının LAND satışından LAND satışına değişebileceğini lütfen unutmayın. The Sandbox, topluluğu güncel tutacaktır.",
+                            "5": "Bilet kurallarının LAND satışından LAND satışına değişebileceğini lütfen unutmayın. The Sandbox, topluluğu güncel tutacaktır."
                         }
                     },
                     "5": {
-                        "title": "Are there any requirements to enter the LAND Sale Raffle?",
+                        "title": "LAND Satışı Çekilişine katılmak için herhangi bir şart var mı?",
                         "paragraphs": {
-                            "1": "Users must meet the following requirements when i) signing up for the raffle, ii) The Sandbox runs the raffle to get the winners:",
-                            "2": "Please note that The Sandbox will not charge you to enter the raffle. Having 1,011 SAND in your wallet only proves that you’ll be able to purchase the LAND if you get selected."
+                            "1": "Kullanıcılar i) çekilişe kaydolurken, ii) The Sandbox kazananları belirlemek için çekilişi yürütürken aşağıdaki şartları yerine getirmelidir:",
+                            "2": "The Sandbox'ın çekilişe katılmak için sizden ücret talep etmeyeceğini lütfen unutmayın. Cüzdanınızda 1.011 SAND olması sadece seçilmeniz halinde LAND'i satın alabileceğinizi kanıtlar."
                         }
                     },
                     "6": {
-                        "title": "What should I do if I win the LAND Sale Raffle?",
+                        "title": "LAND Satışı Çekilişini kazanırsam ne yapmalıyım?",
                         "paragraph": "LAND Satışı Çekilişini kazanırsanız, LAND Satışı başladığında 1 LAND mint'lemek için beyaz listeye yeriniz olduğu anlamına gelir. LAND satışının ne zaman başladığını kontrol etmek için hesabınıza giriş yaptığınızdan ve {link} adresini girdiğinizden emin olun."
                     },
                     "7": {
-                        "title": "If I win the LAND Sale Raffle, when can I purchase my LAND?",
+                        "title": "LAND Satış Çekilişini kazanırsam, LAND'imi ne zaman satın alabilirim?",
                         "paragraph": "LAND Satışı başlar başlamaz {link}'e girebilir ve LAND'nizi basabilirsiniz. Mint süresi 24 saat sürecek, pencereyi kaçırmadığınızdan emin olun."
                     },
                     "8": {
-                        "title": "If I win the LAND Sale Raffle, can I transfer / sell the whitelist spot to another account?",
-                        "paragraph": "No, if you win a whitelist spot you can not transfer it to another account."
+                        "title": "LAND Satışı Çekilişini kazanırsam, beyaz liste hakkımı başka bir hesaba aktarabilir / satabilir miyim?",
+                        "paragraph": "Hayır, bir beyaz liste hakkı kazanırsanız bunu başka bir hesaba aktaramazsınız."
                     },
                     "9": {
-                        "title": "How can I get SAND on Polygon?",
+                        "title": "SAND'i Polygon'da nasıl alabilirim?",
                         "paragraphs": {
                             "1": "Ethereum'da SAND'ınız varsa Polygon'a köprü kurabilirsiniz. Aşağıda SAND'ı nasıl köprüleyebileceğinizi okuyun veya {link} girin.",
                             "2": "SAND'ı doğrudan polygon'dan satın alabilirsiniz, üst çubuktaki SAND simgesine tıklayın ve ardından SAND'ı SATIN ALIN. Satın alma yöntemini seçmeden önce Polygon ağına geçtiğinizden emin olun."
@@ -4872,152 +4872,152 @@
                     }
                 },
                 "accountVerification": {
-                    "title": "Account Verification (KYC)",
+                    "title": "Hesap Doğrulama (KYC)",
                     "1": {
-                        "title": "How can I verify my Account?",
+                        "title": "Hesabımı nasıl doğrulayabilirim?",
                         "paragraphs": {
-                            "1": "To start the verification process go to Account > Settings > Account Verification or access {link}.",
-                            "2": "All you need is a smartphone (or laptop/tablet) with a camera, an internet connection, a well-lit room and your ID document.",
-                            "3": "To verify your account you need a Passport, National ID, Driver license or Resident Permit issued by the government can be submitted in your KYC process.",
-                            "4": "Your document must:",
+                            "1": "Doğrulama işlemini başlatmak için Hesap > Ayarlar > Hesap Doğrulama'ya gidin veya {link}'e erişin.",
+                            "2": "İhtiyacınız olan tek şey kameralı bir akıllı telefon (veya dizüstü bilgisayar/tablet), internet bağlantısı, iyi aydınlatılmış bir oda ve kimlik belgeniz.",
+                            "3": "Hesabınızı doğrulamak için KYC sürecinizde devlet tarafından verilen bir Pasaport, Ulusal Kimlik, Sürücü Belgesi veya Oturma İzni ibraz etmeniz gerekir.",
+                            "4": "Belgeniz şu şekilde olmalıdır:",
                             "5": {
-                                "1": "Have the 4 corners are clearly visible",
-                                "2": "Be in a good quality with all information clearly readable",
-                                "3": "Be valid: the document expiration is not exceeded",
-                                "4": "Not be handwritten (if your identity document is handwritten, it will be rejected)"
+                                "1": "4 köşenin açıkça görülebilir olması",
+                                "2": "Tüm bilgilerin açıkça okunabilir olduğu iyi bir kalitede olması",
+                                "3": "Geçerli ol: belgenin geçerlilik süresi aşılmamış olsun",
+                                "4": "El yazısı olmamalıdır (kimlik belgenizin el yazısı olması durumunda reddedilecektir)"
                             }
                         }
                     },
                     "2": {
-                        "title": "Why do I need to Verify my account?",
+                        "title": "Hesabımı neden doğrulamam gerekiyor?",
                         "paragraphs": {
-                            "1": "The KYC process (Know Your Customer) ensures that a real, physical person is behind the account. It proves that a person is who they claim to be. Required by current regulations, identification prevents a person from carrying out activities in the name of another person, using false documents to commit fraud (e.g. money laundering, identity theft, etc.).",
-                            "2": "The process consists first in a liveness proof, where we verify you are alive and you are a real person applying for the account verification. Then we require you to upload a document ID where we verify your identity.",
-                            "3": "Learn more about the Account Verification process {link}.",
-                            "here": "here"
+                            "1": "KYC süreci (Müşterini Tanı) hesabın arkasında gerçek, fiziksel bir kişinin olmasını sağlar. Bir kişinin iddia ettiği kişi olduğunu kanıtlar. Mevcut düzenlemelerin gerektirdiği kimlik tespiti, bir kişinin başka bir kişi adına faaliyet yürütmesini, dolandırıcılık yapmak için sahte belgeler kullanmasını (örneğin kara para aklama, kimlik hırsızlığı vb.) önler.",
+                            "2": "Süreç ilk olarak, hayatta olduğunuzu ve hesap doğrulaması için başvuran gerçek bir kişi olduğunuzu doğruladığımız bir canlılık kanıtından oluşur. Ardından, kimliğinizi doğruladığımız bir belge kimliği yüklemenizi istiyoruz.",
+                            "3": "Hesap Doğrulama süreci hakkında daha fazla bilgi edinin {link}.",
+                            "here": "burada"
                         }
                     },
                     "3": {
-                        "title": "I joined the LAND Sale Raffle but I still don't have my account Verified, can I still win?",
+                        "title": "LAND Satışı Çekilişine katıldım ama hesabım hala doğrulanmadı, yine de kazanabilir miyim?",
                         "paragraphs": {
-                            "1": "No, only Verified Accounts can win the LAND Sale Raffle. You can enter the raffle while your account is under verification, but you will only be eligible if your account gets verified before the raffle starts.",
-                            "2": "Account Verification might take up to 48 hours."
+                            "1": "Hayır, sadece Doğrulanmış Hesaplar LAND Satışı Çekilişini kazanabilir. Hesabınız doğrulama aşamasındayken çekilişe katılabilirsiniz, ancak yalnızca çekiliş başlamadan önce hesabınız doğrulanırsa çekilişe katılmaya hak kazanırsınız.",
+                            "2": "Hesap Doğrulama 48 saate kadar sürebilir."
                         }
                     },
                     "4": {
-                        "title": "I have more questions about the Account Verification process (KYC)",
-                        "paragraph": "You can find more information about the Account Verification process here: {link}"
+                        "title": "Hesap Doğrulama süreci (KYC) hakkında daha fazla sorum var",
+                        "paragraph": "Hesap Doğrulama süreci hakkında daha fazla bilgiyi burada bulabilirsiniz: {link}"
                     }
                 },
                 "buyingLand": {
-                    "title": "Buying LAND",
+                    "title": "LAND Satın Alma",
                     "1": {
-                        "title": "What’s the price of LAND?",
-                        "paragraph": "Regular LAND costs 1,011 SAND; Premium LAND costs 4,683 SAND."
+                        "title": "LAND'in fiyatı nedir?",
+                        "paragraph": "Normal LAND maliyeti 1.011 SAND; Premium LAND maliyeti 4.683 SAND."
                     },
                     "2": {
-                        "title": "Do I need to pay for gas fees?",
-                        "paragraph": "The LAND Sale will be on Polygon, this means the gas price will be really low. Make sure you have some MATIC in your wallet."
+                        "title": "Gaz ücreti ödemem gerekiyor mu?",
+                        "paragraph": "LAND Satışları kapsamında tüm işlemler gazsız olacaktır. Bu, gaz için ödeme yapmanıza gerek olmadığı, sadece gerekli miktarda SAND'e sahip olmanız gerektiği anlamına gelir."
                     },
                     "3": {
-                        "title": "Can I select which LAND I want to buy?",
-                        "paragraph": "No, the LANDs will be distributed randomly. Even if you entered the Premium raffle, you won’t be able to pick the LAND coordinates. Premium raffle winners will buy a RANDOM Premium LAND; Regular raffle winners will buy a RANDOM regular LAND."
+                        "title": "Hangi LAND'ı satın almak istediğimi seçebilir miyim?",
+                        "paragraph": "Hayır, LAND'ler rastgele dağıtılacaktır. Premium çekilişe katılmış olsanız bile, LAND koordinatlarını seçemeyeceksiniz. Premium çekiliş kazananları RASTGELE bir Premium LAND satın alacak; Normal çekiliş kazananları RASTGELE bir normal LAND satın alacak."
                     },
                     "4": {
-                        "title": "If I win the LAND Sale Raffle, can LANDs sell out before I get to buy one?",
+                        "title": "LAND Satış Çekilişini kazanırsam, LAND'ler ben bir tane satın alamadan tükenebilir mi?",
                         "paragraph": "Hayır, her kazanan 1 LAND satın alma şansına sahip olacaktır. LAND ile aynı sayıda kazananımız olacak, bu nedenle kazanırsanız, garantili bir satın alma işlemi elde edersiniz (mint'leme dönemi içinde satın aldığınız sürece). Mint'leme penceresi sona erdikten sonra, beyaz liste noktanız artık geçerli olmayacaktır."
                     },
                     "5": {
-                        "title": "Where do I mint my LAND?",
-                        "paragraph": "When the LAND Sale starts, all whitelisted users can access {link} to min their LAND. Log into your account and start the purchase process by clicking BUY LAND."
+                        "title": "LAND'imi nerede mint'leyeceğim?",
+                        "paragraph": "LAND Satışı başladığında, beyaz listedeki tüm kullanıcılar LAND'larını satın almak için {link} adresine erişebilir. Hesabınıza giriş yapın ve LAND SATIN AL seçeneğine tıklayarak satın alma işlemini başlatın."
                     },
                     "6": {
-                        "title": "What happens if I win the raffle but I don't buy the LAND in time?",
-                        "paragraph": "All whitelist spots are only valid for one LAND Sale. After the LAND Sale ends, if you did not purchase any LAND, you can still get LAND in the Second Chance Auction, or at any time on the Secondary Market."
+                        "title": "Çekilişi kazanmama rağmen LAND'i zamanında satın almazsam ne olur?",
+                        "paragraph": "Tüm beyaz liste hakları yalnızca bir LAND Satışı için geçerlidir. LAND Satışı sona erdikten sonra, herhangi bir LAND satın almadıysanız, İkinci Şans Açık Artırmasında veya İkincil Piyasada istediğiniz zaman LAND alabilirsiniz."
                     },
                     "7": {
-                        "title": "I didn’t win the LAND Sale Raffle, Is there any other way to get LAND?",
+                        "title": "LAND Satış Çekilişini kazanamadım, LAND almanın başka bir yolu var mı?",
                         "paragraphs": {
-                            "1": "Yes, if you did not win the LAND Sale Raffle you can still get LAND.",
+                            "1": "Evet, LAND Satış Çekilişini kazanamadıysanız hala LAND alabilirsiniz.",
                             "2": {
-                                "1": "You can get a LAND through the Second Chance Auctions (If any whitelisted user decides not to buy LAND on the LAND sale)",
-                                "2": "Keep an eye on Second Chance Auctions here: {link}",
-                                "3": "Through Secondary Market: {link}",
-                                "4": "Upcoming LAND Sale: Keep an eye on the LAND Sale schedule, there will be more chances to get LAND"
+                                "1": "İkinci Şans Açık Artırmaları aracılığıyla bir LAND alabilirsiniz (Beyaz listedeki herhangi bir kullanıcı LAND satışında LAND satın almamaya karar verirse)",
+                                "2": "İkinci Şans Açık Artırmalarını buradan takip edebilirsiniz: {link}",
+                                "3": "İkincil Pazar aracılığıyla: {link}",
+                                "4": "Yaklaşan LAND Satışı: LAND Satışı programına göz atın, LAND almak için daha fazla şansınız olacak"
                             }
                         }
                     },
                     "8": {
-                        "title": "If I win the LAND Sale Raffle and I don’t buy a LAND, can I buy a LAND on the next LAND Sale?",
-                        "paragraph": "All whitelist spots are only valid for one LAND Sale. If you want to buy LAND on the next LAND Sale, you need to sign up for the next LAND Sale Raffle and win a whitelist spot."
+                        "title": "LAND Satışı Çekilişini kazanırsam ve bir LAND satın almazsam, bir sonraki LAND Satışında bir LAND satın alabilir miyim?",
+                        "paragraph": "Tüm beyaz liste hakları yalnızca bir LAND Satışı için geçerlidir. Bir sonraki LAND Satışında LAND satın almak istiyorsanız, bir sonraki LAND Satışına Çekilişine kaydolmanız ve bir beyaz liste hakkı kazanmanız gerekir."
                     }
                 },
                 "premiumLand": {
                     "title": "Premium LAND",
                     "1": {
-                        "title": "Does Premium LAND include a Premium NFT Bundle like previous LAND Sales?",
-                        "paragraph": "Yes, if you buy Premium LAND, you will get a special Premium NFT Bundle. The bundle will not be included in the initial purchase and it will be airdropped to your wallet after the LAND Sale is over."
+                        "title": "Premium LAND, önceki LAND Satışları gibi bir Premium NFT Paketi içeriyor mu?",
+                        "paragraph": "Evet, Premium LAND satın alırsanız, özel bir Premium NFT Paketi alacaksınız. Paket ilk satın alma işlemine dahil edilmeyecek ve LAND Satışı sona erdikten sonra cüzdanınıza hava yoluyla gönderilecektir."
                     },
                     "2": {
-                        "title": "What happens if I buy a Premium LAND and then sell the LAND before receiving the NFT Bundle airdrop?",
-                        "paragraph": "The Premium NFT Bundle will be sent to the user (wallet) who initially buys the PREMIUM LAND. If that user sells the LAND, the Premium NFT Bundle will still be sent to the original wallet."
+                        "title": "Bir Premium LAND satın alır ve ardından NFT Paketi airdrop'unu almadan önce LAND'imi atarsam ne olur?",
+                        "paragraph": "Premium NFT Paketi, başlangıçta PREMİUM LAND satın alan kullanıcıya (cüzdan) gönderilecektir. Bu kullanıcı LAND'ini satarsa, Premium NFT Paketi yine de orijinal cüzdana gönderilecektir."
                     },
                     "3": {
-                        "title": "Is there any chance to pick a brand and join the Premium Raffle?",
-                        "paragraph": "No, it is random."
+                        "title": "Bir marka seçme ve Premium Çekilişe katılma şansınız var mı?",
+                        "paragraph": "Hayır, rastgele."
                     }
                 },
                 "aboutLand": {
-                    "title": "About LAND",
+                    "title": "LAND Hakkında",
                     "1": {
-                        "title": "What can I do with LAND at The Sandbox?",
+                        "title": "The Sandbox'ta LAND ile ne yapabilirim?",
                         "paragraphs": {
-                            "1": "A LAND is a digital piece of real-estate in The Sandbox's metaverse. Game designers use LAND to build digital experiences, such as games or dioramas, and also populate it with ASSETs",
+                            "1": "LAND, The Sandbox'ın metaverse'inde yer alan dijital bir gayrimenkul parçasıdır. Oyun tasarımcıları LAND'i oyunlar veya dioramalar gibi dijital deneyimler oluşturmak için kullanır ve ayrıca ASSET'lerle doldurur",
                             "2": "Her bir LAND, Ethereum blok zincirinde benzersiz, değiştirilemez bir ERC-721 token'idir. Toplam 166.464 adet LAND kullanıma sunulacaktır.",
-                            "3": "In the metaverse you can find REGULAR LAND and PREMIUM LAND.",
-                            "4": "Regular LAND utility:",
-                            "5": "Premium LAND owners get all the utility from REGULAR LAND plus:",
+                            "3": "Metaverse'de NORMAL LAND ve PREMİUM LAND'i bulabilirsiniz.",
+                            "4": "Normal LAND yardımcı programı:",
+                            "5": "Premium LAND sahipleri NORMAL LAND'in tüm avantajlarından yararlanırlar:",
                             "regular": {
-                                "1": "Earn special rewards",
-                                "2": "Exclusive LAND Owner staking",
-                                "3": "Sell your LAND",
-                                "4": "Publish and monetize your Experience (2023)"
+                                "1": "Özel ödüller kazanın",
+                                "2": "Özel LAND Sahibi staking",
+                                "3": "LAND'inizi satın",
+                                "4": "Deneyiminizi yayınlayın ve para kazanın (2023)"
                             },
                             "premium": {
-                                "1": "Get more SAND when you stake (2023)",
-                                "2": "Early access to selected features",
-                                "3": "Attract more users into your experience",
+                                "1": "Stake ettiğinizde daha fazla SAND elde edin (2023)",
+                                "2": "Seçilen özelliklere erken erişim",
+                                "3": "Deneyiminize daha fazla kullanıcı çekin",
                                 "4": "Catalyst & Gems airdrop"
                             }
                         }
                     },
                     "2": {
-                        "title": "What’s the price of LAND?",
-                        "paragraph": "Regular LAND costs 1,011 SAND; Premium LAND costs 4,683 SAND."
+                        "title": "LAND'in fiyatı nedir?",
+                        "paragraph": "Normal LAND maliyeti 1.011 SAND; Premium LAND maliyeti 4.683 SAND."
                     },
                     "3": {
-                        "title": "What’s the difference between Regular and Premium LAND?",
+                        "title": "Normal ve Premium LAND arasındaki fark nedir?",
                         "paragraphs": {
-                            "1": "Premium LANDs are located next to a Partner’s ESTATE and grant to its buyer several Premium NFTs linked to the LAND sale’s partners. Premium NFTs get airdropped at the end of the sale.",
-                            "2": "For each wave, users will be able to enter the regular raffle, the Premium raffle, or both. But each user will only be able to win one whitelist spot per wave.",
-                            "3": "The Premium raffle will run first; if a user wins a Premium LAND whitelist spot and IF that user is also in the rRegular raffle, the user will be removed from the regular raffle. The regular raffle will run after the Premium raffle."
+                            "1": "Premium LAND'ler bir Ortağın ESTATE'inin yanında bulunur ve alıcısına LAND satışının ortaklarıyla bağlantılı birkaç Premium NFT verir. Premium NFT'ler satışın sonunda havadan atılır.",
+                            "2": "Her dalga için, kullanıcılar normal çekilişe, Premium çekilişe veya her ikisine de katılabilir. Ancak her kullanıcı, dalga başına yalnızca bir beyaz liste noktası kazanabilecektir.",
+                            "3": "Önce Premium çekiliş yapılacaktır; bir kullanıcı Premium LAND beyaz liste yeri kazanırsa ve bu kullanıcı aynı zamanda rRegular çekilişindeyse, kullanıcı normal çekilişten çıkarılacaktır. Normal çekiliş Premium çekilişten sonra yapılacaktır."
                         }
                     },
                     "4": {
-                        "title": "What does it mean that now LAND is on Polygon?",
+                        "title": "LAND'in artık Polygon'da olması ne anlama geliyor?",
                         "paragraphs": {
-                            "1": "Hosting the LAND sales on Layer 2 will lower gas fees for each transaction and offer seamless gasless systems through Biconomy. Thanks to the combination of our upcoming raffle system and gasless fees we aim at providing a less frustrating buying experience for our future LAND sales while giving more people a chance to participate.",
-                            "2": "Learn more about Polygon: {link}",
-                            "link": "The Sandbox is deploying on Polygon"
+                            "1": "LAND satışlarını Layer 2'de barındırmak, her işlem için gaz ücretlerini düşürecek ve Biconomy aracılığıyla kesintisiz gazsız sistemler sunacaktır. Yaklaşan çekiliş sistemimiz ve gazsız ücretlerimizin birleşimi sayesinde, daha fazla kişiye katılma şansı verirken gelecekteki LAND satışlarımız için daha az sinir bozucu bir satın alma deneyimi sağlamayı amaçlıyoruz.",
+                            "2": "Polygon hakkında daha fazla bilgi edinin: {link}",
+                            "link": "The Sandbox, Polygon'da dağıtılıyor"
                         }
                     },
                     "5": {
-                        "title": "From now on, LAND Sales will be on Polygon?",
-                        "paragraph": "Yes, all LAND Sales will be on Polygon. Make sure you have your SAND on Polygon ready."
+                        "title": "Şu andan itibaren, LAND Satışı Polygon'da mı olacak?",
+                        "paragraph": "Evet, tüm LAND Satışları Polygon üzerinden yapılacaktır. SAND'inizin Polygon'da hazır olduğundan emin olun."
                     }
                 },
                 "troubleShooting": {
-                    "title": "Troubleshooting",
+                    "title": "Sorun Giderme",
                     "1": {
                         "title": "Çekilişe katılamıyorum, 1011 SAND'e sahip olmam gerektiğini söylüyor. Cüzdanımı kontrol ettim ve 1011 SAND'im var.",
                         "paragraph": "Çekilişe katılmak için Polygon'da 1011 SAND'a sahip olmanız gerekir. Bazı kullanıcıların ethereum'da SAND'ı olabilir. Ethereum'da SAND'ınız varsa {bridgeToPolygon} veya {buyInPolygon} yapabilirsiniz.",
@@ -5025,21 +5025,21 @@
                         "buyInPolygon": "Polygon'dan doğrudan SAND satın alın"
                     },
                     "2": {
-                        "title": "I have SAND in Ethereum, how can I bridge SAND from the Ethereum network to Polygon?",
+                        "title": "Ethereum'da SAND'ım var, SAND'ı Ethereum ağından Polygon'a nasıl köprüleyebilirim?",
                         "paragraph": "SAND'ı Ethereum'dan Polygon'a köprülemek için hesabınızın {link} altındaki köprü bölümüne girebilirsiniz. Solda, Ethereum'daki SAND bakiyenizi göreceksiniz. {deposit} üzerine tıklayarak SAND'ı Polygon'a köprüleyebilirsiniz.",
                         "deposit": "Mevduat"
                     },
                     "3": {
-                        "title": "I bought LAND but when I go into the Map I don’t see it assigned to my account",
-                        "paragraph": "After the transaction is approved it might take between 3-10 minutes for the metadata to be updated. Try refreshing the site after 10 minutes."
+                        "title": "LAND satın aldım ancak Haritaya girdiğimde hesabıma atandığını göremiyorum",
+                        "paragraph": "İşlem onaylandıktan sonra meta verilerin güncellenmesi 3-10 dakika arasında sürebilir. Siteyi 10 dakika sonra yenilemeyi deneyin."
                     }
                 }
             },
             "layout": {
-                "partner": "Partner",
-                "howDoesItWork": "How does it work?",
-                "summary": "Summary",
-                "map": "Map"
+                "partner": "Ortak",
+                "howDoesItWork": "Nasıl çalışır?",
+                "summary": "Özet",
+                "map": "Harita"
             },
             "mapPage": {
                 "goToMap": "Haritaya Git",
@@ -5057,10 +5057,10 @@
                         "button": "Land Satın Al"
                     },
                     "card2": {
-                        "title": "Care Bears Estate Müzayedesi",
+                        "title": "Care Bears Estate Açık Artırması",
                         "subtitle": "Bir ESTATE alın ve Metaverse'i inşa etmeye başlayın.",
                         "description": "ESTATE, deneyimler inşa edebileceğiniz ve bunlardan para kazanabileceğiniz bir grup LAND'dir. Açık artırma {month} {time} UTC tarihinde OpenSea'de başlar.",
-                        "button": "ESTATE Müzayedesi"
+                        "button": "ESTATE Açık Artırması"
                     }
                 }
             }
@@ -5282,7 +5282,7 @@
             "sandbox": {
                 "title": " The Sandbox\" (SAND) Nedir? ",
                 "text1": "The Sandbox, oyuncuların platformun yardımcı program token'ı SAND'ı kullanarak Ethereum blok zincirinde oyun deneyimlerini oluşturabilecekleri, sahiplenebilecekleri ve bunlardan para kazanabilecekleri sanal bir metaverse'dir. Oyuncular, Non-Fungible Token'ler (NFT'ler) biçiminde dijital varlıklar oluşturabilir, bunları pazara yükleyebilir ve Game Maker ile oyunlara entegre edebilir.",
-                "text2": "LAND, The Sandbox metaverse'de oyuncuların deneyim oluşturmak için satın alabilecekleri dijital bir gayrimenkul parçasıdır. Bir oyuncu bir LAND parçasına sahip olduğunda, onu oyunlar ve VARLIKLAR ile doldurabilecektir. Bir ARAZİ oluşturmak için birden fazla LAND birleştirilebilir.",
+                "text2": "LAND, The Sandbox metaverse'de oyuncuların deneyim oluşturmak için satın alabilecekleri dijital bir gayrimenkul parçasıdır. Bir oyuncu bir LAND parçasına sahip olduğunda, onu oyunlar ve VARLIKLAR ile doldurabilecektir. Bir ESTATE oluşturmak için birden fazla LAND birleştirilebilir.",
                 "text3": "The Sandbox metaverse'i oluşturacak bir haritada yer alan toplam 166.464 LAND mevcut olacak.",
                 "text4": "MÜCEVHERLER ve KATALİZÖRLER, VARLIKLARIN katmanını, kıtlığını ve niteliklerini tanımlar. KATALİZÖRLER, MÜCEVHER ile doldurulabilen NFT'lere boş yuvalar ekler. KATALİZÖR kalitesi ne kadar yüksek olursa, Varlığınız o kadar fazla sokete sahip olacaktır.",
                 "text5": "Kullanıcılar, SAND gelirinin %95'ini şu şekilde elinde tutarak platformdaki zamanlarından para kazanabilir:",
@@ -7604,7 +7604,7 @@
             },
             "ready": "Alfa Kayıt",
             "description": "= 1 şans ile kazanabileceğin",
-            "howItWorks": "Nasıl çalışıyor?",
+            "howItWorks": "Nasıl çalışır",
             "preRegister": "Kayıt Ol",
             "great": "Güzel!",
             "alreadyRegistered": "Başarıyla kayıt oldunuz!",
@@ -7672,7 +7672,7 @@
         "text15": "Kişisel Bilgilerin Toplanması",
         "text16": "Biz ve hizmet sağlayıcılarımız, Kişisel Bilgileri aşağıdakiler de dahil olmak üzere çeşitli şekillerde toplarız:",
         "text17": "Hizmetler aracılığıyla. ",
-        "text18": "We collect Personal Information through the Services, for example, when you register an account to access the Services, complete a survey, apply to participate in a raffle, sweepstakes or other promotion, contact customer support, or make a purchase on our online marketplace.",
+        "text18": "Kişisel Bilgileri Hizmetler aracılığıyla, örneğin Hizmetlere erişmek için bir hesap açtığınızda, bir anketi tamamladığınızda, bir çekilişe, piyangoya veya başka bir promosyona katılmak için başvurduğunuzda, müşteri desteğiyle iletişime geçtiğinizde veya çevrimiçi pazarımızda bir satın alma işlemi yaptığınızda toplarız.",
         "text19": "Diğer Kaynaklardan.",
         "text20": "Kişisel Bilgilerinizi, bilgileri bizimle paylaştıklarında, örneğin kripto cüzdan sağlayıcıları gibi diğer kaynaklardan alırız.",
         "text21": "İstenen Hizmetleri size sağlamak için Kişisel Bilgileri toplamamız gerekiyor. İstenen bilgileri sağlamazsanız, Hizmetleri sağlayamayabiliriz. Hizmetlerle bağlantılı olarak diğer kişilerle ilgili Kişisel Bilgileri bize veya hizmet sağlayıcılarımız ile paylaşırsanız, bunu yapma yetkisine sahip olduğunuzu ve bilgileri bu Gizlilik Politikasına uygun olarak kullanmamıza izin verdiğinizi beyan edersiniz.",
@@ -7693,8 +7693,8 @@
         "text36": "Sizinle olan etkileşimlerimizi kişiselleştirebilmemiz ve size ilgi alanlarınıza göre uyarlanmış bilgiler ve/veya teklifler sunabilmemiz için ilgi alanlarınızı ve tercihlerinizi daha iyi anlamak için.",
         "text37": "Tercihlerinizi daha iyi anlamak, böylece Hizmetlerimiz aracılığıyla sizinle alakalı ve ilginizi çekeceğine inandığımız içerikler sunabiliriz.",
         "text38": "Meşru çıkarlarımıza dayalı olarak ve geçerli yasaların gerektirdiği ölçüde sizin izninizle kişiselleştirilmiş hizmetler sunacağız.",
-        "text39": "Allowing you to participate in sweepstakes, raffles, contests or other promotions",
-        "text40": "We may offer you the opportunity to participate in a sweepstakes, raffle, contest or other promotion",
+        "text39": "Çekilişlere, piyangolara, yarışmalara veya diğer promosyonlara katılmanıza izin vermek",
+        "text40": "Size bir çekilişe, piyangoya, yarışmaya veya başka bir promosyona katılma fırsatı sunabiliriz",
         "text41": "Bu promosyonlardan bazıları, Kişisel Bilgilerinizi nasıl kullanacağımız ve değerlendireceğimiz hakkında bilgi içeren ek kurallara sahiptir. Lütfen katılmayı seçmeden önce bu ek kuralları okuyun.",
         "text42": "Bu bilgileri sizinle olan sözleşmeye dayalı ilişkimizi yönetmek için kullanırız.",
         "text43": "Kişisel Bilgilerin toplanması ve/veya anonimleştirilmesi.",
@@ -8834,7 +8834,7 @@
         "lottery": {
             "ready": "Alfa Kayıt",
             "description": "Kayıt olarak 1 bilet ve sahip olduğunuz her LAND için birer tane daha alın. Ne kadar çok biletiniz varsa, kazanma şansınız o kadar artar!",
-            "howItWorks": "Nasıl Çalışıyor",
+            "howItWorks": "Nasıl çalışır",
             "preRegister": "Kayıt Ol",
             "alreadyRegistered": "Başarıyla kayıt oldunuz!",
             "preRegistering": "Kayıt Olunuyor",
@@ -8862,7 +8862,7 @@
             "congrats": "Tebrikler!",
             "descriptionWinner": "Sezon Bileti kazandınız! Şimdi al ve onu sıkı tut, Alfa yakında başlıyor!",
             "claim": "Bileti al",
-            "betterLuck": "Bir dahaki sefere, iyi şanslar",
+            "betterLuck": "Bir daha ki sefereİ, bol şans!",
             "learnMore": "Sezon ile ilgili daha fazla şey öğren",
             "paragraphLooser": "Lütfen üzülme! Yine de The Sandbox Hub'a erişebilecek ve ödül kazanmak için Sosyal Etkinlikler'e katılabileceksin.",
             "descriptionLooser": "Sezon Bileti kazanmadınız, ancak belki de şanslı kazananlardan biri sahiplerini satmaya isteklidir.",
@@ -8964,9 +8964,9 @@
             "raffleDescription": "Çekilişin sonunda, Sezon 3 Alfa Bileti kazanıp kazanmadığınızı öğreneceksiniz. İyi şanslar!",
             "raffleTickets": "Çekilişe katıldıklarınız",
             "season": "SEZON",
-            "staking": "STAKING",
+            "staking": "STAKİNG",
             "lands": "LAND'LER",
-            "alphaPass": "ALPHA BILETI",
+            "alphaPass": "ALPHA BİLETİ",
             "feedback": "GERI BİLDİRİM",
             "crossFingers": "Şans dileyin!"
         },
@@ -9122,7 +9122,7 @@
                 "title": "İlk satış sona erdikten sonra nereden bir Doggy alabilirim?",
                 "paragraphs": {
                     "1": "İlk satış sona erdikten sonra, kendi Doggy'lerini satmak isteyen kullanıcılardan ikincil pazar üzerinden bir Doggy satın alabilirsin",
-                    "2": "Opensea"
+                    "2": "Openea"
                 }
             },
             "13": {
@@ -13176,7 +13176,7 @@
                             },
                             "2": {
                                 "title": "Multiplayer",
-                                "subtitle": "[MP] When an object is picked by a player, all other players will see the object being carried around. When the actor is picked it cannot be grabbed by another player until the first one releases it and the actor becomes opaque again. A pickable can only be picked up by a single player at a time. A player can only pickup an object at a time."
+                                "subtitle": "[MP] Bir nesne bir oyuncu tarafından alındığında, diğer tüm oyuncular nesnenin etrafta taşındığını görecektir. Aktör alındığında, ilk oyuncu onu bırakana ve aktör tekrar opak hale gelene kadar başka bir oyuncu tarafından yakalanamaz. Bir seçilebilir nesne aynı anda sadece tek bir oyuncu tarafından alınabilir. Bir oyuncu bir seferde sadece bir nesne alabilir."
                             }
                         }
                     },
@@ -15478,7 +15478,7 @@
             "0": "6. Potential Winner Notification",
             "1": "Documents"
         },
-        "text29": "NOTE: To claim a prize in this Giveaway, all Potential Winners must have an active account on The Sandbox , which has been verified by Sponsor, at the time of awarding the prize or such earlier time as specified under Section 3 of these Official Rules. Creating an account may require the collection of personal information for identity verification purposes. Potential Winners that do not have an account on The Sandbox and/or if their account is not verified by Sponsor within the above time frame will be disqualified. ALL POTENTIAL WINNERS ARE SUBJECT TO VERIFICATION BY SPONSOR, WHOSE DECISIONS ARE FINAL AND BINDING. AN ENTRANT IS NOT A WINNER OF ANY PRIZE UNLESS AND UNTIL THAT ENTRANT’S ELIGIBILITY AND COMPLIANCE WITH ALL REQUIREMENTS TO CLAIM A PRIZE HAVE BEEN VERIFIED AND FULFILLED, AND THE ENTRANT HAS BEEN NOTIFIED THAT VERIFICATION IS COMPLETE.",
+        "text29": "NOT: Bu Çekilişte bir ödül talep etmek için, tüm Potansiyel Kazananların ödülün verildiği tarihte veya bu Resmi Kuralların 3. Bölümünde belirtilen daha erken bir zamanda Sponsor tarafından doğrulanmış aktif bir The Sandbox hesabına sahip olmaları gerekir. Bir hesap oluşturmak, kimlik doğrulama amacıyla kişisel bilgilerin toplanmasını gerektirebilir. The Sandbox'ta hesabı olmayan ve/veya hesabı yukarıdaki zaman dilimi içinde Sponsor tarafından doğrulanmayan Potansiyel Kazananlar diskalifiye edilecektir. TÜM POTANSİYEL KAZANANLAR, KARARLARI NİHAİ VE BAĞLAYICI OLAN SPONSOR TARAFINDAN DOĞRULAMAYA TABİDİR. BİR KATILIMCI, KATILIMCININ UYGUNLUĞU VE BİR ÖDÜLÜ TALEP ETMEK İÇİN TÜM ŞARTLARA UYGUNLUĞU DOĞRULANIP YERİNE GETİRİLMEDİKÇE VE KATILIMCIYA DOĞRULAMANIN TAMAMLANDIĞI BİLDİRİLMEDİKÇE HERHANGİ BİR ÖDÜLÜN KAZANANI DEĞİLDİR.",
         "text30": "7. Prizes and Prize Restrictions:",
         "text31": "Up to 10,000 winners will each receive a Season 3 Alpha Passes.",
         "text32": "Up to 10,000 winners will each receive up to 500 in SAND.",
