@@ -293,7 +293,8 @@
             "justify": "Justify",
             "bulletList": "Bullet List",
             "orderedList": "Ordered List",
-            "addImage": "Add Image"
+            "addImage": "Add Image",
+            "selectImg": ""
         },
         "optional": "(Optional)",
         "ordinalDate": {
@@ -306,7 +307,9 @@
             "chain": "Chain",
             "ethereum": "Ethereum",
             "polygon": "Polygon"
-        }
+        },
+        "openInNewTab": "",
+        "copiesAvailable": ""
     },
     "layout": {
         "topbar": {
@@ -599,7 +602,7 @@
                 "0": "SAND"
             },
             "newButtonText": "SAND Satın Al",
-            "mainText": "{0} is The Sandbox utility token. Get {0} to buy LAND, ASSETS, or to invest in staking pools.",
+            "mainText": "{sand} is The Sandbox utility token. Get {sand} to buy LAND, ASSETS, or to invest in staking pools. {learnMore}",
             "0": "SAND"
         },
         "experiencesSeason3": {
@@ -745,7 +748,8 @@
                 "collections": "NFT Koleksiyonu",
                 "feedback": "Deneyiminiz hakkında geri bildirim",
                 "noProgression": "Kazanılacak EP yok",
-                "creatorTooltip": "İletişim oluşturucu"
+                "creatorTooltip": "İletişim oluşturucu",
+                "seeRequirements": ""
             },
             "loading": {
                 "title": "Sandbox yükleniyor...",
@@ -3766,6 +3770,12 @@
                 "disconnectXp": {
                     "affirmativeBtnTxt": ""
                 }
+            },
+            "messages": {
+                "info": "",
+                "notFit": "",
+                "placed": "",
+                "fit": ""
             }
         }
     },
@@ -3852,7 +3862,8 @@
                 "lands": {
                     "title": "",
                     "description": ""
-                }
+                },
+                "buy": ""
             },
             "connect": {
                 "successMsg": "",
@@ -3867,7 +3878,15 @@
                 "pageTitle": ""
             },
             "publishButton": "",
-            "unpublishButton": ""
+            "unpublishButton": "",
+            "estateOccupied": "",
+            "subtitle": "",
+            "modals": {
+                "leaving": {
+                    "title": "",
+                    "description": ""
+                }
+            }
         },
         "disconnect": "",
         "hub": {
@@ -3931,7 +3950,8 @@
                     "mandatoryContentMissing": "",
                     "contentMissed": "",
                     "experiencePageReady": "",
-                    "canChange": ""
+                    "canChange": "",
+                    "descriptionReady": ""
                 },
                 "requiredCard": "",
                 "welcomeBackCard": {
@@ -3966,7 +3986,15 @@
                 }
             },
             "pageTitle": "",
-            "title": ""
+            "title": "",
+            "publishedVersion": "",
+            "draftVersion": "",
+            "experiencePublishedMetaverse": "",
+            "experienceNotPublishedMetaverse": "",
+            "draftNotReady": "",
+            "draftReady": "",
+            "experiencePublished": "",
+            "notAvailableYet": ""
         },
         "gating": {
             "timestamp": "",
@@ -3987,7 +4015,8 @@
                 "all": "All",
                 "equipment": "Equipments",
                 "entity": "Entities",
-                "art": "Arts"
+                "art": "Arts",
+                "filterBy": ""
             },
             "actions": {
                 "editInGameMaker": "Edit in Game Maker",
@@ -3999,7 +4028,9 @@
                 "unavailable": "{count} Unavailable",
                 "toMint": "{count} To Mint",
                 "ready": "{count} Ready"
-            }
+            },
+            "notAssetsTotal": "",
+            "selected": ""
         }
     },
     "map": {
@@ -6740,7 +6771,22 @@
             "collection": "Collection",
             "token": "NFT",
             "accessRestrictions": "Erişim kısıtlamaları",
-            "setUpGatingHub": ""
+            "setUpGatingHub": "",
+            "experienceNotPublished": "",
+            "description": "",
+            "buyNow": "",
+            "buyAvatar": "",
+            "owned": "",
+            "equip": "",
+            "equipped": "",
+            "or": "",
+            "and": "",
+            "ownAvatarAndToken": "",
+            "allowYouToEnter": "",
+            "ownToken": "",
+            "equippedAvatar": "",
+            "thisTokenAllows": "",
+            "thisAvatarAllows": ""
         },
         "creatorWebsite": "Website",
         "assetsIncludedTitle": "",
@@ -6769,10 +6815,31 @@
             "video": "Video",
             "image": "",
             "editMainVideo": "",
-            "uploadMainVideo": ""
+            "uploadMainVideo": "",
+            "uploadContent": "",
+            "chooseAFile": "",
+            "maxSize": "",
+            "errorFormatImage": ""
         },
         "mobileDisclaimer": "To play this experience you must connect from a desktop computer",
-        "contentLimitReached": ""
+        "contentLimitReached": "",
+        "requirementsToPlay": "",
+        "gating": "",
+        "blackListedCountriesGating": "",
+        "optimalDimensions": "",
+        "imageLoaded": "",
+        "urlLoaded": "",
+        "fileSupported": "",
+        "pageMetadata": {
+            "mapDescription": "",
+            "doNotExceedChar": "",
+            "contact": "",
+            "restrictions": "",
+            "rewards": "",
+            "setUpRestrictions": "",
+            "setUpRewards": "",
+            "sandboxTeam": ""
+        }
     },
     "collectionPage": {
         "goBack": "Geri",
@@ -8171,7 +8238,12 @@
             "stakeable": "Ready to stake",
             "approvable": "To approve",
             "discontinued": "Discontinued"
-        }
+        },
+        "liquidityPool": "",
+        "stakedFunds": "",
+        "rankingLastUpdate": "",
+        "showRanking": "",
+        "showNoRanking": ""
     },
     "login": {
         "refresh": "Lütfen eklentiyi yükledikten sonra tarayıcınızı yenileyin",
@@ -14044,7 +14116,8 @@
                     "description": "Tanım",
                     "placeDescription": "NFT açıklamasını girin",
                     "placeName": "NFT adını girin",
-                    "descriptionSubt": "The description will be included on this asset's detail page"
+                    "descriptionSubt": "The description will be included on this asset's detail page",
+                    "properties": ""
                 },
                 "rarity": {
                     "behaviour": "Davranışlar",
@@ -15872,5 +15945,9 @@
         "ethHasSell": "",
         "cancelSell": "",
         "bridgeAsset": ""
+    },
+    "art": {
+        "title": "",
+        "subtitle": ""
     }
 }
